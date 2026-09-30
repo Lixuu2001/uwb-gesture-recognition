@@ -1,3 +1,42 @@
+# 当前接续：24模型完成、私有模型备份验证；圆周机制不扩展
+
+2026-09-30 09:54UTC核查。先读results/cloud_20260930_circular/RUN_REPORT.md、SUMMARY.json、FINAL_AUDIT.json。训练和收尾已完成，PID7419/7926仅是已退出的defunct记录，**不是正在训练**。24模型独立函数式前向、源输入、分割/ID、最早最小验证CE、预测指标及96产物SHA全部通过；无需重复训练或审计。
+
+## 已冻结的真实结果与停止决定
+
+| 方法 | 八用户宏平均 |
+|---|---:|
+| 历史LTR | 93.4417% |
+| legacy轻量CNN | 94.1843% |
+| angle_control | 94.1581% |
+| circular | 94.4492% |
+
+圆周版比旧LTR+1.0076pp，但相对legacy仅+0.2650pp、angle_control仅+0.2911pp且5/8改善；未过原门槛。**停止圆周机制的第二seed/池化消融/参数网格，不更改门槛。** 所有bootstrap区间跨零，一训练seed，八用户已有多轮研发历史；不能称可靠新机制或独立泛化证明。保留26.6万参数legacy作为可复现工程基线，它不是已确立论文创新。
+
+整个24run含438更新epochs，墙钟9956.38秒。新CPU测量见CPU_INFERENCE.json：legacy前向1.8060ms，研究版完整预处理+前向11.4366ms；原架构随机权重分别26.8137/27.8788ms。仅本CPU、batch1、3线程；不能声称旧训练权重/GPU时延重现，也不能把参数缩小118.54倍当成全过程加速倍数。
+
+## 代码、权重和恢复位置
+
+- 原数据仍/workspace/uwb-restored-20260930；训练输入/workspace/uwb-circular-prepared-20260930。
+- 完整训练目录/workspace/uwb-circular-runs-20260930，保留所有progress.pt/最优权重/预测/样本ID/历史。
+- 汇总/workspace/uwb-circular-summary-20260930；原始训练日志/workspace/uwb-circular-train-20260930.log。
+- 最终包/workspace/uwb-circular-final-models-20260930.tar.gz，27,013,156字节，SHA256=f2ea2bf0aad1a56487d440c08446a2f28122d5935b84196f29944d27ed5837d1。
+- 已上传并认证重新下载核SHA：私有Drive文件ID1aWIw5HiXcrqOyNBqzd79J5jQNhWPBRjC，父目录1cOt20Xa69X8bk2M-uQkHJ65zO_rzjAwA。元数据shared=false，只有owner权限。稳定URL见results/cloud_20260930_circular/DRIVE_BACKUP_RECEIPT.json，不输出短期认证URL。
+- 包内含24个best.pt、逐样本预测、split IDs、result历史、协议、必要源码和完整审计；不含原RF/prepared大数组。优化器progress.pt仍在原云端，不在此最终模型包。
+- 若环境更换，可用Drive metadata→fetch(download_raw_file=true,include_base64=false)→download_file恢复27MB包并核SHA；不要要求用户手动上传。解压到新空目录，验证ARCHIVE_CONTENTS.json。原始数据恢复沿用既有163块索引。
+
+旧ARCHIVE_RECEIPT.json uploaded=false是上传前快照；以DRIVE_BACKUP_RECEIPT为远端事实。旧SUMMARY.json inference_latency_measured=false生成于补做CPU推理前，以CPU_INFERENCE.json为新增时延事实；没有改写已备份归档。
+
+## 已完成的下一候选诊断与下次具体工作
+
+tools/diagnose_range_origin.py已对fold1六名源用户7100条执行距离中心统计，仅源信号和源标签，结果results/cloud_20260930_range_diagnostic/DIAGNOSTIC.json。类别解释中心位置约69.6–75.1%方差；控制类别后用户额外解释仅1.2–4.0%。不支持把全片段中心直接当作纯用户风格删除，**不盲目启动完整逐片段强制居中训练**。该诊断不否决所有轻微空间增强，更不是新算法效果验证。原特征和ID保存在/workspace/uwb-range-origin-diagnostic-20260930/source_centroids.npz（SHA在诊断JSON）。
+
+已读PyTorch官方STN教程和定位/仿射采样实现（来源快照及blob SHA见该诊断报告），它是既有方法，不能宣称“加入STN”创新。qassemoquab/stnbhwd查询404未作为已读来源。最近邻论文全文与出版信息独立核验尚未完成。
+
+下一步应以已保留的强基线为对照，在源用户内部检验**保留动作信息**的跨用户变化假设，再决定是否值得新端到端训练；不要从弱读出/圆周失败中堆叠模块，勿按测试用户定制中心或超参数。必要时先把候选转化为源用户内可否决的诊断，并检查是否已在原源码做过。当前没有新训练队列，勿声称后台继续训练已启动；自动接续保持开启，用户最终目标尚未达成。
+
+以下是历史过程记录，旧进程/等待状态不代表当前状态。
+
 # 最新接续：圆周表示端到端队列已实际运行（2026-09-30）
 
 训练实现和三臂八折协议先于完整训练提交GitHub：d9f80720f46f83e61c3b2da68dedbdd3d422f6f7。2026-09-30 06:24 UTC核验进程PID7419存活，fold1/legacy已到第7轮检查点，最后一轮18.81秒；24个完整run当时完成0个。详见results/cloud_20260930_circular/RUN_REPORT.md和LAUNCH_VERIFIED.json。不要把准备探针、验证CE或部分进度称为测试成功。

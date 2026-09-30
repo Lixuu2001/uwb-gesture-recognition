@@ -1,0 +1,88 @@
+{
+  "scope": "fold1 six source users only; descriptive diagnostic, no classifier evidence",
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "source_samples": 7100,
+  "coordinates": "fast-time/range-bin indices, not calibrated distance",
+  "mean_centroid_bins_by_user": {
+    "3": [
+      109.46885914386209,
+      121.21915797531238,
+      118.14311615756478
+    ],
+    "4": [
+      106.77873149936806,
+      115.64956123288621,
+      118.02132474594282
+    ],
+    "5": [
+      105.17808640892407,
+      114.39772916944482,
+      116.15350848182679
+    ],
+    "6": [
+      105.22110692594221,
+      123.23373290282714,
+      118.07810315098888
+    ],
+    "7": [
+      105.04747772068768,
+      118.75507586800418,
+      123.02157975254676
+    ],
+    "8": [
+      101.95544047221699,
+      114.49764276890319,
+      122.66495698479912
+    ]
+  },
+  "centroid_std_bins_all_source": [
+    20.62453506630002,
+    14.955595601947419,
+    17.667001387796667
+  ],
+  "within_clip_temporal_centroid_std_bins_mean": [
+    13.286879553854689,
+    11.27996781835295,
+    11.955653374596906
+  ],
+  "within_clip_range_spread_bins_mean": [
+    33.64669476477896,
+    33.22746657010016,
+    34.75068687917865
+  ],
+  "r2_class_only": [
+    0.7506382600494583,
+    0.746672669964183,
+    0.6959290422437954
+  ],
+  "r2_user_only": [
+    0.012020936485341971,
+    0.050424628002420535,
+    0.02132990927461298
+  ],
+  "additional_total_variance_explained_by_user_after_class": [
+    0.011968807520957738,
+    0.040022243433170464,
+    0.020452286831043182
+  ],
+  "additional_total_variance_explained_by_class_after_user": [
+    0.7505861310850742,
+    0.736270285394933,
+    0.6950514198002257
+  ],
+  "interpretation_limits": [
+    "in-sample additive regression, not causal style identification",
+    "class and user interactions omitted; constant re-centering may also remove class information",
+    "centroids mix multipath/scatterers; not ground-truth hand position",
+    "no accuracy gain, safe augmentation, or novelty established"
+  ],
+  "script_sha256": "da2c93aff56e1497957b79cb33de870b0d1f8cc7bcbbc7172e3ce90dddc65430",
+  "source_features_sha256": "b7a2d0e908bd45f9bd8ba1e8e7c65a9a17b85819b389151ee0144035ba72b10c"
+}
