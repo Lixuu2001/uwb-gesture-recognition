@@ -72,3 +72,5 @@
 复现脚本为 `tools/audit_restored.py`、`tools/frozen_probe.py`，14项检查通过。完整记录见 `results/cloud_20260930/RUN_REPORT.md` 和JSON附件。模型系数及逐样本新预测保留在 `/workspace/uwb-frozen-probe-20260930`，可快速重新生成。源数据和大二进制不进入普通Git。
 
 用户随后明确要求电脑休眠后让Dot在云端继续。当前项目会话host为durable；没有直接向其Dot派单的工具，因此不能声称已经移交给指定Dot。按用户授权安排云端自动接续，读取本记忆和状态再行动，避免重复下载/重复实验。有意义的新结果、完成、执行失败或必须用户决定时才通知；不刷重复进度。不要承诺无限时长连续GPU训练。当前环境没有GPU，且未安装torch；实际执行能力须每次检查。后续重点是端到端表征候选及强对照，不是包装已失败的线性约束。
+
+云端自动接续已创建并启用，标题“UWB 方向一云端接续”，绑定当前durable项目会话，频率每小时；任务读取最新仓库状态后推进。仅实质进展/失败/阻塞通知。创建定时任务不等于神经网络训练进程已经启动；当前background_training_running仍为false。详见CLOUD_AUTOMATION.json。
