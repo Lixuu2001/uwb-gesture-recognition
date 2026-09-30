@@ -1,0 +1,161 @@
+{
+  "observed_utc": "2026-09-30T07:58:30.071592+00:00",
+  "observed_unix": 1790755110.071612,
+  "queue": {
+    "state": "running",
+    "pid": 7419,
+    "fold": 5,
+    "arm": "angle_control"
+  },
+  "progress": {
+    "epoch": 11,
+    "validation_ce": 2.0295186042785645,
+    "source_ce": 0.00029239749046973884,
+    "lr": 0.000780007265344703,
+    "source_ids_sha256": "0ec2350897186d2504b04f4bd78d997e074db8232b2f8078619beecdbb288d05",
+    "seconds": 19.380596620001597,
+    "state": "training",
+    "pid": 7419,
+    "best_epoch": 1
+  },
+  "pid_alive": true,
+  "process_start_ticks": "1197656",
+  "completed_runs_with_artifact_hashes_verified": 13,
+  "artifact_file_count": 52,
+  "runs": [
+    {
+      "fold": 1,
+      "arm": "angle_control",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 1,
+      "arm": "circular",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 1,
+      "arm": "legacy",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 2,
+      "arm": "angle_control",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 2,
+      "arm": "circular",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 2,
+      "arm": "legacy",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 3,
+      "arm": "angle_control",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 3,
+      "arm": "circular",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 3,
+      "arm": "legacy",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 4,
+      "arm": "angle_control",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 4,
+      "arm": "circular",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 4,
+      "arm": "legacy",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    },
+    {
+      "fold": 5,
+      "arm": "legacy",
+      "files_verified": [
+        "best.pt",
+        "progress.pt",
+        "predictions.npz",
+        "split.json"
+      ]
+    }
+  ],
+  "training_code_protocol_helpers_unchanged": true,
+  "full_results_available": false,
+  "scope": "integrity monitoring only; no interim performance selection",
+  "action": "active queue preserved without restart"
+}

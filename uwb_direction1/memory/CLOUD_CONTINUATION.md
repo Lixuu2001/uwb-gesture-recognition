@@ -2,6 +2,10 @@
 
 训练实现和三臂八折协议先于完整训练提交GitHub：d9f80720f46f83e61c3b2da68dedbdd3d422f6f7。2026-09-30 06:24 UTC核验进程PID7419存活，fold1/legacy已到第7轮检查点，最后一轮18.81秒；24个完整run当时完成0个。详见results/cloud_20260930_circular/RUN_REPORT.md和LAUNCH_VERIFIED.json。不要把准备探针、验证CE或部分进度称为测试成功。
 
+## 07:58 UTC完整性巡检
+
+PID7419持续运行，fold5/angle_control第11轮，13/24run完成。13个完整run的52个检查点/预测/划分产物SHA通过；训练源码、帮助函数和协议SHA未变。此项只核查完整性，独立前向仍以PARTIAL_AUDIT_0652的3run为已完成证据；最终24模型独立前向待整队列结束。无执行异常，保留原队列，不重启、不调参、无新的整项测试结论。巡检记录为results/cloud_20260930_circular/MONITOR_0800.json（内部观测时间07:58UTC）。
+
 ## 06:53 UTC例行接续核验
 
 PID7419仍运行，fold2/angle_control第4轮；完整run已完成4/24，已独立审计先完成的fold1三臂：验证与测试logits逐位一致，输入、ID、选轮次、采样顺序、指标、产物SHA通过。只保存局部完整性证据，未据中途成绩改变方案，也没有发布整项测试结论。无需重启，保持原协议。新增近邻代码/文档核查见research/RADAR_PHASE_NEIGHBORS.md：FMCW复值手势网络和相同UWB数据的CNN均已有先例，不能把保留相位或轻量CNN本身当创新；全文和出版元数据仍未独立核验。
