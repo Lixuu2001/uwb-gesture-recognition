@@ -1,0 +1,254 @@
+{
+  "state": "verified",
+  "scope": "completed_runs_only",
+  "completed_runs_audited": 22,
+  "expected_runs": 24,
+  "full_experiment_complete": false,
+  "source_input_replay_exact": true,
+  "source_input_ids": [
+    4328,
+    7943,
+    6761,
+    8921,
+    4749,
+    8191,
+    7575,
+    5755,
+    3291,
+    7570,
+    5117,
+    5168,
+    5031,
+    7939,
+    5987,
+    4807,
+    7646,
+    7357,
+    6939,
+    3012,
+    4597,
+    7770,
+    4742,
+    2710,
+    3113,
+    8838,
+    8530,
+    7409,
+    9166,
+    9143,
+    5800,
+    6847,
+    5793,
+    4474,
+    5458,
+    7667,
+    4752,
+    9565,
+    4118,
+    4544,
+    9383,
+    4649,
+    8302,
+    5935,
+    4317,
+    2971,
+    4943,
+    3437,
+    7150,
+    6992,
+    5745,
+    5390,
+    8968,
+    9038,
+    4640,
+    2991,
+    3355,
+    5026,
+    6633,
+    3469,
+    9446,
+    8473,
+    6512,
+    4325
+  ],
+  "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+  "runs": [
+    {
+      "fold": 1,
+      "arm": "angle_control",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 1,
+      "arm": "circular",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 1,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 2,
+      "arm": "angle_control",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 2,
+      "arm": "circular",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 2,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 3,
+      "arm": "angle_control",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 3,
+      "arm": "circular",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 3,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 4,
+      "arm": "angle_control",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 4,
+      "arm": "circular",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 4,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 5,
+      "arm": "angle_control",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 5,
+      "arm": "circular",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 5,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 6,
+      "arm": "angle_control",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 6,
+      "arm": "circular",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 6,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 7,
+      "arm": "angle_control",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 7,
+      "arm": "circular",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 7,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    },
+    {
+      "fold": 8,
+      "arm": "legacy",
+      "max_absolute_logit_error": {
+        "val": 0.0,
+        "test": 0.0
+      }
+    }
+  ],
+  "audit_script_sha256": "db2713d8c3e5386dea552e3189dc67f6ab197088ae26c4e20632518e44eb356d"
+}

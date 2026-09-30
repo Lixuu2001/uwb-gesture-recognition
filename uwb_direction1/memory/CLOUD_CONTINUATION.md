@@ -2,6 +2,22 @@
 
 训练实现和三臂八折协议先于完整训练提交GitHub：d9f80720f46f83e61c3b2da68dedbdd3d422f6f7。2026-09-30 06:24 UTC核验进程PID7419存活，fold1/legacy已到第7轮检查点，最后一轮18.81秒；24个完整run当时完成0个。详见results/cloud_20260930_circular/RUN_REPORT.md和LAUNCH_VERIFIED.json。不要把准备探针、验证CE或部分进度称为测试成功。
 
+## 08:57 UTC接续：22模型独立重放通过，收尾进程已就绪
+
+训练PID7419继续，fold8/angle_control第14轮，22/24完成；独立审计22个完成模型的所有验证/测试logits逐位一致，源输入、ID、选轮次、采样顺序、指标和文件SHA均通过。尚无完整比较结论，不据中途分数改变训练。
+
+另已启动**不训练模型**的收尾进程PID7926，其状态/workspace/uwb-circular-finalizer-state-20260930.json，日志/workspace/uwb-circular-finalizer-20260930.log。它等待现有队列complete后自动执行24模型完整审计，再汇总固定比较和描述性用户bootstrap，打包最终权重/预测/样本ID/配置/必要源码。不会重启训练或调参；训练进程提前消失会明确报failed。未完成队列的汇总入口已实际检查为拒绝，未创建输出。
+
+**下次先查两个进程和收尾状态，避免重复审计或重复启动。** complete时读：
+- /workspace/uwb-circular-final-audit-20260930.json
+- /workspace/uwb-circular-summary-20260930/SUMMARY.json
+- /workspace/uwb-circular-summary-20260930/ARCHIVE_RECEIPT.json
+- /workspace/uwb-circular-final-models-20260930.tar.gz
+
+归档只含最终best.pt、预测、split、result、协议/代码，不含原始RF或prepared大数组；优化器进度仍保留原云端目录。收尾脚本尚未实际完成上述整项输出，不要提前声称归档已生成/已备份远端。待收尾完成后检查包SHA和私有Drive目标元数据，再用Google Drive upload_file尝试上传归档并认证下载重验；当前查到的工具接受绝对本地路径string，但实际上传能力尚未验证。不改变分享权限。
+
+完成后把真实完整结果、失败/通过门槛、逐用户比较、局限及归档回执写入最新远端父提交。若门槛失败，停止圆周表示网格，不包装为创新；用户最终研究目标仍未达到。新脚本tools/finalize_circular_signal.py及tools/summarize_circular_signal.py仅负责收尾，无模型选择改动。
+
 ## 07:58 UTC完整性巡检
 
 PID7419持续运行，fold5/angle_control第11轮，13/24run完成。13个完整run的52个检查点/预测/划分产物SHA通过；训练源码、帮助函数和协议SHA未变。此项只核查完整性，独立前向仍以PARTIAL_AUDIT_0652的3run为已完成证据；最终24模型独立前向待整队列结束。无执行异常，保留原队列，不重启、不调参、无新的整项测试结论。巡检记录为results/cloud_20260930_circular/MONITOR_0800.json（内部观测时间07:58UTC）。

@@ -1,0 +1,25 @@
+{
+  "pid": 7926,
+  "args": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/finalize_circular_signal.py",
+    "--runs",
+    "/workspace/uwb-circular-runs-20260930",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--prepared",
+    "/workspace/uwb-circular-prepared-20260930",
+    "--benchmark",
+    "/workspace/uwb-circular-cost-20260930.json",
+    "--historical",
+    "/workspace/uwb-audit-20260930/AUDIT.json",
+    "--audit",
+    "/workspace/uwb-circular-final-audit-20260930.json",
+    "--summary",
+    "/workspace/uwb-circular-summary-20260930",
+    "--archive",
+    "/workspace/uwb-circular-final-models-20260930.tar.gz",
+    "--state",
+    "/workspace/uwb-circular-finalizer-state-20260930.json"
+  ]
+}
