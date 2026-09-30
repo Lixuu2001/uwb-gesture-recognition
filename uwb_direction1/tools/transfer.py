@@ -95,11 +95,29 @@ def metadata_files(data_root):
                 yield p
 
 
+def lineage_files(root):
+    """Keep the historical configuration/identity files used by the real loader."""
+    patterns = (
+        'experiments/p1_20260905/cross_user_meta/runs_s2026/manifest.json',
+        'experiments/p1_20260905/cross_user_meta/runs_s2026/matrices/*.json',
+        'experiments/p1_20260905/cross_user_meta/runs_s2026/matrices/*.npz',
+        'experiments/p1_20260928/baseline_s2026/manifest.json',
+        'experiments/p1_20260928/baseline_s2026/fold*/split.json',
+        'experiments/p1_20260928/baseline_s2026/fold*/warmup/features.json',
+        'experiments/p1_20260928/baseline_s2026/fold*/warmup/result.json',
+        'experiments/p1_20260928/multiview_s2026/manifest.json',
+        'experiments/p1_20260928/multiview_s2026/fold*/split.json',
+        'experiments/p1_20260928/multiview_s2026/fold*/result.json',
+    )
+    return sorted({p for pattern in patterns for p in root.glob(pattern) if p.is_file()})
+
+
 def data_files(root, include_prepared, include_features):
     files = {root / name for name in RAW_FILES}
     missing = sorted(str(p.relative_to(root)) for p in files if not p.is_file())
     if missing:
         raise ValueError('Required historical inputs are missing: ' + ', '.join(missing))
+    files.update(lineage_files(root))
     for folder in (root / 'cache', root / 'experiments/p1_20260905/prepared'):
         for p in folder.glob('*.npy'):
             if p.stat().st_size <= 16 * MIB:
@@ -150,6 +168,7 @@ def pack(args):
                 'git': git_identity(code_root), 'files': source_entries,
                 'scope': 'Current selected source bytes, not a complete Git history or all results.'}
     write_json(output / 'code/SOURCE_MANIFEST.json', identity)
+    (output / 'code/.gitattributes').write_text('** -text -whitespace\n', encoding='ascii')
     (output / 'code/.gitignore').write_text('__pycache__/\n*.pyc\n*.npy\n*.npz\n*.pt\n*.pth\n.env*\n', encoding='utf-8')
     entries = []
     for number, p in enumerate(raw):

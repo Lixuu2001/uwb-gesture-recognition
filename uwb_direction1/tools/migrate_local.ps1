@@ -28,7 +28,7 @@ if ($LASTEXITCODE -ne 0) { throw 'Export failed; no Git files were staged.' }
 Copy-Item -LiteralPath (Join-Path $OutDir 'code') -Destination $target -Recurse
 & git -C $repo add -- uwb_direction1/original
 if ($LASTEXITCODE -ne 0) { throw 'Git add failed.' }
-& git -C $repo diff --cached --stat
+& git --no-pager -C $repo diff --cached --stat
 if ($LASTEXITCODE -ne 0) { throw 'Could not inspect the staged snapshot.' }
 & git -C $repo commit -m 'research: import original UWB source and migration provenance'
 if ($LASTEXITCODE -ne 0) { throw 'Git commit failed. Configure your Git author locally, then commit the staged snapshot.' }

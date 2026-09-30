@@ -71,6 +71,22 @@ class TransferTests(unittest.TestCase):
             self.pack()
         self.assertFalse(self.package.exists())
 
+    def test_loader_lineage_transfers_but_checkpoints_do_not(self):
+        old = self.data / 'experiments/p1_20260905/cross_user_meta/runs_s2026'
+        (old / 'matrices').mkdir(parents=True)
+        (old / 'manifest.json').write_text('{"config":{"seed":2026}}', encoding='utf-8')
+        (old / 'matrices/fold1.npz').write_bytes(b'frozen-source-matrix')
+        recent = self.data / 'experiments/p1_20260928/baseline_s2026/fold1/warmup'
+        recent.mkdir(parents=True)
+        (recent / 'features.json').write_text('{"sha256":"fixture"}', encoding='utf-8')
+        (recent / 'best.pt').write_bytes(b'not-part-of-transfer')
+        manifest = self.pack()
+        paths = {e['path'] for e in manifest['files']}
+        for p in (old / 'manifest.json', old / 'matrices/fold1.npz', recent / 'features.json'):
+            self.assertIn(p.relative_to(self.data).as_posix(), paths)
+        self.assertNotIn((recent / 'best.pt').relative_to(self.data).as_posix(), paths)
+        self.assertEqual((self.package / 'code/.gitattributes').read_text(), '** -text -whitespace\n')
+
     def test_missing_chunk_fails_before_restore(self):
         manifest = self.pack()
         (self.package / manifest['files'][0]['chunks'][0]['path']).unlink()

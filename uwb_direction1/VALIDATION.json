@@ -3,9 +3,10 @@
   "date_client": "2026-09-30",
   "python_cloud": "3.12.14",
   "command": "python -m unittest discover -s uwb_direction1/tests -v",
-  "tests_passed": 9,
+  "tests_passed": 10,
   "tests_failed": 0,
   "verified_behaviors": [
+    "Historical loader configurations, provenance and source matrices are included; checkpoints excluded",
     "Byte-identical multi-chunk round trip with original inputs preserved",
     "Experimental worktree source takes priority and preserves CRLF bytes",
     "Corruption and missing chunks stop before restoring files",

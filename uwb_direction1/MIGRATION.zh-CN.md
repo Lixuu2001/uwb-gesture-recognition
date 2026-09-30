@@ -30,13 +30,19 @@ powershell -ExecutionPolicy Bypass -File D:\uwb-cloud-transfer\uwb_direction1\to
 
 ## 3. 导出真实数据
 
+已上传代码的用户先更新迁移工具（2026-09-30 补充了训练配置、来源记录和源用户平滑矩阵）：
+
+```powershell
+git -C 'D:\uwb-cloud-transfer' pull --ff-only origin codex/uwb-direction1-cloud-20260930
+```
+
 代码上传后，仍在本地 PowerShell 执行：
 
 ```powershell
 & 'D:\D_conda\envs\pytorch\python.exe' 'D:\uwb-cloud-transfer\uwb_direction1\tools\transfer.py' pack --code-root 'C:\Users\19252\.codex\worktrees\uwb-user-calibration\uwb_gestures' --data-root 'D:\uwb_gestures' --out 'D:\uwb-data-package-20260930'
 ```
 
-默认包含去静态杂波后的原始 UWB 数组、标签、用户编号、旧数据清单、小型质量掩码/ID 元数据，以及可用的八折冻结激活和多视角预测。保留原文件字节，不重排记录、不猜测标签、不改变 dtype。每块原始字节不超过 24 MiB，独立 gzip 压缩后仍低于 32 MiB。需要额外复用旧 prepared 大数组时加 `--include-prepared`；这会增加传输量。缺少任何必需文件时停止并列出路径，不造数据。
+默认包含去静态杂波后的原始 UWB 数组、标签、用户编号、旧数据清单、小型质量掩码/ID 元数据，以及可用的八折冻结激活和多视角预测。另收集存在的训练配置、特征来源、折划分和源用户平滑矩阵；这些旧记录缺失时可继续迁移原始数据，但不能声称已完整重放历史运行。保留原文件字节，不重排记录、不猜测标签、不改变 dtype。每块原始字节不超过 24 MiB，独立 gzip 压缩后仍低于 32 MiB。需要额外复用旧 prepared 大数组时加 `--include-prepared`；这会增加传输量。缺少任何必需文件时停止并列出路径，不造数据。
 
 输出是 `D:\uwb-data-package-20260930`。先在当前云端聊天上传 **`TRANSFER_MANIFEST.json`**，便于确定实际大小与块数，再上传 **`chunks` 目录内全部 `.gz` 文件**。附件会保留扁平文件名；云端下载时将按清单放回 `chunks/`。文件较多时可分批上传，所有块到齐才恢复。上传这个数据包不需要提交数组到 GitHub。
 
