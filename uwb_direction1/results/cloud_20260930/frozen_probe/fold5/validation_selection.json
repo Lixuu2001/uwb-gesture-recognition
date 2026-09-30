@@ -1,0 +1,98 @@
+[
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 0.01,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.7090909090909091
+  },
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 0.1,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.7236363636363637
+  },
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 1.0,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.7418181818181818
+  },
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 10.0,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.7609090909090909
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.01,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.7081818181818182
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.1,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.7227272727272728
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 1.0,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.7418181818181818
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 10.0,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.7609090909090909
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.01,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.7063636363636365
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.1,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.7181818181818183
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 1.0,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.739090909090909
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 10.0,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.7590909090909093
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.01,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.700909090909091
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.1,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.7127272727272728
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 1.0,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.7272727272727273
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 10.0,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.740909090909091
+  }
+]

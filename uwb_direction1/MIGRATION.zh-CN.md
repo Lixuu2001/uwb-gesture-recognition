@@ -1,5 +1,7 @@
 # Windows 本地迁移步骤
 
+2026-09-30 更新：本次迁移已经完成，无需用户再手动上传。私有 Drive 的163个分块已在云端恢复为86个原文件，SHA-256全部一致。当前结果见 [恢复与实验报告](results/cloud_20260930/RUN_REPORT.md)。下文保留为历史导出操作；以后恢复可直接使用 [持久下载索引](migration/20260930/CLOUD_DOWNLOAD_INDEX.json) 和已连接的 Drive 工具。
+
 目标仓库：`Lixuu2001/git-local-demo`，私有；分支：`codex/uwb-direction1-cloud-20260930`。此分支包含迁移工具与研究记忆，原实验代码需要从本地读入。主分支不会被迁移脚本修改。
 
 ## 1. 下载迁移分支

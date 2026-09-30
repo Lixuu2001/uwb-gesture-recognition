@@ -3,7 +3,7 @@
   "date_client": "2026-09-30",
   "python_cloud": "3.12.14",
   "command": "python -m unittest discover -s uwb_direction1/tests -v",
-  "tests_passed": 10,
+  "tests_passed": 14,
   "tests_failed": 0,
   "verified_behaviors": [
     "Historical loader configurations, provenance and source matrices are included; checkpoints excluded",
@@ -20,5 +20,11 @@
   "powershell_wrapper_executed": false,
   "powershell_limit": "Cloud has no PowerShell; wrapper reviewed but not run on user's Windows machine",
   "real_data_migrated": false,
-  "real_method_success_claimed": false
+  "real_method_success_claimed": false,
+  "actual_drive_chunks_verified": 163,
+  "actual_original_files_verified": 86,
+  "raw_records": 9593,
+  "valid_records": 9300,
+  "baseline_prediction_folds_replayed": 8,
+  "frozen_probe_folds_completed": 8
 }

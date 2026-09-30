@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-30",
+  "stage": "exploratory CPU screening on existing frozen features",
+  "question": "Does penalizing class-conditional source-user drift improve full three-view classification beyond an ordinary linear fusion readout?",
+  "novelty_claim": false,
+  "input": "SHA-verified multiview_s2026/foldH/predictions.npz features [9300,3,256] from each fold's frozen source-trained encoder",
+  "data": "original UWB-Gestures, 9300 quality-retained examples",
+  "split": "test H, validation H%8+1, other six users train; no target labels in fitting",
+  "existing_users_are_exploratory": true,
+  "methods": ["original_LTR", "uniform_seven_subset_probability", "balanced_ridge_concat", "balanced_ridge_class_conditional_user_penalty"],
+  "scaling": "feature mean and standard deviation from training examples only",
+  "training_weight": "equal classes, then equal available users within each class, then equal examples within each user-class cell",
+  "objective": "sum_i w_i ||x_i W + b - onehot(y_i)||^2 + alpha ||W||^2 + eta mean_uc ||(mean_x_uc - mean_u(mean_x_uc)) W||^2",
+  "ridge_alpha_grid": [0.01, 0.1, 1.0, 10.0],
+  "penalty_eta_grid": [0.1, 1.0, 10.0],
+  "selection": "maximum validation macro accuracy; ties retain the earliest grid entry; independent selection for ridge and penalized ridge",
+  "test": "one final prediction per selected model; report all eight users, mean and worst user macro accuracy, and paired differences",
+  "continue_criterion": "penalized ridge exceeds both original LTR and plain ridge by at least 1 percentage point in mean user macro accuracy and improves plain ridge for at least 6 of 8 users",
+  "limits": "No encoder retraining, no independent-user confirmation, no novelty claim, no end-to-end deployment claim because old checkpoints were not transferred. This tests a mechanism before spending on new network training."
+}
