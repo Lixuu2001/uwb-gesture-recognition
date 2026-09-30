@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_view_head_controls_complete_no_reliable_gain",
+  "state": "circular_signal_protocol_ready_cost_gate_passed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20260930_heads/RUN_REPORT.md",
+  "latest_report": "results/cloud_20260930_circular/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -54,5 +54,11 @@
   "latest_head_repeat_scope": "one readout-training seed on old seed2026 frozen encoders; not independent encoder training",
   "original_encoder_cpu_smoke_passed": true,
   "original_encoder_cpu_seconds_per_batch8": 1.1409740290000627,
-  "full_end_to_end_experiment_completed": false
+  "full_end_to_end_experiment_completed": false,
+  "latest_signal_protocol": "research/CIRCULAR_SIGNAL_PROTOCOL.json",
+  "signal_cost_gate_passed": true,
+  "signal_parameters": 265836,
+  "signal_estimated_queue_hours": 6.3152701061,
+  "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
+  "signal_results_path": "/workspace/uwb-circular-runs-20260930"
 }

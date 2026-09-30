@@ -1,3 +1,9 @@
+# 最新接续：圆周表示信号级实验（2026-09-30）
+
+已实现并测试CPU可运行的三臂八折端到端CNN协议，尚未启动完整训练。输入缓存/workspace/uwb-circular-prepared-20260930已完成，265,836参数，batch64真实源数据梯度探针中位0.1778秒；24run×32轮加50%余量估计6.32小时，成本门槛通过。29项集成测试通过，含真实CNN精确恢复。详见results/cloud_20260930_circular/RUN_REPORT.md及research/CIRCULAR_SIGNAL_RATIONALE.md。
+
+下一步启动tools/circular_signal.py train，结果/workspace/uwb-circular-runs-20260930，按保存协议三个臂legacy、angle_control、circular，各八折。已知实/虚相位表示是已有数学工具，论文全文最近邻排查尚未完成，不能称已实现创新。不要改正在运行的协议/源码；先查进程、queue_status.json和progress.pt。没有新测试成绩前不要宣布成功。旧失败读出路线维持停止。
+
 # 最新接续覆盖（2026-09-30，融合头四臂八折与CPU原网络探针后）
 
 先读 `results/cloud_20260930_heads/RUN_REPORT.md` 和 STATUS.json。四臂32次训练、96个二进制产物逐SHA核验、最优权重验证/测试logits逐位重放完成，当前无后台训练。subset_ce=92.0367%，full_ce=92.5178%，full_supcon=93.1030%，full_crossuser=93.3625%；旧LTR=93.4417%。跨用户版相对完整CE+0.8447pp、仅4/8改善，相对旧LTR−0.0792pp，未达冻结门槛，不补第二种子、不扩该网格。7/32选择epoch0，勿把这些当作新训练模型改善。
