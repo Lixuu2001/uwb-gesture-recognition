@@ -9,7 +9,13 @@ import numpy as np
 from scipy.linalg import eigh, solve
 from scipy.spatial.distance import cdist
 from threadpoolctl import threadpool_limits
-from audit_restored import digest, dump, metrics, validate_cache
+from audit_restored import digest, dump as write_json, metrics, validate_cache
+
+def dump(path, data):
+    path = Path(path)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    write_json(temporary, data)
+    temporary.replace(path)
 
 
 def weights_for(y, users):
