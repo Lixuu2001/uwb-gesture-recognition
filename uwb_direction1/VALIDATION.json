@@ -1,0 +1,23 @@
+{
+  "scope": "Migration tooling only; no real UWB method validation",
+  "date_client": "2026-09-30",
+  "python_cloud": "3.12.14",
+  "command": "python -m unittest discover -s uwb_direction1/tests -v",
+  "tests_passed": 9,
+  "tests_failed": 0,
+  "verified_behaviors": [
+    "Byte-identical multi-chunk round trip with original inputs preserved",
+    "Experimental worktree source takes priority and preserves CRLF bytes",
+    "Corruption and missing chunks stop before restoring files",
+    "Missing required historical files stop before export",
+    "Code-only export excludes dependency directories and .env files",
+    "Portable paths reject traversal and Windows absolute paths",
+    "Duplicate restored paths are rejected",
+    "Original file hashes are checked after decompression",
+    "Occupied and nested output directories are rejected"
+  ],
+  "powershell_wrapper_executed": false,
+  "powershell_limit": "Cloud has no PowerShell; wrapper reviewed but not run on user's Windows machine",
+  "real_data_migrated": false,
+  "real_method_success_claimed": false
+}
