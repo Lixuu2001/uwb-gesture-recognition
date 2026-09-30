@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "data_restored_baseline_replayed_first_frozen_probe_rejected",
+  "state": "kernel_interaction_screen_complete_small_unreliable_gain",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,9 +15,9 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "Implement and validate an effective method with a supported research contribution; current probe failed and is not a success",
-  "original_source_files_in_cloud": 28,
-  "original_source_complete_snapshot_in_cloud": false,
+  "remaining_user_goal": "Reliable gain and defensible contribution not established; kernel gain versus original LTR has uncertainty crossing zero",
+  "original_source_files_in_cloud": 789,
+  "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
   "restored_files": 86,
   "restored_records": 9593,
@@ -27,9 +27,15 @@
   "first_exploratory_probe_continuation_criterion_met": false,
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20260930",
-  "cloud_original_source_path": "/workspace/uwb-source-c735e94",
+  "cloud_original_source_path": "/workspace/git-local-demo/uwb_direction1/original",
   "compute": "CPU only; no GPU detected; torch not installed",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
-  "direct_dot_handoff": false
+  "direct_dot_handoff": false,
+  "latest_report": "results/cloud_20260930_kernel/RUN_REPORT.md",
+  "latest_test_joint_kernel": [
+    0.9380795454545455,
+    0.9377121212121213
+  ],
+  "latest_repeat_scope": "landmark sampling only; same seed2026 frozen encoders"
 }

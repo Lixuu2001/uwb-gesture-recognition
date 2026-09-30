@@ -1,0 +1,23 @@
+test_class_identical_users_have_zero_penalty (test_frozen_probe.ProbeTests.test_class_identical_users_have_zero_penalty) ... ok
+test_missing_classes_do_not_lower_macro_denominator (test_frozen_probe.ProbeTests.test_missing_classes_do_not_lower_macro_denominator) ... ok
+test_stats_order_invariant_with_missing_user_class_cell (test_frozen_probe.ProbeTests.test_stats_order_invariant_with_missing_user_class_cell) ... ok
+test_whole_user_partitions_and_quality_exclusions (test_frozen_probe.ProbeTests.test_whole_user_partitions_and_quality_exclusions) ... ok
+test_interaction_xor_distinguishes_additive_control (test_kernel_screen.KernelTests.test_interaction_xor_distinguishes_additive_control) ... ok
+test_missing_cells_balanced (test_kernel_screen.KernelTests.test_missing_cells_balanced) ... ok
+test_psd_and_unit_diagonal (test_kernel_screen.KernelTests.test_psd_and_unit_diagonal) ... ok
+test_source_mapping_does_not_change_on_inference (test_kernel_screen.KernelTests.test_source_mapping_does_not_change_on_inference) ... ok
+test_code_only_and_excluded_inputs (test_transfer.TransferTests.test_code_only_and_excluded_inputs) ... ok
+test_corrupt_chunk_fails_before_creating_restore_directory (test_transfer.TransferTests.test_corrupt_chunk_fails_before_creating_restore_directory) ... ok
+test_duplicate_chunks_rejected (test_transfer.TransferTests.test_duplicate_chunks_rejected) ... ok
+test_loader_lineage_transfers_but_checkpoints_do_not (test_transfer.TransferTests.test_loader_lineage_transfers_but_checkpoints_do_not) ... ok
+test_missing_chunk_fails_before_restore (test_transfer.TransferTests.test_missing_chunk_fails_before_restore) ... ok
+test_missing_input_does_not_create_export (test_transfer.TransferTests.test_missing_input_does_not_create_export) ... ok
+test_original_hash_checked_after_decompression (test_transfer.TransferTests.test_original_hash_checked_after_decompression) ... ok
+test_path_traversal_and_windows_paths_rejected (test_transfer.TransferTests.test_path_traversal_and_windows_paths_rejected) ... ok
+test_refuse_overwrite_and_nested_outputs (test_transfer.TransferTests.test_refuse_overwrite_and_nested_outputs) ... ok
+test_round_trip_multiple_chunks_is_byte_identical (test_transfer.TransferTests.test_round_trip_multiple_chunks_is_byte_identical) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.109s
+
+OK

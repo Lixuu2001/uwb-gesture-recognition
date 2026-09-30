@@ -32,11 +32,12 @@ def main():
         assert m['files']['predictions.npz']==digest(multi/'predictions.npz')
         assert set(m['training_subjects'])==set(range(1,9))-{h,h%8+1}
         assert m['validation_subject']==h%8+1 and m['test_subject']==h
-        history=m['history']; best=min(history,key=lambda e:e['val_ce']) if history and 'val_ce' in history[0] else None
+        history=m['history']; best=min(history,key=lambda e:e['val_ce'])
+        assert best['epoch']==m['best_epoch'] and best['val_ce']==m['best_val_ce']
         records.append(dict(held_user=h,validation_user=h%8+1,source_users=m['training_subjects'],
                             baseline_weight_sha256=b['files']['right.pt'],selected_state_sha256=m['selected_state_sha256'],
                             cache_sha256=m['files']['predictions.npz'],partitions=hashes,
-                            provenance_records_match=True,weights_present=(multi/'best.pt').exists(),
+                            provenance_records_match=True,earliest_minimum_validation_ce_verified=True,weights_present=(multi/'best.pt').exists(),
                             selected_epoch=m['best_epoch'],history_fields=list(history[0]) if history else []))
     result=dict(state='recorded_ancestry_verified',folds=records,
                 limitations=['Weights not migrated: cannot independently rerun encoder or prove original training beyond recorded provenance and code.',
