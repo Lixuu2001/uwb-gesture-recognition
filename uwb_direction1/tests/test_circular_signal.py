@@ -63,6 +63,14 @@ class SignalTests(unittest.TestCase):
         self.assertEqual(legacy[:,:,2:].count_nonzero(),0)
         self.assertEqual(cs.get_batch(x,[0,1],'circular').shape,(2,3,4,90,63))
 
+    def test_independent_audit_forward(self):
+        from audit_circular_signal import independent_forward
+        torch.manual_seed(7)
+        model=cs.SignalNet().eval()
+        x=torch.randn(2,3,4,90,63)
+        with torch.no_grad():
+            self.assertTrue(torch.equal(model(x),independent_forward(x,model.state_dict())))
+
     def test_interrupted_resume_exact(self):
         data=np.random.default_rng(7).normal(size=(10,3,6,90,63)).astype('float16')
         labels=np.arange(10)%3

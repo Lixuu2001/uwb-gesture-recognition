@@ -1,0 +1,16 @@
+{
+  "pid": 7419,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/circular_signal.py",
+    "train",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--prepared",
+    "/workspace/uwb-circular-prepared-20260930",
+    "--out",
+    "/workspace/uwb-circular-runs-20260930"
+  ],
+  "log": "/workspace/uwb-circular-train-20260930.log",
+  "started_unix": 1790749292.958898
+}

@@ -1,0 +1,37 @@
+{
+  "observed_unix": 1790749468.8180952,
+  "pid": 7419,
+  "queue": {
+    "state": "running",
+    "pid": 7419,
+    "fold": 1,
+    "arm": "legacy"
+  },
+  "checkpoint_epoch": 7,
+  "selected_epoch_so_far": 7,
+  "checkpoint_all_parameters_finite": true,
+  "code_and_protocol_unchanged": true,
+  "last_epoch": {
+    "epoch": 7,
+    "validation_ce": 0.02518225647509098,
+    "source_ce": 0.003998590736767986,
+    "lr": 0.00091657745808976,
+    "source_ids_sha256": "91a523f50bdd487f06182f35eb0901e62e4c6e8c4bc77e9fa55cde024ef324f5",
+    "seconds": 18.805284112000663
+  },
+  "identity": {
+    "script_sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+    "protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
+    "helper_sha256": {
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "fold": 1,
+    "arm": "legacy"
+  },
+  "completed_run_results": 0,
+  "queue_finished": false
+}

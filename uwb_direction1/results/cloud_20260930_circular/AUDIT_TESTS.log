@@ -1,0 +1,16 @@
+test_analytic_matches_scipy_and_clip_independence (test_circular_signal.SignalTests.test_analytic_matches_scipy_and_clip_independence) ... ok
+test_independent_audit_forward (test_circular_signal.SignalTests.test_independent_audit_forward) ... ok
+test_interrupted_resume_exact (test_circular_signal.SignalTests.test_interrupted_resume_exact) ... {"epoch": 1, "validation_ce": 1.8494751453399658, "source_ce": 2.400568962097168, "lr": 0.001, "source_ids_sha256": "cd6073bbeccfd79a06113e5e71935c79c3508f9e39d1407e5c2fe7bd1c3fa0f2", "seconds": 0.11546119000013277, "fold": 1, "arm": "circular"}
+{"epoch": 2, "validation_ce": 1.6780779361724854, "source_ce": 1.5469496250152588, "lr": 0.000505, "source_ids_sha256": "913ba573bde3a70818e5c58390adc391530384608525242a2bc1be5c043e4cda", "seconds": 0.09230372800084297, "fold": 1, "arm": "circular"}
+{"fold": 1, "arm": "circular", "complete": true}
+{"epoch": 2, "validation_ce": 1.6780779361724854, "source_ce": 1.5469496250152588, "lr": 0.000505, "source_ids_sha256": "913ba573bde3a70818e5c58390adc391530384608525242a2bc1be5c043e4cda", "seconds": 0.07709045299998252, "fold": 1, "arm": "circular"}
+{"fold": 1, "arm": "circular", "complete": true}
+ok
+test_original_angle_equivalence (test_circular_signal.SignalTests.test_original_angle_equivalence) ... ok
+test_phasor_branch_continuity_and_energy (test_circular_signal.SignalTests.test_phasor_branch_continuity_and_energy) ... ok
+test_source_order_and_channel_ablation (test_circular_signal.SignalTests.test_source_order_and_channel_ablation) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.149s
+
+OK

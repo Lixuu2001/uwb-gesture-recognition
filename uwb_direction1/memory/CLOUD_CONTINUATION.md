@@ -1,8 +1,22 @@
-# 最新接续：圆周表示信号级实验（2026-09-30）
+# 最新接续：圆周表示端到端队列已实际运行（2026-09-30）
 
-已实现并测试CPU可运行的三臂八折端到端CNN协议，尚未启动完整训练。输入缓存/workspace/uwb-circular-prepared-20260930已完成，265,836参数，batch64真实源数据梯度探针中位0.1778秒；24run×32轮加50%余量估计6.32小时，成本门槛通过。29项集成测试通过，含真实CNN精确恢复。详见results/cloud_20260930_circular/RUN_REPORT.md及research/CIRCULAR_SIGNAL_RATIONALE.md。
+训练实现和三臂八折协议先于完整训练提交GitHub：d9f80720f46f83e61c3b2da68dedbdd3d422f6f7。2026-09-30 06:24 UTC核验进程PID7419存活，fold1/legacy已到第7轮检查点，最后一轮18.81秒；24个完整run当时完成0个。详见results/cloud_20260930_circular/RUN_REPORT.md和LAUNCH_VERIFIED.json。不要把准备探针、验证CE或部分进度称为测试成功。
 
-下一步启动tools/circular_signal.py train，结果/workspace/uwb-circular-runs-20260930，按保存协议三个臂legacy、angle_control、circular，各八折。已知实/虚相位表示是已有数学工具，论文全文最近邻排查尚未完成，不能称已实现创新。不要改正在运行的协议/源码；先查进程、queue_status.json和progress.pt。没有新测试成绩前不要宣布成功。旧失败读出路线维持停止。
+## 当前云端的具体接续
+
+- 已恢复原数据：/workspace/uwb-restored-20260930。输入缓存：/workspace/uwb-circular-prepared-20260930，signals.npy SHA256=1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f。
+- 队列目录：/workspace/uwb-circular-runs-20260930；日志：/workspace/uwb-circular-train-20260930.log；启动记录：/workspace/uwb-circular-launch-20260930.json。
+- **先查ps与queue_status.json，仍运行就不要重复启动、不要改源码/协议。** 若环境确实停止训练，检查错误和progress.pt，再按下面原命令恢复。身份哈希不匹配应保留现场排查，不覆盖。
+- 命令：`python /workspace/uwb-cloud/uwb_direction1/tools/circular_signal.py train --data /workspace/uwb-restored-20260930 --prepared /workspace/uwb-circular-prepared-20260930 --out /workspace/uwb-circular-runs-20260930`。
+- PyTorch2.14.0+cpu已安装于/home/agent/.local/lib/python3.12/site-packages/torch。3线程CPU，无GPU。26.6万参数，预计整队列数小时，成本探针上限外推6.32小时仅估计。
+- legacy、angle_control、circular各8折，32轮上限、最少16、patience8；最早最小验证CE。测试h、验证h%8+1、其余6训练。按原协议完成，不根据中途测试挑方法或网格。
+- 完成后运行独立审计：`python /workspace/uwb-cloud/uwb_direction1/tools/audit_circular_signal.py --data /workspace/uwb-restored-20260930 --prepared /workspace/uwb-circular-prepared-20260930 --runs /workspace/uwb-circular-runs-20260930 --benchmark /workspace/uwb-circular-cost-20260930.json --out /workspace/uwb-circular-final-audit-20260930.json`。输出需新文件名。当前START_INPUT_AUDIT仅核查源输入64条，审计完整run数为0，不冒称已核查24模型。
+- 全部结果冻结后，候选必须同时胜legacy1pp、angle_control0.5pp、6/8用户优于angle_control、总体至少历史LTR93.4416667%，才扩第二训练seed及无范围池化消融。失败即记录并停这条网格。
+- 已知圆周坐标/复数网络不是新算法；本轮只假设相位角分支跳变在范围压缩中有代价。已读作者资料和实现，不冒称读完论文全文或最近邻综述。独立确认用户仍缺失。
+
+29项原集成检查通过；新增独立前向后6项信号检查通过，包括中断恢复逐位一致。64条真实源输入由SciPy独立实现逐位一致。权重与输入缓存仍只保存在当前云端，未上传Git/Drive；若换环境要核实检查点可用性，不仅检查源码。
+
+仅在完整新结果、失败、完成、重大阻塞时通知。无可行动变化保持安静；不要重报迁移、不再做旧冻结读出网格。用户目标尚未达到，保持云端自动接续。
 
 # 最新接续覆盖（2026-09-30，融合头四臂八折与CPU原网络探针后）
 
