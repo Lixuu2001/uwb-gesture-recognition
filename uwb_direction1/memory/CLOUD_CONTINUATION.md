@@ -1,3 +1,13 @@
+# 最新接续覆盖（2026-09-30，融合头四臂八折与CPU原网络探针后）
+
+先读 `results/cloud_20260930_heads/RUN_REPORT.md` 和 STATUS.json。四臂32次训练、96个二进制产物逐SHA核验、最优权重验证/测试logits逐位重放完成，当前无后台训练。subset_ce=92.0367%，full_ce=92.5178%，full_supcon=93.1030%，full_crossuser=93.3625%；旧LTR=93.4417%。跨用户版相对完整CE+0.8447pp、仅4/8改善，相对旧LTR−0.0792pp，未达冻结门槛，不补第二种子、不扩该网格。7/32选择epoch0，勿把这些当作新训练模型改善。
+
+本会话已安装CPU PyTorch2.14.0于 `/home/agent/.local/lib/python3.12/site-packages/torch`。原三雷达31,511,500参数网络在真实源用户原始输入上完成CPU前向/反向/Adam探针，8条批中位1.141秒，3线程，单源训练遍历粗估16.89分钟，不含验证/I/O。完整8折×40轮仅训练外推约90小时，不能宣称已执行。下一步先设计/测量CPU可承担的信号级端到端训练，不默认启动这套昂贵全队列。
+
+注意环境路径不同：本会话源码仅28份核心文件位于 `/workspace/uwb-source-c735e94/project`；核方法会话另有完整789文件checkout。两边数据都恢复到同名 `/workspace/uwb-restored-20260930`，但不是共享文件系统。保留下面核筛查结果与全部失败记录，不重做共享/专属、等权DTW阶段监督、温和增强、低秩校准、收益选路或已否决的读出网格。用户目标尚未完成，不把当前运行通过当创新成立。
+
+以下为先前接续记录：
+
 # 最新接续覆盖（2026-09-30，核交互筛查后）
 
 优先读取 `results/cloud_20260930_kernel/RUN_REPORT.md` 和 STATUS.json。新容器已经重新恢复163块/86文件并全SHA通过；数据仍在 `/workspace/uwb-restored-20260930`。checkout完整789文件已逐项SHA通过，路径 `/workspace/git-local-demo/uwb_direction1/original/project`。当前无后台训练。

@@ -1,0 +1,66 @@
+{
+  "state": "benchmark_complete",
+  "scope": "four optimizer steps on fixed source batch; no quality claim",
+  "source_sample_ids": [
+    8535,
+    3669,
+    5030,
+    2966,
+    7033,
+    4993,
+    2587,
+    5716
+  ],
+  "source_subjects": [
+    8,
+    4,
+    5,
+    3,
+    6,
+    5,
+    3,
+    5
+  ],
+  "fold": 1,
+  "test_user": 1,
+  "validation_user": 2,
+  "batch": 8,
+  "torch": "2.14.0+cpu",
+  "threads": 3,
+  "device": "cpu",
+  "input_shape": [
+    8,
+    3,
+    90,
+    378
+  ],
+  "parameters": 31511500,
+  "preprocessing_seconds": 0.034411057000397705,
+  "training_step_seconds": [
+    1.4876585350011737,
+    1.3531622189984773,
+    1.1297802700009925,
+    1.1409740290000627
+  ],
+  "median_measured_step_seconds_excluding_first": 1.1409740290000627,
+  "rough_source_pass_seconds_at_this_batch": 1013.1849377520557,
+  "source_pass_estimate_excludes_validation_and_io": true,
+  "peak_process_rss_kib": 2620944,
+  "finite_nonzero_encoder_gradients": true,
+  "losses_on_fixed_training_batch": [
+    2.473886489868164,
+    1.9765573740005493,
+    1.3583115339279175,
+    0.6954728960990906
+  ],
+  "source_sha256": {
+    "/workspace/uwb-source-c735e94/project/experiments/p1_20260905/cross_user_meta/model.py": "df3ab83ec501c3760f79ae5f7f0d1ee70a6fd8bc9cb6b50a2b5498b56be8781b",
+    "/workspace/uwb-source-c735e94/project/experiments/new_routes/multiview.py": "4747c799a63fc965a43e2b1e6b70c3009716b36a3e68d719229a5f760115dedc",
+    "/workspace/uwb-source-c735e94/project/experiments/p1_20260905/vendor/uwb_osr/data.py": "b4d9a626a87219b0a378e7b23120aa260f290dcd3310a6a1572f41756f20b98a",
+    "/workspace/uwb-source-c735e94/project/experiments/p1_20260905/pipeline.py": "0b73f3dbf70612271d51190ed790c8e59adf2011d4cef0569b266c0cacbcbecc",
+    "/workspace/uwb-source-c735e94/project/experiments/p1_20260905/train.py": "df3bc0c49e7e8fa00a1577f04ed666e054f7224bad09a2ceb5c0fb24f516c108",
+    "/workspace/uwb-source-c735e94/project/experiments/p1_20260905/vendor/uwb_osr/model.py": "19fe54c7363c88e9cca32190cdf76f03da6e2b7cd6056e02144b0cfb4f557050",
+    "/workspace/uwb-source-c735e94/project/experiments/p1_20260905/vendor/config.py": "474f351ecc2838ba3aff4fa2ac2edc0bf14cb67cde6b0c6831b9a64c9daa1137"
+  },
+  "script_sha256": "bef10bf28eb1c4441b352af8f360694abd4fd57f82cb89eb9db42fcd6b67718e"
+}

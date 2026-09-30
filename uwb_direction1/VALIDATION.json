@@ -3,7 +3,7 @@
   "date_client": "2026-09-30",
   "python_cloud": "3.12.14",
   "command": "python -m unittest discover -s uwb_direction1/tests -v",
-  "tests_passed": 14,
+  "tests_passed": 24,
   "tests_failed": 0,
   "verified_behaviors": [
     "Historical loader configurations, provenance and source matrices are included; checkpoints excluded",
@@ -26,5 +26,10 @@
   "raw_records": 9593,
   "valid_records": 9300,
   "baseline_prediction_folds_replayed": 8,
-  "frozen_probe_folds_completed": 8
+  "frozen_probe_folds_completed": 8,
+  "full_view_head_runs": 32,
+  "full_view_head_binary_artifacts_verified": 96,
+  "full_view_head_checkpoint_forward_replay": "bitwise_equal",
+  "original_encoder_cpu_gradient_probe": "passed, source batch only",
+  "test_scope": "migration, frozen probe, synced kernel tests, and six nonlinear head tests"
 }
