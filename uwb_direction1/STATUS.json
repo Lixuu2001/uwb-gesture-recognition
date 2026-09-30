@@ -61,17 +61,20 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1790749468.8180952,
+  "background_training_observed_unix": 1790751224.1048841,
   "background_training_pid": 7419,
   "background_training_status_note": "Observed alive at recorded timestamp; check process and checkpoints before resuming, not a promise of continuous uptime",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
-    "fold": 1,
-    "arm": "legacy",
-    "epoch": 7
+    "fold": 2,
+    "arm": "angle_control",
+    "epoch": 4
   },
-  "signal_completed_runs_at_observation": 0,
+  "signal_completed_runs_at_observation": 4,
   "signal_expected_runs": 24,
-  "signal_log": "/workspace/uwb-circular-train-20260930.log"
+  "signal_log": "/workspace/uwb-circular-train-20260930.log",
+  "signal_completed_runs_independently_audited": 3,
+  "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0652.json",
+  "latest_literature_note": "research/RADAR_PHASE_NEIGHBORS.md"
 }
