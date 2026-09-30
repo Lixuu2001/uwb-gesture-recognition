@@ -1,0 +1,119 @@
+# Frozen configuration for stage P1. This file is a transcription of the values
+# already hard-coded in train_student.DEFAULTS at launch time, kept here so the
+# frozen point is readable without diffing code. Changing a value here does not
+# change a run; the code is the authority and every run also stores its own
+# resolved config.json.
+#
+# Written 2026-09-06, after the P0 diagnostics and before any candidate arm had
+# produced an outer-fold result.
+
+protocol:
+  dataset: uwb_gestures_quality9300
+  cache_rows: 9593
+  quality_rows: 9300
+  class_outputs: 12
+  held_subjects: [1, 2, 3, 4, 5, 6, 7, 8]
+  split_seed: 2026            # frozen; never varies with model_seed
+  model_seeds: [2026]         # 2027 only for candidates that survive P1
+  sampler_seed: 7777          # plus the fold index
+  auxiliary_seed: 31337       # aux head init, masks, shuffles; never the backbone
+  deployment_view: Right
+  test_access: single_view_only
+
+student:
+  input: amplitude_phase_concat
+  shape: [1, 90, 378]         # 189 amplitude + 189 phase-motion features
+  dim: 32
+  depth: 4
+  heads: 4
+  pool: flatten
+  cross_view_attention: false
+  preserve_original_classifier: true
+
+optimization:
+  optimizer: Adam
+  lr: 0.0001
+  weight_decay: 0.0001
+  effective_batch: 128
+  microbatch: 32
+  max_epochs: 40
+  min_stop_epoch: 12
+  patience: 8
+  selection: validation_hard_ce
+  auxiliary_ramp_epochs: 5
+
+classification:
+  hard_ce: true
+  global_soft_target: true
+  temperature: 2
+  soft_weight: 0.5
+  true_mass_source: matched_fold_global_matrix   # label_smoothing_results/global_matrix_h{fold}.npz
+
+method_a:
+  projector: [64, 256, 128]
+  relation_group: 32
+  classes_per_group: 4
+  users_per_group: 4
+  instances_per_class_user: 2
+  groups_per_step: 4
+  tau_teacher: 0.2
+  tau_student: 0.2
+  lambda_contrast: 0.1
+  lambda_relation: 0.1
+  teacher_normalisation: per_view_channel_standardise_then_l2_then_concat_then_l2
+  channel_std_floor: 0.05
+
+method_b:
+  segments: 15
+  frames_per_segment: 6
+  process_head: [32, 64, 1]
+  energy: phase                 # sum_r sqrt(|d|)*|angle(d)| per frame
+  quality_mode_initial: equal
+  scale: train_fold_percentile95_per_view
+  clip: 5.0
+  frame_shift: null             # P0 found no systematic inter-radar offset
+  lambda_activity: 0.1
+  lambda_cdf: 0.05
+
+stage_p1_arms:
+  # A and B keep separate baselines because their samplers differ.
+  - B-GS      # permutation sampler, base loss only
+  - A-GS      # relation sampler, base loss only
+  - A-SC      # + cross-user supervised contrast (labels and user ids only)
+  - A-US      # + relation from a Right-only trained teacher   (teacher-single)
+  - A-MV      # + relation from the three-view teacher          (main candidate)
+  - B-SELF    # process target from the deployed radar only
+  - B-MV      # process target fused over three radars          (main candidate)
+  - B-SHUF    # process target from another instance of the same class and user
+
+deviations_from_the_written_plan:
+  - id: b_shuf_promoted
+    change: B-SHUF moved from stage P2 into the first P1 batch.
+    reason: >
+      The P0 timing audit measured the true-pair advantage over exactly this
+      mismatched-instance null at only +0.065 to +0.083 correlation at lag 0.
+      Instance correspondence is therefore a primary control for B, not a
+      follow-up ablation.
+  - id: no_frame_shift
+    change: No integer per-view frame shift is applied.
+    reason: >
+      The population cross-correlation curve peaks at lag 0 for all three view
+      pairs and is symmetric, so there is no systematic offset to correct. The
+      broad per-sample argmax is estimation noise on a flat correlation surface.
+  - id: extra_module
+    change: classification_loss lives in objectives.py rather than in one of the
+      file names listed in section 10.2 of the plan.
+    reason: It is the shared base objective of every arm, not part of A or B.
+
+not_run_in_p1:
+  - method_c_training_arms      # only the P0 predictability diagnostic
+  - method_d_pretraining        # deferred per section 12.1
+  - second_model_seed           # only for arms that pass the P1 gate
+  - combination_arms            # only if A and B each beat their own controls
+
+gate:
+  development_threshold_pp: 2.0
+  minimum_improved_users: 6
+  note: >
+    An investment threshold, not a significance test. The bootstrap interval is
+    reported separately and a stable +1.2 pp is not called "no effect".

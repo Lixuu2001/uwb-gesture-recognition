@@ -1,0 +1,19 @@
+Command: D:/D_conda/envs/pytorch/python.exe -m pytest experiments/new_routes -q
+Working directory: C:/Users/19252/.codex/worktrees/uwb-user-calibration/uwb_gestures
+Exit code: 0
+Final terminal output:
+.................................................................... [ 49%]
+.................s...................................................... [ 98%]
+..                                                                       [100%]
+============================== warnings summary ===============================
+experiments/new_routes/test_baseline.py::BaselineContractTest::test_extraction_preserves_classifier
+experiments/new_routes/test_multiview.py::MultiviewTests::test_all_seven_direct_subsets_equal_independent_full_view_cache
+experiments/new_routes/test_multiview.py::MultiviewTests::test_extractor_preserves_right_penultimate_and_excludes_final_head
+experiments/new_routes/test_multiview.py::MultiviewTests::test_gradients_reach_encoder_projection_and_fusion
+experiments/new_routes/test_multiview.py::MultiviewTests::test_input_shapes_and_physical_indices_are_guarded
+experiments/new_routes/test_multiview.py::MultiviewTests::test_unobserved_nonfinite_raw_and_cached_features_cannot_change_prediction
+  D:\D_conda\envs\pytorch\lib\site-packages\torch\nn\modules\transformer.py:382: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+145 passed, 1 skipped, 6 warnings in 30.96s
