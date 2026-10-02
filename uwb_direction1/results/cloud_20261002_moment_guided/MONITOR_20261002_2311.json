@@ -1,0 +1,32 @@
+{
+  "observed_unix": 1790982673.410513,
+  "queue": {
+    "state": "running",
+    "pid": 14004,
+    "fold": 7,
+    "arm": "ordered",
+    "completed_runs": 13
+  },
+  "progress": {
+    "epoch": 14,
+    "validation_ce": 0.10873578488826752,
+    "source_ce": 0.00028141322175582426,
+    "lr": 0.0006486909152409587,
+    "source_ids_sha256": "e7b5423e44c50b0f573fb4a28b6722cce4f080bca14e8f2a46720dd09a14398a",
+    "seconds": 23.16342868001084,
+    "state": "training",
+    "pid": 14004,
+    "best_epoch": 4
+  },
+  "finalizer": {
+    "state": "waiting_for_existing_training",
+    "pid": 14201,
+    "observed_unix": 1790978138.88631
+  },
+  "both_processes_observed_alive_not_zombie": true,
+  "training_protocol_helpers_sha_unchanged": true,
+  "completed_runs_hash_checked": 13,
+  "completed_artifact_hashes_checked": 52,
+  "full_independent_model_audit_complete": false,
+  "interim_scores_used_for_changes": false
+}
