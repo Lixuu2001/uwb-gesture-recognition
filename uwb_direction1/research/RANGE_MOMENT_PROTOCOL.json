@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-02",
+  "scope": "source-only diagnostic; not outer eight-fold recognition evidence",
+  "hypothesis": "Ordered range-distribution moments retain class information beyond static position; preserving absolute range may matter",
+  "source_users": [3,4,5,6,7,8],
+  "excluded_signal_users": [1,2],
+  "split": "outer fold1 source pool only; inner leave-one-source-user-out: five fit, one diagnostic evaluation",
+  "features": "per-frame abs(raw RF) normalized across 189 bins; centroid and range standard deviation in bin coordinates; time mean-pool six frames to 15 blocks",
+  "arms": ["static", "ordered_absolute", "ordered_relative", "sorted_marginals"],
+  "static": "temporal mean of centroid and spread, repeated 15 times; 90 dimensions, same distance geometry as six unique coordinates after scaling",
+  "ordered_relative": "subtract each clip's temporal mean centroid, retain spread",
+  "sorted_marginals": "independently sort each view/feature's 15 temporal blocks; same values, removes temporal order and cross-view time alignment",
+  "classifier": "StandardScaler fit only on five inner training users; sklearn SVC RBF C=10 gamma=1/90 class_weight=balanced; no search or probability calibration",
+  "continue_gate": "ordered_absolute mean macro accuracy >=0.85, exceeds static by >=0.05 with >=4/6 wins, exceeds sorted_marginals by >=0.01 with >=4/6 wins",
+  "if_pass": "Only motivates an independent end-to-end temporal-moment hypothesis with matched controls; not innovation or full protocol success",
+  "if_fail": "Stop this moment-sequence configuration; no hyperparameter grid or neural branch launch justified by this probe",
+  "limits": ["No measured hand position or velocity", "Multipath and multiple scatterers remain", "Eight users already development data", "Inner scores not comparable to historical outer eight-fold mean", "Sorting changes feature distribution; not a causal temporal-order ablation"]
+}
