@@ -1,3 +1,31 @@
+# 当前接续：距离矩先导通过，匹配CNN八折队列（2026-10-02）
+
+先读results/cloud_20261002_moments/RUN_REPORT.md和results/cloud_20261002_moment_guided/RUN_REPORT.md。源用户3–8的7100条内部留一先导已完成：静态40.4798%、绝对时序89.2336%、相对时序90.8990%、排序边缘58.4975%。按先于拟合的b70a946dad77699f1cee574955263fd82310f338协议通过门槛；24模型/72产物SHA、预测重放、960帧独立矩公式及源统计量审计通过。**这不是原八折成绩，也不是创新成立。** 源先导二进制在/workspace/uwb-range-moments-20261002，可约半分钟重建，尚未另做Drive备份。
+
+后续CNN模型与协议在训练前提交213cd840871d32dbdd611f03937f16b9c60ed310。static与ordered各8折、同27.39万参数/初始化/优化器，另复用已审计legacy94.1843%作强基线（参数26.58万，不误称三者全同容量）。源六用户拟合矩分支标准化，原输入不变，训练所有CNN参数；验证/测试无拟合。完整新实验尚无结论。5项检查（含中断恢复逐位一致）和两臂独立前向检查通过，不能冒称完整16模型审计。
+
+## 实际运行与防重复
+- 队列/workspace/uwb-moment-guided-runs-20261002；日志/workspace/uwb-moment-guided-train-20261002.log。
+- PID及观测见results/cloud_20261002_moment_guided/LAUNCH_VERIFIED.json。每次检查真实ps状态及queue_status.json，不能把僵尸或仅Popen回执当活动训练。
+- 矩缓存/workspace/uwb-moment-guided-prepared-20261002；信号缓存仍/workspace/uwb-circular-prepared-20260930；已校验原数据与输入SHA，无需重下载。
+- 成本初探8.236h超过6h门槛；只把成本探针大批矩提取改为32条分批后，相同5步loss逐值不变，外推4.644h过原门槛。两个成本文件都保留，不更改质量门槛，实际时长可能波动。
+- 完整运行命令：
+```bash
+python /workspace/uwb-cloud/uwb_direction1/tools/moment_guided_signal.py train --data /workspace/uwb-restored-20260930 --prepared /workspace/uwb-circular-prepared-20260930 --moments /workspace/uwb-moment-guided-prepared-20261002 --out /workspace/uwb-moment-guided-runs-20261002 --baseline /workspace/uwb-circular-runs-20260930 --cost /workspace/uwb-moment-guided-cost-batched-20261002.json
+```
+只在确认原进程退出后才考虑同命令恢复，代码/协议身份必须一致，不覆盖冲突现场。
+
+## 完成后的必须步骤
+queue_status为complete_pending_independent_audit后，运行一次：
+```bash
+python /workspace/uwb-cloud/uwb_direction1/tools/audit_moment_guided.py --data /workspace/uwb-restored-20260930 --prepared /workspace/uwb-circular-prepared-20260930 --moments /workspace/uwb-moment-guided-prepared-20261002 --runs /workspace/uwb-moment-guided-runs-20261002 --out /workspace/uwb-moment-guided-final-audit-20261002.json
+```
+审计拒绝少于16run。完整后保存真实RESULTS.json、逐用户/类统计和描述性不确定性、权重/预测/ID/配置，私有Drive备份并重新认证下载核SHA。当前没有另设后台审计进程，需接续执行此步骤。
+
+冻结继续门槛：ordered相对legacy>=1pp、相对static>=0.5pp、6/8胜static、最差用户不低于legacy。失败就停止本配置网格；通过才独立训练seed、相对矩/纯矩消融及最近邻全文审查。现阶段只读OpenCV矩教程/代码和DSAE第三方实现，不能说完成原论文复现或全文核查。用户目标仍未完成；已知模块拼接本身不是新算法。自动接续继续，仅有实质变化时通知。
+
+下方是历史记录，旧“无活动训练”等状态由本节及实时进程覆盖。
+
 # 当前接续：24模型完成、私有模型备份验证；圆周机制不扩展
 
 2026-09-30 09:54UTC核查。先读results/cloud_20260930_circular/RUN_REPORT.md、SUMMARY.json、FINAL_AUDIT.json。训练和收尾已完成，PID7419/7926仅是已退出的defunct记录，**不是正在训练**。24模型独立函数式前向、源输入、分割/ID、最早最小验证CE、预测指标及96产物SHA全部通过；无需重复训练或审计。
