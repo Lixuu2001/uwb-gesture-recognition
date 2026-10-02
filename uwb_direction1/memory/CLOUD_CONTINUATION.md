@@ -15,12 +15,18 @@ python /workspace/uwb-cloud/uwb_direction1/tools/moment_guided_signal.py train -
 ```
 只在确认原进程退出后才考虑同命令恢复，代码/协议身份必须一致，不覆盖冲突现场。
 
-## 完成后的必须步骤
+## 自动收尾已启动（2026-10-02 本轮接续）
+
+原训练PID14004继续，观测fold1/ordered第18轮、1/16run完成；已完成run的4产物SHA及训练/协议/帮助代码SHA通过。未查看中途成绩决定方案，不重复启动。另启动不训练模型的收尾PID14201，状态/workspace/uwb-moment-guided-finalizer-state-20261002.json，日志/workspace/uwb-moment-guided-finalizer-20261002.log；实测waiting_for_existing_training且非僵尸。新增finalize_moment_guided.py自动等待原队列16run完成，再完整独立审计、汇总描述性用户bootstrap和归档模型/预测/ID。它不恢复或重启训练，原进程异常退出会记录failed。实测未完成队列拒绝汇总且不生成输出。
+
+下次先查训练与收尾两个进程/状态，避免重复审计。收尾complete时读/workspace/uwb-moment-guided-final-audit-20261002.json、/workspace/uwb-moment-guided-summary-20261002/SUMMARY.json和ARCHIVE_RECEIPT.json；归档预定/workspace/uwb-moment-guided-final-models-20261002.tar.gz。当前这些完整产物尚未生成，不能称已打包/备份；完成后仍需通过私有Drive认证上传、重新下载验SHA并保存持久回执，不改变共享权限。
+
+## 完成后的必须步骤（仅在收尾未在运行且需人工接续时）
 queue_status为complete_pending_independent_audit后，运行一次：
 ```bash
 python /workspace/uwb-cloud/uwb_direction1/tools/audit_moment_guided.py --data /workspace/uwb-restored-20260930 --prepared /workspace/uwb-circular-prepared-20260930 --moments /workspace/uwb-moment-guided-prepared-20261002 --runs /workspace/uwb-moment-guided-runs-20261002 --out /workspace/uwb-moment-guided-final-audit-20261002.json
 ```
-审计拒绝少于16run。完整后保存真实RESULTS.json、逐用户/类统计和描述性不确定性、权重/预测/ID/配置，私有Drive备份并重新认证下载核SHA。当前没有另设后台审计进程，需接续执行此步骤。
+审计拒绝少于16run，输出绑定identity.json及RESULTS.json的SHA。完整后保存真实RESULTS.json、逐用户/类统计和描述性不确定性、权重/预测/ID/配置，私有Drive备份并重新认证下载核SHA。优先让上面的既有收尾进程完成，不并发启动第二份审计。
 
 冻结继续门槛：ordered相对legacy>=1pp、相对static>=0.5pp、6/8胜static、最差用户不低于legacy。失败就停止本配置网格；通过才独立训练seed、相对矩/纯矩消融及最近邻全文审查。现阶段只读OpenCV矩教程/代码和DSAE第三方实现，不能说完成原论文复现或全文核查。用户目标仍未完成；已知模块拼接本身不是新算法。自动接续继续，仅有实质变化时通知。
 

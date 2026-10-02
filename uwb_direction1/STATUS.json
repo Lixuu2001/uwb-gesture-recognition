@@ -61,7 +61,7 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1790977228.9974864,
+  "background_training_observed_unix": 1790978139.2344933,
   "background_training_pid": 14004,
   "background_training_status_note": "Observed non-zombie process plus epoch checkpoint; historical circular queue remains completed",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
@@ -100,20 +100,24 @@
   "latest_source_diagnostic": "results/cloud_20261002_moments/SUMMARY.json",
   "moment_guided_protocol_commit": "213cd840871d32dbdd611f03937f16b9c60ed310",
   "moment_guided_results_path": "/workspace/uwb-moment-guided-runs-20261002",
-  "moment_guided_completed_runs": 0,
+  "moment_guided_completed_runs": 1,
   "moment_guided_expected_runs": 16,
   "moment_guided_checkpoint_observed": {
-    "epoch": 6,
-    "validation_ce": 0.043618544936180115,
-    "source_ce": 0.0065687597516766736,
-    "lr": 0.0009415510258524358,
-    "source_ids_sha256": "4cc626c292c7c5afb6e37b840bd421134803a9cd45a42258d217c9e1f4c110bf",
-    "seconds": 19.413736960006645,
+    "epoch": 18,
+    "validation_ce": 0.030326085165143013,
+    "source_ce": 0.00013274567436203884,
+    "lr": 0.0004564815155368674,
+    "source_ids_sha256": "337e03167c15580efa80665e7f43a8a501fee4da75f8bab4f9a1fdf5fb4a4d65",
+    "seconds": 25.74600623297738,
     "state": "training",
     "pid": 14004,
-    "best_epoch": 3
+    "best_epoch": 17
   },
   "moment_guided_log": "/workspace/uwb-moment-guided-train-20261002.log",
   "moment_source_pilot_gate_passed": true,
-  "moment_source_pilot_scope": "Only users3..8 inner LOSO, not outer eight folds"
+  "moment_source_pilot_scope": "Only users3..8 inner LOSO, not outer eight folds",
+  "moment_guided_finalizer_pid": 14201,
+  "moment_guided_finalizer_state_path": "/workspace/uwb-moment-guided-finalizer-state-20261002.json",
+  "moment_guided_finalizer_observed_state": "waiting_for_existing_training",
+  "moment_guided_latest_integrity_monitor": "results/cloud_20261002_moment_guided/MONITOR_WITH_FINALIZER.json"
 }

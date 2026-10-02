@@ -11,3 +11,9 @@ static分支先把时序矩取时间均值再重复，ordered保留顺序；两�
 初始成本探针先整批读取7100条源信号，峰值观测约9.9GB进程RSS，5步外推8.236小时，未过6小时门槛。随后只改成本探针的统计提取为32条分批（正式prepare本就分批），保留原探针文件。第二次相同64条源梯度探针5步loss逐值相同，外推4.644小时，通过同一6小时门槛；不改训练配置/质量门槛。时长只是估计，实际可能波动，两次数据均保留。
 
 完整训练需先提交冻结实现/协议，再启动并核验真实PID/进度。当前此报告描述准备状态，运行状态以后续LAUNCH_VERIFIED.json与STATUS为准。结果保存/workspace/uwb-moment-guided-runs-20261002；矩缓存/workspace/uwb-moment-guided-prepared-20261002；日志/workspace/uwb-moment-guided-train-20261002.log。继续前先查队列/进程，避免重复启动。
+
+## 2026-10-02 运行中完整性检查与自动收尾
+
+训练PID14004继续，观测fold1/ordered第18轮，1/16run完成。仅核查已完成run的4产物SHA、训练/协议/帮助代码SHA与进程；不是完整16模型独立审计，也没有整项新成绩。详见MONITOR_WITH_FINALIZER.json。
+
+收尾PID14201已实际启动并观测waiting_for_existing_training。新增finalize_moment_guided.py等原16run全部完成后才调用独立函数式前向审计，然后汇总固定比较/描述性用户bootstrap并打包白名单最终权重、预测、样本ID、来源代码与配置。不修改训练、不重启失败队列、不自动调整门槛、不上传原始数组。真实未完成队列已检查为拒绝汇总且无输出。完整归档尚未生成，私有Drive上传仍待完成后执行。

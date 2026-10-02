@@ -79,7 +79,8 @@ def main():
             else:assert metrics(y[ids],logits.argmax(1))==r['metrics']
         rows.append({'fold':r['held_user'],'arm':r['arm'],'state':'bitwise_verified','epoch':best['epoch']})
     dump(a.out,{'state':'verified','runs':16,'artifact_sha_checks':64,'source_scaler_checked':True,
-        'functional_forward_bitwise_equal':True,'rows':rows,'audit_script_sha256':digest(__file__)})
+        'functional_forward_bitwise_equal':True,'rows':rows,'audit_script_sha256':digest(__file__),
+        'identity_sha256':digest(a.runs/'identity.json'),'results_sha256':digest(a.runs/'RESULTS.json')})
     print(json.dumps({'state':'verified','runs':16}))
 
 
