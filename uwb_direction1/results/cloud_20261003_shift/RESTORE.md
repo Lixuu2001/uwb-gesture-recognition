@@ -1,0 +1,5 @@
+# 位移诊断恢复
+
+按DRIVE_BACKUP_RECEIPT认证下载，核压缩包SHA后解到新的独立空目录，逐项核ARCHIVE_CONTENTS大小/SHA。diagnostic/含6个预测npz与完整协议、ID、统计/审计；source/含重建所需代码。21个内容文件已上传后认证重下载核SHA。
+
+不重复打包已有权重，六个ERM检查点的SHA在AUDIT.json，来源及私有恢复包见results/cloud_20261003_swad/DRIVE_BACKUP_RECEIPT.json和RESTORE.md。还需要已验证signals.npy缓存。无需Windows机器，无原始数组进入Git。新路径重跑参考RUN_REPORT命令，不覆盖原结果。

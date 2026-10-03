@@ -1,0 +1,48 @@
+{
+  "state": "passed",
+  "models": [
+    {
+      "held": 3,
+      "checkpoint_sha256": "2811793f299eb200ad48e4fcf06d70c84b6781429947977c3fcb43df22fe1fef",
+      "unshifted_logits_equal_cached": true,
+      "first64_six_perturbations_independent_forward_max_error": 0.0,
+      "split_disjoint": true
+    },
+    {
+      "held": 4,
+      "checkpoint_sha256": "eb80f89e83eff9ea468b158afb96bdbaa0f8cca2a1b1025649ab02a89217c7bb",
+      "unshifted_logits_equal_cached": true,
+      "first64_six_perturbations_independent_forward_max_error": 0.0,
+      "split_disjoint": true
+    },
+    {
+      "held": 5,
+      "checkpoint_sha256": "581b1c381ddce9484520105dec09df200176cddb1a07b7754e16f29b6edc9fe2",
+      "unshifted_logits_equal_cached": true,
+      "first64_six_perturbations_independent_forward_max_error": 0.0,
+      "split_disjoint": true
+    },
+    {
+      "held": 6,
+      "checkpoint_sha256": "2513542e0310f46d219d5f2d5f7fc53d531b56de900e7a2e0c7026409b35d6c4",
+      "unshifted_logits_equal_cached": true,
+      "first64_six_perturbations_independent_forward_max_error": 0.0,
+      "split_disjoint": true
+    },
+    {
+      "held": 7,
+      "checkpoint_sha256": "e584efd2809a3a487ce9aa888d9e5242dca571fb25459d869b3f2a1f8f369bbe",
+      "unshifted_logits_equal_cached": true,
+      "first64_six_perturbations_independent_forward_max_error": 0.0,
+      "split_disjoint": true
+    },
+    {
+      "held": 8,
+      "checkpoint_sha256": "8166c3be014d1be40550b2f9a057c442752ffc8e266e634b6c9e22580de80667",
+      "unshifted_logits_equal_cached": true,
+      "first64_six_perturbations_independent_forward_max_error": 0.0,
+      "split_disjoint": true
+    }
+  ],
+  "scope": "Independent shifted forward for first64 of each held user, six perturbations; complete unshifted replay; not all shifted logits independently replayed"
+}

@@ -1,3 +1,19 @@
+# 当前接续：单距离单元位移诊断完成，未触发抗混叠训练筛查（2026-10-03）
+
+**无活动训练。** 先读results/cloud_20261003_shift/RUN_REPORT.md、SUMMARY.json、AUDIT.json、POST_AUDIT.json、DRIVE_BACKUP_RECEIPT.json及research/ANTIALIAS_REVIEW.md。预冻结提交6ebb2e4f先于本轮运行。复用源3–8六个ERM模型（各四训一验证一诊断），7100条、42600个单雷达±1当前距离单元扰动，不评分真实标签，不新增训练。
+
+边界损失≤1%子集的用户等权翻转率：Left0.9912%、Top1.1044%、Right0.7680%；分别14200/13995/13778扰动对。各用户覆盖≥200，但达到5%翻转门槛的用户全部0/6，均未过筛查。停止扩大本位移网格，不据此启动抗混叠训练；不证明不存在混叠/更大位移鲁棒，也不代表准确率高或移位物理上保持标签。
+
+实际76.33秒，成本估计82.49秒低于300秒预算。六模型完整未移位logits逐位重放旧缓存；各首64条六种移位的独立函数式前向最大差0。全部42600边界比/JS/翻转统计独立重算，JS差≤2.47e-16；7100唯一ID与六预测SHA通过。不扩大到全部移位前向都独立重算的声明。
+
+新归档2,920,305字节，私有Drive文件1nw3runGawSgSCnvYw8AMYfxxKTwtAH62，仅owner；认证重下载包SHA及21个内容SHA均验证。SHA=b5839c8594a22c9e4bbc8effa7792c4420d48fb17f133fe35b2a969f1b48395d。原权重不重复打包，以SWAD私有回执及本轮AUDIT逐权重SHA定位。新结果/workspace/uwb-shift-diagnostic-20261003，恢复新空目录，详见RESTORE.md。
+
+文献实读：ICML2019 Zhang作者camera-ready主文§1–5文字/公式/表格/图注，及BlurPool README/源码；未读全补充材料或逐图视觉核查。APS CVPR2021仅作者README。BlurPool、单轴低通、自适应多相采样均已存在，不包装成创新；零填充、GroupNorm、位置敏感头使当前预测变化不能因果归为混叠。
+
+下一不同问题：先核查旧代码与近邻文献的动作起止/静止背景处理，再诊断源用户运动事件占比和时段分布。不重复失败DTW/时间扭曲/距离矩路线，不预设裁剪保留类别语义；这项尚未实现/启动。研究目标未达成，自动接续保留，仅实质变化通知。
+
+以下为历史记录，以本节和实时进程为准。
+
 # 当前接续：距离高低频源内读出完成、互补门槛未过（2026-10-03）
 
 **无活动训练。** 先读results/cloud_20261003_range_frequency/RUN_REPORT.md、SUMMARY.json、AUDIT.json、POST_AUDIT.json、DRIVE_BACKUP_RECEIPT.json及research/RANGE_FREQUENCY_REVIEW.md。54个闭式线性读出已全部结束，不重复启动。冻结代码/协议提交4a52e791e9d5c8e75c36eac8f5d9010bcb5183be先于真实评分。
