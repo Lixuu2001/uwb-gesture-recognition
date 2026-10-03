@@ -1,0 +1,17 @@
+{
+  "state": "saved_statistics_verified",
+  "samples": 7100,
+  "source_ids_independent_reconstruction": true,
+  "saved_ratios_finite_in_projection_bounds": true,
+  "all_saved_medians_recomputed_exactly": true,
+  "projection_checks": {
+    "independent_cosine_matrix_and_loop_projection_passed": true,
+    "orthogonal_energy_decomposition_passed": true,
+    "idempotence_passed": true,
+    "max_absolute_error": 9.908740494779522e-15,
+    "real_first16_max_error": 3.530509218307998e-14
+  },
+  "source_npz_sha256": "5d2a53660ad3d3717cd8bb705a32d0a800ac1ffa81eda1fa17ecb2db65d84393",
+  "prototype_contrast_independently_recomputed": false,
+  "classifier_trained": false
+}
