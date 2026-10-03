@@ -1,0 +1,25 @@
+{
+  "pid": 21027,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/temporal_scale_source.py",
+    "train",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--prepared",
+    "/workspace/uwb-circular-prepared-20260930",
+    "--baseline",
+    "/workspace/uwb-swad-source-runs-20261003",
+    "--out",
+    "/workspace/uwb-temporal-scale-runs-20261003",
+    "--cost",
+    "/workspace/uwb-temporal-scale-cost-20261003/COST.json"
+  ],
+  "log": "/workspace/uwb-temporal-scale-train-20261003.log",
+  "launched_unix": 1791064176.3503487,
+  "preregistered_commit": "09239d6a54b82d22972b945c6a551c78ea0daf21",
+  "training_script_sha256": "30ae2347b0db9c9a8121ae22073ab4af5e3df79b26e3249b69be587a1360d015",
+  "training_started": true,
+  "new_trajectories": 12,
+  "quality_result_available": false
+}

@@ -1,3 +1,11 @@
+## 2026-10-03T21:54:35.487159+00:00 时序轴跨度研究：云端真实启动、初始恢复状态私有备份通过
+
+预注册提交09239d6a54b82d22972b945c6a551c78ea0daf21已正常推送、15文件从远端拉回逐字校验。GitHub连接器读取间歇超时，原生git fetch/push可用；使用/workspace/uwb-temporal-publish-20261003独立detached工作树，最新父88455c7，无force，无原789快照改动。后续优先原生Git，但先fetch最新远端父；不要从旧工作树盲推。
+
+训练PID21027实际存活，当前time2/held3完成epoch11，完成轨迹0/12。运行路径/workspace/uwb-temporal-scale-runs-20261003，日志/workspace/uwb-temporal-scale-train-20261003.log；每次接续先核对/proc与queue/检查点，禁止重复启动。归档watcher PID21039，state=/workspace/uwb-temporal-scale-archive-state-20261003.json；最终完成后仍需私有Drive上传并重新认证下载校验，不能把本地archive当远端备份。
+
+初始epoch2完整model/AdamW/scheduler/RNG/best/tail、两轮segment、全24轮样本顺序及代码/协议等26文件，7,245,346字节档案，已在私有Drive owner-only保存并认证下载逐SHA校验；START_DRIVE_RECEIPT.json含持久ID与每文件SHA。这只是初始快照，不是完整12轨迹备份。START_AUDIT独立功能前向重算全部验证logits及CE逐位一致，训练角色/样本序列一致；未读取诊断输入作评测，尚无新准确率。用户创新/完整验证目标仍未完成，自动接续保留。
+
 ## 2026-10-03T21:46:03.516506+00:00 时序轴跨度干预：已实现/已验证，等待预注册提交后启动
 
 - 最新已完成组DRO负结果及完整备份不变，不重复其配置。

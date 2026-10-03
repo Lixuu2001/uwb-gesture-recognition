@@ -1,0 +1,20 @@
+{
+  "pid": 21039,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/archive_temporal_scale.py",
+    "--runs",
+    "/workspace/uwb-temporal-scale-runs-20261003",
+    "--baseline",
+    "/workspace/uwb-swad-source-runs-20261003",
+    "--out",
+    "/workspace/uwb-temporal-scale-final-20261003",
+    "--log",
+    "/workspace/uwb-temporal-scale-train-20261003.log",
+    "--state",
+    "/workspace/uwb-temporal-scale-archive-state-20261003.json",
+    "--watch"
+  ],
+  "launched_unix": 1791064201.7659318,
+  "preregistered_commit": "09239d6a54b82d22972b945c6a551c78ea0daf21"
+}

@@ -1,0 +1,29 @@
+{
+  "observed_unix": 1791064475.4868772,
+  "queue": {
+    "state": "training",
+    "pid": 21027,
+    "held": 3,
+    "arm": "time2"
+  },
+  "progress": {
+    "epoch": 11,
+    "validation_ce": 0.04897148907184601,
+    "source_ce": 0.0005752942827777897,
+    "lr": 0.0006331154273257477,
+    "source_ids_sha256": "ed412a44eeeb973408375455abd26c8af03e5858b216d9801e6b214d5f2fe8a3",
+    "step": 814,
+    "seconds": 26.106087935040705,
+    "segment_sha256": "1eec94a3bc54fa50d89201598d0dea68e7132f305f4ca3f77027154c043b4144",
+    "state": "training",
+    "pid": 21027,
+    "held": 3,
+    "arm": "time2"
+  },
+  "completed_trajectories": 0,
+  "expected_new_trajectories": 12,
+  "training_process_live": true,
+  "archive_process": 21039,
+  "start_snapshot_backup_verified": true,
+  "no_final_metrics_claim": true
+}
