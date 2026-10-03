@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "scope": "README and full adaptation module only; main papers and SAR sam.py not yet read; no adaptation experiment",
+  "scope": "Tent/SAR README and full adaptation modules; SAR full sam.py and LICENSE, main.py optimizer/lr selected lines. Main papers not read.",
   "sources": [
     {
       "sha": "66de74e9150fc973502c518f3f08944cee343e00",
@@ -17,6 +17,19 @@
     {
       "sha": "c3bd1fa0dc8294133bb9cd21059b9717bfa99b94",
       "url": "https://github.com/mr-eggplant/SAR/blob/main/sar.py"
+    },
+    {
+      "sha": "92f1580afd7313d057e8946d7c93cb9c9683c2d0",
+      "url": "https://github.com/mr-eggplant/SAR/blob/main/sam.py"
+    },
+    {
+      "sha": "1f146d4545980c49e82598c1abcf556f4a47f7d6",
+      "url": "https://github.com/mr-eggplant/SAR/blob/main/LICENSE"
+    },
+    {
+      "sha": "8cb9d5ee3076f4b9370b69c4909547dfbee04a34",
+      "url": "https://github.com/mr-eggplant/SAR/blob/main/main.py",
+      "scope": "optimizer/lr lines"
     }
   ]
 }
