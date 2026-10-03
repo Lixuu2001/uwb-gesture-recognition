@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261003_regularized_groups/START_REPORT.md",
+  "latest_report": "results/cloud_20261003_regularized_groups/ARCHIVING.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1791044881.493795,
+  "background_training_observed_unix": 1791046977.609882,
   "background_training_pid": 19340,
-  "background_training_status_note": "Cloud PID19340 active: uniform_base held3 epoch14; 0/18 complete. No final comparison.",
+  "background_training_status_note": "PID19340 active; 3/18 complete; uniform_base held4 epoch17",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -124,7 +124,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Active frozen three-arm source regularization/group-risk queue. Check PID19340/queue_status first; do not duplicate or change parameters. After18 runs audit all predictions and q/sample IDs, privately back up full final states, and evaluate frozen gate. No current efficacy/novelty result.",
-  "last_completed_update_utc": "2026-10-03T16:28:01.492985+00:00",
+  "last_completed_update_utc": "2026-10-03T17:02:57.606602+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -309,30 +309,21 @@
   "regularized_group_results_path": "/workspace/uwb-regularized-group-runs-20261003",
   "regularized_group_log": "/workspace/uwb-regularized-group-train-20261003.log",
   "regularized_group_expected_runs": 18,
-  "regularized_group_completed_runs_at_observation": 0,
+  "regularized_group_completed_runs_at_observation": 3,
   "regularized_group_checkpoint_observed": {
-    "epoch": 14,
-    "validation_ce": 0.05042015761137009,
-    "source_ce": 0.0006840985129626157,
-    "lr": 0.0004403895348510744,
-    "source_ids_sha256": "1df11e83f67b5dd3866edea2c743f10954b76a7ba81a46adbe9d18648da7235a",
-    "step": 1050,
-    "seconds": 25.44964158401126,
-    "segment_sha256": "a743ae02b5b41a02eff847d57b8ef56828ccab6235f6a5b72b1050cd86731d8b",
-    "updates_sha256": "3ec709fefe7b1a7969d48cb99906696f662570ddeba199fd5b0d849b7dd24a09",
-    "logq": [
-      -1.3862943611198906,
-      -1.3862943611198906,
-      -1.3862943611198906,
-      -1.3862943611198906
-    ],
-    "state": "training",
-    "pid": 19340,
-    "held": 3,
-    "arm": "uniform_base"
+    "epoch": 17,
+    "step": 1275
   },
   "regularized_group_estimated_hours": 5.082283759889833,
   "regularized_group_start_backup_verified": true,
   "regularized_group_start_backup_receipt": "results/cloud_20261003_regularized_groups/START_DRIVE_RECEIPT.json",
-  "regularized_group_final_results_available": false
+  "regularized_group_final_results_available": false,
+  "regularized_group_partial_audit": "results/cloud_20261003_regularized_groups/PARTIAL_AUDIT_01.json",
+  "regularized_group_partial_audited_trajectories": 3,
+  "regularized_group_archive_pid": 19639,
+  "regularized_group_archive_state_path": "/workspace/uwb-regularized-group-archive-state-20261003.json",
+  "regularized_group_archive_state": "waiting",
+  "regularized_group_archive_commit": "af96196f102dc70f4f1948d3082ff4df67f316ab",
+  "regularized_group_final_archive_path": "/workspace/uwb-regularized-group-final-20261003",
+  "regularized_group_latest_monitor": "results/cloud_20261003_regularized_groups/MONITOR_02.json"
 }

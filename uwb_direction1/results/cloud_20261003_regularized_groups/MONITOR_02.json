@@ -1,0 +1,22 @@
+{
+  "observed_utc": "2026-10-03T17:02:57.606602+00:00",
+  "training": {
+    "state": "training",
+    "held": 4,
+    "arm": "uniform_base",
+    "pid": 19340
+  },
+  "training_progress": {
+    "epoch": 17,
+    "step": 1275
+  },
+  "completed": 3,
+  "expected": 18,
+  "archive_worker": {
+    "state": "waiting",
+    "pid": 19639,
+    "started_unix": 1791046914.5665944
+  },
+  "partial_audited_trajectories": 3,
+  "whole_study_result_available": false
+}
