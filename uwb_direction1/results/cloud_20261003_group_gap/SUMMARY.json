@@ -1,0 +1,145 @@
+{
+  "seconds": 203.63241345598362,
+  "stages": [
+    {
+      "epoch": 1,
+      "train_worst_error": [
+        0.06363636363636364,
+        0.0825,
+        0.07666666666666667,
+        0.07416666666666667,
+        0.0775,
+        0.08181818181818182
+      ],
+      "val_error": [
+        0.13333333333333333,
+        0.05666666666666668,
+        0.21999999999999995,
+        0.05833333333333333,
+        0.11083333333333334,
+        0.21833333333333335
+      ],
+      "train_worst_ce": [
+        0.22574225919300958,
+        0.26593358765171443,
+        0.24190182099548238,
+        0.212724300319612,
+        0.2432121427473347,
+        0.26189794928742693
+      ],
+      "val_ce": [
+        0.3831753024718014,
+        0.2272929259065909,
+        1.0471707234136314,
+        0.3077007645557123,
+        0.33785621040646824,
+        0.659368386238998
+      ]
+    },
+    {
+      "epoch": 12,
+      "train_worst_error": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "val_error": [
+        0.012499999999999999,
+        0.009166666666666665,
+        0.22,
+        0.039166666666666676,
+        0.045000000000000005,
+        0.1375
+      ],
+      "train_worst_ce": [
+        0.00021899708513841118,
+        0.00037890693243004765,
+        0.00040859941278964307,
+        0.00031461373044502065,
+        0.0003017175614978947,
+        0.00020432155545408034
+      ],
+      "val_ce": [
+        0.05599913168323117,
+        0.04010136962636471,
+        2.0242075969941147,
+        0.2884976965326857,
+        0.13357116452786721,
+        1.0708272312626954
+      ]
+    },
+    {
+      "epoch": 24,
+      "train_worst_error": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "val_error": [
+        0.0075,
+        0.008333333333333333,
+        0.22272727272727275,
+        0.03916666666666667,
+        0.04416666666666667,
+        0.12416666666666666
+      ],
+      "train_worst_ce": [
+        8.016874556292015e-05,
+        0.00015403458046062468,
+        0.0001568318126777557,
+        0.00013242684584767665,
+        0.00012789803822484437,
+        9.353702157841792e-05
+      ],
+      "val_ce": [
+        0.04685959210528786,
+        0.038447005962162974,
+        2.1670384194840246,
+        0.297255084190167,
+        0.13074806756053495,
+        1.1480301857447357
+      ]
+    }
+  ],
+  "qualifying_trajectories": [],
+  "persistent_training_group_gate": false,
+  "models": 18,
+  "source_role_rows": 106500,
+  "files": {
+    "FORWARD_AUDIT.json": "4fd8eacdf1dbe64c57ac06933ff26fb6b7dd9995c106b9b1cf1c3f9a71fef7f3",
+    "GROUPS.json": "9ef9738909630eccbcc9395678244af22d8cad563de8c388c31bd5943f7676bc",
+    "MODELS.json": "2c73b3697ba82634b5930a5855943f6d757b388098c4ce5bc673a7bbf11a5414",
+    "protocol.json": "f587f41761100edaf50ea627539dd0a8c220112876befc4c638747ecca461113",
+    "held6/roles.json": "bb4675b9509a8bddd3547354a48bc65675e8b139b5fa840b59cc3c7864d381cc",
+    "held6/epoch24.npz": "1933e341da30b24d3fa50059fcb3a0471e8d2abdbdc4c415652d098d6a5cfa49",
+    "held6/epoch12.npz": "a8f462b2a52843b0344b5a008942d22072e50be2e9fdb0a92404e045f91ff931",
+    "held6/epoch01.npz": "d13be26fad1fe14d2580ba58f9ffc5867d5d916ae8c4668a5b0ac3825490388e",
+    "held7/roles.json": "e239d8040fc9a3752e2857d9b00158d36c8ec60b836200d15124e790bb49de84",
+    "held7/epoch24.npz": "9059c222fcd1908419655fd730d01444132856ef5cbdc81277833d48456d6ee2",
+    "held7/epoch12.npz": "f9f922903c3bbfaecfaa4264061d35f3b83db0112ef9dd59560438de6bb0885f",
+    "held7/epoch01.npz": "bd0747aa58fccbeea03baccde7e0f79cff1b392fcf46969eb0895178cbd1cadc",
+    "held8/roles.json": "d38408b2a03f153e6517c548ac663002fac5113b86ab0e245704383ae369336b",
+    "held8/epoch24.npz": "b050352254d7a13eb9447247d90f9d3566041be70cb56b51dc72834546abdb2c",
+    "held8/epoch12.npz": "efb547d4b54ddf4e7d0e6a541dd07f8ef226bc194dd487d1899ebcd03d8c7285",
+    "held8/epoch01.npz": "be4222d1e4c45b426be215940178cdfa96ede528213857e0013bb73c50188321",
+    "held5/roles.json": "8219b2441132a4de8df8700e90af462707ca14f8ff37f19c31bfacd844df888b",
+    "held5/epoch24.npz": "bbf79ec4f0835e95516b85233f9cba223ecac0712f0f0e8957d5631d232d177b",
+    "held5/epoch12.npz": "a60776f4ea10c8ed303f8ff3c204de621ce016986ae1b6bb0e566990f082261d",
+    "held5/epoch01.npz": "71a71209a03a997329a07736eb5884a6682f7b3c0e57dcafa109ff9fd7ed58be",
+    "held4/roles.json": "fc83d2cf2d1da8e5ac3747af37a66584f94a509996d846907f99c99ef85e3f41",
+    "held4/epoch24.npz": "1221882ead5bc449cbd1215586ce46db984d15c25f5f1d2f110ea9ab1b56ee54",
+    "held4/epoch12.npz": "f30be91d8f35bceec2c121ea2a8ee54a688371f4aae9e2a8797c876dc6f737a4",
+    "held4/epoch01.npz": "0593ddc6111cc7a2460b1f9716157d3f70582677dcaa41bbe968458593f8397f",
+    "held3/roles.json": "1de01f20016f56ef2d8e9c1fd84fad1e88e0d2d78dcdc5742de96224d680f108",
+    "held3/epoch24.npz": "e6a880899ffcd8b993f923e1e3220e570bfccb339b72dec6ae2e19ca044482fe",
+    "held3/epoch12.npz": "dd4716d19c96476b521631093c258af61e8f62c76ea6dc09728248c26181bd36",
+    "held3/epoch01.npz": "dfd3ec58e45653694a79071b0254628305bb98301c2b548fa875920abf7707ed"
+  },
+  "scope": "Source train and validation roles only; six overlapping trajectories, not independent samples. No held classification, training, reweighting, or novel method result."
+}

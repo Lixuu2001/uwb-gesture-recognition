@@ -29,6 +29,10 @@ def main(root):
   for epoch in c['gate']['epochs']:
    row=next(x for x in recomputed if x['held']==h and x['epoch']==epoch);e=[x['macro_error'] for x in row['roles']['train'].values()];passes.append(max(e)>=.05 and max(e)-min(e)>=.03)
   if all(passes):qualifying.append(h)
+ for stage in s['stages']:
+  rr=[r for r in recomputed if r['epoch']==stage['epoch']]
+  for field,role,metric,agg in [('train_worst_error','train','macro_error',max),('val_error','val','macro_error',max),('train_worst_ce','train','macro_ce',max),('val_ce','val','macro_ce',max)]:
+   ref=[agg(v[metric] for v in r['roles'][role].values()) for r in rr];np.testing.assert_allclose(stage[field],ref,rtol=0,atol=1e-12)
  assert qualifying==s['qualifying_trajectories'];assert (len(qualifying)>=4)==s['persistent_training_group_gate'];assert total==s['source_role_rows'];raw=json.loads((root/'FORWARD_AUDIT.json').read_text());assert len(raw)==72 and all(x['max_error']<2e-5 for x in raw)
  dump(root/'AUDIT.json',dict(passed=True,artifact_sha256=len(s['files']),checkpoint_sha256=len(models),group_cells=count,rows=total,max_independent_CE_error=maxerr,independent_forward_batches=len(raw),max_forward_error=max(x['max_error'] for x in raw),held_signal_excluded=True,gate_recomputed=True))
  print(json.dumps(dict(passed=True,group_cells=count,rows=total,qualifying=qualifying)))
