@@ -1,3 +1,23 @@
+# 当前接续：共享参数直接干预已启动（2026-10-03）
+
+**云端活动训练已核实。** 预注册fd4d754b57f2aa2787d7d896eee9e26828cd234e；PID16830，/workspace/uwb-sharing-source-runs-20261003，日志同前缀.log。观测2026-10-03T08:11:55.494Z时进程R、held3/untied128第19轮1406步检查点，完成0/12新轨迹。先查实时queue_status.json、进程和progress.pt，禁止重复启动。此为有时间戳的观察，不保证以后仍活跃；后续状态以实时文件为准。
+
+先读research/VIEW_SHARING_PROTOCOL.json以及results/cloud_20261003_view_sharing/{RUN_REPORT,TESTS,COST,LIVE_OBSERVATION,START_DRIVE_RECEIPT,BASELINE_STATE_DRIVE_RECEIPT,RESTORE}.json/md。代码tools/view_sharing_source.py、view_sharing.py、audit_view_sharing.py、test_view_sharing.py均已入Git。
+
+直接检验解除共享是否有收益：shared128(265836参数)复用既有SWAD源先导的ERM/固定尾均值；untied128(351788)和shared177(351145)各六个源3–8轨迹，24轮，288新epoch。每轨迹下一源用户验证、其余四用户训练，诊断用户只在全部权重选择完成后评分，不新分析用户1/2。主结果固定13–24轮逐更新平均；ERM次要，SWAD失败窗口不再进入选择。两个新臂依次按held交错跑，不依据中途诊断结果改变剩余配置。
+
+初始untied与shared128真实batch64 logits逐位相同；独立前向、独立参数存储、合成数据断点续训/诊断标签及输入隔离检查通过。新共享训练器真实首轮指标和所有段权重逐位复现旧基线，因此不另训六条共享128。源码/环境/数据/基线文件哈希匹配。估算含75%余量3.179小时通过预设4小时成本门槛；实际新训练每轮约23秒(初始观测)，最终总时长待统计，不是效果结论。
+
+固定推进门槛：untied尾均值对shared128平均>=+0.5pp、对shared177>=+0.25pp，分别>=4/6用户正增益，最差用户分别不下降超过1pp。任一失败则不调宽度/窗口/种子、不扩八折。通过才考虑同协议八折和共享位置消融；独立encoder本身已有，创新目标仍未达成。不能用ERM临时替换尾均值主结果，也不能把源六折当旧LTR八折。
+
+队列完成自动写AUDIT.json、SUMMARY.json；独立函数式复算18轨迹×2选择器的验证/诊断logits，并核对所有ID、选择和哈希。确认审计通过后才报告六源用户最终对照。若进程退出失败，先读错误和进度，仅修复确切实现问题、记录变更；原命令可从每轮model/optimizer/RNG恢复，身份不匹配不能强行复用。精确命令见LAUNCH.json和RESTORE.md。训练中不要改这些脚本、协议及哈希依赖。
+
+私有启动证据包16,462,020字节，30内容文件，包括代码、成本首轮复现和untied第3轮早期续训状态；文件1wWxDl1HoFgx8o9Nv4BBBfxim-h1pxHmI，SHA af87c05f2a8ae7486ebc614f576425fb3687f339d720f00359d75adcf602099c。已认证重下载逐文件核验，**并非12轨迹最终备份**。另外补存六条旧SWAD基线最终progress.pt（原七包未包含优化器）：三个包共89,012,045字节，六原文件SHA与旧result.json完全相同，均仅owner/认证重下载核验。恢复按新RESTORE.md将三包解压到原SWAD恢复目录/runs，原七包仍必需。当前已有数据/基线完整，勿重复下载。
+
+后续须把12新轨迹的完整检查点（含optimizer/RNG）、每轮段模型、预测、日志/配置/样本ID及独立审计按<32MiB私有包保存并重下载SHA核验，再更新GitHub状态/记忆/真实结果。已有基线六模型不能冒充新训练。保持每小时自动接续，仅实质变化通知；不要仅轮询不变状态时写重复进度。
+
+以下是历史记录，所有“无活动训练”“尚未实现”均已被本节更新。
+
 # 当前接续：视角梯度冲突筛查通过，尚无识别干预结果（2026-10-03）
 
 **无活动训练。** 先读results/cloud_20261003_view_grad/RUN_REPORT.md、SUMMARY.json、POST_AUDIT.json、NUMERICS_REPAIR.json、DRIVE_BACKUP_RECEIPT.json、research/VIEW_GRADIENT_REVIEW.md和VIEW_SHARING_INTERVENTION_PLAN.md。原预注册636cf5dc；float32数值核验失败后，4742cd3c仅提高到float64并按实际次数核算成本，没有改研究阈值。不要重复运行已完成诊断。
