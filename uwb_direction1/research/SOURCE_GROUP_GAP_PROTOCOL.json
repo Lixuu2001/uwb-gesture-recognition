@@ -1,0 +1,46 @@
+{
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "epochs": [
+    1,
+    12,
+    24
+  ],
+  "batch": 64,
+  "data": "/workspace/uwb-restored-20260930",
+  "prepared": "/workspace/uwb-circular-prepared-20260930",
+  "models": "/workspace/uwb-swad-source-runs-20261003",
+  "input_sha256": {
+    "cache": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "budget_seconds": 900,
+  "gate": {
+    "epochs": [
+      12,
+      24
+    ],
+    "worst_train_error_min": 0.05,
+    "train_error_gap_min": 0.03,
+    "min_trajectories": 4
+  },
+  "roles": "Existing four training users and one validation user per source trajectory; held diagnostic user excluded; users1/2 never accessed as signal",
+  "aggregation": "class macro within each observed user, then user macro; absent HV6 class3 excluded, never imputed; CE computed float64",
+  "purpose": "Distinguish persistent observed training-group underfit from source-validation generalization gap before naive group-loss reweighting",
+  "decision": "If gate fails do not launch unregularized group-DRO based solely on hard training-user hypothesis. Failure does not reject regularized group DRO or all robust optimization. Gate passing is only permission to design a separate matched control, not accuracy gain.",
+  "limits": [
+    "No target score or checkpoint selection",
+    "No attribution to spurious correlation without controlled evidence",
+    "Class-macro normalization is diagnostic, not identical to official group-DRO training objective",
+    "Fixed endpoint segment averages differ from train-mode dropout losses",
+    "Source validation has research history; not external validation",
+    "Known literature mechanism, not novel algorithm"
+  ]
+}
