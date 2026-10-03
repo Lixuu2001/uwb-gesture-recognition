@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "script_sha256": "7678c504a7e219b807defdccba7db6df0878f36f15642b23f76fd7937550f920",
+    "protocol_sha256": "87cea3b087c21f917c7b9054309923f343cc0c62ab37f98d35bc8c3cbfec4cff",
+    "helper_sha256": {
+      "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+      "probe_range_moments.py": "39b6bb614a58f849cb3b0429c32a46af1c873277cce24dac56861282f6a13a5a",
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "signal_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "moments_sha256": "cbab64bc52a667941a978c63ffc9f9beb5a00839958d15c6af90bac0e618d763",
+    "baseline_result_sha256": {
+      "1": "c64f496d097866be0596ca9291e041aef1a1cf8345f894ccbf94c9746ea82afc",
+      "2": "1bcf9dcd93975e07fe0288c3f5c0e88fe8af05e0511d05a88dbcc537e1cb2c37",
+      "3": "aa61a8a82eeeee83d21c31256d4cd0aded1a7148b2328e04eaa9480dbc56aa28",
+      "4": "f6dc606c3ed916eb3bffcfc65d9c49975026cd7036d765ca17d2d8abda115854",
+      "5": "166936234c3fa0fe750e6a1906aed7c5d0c279f047143c91cca00cc7b1ef68a0",
+      "6": "1ae158d0eb856315c05882c9454f4fa4edf7328644044b9aee614e65284bf428",
+      "7": "2998476e16865c885c8b40b46f50c20b4996e834412bc850bae297b1ebc2e658",
+      "8": "3698f1b0549d143774bef8776a379c5b77cc17099c6dcb35592e62268cfa050f"
+    },
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "protocol": {
+      "date": "2026-10-02",
+      "hypothesis": "An explicit ordered range-distribution descriptor complements local amplitude/phase CNN features across users",
+      "scope": "Exploratory matched-control training, no novelty claim",
+      "arms": [
+        "static",
+        "ordered"
+      ],
+      "seed": 2026,
+      "threads": 3,
+      "batch": 64,
+      "epochs": 32,
+      "min_epochs": 16,
+      "patience": 8,
+      "lr": 0.001,
+      "min_lr": 1e-05,
+      "weight_decay": 0.001,
+      "split": "quality9300; outer test h, val h%8+1, other6 train; h1..8",
+      "selection": "earliest minimum clean validation CE, including epoch0; test only after checkpoint selected",
+      "representation": "original legacy two active channels plus90dim absRF centroid/spread sequence, 15blocks; all input normalization statistics for moment branch fit source6 only",
+      "static": "temporal mean centroid/spread repeated to90 dimensions, otherwise identical network and optimizer",
+      "ordered": "90-dimensional temporally ordered absolute centroid/spread",
+      "architecture": "original compact encoder; separate90->32->32 GELU moment MLP; concatenate1728 CNN plus32 moment features;1760->128 GELU dropout0.2 ->12",
+      "baseline": "reuse SHA-audited compact legacy seed2026 eight folds at /workspace/uwb-circular-runs-20260930; original input/encoder schedule unchanged; static and ordered are parameter-matched but legacy has fewer parameters",
+      "continue_gate": "ordered >= reused legacy +1pp AND >=static +0.5pp AND beatsstatic6/8 AND worst user >=legacy worst; otherwise stop this configuration without parameter grid",
+      "if_pass": "independent training seed, relative-moment and moment-only controls, closest-paper fulltext review; no contribution claim before these",
+      "augmentations": "none",
+      "max_estimated_hours": 6,
+      "cost_gate": "source batch64 gradient probe five steps; extrapolate16*32 epochs plus50percent overhead <=6h",
+      "forbidden": [
+        "test-label fitting or tuning",
+        "physical trajectory claims",
+        "novelty from concatenating known modules",
+        "outer results inferred from source-only pilot",
+        "relative-moment arm chosen from outer test feedback"
+      ]
+    },
+    "fold": 5,
+    "arm": "ordered"
+  },
+  "arm": "ordered",
+  "held_user": 5,
+  "selected_epoch": 1,
+  "selected_val_ce": 1.3071939945220947,
+  "history": [
+    {
+      "epoch": 0,
+      "validation_ce": 2.476810932159424
+    },
+    {
+      "epoch": 1,
+      "validation_ce": 1.3071939945220947,
+      "source_ce": 0.288891694017819,
+      "lr": 0.001,
+      "source_ids_sha256": "9a60291b3d75804e06debe6791b433ec7336c884e37fba4565fbc4122e6f76af",
+      "seconds": 17.343990077992203
+    },
+    {
+      "epoch": 2,
+      "validation_ce": 1.4435960054397583,
+      "source_ce": 0.041029470802417825,
+      "lr": 0.0009976164397027375,
+      "source_ids_sha256": "02f4bc5666db0a48ebfe1b13cfe0ca2032446fff9514a16c77417e2a2deb0f56",
+      "seconds": 23.69054571801098
+    },
+    {
+      "epoch": 3,
+      "validation_ce": 1.6956616640090942,
+      "source_ce": 0.021853219131273884,
+      "lr": 0.0009904887137995992,
+      "source_ids_sha256": "93d3c4ed2f65f2c583663fea70559f5c2ada6a0e1c611a7f93392542af70554b",
+      "seconds": 17.329858540993882
+    },
+    {
+      "epoch": 4,
+      "validation_ce": 1.6235449314117432,
+      "source_ce": 0.014515318912586995,
+      "lr": 0.0009786854661874434,
+      "source_ids_sha256": "ce622db531d4eb92bfab08b72e7febd565761d2fed1b8e55e5d38eaf47ad5c08",
+      "seconds": 20.923190305999015
+    },
+    {
+      "epoch": 5,
+      "validation_ce": 1.5513098239898682,
+      "source_ce": 0.013300712556977358,
+      "lr": 0.0009623203685930871,
+      "source_ids_sha256": "de7ece19c2dbc566dd212ee6105b493078efc8dcb7c224ec1d92205df43fe8a5",
+      "seconds": 18.12569765301305
+    },
+    {
+      "epoch": 6,
+      "validation_ce": 1.8427989482879639,
+      "source_ce": 0.008401780462956854,
+      "lr": 0.0009415510258524358,
+      "source_ids_sha256": "8435c7b42901738838c7363aceb4b10e32bed4e3685dd14586af53ef66128c07",
+      "seconds": 26.033631216996582
+    },
+    {
+      "epoch": 7,
+      "validation_ce": 1.9790174961090088,
+      "source_ce": 0.0033273972233541175,
+      "lr": 0.00091657745808976,
+      "source_ids_sha256": "e3a50a4bd52a9f9f67d11d495ee2f701c70dae6b32aab1f04115dbc1c6327ae7",
+      "seconds": 17.775499207986286
+    },
+    {
+      "epoch": 8,
+      "validation_ce": 2.0947623252868652,
+      "source_ce": 0.0020105484218386534,
+      "lr": 0.0008876401744145548,
+      "source_ids_sha256": "3b3a9b23cc8a028e7a3861c698c67819bced3655c9953486e0295f36db392529",
+      "seconds": 17.563922574016033
+    },
+    {
+      "epoch": 9,
+      "validation_ce": 2.2468535900115967,
+      "source_ce": 0.0007978814594825962,
+      "lr": 0.000855017856687341,
+      "source_ids_sha256": "cab70c9005dc38f8cffe10cde9070813dc42b7c6ddff2f03054edf91e2623f89",
+      "seconds": 20.481656482006656
+    },
+    {
+      "epoch": 10,
+      "validation_ce": 2.186366558074951,
+      "source_ce": 0.00047426543270038174,
+      "lr": 0.0008190246756610045,
+      "source_ids_sha256": "edde93801d1534ba1b15ae90bbb39d5992cb5064e543a301f09a362ab2f1adbc",
+      "seconds": 19.100964409008157
+    },
+    {
+      "epoch": 11,
+      "validation_ce": 2.259284734725952,
+      "source_ce": 0.0002998085836048371,
+      "lr": 0.000780007265344703,
+      "source_ids_sha256": "0ec2350897186d2504b04f4bd78d997e074db8232b2f8078619beecdbb288d05",
+      "seconds": 18.07829287799541
+    },
+    {
+      "epoch": 12,
+      "validation_ce": 2.3453564643859863,
+      "source_ce": 0.00023211189877630594,
+      "lr": 0.0007383413847288689,
+      "source_ids_sha256": "52eb3a7299128a018df416c0f285f9816c95c702fcff5db6e3b2ed621b554b82",
+      "seconds": 18.05547026800923
+    },
+    {
+      "epoch": 13,
+      "validation_ce": 2.3456437587738037,
+      "source_ce": 0.00018453175125510564,
+      "lr": 0.0006944282990207194,
+      "source_ids_sha256": "9956be6789ca98ab02111abc15e699c090223913924addbe305c7485ae0808fd",
+      "seconds": 17.730074435006827
+    },
+    {
+      "epoch": 14,
+      "validation_ce": 2.4147965908050537,
+      "source_ce": 0.00023454940822973316,
+      "lr": 0.0006486909152409587,
+      "source_ids_sha256": "9c3bd4df03ee73e182a542bf2582f8966cf72988bca277b0e484636c92b9e455",
+      "seconds": 25.076635601988528
+    },
+    {
+      "epoch": 15,
+      "validation_ce": 2.4192185401916504,
+      "source_ce": 0.00013446472625946627,
+      "lr": 0.0006015697093979834,
+      "source_ids_sha256": "23589038576897f58db9ba1a210132a0700f5ef23ad9e0c3dfa0d1f29c1250d6",
+      "seconds": 19.59021803899668
+    },
+    {
+      "epoch": 16,
+      "validation_ce": 2.4251770973205566,
+      "source_ce": 0.00013430189497427947,
+      "lr": 0.0005535184844631325,
+      "source_ids_sha256": "78ff3bf8eb19ef3f57130282dcc9bddd5b4783c37b061d16361ea0d9ce98b31f",
+      "seconds": 21.505324130994268
+    }
+  ],
+  "metrics": {
+    "samples": 1200,
+    "accuracy": 0.9608333333333333,
+    "macro_accuracy": 0.9608333333333333,
+    "per_class_accuracy": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.98,
+      "4": 0.99,
+      "5": 0.97,
+      "6": 0.98,
+      "7": 0.94,
+      "8": 0.93,
+      "9": 0.77,
+      "10": 0.98,
+      "11": 0.99
+    },
+    "confusion": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        98,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        99,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        0,
+        97,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        98,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        5,
+        0,
+        0,
+        0,
+        94,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        93,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        19,
+        77,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        98,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        99
+      ]
+    ]
+  },
+  "files": {
+    "best.pt": "36aab292f3ef92fffa1ac4791c3e53e7fa66810b746ad58d7d9d85176d40a0ec",
+    "progress.pt": "b831607d4073f83c5f456ea2d349fdf0dedf44076aa151fbd43d35be5bb01cb7",
+    "predictions.npz": "0c4c3f50b74403587a60f02a92210bf342d48c1c746ce80ef7c1325416994bd9",
+    "split.json": "8afef2889477ec584d523a96e51773da744e15efdca353c9d587fd30f88733da"
+  }
+}

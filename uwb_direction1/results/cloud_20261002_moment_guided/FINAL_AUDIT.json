@@ -1,0 +1,108 @@
+{
+  "state": "verified",
+  "runs": 16,
+  "artifact_sha_checks": 64,
+  "source_scaler_checked": true,
+  "functional_forward_bitwise_equal": true,
+  "rows": [
+    {
+      "fold": 1,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 17
+    },
+    {
+      "fold": 1,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 17
+    },
+    {
+      "fold": 2,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 1
+    },
+    {
+      "fold": 2,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 2
+    },
+    {
+      "fold": 3,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 13
+    },
+    {
+      "fold": 3,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 24
+    },
+    {
+      "fold": 4,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 6
+    },
+    {
+      "fold": 4,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 9
+    },
+    {
+      "fold": 5,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 1
+    },
+    {
+      "fold": 5,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 1
+    },
+    {
+      "fold": 6,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 3
+    },
+    {
+      "fold": 6,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 3
+    },
+    {
+      "fold": 7,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 4
+    },
+    {
+      "fold": 7,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 4
+    },
+    {
+      "fold": 8,
+      "arm": "ordered",
+      "state": "bitwise_verified",
+      "epoch": 10
+    },
+    {
+      "fold": 8,
+      "arm": "static",
+      "state": "bitwise_verified",
+      "epoch": 8
+    }
+  ],
+  "audit_script_sha256": "64a0c5064093ea38823cc696c1e3938aad8ab7443143d92af4e0ae08ada841f9",
+  "identity_sha256": "f2fd0c2a5516291f744118401b91448710411df335d2a7161ebe1c29ca288501",
+  "results_sha256": "b97230a977748e056ff983d9601cf8e1a534ff1df0e44e0d1b1f5b687ba3d51c"
+}

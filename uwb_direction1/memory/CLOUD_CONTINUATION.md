@@ -1,3 +1,17 @@
+# 当前接续：时序矩CNN八折完成、门槛失败、私有备份已核验（2026-10-03）
+
+**当前无活动训练。** PID14004/14201为结束后的僵尸记录，不可称后台训练；16run及自动收尾完整结束。先读results/cloud_20261002_moment_guided/RUN_REPORT.md、SUMMARY.json、FINAL_AUDIT.json、DRIVE_BACKUP_RECEIPT.json。下方历史运行/待审计/待上传状态已过期。
+
+最终八用户宏平均：legacy94.1843%、static94.3155%、ordered93.9231%。ordered比static−0.3924pp、比legacy−0.2612pp，两者均仅3/8改善、描述性用户bootstrap区间跨零。冻结门槛失败，停止此配置的扩种子/相对矩/网格，不改门槛。源先导通过仅说明矩描述含动作信息，不证明其与CNN互补；static小增益也未确立有效新机制。单训练种子、八用户多轮研发，无独立确认数据；用户最终研究目标尚未达成。
+
+16模型独立函数式前向验证/测试logits逐位一致；64产物SHA、源标准化、样本ID/分割、逐轮顺序、选最早最小验证CE、指标通过。298更新epochs计时6403.16秒，不含测试/写检查点/审计。无需重复训练或重跑审计。
+
+模型包/workspace/uwb-moment-guided-final-models-20261002.tar.gz，18,568,289字节，SHA256=e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d；已上传私有Drive文件101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb，父目录1Gtwre9JCxyaeRIjdmLaFY6VwS5F1j-ZA，shared=false仅owner。重新认证下载核SHA通过。67训练产物及审计/必要源码已归档，无原始数组/优化器progress。progress仍在/workspace/uwb-moment-guided-runs-20261002；旧ARCHIVE_RECEIPT uploaded=false仅上传前快照，以DRIVE_BACKUP_RECEIPT为准。
+
+下一步：按research/SWAD_REVIEW.md核查官方默认窗口参数，实现CPU可恢复的密集区间平均与LossValley，并与官方实现数值对照；以legacy训练轨迹保留ERM与固定区间平均控制，先冻结源先导/预算再运行。当前只完成作者README及相关代码核查，没有全文核查、没有实现SWAD、没有启动新训练。SWAD是已有算法，效果若改善仅建立更强基线，不能自动宣称原创贡献。自动接续保持开启，仅实质变化通知，不再重复迁移或本轮审计。
+
+以下为历史记录。
+
 # 当前接续：距离矩先导通过，匹配CNN八折队列（2026-10-02）
 
 ## 20261002_2311 例行接续核查
