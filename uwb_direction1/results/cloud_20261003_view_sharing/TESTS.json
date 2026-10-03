@@ -1,0 +1,8 @@
+{
+  "synthetic_only": true,
+  "original_trainer_shared_trajectory_bitwise_equal": true,
+  "resume_model_optimizer_rng_selection_bitwise_equal_both_arms": true,
+  "held_input_and_label_perturbation_does_not_change_selected_weights": true,
+  "functional_logits_and_artifact_audit_both_arms": true,
+  "independent_encoder_storage_and_initialization_verified": true
+}
