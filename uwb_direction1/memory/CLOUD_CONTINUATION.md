@@ -1,3 +1,13 @@
+## 2026-10-03T23:29:31.246125+00:00 时序队列持续运行，前8条完整轨迹私有备份已验证
+
+原训练PID21027/归档watcher21039仍活动；观察时9/12新轨迹完成，当前range2/held7第10轮。未修改原协议、训练脚本或任何哈希依赖，无重复启动，无中途效果选择。保持固定队列完成后统一评估门槛。
+
+两臂held3..6共8条完成轨迹：独立功能前向重放全部ERM/tail验证/诊断logits逐位相同，240产物SHA及192轮训练样本序列、角色/选模核验通过（120.44秒）。31文件/轨迹，共248成员，16逻辑归档249,848,180字节分40个≤7MiB块。已全部私有owner-only上传、认证raw fetch(include_base64=false)立即物化，逐块SHA、重组整包SHA、248成员SHA全部通过；最大并发3。它是前8条完整轨迹的备份，不是全部12条或正在运行轨迹的最新恢复状态，也不是效果通过。初始epoch2快照仍另存。
+
+索引/凭据：results/cloud_20261003_temporal_scale/PARTIAL_DRIVE_RECEIPT_01.json、PARTIAL_AUDIT_02.json、MONITOR_02.json。持久ID/URL/顺序/字节/SHA都在回执。已验证本地包/workspace/uwb-temporal-scale-final-20261003；transport索引/workspace/uwb-temporal-scale-final-transport-20261003/PARTIAL_INDEX_01.json，逐块records/含远端ID、已下载路径与verified=true。后续全量备份必须复用相同SHA的这40块，补剩余轨迹和最终metadata包，禁止重复上传已验证部分。完整final watcher尚在waiting。
+
+下一步先检查queue/proc/最终SUMMARY与AUDIT：完成后按原门槛处理，失败不搜dilation/kernel/seed/window；通过也仍需边界控制/八折/独立种子及创新证据。当前没有整组六源结论，用户研究目标未完成，自动接续保留。
+
 ## 2026-10-03T22:10:05.020638+00:00 时序研究运行完整性核验（没有整组效果结论）
 
 训练PID21027、归档watcher21039均活动；观察时1/12新轨迹完成，当前range2/held3第22轮。保持原协议/训练源码与所有哈希依赖，不重复启动、不据中途诊断结果挑参数。首条time2/held3已完成并独立重放ERM/tail全部验证及诊断logits逐位相同，30个artifact SHA、24轮源顺序、角色及选模审计通过，耗时11.79秒。只证明完整性，不提供整组效果结论。
