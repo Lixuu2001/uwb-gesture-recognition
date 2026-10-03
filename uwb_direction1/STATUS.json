@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "regularized_group_source_training_running",
+  "state": "regularized_group_source_failed_fully_archived",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,9 +13,9 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "Effective reproducible original contribution unvalidated. Matched regularization/group-DRO source training running; final results, full backup and publication-level checks pending.",
+  "remaining_user_goal": "Effective reproducible original contribution remains unvalidated. Current regularized group-risk source study failed and is fully archived; next temporal-scale hypothesis only in preparation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261003_regularized_groups/ARCHIVING.md",
+  "latest_report": "results/cloud_20261003_regularized_groups/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1791054265.06,
-  "background_training_pid": 19340,
-  "background_training_status_note": "PID19340 active; 14/18 complete; dro_reg held7 epoch18. Frozen configuration and new completed artifacts verified.",
+  "background_training_observed_unix": 1791060093.170086,
+  "background_training_pid": null,
+  "background_training_status_note": "All18 trajectories and final audit complete; training/archive processes exited. No new training started.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/REGULARIZED_GROUP_RATIONALE.md",
+  "latest_literature_note": "research/TEMPORAL_SCALE_REVIEW.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,8 +123,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Active frozen three-arm source regularization/group-risk queue. Check PID19340/queue_status first; do not duplicate or change parameters. After18 runs audit all predictions and q/sample IDs, privately back up full final states, and evaluate frozen gate. No current efficacy/novelty result.",
-  "last_completed_update_utc": "2026-10-03T17:02:57.606602+00:00",
+  "next_candidate": "Temporal convolution scale literature/old-code review only. No new experiment implemented, registered or running; avoid prior failed augmentation/DTW/stage supervision and do not equate convolution span with full receptive field. Need matched controls and source budget before any next training.",
+  "last_completed_update_utc": "2026-10-03T20:41:33.167710+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -179,7 +179,7 @@
   "event_extent_private_backup_verified": true,
   "event_extent_private_backup_file_id": "11SsO13_3NZ5amLq0Q6xutzpOGSW3NKyp",
   "event_extent_private_backup_sha256": "abeb6df54b81208d771bd0897dfa5f5c47f084130107c7125640b0805df2d93b",
-  "latest_review_read_scope": "Group DRO official README including author abstract and reproduced Appendix excerpts, full loss.py; main paper unread. Original snapshot filename search is not exhaustive equivalence review.",
+  "latest_review_read_scope": "InceptionTime official README and complete classifiers/inception.py, classifiers/nne.py, receptive.py; original multiview03_model.py and temporal diagnostic report read. Main paper and images unread.",
   "view_gradient_original_protocol_commit": "636cf5dcbb7a840a2362505938e5a8f1fd31c7f6",
   "view_gradient_numerics_commit": "4742cd3cc47fd503d23122aa261460b9f3604f8a",
   "view_gradient_results_path": "/workspace/uwb-view-grad64-20261003",
@@ -309,24 +309,44 @@
   "regularized_group_results_path": "/workspace/uwb-regularized-group-runs-20261003",
   "regularized_group_log": "/workspace/uwb-regularized-group-train-20261003.log",
   "regularized_group_expected_runs": 18,
-  "regularized_group_completed_runs_at_observation": 14,
+  "regularized_group_completed_runs_at_observation": 18,
   "regularized_group_checkpoint_observed": {
-    "epoch": 18,
-    "step": 1350,
-    "arm": "dro_reg",
-    "held": 7
+    "state": "all18complete_audited"
   },
   "regularized_group_estimated_hours": 5.082283759889833,
   "regularized_group_start_backup_verified": true,
   "regularized_group_start_backup_receipt": "results/cloud_20261003_regularized_groups/START_DRIVE_RECEIPT.json",
-  "regularized_group_final_results_available": false,
+  "regularized_group_final_results_available": true,
   "regularized_group_partial_audit": "results/cloud_20261003_regularized_groups/PARTIAL_AUDIT_01.json",
   "regularized_group_partial_audited_trajectories": 3,
-  "regularized_group_archive_pid": 19639,
+  "regularized_group_archive_pid": null,
   "regularized_group_archive_state_path": "/workspace/uwb-regularized-group-archive-state-20261003.json",
-  "regularized_group_archive_state": "waiting",
+  "regularized_group_archive_state": "complete",
   "regularized_group_archive_commit": "af96196f102dc70f4f1948d3082ff4df67f316ab",
   "regularized_group_final_archive_path": "/workspace/uwb-regularized-group-final-20261003",
   "regularized_group_latest_monitor": "results/cloud_20261003_regularized_groups/MONITOR_04.json",
-  "regularized_group_completed_artifacts_sha256_verified": 742
+  "regularized_group_completed_artifacts_sha256_verified": 954,
+  "regularized_group_gate_passed": false,
+  "regularized_group_final_scores": {
+    "uniform_base": {
+      "erm": 0.9158207070707071,
+      "tail": 0.927840909090909
+    },
+    "uniform_reg": {
+      "erm": 0.9158207070707071,
+      "tail": 0.9279924242424241
+    },
+    "dro_reg": {
+      "erm": 0.9153914141414141,
+      "tail": 0.9284343434343434
+    }
+  },
+  "regularized_group_old_tail_mean": 0.9272222222222223,
+  "regularized_group_final_audit": "results/cloud_20261003_regularized_groups/AUDIT.json",
+  "regularized_group_private_backup_verified": true,
+  "regularized_group_private_backup_receipt": "results/cloud_20261003_regularized_groups/DRIVE_BACKUP_RECEIPT.json",
+  "regularized_group_private_backup_bytes": 563083660,
+  "regularized_group_private_backup_objects": 91,
+  "regularized_group_private_backup_logical_archives": 37,
+  "regularized_group_private_backup_members": 997
 }
