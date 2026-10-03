@@ -1,0 +1,41 @@
+{
+  "observed_utc": "2026-10-03T23:55:05.038072+00:00",
+  "reason": "exec transport disconnected; managed environment returned starting then ready; old training and archiver PIDs absent",
+  "old_queue": {
+    "state": "training",
+    "pid": 21027,
+    "held": 8,
+    "arm": "range2"
+  },
+  "old_archive_state": {
+    "state": "waiting",
+    "pid": 21039,
+    "started_unix": 1791064201.9419427
+  },
+  "completed_runs_verified": 11,
+  "interrupted_run": "range2/held8",
+  "last_complete_epoch": 11,
+  "last_complete_step": 814,
+  "recovery_checkpoint_sha256": "760c47e89210cac1fa67ed4ccd152aa1c4f5b272a9e139f59a1544bf9052cfd0",
+  "resume_from_epoch": 12,
+  "identity_matches_original": true,
+  "original_launch_unchanged": true,
+  "incomplete_epoch_work_will_be_replayed_from_last_saved_rng": true,
+  "new_training_pid": 489,
+  "training_resume_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/temporal_scale_source.py",
+    "train",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--prepared",
+    "/workspace/uwb-circular-prepared-20260930",
+    "--baseline",
+    "/workspace/uwb-swad-source-runs-20261003",
+    "--out",
+    "/workspace/uwb-temporal-scale-runs-20261003",
+    "--cost",
+    "/workspace/uwb-temporal-scale-cost-20261003/COST.json"
+  ],
+  "resumed_unix": 1791071705.0437698
+}

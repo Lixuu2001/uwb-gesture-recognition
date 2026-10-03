@@ -1,3 +1,9 @@
+## 2026-10-03T23:59:38.483267+00:00 云端环境中断后从真实检查点恢复
+
+执行通道断开，environment曾回到starting；恢复后旧训练21027/归档21039均不存在（不是仍运行）。11条已完成轨迹的全部产物和epoch段SHA通过，最后range2/held8留存epoch11、step814完整model/AdamW/scheduler/RNG/best/tail；源码/协议/helper及Torch/NumPy版本均与原identity一致。保存中断前快照/workspace/uwb-temporal-interruption-20261003后用原命令接续，新训练PID489、新归档watcher512。原LAUNCH及日志保留，新增RESUME_01/INTERRUPTION_01/ARCHIVE_RESUME_01。没有重训前11条。
+
+从同epoch11状态在独立目录真实重放第12轮，平均权重张量、验证损失、step元数据与主接续结果逐位相同；文件序列化SHA不同但内容等值，不声称文件字节相同。RESUME_AUDIT_01.json通过，未做诊断推理或改参数。观察时最后轨迹第19轮；尚无整组六源结论。后续首先检查PID489/512与queue，不能再用旧PID判断活动。新增中断证据包interruption-recovery.tar.gz纳入最终私有备份。
+
 ## 2026-10-03T23:29:31.246125+00:00 时序队列持续运行，前8条完整轨迹私有备份已验证
 
 原训练PID21027/归档watcher21039仍活动；观察时9/12新轨迹完成，当前range2/held7第10轮。未修改原协议、训练脚本或任何哈希依赖，无重复启动，无中途效果选择。保持固定队列完成后统一评估门槛。

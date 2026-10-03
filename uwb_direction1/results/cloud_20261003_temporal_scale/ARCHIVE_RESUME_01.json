@@ -1,0 +1,21 @@
+{
+  "old_pid": 21039,
+  "new_pid": 512,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/archive_temporal_scale.py",
+    "--runs",
+    "/workspace/uwb-temporal-scale-runs-20261003",
+    "--baseline",
+    "/workspace/uwb-swad-source-runs-20261003",
+    "--out",
+    "/workspace/uwb-temporal-scale-final-20261003",
+    "--log",
+    "/workspace/uwb-temporal-scale-train-20261003.log",
+    "--state",
+    "/workspace/uwb-temporal-scale-archive-state-20261003.json",
+    "--watch"
+  ],
+  "resumed_unix": 1791071791.9204664,
+  "reason": "Environment interruption; original archiver process absent"
+}

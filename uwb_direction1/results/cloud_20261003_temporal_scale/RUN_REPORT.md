@@ -27,3 +27,7 @@ TESTS.json：功能前向、卷积几何、三臂初值/RNG/参数、普通训�
 两臂held3..6共8条：全部预定ERM/tail验证/诊断logits独立重放逐位一致，240产物SHA与192轮源ID/角色/选模通过。完整248文件，16包249,848,180字节，40传输块全部owner-only上传并认证下载，逐块/重组归档/每成员SHA一致。见PARTIAL_AUDIT_02.json、PARTIAL_DRIVE_RECEIPT_01.json。后续最终备份复用这些已验证块。
 
 观察时9/12轨迹完成，当前range2/held7第10轮，两个进程均活动。此为部分运行完整性和恢复保障，尚无整组效果判定；固定参数和门槛未改变。MONITOR_02.json保留真实观察。
+
+## 环境中断与真实恢复（2026-10-03T23:59:38.483267+00:00）
+
+旧进程在云端环境重连后消失。11条完成结果核验通过，最后range2/held8从epoch11/step814完整状态恢复；新训练PID489，归档PID512。独立真实重放epoch12的平均张量、loss与步数元数据和接续结果逐位一致；没有重复训练已完成轨迹或改协议。见INTERRUPTION_01.json、RESUME_AUDIT_01.json、ARCHIVE_RESUME_01.json。
