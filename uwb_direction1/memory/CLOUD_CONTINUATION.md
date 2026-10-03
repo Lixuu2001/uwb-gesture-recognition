@@ -1,3 +1,13 @@
+# 最新运行核验与自动归档（2026-10-03T08:51:57.104Z）
+
+原训练PID16830仍活动，4/12新轨迹已完成，当前untied128/held5第14轮。先查实时进程与queue，不重复启动；当前没有整组六源用户效果结论，不按中途分数调整配置。首次三个完成轨迹（held3两臂、held4独立臂）独立重放全部验证/诊断logits逐位一致、源ID/选模/87文件哈希核验通过；这只是部分审计，完整18轨迹最终审计仍由原训练队列执行。
+
+新增纯后处理工具tools/archive_view_sharing.py，提交9bcd3fd69af97b9f4e43bd8ee2a33b7cea32be6a，不改训练及其哈希依赖。自动归档PID17076已实际启动且处于waiting，每45秒监视原训练，最多8小时；状态/workspace/uwb-sharing-archive-state-20261003.json，日志/workspace/uwb-sharing-archive-20261003.log。训练complete且原完整审计通过后，独立重算分数/冻结门槛，生成描述性区间，并把12新轨迹全部360文件（含288段权重、12个完整optimizer/RNG状态）分成<32MiB包，输出/workspace/uwb-sharing-final-20261003。只写本地，**不自动上传Drive**。
+
+已用一个真实完成轨迹30文件检验分包和SHA/不可变复用；已有两个本地包40,916,990字节会直接复用，并非完整最终归档或已上传。修改源、损坏归档、危险路径拒绝检查通过。证据见results/cloud_20261003_view_sharing/{ARCHIVING.md,PACKAGING_CHECKS.json,PARTIAL_AUDIT_20261003_01.json,MONITOR_20261003_02.json}。原训练继续；无需重复跑成本/单元检查或另开模型。后续首先看两个PID和归档状态；完成后将全部包私有上传并认证重下载整包/成员SHA，然后发布完整真实报告。门槛失败停止本共享假设扩展，通过仍不等于创新成立。
+
+以下保留启动时记录；带时间戳的旧完成数/epoch以最新实时状态为准。
+
 # 当前接续：共享参数直接干预已启动（2026-10-03）
 
 **云端活动训练已核实。** 预注册fd4d754b57f2aa2787d7d896eee9e26828cd234e；PID16830，/workspace/uwb-sharing-source-runs-20261003，日志同前缀.log。观测2026-10-03T08:11:55.494Z时进程R、held3/untied128第19轮1406步检查点，完成0/12新轨迹。先查实时queue_status.json、进程和progress.pt，禁止重复启动。此为有时间戳的观察，不保证以后仍活跃；后续状态以实时文件为准。

@@ -36,3 +36,9 @@ PID16830，队列/workspace/uwb-sharing-source-runs-20261003、日志同前缀.l
 启动证据包16,462,020字节30内容文件已私有上传并认证重下载逐项SHA验证，含完整代码/协议、成本和首轮匹配证据，以及新untied第3轮早期续训状态，**不是最终12轨迹备份**。文件1wWxDl1HoFgx8o9Nv4BBBfxim-h1pxHmI，详见START_DRIVE_RECEIPT.json。
 
 另补存旧SWAD六条共享基线的原始最终progress.pt：三个<32MiB包，共89,012,045压缩字节，六原状态文件各16,088,729字节，与旧result.json的SHA完全一致。均验证仅owner、认证回下载整包及全部内容SHA。之前七个模型包未包含优化器状态，现三个补充包与旧七包合用可供本实验基线完整状态审计。新包持久ID与哈希见BASELINE_STATE_DRIVE_RECEIPT.json；无需在当前完整环境重复恢复。
+
+## 训练期间复核与自动归档准备
+
+2026-10-03T08:51:57Z核验：原PID16830活动，4/12新轨迹完成，held5独立臂第14轮。没有整组效果结论。已独立核验此前完成的3轨迹（held3两臂、held4独立臂），全部两选择器的验证/诊断logits逐位相同，源ID/选择/87文件SHA通过；未覆盖全部实验，见PARTIAL_AUDIT_20261003_01.json。
+
+纯后处理归档器已在9bcd3fd69af97b9f4e43bd8ee2a33b7cea32be6a保存，PID17076实际等待原队列complete及完整18轨迹审计通过，随后重算固定指标和门槛、按<32MiB包保存全部360新训练产物，包含12个optimizer/RNG和288个段权重。真实首个完整轨迹30文件的分包、重读SHA和不可变复用检查通过；源变化/损坏包/危险成员路径会被拒绝。原训练代码和协议未修改。见ARCHIVING.md、PACKAGING_CHECKS.json、MONITOR_20261003_02.json；归档仅在云端落盘，后续仍需私有Drive上传和认证回下载核验。此阶段不改变预注册判定、不追加模型实验、不新增有效性或创新性结论。
