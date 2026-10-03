@@ -1,3 +1,20 @@
+# 当前接续：SWAD既有方法源用户先导（2026-10-03）
+
+先读results/cloud_20261003_swad/RUN_REPORT.md与LAUNCH_VERIFIED.json，再查/workspace/uwb-swad-source-runs-20261003/queue_status.json和实际进程。新代码/协议已在训练前提交58b6e1e2e13fcf1abf3d091347705521b50cc583。本轮不重跑时序矩或圆周失败配置。
+
+源先导仅用户3–8：循环一人诊断、一人验证、四人训练，共6条24轮轨迹。各轨迹同源梯度同时保留ERM验证最优、固定第13–24轮密集平均、作者LossValley SWAD。官方默认窗口3/6、比例0.3，epoch作为检查区间；1线程、seed2026。原3线程最终探针3.054h未过3h预算，改为1线程1.558h过门槛，保留全部成本证据，不改质量门槛。四项检查（36组官方数值/队列恢复、Dropout优化器中断恢复、诊断标签隔离、真实CNN合成全流程审计）通过，实际源梯度探针与平均模型独立前向通过；都不是识别有效性结论。
+
+训练目录/workspace/uwb-swad-source-runs-20261003；日志/workspace/uwb-swad-source-train-20261003.log。进程自行依序训练6折后审计18个检查点：验证/诊断独立函数式前向逐位、官方LossValley从保存epoch区间模型重放、SHA/ID/选轮次/指标，再写AUDIT.json与SUMMARY.json。没有另启收尾进程。保存全部区间平均与progress中的optimizer/RNG/平均队列，切勿按中途分数改方案或重复启动。
+
+下次先核验实时进程与进度，非僵尸才算活动；complete时才读完整SUMMARY/AUDIT，不要另跑重复审计。failed时读日志并保存现场，必要修复另立身份/目录。若确认原进程已退出但仅运行中状态，可在代码/协议/源SHA一致后同命令恢复（有文件锁），不得与已有进程并发：
+```bash
+python /workspace/uwb-cloud/uwb_direction1/tools/swad_source_pilot.py train --data /workspace/uwb-restored-20260930 --prepared /workspace/uwb-circular-prepared-20260930 --out /workspace/uwb-swad-source-runs-20261003 --cost /workspace/uwb-swad-cost-threads1-20261003.json
+```
+
+冻结继续门槛：SWAD平均比ERM+0.5pp、比固定平均+0.25pp，分别至少4/6改善，最差用户不比ERM低超过1pp。失败停止该配置八折/种子/网格；通过才另冻结原协议八折与强对照。源六用户内成绩不能和旧八折直接相减。SWAD是已有算法，该实验不是原创贡献；论文全文仍未读完。用户目标尚未完成，自动接续继续，只在有实质变化通知。完成后备份最终模型/预测/ID与必要区间模型到私有Drive，认证重下载核SHA，不把大数组/权重进Git。
+
+以下为历史记录，旧“无活动训练”不覆盖本节和实时状态。
+
 # 当前接续：时序矩CNN八折完成、门槛失败、私有备份已核验（2026-10-03）
 
 **当前无活动训练。** PID14004/14201为结束后的僵尸记录，不可称后台训练；16run及自动收尾完整结束。先读results/cloud_20261002_moment_guided/RUN_REPORT.md、SUMMARY.json、FINAL_AUDIT.json、DRIVE_BACKUP_RECEIPT.json。下方历史运行/待审计/待上传状态已过期。

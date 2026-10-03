@@ -106,3 +106,7 @@
 完整16run及独立审计结束：static94.3155%、ordered93.9231%、legacy94.1843%。ordered相对static−0.3924pp、相对legacy−0.2612pp，均3/8改善且描述性区间跨零。未过预冻结门槛，停止扩种子/相对矩/参数网格；源先导通过不等于CNN增益。64产物SHA及16模型验证/测试独立前向逐位通过，298更新epochs共6403.16秒（非含审计总耗时）。18,568,289字节模型包已私有Drive上传并认证下载SHA一致，文件101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb，SHA e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d。完整结果及回执见results/cloud_20261002_moment_guided。
 
 当前无活动训练，PID14004/14201是僵尸历史记录。下一项仅核查了SWAD作者README/相关代码，尚未实现/启动，详见research/SWAD_REVIEW.md；全文核查与论文贡献仍未完成。不能把已有SWAD算法当创新。自动接续继续，最新状态以CLOUD_CONTINUATION顶部与STATUS为准。
+
+## 2026-10-03 SWAD源用户先导实现与冻结
+
+已核查作者默认LossValley窗口3/6、比例0.3，MIT源码来源及CPU适配见SWAD_IMPLEMENTATION_INDEX与swad_core.py。36组官方数值对照及队列恢复、优化器Dropout恢复、诊断标签隔离、真实CNN合成审计等4项通过。仅运行线程选择用成本探针：3线程最终3.054h未过预算，1线程1.558h过原3h门槛，训练/质量参数未改；所有证据保留。代码和源用户六折协议在训练前提交58b6e1e2e13fcf1abf3d091347705521b50cc583。源用户3–8四训练/一验证/一诊断，每条24轮轨迹派生ERM/固定平均/SWAD，原始用户1/2不用于训练/验证/诊断。启动与进度以LAUNCH_VERIFIED和CLOUD_CONTINUATION顶部为准。尚无完整新质量结果，不称SWAD为创新，不重复旧失败配置。
