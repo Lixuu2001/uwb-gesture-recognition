@@ -17,3 +17,7 @@ TESTS.json：功能前向、卷积几何、三臂初值/RNG/参数、普通训�
 每epoch保存精确样本顺序、segment、model/AdamW/scheduler/RNG/tail/best状态；最后所有验证/诊断logits由独立函数前向审计。保留source/data/config SHA。训练根/workspace/uwb-temporal-scale-runs-20261003；日志/workspace/uwb-temporal-scale-train-20261003.log。原大数组不进Git。
 
 扩张卷积、TCN、InceptionTime均既有技术。这里不是这些完整作者模型的复现，没有创新主张。轴向边界填充比例不同仍是混杂，若通过须补边界控制、多种子和八折。失败不搜核长/扩张率/seed/window。用户目标仍未完成。
+
+## 运行中完整性检查（2026-10-03T22:10:05.020638+00:00）
+
+首条time2/held3完成：两种预定权重选择的全部验证/诊断logits经独立功能前向逐位一致；30产物SHA和24轮源样本顺序、角色、选模通过。31文件完整归档两包共31,229,182字节，本地重读及不可变复用通过，尚未上传。此次不汇总中途准确率或更改冻结门槛。观察时1/12完成，后台训练和归档watcher均存活，详见PARTIAL_AUDIT_01.json/MONITOR_01.json。

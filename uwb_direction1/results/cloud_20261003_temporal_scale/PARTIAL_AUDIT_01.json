@@ -1,0 +1,61 @@
+{
+  "state": "passed_partial_integrity_audit",
+  "observed_unix": 1791065318.7260666,
+  "identity": {
+    "script": "30ae2347b0db9c9a8121ae22073ab4af5e3df79b26e3249b69be587a1360d015",
+    "protocol": "09e32ef94e20db6201a093c461010909eab6fbb8e9cd082c6e346c1c398a2676",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "helpers": {
+      "temporal_scale.py": "9052761a3874058fc9caa2576b383ecfb6ab77c3b4a7ca10cb35dcc52b964f3b",
+      "audit_temporal_scale.py": "6962ff8f6b625181ec57c4113c6e2e3580cf75a492e4d6238cdfdcd19727eddf",
+      "test_temporal_scale.py": "c101c3e9686547d2ed57ee5f76f9eb93605683dbe87f1d27c4e5129aa2c92afc",
+      "swad_source_pilot.py": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc",
+      "swad_core.py": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4",
+      "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "baseline_result_hashes": {
+      "3": "1e506a5447fa10839a91221138083444cd93968e1d1c62f9596e358394c38626",
+      "4": "34a742588f22427410ad0940fb5daa581115431628115bdc36a6da42bfba0bd5",
+      "5": "5de2fc764e057a38992ac90996aacf2046c92c811593e26b124ceaa8601a2152",
+      "6": "f0fa95fa590a395e1c79130802475bd4610c694b42a711b082ccf57c45bbf520",
+      "7": "773ec14207b1208a2ada4d1ee56edaa0c3fc14d0e4099460063284e2078ebe48",
+      "8": "26b8ad787bc8f6f7526cbbf627b7332f6d7083b410207eea6fb16f716b1eb8f1"
+    }
+  },
+  "runs": [
+    {
+      "held": 3,
+      "arm": "time2",
+      "functional_logits_bitwise_equal": true,
+      "source_roles_order_selection_verified": true,
+      "artifact_hashes": 30
+    }
+  ],
+  "artifact_hashes_verified": 30,
+  "seconds": 11.790936025965493,
+  "immutable_pack_and_reuse_verified": true,
+  "archive_bytes": 31229182,
+  "archive_members": 31,
+  "archives": [
+    {
+      "name": "time2-held3-part1.tar.gz",
+      "path": "/workspace/uwb-temporal-scale-final-20261003/time2-held3-part1.tar.gz",
+      "bytes": 26272620,
+      "sha256": "d36d4e4adf7c3b248d20155a86fb02d0d920ba76f0f4300edad65bf119afd1c8"
+    },
+    {
+      "name": "time2-held3-part2.tar.gz",
+      "path": "/workspace/uwb-temporal-scale-final-20261003/time2-held3-part2.tar.gz",
+      "bytes": 4956562,
+      "sha256": "1539bc97bb216fd96ff89d571e3125bfc121b198e45cae9fa49ed568323eea87"
+    }
+  ],
+  "uploaded": false,
+  "complete_study": false,
+  "used_to_select_or_tune_candidate": false,
+  "quality_gate_evaluated": false
+}
