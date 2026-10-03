@@ -1,0 +1,137 @@
+{
+  "state": "cost_probe_only",
+  "identity": {
+    "script": "30ae2347b0db9c9a8121ae22073ab4af5e3df79b26e3249b69be587a1360d015",
+    "protocol": "09e32ef94e20db6201a093c461010909eab6fbb8e9cd082c6e346c1c398a2676",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "helpers": {
+      "temporal_scale.py": "9052761a3874058fc9caa2576b383ecfb6ab77c3b4a7ca10cb35dcc52b964f3b",
+      "audit_temporal_scale.py": "6962ff8f6b625181ec57c4113c6e2e3580cf75a492e4d6238cdfdcd19727eddf",
+      "test_temporal_scale.py": "c101c3e9686547d2ed57ee5f76f9eb93605683dbe87f1d27c4e5129aa2c92afc",
+      "swad_source_pilot.py": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc",
+      "swad_core.py": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4",
+      "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "baseline_result_hashes": {
+      "3": "1e506a5447fa10839a91221138083444cd93968e1d1c62f9596e358394c38626",
+      "4": "34a742588f22427410ad0940fb5daa581115431628115bdc36a6da42bfba0bd5",
+      "5": "5de2fc764e057a38992ac90996aacf2046c92c811593e26b124ceaa8601a2152",
+      "6": "f0fa95fa590a395e1c79130802475bd4610c694b42a711b082ccf57c45bbf520",
+      "7": "773ec14207b1208a2ada4d1ee56edaa0c3fc14d0e4099460063284e2078ebe48",
+      "8": "26b8ad787bc8f6f7526cbbf627b7332f6d7083b410207eea6fb16f716b1eb8f1"
+    }
+  },
+  "times": {
+    "shared128": {
+      "step_seconds": [
+        0.4362626950023696,
+        0.3061988429981284,
+        0.3073480830062181,
+        0.3609287699800916,
+        0.3002334379707463
+      ],
+      "median_inference_batch1_seconds": 0.0017707949737086892
+    },
+    "time2": {
+      "step_seconds": [
+        0.3300569449784234,
+        0.300228052015882,
+        0.31179602397605777,
+        0.2947829309850931,
+        0.34650444198632613
+      ],
+      "median_inference_batch1_seconds": 0.0020485520362854004
+    },
+    "range2": {
+      "step_seconds": [
+        0.34093072201358154,
+        0.30170268402434886,
+        0.3178528359858319,
+        0.31462235999060795,
+        0.28683019801974297
+      ],
+      "median_inference_batch1_seconds": 0.0017383599770255387
+    }
+  },
+  "parameters": {
+    "shared128": 265836,
+    "time2": 265836,
+    "range2": 265836
+  },
+  "source_ids": [
+    8783,
+    4967,
+    5125,
+    5008,
+    5864,
+    9054,
+    8144,
+    7921,
+    6892,
+    9314,
+    7280,
+    7635,
+    9008,
+    5385,
+    5966,
+    5338,
+    5283,
+    5659,
+    5067,
+    8991,
+    5948,
+    5175,
+    8907,
+    6218,
+    7138,
+    7715,
+    7508,
+    8147,
+    5184,
+    9161,
+    8397,
+    9588,
+    4971,
+    5394,
+    6855,
+    6298,
+    4936,
+    5789,
+    5410,
+    5031,
+    9448,
+    9128,
+    8174,
+    8290,
+    7089,
+    7829,
+    7324,
+    6650,
+    7350,
+    8927,
+    7547,
+    9292,
+    7766,
+    6575,
+    9110,
+    8773,
+    9131,
+    8523,
+    8748,
+    6950,
+    5378,
+    6740,
+    5595,
+    5421
+  ],
+  "initial_state_tensors_equal": true,
+  "functional_forward_bitwise_equal": true,
+  "real_shared_baseline_epoch1_metrics_and_segment_weights_bitwise_equal": true,
+  "estimated_hours_with_75pct_headroom": 3.195754960551276,
+  "gate_passed": true,
+  "quality_evidence": false
+}

@@ -21,3 +21,14 @@ InceptionTime: Finding AlexNet for Time Series Classification，Ismail Fawaz等�
 若继续，仅考虑同容量、同源3–8角色、同种子/预算/验证选模的卷积时间跨度干预，须保留当前CNN和参数匹配控制；先审核旧vendor编码器/增强调用和新实现实际计算图，再固定唯一干预及CPU预算。不能依据既有用户错误挑选核长，也不能把Inception/扩张卷积/多尺度组合称新方法。长时间覆盖本身是已有技术，只有可复现的机制/对照结果才能决定下一步是否值得研究。
 
 本记录没有新增准确率，没有启动新后台训练，没有改变已完成组DRO方案的主结果选择。下一候选仍处于准备阶段；完整同协议八折、创新贡献和独立验证仍未完成。
+
+
+## 2026-10-03 实现前续核查
+
+实际读完 locuslab/TCN 的完整 README 和 TCN/tcn.py（可定位blob在TEMPORAL_SCALE_IMPLEMENTATION_REVIEW.json）。对应Bai、Kolter、Koltun，2018，*An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling*，arXiv:1803.01271；主文未读。作者模型每层dilation=2**i、两次一维扩张卷积、chomp保证因果、weight norm、ReLU/dropout及残差；作者benchmark是序列任务，不是UWB跨用户证据。这里不复制其代码，不声称复现完整TCN；扩张卷积是已有方法。
+
+又读完旧vendor/uwb_osr/model.py，并核对train.py的Classifier调用（前68行），两文件SHA与原789清单一致。SharedDualPathEncoder把全部90时间token与全部378空间token各自送入带位置嵌入的自注意力；WideHead/标准Transformer分支均无因果局部mask。Classifier读出flatten的双路径token；其他配置还支持bottleneck跨视角交换。它与小CNN扩张控制不是同一实现，但这不证明原创性，也不能说以往没有长时序建模。既有增强/DTW/过程监督失败结论继续保留。
+
+固定干预：当前CNN每块第二个stride1的3x3卷积，时间轴dilation2/padding2；距离轴对照则仅距离维dilation2。最小整数扩张因子2，无核长搜索，未按事件长度或留出错误挑选。三臂均265836参数、完全相同初始化张量、RNG、层数、输出形状与头；stride2卷积保留原样。纯卷积路径跨度由43x43变71x43或43x71，仍不是完整网络RF。空间采样格与边缘填充也改变，90时间/63距离长短不等，因此即使时间优于距离对照，也不能排除填充效应；若门槛通过，必须补边界控制及多种子/同协议八折，不能直接发表“时序跨度因果解释”。
+
+已实现TEMPORAL_SCALE_PROTOCOL.json：源3–8六个固定角色，四人训练、下一人验证、留出人最后诊断。复用已审计普通CNN六条轨迹，并先复现第一轮以排除训练器变更。新跑12轨迹×24轮，唯一主结果仍固定epochs13–24逐更新参数平均；验证CE选模为次结果。时间臂需分别超过基线0.5pp、距离臂0.25pp，各赢至少4/6人，每位差值不低于−1pp；失败即停，不再搜dilation/核长/seed/window。此为开发筛选，全部用户早有研究历史，不是未触碰确认集，也不证明创新。
