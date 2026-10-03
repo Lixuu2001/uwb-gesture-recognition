@@ -1,15 +1,56 @@
 {
-  "study":"View-path decomposition of joint CE on fixed source-training samples",
-  "source_users":[3,4,5,6,7,8],"excluded_users":[1,2],"epochs":[1,12,24],
-  "checkpoint":"Existing SWAD source pilot within-epoch dense average at fixed epoch1/12/24; NOT SWAD-selected or ERM-selected weights. Six four-train/one-validation/one-diagnostic trajectories; validation and diagnostic samples not used here.",
-  "sample_seed":20261003,"per_train_user":96,"batch":32,"expected_batches":216,
-  "sampling":"For each trajectory sample96 without replacement from each of four training users with seed+held; same384 IDs for all3 epochs; contiguous32 batches within each user, no class balancing/tuning.",
-  "gradient":"Eval mode, Dropout disabled; ordinary mean CE of full three-view fusion. For z_v=encoder(x_v), g_v=J_encoder(x_v)^T*dCE/dz_v; head unchanged. Verify sum_v g_v equals full shared-encoder gradient. Encoder convolution and GroupNorm weights/biases included, head excluded. Compute float32 gradients and float64 Gram statistics.",
-  "metrics":["pairwise cosines LT/LR/TR","per-view norm divided by sum of3 norms","norm(sum g) / sum norms","relative sum reconstruction error"],
-  "screen":{"cosine_max":-0.1,"dominant_share_min":0.8,"batch_fraction_min":0.5,"min_epochs":2,"min_trajectories":4},
-  "decision":"Consider a controlled parameter-sharing intervention only if persistent conflict OR dominance passes in>=4 trajectories, each at>=2 fixed epochs and>=half batches. Otherwise do not expand this diagnostic grid or train gradient-balancing on this premise. Passing does NOT establish harm or justify novelty claims; future intervention needs accuracy controls and source-only selection.",
-  "validation":"All216 gradient sums; first batch of each18 checkpoints independently replicated with3 untied encoder copies; saved first-batch gradient vectors allow independent Gram replay. Full model/checkpoint/source-ID hashes recorded.",
-  "cost_budget_seconds":600,
-  "input_sha256":{"cache":"1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f","labels":"d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd","users":"5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"},
-  "limits":["Gradients are contributions to ONE joint objective, not PCGrad task gradients","OGM modality confidence from an additive linear head does not directly decompose the current nonlinear head","Norm imbalance need not mean undertraining; negative dot product need not hurt generalization","Fixed numerical screen is engineering triage, not a theorem","No parameter update, no new checkpoint, no classification evaluation"]
+  "study": "View-path decomposition of joint CE on fixed source-training samples",
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excluded_users": [
+    1,
+    2
+  ],
+  "epochs": [
+    1,
+    12,
+    24
+  ],
+  "checkpoint": "Existing SWAD source pilot within-epoch dense average at fixed epoch1/12/24; NOT SWAD-selected or ERM-selected weights. Six four-train/one-validation/one-diagnostic trajectories; validation and diagnostic samples not used here.",
+  "sample_seed": 20261003,
+  "per_train_user": 96,
+  "batch": 32,
+  "expected_batches": 216,
+  "sampling": "For each trajectory sample96 without replacement from each of four training users with seed+held; same384 IDs for all3 epochs; contiguous32 batches within each user, no class balancing/tuning.",
+  "gradient": "Eval mode, Dropout disabled; ordinary mean CE of full three-view fusion. For z_v=encoder(x_v), g_v=J_encoder(x_v)^T*dCE/dz_v; head unchanged. Verify sum_v g_v equals full shared-encoder gradient. Encoder convolution and GroupNorm weights/biases included, head excluded. Promote stored float32 weights/inputs to float64, compute float64 gradients and Gram statistics; stored weights are not retrained.",
+  "metrics": [
+    "pairwise cosines LT/LR/TR",
+    "per-view norm divided by sum of3 norms",
+    "norm(sum g) / sum norms",
+    "relative sum reconstruction error"
+  ],
+  "screen": {
+    "cosine_max": -0.1,
+    "dominant_share_min": 0.8,
+    "batch_fraction_min": 0.5,
+    "min_epochs": 2,
+    "min_trajectories": 4
+  },
+  "decision": "Consider a controlled parameter-sharing intervention only if persistent conflict OR dominance passes in>=4 trajectories, each at>=2 fixed epochs and>=half batches. Otherwise do not expand this diagnostic grid or train gradient-balancing on this premise. Passing does NOT establish harm or justify novelty claims; future intervention needs accuracy controls and source-only selection.",
+  "validation": "All216 gradient sums; first batch of each18 checkpoints independently replicated with3 untied encoder copies; saved first-batch gradient vectors allow independent Gram replay. Full model/checkpoint/source-ID hashes recorded.",
+  "cost_budget_seconds": 600,
+  "input_sha256": {
+    "cache": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "limits": [
+    "Gradients are contributions to ONE joint objective, not PCGrad task gradients",
+    "OGM modality confidence from an additive linear head does not directly decompose the current nonlinear head",
+    "Norm imbalance need not mean undertraining; negative dot product need not hurt generalization",
+    "Fixed numerical screen is engineering triage, not a theorem",
+    "No parameter update, no new checkpoint, no classification evaluation"
+  ],
+  "numerics_amendment": "First float32 run stopped at sum reconstruction error1.1857e-5>1e-5 before producing research summaries; same held3 epoch12 batch6 gives1.0051e-15 in float64. Use float64 throughout, preserving sample/epoch/quality thresholds. Cost estimate counts216 decompositions plus18 replica checks instead of charging a replica on every batch."
 }

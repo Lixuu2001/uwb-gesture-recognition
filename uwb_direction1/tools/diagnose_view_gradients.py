@@ -101,20 +101,23 @@ def main():
             record=torch.load(path,map_location='cpu',weights_only=False)
             assert record['epoch']==epoch and record['identity']['held']==held
             state={k.removeprefix('module.'):v for k,v in record['average']['weights'].items() if k.startswith('module.')}
-            net=SignalNet();net.load_state_dict(state);net.eval()
+            net=SignalNet();net.load_state_dict(state);net.double();net.eval()
             models[f'{held}_{epoch}']={'path':str(path),'sha256':sha,'kind':'within-epoch dense average; fixed epoch, not validation-selected model'}
             for b in range(0,len(selected),c['batch']):
-                ids=selected[b:b+c['batch']];x=get_batch(cache,ids,'legacy');target=torch.as_tensor(y[ids],dtype=torch.long)
+                ids=selected[b:b+c['batch']];x=get_batch(cache,ids,'legacy').double();target=torch.as_tensor(y[ids],dtype=torch.long)
                 t=time.perf_counter();g,total,logits,loss,err=decompose(net,x,target)
+                decomposition_seconds=time.perf_counter()-t;replica_seconds=0.
                 if b==0:
+                    rt=time.perf_counter()
                     re,le=replica_check(net,x,target,g,logits);rep_errors.append({'held':held,'epoch':epoch,'gradient_relative_error':re,'logit_max_error':le})
+                    replica_seconds=time.perf_counter()-rt
                     audit_grads[f'g_{held}_{epoch}']=g.numpy();audit_grads[f'total_{held}_{epoch}']=total.numpy()
                 gram=g.double()@g.double().T
                 rows.append({'held':held,'epoch':epoch,'batch_index':b//c['batch'],'source_user':int(users[ids[0]]),
                     'ids':ids.tolist(),'gram':gram.tolist(),'ce_train_eval':loss,'sum_relative_error':err,'seconds':time.perf_counter()-t})
                 if a.cost_only:
-                    estimated=rows[-1]['seconds']*c['expected_batches']
-                    a.out.mkdir();dump(a.out/'COST.json',{'seconds_first_batch_including_replica':rows[-1]['seconds'],'estimated_seconds_upper_style':estimated,'budget_seconds':c['cost_budget_seconds'],'passed':estimated<c['cost_budget_seconds'],'training_performed':False})
+                    estimated=decomposition_seconds*c['expected_batches']+replica_seconds*len(c['source_users'])*len(c['epochs'])
+                    a.out.mkdir();dump(a.out/'COST.json',{'seconds_first_batch_including_replica':rows[-1]['seconds'],'decomposition_seconds':decomposition_seconds,'replica_seconds':replica_seconds,'estimated_seconds':estimated,'budget_seconds':c['cost_budget_seconds'],'passed':estimated<c['cost_budget_seconds'],'training_performed':False})
                     print(json.dumps({'cost_seconds':rows[-1]['seconds'],'estimated_seconds':estimated,'passed':estimated<c['cost_budget_seconds']}));return
         print(json.dumps({'completed_trajectory':held,'batches':len(rows)}),flush=True)
     assert len(rows)==c['expected_batches'];a.out.mkdir()
