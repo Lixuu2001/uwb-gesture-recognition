@@ -1,0 +1,12 @@
+{
+  "study":"Temporal concentration of historical phase/amp-change proxies, not true onset detection",
+  "source_users":[3,4,5,6,7,8],"excluded_users":[1,2],"records":7100,
+  "views":["Left","Top","Right"],"retained_mass":0.9,
+  "evidence":"Hilbert along189 range bins; subtract full90-frame complex mean; sum_range sqrt(abs(z[t+1]*conj(z[t])))*abs(angle(product)), and sum_range abs(abs(z[t+1])-abs(z[t])). No per-clip standardization, no view fusion. Normalize each nonnegative89-transition series by its own sum; total<=1e-20 invalid. No duplicated first increment.",
+  "interval":"Earliest shortest continuous interval retaining>=90%-1e-12 of each proxy separately and both jointly. Transition[start,end) corresponds to raw frames[start,end], length=end-start+1. Invalid evidence gets full90-frame interval and never votes for cropping.",
+  "screen":{"max_frames":60,"min_fraction":0.5,"min_users":4},
+  "decision":"Only if at least one view has>=50% of all records with valid joint90%-mass intervals<=60 raw frames in>=4/6 source users, consider a future controlled crop study. Otherwise stop this energy-preserving crop premise; no threshold/mass/proxy grid. Passing is not automatic training authorization by evidence: semantic preservation remains untested.",
+  "label_use":"Labels used only for fixed historical quality mask; no class scores, fitting, model selection, or test-user signals read for analysis. Raw whole-file hashing is integrity checking, not analysis.",
+  "input_sha256":{"X":"3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519","y":"d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd","users":"5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"},
+  "limits":["Original P0 already observed high15-segment fused entropy; new quantity is continuous mass-retaining extent and agreement of two per-view proxies, not a new activity target","Energy may include noise or low-level movement, and low-energy portions can be semantically essential","Full-clip mean and earlier clutter removal prevent claims of causal online onset/early recognition","No verified onset labels, frame timing or per-frame inter-radar synchronization","This numeric 90%/60-frame screen is a preregistered engineering criterion, not a literature theorem or success definition for the research goal"]
+}
