@@ -1,0 +1,35 @@
+{
+  "observed_utc": "2026-10-03T16:28:01.492985+00:00",
+  "pid": 19340,
+  "queue": {
+    "state": "training",
+    "held": 3,
+    "arm": "uniform_base",
+    "pid": 19340
+  },
+  "progress": {
+    "epoch": 14,
+    "validation_ce": 0.05042015761137009,
+    "source_ce": 0.0006840985129626157,
+    "lr": 0.0004403895348510744,
+    "source_ids_sha256": "1df11e83f67b5dd3866edea2c743f10954b76a7ba81a46adbe9d18648da7235a",
+    "step": 1050,
+    "seconds": 25.44964158401126,
+    "segment_sha256": "a743ae02b5b41a02eff847d57b8ef56828ccab6235f6a5b72b1050cd86731d8b",
+    "updates_sha256": "3ec709fefe7b1a7969d48cb99906696f662570ddeba199fd5b0d849b7dd24a09",
+    "logq": [
+      -1.3862943611198906,
+      -1.3862943611198906,
+      -1.3862943611198906,
+      -1.3862943611198906
+    ],
+    "state": "training",
+    "pid": 19340,
+    "held": 3,
+    "arm": "uniform_base"
+  },
+  "completed": 0,
+  "expected": 18,
+  "code_frozen": true,
+  "final_results_available": false
+}

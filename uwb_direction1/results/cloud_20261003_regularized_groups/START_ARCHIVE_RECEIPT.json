@@ -1,0 +1,123 @@
+{
+  "path": "/workspace/uwb-regularized-group-start-20261003.tar.gz",
+  "bytes": 9004704,
+  "sha256": "6508ef194d1ccdfad1ddc79fb8dcf0ef5a8f577215ce2cb365c7cf8cf7574f9a",
+  "contents": {
+    "COST.json": {
+      "bytes": 2966,
+      "sha256": "f8f9f56d3a8b786b3c2741db702cd1868ab8030c81cbb09ed946136f3b812551"
+    },
+    "RESTORE.md": {
+      "bytes": 2826,
+      "sha256": "5be1320d0206ec5ea574d4ff34f619981a961fe38a105478b9faec1fdc013cd0"
+    },
+    "START_AUDIT.json": {
+      "bytes": 654,
+      "sha256": "d35e208644a8d76e04fdb5667555057879e324185eea151e839c94cfa2c8d6ab"
+    },
+    "TESTS.json": {
+      "bytes": 266,
+      "sha256": "70285dd1e1a8577d538e0e80572a79068375ee8718bdeeb6ae9056423a7f9c3f"
+    },
+    "TRAINING_TESTS.json": {
+      "bytes": 411,
+      "sha256": "3377ff948031e9ff7aa3f90ce0ab01cfee57a7be995db256447407d6647ca143"
+    },
+    "audit_circular_signal.py": {
+      "bytes": 5977,
+      "sha256": "db2713d8c3e5386dea552e3189dc67f6ab197088ae26c4e20632518e44eb356d"
+    },
+    "audit_restored.py": {
+      "bytes": 8247,
+      "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+    },
+    "circular_signal.py": {
+      "bytes": 15962,
+      "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+    },
+    "full_view_heads.py": {
+      "bytes": 14594,
+      "sha256": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "identity.json": {
+      "bytes": 1649,
+      "sha256": "721172605b4589dc5c28492bb141944656f2eb056cccec863a80bac471a716d9"
+    },
+    "launch.json": {
+      "bytes": 730,
+      "sha256": "63aed1ec22ec5d7035412aefcaba7efa7c3939cb427f23669d1228b8c829a600"
+    },
+    "progress.pt": {
+      "bytes": 5368254,
+      "sha256": "efd95dc1857e13f6b488ecaca78a189ca90ab4fe04ace5e1d1d92d5127dcea18"
+    },
+    "protocol.json": {
+      "bytes": 2668,
+      "sha256": "29e4a15b2eb5829782cb4cd7486da35d4501ae6d17b3fda2388f8854dfceeb91"
+    },
+    "queue_status.json": {
+      "bytes": 80,
+      "sha256": "a9714e691ae34ca7da03c2906bced55edc4dbb52d0b25339cb539aa9db4d1532"
+    },
+    "regularized_group_source.py": {
+      "bytes": 14727,
+      "sha256": "cb42e88c634d237131a789de423bad0d0dc3caa73a0a2c683a86a93d3523a62b"
+    },
+    "regularized_groups.py": {
+      "bytes": 2042,
+      "sha256": "2e70b04073d34486ec1873bc91443214115ec8bd49f3e3a0103ff8cf7bc22edb"
+    },
+    "segment_01.pt": {
+      "bytes": 1074357,
+      "sha256": "3ace0fc09f7970a08278171cd5d88ca23067cafe2b40334e6b621425bde288ac"
+    },
+    "segment_02.pt": {
+      "bytes": 1074357,
+      "sha256": "e0cbd60708f84413d570a080b67d87dfc38f1935a6035e712afbea5638e9761f"
+    },
+    "segment_03.pt": {
+      "bytes": 1074357,
+      "sha256": "720379f31b75394019f09a054bb8888901f2c66d85037be283e3fe550f02e285"
+    },
+    "segment_04.pt": {
+      "bytes": 1074357,
+      "sha256": "48505c97eb5f835684ab24e2d8f8407326a8a1bc801066f197d1c400056cc1fb"
+    },
+    "split.json": {
+      "bytes": 71057,
+      "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+    },
+    "swad_core.py": {
+      "bytes": 9030,
+      "sha256": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4"
+    },
+    "swad_source_pilot.py": {
+      "bytes": 15906,
+      "sha256": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc"
+    },
+    "test_regularized_group_training.py": {
+      "bytes": 2959,
+      "sha256": "2a7a3ccf6db1095ba3436b2043e208ee7d02e7382b964531f89c94ed688e477f"
+    },
+    "test_regularized_groups.py": {
+      "bytes": 2360,
+      "sha256": "508a410f65c07a3532d7f3443c995825907373d7ba674b2d8730022fe65731b3"
+    },
+    "updates_01.npz": {
+      "bytes": 13084,
+      "sha256": "0d1563bf8e3b2b605efd623f40af3d977b8e6d35240773857a95477593635298"
+    },
+    "updates_02.npz": {
+      "bytes": 13063,
+      "sha256": "ef3bb0ce5ee6b61862de5e3b4a9400380ca99d99fb929914fad98ea759aff3e6"
+    },
+    "updates_03.npz": {
+      "bytes": 13099,
+      "sha256": "ca922f23ba3d1bd534e0d2485077adb166a5a106bbe2cf4c45357dba4b2224cb"
+    },
+    "updates_04.npz": {
+      "bytes": 13056,
+      "sha256": "bba77406f28739cc12f50effb0789fb7faf284350e6977dd195613ff3f44ebdb"
+    }
+  }
+}
