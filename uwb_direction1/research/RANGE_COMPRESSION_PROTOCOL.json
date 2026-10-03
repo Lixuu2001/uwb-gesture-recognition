@@ -1,0 +1,16 @@
+{
+  "study": "Source-only range compression diagnostic, not a classifier or novel algorithm",
+  "source_users": [3,4,5,6,7,8],
+  "excluded_users": [1,2],
+  "expected_records": 7100,
+  "channels": [0,2],
+  "input": "Existing audited float16 cache, normalized amplitude and weighted wrapped analytic phase increment, 90x63 per radar",
+  "widths": [21,7],
+  "transforms": ["block_mean","dct_lowpass"],
+  "metrics": ["clip_energy_retention","temporal_difference_energy_retention","balanced_common_class_prototype_contrast_retention"],
+  "eligibility_gate": {"median_clip_energy_each_view_channel":0.95,"median_temporal_difference_each_view_channel":0.90,"class_contrast_each_view_channel":0.95},
+  "interpretation": "Gate only screens signal fidelity for a possible future matched compression experiment; no accuracy, efficiency, novelty, or generalization claim. Gate failure does not prove removed components are useful rather than noise.",
+  "label_use": "Labels only define descriptive source class/user means; transform has no fitted parameters, no target signals or target label statistics",
+  "missing_cells": "Common classes across all six source users only for prototype contrast; all7100 source clips for energy metrics",
+  "no_adaptive_grid": true
+}
