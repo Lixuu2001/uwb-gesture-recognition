@@ -1,25 +1,17 @@
-# 云端接续与私有恢复
+# 最终私有恢复（2026-10-03）
 
-当前进程PID16830，目录`/workspace/uwb-sharing-source-runs-20261003`，日志`/workspace/uwb-sharing-source-runs-20261003.log`。先查`queue_status.json`和实际进程；活动时不得重复启动。完整12轨迹结束自动做18轨迹ERM/tail的独立推理审计，生成AUDIT.json、SUMMARY.json。未完成审计不能报最终有效性。
+本实验12条新轨迹及6条复用基线已完成，完整审计通过，推进门槛失败。当前没有训练运行，PID16830/17076仅是历史。当前云端文件齐全，不需恢复，也不要重复启动已完成训练。
 
-当前环境原地恢复命令（仅确认旧进程不在运行时执行）：
+最终回执DRIVE_BACKUP_RECEIPT.json包含25逻辑归档、490,011,185字节、46个私有Drive对象。每个逻辑包具有整包bytes/sha256；14包有file_id/url，另11包有有序parts（32块，每块≤8MiB）。全部已经认证下载并核对整包及389成员SHA。旧START包只保留早期历史，不用于替代最终状态；ARCHIVE_RECEIPT.json的uploaded=false是本地打包时快照。
 
-```bash
-python -u /workspace/uwb-cloud/uwb_direction1/tools/view_sharing_source.py train \
-  --data /workspace/uwb-restored-20260930 \
-  --prepared /workspace/uwb-circular-prepared-20260930 \
-  --baseline /workspace/uwb-swad-source-runs-20261003 \
-  --out /workspace/uwb-sharing-source-runs-20261003 \
-  --cost /workspace/uwb-sharing-cost-20261003/COST.json
-```
+环境丢失时按以下顺序恢复，不要求用户重新上传：
 
-脚本持有队列文件锁，并核对源码、协议、准备数据、环境版本和六条基线结果哈希。每轮保存完整model/optimizer/scheduler/RNG、best和tail，恢复会从下一轮继续；已完成结果只在身份和文件SHA一致时跳过。不能清空文件夹或改配置绕过不一致。每轮内中断只能回到上一个完整epoch；确定性样本顺序和RNG保证完整重算该轮。
+1. 原始86文件依migration/20260930/CLOUD_DOWNLOAD_INDEX.json的私有163块恢复并核原SHA。prepared按已有脚本重建并核原SHA。训练源码采用预注册fd4d754b57f2aa2787d7d896eee9e26828cd234e，环境Python3.12、PyTorch2.14.0+cpu、numpy2.3.5；不要混入后续诊断准备代码或修改身份依赖。
+2. 旧共享基线依results/cloud_20261003_swad/RESTORE.md恢复七包至NEW_SWAD/runs，再依BASELINE_STATE_DRIVE_RECEIPT.json的三包补齐六个heldN/progress.pt。仅七包不含optimizer/RNG状态，不能通过本实验基线身份审计。
+3. 本实验最终每个Drive对象先核元数据shared=false、owner权限、父目录及大小，再fetch(download_raw_file=true,include_base64=false)，立即download_file物化；最多3并发，不输出认证URL。每个对象核SHA。含parts的逻辑包严格按数组顺序连接原字节，然后核整个逻辑包bytes/sha256；不能分别解压chunk。
+4. 在全新独立空目录NEW_SHARING恢复。metadata.tar.gz成员含runs/、tools/、research/、cost/等，从NEW_SHARING根解压；其他24模型包成员以untied128/heldN或shared177/heldN开头，从NEW_SHARING/runs解压。先验证各包CONTENTS_SHA256.json与ARCHIVE_RECEIPT.json记录、全部成员的bytes/sha256，再安全提取，拒绝绝对路径、..路径及链接，使用tarfile filter='data'。每包清单保存到独立manifests子目录，不让同名CONTENTS_SHA256.json互相覆盖。已有同SHA目标可跳过，冲突保留且换新目录。
+5. 检查完整结果、所选模型、12个progress.pt和288个segment权重。完整状态含optimizer/scheduler/RNG及平均队列。总389成员=360训练产物+29公共元数据/源码/日志；复用基线另在NEW_SWAD。迁移数据/目录身份需匹配，不改配置绕过校验。历史LAUNCH.json内绝对路径仅供审计，不能直接用于另一环境。
 
-如果原云端目录不在：不要再次要求用户上传。原始86文件按既有私有163块索引恢复，prepared按旧审计脚本重建并核原SHA。源库中Git代码使用本次预注册版本fd4d754b，训练依赖不得漂移。PyTorch2.14.0+cpu，numpy2.3.5，Python3.12；当前Python路径/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python，torch路径/home/agent/.local/lib/python3.12/site-packages/torch。
+本实验已经失败，不因恢复而重新训练。若需要独立复算，使用已冻结审计工具并把baseline、data、prepared、out参数替换为恢复后的对应目录，保存新审计文件，禁止覆盖原始结果。下一候选仅为配对诊断准备，见PAIRING_DEPENDENCE_REVIEW.md，尚无新真实模型实验或增益。
 
-1. 旧共享基线先依`results/cloud_20261003_swad/RESTORE.md`恢复七包，最终结构是NEW_SWAD/runs/{identity.json,protocol.json,held3/...}。再取本目录BASELINE_STATE_DRIVE_RECEIPT.json的三个补充包，将六个heldN/progress.pt恢复到NEW_SWAD/runs/heldN/progress.pt。补充包是原16,088,729字节状态文件的精确字节复制，哈希与原result.json一致，包含optimizer、RNG及平均队列。仅原七包不含这些状态，无法满足本实验基线复用审计。
-2. 本目录START_DRIVE_RECEIPT.json定位新实验早期启动证据包。`tools/`和`research/`包含匹配代码/协议；`cost/COST.json`是身份匹配的成本回执；`runs/`保存新队列元数据及held3 untied128第3轮的完整可恢复状态和第1–3轮段平均。此包只保证早期恢复；晚于第3轮的计算可能需重跑，**不是完整12轨迹最终备份**。
-3. 在新的独立空目录恢复，不能覆盖已有实验结果。每包先元数据核private/owner、大小，再fetch(download_raw_file=true,include_base64=false)、立即download_file物化、核整包SHA和CONTENTS_SHA256.json的所有内容。最多3并发，不打印认证URL。tarfile用filter='data'；对三个旧基线补充包只将清单指定的heldN/progress.pt写入目标，清单另存到各包独立子目录，避免三个同名清单互相覆盖。若目标文件已存在仅在SHA一致时跳过，否则保留冲突并使用新目录。
-4. 用新路径替换命令的--baseline/--out/--cost/代码目录；身份未绑定绝对目录，数据及代码哈希必须完全相同。START包中的旧LAUNCH命令只是历史，不要误指向另一个环境的旧路径。当前环境一切已在磁盘，不需要执行恢复。
-
-最终12轨迹结束还须补存所有新权重、完整进度状态、段权重、日志和逐样本预测，以<32MiB独立私有包上传并认证回下载核验。配置、摘要、文献边界和小日志可进Git；原始数组和大权重不上Git。当前文献与创新边界见VIEW_GRADIENT_REVIEW.md，不能将解除共享本身称为原创方法。
+当前Python位于/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python，torch位于/home/agent/.local/lib/python3.12/site-packages/torch。原始RF/prepared数组和模型大文件均不提交Git。

@@ -1,0 +1,18 @@
+{
+  "state": "preparation_only",
+  "new_real_model_experiment_started": false,
+  "recognition_gain_claimed": false,
+  "original_snapshot_modified": false,
+  "old_fallback_issue": "forced single-fixed-point fallback can duplicate a target; actual historical triggering not established",
+  "new_mapping_tests": {
+    "state": "passed",
+    "non_singleton_same_user_cases": 780,
+    "cross_user_feasible_cases": 924,
+    "cross_user_infeasible_cases": 84,
+    "outside_pool_labels_users_isolated": true,
+    "singletons_explicit": true,
+    "invalid_pools_rejected": true,
+    "real_model_evaluated": false
+  },
+  "next_step": "Freeze training-pool-only clip pairing sensitivity protocol, fixed checkpoints, readings and gate before any model scoring; record bijection and unchanged targets, never construct pairs from held labels."
+}
