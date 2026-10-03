@@ -1,0 +1,132 @@
+{
+  "observed_utc": "2026-10-03T19:04:25.060905+00:00",
+  "training": {
+    "state": "training",
+    "held": 7,
+    "arm": "dro_reg",
+    "pid": 19340
+  },
+  "progress": {
+    "epoch": 18,
+    "step": 1350
+  },
+  "archive": {
+    "state": "waiting",
+    "pid": 19639,
+    "started_unix": 1791046914.5665944
+  },
+  "completed": 14,
+  "expected": 18,
+  "newly_verified_runs": [
+    {
+      "arm": "dro_reg",
+      "held": 6,
+      "artifact_hashes": 53,
+      "result_sha256": "c632acef7d776ab0f7578f567e983e853f88d3a84ee8e829184ae69a39ceba3f"
+    },
+    {
+      "arm": "uniform_base",
+      "held": 7,
+      "artifact_hashes": 53,
+      "result_sha256": "945f937c89e19dbad7e6b504dfc23f63bb7badfdc5307a4eb7dc0e57e0370f2e"
+    },
+    {
+      "arm": "uniform_reg",
+      "held": 7,
+      "artifact_hashes": 53,
+      "result_sha256": "d0613ced76830b36aad66813e108865a107e7e7625e347b03e20b2a21173bbb5"
+    }
+  ],
+  "newly_verified_artifact_hashes": 159,
+  "previous_monitor": "MONITOR_03.json",
+  "cumulative_verified_artifact_hashes": 742,
+  "runs": [
+    {
+      "arm": "dro_reg",
+      "held": 3,
+      "artifact_hashes": 53,
+      "result_sha256": "c876d8e9078e9496fbb2f359dba2a1ea7f5e90f7fc106a271bc00b49396180ad"
+    },
+    {
+      "arm": "dro_reg",
+      "held": 4,
+      "artifact_hashes": 53,
+      "result_sha256": "1d538e0aa017906d7a4624b6f20a8973555db347d7a0e91d92598614b7832e99"
+    },
+    {
+      "arm": "dro_reg",
+      "held": 5,
+      "artifact_hashes": 53,
+      "result_sha256": "e5538d76bcc2f1fec65df1f424712ef3876ed27cb78429647b5dae5590d5b560"
+    },
+    {
+      "arm": "dro_reg",
+      "held": 6,
+      "artifact_hashes": 53,
+      "result_sha256": "c632acef7d776ab0f7578f567e983e853f88d3a84ee8e829184ae69a39ceba3f"
+    },
+    {
+      "arm": "uniform_base",
+      "held": 3,
+      "artifact_hashes": 53,
+      "result_sha256": "675fc9251050850a365c34e3a2d8eba4ed19fd77c95748e2f58d1c5205427613"
+    },
+    {
+      "arm": "uniform_base",
+      "held": 4,
+      "artifact_hashes": 53,
+      "result_sha256": "5d8437aa1141b5a6ed71212b0280baacffc60ca56811b01678f439496a45354a"
+    },
+    {
+      "arm": "uniform_base",
+      "held": 5,
+      "artifact_hashes": 53,
+      "result_sha256": "d8abd5c73656bdb54196572fbcf383657b4c21521a1bb01db40a4023e6baafee"
+    },
+    {
+      "arm": "uniform_base",
+      "held": 6,
+      "artifact_hashes": 53,
+      "result_sha256": "eebe421fb393052294e590a3484e74818b1a11992d77b78cfa476949fa75d71f"
+    },
+    {
+      "arm": "uniform_base",
+      "held": 7,
+      "artifact_hashes": 53,
+      "result_sha256": "945f937c89e19dbad7e6b504dfc23f63bb7badfdc5307a4eb7dc0e57e0370f2e"
+    },
+    {
+      "arm": "uniform_reg",
+      "held": 3,
+      "artifact_hashes": 53,
+      "result_sha256": "90d4affd842550e83fa7ebd31cae5147bb1f32be96cf97b384c0ac8a4dbc5bb4"
+    },
+    {
+      "arm": "uniform_reg",
+      "held": 4,
+      "artifact_hashes": 53,
+      "result_sha256": "a3ff1fa5f57bf95a3b83e547d886b361d81c64b14357f2f787036157b41c5de5"
+    },
+    {
+      "arm": "uniform_reg",
+      "held": 5,
+      "artifact_hashes": 53,
+      "result_sha256": "066aa54ea6a4377278fed8a3a101d6e5468ae8ae5f11126d0081778c4ffe0dc8"
+    },
+    {
+      "arm": "uniform_reg",
+      "held": 6,
+      "artifact_hashes": 53,
+      "result_sha256": "161fb8328e29c15394ff74259509a43b1929e8692860f5d7ed9b1bfc2f771fff"
+    },
+    {
+      "arm": "uniform_reg",
+      "held": 7,
+      "artifact_hashes": 53,
+      "result_sha256": "d0613ced76830b36aad66813e108865a107e7e7625e347b03e20b2a21173bbb5"
+    }
+  ],
+  "frozen_code_protocol_helpers_verified": true,
+  "full_queue_results_available": false,
+  "scope": "Incremental integrity monitor; prior completed-run result hashes unchanged; no new accuracy analysis or parameter changes"
+}
