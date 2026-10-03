@@ -1,0 +1,14 @@
+{
+  "state": "passed",
+  "batches": 216,
+  "models_sha256_checked": 18,
+  "first_batch_vector_gram_replays": 18,
+  "max_gram_absolute_error": 3.6637359812630166e-15,
+  "source_id_uses_per_epoch": 2304,
+  "unique_ids_across_trajectories": 2035,
+  "no_validation_or_diagnostic_ids_used": true,
+  "all_saved_statistics_and_screens_recomputed": true,
+  "diagnostic_only_no_classifier_updates": true,
+  "audit_script_sha256": "2783782f3579a931a98ec708fca07fa62602eea61de4633d06e4291d6d3cc9af",
+  "limits": "18 independently replicated first-batch gradients were checked by producer; post audit replays saved vectors for those18, not all216 backward passes."
+}

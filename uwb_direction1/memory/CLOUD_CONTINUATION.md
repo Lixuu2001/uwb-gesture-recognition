@@ -1,3 +1,19 @@
+# 当前接续：视角梯度冲突筛查通过，尚无识别干预结果（2026-10-03）
+
+**无活动训练。** 先读results/cloud_20261003_view_grad/RUN_REPORT.md、SUMMARY.json、POST_AUDIT.json、NUMERICS_REPAIR.json、DRIVE_BACKUP_RECEIPT.json、research/VIEW_GRADIENT_REVIEW.md和VIEW_SHARING_INTERVENTION_PLAN.md。原预注册636cf5dc；float32数值核验失败后，4742cd3c仅提高到float64并按实际次数核算成本，没有改研究阈值。不要重复运行已完成诊断。
+
+复用六条源3–8轨迹的固定第1/12/24轮内密集平均模型，非验证选定权重；每条轨迹仅四个实际训练用户各96条，2035唯一ID、每时点2304次ID使用、三时点6912次呈现。18检查点216批，不评分相应验证/诊断用户，不分析1/2。持续冲突门槛6/6轨迹通过，单路>=80%范数主导0/216批。三时点冲突分别39/72、57/72、62/72批。是单一CE的视角链式梯度，不是三个独立任务；负内积不证明伤害或泛化改进，不能直接套PCGrad/OGM。
+
+全部216梯度和相对误差最大1.10e-15以下；18首批独立encoder副本梯度/logits逐位一致；后审计18模型SHA、源ID、所有汇总及18首批Gram重算通过。并非216反向全部独立重跑。实际369.20秒不含输入SHA/失败/后审计，估计422.99秒低于600秒。首次float32失败及修复证据均保留。结果/workspace/uwb-view-grad64-20261003、日志同名前缀.log，无新权重。
+
+24,851,904字节26内容文件归档已私有Drive认证重下载核整包和逐内容SHA：文件1rGW6bXazHbQdxipd2GsDkkD_ILeJWoov，仅owner，SHA=66aaaf134d842eedf084fd4813c68a41defcb6cda63e0a58df95c3e8704938d4。含逐批Gram/ID、18首批梯度、源码、失败证据、OGM补充PDF；原18段模型按SWAD私有回执定位，不重复打包。恢复用新空目录，审计--models支持路径映射并保留原索引哈希。
+
+新文献实读：PCGrad README/TF源码，OGM-GE README/训练代码及作者公开4页补充文字/公式/图注，MMPareto README；主论文未读完、图形未视觉核验，不夸大综述完整性。源共享参数抵消与OGM的CE残差抑制、MMPareto的多损失冲突有区别。
+
+下一项具体计划：共享encoder128头、三个独立encoder128头、共享encoder177头的源协议对照。预计参数265836/351788/351145，先实际核数、初始logits等价、匹配24轮训练与固定13–24轮平均强对照、成本门控，再冻结并启动。此项尚未实现/启动；独立encoder本身也不是原创。研究贡献目标未达成，自动接续保留，仅实质变化通知。
+
+以下为历史记录，以本节和实时进程为准。
+
 # 当前接续：活动区间诊断完成，能量裁剪筛查失败（2026-10-03）
 
 **无活动训练。** 先读results/cloud_20261003_event_extent/RUN_REPORT.md、SUMMARY.json、POST_AUDIT.json、DRIVE_BACKUP_RECEIPT.json和research/TEMPORAL_EXTENT_REVIEW.md。协议/实现先于真实运行提交856951f8db8d160019a2e7958897b0ddc3d8b58a，不重新启动。
