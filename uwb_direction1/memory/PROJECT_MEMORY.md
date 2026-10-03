@@ -172,3 +172,15 @@ PID16830已在云端训练；观测2026-10-03T08:11:55.494Z时held3 untied128第
 
 曾考虑单雷达特权蒸馏，查原OOF_PRIVILEGED_KD_PLAN等发现普通KD、去教师和OOF都已失败；不重复。下一项仅阅读CVPR2018 fast-MPN-COV作者README/完整MPNCOV.py、pyRiemann README/完整tangentspace.py，主文未读完，准确范围和blob见research/SECOND_ORDER_REVIEW.md及receipt。协方差平方根池化与Riemannian切空间不同，都是已有方法，不称原创。尚未实现二阶实验。先核查旧矩/encoder池化内容再冻结源内控制、投影维度、数值测试和CPU成本，严禁全数据参考或默认测试时适配。目标仍未完成；自动接续保留。以下为历史记录，旧运行状态已过期。
 
+
+
+# 最新：二阶源先导完整失败（2026-10-03T12:10:20.979142+00:00）
+
+021bd332afcbc311b19dbbe384bc81f904c7295e先冻结后真实执行，六源四训练/一验证/一诊断，共72候选岭、24选定读出。原编码器固定第24轮段平均、48→16固定Gaussian QR投影。grid92.8586%、diag86.1705%、cov89.1124%、主sqrt89.2879%、同第24轮CNN92.7083%、旧尾平均CNN92.7222%。sqrt比diag+3.1174pp但比grid−3.5707pp、比tail−3.4343pp，联合门槛失败；不扩投影/维度/lambda/种子/八折。不能换raw或挑HV6包装成功；不是旧完整八折或端到端iSQRT-COV复现，也不证明所有二阶信息无效。
+
+数值15例cov/SciPy sqrtm（含零和秩亏）、投影正交、空间置换、3组独立岭及角色隔离检查通过，奇异输入SciPy警告保留。实际每折train/val/diagnostic首32样本独立卷积/协方差/矩阵根通过，72候选全量验证与sklearn重拟合一致；后审计全部ID/24文件SHA/选择/分数/门槛通过。完整保存预测、ID、选定权重与scaler、投影、配置/日志。六轨迹106.28秒，CPU1线程，未重训encoder；无训练/适配进程。
+
+results/cloud_20261003_second_order为完整报告。7包13,043,101字节47文件已私有Drive认证回下载，整包和成员SHA一致；回执在DRIVE_BACKUP_RECEIPT.json。原第24轮checkpoint依SWAD旧私有备份恢复，本包不重复存原大encoder；数据/prepared仍在云端，禁止重复下载/覆盖。
+
+下一项只读Tent作者README+tent.py、SAR README+sar.py，主文与sam.py未读完。Tent原版只BN不适配本GN模型；SAR支持GN，但Dropout、空筛选、reset和更新前输出需明确处理。旧new_routes校准使用带标签support，与无标签在线更新不同。见research/UNLABELED_ADAPTATION_REVIEW.md及blob回执。未实现/运行TTA，不声称原创或成功；先补SAM/许可/全文/排重，冻结无标签API、源内验证、先预测后更新、顺序/批次、用户重置及成本。不得用真实目标类别分批或未来批数据，不可把此新部署设定暗称固定模型同协议提升。研究目标仍未完成，自动接续保留。以下历史运行状态已过期。
+

@@ -1,0 +1,27 @@
+# 无标签在线适配：只做源码/协议核查（2026-10-03）
+
+状态：未实现、未预注册、未运行适配实验，没有新效果或原创性结论。二阶冻结读出先导已失败，不继续其投影/参数网格。
+
+## 文献实际读取
+
+[Tent，ICLR2021](https://github.com/DequanWang/tent)，*Tent: Fully Test-Time Adaptation by Entropy Minimization*：完整README和tent.py已读，主文未读。作者例子明确用于解释CIFAR-10-C方法，不保证精确论文复现。configure_model/collect_params只支持BatchNorm2d仿射参数，并改为当前批统计；输出是本次更新前的logits，步数1时更新只影响后续调用。默认episodic=False跨批累积。
+
+[SAR，ICLR2023](https://github.com/mr-eggplant/SAR)，*Towards Stable Test-Time Adaptation in Dynamic Wild World*：完整README和sar.py已读，主文和依赖sam.py尚未读。作者讨论混合域、单样本、在线类别不平衡；collect_params含GroupNorm/LayerNorm/BatchNorm，并跳过部分ResNet/ViT高层。两次熵筛选与SAM两步优化，熵EMA过低触发恢复。代码有空筛选集合可能产生NaN的边界需要进一步实测；不能在未实测时声称作者运行有故障。函数接收reset_constant但判断处硬编码0.2，配置/复现时不可误以为传参即改了实际阈值。SAR也返回更新前logits。
+
+读取blob见UNLABELED_ADAPTATION_REVIEW_RECEIPT.json。两者均是已有算法，不能重命名为UWB创新；README的ImageNet/CIFAR成绩不作为本手势数据效果证据。
+
+## 当前模型与旧路线的区别
+
+当前SignalNet用6个GroupNorm、融合头Dropout0.2，没有BatchNorm。因此原Tent默认collect_params返回空集合，直接套用不成立；GN熵适配必须明确为改动版本。SAR有GN支持，但其model.train会打开当前融合头Dropout；基线/适配比较须显式固定Dropout行为，不能把随机输出变化误当适配。原权重和训练状态须保留独立副本，不能原地覆盖。
+
+实读旧experiments/new_routes/run_calibration.py的选择/目标支持集路径和calibration.py相关入口：旧方法在用户的预设类别上取得带标签support再估计校正，且用支持/查询分割；无标签熵适配的数据流不同。这里只核查代码，不对旧校准结果新作评判，也不允许把旧support标签带入所谓无标签适配。
+
+## 开始前必须固定的比较范围
+
+1. 先补读SAR SAM优化器、许可证、相关主文与旧适配入口，确定是否已做过同等方案。先进行无标签API、空筛选、非有限梯度、重置、GN参数白名单和Dropout控制的合成检查。
+2. 使用既有源3–8划分，学习率/阈值/步数/重置只能由训练与验证角色预先确定。适配函数只接收当前批输入，不接收类别/用户真标签；评分另行离线做，用户边界重置必须明确作为已知部署假设。
+3. 输入顺序用固定ID规则或预冻结的无标签随机排列，绝不按真实类别平衡/分层；记录顺序、批大小、所有更新及快照。原存储顺序没有真实时间戳证明，不能称实测在线手势流。
+4. 区分prequential“先预测再更新”和更新后重评当前批；主指标先预测再更新，不访问未来批/全测试池统计。比较冻结模型、普通GN熵更新和SAR控制；相同初值、相同输入顺序、相同Dropout模式。额外推理/梯度成本与恢复次数完整报告。
+5. 这是允许无标签目标输入更新的另一部署设定，不可默默当作固定模型同协议收益。用户禁止测试标签拟合/调参必须严格满足。先仅源开发先导，失败不搜索目标标签或反复试顺序；通过仍需同设定完整八折强控制与原创贡献核查。
+
+当前没有适配进程。下一步先验证实现和信息边界，再决定是否值得实际运行，不能以降低熵本身当识别成功。

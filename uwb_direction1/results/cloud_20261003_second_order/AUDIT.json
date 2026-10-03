@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "runs": [
+    {
+      "held": 3,
+      "source_roles_verified": true,
+      "all_three_lambda_selection_recomputed": true,
+      "selected_model_shapes_verified": true,
+      "artifact_hashes_verified": 4
+    },
+    {
+      "held": 4,
+      "source_roles_verified": true,
+      "all_three_lambda_selection_recomputed": true,
+      "selected_model_shapes_verified": true,
+      "artifact_hashes_verified": 4
+    },
+    {
+      "held": 5,
+      "source_roles_verified": true,
+      "all_three_lambda_selection_recomputed": true,
+      "selected_model_shapes_verified": true,
+      "artifact_hashes_verified": 4
+    },
+    {
+      "held": 6,
+      "source_roles_verified": true,
+      "all_three_lambda_selection_recomputed": true,
+      "selected_model_shapes_verified": true,
+      "artifact_hashes_verified": 4
+    },
+    {
+      "held": 7,
+      "source_roles_verified": true,
+      "all_three_lambda_selection_recomputed": true,
+      "selected_model_shapes_verified": true,
+      "artifact_hashes_verified": 4
+    },
+    {
+      "held": 8,
+      "source_roles_verified": true,
+      "all_three_lambda_selection_recomputed": true,
+      "selected_model_shapes_verified": true,
+      "artifact_hashes_verified": 4
+    }
+  ],
+  "selected_models": 24,
+  "ridge_fits_checked_by_runtime_sklearn": 72,
+  "all24_artifact_sha256_verified": true,
+  "all_prediction_metrics_and_validation_selections_recomputed": true,
+  "gate_recomputed": true,
+  "scope_limit": "Saved-array audit. Runtime raw logits and independently reconstructed covariance descriptors checked first32 per train/val/diagnostic role, not entire feature maps. Runtime sklearn checked all72 validation predictions; encoder not retrained."
+}
