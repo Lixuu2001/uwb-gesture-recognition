@@ -1,0 +1,439 @@
+{
+  "posthoc": true,
+  "labels_used": false,
+  "rows": [
+    {
+      "held": 3,
+      "order": "storage",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 3,
+      "order": "storage",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.049202680587768555,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.01173557061702013,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 3,
+      "order": "storage",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.050718069076538086,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.01194077543914318,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 3,
+      "order": "storage",
+      "arm": "sar",
+      "max_abs_logit_change": 0.03399229049682617,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.006842168513685465,
+      "nonzero_GN_state_batches": 21
+    },
+    {
+      "held": 3,
+      "order": "shuffle",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 3,
+      "order": "shuffle",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.058667659759521484,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.01094886939972639,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 3,
+      "order": "shuffle",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.059821128845214844,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.010940933600068092,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 3,
+      "order": "shuffle",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0010384321212768555,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0002378180797677487,
+      "nonzero_GN_state_batches": 4
+    },
+    {
+      "held": 4,
+      "order": "storage",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 4,
+      "order": "storage",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.020792484283447266,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.005108020268380642,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 4,
+      "order": "storage",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.020717144012451172,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.005085907410830259,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 4,
+      "order": "storage",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 4,
+      "order": "shuffle",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 4,
+      "order": "shuffle",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.01906108856201172,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.005128571763634682,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 4,
+      "order": "shuffle",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.018877029418945312,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.005072988569736481,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 4,
+      "order": "shuffle",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 5,
+      "order": "storage",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 5,
+      "order": "storage",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.01859426498413086,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.003791145049035549,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 5,
+      "order": "storage",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.01925373077392578,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.003833713009953499,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 5,
+      "order": "storage",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 5,
+      "order": "shuffle",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 5,
+      "order": "shuffle",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.02916741371154785,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0043998537585139275,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 5,
+      "order": "shuffle",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.029941558837890625,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.004441252443939447,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 5,
+      "order": "shuffle",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 6,
+      "order": "storage",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 6,
+      "order": "storage",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.02321338653564453,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.006199984345585108,
+      "nonzero_GN_state_batches": 35
+    },
+    {
+      "held": 6,
+      "order": "storage",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.023053407669067383,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.006085511296987534,
+      "nonzero_GN_state_batches": 35
+    },
+    {
+      "held": 6,
+      "order": "storage",
+      "arm": "sar",
+      "max_abs_logit_change": 0.015574097633361816,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.003498731181025505,
+      "nonzero_GN_state_batches": 23
+    },
+    {
+      "held": 6,
+      "order": "shuffle",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 6,
+      "order": "shuffle",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.018564224243164062,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0057083237916231155,
+      "nonzero_GN_state_batches": 35
+    },
+    {
+      "held": 6,
+      "order": "shuffle",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.021420001983642578,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.005545966327190399,
+      "nonzero_GN_state_batches": 35
+    },
+    {
+      "held": 6,
+      "order": "shuffle",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0073587894439697266,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0008993458468466997,
+      "nonzero_GN_state_batches": 13
+    },
+    {
+      "held": 7,
+      "order": "storage",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 7,
+      "order": "storage",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.0058830976486206055,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.002290964126586914,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 7,
+      "order": "storage",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.005683422088623047,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0022251924965530634,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 7,
+      "order": "storage",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 7,
+      "order": "shuffle",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 7,
+      "order": "shuffle",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.01515960693359375,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0022892735432833433,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 7,
+      "order": "shuffle",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.012117862701416016,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0021426889579743147,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 7,
+      "order": "shuffle",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 8,
+      "order": "storage",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 8,
+      "order": "storage",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.04841172695159912,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.00739755854010582,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 8,
+      "order": "storage",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.04806160926818848,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.007483147084712982,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 8,
+      "order": "storage",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0025234222412109375,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0005710966652259231,
+      "nonzero_GN_state_batches": 3
+    },
+    {
+      "held": 8,
+      "order": "shuffle",
+      "arm": "frozen",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    },
+    {
+      "held": 8,
+      "order": "shuffle",
+      "arm": "entropy",
+      "max_abs_logit_change": 0.05783557891845703,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.007365957368165255,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 8,
+      "order": "shuffle",
+      "arm": "filtered",
+      "max_abs_logit_change": 0.05766105651855469,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.007385557983070612,
+      "nonzero_GN_state_batches": 38
+    },
+    {
+      "held": 8,
+      "order": "shuffle",
+      "arm": "sar",
+      "max_abs_logit_change": 0.0,
+      "changed_argmax": 0,
+      "max_post_update_GN_l2": 0.0,
+      "nonzero_GN_state_batches": 0
+    }
+  ],
+  "interpretation": "Observed update/logit changes are execution checks, not evidence of useful adaptation. Resets correlated with small changes do not prove causation. No parameter search follows."
+}
