@@ -1,3 +1,17 @@
+# 当前接续：距离高低频源内读出完成、互补门槛未过（2026-10-03）
+
+**无活动训练。** 先读results/cloud_20261003_range_frequency/RUN_REPORT.md、SUMMARY.json、AUDIT.json、POST_AUDIT.json、DRIVE_BACKUP_RECEIPT.json及research/RANGE_FREQUENCY_REVIEW.md。54个闭式线性读出已全部结束，不重复启动。冻结代码/协议提交4a52e791e9d5c8e75c36eac8f5d9010bcb5183be先于真实评分。
+
+仅源用户3–8共7100条、五训练/一诊断，固定截止21和256维投影；不是外层八折。低频/高频/混合各视角成绩：Left55.8939/21.5707/54.8030%，Top55.2929/22.2285/55.8687%，Right53.8510/31.7323/53.1793%。只有Right高频过信息门槛，但三路混合均未过互补门槛。Top混合+0.5758pp、3胜1平2负；浮点1e-16不能把持平计胜。停止该配置截止/alpha/投影种子网格，不据此启动全八折。不将阴性结果解释为高频只有噪声。
+
+54模型与sklearn独立拟合一致，162保存产物SHA、7100ID、源标准化重算通过；真实16条独立余弦特征最大差9.05e-14。全特征/模型/存盘/内置审计18.49秒，另有输入SHA与post审计开销。结果目录/workspace/uwb-range-frequency-20261003。228内容文件归档8,641,948字节上传私有Drive文件1H_4mskEocuXioLCyMbIsjyMhCbVWgcMM，目录1QW19MPD9rKbwkSBoUoH1X5ZUZ_K5YZ6t，仅owner；认证重下载整包SHA及逐内容SHA均验证。SHA=3b46765ed21798e58d389aea0212992d1f787fb1bb7ef3d9a9342c92489c1314。含54权重/预测/分割与必要源码，不含可重建特征缓存/原始数组，恢复到新空目录，详见RESTORE.md。
+
+新增文献实读：CVPR2020 HFC作者README/频率代码、作者2021博士论文第2章完整正文/表格/图注（印刷5–16页）。学位论文PDF从作者公开GitHub仓库下载并核blob与SHA，非通过受限域绕路。没有读整本学位论文或独立CVPR全文，也未做图片视觉核查。作者频带训练/原图测试结果不能直接当本诊断同频带训练/测试证据；归一化与高频关联也不证明雷达机制或原创性。
+
+下一不同问题：现有CNN的步长下采样是否对小距离位移产生混叠敏感性。先核查抗混叠CNN文献和原代码，再冻结源信号/冻结源模型的敏感性诊断；不能预设所有距离移位保持标签，不能用外层测试反馈选择。该项尚未实现/启动，不继续失败线性频带网格。研究目标未达成，自动接续保持，仅实质变化通知。
+
+以下为历史记录，以本节和实时进程为准。
+
 # 当前接续：距离压缩源内保真诊断完成（2026-10-03）
 
 **无活动训练。** 先读results/cloud_20261003_range_compression/RUN_REPORT.md、SUMMARY.json、AUDIT.json与research/RANGE_COMPRESSION_REVIEW.md。冻结脚本/协议先于真实诊断提交7daabafe214c6d271c36a91cd60bd3dccbe894ed。原SWAD及更早队列均已结束，不重启。

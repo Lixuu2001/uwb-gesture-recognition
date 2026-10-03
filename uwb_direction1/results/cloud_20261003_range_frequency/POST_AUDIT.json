@@ -1,0 +1,28 @@
+{
+  "state": "passed",
+  "persisted_hashes_verified": 162,
+  "independent_source_ids": 7100,
+  "source_normalization_recomputed_models": 54,
+  "prediction_max_error": 0.0,
+  "exact_fraction_comparison": {
+    "Left": {
+      "mixed_minus_low_exact_mean": -0.01090909090909091,
+      "wins": 2,
+      "ties": 0,
+      "losses": 4
+    },
+    "Top": {
+      "mixed_minus_low_exact_mean": 0.005757575757575757,
+      "wins": 3,
+      "ties": 1,
+      "losses": 2
+    },
+    "Right": {
+      "mixed_minus_low_exact_mean": -0.006717171717171717,
+      "wins": 2,
+      "ties": 0,
+      "losses": 4
+    }
+  },
+  "note": "Top user4 is an exact tie; original floating subtraction ~1e-16 must not be described as a win. All frozen continuation gate outcomes remain false."
+}
