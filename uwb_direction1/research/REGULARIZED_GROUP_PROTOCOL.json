@@ -1,0 +1,64 @@
+{
+  "study": "Matched decoupled weight decay and group-DRO source pilot; existing methods, no novelty claim",
+  "seed": 2026,
+  "threads": 1,
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "arms": [
+    "uniform_base",
+    "uniform_reg",
+    "dro_reg"
+  ],
+  "data": "/workspace/uwb-restored-20260930",
+  "prepared": "/workspace/uwb-circular-prepared-20260930",
+  "baseline": "/workspace/uwb-swad-source-runs-20261003",
+  "input_sha256": {
+    "cache": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "batch": 64,
+  "per_group": 16,
+  "epochs": 24,
+  "lr": 0.001,
+  "min_lr": 1e-05,
+  "weight_decays": {
+    "uniform_base": 0.001,
+    "uniform_reg": 0.01,
+    "dro_reg": 0.01
+  },
+  "group_eta": 0.01,
+  "tail_start_epoch": 13,
+  "optimizer": "AdamW, default betas/eps; decoupled weight decay on all parameters. This is not equivalent to official coupled L2 or an exact paper reproduction.",
+  "sampler": "Per epoch independently permute each of four source-user pools;16 samples per user per batch,75 batches; cyclically repeat shorter pool. Same order for every arm. Within-user present classes originally balanced; no held samples or labels in sampler.",
+  "risk": "Uniform group mean CE or logq <- log_softmax(logq + .01*detach(group_mean_CE)); no adjustment/BTL, missing group is an error",
+  "selection": "Primary: earliest minimum independent validation CE over endpoints0..24; fixed dense tail epochs13..24 is secondary only",
+  "gate": {
+    "mean_gain": 0.005,
+    "wins_each": 4,
+    "max_user_decline": 0.01,
+    "comparators": [
+      "uniform_base primary",
+      "uniform_reg primary",
+      "prior strong tail"
+    ],
+    "primary": "dro_reg endpoint selected on validation CE"
+  },
+  "max_hours": 6.0,
+  "limits": [
+    "Six source users repeatedly developed, not untouched validation or original8 protocol",
+    "18 new trajectories: three identical-capacity arms; original tail reference has different sampling and lower decay, matched comparisons isolate one factor",
+    "No test/diagnostic-label tuning, no regularization/eta/seed/window sweeps on failure",
+    "Group DRO and regularization are established controls, not original contribution",
+    "One fixed10x weight-decay intervention, not proof all regularized DRO succeeds or fails",
+    "Primary cannot be swapped to secondary tail after diagnostic scoring",
+    "No test-time updates, known user IDs only at training",
+    "Author README/full loss.py read; main paper not read"
+  ]
+}
