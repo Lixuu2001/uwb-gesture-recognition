@@ -1,0 +1,56 @@
+{
+  "state": "partial_audit_passed",
+  "observation_unix": 1791017118.4441223,
+  "identity": {
+    "script": "82117b3aef4817d921f09104a9313f59a525bec9dd651b650638bc1c2c45cd05",
+    "protocol": "fc31b199b009e85ef0c7966d7153ba0e6819bdef632e09024ebbfbc5198261cf",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "helpers": {
+      "view_sharing.py": "94c6365104ebf9eca2d2cd99c053fc8999645afbbe0f3cfd415ed8def2abdb56",
+      "audit_view_sharing.py": "a2f14aa1090fb3f4e439141bfb8df18fdca97e5d83b33fd98edec84236d0ae83",
+      "test_view_sharing.py": "e5cfa9f7775267aa4792427b2dc4d31b33aaeccc80e6920d742d568683da43ff",
+      "swad_source_pilot.py": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc",
+      "swad_core.py": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4",
+      "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "baseline_result_hashes": {
+      "3": "1e506a5447fa10839a91221138083444cd93968e1d1c62f9596e358394c38626",
+      "4": "34a742588f22427410ad0940fb5daa581115431628115bdc36a6da42bfba0bd5",
+      "5": "5de2fc764e057a38992ac90996aacf2046c92c811593e26b124ceaa8601a2152",
+      "6": "f0fa95fa590a395e1c79130802475bd4610c694b42a711b082ccf57c45bbf520",
+      "7": "773ec14207b1208a2ada4d1ee56edaa0c3fc14d0e4099460063284e2078ebe48",
+      "8": "26b8ad787bc8f6f7526cbbf627b7332f6d7083b410207eea6fb16f716b1eb8f1"
+    }
+  },
+  "completed_trajectories_audited": 3,
+  "expected_new_trajectories": 12,
+  "runs": [
+    {
+      "held": 3,
+      "arm": "shared177",
+      "functional_logits_bitwise_equal": true,
+      "source_roles_order_selection_verified": true,
+      "artifact_hashes": 29
+    },
+    {
+      "held": 3,
+      "arm": "untied128",
+      "functional_logits_bitwise_equal": true,
+      "source_roles_order_selection_verified": true,
+      "artifact_hashes": 29
+    },
+    {
+      "held": 4,
+      "arm": "untied128",
+      "functional_logits_bitwise_equal": true,
+      "source_roles_order_selection_verified": true,
+      "artifact_hashes": 29
+    }
+  ],
+  "full_experiment_conclusion": false,
+  "numerical_scores_not_used_to_change_training": true
+}
