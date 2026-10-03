@@ -1,0 +1,75 @@
+{
+  "state": "source_pilot_complete",
+  "identity": {
+    "script": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc",
+    "protocol": "9a4792bd7fd5a758abfc3c9a644a36238c897991979fa3eaee57d3c7eb2b36ce",
+    "helpers": {
+      "swad_core.py": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4",
+      "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6",
+      "audit_circular_signal.py": "db2713d8c3e5386dea552e3189dc67f6ab197088ae26c4e20632518e44eb356d",
+      "test_swad_source.py": "4e13566b549cc41aced9282ce96d028e7e6bad44f6aff4c060a09b12c4e673ee"
+    },
+    "official_sources": {
+      "swad.py": "27712a3c5e6441ebb4d6b77d6ccff7703dc575d28f2c91cf5bc796b50cb86fe6",
+      "swa_utils.py": "3d6a1e1aef7e3371129246bcab4709846b4585b757ec304a43d4d1a3c213c31a",
+      "config.yaml": "d0b3081687de2ae5e75d6f65f5c98f9e8429e6ca4f6bc8dfc0f2a940512c3c30",
+      "LICENSE": "09a9e70feb3b54cd7c97fe1f9e44bf255feb54e5e7a79894587fe74dc7777206"
+    },
+    "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5"
+  },
+  "summary": {
+    "erm": {
+      "per_user": [
+        0.8691666666666666,
+        0.9841666666666667,
+        0.9766666666666666,
+        0.7599999999999999,
+        0.9691666666666666,
+        0.9550000000000001
+      ],
+      "mean": 0.9190277777777777,
+      "worst": 0.7599999999999999
+    },
+    "tail": {
+      "per_user": [
+        0.8624999999999999,
+        0.9891666666666667,
+        0.9866666666666667,
+        0.78,
+        0.9666666666666668,
+        0.9783333333333334
+      ],
+      "mean": 0.9272222222222223,
+      "worst": 0.78
+    },
+    "swad": {
+      "per_user": [
+        0.8624999999999999,
+        0.9874999999999999,
+        0.9808333333333333,
+        0.7809090909090909,
+        0.9674999999999999,
+        0.9758333333333334
+      ],
+      "mean": 0.9258459595959595,
+      "worst": 0.7809090909090909
+    }
+  },
+  "paired": {
+    "erm": {
+      "mean_pp": 0.6818181818181817,
+      "wins": 4
+    },
+    "tail": {
+      "mean_pp": -0.1376262626262688,
+      "wins": 2
+    }
+  },
+  "gate_passed": false,
+  "novelty_claim": false,
+  "outer_eight_fold_result": false
+}

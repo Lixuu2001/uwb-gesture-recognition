@@ -1,3 +1,17 @@
+# 当前接续：SWAD源先导完成、门槛失败（2026-10-03）
+
+私有备份已完成并认证重新下载核SHA：Drive目录1f0ETtgSnVcDt5zkuTFka_8mdOQsjkEfH，7文件/162,568,884字节，全部shared=false且仅owner权限。持久下载URL、逐包SHA及大小见DRIVE_BACKUP_RECEIPT.json（报告同目录）。恢复应下载到独立空目录后先核SHA，勿覆盖原结果。
+
+**无活动训练。** 原PID14774为僵尸；六条24轮轨迹与18个选定模型全部完成和审计。先读results/cloud_20261003_swad/RUN_REPORT.md、SUMMARY.json、AUDIT.json、ANALYSIS.json及DRIVE_BACKUP_RECEIPT.json，勿按下方历史运行状态重启。
+
+源用户3–8四训练/一验证/一诊断：ERM91.9028%、固定第13–24轮平均92.7222%、SWAD92.5846%。SWAD相对ERM+0.6818pp/4胜，相对固定平均−0.1376pp/2胜，完整冻结门槛失败；停止此SWAD配置的八折/扩种子/窗口网格。固定平均+0.8194pp的描述性区间也跨零，不把对照包装成可靠新机制。不与不同协议的旧八折直接比。近邻SWA作者README/train/utils已读，详见research/SWA_CONTROL_REVIEW.md；本次AdamW余弦+密集平均不是原SWA训练复现，论文全文尚未读完。
+
+18模型独立函数式logits及6组作者LossValley重放逐位通过，174产物SHA/ID/选轮次/指标通过。144更新epochs计时3998.85秒；无需重复训练/审计。原目录/workspace/uwb-swad-source-runs-20261003保留optimizer/RNG/队列；/workspace/uwb-swad-archive-20261003有6个held包及metadata.tar.gz，共162,568,884字节，含全部144区间模型和最终18权重、预测/ID/配置/审计/源码，无原始数组与optimizer progress。远端持久ID和认证重新下载SHA以DRIVE_BACKUP_RECEIPT为准；ARCHIVE_RECEIPT uploaded=false是打包前快照。
+
+下一步具体范围：核查距离轴压缩/时距分离卷积在雷达手势中的近邻论文及原789文件快照是否已做；若已有相同机制，作为既有基线处理。先建立源用户内的信号保真/类别信息/计算成本可否决假设，再冻结匹配参数和固定平均对照，不能仅因118倍参数减少就宣称新算法。不要改失败SWAD的平均起点或窗口再读取诊断分数；本轮没有实现/启动新候选。用户目标仍未完成，自动接续继续，只有实质变化通知。
+
+以下是历史记录，旧进程/等待状态已过期。
+
 # 当前接续：SWAD既有方法源用户先导（2026-10-03）
 
 先读results/cloud_20261003_swad/RUN_REPORT.md与LAUNCH_VERIFIED.json，再查/workspace/uwb-swad-source-runs-20261003/queue_status.json和实际进程。新代码/协议已在训练前提交58b6e1e2e13fcf1abf3d091347705521b50cc583。本轮不重跑时序矩或圆周失败配置。
