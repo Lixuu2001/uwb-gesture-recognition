@@ -33,3 +33,14 @@ sam24/held3全24轮已完成，ERM/tail全部验证/诊断logits由独立函数�
 
 持久索引results/cloud_20261004_source_sam/PARTIAL_DRIVE_RECEIPT_02.json、审计PARTIAL_AUDIT_02.json、观测MONITOR_02.json。归档/workspace/uwb-sam-final-20261004和transport/PARTIAL_INDEX_02、records/可供最终备份复用。继续原固定队列；完成后全18轨迹独立审计、补齐私有最终备份，再按冻结联合门槛判定。原始数据无需迁移，789源码快照不改；目标未达、自动接续保留。以下是历史记录。
 
+
+## 2026-10-04T04:15:53.658751+00:00 前三位源诊断用户两臂完整审计与私有备份通过
+
+原训练1398及归档1410仍活动，观测erm48/held6第3轮，7/12完整新轨迹。未改预注册4c4a4c6训练源码/helper/协议，未重启或根据中途诊断结果调整任何参数/门槛；仍无整组六源效果结论。
+
+本次新增erm48/held5的全部ERM/tail验证/诊断独立前向审计通过，54产物SHA及48轮样本顺序/角色/选模一致。累计sam24和erm48各held3,4,5共6轨迹、216epoch，252产物SHA；前5条的独立前向结论引用PARTIAL_AUDIT_02，身份一致且全部归档产物重新核SHA，未重复运行其推理审计。见PARTIAL_AUDIT_03.json。
+
+累计258完整成员，包括全部216轮段平均、6份最终AdamW/scheduler/RNG状态和ID/logits，259692648字节、15逻辑包、42个≤7MiB传输块全部私有owner-only上传、认证raw回下载、重组整包与成员SHA验证。旧33块复用；新传输仅本次新增轨迹。索引results/cloud_20261004_source_sam/PARTIAL_DRIVE_RECEIPT_03.json，监控MONITOR_03.json。完整集合不包括正在运行轨迹的当前状态，也不是12轨迹最终备份。
+
+最终归档和上传须复用/workspace/uwb-sam-final-20261004与/workspace/uwb-sam-final-transport-20261004/PARTIAL_INDEX_03.json、records中的已验证文件和ID。继续原固定队列，完成后全18轨迹最终审计，再补私有备份余下产物并按冻结联合门槛判定。不启动下一科学配置或八折；目标未达，自动接续保留。以下为历史记录。
+

@@ -1,0 +1,1721 @@
+{
+  "state": "partial_completed_trajectory_private_backup_verified",
+  "observed_utc": "2026-10-04T04:15:53.658751+00:00",
+  "scope": "sam24 and erm48 held3,4,5 complete trajectories",
+  "trajectories": 6,
+  "logical_archives": 15,
+  "drive_objects": 42,
+  "archive_bytes": 259692648,
+  "members_verified": 258,
+  "archives": [
+    {
+      "name": "sam24-held3-part1.tar.gz",
+      "bytes": 26282676,
+      "sha256": "160a54962c1369e786aa39a0985c76fb453a9920091b8742c41d130309f34506",
+      "contents": {
+        "sam24/held3/result.json": {
+          "bytes": 18320,
+          "sha256": "eaf9b3f0577e1b4710e138e6199dff5c8000f9da897d9e31a4c8a88859bde895"
+        },
+        "sam24/held3/source_orders.npz": {
+          "bytes": 281027,
+          "sha256": "127872bbc8fe0b95e7266eafa9b42a5bba255f988c8032956f8be825b074ea93"
+        },
+        "sam24/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "sam24/held3/selection.json": {
+          "bytes": 88,
+          "sha256": "a9f7b41fc7edf5cc1f5a50eb4a3da9a156c391028897c99d306452175d8e46b1"
+        },
+        "sam24/held3/predictions.npz": {
+          "bytes": 218615,
+          "sha256": "177fd4c413f9b59b64bd63bbe14b6b528f5de57b4cf5ced93251da2151659db0"
+        },
+        "sam24/held3/selected.pt": {
+          "bytes": 2144529,
+          "sha256": "af8c54620349cbad9e354731b047effece606e939682f191881476f5988c773e"
+        },
+        "sam24/held3/progress.pt": {
+          "bytes": 5372479,
+          "sha256": "5473ab7db8709254091abd8ce183807ca82c2e8748833ac58f3915eca3d2bebf"
+        },
+        "sam24/held3/segment_01.pt": {
+          "bytes": 1074357,
+          "sha256": "b6c395a9add4dab8c85cf4b61c3a3cbd661f3f2c53ce641fc18329413d5a85e2"
+        },
+        "sam24/held3/segment_02.pt": {
+          "bytes": 1074357,
+          "sha256": "65f08bd8b044c2d7b53c5335c0ec31100129f97575a32d2fc9a6ba4f74e23b47"
+        },
+        "sam24/held3/segment_03.pt": {
+          "bytes": 1074357,
+          "sha256": "c0321d90cbfd945b9b8a71ccaa933e9f11d544d9799dd754738ae055c1f0d19d"
+        },
+        "sam24/held3/segment_04.pt": {
+          "bytes": 1074357,
+          "sha256": "f402466c95ec9d3bc3c8b9efb37d54a6839c17844c6fdbb406d8096b1a0eb00e"
+        },
+        "sam24/held3/segment_05.pt": {
+          "bytes": 1074357,
+          "sha256": "6f80aaa252570f1b1d699e4f6808d35e7fd80875106ac5dd3649b28123272d7b"
+        },
+        "sam24/held3/segment_06.pt": {
+          "bytes": 1074357,
+          "sha256": "78c88b1f95b7be1f4461a42225a65c6b7f958ff4a6b652318269437dd8e4a75d"
+        },
+        "sam24/held3/segment_07.pt": {
+          "bytes": 1074357,
+          "sha256": "6ddce573acc9efe0e802569ea533bab00f54e2ec0bd5dc72b758897d1f0f1425"
+        },
+        "sam24/held3/segment_08.pt": {
+          "bytes": 1074357,
+          "sha256": "3aa854d16f2788758c98e6224b4dcd2b4f3aa43b3024405e2f7134e8550d662f"
+        },
+        "sam24/held3/segment_09.pt": {
+          "bytes": 1074357,
+          "sha256": "11aa3167a017653a40ed67d10370a8c9ba6efa6418956709e7f14565dc094dba"
+        },
+        "sam24/held3/segment_10.pt": {
+          "bytes": 1074357,
+          "sha256": "d1d6c7b915fb67d508670857e15fa91ddfd3fd85ff3d207fb344812bc44b3506"
+        },
+        "sam24/held3/segment_11.pt": {
+          "bytes": 1074357,
+          "sha256": "fea1780970f272db28888a398b5982f7eff4eac025443101b77cdab71596d8b4"
+        },
+        "sam24/held3/segment_12.pt": {
+          "bytes": 1074357,
+          "sha256": "0139d9945eb820e96fa7e20407821bacb558dd9add91b58907240e42f9aa34cd"
+        },
+        "sam24/held3/segment_13.pt": {
+          "bytes": 1074357,
+          "sha256": "0eaea1ddb9eca652cee9517cf9551aaebeeccb2cac27c3d822825c704d258c84"
+        },
+        "sam24/held3/segment_14.pt": {
+          "bytes": 1074357,
+          "sha256": "ade4fbe9455685f6f8f4cd2faba7c9097fdbe6a13da247945c2086350467460d"
+        },
+        "sam24/held3/segment_15.pt": {
+          "bytes": 1074357,
+          "sha256": "0ebd7d897ff24ca6518196433e30ebd865dc78228611976c4d91d1714d01f1b8"
+        },
+        "sam24/held3/segment_16.pt": {
+          "bytes": 1074357,
+          "sha256": "e16e83719bec659c9a187d47c04f4de1cb21ccb3b985f7062da0a2f618afcb03"
+        },
+        "sam24/held3/segment_17.pt": {
+          "bytes": 1074357,
+          "sha256": "13339216d61879e17e486ac4b73e4c9780e0ccf7d6f31b5b2a2dd7c544692d2f"
+        },
+        "sam24/held3/segment_18.pt": {
+          "bytes": 1074357,
+          "sha256": "73b87dcfc5188a28585959188cc97aaa248f40a9b5cd610b73eddf5228034fa4"
+        },
+        "sam24/held3/segment_19.pt": {
+          "bytes": 1074357,
+          "sha256": "59e51afbe22f993b47be79b3c330e28c05151690029b51e578211a470e197690"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk001",
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk002",
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk003",
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk001",
+          "id": "1Rp95z2Dhjjyj9KNPb-f_Ewm5VzKOuwzB",
+          "url": "https://drive.google.com/file/d/1Rp95z2Dhjjyj9KNPb-f_Ewm5VzKOuwzB/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "0df450e9e976c1debf30b7727c34d08cef1979f002d71eca9c59204b6b881296",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk002",
+          "id": "1fsfcMr-BJC2OBvcYeogToLzQLVRnttqI",
+          "url": "https://drive.google.com/file/d/1fsfcMr-BJC2OBvcYeogToLzQLVRnttqI/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "3000b3b2cf264442bb9573d9e2bce4ed0244446e8400d195fa7f3b993da56f82",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk003",
+          "id": "1V0MXdWA-CZVK5nlnC8q7feo9CFjv2eB2",
+          "url": "https://drive.google.com/file/d/1V0MXdWA-CZVK5nlnC8q7feo9CFjv2eB2/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "6867c716ccd4c38c16c876217f8b9e57a9b0bf79f202fc0f1c2eb3b330354fd5",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk004",
+          "id": "1z23PQVtZh02Rj0F5sfgBHRfdyJuU1K7e",
+          "url": "https://drive.google.com/file/d/1z23PQVtZh02Rj0F5sfgBHRfdyJuU1K7e/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4262580,
+          "sha256": "1cf9ec922cdcec0e08a017411e2856d83ae9a76fd1c929c014d3c4e9f4d5219b",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "sam24-held3-part2.tar.gz",
+      "bytes": 4959293,
+      "sha256": "ba8608cb68b784cb42ad75c8149ee98f9e1c2005f4c4401a539dddcead1927c6",
+      "contents": {
+        "sam24/held3/segment_20.pt": {
+          "bytes": 1074357,
+          "sha256": "4d159416a6154217a1f038f53dcabe1f33bd9f663a6d38ec0da91c3c408cb278"
+        },
+        "sam24/held3/segment_21.pt": {
+          "bytes": 1074357,
+          "sha256": "f909d3a86974507fc9b112c32bd3a4391485437256e7dbc99970ca8563a19cc8"
+        },
+        "sam24/held3/segment_22.pt": {
+          "bytes": 1074357,
+          "sha256": "f2edfbfa7e71f8d2672521400b929bd47deab2368b24810bbdfb9f0e19793f51"
+        },
+        "sam24/held3/segment_23.pt": {
+          "bytes": 1074357,
+          "sha256": "d575dbdf6d738802b78f23bc6eddef9d09dc90a246842888f797b697785b07da"
+        },
+        "sam24/held3/segment_24.pt": {
+          "bytes": 1074357,
+          "sha256": "753fb35a85714e74790057b4b30a8e5330e13ae3cf3d7846eec9661cdd13b76f"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held3-part2.tar.gz.chunk001"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part2.tar.gz.chunk001",
+          "id": "18R1PUyMsjSNQBm1VO3aCQxOuQuaDjylg",
+          "url": "https://drive.google.com/file/d/18R1PUyMsjSNQBm1VO3aCQxOuQuaDjylg/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 4959293,
+          "sha256": "ba8608cb68b784cb42ad75c8149ee98f9e1c2005f4c4401a539dddcead1927c6",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "sam24-held4-part1.tar.gz",
+      "bytes": 26288650,
+      "sha256": "f3a762259df51413a8b040ff9f111eaf6ee454a4cb6b787ad5227f15cf8c2b6d",
+      "contents": {
+        "sam24/held4/result.json": {
+          "bytes": 18323,
+          "sha256": "bad7986cf336986e3c02d59c7060c9d854a33769a57e74df5789e7f7e8a34125"
+        },
+        "sam24/held4/source_orders.npz": {
+          "bytes": 281738,
+          "sha256": "ba3972d004ea164dec6c67e11127ab15f4bd0d143b90f5abe8814753ece9379d"
+        },
+        "sam24/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        },
+        "sam24/held4/selection.json": {
+          "bytes": 88,
+          "sha256": "fc0a5c4dbf482acdc0dbb67d1c46ef9cfc6d7a10afa67d95378eb7b1218b20b2"
+        },
+        "sam24/held4/predictions.npz": {
+          "bytes": 217816,
+          "sha256": "c39d134c00e4229a08c308ff218b5becca138fd6d07ed3cc5834ff250099bd2b"
+        },
+        "sam24/held4/selected.pt": {
+          "bytes": 2144529,
+          "sha256": "9dc5cb191ff277c0d097676d9ccd37a1b4bf446108bc2ba86a1d652638c73719"
+        },
+        "sam24/held4/progress.pt": {
+          "bytes": 5372479,
+          "sha256": "8f81129bdf984cedec8d0f8e8fa8ad9a7e585e74d27b735473511da6bed1c2fb"
+        },
+        "sam24/held4/segment_01.pt": {
+          "bytes": 1074357,
+          "sha256": "003b6974396e7530f27da457205518c83c5b09fdf8f017836f6f90e3ac297248"
+        },
+        "sam24/held4/segment_02.pt": {
+          "bytes": 1074357,
+          "sha256": "36873a75fb31097e7c51e725ff434be63f278514e6d026fc2db579c7829a1aef"
+        },
+        "sam24/held4/segment_03.pt": {
+          "bytes": 1074357,
+          "sha256": "2a84d422754df01d7a47b0405bf9ec07c6336d09a264358b7bb44a12cbfc6163"
+        },
+        "sam24/held4/segment_04.pt": {
+          "bytes": 1074357,
+          "sha256": "290abace7c9efc3d8b646e7ed14fdd48e2034be92b4814fcee6c1edac3be5efb"
+        },
+        "sam24/held4/segment_05.pt": {
+          "bytes": 1074357,
+          "sha256": "5dc2ce6d76469168f6377ff52fc2cc3bd3de551691ade7f4a0ec459c8f26eade"
+        },
+        "sam24/held4/segment_06.pt": {
+          "bytes": 1074357,
+          "sha256": "3bb46b84a2737c9e89c654fe5391c86913843beaf60d73fd8532165b585d8b13"
+        },
+        "sam24/held4/segment_07.pt": {
+          "bytes": 1074357,
+          "sha256": "6bd3848075018580f161fefe0422461c6f7681919d706902f2e63aacbf2021b2"
+        },
+        "sam24/held4/segment_08.pt": {
+          "bytes": 1074357,
+          "sha256": "5f952aaf077e83c4d760f9322ccdc5e8b8f7f4e39451d6217a2bf028532b1f1f"
+        },
+        "sam24/held4/segment_09.pt": {
+          "bytes": 1074357,
+          "sha256": "b2428d34343958d8583132a5ee75061ae2e04958b08dd0cdad31714f7dd79865"
+        },
+        "sam24/held4/segment_10.pt": {
+          "bytes": 1074357,
+          "sha256": "9f534377c69368fa65b05e0f95826d3b31e1d66d2417a9b0101b329b82864905"
+        },
+        "sam24/held4/segment_11.pt": {
+          "bytes": 1074357,
+          "sha256": "a1669599d0f3041253eb4bb35cc6ba0fd585cbae695de227a6249edb957508c2"
+        },
+        "sam24/held4/segment_12.pt": {
+          "bytes": 1074357,
+          "sha256": "edfb32d14d15c42db37e99eefa9ae18f5eda842a91d1f77d2dd4ef70b120a28d"
+        },
+        "sam24/held4/segment_13.pt": {
+          "bytes": 1074357,
+          "sha256": "0a051e63fccbd9648e5b6bb5503cc28b1836eb851bbcd9c0306e578728c8aeea"
+        },
+        "sam24/held4/segment_14.pt": {
+          "bytes": 1074357,
+          "sha256": "a3566cce167d1474e9473e33986488810bd289ad0fd60030022c2e8f5db7498c"
+        },
+        "sam24/held4/segment_15.pt": {
+          "bytes": 1074357,
+          "sha256": "37853f644ed87d18b2aaf4cf9f331ab7c951ea4ad130f9a569b763eb26e5dff2"
+        },
+        "sam24/held4/segment_16.pt": {
+          "bytes": 1074357,
+          "sha256": "c8f838ab069d9dd39fe6f3b3cd51a31c633339ed278c1881dc4cbce6faea5732"
+        },
+        "sam24/held4/segment_17.pt": {
+          "bytes": 1074357,
+          "sha256": "da977abbc8d31eb4304a41f4526fb375d2a75c5772d9cdd383f7a1b914b5a2ce"
+        },
+        "sam24/held4/segment_18.pt": {
+          "bytes": 1074357,
+          "sha256": "b933f26956f376a3e2449697d07a5d98df37e89bf3b60ed3223bf5de6b1a13dd"
+        },
+        "sam24/held4/segment_19.pt": {
+          "bytes": 1074357,
+          "sha256": "84055722d782faaf43c42e622eab08472d87cab6f8ceaa1967096e2bfa4e9724"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk001",
+        "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk002",
+        "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk003",
+        "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk001",
+          "id": "15W0AEaJ0ZqrWY6xiNXW5Ocj5hOSVuCVW",
+          "url": "https://drive.google.com/file/d/15W0AEaJ0ZqrWY6xiNXW5Ocj5hOSVuCVW/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "b26e81fa44144c69443019282ee54b3ce62635919ccfd1a171352e50a19a2d60",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk002",
+          "id": "1L3Vptc0ACdzCjzp8baUeg8WB_hk3zUBy",
+          "url": "https://drive.google.com/file/d/1L3Vptc0ACdzCjzp8baUeg8WB_hk3zUBy/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "d3dc465b87268a78deec2b88052c09395fb57e50271b9a18605fda26d3d07072",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk003",
+          "id": "1EH6_cui2OYXybzhh5BSo5yNsYGLVIe6L",
+          "url": "https://drive.google.com/file/d/1EH6_cui2OYXybzhh5BSo5yNsYGLVIe6L/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "4ee5fe1b0108401408b7a31888405fe8f416070c9b7c11773a7ffafb71dd2127",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held4-part1.tar.gz.chunk004",
+          "id": "1SxwrQJ1rcF9ndylng7Ly1Hjbwg4QJVRd",
+          "url": "https://drive.google.com/file/d/1SxwrQJ1rcF9ndylng7Ly1Hjbwg4QJVRd/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4268554,
+          "sha256": "b9faecf2986dce95f092d823412c340eacbbe9a8fe03687c50ef1ed96ff0900b",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "sam24-held4-part2.tar.gz",
+      "bytes": 4960371,
+      "sha256": "e52aeed03eb18f8b516620927c36410105f32427decfc16f5dbc823e776b4260",
+      "contents": {
+        "sam24/held4/segment_20.pt": {
+          "bytes": 1074357,
+          "sha256": "c26bd91bbe3db6e7e778968226453d892af497a0f745cae74e512b6aba180b2c"
+        },
+        "sam24/held4/segment_21.pt": {
+          "bytes": 1074357,
+          "sha256": "d5f2e491c2b2cd916a64bcc4a2ff21d32ddfd730376f811ae438ea3d6af52348"
+        },
+        "sam24/held4/segment_22.pt": {
+          "bytes": 1074357,
+          "sha256": "67f5c59547b1b63384691257796eb9bf4093cd1e1c67394db6c0e8be932e34d6"
+        },
+        "sam24/held4/segment_23.pt": {
+          "bytes": 1074357,
+          "sha256": "518a32389007ec9a8e31b0f542c8f1296020ddc2c2c85d3f2a9ef07edc0a1714"
+        },
+        "sam24/held4/segment_24.pt": {
+          "bytes": 1074357,
+          "sha256": "0e096fdab7b63001298453e6d049c43f90d22cce03a27b3620966e718799c13f"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held4-part2.tar.gz.chunk001"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held4-part2.tar.gz.chunk001",
+          "id": "1PN2uPiXYYQGXELLN6rQ0hChwzQMXC-tT",
+          "url": "https://drive.google.com/file/d/1PN2uPiXYYQGXELLN6rQ0hChwzQMXC-tT/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 4960371,
+          "sha256": "e52aeed03eb18f8b516620927c36410105f32427decfc16f5dbc823e776b4260",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "sam24-held5-part1.tar.gz",
+      "bytes": 26272736,
+      "sha256": "bbcc63c58d683fb04f7bdc262ea90b075352086fefe276323ca9b14244a38bf9",
+      "contents": {
+        "sam24/held5/result.json": {
+          "bytes": 18276,
+          "sha256": "9e5acd16da5d97bdeed3a5f60bc1cb146660b36c9dd744dd6c0d684f8310970c"
+        },
+        "sam24/held5/source_orders.npz": {
+          "bytes": 287289,
+          "sha256": "2d1bc2c2ee7a603c03443654b18a7f1b2f4f70ccff4967c2a4b6da7c9d80b6a6"
+        },
+        "sam24/held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        },
+        "sam24/held5/selection.json": {
+          "bytes": 83,
+          "sha256": "7398decd904dd1488eaeb312a439d624c09f9232417c4167f8280efe8d47897b"
+        },
+        "sam24/held5/predictions.npz": {
+          "bytes": 209321,
+          "sha256": "7f849861a4aebb6996525b982d8e720df5fca1ce53ff0cac8f9c344d7fd332fe"
+        },
+        "sam24/held5/selected.pt": {
+          "bytes": 2144529,
+          "sha256": "7ad1ef26c0f9d1475fd0dcd6b89dcc6d54da9171fcf5fa8c4cd4d9cdc0502c12"
+        },
+        "sam24/held5/progress.pt": {
+          "bytes": 5372479,
+          "sha256": "1138168ab310bcc5a1e0c9ae77a5de9cb4d61caa8edbda6a8eb25bb1c29791b7"
+        },
+        "sam24/held5/segment_01.pt": {
+          "bytes": 1074357,
+          "sha256": "fbc237f49218a06f9ecb84514499fa2a0d2b6af096077878184f39876550c288"
+        },
+        "sam24/held5/segment_02.pt": {
+          "bytes": 1074357,
+          "sha256": "c9eb8ea9946f1321e0ddc857772ebfe1c8bad7fa6b88d53853340bacccac2394"
+        },
+        "sam24/held5/segment_03.pt": {
+          "bytes": 1074357,
+          "sha256": "8bfa35e0d6c62f9619ba60cb37fbfa14fefe0402a916c5a48b4e773a6c2ea523"
+        },
+        "sam24/held5/segment_04.pt": {
+          "bytes": 1074357,
+          "sha256": "d772c551da64321e6b776922ff094468812c9dc66248508d12ed52984fb0fa83"
+        },
+        "sam24/held5/segment_05.pt": {
+          "bytes": 1074357,
+          "sha256": "5270a8614127ca21c8f15ec1d2f6bb9df0def061108b3227ba01e332a5bd849b"
+        },
+        "sam24/held5/segment_06.pt": {
+          "bytes": 1074357,
+          "sha256": "2062282a28d84488d6d9af2a0ab2bbaa1341a2b76dfafaaf9e4be22644592f0e"
+        },
+        "sam24/held5/segment_07.pt": {
+          "bytes": 1074357,
+          "sha256": "a29b5dc0dc6968966b3c4fc68a545d4c3e48ad61c7a6c703e9eeae7d504c76ff"
+        },
+        "sam24/held5/segment_08.pt": {
+          "bytes": 1074357,
+          "sha256": "bb3f3866667af93d67bbbc41d7049864ea77bf9afb27b5f817927d2533eec595"
+        },
+        "sam24/held5/segment_09.pt": {
+          "bytes": 1074357,
+          "sha256": "f0fa4e484f7323e44b01334758a7f2f1ae2b45545583e0e2e9f9f7cea02607a0"
+        },
+        "sam24/held5/segment_10.pt": {
+          "bytes": 1074357,
+          "sha256": "d56262ee4ab7c5b56fa4c303f9e86fce6badd63df55224573f920fc3a12fab86"
+        },
+        "sam24/held5/segment_11.pt": {
+          "bytes": 1074357,
+          "sha256": "4f2f05b3bfdecb7cc96a7450ca43e1928dac21031190bb572c2b7c5246c2373d"
+        },
+        "sam24/held5/segment_12.pt": {
+          "bytes": 1074357,
+          "sha256": "eed71cedf11d978144af83e83fd300a20031ec252a6d401ae1917bb772c88365"
+        },
+        "sam24/held5/segment_13.pt": {
+          "bytes": 1074357,
+          "sha256": "95c4242031f85421d99c731d836db67d447a9cef381210421d257f706a01cbd9"
+        },
+        "sam24/held5/segment_14.pt": {
+          "bytes": 1074357,
+          "sha256": "20c3e6eefdc3ad55282d60229501436b75f0a4398663142555817c4b62928649"
+        },
+        "sam24/held5/segment_15.pt": {
+          "bytes": 1074357,
+          "sha256": "8f93d7ba77b8900d74b9a53dfd2af1574dbbe2e09aca0b8fec9bbba33c1c2e24"
+        },
+        "sam24/held5/segment_16.pt": {
+          "bytes": 1074357,
+          "sha256": "27bff611810e9a38403f4a37d06ed78c3c9adb5d37f3159f05a24cdad55b30f5"
+        },
+        "sam24/held5/segment_17.pt": {
+          "bytes": 1074357,
+          "sha256": "04997542f8e29417d9424b7677f2157256ccc0c42c0e06a2d4735062a147c10e"
+        },
+        "sam24/held5/segment_18.pt": {
+          "bytes": 1074357,
+          "sha256": "5502482a32e68ba88908348b2f8b56ec6f545ac3707bf8da9bf5b1d473cc6f1c"
+        },
+        "sam24/held5/segment_19.pt": {
+          "bytes": 1074357,
+          "sha256": "64aa7e12e4dbe63d2804c7f45dd49cd28fe8278049453d4f3333506afe092d06"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk001",
+        "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk002",
+        "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk003",
+        "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk001",
+          "id": "141xSQAxmflZ9VTUkF92ULYEE9jZbGGfs",
+          "url": "https://drive.google.com/file/d/141xSQAxmflZ9VTUkF92ULYEE9jZbGGfs/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "e09e90fa2641a3d25ca616b03cb184b162deec53b280cfadb9932e12dba0288d",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk002",
+          "id": "111HWtsZrC5H0xyXWuX-qaUHKD0h4FTAe",
+          "url": "https://drive.google.com/file/d/111HWtsZrC5H0xyXWuX-qaUHKD0h4FTAe/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "046b891d89236f3ccb6c2ada8b58310779e4d5a38b1245319eb60bb05f62dca6",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk003",
+          "id": "1zIz8bddJfK_CrSIFmmjLc1HGDuo01-o8",
+          "url": "https://drive.google.com/file/d/1zIz8bddJfK_CrSIFmmjLc1HGDuo01-o8/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "79db42c4b1d436846a1aa4049c99c9fdeb45cd29b91ed4b021883cd71d30d1a4",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held5-part1.tar.gz.chunk004",
+          "id": "1kUbgkKlTatHATMY5AcozYZouXCn4a2kk",
+          "url": "https://drive.google.com/file/d/1kUbgkKlTatHATMY5AcozYZouXCn4a2kk/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4252640,
+          "sha256": "0e0151b6316c197692b84bfcbc70381c0df256dc850883221f54d1b0a1a91de4",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "sam24-held5-part2.tar.gz",
+      "bytes": 4958901,
+      "sha256": "892e73e39793835bd23d3c5c08aacf3ea1ec410d4f7af8162fee1fabbf07534b",
+      "contents": {
+        "sam24/held5/segment_20.pt": {
+          "bytes": 1074357,
+          "sha256": "568e154df064260a4dcaf974cb262e1021f4abe5851dd77076861abe0751d622"
+        },
+        "sam24/held5/segment_21.pt": {
+          "bytes": 1074357,
+          "sha256": "db5d3e99a11a1c8aba7a7b8ba8f050afd8b20c5bc205d1ff00af4abbe45b4088"
+        },
+        "sam24/held5/segment_22.pt": {
+          "bytes": 1074357,
+          "sha256": "8fe66d4f13fa45da3aa33025493959f4b0d400a855a7b20cffcd3b19f81a4ffc"
+        },
+        "sam24/held5/segment_23.pt": {
+          "bytes": 1074357,
+          "sha256": "bb34e6227a60205e69265444eeb3e67ca8bf4730e5dcf42ae2b824e2373344b8"
+        },
+        "sam24/held5/segment_24.pt": {
+          "bytes": 1074357,
+          "sha256": "9d1eb8fc5a9271920385fd7b34d27ffd6673887651d8edb98a2db8ba0f50c7c8"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held5-part2.tar.gz.chunk001"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held5-part2.tar.gz.chunk001",
+          "id": "1yATsaAEkqnFGPys4ekcEmZVAgUxPVtFK",
+          "url": "https://drive.google.com/file/d/1yATsaAEkqnFGPys4ekcEmZVAgUxPVtFK/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 4958901,
+          "sha256": "892e73e39793835bd23d3c5c08aacf3ea1ec410d4f7af8162fee1fabbf07534b",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held3-part1.tar.gz",
+      "bytes": 26563364,
+      "sha256": "c902116a8e760f404bdf9f76c54ce99f156619aba73ee2319b48b99a548f43f8",
+      "contents": {
+        "erm48/held3/result.json": {
+          "bytes": 29130,
+          "sha256": "e972bfe2019edece3f3ade0beead7db7b1f56639271a72ab094298825dea1795"
+        },
+        "erm48/held3/source_orders.npz": {
+          "bytes": 562063,
+          "sha256": "734f4d78c4a6c0bf9d6337000d98af128858744ae2f9a4226b354726ef2638d3"
+        },
+        "erm48/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "erm48/held3/selection.json": {
+          "bytes": 89,
+          "sha256": "1daba9b4f3e6d768b64da2161d0e5334e4066900269162505d7b80a1613b4957"
+        },
+        "erm48/held3/predictions.npz": {
+          "bytes": 219463,
+          "sha256": "200f769be04b0e1b3d0cf4e111f1047273b2a68693d3f402bcf01cc617fd2481"
+        },
+        "erm48/held3/selected.pt": {
+          "bytes": 2144529,
+          "sha256": "01b544e63ca47518511413838fbbbe7f5832e9f0f7d51eaf0a42a6ce37c7acf2"
+        },
+        "erm48/held3/progress.pt": {
+          "bytes": 5378495,
+          "sha256": "fe4ca0c1c91213631cd97dd26ef1ea668c0b9e2ef8a4333cb2836a5e2e95e1ac"
+        },
+        "erm48/held3/segment_01.pt": {
+          "bytes": 1074357,
+          "sha256": "d67cdc44cb4a46ccfd0014b5cb62511c99d3a912b043ed5ca8f3c4d7c4363085"
+        },
+        "erm48/held3/segment_02.pt": {
+          "bytes": 1074357,
+          "sha256": "3a1512b0664a6a724334edf2e54619493fba5e71954044e43d4a6ca72de62feb"
+        },
+        "erm48/held3/segment_03.pt": {
+          "bytes": 1074357,
+          "sha256": "3104c35bad7c74c11ac0f6cdd962e84a327cfa38667f0b6a10969907fd50c489"
+        },
+        "erm48/held3/segment_04.pt": {
+          "bytes": 1074357,
+          "sha256": "86466bfd25e7bbc38eee9d8afa54643119824504904ad4649f9ed8a2ae7029fd"
+        },
+        "erm48/held3/segment_05.pt": {
+          "bytes": 1074357,
+          "sha256": "8f1b9fae74c0bf03477ceaf57c3d786fe7171e5c1591f84ad2e6bb8bd7dc98c3"
+        },
+        "erm48/held3/segment_06.pt": {
+          "bytes": 1074357,
+          "sha256": "252bac689dfdc259a450849751f7fb80fb818af259741e2bd8be0ef7753de569"
+        },
+        "erm48/held3/segment_07.pt": {
+          "bytes": 1074357,
+          "sha256": "4e7b9f0a2a88d16d4dff1d9e75247e737a4752d2628af74d0dcb8c034aeb3702"
+        },
+        "erm48/held3/segment_08.pt": {
+          "bytes": 1074357,
+          "sha256": "5c2be384eed7926a8c0063bd60fb8814ea05431217801b0fdce42fef11ae02d2"
+        },
+        "erm48/held3/segment_09.pt": {
+          "bytes": 1074357,
+          "sha256": "32ea3c1e6523bac867e3dcbd1684641cf52b8e7976c9ec4e0e53421b541a990c"
+        },
+        "erm48/held3/segment_10.pt": {
+          "bytes": 1074357,
+          "sha256": "c36a6ada9293431b0231c43af3682ea83a02e0bfd226ffa1253e201c1cf55523"
+        },
+        "erm48/held3/segment_11.pt": {
+          "bytes": 1074357,
+          "sha256": "583faf8782920d3d7d83d5e175696e78c65face02027f0f432b8839674bfce11"
+        },
+        "erm48/held3/segment_12.pt": {
+          "bytes": 1074357,
+          "sha256": "79a2806640c05691106cc6d8540564c80320f0447582b9a56e1cf4eda0378630"
+        },
+        "erm48/held3/segment_13.pt": {
+          "bytes": 1074357,
+          "sha256": "b9ac4db4bf570fdcb0003c62911051e64feaa3f1de3bc6c7f741ecbe8fb5bc00"
+        },
+        "erm48/held3/segment_14.pt": {
+          "bytes": 1074357,
+          "sha256": "b092c2ccfff92f0b7280523cb2053a94e444f7fa97e9ab77eddc569240d1202b"
+        },
+        "erm48/held3/segment_15.pt": {
+          "bytes": 1074357,
+          "sha256": "14eda346d712a0bcfc245f7f62c72b2542d395d2d1266ddb09271800b350c881"
+        },
+        "erm48/held3/segment_16.pt": {
+          "bytes": 1074357,
+          "sha256": "cc35b638ac34282fef2124d0060750487d5bb4b4325f79ccab4b9823ffe67f63"
+        },
+        "erm48/held3/segment_17.pt": {
+          "bytes": 1074357,
+          "sha256": "97f05b82930a5dfc506dc9e35cc15da630c6c3effbd172d5e773ae0cfda784f0"
+        },
+        "erm48/held3/segment_18.pt": {
+          "bytes": 1074357,
+          "sha256": "cb1be27118ce60404d94f58de681269896aca6d39a44d7380a49c54d69f38df4"
+        },
+        "erm48/held3/segment_19.pt": {
+          "bytes": 1074357,
+          "sha256": "5529db46ba1244180bbf937142c4fb0c19862ece598a187324f250ea2d010c56"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk001",
+        "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk002",
+        "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk003",
+        "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk001",
+          "id": "1MZkgPLeiwE9dbpRl8seKN3I96LWeSQk1",
+          "url": "https://drive.google.com/file/d/1MZkgPLeiwE9dbpRl8seKN3I96LWeSQk1/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "2c0c019918b2bf673ec17b90ace5cde12c1ba067239c5a7e7a8e2910bcc9852b",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk002",
+          "id": "1HlBdzhrBhy14PN4xRIZibTPRAznVSlLa",
+          "url": "https://drive.google.com/file/d/1HlBdzhrBhy14PN4xRIZibTPRAznVSlLa/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "93a4a96b3f21db0cd823a2c0eb2f7a02ebcaef449a7b3ee7efcf4a16ccdde00c",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk003",
+          "id": "12weU5Wf3PL_vQsgdbfbNmRQpNFTCZq7R",
+          "url": "https://drive.google.com/file/d/12weU5Wf3PL_vQsgdbfbNmRQpNFTCZq7R/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "87e7607c001dc537ba69323e02cb49afa64a5a6042d0dbfcec8ba38f4152fcdc",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part1.tar.gz.chunk004",
+          "id": "1AL1t4iEGJAKbM3pavdP_4eqHFObo79C4",
+          "url": "https://drive.google.com/file/d/1AL1t4iEGJAKbM3pavdP_4eqHFObo79C4/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4543268,
+          "sha256": "d344d2596c021b9b7b09f7d74dace878046d39bb0e6ecc6613cb70989da82ffd",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held3-part2.tar.gz",
+      "bytes": 26776834,
+      "sha256": "de0c647d8a76beae6cae7b8a232f29c708d10895c3b1353c4425d4dbdc158883",
+      "contents": {
+        "erm48/held3/segment_20.pt": {
+          "bytes": 1074357,
+          "sha256": "dd8f0861ebda670d0b4a21580e2b0c44c4db594f7fc127ee55bf8ad5f4188ffd"
+        },
+        "erm48/held3/segment_21.pt": {
+          "bytes": 1074357,
+          "sha256": "53d50779390b6fca618df5ca3d3f5337d8e6e910096286257bb7031bb455b187"
+        },
+        "erm48/held3/segment_22.pt": {
+          "bytes": 1074357,
+          "sha256": "66982cfa19b33a4edab9356342f02e7b38d17937448028c9050b8002fb05345a"
+        },
+        "erm48/held3/segment_23.pt": {
+          "bytes": 1074357,
+          "sha256": "790adfe3fad269f07a9ff1982cb048bbb69f27edccb5446dddf7ba7c0faa94be"
+        },
+        "erm48/held3/segment_24.pt": {
+          "bytes": 1074357,
+          "sha256": "3a10ddd2065cb3f090357f055daad07db9768dfb08ffe00369381ffd5a21bd45"
+        },
+        "erm48/held3/segment_25.pt": {
+          "bytes": 1074357,
+          "sha256": "2adf2491e5dcc957cd0c820118736f8d5ebb7edb94bf80399b13ac729f98418a"
+        },
+        "erm48/held3/segment_26.pt": {
+          "bytes": 1074357,
+          "sha256": "02dc5919664480df8155320d5673d2d13b6b395cd9081a53a93d885c371ce60f"
+        },
+        "erm48/held3/segment_27.pt": {
+          "bytes": 1074357,
+          "sha256": "bd064420848420458587851444cf71f32b65bda17933ba5631b21cfaf540ee40"
+        },
+        "erm48/held3/segment_28.pt": {
+          "bytes": 1074357,
+          "sha256": "aa46591b0615a586c795a7a0b13f5dcc7dad7808709f7de232187954785f60f6"
+        },
+        "erm48/held3/segment_29.pt": {
+          "bytes": 1074357,
+          "sha256": "f165fa891ace69e38e3b19373a2a35a87c1403de2d2239fc564806021351d3eb"
+        },
+        "erm48/held3/segment_30.pt": {
+          "bytes": 1074357,
+          "sha256": "ec798edb9844a8c2dea27a096a99c8a283ed0623d270245f853f921ac30051e4"
+        },
+        "erm48/held3/segment_31.pt": {
+          "bytes": 1074357,
+          "sha256": "5be2f1062edc5802096fd80d5dedf39e1d76735497263e33dd66c3aebdb9d92c"
+        },
+        "erm48/held3/segment_32.pt": {
+          "bytes": 1074357,
+          "sha256": "846aee7d42536b8684fd7c87517fec608975f912d6b3bd68dd65b40a44967dba"
+        },
+        "erm48/held3/segment_33.pt": {
+          "bytes": 1074357,
+          "sha256": "8ceaf10c9482292f9a7dd2585a9f84c3cd6285c25896096767aec0e514586789"
+        },
+        "erm48/held3/segment_34.pt": {
+          "bytes": 1074357,
+          "sha256": "660c9f193cdc275eceef3301db688df26733eb350adffb804db00a774e1254b8"
+        },
+        "erm48/held3/segment_35.pt": {
+          "bytes": 1074357,
+          "sha256": "ecba132520190400948c31a719bcb605fc8e0e9a1c39c75e656bd0f45c6c6837"
+        },
+        "erm48/held3/segment_36.pt": {
+          "bytes": 1074357,
+          "sha256": "6bfc3a0e9cb813e2829b46c906048d11f7f180b3c26fb9c994af49d58a67e428"
+        },
+        "erm48/held3/segment_37.pt": {
+          "bytes": 1074357,
+          "sha256": "0a74ebcc2265477dce3aa4a259ae29b96b7aaa126ee997fefccef3e2828c2e8c"
+        },
+        "erm48/held3/segment_38.pt": {
+          "bytes": 1074357,
+          "sha256": "721e6306e000f9f01834f17ebe8ecaedd40b934a1d08fca1e3c5c01c6a38483a"
+        },
+        "erm48/held3/segment_39.pt": {
+          "bytes": 1074357,
+          "sha256": "16ff3df33d9434eb4dd6ad69dfca834263957d222aca45aa8793fd43ceeca320"
+        },
+        "erm48/held3/segment_40.pt": {
+          "bytes": 1074357,
+          "sha256": "90a1e17373f6be7d223a5d9bb739e6bc3acbcc5c53b6cf6b785aeef4b8bd229d"
+        },
+        "erm48/held3/segment_41.pt": {
+          "bytes": 1074357,
+          "sha256": "23c9b37754c458718a9ada03f9fbf7dab54398a8dd5c40e1a010c4c5bc2154b5"
+        },
+        "erm48/held3/segment_42.pt": {
+          "bytes": 1074357,
+          "sha256": "0b7452057cb49f1a13af5f86283e60f0c1436e12d315959fb01ca84fcfc28b52"
+        },
+        "erm48/held3/segment_43.pt": {
+          "bytes": 1074357,
+          "sha256": "0d40d6e1827a411d4ddf705b3795e0584f321ff70ab9491f8dc530772bf77bde"
+        },
+        "erm48/held3/segment_44.pt": {
+          "bytes": 1074357,
+          "sha256": "611767c4919a430414da990c74f14c1115d6166154c7c31d2f6ad11a38d1482b"
+        },
+        "erm48/held3/segment_45.pt": {
+          "bytes": 1074357,
+          "sha256": "49f4389bfc178e2ab33ad2bcf7899e49c7ac8ad31c307e3184343baa4da56401"
+        },
+        "erm48/held3/segment_46.pt": {
+          "bytes": 1074357,
+          "sha256": "dea39e6debd96d688fe91abb66b00d6d71610ccbfd2ddedd9097fd8f057bb170"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk001",
+        "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk002",
+        "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk003",
+        "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk001",
+          "id": "1J0KnQHNaYkNuGhBK-BE4synyM9pgX8RO",
+          "url": "https://drive.google.com/file/d/1J0KnQHNaYkNuGhBK-BE4synyM9pgX8RO/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "8abf931191819853b59ee6591993b652932b6f5800d5202cf351544bc581adc6",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk002",
+          "id": "1LQeMWL9PN1Sz1PaEWWzE0E_G_u9N7ies",
+          "url": "https://drive.google.com/file/d/1LQeMWL9PN1Sz1PaEWWzE0E_G_u9N7ies/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "ffad6d69001274c9a289501e089c2ca5584d5fbfca61ab8d3581b9cd36143d9a",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk003",
+          "id": "132dIV1SIsqPpGtzVpZLxCDdbLU1LaP4j",
+          "url": "https://drive.google.com/file/d/132dIV1SIsqPpGtzVpZLxCDdbLU1LaP4j/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "a1c3e1b46496771cd5b24214b3615f348b57a201e28243c680cb6c83e279d1a1",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part2.tar.gz.chunk004",
+          "id": "1kVSzo1ax1D-WojFgQkaar41SrkGYssmt",
+          "url": "https://drive.google.com/file/d/1kVSzo1ax1D-WojFgQkaar41SrkGYssmt/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4756738,
+          "sha256": "a01a1770244a970cb1616c3c721610320339dc3d197a4076f52c21090d192407",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held3-part3.tar.gz",
+      "bytes": 1983909,
+      "sha256": "faa321c7109bc8c22511928d5bec25581a4ce872b7b1a136d27029b80787f1b3",
+      "contents": {
+        "erm48/held3/segment_47.pt": {
+          "bytes": 1074357,
+          "sha256": "aa5632b29d3b4ebe5bc218dd1507465de5a72b9543611cb58136064e9f1ce5e0"
+        },
+        "erm48/held3/segment_48.pt": {
+          "bytes": 1074357,
+          "sha256": "f26fc6db389a114cb83640b958e728b1d6582236e9c3427c9d0695a234a50f97"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held3-part3.tar.gz.chunk001"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held3-part3.tar.gz.chunk001",
+          "id": "1d0JXPW9bwgYBPvjDqB8ZFNq72uKRPfkW",
+          "url": "https://drive.google.com/file/d/1d0JXPW9bwgYBPvjDqB8ZFNq72uKRPfkW/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 1983909,
+          "sha256": "faa321c7109bc8c22511928d5bec25581a4ce872b7b1a136d27029b80787f1b3",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held4-part1.tar.gz",
+      "bytes": 26567229,
+      "sha256": "8e6bafbd67be1fcce3a495ac9102746eb7b936589fda3af607046e53762cc09a",
+      "contents": {
+        "erm48/held4/result.json": {
+          "bytes": 29101,
+          "sha256": "8ce33a930d79e7a5bf7802590723d57f074ecc855f02bee32d11184432bbbe08"
+        },
+        "erm48/held4/source_orders.npz": {
+          "bytes": 563403,
+          "sha256": "b7d49e7a83dad074a808ba254cb4d631ba2a27f53d6abb89c6b0042fcd5fe05c"
+        },
+        "erm48/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        },
+        "erm48/held4/selection.json": {
+          "bytes": 88,
+          "sha256": "9bddc6659d3f71a230098221286e12b46d6fcab5cb1d30ba07e90be73efb3337"
+        },
+        "erm48/held4/predictions.npz": {
+          "bytes": 219127,
+          "sha256": "15459a607eec3121efba8cfad96ea2ace36a78bc7abd81eca29765d6d830a039"
+        },
+        "erm48/held4/selected.pt": {
+          "bytes": 2144529,
+          "sha256": "d2a819f899d65493e769f31a2c913866f45aab0beeae1e6f5e306d215bf5993f"
+        },
+        "erm48/held4/progress.pt": {
+          "bytes": 5378495,
+          "sha256": "714cf525d3f91ed827139d9550400fbd29d93d82216002136bb6db6c66d3b08d"
+        },
+        "erm48/held4/segment_01.pt": {
+          "bytes": 1074357,
+          "sha256": "e116c7a7fd84ea40b4b33810b14de6adfac54ef1b922bb68a90a23c8f64fc5c8"
+        },
+        "erm48/held4/segment_02.pt": {
+          "bytes": 1074357,
+          "sha256": "82597a143c670af2aff83b9e58b646224e7ba78d2690b7a75514e18ce8db9395"
+        },
+        "erm48/held4/segment_03.pt": {
+          "bytes": 1074357,
+          "sha256": "5eea0a4584a896702435ad577659d0ba77ddbc01a40ebc3e590283e56c224562"
+        },
+        "erm48/held4/segment_04.pt": {
+          "bytes": 1074357,
+          "sha256": "350d216fb16ebc53a63ba0822f13002720cc583df241bc4321f2eb3d02b4de81"
+        },
+        "erm48/held4/segment_05.pt": {
+          "bytes": 1074357,
+          "sha256": "57df7c6e29736636ec882ef496254ff93ecd33a17d5964288c3a5736e7cecf3e"
+        },
+        "erm48/held4/segment_06.pt": {
+          "bytes": 1074357,
+          "sha256": "71529d629b883295fe1b6d272e71389ed43588d34e462cda810cfdd5d9951390"
+        },
+        "erm48/held4/segment_07.pt": {
+          "bytes": 1074357,
+          "sha256": "a240d52b3e2a7853c0930194a157c45f5f07c2f8ee635d22c089843c5a523bc1"
+        },
+        "erm48/held4/segment_08.pt": {
+          "bytes": 1074357,
+          "sha256": "5adde9f18e76ce6fecaae12b173907e63ebfe6c78bf41ab2e3a217aa5e8e2d4b"
+        },
+        "erm48/held4/segment_09.pt": {
+          "bytes": 1074357,
+          "sha256": "18e52ca528e82fd5cdd6800ed48a7f5721f80bf23b2679e437355f2fa8787338"
+        },
+        "erm48/held4/segment_10.pt": {
+          "bytes": 1074357,
+          "sha256": "8b32985114ff6bcfb5114c874d59a0ae6423e1c221d94e6c372dd9b7cc9c53af"
+        },
+        "erm48/held4/segment_11.pt": {
+          "bytes": 1074357,
+          "sha256": "d06a6d5472eecf14a657453d53295e4029efc3a32a7ff44f2ac6efa3550a42e8"
+        },
+        "erm48/held4/segment_12.pt": {
+          "bytes": 1074357,
+          "sha256": "4625656691fa716cef2dbedc7780c26f2cbdfbfc539f3c7ca2f7215d077d6486"
+        },
+        "erm48/held4/segment_13.pt": {
+          "bytes": 1074357,
+          "sha256": "35a56eb4e29b76c21a4ea044b9d7c160471933f7a49128f4be5fa422f349d60e"
+        },
+        "erm48/held4/segment_14.pt": {
+          "bytes": 1074357,
+          "sha256": "2741968c8f383291508e04427b351584e650664da1dcc1ed12d9d45df8e286fc"
+        },
+        "erm48/held4/segment_15.pt": {
+          "bytes": 1074357,
+          "sha256": "83093242593cad0f561bde5203612cb5b56e329b4855c092acc756204ac132cb"
+        },
+        "erm48/held4/segment_16.pt": {
+          "bytes": 1074357,
+          "sha256": "c5d0d339f1c4a8c485fd959e8744a57f1fa6d709f81cc5070b96f8e25678a19f"
+        },
+        "erm48/held4/segment_17.pt": {
+          "bytes": 1074357,
+          "sha256": "1f4bb388ad00c902d2d5fc8128b926cc87bf77595f73a1199a5445bea43e08f5"
+        },
+        "erm48/held4/segment_18.pt": {
+          "bytes": 1074357,
+          "sha256": "493f240eb4eeea8960e73bf2fe39f807e5fe20e34a7120b9e4891780fb1a7c03"
+        },
+        "erm48/held4/segment_19.pt": {
+          "bytes": 1074357,
+          "sha256": "6e2a57c1d15be042167085f300a358c7e54640e390969da473e118c3840707e5"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk001",
+        "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk002",
+        "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk003",
+        "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk001",
+          "id": "1Vxr2-zX4SZbNJ_kVSNihdHj-YmIPeGHb",
+          "url": "https://drive.google.com/file/d/1Vxr2-zX4SZbNJ_kVSNihdHj-YmIPeGHb/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "80ac1963554371656b0ae1159d01da01f6b9bf464bdb0c8ca7c1d8ee540378e5",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk002",
+          "id": "1Pty6jFBp1tavPMZmoHxegWrQWh90Icmo",
+          "url": "https://drive.google.com/file/d/1Pty6jFBp1tavPMZmoHxegWrQWh90Icmo/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "c2c19c4f273d9b7fe326a3900f2ba7756613663ca47843e62328315b4b7814f1",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk003",
+          "id": "1okGxnZFXQZ1zabonmfY1nKoR6pGFmuh-",
+          "url": "https://drive.google.com/file/d/1okGxnZFXQZ1zabonmfY1nKoR6pGFmuh-/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "f1f7c38daf3871da71288ac6e8a32c82b6e308eae587d99e34d17443a084f82d",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part1.tar.gz.chunk004",
+          "id": "1vrVJZp5fGLy0UoS1YO886qban7PTLJ0q",
+          "url": "https://drive.google.com/file/d/1vrVJZp5fGLy0UoS1YO886qban7PTLJ0q/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4547133,
+          "sha256": "0dbba6199ce06a20910c389d4a96f46bab79d22f0995cdae8322b11d54e95de7",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held4-part2.tar.gz",
+      "bytes": 26782839,
+      "sha256": "7b9c4cb396e4986ed5ad1038aa026bf77c0a4a9e18b90e451b9297e8763eae5b",
+      "contents": {
+        "erm48/held4/segment_20.pt": {
+          "bytes": 1074357,
+          "sha256": "28d0bbe95cd957df7b7f7e2b502cee771d7308bad63d351f7afd9c22157bf212"
+        },
+        "erm48/held4/segment_21.pt": {
+          "bytes": 1074357,
+          "sha256": "cf08d1a8790cfe9d576740dbd4e44051f448a59123d186cbe59d356bc4129880"
+        },
+        "erm48/held4/segment_22.pt": {
+          "bytes": 1074357,
+          "sha256": "1a2d76997ef80569477eeb6c3dfe9abeba9458a8203bd8b3733cb9921dff92c1"
+        },
+        "erm48/held4/segment_23.pt": {
+          "bytes": 1074357,
+          "sha256": "e09f87692194c101ab8ad1ee4d5f451d3b4af6347e52d543841c1621ad9a1d10"
+        },
+        "erm48/held4/segment_24.pt": {
+          "bytes": 1074357,
+          "sha256": "5bddde54c299bc6ee709fc9ef71b7293484c5f449d471872a5aa54266907ed43"
+        },
+        "erm48/held4/segment_25.pt": {
+          "bytes": 1074357,
+          "sha256": "8498eb936f87accbedf8cfaeaf29e606bc150f0b4013c2fc782e22e0442385fa"
+        },
+        "erm48/held4/segment_26.pt": {
+          "bytes": 1074357,
+          "sha256": "f9bfbadd804337e266bdfe273d16b84251689fb54cd91fdc481e03684180555d"
+        },
+        "erm48/held4/segment_27.pt": {
+          "bytes": 1074357,
+          "sha256": "7a525f0604fe7dd3189f52991b14b5f1caa4163ba67bdfc73913c89ce7b986cb"
+        },
+        "erm48/held4/segment_28.pt": {
+          "bytes": 1074357,
+          "sha256": "d6abbe0c5118c3118bf678463ce428712f8357bf486e6657788ff1eddc925812"
+        },
+        "erm48/held4/segment_29.pt": {
+          "bytes": 1074357,
+          "sha256": "ca28cc29db9095ffef1d5faa207bbf3e00b78962438b0e480aec38959fe3694f"
+        },
+        "erm48/held4/segment_30.pt": {
+          "bytes": 1074357,
+          "sha256": "789f970f908f64cf17a3317e88e3bd4479663124f196314b98b0d9afc4e07469"
+        },
+        "erm48/held4/segment_31.pt": {
+          "bytes": 1074357,
+          "sha256": "25a0695131e02734c4fe27efa10d0d6f5e0d21480d7cd47628050f4ff06e7e4f"
+        },
+        "erm48/held4/segment_32.pt": {
+          "bytes": 1074357,
+          "sha256": "46237cb4e9850ac7509c1ac29639400e6a7d308cf35e7ea9f8e1286d5793d0cc"
+        },
+        "erm48/held4/segment_33.pt": {
+          "bytes": 1074357,
+          "sha256": "5c5cfff0d23f3858c0c7a96daa7fb2c036b1730af8dd48f0993273e936816997"
+        },
+        "erm48/held4/segment_34.pt": {
+          "bytes": 1074357,
+          "sha256": "01912d63a45f288a34389ff8835dc957956deec4f5b61290b8b30e771028b73d"
+        },
+        "erm48/held4/segment_35.pt": {
+          "bytes": 1074357,
+          "sha256": "232394de0b59d4f0c555cb160399221ef60d1ecde2e6541b7ac966e18b86b42a"
+        },
+        "erm48/held4/segment_36.pt": {
+          "bytes": 1074357,
+          "sha256": "599eb2c9ff72c50835b60463b89c3483bdf5c7e74a6ca275cc03dcffce4f87af"
+        },
+        "erm48/held4/segment_37.pt": {
+          "bytes": 1074357,
+          "sha256": "06352f90b0ccf902104a635dabdc37f23c63a500cca383cad13fcdbbd67f2a50"
+        },
+        "erm48/held4/segment_38.pt": {
+          "bytes": 1074357,
+          "sha256": "a70564064893513aa0d7272989ce0e665dca936873c8ac2bd3bb02ed7af6d91c"
+        },
+        "erm48/held4/segment_39.pt": {
+          "bytes": 1074357,
+          "sha256": "b348e6ed8940f7fce9eecd921428748dd9b73313884af545206f8ca0f78245dc"
+        },
+        "erm48/held4/segment_40.pt": {
+          "bytes": 1074357,
+          "sha256": "daa059326a9ebd8eefc67ffd7308c2bf114e5edc512e99e45b5246aa5f07ec36"
+        },
+        "erm48/held4/segment_41.pt": {
+          "bytes": 1074357,
+          "sha256": "702dfb0a956eb99affc88a5621ed8b61bd71360fe5e0e4bff0080199efe2077c"
+        },
+        "erm48/held4/segment_42.pt": {
+          "bytes": 1074357,
+          "sha256": "84af987d235e88d8e9924983982ec950aa9be8457c76c86573fc1eace2544e06"
+        },
+        "erm48/held4/segment_43.pt": {
+          "bytes": 1074357,
+          "sha256": "0eb44c826f383856e23dab8927d000788b58ae4eef0bbc747444fae20cbe1abc"
+        },
+        "erm48/held4/segment_44.pt": {
+          "bytes": 1074357,
+          "sha256": "f81b5fd85c4afe71ee182cb60d842dcfc1e9a8334f13dbade4b2f4c01f88644a"
+        },
+        "erm48/held4/segment_45.pt": {
+          "bytes": 1074357,
+          "sha256": "19c1f26caf4fb8c13dbd32fc66e0b7c9fcdda6bd7618b6f714bab91c09788bef"
+        },
+        "erm48/held4/segment_46.pt": {
+          "bytes": 1074357,
+          "sha256": "36f2e9a587fe228276f2f6233d8fdf67d2cf041b95bb73dfa3fd7fd22fd2acd4"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk001",
+        "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk002",
+        "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk003",
+        "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk001",
+          "id": "1KhWSlj7hDdXnlc_HKHw93hlDDcb77n1P",
+          "url": "https://drive.google.com/file/d/1KhWSlj7hDdXnlc_HKHw93hlDDcb77n1P/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "d399a8dcf0262f5a1d1eaaf14eb541412f8415bec7c5aa32ddfee0d1a8be8e72",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk002",
+          "id": "1HNUfJQ36UgfGgkqinS8TZIM8RT2N3cfl",
+          "url": "https://drive.google.com/file/d/1HNUfJQ36UgfGgkqinS8TZIM8RT2N3cfl/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "7711e0feed2432a75bd4e15fd0b73f0dbb6904b38c860e07c6e2f1578d218a4f",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk003",
+          "id": "12tJTXuZwrnBNLTL7Zf5we9Ty-g7r5Gcn",
+          "url": "https://drive.google.com/file/d/12tJTXuZwrnBNLTL7Zf5we9Ty-g7r5Gcn/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "190c835a578b57c9f21f6dcc1d1a7da358ac3ae26db8fa923b47d90d72a90628",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part2.tar.gz.chunk004",
+          "id": "1aShzYf_G8RKPDbtAOq8luBXnlutZh81L",
+          "url": "https://drive.google.com/file/d/1aShzYf_G8RKPDbtAOq8luBXnlutZh81L/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4762743,
+          "sha256": "e317bdfb0947d86e82b1b13ba8340aaf54ba5c4892404cf4a16235b278228b9a",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held4-part3.tar.gz",
+      "bytes": 1984279,
+      "sha256": "401887bed69f5e4121f583606c278776568a932ca8c7448ddf187b6a7a3ed2e0",
+      "contents": {
+        "erm48/held4/segment_47.pt": {
+          "bytes": 1074357,
+          "sha256": "d58fd6db07d7e6c8ee0dc070d4eaa6f98dfee4c8b301478fa5d54bc6cb2819bb"
+        },
+        "erm48/held4/segment_48.pt": {
+          "bytes": 1074357,
+          "sha256": "cf1cfaba752dd111bde2fcc35b7cb19ffb90a04f1c9580e20ef699b2c84d417c"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held4-part3.tar.gz.chunk001"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held4-part3.tar.gz.chunk001",
+          "id": "1hWqOfOCRqxDjiGGEV0UY0Wf2F1exc-iI",
+          "url": "https://drive.google.com/file/d/1hWqOfOCRqxDjiGGEV0UY0Wf2F1exc-iI/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 1984279,
+          "sha256": "401887bed69f5e4121f583606c278776568a932ca8c7448ddf187b6a7a3ed2e0",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held5-part1.tar.gz",
+      "bytes": 26553568,
+      "sha256": "8955a34fb7ed9ca2af0cac515f596a867ba674db8b78d11e967350de32e4766d",
+      "contents": {
+        "erm48/held5/result.json": {
+          "bytes": 29034,
+          "sha256": "8e61e54b80e24c2ba3f04acfd691b0e83f8f4f8ab5b8d496ef8bb7bedb93f2a1"
+        },
+        "erm48/held5/source_orders.npz": {
+          "bytes": 574512,
+          "sha256": "2a5602f11187e9eb433946913720f9a2daf49cff337dfcccf63ecc8e3b9adbe7"
+        },
+        "erm48/held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        },
+        "erm48/held5/selection.json": {
+          "bytes": 85,
+          "sha256": "7abb1f4b78e58d5282620abb1bcff7b6d1781e81936ef9d88b02dc8724af8327"
+        },
+        "erm48/held5/predictions.npz": {
+          "bytes": 209668,
+          "sha256": "f2e8670207d5625e8776b53b46a7e2e51eaca9695e9ef6029d8c08e881db6307"
+        },
+        "erm48/held5/selected.pt": {
+          "bytes": 2144529,
+          "sha256": "ae47fe18d83272c8b95129b669ff29a92c7b5baf802dbac1d8df625d2e9a3a78"
+        },
+        "erm48/held5/progress.pt": {
+          "bytes": 5378495,
+          "sha256": "655c1cfedc63aedbffec2d2482cd2be8e32bce2ff351515f9335136f3f33c17f"
+        },
+        "erm48/held5/segment_01.pt": {
+          "bytes": 1074357,
+          "sha256": "15b7632a96cfa373c8c53eb3a17a4a1760a1458809576b3eeca4ff783a408c4a"
+        },
+        "erm48/held5/segment_02.pt": {
+          "bytes": 1074357,
+          "sha256": "92d6ff0612d1d7a1af8020d35be2cfd0ad16c5cd0fbb16a61fdd3eb2e60543b1"
+        },
+        "erm48/held5/segment_03.pt": {
+          "bytes": 1074357,
+          "sha256": "70cb15f796e29aa5dd44bc9bbf6a014d4cb65c89440e8ff2bbc4a4274d358586"
+        },
+        "erm48/held5/segment_04.pt": {
+          "bytes": 1074357,
+          "sha256": "d286c5d7183f6404ba1b896e1d975a078b748afbfc2aa8f5466d53358d991b0c"
+        },
+        "erm48/held5/segment_05.pt": {
+          "bytes": 1074357,
+          "sha256": "598cb37ef73edfb4385129d9a53b495b8a89c1375f9bfece05387f3cc097762d"
+        },
+        "erm48/held5/segment_06.pt": {
+          "bytes": 1074357,
+          "sha256": "5470a6e814a412d9cec14520f60bfe032a0d937e5239184872963ec0ba374c9a"
+        },
+        "erm48/held5/segment_07.pt": {
+          "bytes": 1074357,
+          "sha256": "5614250f3a27e2216f6a994f031e35e560da7c62a6d4b21576616265b82bf9c3"
+        },
+        "erm48/held5/segment_08.pt": {
+          "bytes": 1074357,
+          "sha256": "879db2da031284094481e0b0773a1c7c9f94f7fbb33aa96f70e0ab80a9f8c514"
+        },
+        "erm48/held5/segment_09.pt": {
+          "bytes": 1074357,
+          "sha256": "ca7bcf09c4b8e8e6fbb606f501ba8d261d181d791853937d0dc02940916c86e8"
+        },
+        "erm48/held5/segment_10.pt": {
+          "bytes": 1074357,
+          "sha256": "76d5c29267b0b5d3a3d4bf63c0425150c5a178085c37a823c92f2096418f5540"
+        },
+        "erm48/held5/segment_11.pt": {
+          "bytes": 1074357,
+          "sha256": "8a0e61678a9a023b646f425e995d05d5d3029027fc6734f45ce4e79a12465659"
+        },
+        "erm48/held5/segment_12.pt": {
+          "bytes": 1074357,
+          "sha256": "e9c3cbcfc3268d34cd35a12c9acb9d2d1267b06b8a48eeed95af6f8a0da807b4"
+        },
+        "erm48/held5/segment_13.pt": {
+          "bytes": 1074357,
+          "sha256": "c707af1e9688cf7d79140175e89962962ef2618adf82498c1cf1d89e9154a4bf"
+        },
+        "erm48/held5/segment_14.pt": {
+          "bytes": 1074357,
+          "sha256": "2d196c6ced3f1c8f3a3ce5f42d356f5ae64beb74d4d8e5502833dee84522694a"
+        },
+        "erm48/held5/segment_15.pt": {
+          "bytes": 1074357,
+          "sha256": "b2bcfc5e3e5655a579874a293a730e9f1c63086c7c35818048ecd52b06b52119"
+        },
+        "erm48/held5/segment_16.pt": {
+          "bytes": 1074357,
+          "sha256": "12265a0c03f35f6b7ba8c51c9287e9fd8d1221ba96cdecb81c996392b3ef8470"
+        },
+        "erm48/held5/segment_17.pt": {
+          "bytes": 1074357,
+          "sha256": "e99e6c75b85123822fbb4f2076b98ed7adb0a115e04b7d1e28002478c19f7289"
+        },
+        "erm48/held5/segment_18.pt": {
+          "bytes": 1074357,
+          "sha256": "ed0e102bba8fbc58f3fbef598a754da3faf863e1ea58379326355321fdf4e8e3"
+        },
+        "erm48/held5/segment_19.pt": {
+          "bytes": 1074357,
+          "sha256": "5e1ad8d4e3e793c5708d6532b799ba151f367ee9c96616cd45a7eaaa252047c1"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk001",
+        "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk002",
+        "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk003",
+        "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk001",
+          "id": "1iocwNTn1U7qK2ZLyYi8e5vM0o4X1z3pu",
+          "url": "https://drive.google.com/file/d/1iocwNTn1U7qK2ZLyYi8e5vM0o4X1z3pu/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "8425b7ca3fb07d9c7c2787cd7cd14afaccb371bcdd576fec652e52c0b46c93f6",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk002",
+          "id": "1ucMhI-IVhG5N4MBrLU-oPR-ZqgqLEAKS",
+          "url": "https://drive.google.com/file/d/1ucMhI-IVhG5N4MBrLU-oPR-ZqgqLEAKS/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "bb15615effd1ee0ea733e5cd1059c329f1f22e092e8a0bd0fe54e86c04df13c8",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk003",
+          "id": "1_fKW1eVxpayPIVNwhfeRUmbLP9mBJmEt",
+          "url": "https://drive.google.com/file/d/1_fKW1eVxpayPIVNwhfeRUmbLP9mBJmEt/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "b1be808009934140c097d098e83fc2dec8bfbe9790d60d6baecefea9b50a35aa",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part1.tar.gz.chunk004",
+          "id": "1deU7sRV9ig7_BTfDMJgc-CgiL-yUBVTP",
+          "url": "https://drive.google.com/file/d/1deU7sRV9ig7_BTfDMJgc-CgiL-yUBVTP/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4533472,
+          "sha256": "f30a856fa863272fb7370b256a4b4c1dad279373feefcfe251c43804f7a77e03",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held5-part2.tar.gz",
+      "bytes": 26774358,
+      "sha256": "5394e0ee7490bfa6ac38db05ac5cd65bf05d370c17d3287f876a7571f9d85121",
+      "contents": {
+        "erm48/held5/segment_20.pt": {
+          "bytes": 1074357,
+          "sha256": "1976f8a4f2d3d94cb4e6c6ed6cf64382f81fe983ec40890a9bd62ca1bbc5696a"
+        },
+        "erm48/held5/segment_21.pt": {
+          "bytes": 1074357,
+          "sha256": "2f5d205f38775b643edf0f0b6fc715eda00f76018bd0a3ec4fff60658e6d8bec"
+        },
+        "erm48/held5/segment_22.pt": {
+          "bytes": 1074357,
+          "sha256": "97e7d0aebd609261c7bd4c08a9760a995bc662f9f1460e4d539940db8fdc803e"
+        },
+        "erm48/held5/segment_23.pt": {
+          "bytes": 1074357,
+          "sha256": "ac65e6ed3d2d4274b2f8061b762e33ce1e68d31160139acb3da7d4bb81512e02"
+        },
+        "erm48/held5/segment_24.pt": {
+          "bytes": 1074357,
+          "sha256": "332c012ce17d00b99662eabc69bd1476d4cbb11336e3bbf6878452b40a2d195c"
+        },
+        "erm48/held5/segment_25.pt": {
+          "bytes": 1074357,
+          "sha256": "3f7fe802f26875c6a96d7c670cdf7a7217494a568352400f833abfa2d6c5feb5"
+        },
+        "erm48/held5/segment_26.pt": {
+          "bytes": 1074357,
+          "sha256": "57ca1a6755b6a0f24663cabc8a79a1303dcdeca3598dd330254dd72e55875d45"
+        },
+        "erm48/held5/segment_27.pt": {
+          "bytes": 1074357,
+          "sha256": "40ed4d692d06016eb06d63b427d593202207dbe65afe192763f8b617f76597aa"
+        },
+        "erm48/held5/segment_28.pt": {
+          "bytes": 1074357,
+          "sha256": "a9d1467fbb33e842aefd8d1744d233b5c6603dc9b9cef030c0058b51daa2a23f"
+        },
+        "erm48/held5/segment_29.pt": {
+          "bytes": 1074357,
+          "sha256": "513c7040228bfeae5e193dbae4ce4074b0c819d1e4b0a468bf964c1c52ec2599"
+        },
+        "erm48/held5/segment_30.pt": {
+          "bytes": 1074357,
+          "sha256": "10875f758d49da9ff27b1f03a940f00a5afa43a93c8045a226ce486e1a5979c7"
+        },
+        "erm48/held5/segment_31.pt": {
+          "bytes": 1074357,
+          "sha256": "d547769fd27aaec815d19f90e8fa2a07c2bb72ea3fa3a686235db4e6ca9c8b4e"
+        },
+        "erm48/held5/segment_32.pt": {
+          "bytes": 1074357,
+          "sha256": "e74ea77e6f5bff90fe803755b2309bc4e4ba18ee939745ea39f3ed995e5d40ae"
+        },
+        "erm48/held5/segment_33.pt": {
+          "bytes": 1074357,
+          "sha256": "c8babe2879bd720918dac35c306f6edb8e0a5a24ee26582b60d2869b9e376ccd"
+        },
+        "erm48/held5/segment_34.pt": {
+          "bytes": 1074357,
+          "sha256": "379cbdc4ea1cd6c786359334da7adb6a1747ce5082c1a28a985b50c74a258d68"
+        },
+        "erm48/held5/segment_35.pt": {
+          "bytes": 1074357,
+          "sha256": "48b335f516246c5f2e5d45a32e96e2206126340b78433f9aae2ed387709e16cd"
+        },
+        "erm48/held5/segment_36.pt": {
+          "bytes": 1074357,
+          "sha256": "7a44b5ad4ae97337a38c6a638cc4b849943f4fdb2ba9638da10f40f19ef425c2"
+        },
+        "erm48/held5/segment_37.pt": {
+          "bytes": 1074357,
+          "sha256": "820803c1f89cf0505b9f38166030c5d6aba532d3550d5b453369b851f5ed9754"
+        },
+        "erm48/held5/segment_38.pt": {
+          "bytes": 1074357,
+          "sha256": "9dcfb16ebf2a605f7c1f257feaa7459fbf6fb7125b6ef6034f02b82c1d865839"
+        },
+        "erm48/held5/segment_39.pt": {
+          "bytes": 1074357,
+          "sha256": "5f5a881d4afbd75fe1b7971c429c329472eecbc4237a2b408db21fb569811835"
+        },
+        "erm48/held5/segment_40.pt": {
+          "bytes": 1074357,
+          "sha256": "dc2cf0c22fb7f17d81c8cfabaa4b0690a0bd7b6c72b842f3af1b30ee47c1d4db"
+        },
+        "erm48/held5/segment_41.pt": {
+          "bytes": 1074357,
+          "sha256": "e05b70a0051bf39ede4ed060b42b1d08ecfa718169ab0dcd96c83b17268b9a85"
+        },
+        "erm48/held5/segment_42.pt": {
+          "bytes": 1074357,
+          "sha256": "2e22e2290de5463573dd3fbd4a6f5ad839bdc0fd339bfea71ed0b301c07b8157"
+        },
+        "erm48/held5/segment_43.pt": {
+          "bytes": 1074357,
+          "sha256": "9dcd24f04154874394322ad47ca226ccfec8ca7733cbb2b2f4117a4769a94672"
+        },
+        "erm48/held5/segment_44.pt": {
+          "bytes": 1074357,
+          "sha256": "90680ce126a4954c46db55bd35783f58c6f15e5ccc18e590d8ff1dd06e4037fb"
+        },
+        "erm48/held5/segment_45.pt": {
+          "bytes": 1074357,
+          "sha256": "fce63acd5e8fa0f1afe815324437cb591607d6b89361f1b4c8a1b30737f3823e"
+        },
+        "erm48/held5/segment_46.pt": {
+          "bytes": 1074357,
+          "sha256": "3bca3241aea5e6529d29621c0a47f70cf80198ac832f2e7fd06ba4d507c160ec"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk001",
+        "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk002",
+        "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk003",
+        "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk001",
+          "id": "15dz8Smxv2Va0hY1buZQWxH296AMQQ7qo",
+          "url": "https://drive.google.com/file/d/15dz8Smxv2Va0hY1buZQWxH296AMQQ7qo/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "41801ccbfd3869ee52990c7d14070547fcd535c50b28b2e310e0d6942cf433b6",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk002",
+          "id": "1M3L2ZbuR4GIQHdFF9XEKNtxRiCggngXU",
+          "url": "https://drive.google.com/file/d/1M3L2ZbuR4GIQHdFF9XEKNtxRiCggngXU/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "9f100d7d23f068fba2d1830b40d25cb83e04d6d462f3129be8aa9b762f4f7d62",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk003",
+          "id": "1MXq0hVRoZ2hgotk47YBFM7vdqEtAiKJX",
+          "url": "https://drive.google.com/file/d/1MXq0hVRoZ2hgotk47YBFM7vdqEtAiKJX/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "249f39a04418ba4d10320ee382ace83d5ba8562b8d26251e26365ce5be107336",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part2.tar.gz.chunk004",
+          "id": "1ieEmcmy1wBA5heBKvvfvkM_KtDYg4LF8",
+          "url": "https://drive.google.com/file/d/1ieEmcmy1wBA5heBKvvfvkM_KtDYg4LF8/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4754262,
+          "sha256": "3534c7e20a358d795dbf783ab54154bbcaeaba21c4c780d5a8c0e0cde75c4edc",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "erm48-held5-part3.tar.gz",
+      "bytes": 1983641,
+      "sha256": "221d551e4d5dc859832349aada297bfbcd8ae14fd361f414cb3cf15bd971626a",
+      "contents": {
+        "erm48/held5/segment_47.pt": {
+          "bytes": 1074357,
+          "sha256": "f2123c12959577dc4c699a6139e9d943b6745e8a843314b82f83ef72813bddf3"
+        },
+        "erm48/held5/segment_48.pt": {
+          "bytes": 1074357,
+          "sha256": "e94db360ef32fc3f681dcd4102f33f780280bd36c2f36b59c79ef894fd312f45"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-erm48-held5-part3.tar.gz.chunk001"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-erm48-held5-part3.tar.gz.chunk001",
+          "id": "1eEAc6ze8nLi2Px1Madl-nHwYFHjHjSO6",
+          "url": "https://drive.google.com/file/d/1eEAc6ze8nLi2Px1Madl-nHwYFHjHjSO6/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 1983641,
+          "sha256": "221d551e4d5dc859832349aada297bfbcd8ae14fd361f414cb3cf15bd971626a",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    }
+  ],
+  "parent": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "owner_only": true,
+  "all_parts_authenticated_redownload_verified": true,
+  "whole_archives_and_members_sha256_verified": true,
+  "max_concurrent_transfers": 3,
+  "full_run_backup_complete": false,
+  "raw_data_included": false
+}
