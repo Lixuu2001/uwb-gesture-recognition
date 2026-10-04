@@ -1,0 +1,54 @@
+{
+  "state": "complete",
+  "new_trajectories": 12,
+  "new_epochs": 288,
+  "total_audited_trajectories": 24,
+  "audited_artifact_hashes": 714,
+  "tail_accuracy_percent": {
+    "shared128": 92.72222222222223,
+    "sam24": 93.11363636363637,
+    "rsc24": 91.99242424242425,
+    "random24": 93.21843434343434,
+    "cnn_readout": 93.06313131313132
+  },
+  "paired_tail": {
+    "shared128": {
+      "mean_pp": -0.7297979797979859,
+      "wins": 0,
+      "minimum_paired_difference_pp": -2.083333333333326,
+      "passed": false
+    },
+    "random24": {
+      "mean_pp": -1.2260101010101074,
+      "wins": 0,
+      "minimum_paired_difference_pp": -2.5833333333333375,
+      "passed": false
+    },
+    "sam24": {
+      "mean_pp": -1.1212121212121264,
+      "wins": 0,
+      "minimum_paired_difference_pp": -2.833333333333332,
+      "passed": false
+    },
+    "cnn_readout": {
+      "mean_pp": -1.070707070707072,
+      "wins": 1,
+      "minimum_paired_difference_pp": -3.0909090909090886,
+      "passed": false
+    }
+  },
+  "fixed_gate_passed": false,
+  "new_epoch_seconds_sum": 7616.309228456026,
+  "new_epoch_hours_sum": 2.1156414523488962,
+  "all_primary_and_secondary_functional_logits_bitwise_equal": true,
+  "source_mask_metadata_independently_audited": true,
+  "tail_segment_reconstruction_max_abs": 7.12275505065918e-06,
+  "not_independent_outer_eight_fold": true,
+  "not_original_method": true,
+  "source_users_repeatedly_researched": true,
+  "partial_subsets_not_used_to_tune": true,
+  "stop_rule": "No mask-fraction/attribution/batch-selection/seed/tail/grid or full-eight expansion of this fixed hypothesis. Never swap random or best-CE to primary.",
+  "full_private_backup_pending": false,
+  "full_private_backup_complete": true,
+  "backup_receipt": "DRIVE_BACKUP_RECEIPT.json"
+}
