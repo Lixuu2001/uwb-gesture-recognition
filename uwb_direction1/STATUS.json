@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "energy_area_source_complete_gate_failed",
+  "state": "response_pool_source_complete_gate_failed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "Effective reproducible original contribution still unvalidated; latest within-radar energy-path area readout source screen failed matched-control gates.",
+  "remaining_user_goal": "Effective reproducible original contribution still unvalidated; latest small temporal response pooling baseline failed capacity/strong-CNN source gates.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261004_energy_area/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261004_response_pool/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791125415.932085,
   "background_training_pid": null,
-  "background_training_status_note": "Six-source five-arm frozen-CNN readout experiment and independent audit completed; no neural network retraining or next experiment is active.",
+  "background_training_status_note": "Six-source four-arm temporal response pooling experiment, independent audit and private backup complete; no next experiment active.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/ENERGY_AREA_REVIEW.md",
+  "latest_literature_note": "research/RESPONSE_POOL_REVIEW.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -97,7 +97,7 @@
   "signal_private_backup_file_id": "1aWIw5HiXcrqOyNBqzd79J5jQNhWPBRjC",
   "signal_private_backup_verified": true,
   "signal_private_backup_sha256": "f2ea2bf0aad1a56487d440c08446a2f28122d5935b84196f29944d27ed5837d1",
-  "latest_source_diagnostic": "results/cloud_20261004_energy_area/SUMMARY.json",
+  "latest_source_diagnostic": "results/cloud_20261004_response_pool/SUMMARY.json",
   "moment_guided_protocol_commit": "213cd840871d32dbdd611f03937f16b9c60ed310",
   "moment_guided_results_path": "/workspace/uwb-moment-guided-runs-20261002",
   "moment_guided_completed_runs": 16,
@@ -728,5 +728,23 @@
   "energy_area_private_backup_bytes": 62014153,
   "energy_area_private_backup_chunks": 9,
   "energy_area_private_backup_members": 85,
-  "energy_area_reused_cnn_checkpoints_backed_up": 6
+  "energy_area_reused_cnn_checkpoints_backed_up": 6,
+  "response_pool_protocol_commit": "77e9cf5b4e86dacd28c39c6c5f325f428a724a08",
+  "response_pool_scores": {
+    "ppv_single": 0.8406313131313131,
+    "ppv_four": 0.8800126262626261,
+    "multi_pool": 0.8723863636363637,
+    "temporal_null": 0.8652272727272726,
+    "cnn_readout": 0.9306313131313132,
+    "tail_cnn": 0.9272222222222223
+  },
+  "response_pool_gate_passed": false,
+  "response_pool_private_backup_verified": true,
+  "response_pool_private_backup_receipt": "results/cloud_20261004_response_pool/DRIVE_BACKUP_RECEIPT.json",
+  "response_pool_audit": "results/cloud_20261004_response_pool/AUDIT.json",
+  "response_pool_results_path": "/workspace/uwb-response-pool-source-20261004",
+  "response_pool_selected_readouts": 24,
+  "response_pool_actual_seconds": 244.11709158500162,
+  "response_pool_observed_utc": "2026-10-04T16:17:27.224715+00:00",
+  "response_pool_scope": "Six reused source users3..8; not untouched test, not eight-fold confirmation, not original contribution"
 }
