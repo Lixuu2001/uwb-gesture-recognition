@@ -45,6 +45,9 @@ def main(a):
                 vp=reg.predict(v);logit=vp@c.T-.5*np.square(c).sum(1);err=float(abs(logit-saved[f'{arm}_validation_{j}']).max());max_error=max(max_error,err)
                 np.testing.assert_allclose(logit,saved[f'{arm}_validation_{j}'],atol=1e-9,rtol=1e-9)
                 dist=np.square(vp[:,None,:]-c[None,:,:]).sum(-1);np.testing.assert_array_equal(logit.argmax(1),dist.argmin(1));regs[arm].append(reg);vals[arm].append(vp)
+        checkpoint=np.load(d/'models.npz');np.testing.assert_allclose(checkpoint['mean'],mu,atol=1e-12);np.testing.assert_allclose(checkpoint['scale'],scale,atol=1e-12)
+        for j,reg in enumerate(regs['onehot']):
+            np.testing.assert_allclose(checkpoint['coefs'][j],reg.coef_.T,atol=1e-10,rtol=1e-10);np.testing.assert_allclose(checkpoint['bias'],reg.intercept_,atol=1e-10,rtol=1e-10)
         for arm,c in code.items():
             candidates=[]
             for j,lam in enumerate(cfg['lambdas']):

@@ -1,0 +1,7 @@
+# 私有恢复
+
+使用DRIVE_BACKUP_RECEIPT.json的持久file_id/url，先核验shared=false且仅owner。fetch使用download_raw_file=true、include_base64=false，立即物化，每次最多3并发，不输出认证URL。分块SHA/大小校验后按part_index重组每个bundle；校验整包SHA和CONTENTS_SHA256.json全部成员。只解到新的空目录，禁止覆盖已有运行。
+
+source-run保存六源全部码书/权重/预测/选择/样本ID；其冻结128维特征与旧源模型复用results/cloud_20261004_energy_area/DRIVE_BACKUP_RECEIPT.json已验证备份（不可换成八折特征）。eightfold-reference保存全八折9300隐藏向量与旧CNN预测；eightfold-run保存全八折四臂权重/预测/选择/样本ID；checkpoints保存旧八折选中best.pt及原result/split/predictions。common保存代码/协议/数据标签/用户/日志/成本/资料说明。原始信号与prepared数组仍通过既有迁移及准备协议恢复，本归档不重复保存。
+
+源码tools/semantic_code.py对应source；semantic_code_eightfold.py对应八折。--help给出参数；cost文件和PROTOCOL必须对应同一scope，审计分别用audit_semantic_code.py/audit_semantic_code_eightfold.py。8fold的reference用eightfold-reference，source的reference用旧energy-area源特征。feature审计为全部隐藏向量独立函数式重算，读出审计为独立sklearn直接码目标重新拟合。存档报告捕获在上传回执生成前，以最终Git回执为备份成功依据。

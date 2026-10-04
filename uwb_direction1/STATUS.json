@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "semantic_code_preregistered_not_run",
+  "state": "semantic_code_eightfold_complete_gate_failed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "Effective original contribution still unvalidated. Next fixed closed-set semantic output-code screen is established-method adaptation, not novelty.",
+  "remaining_user_goal": "八折门槛失败，封存本固定语义码/权重/seed/lambda网格，不将源开发正结果当成最终成功；有效原创贡献仍未验证。",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261004_source_rsc/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261004_semantic_code_eightfold/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791146472.947506,
   "background_training_pid": null,
-  "background_training_status_note": "No training active; fixed semantic output-code readout implemented, awaiting preregistration remote readback before synthetic timing and source fitting.",
+  "background_training_status_note": "Source six and controlled eightfold fixed code readouts completed and audited; no encoder training or next queue active.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -809,5 +809,21 @@
     "cnn_readout": 93.06313131313132
   },
   "source_rsc_total_audited_trajectories": 24,
-  "source_rsc_audited_artifact_hashes": 714
+  "source_rsc_audited_artifact_hashes": 714,
+  "semantic_code_source_gate_passed": true,
+  "semantic_code_eightfold_gate_passed": false,
+  "semantic_code_eightfold_means": {
+    "onehot": 0.9489772727272727,
+    "semantic": 0.9508579545454545,
+    "permuted": 0.9479431818181818,
+    "orthogonal": 0.9489772727272727,
+    "cnn": 0.9418428030303031
+  },
+  "semantic_code_backup_verified": true,
+  "strong_eightfold_frozen_readout_baseline": {
+    "macro_accuracy": 0.9489772727272727,
+    "protocol": "research/SEMANTIC_CODE_EIGHTFOLD_PROTOCOL.json",
+    "scope": "same historical eightfold legacy bestCE CNN checkpoints, source-only ridge/validation selection; not independent external validation"
+  },
+  "semantic_code_backup_receipt": "results/cloud_20261004_semantic_code_eightfold/DRIVE_BACKUP_RECEIPT.json"
 }
