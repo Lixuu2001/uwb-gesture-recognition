@@ -1,3 +1,13 @@
+## 2026-10-04T09:43:27.725266+00:00 云端进程中断后原状态恢复；四条完整轨迹审计和备份通过
+
+本次确认原训练4303和归档4319均不在/proc，当前容器PID1启动晚于原实验启动时间；队列遗留training不能当进程仍活动。具体终止原因未写入日志。保留原4条完整结果和real_variance/held4第6轮450步全部文件到/workspace/uwb-fishr-interruption-20261004-0934，再核对版本、冻结helper/协议、全部完成产物和检查点SHA及AdamW/scheduler/EMA步数后，按原LAUNCH命令恢复PID603，归档watcher612；未改科学配置、门槛或重跑已完成轨迹。
+
+用保留第6轮独立重放到第9轮（76.385秒），model、AdamW、scheduler、RNG、EMA历史/计数/固定scale/校准、best/tail/选模和逐轮段平均全部逐位一致；history除墙钟耗时和序列化SHA外一致，真实源数据而非仅合成测试。系数26.974675837012917保持不变；未读取held输入作调参。RECOVERY_01.json和RECOVERY_REPLAY_01.json保存证据。
+
+固定审计集合：balanced_erm/held3,4，real_variance/held3，permuted_variance/held3，共4条96轮。全部ERM/tail验证/诊断logits独立函数逐位相同、角色/源顺序/选模和120产物SHA通过；held3三臂首轮权重与源校准完全一致。147个完整轨迹及元数据成员，加19恢复证据成员，合计166成员、149309022压缩字节、10逻辑包/25个≤7MiB私有owner-only块，全部认证raw回下载、逐块/重组/成员SHA通过。见PARTIAL_AUDIT_01.json、PARTIAL_DRIVE_RECEIPT_01.json。备份包含96轮段平均和四份完整优化器/RNG/EMA状态；恢复包另含中断第6轮、恢复第9轮比较及重放状态。不是18轨迹全部备份。
+
+当前观测permuted_variance/held4第2轮，完整结果5/18，进程活动。继续同一冻结队列和原联合门槛，未得整组六源效果；不得根据中途结果调整lambda/EMA/warmup/seed/窗口或扩展八折。归档和后续上传复用/workspace/uwb-fishr-final-20261004及/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_01.json、records，避免重复上传已有25块。若再次中断，先检查PID，再完整checkpoint恢复；最终全24轨迹审计和其余备份完成后判定效果。原789源码和原始大数组不动。用户研究目标未达，自动接续保留。以下为历史记录。
+
 ## 2026-10-04T08:17:09.211507+00:00 源梯度方差固定三组对照已启动；效果未判定
 
 先冻结并正常推送/远端回读fc19c823aec4c7d447527c9aa78d6c36da2354ca，再实际启动PID4303。复用原云端数据/prepared和SWAD六条旧24轮基线；没有重复下载。真实源批成本含75%余量预计5.587792小时，低于8小时预算。新balanced_erm、real_variance、permuted_variance各六源轨迹×24轮，共18新轨迹432轮，最终连旧基线24轨迹独立审计。四训练用户每批16例的同一采样，首轮纯CE，第二轮首个源批冻结梯度范数比校准系数，常规时间偏差校正EMA.95；与作者原版不同，非原创宣称。

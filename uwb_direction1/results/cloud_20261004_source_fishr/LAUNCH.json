@@ -34,5 +34,48 @@
     "--state",
     "/workspace/uwb-fishr-archive-state-20261004.json",
     "--watch"
-  ]
+  ],
+  "restarts": [
+    {
+      "utc": "2026-10-04T09:35:07.865136+00:00",
+      "pid": 603,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/uwb-temporal-publish-20261003/uwb_direction1/tools/source_fishr_pilot.py",
+        "train",
+        "--data",
+        "/workspace/uwb-restored-20260930",
+        "--prepared",
+        "/workspace/uwb-circular-prepared-20260930",
+        "--baseline",
+        "/workspace/uwb-swad-source-runs-20261003",
+        "--out",
+        "/workspace/uwb-fishr-source-runs-20261004",
+        "--cost",
+        "/workspace/uwb-temporal-publish-20261003/uwb_direction1/results/cloud_20261004_source_fishr/COST.json"
+      ],
+      "log": "/workspace/uwb-fishr-source-train-20261004.log",
+      "from_epoch": 6,
+      "next_epoch": 7,
+      "state": "resumed_training_observed",
+      "archiver_pid": 612,
+      "archiver_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/uwb-temporal-publish-20261003/uwb_direction1/tools/archive_source_fishr.py",
+        "--runs",
+        "/workspace/uwb-fishr-source-runs-20261004",
+        "--baseline",
+        "/workspace/uwb-swad-source-runs-20261003",
+        "--out",
+        "/workspace/uwb-fishr-final-20261004",
+        "--log",
+        "/workspace/uwb-fishr-source-train-20261004.log",
+        "--state",
+        "/workspace/uwb-fishr-archive-state-20261004.json",
+        "--watch"
+      ]
+    }
+  ],
+  "latest_training_pid": 603,
+  "latest_archiver_pid": 612
 }
