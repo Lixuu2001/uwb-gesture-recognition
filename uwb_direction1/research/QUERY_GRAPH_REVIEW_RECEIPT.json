@@ -1,0 +1,29 @@
+{
+  "paper": "Laplacian Regularized Few-Shot Learning",
+  "authors": [
+    "Imtiaz Masud Ziko",
+    "Jose Dolz",
+    "Eric Granger",
+    "Ismail Ben Ayed"
+  ],
+  "venue": "ICML2020/PMLR119",
+  "canonical_url": "https://proceedings.mlr.press/v119/ziko20a.html",
+  "mirror": "https://github.com/mlresearch/v119",
+  "commit": "500846bfc432506177d62479931d030063010517",
+  "path": "ziko20a/ziko20a.pdf",
+  "blob": "45db9d0f24d94e9c61d7dd6ae44158b59cbbb3d0",
+  "pdf_sha256": "190e175558d2a11bcb1292648a4afac8738290579b68da3154b5ce731a92c92f",
+  "pdf_bytes": 636356,
+  "total_pages": 11,
+  "reviewed": "Main-text extracted text pages1-9 including methods/eq1-12, assumptions, algorithm, experiments, table/figure captions and conclusion. No visual figure review; references pages10-11 not fully read.",
+  "author_repository": "https://github.com/imtiazziko/LaplacianShot",
+  "author_commit": "5de261226f6904379cff4cc5a1d183e309934809",
+  "reviewed_code": [
+    "README.md",
+    "src/lshot_update.py",
+    "src/train_lshot.py:588-660",
+    "src/utils/configuration.py:106-112"
+  ],
+  "license": "No LICENSE file found; independent mathematical implementation, no copied author code",
+  "publisher_http_attempt": "Explicit PDF HTTPS failed proxy403; obtained official publisher GitHub mirror through allowed Git transport"
+}

@@ -1,0 +1,50 @@
+{
+  "scope": "six reused development users; offline unlabeled within-user batch inference",
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "primary": "mutual",
+  "arms": [
+    "ridge",
+    "mutual",
+    "union",
+    "permuted"
+  ],
+  "k": 10,
+  "mu": 1.0,
+  "seed": 20261004,
+  "feature_reference": "/workspace/uwb-energy-area-source-20261004",
+  "feature_manifest_sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184",
+  "readout_reference": "/workspace/uwb-semantic-code-source-20261004",
+  "readout_manifest_sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca",
+  "unary": "Reuse frozen source onehot ridge selected only on next source validation user. Clip scores at1e-12 and row-normalize; argmax unchanged. No new fit, calibration, temperature, class prior or balanced assignment.",
+  "geometry": "128 hidden features centered/scaled by same four training users ridge mean/scale, then row L2 with zero rows retained. Euclidean10 nearest nonself, ties increasing stable sampleID. Sort rows by sampleID internally for input-order equivariance.",
+  "graphs": "Directed binary A_ij=1 for10 nearest. mutual W=A*A.T; union W=(A+A.T)/2. Permuted W=P mutualW P.T with seeded query-row permutation; exactly preserves unlabeled edge weight/degree multiset/spectrum while dissociating geometry from unary. Diagonal zero, no labels.",
+  "objective": "min_F 0.5||F-P||_F^2 + mu/2 tr(F^T L F), L=diag(W1)-W. Exact solve(I+mu L)F=P. Symmetric nonnegative W gives unique SPD system; row simplex follows nonnegative inverse and L1=0; no posthoc clipping.",
+  "roles": "Old four training/next cyclic validation/held diagnostic source split, retained7100 users3..8 (HV6 class3 preexisting exclusion). Each validation or held user is one separate unlabeled query batch, never concatenated. Twelve labels remain possible including absent class.",
+  "selection": "No new parameter selection: reuse each fold source ridge onehot selected lambda and weights, locked before this experiment. All graph k/mu/normalization/random seed fixed. Query labels used only after predictions written, for reporting.",
+  "gate": {
+    "minimum_mean_gain": {
+      "ridge": 0.005,
+      "union": 0.0025,
+      "permuted": 0.005
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "audit": "Rebuild directed neighbors via independent scipy cdist stable distance+ID ordering; direct dense SPD solve vs sparse; all graph CSR entries, probability conservation, residual, predictions and labels/IDs/reference hashes. Synthetic duplicate ties and permutation equivariance, disconnected graph identity.",
+  "cost": "Synthetic1200x128 feature+1200x12 probabilities timing 3graph solves; estimate12 batches x timing with3x headroom, under600s, no real metrics.",
+  "budget_seconds": 600,
+  "limits": [
+    "Batch transduction: requires access to other unlabeled gestures from same user, not inductive single-sample deployment and no causal streaming claim.",
+    "Known graph regularization/mutual-neighbor filtering, no novelty claim; not exact LaplacianShot.",
+    "Mutual versus union differs in edge density as well as reciprocity, so even positive cannot isolate reciprocity without further preregistered density controls.",
+    "Six development users previously reused. Positive permits prospectively frozen matched eightfold extension against both inductive strong baseline and same-query-access graph controls.",
+    "Failure closes this fixed graph k/mu/seed/normalization/grid; no promoting control or using diagnostic labels to repair graph."
+  ]
+}
