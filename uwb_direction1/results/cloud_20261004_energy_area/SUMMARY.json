@@ -1,0 +1,697 @@
+{
+  "state": "complete",
+  "scores": {
+    "cnn_readout": [
+      0.8683333333333333,
+      0.9841666666666667,
+      0.9891666666666667,
+      0.7954545454545454,
+      0.9674999999999999,
+      0.9791666666666666
+    ],
+    "base": [
+      0.8591666666666667,
+      0.9866666666666667,
+      0.9874999999999999,
+      0.7854545454545453,
+      0.9674999999999999,
+      0.9800000000000001
+    ],
+    "signed": [
+      0.8616666666666667,
+      0.9874999999999999,
+      0.9883333333333333,
+      0.7972727272727272,
+      0.9700000000000001,
+      0.9800000000000001
+    ],
+    "unsigned": [
+      0.8616666666666667,
+      0.9883333333333334,
+      0.9899999999999999,
+      0.7881818181818182,
+      0.9691666666666666,
+      0.9816666666666668
+    ],
+    "shuffled": [
+      0.8675,
+      0.9875000000000002,
+      0.9874999999999999,
+      0.7872727272727272,
+      0.9683333333333333,
+      0.9800000000000001
+    ],
+    "cnn": [
+      0.8608333333333333,
+      0.9891666666666667,
+      0.9858333333333333,
+      0.78,
+      0.9674999999999999,
+      0.9791666666666666
+    ],
+    "tail_cnn": [
+      0.8624999999999999,
+      0.9891666666666667,
+      0.9866666666666667,
+      0.78,
+      0.9666666666666668,
+      0.9783333333333334
+    ]
+  },
+  "means": {
+    "cnn_readout": 0.9306313131313132,
+    "base": 0.9277146464646465,
+    "signed": 0.9307954545454545,
+    "unsigned": 0.9298358585858585,
+    "shuffled": 0.9296843434343435,
+    "cnn": 0.9270833333333335,
+    "tail_cnn": 0.9272222222222223
+  },
+  "comparisons": {
+    "base": {
+      "mean_gain": 0.0030808080808081098,
+      "wins": 5,
+      "minimum_paired_gain": 0.0,
+      "passed": false
+    },
+    "unsigned": {
+      "mean_gain": 0.0009595959595959566,
+      "wins": 2,
+      "minimum_paired_gain": -0.0016666666666667052,
+      "passed": false
+    },
+    "shuffled": {
+      "mean_gain": 0.0011111111111110998,
+      "wins": 3,
+      "minimum_paired_gain": -0.005833333333333357,
+      "passed": false
+    },
+    "cnn_readout": {
+      "mean_gain": 0.00016414141414143138,
+      "wins": 4,
+      "minimum_paired_gain": -0.006666666666666599,
+      "passed": true
+    },
+    "tail_cnn": {
+      "mean_gain": 0.003573232323232293,
+      "wins": 4,
+      "minimum_paired_gain": -0.0016666666666668162,
+      "passed": true
+    }
+  },
+  "gate_passed": false,
+  "rows": [
+    {
+      "held": 3,
+      "scores": {
+        "cnn_readout": 0.8683333333333333,
+        "base": 0.8591666666666667,
+        "signed": 0.8616666666666667,
+        "unsigned": 0.8616666666666667,
+        "shuffled": 0.8675,
+        "cnn": 0.8608333333333333,
+        "tail_cnn": 0.8624999999999999
+      },
+      "checkpoint": "/workspace/uwb-swad-source-runs-20261003/held3/segment_24.pt",
+      "checkpoint_sha256": "227a27623299d079da726fe0b4886d5e7eb69a0c76046244f2f2ea12e486dc2e",
+      "sklearn_checks": [
+        {
+          "arm": "cnn_readout",
+          "lam": 0.001,
+          "max_error": 8.323897127127111e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.01,
+          "max_error": 4.0967229608668276e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.1,
+          "max_error": 1.0325074129013956e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.001,
+          "max_error": 1.2212453270876722e-13
+        },
+        {
+          "arm": "base",
+          "lam": 0.01,
+          "max_error": 4.618527782440651e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.1,
+          "max_error": 1.1213252548714081e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.001,
+          "max_error": 2.353672812205332e-13
+        },
+        {
+          "arm": "signed",
+          "lam": 0.01,
+          "max_error": 5.162537064506978e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.1,
+          "max_error": 1.2878587085651816e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.001,
+          "max_error": 2.191580250610059e-13
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.01,
+          "max_error": 5.206945985491984e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.1,
+          "max_error": 2.020605904817785e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.001,
+          "max_error": 1.6409096303959814e-13
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.01,
+          "max_error": 4.873879078104437e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.1,
+          "max_error": 1.2989609388114332e-14
+        }
+      ],
+      "files": {
+        "features.npz": "fa541d0c5c660e891cb8a0a7eea9113f492c47b7c2b670494cc7eeaf04e904cf",
+        "models.npz": "db249493b4f5ffc63b1dd83e049a47493f911966a92889ed01e48a375f5ae9ba",
+        "predictions.npz": "257e3822037e1adefd2b5552d51da55a6caf87d36390df7950d1fac5bdae3fd2",
+        "selection.json": "f08d58350ec539bab18420722e2bdcd01988ad070bf3b34458d22849b3662dfc",
+        "split.json": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+      }
+    },
+    {
+      "held": 4,
+      "scores": {
+        "cnn_readout": 0.9841666666666667,
+        "base": 0.9866666666666667,
+        "signed": 0.9874999999999999,
+        "unsigned": 0.9883333333333334,
+        "shuffled": 0.9875000000000002,
+        "cnn": 0.9891666666666667,
+        "tail_cnn": 0.9891666666666667
+      },
+      "checkpoint": "/workspace/uwb-swad-source-runs-20261003/held4/segment_24.pt",
+      "checkpoint_sha256": "7b3f727e32da87da9093f7a2b591598dad44b4c4c1ecae19be0680eba3473f93",
+      "sklearn_checks": [
+        {
+          "arm": "cnn_readout",
+          "lam": 0.001,
+          "max_error": 5.5316862201948425e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.01,
+          "max_error": 2.0039525594484076e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.1,
+          "max_error": 6.5503158452884236e-15
+        },
+        {
+          "arm": "base",
+          "lam": 0.001,
+          "max_error": 5.828670879282072e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.01,
+          "max_error": 3.0503377601576176e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.1,
+          "max_error": 6.522560269672795e-15
+        },
+        {
+          "arm": "signed",
+          "lam": 0.001,
+          "max_error": 4.6102011097559625e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.01,
+          "max_error": 3.397282455352979e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.1,
+          "max_error": 9.43689570931383e-15
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.001,
+          "max_error": 5.551115123125783e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.01,
+          "max_error": 3.952393967665557e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.1,
+          "max_error": 1.199040866595169e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.001,
+          "max_error": 4.916900220308662e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.01,
+          "max_error": 3.085032229677154e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.1,
+          "max_error": 7.882583474838611e-15
+        }
+      ],
+      "files": {
+        "features.npz": "12a3825646004da1f6430eb2d4ce4256c139ef4615f845dd1fe5981fea46b7a0",
+        "models.npz": "de4e174c3877fcd60a173553d85bfab0dfd4181f18aa2da0cc0c4e29f2fe9f99",
+        "predictions.npz": "e6523d468bf3382c0afced166b838d73b7f039ace35daebb58ca9e8e13636d22",
+        "selection.json": "d0b8073e7018eaed2b713f8514bb5c228eb46989c5d1e67f58ae3245c7f7f6cf",
+        "split.json": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+      }
+    },
+    {
+      "held": 5,
+      "scores": {
+        "cnn_readout": 0.9891666666666667,
+        "base": 0.9874999999999999,
+        "signed": 0.9883333333333333,
+        "unsigned": 0.9899999999999999,
+        "shuffled": 0.9874999999999999,
+        "cnn": 0.9858333333333333,
+        "tail_cnn": 0.9866666666666667
+      },
+      "checkpoint": "/workspace/uwb-swad-source-runs-20261003/held5/segment_24.pt",
+      "checkpoint_sha256": "0a95ee9cbcfcaf6d97084e4601f6d2a2dd6e12b634f254fc56ed81c8847b7896",
+      "sklearn_checks": [
+        {
+          "arm": "cnn_readout",
+          "lam": 0.001,
+          "max_error": 7.904787935331115e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.01,
+          "max_error": 3.6359804056473877e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.1,
+          "max_error": 8.326672684688674e-15
+        },
+        {
+          "arm": "base",
+          "lam": 0.001,
+          "max_error": 9.449385718340864e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.01,
+          "max_error": 7.649436639667329e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.1,
+          "max_error": 1.27675647831893e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.001,
+          "max_error": 9.29256671611256e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.01,
+          "max_error": 6.195044477408373e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.1,
+          "max_error": 1.8096635301390052e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.001,
+          "max_error": 9.636735853746359e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.01,
+          "max_error": 5.972999872483342e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.1,
+          "max_error": 1.84297022087776e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.001,
+          "max_error": 9.520162436160717e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.01,
+          "max_error": 6.464273560879974e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.1,
+          "max_error": 1.867950238931826e-14
+        }
+      ],
+      "files": {
+        "features.npz": "be0b743585f8a95e51d3d833795a5dfe38274f6aef7dfe1d302faba472e5f5a5",
+        "models.npz": "fb74b2eda2ac5e3ee4f5057d83adadfd9709304ae834480aee8419d9ee49881d",
+        "predictions.npz": "70f83c753e0639343e6e02c97437d96de3ce6b7d2a9e673c5df6bc102cdc1d1d",
+        "selection.json": "6ee5a3a390c4b9f64adaee9fb4219b008b647b42bf16f25d93c3ca09123d0cad",
+        "split.json": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+      }
+    },
+    {
+      "held": 6,
+      "scores": {
+        "cnn_readout": 0.7954545454545454,
+        "base": 0.7854545454545453,
+        "signed": 0.7972727272727272,
+        "unsigned": 0.7881818181818182,
+        "shuffled": 0.7872727272727272,
+        "cnn": 0.78,
+        "tail_cnn": 0.78
+      },
+      "checkpoint": "/workspace/uwb-swad-source-runs-20261003/held6/segment_24.pt",
+      "checkpoint_sha256": "8ecaea9fb0463acb6a32984f5067245b263ded869cfd3c77328bedd587a39e1a",
+      "sklearn_checks": [
+        {
+          "arm": "cnn_readout",
+          "lam": 0.001,
+          "max_error": 9.26342336171615e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.01,
+          "max_error": 3.2585045772748344e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.1,
+          "max_error": 1.099120794378905e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.001,
+          "max_error": 1.0007272788215005e-13
+        },
+        {
+          "arm": "base",
+          "lam": 0.01,
+          "max_error": 3.9190872769268026e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.1,
+          "max_error": 1.0436096431476471e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.001,
+          "max_error": 1.2255474413080947e-13
+        },
+        {
+          "arm": "signed",
+          "lam": 0.01,
+          "max_error": 3.885780586188048e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.1,
+          "max_error": 9.159339953157541e-15
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.001,
+          "max_error": 1.452310494087783e-13
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.01,
+          "max_error": 3.8413716652030416e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.1,
+          "max_error": 1.2212453270876722e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.001,
+          "max_error": 1.2963241591279484e-13
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.01,
+          "max_error": 3.833044992518353e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.1,
+          "max_error": 9.936496070395151e-15
+        }
+      ],
+      "files": {
+        "features.npz": "00db3ede1995f0179aab4a4535e3d3f2a6783cb8b5e0349669c44b0db7d9d079",
+        "models.npz": "ccc45a767bd81dfcf3b9959b8627311b74e23f6f0681c10efb706f03a57bfecd",
+        "predictions.npz": "327a1c12e7ef4a97ce71afe0d8915cde5caa8c7fbe35ceb0c26d4deeea14dd78",
+        "selection.json": "132c7232b11e36a5a004b8e20361bdf7dd7264f1ae6eacbfdcd355756a32e33f",
+        "split.json": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+      }
+    },
+    {
+      "held": 7,
+      "scores": {
+        "cnn_readout": 0.9674999999999999,
+        "base": 0.9674999999999999,
+        "signed": 0.9700000000000001,
+        "unsigned": 0.9691666666666666,
+        "shuffled": 0.9683333333333333,
+        "cnn": 0.9674999999999999,
+        "tail_cnn": 0.9666666666666668
+      },
+      "checkpoint": "/workspace/uwb-swad-source-runs-20261003/held7/segment_24.pt",
+      "checkpoint_sha256": "14a9a9195ba9ea46cdc414ab2c6aaeb36f5547266798b5006c6e5c4159c4cc91",
+      "sklearn_checks": [
+        {
+          "arm": "cnn_readout",
+          "lam": 0.001,
+          "max_error": 4.1494585545365226e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.01,
+          "max_error": 2.4355517602714372e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.1,
+          "max_error": 7.188694084447889e-15
+        },
+        {
+          "arm": "base",
+          "lam": 0.001,
+          "max_error": 1.1657341758564144e-13
+        },
+        {
+          "arm": "base",
+          "lam": 0.01,
+          "max_error": 2.9753977059954195e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.1,
+          "max_error": 1.3988810110276972e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.001,
+          "max_error": 1.312283615106935e-13
+        },
+        {
+          "arm": "signed",
+          "lam": 0.01,
+          "max_error": 3.352873534367973e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.1,
+          "max_error": 1.354472090042691e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.001,
+          "max_error": 1.2001510896197942e-13
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.01,
+          "max_error": 3.885780586188048e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.1,
+          "max_error": 2.0872192862952943e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.001,
+          "max_error": 1.1657341758564144e-13
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.01,
+          "max_error": 3.552713678800501e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.1,
+          "max_error": 1.1324274851176597e-14
+        }
+      ],
+      "files": {
+        "features.npz": "b7ef3c6902c58cec2b939317528f251425dda93ed2ac0b93ff856c358deceeaf",
+        "models.npz": "e705138a2e75c0f6939ebf256112d1e699a1625aa3e35438b4bbef536fd6cede",
+        "predictions.npz": "f21236cf459617d7c5a03c5d48219b84af9096541cd84e057a0a8d10c5c67490",
+        "selection.json": "5b670448a14a56e05438c5d678a8767842d02ad0168002f3cfe3108120121e03",
+        "split.json": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+      }
+    },
+    {
+      "held": 8,
+      "scores": {
+        "cnn_readout": 0.9791666666666666,
+        "base": 0.9800000000000001,
+        "signed": 0.9800000000000001,
+        "unsigned": 0.9816666666666668,
+        "shuffled": 0.9800000000000001,
+        "cnn": 0.9791666666666666,
+        "tail_cnn": 0.9783333333333334
+      },
+      "checkpoint": "/workspace/uwb-swad-source-runs-20261003/held8/segment_24.pt",
+      "checkpoint_sha256": "f48cec640153b779c54da38207d1c5f02dd688527d9dad364258ab1742063f37",
+      "sklearn_checks": [
+        {
+          "arm": "cnn_readout",
+          "lam": 0.001,
+          "max_error": 5.842548667089886e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.01,
+          "max_error": 2.2190582704695316e-14
+        },
+        {
+          "arm": "cnn_readout",
+          "lam": 0.1,
+          "max_error": 5.551115123125783e-15
+        },
+        {
+          "arm": "base",
+          "lam": 0.001,
+          "max_error": 1.0987738496837096e-13
+        },
+        {
+          "arm": "base",
+          "lam": 0.01,
+          "max_error": 2.7006175074006933e-14
+        },
+        {
+          "arm": "base",
+          "lam": 0.1,
+          "max_error": 9.242606680004428e-15
+        },
+        {
+          "arm": "signed",
+          "lam": 0.001,
+          "max_error": 1.4099832412739488e-13
+        },
+        {
+          "arm": "signed",
+          "lam": 0.01,
+          "max_error": 4.618527782440651e-14
+        },
+        {
+          "arm": "signed",
+          "lam": 0.1,
+          "max_error": 1.0019762797242038e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.001,
+          "max_error": 1.2612133559741778e-13
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.01,
+          "max_error": 3.3084646133829665e-14
+        },
+        {
+          "arm": "unsigned",
+          "lam": 0.1,
+          "max_error": 1.1962653090336062e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.001,
+          "max_error": 1.4566126083082054e-13
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.01,
+          "max_error": 4.218847493575595e-14
+        },
+        {
+          "arm": "shuffled",
+          "lam": 0.1,
+          "max_error": 1.0394463068053028e-14
+        }
+      ],
+      "files": {
+        "features.npz": "d7ec07633bd27cbdc7216eeb3dc29a4a94fbe052860b4ea84d38249f2e592c3f",
+        "models.npz": "ea32fb121f3516f53b1ca3882f171d4f4878ae0fe141e9580208e5456cb48bf5",
+        "predictions.npz": "a3afba23d2b7bb799f27903dd7455462e05830b1de1ac0e77faf9e503a43a734",
+        "selection.json": "53f123db1c94a67c336ef4cdc10387e7dff7193057042d2e5505bdcb6fb26af2",
+        "split.json": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+      }
+    }
+  ],
+  "seconds": 75.2197877059989,
+  "encoder_training": false,
+  "selected_readouts": 30,
+  "ridge_fits": 90
+}
