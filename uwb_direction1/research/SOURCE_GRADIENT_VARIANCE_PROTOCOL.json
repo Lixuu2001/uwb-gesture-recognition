@@ -1,0 +1,85 @@
+{
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "epochs": [
+    1,
+    6,
+    24
+  ],
+  "batch": 64,
+  "per_class_user": 48,
+  "seed": 20261004,
+  "permutations": 99,
+  "models": "/workspace/uwb-swad-source-runs-20261003",
+  "inputs": {
+    "cache": "/workspace/uwb-circular-prepared-20260930/signals.npy",
+    "labels": "/workspace/uwb-restored-20260930/cache/y_clutterremoved.npy",
+    "users": "/workspace/uwb-restored-20260930/cache/subj_clutterremoved.npy"
+  },
+  "input_sha256": {
+    "cache": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "model_sha256": {
+    "3/1": "914e290d6392d9511c9828cfd2a075e1fa6bfc8561837afd2368a9a584b3ac6b",
+    "3/6": "88d7e4c77220a0a9c73a215c73fb93570046e26a16daafe52872c30ff4cc6083",
+    "3/24": "227a27623299d079da726fe0b4886d5e7eb69a0c76046244f2f2ea12e486dc2e",
+    "4/1": "b13479732a2eb9714752a267b54c99874cf492e768aa20a1fb6234835f3b97b2",
+    "4/6": "a56ddd3ab0848120347fcfa5d558fd18cb168ae62a58cc1dac7029709bc16e74",
+    "4/24": "7b3f727e32da87da9093f7a2b591598dad44b4c4c1ecae19be0680eba3473f93",
+    "5/1": "10b4cc9ccec6478c0328bd7d6bc5e921b3e6b5b9a477ddac1f6f07ea907b573c",
+    "5/6": "2daec7610418b4c845aa064c68a23fb2f59df17862216439960d9890fc92a10a",
+    "5/24": "0a95ee9cbcfcaf6d97084e4601f6d2a2dd6e12b634f254fc56ed81c8847b7896",
+    "6/1": "b9894f245bc2e7e3c1552f2c68095454e1d140939e88df01097dfcb44e534a23",
+    "6/6": "2ee2849f253d5b84ef28d05b29f859ce510ab48e63c7f1cd96a09654a2219f14",
+    "6/24": "8ecaea9fb0463acb6a32984f5067245b263ded869cfd3c77328bedd587a39e1a",
+    "7/1": "97d6c1ff1207db8b2ad8b6fad6e8d85858e44468190a04d7ed9178d91ff0a8e3",
+    "7/6": "57d6a998362d54cf15060a6a4b49b7fefbca8a8c3c44dc5feed8f2cc1fd8af66",
+    "7/24": "14a9a9195ba9ea46cdc414ab2c6aaeb36f5547266798b5006c6e5c4159c4cc91",
+    "8/1": "59e918a8ff95cc0e656e7d18b83bee74c1df5a5a7acd077f7a4ee213627aa31f",
+    "8/6": "70cf56fd71bf5c16fe4cab3284421793384db9ead3f7e35364274606c6c99547",
+    "8/24": "f48cec640153b779c54da38207d1c5f02dd688527d9dad364258ab1742063f37"
+  },
+  "code_sha256": {
+    "source_gradient_variance.py": "da4c0a14448081d28a47d1efe2097096e78689d8f8509b2d63956c613a7e10ad",
+    "check_source_gradient_variance.py": "4d4d7d4cfd6641ed1d6510bb140c1ed5ae1a244939f6f9ed023ea9e3501f91cc",
+    "linear_gradient_variance.py": "60148956ada64c3caa37981d778bea3692208be5bfcf24ca3566a2861a2f45a7",
+    "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+    "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+  },
+  "budget_seconds": 900,
+  "gate": {
+    "epochs": [
+      1,
+      6
+    ],
+    "max_exceedance_fraction": 0.05,
+    "minimum_full_ratio": 2.0,
+    "minimum_half_cosine": 0.5,
+    "each_half": "observed statistic strictly exceeds its own class-preserving permutation95th percentile",
+    "min_trajectories": 4
+  },
+  "roles": "Only each existing source trajectory four TRAIN users. Exclude its diagnostic held and cyclic validation user; users1/2 never read as signal. Metadata labels used only to define roles and known quality mask.",
+  "sampling": "Intersection of labels present in all four training users; exactly48 per user/class drawn independently of signals from fixed RNG; first24 half0 and next24 half1. Same subset all epochs; absent HV6 class3 never imputed.",
+  "checkpoint": "Each epoch segment average, not epoch-end weights; eval mode disables dropout. Last linear head only, features extracted from fixed pretrained source model.",
+  "statistic": "Float64 per-example unnormalized CE head gradients; each domain population variance, equal-domain/coordinate squared deviation from average variance. Variance moments checked against independent centered calculation.",
+  "null": "99 permutations of user labels WITHIN each class independently for full/half0/half1; each class-user count preserved. Exceedance fraction (1+count(null>=observed))/100. Conditional descriptive noise calibration, not independent hypothesis-test p-value.",
+  "stability": "Cosine between domain-centered variance matrices from two disjoint stratified halves. Full ratio/exceedance and both half>own null95 plus cosine>=.5 required at both epochs1 and6 per trajectory. Epoch24 descriptive only; no substitute timepoint.",
+  "decision": "At least4/6 qualifying trajectories permits designing a separately preregistered intervention; does not establish effectiveness or novelty. On failure stop this gradient-variance mismatch rationale; no coordinate/user/epoch/threshold/seed search.",
+  "limits": [
+    "Six trajectories share training users and fitted samples; not independent replications.",
+    "Conditional permutations do not model the adaptive training procedure; descriptive mechanism screen only.",
+    "Source population variance in eval mode is not minibatch train-mode Fishr with EMA.",
+    "Common-class equal-user sampling differs from original empirical risk.",
+    "lambda1000 penalty/CE ratio only reported as a reference magnitude, never selected or used to train.",
+    "Known Fishr mathematics is not an original contribution.",
+    "No held or validation classification result, no optimizer updates."
+  ]
+}
