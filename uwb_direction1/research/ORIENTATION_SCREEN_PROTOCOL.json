@@ -1,0 +1,73 @@
+{
+  "study": "Local oblique structure before an orientation-based recognition intervention",
+  "seed": 20261004,
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "sample_ids": "Exactly reuse568 SHA-verified source-only stratified IDs from prior local-echo screen; eight examples per available user/class after existing exclusions. No new sample selection.",
+  "image": "float64 abs(Hilbert(realRF,range)); average contiguous3range bins to63; sqrt(image/per-clip/per-radar maximum). Zero remainszero; no learned normalization.",
+  "tensor": "2D Sobel time/range /8; Gaussian sigma2pixels,truncate4,reflect over gradient products gt\u00b2,gt*gr,gr\u00b2. No smoothing across sample/view axes.",
+  "grid": {
+    "time": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "range": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50
+    ]
+  },
+  "control": "One sampleID-seeded permutation of90frames, shared acrossviews, applied before gradients; no label permutation. Preserves per-frame range profiles but destroys ordinary temporal locality.",
+  "eligibility": "Trace>=75th percentile of original sampled-grid trace and>1e-12; same threshold in original/shuffled; separate eligible denominators, reportcoverage.",
+  "coherence": "sqrt((a-d)^2+4b\u00b2)/(a+d)>=.6",
+  "obliqueness": "2abs(b)/sqrt((a-d)^2+4b\u00b2)>=.3; normal/tangent direction must be away from axes; coordinate dependent, not calibrated velocity.",
+  "gate": {
+    "min_original_usable_fraction": 0.2,
+    "min_gain_over_shuffled": 0.1,
+    "users_per_view": 4,
+    "views_required": 2
+  },
+  "aggregation": "Usable/eligible withinclip (empty0), equalclip per user/radar. Engineering feasibility thresholds, not significance.",
+  "budget_seconds": 600,
+  "cost": "First two existing source IDs,2x total-extraction estimate, no quality metrics printed; after protocol remote push/readback.",
+  "if_fail": "Stop this tensor/preprocessing/grid/threshold configuration without adaptive scale/gate/seed search or CNN training.",
+  "if_pass": "Only supports a separately preregistered recognition test against equal-capacity nonorientation controls and strongCNN. Not success or innovation.",
+  "limitations": [
+    "Existing reused source users, not held/test/generalization evidence",
+    "Dominant local texture direction is not correspondence or hand velocity; interference and amplitude changes also produce streaks",
+    "Time permutation changes temporal spectrum and eligibility; not isolated physical intervention",
+    "Fixed image-coordinate scale and nonlinear contrast normalization; no all-scale/true-speed invariance",
+    "HOG/structure tensors established prior art; no original contribution claimed",
+    "No classifier/parameter fitting and no user1/2 signals accessed"
+  ],
+  "input_sha256": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "ids_sha256": "17964f5214a7116ef8291162dbd45e571bf2d1d1b6ab620cb75d70f38a9af3b1"
+}
