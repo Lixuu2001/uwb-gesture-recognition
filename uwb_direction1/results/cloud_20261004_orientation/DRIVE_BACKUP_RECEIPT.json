@@ -1,0 +1,681 @@
+{
+  "state": "complete_authenticated_backup_verified",
+  "utc": "2026-10-04T17:27:24.404519+00:00",
+  "archive": {
+    "name": "orientation-20261004.tar.gz",
+    "path": "/workspace/uwb-orientation-private-20261004/orientation-20261004.tar.gz",
+    "bytes": 133841531,
+    "sha256": "eb79f76560b81832e86ef69a0667cee9548d580e6606544c4fd77963f3bc9e10",
+    "contents": {
+      "FINAL_MONITOR.json": {
+        "bytes": 613,
+        "sha256": "807e64e505e9424528bccd333f74c5ab9d0b387d2b98e3909783a65bec51823e"
+      },
+      "READOUT_TESTS.json": {
+        "bytes": 158,
+        "sha256": "c3a51d2027428b41415d3b29d4f8bbfc906f2ea409683ba483a4c2d2c81ce37e"
+      },
+      "SCREEN_TESTS.json": {
+        "bytes": 265,
+        "sha256": "c9304c948171799dde0bf4f32472ec4820a7f1ad1f8b3149e167d662460972ff"
+      },
+      "baseline/DRIVE_BACKUP_RECEIPT.json": {
+        "bytes": 20038,
+        "sha256": "60ec5c479d24e6569a77ef79a8a0df397891a4bb2ab63345757f86738431a0fd"
+      },
+      "baseline/FILES.json": {
+        "bytes": 3664,
+        "sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184"
+      },
+      "baseline/held3/features.npz": {
+        "bytes": 4229273,
+        "sha256": "fa541d0c5c660e891cb8a0a7eea9113f492c47b7c2b670494cc7eeaf04e904cf"
+      },
+      "baseline/held3/models.npz": {
+        "bytes": 120816,
+        "sha256": "db249493b4f5ffc63b1dd83e049a47493f911966a92889ed01e48a375f5ae9ba"
+      },
+      "baseline/held3/predictions.npz": {
+        "bytes": 2322750,
+        "sha256": "257e3822037e1adefd2b5552d51da55a6caf87d36390df7950d1fac5bdae3fd2"
+      },
+      "baseline/held3/result.json": {
+        "bytes": 2389,
+        "sha256": "10fc976c10c5b514d8c6851e79344fc6906264f737667ffbc6b3929b0c8872b4"
+      },
+      "baseline/held3/split.json": {
+        "bytes": 71057,
+        "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+      },
+      "baseline/held4/features.npz": {
+        "bytes": 4249527,
+        "sha256": "12a3825646004da1f6430eb2d4ce4256c139ef4615f845dd1fe5981fea46b7a0"
+      },
+      "baseline/held4/models.npz": {
+        "bytes": 120793,
+        "sha256": "de4e174c3877fcd60a173553d85bfab0dfd4181f18aa2da0cc0c4e29f2fe9f99"
+      },
+      "baseline/held4/predictions.npz": {
+        "bytes": 2322788,
+        "sha256": "e6523d468bf3382c0afced166b838d73b7f039ace35daebb58ca9e8e13636d22"
+      },
+      "baseline/held4/result.json": {
+        "bytes": 2398,
+        "sha256": "2354aa1fab3dc96032c0c844fa2fac1ffe2f4a35a13041566216415d39cbc63f"
+      },
+      "baseline/held4/split.json": {
+        "bytes": 71057,
+        "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+      },
+      "baseline/held5/features.npz": {
+        "bytes": 4261241,
+        "sha256": "be0b743585f8a95e51d3d833795a5dfe38274f6aef7dfe1d302faba472e5f5a5"
+      },
+      "baseline/held5/models.npz": {
+        "bytes": 120808,
+        "sha256": "fb74b2eda2ac5e3ee4f5057d83adadfd9709304ae834480aee8419d9ee49881d"
+      },
+      "baseline/held5/predictions.npz": {
+        "bytes": 2184787,
+        "sha256": "70f83c753e0639343e6e02c97437d96de3ce6b7d2a9e673c5df6bc102cdc1d1d"
+      },
+      "baseline/held5/result.json": {
+        "bytes": 2393,
+        "sha256": "767b20b1886576547824cf37e4cda8d20940782ecac79c486fa99b0c02c149a4"
+      },
+      "baseline/held5/split.json": {
+        "bytes": 71057,
+        "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+      },
+      "baseline/held6/features.npz": {
+        "bytes": 4258960,
+        "sha256": "00db3ede1995f0179aab4a4535e3d3f2a6783cb8b5e0349669c44b0db7d9d079"
+      },
+      "baseline/held6/models.npz": {
+        "bytes": 120829,
+        "sha256": "ccc45a767bd81dfcf3b9959b8627311b74e23f6f0681c10efb706f03a57bfecd"
+      },
+      "baseline/held6/predictions.npz": {
+        "bytes": 2267389,
+        "sha256": "327a1c12e7ef4a97ce71afe0d8915cde5caa8c7fbe35ceb0c26d4deeea14dd78"
+      },
+      "baseline/held6/result.json": {
+        "bytes": 2373,
+        "sha256": "9d52c0e7629532edb8a87f841b2b768a9573eed961b9fd27d6c2f44831bf111b"
+      },
+      "baseline/held6/split.json": {
+        "bytes": 71057,
+        "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+      },
+      "baseline/held7/features.npz": {
+        "bytes": 4264007,
+        "sha256": "b7ef3c6902c58cec2b939317528f251425dda93ed2ac0b93ff856c358deceeaf"
+      },
+      "baseline/held7/models.npz": {
+        "bytes": 120859,
+        "sha256": "e705138a2e75c0f6939ebf256112d1e699a1625aa3e35438b4bbef536fd6cede"
+      },
+      "baseline/held7/predictions.npz": {
+        "bytes": 2322115,
+        "sha256": "f21236cf459617d7c5a03c5d48219b84af9096541cd84e057a0a8d10c5c67490"
+      },
+      "baseline/held7/result.json": {
+        "bytes": 2403,
+        "sha256": "65a11b5c8a8df7429ef492bc746b9d0bde6f0ad33acdda735dea6c581816198d"
+      },
+      "baseline/held7/split.json": {
+        "bytes": 71057,
+        "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+      },
+      "baseline/held8/features.npz": {
+        "bytes": 4253623,
+        "sha256": "d7ec07633bd27cbdc7216eeb3dc29a4a94fbe052860b4ea84d38249f2e592c3f"
+      },
+      "baseline/held8/models.npz": {
+        "bytes": 120844,
+        "sha256": "ea32fb121f3516f53b1ca3882f171d4f4878ae0fe141e9580208e5456cb48bf5"
+      },
+      "baseline/held8/predictions.npz": {
+        "bytes": 2322680,
+        "sha256": "a3afba23d2b7bb799f27903dd7455462e05830b1de1ac0e77faf9e503a43a734"
+      },
+      "baseline/held8/result.json": {
+        "bytes": 2404,
+        "sha256": "335d9172ee4de4e078460e851ffdaa2abe905732030ff626aa9f1bb926eb5cb9"
+      },
+      "baseline/held8/split.json": {
+        "bytes": 71057,
+        "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+      },
+      "cost/COST.json": {
+        "bytes": 245,
+        "sha256": "3d298effedcdd2f10a9c4f1920ba99949462dfacf936dd8fc8e410f5db7174b4"
+      },
+      "cost/IDENTITY.json": {
+        "bytes": 986,
+        "sha256": "72bc737b9eea75c801704eb1446dc442f9120ea52c633bb7818a4edd19fc049f"
+      },
+      "cost/PROTOCOL.json": {
+        "bytes": 3390,
+        "sha256": "4fd104950efacbaa8e0f400300d0f4384c54e070b7c4f48f7d4b41a0b5b4be56"
+      },
+      "logs/readout-audit.log": {
+        "bytes": 758,
+        "sha256": "2dc22b8362e2df0b46474277c79391cb23b6544f99e224cbd86b5b90f0a94c34"
+      },
+      "logs/readout-cost.log": {
+        "bytes": 231,
+        "sha256": "93d8c660bd8927678bdcd2300d7299e65e6350a49b14019455153331e258cb5c"
+      },
+      "logs/readout.log": {
+        "bytes": 528,
+        "sha256": "be948cd8fb2d20312c77dc866124bfbd3f00c36af3b6124a2e2ec4382c22faef"
+      },
+      "logs/screen-audit.log": {
+        "bytes": 470,
+        "sha256": "ba4e45bec3734a59c7f9638f1a082c9692d9c47550fdb9cd58688262b75144e9"
+      },
+      "logs/screen.log": {
+        "bytes": 415,
+        "sha256": "72144d711ea6bf6a76a8f2ef84ba614b3e8e207d70a7b5f97a558a5a2560cc59"
+      },
+      "readout/AUDIT.json": {
+        "bytes": 477,
+        "sha256": "f548c1c82f1596b768069ff25c1d31ebe5f065e61641784abcb92c38f2709587"
+      },
+      "readout/FILES.json": {
+        "bytes": 3112,
+        "sha256": "bffc633ea318e0a33fa8516fa3d228c01b131ecc49513eebf46594f5b805c815"
+      },
+      "readout/IDENTITY.json": {
+        "bytes": 986,
+        "sha256": "72bc737b9eea75c801704eb1446dc442f9120ea52c633bb7818a4edd19fc049f"
+      },
+      "readout/PROTOCOL.json": {
+        "bytes": 3390,
+        "sha256": "4fd104950efacbaa8e0f400300d0f4384c54e070b7c4f48f7d4b41a0b5b4be56"
+      },
+      "readout/SUMMARY.json": {
+        "bytes": 7498,
+        "sha256": "fd0035a5a874d1f19e788df33c0b3e7930826c0bb793246d6fbc89d5e70f3388"
+      },
+      "readout/descriptors.npz": {
+        "bytes": 71535461,
+        "sha256": "2321072889377df7734a35e18dd7817f6f71d919f331db6539695e0fdb32303f"
+      },
+      "readout/held3/models.npz": {
+        "bytes": 128282,
+        "sha256": "9125527d49ead325c7e92b15a3aea48b793926ff5c1faa9e0d43198bd14b704c"
+      },
+      "readout/held3/predictions.npz": {
+        "bytes": 1937419,
+        "sha256": "3ddad9e3b1efb916259a8c0fefb99d4e1cd6d7f6c1007f6da73372ab8fbda382"
+      },
+      "readout/held3/result.json": {
+        "bytes": 771,
+        "sha256": "956db146e98131cff2c0aa7128448bf2ce4a95c99fe259895c49c68fce7e8098"
+      },
+      "readout/held3/selection.json": {
+        "bytes": 1579,
+        "sha256": "6c8edc30b203b6bf0f013068da5bc292a6b42bb0e987ac6bd706b527289e26f0"
+      },
+      "readout/held3/split.json": {
+        "bytes": 71057,
+        "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+      },
+      "readout/held4/models.npz": {
+        "bytes": 128233,
+        "sha256": "54a25b8b9ab760803bac37f8ba34c5294434c4cb237aa1455a72efd1339f66e2"
+      },
+      "readout/held4/predictions.npz": {
+        "bytes": 1937368,
+        "sha256": "9e30e5a362b5f4da1688d5262a33ba32eea3881c9fcc912b7adf9673e0c7d74c"
+      },
+      "readout/held4/result.json": {
+        "bytes": 809,
+        "sha256": "d32e860b59f9b54d9c338da206ca29d554a344e091a50b68e4732c9dcfc35dd5"
+      },
+      "readout/held4/selection.json": {
+        "bytes": 1564,
+        "sha256": "65e34eeb1de9e7e4cbb4895898a61c6b50f73ca442e5e5894c806c15d69bc7de"
+      },
+      "readout/held4/split.json": {
+        "bytes": 71057,
+        "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+      },
+      "readout/held5/models.npz": {
+        "bytes": 128220,
+        "sha256": "d92940fcb059685b9d9a4f31312d4a0b902ee60e290fef395b841e00716bd26e"
+      },
+      "readout/held5/predictions.npz": {
+        "bytes": 1827015,
+        "sha256": "4774b70d43dc1fb8a5490c18069e6636d52694fcd3927367457f251b1af4e0e6"
+      },
+      "readout/held5/result.json": {
+        "bytes": 809,
+        "sha256": "87b2f985e887ea09a090f8b451dadf2a2216c9c86a254d2722f3dd2bcf55a6af"
+      },
+      "readout/held5/selection.json": {
+        "bytes": 1587,
+        "sha256": "c54f2215c1e209588fe58161f408b320f73c42c0222751e8cffda72149b62a40"
+      },
+      "readout/held5/split.json": {
+        "bytes": 71057,
+        "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+      },
+      "readout/held6/models.npz": {
+        "bytes": 128241,
+        "sha256": "6b0a577839881f94652909c7640c33f2db20606e3189472e651f15c19c7a410c"
+      },
+      "readout/held6/predictions.npz": {
+        "bytes": 1886803,
+        "sha256": "7302a1e52712175db04b978470983ac13398af79dff7b0599733d360f278a218"
+      },
+      "readout/held6/result.json": {
+        "bytes": 795,
+        "sha256": "db75f6d603f062a6916206c7d1638fc5178c00ebc7cbc224ac9dab462e9b353e"
+      },
+      "readout/held6/selection.json": {
+        "bytes": 1555,
+        "sha256": "40a0c0f59b8625e6052d3ed6f70d9d40cd7a3a2ca1a2b131abc5fdacd37d50e7"
+      },
+      "readout/held6/split.json": {
+        "bytes": 71057,
+        "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+      },
+      "readout/held7/models.npz": {
+        "bytes": 128227,
+        "sha256": "0935df5dbb3ad864aba63437247096858a94da548c5d7b8e06ca5787a6eab4e5"
+      },
+      "readout/held7/predictions.npz": {
+        "bytes": 1936738,
+        "sha256": "4cdd4cefaec6ab5709eb263e84adb7e23500258f365fc2c0bde1d2c0b0e978c2"
+      },
+      "readout/held7/result.json": {
+        "bytes": 809,
+        "sha256": "9efe206fccd7a1597dbc7b10bca2f2c1da6e7ea8667bda0cdd81b1145af90387"
+      },
+      "readout/held7/selection.json": {
+        "bytes": 1564,
+        "sha256": "4335622ae12c55c63d8d469831e3da922579786d16310eede4b8fa979a268105"
+      },
+      "readout/held7/split.json": {
+        "bytes": 71057,
+        "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+      },
+      "readout/held8/models.npz": {
+        "bytes": 128202,
+        "sha256": "0c5688de4f179b0d56fc872caa0f30d656c720fd9fc746bff2b915c580a0ff88"
+      },
+      "readout/held8/predictions.npz": {
+        "bytes": 1937227,
+        "sha256": "a566db426d61c53cdd94346e202a3898f1c01625f1370cf1c0513c8e575d5f5e"
+      },
+      "readout/held8/result.json": {
+        "bytes": 809,
+        "sha256": "9540fc181cbef0c9778bfb1e6c70b3a275fe71f9f3f1c021ffd62b905abb2b79"
+      },
+      "readout/held8/selection.json": {
+        "bytes": 1576,
+        "sha256": "2ba3cf2ad26d12ea588fa7dd8f76a21062d330fcffb5e11ac6133dc9db5b2129"
+      },
+      "readout/held8/split.json": {
+        "bytes": 71057,
+        "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+      },
+      "research/ORIENTATION_READOUT_PROTOCOL.json": {
+        "bytes": 3390,
+        "sha256": "4fd104950efacbaa8e0f400300d0f4384c54e070b7c4f48f7d4b41a0b5b4be56"
+      },
+      "research/ORIENTATION_SCREEN_PROTOCOL.json": {
+        "bytes": 3266,
+        "sha256": "1201fe04166fa2f2ffd36c49f67cea4c54f9c89ef16f3a0500a447cb83f04867"
+      },
+      "research/ORIENTATION_SCREEN_REVIEW.md": {
+        "bytes": 3589,
+        "sha256": "dc83f6378589ce955886bdbffe73c36582c8018055ff9bcdd6e1e435613492d4"
+      },
+      "screen/AUDIT.json": {
+        "bytes": 377,
+        "sha256": "dd15ed270d567ce6544a178794f6418a230658fa3f5e547a96eb585d172681a2"
+      },
+      "screen/COST.json": {
+        "bytes": 217,
+        "sha256": "8aa96ff440990a220d17c9bc90aebee3b650798a28b0bab29980137136cc8a59"
+      },
+      "screen/FILES.json": {
+        "bytes": 596,
+        "sha256": "abf950bad8941c4f629a92b40b3c11986ec40c407b77eaf8ccbbe2a1ff84e110"
+      },
+      "screen/IDENTITY.json": {
+        "bytes": 1053,
+        "sha256": "128cb48c43e60994e211cd92709cc6939ee7f09d3ed700b6fa2448c89e2fe9c9"
+      },
+      "screen/PROTOCOL.json": {
+        "bytes": 3250,
+        "sha256": "b2c85e7e4611a98cb81478125422488f7700252b4a49650fabf9e782681c58d6"
+      },
+      "screen/STATE.json": {
+        "bytes": 80,
+        "sha256": "ddcf3e7e2a5a22a7b7950cba0fe8a3250852d6810cae6e40d6b84e875302eaf7"
+      },
+      "screen/SUMMARY.json": {
+        "bytes": 6323,
+        "sha256": "99fcf4118c7c686bf48b186daeec5f123dd5b95353f72d45d22bf03e15caf397"
+      },
+      "screen/ids.npy": {
+        "bytes": 4672,
+        "sha256": "17964f5214a7116ef8291162dbd45e571bf2d1d1b6ab620cb75d70f38a9af3b1"
+      },
+      "screen/tensors.npz": {
+        "bytes": 9960819,
+        "sha256": "6d9c466a21ae6dec5b370108a5656ed7c1b0b35073f7eb8e4365eb29b12f5c96"
+      },
+      "tools/audit_orientation_readout.py": {
+        "bytes": 7508,
+        "sha256": "1e468435a3b676f01850062e2563e93a14b333e4668353e89aa3138757add200"
+      },
+      "tools/audit_orientation_screen.py": {
+        "bytes": 4656,
+        "sha256": "e55e4a767dcce408adadd5daae5de8948a9ca47ce8f0d2fe04273ea15e6aef67"
+      },
+      "tools/audit_restored.py": {
+        "bytes": 8247,
+        "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+      },
+      "tools/check_orientation_features.py": {
+        "bytes": 1485,
+        "sha256": "10f9c758fc63888a830d40fbe636e67c2e2623cfff1bc24caaab79186da28fb2"
+      },
+      "tools/check_orientation_screen.py": {
+        "bytes": 1746,
+        "sha256": "6d8dda8b116b46c66b034594c783e9c88b5d44ac4923ed7de72132a107c2ac14"
+      },
+      "tools/energy_area.py": {
+        "bytes": 2315,
+        "sha256": "3fe9bd8d9755641fb2812036624170b82b6999aaccef15385389f16303012025"
+      },
+      "tools/orientation_features.py": {
+        "bytes": 2055,
+        "sha256": "14d0a329f163b4ff4543948e3b4e2c6f2ae055ec70765d928ff06e87a1c22d94"
+      },
+      "tools/orientation_screen.py": {
+        "bytes": 2638,
+        "sha256": "a079afa7e22b80c29313fc07bd913a0e00f062a4abe1680dea733df9447fd5c2"
+      },
+      "tools/run_orientation_readout.py": {
+        "bytes": 6549,
+        "sha256": "fb8fc3ae2159745ec9f93fda3e3bb119a85d2ba4d9c739e2efdb63cda5c54941"
+      },
+      "tools/run_orientation_screen.py": {
+        "bytes": 3085,
+        "sha256": "c9d7b7856413a1fe68ac0272b399feaa1d8e125ca1b869cbe16c4890743c0dc2"
+      },
+      "tools/second_order_core.py": {
+        "bytes": 2032,
+        "sha256": "ff1257df2a133bbbb21f6754d3ecf2e8e02d9ffcc76b1f763f08500a0f1ef98d"
+      }
+    }
+  },
+  "chunks": [
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part001",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part001",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "d0174af5816c586a2184547690e1b77770de0f0cc8b6a7e3e139d5228dfd62bd",
+      "id": "1t55_w_4v4UwXtwqOj9U60O95V-EBnbEt",
+      "url": "https://drive.google.com/file/d/1t55_w_4v4UwXtwqOj9U60O95V-EBnbEt/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/9becc4dd-a440-44d7-914f-aae0ba426eed/uwb-orientation-20261004.tar.gz.part001"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part002",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part002",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "67ff2a31029ffae366dcff091e27823423c1b0bebb90261ba91492954a31236d",
+      "id": "1_gJi-WqO3g8TLDHoRKnEcOFb4wAapzp5",
+      "url": "https://drive.google.com/file/d/1_gJi-WqO3g8TLDHoRKnEcOFb4wAapzp5/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/637de1db-4730-4251-ab14-578742617c5e/uwb-orientation-20261004.tar.gz.part002.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part003",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part003",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "bf6d9b00c06475db3513596b57a3de2e72a48b2c94456dd9c7ebe8106762bd9b",
+      "id": "1BBW5UfSIdovHv0bnKzzke8sdgSH6OPVj",
+      "url": "https://drive.google.com/file/d/1BBW5UfSIdovHv0bnKzzke8sdgSH6OPVj/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/f9ceed10-0516-4132-af0b-e896e72421cb/uwb-orientation-20261004.tar.gz.part003.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part004",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part004",
+      "part": 4,
+      "bytes": 7340032,
+      "sha256": "900dd8cc7b14910460081d37062cb30140321bfba8ee53d8cf1aae4b198edd96",
+      "id": "1IdOzFQHY2Xy-1IA6WonZdUwaN8fD8bgx",
+      "url": "https://drive.google.com/file/d/1IdOzFQHY2Xy-1IA6WonZdUwaN8fD8bgx/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/d7d98ff0-1f7b-4393-b905-14d14a53641a/uwb-orientation-20261004.tar.gz.part004.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part005",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part005",
+      "part": 5,
+      "bytes": 7340032,
+      "sha256": "2f1735e949635cb430e50cb058638495a3b3331876cb266732f03bf1d154298b",
+      "id": "11DFIaMf0qERgXl1bJG_D4RgpINoIbik7",
+      "url": "https://drive.google.com/file/d/11DFIaMf0qERgXl1bJG_D4RgpINoIbik7/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/1b7d1b07-1f90-4953-9e6d-22870e172758/uwb-orientation-20261004.tar.gz.part005.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part006",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part006",
+      "part": 6,
+      "bytes": 7340032,
+      "sha256": "430e986e92ae666114f421ef468819ff674dbc3ac68e85556fcd23082c33b1a8",
+      "id": "1MI9cAgErlKAXYS8iRbcCc9NWMOM0sioK",
+      "url": "https://drive.google.com/file/d/1MI9cAgErlKAXYS8iRbcCc9NWMOM0sioK/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/e80e778c-bdca-477f-80de-19d3037b3170/uwb-orientation-20261004.tar.gz.part006.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part007",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part007",
+      "part": 7,
+      "bytes": 7340032,
+      "sha256": "fc1cbad9f393f673972b615d8a95eab1b78cb6e40b5c0ca8b0bd5a998aedfb1d",
+      "id": "1nlgGeUgFJ1NtRSjUUnt0ue-6jjvFDhHO",
+      "url": "https://drive.google.com/file/d/1nlgGeUgFJ1NtRSjUUnt0ue-6jjvFDhHO/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/dc20e607-7eb7-4add-a391-85125b32cabe/uwb-orientation-20261004.tar.gz.part007.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part008",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part008",
+      "part": 8,
+      "bytes": 7340032,
+      "sha256": "760dfbd75f83e7e9021e09a8609cb729e7e9b1d9e894a57c1584cc3d453522db",
+      "id": "1Yswl8376dpZSReVIia9BWwmTuwDSLsX7",
+      "url": "https://drive.google.com/file/d/1Yswl8376dpZSReVIia9BWwmTuwDSLsX7/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/d017e9c5-3d10-4d40-afba-a3afaf24bf30/uwb-orientation-20261004.tar.gz.part008.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part009",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part009",
+      "part": 9,
+      "bytes": 7340032,
+      "sha256": "62ffafb8f4ed420a85d89c261bce49a84af42e61003db8219037a4349975696d",
+      "id": "1iRgFUQgGhk6z-X1Y2Z0M7IKHL_BxT7bc",
+      "url": "https://drive.google.com/file/d/1iRgFUQgGhk6z-X1Y2Z0M7IKHL_BxT7bc/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/f28599f8-e54f-4878-97b2-2283e2acde14/uwb-orientation-20261004.tar.gz.part009.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part010",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part010",
+      "part": 10,
+      "bytes": 7340032,
+      "sha256": "3d2e9cf1b9a812b8684c37b8ed13e209526392aa7af971afbf5f9a3a61223179",
+      "id": "1bhicKZzRKJJRL9GNT0x-JAF8ajNzqRt3",
+      "url": "https://drive.google.com/file/d/1bhicKZzRKJJRL9GNT0x-JAF8ajNzqRt3/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/6b416fb0-39da-4f91-9cb5-6d327dbe5b9a/uwb-orientation-20261004.tar.gz.part010.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part011",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part011",
+      "part": 11,
+      "bytes": 7340032,
+      "sha256": "1d651883708f486daf1d4acafa36fba2ff337741d853992946d513d58cc8823f",
+      "id": "1nMUcWqtHZnqDMaHvTbKhlIaTGY3PC8iI",
+      "url": "https://drive.google.com/file/d/1nMUcWqtHZnqDMaHvTbKhlIaTGY3PC8iI/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/cc88b355-2d57-4598-833b-314e07c23c6e/uwb-orientation-20261004.tar.gz.part011.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part012",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part012",
+      "part": 12,
+      "bytes": 7340032,
+      "sha256": "cc0a623468f40da5b9f5d8646f9ab5938777b7255da89f4f1ed5685c0f0a0265",
+      "id": "1iOve0AV4FjlAa9RXm-r2ZYhBBrWN0mQ0",
+      "url": "https://drive.google.com/file/d/1iOve0AV4FjlAa9RXm-r2ZYhBBrWN0mQ0/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/40e0eb9f-33d1-4e88-8106-bf4f9d81cc48/uwb-orientation-20261004.tar.gz.part012.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part013",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part013",
+      "part": 13,
+      "bytes": 7340032,
+      "sha256": "9a5b7a5872d3df3faebb03b42beaa255877e2a30e064c234dcb16a9b009cbba3",
+      "id": "1B-1d6MCjGrTKsTJKtDpZn6klgq16nA-8",
+      "url": "https://drive.google.com/file/d/1B-1d6MCjGrTKsTJKtDpZn6klgq16nA-8/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/aad32e3d-f0af-4013-ab56-fbe4530d8b6e/uwb-orientation-20261004.tar.gz.part013.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part014",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part014",
+      "part": 14,
+      "bytes": 7340032,
+      "sha256": "0520e106f310c4c4fa1fd0f1550a0db63a0571d22e31f14a89b9c690eb163b4e",
+      "id": "1_ujLUFtYvfysz1HV1DsPUYX1lTQqVsbI",
+      "url": "https://drive.google.com/file/d/1_ujLUFtYvfysz1HV1DsPUYX1lTQqVsbI/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/0dac2252-b143-4f2f-80f2-e56aaa5ac914/uwb-orientation-20261004.tar.gz.part014.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part015",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part015",
+      "part": 15,
+      "bytes": 7340032,
+      "sha256": "b1ca39bcb8cf97aeda354a39ba67afb13b17667564d008ad2fca09a58e2d4b25",
+      "id": "16zcMuWe5-QiiE1uBWWAMOlzc89GhFY_1",
+      "url": "https://drive.google.com/file/d/16zcMuWe5-QiiE1uBWWAMOlzc89GhFY_1/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/76d8b41f-8387-41fd-872d-e5e1bed229f7/uwb-orientation-20261004.tar.gz.part015.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part016",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part016",
+      "part": 16,
+      "bytes": 7340032,
+      "sha256": "6b797e840fe0a121a2847abddf275b594aea370852a5f82c85142f93195b1cac",
+      "id": "1ZGaiIzjQHOWnwPGnR08AluQWDQpcb6fq",
+      "url": "https://drive.google.com/file/d/1ZGaiIzjQHOWnwPGnR08AluQWDQpcb6fq/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/7599c87d-d059-47ec-a85c-26e7d2998109/uwb-orientation-20261004.tar.gz.part016.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part017",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part017",
+      "part": 17,
+      "bytes": 7340032,
+      "sha256": "e1f254f17a007cb11e0c2e81a633ee5e56e7ebdc2f2d923d109036d277b32dc6",
+      "id": "1P-uxV3yZzKA8PTNSOjm-doQcc_H0VWIs",
+      "url": "https://drive.google.com/file/d/1P-uxV3yZzKA8PTNSOjm-doQcc_H0VWIs/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/ff935006-806f-4869-b1e3-d9c3e1d46947/uwb-orientation-20261004.tar.gz.part017.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part018",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part018",
+      "part": 18,
+      "bytes": 7340032,
+      "sha256": "06bb35425d80542044d8aa8e94fe08599d4c39bb6e197e2e89ca7c4832037bd8",
+      "id": "1SVi-M0htwLpew9ulFxLOrTBr1Ho1L9HX",
+      "url": "https://drive.google.com/file/d/1SVi-M0htwLpew9ulFxLOrTBr1Ho1L9HX/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/fa10565b-7466-4673-9bcd-401926defe59/uwb-orientation-20261004.tar.gz.part018.bin"
+    },
+    {
+      "name": "uwb-orientation-20261004.tar.gz.part019",
+      "path": "/workspace/uwb-orientation-private-20261004/uwb-orientation-20261004.tar.gz.part019",
+      "part": 19,
+      "bytes": 1720955,
+      "sha256": "acc72aeeb01c7adaa1c2f90fb2fa26fa091a59e8b92150af644798e58202a7d6",
+      "id": "16sOkK3QSdTpIMx_GrNuBnXQ2aW5cstBJ",
+      "url": "https://drive.google.com/file/d/16sOkK3QSdTpIMx_GrNuBnXQ2aW5cstBJ/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/0d1a9c4d-9f9e-40a1-97f6-69f72aef7283/uwb-orientation-20261004.tar.gz.part019.bin"
+    }
+  ],
+  "members": 102,
+  "bytes": 133841531,
+  "max_concurrency": 3,
+  "private_owner_only": true,
+  "parent_folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "raw_signal_arrays_included": false,
+  "classifier_checkpoint_applicable": true,
+  "selected_readout_models": 24,
+  "reused_cnn_checkpoints": 0,
+  "previous_cnn_backup_receipt_included": true,
+  "deterministic_feature_matrices_included": true,
+  "protocol_commit": "ead63d58813c328950378ccc084f89772c79f704"
+}

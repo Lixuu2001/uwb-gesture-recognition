@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "ids_sha256": "17964f5214a7116ef8291162dbd45e571bf2d1d1b6ab620cb75d70f38a9af3b1",
+  "protocol_sha256": "1201fe04166fa2f2ffd36c49f67cea4c54f9c89ef16f3a0500a447cb83f04867",
+  "code_sha256": {
+    "orientation_screen.py": "a079afa7e22b80c29313fc07bd913a0e00f062a4abe1680dea733df9447fd5c2",
+    "run_orientation_screen.py": "c9d7b7856413a1fe68ac0272b399feaa1d8e125ca1b869cbe16c4890743c0dc2"
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "python": "3.12.14",
+  "argv": [
+    "uwb_direction1/tools/run_orientation_screen.py",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--ids",
+    "/workspace/uwb-local-echo-20261004/ids.npy",
+    "--protocol",
+    "uwb_direction1/research/ORIENTATION_SCREEN_PROTOCOL.json",
+    "--out",
+    "/workspace/uwb-orientation-screen-20261004"
+  ]
+}
