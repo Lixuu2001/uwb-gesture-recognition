@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "temporal_scale_source_training",
+  "state": "temporal_scale_complete_gate_failed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,9 +13,9 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "Effective reproducible original contribution remains unvalidated. Fixed axial dilation is a mechanism screen, not novel algorithm evidence.",
+  "remaining_user_goal": "Effective reproducible original contribution remains unvalidated. Temporal-scale joint source gate failed; stop dilation/kernel/seed/window grid.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -27,7 +27,7 @@
   "first_exploratory_probe_continuation_criterion_met": false,
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20260930",
-  "cloud_original_source_path": "/workspace/uwb-source-c735e94/project",
+  "cloud_original_source_path": "/workspace/uwb-temporal-publish-20261003/uwb_direction1/original/project",
   "compute": "Current cloud: PyTorch2.14.0+cpu, Python3.12; SWAD pilot used1 CPU thread; no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
@@ -40,9 +40,9 @@
   "latest_repeat_scope": "landmark sampling only; same seed2026 frozen encoders",
   "torch_installed": true,
   "torch_path": "/home/agent/.local/lib/python3.12/site-packages/torch",
-  "current_environment_original_source_files": 28,
-  "current_environment_full_source_snapshot": false,
-  "source_inventory_note": "789-file full checkout was verified in the separate kernel-study cloud instance; this session retains 28 verified core source files.",
+  "current_environment_original_source_files": 789,
+  "current_environment_full_source_snapshot": true,
+  "source_inventory_note": "Current isolated publish checkout contains all789 tracked project files plus4 metadata/control files. Original subtree unmodified from latest remote. Prior28-file note described an earlier checkout.",
   "latest_full_view_head_scores": {
     "subset_ce": 0.9203674242424243,
     "full_ce": 0.9251780303030304,
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1791070171.246874,
-  "background_training_pid": 489,
-  "background_training_status_note": "Managed environment interruption killed prior PIDs; resumed from epoch11 optimizer/RNG checkpoint. Real epoch12 replay passed tensor/loss/step equality. Current process489 live.",
+  "background_training_observed_unix": 1791073040.214824,
+  "background_training_pid": null,
+  "background_training_status_note": "12/12 new trajectories complete; resumed training489 and archiver512 terminated (zombies observed). No new training launched.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/TEMPORAL_SCALE_REVIEW.md",
+  "latest_literature_note": "research/SOURCE_SHARPNESS_REVIEW.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,8 +123,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Finish fixed time2/range2 source queue and independent final audit; no tuning or duplicate launch. If source gates fail, stop this hypothesis; if pass, boundary controls and same-protocol eight folds still required.",
-  "last_completed_update_utc": "2026-10-03T23:59:38.483267+00:00",
+  "next_candidate": "Offline source sharpness/SAM literature and optimizer semantics preparation only; no protocol or new UWB training. First complete source-only implementation/numerical/resume/isolation controls and CPU cost before frozen prospective pilot. SAM is established, not a novel contribution.",
+  "last_completed_update_utc": "2026-10-04T00:17:20.210865+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -179,7 +179,7 @@
   "event_extent_private_backup_verified": true,
   "event_extent_private_backup_file_id": "11SsO13_3NZ5amLq0Q6xutzpOGSW3NKyp",
   "event_extent_private_backup_sha256": "abeb6df54b81208d771bd0897dfa5f5c47f084130107c7125640b0805df2d93b",
-  "latest_review_read_scope": "Official InceptionTime sources previously read; now official TCN README and full TCN/tcn.py plus original vendor model full and classifier caller first68lines. Main papers unread.",
+  "latest_review_read_scope": "SAM author README and selected training_utils lines; unofficial PyTorch README/sam.py complete. Main paper unread. See source blob/range receipt.",
   "view_gradient_original_protocol_commit": "636cf5dcbb7a840a2362505938e5a8f1fd31c7f6",
   "view_gradient_numerics_commit": "4742cd3cc47fd503d23122aa261460b9f3604f8a",
   "view_gradient_results_path": "/workspace/uwb-view-grad64-20261003",
@@ -352,32 +352,21 @@
   "temporal_scale_results_path": "/workspace/uwb-temporal-scale-runs-20261003",
   "temporal_scale_log": "/workspace/uwb-temporal-scale-train-20261003.log",
   "temporal_scale_expected_new_trajectories": 12,
-  "temporal_scale_completed_new_trajectories_at_observation": 11,
+  "temporal_scale_completed_new_trajectories_at_observation": 12,
   "temporal_scale_reused_baselines": 6,
   "temporal_scale_estimated_hours": 3.195754960551276,
   "temporal_scale_protocol_sha256": "09e32ef94e20db6201a093c461010909eab6fbb8e9cd082c6e346c1c398a2676",
   "temporal_scale_protocol_commit": "09239d6a54b82d22972b945c6a551c78ea0daf21",
   "temporal_scale_checkpoint_observed": {
-    "epoch": 19,
-    "validation_ce": 1.0586953163146973,
-    "source_ce": 0.00022220199471934045,
-    "lr": 0.00015498214331265898,
-    "source_ids_sha256": "7a5325d2a8836f77dd93b456aef296c7b94dfc6b3df6d5130b833868fd666d30",
-    "step": 1406,
-    "seconds": 29.814259325000023,
-    "segment_sha256": "6d7e65add8422bb45c425b17d510e64e63fe302715d14d9e657b93e7f7d07c27",
-    "state": "training",
-    "pid": 489,
-    "held": 8,
-    "arm": "range2"
+    "state": "all12complete_audited"
   },
-  "temporal_scale_archive_pid": 512,
+  "temporal_scale_archive_pid": null,
   "temporal_scale_archive_state_path": "/workspace/uwb-temporal-scale-archive-state-20261003.json",
-  "temporal_scale_archive_state": "waiting",
+  "temporal_scale_archive_state": "complete",
   "temporal_scale_archive_commit": "09239d6a54b82d22972b945c6a551c78ea0daf21",
   "temporal_scale_start_backup_verified": true,
   "temporal_scale_start_backup_receipt": "results/cloud_20261003_temporal_scale/START_DRIVE_RECEIPT.json",
-  "temporal_scale_latest_audit": "results/cloud_20261003_temporal_scale/START_AUDIT.json",
+  "temporal_scale_latest_audit": "results/cloud_20261003_temporal_scale/AUDIT.json",
   "temporal_scale_partial_audited_trajectories": 8,
   "temporal_scale_partial_audit": "results/cloud_20261003_temporal_scale/PARTIAL_AUDIT_02.json",
   "temporal_scale_latest_monitor": "results/cloud_20261003_temporal_scale/MONITOR_02.json",
@@ -388,5 +377,98 @@
   "temporal_scale_partial_backup_objects": 40,
   "temporal_scale_partial_backup_members": 248,
   "temporal_scale_interruption": "results/cloud_20261003_temporal_scale/INTERRUPTION_01.json",
-  "temporal_scale_resume_audit": "results/cloud_20261003_temporal_scale/RESUME_AUDIT_01.json"
+  "temporal_scale_resume_audit": "results/cloud_20261003_temporal_scale/RESUME_AUDIT_01.json",
+  "temporal_scale_audited_trajectories": 18,
+  "temporal_scale_verified_artifact_hashes": 534,
+  "temporal_scale_gate_passed": false,
+  "temporal_scale_final_scores": {
+    "shared128": {
+      "erm": {
+        "per_user": [
+          0.8691666666666666,
+          0.9841666666666667,
+          0.9766666666666666,
+          0.7599999999999999,
+          0.9691666666666666,
+          0.9550000000000001
+        ],
+        "mean": 0.9190277777777777,
+        "worst": 0.7599999999999999
+      },
+      "tail": {
+        "per_user": [
+          0.8624999999999999,
+          0.9891666666666667,
+          0.9866666666666667,
+          0.78,
+          0.9666666666666668,
+          0.9783333333333334
+        ],
+        "mean": 0.9272222222222223,
+        "worst": 0.78
+      }
+    },
+    "time2": {
+      "erm": {
+        "per_user": [
+          0.8825,
+          0.9925000000000002,
+          0.9783333333333332,
+          0.7790909090909092,
+          0.9566666666666667,
+          0.9658333333333333
+        ],
+        "mean": 0.9258207070707071,
+        "worst": 0.7790909090909092
+      },
+      "tail": {
+        "per_user": [
+          0.8833333333333333,
+          0.9933333333333333,
+          0.9900000000000001,
+          0.7999999999999999,
+          0.9666666666666667,
+          0.9766666666666667
+        ],
+        "mean": 0.9349999999999999,
+        "worst": 0.7999999999999999
+      }
+    },
+    "range2": {
+      "erm": {
+        "per_user": [
+          0.8875000000000001,
+          0.9825,
+          0.9716666666666667,
+          0.7681818181818181,
+          0.9675000000000001,
+          0.945
+        ],
+        "mean": 0.9203914141414141,
+        "worst": 0.7681818181818181
+      },
+      "tail": {
+        "per_user": [
+          0.89,
+          0.985,
+          0.9825,
+          0.7863636363636364,
+          0.9725,
+          0.9858333333333333
+        ],
+        "mean": 0.9336994949494949,
+        "worst": 0.7863636363636364
+      }
+    }
+  },
+  "temporal_scale_new_epochs": 288,
+  "temporal_scale_epoch_seconds": 7528.122727075254,
+  "temporal_scale_full_run_backup_complete": true,
+  "temporal_scale_private_backup_receipt": "results/cloud_20261003_temporal_scale/DRIVE_BACKUP_RECEIPT.json",
+  "temporal_scale_private_backup_logical_archives": 26,
+  "temporal_scale_private_backup_objects": 62,
+  "temporal_scale_private_backup_bytes": 380775626,
+  "temporal_scale_private_backup_members": 410,
+  "source_sharpness_preparation_only": true,
+  "source_sharpness_real_training_started": false
 }

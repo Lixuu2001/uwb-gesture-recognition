@@ -1,3 +1,13 @@
+## 2026-10-04T00:17:20.210865+00:00 时间轴跨度研究完整结束，联合门槛失败，最终私有备份通过
+
+12新轨迹×24轮及6复用普通CNN基线全完，18轨迹ERM/tail全部验证与诊断独立功能前向逐位相同；534产物SHA、角色/24轮样本顺序/选模通过。主固定tail：shared128 92.722222%、time2 93.500000%、range2 93.369949%。time2相对普通+0.777778pp、4/6胜，但相对range2仅+0.130051pp、3/6胜，未过预注册+0.25pp且4/6胜的门槛。联合失败，停止本假设扩张率/核长/seed/window网格和八折扩展；不得去掉距离对照包装创新。六反复研究的开发用户、单种子不是独立确认，不与旧外层八折93.4417%直接比较。
+
+原云端执行中断已按原代码从最后epoch11完整状态恢复，真实第12轮独立重放张量/loss/step逐位一致，前11完整轨迹没有重训。PID489/512已终止（观察为Z），当前无训练。正式288轮累计7528.122727秒，不含中断未完成工作及重放。详见results/cloud_20261003_temporal_scale/RUN_REPORT.md、SUMMARY/AUDIT/ANALYSIS、RESUME_AUDIT_01。
+
+全部26逻辑包/62传输对象/380775626字节/410成员（372训练、29元数据、9中断证据）私有owner-only上传、认证raw回下载、逐块/重组/成员SHA通过。DRIVE_BACKUP_RECEIPT.json持久ID/URL/顺序完备，FINAL_RESTORE.md含恢复布局及旧基线备份依赖。25包ARCHIVE_RECEIPT的uploaded=false仅历史打包状态，另加第26中断包。数据和当前全部结果仍在/workspace，无需重复下载，原789快照不改。
+
+下一项仅离线源端SAM文献/实现语义核查，作者README和选定JAX源码段、非官方PyTorchREADME/sam.py已读，主文未读；见research/SOURCE_SHARPNESS_REVIEW.md及receipt。第三方封装仅存wrapper状态会漏AdamW动量，合成恢复反例已记录，非UWB结果；不能推断旧研究错误或称创新。尚未实现、预注册、启动下一项真实训练。先补全文/排重与数值、随机掩码、优化器恢复、标签隔离和成本，再冻结前瞻协议。用户研究目标仍未达成，自动接续保留。以下带时间戳均为历史记录，旧运行状态不代表当前。
+
 ## 2026-10-03T23:59:38.483267+00:00 云端环境中断后从真实检查点恢复
 
 执行通道断开，environment曾回到starting；恢复后旧训练21027/归档21039均不存在（不是仍运行）。11条已完成轨迹的全部产物和epoch段SHA通过，最后range2/held8留存epoch11、step814完整model/AdamW/scheduler/RNG/best/tail；源码/协议/helper及Torch/NumPy版本均与原identity一致。保存中断前快照/workspace/uwb-temporal-interruption-20261003后用原命令接续，新训练PID489、新归档watcher512。原LAUNCH及日志保留，新增RESUME_01/INTERRUPTION_01/ARCHIVE_RESUME_01。没有重训前11条。
