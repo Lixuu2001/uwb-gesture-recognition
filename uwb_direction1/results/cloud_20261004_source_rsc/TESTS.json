@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "mask_rule_numpy_differential": true,
+  "same_row_removal_counts": true,
+  "auxiliary_preserves_dropout_rng": true,
+  "updates_bitwise_equal": true,
+  "resume_bitwise_equal": true,
+  "strict_zero_gradient_ties_checked": true,
+  "full_runner_epoch_resume_both_arms_bitwise_equal": true
+}
