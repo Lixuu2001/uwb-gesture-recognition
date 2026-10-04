@@ -1,3 +1,13 @@
+## 2026-10-04T13:12:57.455143+00:00 源梯度方差固定对照全部完成；联合门槛未过
+
+18新轨迹432轮+6旧基线共24轨迹独立审计通过，714产物SHA、所有ERM/tail验证与诊断logits逐位一致。六源主tail：旧普通92.722222%、匹配ERM92.702020%、真实方差92.869949%、类内域置换92.771465%。联合门槛未过；停止这组 lambda/EMA/warmup/seed/tail/normalizer/coordinate 网格及八折扩展。不能用次选模或移除对照改变结论，也不能把源方差机制4/6通过当作分类增益。该结果不证明所有 Fishr 设置或域泛化方法无效。
+
+全部38逻辑包/92私有owner-only块/565203039压缩字节/595成员认证回下载及块/包/成员SHA通过，含全部432段与18完整优化器/RNG/EMA状态；索引results/cloud_20261004_source_fishr/DRIVE_BACKUP_RECEIPT.json。最终SUMMARY、AUDIT、ANALYSIS、PER_USER、SOURCE_HISTORY和FINAL_MONITOR同目录。旧恢复证据另保留在PARTIAL01–03；原数据/prepared/789源码快照不变，不重复迁移。训练598和归档607已经完成；没有下一训练进程。自动接续仍开启，目标未达。
+
+正式Fishr主文1–9页、DomainBed附录19–24页已通过出版方GitHub PDF读到，SHA与blob记录在research/FISHR_PUBLISHED_REVIEW_RECEIPT.json。主表测试域选模不适用用户约束；作者固定EMA除数有明确目的，本版本不同且不是精确复现。未事后改变冻结实现或门槛。Close this fixed gradient-variance intervention. Next investigate a distinct radar-signal representation mechanism against original experiments and published prior art, then pre-register a train-only diagnostic and matched controls if justified. Do not reopen failed Fishr, SAM, temporal-scale, DRO or adaptation grids. No next training is currently launched.
+
+以下保留历史执行记录；历史“运行中/主文未读”不代表当前状态。
+
 # 云端迁移、原数据审计与首次先导
 
 日期：2026-09-30。迁移完成；研究目标尚未完成。没有需要用户补交的数据。

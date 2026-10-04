@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-04T13:12:57.455143+00:00",
+  "state": "complete_audited_and_privately_backed_up",
+  "training_queue": {
+    "state": "complete",
+    "pid": 598,
+    "new_trajectories": 18,
+    "reused_trajectories": 6
+  },
+  "trainer_live": false,
+  "archiver_live": false,
+  "new_trajectories": 18,
+  "reused_trajectories": 6,
+  "new_epochs": 432,
+  "audited_trajectories": 24,
+  "artifact_sha256_checks": 714,
+  "all_functional_logits_bitwise_equal": true,
+  "script_sha256": "009df7b19877792329a3102d2db5fdf7af0299f6f03fa4ddd8763fb305ac2329",
+  "protocol_sha256": "49bbf677db2312372335c67311fb54d8bd910aba2b9dba621bd523d1ca7d7eb2",
+  "training_restarted_this_continuation": false,
+  "scientific_configuration_changed": false,
+  "backup_receipt": "DRIVE_BACKUP_RECEIPT.json",
+  "gate_passed": false,
+  "new_training_started": false,
+  "goal_met": false
+}

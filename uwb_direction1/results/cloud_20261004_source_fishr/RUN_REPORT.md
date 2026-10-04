@@ -1,49 +1,48 @@
-# 源梯度方差干预：实现与固定对照
+# 源梯度方差干预：完整固定对照结果
 
-当前状态（2026-10-04）：12/18条新轨迹完成并独立审计，288轮产物私有备份和认证回下载校验通过。原训练598/归档607仍运行，本次未重启；整组效果与原创贡献待验证。最新索引PARTIAL_AUDIT_04.json、PARTIAL_DRIVE_RECEIPT_04.json、MONITOR_04.json。以下保留方法设计及执行记录。
+2026-10-04T13:12:57.455143+00:00。联合门槛未过；停止这组 lambda/EMA/warmup/seed/tail/normalizer/coordinate 网格及八折扩展。不能用次选模或移除对照改变结论，也不能把源方差机制4/6通过当作分类增益。该结果不证明所有 Fishr 设置或域泛化方法无效。
 
-源训练机制诊断4/6通过后，准备三组同批次/采样/优化器实验：balanced_erm、real_variance、permuted_variance。6个源轨迹各3组24轮=18条432轮；另复用6条原普通24强tail，最终共24轨迹独立审计。尚无新分类结果，不是原创主张。
+18条新轨迹、432轮完成；连同6条旧普通24轮基线，全24条独立函数推理、样本角色、源批顺序、选模与产物SHA审计通过。本次没有重启训练或修改科学配置。此前3次环境中断按完整状态恢复，证据保留在RECOVERY_01–03与REPLAY_01/03。用户研究目标仍未达成，没有新的训练在运行。
 
-四训练用户每批各16例，按各域固定打乱循环到最长域的完整步数；较少样本用户会重复，三组完全相同。首轮全部纯CE，第二轮第一个源批依据真实用户惩罚梯度校准一次固定lambda=.1*||gradCE||/||gradPenalty||，截断[1e-4,1e4]并记录是否截断；后续不再变化。真实和类内用户标签置换两套EMA在全部三组同步维护，采用常规时间偏差校正，不是作者固定1/(1-beta)；对照保留类-用户计数。历史EMA detach，当前批保留高阶梯度；同一次Dropout前向用于CE和惩罚。没有新增目标/验证标签调参。
+## 实际结果
 
-主选模固定逐步权重平均13–24轮；次选模最早最小验证CE不替代主指标。联合门槛：真实约束对匹配ERM+0.5pp、置换约束+0.25pp、旧普通tail至少0pp；每项至少4/6位改善、每位不降超1pp。未过停止这组lambda/EMA/warmup/seed/窗口/坐标网格和八折扩展。机制通过只是训练动机，不能预言结果。
+六个反复用于研发的源用户3–8；每条四训练用户、一源验证用户、一诊断用户。指标为每用户存在类别macro accuracy，再对六人等权平均。主模型是固定13–24轮逐更新权重平均，最小验证CE端点只是次指标。不是旧外层八折93.4417%的同协议比较。
 
-合成全架构三臂恢复、EMA/scale/RNG一致、留出输入标签隔离、独立函数推理、解析高阶梯度/有限差分、常规EMA NumPy值与导数、计数保持和普通AdamW单步等价均通过TESTS.json。归档31成员/臂、不可变复用和腐损拒绝的合成fixture通过ARCHIVE_TESTS.json。真实源批成本五步/臂，含75%余量预计5.587792小时，低于预先固定8小时预算；成本不评价候选泛化。
+| 方法 | 主tail | 次验证CE端点 |
+|---|---:|---:|
+| shared128 | 92.722222% | 91.902778% |
+| balanced_erm | 92.702020% | 91.378788% |
+| real_variance | 92.869949% | 91.059343% |
+| permuted_variance | 92.771465% | 91.156566% |
 
-设计与作者Fishr的区别和限制见../../research/SOURCE_FISHR_IMPLEMENTATION_REVIEW.json；主文未读、不声称完整复现或创新。先正常推送冻结代码/协议并回读，再启动。原789文件快照及原数组不改。
+真实域约束主tail相对各对照：
 
-实际启动：预注册fc19c823aec4c7d447527c9aa78d6c36da2354ca远端回读后，2026-10-04T08:11:53Z启动训练PID4303和本地归档watcher4319。2026-10-04T08:17:09.211507+00:00观测balanced_erm/held3第10轮，进程活动；还没有整组对照结果。原协议/helper未变，未开启其他科学配置。
+| 对照 | 平均差（百分点） | 正差用户 | 单项门槛 |
+|---|---:|---:|---|
+| balanced_erm | +0.167929 | 4/6 | 未过 |
+| permuted_variance | +0.098485 | 5/6 | 未过 |
+| shared128 | +0.147727 | 3/6 | 未过 |
 
-第4轮300步启动快照独立验证通过，源端固定scale102.98310954123612未截断；含模型/AdamW/scheduler/RNG/EMA/best/tail和前4段平均的36成员、9380013字节、2个私有owner-only块，认证回下载逐块/整包/成员SHA通过。恢复索引START_DRIVE_RECEIPT.json；并非完整432轮备份。后台watcher仅本地归档，最终仍需私有上传验证和Git记录。
+冻结联合门槛：对匹配balanced ERM至少+0.5pp、类内域标签置换至少+0.25pp、旧普通tail至少0pp；每项至少4/6正差，每位不得下降超过1pp。Git中的PER_USER.csv仅将换行统一为LF，数值行与备份原始CRLF文件逐项一致；备份SHA对应原始字节。ANALYSIS.json还保留逐用户差与描述性用户bootstrap区间；重叠训练集和反复研发使区间不能当独立确认。
 
-本次确认原训练4303和归档4319均不在/proc，当前容器PID1启动晚于原实验启动时间；队列遗留training不能当进程仍活动。具体终止原因未写入日志。保留原4条完整结果和real_variance/held4第6轮450步全部文件到/workspace/uwb-fishr-interruption-20261004-0934，再核对版本、冻结helper/协议、全部完成产物和检查点SHA及AdamW/scheduler/EMA步数后，按原LAUNCH命令恢复PID603，归档watcher612；未改科学配置、门槛或重跑已完成轨迹。
+## 方法、执行与证据
 
-用保留第6轮独立重放到第9轮（76.385秒），model、AdamW、scheduler、RNG、EMA历史/计数/固定scale/校准、best/tail/选模和逐轮段平均全部逐位一致；history除墙钟耗时和序列化SHA外一致，真实源数据而非仅合成测试。系数26.974675837012917保持不变；未读取held输入作调参。RECOVERY_01.json和RECOVERY_REPLAY_01.json保存证据。
+预注册提交fc19c823aec4c7d447527c9aa78d6c36da2354ca。三新臂共享初始化、265836参数CNN、源批采样/Dropout RNG、AdamW/学习率与24轮预算；每批四训练用户各16例，每轮75步。首轮CE，第二轮首批源梯度范数一次校准固定系数；后续不调整。所有臂维护真实与类内置换两套梯度方差EMA，首轮权重与源校准逐位相等已核验。旧shared128为补充强参照，采样方式不同，故匹配balanced ERM才是主要正则对照。
 
-固定审计集合：balanced_erm/held3,4，real_variance/held3，permuted_variance/held3，共4条96轮。全部ERM/tail验证/诊断logits独立函数逐位相同、角色/源顺序/选模和120产物SHA通过；held3三臂首轮权重与源校准完全一致。147个完整轨迹及元数据成员，加19恢复证据成员，合计166成员、149309022压缩字节、10逻辑包/25个≤7MiB私有owner-only块，全部认证raw回下载、逐块/重组/成员SHA通过。见PARTIAL_AUDIT_01.json、PARTIAL_DRIVE_RECEIPT_01.json。备份包含96轮段平均和四份完整优化器/RNG/EMA状态；恢复包另含中断第6轮、恢复第9轮比较及重放状态。不是18轨迹全部备份。
+实际新训练epoch累计3.350252小时，不含中断等待、恢复重放、审计和传输；预先真实批成本含75%余量估计5.587792小时、预算8小时。CPU1线程，PyTorch2.14.0+cpu，Python3.12；无GPU。完整24轨迹共714项产物SHA检查，ERM/tail验证与诊断logits独立功能式前向逐位一致。
 
-当前观测permuted_variance/held4第2轮，完整结果5/18，进程活动。继续同一冻结队列和原联合门槛，未得整组六源效果；不得根据中途结果调整lambda/EMA/warmup/seed/窗口或扩展八折。归档和后续上传复用/workspace/uwb-fishr-final-20261004及/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_01.json、records，避免重复上传已有25块。若再次中断，先检查PID，再完整checkpoint恢复；最终全24轨迹审计和其余备份完成后判定效果。原789源码和原始大数组不动。用户研究目标未达，自动接续保留。
+仅作源目标描述：真实约束六轨迹的“固定系数×epoch均值惩罚/epoch均值源CE”在2–6轮各轨迹中位数范围0.119388至0.629599，13–24轮为7.70466e-05至0.00436539。这不是逐批比值的均值，不是梯度范数或失败原因的因果检验；不能据此启动事后系数/时间窗搜索。SOURCE_HISTORY.json及命令化脚本保留计算，未拟合任何模型或读取诊断准确率字段。
 
-云端环境启动后确认旧603/612进程均消失；队列文件仍training，但不能据此声称原进程活着。保留balanced_erm/held5第5轮375步全部文件到/workspace/uwb-fishr-interruption-02-20261004，核对冻结源码/helper/协议、Torch/NumPy、六条完成结果全部文件/段SHA，以及checkpoint身份、AdamW/scheduler/EMA计数和固定scale15.033946960215014后，按原argv恢复训练508和归档watcher521。具体终止原因未记入日志；当前容器启动晚于原进程。未重跑六条已完成轨迹，科学配置和门槛未变；上一次真实数据完整恢复重放证据RECOVERY_REPLAY_01.json仍有效，本次没有另声称新逐位重放。见RECOVERY_02.json。
+## 文献核查与限制
 
-新增real_variance/held4和permuted_variance/held4两条独立函数推理、角色/源顺序/选模审计通过。累计三臂各held3,4共六条、144轮、180产物SHA通过；此前四条独立前向引用PARTIAL_AUDIT_01且本次归档重新核全部SHA。held4三臂首轮段权重和源端校准完全一致。见PARTIAL_AUDIT_02.json。
+本次通过出版方GitHub取得Fishr正式PDF，读主文1–9页和DomainBed附录19–24页；此前“主文未读”属于历史状态，原预注册文件不追改。详见../../research/FISHR_PUBLISHED_REVIEW.md及SHA/blob回执。Fishr主表使用测试域选模；源域选模Table9的七数据集均值67.1%对ERM66.6%，不是UWB效果或本协议。作者固定EMA除数1/(1−gamma)有明确导数补偿目的；本实验常规时间偏差校正与源范数校准是已声明的不同实现，不是精确复现或原创。论文已研究均值+方差组合，不能重复包装。
 
-当前备份集合14逻辑包、33个≤7MiB私有owner-only块、197926546字节、222成员，全部认证raw回下载过且本次逐块/重组/全部成员SHA重新核验；复用20已验证块，新传13块。包含186完整训练产物（144段+六份完整模型/优化器/RNG/EMA/ID/预测），24元数据成员和12个本次中断第5轮状态/段/恢复凭据成员。先前元数据和第一次恢复证据另保留在PARTIAL_DRIVE_RECEIPT_01.json；本索引不重复纳入，不删除旧备份。恢复入口PARTIAL_DRIVE_RECEIPT_02.json、MONITOR_02.json；不是整组18轨迹备份。
+单种子、六研发用户、源集合重叠；没有外部独立用户确认。机制诊断与分类干预结果必须分开。没有测试标签拟合、选择超参或替换主指标；未改789原源码快照，原始数组未入Git。
 
-当前观测balanced_erm/held5第16轮，完成6/18，训练/归档进程活动。继续原固定队列，先检查实际PID再决定是否恢复，不能依赖跨环境启动的后台进程存活假设。归档/传输复用/workspace/uwb-fishr-final-20261004和/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_02.json、records。完成后全24轨迹审计、补齐最终私有备份，再依冻结主tail联合门槛判断，禁止中途调参或把机制诊断当效果/创新。用户目标未达，自动接续保留。
+## 完整恢复与私有备份
 
-确认旧508/521进程已消失、状态文件残留training后，保留balanced_erm/held6第22轮1650步完整目录到/workspace/uwb-fishr-interruption-03-20261004，核对版本/冻结源码/协议/九条完整结果和epoch段SHA、优化器/scheduler/EMA计数后，按原argv恢复训练598和归档607。具体终止原因未记日志，容器启动晚于原进程；未改参数或门槛、未重跑已完成轨迹。恢复后该轨迹完成24轮。另从保留的22轮真实检查点独立重放23–24轮54.851秒：model、AdamW、scheduler、RNG、EMA历史/计数/scale/校准、已非零的tail平均、best/选模和epoch段张量逐位相同；history仅允许墙钟与序列化SHA差异。固定scale5.9559378958416564不变。见RECOVERY_03、RECOVERY_REPLAY_03。
+DRIVE_BACKUP_RECEIPT.json：38逻辑包、92个≤7MiB私有owner-only块、565203039压缩字节、595成员，全部认证回下载并验证逐块、重组包、成员SHA。含558训练成员（432轮段平均及18份完整model/AdamW/scheduler/RNG/EMA/best/tail状态、ID/预测/选模），配置、日志、审计和论文阅读证据；旧6基线复用已验证SWAD及BASELINE_STATE备份。原始大数组没有纳入本备份。旧中断恢复证据仍由历史PARTIAL回执保存。
 
-本次新增三臂各held5及balanced_erm/held6四条独立前向/角色/源顺序/选模审计；累计三臂各held3–5加balanced_erm/held6十条、240轮、300产物SHA通过。前六条独立函数推理沿用PARTIAL_AUDIT_02且全部归档重新核SHA；held5三臂首轮权重和校准也完全一致。固定本次备份集合，不按中途held分数改研究配置。见PARTIAL_AUDIT_03。
+恢复只用回执持久ID/URL，先核私有元数据，再raw fetch并立即物化校验，最多3并发；提取到新的空目录，禁止覆盖已有结果。ARCHIVE_RECEIPT.json的uploaded=false是本地打包时快照，最终远端依据DRIVE_BACKUP_RECEIPT.json。本次最后上传阶段复用90个已验证对象，新传2个对象；这些数字不代表整个实验总新增量。
 
-当前完整备份22逻辑包、52个≤7MiB私有owner-only块、317764690字节、339成员，全部认证回下载过，逐块/整包/成员SHA通过。复用30块、新传22块；包含310训练成员（240轮段、十份完整模型/AdamW/scheduler/RNG/EMA/ID/预测）、25元数据成员和4项本次恢复重放证据，含原第22轮完整checkpoint。此前部分备份的旧元数据与恢复包仍保留在旧回执，不重复列入本集合。索引PARTIAL_DRIVE_RECEIPT_03.json，工作索引/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_03.json及records供后续复用。
-
-当前real_variance/held6第14轮，完成10/18，训练/归档进程活动；见MONITOR_03。继续原固定队列，最终全24轨迹独立审计与剩余产物私有备份后再按主tail联合门槛判定；现无整组效果/原创性结论。进程不能假定跨环境启动存活，每次先核实际PID再恢复完整状态。原789源码和原数组未变，用户目标未达，自动接续保留。
-
-实际核对原训练598与归档607仍活动，未重启或重复启动。预注册fc19c823aec4c7d447527c9aa78d6c36da2354ca源码/helper/协议SHA保持不变。当前观测real_variance/held7第3轮，完成13/18；不按中途held结果调整配置或门槛。
-
-新增real_variance/held6、permuted_variance/held6的ERM/tail验证及诊断logits独立函数推理逐位一致，角色、源样本顺序、选模审计通过。累计三臂各held3–6十二条、288轮、360产物SHA通过；前十条前向证据沿用PARTIAL_AUDIT_03且全部归档重新核SHA。held6三臂首轮权重和源校准完全一致。见PARTIAL_AUDIT_04.json。
-
-当前备份25逻辑包、61个≤7MiB私有owner-only块、375291305压缩字节、399成员。复用50块、新传11块；所有块曾认证回下载且本次逐块/重组/全部成员SHA核验通过。含372训练成员（288段平均、十二份完整模型/AdamW/scheduler/RNG/EMA、样本ID/预测等）及27元数据成员。旧恢复证据仍由PARTIAL_DRIVE_RECEIPT_03等历史回执保存，本集合不重复纳入；不是18轨迹最终备份。最新索引PARTIAL_DRIVE_RECEIPT_04.json、监控MONITOR_04.json。
-
-继续原队列，不启动新科学配置；完成后全24轨迹独立审计、最终私有备份，再依主tail联合门槛判断。归档/上传复用/workspace/uwb-fishr-final-20261004及/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_04.json和records。用户目标仍未达成，尚无整组效果或原创性结论，自动接续保留。
+下一项：Close this fixed gradient-variance intervention. Next investigate a distinct radar-signal representation mechanism against original experiments and published prior art, then pre-register a train-only diagnostic and matched controls if justified. Do not reopen failed Fishr, SAM, temporal-scale, DRO or adaptation grids. No next training is currently launched. 自动接续保留；不能把自动接续已启用说成后台模型训练正在运行。
