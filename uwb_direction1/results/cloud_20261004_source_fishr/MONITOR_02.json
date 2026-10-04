@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-04T10:05:07.684386+00:00",
+  "queue": {
+    "state": "training",
+    "pid": 508,
+    "held": 5,
+    "arm": "balanced_erm"
+  },
+  "progress": {
+    "epoch": 16,
+    "validation_ce": 2.009129285812378,
+    "source_ce": 0.0003886831214185804,
+    "lr": 0.00031557170097928065,
+    "source_ids_sha256": "ad4a87ff9ec11884d362bb6a62f0dc9fe58f8ca091e7c8f75310c7480305fa66",
+    "objective": 0.0003886831214185804,
+    "real_penalty": 1.0733083222191908e-08,
+    "permuted_penalty": 1.0093873796431414e-08,
+    "scale": 15.033946960215014,
+    "step": 1200,
+    "seconds": 26.652322548999962,
+    "segment_sha256": "b6cf96e46d1afbf5d39d23631efbd74dba268801190eae6883d796989bf6f6c8",
+    "state": "training",
+    "pid": 508,
+    "held": 5,
+    "arm": "balanced_erm"
+  },
+  "archiver": {
+    "state": "waiting",
+    "pid": 521,
+    "started_unix": 1791108036.9524221
+  },
+  "frozen_identity_verified": true,
+  "completed_new_trajectories": 6,
+  "audited_and_fully_backed_up_trajectories": 6,
+  "backed_up_training_epochs": 144,
+  "expected_new_trajectories": 18,
+  "classification_effect_conclusion": null,
+  "second_resume": {
+    "from_epoch": 5,
+    "held": 5,
+    "arm": "balanced_erm"
+  },
+  "full_experiment_backup": false
+}
