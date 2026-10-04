@@ -9,3 +9,7 @@
 合成全架构三臂恢复、EMA/scale/RNG一致、留出输入标签隔离、独立函数推理、解析高阶梯度/有限差分、常规EMA NumPy值与导数、计数保持和普通AdamW单步等价均通过TESTS.json。归档31成员/臂、不可变复用和腐损拒绝的合成fixture通过ARCHIVE_TESTS.json。真实源批成本五步/臂，含75%余量预计5.587792小时，低于预先固定8小时预算；成本不评价候选泛化。
 
 设计与作者Fishr的区别和限制见../../research/SOURCE_FISHR_IMPLEMENTATION_REVIEW.json；主文未读、不声称完整复现或创新。先正常推送冻结代码/协议并回读，再启动。原789文件快照及原数组不改。
+
+实际启动：预注册fc19c823aec4c7d447527c9aa78d6c36da2354ca远端回读后，2026-10-04T08:11:53Z启动训练PID4303和本地归档watcher4319。2026-10-04T08:17:09.211507+00:00观测balanced_erm/held3第10轮，进程活动；还没有整组对照结果。原协议/helper未变，未开启其他科学配置。
+
+第4轮300步启动快照独立验证通过，源端固定scale102.98310954123612未截断；含模型/AdamW/scheduler/RNG/EMA/best/tail和前4段平均的36成员、9380013字节、2个私有owner-only块，认证回下载逐块/整包/成员SHA通过。恢复索引START_DRIVE_RECEIPT.json；并非完整432轮备份。后台watcher仅本地归档，最终仍需私有上传验证和Git记录。

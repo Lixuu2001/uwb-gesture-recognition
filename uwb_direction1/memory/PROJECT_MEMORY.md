@@ -1,3 +1,13 @@
+## 2026-10-04T08:17:09.211507+00:00 源梯度方差固定三组对照已启动；效果未判定
+
+先冻结并正常推送/远端回读fc19c823aec4c7d447527c9aa78d6c36da2354ca，再实际启动PID4303。复用原云端数据/prepared和SWAD六条旧24轮基线；没有重复下载。真实源批成本含75%余量预计5.587792小时，低于8小时预算。新balanced_erm、real_variance、permuted_variance各六源轨迹×24轮，共18新轨迹432轮，最终连旧基线24轨迹独立审计。四训练用户每批16例的同一采样，首轮纯CE，第二轮首个源批冻结梯度范数比校准系数，常规时间偏差校正EMA.95；与作者原版不同，非原创宣称。
+
+训练目录/workspace/uwb-fishr-source-runs-20261004；日志/workspace/uwb-fishr-source-train-20261004.log；归档watcher4319，状态/workspace/uwb-fishr-archive-state-20261004.json、目标/workspace/uwb-fishr-final-20261004。当前观测balanced_erm/held3第10轮；整组效果未知，不读取中途held结果做调整。合成全架构恢复、EMA/scale/RNG一致、留出隔离、高阶梯度、独立函数前向和三臂首轮/校准一致已测试通过。
+
+已独立截取balanced_erm/held3第4轮300步完整原子快照，当前与best的验证CE独立函数重算一致，源角色/顺序、scheduler/AdamW步数、两套EMA/步数/固定scale核对通过。系数102.98310954123612（第76步校准，无截断），源端计算，非效果结果。完整model/AdamW/scheduler/RNG/best/tail/EMA及前4段平均等36成员，9380013字节2个私有owner-only块，认证raw回下载逐块/重组/成员SHA通过。见START_AUDIT.json、START_DRIVE_RECEIPT.json及START_MONITOR.json；只是启动快照，不是全实验备份。
+
+继续时先检查上述PID/queue/checkpoint，禁止重复启动；代码/helper/协议保持冻结，只有确认死亡后按LAUNCH.json原命令完整状态恢复。主tail13–24固定，须同时对匹配ERM+0.5pp、置换+0.25pp、旧tail至少0pp，且各至少4/6正差、每位不降超1pp；次选模不得替代。未过停止lambda/EMA/warmup/seed/窗口网格与八折扩展；过门槛仅允许另行冻结八折/种子验证，不等于研究目标达成。完成后核对AUDIT/SUMMARY/归档、私有上传认证回下载，依最新远端父正常提交结果。watcher只本地归档，不自动Drive上传。论文主文未读、不声称完整复现或原创；用户目标未达，自动接续保留。以下为历史记录。
+
 ## 2026-10-04T07:34:12.302046+00:00 源梯度方差机制诊断4/6通过；不是分类效果结果
 
 协议033a1521c89bb7d2daf09e17e40b601a6f66e48b先正常推送/远端回读，再成本估计771.851秒（含100%余量）通过900秒预算，最后才实际运行。源轨迹3–8的18个旧第1/6/24轮段平均，39168条源样本-模型配对，诊断105.681秒。每共同类别/训练用户48例，99次类内用户置换和独立两半稳定性；未用held/验证用户信号，也未更新模型。
