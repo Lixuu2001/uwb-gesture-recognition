@@ -1,3 +1,11 @@
+## 2026-10-04T06:42:35.300456+00:00 源SAM整组完成，联合门槛未过；全部产物私有备份通过
+
+12条新轨迹432轮，加复用普通24轮6条，共18条独立前向/角色/样本顺序/选模审计通过，678产物SHA；原PID1398及归档1410正常完成退出，无活动训练或待运行新实验。六源用户3–8的主tail：普通24为92.722222%，SAM24为93.113636%，普通48为92.896465%。SAM分别+0.391414pp（5/6胜）和+0.217172pp（4/6胜），未达冻结+0.5pp/+0.25pp联合增益门槛。不得事后降门槛、改主选模、做rho/decay/seed/window网格或据此扩展八折。不是SAM普遍无效的证明，也不是原创贡献或独立八折确认。
+
+最终31逻辑包、85个≤7MiB私有owner-only块，519448048压缩字节、546成员（516训练产物+30元数据），全部认证raw回下载、逐块/整包/成员SHA核验通过；复用已验证70块，新传15块。包含全部432轮段平均及12个最终AdamW/scheduler/RNG状态、样本ID/预测/日志/配置；普通24基线沿用此前已验证SWAD/BASELINE_STATE备份。完整索引results/cloud_20261004_source_sam/DRIVE_BACKUP_RECEIPT.json，计算ANALYSIS.json、SUMMARY.json、AUDIT.json及FINAL_MONITOR.json。原789源码快照及原始数组不变，无原数组入Git。
+
+下一项仅准备：已核查Fishr（ICML2022）作者README和指定源码区间，固定提交7b8fdf1e0b15226ded9b58efd37698e74e616ab7；主文未读，不声称全文综述。已独立实现softmax线性末层解析梯度方差核，合成float64逐样本autograd/高阶导数/有限差分/批重复尺度检查通过；没有复制作者代码，未在UWB上训练。见research/GRADIENT_VARIANCE_REVIEW.md、REVIEW_RECEIPT和CORE_TESTS，以及tools/linear_gradient_variance.py、check_linear_gradient_variance.py。普通Fishr也不是原创；先冻结源训练角色内的机制/有限样本零假设诊断，再决定是否值得真实干预。不能把合成核测试说成新分类效果或后台已启动。用户目标未达，自动接续保留。以下为历史记录。
+
 ## 2026-10-04T05:47:41.180650+00:00 新增四条源SAM/计算量对照轨迹审计与备份通过
 
 原训练1398及归档1410仍活动，观测erm48/held8第1轮，11/12完整新轨迹。预注册4c4a4c6训练代码/helper/协议未改，未重复启动，未根据中途诊断结果调整科学配置；尚无整组六源效果结论。

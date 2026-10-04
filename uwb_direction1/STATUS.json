@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source_sam_training",
+  "state": "source_sam_completed_gate_failed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,9 +13,9 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "Effective reproducible original contribution remains unvalidated. Temporal-scale joint source gate failed; stop dilation/kernel/seed/window grid.",
+  "remaining_user_goal": "Effective reproducible original contribution remains unvalidated; fixed source-SAM joint gate failed. Stop rho/decay/seed/window sweeps and eight-fold expansion of this hypothesis.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1791092861.186053,
-  "background_training_pid": 1398,
-  "background_training_status_note": "Live source SAM training observed with real epoch checkpoint; detached cloud queue, independent audit and local archiver configured. Initial epoch2 snapshot verified private; full results pending.",
+  "background_training_observed_unix": 1791096155.301028,
+  "background_training_pid": null,
+  "background_training_status_note": "Original SAM queue and final local archiver completed normally; final18-trajectory audit and private full backup verified. No next UWB training started.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/SOURCE_SHARPNESS_REVIEW.md",
+  "latest_literature_note": "research/GRADIENT_VARIANCE_REVIEW.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,8 +123,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue existing fixed SAM24/ERM48 queue; check live PID1398 and archiver1410 before action. No repeat launches or diagnostic tuning. Finish18-run independent audit and private final backup; apply frozen joint gate. Not yet an effective original contribution.",
-  "last_completed_update_utc": "2026-10-04T05:47:41.180650+00:00",
+  "next_candidate": "Review Fishr source-gradient-variance preparation and analytic-core tests. Before any UWB intervention, preregister source-role-only mechanism diagnostic with finite-sample/class-preserving null and magnitude/stability checks; do not select using held users. No new training process exists. Do not repeat SAM or prior failed grids.",
+  "last_completed_update_utc": "2026-10-04T06:42:35.300456+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -475,41 +475,123 @@
   "source_sam_log": "/workspace/uwb-sam-source-train-20261004.log",
   "source_sam_expected_new_trajectories": 12,
   "source_sam_expected_new_epochs": 432,
-  "source_sam_completed_new_trajectories_at_observation": 11,
+  "source_sam_completed_new_trajectories_at_observation": 12,
   "source_sam_estimated_hours": 8.664782453733409,
   "source_sam_initial_resource_gate_passed": false,
   "source_sam_final_resource_gate_passed": true,
-  "source_sam_effect_gate_passed": null,
+  "source_sam_effect_gate_passed": false,
   "source_sam_protocol_sha256": "c3130ec27b2a030cfe1790b48e0583bb8333f2fa19e147abeabc489c709b5a0d",
   "source_sam_protocol_commit": "4c4a4c65696b1510f228504e1375de3223fedbc6",
   "source_sam_checkpoint_observed": {
-    "epoch": 1,
-    "validation_ce": 0.6979435682296753,
-    "source_ce": 0.43266358154885315,
-    "lr": 0.001,
-    "source_ids_sha256": "825441009074ef0702fc33774c8da5b11d7267173bc0dbf22310788691ceae59",
-    "source_perturbed_ce": 0.43266358154885315,
-    "step": 74,
-    "seconds": 30.435554173000128,
-    "segment_sha256": "be0c6bf6cdabf849990fe7e8d3776c72620861a1b111056671a11bc207dcd5bf",
-    "state": "training",
-    "pid": 1398,
-    "held": 8,
-    "arm": "erm48"
+    "state": "all12complete_audited"
   },
-  "source_sam_archive_pid": 1410,
+  "source_sam_archive_pid": null,
   "source_sam_archive_state_path": "/workspace/uwb-sam-archive-state-20261004.json",
-  "source_sam_archive_state": "waiting",
+  "source_sam_archive_state": "complete",
   "source_sam_start_backup_verified": true,
   "source_sam_start_backup_receipt": "results/cloud_20261004_source_sam/START_DRIVE_RECEIPT.json",
-  "source_sam_full_run_backup_complete": false,
+  "source_sam_full_run_backup_complete": true,
   "source_sam_partial_audit": "results/cloud_20261004_source_sam/PARTIAL_AUDIT_04.json",
   "source_sam_partial_audited_trajectories": 10,
-  "source_sam_latest_monitor": "results/cloud_20261004_source_sam/MONITOR_04.json",
+  "source_sam_latest_monitor": "results/cloud_20261004_source_sam/FINAL_MONITOR.json",
   "source_sam_partial_backup_verified": true,
   "source_sam_partial_backup_receipt": "results/cloud_20261004_source_sam/PARTIAL_DRIVE_RECEIPT_04.json",
   "source_sam_partial_backup_trajectories": 10,
   "source_sam_partial_backup_bytes": 432806767,
   "source_sam_partial_backup_objects": 70,
-  "source_sam_partial_backup_members": 430
+  "source_sam_partial_backup_members": 430,
+  "source_sam_final_audit": "results/cloud_20261004_source_sam/AUDIT.json",
+  "source_sam_audited_trajectories": 18,
+  "source_sam_verified_artifact_hashes": 678,
+  "source_sam_final_scores": {
+    "shared128": {
+      "erm": {
+        "per_user": [
+          0.8691666666666666,
+          0.9841666666666667,
+          0.9766666666666666,
+          0.7599999999999999,
+          0.9691666666666666,
+          0.9550000000000001
+        ],
+        "mean": 0.9190277777777777,
+        "worst": 0.7599999999999999
+      },
+      "tail": {
+        "per_user": [
+          0.8624999999999999,
+          0.9891666666666667,
+          0.9866666666666667,
+          0.78,
+          0.9666666666666668,
+          0.9783333333333334
+        ],
+        "mean": 0.9272222222222223,
+        "worst": 0.78
+      }
+    },
+    "sam24": {
+      "erm": {
+        "per_user": [
+          0.8766666666666666,
+          0.9900000000000001,
+          0.9733333333333333,
+          0.7609090909090909,
+          0.9666666666666667,
+          0.9483333333333333
+        ],
+        "mean": 0.9193181818181818,
+        "worst": 0.7609090909090909
+      },
+      "tail": {
+        "per_user": [
+          0.87,
+          0.9883333333333334,
+          0.9900000000000001,
+          0.7818181818181817,
+          0.9708333333333333,
+          0.9858333333333335
+        ],
+        "mean": 0.9311363636363638,
+        "worst": 0.7818181818181817
+      }
+    },
+    "erm48": {
+      "erm": {
+        "per_user": [
+          0.8583333333333334,
+          0.9808333333333334,
+          0.9766666666666666,
+          0.7609090909090909,
+          0.9466666666666667,
+          0.9550000000000001
+        ],
+        "mean": 0.9130681818181818,
+        "worst": 0.7609090909090909
+      },
+      "tail": {
+        "per_user": [
+          0.8658333333333333,
+          0.9900000000000001,
+          0.9858333333333333,
+          0.7854545454545453,
+          0.9683333333333334,
+          0.9783333333333334
+        ],
+        "mean": 0.9289646464646465,
+        "worst": 0.7854545454545453
+      }
+    }
+  },
+  "source_sam_analysis": "results/cloud_20261004_source_sam/ANALYSIS.json",
+  "source_sam_new_epochs": 432,
+  "source_sam_epoch_seconds": 16716.22237629802,
+  "source_sam_private_backup_receipt": "results/cloud_20261004_source_sam/DRIVE_BACKUP_RECEIPT.json",
+  "source_sam_private_backup_logical_archives": 31,
+  "source_sam_private_backup_objects": 85,
+  "source_sam_private_backup_bytes": 519448048,
+  "source_sam_private_backup_members": 546,
+  "gradient_variance_preparation_only": true,
+  "gradient_variance_core_tests": "research/GRADIENT_VARIANCE_CORE_TESTS.json",
+  "gradient_variance_real_training_started": false
 }

@@ -1,0 +1,13 @@
+{
+  "state": "passed",
+  "scope": "synthetic float64 core only; no UWB results or full Fishr reproduction",
+  "per_example_autograd_equal": true,
+  "penalty_equal": true,
+  "feature_weight_bias_higher_derivatives_equal": true,
+  "finite_difference_gradcheck": true,
+  "permutation_invariant": true,
+  "whole_batch_duplication_invariant": true,
+  "single_domain_zero": true,
+  "singleton_domains_rejected": true,
+  "torch": "2.14.0+cpu"
+}
