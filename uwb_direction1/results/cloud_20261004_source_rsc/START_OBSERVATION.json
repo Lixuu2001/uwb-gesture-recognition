@@ -1,0 +1,36 @@
+{
+  "observed_utc": "2026-10-04T18:26:15.949170+00:00",
+  "process": {
+    "pid": 4719,
+    "state": "R",
+    "live": true,
+    "cmd_matches": true
+  },
+  "queue": {
+    "state": "training",
+    "pid": 4719,
+    "held": 3,
+    "arm": "rsc24"
+  },
+  "progress": {
+    "epoch": 7,
+    "validation_ce": 0.09530234336853027,
+    "source_ce": 0.010405205079215638,
+    "lr": 0.0008550178566873409,
+    "source_ids_sha256": "56ff6153ea8fdfbcefd6a4ab48e8af375a3927051bad067e525408ea58cb29b7",
+    "step": 518,
+    "seconds": 33.75697850200231,
+    "segment_sha256": "20eb58e0a81b7347f10c1deff891c26110f40eea45d0d35a9fa7c2664151bb22",
+    "state": "training",
+    "pid": 4719,
+    "held": 3,
+    "arm": "rsc24"
+  },
+  "completed_new_trajectories": 0,
+  "expected_new_trajectories": 12,
+  "expected_new_epochs": 288,
+  "preregistered_commit": "21915bdf0203984f5ded80fbf40dcca08e18609a",
+  "initial_backup_verified": true,
+  "full_run_backup_complete": false,
+  "final_audit_pending": true
+}

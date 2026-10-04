@@ -1,0 +1,26 @@
+{
+  "observed_utc": "2026-10-04T18:22:52.146522+00:00",
+  "pid": 4719,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/uwb-temporal-publish-20261003/uwb_direction1/tools/source_rsc_pilot.py",
+    "train",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--prepared",
+    "/workspace/uwb-circular-prepared-20260930",
+    "--baseline",
+    "/workspace/uwb-swad-source-runs-20261003",
+    "--out",
+    "/workspace/uwb-rsc-source-runs-20261004",
+    "--cost",
+    "/workspace/uwb-rsc-cost-20261004/COST.json"
+  ],
+  "cwd": "/workspace/uwb-temporal-publish-20261003",
+  "log": "/workspace/uwb-rsc-source-train-20261004.log",
+  "preregistered_commit": "21915bdf0203984f5ded80fbf40dcca08e18609a",
+  "cost_gate_passed": true,
+  "automatic_resume": "same command; queue flock prevents duplicate live training; epoch checkpoints include all state",
+  "execution": "detached cloud process; persistence across environment teardown not guaranteed; verify real progress before reporting training"
+}
