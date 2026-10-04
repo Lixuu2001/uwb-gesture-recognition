@@ -15,3 +15,12 @@ TESTS.json记录解析梯度、随机性、异常恢复、完整优化器恢复�
 冻结提交 `4c4a4c65696b1510f228504e1375de3223fedbc6` 已正常推送，18文件从远端拉回逐字核验后才启动。训练PID1398、本地归档PID1410均实际存活；当前sam24/held3第4轮，完整轨迹0/12。精确命令见LAUNCH.json/ARCHIVE_LAUNCH.json，状态见START_OBSERVATION.json。此前“待启动”为历史记录，当前运行中，无完整候选识别结果。
 
 第2轮step148完整恢复快照（含AdamW/scheduler/RNG/model/tail/best、两轮segment及精确顺序）7,245,703字节、28成员，私有Drive owner-only上传、认证raw下载及整包/成员SHA均通过，见START_DRIVE_RECEIPT.json。START_AUDIT独立函数前向重算该快照全部验证logits/CE逐位相同，参数对应AdamW状态完整；没有评测候选诊断输入。它只是启动备份，不是12轨迹最终备份。研究目标尚未达成。
+
+## 2026-10-04T01:59:56.962967+00:00 首条完整SAM轨迹独立审计和私有备份通过
+
+当前云端原PID1398/1410均仍活动，未中断、未重启；观测erm48/held3第15轮，1/12完整轨迹。仍保持预注册4c4a4c6的模型/协议/helper哈希不变，不因中途分数改配置，尚无整组六源效果判断。
+
+sam24/held3全24轮已完成，ERM/tail全部验证/诊断logits由独立函数前向重算逐位一致，30产物SHA、源角色/24轮精确样本顺序/选模核验通过。31个完整产物（含最终AdamW/RNG、全部segment、ID/logits）分2包共31241969字节、5个≤7MiB传输块，owner-only私有上传、认证raw回下载后逐块/重组/成员SHA全部一致。不是仅epoch2启动快照，也不是全部12轨迹备份。见results/cloud_20261004_source_sam/PARTIAL_AUDIT_01.json、PARTIAL_DRIVE_RECEIPT_01.json、MONITOR_01.json。
+
+后续最终备份复用本次5块及2个不可变归档，不重复上传；本地索引/workspace/uwb-sam-final-transport-20261004/PARTIAL_INDEX_01.json及records保存持久ID与已验证下载路径。仍等原固定队列和最终18轨迹完整审计，之后私有上传余下全部产物，按冻结门槛处理。创新目标尚未达成，自动接续保留。
+

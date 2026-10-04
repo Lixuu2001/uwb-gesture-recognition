@@ -1,0 +1,226 @@
+{
+  "state": "partial_completed_trajectory_private_backup_verified",
+  "observed_utc": "2026-10-04T01:59:56.962967+00:00",
+  "scope": "sam24/held3 entire24epoch trajectory only",
+  "trajectories": 1,
+  "logical_archives": 2,
+  "drive_objects": 5,
+  "archive_bytes": 31241969,
+  "members_verified": 31,
+  "archives": [
+    {
+      "name": "sam24-held3-part1.tar.gz",
+      "bytes": 26282676,
+      "sha256": "160a54962c1369e786aa39a0985c76fb453a9920091b8742c41d130309f34506",
+      "contents": {
+        "sam24/held3/result.json": {
+          "bytes": 18320,
+          "sha256": "eaf9b3f0577e1b4710e138e6199dff5c8000f9da897d9e31a4c8a88859bde895"
+        },
+        "sam24/held3/source_orders.npz": {
+          "bytes": 281027,
+          "sha256": "127872bbc8fe0b95e7266eafa9b42a5bba255f988c8032956f8be825b074ea93"
+        },
+        "sam24/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "sam24/held3/selection.json": {
+          "bytes": 88,
+          "sha256": "a9f7b41fc7edf5cc1f5a50eb4a3da9a156c391028897c99d306452175d8e46b1"
+        },
+        "sam24/held3/predictions.npz": {
+          "bytes": 218615,
+          "sha256": "177fd4c413f9b59b64bd63bbe14b6b528f5de57b4cf5ced93251da2151659db0"
+        },
+        "sam24/held3/selected.pt": {
+          "bytes": 2144529,
+          "sha256": "af8c54620349cbad9e354731b047effece606e939682f191881476f5988c773e"
+        },
+        "sam24/held3/progress.pt": {
+          "bytes": 5372479,
+          "sha256": "5473ab7db8709254091abd8ce183807ca82c2e8748833ac58f3915eca3d2bebf"
+        },
+        "sam24/held3/segment_01.pt": {
+          "bytes": 1074357,
+          "sha256": "b6c395a9add4dab8c85cf4b61c3a3cbd661f3f2c53ce641fc18329413d5a85e2"
+        },
+        "sam24/held3/segment_02.pt": {
+          "bytes": 1074357,
+          "sha256": "65f08bd8b044c2d7b53c5335c0ec31100129f97575a32d2fc9a6ba4f74e23b47"
+        },
+        "sam24/held3/segment_03.pt": {
+          "bytes": 1074357,
+          "sha256": "c0321d90cbfd945b9b8a71ccaa933e9f11d544d9799dd754738ae055c1f0d19d"
+        },
+        "sam24/held3/segment_04.pt": {
+          "bytes": 1074357,
+          "sha256": "f402466c95ec9d3bc3c8b9efb37d54a6839c17844c6fdbb406d8096b1a0eb00e"
+        },
+        "sam24/held3/segment_05.pt": {
+          "bytes": 1074357,
+          "sha256": "6f80aaa252570f1b1d699e4f6808d35e7fd80875106ac5dd3649b28123272d7b"
+        },
+        "sam24/held3/segment_06.pt": {
+          "bytes": 1074357,
+          "sha256": "78c88b1f95b7be1f4461a42225a65c6b7f958ff4a6b652318269437dd8e4a75d"
+        },
+        "sam24/held3/segment_07.pt": {
+          "bytes": 1074357,
+          "sha256": "6ddce573acc9efe0e802569ea533bab00f54e2ec0bd5dc72b758897d1f0f1425"
+        },
+        "sam24/held3/segment_08.pt": {
+          "bytes": 1074357,
+          "sha256": "3aa854d16f2788758c98e6224b4dcd2b4f3aa43b3024405e2f7134e8550d662f"
+        },
+        "sam24/held3/segment_09.pt": {
+          "bytes": 1074357,
+          "sha256": "11aa3167a017653a40ed67d10370a8c9ba6efa6418956709e7f14565dc094dba"
+        },
+        "sam24/held3/segment_10.pt": {
+          "bytes": 1074357,
+          "sha256": "d1d6c7b915fb67d508670857e15fa91ddfd3fd85ff3d207fb344812bc44b3506"
+        },
+        "sam24/held3/segment_11.pt": {
+          "bytes": 1074357,
+          "sha256": "fea1780970f272db28888a398b5982f7eff4eac025443101b77cdab71596d8b4"
+        },
+        "sam24/held3/segment_12.pt": {
+          "bytes": 1074357,
+          "sha256": "0139d9945eb820e96fa7e20407821bacb558dd9add91b58907240e42f9aa34cd"
+        },
+        "sam24/held3/segment_13.pt": {
+          "bytes": 1074357,
+          "sha256": "0eaea1ddb9eca652cee9517cf9551aaebeeccb2cac27c3d822825c704d258c84"
+        },
+        "sam24/held3/segment_14.pt": {
+          "bytes": 1074357,
+          "sha256": "ade4fbe9455685f6f8f4cd2faba7c9097fdbe6a13da247945c2086350467460d"
+        },
+        "sam24/held3/segment_15.pt": {
+          "bytes": 1074357,
+          "sha256": "0ebd7d897ff24ca6518196433e30ebd865dc78228611976c4d91d1714d01f1b8"
+        },
+        "sam24/held3/segment_16.pt": {
+          "bytes": 1074357,
+          "sha256": "e16e83719bec659c9a187d47c04f4de1cb21ccb3b985f7062da0a2f618afcb03"
+        },
+        "sam24/held3/segment_17.pt": {
+          "bytes": 1074357,
+          "sha256": "13339216d61879e17e486ac4b73e4c9780e0ccf7d6f31b5b2a2dd7c544692d2f"
+        },
+        "sam24/held3/segment_18.pt": {
+          "bytes": 1074357,
+          "sha256": "73b87dcfc5188a28585959188cc97aaa248f40a9b5cd610b73eddf5228034fa4"
+        },
+        "sam24/held3/segment_19.pt": {
+          "bytes": 1074357,
+          "sha256": "59e51afbe22f993b47be79b3c330e28c05151690029b51e578211a470e197690"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk001",
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk002",
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk003",
+        "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk004"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk001",
+          "id": "1Rp95z2Dhjjyj9KNPb-f_Ewm5VzKOuwzB",
+          "url": "https://drive.google.com/file/d/1Rp95z2Dhjjyj9KNPb-f_Ewm5VzKOuwzB/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 7340032,
+          "sha256": "0df450e9e976c1debf30b7727c34d08cef1979f002d71eca9c59204b6b881296",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk002",
+          "id": "1fsfcMr-BJC2OBvcYeogToLzQLVRnttqI",
+          "url": "https://drive.google.com/file/d/1fsfcMr-BJC2OBvcYeogToLzQLVRnttqI/view?usp=drivesdk",
+          "part": 2,
+          "bytes": 7340032,
+          "sha256": "3000b3b2cf264442bb9573d9e2bce4ed0244446e8400d195fa7f3b993da56f82",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk003",
+          "id": "1V0MXdWA-CZVK5nlnC8q7feo9CFjv2eB2",
+          "url": "https://drive.google.com/file/d/1V0MXdWA-CZVK5nlnC8q7feo9CFjv2eB2/view?usp=drivesdk",
+          "part": 3,
+          "bytes": 7340032,
+          "sha256": "6867c716ccd4c38c16c876217f8b9e57a9b0bf79f202fc0f1c2eb3b330354fd5",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        },
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part1.tar.gz.chunk004",
+          "id": "1z23PQVtZh02Rj0F5sfgBHRfdyJuU1K7e",
+          "url": "https://drive.google.com/file/d/1z23PQVtZh02Rj0F5sfgBHRfdyJuU1K7e/view?usp=drivesdk",
+          "part": 4,
+          "bytes": 4262580,
+          "sha256": "1cf9ec922cdcec0e08a017411e2856d83ae9a76fd1c929c014d3c4e9f4d5219b",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    },
+    {
+      "name": "sam24-held3-part2.tar.gz",
+      "bytes": 4959293,
+      "sha256": "ba8608cb68b784cb42ad75c8149ee98f9e1c2005f4c4401a539dddcead1927c6",
+      "contents": {
+        "sam24/held3/segment_20.pt": {
+          "bytes": 1074357,
+          "sha256": "4d159416a6154217a1f038f53dcabe1f33bd9f663a6d38ec0da91c3c408cb278"
+        },
+        "sam24/held3/segment_21.pt": {
+          "bytes": 1074357,
+          "sha256": "f909d3a86974507fc9b112c32bd3a4391485437256e7dbc99970ca8563a19cc8"
+        },
+        "sam24/held3/segment_22.pt": {
+          "bytes": 1074357,
+          "sha256": "f2edfbfa7e71f8d2672521400b929bd47deab2368b24810bbdfb9f0e19793f51"
+        },
+        "sam24/held3/segment_23.pt": {
+          "bytes": 1074357,
+          "sha256": "d575dbdf6d738802b78f23bc6eddef9d09dc90a246842888f797b697785b07da"
+        },
+        "sam24/held3/segment_24.pt": {
+          "bytes": 1074357,
+          "sha256": "753fb35a85714e74790057b4b30a8e5330e13ae3cf3d7846eec9661cdd13b76f"
+        }
+      },
+      "ordered_parts": [
+        "uwb-sam-20261004-sam24-held3-part2.tar.gz.chunk001"
+      ],
+      "parts": [
+        {
+          "name": "uwb-sam-20261004-sam24-held3-part2.tar.gz.chunk001",
+          "id": "18R1PUyMsjSNQBm1VO3aCQxOuQuaDjylg",
+          "url": "https://drive.google.com/file/d/18R1PUyMsjSNQBm1VO3aCQxOuQuaDjylg/view?usp=drivesdk",
+          "part": 1,
+          "bytes": 4959293,
+          "sha256": "ba8608cb68b784cb42ad75c8149ee98f9e1c2005f4c4401a539dddcead1927c6",
+          "verified": true,
+          "shared": false,
+          "owner_only": true
+        }
+      ]
+    }
+  ],
+  "parent": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "owner_only": true,
+  "all_parts_authenticated_redownload_verified": true,
+  "whole_archives_and_members_sha256_verified": true,
+  "max_concurrent_transfers": 3,
+  "full_run_backup_complete": false,
+  "raw_data_included": false
+}
