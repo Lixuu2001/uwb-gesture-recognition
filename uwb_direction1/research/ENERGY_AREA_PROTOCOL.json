@@ -1,0 +1,71 @@
+{
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "arms": [
+    "cnn_readout",
+    "base",
+    "signed",
+    "unsigned",
+    "shuffled"
+  ],
+  "candidate": "signed",
+  "checkpoint": "old source encoder segment_24 average, not tail ensemble",
+  "range_bands": 7,
+  "bins_per_band": 27,
+  "path": "per radar sqrt(mean RF^2 over each contiguous27-bin band), divided by per-clip/radar maximum over all90 frames and7 bands; zero clips remain zero",
+  "base": "per-band temporal mean,std,endpoint displacement:63dim",
+  "area": "0.5 sum_t [(p_t-p_0)_i delta_p_t_j - (p_t-p_0)_j delta_p_t_i], i<j;21/radar,63total",
+  "hidden": "128dim after first head linear+GELU; same frozen encoder in allarms",
+  "dimensions": {
+    "cnn_readout": 128,
+    "base": 191,
+    "signed": 254,
+    "unsigned": 254,
+    "shuffled": 254
+  },
+  "shuffle_seed": 20261004,
+  "shuffle": "fixed sample-ID-seeded interior temporal permutation, same order in3views, endpoints fixed; no permutation selection",
+  "lambdas": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "ridge": "equal user/equal present class weights; only four source training users fit mean/scale/intercept/weights",
+  "selection": "validation next source user maxmacro then min onehotMSE then largerlambda; held source user finaldiagnostic only",
+  "budget_seconds": 1800,
+  "cost_margin": 2,
+  "input_sha256": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "prepared": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f"
+  },
+  "gate": {
+    "minimum_mean_gain": {
+      "base": 0.005,
+      "unsigned": 0.0025,
+      "shuffled": 0.0025,
+      "cnn_readout": 0.0,
+      "tail_cnn": 0.0
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "limits": [
+    "Source-only exploratory screen, six reused users, not outer8 independent test",
+    "Only signed primary; secondary arms cannot replace it",
+    "No band/depth/shuffle/normalization/seed/lambda grid on failure; no reopening local echo matching",
+    "Positive result only allows new preregistered end-to-end and outer8 controlled experiment; does not establish novelty",
+    "No cross-radar temporal products or physical3D/truevelocity claim",
+    "Area invariant to path translation and straight-segment refinement; not all descriptor/CNN invariant to real speed changes or range shifts",
+    "Level2 discards higher-order structure/backtracking; mean/std still speed dependent",
+    "Previously reported cross-radar range-trajectory areas and level2 signature literature are explicit prior art",
+    "No held/test fitting; original quality exclusion retained; no raw signals processed from users1/2"
+  ]
+}
