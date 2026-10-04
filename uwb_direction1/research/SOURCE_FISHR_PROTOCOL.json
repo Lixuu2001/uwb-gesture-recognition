@@ -1,0 +1,65 @@
+{
+  "study": "Source-only calibrated last-linear gradient-variance intervention and conditional-permutation control; known-method research, not novelty",
+  "seed": 2026,
+  "threads": 1,
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excluded_users": [
+    1,
+    2
+  ],
+  "arms": [
+    "balanced_erm",
+    "real_variance",
+    "permuted_variance"
+  ],
+  "batch": 64,
+  "per_domain": 16,
+  "epochs": 24,
+  "tail_start_epoch": 13,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "min_lr": 1e-05,
+  "ema_beta": 0.95,
+  "warmup_epochs": 1,
+  "calibration_norm_ratio": 0.1,
+  "scale_bounds": [
+    0.0001,
+    10000.0
+  ],
+  "max_estimated_hours": 8,
+  "parameters": 265836,
+  "sampling": "Four training domains per batch16 each; per-domain deterministic shuffled cycles to ceil(max domain size/16) batches per epoch. Same IDs/order all3 arms; shorter domains oversampled. Full original retained class set, not common-class filtering.",
+  "validation": "next cyclic source user; four train, one validation, one diagnostic only after selecting weights",
+  "permutation_control": "shuffle domain IDs within each batch class using local NumPy SeedSequence(seed,held,global_step,917); preserve every class-domain count; independent from torch dropout RNG",
+  "moments": "last-linear softmax CE per-example gradients; population variance per domain; both real and class-permuted domain moments maintained in all3 arms; conventional bias-corrected EMA raw/(1-beta^step), old state detached; differs author fixed1/(1-beta) normalization",
+  "calibration": "All arms pure CE through epoch1; at first epoch2 source batch compute full-parameter gradient L2 norms of CE and REAL EMA penalty. Fixed lambda=clip(.1*CE_norm/real_penalty_norm,1e-4,1e4). Same warmup/model/EMA/dropout/sampler makes exact same lambda all3 arms. Never recalibrated; store norms/clip flag and EMA. Uses no validation or diagnostic examples. This is one-batch heuristic, not an optimal coefficient.",
+  "objective": "balanced_erm CE only; real_variance CE+fixed lambda*real EMA variance discrepancy; permuted_variance CE+same lambda*conditional-permutation EMA discrepancy. No optimizer reset, no extra augmentation. Single dropout forward used by CE and penalty.",
+  "primary_selection": "fixed dense parameter average over actual optimizer updates epochs13-24",
+  "secondary_selection": "earliest minimum validation CE including epoch0; never substitute for primary",
+  "reused_control": "ordinary24 shared128 tail from SWAD source, supplementary strong baseline; differs sampler and slightly per-epoch sample count",
+  "gate": {
+    "versus_balanced_erm": 0.005,
+    "versus_permuted": 0.0025,
+    "versus_old_tail": 0.0,
+    "wins_each": 4,
+    "minimum_paired_difference_each": -0.01
+  },
+  "stop_on_failed_gate": "No lambda/EMA/warmup/seed/tail/normalizer/coordinate grid or eight-fold expansion of this frozen hypothesis",
+  "pass_next_step": "Further same-protocol eight-user controls and independent seeds; does not establish original contribution",
+  "persistence": "everyepoch segment, full source orders/IDs, model/AdamW/scheduler/CPU RNG/best/tail and BOTH EMA states/count/scale/calibration. Atomic epoch checkpoints; queue lock; functional inference audit; warmup and lambda cross-arm equality audited.",
+  "limitations": [
+    "six repeatedly researched development users; overlapping training sets; one seed",
+    "source mechanism was eval-mode common-class subset; training-mode dropout and full labels differ",
+    "conditional-shuffle control preserves class-domain imbalance rather than removing all domain information",
+    "end-to-end all-parameter gradients for scale but regularizer statistics only last linear layer",
+    "standard corrected EMA and source norm calibration differ author Fishr; not exact reproduction",
+    "known-module composition not original contribution; main paper full text not read"
+  ]
+}

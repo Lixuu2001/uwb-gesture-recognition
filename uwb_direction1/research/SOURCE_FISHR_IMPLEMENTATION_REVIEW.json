@@ -1,0 +1,23 @@
+{
+  "scope": "source-calibrated gradient-variance intervention, not exact official Fishr reproduction or novel claim",
+  "literature": "GRADIENT_VARIANCE_REVIEW.md and pinned author source receipt; main paper unread",
+  "source_mechanism_commit": "4666537446691aa05264337c16e9cee5eb1b0eab",
+  "choices_before_candidate_scores": {
+    "same_batch_controls": true,
+    "class_conditional_domain_permutation": true,
+    "ema": "conventional bias-corrected.95, prior state detached; differs author normalization",
+    "warmup": "one epoch pure CE for all3 arms; no optimizer reset",
+    "scale": "first epoch2 source batch .1 norm ratio full parameters, real penalty; clipped fixed[1e-4,1e4], then frozen; same value all3 arms",
+    "old_baseline": "supplementary original sampler24 tail; all three new controls use same domain-balanced16x4 sampler",
+    "gate": "tail advantage .5pp over matched ERM, .25pp over permutation; >=0pp over old tail; each>=4/6 positive and min paired>=-1pp"
+  },
+  "tests": "all3 arms full-architecture synthetic resume including EMA/count/scale and held data isolation, independent forward, NumPy derivative, same dropout RNG and warmup/calibration verified",
+  "cost": "real source batch five steps/arm, no candidate held quality measured; estimate5.587791780363659h with75%headroom < fixed8h budget",
+  "limits": [
+    "one-batch scale calibration is heuristic; clipping may bind, logged not tuned",
+    "balanced padding repeats smaller domain examples and differs old sampler",
+    "EMA/current-dropout full-class training differs eval/common-class mechanism screen",
+    "known-module composition, no novelty assertion",
+    "source6 pilot must not be compared as same protocol to old8fold"
+  ]
+}
