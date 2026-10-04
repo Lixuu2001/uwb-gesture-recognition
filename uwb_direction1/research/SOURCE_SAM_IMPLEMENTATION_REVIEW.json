@@ -1,0 +1,32 @@
+{
+  "observed_utc": "2026-10-04T01:28:26.379285+00:00",
+  "state": "implementation_and_source_cost_verified_before_preregistration",
+  "third_party_code_vendored": false,
+  "algorithm": "Known SAM; independent CPU CE-only implementation with ordinary AdamW",
+  "official_paper_fulltext_read": false,
+  "author_code_and_readme_review": "research/SOURCE_SHARPNESS_REVIEW_RECEIPT.json",
+  "license_reads": [
+    {
+      "repo": "google-research/sam",
+      "path": "LICENSE",
+      "license": "Apache-2.0",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "repo": "davda54/sam",
+      "path": "LICENSE",
+      "license": "MIT",
+      "sha256": "8dd5a9d860cb903c196a4ca4e33e44d1850c01bfbb9ea51a2ddd5cd90c653efd"
+    }
+  ],
+  "departures_from_author_jax": [
+    "CE-only perturbation rather than coupledL2",
+    "PyTorch AdamW and existing GN CNN",
+    "CPU RNG replay for same Dropout mask; no mutable buffers permitted"
+  ],
+  "numerical_checks": "results/cloud_20261004_source_sam/TESTS.json",
+  "cost_receipt": "results/cloud_20261004_source_sam/COST.json",
+  "cost_initial_failure_retained": true,
+  "held_candidate_quality_evaluated": false,
+  "novelty_claim": false
+}

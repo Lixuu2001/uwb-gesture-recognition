@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "temporal_scale_complete_gate_failed",
+  "state": "source_sam_ready_for_preregistered_launch",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261003_temporal_scale/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261004_source_sam/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -123,8 +123,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Offline source sharpness/SAM literature and optimizer semantics preparation only; no protocol or new UWB training. First complete source-only implementation/numerical/resume/isolation controls and CPU cost before frozen prospective pilot. SAM is established, not a novel contribution.",
-  "last_completed_update_utc": "2026-10-04T00:17:20.210865+00:00",
+  "next_candidate": "Push frozen supervised SAM and compute-control48 protocol, then launch12 trajectories only after matching cost receipt. No diagnostic result yet; stop on failed joint gate.",
+  "last_completed_update_utc": "2026-10-04T01:28:26.382363+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -469,6 +469,16 @@
   "temporal_scale_private_backup_objects": 62,
   "temporal_scale_private_backup_bytes": 380775626,
   "temporal_scale_private_backup_members": 410,
-  "source_sharpness_preparation_only": true,
-  "source_sharpness_real_training_started": false
+  "source_sharpness_preparation_only": false,
+  "source_sharpness_real_training_started": false,
+  "source_sam_results_path": "/workspace/uwb-sam-source-runs-20261004",
+  "source_sam_log": "/workspace/uwb-sam-source-train-20261004.log",
+  "source_sam_expected_new_trajectories": 12,
+  "source_sam_expected_new_epochs": 432,
+  "source_sam_completed_new_trajectories_at_observation": 0,
+  "source_sam_estimated_hours": 8.664782453733409,
+  "source_sam_initial_resource_gate_passed": false,
+  "source_sam_final_resource_gate_passed": true,
+  "source_sam_effect_gate_passed": null,
+  "source_sam_protocol_sha256": "c3130ec27b2a030cfe1790b48e0583bb8333f2fa19e147abeabc489c709b5a0d"
 }
