@@ -1,0 +1,140 @@
+{
+  "state": "initial_epoch_snapshot_private_backup_verified",
+  "observed_utc": "2026-10-04T01:34:18.058690+00:00",
+  "scope": "sam24 held3 epoch2 only, not final12 trajectory backup",
+  "epoch": 2,
+  "step": 148,
+  "archive_bytes": 7245703,
+  "archive_sha256": "134697fff92c9b1b7953613718970cd423b9589d6f1fb0b57fb8d98e87d2ee04",
+  "members_verified": 28,
+  "contents": {
+    "sam24/held3/segment_02.pt": {
+      "bytes": 1074357,
+      "sha256": "65f08bd8b044c2d7b53c5335c0ec31100129f97575a32d2fc9a6ba4f74e23b47"
+    },
+    "sam24/held3/segment_01.pt": {
+      "bytes": 1074357,
+      "sha256": "b6c395a9add4dab8c85cf4b61c3a3cbd661f3f2c53ce641fc18329413d5a85e2"
+    },
+    "sam24/held3/progress.pt": {
+      "bytes": 5366975,
+      "sha256": "35ea0e3fd893cbad54ce52fef2ce43bf0ea9c5c356bb79b441065d6549eda069"
+    },
+    "sam24/held3/split.json": {
+      "bytes": 71057,
+      "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+    },
+    "sam24/held3/source_orders.npz": {
+      "bytes": 281027,
+      "sha256": "127872bbc8fe0b95e7266eafa9b42a5bba255f988c8032956f8be825b074ea93"
+    },
+    "runs/identity.json": {
+      "bytes": 1656,
+      "sha256": "1d1f3a6df5ab679e8fb7911e9d3c216917822cab6418d2ecb42cb2ff27fd4747"
+    },
+    "runs/protocol.json": {
+      "bytes": 2309,
+      "sha256": "c3130ec27b2a030cfe1790b48e0583bb8333f2fa19e147abeabc489c709b5a0d"
+    },
+    "runs/LAUNCH.json": {
+      "bytes": 845,
+      "sha256": "005836d672d780d4d6c3339483a901c5ea117c5c82927a8566eaee8ef0fd8147"
+    },
+    "runs/BASELINE_INDEX.json": {
+      "bytes": 3507,
+      "sha256": "9bbb07afe7a18985e3fd45fb82271e4fa12d80023d579eb7d7d0d348879b8718"
+    },
+    "tools/source_sam.py": {
+      "bytes": 2351,
+      "sha256": "d50a3102fe2a19ac34b035042d4f14d92cbd62a65336829ab63ff0ade07328b8"
+    },
+    "tools/audit_source_sam.py": {
+      "bytes": 4355,
+      "sha256": "1e3fd9af1486043b9d1260cb64c9734f949f5d88672dae28b4acd62335d0ddfb"
+    },
+    "tools/audit_temporal_scale.py": {
+      "bytes": 4369,
+      "sha256": "6962ff8f6b625181ec57c4113c6e2e3580cf75a492e4d6238cdfdcd19727eddf"
+    },
+    "tools/test_source_sam.py": {
+      "bytes": 5709,
+      "sha256": "db904d8688ee1a0afd611795f49cd815e69d6b9268de5e0a961b4d8364ea2e5b"
+    },
+    "tools/swad_source_pilot.py": {
+      "bytes": 15906,
+      "sha256": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc"
+    },
+    "tools/swad_core.py": {
+      "bytes": 9030,
+      "sha256": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4"
+    },
+    "tools/circular_signal.py": {
+      "bytes": 15962,
+      "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+    },
+    "tools/audit_restored.py": {
+      "bytes": 8247,
+      "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+    },
+    "tools/full_view_heads.py": {
+      "bytes": 14594,
+      "sha256": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "tools/source_sam_pilot.py": {
+      "bytes": 13828,
+      "sha256": "8c2721cbfc9dc6bacf87ae38631da76171199e14a546f98c6fb9192537bf854e"
+    },
+    "tools/archive_source_sam.py": {
+      "bytes": 10316,
+      "sha256": "a7ef6d78744e61b4f4b54a7c6a540ee1150075dc7fd164ced9fcb53c9616c365"
+    },
+    "research/SOURCE_SAM_PROTOCOL.json": {
+      "bytes": 2309,
+      "sha256": "c3130ec27b2a030cfe1790b48e0583bb8333f2fa19e147abeabc489c709b5a0d"
+    },
+    "research/SOURCE_SAM_IMPLEMENTATION_REVIEW.json": {
+      "bytes": 1223,
+      "sha256": "5273f15821f8b5ac5549e55209c9a7c35647cb29609ba7037fda46cfd7c69677"
+    },
+    "research/SOURCE_SHARPNESS_REVIEW.md": {
+      "bytes": 5037,
+      "sha256": "17e6a9b25767d67e9cf598570482b62a1d085d431b13c657b10b7e7276af1e6e"
+    },
+    "provenance/COST.json": {
+      "bytes": 3517,
+      "sha256": "2f7f3f151a01699d8daa4bd415d983a2a12e110515da6b6270ff5dabeb8d224d"
+    },
+    "provenance/COST_INITIAL.json": {
+      "bytes": 3007,
+      "sha256": "3cf1575465e7d90b4c4375301741ce8012a047fa972247f7132a8cdf051c2c63"
+    },
+    "provenance/TESTS.json": {
+      "bytes": 546,
+      "sha256": "8401965d28980ac55640d879826503e70b205bca888f84cc346fc0153044f621"
+    },
+    "provenance/START_AUDIT.json": {
+      "bytes": 2144,
+      "sha256": "11788959428098988e005de3b904325d17eb32080bb03dd825afd4c870cd8e65"
+    },
+    "provenance/RESTORE.md": {
+      "bytes": 1215,
+      "sha256": "6dfe9dda41091ab1e42930db267fbe303d8bf7bbc624894ba71dbf55f6962507"
+    }
+  },
+  "parent": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "owner_only": true,
+  "authenticated_raw_redownload": true,
+  "whole_archive_and_members_sha256_verified": true,
+  "parts": [
+    {
+      "id": "1VXG2OodSk550wctzeV0EgODgb04q0rOQ",
+      "url": "https://drive.google.com/file/d/1VXG2OodSk550wctzeV0EgODgb04q0rOQ/view",
+      "name": "uwb-sam-start-20261004.part001",
+      "bytes": 7245703,
+      "sha256": "134697fff92c9b1b7953613718970cd423b9589d6f1fb0b57fb8d98e87d2ee04"
+    }
+  ],
+  "full_run_backup_complete": false,
+  "raw_data_included": false
+}

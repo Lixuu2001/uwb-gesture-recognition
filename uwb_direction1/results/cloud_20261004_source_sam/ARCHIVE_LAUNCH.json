@@ -1,0 +1,20 @@
+{
+  "pid": 1410,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-temporal-publish-20261003/uwb_direction1/tools/archive_source_sam.py",
+    "--runs",
+    "/workspace/uwb-sam-source-runs-20261004",
+    "--baseline",
+    "/workspace/uwb-swad-source-runs-20261003",
+    "--out",
+    "/workspace/uwb-sam-final-20261004",
+    "--log",
+    "/workspace/uwb-sam-source-train-20261004.log",
+    "--state",
+    "/workspace/uwb-sam-archive-state-20261004.json",
+    "--watch"
+  ],
+  "started_unix": 1791077420.4645448,
+  "local_archives_only": true
+}

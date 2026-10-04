@@ -1,0 +1,40 @@
+{
+  "observed_utc": "2026-10-04T01:34:18.058690+00:00",
+  "processes": {
+    "train": {
+      "pid": 1398,
+      "state": "R",
+      "live": true
+    },
+    "archive": {
+      "pid": 1410,
+      "state": "S",
+      "live": true
+    }
+  },
+  "queue": {
+    "state": "training",
+    "pid": 1398,
+    "held": 3,
+    "arm": "sam24"
+  },
+  "progress": {
+    "epoch": 4,
+    "validation_ce": 0.06667129695415497,
+    "source_ce": 0.0193230606013156,
+    "lr": 0.0009623203685930867,
+    "source_ids_sha256": "50e6d0e35651100ec831acc0075b151f1348570447f295d04f2ee6e6b039a50e",
+    "source_perturbed_ce": 0.0410007773529976,
+    "step": 296,
+    "seconds": 54.23554880199936,
+    "segment_sha256": "f402466c95ec9d3bc3c8b9efb37d54a6839c17844c6fdbb406d8096b1a0eb00e",
+    "state": "training",
+    "pid": 1398,
+    "held": 3,
+    "arm": "sam24"
+  },
+  "completed_new_trajectories": 0,
+  "preregistered_commit": "4c4a4c65696b1510f228504e1375de3223fedbc6",
+  "initial_backup_verified": true,
+  "full_run_backup_complete": false
+}
