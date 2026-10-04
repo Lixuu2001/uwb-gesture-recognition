@@ -1,0 +1,1034 @@
+[
+  {
+    "held": 3,
+    "epoch": 1,
+    "n": 2112,
+    "source_users": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 0.0010629869957790158,
+        "null_median": 0.00012761434645181422,
+        "null_q95": 0.00019389139012473123,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 8.329682557911998,
+        "mean_gradient_variance": 0.01772918690621499,
+        "mean_squared_gradient": 0.01792407029234672
+      },
+      "half0": {
+        "statistic": 0.0007418076597083733,
+        "null_median": 0.0001879260289975124,
+        "null_q95": 0.00025698277978380047,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.9473385547788737,
+        "mean_gradient_variance": 0.014698729462672176,
+        "mean_squared_gradient": 0.014855711123558614
+      },
+      "half1": {
+        "statistic": 0.0019395704603591924,
+        "null_median": 0.0003375015024983923,
+        "null_q95": 0.0005252045350610161,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 5.746849854004521,
+        "mean_gradient_variance": 0.02068517690751168,
+        "mean_squared_gradient": 0.02099242946113483
+      }
+    },
+    "half_centered_variance_cosine": 0.6383736185868609,
+    "qualifies": true,
+    "source_ce": 0.16439928083426747,
+    "reference_1000_penalty_over_ce": 6.465885923495149
+  },
+  {
+    "held": 3,
+    "epoch": 6,
+    "n": 2112,
+    "source_users": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 5.140338584078276e-09,
+        "null_median": 2.9948291153713094e-09,
+        "null_q95": 3.826853936429904e-09,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 1.716404638146093,
+        "mean_gradient_variance": 2.5440728563512353e-05,
+        "mean_squared_gradient": 2.553721553501301e-05
+      },
+      "half0": {
+        "statistic": 8.546833877173333e-09,
+        "null_median": 6.389641849774349e-09,
+        "null_q95": 7.357205931730411e-09,
+        "permutation_exceedance_fraction": 0.02,
+        "ratio_to_null_median": 1.3376076591014512,
+        "mean_gradient_variance": 2.345123777191875e-05,
+        "mean_squared_gradient": 2.356003012701329e-05
+      },
+      "half1": {
+        "statistic": 7.869881893019005e-09,
+        "null_median": 5.477241997242341e-09,
+        "null_q95": 7.162921873751982e-09,
+        "permutation_exceedance_fraction": 0.05,
+        "ratio_to_null_median": 1.4368329712255365,
+        "mean_gradient_variance": 2.732340901321269e-05,
+        "mean_squared_gradient": 2.7514400943012733e-05
+      }
+    },
+    "half_centered_variance_cosine": 0.24687322078344193,
+    "qualifies": false,
+    "source_ce": 0.0009912767013844743,
+    "reference_1000_penalty_over_ce": 0.0051855738936454196
+  },
+  {
+    "held": 3,
+    "epoch": 24,
+    "n": 2112,
+    "source_users": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 1.813234021511728e-13,
+        "null_median": 1.485252843491945e-13,
+        "null_q95": 1.8768593431371152e-13,
+        "permutation_exceedance_fraction": 0.09,
+        "ratio_to_null_median": 1.2208251473524694,
+        "mean_gradient_variance": 1.5251181705215656e-07,
+        "mean_squared_gradient": 1.530813501848878e-07
+      },
+      "half0": {
+        "statistic": 1.8092186894578005e-13,
+        "null_median": 1.5548536279214006e-13,
+        "null_q95": 2.0810547614799257e-13,
+        "permutation_exceedance_fraction": 0.17,
+        "ratio_to_null_median": 1.1635942168244138,
+        "mean_gradient_variance": 1.5741156056418104e-07,
+        "mean_squared_gradient": 1.5826339752539763e-07
+      },
+      "half1": {
+        "statistic": 4.804076784147142e-13,
+        "null_median": 4.561584179811101e-13,
+        "null_q95": 5.066288130321735e-13,
+        "permutation_exceedance_fraction": 0.28,
+        "ratio_to_null_median": 1.0531597345959935,
+        "mean_gradient_variance": 1.4707867138525132e-07,
+        "mean_squared_gradient": 1.478993028443779e-07
+      }
+    },
+    "half_centered_variance_cosine": 0.10420365338419758,
+    "qualifies": false,
+    "source_ce": 6.748363411877132e-05,
+    "reference_1000_penalty_over_ce": 2.686924089358366e-06
+  },
+  {
+    "held": 4,
+    "epoch": 1,
+    "n": 2112,
+    "source_users": [
+      3,
+      6,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 0.0018767244346218767,
+        "null_median": 0.0001491578307515989,
+        "null_q95": 0.0002071245154541761,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 12.582138163079708,
+        "mean_gradient_variance": 0.02671114818321887,
+        "mean_squared_gradient": 0.026978542792357584
+      },
+      "half0": {
+        "statistic": 0.0017064673793420315,
+        "null_median": 0.0002658198386958894,
+        "null_q95": 0.0003574321628818663,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 6.419638909247521,
+        "mean_gradient_variance": 0.025498047135062277,
+        "mean_squared_gradient": 0.02580776637870583
+      },
+      "half1": {
+        "statistic": 0.002278994174670627,
+        "null_median": 0.00033441289442529725,
+        "null_q95": 0.0005169910410907713,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 6.814911185129913,
+        "mean_gradient_variance": 0.027872500514500288,
+        "mean_squared_gradient": 0.02814931920600934
+      }
+    },
+    "half_centered_variance_cosine": 0.8908445195202646,
+    "qualifies": true,
+    "source_ce": 0.207815944198137,
+    "reference_1000_penalty_over_ce": 9.030704751087624
+  },
+  {
+    "held": 4,
+    "epoch": 6,
+    "n": 2112,
+    "source_users": [
+      3,
+      6,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 1.106372383751537e-06,
+        "null_median": 2.0293695373271736e-07,
+        "null_q95": 3.3540515362977355e-07,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 5.451803446348709,
+        "mean_gradient_variance": 0.00017358094604512822,
+        "mean_squared_gradient": 0.0001746410541810698
+      },
+      "half0": {
+        "statistic": 2.9463531579655977e-06,
+        "null_median": 8.65311733949964e-07,
+        "null_q95": 1.7271805940195657e-06,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.4049615212267175,
+        "mean_gradient_variance": 0.00025583987685495995,
+        "mean_squared_gradient": 0.0002586659609412413
+      },
+      "half1": {
+        "statistic": 1.803573332766895e-07,
+        "null_median": 5.546073538182818e-08,
+        "null_q95": 9.329109376304863e-08,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.251982362566796,
+        "mean_gradient_variance": 9.029868354908476e-05,
+        "mean_squared_gradient": 9.061614742089833e-05
+      }
+    },
+    "half_centered_variance_cosine": 0.870397902721561,
+    "qualifies": true,
+    "source_ce": 0.0023697618386365406,
+    "reference_1000_penalty_over_ce": 0.46687070646225626
+  },
+  {
+    "held": 4,
+    "epoch": 24,
+    "n": 2112,
+    "source_users": [
+      3,
+      6,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 3.3314128009821266e-13,
+        "null_median": 2.981945010189285e-14,
+        "null_q95": 5.438288195076438e-14,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 11.171945792423108,
+        "mean_gradient_variance": 1.636381968149364e-07,
+        "mean_squared_gradient": 1.646112766876887e-07
+      },
+      "half0": {
+        "statistic": 4.004556271471224e-13,
+        "null_median": 5.855942072403119e-14,
+        "null_q95": 9.95810502975098e-14,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 6.838449257111356,
+        "mean_gradient_variance": 1.7901264581622061e-07,
+        "mean_squared_gradient": 1.8053142220784639e-07
+      },
+      "half1": {
+        "statistic": 2.905896284065492e-13,
+        "null_median": 6.12791848365515e-14,
+        "null_q95": 1.1094884959129083e-13,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 4.742060932788711,
+        "mean_gradient_variance": 1.4786311631624174e-07,
+        "mean_squared_gradient": 1.4869113116753096e-07
+      }
+    },
+    "half_centered_variance_cosine": 0.9376858251838717,
+    "qualifies": true,
+    "source_ce": 9.28698566135318e-05,
+    "reference_1000_penalty_over_ce": 3.5871841762881715e-06
+  },
+  {
+    "held": 5,
+    "epoch": 1,
+    "n": 2304,
+    "source_users": [
+      3,
+      4,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 0.0015609664970621718,
+        "null_median": 0.00012382446664560678,
+        "null_q95": 0.00019059134710299296,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 12.606284842960427,
+        "mean_gradient_variance": 0.01722013101646722,
+        "mean_squared_gradient": 0.017358980291534775
+      },
+      "half0": {
+        "statistic": 0.0019519622256498029,
+        "null_median": 0.00028275312392996005,
+        "null_q95": 0.0004262128500752572,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 6.903415242667019,
+        "mean_gradient_variance": 0.01854665624495203,
+        "mean_squared_gradient": 0.018716812593109696
+      },
+      "half1": {
+        "statistic": 0.0013635163618583273,
+        "null_median": 0.0002010598597462491,
+        "null_q95": 0.0003042907226587221,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 6.781643852627648,
+        "mean_gradient_variance": 0.015863952046837212,
+        "mean_squared_gradient": 0.01600114798995985
+      }
+    },
+    "half_centered_variance_cosine": 0.8964582391679312,
+    "qualifies": true,
+    "source_ce": 0.13942868253385757,
+    "reference_1000_penalty_over_ce": 11.195447512624392
+  },
+  {
+    "held": 5,
+    "epoch": 6,
+    "n": 2304,
+    "source_users": [
+      3,
+      4,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 8.146795016084994e-06,
+        "null_median": 2.3253186746309012e-06,
+        "null_q95": 4.266612828068854e-06,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.5035176489855258,
+        "mean_gradient_variance": 0.0003759127396401759,
+        "mean_squared_gradient": 0.0003765048429422139
+      },
+      "half0": {
+        "statistic": 3.518710518116809e-06,
+        "null_median": 8.287367596260104e-07,
+        "null_q95": 1.88432421030461e-06,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 4.245872380156904,
+        "mean_gradient_variance": 0.000275903441483839,
+        "mean_squared_gradient": 0.0002763142836764171
+      },
+      "half1": {
+        "statistic": 1.4844906460549132e-05,
+        "null_median": 7.1244792211703875e-06,
+        "null_q95": 1.2822466808958584e-05,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 2.0836479410926625,
+        "mean_gradient_variance": 0.0004754323909375455,
+        "mean_squared_gradient": 0.0004766954022080109
+      }
+    },
+    "half_centered_variance_cosine": 0.981836160225251,
+    "qualifies": true,
+    "source_ce": 0.002628977722740516,
+    "reference_1000_penalty_over_ce": 3.0988452072513417
+  },
+  {
+    "held": 5,
+    "epoch": 24,
+    "n": 2304,
+    "source_users": [
+      3,
+      4,
+      7,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 3.7055842470899887e-13,
+        "null_median": 3.7478920095556615e-14,
+        "null_q95": 6.865170405326897e-14,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 9.887115844432538,
+        "mean_gradient_variance": 1.52002954300823e-07,
+        "mean_squared_gradient": 1.5257582992511829e-07
+      },
+      "half0": {
+        "statistic": 4.66783240007523e-13,
+        "null_median": 1.2265222961000896e-13,
+        "null_q95": 1.7339205522333588e-13,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.805746063416294,
+        "mean_gradient_variance": 1.9521665298465034e-07,
+        "mean_squared_gradient": 1.9612682044856732e-07
+      },
+      "half1": {
+        "statistic": 3.1961798813130396e-13,
+        "null_median": 5.0369369122368366e-14,
+        "null_q95": 1.1046733473776908e-13,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 6.345483251037303,
+        "mean_gradient_variance": 1.0850119137505036e-07,
+        "mean_squared_gradient": 1.0902483940166921e-07
+      }
+    },
+    "half_centered_variance_cosine": 0.9006261693402489,
+    "qualifies": true,
+    "source_ce": 8.021414227792188e-05,
+    "reference_1000_penalty_over_ce": 4.6196146238790025e-06
+  },
+  {
+    "held": 6,
+    "epoch": 1,
+    "n": 2304,
+    "source_users": [
+      3,
+      4,
+      5,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 0.00101488933623661,
+        "null_median": 5.453305820856977e-05,
+        "null_q95": 7.79592243325712e-05,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 18.610534042580472,
+        "mean_gradient_variance": 0.013054629655674221,
+        "mean_squared_gradient": 0.013205332112868647
+      },
+      "half0": {
+        "statistic": 0.000966444519229431,
+        "null_median": 0.0001184239930840781,
+        "null_q95": 0.0001672588108150455,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 8.160884412530148,
+        "mean_gradient_variance": 0.013162262373577172,
+        "mean_squared_gradient": 0.013331555533641378
+      },
+      "half1": {
+        "statistic": 0.0011588342941891558,
+        "null_median": 9.458967253130125e-05,
+        "null_q95": 0.0001666166044920578,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 12.251171435292566,
+        "mean_gradient_variance": 0.012920058026267129,
+        "mean_squared_gradient": 0.013079108692095918
+      }
+    },
+    "half_centered_variance_cosine": 0.9130562361647094,
+    "qualifies": true,
+    "source_ce": 0.10889704532053081,
+    "reference_1000_penalty_over_ce": 9.31971416900573
+  },
+  {
+    "held": 6,
+    "epoch": 6,
+    "n": 2304,
+    "source_users": [
+      3,
+      4,
+      5,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 1.0436322357061739e-05,
+        "null_median": 3.3781489846688106e-06,
+        "null_q95": 7.3623809836740995e-06,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.0893611869770456,
+        "mean_gradient_variance": 0.00046921163216476317,
+        "mean_squared_gradient": 0.00046970695275293066
+      },
+      "half0": {
+        "statistic": 4.890215079633766e-07,
+        "null_median": 1.1555121010214003e-07,
+        "null_q95": 2.2351455216580267e-07,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 4.232076042571188,
+        "mean_gradient_variance": 0.00012428682347793326,
+        "mean_squared_gradient": 0.00012485780111562057
+      },
+      "half1": {
+        "statistic": 3.340630461973537e-05,
+        "null_median": 1.3846111305382121e-05,
+        "null_q95": 2.952464212600946e-05,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 2.4126849685767016,
+        "mean_gradient_variance": 0.0008136780892437188,
+        "mean_squared_gradient": 0.0008145561043902408
+      }
+    },
+    "half_centered_variance_cosine": 0.9684422684813566,
+    "qualifies": true,
+    "source_ce": 0.0028168722546802988,
+    "reference_1000_penalty_over_ce": 3.7049327812866015
+  },
+  {
+    "held": 6,
+    "epoch": 24,
+    "n": 2304,
+    "source_users": [
+      3,
+      4,
+      5,
+      8
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 4.4715973476554237e-13,
+        "null_median": 1.238275706086586e-13,
+        "null_q95": 1.660377718007264e-13,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.611148410387007,
+        "mean_gradient_variance": 1.671401916064841e-07,
+        "mean_squared_gradient": 1.6772583789378352e-07
+      },
+      "half0": {
+        "statistic": 7.276642676837693e-14,
+        "null_median": 1.835754607257449e-14,
+        "null_q95": 3.025582540975737e-14,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.9638427968914285,
+        "mean_gradient_variance": 8.442095212678485e-08,
+        "mean_squared_gradient": 8.482488572797028e-08
+      },
+      "half1": {
+        "statistic": 1.1921761493937813e-12,
+        "null_median": 4.657439510177353e-13,
+        "null_q95": 6.592597939165525e-13,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 2.5597243867336537,
+        "mean_gradient_variance": 2.493626703148823e-07,
+        "mean_squared_gradient": 2.506267900595967e-07
+      }
+    },
+    "half_centered_variance_cosine": 0.8805054441577734,
+    "qualifies": true,
+    "source_ce": 7.4019376573071e-05,
+    "reference_1000_penalty_over_ce": 6.04111727858329e-06
+  },
+  {
+    "held": 7,
+    "epoch": 1,
+    "n": 2112,
+    "source_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 0.0014885114615077375,
+        "null_median": 8.199203476110222e-05,
+        "null_q95": 0.00010661295307828677,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 18.15434225830313,
+        "mean_gradient_variance": 0.020686761163015998,
+        "mean_squared_gradient": 0.020890906244871325
+      },
+      "half0": {
+        "statistic": 0.0013905521939281016,
+        "null_median": 0.00013352168609433743,
+        "null_q95": 0.0001938638520914414,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 10.414429555253152,
+        "mean_gradient_variance": 0.01900573113578609,
+        "mean_squared_gradient": 0.019204776640526347
+      },
+      "half1": {
+        "statistic": 0.0017360013709509564,
+        "null_median": 0.0001901462950296181,
+        "null_q95": 0.00024963319769140115,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 9.129819598538845,
+        "mean_gradient_variance": 0.022333478055712473,
+        "mean_squared_gradient": 0.022577035849216297
+      }
+    },
+    "half_centered_variance_cosine": 0.9090364773428222,
+    "qualifies": true,
+    "source_ce": 0.16956542430819235,
+    "reference_1000_penalty_over_ce": 8.778390214754541
+  },
+  {
+    "held": 7,
+    "epoch": 6,
+    "n": 2112,
+    "source_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 5.524848863025106e-07,
+        "null_median": 2.3941812853323656e-07,
+        "null_q95": 3.493148007467023e-07,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 2.3076150903326997,
+        "mean_gradient_variance": 0.00014040801626166575,
+        "mean_squared_gradient": 0.00014130137291184253
+      },
+      "half0": {
+        "statistic": 1.6954507102034802e-06,
+        "null_median": 1.0105550848827363e-06,
+        "null_q95": 1.365963333411856e-06,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 1.6777420009718902,
+        "mean_gradient_variance": 0.0002411700347697999,
+        "mean_squared_gradient": 0.00024255950600946775
+      },
+      "half1": {
+        "statistic": 4.5433189420137935e-08,
+        "null_median": 5.457979926004246e-09,
+        "null_q95": 1.1402251199044265e-08,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 8.324176716677538,
+        "mean_gradient_variance": 3.94292457235452e-05,
+        "mean_squared_gradient": 4.0043239814217315e-05
+      }
+    },
+    "half_centered_variance_cosine": 0.8410490645749987,
+    "qualifies": true,
+    "source_ce": 0.0019466346108950418,
+    "reference_1000_penalty_over_ce": 0.283815402854922
+  },
+  {
+    "held": 7,
+    "epoch": 24,
+    "n": 2112,
+    "source_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 2.324277126391997e-13,
+        "null_median": 7.007322636174823e-14,
+        "null_q95": 9.704722205869685e-14,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 3.3169260887076546,
+        "mean_gradient_variance": 1.5832054736203904e-07,
+        "mean_squared_gradient": 1.601653044324225e-07
+      },
+      "half0": {
+        "statistic": 1.9038714197087801e-13,
+        "null_median": 9.846044344685617e-14,
+        "null_q95": 1.1769205669168491e-13,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 1.9336409151319645,
+        "mean_gradient_variance": 1.4161042196464726e-07,
+        "mean_squared_gradient": 1.4402819913972505e-07
+      },
+      "half1": {
+        "statistic": 4.0287306410281337e-13,
+        "null_median": 1.789709607025155e-13,
+        "null_q95": 2.575661859110696e-13,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 2.2510526988368054,
+        "mean_gradient_variance": 1.7463316242077495e-07,
+        "mean_squared_gradient": 1.7630240972511999e-07
+      }
+    },
+    "half_centered_variance_cosine": 0.604375798700507,
+    "qualifies": true,
+    "source_ce": 8.624534401806866e-05,
+    "reference_1000_penalty_over_ce": 2.694959539966649e-06
+  },
+  {
+    "held": 8,
+    "epoch": 1,
+    "n": 2112,
+    "source_users": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 0.0013290367523243975,
+        "null_median": 0.00010031625646630142,
+        "null_q95": 0.0001507299880990791,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 13.248468385289597,
+        "mean_gradient_variance": 0.016167831115989,
+        "mean_squared_gradient": 0.016365217374715336
+      },
+      "half0": {
+        "statistic": 0.001490977774372726,
+        "null_median": 0.00021956944292296724,
+        "null_q95": 0.0003632317349077553,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 6.790461161281964,
+        "mean_gradient_variance": 0.01699101896443749,
+        "mean_squared_gradient": 0.01721061590773473
+      },
+      "half1": {
+        "statistic": 0.0014081135130593193,
+        "null_median": 0.00016049129194343063,
+        "null_q95": 0.0002378652755603187,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 8.773768944147113,
+        "mean_gradient_variance": 0.015290252206946455,
+        "mean_squared_gradient": 0.015519818841695943
+      }
+    },
+    "half_centered_variance_cosine": 0.8300778871814517,
+    "qualifies": true,
+    "source_ce": 0.13630338419940274,
+    "reference_1000_penalty_over_ce": 9.75057780208968
+  },
+  {
+    "held": 8,
+    "epoch": 6,
+    "n": 2112,
+    "source_users": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 5.57834653739974e-10,
+        "null_median": 3.3315739638869334e-10,
+        "null_q95": 4.5462007355935154e-10,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 1.6743877211993534,
+        "mean_gradient_variance": 8.197694084884283e-06,
+        "mean_squared_gradient": 8.231084315116151e-06
+      },
+      "half0": {
+        "statistic": 5.139431956852762e-10,
+        "null_median": 4.4489398664140796e-10,
+        "null_q95": 4.919656324983223e-10,
+        "permutation_exceedance_fraction": 0.02,
+        "ratio_to_null_median": 1.155203736434233,
+        "mean_gradient_variance": 6.069890388014045e-06,
+        "mean_squared_gradient": 6.100728979437679e-06
+      },
+      "half1": {
+        "statistic": 1.3575653002177977e-09,
+        "null_median": 8.957914130110996e-10,
+        "null_q95": 1.2671389933468293e-09,
+        "permutation_exceedance_fraction": 0.03,
+        "ratio_to_null_median": 1.515492647618153,
+        "mean_gradient_variance": 1.0291557892466968e-05,
+        "mean_squared_gradient": 1.0361439650794621e-05
+      }
+    },
+    "half_centered_variance_cosine": 0.20992267567572462,
+    "qualifies": false,
+    "source_ce": 0.0005478193916194467,
+    "reference_1000_penalty_over_ce": 0.0010182820511171035
+  },
+  {
+    "held": 8,
+    "epoch": 24,
+    "n": 2112,
+    "source_users": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "common_classes": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "sections": {
+      "full": {
+        "statistic": 1.0750040505719222e-14,
+        "null_median": 6.584469280368587e-15,
+        "null_q95": 8.647888783181458e-15,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 1.6326358356276596,
+        "mean_gradient_variance": 5.190306450722471e-08,
+        "mean_squared_gradient": 5.213798803182145e-08
+      },
+      "half0": {
+        "statistic": 8.321586449757415e-15,
+        "null_median": 7.802610515844117e-15,
+        "null_q95": 1.0683548886556553e-14,
+        "permutation_exceedance_fraction": 0.38,
+        "ratio_to_null_median": 1.0665131154322591,
+        "mean_gradient_variance": 4.677183758516085e-08,
+        "mean_squared_gradient": 4.703159447596485e-08
+      },
+      "half1": {
+        "statistic": 2.41722526588785e-14,
+        "null_median": 1.916521373117637e-14,
+        "null_q95": 2.1596138613976272e-14,
+        "permutation_exceedance_fraction": 0.01,
+        "ratio_to_null_median": 1.261256618263385,
+        "mean_gradient_variance": 5.6847661200937684e-08,
+        "mean_squared_gradient": 5.7244381587678055e-08
+      }
+    },
+    "half_centered_variance_cosine": 0.36613127588890576,
+    "qualifies": false,
+    "source_ce": 4.672443734544066e-05,
+    "reference_1000_penalty_over_ce": 2.300731933108704e-07
+  }
+]
