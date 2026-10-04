@@ -1,3 +1,13 @@
+## 2026-10-04T11:41:49.790126+00:00 第三次进程中断恢复与真实尾部平均重放通过；十条完整轨迹备份
+
+确认旧508/521进程已消失、状态文件残留training后，保留balanced_erm/held6第22轮1650步完整目录到/workspace/uwb-fishr-interruption-03-20261004，核对版本/冻结源码/协议/九条完整结果和epoch段SHA、优化器/scheduler/EMA计数后，按原argv恢复训练598和归档607。具体终止原因未记日志，容器启动晚于原进程；未改参数或门槛、未重跑已完成轨迹。恢复后该轨迹完成24轮。另从保留的22轮真实检查点独立重放23–24轮54.851秒：model、AdamW、scheduler、RNG、EMA历史/计数/scale/校准、已非零的tail平均、best/选模和epoch段张量逐位相同；history仅允许墙钟与序列化SHA差异。固定scale5.9559378958416564不变。见RECOVERY_03、RECOVERY_REPLAY_03。
+
+本次新增三臂各held5及balanced_erm/held6四条独立前向/角色/源顺序/选模审计；累计三臂各held3–5加balanced_erm/held6十条、240轮、300产物SHA通过。前六条独立函数推理沿用PARTIAL_AUDIT_02且全部归档重新核SHA；held5三臂首轮权重和校准也完全一致。固定本次备份集合，不按中途held分数改研究配置。见PARTIAL_AUDIT_03。
+
+当前完整备份22逻辑包、52个≤7MiB私有owner-only块、317764690字节、339成员，全部认证回下载过，逐块/整包/成员SHA通过。复用30块、新传22块；包含310训练成员（240轮段、十份完整模型/AdamW/scheduler/RNG/EMA/ID/预测）、25元数据成员和4项本次恢复重放证据，含原第22轮完整checkpoint。此前部分备份的旧元数据与恢复包仍保留在旧回执，不重复列入本集合。索引PARTIAL_DRIVE_RECEIPT_03.json，工作索引/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_03.json及records供后续复用。
+
+当前real_variance/held6第14轮，完成10/18，训练/归档进程活动；见MONITOR_03。继续原固定队列，最终全24轨迹独立审计与剩余产物私有备份后再按主tail联合门槛判定；现无整组效果/原创性结论。进程不能假定跨环境启动存活，每次先核实际PID再恢复完整状态。原789源码和原数组未变，用户目标未达，自动接续保留。以下为历史记录。
+
 ## 2026-10-04T10:05:07.684386+00:00 第二次进程中断后恢复；累计六条完整轨迹审计和备份通过
 
 云端环境启动后确认旧603/612进程均消失；队列文件仍training，但不能据此声称原进程活着。保留balanced_erm/held5第5轮375步全部文件到/workspace/uwb-fishr-interruption-02-20261004，核对冻结源码/helper/协议、Torch/NumPy、六条完成结果全部文件/段SHA，以及checkpoint身份、AdamW/scheduler/EMA计数和固定scale15.033946960215014后，按原argv恢复训练508和归档watcher521。具体终止原因未记入日志；当前容器启动晚于原进程。未重跑六条已完成轨迹，科学配置和门槛未变；上一次真实数据完整恢复重放证据RECOVERY_REPLAY_01.json仍有效，本次没有另声称新逐位重放。见RECOVERY_02.json。

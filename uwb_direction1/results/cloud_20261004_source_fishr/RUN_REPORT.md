@@ -1,6 +1,6 @@
 # 源梯度方差干预：实现与固定对照
 
-当前状态（2026-10-04）：18条新轨迹中已有6条完成并通过独立审计，144轮产物已私有备份和认证回下载校验。云端第二次中断后已从完整检查点恢复，原队列继续；整组效果与原创贡献均未判定。最新恢复/备份索引见RECOVERY_02.json、PARTIAL_DRIVE_RECEIPT_02.json、MONITOR_02.json。以下保留方法设计及执行记录。
+当前状态（2026-10-04）：10/18条新轨迹已完成并通过独立审计，240轮产物已私有备份和认证回下载校验。第三次进程中断后按完整检查点恢复，末两轮真实重放逐位通过；原队列继续，整组效果与原创贡献仍待验证。最新索引RECOVERY_03.json、PARTIAL_DRIVE_RECEIPT_03.json、MONITOR_03.json。以下保留方法设计及执行记录。
 
 源训练机制诊断4/6通过后，准备三组同批次/采样/优化器实验：balanced_erm、real_variance、permuted_variance。6个源轨迹各3组24轮=18条432轮；另复用6条原普通24强tail，最终共24轨迹独立审计。尚无新分类结果，不是原创主张。
 
@@ -31,3 +31,11 @@
 当前备份集合14逻辑包、33个≤7MiB私有owner-only块、197926546字节、222成员，全部认证raw回下载过且本次逐块/重组/全部成员SHA重新核验；复用20已验证块，新传13块。包含186完整训练产物（144段+六份完整模型/优化器/RNG/EMA/ID/预测），24元数据成员和12个本次中断第5轮状态/段/恢复凭据成员。先前元数据和第一次恢复证据另保留在PARTIAL_DRIVE_RECEIPT_01.json；本索引不重复纳入，不删除旧备份。恢复入口PARTIAL_DRIVE_RECEIPT_02.json、MONITOR_02.json；不是整组18轨迹备份。
 
 当前观测balanced_erm/held5第16轮，完成6/18，训练/归档进程活动。继续原固定队列，先检查实际PID再决定是否恢复，不能依赖跨环境启动的后台进程存活假设。归档/传输复用/workspace/uwb-fishr-final-20261004和/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_02.json、records。完成后全24轨迹审计、补齐最终私有备份，再依冻结主tail联合门槛判断，禁止中途调参或把机制诊断当效果/创新。用户目标未达，自动接续保留。
+
+确认旧508/521进程已消失、状态文件残留training后，保留balanced_erm/held6第22轮1650步完整目录到/workspace/uwb-fishr-interruption-03-20261004，核对版本/冻结源码/协议/九条完整结果和epoch段SHA、优化器/scheduler/EMA计数后，按原argv恢复训练598和归档607。具体终止原因未记日志，容器启动晚于原进程；未改参数或门槛、未重跑已完成轨迹。恢复后该轨迹完成24轮。另从保留的22轮真实检查点独立重放23–24轮54.851秒：model、AdamW、scheduler、RNG、EMA历史/计数/scale/校准、已非零的tail平均、best/选模和epoch段张量逐位相同；history仅允许墙钟与序列化SHA差异。固定scale5.9559378958416564不变。见RECOVERY_03、RECOVERY_REPLAY_03。
+
+本次新增三臂各held5及balanced_erm/held6四条独立前向/角色/源顺序/选模审计；累计三臂各held3–5加balanced_erm/held6十条、240轮、300产物SHA通过。前六条独立函数推理沿用PARTIAL_AUDIT_02且全部归档重新核SHA；held5三臂首轮权重和校准也完全一致。固定本次备份集合，不按中途held分数改研究配置。见PARTIAL_AUDIT_03。
+
+当前完整备份22逻辑包、52个≤7MiB私有owner-only块、317764690字节、339成员，全部认证回下载过，逐块/整包/成员SHA通过。复用30块、新传22块；包含310训练成员（240轮段、十份完整模型/AdamW/scheduler/RNG/EMA/ID/预测）、25元数据成员和4项本次恢复重放证据，含原第22轮完整checkpoint。此前部分备份的旧元数据与恢复包仍保留在旧回执，不重复列入本集合。索引PARTIAL_DRIVE_RECEIPT_03.json，工作索引/workspace/uwb-fishr-final-transport-20261004/PARTIAL_INDEX_03.json及records供后续复用。
+
+当前real_variance/held6第14轮，完成10/18，训练/归档进程活动；见MONITOR_03。继续原固定队列，最终全24轨迹独立审计与剩余产物私有备份后再按主tail联合门槛判定；现无整组效果/原创性结论。进程不能假定跨环境启动存活，每次先核实际PID再恢复完整状态。原789源码和原数组未变，用户目标未达，自动接续保留。

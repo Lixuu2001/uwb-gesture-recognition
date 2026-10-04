@@ -98,8 +98,32 @@
       "held": 5,
       "arm": "balanced_erm",
       "state": "resumed_training_observed"
+    },
+    {
+      "utc": "2026-10-04T11:33:32.745098+00:00",
+      "pid": 598,
+      "archiver_pid": 607,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/uwb-temporal-publish-20261003/uwb_direction1/tools/source_fishr_pilot.py",
+        "train",
+        "--data",
+        "/workspace/uwb-restored-20260930",
+        "--prepared",
+        "/workspace/uwb-circular-prepared-20260930",
+        "--baseline",
+        "/workspace/uwb-swad-source-runs-20261003",
+        "--out",
+        "/workspace/uwb-fishr-source-runs-20261004",
+        "--cost",
+        "/workspace/uwb-temporal-publish-20261003/uwb_direction1/results/cloud_20261004_source_fishr/COST.json"
+      ],
+      "from_epoch": 22,
+      "held": 6,
+      "arm": "balanced_erm",
+      "state": "resumed_training_observed"
     }
   ],
-  "latest_training_pid": 508,
-  "latest_archiver_pid": 521
+  "latest_training_pid": 598,
+  "latest_archiver_pid": 607
 }

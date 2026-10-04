@@ -1,0 +1,25 @@
+{
+  "state": "actual_uwb_recovery_replay_bitwise_passed",
+  "from_epoch": 22,
+  "through_epoch": 24,
+  "keys_bitwise_verified": [
+    "model",
+    "optimizer",
+    "scheduler",
+    "rng",
+    "ema_history_steps_scale_calibration",
+    "tail",
+    "best",
+    "selection",
+    "epoch_segment_tensor_state"
+  ],
+  "history_equal_except": [
+    "seconds",
+    "segment_serialized_sha256"
+  ],
+  "seconds": 54.85099624199984,
+  "checkpoint_before_sha256": "dde945145eb578511a1b0bf880ac9a629f122bb7230959b3988afab1cb751522",
+  "live_comparison_sha256": "c1360b976a23c11c843183e356b30b4d461da7f58cd319730531a7f2189826df",
+  "replay_sha256": "a340ee49c9cc4f3220b209120d93cabc249542c561714a28e3bb0b8074a1c2ec",
+  "no_diagnostic_evaluation_or_parameter_selection": true
+}
