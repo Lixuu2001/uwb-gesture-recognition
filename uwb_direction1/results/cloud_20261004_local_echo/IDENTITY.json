@@ -1,0 +1,25 @@
+{
+  "raw_files_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "protocol_sha256": "7cc49626d4346e355ce012e3a0a8e2cb3c16c1f8fdd0203271494c18ef9d2d2c",
+  "code_sha256": {
+    "run_local_echo_screen.py": "536452b7176f67409b93e5dcd3ae5243e6cac430eddaf7fc2951b0f1e97e910f",
+    "local_echo_correspondence.py": "5efd4bcc42f8e64de88fb13a0a2d3c8427586605d2ad0e1e3c613ef957f1bb49"
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "python": "3.12.14",
+  "argv": [
+    "uwb_direction1/tools/run_local_echo_screen.py",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--protocol",
+    "uwb_direction1/research/LOCAL_ECHO_PROTOCOL.json",
+    "--out",
+    "/workspace/uwb-local-echo-20261004"
+  ],
+  "source_records": 568
+}

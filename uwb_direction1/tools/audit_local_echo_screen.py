@@ -17,7 +17,9 @@ def main():
   for label in np.unique(y[(u==user)&~((u==6)&(y==3))]):
    pool=np.flatnonzero((u==user)&(y==label)&~((u==6)&(y==3)));rng=np.random.default_rng(np.random.SeedSequence([c['seed'],int(user),int(label)]));expected.extend(sorted(rng.choice(pool,min(len(pool),c['per_user_class']),replace=False)))
  np.testing.assert_array_equal(ids,expected);assert len(ids)==len(set(ids.tolist())) and (u[ids]>=3).all()
- with np.load(R/'correspondences.npz') as z:
+ with np.load(R/'correspondences.npz') as archive:
+  # NPZ is lazy: cache each array once, otherwise scalar checks repeatedly inflate full volumes.
+  z={name:archive[name] for name in archive.files}
   np.testing.assert_array_equal(z['ids'],ids);rows=[];scalar_checks=0;max_error=0.
   # Independently reconstruct every mask/shift from saved complete cost volumes.
   replay={}

@@ -1,0 +1,24 @@
+{
+  "scope": "posthoc descriptive all-source-patch criterion waterfall; not used to change thresholds or choose a new configuration",
+  "counts": {
+    "adjacent": {
+      "eligible": 197264,
+      "forward_correlation": 158619,
+      "forward_uniqueness": 50949,
+      "reverse_correlation": 50949,
+      "reverse_uniqueness": 35232,
+      "cycle": 34015,
+      "interior": 24632
+    },
+    "distant": {
+      "eligible": 197264,
+      "forward_correlation": 111012,
+      "forward_uniqueness": 53441,
+      "reverse_correlation": 53441,
+      "reverse_uniqueness": 34621,
+      "cycle": 33001,
+      "interior": 14040
+    }
+  },
+  "configuration_changed": false
+}
