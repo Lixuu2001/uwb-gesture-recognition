@@ -1,0 +1,48 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_reference": "/workspace/uwb-energy-area-source-20261004",
+  "feature_manifest_sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184",
+  "readout_reference": "/workspace/uwb-semantic-code-source-20261004",
+  "readout_manifest_sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca",
+  "primary": "huber",
+  "arms": [
+    "ridge",
+    "huber",
+    "one_step",
+    "shuffled"
+  ],
+  "seed": 20261007,
+  "epsilon": 1.35,
+  "scale_floor": 0.0001,
+  "normal_mad": 0.6744897501960817,
+  "max_iter": 2000,
+  "gradient_tolerance": 1e-07,
+  "budget_seconds": 600,
+  "gate": {
+    "minimum_mean_gain": {
+      "ridge": 0.005,
+      "one_step": 0.0025,
+      "shuffled": 0.0025
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "fit": "Frozen source128 features; inherit source-only original mean/scale and lambda unchanged. Per output fixed delta =1.35*max(median(abs(r-median(r)))/.6744897501960817,1e-4), r from original ridge source residual. Minimize weighted Huber +lambda/2 norm(coef)^2, intercept unpenalized. No re-estimated scale or target selection.",
+  "optimizer": "Per output L-BFGS-B starts original ridge; gtol1e-10 ftol1e-15 maxiter2000 maxls50. Require sup gradient<=1e-7 before any evaluation. One-step control fits weighted ridge once with original residual weights; shuffled control permutes converged Huber influence weights within source(user,trueclass) cells per output using SeedSequence([seed,held,output,user,class]); fit weighted ridge once. Neither weight set is renormalized.",
+  "scope": "six reused source development folds, not independent test, not novel method",
+  "stop": "If numerical or effect gate fails, no eightfold expansion and no threshold/scale/lambda/seed grid or control promotion.",
+  "limitations": [
+    "Residual outlier status is not evidence of wrong labels; easy/rare class suppression is possible.",
+    "Derivative with respect to residual is bounded; full parameter influence may remain large for high-leverage features.",
+    "Encoder trained on all source clips and frozen; source fitting weights cannot undo encoder influence.",
+    "This fixed-scale multioutput application is not sklearn concomitant-scale HuberRegressor or replication of a radar paper.",
+    "Fixed-lambda loss comparison is not an independently tuned robust-regression optimum."
+  ]
+}

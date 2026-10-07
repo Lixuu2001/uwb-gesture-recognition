@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "huber_readout_preregistered_not_run",
+  "state": "huber_readout_source_complete_gate_failed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "原创有效贡献未验证；下一项固定Huber源残差影响读出筛选待实测。",
+  "remaining_user_goal": "原创有效贡献仍未验证；固定Huber残差影响读出低于强岭和权重打乱控制，失败封存。",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261007_delete_user/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261007_huber_readout/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -883,5 +883,18 @@
   "delete_user_backup_objects": 7,
   "delete_user_backup_members": 79,
   "huber_readout_protocol": "research/HUBER_READOUT_PROTOCOL.json",
-  "huber_readout_gate_passed": null
+  "huber_readout_gate_passed": false,
+  "huber_readout_source_means": {
+    "ridge": 0.9306313131313132,
+    "huber": 0.9293434343434344,
+    "one_step": 0.9290277777777779,
+    "shuffled": 0.9302272727272727
+  },
+  "huber_readout_backup_verified": true,
+  "huber_readout_protocol_commit": "850e167d98c91502ba95be3d61259b6b74038cb8",
+  "huber_readout_audit": "results/cloud_20261007_huber_readout/AUDIT.json",
+  "huber_readout_backup_receipt": "results/cloud_20261007_huber_readout/DRIVE_BACKUP_RECEIPT.json",
+  "huber_readout_backup_bytes": 6842683,
+  "huber_readout_backup_objects": 7,
+  "huber_readout_backup_members": 80
 }
