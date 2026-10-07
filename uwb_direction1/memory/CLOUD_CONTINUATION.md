@@ -1,3 +1,9 @@
+## 2026-10-07T10:24:02.481796+00:00 训练源选择性子空间过滤分类筛选完成
+
+私有备份已逐份下载复验：13块、77951207字节、100成员SHA全部一致，元数据shared=false且仅owner；未更改共享权限。
+
+ridge93.063131%、selective93.027778%、all_views92.536616%、random_selected92.957071%。联合门槛passed=False。固定过滤/秩/选择阈值/seed/读出配置封存，不扩八折、不调参/提升控制。独立重算127800完整前向、54岭拟合、90内外特征分解，63产物SHA通过，所有argmax一致。机制能量通过不等于分类有效；冻结表示限制需保留。无编码器训练或下一队列。报告results/cloud_20261007_source_eigencancel/RUN_REPORT.md，私有回执已完成，见同目录DRIVE_BACKUP_RECEIPT.json。目标未达、接续保留。原项目FIRST_PART_REPORT.md:118及proposal_v2/31调研方案:151已引用MV-GLFNet2026及划分差异，本轮只补核原文，不能包装为新发现或新路线。下一项尚未预注册，须先完整查重原项目/失败清单和直接文献，再选不同观测机理假设；不把6/2划分论文分数直接比八折。补充读文记录见research/SUBSPACE_PRIOR_ART_UPDATE_20261007.md。无新实验队列。以下历史。
+
 ## 分类过滤已实际启动；先检查进程和检查点
 
 协议f786ffd，SHA80cbe22a67ac43ad5b576caa4f53c1bc2f234613983f83bf3d78cd89f5e71d99。CPU16样本0.4977s，保守估计2718s通过3600s门槛。PID14905正在冻结推理/读出拟合，无新编码器训练。结果/workspace/uwb-source-eigencancel-runs-20261007，日志/workspace/uwb-source-eigencancel-source-20261007.log；续接先查进程，不能重复启动。空子空间机制43成员私有备份两块已下载SHA验证，见results/cloud_20261007_empty_subspace/DRIVE_BACKUP_RECEIPT.json。尚无分类结论。以下历史。
