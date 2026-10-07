@@ -1,0 +1,74 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_reference": "/workspace/uwb-energy-area-source-20261004",
+  "feature_manifest_sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184",
+  "readout_reference": "/workspace/uwb-semantic-code-source-20261004",
+  "readout_manifest_sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca",
+  "input_sha256": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "prepared": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f"
+  },
+  "prepared": "/workspace/uwb-circular-prepared-20260930/signals.npy",
+  "data": "/workspace/uwb-restored-20260930/cache",
+  "models": "/workspace/uwb-swad-source-runs-20261003",
+  "primary": "mapped_mix",
+  "arms": [
+    "ridge",
+    "mapped_mix",
+    "naive_mix",
+    "unmapped_mix"
+  ],
+  "label_map": [
+    1,
+    0,
+    3,
+    2,
+    7,
+    6,
+    5,
+    4,
+    9,
+    8,
+    -1,
+    -1
+  ],
+  "batch_size": 16,
+  "threads": 1,
+  "lambdas": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "budget_seconds": 1200,
+  "gate": {
+    "minimum_mean_gain": {
+      "ridge": 0.005,
+      "naive_mix": 0.0025,
+      "unmapped_mix": 0.0025
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "scope": "Six historically reused development users3..8, four training/next validation/held diagnostic; not independent confirmation.",
+  "eligibility": "Only training classes0..9 with mapped counterpart present among that same training user retained labels. Thus exclude classes10/11 everywhere and user6 class2 where class3 was excluded by existing quality protocol. Never infer or change mapping from predictions.",
+  "fit": "Original frozen128dim features plus one reversed training example per eligible original, equal-user/equal-present-target-class weights on augmented rows. mapped_mix recomputes all analytic increments, normalization, float16 rounding and range pooling from raw90frame reversal; targetQ(y). naive_mix flips existing prepared legacy input along time and targetQ(y). unmapped_mix uses correct raw reversal but original y as a deliberately invalid label-invariance negative control. All arms refit training-only standardization and weighted ridge. For eligible pairs original class counts match, so augmentation equally divides original/synthetic class mass. Ineligible classes unchanged. Original ridge replayed exactly.",
+  "selection": "Each new arm chooses lambda only on unchanged next validation user by max macro accuracy, min onehot MSE, larger lambda. All diagnostic predictions saved before evaluation. Original strong ridge and old lambda selection unchanged.",
+  "inference": "Original clip only, unchanged original frozen encoder; no reverse input or label requirement at inference. No CNN retraining or new dimensionality.",
+  "stop": "Any joint gate failure closes this fixed mapping/eligibility/mixture/readout setting: no eightfold extension, mix weight/label map/lambda/normalizer/seed sweep or control promotion. Pass only permits a separate preregistered eightfold study retaining strong ridge94.897727%.",
+  "limits": [
+    "Label-aware time reversal has direct Retro-Actions2019 prior art, not novel. This is a radar preprocessing-specific feasibility screen, not a paper replication or verified contribution.",
+    "Semantic reverse directions do not guarantee a physically natural reverse execution: posture, acceleration, hand scattering and boundary alignment differ. Original project already warns clockwise/counterclockwise are not exact reversals.",
+    "Frozen encoder may fail to represent reversed data; a failure only applies to this readout intervention, not all end-to-end temporal augmentation.",
+    "No derived-increment tensor is treated as raw RF; correct transformation must conjugate/reorder increments and change the duplicated first increment, then refit per-clip normalization.",
+    "Negative invariant-label control is intentionally wrong and alone cannot establish efficacy; primary must beat strong ridge and naive transformed-feature control."
+  ]
+}
