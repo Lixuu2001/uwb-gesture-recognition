@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "empty_subspace_preregistered_not_run",
+  "state": "source_eigencancel_preregistered_not_run",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "有效原创贡献未验证；先完成训练空手势子空间选择性机制诊断。",
+  "remaining_user_goal": "有效原创贡献未验证；空子空间机制筛选通过，接着验证训练用户内选择的过滤是否改善分类。",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261007_temporal_reversal/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261007_empty_subspace/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791146472.947506,
   "background_training_pid": null,
-  "background_training_status_note": "No active training. Source-only empty subspace diagnostic preregistered, not yet run.",
+  "background_training_status_note": "No encoder training or classifier run active; classifier preregistration only.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/EMPTY_SUBSPACE_REVIEW.md",
+  "latest_literature_note": "research/SOURCE_EIGENCANCEL_REVIEW.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,7 +123,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Fixed RSC gate failed, all artifacts safe. No training active. Do not sweep masks/attributions/batch-selection/seed/windows or expand to8fold. Next: new radar-observation/task-structure hypothesis, check original/history/prior art, preregister source feasibility and strong controls before any new real run. Original contribution still unvalidated.",
+  "next_candidate": "Run preregistered source-only gated eigencancellation CPU cost then six-source classification/controls; no eightfold without passing.",
   "last_completed_update_utc": "2026-10-04T20:41:09.958279+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
@@ -928,5 +928,9 @@
   "temporal_reversal_backup_objects": 7,
   "temporal_reversal_backup_members": 87,
   "empty_subspace_protocol": "research/EMPTY_SUBSPACE_PROTOCOL.json",
-  "empty_subspace_gate_passed": null
+  "empty_subspace_gate_passed": true,
+  "empty_subspace_protocol_commit": "a186d2531256b8ff08d41ff7e409ae72c8474b9c",
+  "empty_subspace_audit": "results/cloud_20261007_empty_subspace/AUDIT.json",
+  "empty_subspace_private_backup_verified": false,
+  "source_eigencancel_protocol": "research/SOURCE_EIGENCANCEL_PROTOCOL.json"
 }
