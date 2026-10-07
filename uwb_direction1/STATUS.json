@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source_eigencancel_preregistered_not_run",
+  "state": "source_eigencancel_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791146472.947506,
   "background_training_pid": null,
-  "background_training_status_note": "No encoder training or classifier run active; classifier preregistration only.",
+  "background_training_status_note": "Actual PID14905 running frozen encoder inference and weighted readout fits; no encoder training. Check process and completed folds before restarting.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -931,6 +931,16 @@
   "empty_subspace_gate_passed": true,
   "empty_subspace_protocol_commit": "a186d2531256b8ff08d41ff7e409ae72c8474b9c",
   "empty_subspace_audit": "results/cloud_20261007_empty_subspace/AUDIT.json",
-  "empty_subspace_private_backup_verified": false,
-  "source_eigencancel_protocol": "research/SOURCE_EIGENCANCEL_PROTOCOL.json"
+  "empty_subspace_private_backup_verified": true,
+  "source_eigencancel_protocol": "research/SOURCE_EIGENCANCEL_PROTOCOL.json",
+  "empty_subspace_backup_verified": true,
+  "empty_subspace_backup_receipt": "results/cloud_20261007_empty_subspace/DRIVE_BACKUP_RECEIPT.json",
+  "empty_subspace_backup_bytes": 10261113,
+  "empty_subspace_backup_objects": 2,
+  "empty_subspace_backup_members": 43,
+  "source_eigencancel_protocol_commit": "f786ffd5145f441de495845762c338ae9b1aebf0",
+  "source_eigencancel_protocol_sha256": "80cbe22a67ac43ad5b576caa4f53c1bc2f234613983f83bf3d78cd89f5e71d99",
+  "source_eigencancel_process_pid": 14905,
+  "source_eigencancel_results_path": "/workspace/uwb-source-eigencancel-runs-20261007",
+  "source_eigencancel_log": "/workspace/uwb-source-eigencancel-source-20261007.log"
 }
