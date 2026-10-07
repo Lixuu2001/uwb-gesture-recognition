@@ -942,5 +942,8 @@
   "source_eigencancel_protocol_sha256": "80cbe22a67ac43ad5b576caa4f53c1bc2f234613983f83bf3d78cd89f5e71d99",
   "source_eigencancel_process_pid": 14905,
   "source_eigencancel_results_path": "/workspace/uwb-source-eigencancel-runs-20261007",
-  "source_eigencancel_log": "/workspace/uwb-source-eigencancel-source-20261007.log"
+  "source_eigencancel_log": "/workspace/uwb-source-eigencancel-source-20261007.log",
+  "source_eigencancel_audit_pid": 14986,
+  "source_eigencancel_audit_log": "/workspace/uwb-source-eigencancel-audit-20261007.log",
+  "source_eigencancel_audit_mode": "Independent per-fold audit overlaps production; waits for immutable result.json markers and verifies hashes against final FILES.json. Audit-only scheduling changed after preregistration; fitting code/protocol unchanged."
 }

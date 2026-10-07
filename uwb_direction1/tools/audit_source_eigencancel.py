@@ -23,9 +23,15 @@ def basis(cov,c,h,v,seed):
     return vec[:,:rank],rb
 
 
+def wait_file(path):
+    deadline=time.monotonic()+7200
+    while not path.exists():
+        if time.monotonic()>deadline:raise TimeoutError(str(path))
+        time.sleep(5)
+
+
 def main(root):
-    torch.set_num_threads(1);torch.use_deterministic_algorithms(True);t=time.perf_counter();c=json.loads((root/'PROTOCOL.json').read_text());manifest=json.loads((root/'FILES.json').read_text());ident=json.loads((root/'IDENTITY.json').read_text());assert digest(root/'PROTOCOL.json')==ident['protocol_sha256']
-    for n,h in manifest.items():assert digest(root/n)==h
+    torch.set_num_threads(1);torch.use_deterministic_algorithms(True);t=time.perf_counter();c=json.loads((root/'PROTOCOL.json').read_text());checked={};ident=json.loads((root/'IDENTITY.json').read_text());assert digest(root/'PROTOCOL.json')==ident['protocol_sha256']
     for n,h in ident['code_sha256'].items():assert digest(Path(__file__).with_name(n))==h
     data=Path(c['data']);paths={'raw':data/'X_clutterremoved.npy','labels':data/'y_clutterremoved.npy','users':data/'subj_clutterremoved.npy','prepared':Path(c['prepared'])}
     for k,p in paths.items():assert digest(p)==c['input_sha256'][k]
@@ -37,7 +43,7 @@ def main(root):
         covs[h]=cov
     old=Path(c['readout_reference']);feat=Path(c['feature_reference']);assert digest(old/'FILES.json')==c['readout_manifest_sha256'] and digest(feat/'FILES.json')==c['feature_manifest_sha256'];rm=json.loads((old/'FILES.json').read_text());fm=json.loads((feat/'FILES.json').read_text());scores={k:[] for k in c['arms']};max_hidden=0.;max_score=0.;max_projector=0.;count=0;fits=0;energy_checks=0
     for h in c['users']:
-        d=root/f'held{h}';parts=source_roles(y,u,h);saved=json.loads((d/'split.json').read_text())
+        d=root/f'held{h}';wait_file(d/'result.json');checked.update({str(f.relative_to(root)):digest(f) for f in d.iterdir() if f.is_file()});parts=source_roles(y,u,h);saved=json.loads((d/'split.json').read_text())
         for role,ids in parts.items():np.testing.assert_array_equal(ids,saved[role])
         tr=parts['train'];va=parts['val'];te=parts['diagnostic'];tu=sorted(set(u[tr]));m=np.load(d/'subspace.npz');g=json.loads((d/'SOURCE_GATE.json').read_text());np.testing.assert_array_equal(tu,m['training_users']);np.testing.assert_array_equal(m['fit_ids'],np.concatenate([tr[(u[tr]==k)&(y[tr]==11)] for k in tu]));flags=np.zeros((len(tu),3),bool);seed=c['seed']+1000*h
         for j,k in enumerate(tu):
@@ -74,6 +80,9 @@ def main(root):
                 v=pp[chosen][role];prod=pred[role+'_'+arm];max_score=max(max_score,float(abs(v-prod).max()));np.testing.assert_allclose(v,prod,atol=2e-5,rtol=2e-5);np.testing.assert_array_equal(v.argmax(1),prod.argmax(1))
                 if role=='diagnostic':scores[arm].append(float(np.mean([np.mean(v.argmax(1)[y[te]==k]==k) for k in np.unique(y[te])])))
         om=np.load(old/f'held{h}/models.npz');os=json.loads((old/f'held{h}/selection.json').read_text())['onehot']['selected'];ot=np.load(old/f'held{h}/predictions.npz');base=((f['hidden'][ix['diagnostic']]-om['mean'])/om['scale'])@om['coefs'][os]+om['bias'];np.testing.assert_allclose(base,ot['onehot']+.5,atol=1e-12,rtol=1e-12);np.testing.assert_allclose(base,pred['diagnostic_ridge'],atol=1e-12,rtol=1e-12);scores['ridge'].append(float(np.mean([np.mean(base.argmax(1)[y[te]==k]==k) for k in np.unique(y[te])])));print(json.dumps(dict(held=h,checked_full_forwards=count,max_hidden=max_hidden,max_score=max_score)),flush=True)
+    wait_file(root/'FILES.json');manifest=json.loads((root/'FILES.json').read_text())
+    for n,sha in manifest.items():assert digest(root/n)==sha
+    for n,sha in checked.items():assert manifest[n]==sha
     s=json.loads((root/'SUMMARY.json').read_text());passed=[]
     for k,v in scores.items():np.testing.assert_allclose(v,s['scores'][k],atol=1e-15,rtol=0);assert abs(np.mean(v)-s['means'][k])<1e-15
     for k,gain in c['gate']['minimum_mean_gain'].items():
