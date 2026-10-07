@@ -1,0 +1,47 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_reference": "/workspace/uwb-energy-area-source-20261004",
+  "feature_manifest_sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184",
+  "readout_reference": "/workspace/uwb-semantic-code-source-20261004",
+  "readout_manifest_sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca",
+  "primary": "qda",
+  "arms": [
+    "ridge",
+    "qda",
+    "pooled",
+    "diagonal",
+    "permuted"
+  ],
+  "seed": 20261007,
+  "uniform_prior": true,
+  "numeric_jitter": 1e-08,
+  "budget_seconds": 300,
+  "gate": {
+    "minimum_mean_gain": {
+      "ridge": 0.005,
+      "pooled": 0.0025,
+      "diagonal": 0.0025,
+      "permuted": 0.0025
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "normalization": "Inherit training-only mean/scale from source onehot ridge. Each class uses equally weighted source samples; report per-user counts, do not assert equal-user equivalence unless counts match.",
+  "fit": "Class sample mean and sklearn1.8 OAS covariance (ML divisor n, approximate OAS omitting2/p), plus fixed1e-8 identity jitter after standardization. Uniform12-class prior. No hyperparameter selection.",
+  "controls": "pooled=mean of12 shrunk class covariances reused for every class; diagonal=only corresponding QDA covariance diagonal; permuted=seeded covariance class permutation, original means retained. Include logdet in every Gaussian score.",
+  "scope": "six reused source users, four training/next validation/held diagnostic, fixed frozen epoch24 encoder. Classical baseline/mechanism screen, not innovation.",
+  "stop": "Fail any gate: no covariance estimator/jitter/normalization/permutation/seed sweep, no eightfold expansion. Successful source screen permits separately registered same-protocol8fold retaining94.897727% ridge comparator. Do not promote control.",
+  "limitations": [
+    "Gaussian iid assumption unverified; same-user repetitions correlated, no OAS theoretical accuracy guarantee.",
+    "Different from prior spatial covariance descriptor: here covariance is between labeled source clips in128dim frozen feature space.",
+    "Old prototype/OSR standardized-distance concepts are acknowledged; covariance decision rule is established, no originality claim.",
+    "No validation or diagnostic fitting or use of target labels; evaluate only after all role predictions saved."
+  ]
+}
