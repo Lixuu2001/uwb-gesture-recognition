@@ -1,0 +1,537 @@
+{
+  "bundles": [
+    {
+      "name": "held3.tar.gz",
+      "path": "/workspace/uwb-class-scatter-private-20261007/held3.tar.gz",
+      "bytes": 4791739,
+      "sha256": "fc80f1473e1da86ac5bb0fc16353ba53943779c2122c6a80e65c8eb4e36a5c35",
+      "contents": {
+        "runs/held3/selection.json": {
+          "bytes": 434,
+          "sha256": "24fc33080f01c135a38adb9c259aa5127d31bb7c502544f47163c6ee649b1abe"
+        },
+        "runs/held3/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "32810ebc44e0385fdb6dd97fd7842db3f60a0c68e480ac2443dcd4e198c18e26"
+        },
+        "runs/held3/fit.json": {
+          "bytes": 1570,
+          "sha256": "045b7547d291e8f668b721a7b61f9b14d690df5cce47985914767f8617a6f368"
+        },
+        "runs/held3/models.npz": {
+          "bytes": 3915520,
+          "sha256": "4b41ab4278577c2229803a9294af58fa1b853237b2096d218c746888e8adc57e"
+        },
+        "runs/held3/result.json": {
+          "bytes": 204,
+          "sha256": "b2ee2d6e34e70a74251177e5b96bf6d2a8299ea44638bcf9b3c7dc082501fd38"
+        },
+        "runs/held3/predictions.npz": {
+          "bytes": 1097812,
+          "sha256": "a5b88a92db8757a3cbd4bfca893666a07e1d15b7d6b8d39216dbff83b931a55c"
+        },
+        "runs/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        }
+      }
+    },
+    {
+      "name": "held4.tar.gz",
+      "path": "/workspace/uwb-class-scatter-private-20261007/held4.tar.gz",
+      "bytes": 4791385,
+      "sha256": "f0bda31b3d58043dcd114f8c412732d58d3b1e2a590a161a15132c5ea8df8c08",
+      "contents": {
+        "runs/held4/selection.json": {
+          "bytes": 409,
+          "sha256": "d7c6914aea0e3d339bb4af13a2b96391580e511d0ba84ccc56c911917d621c4c"
+        },
+        "runs/held4/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "32810ebc44e0385fdb6dd97fd7842db3f60a0c68e480ac2443dcd4e198c18e26"
+        },
+        "runs/held4/fit.json": {
+          "bytes": 1571,
+          "sha256": "8e5e695e1b7aad0b1165be25cbe359b34a2ed5d59c23f7586116f408d35b7f85"
+        },
+        "runs/held4/models.npz": {
+          "bytes": 3912204,
+          "sha256": "5269ca841f399cc671a9084982209a6230e61abc17fc50aa13c517334e3f4a0a"
+        },
+        "runs/held4/result.json": {
+          "bytes": 192,
+          "sha256": "65b96912c1fa81ec64b7fe92e2c0d2186387446798ca7528a7ab3bb0ed8ff194"
+        },
+        "runs/held4/predictions.npz": {
+          "bytes": 1098758,
+          "sha256": "75c638f14626464fa8b5982dad50209d7847e9610453938dd0c50343e843eb91"
+        },
+        "runs/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        }
+      }
+    },
+    {
+      "name": "held5.tar.gz",
+      "path": "/workspace/uwb-class-scatter-private-20261007/held5.tar.gz",
+      "bytes": 4739066,
+      "sha256": "d15b6d162f89eb4af4c27460cde542cb672b101f008a26efd8039f157dd33f94",
+      "contents": {
+        "runs/held5/selection.json": {
+          "bytes": 432,
+          "sha256": "d313d58e765ce9dfabb3f256c7937afeb9d99f050758fa7bdffd6f9761c8a354"
+        },
+        "runs/held5/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "640b475224117aa28e9d3a2d12b178fc479770032acebb83142eeaf5a08defd9"
+        },
+        "runs/held5/fit.json": {
+          "bytes": 1565,
+          "sha256": "853b9fc8baee1ae065e8da6e038413e8b6cdcfbc752a55536fb657d6e556ad57"
+        },
+        "runs/held5/models.npz": {
+          "bytes": 3911324,
+          "sha256": "402a147cd99c14ac55c7374d7041081a361528c79aa57c6a69c7dfffecd0ddd2"
+        },
+        "runs/held5/result.json": {
+          "bytes": 204,
+          "sha256": "0c820e071898fa917dbd8f256649485de738097e1312b0532230e8f8a249628c"
+        },
+        "runs/held5/predictions.npz": {
+          "bytes": 1052625,
+          "sha256": "0ac488ddde4b51504dc27a642934b4ae6c0a89d16de4cfd53ae61448c9385745"
+        },
+        "runs/held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        }
+      }
+    },
+    {
+      "name": "held6.tar.gz",
+      "path": "/workspace/uwb-class-scatter-private-20261007/held6.tar.gz",
+      "bytes": 4747981,
+      "sha256": "1fdaeda04d82b8e4c0d8ad4200651fad3daa854eca37ea3a6266b51961bae3cc",
+      "contents": {
+        "runs/held6/selection.json": {
+          "bytes": 409,
+          "sha256": "02a04a48ac30e594f2c23dbb95dc73a4834064de85af74c2cd7368abf00530bb"
+        },
+        "runs/held6/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "f2484e511da248e7d0a53e3c3692ddb094e0eff7e7b43075159df82a9cd6a159"
+        },
+        "runs/held6/fit.json": {
+          "bytes": 1569,
+          "sha256": "5f18492027c2fdcfe9c3e7debb0e20881807cb4665b2ec75ea07308f50438968"
+        },
+        "runs/held6/models.npz": {
+          "bytes": 3913761,
+          "sha256": "49f3d0d84f185d818d8ec8c0f2e9581158c5cdc28007f38b723e0b84734883db"
+        },
+        "runs/held6/result.json": {
+          "bytes": 204,
+          "sha256": "0f050b724cc74f9c159cd30436983bd7ef8966fb5c087ece72ad502cce2fd815"
+        },
+        "runs/held6/predictions.npz": {
+          "bytes": 1052728,
+          "sha256": "ecf7e08caf3b0ae478c28e76c03ee8c1a01c87df99ff63fa3d43d2d51b04d95b"
+        },
+        "runs/held6/split.json": {
+          "bytes": 71057,
+          "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+        }
+      }
+    },
+    {
+      "name": "held7.tar.gz",
+      "path": "/workspace/uwb-class-scatter-private-20261007/held7.tar.gz",
+      "bytes": 4788551,
+      "sha256": "89960622a3e4a50b8b6aba7370bc144cb7c50d8273547f02f37bfe938b5a0c1f",
+      "contents": {
+        "runs/held7/selection.json": {
+          "bytes": 432,
+          "sha256": "92faa2c41b052a723a8b4a0f4d0e6d29eb15e078d4bf003b127da1ec1665dfab"
+        },
+        "runs/held7/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "32810ebc44e0385fdb6dd97fd7842db3f60a0c68e480ac2443dcd4e198c18e26"
+        },
+        "runs/held7/fit.json": {
+          "bytes": 1568,
+          "sha256": "544a3a2c22cd331b8b4cd79ca08d660f530e9e89b913f044b7cd440703126d8e"
+        },
+        "runs/held7/models.npz": {
+          "bytes": 3911147,
+          "sha256": "843d8d010387d0a03edc8b14bc4de33b8db56a8e979cf4e4880297e77399cdbd"
+        },
+        "runs/held7/result.json": {
+          "bytes": 191,
+          "sha256": "2efc20c095bdfac9d7cbb0f601827f52a1b92185a000fe9e7635e16167cf262b"
+        },
+        "runs/held7/predictions.npz": {
+          "bytes": 1097667,
+          "sha256": "159008096089165568cea45e606fe8ed5efeda7be5069fe9de652f3875269686"
+        },
+        "runs/held7/split.json": {
+          "bytes": 71057,
+          "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+        }
+      }
+    },
+    {
+      "name": "held8.tar.gz",
+      "path": "/workspace/uwb-class-scatter-private-20261007/held8.tar.gz",
+      "bytes": 4793874,
+      "sha256": "00813700284e36b5c95dc3d6320244c172bffd9ca9231c2d85fd194c7d85d982",
+      "contents": {
+        "runs/held8/selection.json": {
+          "bytes": 420,
+          "sha256": "93c16f3f80cd8ea1ae414d3c665496c30c049d156febe0160d3e6b4ad62d044a"
+        },
+        "runs/held8/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "32810ebc44e0385fdb6dd97fd7842db3f60a0c68e480ac2443dcd4e198c18e26"
+        },
+        "runs/held8/fit.json": {
+          "bytes": 1568,
+          "sha256": "8c6eaca40cc763838ef53804a601eef8942dd5cc19926e12510d920ecf36f926"
+        },
+        "runs/held8/models.npz": {
+          "bytes": 3912564,
+          "sha256": "51097c3c2b949583bf9e4c73cd63bd704120161011b78af534e81d78d2971efd"
+        },
+        "runs/held8/result.json": {
+          "bytes": 204,
+          "sha256": "2943868d63e9ca8eae9db9554b560bcd1485cf402a03d293822f40a3f8b189b2"
+        },
+        "runs/held8/predictions.npz": {
+          "bytes": 1098029,
+          "sha256": "1f2d5a998eb99ca70bf3740b340b64c494dc6d95f7ed06c296124b4e91093b39"
+        },
+        "runs/held8/split.json": {
+          "bytes": 71057,
+          "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+        }
+      }
+    },
+    {
+      "name": "provenance.tar.gz",
+      "path": "/workspace/uwb-class-scatter-private-20261007/provenance.tar.gz",
+      "bytes": 4859092,
+      "sha256": "7effb0d31b6ddf0f64e1f54af2fb9b103b8dc02df4d169bc81c3f5821962b357",
+      "contents": {
+        "runs/IDENTITY.json": {
+          "bytes": 627,
+          "sha256": "fd95d81f21313c0cf1976c834946bd16b2eee7dce4d4e709714924e1d377fbf3"
+        },
+        "runs/SUMMARY.json": {
+          "bytes": 3387,
+          "sha256": "50aa1b0c5cb6a97003c17f01dca329a604b7b3ebd78d7d147ca9618a5d023e2e"
+        },
+        "runs/AUDIT.json": {
+          "bytes": 527,
+          "sha256": "ed49ca26d1f481a2a7eb3030fa1b87252d79cd50b20b86dc8be5f8f0c7873df5"
+        },
+        "runs/PROTOCOL.json": {
+          "bytes": 2431,
+          "sha256": "5459673b08e1a9eed86a50969be47d62aec78ec40d37183bd87ad224470464b9"
+        },
+        "runs/FILES.json": {
+          "bytes": 4115,
+          "sha256": "1cea8cd8657f61213279f6356a745cdede18bfcfebea4e03a0aa9350f5c8e323"
+        },
+        "failed_attempt/IDENTITY.json": {
+          "bytes": 627,
+          "sha256": "7bee89c3fadf9f755095a9f8e1947b0c2aff6c8acd7fffd723b1452dbb55a946"
+        },
+        "failed_attempt/PROTOCOL.json": {
+          "bytes": 2431,
+          "sha256": "5459673b08e1a9eed86a50969be47d62aec78ec40d37183bd87ad224470464b9"
+        },
+        "failed_attempt/held3/fit.json": {
+          "bytes": 1570,
+          "sha256": "045b7547d291e8f668b721a7b61f9b14d690df5cce47985914767f8617a6f368"
+        },
+        "failed_attempt/held3/models.npz": {
+          "bytes": 3915520,
+          "sha256": "4b41ab4278577c2229803a9294af58fa1b853237b2096d218c746888e8adc57e"
+        },
+        "failed_attempt/held3/predictions.npz": {
+          "bytes": 1097812,
+          "sha256": "a5b88a92db8757a3cbd4bfca893666a07e1d15b7d6b8d39216dbff83b931a55c"
+        },
+        "failed_attempt/held3/selection.json": {
+          "bytes": 434,
+          "sha256": "24fc33080f01c135a38adb9c259aa5127d31bb7c502544f47163c6ee649b1abe"
+        },
+        "failed_attempt/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "cost/COST.json": {
+          "bytes": 223,
+          "sha256": "a3fac3027fbdfcc557602195cb2518d7a2074c9d1001e2d7fd0fccad97142462"
+        },
+        "cost/IDENTITY.json": {
+          "bytes": 627,
+          "sha256": "7bee89c3fadf9f755095a9f8e1947b0c2aff6c8acd7fffd723b1452dbb55a946"
+        },
+        "cost/PROTOCOL.json": {
+          "bytes": 2431,
+          "sha256": "5459673b08e1a9eed86a50969be47d62aec78ec40d37183bd87ad224470464b9"
+        },
+        "provenance/AUDIT.json": {
+          "bytes": 527,
+          "sha256": "ed49ca26d1f481a2a7eb3030fa1b87252d79cd50b20b86dc8be5f8f0c7873df5"
+        },
+        "provenance/AUDIT_IDENTITY.json": {
+          "bytes": 192,
+          "sha256": "65626851f26a68d9c27dbbad310dd5aa33a615763b7238139aad14eff7618bd7"
+        },
+        "provenance/COST.json": {
+          "bytes": 223,
+          "sha256": "a3fac3027fbdfcc557602195cb2518d7a2074c9d1001e2d7fd0fccad97142462"
+        },
+        "provenance/FILES.json": {
+          "bytes": 4115,
+          "sha256": "1cea8cd8657f61213279f6356a745cdede18bfcfebea4e03a0aa9350f5c8e323"
+        },
+        "provenance/IDENTITY.json": {
+          "bytes": 627,
+          "sha256": "fd95d81f21313c0cf1976c834946bd16b2eee7dce4d4e709714924e1d377fbf3"
+        },
+        "provenance/PER_USER.csv": {
+          "bytes": 604,
+          "sha256": "9c74ae3ac25c674ecf955957476752d0e4c8c2464b78de5c665e52e2adc3cda4"
+        },
+        "provenance/PROTOCOL.json": {
+          "bytes": 2431,
+          "sha256": "5459673b08e1a9eed86a50969be47d62aec78ec40d37183bd87ad224470464b9"
+        },
+        "provenance/RUN_REPORT.md": {
+          "bytes": 4808,
+          "sha256": "95b94c1926ee58cadb48515f9b739d37496465174f25fd456d67090568f1a6fa"
+        },
+        "provenance/SUMMARY.json": {
+          "bytes": 3387,
+          "sha256": "50aa1b0c5cb6a97003c17f01dca329a604b7b3ebd78d7d147ca9618a5d023e2e"
+        },
+        "literature/_shrunk_covariance.py": {
+          "bytes": 28080,
+          "sha256": "00af81bc02878a74837be830b40564966b326f2e74f71ee7b277bb4eecb87bfe"
+        },
+        "literature/covariance.rst": {
+          "bytes": 14730,
+          "sha256": "3f073e88b522d208ff8af217007169ec5391ed9e2bf4db1dcbdf2162bc67b003"
+        },
+        "literature/lda_qda.rst": {
+          "bytes": 12567,
+          "sha256": "27d08c77342d724f651626643a67101e21bef689c81f60640bcaadc5fc636f9a"
+        },
+        "tools/class_scatter.py": {
+          "bytes": 902,
+          "sha256": "8d723b894602aabb6786a4308214cb46c0ae47a702aca5055369080dd44e4a28"
+        },
+        "tools/run_class_scatter.py": {
+          "bytes": 6782,
+          "sha256": "acba5e84beb8ffc9e8535a748828e8258c3b9c73a3aa7af469315bcd14296b1b"
+        },
+        "tools/audit_class_scatter.py": {
+          "bytes": 3331,
+          "sha256": "a034b05bda8d21ac76c1035506d62d95b4194063cafc580a2c084dea25cc18d2"
+        },
+        "tools/radar_exchange.py": {
+          "bytes": 1175,
+          "sha256": "aaaa753d394d38eb5a5fb6d0f79dde7c99a5fa4ec0a9cf1e7adc8e06e4a90da2"
+        },
+        "tools/energy_area.py": {
+          "bytes": 2315,
+          "sha256": "3fe9bd8d9755641fb2812036624170b82b6999aaccef15385389f16303012025"
+        },
+        "tools/second_order_core.py": {
+          "bytes": 2032,
+          "sha256": "ff1257df2a133bbbb21f6754d3ecf2e8e02d9ffcc76b1f763f08500a0f1ef98d"
+        },
+        "tools/circular_signal.py": {
+          "bytes": 15962,
+          "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+        },
+        "tools/full_view_heads.py": {
+          "bytes": 14594,
+          "sha256": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+        },
+        "tools/audit_restored.py": {
+          "bytes": 8247,
+          "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+        },
+        "research/CLASS_SCATTER_REVIEW.md": {
+          "bytes": 2778,
+          "sha256": "351eef4466dc9536bb978c3fca21cf47d1095f8f9c83381ef8eb1f252bdba435"
+        },
+        "research/CLASS_SCATTER_PROTOCOL.json": {
+          "bytes": 2431,
+          "sha256": "5459673b08e1a9eed86a50969be47d62aec78ec40d37183bd87ad224470464b9"
+        },
+        "logs/source.log": {
+          "bytes": 1935,
+          "sha256": "31f22ebc41ae4b14c09a6f143205a711e10ebd34e97b5db318a38beea1755e37"
+        },
+        "logs/source-v2.log": {
+          "bytes": 1233,
+          "sha256": "9e80de37314cbc34e703602ebbcfbcec6f5422117ba95adfec5cc21c1d145f3b"
+        },
+        "prior_backup/semantic_RECEIPT.json": {
+          "bytes": 51898,
+          "sha256": "9f90c36ddfd1f3922225da4a18fc59ecf0456139a2ce95979332c2da7f0c3aa3"
+        },
+        "prior_backup/energy_area_RECEIPT.json": {
+          "bytes": 20038,
+          "sha256": "60ec5c479d24e6569a77ef79a8a0df397891a4bb2ab63345757f86738431a0fd"
+        }
+      }
+    }
+  ],
+  "parts": [
+    {
+      "name": "uwb-class-scatter-20261007-held3-p01.part",
+      "path": "/workspace/uwb-class-scatter-private-20261007/uwb-class-scatter-20261007-held3-p01.part",
+      "bundle": "held3.tar.gz",
+      "part_index": 1,
+      "bytes": 4791739,
+      "sha256": "fc80f1473e1da86ac5bb0fc16353ba53943779c2122c6a80e65c8eb4e36a5c35",
+      "file_id": "13R--k555KOfQQ4GdAO9O-JziUBTWJQUF",
+      "url": "https://drive.google.com/file/d/13R--k555KOfQQ4GdAO9O-JziUBTWJQUF/view",
+      "downloaded_path": "/workspace/attachments/435c31b7-8138-41e3-b3f1-109a7c78f27a/uwb-class-scatter-20261007-held3-p01.part",
+      "shared": false,
+      "permissions": [
+        {
+          "role": "owner",
+          "type": "user"
+        }
+      ],
+      "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+    },
+    {
+      "name": "uwb-class-scatter-20261007-held4-p01.part",
+      "path": "/workspace/uwb-class-scatter-private-20261007/uwb-class-scatter-20261007-held4-p01.part",
+      "bundle": "held4.tar.gz",
+      "part_index": 1,
+      "bytes": 4791385,
+      "sha256": "f0bda31b3d58043dcd114f8c412732d58d3b1e2a590a161a15132c5ea8df8c08",
+      "file_id": "1E8j3X2bw94XNrsY5gW8OdsiQMFfYbIu9",
+      "url": "https://drive.google.com/file/d/1E8j3X2bw94XNrsY5gW8OdsiQMFfYbIu9/view",
+      "downloaded_path": "/workspace/attachments/607d194b-e961-4345-993d-945bc4ddb909/uwb-class-scatter-20261007-held4-p01.part",
+      "shared": false,
+      "permissions": [
+        {
+          "role": "owner",
+          "type": "user"
+        }
+      ],
+      "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+    },
+    {
+      "name": "uwb-class-scatter-20261007-held5-p01.part",
+      "path": "/workspace/uwb-class-scatter-private-20261007/uwb-class-scatter-20261007-held5-p01.part",
+      "bundle": "held5.tar.gz",
+      "part_index": 1,
+      "bytes": 4739066,
+      "sha256": "d15b6d162f89eb4af4c27460cde542cb672b101f008a26efd8039f157dd33f94",
+      "file_id": "1x22lT_a7CacHFRutXsZIE7z-SX9OWBHt",
+      "url": "https://drive.google.com/file/d/1x22lT_a7CacHFRutXsZIE7z-SX9OWBHt/view",
+      "downloaded_path": "/workspace/attachments/139190c5-746c-4e9b-b903-ecc13642aced/uwb-class-scatter-20261007-held5-p01.part",
+      "shared": false,
+      "permissions": [
+        {
+          "role": "owner",
+          "type": "user"
+        }
+      ],
+      "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+    },
+    {
+      "name": "uwb-class-scatter-20261007-held6-p01.part",
+      "path": "/workspace/uwb-class-scatter-private-20261007/uwb-class-scatter-20261007-held6-p01.part",
+      "bundle": "held6.tar.gz",
+      "part_index": 1,
+      "bytes": 4747981,
+      "sha256": "1fdaeda04d82b8e4c0d8ad4200651fad3daa854eca37ea3a6266b51961bae3cc",
+      "file_id": "1F_rLBqOqQf_1AEC4Lxz_JxuQikUPDYX_",
+      "url": "https://drive.google.com/file/d/1F_rLBqOqQf_1AEC4Lxz_JxuQikUPDYX_/view",
+      "downloaded_path": "/workspace/attachments/fe834505-ca86-405b-8d3c-920902ca3168/uwb-class-scatter-20261007-held6-p01.part",
+      "shared": false,
+      "permissions": [
+        {
+          "role": "owner",
+          "type": "user"
+        }
+      ],
+      "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+    },
+    {
+      "name": "uwb-class-scatter-20261007-held7-p01.part",
+      "path": "/workspace/uwb-class-scatter-private-20261007/uwb-class-scatter-20261007-held7-p01.part",
+      "bundle": "held7.tar.gz",
+      "part_index": 1,
+      "bytes": 4788551,
+      "sha256": "89960622a3e4a50b8b6aba7370bc144cb7c50d8273547f02f37bfe938b5a0c1f",
+      "file_id": "1VPtbzbVEX2i1CFAqRvRI7y931XhqtEhM",
+      "url": "https://drive.google.com/file/d/1VPtbzbVEX2i1CFAqRvRI7y931XhqtEhM/view",
+      "downloaded_path": "/workspace/attachments/240f3d2a-2566-4f7f-bdaf-229e09f03afc/uwb-class-scatter-20261007-held7-p01.part",
+      "shared": false,
+      "permissions": [
+        {
+          "role": "owner",
+          "type": "user"
+        }
+      ],
+      "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+    },
+    {
+      "name": "uwb-class-scatter-20261007-held8-p01.part",
+      "path": "/workspace/uwb-class-scatter-private-20261007/uwb-class-scatter-20261007-held8-p01.part",
+      "bundle": "held8.tar.gz",
+      "part_index": 1,
+      "bytes": 4793874,
+      "sha256": "00813700284e36b5c95dc3d6320244c172bffd9ca9231c2d85fd194c7d85d982",
+      "file_id": "1boq3v5itaSpiAtAu4BiXPiO41MPBDD8d",
+      "url": "https://drive.google.com/file/d/1boq3v5itaSpiAtAu4BiXPiO41MPBDD8d/view",
+      "downloaded_path": "/workspace/attachments/5de9d9b3-9036-4e09-a6e0-29b5a5e7ad80/uwb-class-scatter-20261007-held8-p01.part",
+      "shared": false,
+      "permissions": [
+        {
+          "role": "owner",
+          "type": "user"
+        }
+      ],
+      "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+    },
+    {
+      "name": "uwb-class-scatter-20261007-provenance-p01.part",
+      "path": "/workspace/uwb-class-scatter-private-20261007/uwb-class-scatter-20261007-provenance-p01.part",
+      "bundle": "provenance.tar.gz",
+      "part_index": 1,
+      "bytes": 4859092,
+      "sha256": "7effb0d31b6ddf0f64e1f54af2fb9b103b8dc02df4d169bc81c3f5821962b357",
+      "file_id": "1GWUddeLp0Ss0eCC4eHhJDB78PNmgxLSN",
+      "url": "https://drive.google.com/file/d/1GWUddeLp0Ss0eCC4eHhJDB78PNmgxLSN/view",
+      "downloaded_path": "/workspace/attachments/5d53f7c9-8018-41eb-9aa8-07fd9160fcfd/uwb-class-scatter-20261007-provenance-p01.part",
+      "shared": false,
+      "permissions": [
+        {
+          "role": "owner",
+          "type": "user"
+        }
+      ],
+      "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+    }
+  ],
+  "state": "private_upload_authenticated_redownload_all_members_verified",
+  "verified_at": "2026-10-07T05:03:00.442324+00:00",
+  "compressed_bytes": 33511688,
+  "member_records": 84,
+  "no_new_encoder_training": true,
+  "prior_references": "energy_area receipt: frozen source features and six encoder checkpoints; semantic receipt: original selected ridge; original migration: raw/prepared. All Gaussian fit matrices and parameters included in current seven bundles."
+}
