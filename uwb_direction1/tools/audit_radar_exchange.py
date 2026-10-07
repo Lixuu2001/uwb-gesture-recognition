@@ -16,9 +16,11 @@ def main(root):
     for n,h in identity['code_sha256'].items():assert digest(Path(__file__).with_name(n))==h
     files={k:Path(c['data'])/n for k,n in [('raw','X_clutterremoved.npy'),('labels','y_clutterremoved.npy'),('users','subj_clutterremoved.npy')]};files['prepared']=Path(c['prepared'])
     for k,p in files.items():assert digest(p)==c['input_sha256'][k]
-    y=np.load(files['labels']);u=np.load(files['users']);cache=np.load(files['prepared'],mmap_mode='r');old=Path(c['readout_reference']);q=np.array([1,0,2,3,6,7,4,5,9,8,10,11]);scores={k:[] for k in c['arms']};max_hidden=0.;max_score=0.;count=0
+    y=np.load(files['labels']);u=np.load(files['users']);cache=np.load(files['prepared'],mmap_mode='r');old=Path(c['readout_reference']);assert digest(old/'FILES.json')==c['readout_manifest_sha256'];rm=json.loads((old/'FILES.json').read_text());q=np.array([1,0,2,3,6,7,4,5,9,8,10,11]);scores={k:[] for k in c['arms']};max_hidden=0.;max_score=0.;count=0
     for h in c['users']:
-        d=root/f'held{h}';f=np.load(d/'features.npz');pred=np.load(d/'predictions.npz');truth=np.load(d/'evaluation.npz');m=np.load(old/f'held{h}/models.npz');sel=json.loads((old/f'held{h}/selection.json').read_text())['onehot'];assert json.loads((d/'selection.json').read_text())==dict(inherited_onehot=sel,new_selection=False)
+        d=root/f'held{h}'
+        for n in ['models.npz','selection.json','split.json','predictions.npz']:assert digest(old/f'held{h}'/n)==rm[f'held{h}/{n}']
+        f=np.load(d/'features.npz');pred=np.load(d/'predictions.npz');truth=np.load(d/'evaluation.npz');m=np.load(old/f'held{h}/models.npz');sel=json.loads((old/f'held{h}/selection.json').read_text())['onehot'];assert json.loads((d/'selection.json').read_text())==dict(inherited_onehot=sel,new_selection=False)
         parts=source_roles(y,u,h);saved=json.loads((d/'split.json').read_text())
         for k,v in parts.items():np.testing.assert_array_equal(v,saved[k])
         ck=Path(c['models'])/f'held{h}/segment_24.pt';assert digest(ck)==json.loads((d/'result.json').read_text())['checkpoint_sha256'];record=torch.load(ck,map_location='cpu',weights_only=False);state={k.removeprefix('module.'):v for k,v in record['average']['weights'].items() if k.startswith('module.')}

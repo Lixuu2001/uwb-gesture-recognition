@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "radar_exchange_preregistered_not_run",
+  "state": "radar_exchange_source_complete_gate_failed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "有效原创贡献未验证；下一项固定雷达交换与语义标签等变投影尚未实测。",
+  "remaining_user_goal": "有效原创贡献未验证；固定雷达交换标签等变平均低于原岭，失败封存，不扩八折。",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261004_query_graph/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261004_radar_exchange/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -836,5 +836,18 @@
   "query_graph_backup_verified": true,
   "query_graph_backup_receipt": "results/cloud_20261004_query_graph/DRIVE_BACKUP_RECEIPT.json",
   "radar_exchange_protocol": "research/RADAR_EXCHANGE_PROTOCOL.json",
-  "radar_exchange_gate_passed": null
+  "radar_exchange_gate_passed": false,
+  "radar_exchange_source_means": {
+    "ridge": 0.9306313131313132,
+    "equivariant": 0.9235227272727272,
+    "invariant": 0.7632702020202019,
+    "mapped_swap": 0.8483964646464646
+  },
+  "radar_exchange_audit": "results/cloud_20261004_radar_exchange/AUDIT.json",
+  "radar_exchange_backup_verified": true,
+  "radar_exchange_protocol_commit": "0eb4e8088e658afd72be3466dad8c7099f8a52aa",
+  "radar_exchange_backup_receipt": "results/cloud_20261004_radar_exchange/DRIVE_BACKUP_RECEIPT.json",
+  "radar_exchange_backup_bytes": 21727798,
+  "radar_exchange_backup_objects": 3,
+  "radar_exchange_backup_members": 92
 }
