@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "max_time_domain_reference_error": 4.440892098500626e-16,
+  "real_data_read": false,
+  "dimensions": {
+    "first": 405,
+    "second": 648,
+    "shuffled": 648,
+    "standalone": 648
+  },
+  "checks": [
+    "direct circular convolution plus time decimation",
+    "independent Hilbert/range pooling",
+    "batch independence",
+    "second-order time-shuffle multiset",
+    "zero input",
+    "clip gain normalization"
+  ]
+}

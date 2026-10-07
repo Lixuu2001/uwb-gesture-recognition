@@ -1,0 +1,462 @@
+{
+  "state": "verified",
+  "utc": "2026-10-07T13:05:07.825650+00:00",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "raw_download": true,
+  "include_base64": false,
+  "maximum_concurrent_downloads": 3,
+  "bundles": [
+    {
+      "name": "all-artifacts.tar.gz",
+      "bytes": 19393766,
+      "sha256": "4e53b3a68515e18bdef747d80a0ebcd00daae8260eba119745c1093ec338a8b4",
+      "contents": {
+        "runs/IDENTITY.json": {
+          "bytes": 597,
+          "sha256": "fecde66c5cc3c26eb5b598d291e14db60e5f686ac1c2566d92ae7ef13373a407"
+        },
+        "runs/SUMMARY.json": {
+          "bytes": 3341,
+          "sha256": "291d65bb0bbcbe24adcdc69fdcf0f98ebdef5127131044521c2ab2f20b5204fa"
+        },
+        "runs/AUDIT.json": {
+          "bytes": 447,
+          "sha256": "3ceeadbf12a38c717381005876fb3e33aed781dac19ed6f4f7bd64077dec2f49"
+        },
+        "runs/FEATURE_HASHES.json": {
+          "bytes": 328,
+          "sha256": "2ac513a6df378bd9decc5b44380b2f6f1e1f9a0f76aaba0d4090760a83ae85b3"
+        },
+        "runs/PROTOCOL.json": {
+          "bytes": 12737,
+          "sha256": "90af453a4640dad230ae7a1c9c6e3f19e4439fd371d71e4a2ae8a058e7d19224"
+        },
+        "runs/FILES.json": {
+          "bytes": 3772,
+          "sha256": "9f90b2b51b0796664aa5007803914c32205fba81f66c814a2703d44e2d51a87b"
+        },
+        "runs/descriptor_ids.npz": {
+          "bytes": 10973,
+          "sha256": "9eb1ef2cb21a483eea68f5de1f68a2598c588e5cff732f22b851551af952afc2"
+        },
+        "runs/held6/selection.json": {
+          "bytes": 1517,
+          "sha256": "3e976a3e8c0c36c1606deed61f31828066417fb03283964d1e1d9ee465abc89a"
+        },
+        "runs/held6/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "0b667445fbbd02b05a1c48b04eca52443de2e8d2d864c1d36f734640d51f7c9a"
+        },
+        "runs/held6/models.npz": {
+          "bytes": 799874,
+          "sha256": "b453a9a9601886242e2ad412fea1b6068b2dd4419c2c1356a762e3d78fb1b755"
+        },
+        "runs/held6/result.json": {
+          "bytes": 208,
+          "sha256": "2835c896da91c441966ce4d1a9067fef07ec216757ac6e5259a5f737e93dcaf1"
+        },
+        "runs/held6/predictions.npz": {
+          "bytes": 2389544,
+          "sha256": "a2f14b21765f0ef8a623856a0d39c4b151fb00d5a3533605b28a3b0e2328aa08"
+        },
+        "runs/held6/split.json": {
+          "bytes": 71057,
+          "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+        },
+        "runs/held7/selection.json": {
+          "bytes": 1566,
+          "sha256": "83956f1f296f06b6ed943722235c77fbdaf0b39eef3e9494150005aabceff6f5"
+        },
+        "runs/held7/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held7/models.npz": {
+          "bytes": 799906,
+          "sha256": "ecc0689fe7769f8deb58966a78406993c906a2067a2cdac974baa453084458ee"
+        },
+        "runs/held7/result.json": {
+          "bytes": 194,
+          "sha256": "afa543f0d498ebba623cf1bc7d30bcca21ff747f6ff02503a26db3ef9c5d4db5"
+        },
+        "runs/held7/predictions.npz": {
+          "bytes": 2434387,
+          "sha256": "34846237ec8bcffca58e60d9fc42b58dbeaa095f299a122294baf0536989a2a8"
+        },
+        "runs/held7/split.json": {
+          "bytes": 71057,
+          "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+        },
+        "runs/held8/selection.json": {
+          "bytes": 1533,
+          "sha256": "4f0d934b92ae66109ee634b269e6eec88e040a2cc8d4271e8965ce48621d1e50"
+        },
+        "runs/held8/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held8/models.npz": {
+          "bytes": 799930,
+          "sha256": "4e787a0deaaad4d2ded7a357e73cab13f92eea82af00be21b4c2d67a7dbe9738"
+        },
+        "runs/held8/result.json": {
+          "bytes": 194,
+          "sha256": "fa74bc5eedb48ea222e25788a8e151cb2ad648159db0f52983d43678919d6e8b"
+        },
+        "runs/held8/predictions.npz": {
+          "bytes": 2435516,
+          "sha256": "71dd6d110daae9ddf7ade2e54bd61f9e6a04a96ae71e6134025dae7ec47b9b6b"
+        },
+        "runs/held8/split.json": {
+          "bytes": 71057,
+          "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+        },
+        "runs/held5/selection.json": {
+          "bytes": 1574,
+          "sha256": "9164e3927db12e29ac8149526fa5f5a342641e8e9d2c22770d980410376f4559"
+        },
+        "runs/held5/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "abecf6a822bf95a59c3d6a18810f03608cb80b3e580372342d7c10b4324ba7e6"
+        },
+        "runs/held5/models.npz": {
+          "bytes": 799801,
+          "sha256": "c906f7ccdf27d1bbb699281d0370cb25e37f327d4331815cdcbd3bd072bed467"
+        },
+        "runs/held5/result.json": {
+          "bytes": 183,
+          "sha256": "061d3380a00da3f634b89153694af169ddae8f0f2cb8a0472d9a56da8ba0a0b9"
+        },
+        "runs/held5/predictions.npz": {
+          "bytes": 2279580,
+          "sha256": "00b2ee99a022e2f066612e1548c38136dfbac07c84c6633cd6529848ef70a673"
+        },
+        "runs/held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        },
+        "runs/held4/selection.json": {
+          "bytes": 1564,
+          "sha256": "e53fb26240e1beb153baf5f57f41e23230c2ad93df221144164e834d73e8c5ec"
+        },
+        "runs/held4/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held4/models.npz": {
+          "bytes": 799838,
+          "sha256": "2e5e39b5bbec2d80b7960b8eae804d16c918beacc4991e097740a967dc771215"
+        },
+        "runs/held4/result.json": {
+          "bytes": 196,
+          "sha256": "5b2445bf93ecd6f76344f386ea0463c7756e0c647a64510952546fc6bc0ff978"
+        },
+        "runs/held4/predictions.npz": {
+          "bytes": 2435638,
+          "sha256": "96c9ffee4e44805c2a0b457cedcd963f40d22fc97c5d80a1ce32d5132bfb0f44"
+        },
+        "runs/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        },
+        "runs/held3/selection.json": {
+          "bytes": 1571,
+          "sha256": "6a4c7b4969efaa37aa24539b1059d11fdf68d853518ca7811a6c8c8de328c3e4"
+        },
+        "runs/held3/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held3/models.npz": {
+          "bytes": 799907,
+          "sha256": "84a9d075dc4aacf6794affda9e58c4119fc6800bf2a905d167df2ab8278b0785"
+        },
+        "runs/held3/result.json": {
+          "bytes": 208,
+          "sha256": "1b26b3c6a4092ec1b55700c67f2cb00ef6292686c106b18ff1b33b1a6c2b9e5b"
+        },
+        "runs/held3/predictions.npz": {
+          "bytes": 2435807,
+          "sha256": "23d3bfd8a82d6e4d355a8ffe4b0fa6b200651ad368734cc594dbb1607677ebdf"
+        },
+        "runs/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "cost/COST.json": {
+          "bytes": 257,
+          "sha256": "da95ce9d93a34d7f72895eb88cafbb7b3164e3a76b1add5d9e5393c2fcc207ef"
+        },
+        "cost/IDENTITY.json": {
+          "bytes": 597,
+          "sha256": "fecde66c5cc3c26eb5b598d291e14db60e5f686ac1c2566d92ae7ef13373a407"
+        },
+        "cost/PROTOCOL.json": {
+          "bytes": 12737,
+          "sha256": "90af453a4640dad230ae7a1c9c6e3f19e4439fd371d71e4a2ae8a058e7d19224"
+        },
+        "provenance/AUDIT.json": {
+          "bytes": 447,
+          "sha256": "3ceeadbf12a38c717381005876fb3e33aed781dac19ed6f4f7bd64077dec2f49"
+        },
+        "provenance/AUDIT_COST.json": {
+          "bytes": 176,
+          "sha256": "1d2f311d2494edd14dd28b5530197e429d43a44666dd8fb5f3f9ce3acc2c94cb"
+        },
+        "provenance/AUDIT_IDENTITY.json": {
+          "bytes": 367,
+          "sha256": "aca7265d8be55c52768e0b9c187bb844425ce6ba53771874d7f0e39e718e589d"
+        },
+        "provenance/COST.json": {
+          "bytes": 257,
+          "sha256": "da95ce9d93a34d7f72895eb88cafbb7b3164e3a76b1add5d9e5393c2fcc207ef"
+        },
+        "provenance/FEATURE_HASHES.json": {
+          "bytes": 328,
+          "sha256": "2ac513a6df378bd9decc5b44380b2f6f1e1f9a0f76aaba0d4090760a83ae85b3"
+        },
+        "provenance/FILES.json": {
+          "bytes": 3772,
+          "sha256": "9f90b2b51b0796664aa5007803914c32205fba81f66c814a2703d44e2d51a87b"
+        },
+        "provenance/IDENTITY.json": {
+          "bytes": 597,
+          "sha256": "fecde66c5cc3c26eb5b598d291e14db60e5f686ac1c2566d92ae7ef13373a407"
+        },
+        "provenance/PER_USER.csv": {
+          "bytes": 568,
+          "sha256": "13a01dd76e736413d756c4e89781888c8899566599a83310088816f63b459d92"
+        },
+        "provenance/PROTOCOL.json": {
+          "bytes": 12737,
+          "sha256": "90af453a4640dad230ae7a1c9c6e3f19e4439fd371d71e4a2ae8a058e7d19224"
+        },
+        "provenance/RUN_REPORT.md": {
+          "bytes": 6977,
+          "sha256": "71dcdd5d8dcef34ae197ca39ae15419d7edd0632e70fc46a55101be9052c3493"
+        },
+        "provenance/SUMMARY.json": {
+          "bytes": 3341,
+          "sha256": "291d65bb0bbcbe24adcdc69fdcf0f98ebdef5127131044521c2ab2f20b5204fa"
+        },
+        "provenance/SYNTHETIC_TEST.json": {
+          "bytes": 443,
+          "sha256": "ca5fd0c654c3c17db1aa566b1050d33aa9a4cc1797046646fdd990f6dad9cee7"
+        },
+        "tools/temporal_scattering.py": {
+          "bytes": 1800,
+          "sha256": "15ed0e049f6df52cdb93002151829eed74a499f74943214aeb40ca2343663fad"
+        },
+        "tools/run_temporal_scattering.py": {
+          "bytes": 6724,
+          "sha256": "aca2a4ba78b801a7624ddaa6630fe0d08efb161668fed33efeb7ae8ed165b483"
+        },
+        "tools/audit_temporal_scattering.py": {
+          "bytes": 6902,
+          "sha256": "21942e11349df29b21e11aed08ebb8994576fbcec737ccae04a160c25c41a855"
+        },
+        "tools/test_temporal_scattering.py": {
+          "bytes": 3088,
+          "sha256": "d43f15e2f18f09efa9c74b0bf9dc2243de4a97e136964a78704d784f29b004ea"
+        },
+        "tools/radar_exchange.py": {
+          "bytes": 1175,
+          "sha256": "aaaa753d394d38eb5a5fb6d0f79dde7c99a5fa4ec0a9cf1e7adc8e06e4a90da2"
+        },
+        "tools/second_order_core.py": {
+          "bytes": 2032,
+          "sha256": "ff1257df2a133bbbb21f6754d3ecf2e8e02d9ffcc76b1f763f08500a0f1ef98d"
+        },
+        "tools/circular_signal.py": {
+          "bytes": 15962,
+          "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+        },
+        "tools/audit_restored.py": {
+          "bytes": 8247,
+          "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+        },
+        "tools/archive_source_sam.py": {
+          "bytes": 10316,
+          "sha256": "a7ef6d78744e61b4f4b54a7c6a540ee1150075dc7fd164ced9fcb53c9616c365"
+        },
+        "research/TEMPORAL_SCATTERING_REVIEW.md": {
+          "bytes": 3219,
+          "sha256": "ffccb69bfd55f39edb4856dae74dc57840751a05d27acf56e2021839dfff47c4"
+        },
+        "research/TEMPORAL_SCATTERING_PROTOCOL.json": {
+          "bytes": 12737,
+          "sha256": "90af453a4640dad230ae7a1c9c6e3f19e4439fd371d71e4a2ae8a058e7d19224"
+        },
+        "logs/source.log": {
+          "bytes": 451,
+          "sha256": "a39227fcb8e8e3518e5f3934669209b4215e7f94d11bf782f809c973ec02c77b"
+        },
+        "logs/cost.log": {
+          "bytes": 243,
+          "sha256": "564f2bae9ba0eb4569a1203d2318eef145c6ee197ccfe281b4772f9ae9319a84"
+        },
+        "logs/audit.log": {
+          "bytes": 543,
+          "sha256": "8258a11ef83fd3b4f1e0e28ecfca6fa1421713108ee6e42076df7ee9a2d050b2"
+        },
+        "logs/synthetic.log": {
+          "bytes": 383,
+          "sha256": "c86cf082ee6917b28e2c618786327f676e8e84dd1538aac4c352bb7dee51923d"
+        },
+        "logs/audit-cost.log": {
+          "bytes": 176,
+          "sha256": "1d2f311d2494edd14dd28b5530197e429d43a44666dd8fb5f3f9ce3acc2c94cb"
+        },
+        "prior_backup/semantic_RECEIPT.json": {
+          "bytes": 51898,
+          "sha256": "9f90c36ddfd1f3922225da4a18fc59ecf0456139a2ce95979332c2da7f0c3aa3"
+        },
+        "prior_backup/energy_area_RECEIPT.json": {
+          "bytes": 20038,
+          "sha256": "60ec5c479d24e6569a77ef79a8a0df397891a4bb2ab63345757f86738431a0fd"
+        },
+        "logs/install.log": {
+          "bytes": 1172,
+          "sha256": "8a9bbfb06a2cc3e8b078d25683102c41731eba2790755687a2761a940546644c"
+        }
+      },
+      "verified_members": 77
+    }
+  ],
+  "parts": [
+    {
+      "name": "uwb-temporal-scattering-20261007-p01.part",
+      "path": "/workspace/uwb-temporal-scattering-private-20261007/uwb-temporal-scattering-20261007-p01.part",
+      "bundle": "all-artifacts.tar.gz",
+      "part_index": 1,
+      "bytes": 7340032,
+      "sha256": "bc295626483ffee0fda1d8b0c140cdf68d056845c7f30e7e83cdbddf7ccde1b6",
+      "metadata": {
+        "id": "1-bZBWid94vWzwskYqpgWZBwR78XpHYrx",
+        "title": "",
+        "mime_type": "application/x-gzip",
+        "size": "7340032",
+        "url": null,
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/f611d172-5b6b-4935-9d1a-779e782956fc/uwb-temporal-scattering-20261007-p01.part",
+        "size_bytes": 7340032
+      },
+      "file_id": "1-bZBWid94vWzwskYqpgWZBwR78XpHYrx",
+      "url": "https://drive.google.com/file/d/1-bZBWid94vWzwskYqpgWZBwR78XpHYrx/view"
+    },
+    {
+      "name": "uwb-temporal-scattering-20261007-p02.part",
+      "path": "/workspace/uwb-temporal-scattering-private-20261007/uwb-temporal-scattering-20261007-p02.part",
+      "bundle": "all-artifacts.tar.gz",
+      "part_index": 2,
+      "bytes": 7340032,
+      "sha256": "462f002c86ace30c13c70fd81705943c6897736d4ec1ea01ac99744ba3de5fe6",
+      "metadata": {
+        "id": "1KxdFodCHJKXKhUdHH4cEvrRYu4akW0yJ",
+        "title": "",
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "url": null,
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/d89022bc-eb49-4b60-a854-0c7db739716b/uwb-temporal-scattering-20261007-p02.part.bin",
+        "size_bytes": 7340032
+      },
+      "file_id": "1KxdFodCHJKXKhUdHH4cEvrRYu4akW0yJ",
+      "url": "https://drive.google.com/file/d/1KxdFodCHJKXKhUdHH4cEvrRYu4akW0yJ/view"
+    },
+    {
+      "name": "uwb-temporal-scattering-20261007-p03.part",
+      "path": "/workspace/uwb-temporal-scattering-private-20261007/uwb-temporal-scattering-20261007-p03.part",
+      "bundle": "all-artifacts.tar.gz",
+      "part_index": 3,
+      "bytes": 4713702,
+      "sha256": "6e0fb7d591794771b90cf830319824a6f2f6c36ce03dfd45f9e1a49fcfc57367",
+      "metadata": {
+        "id": "1Ea7l5BiytqkgeIP0z6MvjPUQNcrSSDbt",
+        "title": "",
+        "mime_type": "application/octet-stream",
+        "size": "4713702",
+        "url": null,
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/1d17f421-2a0c-4980-9879-59104604629b/uwb-temporal-scattering-20261007-p03.part.bin",
+        "size_bytes": 4713702
+      },
+      "file_id": "1Ea7l5BiytqkgeIP0z6MvjPUQNcrSSDbt",
+      "url": "https://drive.google.com/file/d/1Ea7l5BiytqkgeIP0z6MvjPUQNcrSSDbt/view"
+    }
+  ],
+  "bytes": 19393766,
+  "members": 77,
+  "prior_encoder_features_readout_receipts": [
+    "results/cloud_20261004_energy_area/DRIVE_BACKUP_RECEIPT.json",
+    "results/cloud_20261004_semantic_code_eightfold/DRIVE_BACKUP_RECEIPT.json"
+  ],
+  "actual_concurrent_downloads": 1
+}
