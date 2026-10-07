@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "empty_whiten_source_complete_gate_failed",
+  "state": "temporal_reversal_preregistered_not_run",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "原创有效贡献仍未验证；训练空手势频谱预白化未过强岭及同维控制联合门槛，固定配置失败封存。",
+  "remaining_user_goal": "有效原创贡献未验证；原RF时间倒序标签增强筛选待实测。",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791146472.947506,
   "background_training_pid": null,
-  "background_training_status_note": "Fixed query graph readouts and independent audit completed; no encoder training or next queue.",
+  "background_training_status_note": "No active CNN training. Temporal reversal readout screen preregistered, not yet run.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/QUERY_GRAPH_REVIEW.md",
+  "latest_literature_note": "research/TEMPORAL_REVERSAL_REVIEW.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -911,5 +911,7 @@
   "empty_whiten_backup_receipt": "results/cloud_20261007_empty_whiten/DRIVE_BACKUP_RECEIPT.json",
   "empty_whiten_backup_bytes": 12916333,
   "empty_whiten_backup_objects": 7,
-  "empty_whiten_backup_members": 95
+  "empty_whiten_backup_members": 95,
+  "temporal_reversal_protocol": "research/TEMPORAL_REVERSAL_PROTOCOL.json",
+  "temporal_reversal_gate_passed": null
 }
