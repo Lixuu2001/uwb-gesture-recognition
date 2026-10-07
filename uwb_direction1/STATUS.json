@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "temporal_ssm_preregistered_not_started",
+  "state": "temporal_ssm_source_complete_gate_failed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "有效原创贡献未验证；已知时间自相似方法的固定筛选已预注册，未执行。",
+  "remaining_user_goal": "原创有效贡献仍未验证；时间自相似未过强岭及两个消融联合门槛，固定配置封存。",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261007_source_eigencancel/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261007_temporal_ssm/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791146472.947506,
   "background_training_pid": null,
-  "background_training_status_note": "Temporal SSM protocol prepared; no real fitting started.",
+  "background_training_status_note": "Temporal SSM fitting and independent audit complete; no next queue.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -97,7 +97,7 @@
   "signal_private_backup_file_id": "1aWIw5HiXcrqOyNBqzd79J5jQNhWPBRjC",
   "signal_private_backup_verified": true,
   "signal_private_backup_sha256": "f2ea2bf0aad1a56487d440c08446a2f28122d5935b84196f29944d27ed5837d1",
-  "latest_source_diagnostic": "results/cloud_20261007_source_eigencancel/SUMMARY.json",
+  "latest_source_diagnostic": "results/cloud_20261007_temporal_ssm/SUMMARY.json",
   "moment_guided_protocol_commit": "213cd840871d32dbdd611f03937f16b9c60ed310",
   "moment_guided_results_path": "/workspace/uwb-moment-guided-runs-20261002",
   "moment_guided_completed_runs": 16,
@@ -966,5 +966,19 @@
     "original/project/experiments/p1_20260905/FIRST_PART_REPORT.md:118",
     "original/project/proposal_v2/31_第一部分新路线_用户校准与多雷达预算识别_调研方案.md:151"
   ],
-  "temporal_ssm_protocol_sha256": "f5f642998deed2fb748721bf13c03b52119dcdcff00896bcc4ec2bb74649177d"
+  "temporal_ssm_protocol_sha256": "f5f642998deed2fb748721bf13c03b52119dcdcff00896bcc4ec2bb74649177d",
+  "temporal_ssm_gate_passed": false,
+  "temporal_ssm_source_means": {
+    "ridge": 0.9306313131313132,
+    "ordered": 0.9324242424242423,
+    "lag_only": 0.9315530303030304,
+    "shuffled": 0.9319949494949494
+  },
+  "temporal_ssm_backup_verified": true,
+  "temporal_ssm_protocol_commit": "f384377e37f083f1925441c92f0b20194830d8a8",
+  "temporal_ssm_audit": "results/cloud_20261007_temporal_ssm/AUDIT.json",
+  "temporal_ssm_backup_receipt": "results/cloud_20261007_temporal_ssm/DRIVE_BACKUP_RECEIPT.json",
+  "temporal_ssm_backup_bytes": 14243831,
+  "temporal_ssm_backup_objects": 2,
+  "temporal_ssm_backup_members": 72
 }
