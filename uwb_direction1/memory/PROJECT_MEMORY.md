@@ -1,3 +1,9 @@
+## 2026-10-08 新采集研究问题与协议
+
+固定UWB-Gestures缓存上的成套识别、读出和时序路线仍未产出经验证的新贡献。对直接测量文献的核查说明：Xue等2026已在同一数据上做三视角融合；Kern等2022已给出雷达网络与同步立体相机姿态真值；Engel等2025已用硬件触发和光学动作捕捉监督mmWave姿态。故“加三雷达/做融合”“加pose监督”均不是本项目可直接主张的新颖点。它们可用于设计新测量，但硬件与模态不同，不能当本项目结果。
+
+新增 `research/NEW_CAPTURE_PROTOCOL_20261008.md` 和 `results/cloud_20261008_new_capture_design/RUN_REPORT.md`。候选是同步手部运动真值下的单视角/三视角物理可观测性比较，含参与者、会话及布站独立留出；目前仅是待文献排重与新采集验证的假设。该云端没有雷达采集/光学捕捉硬件或新数据，不能从现存数组恢复外部姿态，也没有启动新拟合/训练。不得把该协议称为原创方法或完成目标。
+
 ## 2026-10-08 2026 IR-UWB同数据集直接先例
 
 Xue et al. (Frontiers in Neuroscience, 2026-06-19, DOI 10.3389/fnins.2026.1864448) 在同一UWB-Gestures数据报告三视角早融合、local/global双分支、门控+双线性融合，单一6 train/2 test参与者拆分98.29%。该组合和单/双/三视角消融已成直接先例。正文未标明具体held users或代码链接，且图示逐epoch test accuracy；这是复现报告细节不足，不能直接指称泄漏。当前结果不能和它的数字直接横比。100个已知完全重复的三视角样本均在participant 2内部，跨参与者重复0；对participant-disjoint评估不会构成跨用户泄漏，随机行拆分则仍需组内去重。当前没有新cohort/session/placement与独立轨迹真值，故不复刻普通早融合或模型组合为原创。详细记录 `results/cloud_20261008_direct_prior_art/RUN_REPORT.md`。

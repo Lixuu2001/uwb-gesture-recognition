@@ -123,7 +123,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Direct review found a 2026 same-dataset three-view global/local/adaptive-fusion paper (98.29% on one reported 6-train/2-test split); do not repackage those components. Its held-out user IDs/code are not specified in the inspected article text. Existing exact-duplicate triplets are all within participant 2, so they do not cross participant-independent splits. No new method or training is justified on the fixed cache; pursue a new cohort/session/placement condition or independently measured physical target before preregistration.",
+  "next_candidate": "New-capture protocol is archived in research/NEW_CAPTURE_PROTOCOL_20261008.md. Candidate physical-observability question: with synchronized external hand-motion truth, determine when one X4 view is ambiguous and whether three views resolve it under participant/session/placement holdout. This is an unvalidated hypothesis, not a novelty claim. The current cloud has no X4 acquisition interface, optical-motion-capture stream, or new cohort/session/placement measurements; do not start training on the fixed cache. First obtain a new capture package, verify hardware trigger/timestamps and per-radar calibration, complete direct prior-art review, then preregister participant-level roles and an evidence-gated pilot.",
   "last_completed_update_utc": "2026-10-08T08:45:08Z",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
@@ -1016,7 +1016,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-10-08T08:46:49Z",
+  "last_updated_utc": "2026-10-08T10:40:54Z",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -1048,5 +1048,15 @@
     "duplicate_pairs_cross_participants": 0,
     "duplicate_subject_audit": "results/cloud_20261008_direct_prior_art/DUPLICATE_SUBJECT_AUDIT.json",
     "research_goal_validated": false
-  }
+  },
+  "latest_capture_design_report": "results/cloud_20261008_new_capture_design/RUN_REPORT.md",
+  "latest_capture_design_protocol": "research/NEW_CAPTURE_PROTOCOL_20261008.md",
+  "latest_capture_design_is_experiment": false,
+  "latest_capture_design_training_started": false,
+  "latest_capture_design_new_method_validated": false,
+  "latest_capture_design_missing_cloud_capabilities": [
+    "X4 radar acquisition interface",
+    "synchronized optical motion capture stream",
+    "new participants/session/placement measurements"
+  ]
 }
