@@ -30,7 +30,7 @@ def choose(c):return min(range(len(c)),key=lambda j:(-c[j]['macro'],c[j]['mse'],
 
 
 def inputs(c):
- f=Path(c['feature_reference']);old=Path(c['ridge_reference']);assert digest(f/'FILES.json')==c['features_manifest_sha256'];assert digest(old/'FILES.json')==c['ridge_manifest_sha256']
+ f=Path(c['feature_reference']);old=Path(c['ridge_reference']);assert digest(f/'FILES.json')==c['feature_manifest_sha256'];assert digest(old/'FILES.json')==c['ridge_manifest_sha256']
  for root in [f,old]:
   for n,sha in json.loads((root/'FILES.json').read_text()).items():assert digest(root/n)==sha
  data=Path('/workspace/uwb-restored-20260930/cache');a=[]
