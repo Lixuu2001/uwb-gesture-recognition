@@ -6,7 +6,7 @@ Completed a bounded literature review and wrote `research/NEW_CAPTURE_PROTOCOL_2
 
 ## Latest branch state and environment
 
-- Branch head read from GitHub: `7418489711410419acf6c23fa869d0b263ab4638` (2026-10-08 08:46:59 UTC).
+- Branch head read from GitHub before this update: `7418489711410419acf6c23fa869d0b263ab4638` (2026-10-08 08:46:59 UTC). This additive report and protocol were then committed and pushed normally as `245ffaea313b12b2553f4268ad0723d84d61a60c`.
 - Latest status says the paired-time alignment screen failed its continuation gate; no labels/model fitting were used for that screen. The direct same-dataset prior-art report records the 2026 three-view paper and duplicate audit, while explicitly leaving the research goal unmet.
 - Restore directory `/workspace/uwb-restored-20260930` exists and its restore verification record is present. Existing cloud process scan found no live training process; historical PIDs shown as defunct are not active jobs.
 - No X4 capture interface, optical-motion-capture feed, or new cohort/session/placement data is attached to this cloud runtime.
