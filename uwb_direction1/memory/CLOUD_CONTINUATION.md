@@ -1,3 +1,7 @@
+# 2026-10-08 云端执行器预检
+
+19:23 UTC fresh preflight: the managed cloud executor is `running`, but it has no configured capabilities/secrets/outbound identities; PyTorch is CPU-only (`2.14.0+cpu`, CUDA unavailable). The restored data directory and the 789-file original-source snapshot are present. No UWB/train/experiment process or serial/video device was found. No training was started and no labels or radar arrays were read. Current research status remains blocked on a prior-art-cleared physical question plus the exact X4 board/firmware acquisition path and a new consented, continuous synchronized measurement package with external motion/onset truth. See `results/cloud_20261008_environment_preflight/RUN_REPORT.md`. This is an execution-resource preflight, not a method result; the contribution goal remains unvalidated.
+
 ## 2026-10-08 在线手势起始检测不可由当前分段包验证
 
 定向阅读全文 Seifi 等 2025 年 MIRA 起始检测论文：帧能量检测、背景类和检测后分类已经公开，但该研究使用 60 GHz FMCW，不是本项目 UWB 设备/数据的直接实验先例。UWB-Gestures原始描述明确每90个slow-time值即构成一个手势样本；当前恢复包没有包含手势前背景的连续雷达流，也没有逐帧起始真值。因而在固定90帧样本上做前缀分类不能度量在线起始延迟、背景误触发或流式分割。旧event-extent筛查的能量区间不是起始标注，且其固定裁剪门槛已失败，不改名重跑。

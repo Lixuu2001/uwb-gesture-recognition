@@ -124,7 +124,16 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No current cached-data candidate clears novelty and feasibility. Generic radar gesture onset detection is preempted by Seifi et al. (2025); the UWB-Gestures archive consists of segmented 90-slow-time-value samples and lacks continuous pre-gesture background/onset truth, so prefix classification cannot support an online-onset claim. Any UWB-specific onset study requires new continuous UWB streams, synchronized onset labels, participant-disjoint evaluation, a direct UWB prior-art check, and an available acquisition path. The cloud has no X4 acquisition/annotation interface or new measurement package.",
-  "last_completed_update_utc": "2026-10-08T17:12:50Z",
+  "last_completed_update_utc": "2026-10-08T19:23:07Z",
+  "latest_environment_preflight": {
+    "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
+    "observed_executor_phase": "running",
+    "hardware_acquisition_device_found": false,
+    "training_process_found": false,
+    "cuda_available": false,
+    "labels_or_radar_arrays_read": false,
+    "training_started": false
+  },
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
