@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "temporal_scattering_source_complete_gate_failed",
+  "state": "readout_loss_factorial_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": null,
-  "remaining_user_goal": "原创有效贡献仍未验证；已知时间散射二阶未过强岭及两个消融联合门槛，固定配置封存。",
+  "remaining_user_goal": "原创有效贡献仍未验证；已知固定特征读出损失函数八折基线已注册，不能充当原创贡献。",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261007_temporal_scattering/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261008_readout_loss_factorial/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791378328.75244,
   "background_training_pid": null,
-  "background_training_status_note": "Temporal scattering fitting and independent audit complete; no next queue.",
+  "background_training_status_note": "Preregistered known frozen-feature readout baseline. No real fit has started.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/TEMPORAL_SCATTERING_REVIEW.md",
+  "latest_literature_note": "research/READOUT_LOSS_FACTORIAL_PROTOCOL.json",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,8 +123,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Fixed scattering configuration closed. Goal unmet; no next experiment registered or queued. Check original/history and direct prior art for a distinct mechanism. SSP2023 already studied same-data WST; full evaluation protocol unverified, no novelty or comparable95% claim.",
-  "last_completed_update_utc": "2026-10-07T13:05:28.752427+00:00",
+  "next_candidate": "Complete fixed eightfold frozen-feature readout loss/weight baseline. It cannot satisfy novelty goal. After result, search direct prior art and source archive for a distinct physical observation mechanism; do not restart closed screens or inflate baselines.",
+  "last_completed_update_utc": "2026-10-08T06:27:47.599940+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -996,5 +996,8 @@
   "temporal_scattering_backup_receipt": "results/cloud_20261007_temporal_scattering/DRIVE_BACKUP_RECEIPT.json",
   "temporal_scattering_backup_bytes": 19393766,
   "temporal_scattering_backup_objects": 3,
-  "temporal_scattering_backup_members": 77
+  "temporal_scattering_backup_members": 77,
+  "readout_loss_factorial_protocol_sha256": "7d0b44284191073b5157d16cf6c127d418b1ce7d725de61affd95f6a71418569",
+  "readout_loss_factorial_backup_verified": false,
+  "readout_loss_factorial_running": false
 }
