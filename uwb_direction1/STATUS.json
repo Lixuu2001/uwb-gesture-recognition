@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261008_speed_prior_art/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261008_onset_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/UWB_SPEED_SCALE_PRIOR_ART_REVIEW_20261008.md",
+  "latest_literature_note": "research/GESTURE_ONSET_FEASIBILITY_REVIEW_20261008.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,8 +123,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "No candidate currently clears novelty and feasibility gates. In addition to the existing same-dataset three-view fusion prior, Kim et al. (IEEE Access 2026, DOI 10.1109/ACCESS.2026.3671243) directly preempts generic UWB gesture speed-robust multiscale recognition. The old temporal-dilation screen remains a failed fixed hypothesis and did not measure per-sample speed. Any future candidate needs a materially distinct task-specific endpoint, external truth, direct primary-paper review, and feasible acquisition; the current cloud has no X4 acquisition/MoCap interface or new participant/session/placement measurements.",
-  "last_completed_update_utc": "2026-10-08T16:34:57Z",
+  "next_candidate": "No current cached-data candidate clears novelty and feasibility. Generic radar gesture onset detection is preempted by Seifi et al. (2025); the UWB-Gestures archive consists of segmented 90-slow-time-value samples and lacks continuous pre-gesture background/onset truth, so prefix classification cannot support an online-onset claim. Any UWB-specific onset study requires new continuous UWB streams, synchronized onset labels, participant-disjoint evaluation, a direct UWB prior-art check, and an available acquisition path. The cloud has no X4 acquisition/annotation interface or new measurement package.",
+  "last_completed_update_utc": "2026-10-08T17:12:50Z",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -1064,5 +1064,11 @@
   "speed_scale_multiscale_prior_doi": "10.1109/ACCESS.2026.3671243",
   "speed_scale_multiscale_prior_same_dataset": true,
   "speed_scale_multiscale_score_comparable_to_loso": false,
-  "latest_paper_fulltext_review_complete": true
+  "latest_paper_fulltext_review_complete": true,
+  "gesture_onset_prior_art_reviewed": true,
+  "gesture_onset_candidate_current_data_feasible": false,
+  "gesture_onset_candidate_novelty_gate_passed": false,
+  "gesture_onset_prior_doi": "10.1017/S1759078725102535",
+  "gesture_onset_prior_uses_same_uwb_dataset": false,
+  "gesture_onset_new_continuous_streams_available": false
 }

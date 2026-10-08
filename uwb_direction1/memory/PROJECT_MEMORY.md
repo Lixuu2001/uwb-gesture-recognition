@@ -1,3 +1,9 @@
+## 2026-10-08 在线手势起始检测不可由当前分段包验证
+
+定向阅读全文 Seifi 等 2025 年 MIRA 起始检测论文：帧能量检测、背景类和检测后分类已经公开，但该研究使用 60 GHz FMCW，不是本项目 UWB 设备/数据的直接实验先例。UWB-Gestures原始描述明确每90个slow-time值即构成一个手势样本；当前恢复包没有包含手势前背景的连续雷达流，也没有逐帧起始真值。因而在固定90帧样本上做前缀分类不能度量在线起始延迟、背景误触发或流式分割。旧event-extent筛查的能量区间不是起始标注，且其固定裁剪门槛已失败，不改名重跑。
+
+结论：通用雷达手势起始检测已非新主张；UWB专用版本或许可以另行研究，但现有数据不可验证。需要新的连续UWB背景+手势流、同步起始标注、参与者独立评估及可用采集接口。云端目前没有X4采集/标注设备，没有训练进程。本轮未读标签/雷达数组，无拟合或训练。整体目标未达成。来源、边界及检查记录见 `research/GESTURE_ONSET_FEASIBILITY_REVIEW_20261008.md`、`results/cloud_20261008_onset_prior_art/RUN_REPORT.md`。
+
 ## 2026-10-08 速度尺度多尺度直接先例全文复核
 
 补充复核 Kim 等 2026 年 3 月 IEEE Access 论文《Robust UWB Radar Gesture Recognition Addressing Speed-Induced Scale Variations via Multi-Scale Feature Extraction》（DOI 10.1109/ACCESS.2026.3671243）完整八页出版版。该文使用同一 UWB-Gestures 数据、三台 X4 的 left/top/right 视角、range-Doppler 表示和并行 3×3/5×5/7×7 多尺度首层，以速度诱导的时频尺度变化为目标。因此“UWB手势速度鲁棒多尺度识别”不能作为本项目原创主张，也不复刻其模块后改称新方法。
