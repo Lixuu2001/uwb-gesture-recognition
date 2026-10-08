@@ -1,3 +1,9 @@
+## 2026-10-08 速度尺度多尺度直接先例全文复核
+
+补充复核 Kim 等 2026 年 3 月 IEEE Access 论文《Robust UWB Radar Gesture Recognition Addressing Speed-Induced Scale Variations via Multi-Scale Feature Extraction》（DOI 10.1109/ACCESS.2026.3671243）完整八页出版版。该文使用同一 UWB-Gestures 数据、三台 X4 的 left/top/right 视角、range-Doppler 表示和并行 3×3/5×5/7×7 多尺度首层，以速度诱导的时频尺度变化为目标。因此“UWB手势速度鲁棒多尺度识别”不能作为本项目原创主张，也不复刻其模块后改称新方法。
+
+论文报告98.12%，但本次检查的实验段落未说明参与者拆分和held-out用户ID；不据此推断泄漏，也不与本项目参与者留出的八折分数直接比较。本项目既有时间轴 dilation 筛选仍是封存的负门槛结果（相对range dilation仅+0.1301pp，3/6用户胜，未过预注册联合门槛），且没有逐样本真实手速真值。完整来源与技术边界见 `research/UWB_SPEED_SCALE_PRIOR_ART_REVIEW_20261008.md` 和 `results/cloud_20261008_speed_prior_art/RUN_REPORT.md`。本次仅文献复核，未读取标签/雷达数组，未拟合/训练；目标仍未达成。
+
 ## 2026-10-08T11:28Z X4手轨迹/视角数候选未过新颖性门槛
 
 新一轮直接先例核查发现，Khan、Leem与Cho 2020已用四台X4 IR-UWB雷达做手部TOA/峰值测量、三边定位和EKF轨迹重建，并讨论三视角覆盖不足；UWB-Gestures原数据论文也将手部跟踪/轨迹预测列为多雷达用途，Xue等2026则已在同数据做三视角融合。因此，泛化的“单视角对三视角轨迹可观测性/视角数比较”不能作为新颖贡献，当前协议需实质收窄。现有证据没有证明加入同步外部手部真值、参与者/会话/布站留出后的精确端点已经被回答，但这仍只是未验证假设，不能当新方法。

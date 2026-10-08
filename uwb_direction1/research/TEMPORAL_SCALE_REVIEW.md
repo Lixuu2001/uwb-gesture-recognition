@@ -22,6 +22,16 @@ InceptionTime: Finding AlexNet for Time Series Classification，Ismail Fawaz等�
 
 本记录没有新增准确率，没有启动新后台训练，没有改变已完成组DRO方案的主结果选择。下一候选仍处于准备阶段；完整同协议八折、创新贡献和独立验证仍未完成。
 
+## 2026-10-08 直接先例补充：同数据集速度尺度多尺度网络
+
+全文复核 Kim et al., “Robust UWB Radar Gesture Recognition Addressing Speed-Induced Scale Variations via Multi-Scale Feature Extraction,” *IEEE Access* 14 (2026), 40034–40041, DOI [10.1109/ACCESS.2026.3671243](https://doi.org/10.1109/ACCESS.2026.3671243)。作者在 DGIST Scholar 提供的八页出版版PDF，包含方法、实验和结论，地址：[出版版PDF](https://scholar.dgist.ac.kr/bitstream/20.500.11750/60259/2/Robust_UWB_Radar_Gesture_Recognition_Addressing_Speed_Induced_Scale_Variations_via_Multi_Scale_Featu.pdf)。
+
+这篇论文以 UWB-Gestures 为基准，称使用8名参与者、12类、每类/人100次和左/上/右三台X4；对慢时间数据做IIR高通、构造range-Doppler表示，再在首卷积层并行使用3×3、5×5、7×7核，分别提取各视角特征并在后层融合。报告98.12% accuracy、参数增加约1.3%、计算量增加约43%，RTX 4080上的推理延迟17.72 ms。论文只写测试数据未参加训练；本次通读的评估段落未说明测试是否按参与者留出或给出具体held-out IDs，因此该数字不能与本项目八折参与者留出数字直接比较。论文使用9600条全量记录，而本项目按已冻结质量掩码保留9300条。
+
+这项直接先例使“手势速度变化造成UWB雷达尺度变化，需多尺度/更长时间特征”的一般主张不具备新颖性。它没有逐字等同本项目2026-10-04的range-time轴dilation实验：那次是既有小CNN某层单轴dilation=2的时间/距离匹配对照，并未构造或测量每条样本的真实速度。其结果相对普通CNN +0.7778 pp，但仅比range dilation +0.1301 pp、3/6用户胜，未过预注册的+0.25 pp/4-of-6联合门槛；既有负结果仍有效，不复跑、不改写成多尺度成功。本论文也不证明速度是失败原因或UWB-Gestures存在某种实际执行速度分布。
+
+结论：封存速度尺度鲁棒性/多尺度首层作为当前项目的原创候选；无需基于该论文重做缓存搜索。未来若做速度科学问题，须有逐样本外部速度真值或新采集、参与者/会话分离，并把问题限定到尚未被该range-Doppler MSFE论文回答的端点；否则只可把该论文方法作为已知基线而非创新。该阅读为文献核查，没有读标签/数组、拟合或训练。
+
 
 ## 2026-10-03 实现前续核查
 
