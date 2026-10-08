@@ -1,3 +1,7 @@
+# 2026-10-08 开集识别/多视角融合先例核查
+
+定向复核发现2026年7月已发表的UWB开集手势论文在UWB-Gestures上使用图原型与对抗式主体解耦，并报告五个类别划分的OSR；2023年MIMO-CxT已在同一三X4数据集上使用分支CNN+ExtraTrees，并做单/多视角对照。泛化的开集图原型、主体不变表示、三分支融合/树读出及视角数消融都不能作为本项目原创主张。2023论文随机80/20样本拆分，和本项目参与者独立八折结果不可直接比较；2026只复核出版方摘要/记录，未读全文。没有把这些已知方法重跑。本轮未读标签/雷达数组、未拟合/训练；新贡献目标仍未达。详见 `research/UWB_OPENSET_MULTIVIEW_PRIOR_ART_REVIEW_20261008.md`。
+
 # 2026-10-08 云端执行器预检
 
 19:23 UTC fresh preflight: the managed cloud executor is `running`, but it has no configured capabilities/secrets/outbound identities; PyTorch is CPU-only (`2.14.0+cpu`, CUDA unavailable). The restored data directory and the 789-file original-source snapshot are present. No UWB/train/experiment process or serial/video device was found. No training was started and no labels or radar arrays were read. Current research status remains blocked on a prior-art-cleared physical question plus the exact X4 board/firmware acquisition path and a new consented, continuous synchronized measurement package with external motion/onset truth. See `results/cloud_20261008_environment_preflight/RUN_REPORT.md`. This is an execution-resource preflight, not a method result; the contribution goal remains unvalidated.
