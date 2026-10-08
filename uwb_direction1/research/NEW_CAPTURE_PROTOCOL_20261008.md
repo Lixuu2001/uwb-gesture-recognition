@@ -2,6 +2,8 @@
 
 **Status:** design only; no capture hardware was available in this cloud session, and no labels, radar arrays, fitting, or training were used to create this protocol. This is not a validated method or a claim of novelty.
 
+**Prior-art update (2026-10-08):** the broad one-view-versus-three-view hand-trajectory/observability and generic view-count/coverage claim does not clear the novelty gate. Khan et al. (2020) already reconstruct hand trajectories with multiple X4 radars and discuss three-view coverage limits; see [`HAND_TRAJECTORY_PRIOR_ART_REVIEW_20261008.md`](HAND_TRAJECTORY_PRIOR_ART_REVIEW_20261008.md). The exact narrower question using synchronized external hand truth and participant/session/placement holdout is not shown by that review to be fully preempted, but is still only a hypothesis and needs a sharper endpoint plus further direct review before capture.
+
 ## Why a new capture is the next useful step
 
 The restored UWB-Gestures tensor contains three 90-frame range-time views per gesture instance, but the delivered sample representation does not preserve a common per-frame clock or external hand-motion truth. Existing fixed-cache experiments have exhausted the currently justified recognition/readout candidates, and a 2026 paper already reports three-view fusion on this same dataset. Another architecture or fusion sweep would therefore not answer a new physical question.
