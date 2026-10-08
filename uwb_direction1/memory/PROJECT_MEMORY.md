@@ -1,3 +1,7 @@
+## 2026-10-08 2026 IR-UWB同数据集直接先例
+
+Xue et al. (Frontiers in Neuroscience, 2026-06-19, DOI 10.3389/fnins.2026.1864448) 在同一UWB-Gestures数据报告三视角早融合、local/global双分支、门控+双线性融合，单一6 train/2 test参与者拆分98.29%。该组合和单/双/三视角消融已成直接先例。正文未标明具体held users或代码链接，且图示逐epoch test accuracy；这是复现报告细节不足，不能直接指称泄漏。当前结果不能和它的数字直接横比。100个已知完全重复的三视角样本均在participant 2内部，跨参与者重复0；对participant-disjoint评估不会构成跨用户泄漏，随机行拆分则仍需组内去重。当前没有新cohort/session/placement与独立轨迹真值，故不复刻普通早融合或模型组合为原创。详细记录 `results/cloud_20261008_direct_prior_art/RUN_REPORT.md`。
+
 ## 2026-10-08 配对视角时序可辨识性
 
 UWB-Gestures公开数据说明三台独立单站雷达、每视角文件分开保存，但文档/恢复阵列没有逐帧时间戳、硬件共同触发记录或样本级同步视频。对9,493个去重三视角实值样本做了预注册、无标签运动包络lag诊断；同用户乱配对相关更低，但样本内lag分布宽且约41%–48%最优峰顶到±4帧边界，固定联合门槛失败。不能把这解释成“传感器不同步”，也不能提出新DTW算法；两者都有直接先例。结束当前固定lag可行性候选，不启动识别训练。若要研究精确多雷达时序/轨迹，需要新采集时间戳或共触发并配同步外部运动真值。完整报告 `results/cloud_20261008_paired_time_alignment/RUN_REPORT.md`；代码和预注册在 `tools/paired_time_alignment_diagnostic.py`、`research/PAIRWISE_TIME_ALIGNMENT_FEASIBILITY_PROTOCOL_20261008.md`。

@@ -1,0 +1,36 @@
+{
+  "analysis": "exact-duplicate participant-overlap audit",
+  "scope": "participant IDs and previously verified exact triplet duplicate indices only",
+  "gesture_labels_accessed": false,
+  "radar_arrays_loaded": false,
+  "model_fitting": false,
+  "subject_vector": {
+    "path": "/workspace/uwb-restored-20260930/cache/subj_clutterremoved.npy",
+    "shape": [
+      9593
+    ],
+    "dtype": "int64",
+    "sha256": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "participant_counts": {
+      "1": 1200,
+      "2": 1200,
+      "3": 1200,
+      "4": 1200,
+      "5": 1200,
+      "6": 1193,
+      "7": 1200,
+      "8": 1200
+    }
+  },
+  "duplicate_pair_count": 100,
+  "duplicate_subject_relations": [
+    {
+      "original_subject": 2,
+      "duplicate_subject": 2,
+      "pairs": 100
+    }
+  ],
+  "cross_subject_duplicate_pair_count": 0,
+  "cross_subject_examples": [],
+  "interpretation": "These verified exact duplicate triplets cannot cross a participant-disjoint split. They can still contaminate a random sample-level split if duplicate members are split apart."
+}

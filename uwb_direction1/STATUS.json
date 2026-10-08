@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261008_paired_time_alignment/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261008_direct_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/PAIRWISE_TIME_ALIGNMENT_FEASIBILITY_PROTOCOL_20261008.md",
+  "latest_literature_note": "results/cloud_20261008_direct_prior_art/RUN_REPORT.md",
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,8 +123,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Current cache did not identify a stable label-free paired-view lag under the frozen envelope diagnostic. Do not widen lag range or launch another amplitude/readout sweep. A timing/trajectory contribution requires newly acquired per-frame timestamps or common trigger plus synchronized visual/motion reference; otherwise identify a distinct observable with independent ground truth before preregistration.",
-  "last_completed_update_utc": "2026-10-08T08:12:45Z",
+  "next_candidate": "Direct review found a 2026 same-dataset three-view global/local/adaptive-fusion paper (98.29% on one reported 6-train/2-test split); do not repackage those components. Its held-out user IDs/code are not specified in the inspected article text. Existing exact-duplicate triplets are all within participant 2, so they do not cross participant-independent splits. No new method or training is justified on the fixed cache; pursue a new cohort/session/placement condition or independently measured physical target before preregistration.",
+  "last_completed_update_utc": "2026-10-08T08:45:08Z",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -1016,7 +1016,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-10-08T08:12:45Z",
+  "last_updated_utc": "2026-10-08T08:46:49Z",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -1030,5 +1030,23 @@
     1.0,
     1.0
   ],
-  "paired_time_alignment_independent_audit": "results/cloud_20261008_paired_time_alignment/AUDIT.json"
+  "paired_time_alignment_independent_audit": "results/cloud_20261008_paired_time_alignment/AUDIT.json",
+  "direct_prior_art_review_20261008": {
+    "paper_doi": "10.3389/fnins.2026.1864448",
+    "same_dataset": true,
+    "reported_subject_split": "six train participants, two test participants; IDs not given in inspected main text",
+    "reported_accuracy": 0.9829,
+    "code_link_found_on_article_page": false,
+    "method_novelty_overlap": [
+      "three-view early fusion",
+      "local/global branches",
+      "adaptive gated first-order fusion",
+      "bilinear second-order fusion"
+    ],
+    "training_or_model_fitting": false,
+    "duplicate_triplets": 100,
+    "duplicate_pairs_cross_participants": 0,
+    "duplicate_subject_audit": "results/cloud_20261008_direct_prior_art/DUPLICATE_SUBJECT_AUDIT.json",
+    "research_goal_validated": false
+  }
 }

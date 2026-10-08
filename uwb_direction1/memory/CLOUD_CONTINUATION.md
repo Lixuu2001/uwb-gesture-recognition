@@ -1,3 +1,11 @@
+## 2026-10-08T08:45Z 同数据集直接先例更新与重复样本跨用户审计
+
+最新直接文献核查发现 Xue, Yang & Zhu 2026-06-19 已在同一 UWB-Gestures 12类/8人/三视角数据上报告98.29%，单一6人训练/2人测试。其方法覆盖三视角早融合、局部ConvMixer+全局CNN-Transformer分支、门控一阶+双线性二阶融合及视角消融；这些不能再当原创方向。主文未列具体留出参与者ID，没找到代码仓库链接，且展示逐epoch test accuracy 曲线；这造成复现/选择规则不充分，不构成泄漏证据。不得和本项目八折/其他readout数字直接比较。
+
+补充只读 `subj_clutterremoved.npy` 与此前逐路确认的100重复对索引。100对全部是participant 2内部，跨参与者对为0，因此它们不会跨越任何participant-disjoint split；但随机样本拆分仍需成组去重。脚本 `tools/audit_duplicate_subject_overlap.py`，结果 `results/cloud_20261008_direct_prior_art/DUPLICATE_SUBJECT_AUDIT.json`。本次没读gesture labels或radar arrays，无训练/拟合。
+
+暂不照搬已发表MV-GLFNet，也不运行不可精确复现其未知具体6/2拆分的架构实验。旧缓存缺跨天/布站/参与者外部集及独立轨迹/姿态真值，当前没有可辩护的全新物理方法；下一阶段应针对新cohort/session/placement或独立同步motion target取得证据，再设计冻结评估。目标仍未达，自动接续保留。
+
 ## 2026-10-08T08:12Z 软配对时序可行性筛查：固定门槛失败
 
 先查 UWB-Gestures 原文及多传感器 DTW/异步流先例；通用时序对齐不是新方法。按预注册 `research/PAIRWISE_TIME_ALIGNMENT_FEASIBILITY_PROTOCOL_20261008.md`，仅读恢复的实值 CIR 数组与用户编号，不读手势标签/预测/特征。100 对三视角完全重复样本逐路字节值确认并排除；9493 个唯一三视角样本全部有有限非恒定 motion-envelope。L–T/L–R/T–R 的零时延中位相关为0.1589/0.1837/0.1177，固定±4帧最优相关0.2855/0.2892/0.2364；同用户乱配对差值均值中位+0.1455/+0.1466/+0.1034，但40.6%–48.5%最优峰落在搜索边界，中位绝对lag均3帧。合成偏移控制100%恢复，说明实现能检出人为偏移。预设联合门槛失败；关闭本固定观测/范围，不扩lag或转入识别训练。该结果只表明此 envelope 没有稳定可识别的配对lag，不能推断真实雷达时钟是否同步。无帧级timestamp/共触发或同步运动真值，无法验证物理offset。128条×3路的独立corrcoef复算最大误差2.94e−8、最佳lag全部一致；100组重复和门槛算术通过。报告 `results/cloud_20261008_paired_time_alignment/RUN_REPORT.md`；样本级lag和ID留在云端结果目录，不进Git。原789快照及数据不变，无训练队列。下一项需新采集提供trigger/timestamps+独立同步视觉/运动参考，或另一条有独立真值的物理观测；不要在固定缓存再扩描述子/readout sweep。目标未达，自动接续保留。
