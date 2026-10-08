@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791378328.75244,
   "background_training_pid": null,
-  "background_training_status_note": "Preregistered known frozen-feature readout baseline. No real fit has started.",
+  "background_training_status_note": "Protocol path assertion corrected before real-data loading; synthetic test passed; no real data was read by aborted invocation.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -124,7 +124,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Complete fixed eightfold frozen-feature readout loss/weight baseline. It cannot satisfy novelty goal. After result, search direct prior art and source archive for a distinct physical observation mechanism; do not restart closed screens or inflate baselines.",
-  "last_completed_update_utc": "2026-10-08T06:27:47.599940+00:00",
+  "last_completed_update_utc": "2026-10-08T06:28:37.339923+00:00",
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
   "swad_log": "/workspace/uwb-swad-source-train-20261003.log",
@@ -997,7 +997,7 @@
   "temporal_scattering_backup_bytes": 19393766,
   "temporal_scattering_backup_objects": 3,
   "temporal_scattering_backup_members": 77,
-  "readout_loss_factorial_protocol_sha256": "7d0b44284191073b5157d16cf6c127d418b1ce7d725de61affd95f6a71418569",
+  "readout_loss_factorial_protocol_sha256": "3907ce4b27209e405ef3e17b47f0994e027cab55cb2e0ee960774f9ab23884f6",
   "readout_loss_factorial_backup_verified": false,
   "readout_loss_factorial_running": false
 }

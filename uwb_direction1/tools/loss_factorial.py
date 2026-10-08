@@ -30,7 +30,7 @@ def choose(c):return min(range(len(c)),key=lambda j:(-c[j]['macro'],c[j]['mse'],
 
 
 def inputs(c):
- f=Path(c['features']);old=Path(c['ridge_reference']);assert digest(f/'FILES.json')==c['features_manifest_sha256'];assert digest(old/'FILES.json')==c['ridge_manifest_sha256']
+ f=Path(c['feature_reference']);old=Path(c['ridge_reference']);assert digest(f/'FILES.json')==c['features_manifest_sha256'];assert digest(old/'FILES.json')==c['ridge_manifest_sha256']
  for root in [f,old]:
   for n,sha in json.loads((root/'FILES.json').read_text()).items():assert digest(root/n)==sha
  data=Path('/workspace/uwb-restored-20260930/cache');a=[]
@@ -39,7 +39,9 @@ def inputs(c):
 
 
 def main(a):
- c=json.loads(a.protocol.read_text());assert not a.out.exists();a.out.mkdir();dump(a.out/'PROTOCOL.json',c);dump(a.out/'IDENTITY.json',dict(protocol_sha256=digest(a.protocol),code_sha256={n:digest(Path(__file__).with_name(n)) for n in ['loss_factorial.py','second_order_core.py','audit_restored.py']},python=platform.python_version(),numpy=np.__version__))
+ c=json.loads(a.protocol.read_text());assert not a.out.exists();
+ for n,sha in c['code_sha256'].items():assert digest(Path(__file__).with_name(n))==sha
+ a.out.mkdir();dump(a.out/'PROTOCOL.json',c);dump(a.out/'IDENTITY.json',dict(protocol_sha256=digest(a.protocol),code_sha256={n:digest(Path(__file__).with_name(n)) for n in ['loss_factorial.py','second_order_core.py','audit_restored.py']},python=platform.python_version(),numpy=np.__version__))
  if a.cost_only:
   rng=np.random.default_rng(20261008);z=rng.normal(size=(7200,128));y=np.arange(7200)%12;z[:,:12]+=np.eye(12)[y]*2;w=np.ones(len(y))/len(y);t=time.perf_counter();_,info=fit(z,y,w,.001,'logit');elapsed=time.perf_counter()-t;v=dict(seconds=elapsed,estimate_seconds=elapsed*48*2,passed=elapsed*48*2<c['budget_seconds'],real_data_read=False,protocol_sha256=digest(a.protocol),optimization=info);dump(a.out/'COST.json',v);print(json.dumps(v));return
  cost=json.loads(a.cost.read_text());assert cost['passed'] and cost['protocol_sha256']==digest(a.protocol);f,old,y,u=inputs(c);ids=np.flatnonzero(~(((u==2)&np.isin(y,[10,11]))|((u==6)&(y==3))));assert len(ids)==9300;lookup=np.full(len(y),-1);lookup[ids]=np.arange(len(ids));start=time.perf_counter()
