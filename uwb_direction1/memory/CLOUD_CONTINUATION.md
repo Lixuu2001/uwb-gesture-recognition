@@ -1,3 +1,13 @@
+# Latest continuation update — multi-view synchronization evidence (2026-10-09)
+
+Full-text review of the UWB-Gestures descriptor and the 2026 MV-GLFNet paper clarifies a measurement limitation. The descriptor states that three X4 sensors operate independently in monostatic mode and that each gesture sample contains 90 slow-time rows (4.5 s), but it does not report shared-trigger, timestamp, or cross-view synchronization/calibration procedures. The 2026 paper assumes aligned TR dimensions after identical preprocessing and notes deployment costs for view alignment and possible synchronization/calibration. The documentation gap does not prove the recordings were asynchronous, but it means matching indices alone cannot support physical phase/delay alignment or calibrated 3-D trajectory claims.
+
+Same-corpus single/dual/tri-view fusion is already prior art; generic DTW sensor alignment also has adjacent published work. Do not fit another generic fusion/alignment variant. No labels/arrays were read and no training started; the restored UWB receipt remains verified and no active process/checkpoint writer exists. A distinct candidate still needs a reviewed mechanism, defensible timing/semantic truth, and a frozen participant-disjoint protocol.
+
+Report: `uwb_direction1/results/cloud_20261009_multiview_sync_review/RUN_REPORT.md`. The research contribution remains unvalidated.
+
+---
+
 # Latest continuation update — Pantomime rights/semantics follow-up (2026-10-09)
 
 The Aalto institutional dataset record identifies Pantomime and labels the dataset CC-BY-4.0; its access link resolves to Zenodo record 4459969. Zenodo marks that record Open and lists the data and source archives, while its visible license field is blank. The catalog-to-file license association and archive member manifest were not independently checked. Do not infer rights for the separate source ZIP.
