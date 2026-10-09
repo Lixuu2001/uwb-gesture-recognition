@@ -1,3 +1,11 @@
+## 2026-10-09T07:29:49Z 跨雷达手势族标签映射：得到粗映射，仍未得到方法
+
+根据UWB-Gestures与Pantomime已发表标签字典，固定一个仅用于候选设计的两族映射：UWB八个方向swipe→Pantomime左右swipe→swipe；UWB CW/CCW rotation→Pantomime CW/CCW circle→circular。排除UWB inward-push/empty与Pantomime push/pull及其他类，不能只凭文字把inward-push映射到push。映射是语义聚合，不是样本运动学等价；两数据格式/硬件/受试者/序列条件差异显著，必须定义模态桥接。原先“无任何元数据共同标签”的说法已由本条修正，但仍无直接先例穷尽审查、无有效方法/结果/贡献结论。
+
+Pantomime Zenodo公开列出107.6MB数据zip和937.5kB源码zip；精确档案许可证与文件/类别清单尚待核对。当前cloud egress受限且无capability/secret/outbound identity，不下载外部数据。未读项目label/数组、无拟合/训练；ps只有旧defunct进程，无活动实验/采集硬件。UWB restore与789原源码快照在位、未改。
+
+详细边界、数据表与预先门槛：research/CROSS_SENSOR_LABEL_MAP_FEASIBILITY_20261009.md 和 results/cloud_20261009_cross_sensor_label_map/RUN_REPORT.md。下一步先补direct prior art及许可/manifest核验；获准后再冻结参与者拆分、迁移方向、目标标签预算和跨模态表示，再决定是否值得读取样本/拟合。用户目标尚未验证。
+
 ## 2026-10-09T06:23Z 跨传感器雷达手势直接先例补查
 
 Sukianto et al. 2026（IEEE Transactions on Radar Systems 4:443–462，DOI 10.1109/TRS.2026.3654128；作者机构摘要）进一步覆盖跨设备FMCW信号range/Doppler协调、少样本适配、预训练及无标签联邦精炼。故泛化FMCW跨设备适配不是独立原创点；该文没有报告IR-UWB/X4与FMCW动态手势迁移。Pantomime与UWB-Gestures的传感器表示/类词表不同，暂无冻结共同标签映射与participant/domain split，外部传输实验仍不可启动。未下载数据、未读项目数组/标签、未训练。云端无采集能力且无活动任务；研究目标仍未达。细节见research/CROSS_SENSOR_RADAR_GESTURE_PRIOR_ART_UPDATE_20261009.md与results/cloud_20261009_cross_sensor_prior_art_update/RUN_REPORT.md。
