@@ -1,3 +1,15 @@
+# Latest continuation update — Pantomime rights/semantics follow-up (2026-10-09)
+
+The Aalto institutional dataset record identifies Pantomime and labels the dataset CC-BY-4.0; its access link resolves to Zenodo record 4459969. Zenodo marks that record Open and lists the data and source archives, while its visible license field is blank. The catalog-to-file license association and archive member manifest were not independently checked. Do not infer rights for the separate source ZIP.
+
+Public label descriptions show only name-level overlap (directional swipes and circular motions) between the UWB-Gestures and Pantomime vocabularies. They do not establish matched instructions, handedness, axes, amplitude, or timing. Broad heterogeneous radar gesture transfer is already prior art, and the bounded exact-endpoint search is not novelty clearance. No transfer method is currently approved.
+
+The executor still has restricted egress and Zenodo is not allowlisted; no archive was downloaded, no labels/arrays were read, and no training was started. The existing UWB data and 789-file source snapshot remain present. No manual transfer is needed. Do not start Pantomime fitting until a distinct sensor-physics question, independent movement-level mapping, verified archive manifest/rights association, and frozen participant-disjoint protocol all pass.
+
+Full record: `uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md`. Overall contribution remains unvalidated.
+
+---
+
 # Continuation update — multi-view/dropout prior art (2026-10-09)
 
 Full-text review of Xue et al. 2026 confirms that same-dataset X4 UWB single/dual/tri-view fusion and all view subsets are directly evaluated (6 subjects train, 2 test). Zhao et al. 2023 already tests incomplete multi-FMCW-radar gesture data when a radar fails; Yang et al. 2018 studies dual-radar angular diversity and degraded-view robustness; ModDrop (2016) already uses random modality dropping for gesture models. These works preempt generic subset fusion, angular diversity, and sensor-dropout training as standalone novelties. Their hardware/splits differ, so this does not establish numerical equivalence to our eight-fold protocol. No UWB data/labels were opened, no fit/training occurred, and no active job exists. Current next path remains a genuinely different question supported by new ground truth/hardware, or a specific externally valid transfer question after gates. Details: `uwb_direction1/results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md`.
