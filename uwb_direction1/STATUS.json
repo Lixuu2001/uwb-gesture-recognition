@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261009_public_cross_sensor_dataset_review/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261009_cross_sensor_prior_art_update/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/PUBLIC_CROSS_SENSOR_GESTURE_DATASETS_REVIEW_20261009.md",
+  "latest_literature_note": "research/CROSS_SENSOR_RADAR_GESTURE_PRIOR_ART_UPDATE_20261009.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "No cached-data candidate currently clears novelty and feasibility. Independent public mmWave/FMCW gesture cohorts exist, but none is a drop-in IR-UWB external test set. A metadata-defined coarse common-label external evaluation is only a design lead; DI-Gesture preempts generic cross-domain mmWave recognition and UWB-to-FMCW transfer exists for digit recognition. Before access/download, fix the shared endpoint, metadata-only label mapping, participant/domain split and direct prior-art clearance. Cloud still lacks X4 capture and a new synchronized UWB cohort with external motion/onset truth.",
-  "last_completed_update_utc": "2026-10-09T05:34:15Z",
+  "next_candidate": "Independent public mmWave/FMCW cohorts are not drop-in IR-UWB test sets. A newly confirmed 2026 IEEE paper covers cross-device FMCW harmonization, transformer pretraining, few-label target adaptation and unsupervised federated refinement; generic cross-device FMCW adaptation is therefore not a novelty claim. UWB↔FMCW transfer also exists for digit recognition. A dynamic-gesture cross-modality study remains only a possible question: freeze common labels and participant/session/domain splits from metadata, clear direct prior art, and verify dataset access before any download. No current cloud candidate clears novelty and feasibility; physical external-truth work still needs exact X4 hardware/firmware access and new synchronized measurements.",
+  "last_completed_update_utc": "2026-10-09T06:23:58Z",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1100,5 +1100,13 @@
     "training_started": false,
     "method_contribution_validated": false,
     "search_scope": "bounded primary-source review"
+  },
+  "cross_sensor_prior_art_update": {
+    "paper": "Sukianto et al., IEEE Transactions on Radar Systems 4 (2026), 443-462",
+    "doi": "10.1109/TRS.2026.3654128",
+    "published": "2026-01-14",
+    "scope": "cross-device FMCW harmonization and adaptation; not IR-UWB/X4",
+    "training_started": false,
+    "method_contribution_validated": false
   }
 }

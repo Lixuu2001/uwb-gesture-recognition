@@ -1,3 +1,9 @@
+# 2026-10-09T06:23Z 跨传感器雷达手势直接先例补查
+
+核对 Sukianto 等 2026 年 IEEE Transactions on Radar Systems 论文（DOI 10.1109/TRS.2026.3654128，2026-01-14）。作者机构摘要明确覆盖FMCW配置间range/Doppler信号级协调、雷达专用增强、Transformer预训练、少样本目标配置微调、蒸馏及无标签联邦精炼。因此，泛化的跨设备FMCW协调/迁移/联邦适配不能单独称为本项目原创。其摘要实验是Infineon与TI FMCW设备，不是IR-UWB/X4↔FMCW动态手势迁移；这一精确任务仍未被该文回答，但只是待查重/待可行性冻结的设计问题。Pantomime稀疏点云与UWB-Gestures CIR表示和标签词表不同，尚无元数据冻结的共同类映射、访问/拆分协议，故不下载或启动迁移训练。
+
+本轮只做一手文献/数据字典核查，未下载外部包、未读标签/数组、无拟合训练。云环境当前CPU-only且无配置采集能力/secret/outbound identity；shell仅见既有runner的defunct记录，无活动研究任务或采集设备。恢复包和789原源码快照存在且未动。没有候选同时通过新颖性与可行性门槛，整体目标仍未验证。详情：research/CROSS_SENSOR_RADAR_GESTURE_PRIOR_ART_UPDATE_20261009.md、results/cloud_20261009_cross_sensor_prior_art_update/RUN_REPORT.md。
+
 # 2026-10-09T05:34Z 公共跨传感器手势数据集复核
 
 本轮仅核对公开一手资料。Pantomime（约22k、41人、21类、稀疏3D mmWave点云、CC-BY开放）、MCD-Gesture（77GHz AWR1843、24,050样本、正/负动作、申请协议获取raw ADC）、KIT BGT60TR13C（2479条、7手势+no-gesture）和60GHz逐帧标注包均非可直接外测的IR-UWB同任务数据。DI-Gesture已做跨用户/场景/位置域独立mmWave识别，UWB↔FMCW迁移也有digit先例；粗粒度跨传感器外测只是候选设计，未通过新颖性/可行性双门槛。详见`research/PUBLIC_CROSS_SENSOR_GESTURE_DATASETS_REVIEW_20261009.md`及`results/cloud_20261009_public_cross_sensor_dataset_review/RUN_REPORT.md`。

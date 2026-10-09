@@ -1,3 +1,7 @@
+## 2026-10-09T06:23Z 跨传感器雷达手势直接先例补查
+
+Sukianto et al. 2026（IEEE Transactions on Radar Systems 4:443–462，DOI 10.1109/TRS.2026.3654128；作者机构摘要）进一步覆盖跨设备FMCW信号range/Doppler协调、少样本适配、预训练及无标签联邦精炼。故泛化FMCW跨设备适配不是独立原创点；该文没有报告IR-UWB/X4与FMCW动态手势迁移。Pantomime与UWB-Gestures的传感器表示/类词表不同，暂无冻结共同标签映射与participant/domain split，外部传输实验仍不可启动。未下载数据、未读项目数组/标签、未训练。云端无采集能力且无活动任务；研究目标仍未达。细节见research/CROSS_SENSOR_RADAR_GESTURE_PRIOR_ART_UPDATE_20261009.md与results/cloud_20261009_cross_sensor_prior_art_update/RUN_REPORT.md。
+
 ## 2026-10-08 在线手势起始检测不可由当前分段包验证
 
 定向阅读全文 Seifi 等 2025 年 MIRA 起始检测论文：帧能量检测、背景类和检测后分类已经公开，但该研究使用 60 GHz FMCW，不是本项目 UWB 设备/数据的直接实验先例。UWB-Gestures原始描述明确每90个slow-time值即构成一个手势样本；当前恢复包没有包含手势前背景的连续雷达流，也没有逐帧起始真值。因而在固定90帧样本上做前缀分类不能度量在线起始延迟、背景误触发或流式分割。旧event-extent筛查的能量区间不是起始标注，且其固定裁剪门槛已失败，不改名重跑。
