@@ -1,3 +1,19 @@
+# Current continuation gate — 2026-10-09
+
+The sections below are historical candidate plans and do not override the current branch status. Several originally listed routes have already been tested and failed; do not treat the shared/private representation plan or its listed baselines as pending work. Check STATUS.json and the latest continuation report first.
+
+The current Pantomime cross-dataset endpoint is not yet a method/contribution: a broad swipe/circular label aggregation is only semantic metadata, with no kinematic-equivalence evidence. Exact-release license evidence is positive at the institutional-catalog level, but archive manifest/file-level association is unverified, and the cloud shell cannot reach Zenodo. Targeted prior-art review preempts generic heterogeneous gesture transfer; exact X4/UWB-Gestures to Pantomime transfer search was bounded, not exhaustive. Do not fit or train on that endpoint until a distinct question, target-label-independent semantic mapping, manifest access, and frozen participant-disjoint protocol are in hand.
+
+Current environment check found restored UWB data and the full 789-file source snapshot, only defunct Python records, no active training, restricted shell egress, and CPU-only. No labels or arrays were opened during the 2026-10-09 review. Older positive scores on other splits or candidate screens are not validated contributions.
+
+Latest records:
+- STATUS.json
+- results/cloud_20261009_endpoint_review/RUN_REPORT.md
+- research/PANTOMIME_ENDPOINT_PRIOR_ART_20261009.md
+- memory/CLOUD_CONTINUATION_20261009_ENDPOINT_REVIEW.md
+
+---
+
 # 下一轮研究：数据到达前的候选与依据
 
 2026-09-30。状态：迁移准备与初步来源核查，尚未实施新网络或在真实数据上运行。当前云端网络允许 GitHub 及软件包域名，未开放 arXiv/OpenReview/IEEE；本轮读取的是作者仓库 README 与可访问源码，**没有把它们冒充论文全文阅读**。迁移期间可查清原信号与旧模型，访问论文后补充方法细节及最近工作的系统对比。
