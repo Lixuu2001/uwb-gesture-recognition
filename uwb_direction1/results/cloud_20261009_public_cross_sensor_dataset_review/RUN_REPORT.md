@@ -1,0 +1,5 @@
+# 2026-10-09 — cross-sensor public dataset review
+
+Found separate public mmWave/FMCW gesture collections, but none is a drop-in independent IR-UWB test set. Pantomime is open CC-BY with about 22k point-cloud samples, 41 people and 21 classes; MCD-Gesture has 24,050 AWR1843/77GHz samples across 25 people and six positive plus seven negative labels, but raw access requires an agreement; KIT offers 2,479 BGT60TR13C samples and no-gesture; the 60GHz frame-labeled Zenodo release adds labels to unchanged earlier raw recordings. DI-Gesture already studies domain-independent mmWave recognition, and UWB-to-FMCW transfer has a digit-recognition precedent. A common-coarse-label external test is a possible design lead only, not a validated method; mapping, access, splits and direct prior art remain open. See the linked research note.
+
+Runtime connected/running, CPU-only, no capture capability/secrets/outbound identities. Restored package and original 789-file snapshot exist. No process/device found. No archive downloaded, labels/arrays read, fitting/training performed, or source snapshot changed.

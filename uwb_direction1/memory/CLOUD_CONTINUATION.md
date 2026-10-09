@@ -1,3 +1,9 @@
+# 2026-10-09T05:34Z 公共跨传感器手势数据集复核
+
+本轮仅核对公开一手资料。Pantomime（约22k、41人、21类、稀疏3D mmWave点云、CC-BY开放）、MCD-Gesture（77GHz AWR1843、24,050样本、正/负动作、申请协议获取raw ADC）、KIT BGT60TR13C（2479条、7手势+no-gesture）和60GHz逐帧标注包均非可直接外测的IR-UWB同任务数据。DI-Gesture已做跨用户/场景/位置域独立mmWave识别，UWB↔FMCW迁移也有digit先例；粗粒度跨传感器外测只是候选设计，未通过新颖性/可行性双门槛。详见`research/PUBLIC_CROSS_SENSOR_GESTURE_DATASETS_REVIEW_20261009.md`及`results/cloud_20261009_public_cross_sensor_dataset_review/RUN_REPORT.md`。
+
+本轮未下载数据、未读项目标签/雷达数组、未拟合或训练。云端CPU-only且无采集设备；789原源码快照不变，贡献目标仍未验证。
+
 # 2026-10-08 开集识别/多视角融合先例核查
 
 定向复核发现2026年7月已发表的UWB开集手势论文在UWB-Gestures上使用图原型与对抗式主体解耦，并报告五个类别划分的OSR；2023年MIMO-CxT已在同一三X4数据集上使用分支CNN+ExtraTrees，并做单/多视角对照。泛化的开集图原型、主体不变表示、三分支融合/树读出及视角数消融都不能作为本项目原创主张。2023论文随机80/20样本拆分，和本项目参与者独立八折结果不可直接比较；2026只复核出版方摘要/记录，未读全文。没有把这些已知方法重跑。本轮未读标签/雷达数组、未拟合/训练；新贡献目标仍未达。详见 `research/UWB_OPENSET_MULTIVIEW_PRIOR_ART_REVIEW_20261008.md`。

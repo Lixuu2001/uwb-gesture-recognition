@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261009_public_dataset_review/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261009_public_cross_sensor_dataset_review/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/PUBLIC_IRUWB_HGR_DATASET_REVIEW_20261009.md",
+  "latest_literature_note": "research/PUBLIC_CROSS_SENSOR_GESTURE_DATASETS_REVIEW_20261009.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "No current cached-data candidate clears novelty and feasibility. A bounded public-data search found no independent dynamic IR-UWB hand-gesture cohort; repackaging UWB-Gestures does not supply external validation, and OPERAnet does not match the gesture endpoint. Generic radar gesture onset detection is preempted by Seifi et al. (2025); the current archive has segmented 90-slow-time-value samples and lacks continuous pre-gesture background/onset truth. Any new empirical claim therefore needs a materially distinct, prior-art-cleared endpoint and either a compatible independent cohort or a new consented synchronized measurement package. For physical measurement, obtain exact X4 board/firmware access, new participants/session/placement conditions, and external truth. The cloud presently has no acquisition interface or new measurement package.",
-  "last_completed_update_utc": "2026-10-09T01:54:49Z",
+  "next_candidate": "No cached-data candidate currently clears novelty and feasibility. Independent public mmWave/FMCW gesture cohorts exist, but none is a drop-in IR-UWB external test set. A metadata-defined coarse common-label external evaluation is only a design lead; DI-Gesture preempts generic cross-domain mmWave recognition and UWB-to-FMCW transfer exists for digit recognition. Before access/download, fix the shared endpoint, metadata-only label mapping, participant/domain split and direct prior-art clearance. Cloud still lacks X4 capture and a new synchronized UWB cohort with external motion/onset truth.",
+  "last_completed_update_utc": "2026-10-09T05:34:15Z",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1038,14 +1038,14 @@
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
   "paired_time_alignment_unique_triplets": 9493,
-  "paired_time_alignment_valid_fraction": 1.0,
+  "paired_time_alignment_valid_fraction": 1,
   "paired_time_alignment_continue_gate_passed": false,
   "paired_time_alignment_model_fitting": false,
   "paired_time_alignment_label_accessed": false,
   "paired_time_alignment_exact_shift_recovery_by_pair": [
-    1.0,
-    1.0,
-    1.0
+    1,
+    1,
+    1
   ],
   "paired_time_alignment_independent_audit": "results/cloud_20261008_paired_time_alignment/AUDIT.json",
   "direct_prior_art_review_20261008": {
@@ -1087,5 +1087,18 @@
   "gesture_onset_candidate_novelty_gate_passed": false,
   "gesture_onset_prior_doi": "10.1017/S1759078725102535",
   "gesture_onset_prior_uses_same_uwb_dataset": false,
-  "gesture_onset_new_continuous_streams_available": false
+  "gesture_onset_new_continuous_streams_available": false,
+  "cross_sensor_public_dataset_review": {
+    "independent_mmwave_gesture_cohorts_identified": true,
+    "drop_in_independent_ir_uwb_cohort_identified": false,
+    "coarse_common_label_external_test": "unvalidated design lead",
+    "mcd_gesture_raw_access": "agreement_required",
+    "pantomime_access": "open_cc_by_4",
+    "external_transfer_prior_art": "domain-independent mmwave gestures and UWB-to-FMCW digit recognition exist",
+    "archive_downloaded": false,
+    "labels_or_project_radar_arrays_read": false,
+    "training_started": false,
+    "method_contribution_validated": false,
+    "search_scope": "bounded primary-source review"
+  }
 }
