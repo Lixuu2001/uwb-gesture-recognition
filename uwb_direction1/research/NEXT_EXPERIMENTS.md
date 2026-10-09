@@ -1,3 +1,11 @@
+# Current continuation gate — 2026-10-09 (open-set prior art)
+
+A new primary-source check closes generic UWB open-set gesture recognition as a standalone contribution on the existing cohort. Eom et al. 2025 already publish UWB impulse-radar open-set recognition. Yang et al. 2026 reports open-set experiments on this exact UWB-Gestures corpus, five held-out class splits, and cross-subject analysis. Do not train a generic unknown-class rejection, threshold, OVR inspector, or prototype variant and call it novel. The article protocol has not been confirmed equivalent to this project's eight held-user folds; scores are not directly comparable. Review: `results/cloud_20261009_open_set_prior_art/RUN_REPORT.md`.
+
+No UWB labels/arrays were read and no training started. Current data and source snapshot are present, but the current executor is CPU-only, has restricted Zenodo egress, and has no capture hardware or synchronized external truth. Cross-dataset Pantomime transfer still has semantic/archive-license gates. No candidate currently clears both novelty and execution gates; continue only after a materially distinct, source-reviewed question is specified or new synchronized measurements become available.
+
+---
+
 # Current continuation gate — 2026-10-09T12:11Z
 
 A fresh full-text check closes generic sensor-failure and view-dropout routes too:
