@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261008_onset_prior_art/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261009_public_dataset_review/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,15 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/UWB_OPENSET_MULTIVIEW_PRIOR_ART_REVIEW_20261008.md",
+  "latest_literature_note": "research/PUBLIC_IRUWB_HGR_DATASET_REVIEW_20261009.md",
+  "public_iruwb_hgr_dataset_review": {
+    "independent_public_dynamic_gesture_cohort_identified": false,
+    "search_scope": "bounded targeted search; not exhaustive",
+    "candidate_figshare_record": "27915876",
+    "candidate_independence_verified": false,
+    "training_started": false,
+    "method_contribution_validated": false
+  },
   "signal_completed_artifact_files_sha256_verified": 96,
   "signal_latest_integrity_monitor": "results/cloud_20260930_circular/MONITOR_0800.json",
   "signal_finalizer_pid": null,
@@ -123,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "No current cached-data candidate clears novelty and feasibility. Generic radar gesture onset detection is preempted by Seifi et al. (2025); the UWB-Gestures archive consists of segmented 90-slow-time-value samples and lacks continuous pre-gesture background/onset truth, so prefix classification cannot support an online-onset claim. Any UWB-specific onset study requires new continuous UWB streams, synchronized onset labels, participant-disjoint evaluation, a direct UWB prior-art check, and an available acquisition path. The cloud has no X4 acquisition/annotation interface or new measurement package.",
-  "last_completed_update_utc": "2026-10-08T23:15:13Z",
+  "next_candidate": "No current cached-data candidate clears novelty and feasibility. A bounded public-data search found no independent dynamic IR-UWB hand-gesture cohort; repackaging UWB-Gestures does not supply external validation, and OPERAnet does not match the gesture endpoint. Generic radar gesture onset detection is preempted by Seifi et al. (2025); the current archive has segmented 90-slow-time-value samples and lacks continuous pre-gesture background/onset truth. Any new empirical claim therefore needs a materially distinct, prior-art-cleared endpoint and either a compatible independent cohort or a new consented synchronized measurement package. For physical measurement, obtain exact X4 board/firmware access, new participants/session/placement conditions, and external truth. The cloud presently has no acquisition interface or new measurement package.",
+  "last_completed_update_utc": "2026-10-09T01:54:49Z",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
