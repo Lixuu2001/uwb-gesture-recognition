@@ -1,4 +1,9 @@
 
+
+# 2026-10-09 — Compact and speed-robust UWB prior-art gate
+
+A bounded review found direct prior art for generic lightweight UWB gesture models (Qiao et al., IEEE JSTARS 2023, DOI 10.1109/JSTARS.2023.3274830), same-corpus CNN-LSTM/attention feature fusion and synthetic-noise robustness (Khan & Kwon, IEEE Access 2025, DOI 10.1109/ACCESS.2025.3558293; abstract only), and same-corpus speed-induced multi-scale features (Kim et al., IEEE Access 2026, DOI 10.1109/ACCESS.2026.3671243). The reviewed papers do not establish protocol equivalence with the project's eight held-user folds, so their headline accuracies are not direct comparisons. Generic compact-CNN, feature-fusion, noise-robustness, and speed/multi-scale claims are not cleared as standalone novelties. No labels/arrays/checkpoints were read and no fitting/training was run. Report: `uwb_direction1/results/cloud_20261009_compact_speed_prior_art/RUN_REPORT.md`.
+
 ## 2026-10-09 — Multi-view synchronization evidence review
 
 The UWB-Gestures descriptor says the three X4 radars operate independently and stores views separately; each sample is 90 slow-time rows (4.5 s). The descriptor does not describe a shared trigger, timestamps, or synchronization/calibration procedure. This omission is not proof that data were captured asynchronously. The 2026 MV-GLFNet paper assumes aligned TR dimensions after identical preprocessing and notes view-alignment and possible synchronization/calibration costs in deployment. Accordingly, sample-index equality is not evidence for physical phase/time alignment; coherent phase fusion, propagation-delay estimation, and calibrated 3-D trajectory claims are unsupported by current public acquisition metadata.
