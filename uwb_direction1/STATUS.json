@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": "A materially distinct, prior-art-reviewed research question and a feasible frozen protocol. Standard single/three-view UWB-Gestures fusion is now directly covered by Xue et al. 2026, and broad X4-to-FMCW transfer by Gurbuz et al. 2020. The cross-dataset UWB-Gestures/Pantomime family-transfer question remains unvalidated. Before using Pantomime, verify explicit license/permission and archive manifest; current cloud egress lacks Zenodo access. Physical external-truth work still requires exact X4 acquisition hardware/firmware and new synchronized measurements.",
-  "remaining_user_goal": "At least one original, effective, reproducible contribution remains unvalidated. No current candidate clears both novelty and feasibility. One-/three-view fusion on the same UWB-Gestures dataset and broad cross-frequency radar transfer are preempted by direct prior art. The narrower cross-dataset two-family transfer question is not yet validated or novelty-cleared, and its external archive has no visible license field in the public record. Physical external-truth work needs X4 acquisition access plus new synchronized measurements.",
+  "remaining_user_goal": "At least one original, effective, reproducible contribution remains unvalidated. Same-dataset UWB multiview fusion and broad X4/FMCW transfer/adaptation are preempted by prior art. Cross-dataset UWB-Gestures/Pantomime family transfer remains an unevaluated endpoint, not a novelty-cleared method; exact release/manifest access is unresolved and the cloud executor cannot access Zenodo.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261009_cross_sensor_label_map/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261009_pantomime_access/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/CROSS_SENSOR_LABEL_MAP_FEASIBILITY_20261009.md",
+  "latest_literature_note": "research/PANTOMIME_ACCESS_PRIOR_ART_UPDATE_20261009.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Resolve Pantomime rights/manifest and complete direct prior-art review before considering cross-dataset family transfer. Do not rerun standard one-/three-view fusion or generic domain adaptation. No method claim, fitting, or training until candidate and access gates clear.",
-  "last_completed_update_utc": "2026-10-09T07:46:13Z",
+  "next_candidate": "The Aalto institutional portal lists Pantomime dataset CC-BY-4.0, but the DOI/version relationship to Zenodo 4459969 and data-archive manifest remain unverified; Zenodo shell egress is blocked. Continue exact-endpoint prior-art review and seek an allowed route to inspect the dataset manifest. Do not train until release linkage, manifest, novelty, and a frozen participant-disjoint protocol clear.",
+  "last_completed_update_utc": "2026-10-09T08:52:20Z",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1177,16 +1177,28 @@
     },
     "pantomime_rights": {
       "zenodo_record": "10.5281/zenodo.4459969",
-      "license_field_visible": "blank",
-      "dataset_archive_downloaded": false,
-      "source_archive_downloaded": false,
-      "manifest_verified": false
+      "aalto_dataset_license": "CC-BY-4.0",
+      "aalto_portal_doi": "10.5281/zenodo.3772659",
+      "zenodo_rendered_license_field": "blank",
+      "source_zip_preview": "top-level LICENSE and README.md visible; LICENSE contents not read",
+      "dataset_zip_manifest": "not exposed; preview returned HTTP 429",
+      "archives_downloaded": false
     },
-    "exact_cross_dataset_hand_gesture_transfer": "unvalidated_and_not_novelty_cleared"
+    "exact_cross_dataset_hand_gesture_transfer": "unvalidated_and_not_novelty_cleared",
+    "additional": {
+      "sukianto_2026": {
+        "doi": "10.1109/TRS.2026.3654128",
+        "scope": "cross-device FMCW gesture harmonization, few-label target fine-tuning and unlabeled federated adaptation; not X4 IR-UWB to Pantomime"
+      },
+      "tian_2025": {
+        "doi": "10.1109/AIIoT65859.2025.11105355",
+        "scope": "self-training cross-domain FMCW air-writing; not X4 IR-UWB to Pantomime"
+      }
+    }
   },
   "latest_executor_check": {
-    "checked_utc": "2026-10-09T07:46:13Z",
-    "cloud_egress": "restricted; Zenodo host not allowed",
+    "checked_utc": "2026-10-09T08:52:20Z",
+    "cloud_egress": "restricted/enforced; package-manager preset only; Zenodo not allowed",
     "configured_capabilities": 0,
     "secrets": 0,
     "outbound_identities": 0,
@@ -1194,7 +1206,20 @@
     "active_research_process_found": false,
     "original_uwb_data_present": true,
     "original_789_source_snapshot_present": true,
-    "external_archive_or_labels_read": false,
+    "external_archive_downloaded": false,
+    "external_samples_or_labels_read": false,
+    "project_labels_or_radar_arrays_read": false,
     "training_started": false
+  },
+  "latest_continuation_addendum": "memory/CLOUD_CONTINUATION_20261009_PANTOMIME_ACCESS.md",
+  "pantomime_rights_review": {
+    "aalto_institutional_portal": "CC-BY-4.0 listed under Dataset Licences for Pantomime dataset and source",
+    "portal_doi": "10.5281/zenodo.3772659",
+    "zenodo_latest_record": "10.5281/zenodo.4459969",
+    "latest_zenodo_rendered_license_field": "blank",
+    "dataset_license_evidence": "positive_institutional_record; exact release/version link still needs confirmation",
+    "source_archive_license": "separate LICENSE file visible in source ZIP preview; text not read",
+    "dataset_archive_manifest": "not reviewed; preview request returned HTTP 429",
+    "archives_downloaded": false
   }
 }
