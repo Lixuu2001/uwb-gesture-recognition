@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "candidate_novelty_gate_needs_reframing_waiting_measurements",
+  "state": "candidate_novelty_and_access_gates_unresolved",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -14,8 +14,8 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "A materially distinct research question with task-specific endpoint, external truth source, direct-prior-art clearance, and a feasible frozen protocol. If it requires physical measurement: exact X4 board revision/firmware and acquisition access, plus a new consented synchronized measurement package with new participant/session/placement conditions. Do not request manual Windows transfer.",
-  "remaining_user_goal": "At least one original, effective, reproducible research contribution remains unvalidated. The generic single-versus-three-view hand-trajectory observability candidate failed the novelty gate as written; the exact narrower external-truth/participant-session-placement question remains an unvalidated hypothesis, not a method claim. No current cloud candidate clears both novelty and feasibility gates. Need a materially distinct prior-art-cleared question and, for a physical empirical claim, exact X4 hardware/firmware access plus new synchronized measurements.",
+  "next_required_input": "A materially distinct, prior-art-reviewed research question and a feasible frozen protocol. Standard single/three-view UWB-Gestures fusion is now directly covered by Xue et al. 2026, and broad X4-to-FMCW transfer by Gurbuz et al. 2020. The cross-dataset UWB-Gestures/Pantomime family-transfer question remains unvalidated. Before using Pantomime, verify explicit license/permission and archive manifest; current cloud egress lacks Zenodo access. Physical external-truth work still requires exact X4 acquisition hardware/firmware and new synchronized measurements.",
+  "remaining_user_goal": "At least one original, effective, reproducible contribution remains unvalidated. No current candidate clears both novelty and feasibility. One-/three-view fusion on the same UWB-Gestures dataset and broad cross-frequency radar transfer are preempted by direct prior art. The narrower cross-dataset two-family transfer question is not yet validated or novelty-cleared, and its external archive has no visible license field in the public record. Physical external-truth work needs X4 acquisition access plus new synchronized measurements.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "A metadata-only two-family external endpoint is now specified (swipe vs circular), correcting the prior no-common-map note. It is not a method or novelty claim. Next: direct prior-art review and public archive license/manifest access check; if permitted, freeze participant-disjoint folds, direction, calibration budget, class aggregation and a cross-modal representation before labels/fitting. Cloud egress lacks configured capabilities; no training. Physical external-truth work still needs exact X4 acquisition access and new synchronized measurements.",
-  "last_completed_update_utc": "2026-10-09T07:31:24Z",
+  "next_candidate": "Resolve Pantomime rights/manifest and complete direct prior-art review before considering cross-dataset family transfer. Do not rerun standard one-/three-view fusion or generic domain adaptation. No method claim, fitting, or training until candidate and access gates clear.",
+  "last_completed_update_utc": "2026-10-09T07:46:13Z",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1155,5 +1155,46 @@
       "reviewed": "author-institution abstract",
       "direct_uwb_to_fmcw_transfer": false
     }
+  },
+  "latest_cross_sensor_prior_art_review": {
+    "xue_2026": {
+      "doi": "10.3389/fnins.2026.1864448",
+      "same_dataset": "UWB-Gestures public 12-class dataset",
+      "sensors": "three X4 views: left/top/right",
+      "participants": 8,
+      "protocol": "6 subjects train / 2 subjects test; subject-independent",
+      "view_settings": "single, all dual pairs, tri-view",
+      "tri_view_accuracy_percent": 98.29,
+      "novelty_implication": "preempts generic same-dataset one-vs-three-view fusion and the named global/local gated-bilinear architecture"
+    },
+    "gurbuz_2020": {
+      "doi": "10.1117/12.2559155",
+      "sensors": "X4 IR-UWB, 24-GHz FMCW, 77-GHz FMCW",
+      "participants": 6,
+      "classes": 11,
+      "task": "activities/gaits; cross-frequency transfer/pretraining",
+      "novelty_implication": "preempts broad X4-to-FMCW or cross-frequency radar transfer claim"
+    },
+    "pantomime_rights": {
+      "zenodo_record": "10.5281/zenodo.4459969",
+      "license_field_visible": "blank",
+      "dataset_archive_downloaded": false,
+      "source_archive_downloaded": false,
+      "manifest_verified": false
+    },
+    "exact_cross_dataset_hand_gesture_transfer": "unvalidated_and_not_novelty_cleared"
+  },
+  "latest_executor_check": {
+    "checked_utc": "2026-10-09T07:46:13Z",
+    "cloud_egress": "restricted; Zenodo host not allowed",
+    "configured_capabilities": 0,
+    "secrets": 0,
+    "outbound_identities": 0,
+    "gpu": false,
+    "active_research_process_found": false,
+    "original_uwb_data_present": true,
+    "original_789_source_snapshot_present": true,
+    "external_archive_or_labels_read": false,
+    "training_started": false
   }
 }

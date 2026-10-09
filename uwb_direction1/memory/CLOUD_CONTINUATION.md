@@ -1,3 +1,17 @@
+# Latest continuation: cross-sensor candidate blocked by direct prior art and data access (2026-10-09T07:46:13Z)
+
+The branch head at the start of this review was 5551e3bf9200fcb0fd7168d71749a4249dcbc6e5. Read STATUS.json, this continuation file, PROJECT_MEMORY.md, the latest report, and the 2026-10-09 literature note first. New full-text prior-art review materially narrows the space:
+
+- Xue, Yang & Zhu 2026 (DOI 10.3389/fnins.2026.1864448) already uses the same UWB-Gestures 12-class dataset, three X4 views (left/top/right), eight subjects, and evaluates single-, dual-, and tri-view setups under a 6-subject-train/2-subject-test protocol. Table 6 includes individual views, every two-view pairing and three-view fusion. Do not claim basic one-versus-three view comparisons, same-dataset multi-view fusion, or the paper's ConvMixer + CNN-Transformer + gated/bilinear fusion as new. Their 6/2 split is not score-comparable with our eight-fold protocol.
+- Gurbuz et al. (SPIE DOI 10.1117/12.2559155) already evaluates cross-frequency transfer involving synchronized X4 IR-UWB, 24-GHz FMCW and 77-GHz FMCW sensors (six participants, 11 activities/gaits). Broad radar-to-radar or cross-frequency transfer is not novel. This does not test the exact dynamic hand-gesture family mapping between UWB-Gestures and Pantomime, so that narrower endpoint remains unvalidated, not novelty-cleared.
+- The public Pantomime Zenodo record (10.5281/zenodo.4459969) lists 107.6-MB data and 937.5-kB source ZIPs, but visible Rights→License is blank. Dataset preview omits files and source ZIP preview failed. Do not use the archive until license/permission and manifest are confirmed.
+
+Fresh environment check: original UWB data and 789-file snapshot are present. Only zombie Python process records; no active candidate training. Egress is enforced/restricted with no Zenodo host allowance and no configured capabilities, secrets, or outbound identities. CPU-only. No external archive, labels, or arrays read; no model fit/training started. Do not launch multi-view or generic cross-frequency grids.
+
+Next gate: resolve valid Pantomime rights/access and complete direct prior-art search. If feasible, inspect only permitted metadata first; then freeze participant-disjoint folds, transfer direction, target-label budget, semantic family map, and cross-modal representation before reading target labels/fitting. Keep the project status as unvalidated. Sources and full findings are in results/cloud_20261009_cross_sensor_label_map/RUN_REPORT.md and research/CROSS_SENSOR_LABEL_MAP_FEASIBILITY_20261009.md.
+
+---
+
 ## 2026-10-09T07:31:24Z 补充跨模态手势先例
 
 Hazra et al. (SAM 2022, DOI 10.1109/SAM53842.2022.9827785)已有从camera point cloud到60GHz FMCW radar point cloud的手势cross-learning（DGCNN/Bi-LSTM）。因此不能宽泛声称“跨模态点云手势学习”新颖；该文也未测试IR-UWB/X4 CIR与FMCW点云之间的雷达-雷达数据集迁移。具体端点仍是待验证研究问题，不等于新颖性通过。只核对一手机构摘要，本轮未下载/读取数据、标签或数组，无拟合训练。来源加入CROSS_SENSOR_LABEL_MAP_FEASIBILITY_20261009.md。
