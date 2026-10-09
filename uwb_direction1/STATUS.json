@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "No current candidate clears novelty and execution gates. Generic same-dataset view-subset fusion, multi-radar failure handling, angular-diversity robustness, and modality-dropout training are preempted. New work requires either a materially distinct prior-art-reviewed question on existing data with a frozen protocol, or synchronized external truth/new cohort with acquisition hardware. Pantomime transfer remains gated by independently justified semantics, archive/license association, and participant-disjoint protocol; no fitting until gates pass.",
+  "next_required_input": "No current candidate clears novelty and execution gates. Generic same-dataset view fusion/dropout, multi-radar failure, angular-diversity robustness, and UWB open-set recognition are preempted by direct prior art. New work needs a materially distinct, literature-reviewed question with a frozen participant-disjoint protocol, or synchronized external truth/new cohort plus acquisition hardware. Pantomime transfer remains gated by independent semantics and archive/license association; no fitting until all gates pass.",
   "remaining_user_goal": "At least one original, effective, reproducible contribution remains unvalidated. The Pantomime endpoint is not novelty-cleared; name-level swipe/circular aggregation alone is not a method. Same-dataset multiview, broad X4/FMCW adaptation, and generic heterogeneous gesture transfer are preempted. No training until a distinct method and feasible, frozen participant-disjoint protocol clear.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261009_open_set_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not run generic view dropout, subset fusion, or angular-diversity experiments. Continue the Pantomime gate only if the cross-dataset question becomes scientifically meaningful and the archive/semantic constraints can be independently verified; otherwise the viable path is a new synchronized cohort that cannot be acquired in this CPU-only cloud executor.",
-  "last_completed_update_utc": "2026-10-09 12:11:34 UTC",
+  "next_candidate": "Do not run generic open-set recognition, view-subset fusion, sensor dropout, or angular-diversity experiments. Continue only with a materially distinct prior-art-reviewed question that can be tested on available data, or new synchronized cohort with external motion truth and capture hardware; Pantomime remains gated.",
+  "last_completed_update_utc": "2026-10-09 13:14:35 UTC",
   "latest_environment_preflight": {
     "report": "results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1255,6 +1255,18 @@
     "angular_diversity_degraded_view_prior": true,
     "modality_dropout_gesture_prior": true,
     "generic_view_dropout_or_subset_fusion_novelty_cleared": false,
+    "labels_or_arrays_read": false,
+    "training_started": false,
+    "method_contribution_validated": false
+  },
+  "latest_open_set_prior_art": {
+    "report": "uwb_direction1/results/cloud_20261009_open_set_prior_art/RUN_REPORT.md",
+    "eom_2025_uwb_open_set": true,
+    "yang_2026_same_dataset_uwb_gestures_open_set": true,
+    "yang_2026_five_held_out_class_splits": true,
+    "yang_2026_cross_subject_analysis": true,
+    "project_protocol_equivalence_verified": false,
+    "generic_open_set_novelty_cleared": false,
     "labels_or_arrays_read": false,
     "training_started": false,
     "method_contribution_validated": false
