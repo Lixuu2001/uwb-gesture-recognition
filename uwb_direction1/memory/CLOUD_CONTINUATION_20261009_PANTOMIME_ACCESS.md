@@ -1,0 +1,7 @@
+# Continuation addendum — Pantomime access review (2026-10-09T08:52:20Z)
+
+The Aalto institutional record for the Pantomime dataset explicitly lists CC-BY-4.0, while the later Zenodo dataset/source page leaves its Rights → License field blank. The dataset license has positive institutional evidence, but the portal DOI/version link to Zenodo 4459969 and that archive's member manifest remain to confirm. The source ZIP preview separately lists LICENSE and README; the source-code license text was not read. Dataset preview returned HTTP 429. No archive was downloaded or extracted.
+
+A primary author-institution source adds two relevant transfer precedents: Sukianto et al. 2026 on cross-device FMCW signal harmonization, few-label fine-tuning and federated refinement; Tian et al. 2025 on self-training cross-domain FMCW air-writing. These close off broad claims around FMCW device adaptation or cross-domain self-training. They do not test IR-UWB/X4 CIR to Pantomime point-cloud gesture-family transfer, which remains an unvalidated and not novelty-cleared endpoint.
+
+Cloud policy remains enforced/restricted, no Zenodo shell egress, no configured capabilities/credentials/outbound identities, and CPU-only. UWB source/data remain present. No active experiment; no labels/arrays opened, no fit, no training. Overall contribution goal remains unvalidated. See `research/PANTOMIME_ACCESS_PRIOR_ART_UPDATE_20261009.md` and `results/cloud_20261009_pantomime_access/RUN_REPORT.md`.
