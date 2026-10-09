@@ -1,3 +1,13 @@
+
+## 2026-10-09T10:17Z Pantomime endpoint and rights/prior-art review
+
+Aalto/Research.fi institutional metadata now provide positive CC-BY-4.0 evidence and associate the Pantomime dataset entry DOI 10.5281/zenodo.3772659 with Zenodo 4459969. Zenodo 4459969's visible license field is blank; the archive member manifest and file-level rights association remain unverified. No archive was downloaded or extracted, and dataset rights do not imply source-code rights.
+
+Full author-hosted Feng et al. IEEE TMC 2026 paper review confirms generic image-to-mmWave gesture transfer using trajectory-image representation and adversarial/contrastive/self-training; broad heterogeneous gesture transfer is not a novelty claim. GesturePrint evaluates Pantomime as a separate benchmark, not UWB-to-Pantomime transfer. Bounded targeted search found no exact X4/UWB-Gestures → Pantomime point-cloud family-transfer paper, but is not exhaustive. The proposed coarse “swipe/circular” map is semantic aggregation only; it does not show kinematic equivalence and is too generic alone to constitute a method.
+
+No test labels/arrays were read; no model was fitted or trained. Current process check found only defunct Python entries; no active experiment. UWB data and the 789-file source snapshot remain in place. Cloud network policy is restricted and Zenodo shell egress remains unavailable; no GPU. Do not restart old failed grids. Do not train transfer until a distinct research question, independent semantic justification, archive manifest, and participant-disjoint frozen protocol clear.
+
+Detailed records: results/cloud_20261009_endpoint_review/RUN_REPORT.md; research/PANTOMIME_ENDPOINT_PRIOR_ART_20261009.md. Overall contribution remains unvalidated.
 ## 2026-10-09T07:31:24Z 补充跨模态手势先例
 
 Hazra et al. (SAM 2022, DOI 10.1109/SAM53842.2022.9827785)已有从camera point cloud到60GHz FMCW radar point cloud的手势cross-learning（DGCNN/Bi-LSTM）。因此不能宽泛声称“跨模态点云手势学习”新颖；该文也未测试IR-UWB/X4 CIR与FMCW点云之间的雷达-雷达数据集迁移。具体端点仍是待验证研究问题，不等于新颖性通过。只核对一手机构摘要，本轮未下载/读取数据、标签或数组，无拟合训练。来源加入CROSS_SENSOR_LABEL_MAP_FEASIBILITY_20261009.md。
