@@ -1,3 +1,11 @@
+# Current continuation gate — Pantomime rights/semantics follow-up (2026-10-09)
+
+The Aalto catalog provides positive CC-BY-4.0 metadata for the dataset and links to Zenodo 4459969, but file-level license association and archive manifest are unverified; do not infer rights for source_files.zip. Public class names establish only a possible swipe/circular semantic overlap, not kinematic equivalence. Broad heterogeneous radar gesture transfer is prior art, and exact-endpoint search was bounded.
+
+No candidate clears the novelty and execution gates. Zenodo is not allowlisted for this CPU-only executor. No archives/data were downloaded, no labels/arrays were read, no training started; the restored UWB corpus and 789-file snapshot are present. Do not ask for a manual upload or rerun old negative grids. Pantomime stays blocked until a distinct sensor-physics question, independent movement-level mapping, archive manifest/rights evidence, prior-art review, and frozen participant-disjoint protocol are all clear. See `uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md`.
+
+---
+
 # Current continuation gate — 2026-10-09 (open-set prior art)
 
 A new primary-source check closes generic UWB open-set gesture recognition as a standalone contribution on the existing cohort. Eom et al. 2025 already publish UWB impulse-radar open-set recognition. Yang et al. 2026 reports open-set experiments on this exact UWB-Gestures corpus, five held-out class splits, and cross-subject analysis. Do not train a generic unknown-class rejection, threshold, OVR inspector, or prototype variant and call it novel. The article protocol has not been confirmed equivalent to this project's eight held-user folds; scores are not directly comparable. Review: `results/cloud_20261009_open_set_prior_art/RUN_REPORT.md`.
