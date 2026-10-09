@@ -916,3 +916,8 @@ Group DRO作者README（含摘要和转载附录段落）与loss.py已读，主�
 数值/采样/缺组/恢复/诊断标签隔离检查通过；CPU实际源批成本含75%余量5.082小时，已开始运行，非只有计划。第4轮300步启动快照包含1–4全部轮次产物及完整optimizer/RNG/q/best/tail，9,004,704字节29成员2私有Drive块，认证重下载重组及SHA全部通过。启动打包打印变量遮蔽报错已修复并独立重验，不影响训练；启动快照不是最终18轨迹备份。
 
 见results/cloud_20261003_regularized_groups/START_REPORT.md、RESTORE.md、START_DRIVE_RECEIPT.json。队列完成会自动全量功能式前向、源ID/q/选择/产物SHA审计；之后仍需完整私有备份最终权重/优化器/日志，再提交真实汇总。当前没有最终识别增益/创新结论，目标未达，保留自动接续。原数据及789源码快照不变。
+
+
+## Latest — UWB open-set prior-art gate (2026-10-09)
+
+A primary-source review found that UWB open-set gesture recognition is already published: Eom et al. (IEEE IoT Journal, 2025, DOI 10.1109/JIOT.2025.3556901) use UWB impulse radar, Transformer features, and per-known-class inspectors. More directly, Yang et al. (Measurement Science and Technology, 2026, DOI 10.1088/1361-6501/ae7fab) reports open-set evaluation on the same 12-class UWB-Gestures dataset with five held-out gesture-class splits, plus cross-subject analysis. Generic unknown-class rejection or a different class split is not cleared as a new method. This does not establish equivalence with our eight-fold held-user protocol or justify numeric comparisons. No labels/arrays/files were accessed; no fitting/training started. Report: `uwb_direction1/results/cloud_20261009_open_set_prior_art/RUN_REPORT.md`.
