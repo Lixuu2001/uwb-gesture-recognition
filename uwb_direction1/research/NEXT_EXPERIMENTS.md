@@ -1,3 +1,11 @@
+# Current continuation gate — multi-view synchronization evidence (2026-10-09)
+
+The descriptor confirms independent monostatic X4 views and 90 slow-time rows per gesture, but does not state a common trigger/timestamp or synchronization procedure. The omission does not prove asynchronous recording. MV-GLFNet assumes aligned TR dimensions and acknowledges view alignment and possible sync/calibration deployment costs. Thus index-aligned tensors are insufficient evidence for coherent cross-radar phase/delay fusion or calibrated 3-D trajectory claims. Same-corpus view-subset fusion is preempted; generic radar-camera DTW alignment is adjacent prior art. Do not run a generic alignment/fusion grid.
+
+No labels/arrays were read, no training started, no active checkpoint writer found; restored data receipt is verified. Any candidate needs a distinct mechanism, defensible timing or motion truth, prior-art review, and frozen participant-disjoint protocol. No current candidate clears gates. Report: `uwb_direction1/results/cloud_20261009_multiview_sync_review/RUN_REPORT.md`.
+
+---
+
 # Current continuation gate — Pantomime rights/semantics follow-up (2026-10-09)
 
 The Aalto catalog provides positive CC-BY-4.0 metadata for the dataset and links to Zenodo 4459969, but file-level license association and archive manifest are unverified; do not infer rights for source_files.zip. Public class names establish only a possible swipe/circular semantic overlap, not kinematic equivalence. Broad heterogeneous radar gesture transfer is prior art, and exact-endpoint search was bounded.
