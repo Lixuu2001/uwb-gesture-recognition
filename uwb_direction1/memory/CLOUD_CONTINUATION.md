@@ -1,3 +1,22 @@
+# Latest continuation update — 2026-10-09T10:17Z
+
+Read the current STATUS, this file, PROJECT_MEMORY, and the prior report before continuing. The current supplemental status/report/note are referenced from STATUS.json; this block reconciles the root memory with those latest files.
+
+The candidate UWB-Gestures/X4 → Pantomime/mmWave point-cloud family-transfer endpoint remains unevaluated and is not novelty-cleared. Aalto and Research.fi institutional metadata give positive CC-BY-4.0 evidence and associate the Pantomime entry (DOI 10.5281/zenodo.3772659) with Zenodo 4459969. However the exact archive member manifest and file-level license association have not been independently checked; the Zenodo record's visible license field is blank. Do not infer a license for source_files.zip.
+
+Targeted primary-literature review: Feng et al. 2026 transfer open-image gesture knowledge to unlabeled FMCW/mmWave signals using trajectory images, adversarial/contrastive alignment and self-training, preempting broad heterogeneous gesture transfer claims. GesturePrint evaluates Pantomime as one of several separate benchmarks, not by transfer from UWB-Gestures. A bounded exact-endpoint search did not find an X4-to-Pantomime paper; it is not exhaustive clearance. The broad “swipe/circular” name map does not establish kinematic equivalence and is too generic alone to be a method contribution. Do not train this candidate unless a substantive method, target-label-independent mapping, verified archive manifest, and frozen participant-disjoint protocol all clear.
+
+Current cloud recheck: UWB data and all 789 source files are present; three Python entries are defunct only; no active training/checkpoint writer is running. Shell egress remains enforced/restricted and does not allow Zenodo; CPU-only. No labels/arrays were opened and no training started. Do not re-download already verified UWB files or re-run negative model grids.
+
+Current owner-directed next step: continue bounded prior-art screening for a genuinely distinct, testable question using data already in cloud; preserve negative-result gates and stop before fitting if no candidate clears. Pantomime remains blocked at archive/manifest access and novelty/protocol gates. Research goal remains unvalidated.
+See:
+- results/cloud_20261009_endpoint_review/RUN_REPORT.md
+- research/PANTOMIME_ENDPOINT_PRIOR_ART_20261009.md
+- memory/CLOUD_CONTINUATION_20261009_ENDPOINT_REVIEW.md
+- STATUS.json
+
+---
+
 # Latest continuation: cross-sensor candidate blocked by direct prior art and data access (2026-10-09T07:46:13Z)
 
 The branch head at the start of this review was 5551e3bf9200fcb0fd7168d71749a4249dcbc6e5. Read STATUS.json, this continuation file, PROJECT_MEMORY.md, the latest report, and the 2026-10-09 literature note first. New full-text prior-art review materially narrows the space:
