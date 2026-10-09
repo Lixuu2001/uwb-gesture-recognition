@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261009_zenodo_metadata_review/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "The Aalto/Research.fi institutional metadata links the CC-BY Pantomime dataset record (DOI 10.5281/zenodo.3772659) to Zenodo 4459969; exact archive manifest/license-to-file association remains unverified and Zenodo egress is blocked. Targeted review found no exact UWB-Gestures/X4-to-Pantomime point-cloud family-transfer paper, but the coarse semantic map is too generic to claim a method. Continue only with a distinct prior-art-reviewed question and target-label-independent semantic justification; do not train until archive and frozen participant-disjoint protocol gates pass.",
-  "last_completed_update_utc": "2026-10-09 11:35:00 UTC",
+  "last_completed_update_utc": "2026-10-09 11:47:00 UTC",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1240,6 +1240,18 @@
     "aalto_institutional_dataset_license": "CC-BY-4.0 for DOI 10.5281/zenodo.3772659",
     "exact_license_to_archive_association_verified": false,
     "files_downloaded": false,
+    "labels_or_arrays_read": false,
+    "training_started": false,
+    "method_contribution_validated": false
+  },
+  "latest_multiview_dropout_prior_art": {
+    "report": "uwb_direction1/results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md",
+    "same_dataset_x4_single_dual_tri_view_prior": true,
+    "same_dataset_prior_subject_protocol": "6 train / 2 test, not directly comparable to project 8 one-user-held folds",
+    "two_fmcw_radar_failure_sample_prior": true,
+    "angular_diversity_degraded_view_prior": true,
+    "modality_dropout_gesture_prior": true,
+    "generic_view_dropout_or_subset_fusion_novelty_cleared": false,
     "labels_or_arrays_read": false,
     "training_started": false,
     "method_contribution_validated": false
