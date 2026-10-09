@@ -1,3 +1,18 @@
+# Current continuation gate — 2026-10-09T12:11Z
+
+A fresh full-text check closes generic sensor-failure and view-dropout routes too:
+- Xue et al. 2026 uses this exact X4 UWB-Gestures dataset for single-, dual-, and tri-view results.
+- Zhao et al. 2023 evaluates incomplete multi-FMCW-radar gesture samples after one radar fails.
+- Yang et al. 2018 studies angular-diversity fusion when one CW-radar view is poor.
+- ModDrop already trains gesture models with randomly missing channels.
+See `results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md`.
+
+Do not run another generic view-subset, dropout, angular-diversity, or fusion experiment as the requested original method. No current candidate clears both novelty and execution gates. The remaining possible cross-dataset X4→Pantomime endpoint is still gated by a substantive question, independent semantic justification, archive/license association, and frozen participant-disjoint protocol. Physical truth-oriented work needs a new synchronized cohort plus capture hardware absent from this executor. Current process check found no active run; CPU-only, shell egress restricted, UWB data and full source snapshot already present. No labels/arrays were opened in this review.
+
+The historical candidate plans below do not override these latest gates.
+
+---
+
 # Current continuation gate — 2026-10-09
 
 The sections below are historical candidate plans and do not override the current branch status. Several originally listed routes have already been tested and failed; do not treat the shared/private representation plan or its listed baselines as pending work. Check STATUS.json and the latest continuation report first.
