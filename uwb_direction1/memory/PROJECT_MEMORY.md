@@ -1,4 +1,12 @@
 
+## 2026-10-09 Pantomime rights and movement-semantics follow-up
+
+The Aalto institutional catalog lists the Pantomime dataset as CC-BY-4.0 and its access link targets Zenodo record 4459969. The Zenodo page is Open and lists both data and source archives, but its visible license field is blank; the catalog-to-archive association and member manifest are not independently verified. This supports dataset reuse at the catalog level, not a blanket license for the separate source archive.
+
+The public class descriptions yield only name-level directional-swipe/circular-motion overlap with UWB-Gestures. No matched kinematic instructions, handedness, axis, amplitude, or timing evidence was established. Generic heterogeneous radar gesture transfer is prior art; a bounded search not finding the exact endpoint is not novelty clearance. Thus this remains a blocked candidate, not a method or contribution.
+
+Executor check: Zenodo is not allowlisted; no data archive was fetched, no local labels/arrays were read, and no model was trained. Existing UWB data and the 789-file source snapshot remain available. No manual upload is needed. Resume only after a distinct sensor-physics question, independent movement mapping, verified manifest/rights association, and frozen participant-disjoint protocol pass. Detailed record: `uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md`.
+
 ## 2026-10-09T10:17Z Pantomime endpoint and rights/prior-art review
 
 Aalto/Research.fi institutional metadata now provide positive CC-BY-4.0 evidence and associate the Pantomime dataset entry DOI 10.5281/zenodo.3772659 with Zenodo 4459969. Zenodo 4459969's visible license field is blank; the archive member manifest and file-level rights association remain unverified. No archive was downloaded or extracted, and dataset rights do not imply source-code rights.
