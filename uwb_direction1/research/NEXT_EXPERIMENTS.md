@@ -1,3 +1,9 @@
+# Current continuation gate — compact and speed-robust UWB prior art (2026-10-09)
+
+Published UWB-Gestures work already covers a lightweight UWB model, same-corpus early fusion/CNN-LSTM/attention and synthetic-noise evaluation, and speed-induced multi-scale features. Do not launch generic compact-CNN, fusion, noise augmentation, or speed/multi-scale grids as the requested new method. The referenced papers' protocols are not established as comparable to the project's eight held-user folds; don't rank their headline scores against local results. No candidate clears novelty and execution gates. Full bounded source notes: `results/cloud_20261009_compact_speed_prior_art/RUN_REPORT.md`.
+
+---
+
 # Current continuation gate — multi-view synchronization evidence (2026-10-09)
 
 The descriptor confirms independent monostatic X4 views and 90 slow-time rows per gesture, but does not state a common trigger/timestamp or synchronization procedure. The omission does not prove asynchronous recording. MV-GLFNet assumes aligned TR dimensions and acknowledges view alignment and possible sync/calibration deployment costs. Thus index-aligned tensors are insufficient evidence for coherent cross-radar phase/delay fusion or calibrated 3-D trajectory claims. Same-corpus view-subset fusion is preempted; generic radar-camera DTW alignment is adjacent prior art. Do not run a generic alignment/fusion grid.
