@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "A metadata-only two-family external endpoint is now specified (swipe vs circular), correcting the prior no-common-map note. It is not a method or novelty claim. Next: direct prior-art review and public archive license/manifest access check; if permitted, freeze participant-disjoint folds, direction, calibration budget, class aggregation and a cross-modal representation before labels/fitting. Cloud egress lacks configured capabilities; no training. Physical external-truth work still needs exact X4 acquisition access and new synchronized measurements.",
-  "last_completed_update_utc": "2026-10-09T07:29:49Z",
+  "last_completed_update_utc": "2026-10-09T07:31:24Z",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1142,11 +1142,18 @@
       ]
     },
     "mapping_basis": "published label dictionaries only; semantic aggregation, not sample-level kinematic equivalence",
-    "direct_prior_art_search": "bounded; no direct IR-UWB/X4 to FMCW point-cloud dynamic hand-gesture transfer match identified; not exhaustive",
+    "direct_prior_art_search": "bounded; includes camera-to-FMCW radar point-cloud cross-learning, general cross-modal sensing, FMCW device adaptation, and UWB-FMCW digit transfer; no direct IR-UWB/X4-to-FMCW-point-cloud gesture transfer match identified; not exhaustive",
     "dataset_downloaded": false,
     "labels_or_arrays_read": false,
     "training_started": false,
     "method_contribution_validated": false,
-    "archive_license_and_manifest_verified": false
+    "archive_license_and_manifest_verified": false,
+    "camera_radar_pointcloud_prior_art": {
+      "paper": "Hazra et al., SAM 2022",
+      "doi": "10.1109/SAM53842.2022.9827785",
+      "scope": "camera point-cloud to 60GHz FMCW radar point-cloud gesture cross-learning",
+      "reviewed": "author-institution abstract",
+      "direct_uwb_to_fmcw_transfer": false
+    }
   }
 }

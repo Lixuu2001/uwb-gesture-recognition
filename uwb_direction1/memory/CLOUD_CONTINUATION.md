@@ -1,3 +1,7 @@
+## 2026-10-09T07:31:24Z 补充跨模态手势先例
+
+Hazra et al. (SAM 2022, DOI 10.1109/SAM53842.2022.9827785)已有从camera point cloud到60GHz FMCW radar point cloud的手势cross-learning（DGCNN/Bi-LSTM）。因此不能宽泛声称“跨模态点云手势学习”新颖；该文也未测试IR-UWB/X4 CIR与FMCW点云之间的雷达-雷达数据集迁移。具体端点仍是待验证研究问题，不等于新颖性通过。只核对一手机构摘要，本轮未下载/读取数据、标签或数组，无拟合训练。来源加入CROSS_SENSOR_LABEL_MAP_FEASIBILITY_20261009.md。
+
 ## 2026-10-09T07:29:49Z 跨雷达手势族标签映射：得到粗映射，仍未得到方法
 
 根据UWB-Gestures与Pantomime已发表标签字典，固定一个仅用于候选设计的两族映射：UWB八个方向swipe→Pantomime左右swipe→swipe；UWB CW/CCW rotation→Pantomime CW/CCW circle→circular。排除UWB inward-push/empty与Pantomime push/pull及其他类，不能只凭文字把inward-push映射到push。映射是语义聚合，不是样本运动学等价；两数据格式/硬件/受试者/序列条件差异显著，必须定义模态桥接。原先“无任何元数据共同标签”的说法已由本条修正，但仍无直接先例穷尽审查、无有效方法/结果/贡献结论。

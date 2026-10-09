@@ -17,3 +17,8 @@ The Pantomime Zenodo record lists a public 107.6 MB dataset archive and 937.5 kB
 3. Stop if class balance/sequence semantics do not support the frozen endpoint or if a matching prior method is found. Do not report native UWB accuracy as cross-sensor transfer.
 
 The overall research goal remains unvalidated. No training is running.
+
+
+## Additional prior art check (2026-10-09)
+
+Hazra et al. (SAM 2022; DOI 10.1109/SAM53842.2022.9827785) report cross-learning from camera point clouds to 60-GHz FMCW radar point clouds for gesture recognition. This directly preempts a broad cross-modal point-cloud gesture learning claim. It does not test IR-UWB/X4 CIR against FMCW radar point clouds, so that specific transfer endpoint remains unvalidated rather than novelty-cleared. This is a bounded metadata/abstract check only; no archive download, labels, arrays, or model fitting.

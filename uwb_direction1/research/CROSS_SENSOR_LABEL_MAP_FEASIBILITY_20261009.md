@@ -33,3 +33,8 @@ Zenodo publicly lists the Pantomime archive (dataset ZIP about 107.6 MB plus sou
 - Sukianto et al. (2026), DOI 10.1109/TRS.2026.3654128: https://doi.org/10.1109/TRS.2026.3654128
 - Jung et al. (2023), DOI 10.1109/JSEN.2023.3289232: https://doi.org/10.1109/JSEN.2023.3289232
 - DI-Gesture authors' repository: https://github.com/leeyadong/cross_domain_gesture_dataset
+
+
+## 2026-10-09T07:31Z Additional cross-modal prior art
+
+A primary author-institution record for Hazra et al. (SAM 2022, DOI 10.1109/SAM53842.2022.9827785) describes gesture cross-learning from camera point clouds to 60-GHz FMCW radar point clouds using DGCNN/Bi-LSTM. This is closer than generic RGB/depth sensing and preempts a broad claim that cross-modal point-cloud gesture learning is new. It still does not use IR-UWB/X4 CIR or test transfer between independently collected UWB and FMCW radar cohorts. Treat the exact UWB-to-FMCW radar-to-radar endpoint as unvalidated and continue the bounded direct-prior-art review; do not infer novelty from the modality pair alone.
