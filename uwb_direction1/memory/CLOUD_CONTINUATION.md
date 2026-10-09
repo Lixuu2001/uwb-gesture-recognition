@@ -1,3 +1,7 @@
+# Continuation update — Zenodo metadata follow-up (2026-10-09T11:35Z)
+
+Browser review of the current Zenodo 4459969 page confirms the record is marked Open and lists `dataset_5_11_2020.zip` (107.6 MB) and `source_files.zip` (937.5 kB), with the expected Pantomime description/creators and DOI 4459969. Its visible license field is blank. Aalto's institutional portal assigns CC-BY-4.0 to Pantomime under DOI 3772659 and links to Zenodo, but the file-by-file association between that catalog record and both ZIPs remains unverified; do not infer a source-code license. No archive, UWB label, or radar array was downloaded/read; no model was fit or trained. This is metadata progress only, not novelty clearance or a validated method. The current CPU/restricted-egress environment still has no active training or acquisition hardware. Full details: `uwb_direction1/results/cloud_20261009_zenodo_metadata_review/RUN_REPORT.md`.
+
 # Latest continuation update — 2026-10-09T10:17Z
 
 Read the current STATUS, this file, PROJECT_MEMORY, and the prior report before continuing. The current supplemental status/report/note are referenced from STATUS.json; this block reconciles the root memory with those latest files.
