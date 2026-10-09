@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261009_endpoint_review/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261009_zenodo_metadata_review/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "The Aalto/Research.fi institutional metadata links the CC-BY Pantomime dataset record (DOI 10.5281/zenodo.3772659) to Zenodo 4459969; exact archive manifest/license-to-file association remains unverified and Zenodo egress is blocked. Targeted review found no exact UWB-Gestures/X4-to-Pantomime point-cloud family-transfer paper, but the coarse semantic map is too generic to claim a method. Continue only with a distinct prior-art-reviewed question and target-label-independent semantic justification; do not train until archive and frozen participant-disjoint protocol gates pass.",
-  "last_completed_update_utc": "2026-10-09 10:17:23 UTC",
+  "last_completed_update_utc": "2026-10-09 11:35:00 UTC",
   "latest_environment_preflight": {
     "report": "results/cloud_20261008_environment_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1227,6 +1227,20 @@
     "exact_endpoint_paper_found": false,
     "search_scope": "bounded targeted search; not exhaustive",
     "semantic_mapping_validated": false,
+    "training_started": false,
+    "method_contribution_validated": false
+  },
+  "latest_web_metadata_review": {
+    "report": "uwb_direction1/results/cloud_20261009_zenodo_metadata_review/RUN_REPORT.md",
+    "zenodo_record": "https://zenodo.org/records/4459969",
+    "dataset_marked_open": true,
+    "dataset_archive": "dataset_5_11_2020.zip (107.6 MB)",
+    "source_archive": "source_files.zip (937.5 kB)",
+    "zenodo_visible_license_field": "blank",
+    "aalto_institutional_dataset_license": "CC-BY-4.0 for DOI 10.5281/zenodo.3772659",
+    "exact_license_to_archive_association_verified": false,
+    "files_downloaded": false,
+    "labels_or_arrays_read": false,
     "training_started": false,
     "method_contribution_validated": false
   }
