@@ -707,3 +707,8 @@ Group DRO作者README（含摘要和转载附录段落）与loss.py已读，主�
 
 A read-only browser check of Zenodo 4459969 confirms the Pantomime dataset/source record is marked Open and exposes two archives and their sizes/hashes in its page: dataset zip 107.6 MB, source archive 937.5 kB. The Zenodo Rights/License field is blank. Aalto's institutional catalog lists CC-BY-4.0 for the Pantomime dataset under DOI 3772659 and links to Zenodo, but exact license-to-file association for the 4459969 dataset ZIP and separate source ZIP remains unverified. No archive was downloaded/extracted; no labels/arrays/model/training were touched. This is not a research contribution or novelty clearance. Current shell remains CPU-only/restricted-egress and no training process was found. See `uwb_direction1/results/cloud_20261009_zenodo_metadata_review/RUN_REPORT.md`.
 
+
+## 2026-10-09 — Multi-view/dropout method gate
+
+A full-text review of the 2026 MV-GLFNet paper shows same-dataset X4 UWB single/dual/tri-view and view-subset evaluation; the paper uses six train and two test subjects, unlike this project's eight one-user-held folds. Zhao et al. (VTC 2023) evaluates incomplete samples after one of two FMCW radars fails; Yang et al. (IET RSN 2018) studies degraded-view robustness with two angularly diverse CW radars; ModDrop already introduces random modality dropping for gesture recognition. Generic sensor-dropout, view-subset fusion, and angular-diversity claims are therefore closed as standalone novelties. No labels/arrays were read or training started. Report: `uwb_direction1/results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md`.
+
