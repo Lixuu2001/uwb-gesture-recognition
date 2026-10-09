@@ -702,3 +702,8 @@ Group DRO作者README（含摘要和转载附录段落）与loss.py已读，主�
 数值/采样/缺组/恢复/诊断标签隔离检查通过；CPU实际源批成本含75%余量5.082小时，已开始运行，非只有计划。第4轮300步启动快照包含1–4全部轮次产物及完整optimizer/RNG/q/best/tail，9,004,704字节29成员2私有Drive块，认证重下载重组及SHA全部通过。启动打包打印变量遮蔽报错已修复并独立重验，不影响训练；启动快照不是最终18轨迹备份。
 
 见results/cloud_20261003_regularized_groups/START_REPORT.md、RESTORE.md、START_DRIVE_RECEIPT.json。队列完成会自动全量功能式前向、源ID/q/选择/产物SHA审计；之后仍需完整私有备份最终权重/优化器/日志，再提交真实汇总。当前没有最终识别增益/创新结论，目标未达，保留自动接续。原数据及789源码快照不变。
+
+## 2026-10-09T11:35Z — Zenodo record metadata follow-up
+
+A read-only browser check of Zenodo 4459969 confirms the Pantomime dataset/source record is marked Open and exposes two archives and their sizes/hashes in its page: dataset zip 107.6 MB, source archive 937.5 kB. The Zenodo Rights/License field is blank. Aalto's institutional catalog lists CC-BY-4.0 for the Pantomime dataset under DOI 3772659 and links to Zenodo, but exact license-to-file association for the 4459969 dataset ZIP and separate source ZIP remains unverified. No archive was downloaded/extracted; no labels/arrays/model/training were touched. This is not a research contribution or novelty clearance. Current shell remains CPU-only/restricted-egress and no training process was found. See `uwb_direction1/results/cloud_20261009_zenodo_metadata_review/RUN_REPORT.md`.
+
