@@ -1,4 +1,10 @@
 
+## 2026-10-09 — Multi-view synchronization evidence review
+
+The UWB-Gestures descriptor says the three X4 radars operate independently and stores views separately; each sample is 90 slow-time rows (4.5 s). The descriptor does not describe a shared trigger, timestamps, or synchronization/calibration procedure. This omission is not proof that data were captured asynchronously. The 2026 MV-GLFNet paper assumes aligned TR dimensions after identical preprocessing and notes view-alignment and possible synchronization/calibration costs in deployment. Accordingly, sample-index equality is not evidence for physical phase/time alignment; coherent phase fusion, propagation-delay estimation, and calibrated 3-D trajectory claims are unsupported by current public acquisition metadata.
+
+Same-corpus single/dual/tri-view fusion is already published, and generic radar-camera DTW alignment is adjacent prior art. This review does not clear a new alignment method. No labels/arrays were read; no training started. The restored 86-file transfer receipt remains verified, and process inspection found no active run. Detailed source and gate: `uwb_direction1/results/cloud_20261009_multiview_sync_review/RUN_REPORT.md`.
+
 ## 2026-10-09 Pantomime rights and movement-semantics follow-up
 
 The Aalto institutional catalog lists the Pantomime dataset as CC-BY-4.0 and its access link targets Zenodo record 4459969. The Zenodo page is Open and lists both data and source archives, but its visible license field is blank; the catalog-to-archive association and member manifest are not independently verified. This supports dataset reuse at the catalog level, not a blanket license for the separate source archive.
