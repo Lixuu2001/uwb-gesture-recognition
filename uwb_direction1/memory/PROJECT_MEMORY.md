@@ -712,3 +712,8 @@ A read-only browser check of Zenodo 4459969 confirms the Pantomime dataset/sourc
 
 A full-text review of the 2026 MV-GLFNet paper shows same-dataset X4 UWB single/dual/tri-view and view-subset evaluation; the paper uses six train and two test subjects, unlike this project's eight one-user-held folds. Zhao et al. (VTC 2023) evaluates incomplete samples after one of two FMCW radars fails; Yang et al. (IET RSN 2018) studies degraded-view robustness with two angularly diverse CW radars; ModDrop already introduces random modality dropping for gesture recognition. Generic sensor-dropout, view-subset fusion, and angular-diversity claims are therefore closed as standalone novelties. No labels/arrays were read or training started. Report: `uwb_direction1/results/cloud_20261009_multiview_dropout_prior_art/RUN_REPORT.md`.
 
+
+
+## 2026-10-09 — same-dataset open-set prior art
+
+A new bounded primary-source review closes generic open-set UWB gesture recognition as a standalone novelty on the current corpus. Eom et al. (2025, DOI 10.1109/JIOT.2025.3556901) publish UWB impulse-radar open-set recognition; Yang et al. (2026, DOI 10.1088/1361-6501/ae7fab) explicitly reports open-set results on the same UWB-Gestures corpus, five held-out class splits, and cross-subject analysis. A new threshold/inspector or class split is not enough. The paper split is not shown to match this project's eight user-held folds, so do not compare scores directly. No data/labels read, no fit/train. Current validated contribution remains absent. Evidence: `results/cloud_20261009_open_set_prior_art/RUN_REPORT.md`.
