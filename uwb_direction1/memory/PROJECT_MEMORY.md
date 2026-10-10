@@ -792,3 +792,8 @@ A full-text review of the 2026 MV-GLFNet paper shows same-dataset X4 UWB single/
 ## 2026-10-09 — same-dataset open-set prior art
 
 A new bounded primary-source review closes generic open-set UWB gesture recognition as a standalone novelty on the current corpus. Eom et al. (2025, DOI 10.1109/JIOT.2025.3556901) publish UWB impulse-radar open-set recognition; Yang et al. (2026, DOI 10.1088/1361-6501/ae7fab) explicitly reports open-set results on the same UWB-Gestures corpus, five held-out class splits, and cross-subject analysis. A new threshold/inspector or class split is not enough. The paper split is not shown to match this project's eight user-held folds, so do not compare scores directly. No data/labels read, no fit/train. Current validated contribution remains absent. Evidence: `results/cloud_20261009_open_set_prior_art/RUN_REPORT.md`.
+
+
+## 2026-10-10 — TIM lawful institutional-repository search
+
+A bounded public-web search queried the exact TIM 2025 article title/DOI together with author-manuscript and UESTC institutional-repository terms. No lawful manuscript/repository copy surfaced. ResearchGate shows only metadata/abstract and a request-to-author option; the MVRADAR repository provides a citation and implementation materials, not the paper. This is not an exhaustive absence claim. Do not repeat the same search or reopen blocked publisher URLs unless a new lawful manuscript link appears. No author was contacted; nothing was downloaded; no labels/arrays were read; no training or checkpoint change occurred. Candidate novelty/execution gates remain unresolved, so no experiment starts. Report: `uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md`.
