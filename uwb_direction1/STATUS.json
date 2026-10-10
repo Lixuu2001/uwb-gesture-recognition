@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_range_resolved_recurrence_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_view_generalization_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "No cache-only candidate currently clears novelty and measurement-ground-truth gates. Do not open another feature/model grid without a materially distinct literature-reviewed mechanism; otherwise wait for calibrated independent radar data with synchronized motion truth.",
-  "last_completed_update_utc": "2026-10-10T11:12:40Z",
+  "next_candidate": "A held-subject + held-view benchmark may be feasible, but the protocol alone is not a method and no candidate clears novelty. Review full primary source for DOI 10.1109/TIM.2025.3637962 and verify view/sample provenance from metadata before considering a pre-registered experiment; otherwise wait for calibrated independent radar data and synchronized motion truth.",
+  "last_completed_update_utc": "2026-10-10T14:39:51Z",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1386,5 +1386,30 @@
     "active_research_process_found": false,
     "research_contribution_validated": false,
     "next_action": "do not run RQA parameter/classifier grid; await a distinct reviewed mechanism or calibrated independent radar plus synchronized hand-motion truth"
+  },
+  "latest_view_generalization_gate": {
+    "report": "results/cloud_20261010_view_generalization_prior_art/RUN_REPORT.md",
+    "review_date": "2026-10-10",
+    "branch_parent": "d5e8fc3cb5451095f0ac141292d15fe11f4459d5",
+    "exact_corpus_mv_glf_reviewed": true,
+    "mv_glf_input_settings": [
+      "left",
+      "right",
+      "top",
+      "left+right",
+      "left+top",
+      "right+top",
+      "left+right+top"
+    ],
+    "mv_glf_protocol": "6 subjects train / 2 subjects test; no held-out-view test reported",
+    "angular_diversity_prior_art": "Yang et al. 2018 full text",
+    "tim_2025_multiview_dg_fulltext_verified": false,
+    "leave_one_view_out_method_novelty_cleared": false,
+    "paired_view_sample_provenance_verified": false,
+    "training_started": false,
+    "active_job_found": false,
+    "restored_cache_present": true,
+    "cuda_available": false,
+    "next_action": "Review full primary source for DOI 10.1109/TIM.2025.3637962 and verify view/sample provenance from metadata. Do not run held-view folds until a distinct method clears novelty."
   }
 }
