@@ -1,3 +1,11 @@
+# Latest continuation update — full-text left/right asymmetry closes the generic mirror premise (2026-10-10T22:12:24.974Z)
+
+The full text of Xue et al. (Frontiers in Neuroscience 2026, DOI 10.3389/fnins.2026.1864448) discusses left/right performance asymmetry as potentially due to asymmetric gesture execution, view-dependent scattering, or self-occlusion. Because the exact physical reflection and label mapping is unverified, do not infer mirror-label equivariance or train generic reflection/sensor-permutation augmentation. Same-corpus single/dual/tri-view fusion is already published; held-view evaluation alone is not a method claim. Earlier physical-augmentation citations remain literature leads whose full papers have not been reviewed. Report: `uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md`.
+
+Cloud executor is available now: no external UWB process found; PyTorch 2.14.0+cpu, five CPUs, no CUDA or acquisition device nodes. The restored data is present. This local executor exposes 31 project-source files; the remote branch's 789-file source snapshot remains untouched. Historical checkpoint files exist from prior probes, but none was loaded or altered. No labels/arrays read, no training/tuning started. Continue candidate review; no method clears gates yet.
+
+---
+
 # Latest continuation update — IEEE TIM full-text route remains inaccessible (2026-10-10T18:53:05Z)
 
 A fresh legal-access retry opened IEEE Xplore document 11270504 and its stamp/PDF endpoint; the web reader returned the robot-verification page / inaccessible-URL result. The DOI destination was also inaccessible. ResearchGate exposes only metadata/abstract and explicitly asks readers to request the full text. No manuscript was obtained; the 2025 TIM prior-art review is still incomplete. Do not treat abstract or author code as a full-text review, bypass access controls, or use held-view evaluation alone as a method contribution.
