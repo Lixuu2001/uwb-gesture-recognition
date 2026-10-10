@@ -1,3 +1,11 @@
+# Latest continuation update — mirror-symmetry evidence and executor preflight (2026-10-10T22:12:31.245Z)
+
+The reviewed Xue et al. 2026 full text reports left/right performance asymmetry and notes possible asymmetric gesture execution, view-dependent scattering, or self-occlusion. The three-view corpus paper already covers single/dual/tri-view fusion. Exact sensor reflection/label mapping is unverified; generic mirror augmentation, sensor permutation, and held-view-only evaluation remain uncleared. Related generic physical radar augmentation papers were not fully reviewed. No method or experiment follows from this evidence alone.
+
+Cloud executor is live for this turn but CPU-only (PyTorch 2.14.0+cpu; five CPUs); no acquisition device or active UWB process was found. Restored data is present. The executor-local source checkout has 31 project files while GitHub retains the 789-file source snapshot, untouched. Historical checkpoints from prior probes exist but none was loaded or changed. No labels or radar-array values were read; no fit/training/tuning ran. Research goal remains unvalidated. Report: `uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — 2025 TIM multiview-DG full text remains inaccessible (2026-10-10T18:53:05Z)
 
 Direct legal attempts to open IEEE Xplore 11270504 and its stamp/PDF route still hit robot verification or inaccessible-URL responses; the DOI destination also failed. ResearchGate exposes only abstract/metadata and a request-full-text action. No primary manuscript was reviewed. Keep the exact-paper novelty gate unresolved; do not equate author code/abstract with full text or rerun these same URLs. The live cloud check found no active job, CUDA, or radar/optical acquisition device. No project arrays/labels were read or fitted. Data and 789-file source snapshot are unchanged. Report: uwb_direction1/results/cloud_20261010_tim_fulltext_access_retry/RUN_REPORT.md.
