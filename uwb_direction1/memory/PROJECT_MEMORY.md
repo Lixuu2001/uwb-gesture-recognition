@@ -1,5 +1,10 @@
 
 
+## 2026-10-10 — Restored raw-echo availability gate
+
+Read only the restored dataset file inventory and sizes. The model input is `cache/X_clutterremoved.npy`; the restored directory has no raw echo matrix, per-radar empty/background capture, source/antenna transfer calibration, or synchronization record. Do not read labels/array values to infer these. This closes alternate raw-echo clutter-filter comparisons and physical de-embedding on this restored subset; it does not assert no separate archive could ever contain raw data. Published UWB-Gestures preprocessing already documents loopback clutter filtering, while 2026 same-corpus MV-GLFNet uses MTI and notes the weak-temporal-gesture tradeoff. A generic filter swap is neither novelty-cleared nor testable from the current cache. No labels/arrays were opened; no fitting or training occurred. Report: `uwb_direction1/results/cloud_20261010_raw_signal_availability/RUN_REPORT.md`. Continue only with questions both distinct from reviewed prior art and testable on the existing clutter-removed inputs; otherwise await calibrated multi-hardware data and synchronized motion truth.
+
+
 ## 2026-10-10 — Few-shot user adaptation and motion-feature prior art
 
 A bounded primary-literature screen found a July 2026 IEEE IoT Journal paper, Tian et al., “Latent Space Consistency Learning for Few-Shot Individual Gesture Recognition With Millimeter-Wave Radar,” DOI 10.1109/JIOT.2026.3687630. Its abstract describes user-conditioned dual-prototype consistency, source-free few-label target-user adaptation with VAE latent/z-space alignment, KD, and L2-SP. This preempts generic few-shot user personalization/prototype-consistency claims as standalone novelty. The target sensor family is mmWave; the review did not establish protocol equivalence to the project's X4 IR-UWB eight held-user folds and did not obtain full text. Existing micro-Doppler/time-frequency radar gesture papers and IR-UWB direction/hand-area feature papers also preempt generic Doppler/time-frequency feature claims. This round read no project labels, arrays, or checkpoints and ran no fit/training.
