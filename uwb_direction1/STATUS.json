@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,21 +131,25 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not train generic mirror/physical-augmentation methods without a distinct literature-cleared claim and verified view/label mapping. The managed executor failed to start, preventing process/checkpoint/device inspection and experiments this turn. Resume only when the cloud executor is available or materially new lawful full-text evidence appears; do not repeat publisher/DOI/UESTC queries.",
-  "last_completed_update_utc": "2026-10-10T21:28:59Z",
+  "next_candidate": "Do not train generic mirror/physical-augmentation, view-permutation, or held-view-only methods. The reviewed same-corpus 2026 full text discusses left/right asymmetry potentially from gesture execution, view-dependent scattering, or self-occlusion, so exact reflection/label mapping is unverified. Continue a bounded audit of remaining distinct mechanisms and their primary literature; run only if a candidate clears novelty and the frozen source-only protocol/cost gates.",
+  "last_completed_update_utc": "2026-10-10T22:11:27Z",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md",
-    "observed_executor_phase": "failed",
+    "report": "uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md",
+    "observed_executor_phase": "running",
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
     "cuda_available": false,
     "torch_version": "2.14.0+cpu",
-    "shell_egress": "restricted; network policy enforced with package-manager preset, no user destinations",
+    "cpu_count": 5,
     "restored_uwb_data_present": true,
-    "full_789_source_snapshot_present": true,
-    "labels_or_radar_arrays_read": false,
+    "restored_data_path": "/workspace/uwb-restored-20260930",
+    "local_source_files_present": 31,
+    "local_full_789_source_snapshot_present": false,
+    "remote_789_source_snapshot_preserved": true,
+    "historical_weight_files_detected": 2777,
+    "dataset_labels_or_radar_array_values_read": false,
     "training_started": false,
-    "process_state_checked_this_turn": false
+    "process_state_checked_this_turn": true
   },
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
@@ -1038,7 +1042,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-10-10T12:28:41Z",
+  "last_updated_utc": "2026-10-10T22:11:27Z",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -1202,19 +1206,22 @@
     }
   },
   "latest_executor_check": {
-    "checked_utc": "2026-10-10T15:13:08Z",
-    "cloud_egress": "restricted/enforced; package-manager preset only",
+    "checked_utc": "2026-10-10T22:11:27Z",
+    "cloud_egress": "restricted/enforced; no outbound-shell research needed",
     "configured_capabilities": 0,
     "secrets": 0,
     "outbound_identities": 0,
     "gpu": false,
     "active_research_process_found": false,
+    "historical_weight_files_detected": 2777,
     "restored_uwb_data_present": true,
     "restored_data_path": "/workspace/uwb-restored-20260930",
-    "original_789_source_snapshot_present": true,
+    "current_executor_source_files": 31,
+    "current_executor_full_789_source_snapshot_present": false,
+    "remote_789_source_snapshot_preserved": true,
     "dataset_labels_or_radar_array_values_read": false,
     "fitting_or_training_started": false,
-    "publisher_fulltext_accessed": false
+    "acquisition_devices_found": false
   },
   "latest_continuation_addendum": "memory/CLOUD_CONTINUATION_20261009_ENDPOINT_REVIEW.md",
   "pantomime_rights_review": {
@@ -1465,7 +1472,8 @@
     "evaluation": "6-subject train / 2-subject test; single/dual/tri-view input ablation; no held-physical-view test reported",
     "held_view_protocol_is_method_contribution": false,
     "project_method_validated": false,
-    "report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md"
+    "report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md",
+    "left_right_asymmetry_note": "Full text discusses left/right performance asymmetry with possible causes including asymmetric gesture execution, view-dependent scattering, and self-occlusion; exact reflection/label equivariance is not established."
   },
   "latest_primary_fulltext_review_date": "2026-10-10T17:50:14Z",
   "figshare_uwb_hgr_independence_review": {
@@ -1519,7 +1527,15 @@
     "specific_multiview_permutation_equivariance_validated": false,
     "data_values_or_labels_read": false,
     "training_started": false,
-    "report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md"
+    "report": "uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md",
+    "same_corpus_left_right_asymmetry_reviewed": true,
+    "asymmetry_explanations": [
+      "asymmetric gesture execution",
+      "view-dependent scattering",
+      "self-occlusion"
+    ],
+    "exact_reflection_and_label_mapping_verified": false,
+    "generic_mirror_augmentation_novelty_cleared": false
   },
   "current_environment_attempt": {
     "timestamp_utc": "2026-10-10T21:28:59Z",
@@ -1529,5 +1545,23 @@
     "process_checkpoint_device_inspection": "not_possible",
     "training_started": false,
     "report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md"
+  },
+  "latest_view_symmetry_fulltext_review": {
+    "report": "uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md",
+    "paper": "Xue, Yang, Zhu, Neuromorphic-inspired multi-view global-local fusion for IR-UWB radar dynamic gesture recognition",
+    "doi": "10.3389/fnins.2026.1864448",
+    "full_text_reviewed": true,
+    "same_uwb_gestures_corpus": true,
+    "left_right_asymmetry_discussed": true,
+    "proposed_asymmetry_causes": [
+      "gesture execution",
+      "view-dependent scattering",
+      "self-occlusion"
+    ],
+    "exact_sensor_reflection_or_label_equivariance_verified": false,
+    "generic_mirror_or_physical_augmentation_novelty_cleared": false,
+    "project_labels_or_arrays_read": false,
+    "training_started": false,
+    "method_contribution_validated": false
   }
 }
