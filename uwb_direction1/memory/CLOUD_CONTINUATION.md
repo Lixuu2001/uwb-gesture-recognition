@@ -1,3 +1,9 @@
+# Latest continuation update — view provenance and TIM full-text gate (2026-10-10T15:13:08Z)
+
+The preserved data-loader source documents event-level pairing by participant, gesture, and repetition index across Left/Top/Right files; it describes each same-index repetition as the same physical gesture event under soft synchronization. This is provenance for grouped classification samples, not independent timestamp validation, shared-trigger timing, phase calibration, or motion ground truth. The 2025 TIM multiview-domain-generalization paper's official IEEE page was blocked by a JavaScript/robot gate; only public metadata/abstract and author implementation were accessible, so its exact held-physical-view protocol remains unresolved. A held-subject + held-view split alone is not a method contribution. No labels/arrays read; no fit/training; no active job. Keep novelty unvalidated and do not run held-view folds until a distinct method clears prior-art review.
+
+Full record: `uwb_direction1/results/cloud_20261010_view_provenance_and_tim_access/RUN_REPORT.md`.
+
 # Supplement — author-code prior-art clarification (2026-10-10T14:42:20Z)
 
 The author-released MVRADAR repository was checked after the held-view report. Its public model implementation uses five signal representations (RT/DT/RDT/ERT/ART) from one TI MIMO mmWave radar, with feature fusion, an optional domain-adversarial branch, and Dempster–Shafer evidence combination. The companion acquisition README names TI MIMO radar boards. This strengthens prior art for generic radar multirepresentation/DS fusion/domain-generalization combinations, but it is not a three-independent-X4-radar held-physical-view test. The leave-one-physical-view protocol remains an evaluation gap rather than a method contribution; no candidate has cleared novelty. No project labels/arrays read; no fit/training ran. Report: `uwb_direction1/results/cloud_20261010_view_generalization_prior_art/RUN_REPORT.md`.
