@@ -1,3 +1,7 @@
+## 2026-10-10 — Temporal-reversal augmentation prior-art gate
+
+Generic temporal sequence inversion/reversal as radar gesture augmentation is directly present in RaGeoSense (Scientific Reports 2025, DOI 10.1038/s41598-025-00065-8); Retro-Actions (ICCVW 2019) provides action-recognition prior art for time reversal with class-label transforms. We therefore closed generic reverse-sequence augmentation as a standalone novelty claim. Public UWB-Gestures class names contain inverse swipe pairs and CW/CCW, but inward-push lacks an outward-pull counterpart, so the full label set is not closed under this action. Current clutter-removed 90-row inputs and acquisition metadata provide no frame-level motion truth to validate a reversed sample as a physical reverse action. No labels/arrays were read, no fit/train ran, and no active training was found. This gate does not rule out all specific equivariant models, which would need separate review. Report: `uwb_direction1/results/cloud_20261010_time_reversal_gate/RUN_REPORT.md`.
+
 
 
 ## 2026-10-10 — Restored raw-echo availability gate

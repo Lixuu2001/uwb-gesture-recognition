@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_em_inversion_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_time_reversal_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/results/cloud_20261010_raw_signal_availability/RUN_REPORT.md",
+  "latest_literature_note": "uwb_direction1/results/cloud_20261010_time_reversal_gate/RUN_REPORT.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue only a materially distinct, primary-literature-reviewed question testable on the restored clutter-removed X4 data; do not run raw-echo preprocessing or cross-device calibration studies without those inputs. If no candidate clears, wait for calibrated independent-radar data and synchronized motion truth.",
-  "last_completed_update_utc": "2026-10-10T08:51:48Z",
+  "next_candidate": "No candidate currently clears novelty and data-feasibility gates. Continue only with a materially distinct, primary-literature-reviewed mechanism testable on restored clutter-removed inputs; do not run generic temporal-reversal augmentation. If none clears, wait for independently calibrated radar acquisition and synchronized motion truth.",
+  "last_completed_update_utc": "2026-10-10T09:57:29Z",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1347,5 +1347,16 @@
     "labels_or_array_values_read": false,
     "fitting_or_training_started": false,
     "alternate_clutter_filter_comparison_feasible_on_restored_input": false
+  },
+  "time_reversal_gate": {
+    "report": "uwb_direction1/results/cloud_20261010_time_reversal_gate/RUN_REPORT.md",
+    "generic_sequence_inversion_preempted": true,
+    "radar_gesture_sequence_inversion_prior_art": "RaGeoSense, Scientific Reports 2025, DOI 10.1038/s41598-025-00065-8; full text reviewed",
+    "action_class_label_transform_prior_art": "Retro-Actions, ICCVW 2019; institution abstract/metadata reviewed, full text not fetched (CVF returned 403)",
+    "inverse_label_set_closed": false,
+    "missing_motion_truth_for_physical_reversal_validation": true,
+    "project_labels_or_array_values_read": false,
+    "fitting_or_training_started": false,
+    "active_training_process_found": false
   }
 }

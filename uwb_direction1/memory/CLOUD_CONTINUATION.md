@@ -1,3 +1,9 @@
+# Latest continuation update — temporal-reversal gesture prior-art gate (2026-10-10T09:57:29Z)
+
+A targeted primary-source review closed generic time-reversal / sequence-inversion augmentation as a standalone novelty candidate. The full-text RaGeoSense (Scientific Reports 2025) explicitly applies sequence inversion for gesture symmetry. Retro-Actions (ICCVW 2019) studies time reversal with label transforms that exchange action classes; only its institutional abstract/metadata was reviewed here because the CVF PDF fetch returned 403, so this is not recorded as full-text review. The UWB gesture labels include inverse-direction swipe pairs and clockwise/anticlockwise classes, but inward-push has no paired outward-pull class. In addition, the current 90-row clutter-removed cache lacks frame-level motion truth to establish that a reversed recording is physically equivalent to a real reverse gesture. Therefore do not train generic reversed-sequence augmentation or claim it as a contribution. This does not exhaust every explicitly defined symmetry-equivariant architecture; any such candidate needs its own prior-art and feasibility gate.
+
+No project labels/array values were opened; no fitting/training started. Process check found only defunct Python entries. Restored cache remains present; no download/restore repeated. Report: `uwb_direction1/results/cloud_20261010_time_reversal_gate/RUN_REPORT.md`.
+
 
 
 ## 2026-10-10 — Restored raw-echo availability gate
