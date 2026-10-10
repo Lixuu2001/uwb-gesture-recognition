@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "No candidate clears novelty and execution gates. Same-corpus single/dual/tri-view fusion is prior art. The public descriptor documents three independent monostatic X4 views and 90 slow-time rows per sample but no shared trigger/timestamp procedure; this absence is not proof of asynchronous acquisition. Do not claim coherent phase/delay fusion or calibrated trajectory from matching indices. Any further method requires a materially distinct literature-reviewed question, defensible timing/semantic truth, and frozen participant-disjoint protocol; new synchronized external truth/cohort also needs acquisition hardware. No fitting until gates pass.",
+  "next_required_input": "No candidate clears novelty and execution gates. Full-wave EM inversion/physical radar normalization for gesture recognition is prior art (Sluÿters et al., IUI 2022; IEEE TIM 2026). Do not retrain it as a new method. Current cloud has no acquisition hardware; distinct physical-invariance contribution would need calibrated independent radar systems and synchronized external hand-motion truth.",
   "remaining_user_goal": "At least one original, effective, reproducible contribution remains unvalidated. The Pantomime endpoint is not novelty-cleared; name-level swipe/circular aggregation alone is not a method. Same-dataset multiview, broad X4/FMCW adaptation, and generic heterogeneous gesture transfer are preempted. No training until a distinct method and feasible, frozen participant-disjoint protocol clear.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261009_compact_speed_prior_art/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_em_inversion_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/PANTOMIME_ENDPOINT_PRIOR_ART_20261009.md",
+  "latest_literature_note": "research/EM_INVERSION_PRIOR_ART_20261010.md (logged in report; method closed)",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not run generic open-set recognition, view-subset fusion, sensor dropout, angular-diversity, compact-CNN, generic feature-fusion/noise-robustness, or speed/multi-scale experiments. Continue only with a materially distinct prior-art-reviewed question testable on available data, or new synchronized cohort with external motion truth and capture hardware; Pantomime remains gated.",
-  "last_completed_update_utc": "2026-10-09 13:14:35 UTC",
+  "next_candidate": "Continue only a materially distinct, primary-literature-reviewed question feasible with existing data; otherwise wait for calibrated multi-hardware data and synchronized motion truth. No training until gates pass.",
+  "last_completed_update_utc": "2026-10-10T00:00:00Z",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1317,5 +1317,13 @@
     "labels_or_arrays_read": false,
     "training_started": false,
     "method_contribution_validated": false
+  },
+  "latest_em_inversion_gate": {
+    "report": "uwb_direction1/results/cloud_20261010_em_inversion_gate/RUN_REPORT.md",
+    "prior_art_2022_doi": "10.1145/3490099.3511107",
+    "prior_art_2026_doi": "10.1109/TIM.2026.3729019",
+    "training_started": false,
+    "labels_or_array_values_read": false,
+    "candidate_status": "closed_prior_art_and_calibration_gate"
   }
 }
