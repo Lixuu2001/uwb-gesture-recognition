@@ -1,3 +1,7 @@
+## 2026-10-10 — Author-code clarification for multiview domain-generalization prior art
+
+The authors' public MVRADAR implementation encodes RT/DT/RDT/ERT/ART representations from one TI MIMO mmWave radar; it provides feature fusion, optional domain-adversarial learning, and Dempster–Shafer evidence fusion. This confirms broad prior art for multirepresentation radar DG/fusion, but is distinct from three independent X4 viewpoint sensors and does not establish leave-one-physical-view-out evaluation. That evaluation protocol remains a benchmark gap only; no original method is identified. No project labels/arrays were read and no fitting/training ran. Report: `uwb_direction1/results/cloud_20261010_view_generalization_prior_art/RUN_REPORT.md`.
+
 ## 2026-10-10 — Held-view generalization prior-art gate
 
 The 2026 same-corpus MV-GLFNet paper tests individual left/right/top views and all dual/tri-view input combinations under a 6-subject train / 2-subject test split. It does not report training on two views and testing on a held-out third view. Yang et al. 2018 establishes dual-radar angular diversity and robustness as prior art. Leave-one-view-out evaluation may be a testable benchmark question, but is not itself an original method. A related 2025 mmWave multiview domain-generalization paper (DOI 10.1109/TIM.2025.3637962) was found only through bibliographic/abstract metadata; publisher full text remains a required review and was not used to clear novelty.

@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "A held-subject + held-view benchmark may be feasible, but the protocol alone is not a method and no candidate clears novelty. Review full primary source for DOI 10.1109/TIM.2025.3637962 and verify view/sample provenance from metadata before considering a pre-registered experiment; otherwise wait for calibrated independent radar data and synchronized motion truth.",
-  "last_completed_update_utc": "2026-10-10T14:39:51Z",
+  "last_completed_update_utc": "2026-10-10T14:42:20Z",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1411,5 +1411,24 @@
     "restored_cache_present": true,
     "cuda_available": false,
     "next_action": "Review full primary source for DOI 10.1109/TIM.2025.3637962 and verify view/sample provenance from metadata. Do not run held-view folds until a distinct method clears novelty."
+  },
+  "latest_author_code_multiview_review": {
+    "report": "results/cloud_20261010_view_generalization_prior_art/RUN_REPORT.md",
+    "author_repository": "Tkwer/MVRADAR",
+    "author_repo_head": "b97ecefbe1c846b14990e218796efb99660e2632",
+    "public_implementation_reviewed": true,
+    "representations": [
+      "RT",
+      "DT",
+      "RDT",
+      "ERT",
+      "ART"
+    ],
+    "radar_platform": "one TI MIMO mmWave radar",
+    "evidence_fusion": "Dempster-Shafer/Dirichlet",
+    "optional_domain_adversarial_branch": true,
+    "same_as_three_independent_X4_views": false,
+    "held_physical_view_evaluation_found": false,
+    "training_started": false
   }
 }

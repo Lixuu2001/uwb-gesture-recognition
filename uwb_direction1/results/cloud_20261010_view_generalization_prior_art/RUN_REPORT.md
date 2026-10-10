@@ -27,3 +27,10 @@ This protocol is an evaluation question, not an original method. Multi-view fusi
 - No active research process was found; CUDA is unavailable; the verified restored directory remains present.
 - No novelty-cleared method is identified. Do not launch a 24-cell experiment yet.
 - Next: (a) review the full primary source for the 2025 mmWave multiview domain-generalization paper and exact radar-view OOD protocol, and (b) verify view/sample provenance using metadata only. If those gates leave a distinct mechanism, pre-register it and its source-only model-selection rules before any fit. Otherwise wait for calibrated independent radar systems and synchronized motion truth.
+
+
+## Supplement: author-released implementation review
+
+After the report above was committed, the authors' public [MVRADAR implementation](https://github.com/Tkwer/MVRADAR) was inspected as a primary software artifact (repository HEAD b97ecefbe1c846b14990e218796efb99660e2632). Its model code explicitly encodes five representations from one TI MIMO mmWave radar—RT, DT, RDT, ERT, and ART—and uses feature fusion; its training code has an optional domain-adversarial branch. The DScombine implementation performs Dempster–Shafer/Dirichlet evidence combination. The companion RadarStream README identifies TI IWR6843/IWR1843 hardware and DCA1000 raw capture.
+
+This clarifies the prior-art boundary: the 2025 work and code preempt generic radar multirepresentation fusion, DS evidence fusion, and a broad multi-view/domain-generalization combination. They do not show three independently placed X4 sensors with a train-on-two-physical-views/test-on-third-view evaluation. Thus the exact held-physical-view protocol remains unverified in the reviewed sources; its novelty is still unresolved, and an evaluation split alone is not a new method. The earlier primary paper and angular-diversity evidence remain as recorded above. No project data or labels were read and no fitting/training occurred.
