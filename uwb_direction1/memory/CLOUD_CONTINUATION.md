@@ -1026,3 +1026,10 @@ No fitting/training was started. Cloud check: restored dataset present, CPU-only
 ## 2026-10-10 — TIM lawful institutional-repository search
 
 A bounded public-web search queried the exact TIM 2025 article title/DOI together with author-manuscript and UESTC institutional-repository terms. No lawful manuscript/repository copy surfaced. ResearchGate shows only metadata/abstract and a request-to-author option; the MVRADAR repository provides a citation and implementation materials, not the paper. This is not an exhaustive absence claim. Do not repeat the same search or reopen blocked publisher URLs unless a new lawful manuscript link appears. No author was contacted; nothing was downloaded; no labels/arrays were read; no training or checkpoint change occurred. Candidate novelty/execution gates remain unresolved, so no experiment starts. Report: `uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md`.
+
+
+## 2026-10-10T21:28:59Z — mirror-augmentation prior art and executor failure
+
+A bounded literature screen found prior radar-gesture work on physically interpretable multi-range FMCW time-series augmentation (2023), physically interpretable FMCW gesture augmentation (2025), and time/Doppler augmentation for multistatic radar. These are prior-art leads from institutional/publisher records; their complete papers were not reviewed this turn. Thus generic mirror/physical augmentation is not cleared as novel; a specific multi-view sensor permutation/label-equivariance idea remains unvalidated and needs a verified view/label mapping before any run.
+
+The managed cloud environment failed to start after being marked `starting`: executor configuration-capability query failed and exec-server WebSocket connection failed. No live process/checkpoint/device inspection or experiment could be performed this turn. No labels/arrays read; no training/checkpoint changed. Last prior-turn preflight reported no process/device and CPU-only runtime, but that was not freshly verified. Report: `uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md`.
