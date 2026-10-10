@@ -1,5 +1,12 @@
 
 
+## 2026-10-10 — Few-shot user adaptation and motion-feature prior art
+
+A bounded primary-literature screen found a July 2026 IEEE IoT Journal paper, Tian et al., “Latent Space Consistency Learning for Few-Shot Individual Gesture Recognition With Millimeter-Wave Radar,” DOI 10.1109/JIOT.2026.3687630. Its abstract describes user-conditioned dual-prototype consistency, source-free few-label target-user adaptation with VAE latent/z-space alignment, KD, and L2-SP. This preempts generic few-shot user personalization/prototype-consistency claims as standalone novelty. The target sensor family is mmWave; the review did not establish protocol equivalence to the project's X4 IR-UWB eight held-user folds and did not obtain full text. Existing micro-Doppler/time-frequency radar gesture papers and IR-UWB direction/hand-area feature papers also preempt generic Doppler/time-frequency feature claims. This round read no project labels, arrays, or checkpoints and ran no fit/training.
+
+Report: `uwb_direction1/results/cloud_20261010_fewshot_gesture_prior_art/RUN_REPORT.md`. No candidate cleared the novelty gate; do not start an adaptation or feature grid. Continue only with a materially distinct, primary-literature-reviewed mechanism feasible on the existing data, or wait for the missing independent calibrated radar hardware and synchronized motion truth. Details and sources are recorded in the report.
+
+
 # 2026-10-09 — Compact and speed-robust UWB prior-art gate
 
 A bounded review found direct prior art for generic lightweight UWB gesture models (Qiao et al., IEEE JSTARS 2023, DOI 10.1109/JSTARS.2023.3274830), same-corpus CNN-LSTM/attention feature fusion and synthetic-noise robustness (Khan & Kwon, IEEE Access 2025, DOI 10.1109/ACCESS.2025.3558293; abstract only), and same-corpus speed-induced multi-scale features (Kim et al., IEEE Access 2026, DOI 10.1109/ACCESS.2026.3671243). The reviewed papers do not establish protocol equivalence with the project's eight held-user folds, so their headline accuracies are not direct comparisons. Generic compact-CNN, feature-fusion, noise-robustness, and speed/multi-scale claims are not cleared as standalone novelties. No labels/arrays/checkpoints were read and no fitting/training was run. Report: `uwb_direction1/results/cloud_20261009_compact_speed_prior_art/RUN_REPORT.md`.

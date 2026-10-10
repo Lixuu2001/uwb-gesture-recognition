@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "results/cloud_20261010_em_inversion_gate/RUN_REPORT.md",
+  "latest_literature_note": "uwb_direction1/results/cloud_20261010_fewshot_gesture_prior_art/RUN_REPORT.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Continue only a materially distinct, primary-literature-reviewed question feasible with existing data; otherwise wait for calibrated multi-hardware data and synchronized motion truth. No training until gates pass.",
-  "last_completed_update_utc": "2026-10-10T02:26:07Z",
+  "last_completed_update_utc": "2026-10-10T06:13:14Z",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1325,5 +1325,17 @@
     "training_started": false,
     "labels_or_array_values_read": false,
     "candidate_status": "closed_prior_art_and_calibration_gate"
+  },
+  "latest_fewshot_adaptation_prior_art": {
+    "report": "uwb_direction1/results/cloud_20261010_fewshot_gesture_prior_art/RUN_REPORT.md",
+    "doi": "10.1109/JIOT.2026.3687630",
+    "target": "mmWave radar gesture few-shot individualization",
+    "abstract_reviewed": true,
+    "full_text_reviewed": false,
+    "generic_few_shot_adaptation_novelty_cleared": false,
+    "generic_micro_doppler_novelty_cleared": false,
+    "project_labels_or_arrays_read": false,
+    "training_started": false,
+    "method_contribution_validated": false
   }
 }
