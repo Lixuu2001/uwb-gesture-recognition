@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_tim_fulltext_access_retry/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,10 +131,10 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue only with a lawful author manuscript/institutional repository route for DOI 10.1109/TIM.2025.3637962 or a distinct literature-cleared method. If no accessible full text/new evidence exists, do not repeat IEEE/DOI access attempts or run a held-view benchmark alone; cloud has no capture hardware/CUDA and no method has cleared novelty.",
-  "last_completed_update_utc": "2026-10-10T18:53:05Z",
+  "next_candidate": "Do not repeat the same title/DOI/UESTC search or reopen publisher endpoints unless a newly surfaced lawful author/institution manuscript link is available. Otherwise proceed only with a distinct literature-cleared candidate and frozen feasible protocol; no candidate currently clears novelty/execution gates.",
+  "last_completed_update_utc": "2026-10-10T20:15:29Z",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261010_tim_fulltext_access_retry/RUN_REPORT.md",
+    "report": "uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md",
     "observed_executor_phase": "running",
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
@@ -1489,5 +1489,21 @@
     "novelty_gate_cleared": false,
     "training_started": false,
     "report": "uwb_direction1/results/cloud_20261010_tim_fulltext_access_retry/RUN_REPORT.md"
+  },
+  "tim_2025_lawful_repo_search": {
+    "doi": "10.1109/TIM.2025.3637962",
+    "ieee_document_number": "11270504",
+    "search_scope": "Exact title/DOI plus author-manuscript and UESTC institutional-repository terms; bounded public-web search",
+    "author_or_institutional_copy_found": false,
+    "researchgate_full_text": "not_available; metadata/abstract and request-to-author only",
+    "author_repository": "MVRADAR has citation/implementation materials, not paper manuscript",
+    "exhaustive": false,
+    "author_contacted": false,
+    "file_downloaded": false,
+    "access_controls_bypassed": false,
+    "novelty_gate_cleared": false,
+    "labels_or_radar_arrays_read": false,
+    "training_started": false,
+    "report": "uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md"
   }
 }
