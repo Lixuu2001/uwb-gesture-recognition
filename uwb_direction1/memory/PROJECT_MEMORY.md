@@ -1,3 +1,9 @@
+# Latest continuation update — 2025 TIM multiview-DG full text remains inaccessible (2026-10-10T18:53:05Z)
+
+Direct legal attempts to open IEEE Xplore 11270504 and its stamp/PDF route still hit robot verification or inaccessible-URL responses; the DOI destination also failed. ResearchGate exposes only abstract/metadata and a request-full-text action. No primary manuscript was reviewed. Keep the exact-paper novelty gate unresolved; do not equate author code/abstract with full text or rerun these same URLs. The live cloud check found no active job, CUDA, or radar/optical acquisition device. No project arrays/labels were read or fitted. Data and 789-file source snapshot are unchanged. Report: uwb_direction1/results/cloud_20261010_tim_fulltext_access_retry/RUN_REPORT.md.
+
+---
+
 # Latest continuation update — Figshare duplicate release excluded as independent test data (2026-10-10T17:54:19Z)
 
 A public Figshare `UWB_HGR_Dataset` entry (27915876) explicitly calls itself a preprocessed form of the original UWB-Gestures collection and reports matching 12-class, eight-volunteer, 800-per-class, 90×183×3 metadata. It is not an independent cohort for external validation. The finding is metadata-level, not a file-level hash audit and not an exhaustive search. No 3.5 GB archive was downloaded; no labels/arrays were read and no model was fitted. Current CPU cloud has no acquisition device, CUDA, or active training process. No method has cleared novelty/validation; original source snapshot and restored data remain unchanged. Report: `uwb_direction1/results/cloud_20261010_figshare_duplicate_review/RUN_REPORT.md`.
