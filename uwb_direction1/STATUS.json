@@ -15,7 +15,7 @@
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
   "next_required_input": "No candidate clears novelty and execution gates. Full-wave EM inversion/physical radar normalization for gesture recognition is prior art (Sluÿters et al., IUI 2022; IEEE TIM 2026). Do not retrain it as a new method. Current cloud has no acquisition hardware; distinct physical-invariance contribution would need calibrated independent radar systems and synchronized external hand-motion truth.",
-  "remaining_user_goal": "At least one original, effective, reproducible contribution remains unvalidated. The Pantomime endpoint is not novelty-cleared; name-level swipe/circular aggregation alone is not a method. Same-dataset multiview, broad X4/FMCW adaptation, and generic heterogeneous gesture transfer are preempted. No training until a distinct method and feasible, frozen participant-disjoint protocol clear.",
+  "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
   "data_restore_sha256_verified": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_figshare_duplicate_review/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/memory/CLOUD_CONTINUATION_20261010_MV_GLFNET_FULLTEXT.md",
+  "latest_literature_note": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -132,9 +132,9 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "A held-subject + held-view benchmark may be feasible, but the protocol alone is not a method and no candidate clears novelty. Review full primary source for DOI 10.1109/TIM.2025.3637962 and verify view/sample provenance from metadata before considering a pre-registered experiment; otherwise wait for calibrated independent radar data and synchronized motion truth.",
-  "last_completed_update_utc": "2026-10-10T17:50:14Z",
+  "last_completed_update_utc": "2026-10-10T17:54:19Z",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md",
+    "report": "uwb_direction1/results/cloud_20261010_figshare_duplicate_review/RUN_REPORT.md",
     "observed_executor_phase": "running",
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
@@ -982,7 +982,7 @@
   "source_eigencancel_backup_members": 100,
   "source_eigencancel_completed": true,
   "source_eigencancel_encoder_training": false,
-  "latest_literature_addendum": "uwb_direction1/results/cloud_20261010_recurrence_gate/RUN_REPORT.md",
+  "latest_literature_addendum": "uwb_direction1/results/cloud_20261010_figshare_duplicate_review/RUN_REPORT.md",
   "supplemental_prior_art_original_references": [
     "original/project/experiments/p1_20260905/FIRST_PART_REPORT.md:118",
     "original/project/proposal_v2/31_第一部分新路线_用户校准与多雷达预算识别_调研方案.md:151"
@@ -1466,5 +1466,15 @@
     "project_method_validated": false,
     "report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md"
   },
-  "latest_primary_fulltext_review_date": "2026-10-10T17:50:14Z"
+  "latest_primary_fulltext_review_date": "2026-10-10T17:50:14Z",
+  "figshare_uwb_hgr_independence_review": {
+    "record_id": "27915876",
+    "page": "https://figshare.com/articles/dataset/UWB_HGR_Dataset/27915876",
+    "disposition": "not_independent_external_cohort",
+    "evidence": "Uploader describes a preprocessed form of original UWB-Gestures; 12 classes, 8 volunteers, 800 samples/class, 90x183x3 reported.",
+    "verification_scope": "public metadata only; no archive download or file-level hash comparison; targeted, not exhaustive",
+    "archive_downloaded": false,
+    "model_fit_or_training": false,
+    "method_contribution_validated": false
+  }
 }
