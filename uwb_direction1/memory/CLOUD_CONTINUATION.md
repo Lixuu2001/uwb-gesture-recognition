@@ -1,3 +1,9 @@
+# Latest continuation update — Figshare item is a processed copy of UWB-Gestures (2026-10-10T17:54:19Z)
+
+The Figshare item `UWB_HGR_Dataset` (27915876) explicitly describes itself as a preprocessed form of the original UWB-Gestures dataset and lists the same 12 classes, eight volunteers, 800 samples per class, and 90×183×3 sample shape. Treat it as a reprocessed release of the same corpus, not independent external validation. This is a bounded metadata-based exclusion, not file-level hash proof or an exhaustive dataset search. No files were downloaded (the page lists about 3.5 GB); no project labels/arrays were read, and no fitting/training ran. The cloud remains CPU-only, with no acquisition device or active training process. Report: `uwb_direction1/results/cloud_20261010_figshare_duplicate_review/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — same-corpus MV-GLFNet full-text prior art (2026-10-10T17:50:14Z)
 
 A full publisher-hosted paper now directly confirms prior art on this exact public corpus: three X4 viewpoints, MTI TR maps, early fusion, local ConvMixer plus global CNN/Transformer, and adaptive gated/bilinear fusion. It reports 6-subject train / 2-subject test and a 98.29% tri-view score; the reported view-subset ablation does not hold one physical view out. This score is not protocol-matched to the project's eight-fold results, and leave-view-out evaluation alone is not a method contribution. The separate 2025 TIM paper DOI 10.1109/TIM.2025.3637962 remains full-text inaccessible.
