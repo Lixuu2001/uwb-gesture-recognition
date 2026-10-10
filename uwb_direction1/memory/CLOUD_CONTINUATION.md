@@ -1,3 +1,11 @@
+# Latest continuation update — IEEE TIM full-text route remains inaccessible (2026-10-10T18:53:05Z)
+
+A fresh legal-access retry opened IEEE Xplore document 11270504 and its stamp/PDF endpoint; the web reader returned the robot-verification page / inaccessible-URL result. The DOI destination was also inaccessible. ResearchGate exposes only metadata/abstract and explicitly asks readers to request the full text. No manuscript was obtained; the 2025 TIM prior-art review is still incomplete. Do not treat abstract or author code as a full-text review, bypass access controls, or use held-view evaluation alone as a method contribution.
+
+Cloud check found no active UWB training process or lock/PID file, no X4/optical capture device nodes, and no CUDA (PyTorch 2.14.0+cpu, five CPUs). The verified restored dataset and all 789 source snapshot files remain present. No labels/arrays were read, no model fitted/trained, and no checkpoint/source/data changed. Report: uwb_direction1/results/cloud_20261010_tim_fulltext_access_retry/RUN_REPORT.md.
+
+---
+
 # Latest continuation update — Figshare item is a processed copy of UWB-Gestures (2026-10-10T17:54:19Z)
 
 The Figshare item `UWB_HGR_Dataset` (27915876) explicitly describes itself as a preprocessed form of the original UWB-Gestures dataset and lists the same 12 classes, eight volunteers, 800 samples per class, and 90×183×3 sample shape. Treat it as a reprocessed release of the same corpus, not independent external validation. This is a bounded metadata-based exclusion, not file-level hash proof or an exhaustive dataset search. No files were downloaded (the page lists about 3.5 GB); no project labels/arrays were read, and no fitting/training ran. The cloud remains CPU-only, with no acquisition device or active training process. Report: `uwb_direction1/results/cloud_20261010_figshare_duplicate_review/RUN_REPORT.md`.
