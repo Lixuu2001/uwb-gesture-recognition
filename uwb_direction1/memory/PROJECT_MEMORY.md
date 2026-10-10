@@ -1,3 +1,11 @@
+# Latest continuation update — same-corpus MV-GLFNet full-text prior art (2026-10-10T17:50:14Z)
+
+Full primary text reviewed for Xue et al. (Frontiers Neuroscience 2026, DOI 10.3389/fnins.2026.1864448). Same-corpus direct prior art: multi-view X4 IR-UWB, three-view MTI TR early fusion, local/global backbones, and adaptive gated plus bilinear fusion. Evaluation is 6-subject train / 2-subject test, with single/dual/tri-view input comparisons; no held-physical-view protocol is reported. The published score is not comparable to the project's eight-fold score. Leave-view-out evaluation alone is not a method contribution. The separate 2025 TIM multiview-DG paper remains a full-text gate.
+
+Current environment remains CPU-only without an active job; restored data and all 789 original source files are present. No labels/arrays read or fitting run. No candidate cleared; do not launch a held-view grid. Report: `uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — view provenance and TIM full-text gate (2026-10-10T15:13:08Z)
 
 The preserved data-loader source documents event-level pairing by participant, gesture, and repetition index across Left/Top/Right files; it describes each same-index repetition as the same physical gesture event under soft synchronization. This is provenance for grouped classification samples, not independent timestamp validation, shared-trigger timing, phase calibration, or motion ground truth. The 2025 TIM multiview-domain-generalization paper's official IEEE page was blocked by a JavaScript/robot gate; only public metadata/abstract and author implementation were accessible, so its exact held-physical-view protocol remains unresolved. A held-subject + held-view split alone is not a method contribution. No labels/arrays read; no fit/training; no active job. Keep novelty unvalidated and do not run held-view folds until a distinct method clears prior-art review.

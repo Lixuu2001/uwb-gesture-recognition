@@ -1,0 +1,7 @@
+# Continuation update — same-corpus multi-view full-text prior art (2026-10-10T17:50:14Z)
+
+A lawful publisher-hosted full text is now accessible for Xue, Yang, and Zhu, “Neuromorphic-inspired multi-view global-local fusion for IR-UWB radar dynamic gesture recognition,” Frontiers in Neuroscience (19 June 2026), DOI 10.3389/fnins.2026.1864448. It uses the public UWB-Gestures dataset, three XeThru X4 viewpoints (left/top/right), MTI time-range maps as 3-channel early-fusion inputs, local ConvMixer and global CNN/Transformer branches, and gated first-order plus bilinear second-order adaptive fusion. Thus generic same-corpus three-view fusion and local/global adaptive fusion are direct prior art.
+
+The paper reports 9,600 samples / 8 subjects, a 6-subject train / 2-subject test split, and 98.29% tri-view accuracy. Its view-subset table compares single/dual/tri inputs on that setting; it does not report training on two physical views and testing on a held-out third. Do not compare 98.29% directly with our eight-fold results. The leave-view-out split remains a benchmark question, not a method. The separate 2025 TIM paper (DOI 10.1109/TIM.2025.3637962) still lacks accessible full text in this session.
+
+Current cloud preflight: no active training process; CPU-only PyTorch 2.14.0, no CUDA; restored dataset and 789-file source snapshot remain present. No labels or radar-array values read; no fit/training ran. No new method clears novelty; do not launch a view grid. Report: `uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md`.

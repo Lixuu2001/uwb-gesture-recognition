@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_view_provenance_and_tim_access/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/memory/CLOUD_CONTINUATION_20261010_RANGE_RECURRENCE.md",
+  "latest_literature_note": "uwb_direction1/memory/CLOUD_CONTINUATION_20261010_MV_GLFNET_FULLTEXT.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -132,14 +132,15 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "A held-subject + held-view benchmark may be feasible, but the protocol alone is not a method and no candidate clears novelty. Review full primary source for DOI 10.1109/TIM.2025.3637962 and verify view/sample provenance from metadata before considering a pre-registered experiment; otherwise wait for calibrated independent radar data and synchronized motion truth.",
-  "last_completed_update_utc": "2026-10-10T15:13:08Z",
+  "last_completed_update_utc": "2026-10-10T17:50:14Z",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md",
+    "report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md",
     "observed_executor_phase": "running",
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
     "cuda_available": false,
-    "shell_egress": "restricted; Zenodo not allowlisted",
+    "torch_version": "2.14.0+cpu",
+    "shell_egress": "restricted; network policy enforced with package-manager preset, no user destinations",
     "restored_uwb_data_present": true,
     "full_789_source_snapshot_present": true,
     "labels_or_radar_arrays_read": false,
@@ -1446,5 +1447,24 @@
     "same_as_three_independent_X4_views": false,
     "held_physical_view_evaluation_found": false,
     "training_started": false
-  }
+  },
+  "same_corpus_multiview_prior_art_review_complete": true,
+  "latest_primary_fulltext_review": {
+    "paper": "Xue, Yang, Zhu, Neuromorphic-inspired multi-view global-local fusion for IR-UWB radar dynamic gesture recognition",
+    "doi": "10.3389/fnins.2026.1864448",
+    "full_text_reviewed": true,
+    "same_uwb_gestures_corpus": true,
+    "three_x4_viewpoints": true,
+    "method_prior_art": [
+      "MTI time-range preprocessing",
+      "three-view early fusion",
+      "local/global branch modeling",
+      "gated first-order and bilinear second-order fusion"
+    ],
+    "evaluation": "6-subject train / 2-subject test; single/dual/tri-view input ablation; no held-physical-view test reported",
+    "held_view_protocol_is_method_contribution": false,
+    "project_method_validated": false,
+    "report": "uwb_direction1/results/cloud_20261010_mv_glfnet_fulltext/RUN_REPORT.md"
+  },
+  "latest_primary_fulltext_review_date": "2026-10-10T17:50:14Z"
 }
