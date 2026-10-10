@@ -1,3 +1,9 @@
+# Latest continuation update — Figshare duplicate release excluded as independent test data (2026-10-10T17:54:19Z)
+
+A public Figshare `UWB_HGR_Dataset` entry (27915876) explicitly calls itself a preprocessed form of the original UWB-Gestures collection and reports matching 12-class, eight-volunteer, 800-per-class, 90×183×3 metadata. It is not an independent cohort for external validation. The finding is metadata-level, not a file-level hash audit and not an exhaustive search. No 3.5 GB archive was downloaded; no labels/arrays were read and no model was fitted. Current CPU cloud has no acquisition device, CUDA, or active training process. No method has cleared novelty/validation; original source snapshot and restored data remain unchanged. Report: `uwb_direction1/results/cloud_20261010_figshare_duplicate_review/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — same-corpus MV-GLFNet full-text prior art (2026-10-10T17:50:14Z)
 
 Full primary text reviewed for Xue et al. (Frontiers Neuroscience 2026, DOI 10.3389/fnins.2026.1864448). Same-corpus direct prior art: multi-view X4 IR-UWB, three-view MTI TR early fusion, local/global backbones, and adaptive gated plus bilinear fusion. Evaluation is 6-subject train / 2-subject test, with single/dual/tri-view input comparisons; no held-physical-view protocol is reported. The published score is not comparable to the project's eight-fold score. Leave-view-out evaluation alone is not a method contribution. The separate 2025 TIM multiview-DG paper remains a full-text gate.
