@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,11 +131,11 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not repeat the same title/DOI/UESTC search or reopen publisher endpoints unless a newly surfaced lawful author/institution manuscript link is available. Otherwise proceed only with a distinct literature-cleared candidate and frozen feasible protocol; no candidate currently clears novelty/execution gates.",
-  "last_completed_update_utc": "2026-10-10T20:15:29Z",
+  "next_candidate": "Do not train generic mirror/physical-augmentation methods without a distinct literature-cleared claim and verified view/label mapping. The managed executor failed to start, preventing process/checkpoint/device inspection and experiments this turn. Resume only when the cloud executor is available or materially new lawful full-text evidence appears; do not repeat publisher/DOI/UESTC queries.",
+  "last_completed_update_utc": "2026-10-10T21:28:59Z",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md",
-    "observed_executor_phase": "running",
+    "report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md",
+    "observed_executor_phase": "failed",
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
     "cuda_available": false,
@@ -144,7 +144,8 @@
     "restored_uwb_data_present": true,
     "full_789_source_snapshot_present": true,
     "labels_or_radar_arrays_read": false,
-    "training_started": false
+    "training_started": false,
+    "process_state_checked_this_turn": false
   },
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
@@ -1505,5 +1506,28 @@
     "labels_or_radar_arrays_read": false,
     "training_started": false,
     "report": "uwb_direction1/results/cloud_20261010_tim_repository_search/RUN_REPORT.md"
+  },
+  "mirror_symmetry_prior_art_screen": {
+    "scope": "Bounded search of radar gesture reflection/physical augmentation",
+    "prior_art_leads": [
+      "Physically-interpretable data augmentation for multi-range hand-gesture FMCW time series (2023)",
+      "Physically interpretable FMCW radar gesture augmentation (2025)",
+      "Time/Doppler-domain augmentation for multistatic radar gestures (2023)"
+    ],
+    "full_text_review_complete": false,
+    "simple_mirror_augmentation_novelty_cleared": false,
+    "specific_multiview_permutation_equivariance_validated": false,
+    "data_values_or_labels_read": false,
+    "training_started": false,
+    "report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md"
+  },
+  "current_environment_attempt": {
+    "timestamp_utc": "2026-10-10T21:28:59Z",
+    "phase_before_failure": "starting",
+    "outcome": "failed",
+    "error": "Failed to query executor configuration capabilities; exec-server WebSocket connection attempt failed.",
+    "process_checkpoint_device_inspection": "not_possible",
+    "training_started": false,
+    "report": "uwb_direction1/results/cloud_20261010_mirror_symmetry_and_executor/RUN_REPORT.md"
   }
 }
