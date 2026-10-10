@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261010_recurrence_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261010_range_resolved_recurrence_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/results/cloud_20261010_recurrence_gate/RUN_REPORT.md",
+  "latest_literature_note": "uwb_direction1/memory/CLOUD_CONTINUATION_20261010_RANGE_RECURRENCE.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -131,7 +131,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "The generic recurrence/RQA route is not novelty-cleared. Only consider a specifically defined range-resolved dynamical mechanism after reviewing direct radar-gesture prior art/full text and freezing a protocol; do not run an RQA parameter grid. Otherwise wait for calibrated hardware and synchronized motion truth.",
+  "next_candidate": "No cache-only candidate currently clears novelty and measurement-ground-truth gates. Do not open another feature/model grid without a materially distinct literature-reviewed mechanism; otherwise wait for calibrated independent radar data with synchronized motion truth.",
   "last_completed_update_utc": "2026-10-10T11:12:40Z",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261009_pantomime_rights_semantics/RUN_REPORT.md",
@@ -1036,7 +1036,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-10-10T11:12:40Z",
+  "last_updated_utc": "2026-10-10T12:28:41Z",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -1368,5 +1368,23 @@
     "project_labels_or_array_values_read": false,
     "fitting_or_training_started": false,
     "active_training_process_found": false
+  },
+  "latest_range_resolved_recurrence_gate": {
+    "report": "uwb_direction1/results/cloud_20261010_range_resolved_recurrence_gate/RUN_REPORT.md",
+    "he_2014_radar_self_similarity_prior_art_full_text": true,
+    "he_2014_input_representations": [
+      "HRRP",
+      "micro-Doppler",
+      "range-Doppler video sequence"
+    ],
+    "he_2014_task": "human gait/slow-time periodicity and angle-invariance characterization",
+    "rani_2021_radar_rqa_prior_art": "abstract/metadata only; full text not obtained",
+    "generic_range_resolved_radar_recurrence_novelty_cleared": false,
+    "exact_uwb_gesture_task_equivalence_established": false,
+    "project_labels_or_array_values_read": false,
+    "fitting_or_training_started": false,
+    "active_research_process_found": false,
+    "research_contribution_validated": false,
+    "next_action": "do not run RQA parameter/classifier grid; await a distinct reviewed mechanism or calibrated independent radar plus synchronized hand-motion truth"
   }
 }
