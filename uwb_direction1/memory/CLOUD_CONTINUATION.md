@@ -1198,3 +1198,13 @@ Reviewed two primary papers that materially narrow the remaining same-corpus nov
 - Khan & Kwon, IEEE Access 2025, DOI 10.1109/ACCESS.2025.3558293: same 12-class/eight-person/three-X4 corpus; early spatial-temporal fusion with CNN-LSTM-attention and synthetic Gaussian noise, signal inversion, and multipath tests; reports 98.33%. Full text specifies a 20% test split, but does not state participant separation. This closes generic CNN-LSTM/attention, early fusion, and synthetic-noise robustness as standalone contributions; the score is not directly comparable to held-user folds.
 
 Full scope, limitations, source links, and cloud audit: `uwb_direction1/results/cloud_20261011_same_corpus_scale_fusion_prior_art/RUN_REPORT.md`. This review is bounded, not an exhaustive novelty search. No same-corpus arrays/labels/checkpoints were read and no fitting ran. Cloud remains CPU-only, 712 MB free; no active training process. The contribution goal remains unvalidated. Next: only consider a specific signal-level mechanism with a documented distinction from this prior art and a feasible input path; do not start an experiment on this literature result alone.
+
+# 2026-10-11 — Same-corpus open-set and subject-generalization prior art
+
+Yang et al. (Measurement Science and Technology, 2026, DOI 10.1088/1361-6501/ae7fab) report UWB-Gestures experiments with a spatiotemporal graph-prototype open-set recognizer and gradient-reversal subject-feature disentanglement. This closes generic graph-prototype OSR and generic adversarial subject-invariance as standalone contributions on this cohort. The accessible publisher abstract/preview does not disclose enough to verify the participant split or comparability with our eight held-user folds; do not compare its OSR numbers with our closed-set macro accuracy.
+
+The full publisher article could not be accessed by the web reader. The report records only abstract/preview evidence and explicitly leaves protocol details unresolved. Full-text access was not bypassed and no author was contacted.
+
+Cloud preflight at 2026-10-11 22:17 UTC: managed environment observed running, revision 642; CPU-only PyTorch 2.14.0, five CPUs, no CUDA; restored data directory present; 746,266,624 bytes free; no active training process; restricted network policy. No arrays, labels, or checkpoint contents were read, and no fitting was started.
+
+The remaining action is a bounded search for a signal-specific IR-UWB mechanism absent from this same-corpus OSR/subject-invariance work, followed by an input-feasibility check. Current processed inputs do not contain raw pulse/complex echoes, per-view backgrounds, calibrated motion truth, or measured per-view acquisition costs. This prior-art review alone does not justify training.
