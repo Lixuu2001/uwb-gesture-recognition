@@ -1,3 +1,11 @@
+# Latest continuation update — frozen readout factorial baseline completed, primary gate failed (2026-10-11)
+
+Completed the registered 8-fold 2×2 balanced/uniform-weight × ridge/multinomial-logit comparison on the frozen 128-D features. Synthetic-only cost estimate was 36.76 s. All 96 readout fits and fold predictions were saved before held-user scoring. The runner then hit a final aggregation key mismatch; rather than refit, scores were independently reconstructed from the persisted predictions/evaluation files using the registered gate names. Balanced logit 94.884659% vs balanced ridge 94.897727% (−0.013068 pp; 4/8 wins; worst −1.4 pp); the registered +0.5 pp / 6 wins / −1 pp gates all fail. Balanced logit is +0.700379 pp over frozen CNN but that does not rescue the primary comparison. This is a known baseline, not a contribution. Full metrics, protocol/code identities, artifact paths and runner issue: `uwb_direction1/results/cloud_20261011_readout_loss_factorial/RUN_REPORT.md`.
+
+No encoder training, no held-user fitting/selection, and no repeated fitting occurred. Data restore remains present; no active training after completion. Do not expand this fixed lambda/head grid. Research goal remains unvalidated; continue a distinct literature-cleared candidate search.
+
+---
+
 # Latest continuation update — generic direction/area features also have IR-UWB prior art (2026-10-11)
 
 A bounded primary-source screen found earlier IR-UWB gesture work using hand movement direction and the radar-facing hand surface-area change; an IR-UWB paper's indexed abstract also claims robustness to distance/direction changes. The 2016 publisher and 2017 PubMed records were accessible, but publisher/PMC full text could not be opened in this executor, so detailed algorithms/protocols are not asserted. This further closes generic direction/area canonicalization as a standalone method idea; it does not establish quantitative transfer to this corpus. Report: `uwb_direction1/results/cloud_20261011_iruwb_hand_direction_prior_art/RUN_REPORT.md`.
