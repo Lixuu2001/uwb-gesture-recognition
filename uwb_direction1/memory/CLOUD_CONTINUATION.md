@@ -1,3 +1,11 @@
+# 2026-10-11 — Zenodo frame-labeled FMCW cohort lead; license and method gates open
+
+A public Zenodo record (DOI 10.5281/zenodo.15178095) documents 49,000 frame-labeled 60 GHz BGT60TR13C FMCW recordings: five nominal gestures (left/right/up/down swipe, push), 12 participants, plus fast/slow/wrist anomalies from eight participants, all anomalies in room e1. The archive is 36.5 GB and the record says the raw data is unchanged from its earlier IEEE DataExplorer release; count it as one cohort. The visible Zenodo Rights/License field was blank; an OpenAIRE index says CC BY but is secondary, so reuse terms remain unverified. Class names overlap X4 semantically, but motion instructions/orientation mapping are unverified, and raw FMCW differs from X4 IR-UWB range-time inputs.
+
+Cross-sensor transfer already has prior art for UWB↔FMCW air-written digit recognition (Jung et al., IEEE Sensors Journal 2023, DOI 10.1109/JSEN.2023.3289232). This blocks a broad cross-sensor-transfer novelty claim; a gesture-specific method needs its own review and evidence. No archive was downloaded, no X4 labels/arrays/checkpoints were read, and no training ran. The cloud is CPU-only with no active job. Full gate: `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`.
+
+---
+
 # 2026-10-11 — independent MCD-Gesture cohort found; access and method gates remain open
 
 A bounded search found MCD-Gesture, an independent 77 GHz AWR1843/DCA1000 corpus with 24,050 recordings from 25 users, six predefined gestures, seven negative actions, six environments, and five locations. Its gesture vocabulary may overlap X4 directional swipes/rotations/push, but exact labels and movement instructions are not yet mapped. The source repository requires a signed data/code access agreement and email; no agreement was signed, author was not contacted, and no archive was downloaded. Current X4 and MCD modalities/preprocessing differ, so it is a candidate cross-sensor cohort, not a matched external test.
