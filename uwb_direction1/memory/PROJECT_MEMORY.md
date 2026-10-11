@@ -1,3 +1,11 @@
+# 2026-10-11 research update — paired-event contrastive candidate not cleared
+
+The candidate of sample-level same-event cross-view consistency is not a method contribution as currently specified. Primary-source precedents include ViewCon (Shah et al., WACV 2023), which learns viewpoint-invariant multi-view action representations and reports domain-generalization benefits, and DVANet (Siddiqui et al., AAAI 2024), which explicitly separates action/view features using supervised contrastive losses. The X4 same-corpus MV-GLFNet paper already covers the single/dual/tri-view fusion family. A held-physical-view test split can be retained as a diagnostic, but a split plus generic contrastive objective does not establish novelty. See `uwb_direction1/results/cloud_20261011_cross_view_contrastive_prior_art/RUN_REPORT.md` for scope, citations, and executor audit.
+
+No labels, tensors, or checkpoint contents were read; no model fit or training started. Novel, effective contribution remains unvalidated.
+
+---
+
 # Latest continuation update — paired-event cross-view candidate remains unapproved (2026-10-11)
 
 Screened a possible event-paired view-consistency method for a held-physical-view test. Same-corpus Xue et al. 2026 already evaluates left/top/right and all dual/tri-view inputs under subject-independent 6/2 folds, though not train-two-views/test-third. Chen et al. 2025 TIM is abstract-level prior art for multiview OOD gesture learning; full text is still inaccessible. Do not claim an exact paired-loss preemption from that abstract. The same-event correspondence key is participant/gesture/repetition under soft synchronization, not a shared frame clock or phase/motion calibration.
