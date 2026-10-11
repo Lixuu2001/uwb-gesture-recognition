@@ -1,3 +1,9 @@
+# 2026-10-11 — current cloud capacity gate
+
+Rechecked the managed executor: running, CPU-only, restricted/enforced HTTP egress with no user egress hosts or outbound identity; `/workspace` has 712 MB free on a 32 GB filesystem. Restored X4 data is present, but the 36.5 GB Zenodo archive cannot be staged here. Process inspection found only historical defunct Python entries, no active training. No project labels, array values, or checkpoints were read. Do not download or train in this environment. Exact check is appended to `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`.
+
+---
+
 # 2026-10-11 — Zenodo frame-labeled FMCW cohort lead; license and method gates open
 
 A public Zenodo record (DOI 10.5281/zenodo.15178095) documents 49,000 frame-labeled 60 GHz BGT60TR13C FMCW recordings: five nominal gestures (left/right/up/down swipe, push), 12 participants, plus fast/slow/wrist anomalies from eight participants, all anomalies in room e1. The archive is 36.5 GB and the record says the raw data is unchanged from its earlier IEEE DataExplorer release; count it as one cohort. The visible Zenodo Rights/License field was blank; an OpenAIRE index says CC BY but is secondary, so reuse terms remain unverified. Class names overlap X4 semantically, but motion instructions/orientation mapping are unverified, and raw FMCW differs from X4 IR-UWB range-time inputs.
