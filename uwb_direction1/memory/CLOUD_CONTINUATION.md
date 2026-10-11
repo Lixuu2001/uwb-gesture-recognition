@@ -1,3 +1,11 @@
+# Latest continuation update — generic direction/area features also have IR-UWB prior art (2026-10-11)
+
+A bounded primary-source screen found earlier IR-UWB gesture work using hand movement direction and the radar-facing hand surface-area change; an IR-UWB paper's indexed abstract also claims robustness to distance/direction changes. The 2016 publisher and 2017 PubMed records were accessible, but publisher/PMC full text could not be opened in this executor, so detailed algorithms/protocols are not asserted. This further closes generic direction/area canonicalization as a standalone method idea; it does not establish quantitative transfer to this corpus. Report: `uwb_direction1/results/cloud_20261011_iruwb_hand_direction_prior_art/RUN_REPORT.md`.
+
+No UWB labels/arrays/checkpoints were read and no experiment ran. CPU-only executor; current network state is unknown/restricted and no bypass was attempted. Continue with a narrower signal-specific hypothesis only; held-view experiments remain gated.
+
+---
+
 # Latest continuation update — generic cross-view contrastive objective is prior art (2026-10-11)
 
 A bounded primary-source screen found direct method-level precedents in multi-view action recognition: Shah et al. (WACV 2023) use ViewCon for viewpoint-invariant representations and domain generalization; Siddiqui et al. (AAAI 2024) disentangle view/action features using supervised contrastive losses. Thus simply applying paired-event cross-view contrastive/view-consistency learning to X4 is not cleared as a new method. The held-physical-view split remains a diagnostic evaluation gap, not enough on its own. Same-corpus MV-GLFNet already covers single/dual/tri-view fusion. Full details: `uwb_direction1/results/cloud_20261011_cross_view_contrastive_prior_art/RUN_REPORT.md`.
