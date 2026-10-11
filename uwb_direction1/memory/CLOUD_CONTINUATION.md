@@ -1208,3 +1208,11 @@ The full publisher article could not be accessed by the web reader. The report r
 Cloud preflight at 2026-10-11 22:17 UTC: managed environment observed running, revision 642; CPU-only PyTorch 2.14.0, five CPUs, no CUDA; restored data directory present; 746,266,624 bytes free; no active training process; restricted network policy. No arrays, labels, or checkpoint contents were read, and no fitting was started.
 
 The remaining action is a bounded search for a signal-specific IR-UWB mechanism absent from this same-corpus OSR/subject-invariance work, followed by an input-feasibility check. Current processed inputs do not contain raw pulse/complex echoes, per-view backgrounds, calibrated motion truth, or measured per-view acquisition costs. This prior-art review alone does not justify training.
+
+# 2026-10-11 — Participant-level conformal feasibility gate
+
+A candidate for set-valued reliability on unseen participants was screened against same-corpus and adjacent HAR work. STGPL already reports UWB-Gestures cross-subject/open-set evaluation, and a 2026 subject-out IMU-HAR paper uses label-conditional conformal prediction under several shifts. Generic conformal wrapping is not novelty-cleared.
+
+The eight-person cohort also cannot support nontrivial 90% finite-sample coverage at the participant level in the fixed outer leave-one-user-out protocol. With one held-out test user and seven remaining development users, reserving one user for calibration gives only one exchangeable calibration unit; the standard split-conformal rank is 2 and therefore uses the augmented +infinity threshold. Pooling repeated windows as independent units would not establish new-user exchangeability. Full derivation and sources: `uwb_direction1/results/cloud_20261011_conformal_user_level_feasibility/RUN_REPORT.md`.
+
+No data values/labels/checkpoints were read and no training was started. A meaningful participant-level reliability study needs a larger independent cohort and a method distinction beyond existing same-corpus OSR/subject-invariance work.
