@@ -1,3 +1,13 @@
+# Latest continuation update — physical-augmentation full text closes generic feature augmentation (2026-10-11)
+
+A lawful public author-uploaded full text of Fusco et al., IEEE Access 2025, DOI 10.1109/ACCESS.2025.3556565, is now reviewed. It specifies radar gesture feature augmentation for speed, amplitude/noise, offsets, range, and angle, including combinations; it uses a different 60 GHz radar and six-participant corpus. The range experiment uses target-distance recordings/statistics. This directly preempts generic time scaling, noise injection, physical feature shifts/attenuation, and simple combinations as standalone claims.
+
+The restored X4 cache is a clutter-removed 90×183×3 range-time representation; its recorded inventory lacks raw echoes, per-radar background captures, calibrated transfer functions, and independent range/pose labels. Therefore this paper's physical augmentation cannot simply be transplanted as a project-specific physical method. No labels/array values/checkpoints were read and no fit/training ran. The novelty gate remains unresolved; no experiment was started.
+
+Detailed method/protocol comparison and sources: `uwb_direction1/results/cloud_20261011_physical_augmentation_prior_art/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — full-text left/right asymmetry closes the generic mirror premise (2026-10-10T22:12:24.974Z)
 
 The full text of Xue et al. (Frontiers in Neuroscience 2026, DOI 10.3389/fnins.2026.1864448) discusses left/right performance asymmetry as potentially due to asymmetric gesture execution, view-dependent scattering, or self-occlusion. Because the exact physical reflection and label mapping is unverified, do not infer mirror-label equivariance or train generic reflection/sensor-permutation augmentation. Same-corpus single/dual/tri-view fusion is already published; held-view evaluation alone is not a method claim. Earlier physical-augmentation citations remain literature leads whose full papers have not been reviewed. Report: `uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md`.
