@@ -1,3 +1,11 @@
+# 2026-10-11 — bounded IR-UWB signal-level prior-art gate; no candidate cleared
+
+The current clutter-removed X4 range-time cache does not expose raw complex echoes, per-view backgrounds, antenna/transfer calibration, synchronized frame timing, or independent motion/pose truth; no radar acquisition device is attached. A bounded primary-source screen found prior art for image-like IR-UWB RT-map classification, hand-region/TOA-variance descriptors, event/level-crossing SNN encoding, and same-corpus multi-view fusion. It did not identify a distinct mechanism that is both testable on these inputs and cleared at method level. No experiment/training was authorized or run; no labels, tensor values or checkpoints were read. Restored data remains present and unchanged; process check found no active job, only defunct historical PIDs. Cloud is CPU-only (five CPUs, PyTorch 2.14.0+cpu, no CUDA). See `uwb_direction1/results/cloud_20261011_radar_signal_prior_art_gate/RUN_REPORT.md`.
+
+Decision: keep novelty unresolved; do not start another model/feature grid. The next useful requirement is new independent annotated data or calibrated acquisition with raw echoes/background per view, sensor pose/range/angle metadata, synchronized view and motion truth, plus measured per-view latency/power if radar-budget claims remain. This is an acquisition plan, not a validated contribution.
+
+---
+
 
 
 # 2026-10-11 — Independent external gesture-cohort screen
