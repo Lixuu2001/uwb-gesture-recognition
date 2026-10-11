@@ -10,11 +10,11 @@
   "memory_recovered_from_history": true,
   "original_source_in_cloud": true,
   "real_uwb_data_in_cloud": true,
-  "new_method_implemented": true,
+  "new_method_implemented": false,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "No candidate clears novelty and execution gates. Full-wave EM inversion/physical radar normalization for gesture recognition is prior art (Sluÿters et al., IUI 2022; IEEE TIM 2026). Do not retrain it as a new method. Current cloud has no acquisition hardware; distinct physical-invariance contribution would need calibrated independent radar systems and synchronized external hand-motion truth.",
+  "next_required_input": "Generic paired-event cross-view contrastive/view-invariance is not cleared as novel: ViewCon (WACV 2023) and DVANet (AAAI 2024) are direct multi-view action-recognition precedents, while same-corpus X4 fusion is covered by MV-GLFNet. Continue a bounded primary-source search for a distinct signal-level method; do not run held-view training without a method hypothesis and frozen protocol/cost gate.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_cross_view_contrastive_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
