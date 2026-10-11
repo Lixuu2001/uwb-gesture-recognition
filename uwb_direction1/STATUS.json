@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_radar_signal_prior_art_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,10 +131,10 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not repeat TDA, generic range-trajectory, paired-view consistency, or per-event sensor/view-selection candidates. Continue only with a radar-specific mechanism that has a clear method-level prior-art distinction and can be validated on available signal inputs; otherwise await new calibrated acquisition and/or independent annotated data.",
-  "last_completed_update_utc": "2026-10-11 10:15:42 UTC",
+  "next_candidate": "Do not repeat TDA, generic range-trajectory, paired-view consistency, per-event sensor/view-selection, or generic three-radar hand-tracking/trajectory claims. Continue only with a radar-specific mechanism that clears method-level prior art and can be validated on available signal inputs; otherwise await new calibrated/synchronized acquisition and/or independent annotated data.",
+  "last_completed_update_utc": "2026-10-11 11:36:18 UTC",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261011_radar_signal_prior_art_gate/RUN_REPORT.md",
+    "report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md",
     "observed_executor_phase": "running",
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
@@ -1708,5 +1708,11 @@
     "screen_scope": "IR-UWB image-like RT-map classification, hand-region/TOA descriptors, event/level-crossing SNN, same-corpus multiview fusion",
     "experiment_run": false,
     "next_step": "new independent annotated cohort or calibrated acquisition including raw echoes, backgrounds, synchronization, pose/motion truth, and measured per-view costs"
+  },
+  "latest_three_radar_trajectory_prior_art": {
+    "source": "Ahmed et al., UWB-gestures public dataset, Scientific Data 8, 102 (2021), DOI 10.1038/s41597-021-00876-0",
+    "finding": "The dataset descriptor identifies hand tracking and trajectory prediction as intended uses of its three independent left/top/right X4 radars; this is scope-level prior art, not a validated algorithm.",
+    "feasibility": "Current restored cache lacks shared frame trigger, calibrated extrinsics in the package, and synchronized motion truth; no 3-D reconstruction experiment run.",
+    "report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md"
   }
 }
