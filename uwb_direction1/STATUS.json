@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_kit_transfer_prior_art_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_mcd_cross_sensor_cohort_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not repeat TDA, generic range-trajectory, paired-view consistency, per-event sensor/view-selection, or generic three-radar hand-tracking/trajectory claims. Continue only with a radar-specific mechanism that clears method-level prior art and can be validated on available signal inputs; otherwise await new calibrated/synchronized acquisition and/or independent annotated data.",
-  "last_completed_update_utc": "2026-10-11 12:16 UTC",
+  "next_candidate": "MCD-Gesture is an independent but agreement-gated cross-sensor cohort lead. Do not sign/contact/download or train without authorization. Continue bounded review for a distinct radar-specific transfer method and label-map feasibility; otherwise wait for authorized access or new calibrated data.",
+  "last_completed_update_utc": "2026-10-11 13:27 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1734,5 +1734,28 @@
     "training_started": false,
     "method_contribution_validated": false,
     "decision": "Do not download or train until class mapping, compatible inputs, and a distinct preregistered cross-sensor question are established."
+  },
+  "latest_mcd_cross_sensor_cohort_gate": {
+    "date": "2026-10-11",
+    "report": "uwb_direction1/results/cloud_20261011_mcd_cross_sensor_cohort_gate/RUN_REPORT.md",
+    "dataset": "MCD-Gesture; independent 77 GHz AWR1843/DCA1000; 24,050 sequences, 25 users, six predefined gestures, seven negative actions, six rooms, five locations; raw ADC and DRAI",
+    "gesture_semantic_overlap_with_x4": "possible but not verified from class instructions",
+    "modality_match_to_x4": false,
+    "independent_cohort": true,
+    "access_requires_signed_agreement": true,
+    "agreement_signed": false,
+    "author_contacted": false,
+    "data_downloaded": false,
+    "prior_art": [
+      "DI-Gesture: cross-user/environment/location mmWave generalization, signal/gesture-correlation augmentation, spatial-temporal processing and segmentation",
+      "MCD-based multi-scale/contrastive DG paper found at abstract/metadata level only",
+      "Cross-radar-modality transfer precedent exists for a different radar task (heart rate)"
+    ],
+    "exact_iruwb_to_fmcw_gesture_transfer_prior_found": false,
+    "full_method_novelty_cleared": false,
+    "project_labels_or_arrays_read": false,
+    "training_started": false,
+    "method_contribution_validated": false,
+    "decision": "Candidate external cohort only. Establish authorized access, verify a common gesture map and independent split, then clear a distinct radar method before any fitting."
   }
 }
