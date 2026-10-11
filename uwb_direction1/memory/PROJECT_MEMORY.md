@@ -1,3 +1,11 @@
+# 2026-10-11 research update — registered readout baseline gate failed
+
+The fixed eight-fold 2×2 frozen-feature readout comparison completed. Balanced multinomial logistic averaged 94.884659%; balanced one-hot ridge 94.897727% (−0.013068 pp), with 4/8 wins and a −1.4 pp worst held-user change. The preregistered +0.5 pp, 6-win and −1 pp worst-fold thresholds failed. The control result versus frozen CNN (+0.700379 pp) does not establish a contribution. The registered baseline is closed with no grid expansion or head promotion. A final aggregation key mismatch stopped the runner after all predictions/evaluation files were written; scoring was reconstructed from saved outputs without refitting/reselection. See `uwb_direction1/results/cloud_20261011_readout_loss_factorial/RUN_REPORT.md`.
+
+This known baseline is not a novel method. No encoder training or held-user fitting occurred. The research goal remains unvalidated.
+
+---
+
 # 2026-10-11 supplement — IR-UWB directional descriptors are prior art
 
 Indexed primary records from 2016/2017 describe IR-UWB gesture recognition using hand movement direction and radar-facing hand-area change, with an abstract-level robustness claim for distance/direction variation. The detailed full texts were not accessible in this executor, so do not overstate their method details or claim exact corpus/protocol match. This means generic directional/area normalization is not a cleared contribution. No data was read or fit. Details: `uwb_direction1/results/cloud_20261011_iruwb_hand_direction_prior_art/RUN_REPORT.md`.
