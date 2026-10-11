@@ -1,3 +1,11 @@
+# Latest continuation update — physical feature augmentation prior art (2026-10-11)
+
+Reviewed the public CC BY 4.0 author-uploaded full text of Fusco et al., IEEE Access 2025, DOI 10.1109/ACCESS.2025.3556565. It covers time scaling, feature amplitude/noise/offset manipulation, target-distance range transformation, target-angle transformation, and combinations for radar gesture recognition. This closes generic physically interpretable feature augmentation as a standalone novelty claim. Its hardware/corpus and evaluation differ from this project's X4 IR-UWB data, and its condition-specific transform requires measured range/angle statistics. The restored cache has neither raw echo/calibration nor independent range/pose annotations, so no faithful project-specific physical transformation can currently be validated from it.
+
+No UWB labels, array values, or checkpoints were read; no fitting/training ran. Novelty remains unresolved and the experiment gate stays closed. Report: `uwb_direction1/results/cloud_20261011_physical_augmentation_prior_art/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — mirror-symmetry evidence and executor preflight (2026-10-10T22:12:31.245Z)
 
 The reviewed Xue et al. 2026 full text reports left/right performance asymmetry and notes possible asymmetric gesture execution, view-dependent scattering, or self-occlusion. The three-view corpus paper already covers single/dual/tri-view fusion. Exact sensor reflection/label mapping is unverified; generic mirror augmentation, sensor permutation, and held-view-only evaluation remain uncleared. Related generic physical radar augmentation papers were not fully reviewed. No method or experiment follows from this evidence alone.
