@@ -1,3 +1,9 @@
+# 2026-10-11 — 2026 FMCW gesture harmonization prior-art scope added
+
+Reviewed the JKU/KUK institutional portal abstract for Sukianto et al., IEEE Transactions on Radar Systems 4 (2026), DOI 10.1109/TRS.2026.3654128. It describes cross-device FMCW hand-gesture adaptation by aligning range/Doppler axes, augmenting missing antenna channels, transformer pretraining, 20 labeled samples/class fine-tuning, distillation, and unlabeled federated refinement. This preempts generic FMCW device-harmonization, channel augmentation, few-shot adaptation, and FL claims. It does not establish the exact IR-UWB→FMCW gesture setting; the full paper remains unread. Report updated at `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`. The method gate remains unresolved; no dataset or fitting is authorized by this literature result.
+
+---
+
 # 2026-10-11 — current cloud capacity gate
 
 Rechecked the managed executor: running, CPU-only, restricted/enforced HTTP egress with no user egress hosts or outbound identity; `/workspace` has 712 MB free on a 32 GB filesystem. Restored X4 data is present, but the 36.5 GB Zenodo archive cannot be staged here. Process inspection found only historical defunct Python entries, no active training. No project labels, array values, or checkpoints were read. Do not download or train in this environment. Exact check is appended to `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`.
