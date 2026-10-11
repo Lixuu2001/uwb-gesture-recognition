@@ -1,3 +1,13 @@
+# Latest continuation update — paired-event view-consistency candidate not novelty-cleared (2026-10-11)
+
+A bounded primary-source screen examined whether the existing participant/gesture/repetition pairing supports a new cross-view consistency method for held-physical-view transfer. The same-corpus Xue et al. 2026 full text already covers left/top/right, every dual-view subset, and tri-view fusion under 6/2 held-subject evaluation, but does not report training on two views and testing a held-out third. Chen et al. 2025 TIM multiview-DG provides abstract-level OOD/multiview evidence; its full text remains inaccessible, so no claim about its exact paired-view loss is made. Rodar 2024 is adjacent multiview radar-fusion prior art.
+
+The sample index supports same participant/gesture/repetition event pairing under soft synchronization only. It does not establish shared timestamps, frame alignment, phase calibration, or motion ground truth. A sample-level paired-view contrastive/consistency objective could be tested without those stronger claims, but it is still generic multiview learning and has not cleared method-level novelty. Held-view evaluation alone is not a contribution. No experiment is approved.
+
+No labels, tensor values, or checkpoints were read; no fitting/training ran. CPU-only executor, no acquisition devices; restored receipt remains present and no data was re-downloaded. Full gate: `uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — physical-augmentation full text closes generic feature augmentation (2026-10-11)
 
 A lawful public author-uploaded full text of Fusco et al., IEEE Access 2025, DOI 10.1109/ACCESS.2025.3556565, is now reviewed. It specifies radar gesture feature augmentation for speed, amplitude/noise, offsets, range, and angle, including combinations; it uses a different 60 GHz radar and six-participant corpus. The range experiment uses target-distance recordings/statistics. This directly preempts generic time scaling, noise injection, physical feature shifts/attenuation, and simple combinations as standalone claims.
