@@ -27,3 +27,8 @@ Therefore the archive was not downloaded and no project labels, radar arrays, or
 ## Scope
 
 Bounded source and prior-art screen on 2026-10-11. This is not an exhaustive search or a full-text review of every cited paper.
+
+
+## Current cloud execution feasibility check
+
+Observed 2026-10-11 13:51:34 UTC: managed cloud executor is running (spec revision 616), but only CPU capabilities are exposed; HTTP policy is restricted/enforced with no user egress hosts or outbound identities. `/workspace` has 712 MB free on a 32 GB filesystem. The restored X4 directory is present. Process inspection found only historical defunct Python entries and no active training process. The 36.5 GB Zenodo archive cannot be staged on the current volume. No alternative persistent volume, external storage binding, or larger execution environment is attached. This is an exact resource/access blocker, not a failed experiment. No labels, radar array values, or checkpoints were read, and no training was launched.
