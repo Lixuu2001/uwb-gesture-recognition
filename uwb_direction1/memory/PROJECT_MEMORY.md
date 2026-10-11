@@ -1,3 +1,11 @@
+# Latest continuation update — paired-event cross-view candidate remains unapproved (2026-10-11)
+
+Screened a possible event-paired view-consistency method for a held-physical-view test. Same-corpus Xue et al. 2026 already evaluates left/top/right and all dual/tri-view inputs under subject-independent 6/2 folds, though not train-two-views/test-third. Chen et al. 2025 TIM is abstract-level prior art for multiview OOD gesture learning; full text is still inaccessible. Do not claim an exact paired-loss preemption from that abstract. The same-event correspondence key is participant/gesture/repetition under soft synchronization, not a shared frame clock or phase/motion calibration.
+
+The candidate would still be a generic multiview consistency objective, and a held-view split alone is not a contribution. Novelty is unresolved; no training is approved. No UWB labels, arrays, or checkpoints were read. Details: `uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md`.
+
+---
+
 # Latest continuation update — physical feature augmentation prior art (2026-10-11)
 
 Reviewed the public CC BY 4.0 author-uploaded full text of Fusco et al., IEEE Access 2025, DOI 10.1109/ACCESS.2025.3556565. It covers time scaling, feature amplitude/noise/offset manipulation, target-distance range transformation, target-angle transformation, and combinations for radar gesture recognition. This closes generic physically interpretable feature augmentation as a standalone novelty claim. Its hardware/corpus and evaluation differ from this project's X4 IR-UWB data, and its condition-specific transform requires measured range/angle statistics. The restored cache has neither raw echo/calibration nor independent range/pose annotations, so no faithful project-specific physical transformation can currently be validated from it.
