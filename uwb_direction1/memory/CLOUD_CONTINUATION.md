@@ -1,3 +1,11 @@
+# Latest continuation update — generic cross-view contrastive objective is prior art (2026-10-11)
+
+A bounded primary-source screen found direct method-level precedents in multi-view action recognition: Shah et al. (WACV 2023) use ViewCon for viewpoint-invariant representations and domain generalization; Siddiqui et al. (AAAI 2024) disentangle view/action features using supervised contrastive losses. Thus simply applying paired-event cross-view contrastive/view-consistency learning to X4 is not cleared as a new method. The held-physical-view split remains a diagnostic evaluation gap, not enough on its own. Same-corpus MV-GLFNet already covers single/dual/tri-view fusion. Full details: `uwb_direction1/results/cloud_20261011_cross_view_contrastive_prior_art/RUN_REPORT.md`.
+
+No experiment was approved or run. Restore receipt is present; executor is CPU-only, no active training job or acquisition device was found, and no labels/arrays/checkpoint contents were read. Continue a bounded search for a specific signal-level contribution; do not launch the held-view grid until novelty and frozen protocol/cost gates pass.
+
+---
+
 # Latest continuation update — paired-event view-consistency candidate not novelty-cleared (2026-10-11)
 
 A bounded primary-source screen examined whether the existing participant/gesture/repetition pairing supports a new cross-view consistency method for held-physical-view transfer. The same-corpus Xue et al. 2026 full text already covers left/top/right, every dual-view subset, and tri-view fusion under 6/2 held-subject evaluation, but does not report training on two views and testing a held-out third. Chen et al. 2025 TIM multiview-DG provides abstract-level OOD/multiview evidence; its full text remains inaccessible, so no claim about its exact paired-view loss is made. Rodar 2024 is adjacent multiview radar-fusion prior art.
