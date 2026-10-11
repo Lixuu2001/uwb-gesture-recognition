@@ -868,3 +868,8 @@ A bounded primary-source search found radar persistent-homology precedent for OT
 ## 2026-10-11 — Range-trajectory feature gate
 
 Generic trajectory extraction from range-time maps did not clear novelty: the 2026 same-corpus paper describes gesture energy trajectories; earlier IR-UWB papers use time-of-arrival variation and fast-time-variance gesture-region localization. The restored cache has no synchronized motion ground truth for validated kinematics. No classifier grid was run; no data values/labels/checkpoints read; no fit or training. Runtime check found data present, no active training, CPU-only/no CUDA. Report: `uwb_direction1/results/cloud_20261011_range_trajectory_prior_art/RUN_REPORT.md`. The research goal remains unresolved; pursue only a distinct signal-level mechanism with a concrete validation path or await suitable calibrated/annotated acquisition.
+
+
+## 2026-10-11 — Cost-aware view-selection gate
+
+Generic per-event one/three-radar view selection did not clear novelty: exact-corpus work already compares single/dual/tri-view and adaptive fusion; instance-wise sensor selection for activity recognition is published. The restored dataset has no per-view acquisition-cost measurements, so a cost-aware radar mechanism is not testable here. No labels/arrays/checkpoints read, no fit/training/download. Fresh process check found no active job; data is present. Report: `uwb_direction1/results/cloud_20261011_cost_aware_view_selection_gate/RUN_REPORT.md`. Further research needs a distinct radar-specific mechanism with feasible validation or new calibrated/annotated acquisition.
