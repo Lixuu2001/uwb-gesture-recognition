@@ -1,3 +1,13 @@
+# 2026-10-11 — independent MCD-Gesture cohort found; access and method gates remain open
+
+A bounded search found MCD-Gesture, an independent 77 GHz AWR1843/DCA1000 corpus with 24,050 recordings from 25 users, six predefined gestures, seven negative actions, six environments, and five locations. Its gesture vocabulary may overlap X4 directional swipes/rotations/push, but exact labels and movement instructions are not yet mapped. The source repository requires a signed data/code access agreement and email; no agreement was signed, author was not contacted, and no archive was downloaded. Current X4 and MCD modalities/preprocessing differ, so it is a candidate cross-sensor cohort, not a matched external test.
+
+DI-Gesture already covers generic cross-user/environment/location generalization, signal/gesture-correlation augmentation, and spatiotemporal segmentation on mmWave. A bounded search also found an MCD-based 2026 multi-scale/contrastive DG paper at abstract/metadata level only. Thus generic DG, augmentation, classifier swaps, and split-only claims remain uncleared. No X4-to-MCD hand-gesture transfer method has yet been both fully reviewed and distinguished.
+
+Report: `uwb_direction1/results/cloud_20261011_mcd_cross_sensor_cohort_gate/RUN_REPORT.md`. Next gate: obtain authorized access through the dataset owner/user, verify a common class map from the actual gesture instructions, freeze an independent cross-sensor split, and clear a specific radar method before any fitting. This continuation did not sign/submit agreements or contact anyone. No MCD data were downloaded; no X4 labels/arrays/checkpoints were read; no fit/training ran. X4 restore remains present; no active job; CPU-only cloud. Goal remains unvalidated.
+
+---
+
 # 2026-10-11 — KIT cross-sensor method gate remains unresolved
 
 The separate KIT BGT60TR13C FC-FMCW gesture cohort has 2,479 recordings from 25 participants, seven gestures plus zero-class measurements; its public record points to an accompanying class legend and lists a 14.7 GB CC-BY archive. A 2025 paper on this cohort already uses entropy-based adaptive Top-K, range/Doppler multi-stream EfficientNetV2, and radar-specific augmentation. The published accuracy is under a different split and is not comparable to our held-user folds. KIT's class map and a matched representation/protocol for our clutter-removed IR-UWB X4 cache remain unverified. Do not download the archive or start training yet; a KIT test would be cross-sensor transfer, not same-protocol external validation, and those generic methods are not novel here. Review report: `uwb_direction1/results/cloud_20261011_kit_transfer_prior_art_gate/RUN_REPORT.md`.
