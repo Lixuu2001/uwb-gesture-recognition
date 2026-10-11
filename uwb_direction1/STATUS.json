@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Identify a specific IR-UWB signal mechanism beyond TOA/centroid, generic range-time image/CNN, event-coded SNN (including the disclosed IR-UWB patent pipeline), multi-view fusion, or generic DG/adaptation; confirm primary-source distinction and feasible validation before any experiment. Current cache lacks raw pulse/complex echoes and calibrated motion truth.",
+  "next_required_input": "Identify a specific IR-UWB signal mechanism beyond reviewed same-corpus MSFE/speed-scale, CNN-LSTM attention/early fusion/noise robustness, TOA/centroid, generic range-time CNN, event-coded SNN patent pipeline, multiview fusion, and generic DG/adaptation. Confirm primary-source distinction and a feasible input pathway before any experiment. Current processed cache lacks raw pulse/complex echoes, per-view backgrounds, calibrated motion truth, and measured view costs.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_snn_patent_prior_art/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_same_corpus_scale_fusion_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+  "latest_literature_note": "2026-10-11 same-corpus speed-scale and fusion prior art reviewed; generic MSFE/speed robustness, CNN-LSTM attention, early fusion, synthetic noise robustness are not novelty-cleared.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -1878,5 +1878,19 @@
     "pulse_level_data_available_in_current_cache": false,
     "training_started": false,
     "active_training_found": false
+  },
+  "latest_same_corpus_scale_fusion_prior_art": {
+    "date": "2026-10-11",
+    "report": "uwb_direction1/results/cloud_20261011_same_corpus_scale_fusion_prior_art/RUN_REPORT.md",
+    "scale_paper": "Kim et al., IEEE Access 2026, DOI 10.1109/ACCESS.2026.3671243",
+    "scale_paper_scope": "same UWB-Gestures 12-class, 8-subject, 3-X4 corpus; first-layer parallel 3x3/5x5/7x7 MSFE for speed-induced range-Doppler scale; 98.12%; test holdout mentioned, participant-disjoint split unspecified in accessible full text",
+    "fusion_paper": "Khan & Kwon, IEEE Access 2025, DOI 10.1109/ACCESS.2025.3558293",
+    "fusion_paper_scope": "same UWB-Gestures corpus; early spatial-temporal fusion with CNN-LSTM-attention and Gaussian noise/signal inversion/multipath tests; 98.33%; full text says 20% test split but participant-disjoint status unspecified",
+    "score_comparable_to_project_eight_held_user_macro_protocol": false,
+    "generic_msfe_speed_robustness_novelty_cleared": false,
+    "generic_cnn_lstm_attention_fusion_noise_robustness_novelty_cleared": false,
+    "project_arrays_labels_or_checkpoints_read": false,
+    "training_started": false,
+    "method_contribution_validated": false
   }
 }
