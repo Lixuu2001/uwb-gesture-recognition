@@ -1,3 +1,9 @@
+# 2026-10-11 — current cloud capacity gate
+
+Rechecked the managed executor: running, CPU-only, restricted/enforced HTTP egress with no user egress hosts or outbound identity; `/workspace` has 712 MB free on a 32 GB filesystem. Restored X4 data is present, but the 36.5 GB Zenodo archive cannot be staged here. Process inspection found only historical defunct Python entries, no active training. No project labels, array values, or checkpoints were read. Do not download or train in this environment. Exact check is appended to `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`.
+
+---
+
 # 2026-10-11 — Zenodo cohort and cross-sensor novelty gate
 
 New lead: Zenodo DOI 10.5281/zenodo.15178095 documents a 49,000-recording, frame-labeled BGT60TR13C 60 GHz FMCW corpus (five nominal hand gestures; fast/slow/wrist anomaly subsets). It may support independent-sensor evaluation against X4, but it is not a second cohort relative to its earlier IEEE DataExplorer release, and its modality/representation differs from X4 IR-UWB. The record's visible license field was blank; secondary OpenAIRE metadata says CC BY, so license is unverified. A prior UWB↔FMCW transfer method exists for air-written digits (Jung et al., IEEE Sensors Journal 2023, DOI 10.1109/JSEN.2023.3289232), so generic cross-sensor transfer is not novel. Do not download the 36.5 GB archive or fit models until license, class instructions/orientation map, and a distinct gesture-specific method/protocol are cleared. No data or labels were read and no training ran. Details: `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`.
