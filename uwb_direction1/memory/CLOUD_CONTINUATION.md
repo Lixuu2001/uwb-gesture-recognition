@@ -1,3 +1,11 @@
+# 2026-10-11 — three-radar trajectory contribution is not cleared
+
+The UWB-Gestures data descriptor itself describes three independent left/top/right monostatic X4 sensors and names hand tracking/trajectory prediction as an intended multi-radar use (Ahmed et al., Scientific Data 2021, DOI 10.1038/s41597-021-00876-0). This is scope-level prior art, not a validated tracking algorithm, but closes generic “use three radars to infer a hand trajectory” as a standalone contribution. The current cache still lacks a shared frame trigger, calibrated extrinsics in the restored package, and synchronized hand-pose truth; the nominal layout is insufficient for a 3-D trajectory claim. No data values/labels/checkpoints were read; no training/fitting ran. Restore is present; only defunct historical PIDs, no acquisition device. Full report: `uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md`.
+
+Decision: keep the novelty gate unresolved and do not run trajectory/triangulation or another architecture grid. A future geometry-based test requires new synchronized raw-echo acquisition, surveyed sensor poses, and motion ground truth.
+
+---
+
 # 2026-10-11 — bounded IR-UWB signal-level prior-art gate; no candidate cleared
 
 The current clutter-removed X4 range-time cache does not expose raw complex echoes, per-view backgrounds, antenna/transfer calibration, synchronized frame timing, or independent motion/pose truth; no radar acquisition device is attached. A bounded primary-source screen found prior art for image-like IR-UWB RT-map classification, hand-region/TOA-variance descriptors, event/level-crossing SNN encoding, and same-corpus multi-view fusion. It did not identify a distinct mechanism that is both testable on these inputs and cleared at method level. No experiment/training was authorized or run; no labels, tensor values or checkpoints were read. Restored data remains present and unchanged; process check found no active job, only defunct historical PIDs. Cloud is CPU-only (five CPUs, PyTorch 2.14.0+cpu, no CUDA). See `uwb_direction1/results/cloud_20261011_radar_signal_prior_art_gate/RUN_REPORT.md`.
