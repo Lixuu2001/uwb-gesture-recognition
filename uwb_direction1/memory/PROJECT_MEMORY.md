@@ -925,3 +925,8 @@ A bounded source review identified prior IR-UWB gesture methods for TOA/range va
 ## 2026-10-11T18:02:55Z — Resume-time executor feasibility
 
 Fresh inspection confirmed the restored X4 data is present and no training process is active. The managed environment is CPU-only (5 CPUs, PyTorch 2.14.0+cpu, no CUDA), with 712 MB free on a 32 GB workspace; task-configured HTTP egress hosts, runtime variables, secrets, and outbound identities are absent. No Drive restore is required. The current processed range-time cache still lacks raw complex echoes and calibrated motion truth, so coherent-phase or kinematic claims are not runnable. No labels/arrays/checkpoints were read, no download or fitting/training occurred. Details: `uwb_direction1/results/cloud_20261011_resume_preflight/RUN_REPORT.md`.
+
+
+## 2026-10-11T20:11:05Z — Event-coded IR-UWB/SNN patent prior art
+
+CN112130118A/B (priority 2020-08-19) describes event coding of reflected IR-UWB pulses followed by SNN processing and explicitly gives gesture recognition as an application. The 2022 IEEE gesture paper also reports time-event/level-crossing encoding with SNN, although its full text and exact dataset relation remain unverified. This closes the generic event-coded-SNN method claim; it is not a legal opinion and does not prove identical data/protocol. The current cache lacks pulse-level echoes for sensor-native event capture. No data were read or training run. See `uwb_direction1/results/cloud_20261011_snn_patent_prior_art/RUN_REPORT.md`.
