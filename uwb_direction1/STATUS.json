@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_kit_transfer_prior_art_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Do not repeat TDA, generic range-trajectory, paired-view consistency, per-event sensor/view-selection, or generic three-radar hand-tracking/trajectory claims. Continue only with a radar-specific mechanism that clears method-level prior art and can be validated on available signal inputs; otherwise await new calibrated/synchronized acquisition and/or independent annotated data.",
-  "last_completed_update_utc": "2026-10-11 11:36:18 UTC",
+  "last_completed_update_utc": "2026-10-11 12:16 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1714,5 +1714,25 @@
     "finding": "The dataset descriptor identifies hand tracking and trajectory prediction as intended uses of its three independent left/top/right X4 radars; this is scope-level prior art, not a validated algorithm.",
     "feasibility": "Current restored cache lacks shared frame trigger, calibrated extrinsics in the package, and synchronized motion truth; no 3-D reconstruction experiment run.",
     "report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md"
+  },
+  "latest_kit_external_cohort_gate": {
+    "date": "2026-10-11",
+    "report": "uwb_direction1/results/cloud_20261011_kit_transfer_prior_art_gate/RUN_REPORT.md",
+    "dataset": "KIT FC-FMCW BGT60TR13C, 2479 recordings, 25 participants, seven gestures plus zero class; 14.7 GB; CC BY 4.0 metadata",
+    "independent_cohort": true,
+    "same_protocol_external_validation": false,
+    "class_mapping_verified": false,
+    "project_input_compatibility_verified": false,
+    "method_prior_art": [
+      "entropy-based adaptive Top-K selection",
+      "range/Doppler multi-stream EfficientNetV2",
+      "radar-specific augmentation/optimization"
+    ],
+    "generic_method_novelty_cleared": false,
+    "archive_downloaded": false,
+    "project_labels_or_arrays_read": false,
+    "training_started": false,
+    "method_contribution_validated": false,
+    "decision": "Do not download or train until class mapping, compatible inputs, and a distinct preregistered cross-sensor question are established."
   }
 }
