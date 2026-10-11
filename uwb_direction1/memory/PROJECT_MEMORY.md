@@ -1,3 +1,9 @@
+# 2026-10-11 supplement — IR-UWB directional descriptors are prior art
+
+Indexed primary records from 2016/2017 describe IR-UWB gesture recognition using hand movement direction and radar-facing hand-area change, with an abstract-level robustness claim for distance/direction variation. The detailed full texts were not accessible in this executor, so do not overstate their method details or claim exact corpus/protocol match. This means generic directional/area normalization is not a cleared contribution. No data was read or fit. Details: `uwb_direction1/results/cloud_20261011_iruwb_hand_direction_prior_art/RUN_REPORT.md`.
+
+---
+
 # 2026-10-11 research update — paired-event contrastive candidate not cleared
 
 The candidate of sample-level same-event cross-view consistency is not a method contribution as currently specified. Primary-source precedents include ViewCon (Shah et al., WACV 2023), which learns viewpoint-invariant multi-view action representations and reports domain-generalization benefits, and DVANet (Siddiqui et al., AAAI 2024), which explicitly separates action/view features using supervised contrastive losses. The X4 same-corpus MV-GLFNet paper already covers the single/dual/tri-view fusion family. A held-physical-view test split can be retained as a diagnostic, but a split plus generic contrastive objective does not establish novelty. See `uwb_direction1/results/cloud_20261011_cross_view_contrastive_prior_art/RUN_REPORT.md` for scope, citations, and executor audit.
