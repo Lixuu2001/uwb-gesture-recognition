@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Zenodo reuse license, gesture-instruction/orientation mapping, and a distinct gesture-specific method remain unverified. Current executor is CPU-only, restricted-egress, and has 712 MB free; 36.5 GB archive cannot be staged, and no alternative volume is attached. Continue bounded literature review and small-data protocol design; do not download or train until method, license, mapping, and storage gates pass.",
+  "next_required_input": "No method passed novelty/feasibility. New 2026 FMCW gesture paper preempts generic device alignment, channel augmentation, few-shot tuning, and FL claims at abstract level; exact IR-UWB→FMCW gesture transfer still not established. Continue narrow primary-source review for a gesture-specific mechanism. Current CPU-only restricted-egress executor has 712 MB free, so the 36.5 GB Zenodo cohort cannot be staged.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue primary-source prior-art review for a gesture-specific, cross-sensor mechanism. Zenodo 15178095 is an unresolved cohort lead: authoritative license field blank, common labels/orientation unverified, 36.5 GB archive exceeds available storage; broad UWB↔FMCW transfer is already prior art for air-written digits.",
-  "last_completed_update_utc": "2026-10-11 13:52:08 UTC",
+  "next_candidate": "Only continue bounded full-text prior-art review for a mechanism specific to IR-UWB range-time versus FMCW gesture signals. Do not download/train; generic cross-device harmonization and augmentation are now known prior art.",
+  "last_completed_update_utc": "2026-10-11 14:48:05 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_three_radar_trajectory_prior_art/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1820,5 +1820,26 @@
     "archive_staging_feasible": false,
     "labels_array_values_or_checkpoints_read": false,
     "training_started": false
+  },
+  "latest_fmcw_gesture_cross_device_prior_art": {
+    "doi": "10.1109/TRS.2026.3654128",
+    "citation": "Sukianto et al., IEEE Transactions on Radar Systems 4 (2026)",
+    "review_scope": "institutional portal abstract/metadata only; full text not reviewed",
+    "method_scope": [
+      "FMCW cross-device range/Doppler harmonization",
+      "missing-antenna augmentation",
+      "transformer pretraining",
+      "20 labeled examples per class fine-tuning",
+      "distillation",
+      "unlabeled federated refinement"
+    ],
+    "generic_claims_preempted": [
+      "FMCW device harmonization",
+      "channel augmentation",
+      "few-shot adaptation",
+      "federated adaptation"
+    ],
+    "exact_iruwb_to_fmcw_gesture_transfer_cleared": false,
+    "method_contribution_validated": false
   }
 }
