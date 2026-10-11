@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_cost_aware_view_selection_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_radar_signal_prior_art_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -132,9 +132,9 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Do not repeat TDA, generic range-trajectory, paired-view consistency, or per-event sensor/view-selection candidates. Continue only with a radar-specific mechanism that has a clear method-level prior-art distinction and can be validated on available signal inputs; otherwise await new calibrated acquisition and/or independent annotated data.",
-  "last_completed_update_utc": "2026-10-11 08:17:04 UTC",
+  "last_completed_update_utc": "2026-10-11 10:15:42 UTC",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md",
+    "report": "uwb_direction1/results/cloud_20261011_radar_signal_prior_art_gate/RUN_REPORT.md",
     "observed_executor_phase": "running",
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
@@ -146,7 +146,7 @@
     "local_source_files_present": 31,
     "local_full_789_source_snapshot_present": false,
     "remote_789_source_snapshot_preserved": true,
-    "historical_weight_files_detected": 2777,
+    "historical_python_entries": "PIDs 598, 607, 4719 are defunct",
     "dataset_labels_or_radar_array_values_read": false,
     "training_started": false,
     "process_state_checked_this_turn": true
@@ -1702,5 +1702,11 @@
     "fitting_or_training_started": false,
     "data_downloaded": false,
     "method_contribution_validated": false
+  },
+  "latest_signal_candidate_gate": {
+    "outcome": "no distinct method cleared both novelty and input-feasibility gates",
+    "screen_scope": "IR-UWB image-like RT-map classification, hand-region/TOA descriptors, event/level-crossing SNN, same-corpus multiview fusion",
+    "experiment_run": false,
+    "next_step": "new independent annotated cohort or calibrated acquisition including raw echoes, backgrounds, synchronization, pose/motion truth, and measured per-view costs"
   }
 }
