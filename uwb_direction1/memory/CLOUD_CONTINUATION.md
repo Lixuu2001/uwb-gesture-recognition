@@ -1,3 +1,9 @@
+# 2026-10-11 — FMCW cohort's public detection baseline reviewed
+
+The public `uctopus/hand_gesture_recognition` implementation, paired with the Zenodo/IEEE FMCW corpus, computes range/Doppler/angle/magnitude features, anchors a 20-frame gesture window at a thresholded minimum-range frame, creates background windows, and uses a two-layer LSTM for five gesture classes plus background. This is implementation-level prior art for peak-anchored window localization and lightweight temporal classification on FMCW. The repository's reported metrics are self-reported, not independently reproduced, and its engineered input differs from X4's restored IR-UWB range-time maps. A project method based only on a min-range anchor, fixed window, background examples, or generic LSTM is not cleared. Sources and scope are appended to `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`. No dataset was downloaded and no project fitting ran.
+
+---
+
 # 2026-10-11 — 2026 FMCW gesture harmonization prior-art scope added
 
 Reviewed the JKU/KUK institutional portal abstract for Sukianto et al., IEEE Transactions on Radar Systems 4 (2026), DOI 10.1109/TRS.2026.3654128. It describes cross-device FMCW hand-gesture adaptation by aligning range/Doppler axes, augmenting missing antenna channels, transformer pretraining, 20 labeled samples/class fine-tuning, distillation, and unlabeled federated refinement. This preempts generic FMCW device-harmonization, channel augmentation, few-shot adaptation, and FL claims. It does not establish the exact IR-UWB→FMCW gesture setting; the full paper remains unread. Report updated at `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`. The method gate remains unresolved; no dataset or fitting is authorized by this literature result.
