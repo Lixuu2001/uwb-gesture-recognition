@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Identify a specific IR-UWB signal mechanism not reducible to TOA/centroid, generic range-time image/CNN, event-coded SNN, multi-view fusion, or generic DG/adaptation; verify primary-source distinction and a feasible validation path before any experiment. Current cache lacks raw complex echoes and calibrated motion truth.",
+  "next_required_input": "Identify a specific IR-UWB signal mechanism beyond TOA/centroid, generic range-time image/CNN, event-coded SNN (including the disclosed IR-UWB patent pipeline), multi-view fusion, or generic DG/adaptation; confirm primary-source distinction and feasible validation before any experiment. Current cache lacks raw pulse/complex echoes and calibrated motion truth.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_resume_preflight/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_snn_patent_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -132,11 +132,11 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Review a narrowly specified IR-UWB signal mechanism against primary literature. Generic event detection via min-range anchor/fixed window, generic temporal classifier, multi-view fusion, cross-view consistency, transfer, and augmentation are preempted or not cleared. No new experiment until both method novelty and data/compute gates pass.",
-  "last_completed_update_utc": "2026-10-11 18:02:55 UTC",
+  "last_completed_update_utc": "2026-10-11 20:11:05 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_resume_preflight/RUN_REPORT.md",
     "observed_executor_phase": "running",
-    "observed_spec_revision": "633",
+    "observed_spec_revision": "637",
     "capabilities": [],
     "hardware_acquisition_device_found": false,
     "training_process_found": false,
@@ -156,7 +156,7 @@
     "workspace_free_mb": 712,
     "workspace_total_gb": 32,
     "restored_data_present": true,
-    "observed_at_utc": "2026-10-11 18:02:55 UTC"
+    "observed_at_utc": "2026-10-11 20:11:05 UTC"
   },
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
@@ -1867,5 +1867,16 @@
     "training_started": false,
     "data_or_labels_read": false,
     "candidate_validated": false
+  },
+  "latest_snn_patent_prior_art": {
+    "report": "uwb_direction1/results/cloud_20261011_snn_patent_prior_art/RUN_REPORT.md",
+    "patent": "CN112130118A/B",
+    "priority_date": "2020-08-19",
+    "disclosed_mechanism": "time-event coding of reflected IR-UWB pulses followed by SNN; gesture recognition named as an example",
+    "exact_dataset_or_split_relation": "unverified",
+    "legal_opinion": false,
+    "pulse_level_data_available_in_current_cache": false,
+    "training_started": false,
+    "active_training_found": false
   }
 }
