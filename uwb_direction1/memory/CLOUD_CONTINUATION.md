@@ -1,3 +1,11 @@
+
+
+# 2026-10-11 — Independent external gesture-cohort screen
+
+A bounded primary-source search did not identify an independent, protocol-compatible IR-UWB hand-gesture cohort. The Figshare UWB_HGR item describes itself as a preprocessed release of the same UWB-Gestures 12-class/eight-volunteer corpus, so it is not external validation (metadata-level finding, not file-hash proof). The KIT institutional collection is a separate 25-participant, seven-gesture FC-FMCW cohort; public metadata reviewed here does not establish class mapping or compatible X4 range-time preprocessing, so it is only a possible future cross-sensor transfer study. The Multi-Radar-Dataset has two IR-UWB plus one FMCW streams but describes posture/body-motion and multi-person scenarios, not hand gestures. MIRAGE is mmWave point-cloud gesture/interference data, a different signal/task distribution. Sources and scope: `uwb_direction1/results/cloud_20261011_external_dataset_screen/RUN_REPORT.md`.
+
+No archive was downloaded, no project labels/arrays/checkpoints were accessed, and no model was fitted or trained. The restored UWB data is present and unchanged; process check found no active job, only defunct historical Python entries. No method clears novelty/validation gates. Do not claim independent validation from these non-matched resources.
+
 # Latest continuation update — frozen readout factorial baseline completed, primary gate failed (2026-10-11)
 
 Completed the registered 8-fold 2×2 balanced/uniform-weight × ridge/multinomial-logit comparison on the frozen 128-D features. Synthetic-only cost estimate was 36.76 s. All 96 readout fits and fold predictions were saved before held-user scoring. The runner then hit a final aggregation key mismatch; rather than refit, scores were independently reconstructed from the persisted predictions/evaluation files using the registered gate names. Balanced logit 94.884659% vs balanced ridge 94.897727% (−0.013068 pp; 4/8 wins; worst −1.4 pp); the registered +0.5 pp / 6 wins / −1 pp gates all fail. Balanced logit is +0.700379 pp over frozen CNN but that does not rescue the primary comparison. This is a known baseline, not a contribution. Full metrics, protocol/code identities, artifact paths and runner issue: `uwb_direction1/results/cloud_20261011_readout_loss_factorial/RUN_REPORT.md`.
