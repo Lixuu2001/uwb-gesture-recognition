@@ -1,3 +1,11 @@
+
+
+# 2026-10-11 — Independent external gesture-cohort screen
+
+A bounded primary-source search did not identify an independent, protocol-compatible IR-UWB hand-gesture cohort. The Figshare UWB_HGR item describes itself as a preprocessed release of the same UWB-Gestures 12-class/eight-volunteer corpus, so it is not external validation (metadata-level finding, not file-hash proof). The KIT institutional collection is a separate 25-participant, seven-gesture FC-FMCW cohort; public metadata reviewed here does not establish class mapping or compatible X4 range-time preprocessing, so it is only a possible future cross-sensor transfer study. The Multi-Radar-Dataset has two IR-UWB plus one FMCW streams but describes posture/body-motion and multi-person scenarios, not hand gestures. MIRAGE is mmWave point-cloud gesture/interference data, a different signal/task distribution. Sources and scope: `uwb_direction1/results/cloud_20261011_external_dataset_screen/RUN_REPORT.md`.
+
+No archive was downloaded, no project labels/arrays/checkpoints were accessed, and no model was fitted or trained. The restored UWB data is present and unchanged; process check found no active job, only defunct historical Python entries. No method clears novelty/validation gates. Do not claim independent validation from these non-matched resources.
+
 # 2026-10-11 research update — registered readout baseline gate failed
 
 The fixed eight-fold 2×2 frozen-feature readout comparison completed. Balanced multinomial logistic averaged 94.884659%; balanced one-hot ridge 94.897727% (−0.013068 pp), with 4/8 wins and a −1.4 pp worst held-user change. The preregistered +0.5 pp, 6-win and −1 pp worst-fold thresholds failed. The control result versus frozen CNN (+0.700379 pp) does not establish a contribution. The registered baseline is closed with no grid expansion or head promotion. A final aggregation key mismatch stopped the runner after all predictions/evaluation files were written; scoring was reconstructed from saved outputs without refitting/reselection. See `uwb_direction1/results/cloud_20261011_readout_loss_factorial/RUN_REPORT.md`.
