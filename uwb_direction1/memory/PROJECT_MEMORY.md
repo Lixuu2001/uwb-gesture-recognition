@@ -915,3 +915,8 @@ Generic trajectory extraction from range-time maps did not clear novelty: the 20
 ## 2026-10-11 — Cost-aware view-selection gate
 
 Generic per-event one/three-radar view selection did not clear novelty: exact-corpus work already compares single/dual/tri-view and adaptive fusion; instance-wise sensor selection for activity recognition is published. The restored dataset has no per-view acquisition-cost measurements, so a cost-aware radar mechanism is not testable here. No labels/arrays/checkpoints read, no fit/training/download. Fresh process check found no active job; data is present. Report: `uwb_direction1/results/cloud_20261011_cost_aware_view_selection_gate/RUN_REPORT.md`. Further research needs a distinct radar-specific mechanism with feasible validation or new calibrated/annotated acquisition.
+
+
+## 2026-10-11T17:14:03Z — IR-UWB representation prior-art gate
+
+A bounded source review identified prior IR-UWB gesture methods for TOA/range variation and waveform-centroid features, 3-D image-pattern/Inception classification on XeThru X4, and level-crossing/time-event coding with an SNN (the latter only verified from IEEE metadata/abstract). These narrow, but do not exhaust, the novelty space. Their acquisition cohorts/protocols differ or remain unverified, so their scores are not compared to the eight-held-user results here. The current processed range-time cache lacks raw complex echoes for phase/coherent signal claims and lacks calibrated motion ground truth for kinematic validation. No new candidate cleared both mechanism novelty and evaluation feasibility; no experiment was run. Details: `uwb_direction1/results/cloud_20261011_iruwb_event_representation_prior_art/RUN_REPORT.md`.
