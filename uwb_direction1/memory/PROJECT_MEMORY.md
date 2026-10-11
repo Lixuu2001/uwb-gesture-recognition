@@ -1,3 +1,11 @@
+# 2026-10-11 — KIT cross-sensor method gate remains unresolved
+
+The separate KIT BGT60TR13C FC-FMCW gesture cohort has 2,479 recordings from 25 participants, seven gestures plus zero-class measurements; its public record points to an accompanying class legend and lists a 14.7 GB CC-BY archive. A 2025 paper on this cohort already uses entropy-based adaptive Top-K, range/Doppler multi-stream EfficientNetV2, and radar-specific augmentation. The published accuracy is under a different split and is not comparable to our held-user folds. KIT's class map and a matched representation/protocol for our clutter-removed IR-UWB X4 cache remain unverified. Do not download the archive or start training yet; a KIT test would be cross-sensor transfer, not same-protocol external validation, and those generic methods are not novel here. Review report: `uwb_direction1/results/cloud_20261011_kit_transfer_prior_art_gate/RUN_REPORT.md`.
+
+No archive was downloaded; no project labels, arrays, or checkpoints were read; no fitting/training ran. No code, data, or 789-file source snapshot changed. The restore remains present, the cloud is CPU-only with no acquisition hardware, and no active training process was found. The contribution goal remains unresolved.
+
+---
+
 
 
 # 2026-10-11 — Independent external gesture-cohort screen
