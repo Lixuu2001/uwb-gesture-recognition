@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_physical_augmentation_prior_art/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not train generic mirror/physical-augmentation, view-permutation, or held-view-only methods. The reviewed same-corpus 2026 full text discusses left/right asymmetry potentially from gesture execution, view-dependent scattering, or self-occlusion, so exact reflection/label mapping is unverified. Continue a bounded audit of remaining distinct mechanisms and their primary literature; run only if a candidate clears novelty and the frozen source-only protocol/cost gates.",
-  "last_completed_update_utc": "2026-10-11T00:38:39Z",
+  "next_candidate": "Continue bounded review of event-paired cross-view consistency and the full text of DOI 10.1109/TIM.2025.3637962. No paired-consistency training or held-view grid until the method-level novelty gate and source-only/cost protocol pass.",
+  "last_completed_update_utc": "2026-10-11T00:46:45Z",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261010_view_symmetry_fulltext/RUN_REPORT.md",
     "observed_executor_phase": "running",
@@ -1042,7 +1042,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-10-11T00:38:39Z",
+  "last_updated_utc": "2026-10-11T00:46:45Z",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -1206,19 +1206,22 @@
     }
   },
   "latest_executor_check": {
-    "checked_utc": "2026-10-10T22:11:27Z",
-    "cloud_egress": "restricted/enforced; no outbound-shell research needed",
+    "checked_utc": "2026-10-11T00:40:00Z",
+    "cloud_egress": "restricted; environment policy state unknown, no user host allowlist",
     "configured_capabilities": 0,
     "secrets": 0,
     "outbound_identities": 0,
     "gpu": false,
     "active_research_process_found": false,
+    "process_scan": "only defunct Python entries; no active UWB training process",
     "historical_weight_files_detected": 2777,
     "restored_uwb_data_present": true,
     "restored_data_path": "/workspace/uwb-restored-20260930",
+    "restore_receipt_present": true,
     "current_executor_source_files": 31,
     "current_executor_full_789_source_snapshot_present": false,
     "remote_789_source_snapshot_preserved": true,
+    "checkpoints_loaded_or_modified": false,
     "dataset_labels_or_radar_array_values_read": false,
     "fitting_or_training_started": false,
     "acquisition_devices_found": false
@@ -1585,5 +1588,23 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "No training started; continue only bounded prior-art screening for a distinct mechanism identifiable in the restored data."
+  "latest_reported_action": "No training started; continue only bounded prior-art screening for a distinct mechanism identifiable in the restored data.",
+  "latest_paired_event_view_candidate_screen": {
+    "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
+    "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
+    "pairing_key": [
+      "participant",
+      "gesture",
+      "repetition_index"
+    ],
+    "pair_semantics": "same repetition/event under soft synchronization; not frame-level time alignment",
+    "same_corpus_prior": "Xue et al. 2026 full-text: single, all dual, and tri-view fusion; 6-subject train/2-subject test; no held-physical-view test reported",
+    "related_prior": "Chen et al. 2025 TIM 10.1109/TIM.2025.3637962 abstract/metadata confirms multiview OOD gesture learning; full text inaccessible; exact paired loss unverified",
+    "generic_multiview_consistency_novelty_cleared": false,
+    "held_view_protocol_alone_is_method_contribution": false,
+    "candidate_training_approved": false,
+    "labels_or_tensor_values_read": false,
+    "training_started": false,
+    "research_contribution_validated": false
+  }
 }
