@@ -920,3 +920,8 @@ Generic per-event one/three-radar view selection did not clear novelty: exact-co
 ## 2026-10-11T17:14:03Z — IR-UWB representation prior-art gate
 
 A bounded source review identified prior IR-UWB gesture methods for TOA/range variation and waveform-centroid features, 3-D image-pattern/Inception classification on XeThru X4, and level-crossing/time-event coding with an SNN (the latter only verified from IEEE metadata/abstract). These narrow, but do not exhaust, the novelty space. Their acquisition cohorts/protocols differ or remain unverified, so their scores are not compared to the eight-held-user results here. The current processed range-time cache lacks raw complex echoes for phase/coherent signal claims and lacks calibrated motion ground truth for kinematic validation. No new candidate cleared both mechanism novelty and evaluation feasibility; no experiment was run. Details: `uwb_direction1/results/cloud_20261011_iruwb_event_representation_prior_art/RUN_REPORT.md`.
+
+
+## 2026-10-11T18:02:55Z — Resume-time executor feasibility
+
+Fresh inspection confirmed the restored X4 data is present and no training process is active. The managed environment is CPU-only (5 CPUs, PyTorch 2.14.0+cpu, no CUDA), with 712 MB free on a 32 GB workspace; task-configured HTTP egress hosts, runtime variables, secrets, and outbound identities are absent. No Drive restore is required. The current processed range-time cache still lacks raw complex echoes and calibrated motion truth, so coherent-phase or kinematic claims are not runnable. No labels/arrays/checkpoints were read, no download or fitting/training occurred. Details: `uwb_direction1/results/cloud_20261011_resume_preflight/RUN_REPORT.md`.
