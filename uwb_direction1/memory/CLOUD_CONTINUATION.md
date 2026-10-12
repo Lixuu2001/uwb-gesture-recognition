@@ -1,3 +1,11 @@
+# 2026-10-12 01:12 UTC — cloud preflight; no new candidate
+
+The current managed executor is running (spec revision 648), connected with restricted/enforced egress, no custom hosts, credentials, outbound identity, or extra capabilities. Runtime check: Python 3.12.14, PyTorch 2.14.0+cpu, five CPU threads, CUDA unavailable, 746,266,624 bytes free. The restored directory `/workspace/uwb-restored-20260930` is present and contains only the restore receipt plus the cached clutter-removed tensor and label/user arrays; no raw echo matrix or per-view background capture is present. Process scan found no active Python/UWB training job. Historical model/checkpoint files from earlier completed probes remain on disk; their contents were not opened. No external archive was downloaded and no new fit was started.
+
+Reconciliation: the WST prior art was already recorded in `PROJECT_MEMORY.md` on 2026-10-07. The 2026-10-12 note is a duplicate pointer, not new literature progress. No signal-specific method has cleared both novelty and input-feasibility gates. A meaningful next experiment still depends on a distinct reviewed mechanism and suitable raw/calibrated inputs; do not restart earlier failed probes.
+
+---
+
 # 2026-10-12 — WST prior-art note reconciled; no new candidate
 
 Cross-checking the 2026-10-12 WST note against `PROJECT_MEMORY.md` showed that the same Al-Jumaily & Khushaba (IEEE SSP 2023, DOI 10.1109/SSP53291.2023.10208011) same-corpus prior art had already been logged on 2026-10-07. The earlier note already withheld a novelty claim and warned that the paper's evaluation protocol was not verified. The 2026-10-12 report is only a consolidated pointer; it is not a new literature discovery or a new experiment. No labels, arrays, or checkpoints were read, and no fit/training ran.
