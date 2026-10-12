@@ -1,3 +1,13 @@
+# 2026-10-12 — wavelet-scattering same-corpus prior-art gate
+
+A bounded primary-source review found Al-Jumaily & Khushaba (IEEE SSP 2023, DOI 10.1109/SSP53291.2023.10208011): wavelet-scattering features plus lightweight classifiers were evaluated on the public UWB gesture set with the same eight participants and twelve gestures, with 95% average accuracy reported. The accessible IEEE publisher record and author-affiliated ECU abstract do not expose the complete method or participant split; do not compare that score to the project's eight-fold held-user macro score. Generic WST-for-CNN replacement is therefore not a cleared contribution on this corpus. No experiment or fit was started; project labels, arrays, and checkpoints were not accessed.
+
+Current preflight: restored data remains present; no active UWB job (only defunct historical Python PIDs); CPU-only PyTorch 2.14.0, five CPUs, no CUDA; 746 MB workspace free. No separate archive was downloaded. Full bounded review: `uwb_direction1/results/cloud_20261012_wavelet_scattering_prior_art/RUN_REPORT.md`.
+
+This only closes a baseline/novelty lead. The original, effective, reproducible contribution remains unvalidated; continue only with a signal-specific mechanism that clears both literature and input-feasibility gates.
+
+---
+
 # 2026-10-11 — FMCW cohort's public detection baseline reviewed
 
 The public `uctopus/hand_gesture_recognition` implementation, paired with the Zenodo/IEEE FMCW corpus, computes range/Doppler/angle/magnitude features, anchors a 20-frame gesture window at a thresholded minimum-range frame, creates background windows, and uses a two-layer LSTM for five gesture classes plus background. This is implementation-level prior art for peak-anchored window localization and lightweight temporal classification on FMCW. The repository's reported metrics are self-reported, not independently reproduced, and its engineered input differs from X4's restored IR-UWB range-time maps. A project method based only on a min-range anchor, fixed window, background examples, or generic LSTM is not cleared. Sources and scope are appended to `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`. No dataset was downloaded and no project fitting ran.
