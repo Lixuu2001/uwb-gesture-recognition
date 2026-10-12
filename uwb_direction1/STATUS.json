@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-12 reconciliation: WST-for-CNN prior art was already logged in PROJECT_MEMORY.md on 2026-10-07; no new candidate, experiment, or contribution validated.",
+  "latest_literature_note": "2026-10-12: WST same-corpus prior art was already in PROJECT_MEMORY.md (2026-10-07); current executor preflight found no active jobs and confirms no raw echoes/backgrounds. No new method or experiment.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Review a narrowly specified IR-UWB signal mechanism against primary literature. Generic event detection via min-range anchor/fixed window, generic temporal classifier, multi-view fusion, cross-view consistency, transfer, and augmentation are preempted or not cleared. No new experiment until both method novelty and data/compute gates pass.",
-  "last_completed_update_utc": "2026-10-12 00:32:58 UTC",
+  "last_completed_update_utc": "2026-10-12 01:12:39 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_open_set_subject_generalization_prior_art/RUN_REPORT.md",
     "observed_at_utc": "2026-10-11 22:17:00 UTC",
@@ -1951,5 +1951,37 @@
     "new_literature_finding": false,
     "duplicate_of_project_memory_entry": "2026-10-07 temporal-scattering gate; full-text protocol already unverified",
     "report_role": "consolidated pointer only; not new progress"
+  },
+  "latest_continuation_preflight": {
+    "observed_at_utc": "2026-10-12 01:12:39 UTC",
+    "observed_spec_revision": 648,
+    "executor_state": "running",
+    "network_policy": "restricted_enforced",
+    "custom_egress_hosts": [],
+    "outbound_identities": [],
+    "capabilities": [],
+    "python": "3.12.14",
+    "torch": "2.14.0+cpu",
+    "cpu_threads": 5,
+    "cuda_available": false,
+    "workspace_free_bytes": 746266624,
+    "restored_data_path": "/workspace/uwb-restored-20260930",
+    "restored_cache_present": true,
+    "restored_cache_inventory": [
+      "cache/X_clutterremoved.npy",
+      "cache/subj_clutterremoved.npy",
+      "cache/subj_raw.npy",
+      "cache/y_clutterremoved.npy",
+      "cache/y_raw.npy"
+    ],
+    "raw_echo_matrix_present": false,
+    "per_view_background_capture_present": false,
+    "active_training_process_found": false,
+    "historical_checkpoint_files_present": true,
+    "checkpoint_contents_read": false,
+    "project_labels_or_array_values_read": false,
+    "data_downloaded": false,
+    "training_started": false,
+    "conclusion": "WST prior art was already logged in PROJECT_MEMORY.md on 2026-10-07; no new literature candidate or experiment. No distinct method has cleared novelty and input-feasibility gates."
   }
 }
