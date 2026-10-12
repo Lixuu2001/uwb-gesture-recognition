@@ -1,10 +1,8 @@
-# 2026-10-12 — wavelet-scattering same-corpus prior-art gate
+# 2026-10-12 — WST prior-art note reconciled; no new candidate
 
-A bounded primary-source review found Al-Jumaily & Khushaba (IEEE SSP 2023, DOI 10.1109/SSP53291.2023.10208011): wavelet-scattering features plus lightweight classifiers were evaluated on the public UWB gesture set with the same eight participants and twelve gestures, with 95% average accuracy reported. The accessible IEEE publisher record and author-affiliated ECU abstract do not expose the complete method or participant split; do not compare that score to the project's eight-fold held-user macro score. Generic WST-for-CNN replacement is therefore not a cleared contribution on this corpus. No experiment or fit was started; project labels, arrays, and checkpoints were not accessed.
+Cross-checking the 2026-10-12 WST note against `PROJECT_MEMORY.md` showed that the same Al-Jumaily & Khushaba (IEEE SSP 2023, DOI 10.1109/SSP53291.2023.10208011) same-corpus prior art had already been logged on 2026-10-07. The earlier note already withheld a novelty claim and warned that the paper's evaluation protocol was not verified. The 2026-10-12 report is only a consolidated pointer; it is not a new literature discovery or a new experiment. No labels, arrays, or checkpoints were read, and no fit/training ran.
 
-Current preflight: restored data remains present; no active UWB job (only defunct historical Python PIDs); CPU-only PyTorch 2.14.0, five CPUs, no CUDA; 746 MB workspace free. No separate archive was downloaded. Full bounded review: `uwb_direction1/results/cloud_20261012_wavelet_scattering_prior_art/RUN_REPORT.md`.
-
-This only closes a baseline/novelty lead. The original, effective, reproducible contribution remains unvalidated; continue only with a signal-specific mechanism that clears both literature and input-feasibility gates.
+The current blocker is unchanged: no signal-specific mechanism has cleared both prior-art and input-feasibility gates. Do not count the duplicate WST note as progress toward a validated contribution. Full pointer: `uwb_direction1/results/cloud_20261012_wavelet_scattering_prior_art/RUN_REPORT.md`.
 
 ---
 
