@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-12: WST-for-CNN replacement has same-corpus prior art (eight participants/twelve gestures); exact split/full method details remain inaccessible; no comparable claim or novel contribution cleared.",
+  "latest_literature_note": "2026-10-12 reconciliation: WST-for-CNN prior art was already logged in PROJECT_MEMORY.md on 2026-10-07; no new candidate, experiment, or contribution validated.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -1947,6 +1947,9 @@
     "experiment_run": false,
     "project_labels_or_arrays_read": false,
     "training_started": false,
-    "contribution_validated": false
+    "contribution_validated": false,
+    "new_literature_finding": false,
+    "duplicate_of_project_memory_entry": "2026-10-07 temporal-scattering gate; full-text protocol already unverified",
+    "report_role": "consolidated pointer only; not new progress"
   }
 }
