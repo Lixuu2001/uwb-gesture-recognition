@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261011_conformal_user_level_feasibility/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261012_wavelet_scattering_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-11: same-corpus STGPL already covers UWB-Gestures OSR/cross-subject; adjacent 2026 subject-out IMU-HAR uses label-conditional conformal. Generic conformal wrapping is not cleared, and this eight-user cohort cannot give nontrivial 90% participant-level split-conformal coverage in an outer held-user fold.",
+  "latest_literature_note": "2026-10-12: WST-for-CNN replacement has same-corpus prior art (eight participants/twelve gestures); exact split/full method details remain inaccessible; no comparable claim or novel contribution cleared.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Review a narrowly specified IR-UWB signal mechanism against primary literature. Generic event detection via min-range anchor/fixed window, generic temporal classifier, multi-view fusion, cross-view consistency, transfer, and augmentation are preempted or not cleared. No new experiment until both method novelty and data/compute gates pass.",
-  "last_completed_update_utc": "2026-10-11 23:26:00 UTC",
+  "last_completed_update_utc": "2026-10-12 00:00:00 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_open_set_subject_generalization_prior_art/RUN_REPORT.md",
     "observed_at_utc": "2026-10-11 22:17:00 UTC",
@@ -1932,5 +1932,21 @@
     "training_started": false,
     "method_contribution_validated": false
   },
-  "latest_report_date": "2026-10-11"
+  "latest_report_date": "2026-10-11",
+  "latest_wavelet_scattering_prior_art": {
+    "date": "2026-10-12",
+    "report": "uwb_direction1/results/cloud_20261012_wavelet_scattering_prior_art/RUN_REPORT.md",
+    "paper": "Al-Jumaily & Khushaba, IEEE SSP 2023, DOI 10.1109/SSP53291.2023.10208011",
+    "same_corpus_claim": "public UWB gesture dataset; eight participants, twelve gestures",
+    "reported_result": "95% average accuracy across subjects; not comparable to current held-user macro protocol because exact split and method details were not accessible",
+    "accessible_primary_sources": [
+      "IEEE publisher record",
+      "author-affiliated ECU repository abstract"
+    ],
+    "generic_wavelet_scattering_novelty_cleared": false,
+    "experiment_run": false,
+    "project_labels_or_arrays_read": false,
+    "training_started": false,
+    "contribution_validated": false
+  }
 }
