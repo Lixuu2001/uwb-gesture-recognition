@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261012_empty_subspace_novelty_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261012_adaptive_view_selection_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -132,7 +132,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Review a narrowly specified IR-UWB signal mechanism against primary literature. Generic event detection via min-range anchor/fixed window, generic temporal classifier, multi-view fusion, cross-view consistency, transfer, and augmentation are preempted or not cleared. No new experiment until both method novelty and data/compute gates pass.",
-  "last_completed_update_utc": "2026-10-12 07:20:03 UTC",
+  "last_completed_update_utc": "2026-10-12 13:08:21 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_open_set_subject_generalization_prior_art/RUN_REPORT.md",
     "observed_at_utc": "2026-10-11 22:17:00 UTC",
@@ -1953,8 +1953,9 @@
     "report_role": "consolidated pointer only; not new progress"
   },
   "latest_continuation_preflight": {
-    "observed_at_utc": "2026-10-12 07:20:03 UTC",
+    "observed_at_utc": "2026-10-12 13:08:21 UTC",
     "executor_state": "running",
+    "spec_revision": "678",
     "runtime": "Python 3.12.14; PyTorch 2.14.0+cpu",
     "cpu_threads": 5,
     "cuda_available": false,
@@ -1973,7 +1974,8 @@
     "checkpoint_contents_read": false,
     "fitting_or_training_started": false,
     "data_downloaded": false,
-    "conclusion": "No active job; existing restore is unchanged. Literature gate did not clear the prospective empty-subspace classifier; no experiment started."
+    "network_policy": "restricted_enforced; no custom egress hosts or outbound identities",
+    "conclusion": "No active job. Bounded primary-source review found generic cost-aware instance-wise sensor selection and same-corpus adaptive multiview fusion prior art. Candidate not cleared; no experiment started."
   },
   "latest_empty_subspace_novelty_gate": {
     "date": "2026-10-12",
@@ -1991,5 +1993,24 @@
     "data_downloaded": false,
     "source_snapshot_changed": false,
     "decision": "Do not run the optional classifier/eight-fold study without a technically material, primary-source-distinguished mechanism."
+  },
+  "latest_adaptive_view_selection_prior_art": {
+    "date": "2026-10-12",
+    "report": "uwb_direction1/results/cloud_20261012_adaptive_view_selection_prior_art/RUN_REPORT.md",
+    "candidate": "per-instance selection of one or more radar views to trade gesture loss against sensor cost",
+    "prior_art": [
+      "Yang et al., AAAI 2020, DOI 10.1609/aaai.v34i01.5461: instance-wise sparse sensor selection jointly minimizing HAR loss and sensor count, via MDP/imitation learning/Mutual DAgger",
+      "Xue et al., Frontiers in Neuroscience 2026, DOI 10.3389/fnins.2026.1864448: same 12-class UWB-Gestures benchmark, three-view fusion with adaptive feature selection; split comparability not verified",
+      "Yang et al., IET Radar Sonar Navig. 2018, DOI 10.1049/iet-rsn.2018.5206: two-radar angular-diversity gesture recognition with sparse time-frequency feature fusion and poor-view robustness"
+    ],
+    "novelty_gate_cleared": false,
+    "input_cost_gate_cleared": false,
+    "experiment_run": false,
+    "labels_or_array_values_read": false,
+    "checkpoints_read": false,
+    "training_started": false,
+    "data_downloaded": false,
+    "source_snapshot_changed": false,
+    "decision": "Do not run generic adaptive view-selection/fusion as a new contribution. A future study needs a radar-signal-specific mechanism distinct from these priors and calibrated measured per-view sensor cost; current executor has no radar hardware."
   }
 }
