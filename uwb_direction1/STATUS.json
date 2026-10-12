@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Identify a technically material signal-specific IR-UWB mechanism that clears primary-source prior art and is feasible on the actual input. The empty-only subspace classifier candidate is not cleared and its optional classifier study was not run. For physically grounded alternatives the current clutter-removed cache lacks raw complex echoes, per-view backgrounds, calibrated transfer data, and synchronized motion truth; any required acquisition must supply those inputs.",
+  "next_required_input": "No currently identified classifier/descriptor from the restored real-valued 90x189 clutter-removed cache has passed both novelty and observability gates. The range-resolved slow-time envelope-spectrum candidate is preempted by primary literature and is not phase-Doppler. Continue only after identifying a materially distinct, primary-source-cleared mechanism feasible on the actual input, or obtaining the specific measured channels required (raw complex echoes, per-view backgrounds/calibration, synchronized timing/motion truth as applicable).",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261012_cache_schema_feasibility/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261012_range_bin_envelope_doppler_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-12 16:31 UTC: read-only restored-cache header audit confirms only real float32 X_clutterremoved [9593,3,90,189]; no raw/complex echo file. No new fit-capable candidate identified.",
+  "latest_literature_note": "2026-10-12 17:26 UTC: range-resolved slow-time envelope spectrum gate stopped before fitting. Ritchie & Jones 2019 already classify from per-range-bin spectrograms; present 20 fps UWB maps permit only <10 Hz envelope modulation, not phase-coherent Doppler. Details in latest report.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -131,8 +131,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Review a narrowly specified IR-UWB signal mechanism against primary literature. Generic event detection via min-range anchor/fixed window, generic temporal classifier, multi-view fusion, cross-view consistency, transfer, and augmentation are preempted or not cleared. No new experiment until both method novelty and data/compute gates pass.",
-  "last_completed_update_utc": "2026-10-12 16:31:39 UTC",
+  "next_candidate": "Do not run another generic time-frequency, range-statistic, temporal, or multi-view grid. A future candidate needs a distinct signal-level physical hypothesis, primary-source distinction, feasible measured input, and frozen user-disjoint protocol. Present dataset supports real-valued envelope maps only; additional hardware acquisition is not available in this cloud.",
+  "last_completed_update_utc": "2026-10-12 17:26:52 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_open_set_subject_generalization_prior_art/RUN_REPORT.md",
     "observed_at_utc": "2026-10-11 22:17:00 UTC",
