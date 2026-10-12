@@ -4,6 +4,10 @@ Date: 2026-10-12 UTC
 
 ## Finding
 
+## Reconciliation with existing project memory
+
+The same WST paper and same-corpus scope had already been recorded in `uwb_direction1/memory/PROJECT_MEMORY.md` on 2026-10-07 (the temporal-scattering gate: “SSP2023同数据WST直接先例”). Therefore this report is a consolidated pointer, not a new literature finding, and WST was already not cleared as a novel contribution. No additional review or experiment is implied by this reconciliation.
+
 A targeted search located Al-Jumaily and Khushaba, “Deep Hand Gesture Recognition: A Wavelet Scattering Alternative to Convolutional Networks,” 2023 IEEE Statistical Signal Processing Workshop, DOI 10.1109/SSP53291.2023.10208011. The IEEE publisher record and the authors' university repository abstract both state that the method compares wavelet-scattering features plus lightweight conventional classifiers against DCNNs on a public UWB impulse-radar gesture database with eight participants and twelve gestures, reporting 95% average accuracy across subjects.
 
 This is the same UWB-Gestures corpus used here, so generic wavelet-scattering features or “lightweight scattering instead of CNN” are already prior art for this data. The accessible primary-source material was the publisher record and author-affiliated repository abstract; the paper is subscription-only and its full method, exact preprocessing, split construction, per-user results, and compute measurements were not accessible in this review. The reported 95% therefore cannot be treated as comparable to the project's eight-fold held-user macro score.
