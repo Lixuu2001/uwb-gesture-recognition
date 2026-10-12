@@ -1,3 +1,11 @@
+# 2026-10-12 13:08 UTC — adaptive radar-view selection prior-art gate
+
+A bounded primary-source review screened per-instance selection among the three X4 radar views to trade gesture loss against sensor cost. Generic per-instance sparse sensor selection that jointly minimizes HAR loss and sensor count is already described by Yang et al. (AAAI 2020, DOI 10.1609/iet? see exact DOI 10.1609/aaai.v34i01.5461), using an MDP/imitative policy and Mutual DAgger. More directly, the same 12-class UWB-Gestures corpus has a 2026 three-view IR-UWB paper claiming adaptive fusion/feature selection (Xue et al., DOI 10.3389/fnins.2026.1864448); split details are not verified comparable to our held-user macro protocol. A 2018 two-radar angular-diversity gesture paper also studies sparse time-frequency fusion and robustness when a view is poor (DOI 10.1049/iet-rsn.2018.5206). These findings close generic adaptive view-selection/fusion as a standalone novelty claim.
+
+No classification fit or training ran; no labels, tensor values, or checkpoints were read. Current cache lacks calibrated per-view acquisition/energy/latency cost, and the cloud has no radar hardware, so even a cost-aware sensor contribution lacks its physical target. Report: `uwb_direction1/results/cloud_20261012_adaptive_view_selection_prior_art/RUN_REPORT.md`. The bounded review is neither exhaustive nor a legal opinion; 789-file original source snapshot remains untouched.
+
+---
+
 # 2026-10-12 01:12 UTC — cloud preflight; no new candidate
 
 The current managed executor is running (spec revision 648), connected with restricted/enforced egress, no custom hosts, credentials, outbound identity, or extra capabilities. Runtime check: Python 3.12.14, PyTorch 2.14.0+cpu, five CPU threads, CUDA unavailable, 746,266,624 bytes free. The restored directory `/workspace/uwb-restored-20260930` is present and contains only the restore receipt plus the cached clutter-removed tensor and label/user arrays; no raw echo matrix or per-view background capture is present. Process scan found no active Python/UWB training job. Historical model/checkpoint files from earlier completed probes remain on disk; their contents were not opened. No external archive was downloaded and no new fit was started.
