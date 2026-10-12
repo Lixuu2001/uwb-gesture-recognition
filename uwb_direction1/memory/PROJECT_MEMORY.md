@@ -1,3 +1,11 @@
+# 2026-10-12 — Adaptive radar-view selection prior-art gate
+
+A bounded primary-source review screened per-instance selection among the three X4 views to trade recognition loss against view/sensor cost. Generic instance-wise sparse sensor selection jointly minimizing HAR loss and number of sensors is already established by Yang et al., AAAI 2020, DOI 10.1609/aaai.v34i01.5461 (MDP policy, imitation learning, Mutual DAgger). The same 12-class UWB-Gestures corpus also has a 2026 three-view IR-UWB fusion paper claiming adaptive feature selection (Xue et al., DOI 10.3389/fnins.2026.1864448; reported split comparability remains unverified). A two-radar angular-diversity gesture paper uses sparse time-frequency features and fusion for poor-view robustness (Yang et al., DOI 10.1049/iet-rsn.2018.5206). Thus generic cost-aware view selection/adaptive multiview fusion is not cleared as a standalone contribution.
+
+No experiment was run. Current cloud has no radar acquisition hardware or calibrated measured per-view cost. Future work would require a signal-specific mechanism beyond these priors and a valid measured cost target; do not fit a generic selector or rebrand fusion. Full report: `uwb_direction1/results/cloud_20261012_adaptive_view_selection_prior_art/RUN_REPORT.md`.
+
+---
+
 # 2026-10-11 — FMCW cohort's public detection baseline reviewed
 
 The public `uctopus/hand_gesture_recognition` implementation, paired with the Zenodo/IEEE FMCW corpus, computes range/Doppler/angle/magnitude features, anchors a 20-frame gesture window at a thresholded minimum-range frame, creates background windows, and uses a two-layer LSTM for five gesture classes plus background. This is implementation-level prior art for peak-anchored window localization and lightweight temporal classification on FMCW. The repository's reported metrics are self-reported, not independently reproduced, and its engineered input differs from X4's restored IR-UWB range-time maps. A project method based only on a min-range anchor, fixed window, background examples, or generic LSTM is not cleared. Sources and scope are appended to `uwb_direction1/results/cloud_20261011_zenodo_framelabel_cohort_gate/RUN_REPORT.md`. No dataset was downloaded and no project fitting ran.
