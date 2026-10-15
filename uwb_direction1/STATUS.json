@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261012_external_cohort_provenance/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261015_wearable_mmwave_cohort_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Do not run another generic time-frequency, range-statistic, temporal, or multi-view grid. A future candidate needs a distinct signal-level physical hypothesis, primary-source distinction, feasible measured input, and frozen user-disjoint protocol. Present dataset supports real-valued envelope maps only; additional hardware acquisition is not available in this cloud.",
-  "last_completed_update_utc": "2026-10-12 18:03 UTC",
+  "last_completed_update_utc": "2026-10-15 01:16:57 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_open_set_subject_generalization_prior_art/RUN_REPORT.md",
     "observed_at_utc": "2026-10-11 22:17:00 UTC",
@@ -1934,7 +1934,7 @@
     "training_started": false,
     "method_contribution_validated": false
   },
-  "latest_report_date": "2026-10-12",
+  "latest_report_date": "2026-10-15",
   "latest_wavelet_scattering_prior_art": {
     "date": "2026-10-12",
     "report": "uwb_direction1/results/cloud_20261012_wavelet_scattering_prior_art/RUN_REPORT.md",
@@ -2070,5 +2070,27 @@
     "label_values_read": false,
     "training_started": false,
     "restored_cache_reused": true
+  },
+  "wearable_mmwave_cohort_gate": {
+    "date": "2026-10-15",
+    "report": "uwb_direction1/results/cloud_20261015_wearable_mmwave_cohort_gate/RUN_REPORT.md",
+    "dataset": "wearable-mmwave-radar-dataset; maintainer README/Hugging Face card metadata",
+    "separate_cohort_lead": true,
+    "participants": 11,
+    "samples": 3300,
+    "classes": 10,
+    "modality": "wrist-mounted 60-GHz FMCW; 24 fps; float32 sample shape (71,3,64,64)",
+    "archive_estimate_gb": 22,
+    "x4_label_mapping_verified": false,
+    "x4_input_compatibility": false,
+    "method_paper_available_in_linked_repo": false,
+    "primary_method_novelty_cleared": false,
+    "current_free_bytes": 746266624,
+    "archive_staging_feasible": false,
+    "active_training_process_found": false,
+    "downloaded": false,
+    "arrays_or_labels_read": false,
+    "training_started": false,
+    "method_contribution_validated": false
   }
 }
