@@ -26,13 +26,13 @@
   "first_exploratory_probe_completed": true,
   "first_exploratory_probe_continuation_criterion_met": false,
   "novel_research_contribution_validated": false,
-  "cloud_data_path": "/workspace/uwb-restored-20260930",
-  "cloud_original_source_path": "/workspace/uwb-temporal-publish-20261003/uwb_direction1/original/project",
+  "cloud_data_path": "/workspace/uwb-restored-20261020",
+  "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
   "compute": "Current cloud: PyTorch2.14.0+cpu, Python3.12; SWAD pilot used1 CPU thread; no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261015_wearable_mmwave_cohort_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261020_env_restore_prior_art/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-12 17:26 UTC: range-resolved slow-time envelope spectrum gate stopped before fitting. Ritchie & Jones 2019 already classify from per-range-bin spectrograms; present 20 fps UWB maps permit only <10 Hz envelope modulation, not phase-coherent Doppler. Details in latest report.",
+  "latest_literature_note": "2026-10-20 21:07:12 UTC: direct full-text review of Xue et al. (2026), DOI 10.3389/fnins.2026.1864448, confirms same X4/UWB-Gestures corpus, 12 classes, three views, 20fps 90x189 maps; 6/2 user split and 9600 samples differ from quality-filtered 9300/eight-fold protocol. ConvMixer + CNN-Transformer gated/bilinear fusion preempts generic same-corpus fusion claims. No new fit; no PyTorch installed in replacement runtime.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Do not run another generic time-frequency, range-statistic, temporal, or multi-view grid. A future candidate needs a distinct signal-level physical hypothesis, primary-source distinction, feasible measured input, and frozen user-disjoint protocol. Present dataset supports real-valued envelope maps only; additional hardware acquisition is not available in this cloud.",
-  "last_completed_update_utc": "2026-10-15 01:16:57 UTC",
+  "last_completed_update_utc": "2026-10-20 21:07:12 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261011_open_set_subject_generalization_prior_art/RUN_REPORT.md",
     "observed_at_utc": "2026-10-11 22:17:00 UTC",
@@ -2092,5 +2092,24 @@
     "arrays_or_labels_read": false,
     "training_started": false,
     "method_contribution_validated": false
+  },
+  "latest_runtime_restore": {
+    "observed_at_utc": "2026-10-20 21:07:12 UTC",
+    "branch_head": "5b811103daa2b3e546ee591c971547d94779bb31",
+    "report": "uwb_direction1/results/cloud_20261020_env_restore_prior_art/RUN_REPORT.md",
+    "restored_data_path": "/workspace/uwb-restored-20261020",
+    "restored_data_present": true,
+    "restored_files": 86,
+    "restored_bytes": 2141981100,
+    "restored_file_sha256_verified": true,
+    "drive_folder_shared": false,
+    "active_training_process_found": false,
+    "training_started": false,
+    "compute": "Python 3.12.14; 5 CPU cores; NumPy 2.3.5; SciPy 1.17.0; scikit-learn 1.8.0; PyTorch not installed; no NVIDIA device observed",
+    "available_memory_bytes": 17947340800,
+    "workspace_free_bytes": 25847521280,
+    "original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
+    "original_source_files": 789,
+    "original_source_unchanged": true
   }
 }
