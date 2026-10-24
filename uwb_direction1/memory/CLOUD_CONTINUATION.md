@@ -1296,3 +1296,12 @@ This closes the apparent Figshare-repack route for independent validation, while
 # 2026-10-15 01:16:57 UTC — wearable FMCW cohort screened; not protocol-compatible
 
 A public-source check identified a separate wearable 60-GHz FMCW gesture cohort (3,300 samples, 11 participants, ten hand/finger classes, 71×3×64×64 per sample) from 2025. It is a distinct cohort lead, but its wrist-mounted raw FMCW modality and gesture labels do not presently map to the X4 free-space IR-UWB 12-class held-user task. The linked repository says its article is forthcoming, so method-level prior art remains unreviewed. Current workspace has 746,266,624 bytes free versus the repository's ~22 GB release estimate; cloud is CPU-only with no CUDA and no custom egress hosts. No files were downloaded, no arrays/labels/checkpoints read, and no fitting/training ran. Do not claim external validation or a cross-sensor contribution from this lead. Report: `uwb_direction1/results/cloud_20261015_wearable_mmwave_cohort_gate/RUN_REPORT.md`.
+
+
+# 2026-10-24 10:50:45 UTC — Physics-normalization prior-art gate
+
+A bounded search and official-source check reviewed Sluyters et al. (IEEE TIM 2026, DOI 10.1109/TIM.2026.3729019) at abstract level: full-wave electromagnetic modeling/inversion normalizes radar measurements toward a Green's-function representation; the abstract reports a two-radar comparison, angle/distance sensitivity, and 20 gestures. This preempts a generic hardware/background-invariant physical-normalization claim. The full paper was not accessed, and its cohort/split is not treated as equivalent to UWB-Gestures.
+
+The official DGIST record for Kim et al. (IEEE Access 2026, DOI 10.1109/ACCESS.2026.3671243) confirms same-corpus speed-induced range-Doppler scale/multi-scale prior art; full text was not opened. This corroborates the already-closed generic speed/multiscale route; paper scores were not compared.
+
+The current restored cache is real-valued clutter-removed TR maps, with no raw complex pulses or measured per-view background/system calibration for a reproducible full-wave inversion. No distinct feasible candidate cleared the gates. Current cloud has no active training process; this run did not read label/tensor values or checkpoints, download data, fit, or train. The research contribution remains unvalidated. Full scope and runtime preflight: `uwb_direction1/results/cloud_20261024_physical_normalization_prior_art_gate/RUN_REPORT.md`.

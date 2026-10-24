@@ -28,18 +28,18 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261020",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Current cloud: PyTorch2.14.0+cpu, Python3.12; SWAD pilot used1 CPU thread; no GPU",
+  "compute": "Current cloud (2026-10-24): Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0, scikit-learn 1.8.0; PyTorch absent; 5 CPU cores; no GPU.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261020_env_restore_prior_art/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261024_physical_normalization_prior_art_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
   ],
   "latest_repeat_scope": "landmark sampling only; same seed2026 frozen encoders",
-  "torch_installed": true,
-  "torch_path": "/home/agent/.local/lib/python3.12/site-packages/torch",
+  "torch_installed": false,
+  "torch_path": null,
   "current_environment_original_source_files": 789,
   "current_environment_full_source_snapshot": true,
   "source_inventory_note": "Current isolated publish checkout contains all789 tracked project files plus4 metadata/control files. Original subtree unmodified from latest remote. Prior28-file note described an earlier checkout.",
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-20 21:07:12 UTC: direct full-text review of Xue et al. (2026), DOI 10.3389/fnins.2026.1864448, confirms same X4/UWB-Gestures corpus, 12 classes, three views, 20fps 90x189 maps; 6/2 user split and 9600 samples differ from quality-filtered 9300/eight-fold protocol. ConvMixer + CNN-Transformer gated/bilinear fusion preempts generic same-corpus fusion claims. No new fit; no PyTorch installed in replacement runtime.",
+  "latest_literature_note": "2026-10-24 10:50:45 UTC: publisher-abstract review of Sluyters et al. (IEEE TIM 2026, DOI 10.1109/TIM.2026.3729019) closes generic full-wave EM/Green's-function hardware/background normalization as novelty; full text not accessed, cohort split not assumed comparable. Official DGIST record confirms Kim et al. (IEEE Access 2026, DOI 10.1109/ACCESS.2026.3671243) same-corpus speed-induced range-Doppler multi-scale prior art. Current clutter-removed real cache lacks raw complex echoes/per-view calibration for EM inversion. No candidate passed; no labels/array values, no fit/training/download.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -133,26 +133,28 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Do not run another generic time-frequency, range-statistic, temporal, or multi-view grid. A future candidate needs a distinct signal-level physical hypothesis, primary-source distinction, feasible measured input, and frozen user-disjoint protocol. Present dataset supports real-valued envelope maps only; additional hardware acquisition is not available in this cloud.",
-  "last_completed_update_utc": "2026-10-20 21:07:12 UTC",
+  "next_candidate": "Do not run another generic time-frequency, range-statistic, temporal, or multi-view grid. Generic full-wave EM/Green's-function hardware/background normalization and same-corpus speed/multiscale are prior art. Current processed real-valued maps lack raw complex pulses and per-view calibration for EM inversion; future work requires a distinct observable that is both literature-cleared and present in the cache, or new raw/calibrated acquisition, followed by a frozen held-user protocol.",
+  "last_completed_update_utc": "2026-10-24 10:50:45 UTC",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261011_open_set_subject_generalization_prior_art/RUN_REPORT.md",
-    "observed_at_utc": "2026-10-11 22:17:00 UTC",
+    "report": "uwb_direction1/results/cloud_20261024_physical_normalization_prior_art_gate/RUN_REPORT.md",
+    "observed_at_utc": "2026-10-24 10:50:45 UTC",
     "observed_executor_phase": "running",
-    "observed_spec_revision": "642",
+    "observed_spec_revision": "1299",
     "capabilities": [],
-    "compute": "CPU-only",
-    "torch_version": "2.14.0+cpu",
+    "compute": "CPU-only; Python 3.12.14; NumPy 2.3.5; SciPy 1.17.0; scikit-learn 1.8.0; PyTorch absent",
+    "torch_version": null,
     "cpu_count": 5,
     "cuda_available": false,
-    "restored_data_path": "/workspace/uwb-restored-20260930",
+    "restored_data_path": "/workspace/uwb-restored-20261020",
     "restored_data_present": true,
     "active_training_process_found": false,
-    "workspace_free_bytes": 746266624,
+    "serialized_checkpoint_files_found": false,
+    "workspace_free_bytes": 25847521280,
+    "available_memory_kb": 17651268,
     "labels_or_radar_array_values_read": false,
     "checkpoint_contents_read": false,
     "training_started": false,
-    "network_policy": "restricted_enforced"
+    "network_policy": "restricted_enforced; no custom allowed hosts, capabilities, secrets, or outbound identities"
   },
   "swad_protocol_commit": "58b6e1e2e13fcf1abf3d091347705521b50cc583",
   "swad_results_path": "/workspace/uwb-swad-source-runs-20261003",
@@ -2095,7 +2097,7 @@
   },
   "latest_runtime_restore": {
     "observed_at_utc": "2026-10-20 21:07:12 UTC",
-    "branch_head": "5b811103daa2b3e546ee591c971547d94779bb31",
+    "branch_head": "997e97d29513920ba53c981d8036e09f9c5fb393",
     "report": "uwb_direction1/results/cloud_20261020_env_restore_prior_art/RUN_REPORT.md",
     "restored_data_path": "/workspace/uwb-restored-20261020",
     "restored_data_present": true,
@@ -2105,11 +2107,42 @@
     "drive_folder_shared": false,
     "active_training_process_found": false,
     "training_started": false,
-    "compute": "Python 3.12.14; 5 CPU cores; NumPy 2.3.5; SciPy 1.17.0; scikit-learn 1.8.0; PyTorch not installed; no NVIDIA device observed",
+    "compute": "Python 3.12.14; 5 CPU cores; NumPy 2.3.5; SciPy 1.17.0; scikit-learn 1.8.0; PyTorch absent; no NVIDIA device observed",
     "available_memory_bytes": 17947340800,
     "workspace_free_bytes": 25847521280,
     "original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
     "original_source_files": 789,
     "original_source_unchanged": true
+  },
+  "latest_primary_source_gate": {
+    "date_utc": "2026-10-24 10:50:45 UTC",
+    "report": "uwb_direction1/results/cloud_20261024_physical_normalization_prior_art_gate/RUN_REPORT.md",
+    "sources": [
+      {
+        "citation": "Sluyters et al., IEEE Transactions on Instrumentation and Measurement 75 (2026), article 6514420",
+        "doi": "10.1109/TIM.2026.3729019",
+        "review_scope": "publisher abstract only; full text not accessed",
+        "generic_claim_preempted": "full-wave EM inversion to Green's-function representation for radar/background normalization",
+        "protocol_comparability_verified": false
+      },
+      {
+        "citation": "Kim et al., IEEE Access 14 (2026), 40034-40041",
+        "doi": "10.1109/ACCESS.2026.3671243",
+        "review_scope": "official DGIST record/abstract; full article not opened",
+        "scope": "same-UWB-Gestures speed-induced range-Doppler multi-scale features"
+      }
+    ],
+    "input_feasibility": {
+      "raw_complex_echoes_present": false,
+      "per_view_system_background_calibration_present": false,
+      "em_inversion_reproducible_on_current_cache": false
+    },
+    "active_training_process_found": false,
+    "serialized_checkpoint_found": false,
+    "project_labels_or_array_values_read": false,
+    "fitting_or_training_started": false,
+    "data_downloaded": false,
+    "method_contribution_validated": false,
+    "decision": "Do not run another grid; next work needs a technically distinct observable or new raw/calibrated acquisition and a frozen held-user protocol."
   }
 }
