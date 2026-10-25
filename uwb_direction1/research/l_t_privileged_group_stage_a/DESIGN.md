@@ -96,3 +96,8 @@ The owner authorized one descriptive-only run after protocol/hash registration. 
 ## Reauthorized run02 after a pre-array metadata error
 
 The user explicitly authorized one retry of the same descriptive-only computation. The first attempt failed before `np.load`, with no data values/labels read or statistics produced. The manifest-state assertion is fixed and covered synthetically. run02 uses the exact same scientific split, features, probe, groups, thresholds, seed, and shuffle count; it uses 899 CPU seconds and 898.9 wall seconds so cumulative run01+run02 stays under 900/900. If run02 fails again before array access, only code repair within remaining cumulative budget is possible. After any array read, do not restart/resample. No CNN or other follow-on is authorized.
+
+
+## Stage A disposition (2026-10-25)
+
+Run02 completed after run01's pre-array engineering error. The frozen screen did not support further design: aggregate incremental CMI exceeded its descriptive floor, but coverage and stable cross-user error direction each held in only 1/12 classes, below 8/12. This is not a broad mechanism refutation and not evidence of a contribution. Trial/session exchangeability is unresolved. No Stage B, CNN, or further real run is authorized. Full outcome: `uwb_direction1/results/cloud_20261025_l_t_privileged_group_stage_a/RUN_REPORT.md`.
