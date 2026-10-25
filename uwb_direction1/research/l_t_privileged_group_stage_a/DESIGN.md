@@ -28,10 +28,21 @@ The restored cache contains the 1.96-GB real-valued clutter-removed map and hist
 - The inner audit labels are used only after all transforms/probe are frozen, to calculate error association. Subjects 3–8 have prior project development use, so this is not independent validation or an untouched user test.
 - For each class, L/T groups use fixed magnitude normalization, 10×21 average pooling, train-only StandardScaler, train-only 16-component PCA, then KMeans K=2 (one fixed seed and n_init=10). The R-only control uses the same transform and clustering procedure on R. The Right-error probe is a single train-only StandardScaler + RidgeClassifier (`alpha=1`, `class_weight=balanced`), with no parameter selection.
 - Cluster IDs are sorted by the sign-fixed first PCA coordinate of the fit centroids. Audit rows are assigned to those frozen centers. No re-clustering, audit-label alignment, Hungarian matching, or group identity comparison across folds. If Stage B is later authorized, each outer fold gets fold-local IDs from that fold's training users; no cross-fold identity is claimed.
+- Audit labels are used only after model/group fitting, to assign each audit row to its known class's already-fitted centers and calculate the fixed association statistics. They never enter scaler/PCA/KMeans/Ridge `.fit()` calls. Permuting audit row order preserves fitted state and per-row group identity.
+
+## Source exchangeability preflight — unresolved; no run authorized
+
+The preserved paired-alignment report and independent source audits resolve the earlier “100 duplicate triplets” note. The manifest lists 100 exact duplicate row pairs, all in participant 2 and across separately named `HV_02_G11` / `HV_02_G12` inputs. The original quality audit reports equal full matrices at float64 precision for L, T, and R and contradictory labels; the label-free alignment run independently verified each duplicate across all three cached views. This is a data-level alias across separately named gesture arrays, not merely a repeated manifest index. The available provenance cannot tell whether it came from repeated acquisition or upstream copying. Existing quality handling excludes the participant-2/class-10/11 contradiction; participant 2 is outside Stage A's source users, and none of the known exact duplicate rows enters users 3–8.
+
+The source manifests and loader establish 100 rows per participant/class cell but do not preserve per-trial timestamps, acquisition order, session IDs, or repeat-level block identifiers. Thus the planned row-level conditional permutation within `(class, audit user, Right group)` is not cleared: it could overstate evidence if clips share a capture session or temporal dependence. This is a pre-result design limitation, not a negative result. The runner reads the protocol and writes `blocked_exchangeability_review` before any `np.load()` while this status remains unresolved.
+
+Before a real run, either (a) recover trustworthy per-trial/session/order metadata and preregister a block-level permutation preserving those acquisition clusters, (b) revise Stage A before data access to a descriptive-only two-audit-user screen without a record-level inferential p-value, or (c) stop this candidate. Do not invent contiguous blocks from cache row order. The frozen effect/coverage thresholds remain unchanged, but the current permutation gate is uninterpretable until this issue is resolved.
 
 ## Primary measure and controls
 
 Primary: `I(Right-probe error; L/T group | class, audit user, R-only group)` in bits per audit sample. A fixed conditional permutation test shuffles L/T group IDs within `(class, audit user, R group)`, preserving those counts, using 1,999 draws and seed 20261025.
+
+The Right-derived control is one fixed binary K=2 partition. A positive conditional MI would show incremental information only relative to this finite R-group control; it would not show that L/T adds information beyond every possible Right-only representation. HV7/HV8 gesture labels are used only for class-conditional source-audit diagnostics, not as deployment-time inputs. HV7/HV8 are not new independent validation users.
 
 Report the matched R-only group association `I(error; R group | class,user)`, user-only control `I(error; user | class)`, raw L/T association `I(error; L/T group | class,user)`, per-user/class subgroup coverage, and whether the same frozen L/T group has the higher Right-probe error in both audit users. These are diagnostics; no classwise selection is allowed.
 
@@ -63,15 +74,8 @@ Primary references:
 
 ## Runtime and reproducibility
 
-At the latest 2026-10-24 preflight, the restored 86-file dataset was already verified at `/workspace/uwb-restored-20261020`; no restore is repeated. Current workspace has no active training process. The executor has 5 CPU cores, about 17.7 GB available RAM, 25.8 GB disk free, NumPy/SciPy/scikit-learn, no PyTorch/GPU, and restricted network policy. The proposed run is one process with BLAS limited to one thread, a single source-row pass from the mmap cache, and low-dimensional PCA/KMeans plus 1,999 small permutations. Hard cap: 900 CPU-seconds / 15 minutes wall; abort without changing protocol if exceeded. No CNN is trained.
+The restored 86-file dataset was already SHA-verified at `/workspace/uwb-restored-20261020`; no restore is repeated. Current workspace has no active training process. The executor has 5 CPUs and NumPy/SciPy/scikit-learn; no PyTorch/GPU. The parent launches one worker in a new process group through `budget_exec.py`, which sets the CPU limit and `exec`s the worker in the same PID (avoiding a multithreaded-parent `preexec_fn`). Linux `RLIMIT_CPU` soft=hard enforces the 900 process-CPU-second ceiling; an independent monotonic parent timer SIGKILLs the group at 900 wall seconds. BLAS/OpenMP/BLIS/NumExpr are limited to one thread before worker import and through `threadpoolctl`. Feature rows flush every 32 records; per-class scaler/PCA/centroids/remaps and the Right probe state are atomically checkpointed; null statistics flush every 50 draws. Terminal status records last phase/progress and partial artifact paths. CPU/wall timeout, exception, and exchangeability block are inconclusive statuses, never scientific failures.
 
-The implementation is `diagnostic.py`; it requires explicit `--confirm-stage-a`, writes an immutable new output directory with protocol/code hashes, selected source-row hash, per-sample audit IDs/labels/predictions/groups, aggregate diagnostics, and elapsed time. Only `py_compile` and CLI help were checked in this preparation. **No real cache values, labels, logits, or weights were read; the Stage-A diagnostic was not run.**
+The implementation is `diagnostic.py`; it requires `--confirm-stage-a`, but that flag does not bypass the exchangeability preflight. An authorized run stores Python/platform/numerical-library versions, observed thread pools, initial code/protocol hashes, source-only IDs/labels/users, fitted model state, null statistics, and artifact hashes locally. Value-derived artifacts are not committed. **Only synthetic tests are permitted in this review; no real maps, labels, logits, or weights were read and no Stage-A fit was run.**
 
-Suggested command, only after a separate instruction to run Stage A:
-
-```bash
-python diagnostic.py \
-  --cache-dir /workspace/uwb-restored-20261020/cache \
-  --output-dir /workspace/uwb-stage-a-20261025-run01 \
-  --confirm-stage-a
-```
+The previous suggested command is withdrawn until exchangeability is resolved. Currently even `--confirm-stage-a` stops before opening cache arrays and records `blocked_exchangeability_review`, not a scientific negative.

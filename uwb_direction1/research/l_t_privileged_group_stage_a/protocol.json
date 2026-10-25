@@ -7,15 +7,32 @@
     "not a validated method contribution",
     "not evidence of true kinematic or motion subgroups",
     "not performance evidence for the historical Right-only CNN",
-    "not independent external-user validation"
+    "not independent external-user validation",
+    "incremental CMI only exceeds the fixed binary Right-cluster control, not all Right-view information",
+    "HV7/HV8 labels are class-conditional diagnostic labels, not deployment-time inputs or independent validation labels"
   ],
   "data_boundary": {
-    "source_users": [3, 4, 5, 6, 7, 8],
+    "source_users": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
     "outer_test_user_sealed": 1,
     "outer_validation_user_sealed": 2,
-    "group_fit_users": [3, 4, 5, 6],
-    "inner_source_audit_users": [7, 8],
-    "quality_rule": "Use the canonical shared quality mask: exclude subject 6/class 3 from source rows; subjects 1 and 2 are never read for labels or radar values.",
+    "group_fit_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "inner_source_audit_users": [
+      7,
+      8
+    ],
+    "quality_rule": "Use the canonical shared quality mask: exclude subject 6/class 3 from source rows; the known subject 2/class 10-11 contradiction is outside the source-user selection, and subjects 1 and 2 are never read for labels or radar values.",
     "ids": "Original row indices are preserved and hashed; all fitting uses only users 3-6. Users 7-8 are used only after the representations, clusters, and Right probe are frozen.",
     "historical_use": "Participants 3-8 have prior development use. Inner source audit is not independent validation and cannot support external-user claims."
   },
@@ -52,10 +69,45 @@
     "within_stage_a": "Per-class group IDs are assigned by frozen training-centroid order; audit users receive nearest frozen-centroid IDs. No audit refit, Hungarian matching, labels, or cross-user reassignment.",
     "across_outer_folds": "No group IDs are compared or pooled across folds. Stage B, if separately authorized, fits fold-local group identities from that fold's training users and reports only fold-local diagnostics; cross-fold identity alignment is not claimed."
   },
+  "source_exchangeability": {
+    "review_state": "unresolved_before_run",
+    "known_exact_duplicate_triplets": {
+      "count": 100,
+      "participants": [
+        2
+      ],
+      "separate_gesture_files": [
+        "HV_02_G11",
+        "HV_02_G12"
+      ],
+      "views_equal": [
+        "L",
+        "T",
+        "R"
+      ],
+      "all_rows_excluded_by_preexisting_quality_rule": true,
+      "included_in_stage_a_source_users_3_to_8": false,
+      "evidence": [
+        "results/cloud_20261008_paired_time_alignment/RUN_REPORT.md",
+        "original/project/experiments/p1_20260905/results/quality_audit.json",
+        "results/cloud_20261008_direct_prior_art/DUPLICATE_SUBJECT_AUDIT.json"
+      ],
+      "interpretation": "These are data-level exact aliases across separately named G11/G12 source arrays, not merely duplicate manifest indices. Provenance cannot distinguish acquisition repeats from upstream copying; both contradictory-label cells were already excluded. No source-user exact duplicate is listed in the preserved manifest."
+    },
+    "trial_independence": {
+      "evidence_available": "The preserved manifest has participant/class counts and row indices; source code shows 100 samples in each participant/class cell. The restored cache and reviewed source manifests provide no per-trial timestamps, acquisition order, session IDs, or repeat-level grouping metadata.",
+      "status": "not_established",
+      "implication": "The currently proposed record-level conditional permutation within class x audit-user x Right-group is not cleared under possible within-recording dependence. Do not interpret its p-value until exchangeability is resolved."
+    },
+    "run_authorized": false,
+    "pre_run_action": "Block before reading arrays. First recover trustworthy acquisition-session/order metadata and preregister a block-level permutation; if unavailable, ask for a pre-run revision to a descriptive-only Stage A with no record-level inferential p-value, or stop this candidate. Do not invent blocks from row order or change the frozen inferential gate after results."
+  },
   "compute_budget": {
     "environment": "5 CPU cores, about 17.7 GB available RAM, about 25.8 GB free at 2026-10-24 preflight; no GPU, no PyTorch, no active job.",
-    "execution": "One process, one BLAS thread; one read of source-user rows from the 1.96 GB mmap cache; low-dimensional PCA/KMeans and 1999 tiny conditional permutations.",
-    "hard_budget": "900 CPU-seconds / 15 minutes elapsed; abort without parameter changes if exceeded.",
+    "execution": "Parent supervisor launches one worker through budget_exec.py in a new process group. budget_exec applies Linux RLIMIT_CPU soft=hard=900 seconds then execs worker in the same PID; a separate parent monotonic timer SIGKILLs the group at 900 wall seconds. BLAS/OpenMP/BLIS/NumExpr pools are capped at one thread before worker imports and via threadpoolctl.",
+    "hard_budget": "900 process CPU-seconds and 900 seconds wall time. Any timeout yields an aborted/inconclusive terminal status, preserves flushed partial artifacts, and is never classified as a scientific negative.",
+    "partial_artifacts": "Source-only metadata and low-dimensional feature memmap are flushed every 32 rows; fitted per-class transforms/centroids/remaps and Right probe state are atomically checkpointed; null statistics are flushed every 50 draws. Parent preserves last phase/progress and lists partial artifacts after reaping.",
+    "run_manifest": "Store initial diagnostic/protocol hashes, Python/platform/numerical-library versions, observed thread pools, model states, null statistics, and hashes of run artifacts outside Git.",
     "cnn_training": "none"
   },
   "prior_art_boundary": {
