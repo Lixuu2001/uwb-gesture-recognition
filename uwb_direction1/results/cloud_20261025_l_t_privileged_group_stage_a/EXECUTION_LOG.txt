@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-lt-stage-a/diagnostic.py", line 855, in worker_main
+    result = run(args)
+             ^^^^^^^^^
+  File "/workspace/uwb-lt-stage-a/diagnostic.py", line 524, in run
+    "restore_provenance": restore_provenance(cache, Path(args.transfer_manifest)),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-lt-stage-a/diagnostic.py", line 272, in restore_provenance
+    raise RuntimeError("restore metadata is not verified")
+RuntimeError: restore metadata is not verified
