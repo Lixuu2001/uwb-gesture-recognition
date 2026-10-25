@@ -136,9 +136,10 @@ class BudgetAndProtocolTests(unittest.TestCase):
         after = Counter(zip(y.tolist(), u.tolist(), r.tolist(), shuffled.tolist()))
         self.assertEqual(before, after)
 
-    def test_amended_protocol_authorizes_only_descriptive_run_without_p_gate(self):
+    def test_run_once_protocol_consumed_after_the_single_attempt(self):
         protocol = json.loads((Path(diagnostic.__file__).with_name("protocol.json")).read_text())
-        self.assertTrue(protocol["source_exchangeability"]["run_authorized"])
+        self.assertFalse(protocol["source_exchangeability"]["run_authorized"])
+        self.assertIn("consumed", protocol["one_shot_execution"]["state"])
         self.assertNotIn("permutation_gate", protocol["fixed_decision_rule"])
         self.assertIn("No record-level permutation p-value", protocol["fixed_decision_rule"]["inferential_boundary"])
         self.assertIn("not a scientific GO", protocol["fixed_decision_rule"]["pass_action"])
@@ -181,7 +182,7 @@ class BudgetAndProtocolTests(unittest.TestCase):
                 entries.append({"path": rel, "bytes": len(payload),
                                 "sha256": hashlib.sha256(payload).hexdigest()})
             manifest = root / "TRANSFER_MANIFEST.json"
-            manifest.write_text(json.dumps({"state": "verified", "files": entries}))
+            manifest.write_text(json.dumps({"state": "complete", "files": entries}))
             manifest_sha = hashlib.sha256(manifest.read_bytes()).hexdigest()
             (root / "RESTORE_VERIFIED.json").write_text(json.dumps({
                 "state": "verified", "transfer_manifest_sha256": manifest_sha}))
