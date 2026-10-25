@@ -1,6 +1,6 @@
 {
   "title": "Stage A: L/T privileged within-class subgroup feasibility screen",
-  "status": "descriptive_amendment_preregistered_not_run",
+  "status": "one_shot_attempt_incomplete_engineering_error_no_rerun_authorized",
   "date_utc": "2026-10-25",
   "objective": "Test whether train-only L/T-derived within-class statistical strata transfer to two inner source users and contain incremental information about errors of a fixed Right-only diagnostic probe, conditional on gesture class, audit user, and a matched Right-derived stratum.",
   "not_a_claim": [
@@ -101,9 +101,9 @@
       "status": "not_established; descriptive only",
       "implication": "Record-level exchangeability remains unresolved. No permutation p-value or inferential null statement is allowed. The count-preserving shuffles are only a descriptive finite-randomization reference; possible dependence can affect that reference and remains a limitation."
     },
-    "run_authorized": true,
-    "pre_run_action": "Before model fitting, scan retained source users 3-8 after the canonical quality exclusion for exact byte-identical full L/T/R triplets. Any exact alias blocks before fitting and is reported; do not post-hoc remove or relabel. Do not invent blocks from row order.",
-    "authorized_scope": "One descriptive-only Stage A run on the already restored cache; no record-level p-value, inferential significance, or scientific GO. No acquisition, CNN, grid, extra seed, or rerun."
+    "run_authorized": false,
+    "pre_run_action": "Do not rerun. The one-shot attempt failed during restore metadata validation before np.load or model fit. Any future attempt requires an explicit new instruction and a new pre-run review.",
+    "authorized_scope": "Consumed: the single authorized descriptive-only attempt ended in a pre-array engineering error. No rerun is authorized by the existing instruction."
   },
   "compute_budget": {
     "environment": "5 CPU cores, about 17.7 GB available RAM, about 25.8 GB free at 2026-10-24 preflight; no GPU, no PyTorch, no active job.",
@@ -126,5 +126,17 @@
     "candidate_difference": "Only the untested empirical question of whether L/T defines train-only, class-conditional strata that transfer across source users and add Right-error information beyond a same-pipeline Right-only grouping/user control. The group discovery, privileged information, and robust weighting algorithms are not claimed as new.",
     "novelty_status": "not cleared; bounded literature search only"
   },
-  "interpretation_boundary": "No significance or inferential claims. Any CMI is descriptive relative only to the finite binary R-group control, not all R information. HV7/HV8 labels are post-fit class-conditioning diagnostics, not deployment inputs; those users have prior development use and are not independent validation."
+  "interpretation_boundary": "No significance or inferential claims. Any CMI is descriptive relative only to the finite binary R-group control, not all R information. HV7/HV8 labels are post-fit class-conditioning diagnostics, not deployment inputs; those users have prior development use and are not independent validation.",
+  "one_shot_execution": {
+    "state": "consumed_incomplete_engineering_error",
+    "authorized_attempts": 1,
+    "attempted": 1,
+    "completed_descriptive_runs": 0,
+    "reruns_authorized": false,
+    "pre_run_branch_head": "1999b8d2a8cafd893917df112cc3f8e3f7f7094a",
+    "attempt_path": "/workspace/uwb-stage-a-descriptive-20261025/run01",
+    "pre_run_protocol_sha256": "2f3a8d613f44da59916cbc85cb9656c6bed57de8442732fe0b8269fafc9b69e0",
+    "failure": "restore_provenance required transfer manifest state=verified, but the verified local transfer manifest uses state=complete. The receipt hash matched. Failure occurred before np.load and before any array value or label access.",
+    "no_scientific_result": true
+  }
 }
