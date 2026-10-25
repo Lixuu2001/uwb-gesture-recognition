@@ -1,6 +1,6 @@
 {
   "title": "Stage A: L/T privileged within-class subgroup feasibility screen",
-  "status": "predata_engineering_retry_authorized_not_run",
+  "status": "completed_descriptive_screen_no_follow_on_authorized",
   "date_utc": "2026-10-25",
   "objective": "Test whether train-only L/T-derived within-class statistical strata transfer to two inner source users and contain incremental information about errors of a fixed Right-only diagnostic probe, conditional on gesture class, audit user, and a matched Right-derived stratum.",
   "not_a_claim": [
@@ -101,7 +101,7 @@
       "status": "not_established; descriptive only",
       "implication": "Record-level exchangeability remains unresolved. No permutation p-value or inferential null statement is allowed. The count-preserving shuffles are only a descriptive finite-randomization reference; possible dependence can affect that reference and remains a limitation."
     },
-    "run_authorized": true,
+    "run_authorized": false,
     "pre_run_action": "Run the same diagnostic in a fresh run02 directory using the cumulative remaining CPU/wall budget after the prior pre-array failure. If a further exception occurs before arrays are opened, a code-only repair may be tested and retried using only the remaining cumulative budget. Once any source data are read, do not restart or resample; preserve/checkpoint and only recover the same calculation. Stop if cumulative resource use would exceed 900 CPU seconds or 900 wall seconds.",
     "authorized_scope": "One retry of the same descriptive-only Stage A computation is authorized after the prior attempt failed before np.load. No scientific protocol, data split, statistic, threshold, seed, CNN, tuning, extra analysis, or repeated completed computation is authorized."
   },
@@ -128,10 +128,10 @@
   },
   "interpretation_boundary": "No significance or inferential claims. Any CMI is descriptive relative only to the finite binary R-group control, not all R information. HV7/HV8 labels are post-fit class-conditioning diagnostics, not deployment inputs; those users have prior development use and are not independent validation.",
   "one_shot_execution": {
-    "state": "retry_authorized_after_predata_failure",
+    "state": "completed_descriptive_only",
     "authorized_attempts": 2,
-    "attempted_attempts": 1,
-    "completed_descriptive_runs": 0,
+    "attempted_attempts": 2,
+    "completed_descriptive_runs": 1,
     "prior_attempt_read_arrays": false,
     "prior_attempt_state": "failed_exception before np.load; restore manifest enum mismatch",
     "prior_attempt_cpu_seconds": 0.9661069999999999,
@@ -145,6 +145,13 @@
     "scientific_protocol_unchanged": true,
     "p_value_or_significance": "none; descriptive shuffle reference only",
     "retry_policy": "Code-only retries allowed only for a failure before np.load, without examining values or results, and only within remaining cumulative budget. After any data read, no restart or resampling; only recovery/completion of same calculation.",
-    "current_attempt_number": 2
+    "current_attempt_number": 2,
+    "current_attempt_state": "completed",
+    "current_attempt_cpu_seconds": 25.742206,
+    "current_attempt_wall_seconds": 26.273590561992023,
+    "cumulative_cpu_seconds": 26.708313,
+    "cumulative_wall_seconds": 27.276974,
+    "retry_authorization_consumed": true,
+    "further_runs_authorized": false
   }
 }
