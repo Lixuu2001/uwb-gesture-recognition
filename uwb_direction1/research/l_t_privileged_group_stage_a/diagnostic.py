@@ -268,7 +268,7 @@ def restore_provenance(cache: Path, transfer_manifest_path: Path) -> dict[str, A
     transfer = json.loads(transfer_manifest_path.read_text(encoding="utf-8"))
     receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
     transfer_sha = sha256(transfer_manifest_path)
-    if transfer.get("state") != "verified" or receipt.get("state") != "verified":
+    if transfer.get("state") not in ("verified", "complete") or receipt.get("state") != "verified":
         raise RuntimeError("restore metadata is not verified")
     if receipt.get("transfer_manifest_sha256") != transfer_sha:
         raise RuntimeError("restore receipt does not match the transfer manifest")
@@ -537,14 +537,14 @@ def run(args: argparse.Namespace) -> dict:
     # inferential permutation gate or p-value because trial exchangeability is
     # unresolved. A timeout or block is never counted as a scientific negative.
     if not execution_manifest["source_exchangeability"]["run_authorized"]:
-        write_run_status(out_dir, "blocked_exchangeability_review", "protocol_preflight",
-                         reason="protocol does not authorize this execution scope",
+        write_run_status(out_dir, "blocked_run_not_authorized", "protocol_preflight",
+                         reason="the one-shot descriptive run was not authorized or has already been consumed",
                          extra={"source_exchangeability": execution_manifest["source_exchangeability"],
                                 "initial_code_sha256": execution_manifest["initial_code_sha256"],
                                 "protocol_sha256": execution_manifest["frozen_protocol_sha256"],
                                 "cpu_limit_seconds": HARD_BUDGET_SECONDS,
                                 "wall_timeout_seconds": WALL_TIMEOUT_SECONDS})
-        return {"status": "blocked_exchangeability_review"}
+        return {"status": "blocked_run_not_authorized"}
 
     x_path = cache / "X_clutterremoved.npy"
     y_path = cache / "y_clutterremoved.npy"
@@ -853,7 +853,8 @@ def worker_main(args: argparse.Namespace) -> int:
     try:
         with threadpool_limits(limits=1):
             result = run(args)
-        if result.get("status") in ("blocked_exchangeability_review", "blocked_source_alias"):
+        if result.get("status") in ("blocked_exchangeability_review", "blocked_source_alias",
+                                     "blocked_run_not_authorized"):
             return 0
         write_run_status(Path(args.output_dir), "completed", "diagnostic_complete",
                          reason="diagnostic completed; this state is not a pass/fail research contribution",
@@ -901,7 +902,8 @@ def main() -> int:
                             cpu_seconds=HARD_BUDGET_SECONDS,
                             wall_seconds=WALL_TIMEOUT_SECONDS)
     print(json.dumps(status, indent=2, ensure_ascii=False))
-    return 0 if status.get("state") in ("completed", "blocked_exchangeability_review", "blocked_source_alias") else 2
+    return 0 if status.get("state") in ("completed", "blocked_exchangeability_review",
+                                         "blocked_source_alias", "blocked_run_not_authorized") else 2
 
 
 if __name__ == "__main__":
