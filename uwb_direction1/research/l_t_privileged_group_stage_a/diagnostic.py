@@ -41,8 +41,8 @@ MIN_ERROR_GAP = 0.05
 MIN_DIRECTION_CLASSES = 8
 MIN_INCREMENTAL_CMI_BITS = 0.005
 N_PERMUTATIONS = 1999
-HARD_BUDGET_SECONDS = 900
-WALL_TIMEOUT_SECONDS = 900
+HARD_BUDGET_SECONDS = int(os.environ.get("UWB_STAGE_A_CPU_LIMIT_SECONDS", "900"))
+WALL_TIMEOUT_SECONDS = float(os.environ.get("UWB_STAGE_A_WALL_LIMIT_SECONDS", "900"))
 POLL_SECONDS = 0.05
 _ACTIVE_STAGE = "worker_start"
 _ACTIVE_FEATURES = None
@@ -136,6 +136,8 @@ def run_supervised(command: list[str], out_dir: Path, *, cpu_seconds: int = HARD
     child_env = os.environ.copy()
     child_env.update({
         "UWB_STAGE_A_OUTPUT_DIR": str(out_dir.resolve()),
+        "UWB_STAGE_A_CPU_LIMIT_SECONDS": str(int(cpu_seconds)),
+        "UWB_STAGE_A_WALL_LIMIT_SECONDS": str(float(wall_seconds)),
         "OPENBLAS_NUM_THREADS": "1", "OMP_NUM_THREADS": "1",
         "MKL_NUM_THREADS": "1", "BLIS_NUM_THREADS": "1",
         "NUMEXPR_NUM_THREADS": "1", "VECLIB_MAXIMUM_THREADS": "1",
@@ -850,6 +852,9 @@ def run(args: argparse.Namespace) -> dict:
 
 def worker_main(args: argparse.Namespace) -> int:
     signal.signal(signal.SIGXCPU, _on_sigxcpu)
+    global HARD_BUDGET_SECONDS, WALL_TIMEOUT_SECONDS
+    HARD_BUDGET_SECONDS = int(os.environ.get("UWB_STAGE_A_CPU_LIMIT_SECONDS", HARD_BUDGET_SECONDS))
+    WALL_TIMEOUT_SECONDS = float(os.environ.get("UWB_STAGE_A_WALL_LIMIT_SECONDS", WALL_TIMEOUT_SECONDS))
     try:
         with threadpool_limits(limits=1):
             result = run(args)
@@ -860,7 +865,6 @@ def worker_main(args: argparse.Namespace) -> int:
                          reason="diagnostic completed; this state is not a pass/fail research contribution",
                          extra={"scientific_result_recorded": True,
                                 "is_scientific_negative": False,
-                                "scientific_result_recorded": True,
                                 "descriptive_screen_supports_further_design": bool(result["descriptive_screen_supports_further_design"])})
         return 0
     except BudgetExceeded:
@@ -882,6 +886,10 @@ def main() -> int:
     ap.add_argument("--cache-dir", default="/workspace/uwb-restored-20261020/cache")
     ap.add_argument("--transfer-manifest", default="/workspace/uwb-transfer/TRANSFER_MANIFEST.json")
     ap.add_argument("--output-dir", required=True)
+    ap.add_argument("--cpu-seconds", type=int, default=HARD_BUDGET_SECONDS,
+                    help="hard worker CPU limit; for a retry, use only the unspent cumulative budget")
+    ap.add_argument("--wall-seconds", type=float, default=WALL_TIMEOUT_SECONDS,
+                    help="independent wall-clock deadline; for a retry, use only the remaining cumulative budget")
     ap.add_argument("--permutations", type=int, default=N_PERMUTATIONS)
     ap.add_argument("--_worker", action="store_true", help=argparse.SUPPRESS)
     ap.add_argument("--confirm-stage-a", action="store_true",
@@ -899,8 +907,8 @@ def main() -> int:
                "--output-dir", str(Path(args.output_dir).resolve()),
                "--permutations", str(args.permutations), "--confirm-stage-a"]
     status = run_supervised(command, Path(args.output_dir),
-                            cpu_seconds=HARD_BUDGET_SECONDS,
-                            wall_seconds=WALL_TIMEOUT_SECONDS)
+                            cpu_seconds=args.cpu_seconds,
+                            wall_seconds=args.wall_seconds)
     print(json.dumps(status, indent=2, ensure_ascii=False))
     return 0 if status.get("state") in ("completed", "blocked_exchangeability_review",
                                          "blocked_source_alias", "blocked_run_not_authorized") else 2
