@@ -87,3 +87,8 @@ The owner selected the descriptive-only path. Trial/session exchangeability rema
 The prior exact-alias audit identifies 100 identical L/T/R triplets only for participant ID 2, which the source quality audit maps to sealed HV2 (`HV_02_G11/G12`). These pairs do not directly enter the present HV3-HV8 source split. Their provenance remains unknown (repeat acquisition versus upstream copy). Before any model fitting, the amended runner hashes every retained source sample's complete three-view input and blocks if any exact alias occurs; it neither removes nor relabels a source row after seeing results. The scan accesses only rows and labels selected under the frozen source split and quality rule; HV1/HV2 radar rows and labels remain sealed.
 
 All other interpretation boundaries remain: the binary Right K=2 control is finite and does not stand for all Right information; HV7/HV8 labels are post-fit class-conditional diagnostic strata, unavailable at deployment; HV7/HV8 have prior project-development use and are not independent validation. This screen can only guide whether a separately designed validation study is worthwhile.
+
+
+## One-shot execution outcome
+
+The owner authorized one descriptive-only run after protocol/hash registration. It exited before array access due to an engineering enum mismatch (`TRANSFER_MANIFEST.state` was `complete`, while the helper accepted only `verified`). The error was fixed and covered by a synthetic test, but no retry was run. The run-once token is consumed; further execution requires explicit new instruction. This outcome provides no scientific support or refutation.
