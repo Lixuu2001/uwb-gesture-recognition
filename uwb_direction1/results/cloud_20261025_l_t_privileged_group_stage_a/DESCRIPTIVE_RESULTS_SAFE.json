@@ -1,1 +1,1320 @@
-run02 safe aggregate: SHA256 ef61f5b14d6e8147b54b560c4412433404a9c26a7ee27b0899003f04e63564ab; local artifact DESCRIPTIVE_RESULTS_SAFE.json; 7,100 retained rows (4,700 fit users 3-6; 2,400 audit users 7-8); global I(error;LT|class,user)=0.009603098761743199; I(error;Right K=2|class,user)=0.02230019678414105; incremental I(error;LT|class,user,Right K=2)=0.011061516190387206 bits/sample; I(error;user|class)=0.18176319860838683; 1,999 shuffle reference median 0.008453761361047953, q05 0.005497613846723358, q95 0.01236778435722202, observed-minus-median 0.002607754829339254; no p-value/inference. Coverage=1/12 classes (class4 only); same cross-user error direction=1/12 (class4 only); effect floor 0.005 passed; overall screen did not support further design. HV7 Right Ridge errors 673/1200=56.0833%; HV8 551/1200=45.9167%. Class4 L/T group0 vs group1 errors: HV7 1.000 vs 0.880952 (n16/84), HV8 0.696629 vs 0.454545 (n89/11); fit user4 occupancy 95/5 fails support. Source triplet scan: 7,100 rows, zero exact aliases/collisions.
+{
+  "audit_rows_included": false,
+  "class_user_aggregates": [
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.016894050900328094,
+          "lt_group_counts": [
+            5,
+            95
+          ],
+          "mi_error_lt_bits_per_sample": 0.01472635440856962,
+          "n": 100,
+          "right_group_counts": [
+            23,
+            77
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 5,
+              "error_rate": 1.0,
+              "n": 5
+            },
+            {
+              "error_count": 77,
+              "error_rate": 0.8105263157894737,
+              "n": 95
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 18,
+              "error_rate": 0.782608695652174,
+              "n": 23
+            },
+            {
+              "error_count": 64,
+              "error_rate": 0.8311688311688312,
+              "n": 77
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0018132248445550466,
+          "lt_group_counts": [
+            3,
+            97
+          ],
+          "mi_error_lt_bits_per_sample": 0.0017944264913701076,
+          "n": 100,
+          "right_group_counts": [
+            1,
+            99
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 3
+            },
+            {
+              "error_count": 4,
+              "error_rate": 0.041237113402061855,
+              "n": 97
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 1
+            },
+            {
+              "error_count": 4,
+              "error_rate": 0.04040404040404041,
+              "n": 99
+            }
+          ]
+        }
+      },
+      "class": 0,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          70,
+          30
+        ],
+        "4": [
+          1,
+          99
+        ],
+        "5": [
+          1,
+          99
+        ],
+        "6": [
+          9,
+          91
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0005410811029249776,
+          "lt_group_counts": [
+            1,
+            99
+          ],
+          "mi_error_lt_bits_per_sample": 0.0012092589042728826,
+          "n": 100,
+          "right_group_counts": [
+            18,
+            82
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 1
+            },
+            {
+              "error_count": 8,
+              "error_rate": 0.08080808080808081,
+              "n": 99
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 5,
+              "error_rate": 0.2777777777777778,
+              "n": 18
+            },
+            {
+              "error_count": 3,
+              "error_rate": 0.036585365853658534,
+              "n": 82
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.01814857177069648,
+          "lt_group_counts": [
+            5,
+            95
+          ],
+          "mi_error_lt_bits_per_sample": 0.011184175153066064,
+          "n": 100,
+          "right_group_counts": [
+            52,
+            48
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 5
+            },
+            {
+              "error_count": 14,
+              "error_rate": 0.14736842105263157,
+              "n": 95
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 11,
+              "error_rate": 0.21153846153846154,
+              "n": 52
+            },
+            {
+              "error_count": 3,
+              "error_rate": 0.0625,
+              "n": 48
+            }
+          ]
+        }
+      },
+      "class": 1,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          76,
+          24
+        ],
+        "4": [
+          25,
+          75
+        ],
+        "5": [
+          0,
+          100
+        ],
+        "6": [
+          1,
+          99
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.006310878049524876,
+          "lt_group_counts": [
+            98,
+            2
+          ],
+          "mi_error_lt_bits_per_sample": 0.005086551194490611,
+          "n": 100,
+          "right_group_counts": [
+            43,
+            57
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 82,
+              "error_rate": 0.8367346938775511,
+              "n": 98
+            },
+            {
+              "error_count": 2,
+              "error_rate": 1.0,
+              "n": 2
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 38,
+              "error_rate": 0.8837209302325582,
+              "n": 43
+            },
+            {
+              "error_count": 46,
+              "error_rate": 0.8070175438596491,
+              "n": 57
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.01970132554104255,
+          "lt_group_counts": [
+            4,
+            96
+          ],
+          "mi_error_lt_bits_per_sample": 0.018602136276938845,
+          "n": 100,
+          "right_group_counts": [
+            85,
+            15
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 4,
+              "error_rate": 1.0,
+              "n": 4
+            },
+            {
+              "error_count": 69,
+              "error_rate": 0.71875,
+              "n": 96
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 61,
+              "error_rate": 0.7176470588235294,
+              "n": 85
+            },
+            {
+              "error_count": 12,
+              "error_rate": 0.8,
+              "n": 15
+            }
+          ]
+        }
+      },
+      "class": 2,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          75,
+          25
+        ],
+        "4": [
+          6,
+          94
+        ],
+        "5": [
+          6,
+          94
+        ],
+        "6": [
+          53,
+          47
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.003913482091480203,
+          "lt_group_counts": [
+            21,
+            79
+          ],
+          "mi_error_lt_bits_per_sample": 0.016608262911798607,
+          "n": 100,
+          "right_group_counts": [
+            71,
+            29
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 20,
+              "error_rate": 0.9523809523809523,
+              "n": 21
+            },
+            {
+              "error_count": 66,
+              "error_rate": 0.8354430379746836,
+              "n": 79
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 57,
+              "error_rate": 0.8028169014084507,
+              "n": 71
+            },
+            {
+              "error_count": 29,
+              "error_rate": 1.0,
+              "n": 29
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0014937927605193264,
+          "lt_group_counts": [
+            4,
+            96
+          ],
+          "mi_error_lt_bits_per_sample": 0.005559907889994813,
+          "n": 100,
+          "right_group_counts": [
+            92,
+            8
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 4,
+              "error_rate": 1.0,
+              "n": 4
+            },
+            {
+              "error_count": 87,
+              "error_rate": 0.90625,
+              "n": 96
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 83,
+              "error_rate": 0.9021739130434783,
+              "n": 92
+            },
+            {
+              "error_count": 8,
+              "error_rate": 1.0,
+              "n": 8
+            }
+          ]
+        }
+      },
+      "class": 3,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          59,
+          41
+        ],
+        "4": [
+          1,
+          99
+        ],
+        "5": [
+          55,
+          45
+        ],
+        "6": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0270430558056738,
+          "lt_group_counts": [
+            16,
+            84
+          ],
+          "mi_error_lt_bits_per_sample": 0.02663725850928167,
+          "n": 100,
+          "right_group_counts": [
+            26,
+            74
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 16,
+              "error_rate": 1.0,
+              "n": 16
+            },
+            {
+              "error_count": 74,
+              "error_rate": 0.8809523809523809,
+              "n": 84
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 23,
+              "error_rate": 0.8846153846153846,
+              "n": 26
+            },
+            {
+              "error_count": 67,
+              "error_rate": 0.9054054054054054,
+              "n": 74
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.04543668376658286,
+          "lt_group_counts": [
+            89,
+            11
+          ],
+          "mi_error_lt_bits_per_sample": 0.017601633981167476,
+          "n": 100,
+          "right_group_counts": [
+            98,
+            2
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 62,
+              "error_rate": 0.6966292134831461,
+              "n": 89
+            },
+            {
+              "error_count": 5,
+              "error_rate": 0.45454545454545453,
+              "n": 11
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 66,
+              "error_rate": 0.673469387755102,
+              "n": 98
+            },
+            {
+              "error_count": 1,
+              "error_rate": 0.5,
+              "n": 2
+            }
+          ]
+        }
+      },
+      "class": 4,
+      "coverage_supported": true,
+      "fit_group_counts_by_user": {
+        "3": [
+          31,
+          69
+        ],
+        "4": [
+          95,
+          5
+        ],
+        "5": [
+          38,
+          62
+        ],
+        "6": [
+          66,
+          34
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.019087837028458697,
+          "lt_group_counts": [
+            27,
+            73
+          ],
+          "mi_error_lt_bits_per_sample": 0.019087837028458697,
+          "n": 100,
+          "right_group_counts": [
+            100,
+            0
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 26,
+              "error_rate": 0.9629629629629629,
+              "n": 27
+            },
+            {
+              "error_count": 73,
+              "error_rate": 1.0,
+              "n": 73
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 99,
+              "error_rate": 0.99,
+              "n": 100
+            },
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.010545833679365365,
+          "lt_group_counts": [
+            8,
+            92
+          ],
+          "mi_error_lt_bits_per_sample": 0.02628844124329027,
+          "n": 100,
+          "right_group_counts": [
+            58,
+            42
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 4,
+              "error_rate": 0.5,
+              "n": 8
+            },
+            {
+              "error_count": 17,
+              "error_rate": 0.18478260869565216,
+              "n": 92
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 18,
+              "error_rate": 0.3103448275862069,
+              "n": 58
+            },
+            {
+              "error_count": 3,
+              "error_rate": 0.07142857142857142,
+              "n": 42
+            }
+          ]
+        }
+      },
+      "class": 5,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          3,
+          97
+        ],
+        "4": [
+          99,
+          1
+        ],
+        "5": [
+          0,
+          100
+        ],
+        "6": [
+          5,
+          95
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0,
+          "lt_group_counts": [
+            0,
+            100
+          ],
+          "mi_error_lt_bits_per_sample": 0.0,
+          "n": 100,
+          "right_group_counts": [
+            93,
+            7
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            },
+            {
+              "error_count": 66,
+              "error_rate": 0.66,
+              "n": 100
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 66,
+              "error_rate": 0.7096774193548387,
+              "n": 93
+            },
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 7
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 8.894012783335726e-05,
+          "lt_group_counts": [
+            5,
+            95
+          ],
+          "mi_error_lt_bits_per_sample": 0.0005303468217660442,
+          "n": 100,
+          "right_group_counts": [
+            91,
+            9
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 1,
+              "error_rate": 0.2,
+              "n": 5
+            },
+            {
+              "error_count": 24,
+              "error_rate": 0.25263157894736843,
+              "n": 95
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 20,
+              "error_rate": 0.21978021978021978,
+              "n": 91
+            },
+            {
+              "error_count": 5,
+              "error_rate": 0.5555555555555556,
+              "n": 9
+            }
+          ]
+        }
+      },
+      "class": 6,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          0,
+          100
+        ],
+        "4": [
+          100,
+          0
+        ],
+        "5": [
+          0,
+          100
+        ],
+        "6": [
+          50,
+          50
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0,
+          "lt_group_counts": [
+            0,
+            100
+          ],
+          "mi_error_lt_bits_per_sample": 0.0,
+          "n": 100,
+          "right_group_counts": [
+            9,
+            91
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            },
+            {
+              "error_count": 90,
+              "error_rate": 0.9,
+              "n": 100
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 7,
+              "error_rate": 0.7777777777777778,
+              "n": 9
+            },
+            {
+              "error_count": 83,
+              "error_rate": 0.9120879120879121,
+              "n": 91
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0,
+          "lt_group_counts": [
+            0,
+            100
+          ],
+          "mi_error_lt_bits_per_sample": 0.0,
+          "n": 100,
+          "right_group_counts": [
+            15,
+            85
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            },
+            {
+              "error_count": 37,
+              "error_rate": 0.37,
+              "n": 100
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 3,
+              "error_rate": 0.2,
+              "n": 15
+            },
+            {
+              "error_count": 34,
+              "error_rate": 0.4,
+              "n": 85
+            }
+          ]
+        }
+      },
+      "class": 7,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          0,
+          100
+        ],
+        "4": [
+          100,
+          0
+        ],
+        "5": [
+          0,
+          100
+        ],
+        "6": [
+          3,
+          97
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.032253792137804514,
+          "lt_group_counts": [
+            48,
+            52
+          ],
+          "mi_error_lt_bits_per_sample": 0.031093077115779758,
+          "n": 100,
+          "right_group_counts": [
+            54,
+            46
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 11,
+              "error_rate": 0.22916666666666666,
+              "n": 48
+            },
+            {
+              "error_count": 22,
+              "error_rate": 0.4230769230769231,
+              "n": 52
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 18,
+              "error_rate": 0.3333333333333333,
+              "n": 54
+            },
+            {
+              "error_count": 15,
+              "error_rate": 0.32608695652173914,
+              "n": 46
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.007413238511560455,
+          "lt_group_counts": [
+            34,
+            66
+          ],
+          "mi_error_lt_bits_per_sample": 0.010712616113448606,
+          "n": 100,
+          "right_group_counts": [
+            90,
+            10
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 28,
+              "error_rate": 0.8235294117647058,
+              "n": 34
+            },
+            {
+              "error_count": 60,
+              "error_rate": 0.9090909090909091,
+              "n": 66
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 78,
+              "error_rate": 0.8666666666666667,
+              "n": 90
+            },
+            {
+              "error_count": 10,
+              "error_rate": 1.0,
+              "n": 10
+            }
+          ]
+        }
+      },
+      "class": 8,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          96,
+          4
+        ],
+        "4": [
+          100,
+          0
+        ],
+        "5": [
+          12,
+          88
+        ],
+        "6": [
+          25,
+          75
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.026950124028717867,
+          "lt_group_counts": [
+            85,
+            15
+          ],
+          "mi_error_lt_bits_per_sample": 0.014059585904746697,
+          "n": 100,
+          "right_group_counts": [
+            80,
+            20
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 19,
+              "error_rate": 0.2235294117647059,
+              "n": 85
+            },
+            {
+              "error_count": 6,
+              "error_rate": 0.4,
+              "n": 15
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 18,
+              "error_rate": 0.225,
+              "n": 80
+            },
+            {
+              "error_count": 7,
+              "error_rate": 0.35,
+              "n": 20
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.002417697815527518,
+          "lt_group_counts": [
+            85,
+            15
+          ],
+          "mi_error_lt_bits_per_sample": 0.0007432627803415325,
+          "n": 100,
+          "right_group_counts": [
+            90,
+            10
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 53,
+              "error_rate": 0.6235294117647059,
+              "n": 85
+            },
+            {
+              "error_count": 10,
+              "error_rate": 0.6666666666666666,
+              "n": 15
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 57,
+              "error_rate": 0.6333333333333333,
+              "n": 90
+            },
+            {
+              "error_count": 6,
+              "error_rate": 0.6,
+              "n": 10
+            }
+          ]
+        }
+      },
+      "class": 9,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          98,
+          2
+        ],
+        "4": [
+          99,
+          1
+        ],
+        "5": [
+          43,
+          57
+        ],
+        "6": [
+          0,
+          100
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0,
+          "lt_group_counts": [
+            0,
+            100
+          ],
+          "mi_error_lt_bits_per_sample": 0.0,
+          "n": 100,
+          "right_group_counts": [
+            65,
+            35
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            },
+            {
+              "error_count": 9,
+              "error_rate": 0.09,
+              "n": 100
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 9,
+              "error_rate": 0.13846153846153847,
+              "n": 65
+            },
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 35
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.025422778606697522,
+          "lt_group_counts": [
+            93,
+            7
+          ],
+          "mi_error_lt_bits_per_sample": 0.008949237553055725,
+          "n": 100,
+          "right_group_counts": [
+            80,
+            20
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 62,
+              "error_rate": 0.6666666666666666,
+              "n": 93
+            },
+            {
+              "error_count": 6,
+              "error_rate": 0.8571428571428571,
+              "n": 7
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 53,
+              "error_rate": 0.6625,
+              "n": 80
+            },
+            {
+              "error_count": 15,
+              "error_rate": 0.75,
+              "n": 20
+            }
+          ]
+        }
+      },
+      "class": 10,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          25,
+          75
+        ],
+        "4": [
+          69,
+          31
+        ],
+        "5": [
+          28,
+          72
+        ],
+        "6": [
+          100,
+          0
+        ]
+      }
+    },
+    {
+      "audit_by_user": {
+        "7": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0,
+          "lt_group_counts": [
+            100,
+            0
+          ],
+          "mi_error_lt_bits_per_sample": 0.0,
+          "n": 100,
+          "right_group_counts": [
+            100,
+            0
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 1,
+              "error_rate": 0.01,
+              "n": 100
+            },
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 1,
+              "error_rate": 0.01,
+              "n": 100
+            },
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            }
+          ]
+        },
+        "8": {
+          "incremental_cmi_error_lt_given_right_group_bits_per_sample": 0.0,
+          "lt_group_counts": [
+            100,
+            0
+          ],
+          "mi_error_lt_bits_per_sample": 0.0,
+          "n": 100,
+          "right_group_counts": [
+            100,
+            0
+          ],
+          "right_probe_error_by_lt_group": [
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 100
+            },
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            }
+          ],
+          "right_probe_error_by_right_group": [
+            {
+              "error_count": 0,
+              "error_rate": 0.0,
+              "n": 100
+            },
+            {
+              "error_count": 0,
+              "error_rate": null,
+              "n": 0
+            }
+          ]
+        }
+      },
+      "class": 11,
+      "coverage_supported": false,
+      "fit_group_counts_by_user": {
+        "3": [
+          100,
+          0
+        ],
+        "4": [
+          100,
+          0
+        ],
+        "5": [
+          99,
+          1
+        ],
+        "6": [
+          100,
+          0
+        ]
+      }
+    }
+  ],
+  "frozen_screen": {
+    "coverage_pass": false,
+    "failure_items": {
+      "coverage_classes_below_gate": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "direction_classes_below_gate": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "incremental_effect_floor_failed": false
+    },
+    "incremental_effect_floor_pass": true,
+    "p_value_or_significance_used": false,
+    "same_cross_user_error_direction_pass": false,
+    "science_go": false,
+    "supports_further_design": false
+  },
+  "global_metrics": {
+    "conditional_mi_lt_error_given_class_user_bits": 0.009603098761743199,
+    "conditional_mi_right_error_given_class_user_bits_bits": 0.02230019678414105,
+    "incremental_mi_lt_error_given_class_user_right_group_bits": 0.011061516190387206,
+    "lt_incremental_descriptive_shuffle_reference": {
+      "draws": 1999,
+      "inferential_use": "none; not an exchangeable null, no p-value, no significance claim, and no decision gate",
+      "median_bits_per_sample": 0.008453761361047953,
+      "observed_minus_reference_median_bits_per_sample": 0.002607754829339254,
+      "q05_bits_per_sample": 0.005497613846723358,
+      "q95_bits_per_sample": 0.01236778435722202,
+      "seed": 20261025
+    },
+    "same_error_direction_classes": 1,
+    "supported_classes": 1,
+    "user_only_mi_error_given_class_bits": 0.18176319860838683
+  },
+  "known_duplicate_scope": {
+    "count": 100,
+    "directly_in_current_source_split": false,
+    "mapping": "sealed HV2, separate HV_02_G11/G12 inputs",
+    "participant_id": 2,
+    "provenance": "unknown: repeated acquisition versus upstream copy"
+  },
+  "limitations": [
+    "Trial/session exchangeability is unresolved; no p-values, significance, or inferential null claims.",
+    "Conditional MI is descriptive only relative to the fixed binary Right K=2 group, not all Right-view information.",
+    "HV7/HV8 class labels are post-fit diagnostic conditioning variables, not deployment inputs; these users are not independent external validation.",
+    "Clusters are statistical strata; they are not asserted to be physical or kinematic motion subgroups.",
+    "The result is a feasibility screen, not a validated method contribution."
+  ],
+  "model_state_or_features_included": false,
+  "protocol_and_execution": {
+    "budget_wrapper_sha256": "2585b65d905d08d47d398f449d05f7261ee0b2c2622daef7a378fea1ed355566",
+    "diagnostic_sha256": "984743fe8e2de4526fa78df8c79c49b95515130f9aed81a24ed46ad90e2896d0",
+    "execution_manifest_sha256": "299b118657d4e699f982de252d7c893380c7e9335cfad6e67d6b65e52a320aa2",
+    "protocol_sha256": "303d9322fca6d7a51c61fbbf5abff17ef09ec35b243bf907fe0619ff237220bd",
+    "run_status": "completed",
+    "shuffle_seed": 20261025,
+    "shuffle_use": "descriptive finite-randomization reference only; no inferential interpretation",
+    "shuffles_completed": 1999
+  },
+  "row_ids_or_per_row_hashes_included": false,
+  "sample_counts": {
+    "audit_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "audit_rows": 2400,
+    "fit_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fit_rows": 4700,
+    "source_rows_after_quality_mask": 7100
+  },
+  "source_alias_scan": {
+    "digest_collision_pair_count": 0,
+    "exact_alias_pair_count": 0,
+    "passed": true,
+    "raw_per_row_digests_included": false,
+    "retained_source_triplet_digest_sha256": "e65a61852564410ed89cc4576509eadf4943c2c722f39eb742ca3df3543267be",
+    "rows_checked": 7100
+  },
+  "source_split": {
+    "audit_users": [
+      7,
+      8
+    ],
+    "fit_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "outer_users_sealed": [
+      1,
+      2
+    ]
+  },
+  "state": "completed_descriptive_screen_not_contribution_validation",
+  "title": "L/T privileged within-class Stage A run02 safe descriptive aggregates"
+}
