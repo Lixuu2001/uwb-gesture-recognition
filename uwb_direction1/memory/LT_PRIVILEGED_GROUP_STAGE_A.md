@@ -14,3 +14,8 @@ Interpretation remains narrow: Right is represented by one binary K=2 control, s
 ## 2026-10-25 — owner selected descriptive-only run
 
 The owner selected path B before real data access. The amendment removes permutation p-values/significance/GO from the fixed decision rule; 1,999 seeded count-preserving shuffles remain only as a descriptive finite-randomization reference. Trial-level exchangeability remains unresolved. The exact duplicate audit maps all 100 duplicate triplets to participant ID 2 = sealed HV2 (`HV_02_G11/G12`), outside HV3-HV8 source users; they do not directly contaminate this split. Provenance remains unknown. The runner hashes retained source triplets before fitting and blocks if any source alias exists, with no post-hoc removal. One bounded run only; no CNN, tuning, extra seed, acquisition, or rerun. A positive descriptive screen only informs whether a separate validation design merits consideration.
+
+
+## 2026-10-25 — one-shot Stage A attempt incomplete
+
+The owner authorized one descriptive-only attempt. It failed during restore metadata validation after 0.966 child CPU seconds / 1.003 wall seconds. The valid transfer manifest state was `complete`, but the pre-run helper accepted only `verified`; the receipt was independently verified and matched. Failure occurred before `np.load`, source alias scan, sample/label access, fitting, shuffle, or statistic. This is an engineering failure, not a scientific negative. The enum mismatch is fixed and a synthetic test covers `complete`. The attempt is consumed; do not rerun without new explicit instruction. Full log and budget receipt are in `results/cloud_20261025_l_t_privileged_group_stage_a/`.
