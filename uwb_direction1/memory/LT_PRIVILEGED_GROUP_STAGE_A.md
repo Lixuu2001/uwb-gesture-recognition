@@ -19,3 +19,8 @@ The owner selected path B before real data access. The amendment removes permuta
 ## 2026-10-25 — one-shot Stage A attempt incomplete
 
 The owner authorized one descriptive-only attempt. It failed during restore metadata validation after 0.966 child CPU seconds / 1.003 wall seconds. The valid transfer manifest state was `complete`, but the pre-run helper accepted only `verified`; the receipt was independently verified and matched. Failure occurred before `np.load`, source alias scan, sample/label access, fitting, shuffle, or statistic. This is an engineering failure, not a scientific negative. The enum mismatch is fixed and a synthetic test covers `complete`. The attempt is consumed; do not rerun without new explicit instruction. Full log and budget receipt are in `results/cloud_20261025_l_t_privileged_group_stage_a/`.
+
+
+## 2026-10-25 — explicit pre-data retry authorization
+
+The user explicitly authorized one retry after the first descriptive-only attempt failed before `np.load`; it is the same statistical computation, not a second analysis. The code now accepts the verified transfer manifest's actual `complete` terminal state, the real metadata-only provenance preflight passes, and 15 synthetic tests pass. Run02 uses a new path and the same scientific protocol. It receives 899 CPU seconds and 898.9 wall seconds, subtracting run01's 0.966 CPU / 1.003 wall seconds; cumulative use remains under 900/900. If run02 fails again before data access, code-only correction may use remaining budget. After source data access, do not restart or resample. No CNN, tuning, extra seed, p-value, or inference.
