@@ -19,19 +19,19 @@ The single fixed Right-only Ridge probe had audit errors of 673/1,200 (56.08%) f
 | Increment `I(error; L/T group | class,user,Right K=2 group)` | 0.011062 bits/sample |
 | `I(error; user | class)` | 0.181763 bits/sample |
 | Classes meeting frozen group coverage | 1/12 (class 4 only) |
-| Classes with same higher-error L/T group in both audit users | 1/12 (class 4 only) |
+| Coverage-qualified classes with consistent higher-error L/T group in both audit users | 1/12 (class 4 only) |
 | Descriptive incremental-effect floor 0.005 | passed |
 | Frozen screen as a whole | did not support further design |
 
 The fixed-seed, 1,999-draw shuffle reference had median 0.008454 bits/sample (5th–95th quantiles 0.005498–0.012368; observed-minus-median 0.002608). Because trial/session exchangeability is unresolved, this is only a finite-randomization description: **no p-value, significance, inferential null, or decision gate was computed or used.**
 
-Class 4 is the only positive descriptive slice. Its frozen L/T group 0 had higher Right-probe error in both audit users: HV7 1.000 vs 0.881 (n=16 vs 84), and HV8 0.697 vs 0.455 (n=89 vs 11). However, HV8’s smaller group is only just above the support threshold, and fit user 4 is highly imbalanced at 95/5. Class 4 still meets the frozen coverage rule: three of four fit users have both groups at or above 10, and both audit users have both groups at or above 10. The other 11 classes fail coverage and same-direction support; several are degenerate or severely imbalanced. The per-class/per-user counts, errors, and descriptive CMI are in `DESCRIPTIVE_RESULTS_SAFE.json`.
+Class 4 is the only positive descriptive slice. Its frozen L/T group 0 had higher Right-probe error in both audit users: HV7 1.000 vs 0.881 (n=16 vs 84), and HV8 0.697 vs 0.455 (n=89 vs 11). However, HV8’s smaller group is only just above the support threshold, and fit user 4 is highly imbalanced at 95/5. Class 4 still meets the frozen coverage rule: three of four fit users have both groups at or above 10, and both audit users have both groups at or above 10. The other 11 classes did not qualify for the cross-user direction gate because of coverage/support failures. Their raw per-user rate differences remain visible in the safe aggregate and are not characterized here as lacking same-direction differences. Several cells are degenerate or severely imbalanced. The per-class/per-user counts, errors, and descriptive CMI are in `DESCRIPTIVE_RESULTS_SAFE.json`.
 
 ## Interpretation: strongest support and counterevidence
 
 The strongest support is that the aggregate incremental CMI exceeds the predeclared descriptive floor, and class 4 shows a consistent error direction across the two inner audit users. This only shows an association for one fixed representation and one fixed binary Right-cluster control; it does not establish that L/T adds information beyond every possible Right-only representation.
 
-The dominant counterevidence is poor subgroup coverage and transfer stability: only 1/12 classes meets either criterion, against a frozen 8/12 requirement. User-conditioned error information (0.181763 bits/sample) is much larger than the L/T or Right-group summaries, indicating substantial user structure. The clusters are statistical strata, not verified motion or kinematic subgroups. Existing work (GEORGE, Domino, EIIL, AGRO, privileged-information learning, and same-corpus multi-view recognition) already establishes the component concepts; this screen did not establish a novel algorithm or effective training method.
+The dominant counterevidence is poor subgroup coverage and transfer stability: only 1/12 classes is coverage-qualified and shows consistent higher-error direction in both audit users, against the frozen 8/12 requirement. User-conditioned error information (0.181763 bits/sample) is much larger than the L/T or Right-group summaries, indicating substantial user structure. The clusters are statistical strata, not verified motion or kinematic subgroups. Existing work (GEORGE, Domino, EIIL, AGRO, privileged-information learning, and same-corpus multi-view recognition) already establishes the component concepts; this screen did not establish a novel algorithm or effective training method.
 
 Therefore the result is **not** a general scientific negative for all privileged-supervision mechanisms, but it fails this narrow frozen feasibility screen and does not justify proceeding to Stage B. No method contribution, independent-user generalization, or performance improvement was validated.
 
