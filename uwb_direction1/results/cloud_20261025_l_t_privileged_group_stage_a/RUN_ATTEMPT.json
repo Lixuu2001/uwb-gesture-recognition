@@ -1,0 +1,93 @@
+{
+  "state": "failed_exception",
+  "phase": "worker_start",
+  "attempted_once": true,
+  "scientific_result_recorded": false,
+  "is_scientific_negative": false,
+  "started": true,
+  "models_fit": false,
+  "array_values_read": false,
+  "labels_read": false,
+  "cpu_limit_seconds": 900,
+  "wall_timeout_seconds": 900,
+  "single_thread_limit": 1,
+  "child_cpu_seconds": 0.9661069999999999,
+  "elapsed_seconds": 1.0033835080103017,
+  "exit_code": 1,
+  "partial_artifacts": [],
+  "pre_run_commit": "1999b8d2a8cafd893917df112cc3f8e3f7f7094a",
+  "pre_run_protocol_sha256": "2f3a8d613f44da59916cbc85cb9656c6bed57de8442732fe0b8269fafc9b69e0",
+  "pre_run_code_sha256": {
+    "diagnostic.py": "661fd578b966d672627a0f3a8cc6949650870533a746be7932abceb4f75696dc",
+    "budget_exec.py": "2585b65d905d08d47d398f449d05f7261ee0b2c2622daef7a378fea1ed355566"
+  },
+  "restore_metadata": {
+    "transfer_manifest_sha256": "10516baf0b49a84e6a39169ef447fffcdcb29defa2a6cc79e301dc938ddceb4d",
+    "transfer_manifest_state": "complete",
+    "restore_receipt_state": "verified",
+    "receipt_manifest_hash_matched": true,
+    "cache_files": {
+      "cache/subj_clutterremoved.npy": {
+        "bytes": 76872,
+        "sha256": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+      },
+      "cache/X_clutterremoved.npy": {
+        "bytes": 1958123288,
+        "sha256": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519"
+      },
+      "cache/y_clutterremoved.npy": {
+        "bytes": 76872,
+        "sha256": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd"
+      }
+    }
+  },
+  "error": "restore_provenance raised RuntimeError: restore metadata is not verified because TRANSFER_MANIFEST.json state is complete, while the code accepted only verified. Receipt state/hash were valid.",
+  "diagnostic_boundary": "This was a software metadata-enum mismatch. np.load was never reached. No HV1/HV2 labels or radar rows, nor source radar/label values, were accessed. No fit, shuffle, CMI, coverage, or error-rate result exists.",
+  "disposition": "incomplete; no scientific negative; one-shot run consumed; no retry authorized",
+  "runtime_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "threadpoolctl": "3.6.0",
+    "cpu_count": 5,
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+        "version": "0.3.30",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+        "version": "0.3.30",
+        "threading_layer": "pthreads",
+        "architecture": "SkylakeX"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libgomp",
+        "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+        "version": null
+      }
+    ],
+    "thread_limit_verified": true
+  },
+  "independent_pre_run_restore_check": {
+    "transfer_manifest_state": "complete",
+    "restore_receipt_state": "verified",
+    "receipt_manifest_hash_matched": true,
+    "input_file_sizes_match_transfer_manifest": true
+  }
+}
