@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 import subprocess
@@ -6,7 +7,6 @@ import tempfile
 import unittest
 from collections import Counter
 from pathlib import Path
-from unittest import mock
 
 import numpy as np
 
@@ -136,17 +136,60 @@ class BudgetAndProtocolTests(unittest.TestCase):
         after = Counter(zip(y.tolist(), u.tolist(), r.tolist(), shuffled.tolist()))
         self.assertEqual(before, after)
 
-    def test_preflight_blocks_without_loading_any_array(self):
+    def test_amended_protocol_authorizes_only_descriptive_run_without_p_gate(self):
+        protocol = json.loads((Path(diagnostic.__file__).with_name("protocol.json")).read_text())
+        self.assertTrue(protocol["source_exchangeability"]["run_authorized"])
+        self.assertNotIn("permutation_gate", protocol["fixed_decision_rule"])
+        self.assertIn("No record-level permutation p-value", protocol["fixed_decision_rule"]["inferential_boundary"])
+        self.assertIn("not a scientific GO", protocol["fixed_decision_rule"]["pass_action"])
+        self.assertEqual(diagnostic.N_PERMUTATIONS, 1999)
+
+    def test_exact_source_alias_rule_blocks_conflicting_labels_before_fit(self):
+        maps = np.zeros((6, 3, 90, 189), dtype=np.float32)
+        maps[2] = 1.25
+        maps[3] = maps[2]
+        audit = diagnostic.audit_exact_triplet_aliases(
+            maps, np.array([2, 3]), np.array([10, 11]), np.array([3, 4]))
+        self.assertFalse(audit["passed"])
+        self.assertEqual(audit["exact_alias_pair_count"], 1)
+        pair = audit["duplicate_pairs"][0]
+        self.assertTrue(pair["byte_identical_triplet"])
+        self.assertFalse(pair["same_class"])
+        self.assertEqual((pair["first_class"], pair["duplicate_class"]), (10, 11))
+
+    def test_exact_source_alias_scan_reads_only_selected_source_rows(self):
+        maps = GuardedMaps(forbidden={0, 1})
+        audit = diagnostic.audit_exact_triplet_aliases(
+            maps, np.array([2, 3, 4]), np.array([0, 1, 2]), np.array([3, 4, 5]))
+        self.assertTrue(audit["passed"])
+        self.assertEqual(audit["rows_checked"], 3)
+        self.assertEqual(maps.read_rows, [2, 3, 4])
+
+    def test_restore_provenance_checks_receipt_and_sizes_without_opening_arrays(self):
         with tempfile.TemporaryDirectory() as temp:
-            out = Path(temp) / "blocked-run"
-            args = type("Args", (), {"cache_dir": str(Path(temp) / "missing"), "output_dir": str(out)})()
-            with mock.patch.object(diagnostic.np, "load", side_effect=AssertionError("array access forbidden")):
-                with diagnostic.threadpool_limits(limits=1):
-                    result = diagnostic.run(args)
-            self.assertEqual(result["status"], "blocked_exchangeability_review")
-            status = json.loads((out / "run_status.json").read_text())
-            self.assertEqual(status["state"], "blocked_exchangeability_review")
-            self.assertFalse((out / "diagnostic.json").exists())
+            root = Path(temp)
+            cache = root / "cache"
+            cache.mkdir()
+            entries = []
+            for rel, payload in [
+                ("cache/X_clutterremoved.npy", b"sealed map bytes"),
+                ("cache/y_clutterremoved.npy", b"label bytes"),
+                ("cache/subj_clutterremoved.npy", b"subject bytes"),
+            ]:
+                p = root / rel
+                p.write_bytes(payload)
+                entries.append({"path": rel, "bytes": len(payload),
+                                "sha256": hashlib.sha256(payload).hexdigest()})
+            manifest = root / "TRANSFER_MANIFEST.json"
+            manifest.write_text(json.dumps({"state": "verified", "files": entries}))
+            manifest_sha = hashlib.sha256(manifest.read_bytes()).hexdigest()
+            (root / "RESTORE_VERIFIED.json").write_text(json.dumps({
+                "state": "verified", "transfer_manifest_sha256": manifest_sha}))
+            proof = diagnostic.restore_provenance(cache, manifest)
+            self.assertTrue(proof["restore_receipt_manifest_sha256_matches"])
+            self.assertEqual(proof["restored_input_files"]["cache/X_clutterremoved.npy"]["bytes"],
+                             len(b"sealed map bytes"))
+            self.assertIn("selected source rows", proof["restored_input_files"]["cache/X_clutterremoved.npy"]["content_hash_scope"])
 
     def _synthetic_command(self, code):
         return [sys.executable, "-c", code]
