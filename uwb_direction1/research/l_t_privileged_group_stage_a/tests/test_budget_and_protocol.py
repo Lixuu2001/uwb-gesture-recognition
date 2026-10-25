@@ -136,10 +136,11 @@ class BudgetAndProtocolTests(unittest.TestCase):
         after = Counter(zip(y.tolist(), u.tolist(), r.tolist(), shuffled.tolist()))
         self.assertEqual(before, after)
 
-    def test_run_once_protocol_consumed_after_the_single_attempt(self):
+    def test_predata_failure_retry_reuses_descriptive_protocol(self):
         protocol = json.loads((Path(diagnostic.__file__).with_name("protocol.json")).read_text())
-        self.assertFalse(protocol["source_exchangeability"]["run_authorized"])
-        self.assertIn("consumed", protocol["one_shot_execution"]["state"])
+        self.assertTrue(protocol["source_exchangeability"]["run_authorized"])
+        self.assertIn("retry_authorized", protocol["one_shot_execution"]["state"])
+        self.assertTrue(protocol["one_shot_execution"]["prior_attempt_read_arrays"] is False)
         self.assertNotIn("permutation_gate", protocol["fixed_decision_rule"])
         self.assertIn("No record-level permutation p-value", protocol["fixed_decision_rule"]["inferential_boundary"])
         self.assertIn("not a scientific GO", protocol["fixed_decision_rule"]["pass_action"])
