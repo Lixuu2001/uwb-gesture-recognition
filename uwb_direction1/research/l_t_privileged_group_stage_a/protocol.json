@@ -1,0 +1,74 @@
+{
+  "title": "Stage A: L/T privileged within-class subgroup feasibility screen",
+  "status": "design_frozen_not_run",
+  "date_utc": "2026-10-25",
+  "objective": "Test whether train-only L/T-derived within-class statistical strata transfer to two inner source users and contain incremental information about errors of a fixed Right-only diagnostic probe, conditional on gesture class, audit user, and a matched Right-derived stratum.",
+  "not_a_claim": [
+    "not a validated method contribution",
+    "not evidence of true kinematic or motion subgroups",
+    "not performance evidence for the historical Right-only CNN",
+    "not independent external-user validation"
+  ],
+  "data_boundary": {
+    "source_users": [3, 4, 5, 6, 7, 8],
+    "outer_test_user_sealed": 1,
+    "outer_validation_user_sealed": 2,
+    "group_fit_users": [3, 4, 5, 6],
+    "inner_source_audit_users": [7, 8],
+    "quality_rule": "Use the canonical shared quality mask: exclude subject 6/class 3 from source rows; subjects 1 and 2 are never read for labels or radar values.",
+    "ids": "Original row indices are preserved and hashed; all fitting uses only users 3-6. Users 7-8 are used only after the representations, clusters, and Right probe are frozen.",
+    "historical_use": "Participants 3-8 have prior development use. Inner source audit is not independent validation and cannot support external-user claims."
+  },
+  "frozen_method": {
+    "input": "Existing real-valued clutter-removed X, shape [N,3,90,189], with view order L,T,R.",
+    "feature": "Per-view magnitude normalization followed by fixed 10x21 block averaging to 210 dimensions; no label-dependent feature search.",
+    "subgroups": "Within each gesture class, StandardScaler and 16-component PCA are fit on users 3-6 only. KMeans K=2, n_init=10, seed=20261025 is fit once on concatenated L/T features; matched R-only clusters use the identical pipeline on R. IDs are ordered by the frozen first PCA coordinate.",
+    "error_probe": "One fixed Right-only StandardScaler + RidgeClassifier(alpha=1.0,class_weight=balanced), fit on users 3-6 only; no CNN and no tuning.",
+    "controls": [
+      "Right-only within-class groups from the same cluster pipeline",
+      "user identity and class-conditional user error information",
+      "1999 random shuffles of L/T group assignments within audit class x user x Right-group strata, preserving counts"
+    ],
+    "primary_statistic": "I(Right-probe error; L/T group | gesture class, audit user, Right-only group), in bits per audit sample.",
+    "secondary_statistics": [
+      "I(error; L/T group | class,user)",
+      "I(error; Right group | class,user)",
+      "I(error; user | class)",
+      "cluster occupancy per fit/audit user and class",
+      "audit error-rate direction for the two frozen group IDs per class/user"
+    ]
+  },
+  "fixed_decision_rule": {
+    "minimum_group_support": 10,
+    "coverage_gate": "At least 8/12 classes must have both groups with >=10 samples in each audit user and in >=3/4 fit users.",
+    "cross_user_error_gate": "For at least 8/12 classes, both audit users must show the same group ID with >=5 percentage-point higher Right-probe error, with >=10 samples/group/user.",
+    "incremental_effect_gate": "Primary conditional MI >=0.005 bits/sample.",
+    "permutation_gate": "One global fixed-seed, 1999-draw conditional permutation test, p<=0.05; no per-class selection.",
+    "all_must_pass": true,
+    "failure_action": "Stop the candidate; do not change K, representation, split, groups, probe, threshold, or permutation count based on these results.",
+    "pass_action": "Only eligible to request a separate Stage B instruction: compare matched Right-only CNN CE vs the same Right-only CNN plus the frozen L/T group auxiliary target, with L/T unavailable at inference. Include Right-derived group, user-group, and count-preserving random-group controls. Stage A alone is not a contribution."
+  },
+  "identity_alignment": {
+    "within_stage_a": "Per-class group IDs are assigned by frozen training-centroid order; audit users receive nearest frozen-centroid IDs. No audit refit, Hungarian matching, labels, or cross-user reassignment.",
+    "across_outer_folds": "No group IDs are compared or pooled across folds. Stage B, if separately authorized, fits fold-local group identities from that fold's training users and reports only fold-local diagnostics; cross-fold identity alignment is not claimed."
+  },
+  "compute_budget": {
+    "environment": "5 CPU cores, about 17.7 GB available RAM, about 25.8 GB free at 2026-10-24 preflight; no GPU, no PyTorch, no active job.",
+    "execution": "One process, one BLAS thread; one read of source-user rows from the 1.96 GB mmap cache; low-dimensional PCA/KMeans and 1999 tiny conditional permutations.",
+    "hard_budget": "900 CPU-seconds / 15 minutes elapsed; abort without parameter changes if exceeded.",
+    "cnn_training": "none"
+  },
+  "prior_art_boundary": {
+    "known": [
+      "GEORGE: feature-space subclass clustering and group-robust mitigation without subclass labels.",
+      "Domino: cross-modal embeddings plus error-aware mixture-based systematic-error slice discovery.",
+      "EIIL: infer partitions informative for invariant learning.",
+      "AGRO: adversarial error-prone group discovery coupled to robust optimization.",
+      "LUPI and multimodal privileged learning: extra views available during training but absent at inference.",
+      "Xue et al. 2026: same-corpus X4 single/dual/tri-view recognition and fusion.",
+      "Project P1: cross-user multi-view teacher distillation into Right-only student; multiview OOF-shape control did not beat Right-only OOF or global smoothing."
+    ],
+    "candidate_difference": "Only the untested empirical question of whether L/T defines train-only, class-conditional strata that transfer across source users and add Right-error information beyond a same-pipeline Right-only grouping/user control. The group discovery, privileged information, and robust weighting algorithms are not claimed as new.",
+    "novelty_status": "not cleared; bounded literature search only"
+  }
+}

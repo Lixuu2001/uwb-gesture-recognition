@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "No novel, input-feasible method has been cleared on the current processed cache, and the apparent Figshare UWB_HGR candidate is a repack of the same eight-user UWB-Gestures corpus rather than independent validation. Continue with a technically distinct mechanism only when primary-source and observability gates pass; new acquisition would require the corresponding raw/calibrated/synchronized channels and/or independent participants.",
+  "next_required_input": "Review the frozen L/T privileged within-class group Stage A design, then explicitly instruct whether to run the bounded source-only diagnostic. No CNN run is authorized by this design note.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261024_physical_normalization_prior_art_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261025_l_t_privileged_group_stage_a/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Do not run another generic time-frequency, range-statistic, temporal, or multi-view grid. Generic full-wave EM/Green's-function hardware/background normalization and same-corpus speed/multiscale are prior art. Current processed real-valued maps lack raw complex pulses and per-view calibration for EM inversion; future work requires a distinct observable that is both literature-cleared and present in the cache, or new raw/calibrated acquisition, followed by a frozen held-user protocol.",
-  "last_completed_update_utc": "2026-10-24 10:50:45 UTC",
+  "last_completed_update_utc": "2026-10-25 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261024_physical_normalization_prior_art_gate/RUN_REPORT.md",
     "observed_at_utc": "2026-10-24 10:50:45 UTC",
@@ -2144,5 +2144,25 @@
     "data_downloaded": false,
     "method_contribution_validated": false,
     "decision": "Do not run another grid; next work needs a technically distinct observable or new raw/calibrated acquisition and a frozen held-user protocol."
+  },
+  "latest_stage_a_design": {
+    "date_utc": "2026-10-25",
+    "report": "uwb_direction1/results/cloud_20261025_l_t_privileged_group_stage_a/RUN_REPORT.md",
+    "design": "uwb_direction1/research/l_t_privileged_group_stage_a/DESIGN.md",
+    "implementation": "uwb_direction1/research/l_t_privileged_group_stage_a/diagnostic.py",
+    "parent_head": "bf357a5be1dbd2df8761978cbaa305fbe82e98fc",
+    "exact_equivalent_experiment_found": false,
+    "candidate": "L/T-derived class-conditional strata, fit on source users 3-6 and tested for transfer/error association on inner source users 7-8, for Right-only deployment",
+    "prior_art_status": "bounded review; group discovery, privileged information, and robust optimization are established components; novelty not cleared",
+    "diagnostic_prepared": true,
+    "diagnostic_run": false,
+    "cnn_training_started": false,
+    "labels_values_read": false,
+    "radar_array_values_read": false,
+    "checkpoint_found_for_inner_split": false,
+    "historical_multiview_prediction_headers_inspected_only": true,
+    "data_restore_repeated": false,
+    "state": "frozen_stage_a_design_waiting_for_user_instruction",
+    "decision": "Do not run Stage A or any CNN training until a next-session instruction."
   }
 }
