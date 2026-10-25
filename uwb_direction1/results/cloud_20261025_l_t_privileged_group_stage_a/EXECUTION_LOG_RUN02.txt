@@ -1,0 +1,8 @@
+Stage A run02 execution log (descriptive only)
+Date: 2026-10-25 UTC
+Command: python diagnostic.py --confirm-stage-a --cpu-seconds 899 --wall-seconds 898.9 --output-dir /workspace/uwb-stage-a-descriptive-20261025/run02
+Prior run01: failed before np.load; 0.9661069999999999 CPU s; 1.0033835080103017 wall s; no data values read.
+run02: completed; CPU 25.742206 s; wall 26.273591 s; exit_code None; 1999/1999 descriptive shuffles completed.
+Cumulative: CPU 26.708313/900 s; wall 27.276974/900 s. Single-thread numerical pools verified.
+No p-value, significance, or inferential claim computed. No CNN or tuning.
+Result disposition: frozen descriptive coverage and direction gates failed (1/12 each); incremental CMI floor passed; no contribution validated; no more runs authorized.
