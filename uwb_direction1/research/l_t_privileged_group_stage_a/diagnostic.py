@@ -261,6 +261,37 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def restore_provenance(cache: Path, transfer_manifest_path: Path) -> dict[str, Any]:
+    """Validate small restore metadata and file sizes without reading sealed rows."""
+    transfer_manifest_path = Path(transfer_manifest_path)
+    receipt_path = cache.parent / "RESTORE_VERIFIED.json"
+    transfer = json.loads(transfer_manifest_path.read_text(encoding="utf-8"))
+    receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    transfer_sha = sha256(transfer_manifest_path)
+    if transfer.get("state") != "verified" or receipt.get("state") != "verified":
+        raise RuntimeError("restore metadata is not verified")
+    if receipt.get("transfer_manifest_sha256") != transfer_sha:
+        raise RuntimeError("restore receipt does not match the transfer manifest")
+    entries = {item["path"]: item for item in transfer.get("files", [])}
+    required = ["cache/X_clutterremoved.npy", "cache/y_clutterremoved.npy",
+                "cache/subj_clutterremoved.npy"]
+    expected = {}
+    for rel in required:
+        item = entries.get(rel)
+        path = cache.parent / rel
+        if item is None or not path.is_file() or path.stat().st_size != int(item["bytes"]):
+            raise RuntimeError(f"restored input metadata/size mismatch: {rel}")
+        expected[rel] = {"bytes": int(item["bytes"]), "sha256": item["sha256"],
+                         "current_size_bytes": path.stat().st_size,
+                         "content_hash_scope": "verified transfer metadata; this run hashes only selected source rows to preserve sealed-user boundary"}
+    return {"transfer_manifest_path": str(transfer_manifest_path),
+            "transfer_manifest_sha256": transfer_sha,
+            "restore_receipt_path": str(receipt_path),
+            "restore_receipt_sha256": sha256(receipt_path),
+            "restore_receipt_manifest_sha256_matches": True,
+            "restored_input_files": expected}
+
+
 def sample_feature(sample: np.ndarray) -> np.ndarray:
     """Exact fixed 10x21 average pooling used by the archived P1 proxy.
 
@@ -310,6 +341,69 @@ def permute_within_strata(x: np.ndarray, strata: list[np.ndarray], rng: np.rando
         idx = np.flatnonzero(np.all(keys == key, axis=1))
         out[idx] = x[idx][rng.permutation(len(idx))]
     return out
+
+
+def audit_exact_triplet_aliases(map_array: Any, row_ids: np.ndarray, labels: np.ndarray,
+                                users: np.ndarray) -> dict[str, Any]:
+    """Hash only the explicitly selected source rows; block aliases before fitting.
+
+    The rule is deliberately conservative: any byte-identical full L/T/R triplet
+    among retained source rows blocks the run. No row is silently deduplicated,
+    relabeled, or removed after the alias result is seen.
+    """
+    rows = np.asarray(row_ids, dtype=np.int64)
+    y = np.asarray(labels, dtype=np.int64)
+    subject = np.asarray(users, dtype=np.int64)
+    if not (len(rows) == len(y) == len(subject)):
+        raise ValueError("source alias audit inputs must have matching lengths")
+    seen: dict[str, int] = {}
+    sample_digests: list[dict[str, Any]] = []
+    duplicate_pairs: list[dict[str, Any]] = []
+    digest_collisions: list[dict[str, Any]] = []
+    source_hash = hashlib.sha256()
+    for i, row in enumerate(rows):
+        sample = np.ascontiguousarray(map_array[int(row)])
+        if sample.shape != (3, 90, 189):
+            raise ValueError(f"source row {int(row)} has unexpected triplet shape {sample.shape}")
+        h = hashlib.sha256()
+        h.update(sample.dtype.str.encode("ascii"))
+        h.update(np.asarray(sample.shape, dtype=np.int64).tobytes())
+        raw = sample.view(np.uint8).reshape(-1)
+        h.update(raw)
+        digest = h.hexdigest()
+        sample_digests.append({"row_id": int(row), "user": int(subject[i]),
+                               "class": int(y[i]), "triplet_sha256": digest})
+        source_hash.update(np.asarray([int(row), int(subject[i]), int(y[i])], dtype=np.int64).tobytes())
+        source_hash.update(raw)
+        prior = seen.get(digest)
+        if prior is not None:
+            first_row = int(rows[prior])
+            exact_equal = bool(np.array_equal(sample, np.asarray(map_array[first_row])))
+            pair = {"first_row_id": first_row, "duplicate_row_id": int(row),
+                    "first_user": int(subject[prior]), "duplicate_user": int(subject[i]),
+                    "first_class": int(y[prior]), "duplicate_class": int(y[i]),
+                    "same_user": bool(subject[prior] == subject[i]),
+                    "same_class": bool(y[prior] == y[i]),
+                    "byte_identical_triplet": exact_equal,
+                    "sha256": digest}
+            if exact_equal:
+                duplicate_pairs.append(pair)
+            else:
+                digest_collisions.append(pair)
+        else:
+            seen[digest] = i
+    return {
+        "scope": "retained source rows only (HV3-HV8 after the frozen source quality exclusion); no HV1/HV2 labels or radar rows read",
+        "rows_checked": len(rows),
+        "rule": "block before any model fit if any byte-identical full three-view triplet occurs among retained source rows; never post-hoc deduplicate or relabel",
+        "exact_alias_pair_count": len(duplicate_pairs),
+        "digest_collision_pair_count": len(digest_collisions),
+        "duplicate_pairs": duplicate_pairs,
+        "digest_collisions": digest_collisions,
+        "source_retained_triplet_digest_sha256": source_hash.hexdigest(),
+        "sample_triplet_digests": sample_digests,
+        "passed": len(duplicate_pairs) == 0 and len(digest_collisions) == 0,
+    }
 
 
 def classwise_groups(features: np.ndarray, y: np.ndarray, users: np.ndarray,
@@ -419,26 +513,32 @@ def run(args: argparse.Namespace) -> dict:
     protocol_path = Path(__file__).with_name("protocol.json")
     protocol = json.loads(protocol_path.read_text(encoding="utf-8"))
     code_path = Path(__file__).resolve()
+    code_paths = [code_path, Path(__file__).with_name("budget_exec.py")]
+    code_hashes = {p.name: sha256(p) for p in code_paths}
+    code_bundle = hashlib.sha256("".join(f"{k}:{v}\n" for k, v in sorted(code_hashes.items())).encode()).hexdigest()
     execution_manifest = {
         "frozen_protocol_sha256": sha256(protocol_path),
-        "initial_code_sha256": sha256(code_path),
+        "initial_code_sha256": code_bundle,
+        "initial_code_file_sha256": code_hashes,
         "environment": environment_manifest(),
+        "restore_provenance": restore_provenance(cache, Path(args.transfer_manifest)),
         "cpu_limit_seconds": HARD_BUDGET_SECONDS,
         "wall_timeout_seconds": WALL_TIMEOUT_SECONDS,
         "blas_thread_limit": 1,
-        "scientific_protocol_changed": False,
+        "scientific_protocol_changed": True,
+        "protocol_amendment": "descriptive-only; row-level shuffle p-values removed before real data access; no p-value or significance gate",
         "source_exchangeability": protocol["source_exchangeability"],
     }
     atomic_json(out_dir / "execution_manifest.json", execution_manifest)
     atomic_json(out_dir / "progress.json", {"phase": "input_open", "rows_completed": 0, "rows_total": None})
     _ACTIVE_STAGE = "input_open"
 
-    # The proposed row-level permutation is not executed unless the design
-    # record has an explicit exchangeability clearance. A timeout or this
-    # block is never counted as a scientific negative.
+    # This run is authorized only as a descriptive screen. There is no
+    # inferential permutation gate or p-value because trial exchangeability is
+    # unresolved. A timeout or block is never counted as a scientific negative.
     if not execution_manifest["source_exchangeability"]["run_authorized"]:
         write_run_status(out_dir, "blocked_exchangeability_review", "protocol_preflight",
-                         reason="sample-level conditional permutation is not justified by available trial metadata; resolve the pre-run exchangeability plan",
+                         reason="protocol does not authorize this execution scope",
                          extra={"source_exchangeability": execution_manifest["source_exchangeability"],
                                 "initial_code_sha256": execution_manifest["initial_code_sha256"],
                                 "protocol_sha256": execution_manifest["frozen_protocol_sha256"],
@@ -478,6 +578,16 @@ def run(args: argparse.Namespace) -> dict:
         raise ValueError("fit users do not cover all 12 gesture classes")
     if set(np.unique(y[audit_mask])) != set(range(12)):
         raise ValueError("audit users do not cover all 12 gesture classes")
+
+    _ACTIVE_STAGE = "source_alias_preflight"
+    alias_audit = audit_exact_triplet_aliases(x, rows, y, users)
+    atomic_json(out_dir / "source_alias_audit.json", alias_audit)
+    if not alias_audit["passed"]:
+        write_run_status(out_dir, "blocked_source_alias", _ACTIVE_STAGE,
+                         reason="an exact source triplet alias was found before fitting; no samples were removed or relabeled",
+                         extra={"source_alias_pair_count": alias_audit["exact_alias_pair_count"],
+                                "source_alias_audit_sha256": sha256(out_dir / "source_alias_audit.json")})
+        return {"status": "blocked_source_alias", "source_alias_audit": alias_audit}
 
     # Only map rows for the six source users are read; outer test/validation data
     # are never materialized.
@@ -576,40 +686,40 @@ def run(args: argparse.Namespace) -> dict:
 
     rng = np.random.default_rng(SEED)
     perm_strata = [y_a, u_a, g_r]
-    null_partial_path = out_dir / "null_statistics.partial.npy"
+    null_partial_path = out_dir / "descriptive_shuffle_reference.partial.npy"
     null_store = open_memmap(null_partial_path, mode="w+", dtype=np.float64, shape=(N_PERMUTATIONS,))
     null_store[:] = np.nan
     null_store.flush()
     _ACTIVE_NULL = null_store
     null = null_store
-    _ACTIVE_STAGE = "conditional_permutation"
+    _ACTIVE_STAGE = "descriptive_count_preserving_shuffle_reference"
     atomic_json(out_dir / "progress.json", {"phase": _ACTIVE_STAGE,
-                                             "permutations_completed": 0,
-                                             "permutations_total": N_PERMUTATIONS})
+                                             "shuffles_completed": 0,
+                                             "shuffles_total": N_PERMUTATIONS})
     for b in range(N_PERMUTATIONS):
         gp = permute_within_strata(g_lt, perm_strata, rng)
         null[b] = cmi_bits(e, gp, perm_strata)
         if (b + 1) % 50 == 0 or b + 1 == N_PERMUTATIONS:
             null_store.flush()
             atomic_json(out_dir / "progress.json", {"phase": _ACTIVE_STAGE,
-                                                     "permutations_completed": b + 1,
-                                                     "permutations_total": N_PERMUTATIONS})
+                                                     "shuffles_completed": b + 1,
+                                                     "shuffles_total": N_PERMUTATIONS})
             write_run_status(out_dir, "running", _ACTIVE_STAGE,
-                             extra={"permutations_completed": b + 1,
-                                    "permutations_total": N_PERMUTATIONS,
+                             extra={"shuffles_completed": b + 1,
+                                    "shuffles_total": N_PERMUTATIONS,
                                     "cpu_limit_seconds": HARD_BUDGET_SECONDS,
                                     "wall_timeout_seconds": WALL_TIMEOUT_SECONDS})
-    p_perm = float((1 + np.count_nonzero(null >= cmi_lt_incremental)) / (N_PERMUTATIONS + 1))
-
-    # Keep the complete fixed null distribution and its completed-prefix state.
+    # Keep this count-preserving shuffle distribution as an explicitly
+    # descriptive reference only. No p-value is computed.
     null_store.flush()
     del null_store
     _ACTIVE_NULL = None
-    os.replace(null_partial_path, out_dir / "null_statistics.npy")
+    os.replace(null_partial_path, out_dir / "descriptive_shuffle_reference.npy")
     _ACTIVE_NULL = None
 
     coverage = []
     directions = []
+    error_rates_by_class_user = []
     for cls in range(12):
         fit_counts = {str(u): [int(np.sum((g_lt_fit == group) & fit_mask & (y == cls) & (users == u)))
                                for group in (0, 1)] for u in FIT_USERS}
@@ -618,10 +728,30 @@ def run(args: argparse.Namespace) -> dict:
         fit_rep = sum(all(v >= MIN_GROUP_N for v in fit_counts[str(u)]) for u in FIT_USERS)
         audit_ok = all(all(v >= MIN_GROUP_N for v in audit_counts[str(u)]) for u in AUDIT_USERS)
         supported = fit_rep >= 3 and audit_ok
+        right_counts = {str(u): [int(np.sum((g_r_a_all == group) & audit_mask & (y == cls) & (users == u)))
+                                 for group in (0, 1)] for u in AUDIT_USERS}
         coverage.append({"class": cls, "fit_group_counts_by_user": fit_counts,
                          "audit_group_counts_by_user": audit_counts,
+                         "audit_right_group_counts_by_user": right_counts,
                          "fit_users_with_both_groups_n_ge_10": fit_rep,
                          "supported": supported})
+        per_user = {}
+        for user in AUDIT_USERS:
+            per_user[str(user)] = {
+                "group_counts": {
+                    "lt": audit_counts[str(user)],
+                    "right": right_counts[str(user)],
+                },
+                "right_error_rate_by_lt_group": [
+                    float(e[(y_a == cls) & (u_a == user) & (g_lt == group)].mean())
+                    if np.any((y_a == cls) & (u_a == user) & (g_lt == group)) else None
+                    for group in (0, 1)],
+                "right_error_rate_by_right_group": [
+                    float(e[(y_a == cls) & (u_a == user) & (g_r == group)].mean())
+                    if np.any((y_a == cls) & (u_a == user) & (g_r == group)) else None
+                    for group in (0, 1)],
+            }
+        error_rates_by_class_user.append({"class": cls, "users": per_user})
         if supported:
             diffs = []
             for user in AUDIT_USERS:
@@ -636,13 +766,21 @@ def run(args: argparse.Namespace) -> dict:
 
     n_supported = sum(r["supported"] for r in coverage)
     n_direction = len(directions)
-    gate = bool(n_supported >= MIN_SUPPORTED_CLASSES
-                and n_direction >= MIN_DIRECTION_CLASSES
-                and cmi_lt_incremental >= MIN_INCREMENTAL_CMI_BITS
-                and p_perm <= 0.05)
+    descriptive_support = bool(n_supported >= MIN_SUPPORTED_CLASSES
+                               and n_direction >= MIN_DIRECTION_CLASSES
+                               and cmi_lt_incremental >= MIN_INCREMENTAL_CMI_BITS)
+    shuffle_reference = {
+        "draws": N_PERMUTATIONS,
+        "seed": SEED,
+        "median_bits_per_sample": float(np.quantile(null, 0.50)),
+        "q05_bits_per_sample": float(np.quantile(null, 0.05)),
+        "q95_bits_per_sample": float(np.quantile(null, 0.95)),
+        "observed_minus_reference_median_bits_per_sample": float(cmi_lt_incremental - np.quantile(null, 0.50)),
+        "inferential_use": "none; not an exchangeable null, no p-value, no significance claim, and no decision gate",
+    }
 
     result = {
-        "status": "stage_a_diagnostic_completed_not_contribution_validation",
+        "status": "completed_descriptive_screen_not_contribution_validation",
         "candidate": "L/T-derived within-class strata as training-only labels for Right-only deployment",
         "selected_source_data_sha256": hashlib.sha256(
             np.asarray(rows, dtype=np.int64).tobytes()
@@ -664,19 +802,32 @@ def run(args: argparse.Namespace) -> dict:
                          "pca_components": 16, "kmeans_n_init": 10,
                          "right_error_probe": "StandardScaler + RidgeClassifier(alpha=1.0,class_weight=balanced)",
                          "cnn_training": False, "parameter_grid": False,
-                         "permutations": N_PERMUTATIONS, "seed": SEED},
+                         "descriptive_shuffles": N_PERMUTATIONS, "seed": SEED,
+                         "no_p_value_computed": True},
         "metrics": {"conditional_mi_lt_error_given_class_user_bits": cmi_lt_yu,
                     "conditional_mi_right_error_given_class_user_bits_bits": cmi_r_yu,
                     "incremental_mi_lt_error_given_class_user_right_group_bits": cmi_lt_incremental,
                     "user_only_mi_error_given_class_bits": cmi_user_y,
-                    "lt_incremental_permutation_p": p_perm,
-                    "permutation_null_95pct": float(np.quantile(null, 0.95)),
+                    "lt_incremental_descriptive_shuffle_reference": shuffle_reference,
                     "supported_classes": int(n_supported),
                     "same_error_direction_classes": int(n_direction)},
         "coverage_by_class": coverage,
+        "right_error_rates_by_class_user": error_rates_by_class_user,
         "direction_consistency": directions,
-        "stage_a_gate_passed": gate,
-        "interpretation_limit": "Groups are statistical view-derived strata, not verified motion/kinematic subgroups. Right error is from the fixed linear probe, not the historical CNN. Stage A is a screen only.",
+        "descriptive_screen_supports_further_design": descriptive_support,
+        "descriptive_checks": {
+            "coverage_pass": n_supported >= MIN_SUPPORTED_CLASSES,
+            "same_cross_user_error_direction_pass": n_direction >= MIN_DIRECTION_CLASSES,
+            "incremental_effect_floor_pass": cmi_lt_incremental >= MIN_INCREMENTAL_CMI_BITS,
+            "p_value_or_significance_used": False,
+            "science_go": False,
+        },
+        "failure_items": {
+            "coverage_classes_below_gate": [r["class"] for r in coverage if not r["supported"]],
+            "direction_classes_below_gate": sorted(set(range(12)) - {r["class"] for r in directions}),
+            "incremental_effect_floor_failed": cmi_lt_incremental < MIN_INCREMENTAL_CMI_BITS,
+        },
+        "interpretation_limit": "Descriptive within this frozen representation/probe only; no inferential claims because record-level exchangeability is unknown. A positive screen only motivates future design, not a scientific GO or contribution. Groups are statistical view-derived strata, not verified motion/kinematic subgroups. The fixed binary Right control is limited and does not represent all Right information. Right error is from a fixed linear probe, not the historical CNN. HV7/HV8 labels are class-conditional post-fit audit diagnostics unavailable at deployment; users 7-8 have prior project-development use and are not independent validation.",
         "sample_row_ids_sha256": hashlib.sha256(np.asarray(rows, dtype=np.int64).tobytes()).hexdigest(),
         "audit_rows": [
             {"row_id": int(rows[i]), "subject": int(users[i]), "class": int(y[i]),
@@ -686,6 +837,8 @@ def run(args: argparse.Namespace) -> dict:
         ],
         "elapsed_seconds": float(time.monotonic() - started),
         "source_exchangeability": execution_manifest["source_exchangeability"],
+        "restore_provenance": execution_manifest["restore_provenance"],
+        "source_alias_audit_sha256": sha256(out_dir / "source_alias_audit.json"),
         "execution_manifest_sha256": sha256(out_dir / "execution_manifest.json"),
     }
     atomic_json(out_dir / "diagnostic.json", result)
@@ -700,13 +853,14 @@ def worker_main(args: argparse.Namespace) -> int:
     try:
         with threadpool_limits(limits=1):
             result = run(args)
-        if result.get("status") == "blocked_exchangeability_review":
+        if result.get("status") in ("blocked_exchangeability_review", "blocked_source_alias"):
             return 0
         write_run_status(Path(args.output_dir), "completed", "diagnostic_complete",
                          reason="diagnostic completed; this state is not a pass/fail research contribution",
                          extra={"scientific_result_recorded": True,
                                 "is_scientific_negative": False,
-                                "stage_a_gate_passed": bool(result["stage_a_gate_passed"])})
+                                "scientific_result_recorded": True,
+                                "descriptive_screen_supports_further_design": bool(result["descriptive_screen_supports_further_design"])})
         return 0
     except BudgetExceeded:
         _flush_active_partial_outputs()
@@ -725,6 +879,7 @@ def worker_main(args: argparse.Namespace) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--cache-dir", default="/workspace/uwb-restored-20261020/cache")
+    ap.add_argument("--transfer-manifest", default="/workspace/uwb-transfer/TRANSFER_MANIFEST.json")
     ap.add_argument("--output-dir", required=True)
     ap.add_argument("--permutations", type=int, default=N_PERMUTATIONS)
     ap.add_argument("--_worker", action="store_true", help=argparse.SUPPRESS)
@@ -739,13 +894,14 @@ def main() -> int:
         return worker_main(args)
     command = [sys.executable, str(Path(__file__).resolve()), "--_worker",
                "--cache-dir", str(Path(args.cache_dir).resolve()),
+               "--transfer-manifest", str(Path(args.transfer_manifest).resolve()),
                "--output-dir", str(Path(args.output_dir).resolve()),
                "--permutations", str(args.permutations), "--confirm-stage-a"]
     status = run_supervised(command, Path(args.output_dir),
                             cpu_seconds=HARD_BUDGET_SECONDS,
                             wall_seconds=WALL_TIMEOUT_SECONDS)
     print(json.dumps(status, indent=2, ensure_ascii=False))
-    return 0 if status.get("state") in ("completed", "blocked_exchangeability_review") else 2
+    return 0 if status.get("state") in ("completed", "blocked_exchangeability_review", "blocked_source_alias") else 2
 
 
 if __name__ == "__main__":
