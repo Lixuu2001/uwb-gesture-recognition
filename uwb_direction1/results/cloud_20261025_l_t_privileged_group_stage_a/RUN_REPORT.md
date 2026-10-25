@@ -1,46 +1,40 @@
-# L/T-derived within-class strata — pre-run engineering and exchangeability review
+# L/T-derived within-class strata — descriptive-only bounded Stage A
 
-**State:** no real diagnostic run. This update adds a bounded process supervisor, synthetic correctness tests, and a source-metadata exchangeability block. It records no scientific result.
+**Pre-run state:** protocol amendment registered; no real diagnostics were run before the amendment. This one-run authorization is descriptive-only and does not establish a research contribution.
 
-## Verified work
+## Duplicate-sample finding and split impact
 
-- Re-read current private branch `codex/uwb-direction1-cloud-20260930`; current head at review start was `264bf5b24bfb1b4fd0c88dcd9a96412d19537d33`.
-- Did not access Drive, replay migration, read radar array values, fit the Stage-A models, or start a training job.
-- Reviewed the saved paired-time report, exact-duplicate subject audit, source `quality_audit.json`, and source `data_manifest.json` metadata.
-- Added process-level CPU enforcement (`RLIMIT_CPU`), a separate parent wall deadline, process-group termination, single-thread numerical pools, incremental progress/partial artifacts, terminal state classification, and model/runtime/hash manifests.
-- Added 12 synthetic unit tests covering sealed-user label and map sentinels, audit-only-after-fit behavior, fit-user membership, frozen group identity under audit-order permutation, CMI toy cases, conditional-permutation counts, exchangeability preflight blocking, CPU limit, wall timeout, and normal completion.
+The 100 exact three-view triplets are in participant ID 2's separately named `HV_02_G11`/`HV_02_G12` MAT inputs. Participant ID 2 maps to sealed validation HV2. The exact arrays have contradictory gesture labels; the existing quality rule excludes those HV2 class cells, and participant 2 is not in the HV3-HV8 source users. Thus these known pairs do **not directly contaminate** the present source split. Their provenance still cannot distinguish repeated acquisition from upstream copying. The earlier metadata audit lists no exact aliases among HV3-HV8; this run additionally performs a byte-exact full-triplet alias scan on retained source rows and blocks before any model fitting if a source alias is found. No post-hoc sample removal is permitted.
 
-## Source duplicate and exchangeability finding
+## Pre-registered descriptive amendment
 
-The “100 duplicate triplets” are not merely duplicate indices in a manifest. The preserved quality audit identifies separate HV2 G11/G12 MAT inputs with equal full arrays at float64 precision for all three views and contradictory gesture labels; the paired-time diagnostic independently compared and verified all 100 cached triplets. The source manifest maps each G12 repetition to its G11 counterpart. Provenance cannot establish whether this came from repeated acquisition or upstream copying, so it is conservatively classified as an exact data alias across distinct gesture files. The already-existing quality rule excludes the HV2/class-10/11 conflict, HV2 is outside Stage A source users 3–8, and the manifest has no other exact duplicate rows in those source users.
+The owner selected B before real data access. Trial-level independence remains unestablished because there are no trustworthy session/order/block identifiers. The row-level conditional shuffles therefore have no inferential interpretation. The frozen 1,999 shuffles may be retained only as a count-preserving descriptive reference; **no p-value is computed, reported, or used for significance or any decision gate**. The fixed source split, quality mask, features, transforms, K=2 clustering, seed, Right-only Ridge probe, error statistic, CMI calculation, coverage/error-direction thresholds, and shuffle count remain unchanged.
 
-The current metadata does **not** establish independence among the 100 recordings in each participant/class cell: it supplies counts/indices, but not trial timestamps, acquisition order, session IDs, or repeat-level block identifiers. Thus the frozen per-record permutation within `(class, audit user, Right group)` is not statistically cleared. The code now reads `protocol.json` and exits as `blocked_exchangeability_review` before calling `np.load()` while that review is unresolved. This is an inference-validity block, not a failed Stage-A result.
+A screen meeting the frozen descriptive coverage, cross-user direction, and incremental-effect thresholds is labeled only `descriptive_screen_supports_further_design`. It is not a scientific GO, a contribution, or validation. A non-supportive screen is limited to this representation/probe and does not refute the broader mechanism. No CNN, grid, extra seed, data acquisition, or rerun is authorized.
 
-Before any data run, the owner must select one pre-result path: recover trustworthy session/order metadata and preregister a block-level null; revise Stage A before data access into a descriptive-only screen with no record-level p-value; or stop this candidate. Cache row order will not be treated as acquisition order. Effect, coverage, split, representation, and model thresholds remain frozen.
+## Frozen boundaries
 
-## Budget and artifact behavior
+- Fit transforms, clusters, centroids, canonical remaps, and the Right probe using users 3-6 only.
+- Audit users 7-8 only after fit; their class labels are diagnostic conditioning variables, not deployment inputs or untouched independent validation labels.
+- HV1 and HV2 labels/maps are never read by the runner.
+- CMI is relative only to the fixed binary Right-cluster control, not all Right-view information.
+- Groups are statistical view-derived strata, not verified kinematic/motion subgroups.
+- Source-triplet alias scan runs before fitting; any exact source alias blocks the run before results.
+- Hard ceiling: 900 process CPU-seconds, independent 900-second wall deadline, single numerical thread. Timeout or engineering error means incomplete/inconclusive, never a scientific negative.
 
-The supervisor launches one worker in its own session/process group. The kernel CPU ceiling is `RLIMIT_CPU` soft=hard=900 seconds. An independent monotonic parent deadline is 900 seconds wall and SIGKILLs the worker group without an extra grace interval. The worker inherits one-thread settings for OpenBLAS, OMP, MKL, BLIS, NumExpr, and vecLib; `threadpoolctl` also limits loaded pools to one thread.
+## Pre-run hashes
 
-The worker flushes source-only feature rows every 32 records, the permutation null every 50 draws, and atomically records progress after each chunk. Fitted classwise scaler/PCA/KMeans centers/remaps and the Right Ridge state are serialized locally as classes finish. Parent finalization preserves partial files, last worker phase/progress, logs, CPU use, elapsed wall time, hashes, and one of `aborted_cpu_limit`, `aborted_wall_timeout`, `failed_exception`, or `blocked_exchangeability_review`. None of these states is a scientific negative. A complete run records Python/platform/numerical-library versions, observed thread pools, initial code/protocol hashes, fitted model state, null statistics, and per-file artifact hashes. Data-derived artifacts stay outside Git.
+These are the final pre-run file hashes; the run manifest records the runner/wrapper bundle hash and this protocol hash.
 
-## Synthetic test evidence
+| File | SHA-256 |
+|---|---|
+| `diagnostic.py` | `661fd578b966d672627a0f3a8cc6949650870533a746be7932abceb4f75696dc` |
+| `budget_exec.py` | `2585b65d905d08d47d398f449d05f7261ee0b2c2622daef7a378fea1ed355566` |
+| `protocol.json` | `2f3a8d613f44da59916cbc85cb9656c6bed57de8442732fe0b8269fafc9b69e0` |
+| `tests/test_budget_and_protocol.py` | `27cc043e3131b7ac42b505750bd106f52d62c045fe2062317af943378507b104` |
 
-Command:
+Data-derived outputs and per-sample digests remain outside Git.
 
-```bash
-python -m py_compile diagnostic.py tests/test_budget_and_protocol.py
-python -m unittest discover -s tests -v
-```
+## Execution and results
 
-Result: **12/12 passed** in 2.83 seconds. The CPU-limit test used a synthetic CPU-burning subprocess with a 1-second limit; the wall test used a synthetic sleeping subprocess with a 0.3-second deadline. A separate synthetic runtime-manifest test confirmed all loaded BLAS/thread pools report one thread. Both left their synthetic partial file, emitted the right inconclusive terminal status, and created no scientific result file. The protocol preflight test patched `numpy.load` to raise if called; it observed `blocked_exchangeability_review` without any array access. Other tests used small synthetic arrays only.
-
-No real cache values, labels, logits, or weights were read during this review. No Stage-A diagnostic or CNN was run.
-
-## Requested next decision
-
-The implementation is ready for review, but a real run should not be authorized under the current record-level permutation until exchangeability is resolved. Choose the pre-run path above or stop the candidate. After that, a separately bounded Stage-A run can be considered; no CNN is authorized by this update.
-
-## Interpretation constraints
-
-The matched R-only control is a single fixed binary K=2 view-derived partition. Incremental CMI, if ever estimated, would mean only “incremental to this control,” not incremental to all information available in Right. HV7/HV8 class labels are used as source-audit diagnostic strata after fit; they are not deployment-time inputs. Those users have prior project-development use and are not untouched independent validation.
+Pending the single authorized bounded run. No training process has been started yet.
