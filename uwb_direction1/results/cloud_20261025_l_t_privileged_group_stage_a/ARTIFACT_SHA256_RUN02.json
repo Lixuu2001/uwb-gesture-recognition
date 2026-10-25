@@ -1,0 +1,28 @@
+{
+  "budget_exec_py_sha256": "2585b65d905d08d47d398f449d05f7261ee0b2c2622daef7a378fea1ed355566",
+  "diagnostic_py_sha256": "984743fe8e2de4526fa78df8c79c49b95515130f9aed81a24ed46ad90e2896d0",
+  "diagnostic_result_full_sha256": "7fbab1c46803a924e7e05c719430c81dcf30292081b14b6ee785b74904b9ca14",
+  "execution_manifest_sha256": "299b118657d4e699f982de252d7c893380c7e9335cfad6e67d6b65e52a320aa2",
+  "external_local_artifacts": {
+    "descriptive_shuffle_reference.npy": "eb2eb0feeeff735ef35f6245233fb6db2df435431ca92198cd10f0e75ec98d5b",
+    "diagnostic.json": "7fbab1c46803a924e7e05c719430c81dcf30292081b14b6ee785b74904b9ca14",
+    "execution_manifest.json": "299b118657d4e699f982de252d7c893380c7e9335cfad6e67d6b65e52a320aa2",
+    "fitted_models.json": "a75cfe1fbdeabd209ac4de1393ad48b8d7c5836e91f1b5f76eace71dfe393563",
+    "right_probe_state.json": "4c26e4507a24eaeab442d3350c5b415b210f3a5c1dc7bd2b900082b47c880645",
+    "source_alias_audit.json": "3fca69a98f3e98240921d4f997faaa08f8528c28d1ae4788adb629ebb3b3aca4",
+    "source_features.npy": "cbecbce783399237003380f064bfd8a10024f67874f2a0e8900749ce9ddce5f5",
+    "source_metadata.npz": "b44ecfaf7e8f1955b5bd53b1b783b98656f59637cf8a19f326bfe2269465c6a7"
+  },
+  "note": "Hashes only; row-level values, source arrays, fitted models, per-row digests, and shuffle vector are not included in Git. Full local artifact integrity record remains in run02/artifact_hashes.json.",
+  "protocol_used_sha256": "303d9322fca6d7a51c61fbbf5abff17ef09ec35b243bf907fe0619ff237220bd",
+  "restore_receipt_sha256": "a5cd0115953ce9466c11519ca2da8f8c0ad4274f645fd391cdb8e7c01d38fd84",
+  "safe_aggregate_result_sha256": "ef61f5b14d6e8147b54b560c4412433404a9c26a7ee27b0899003f04e63564ab",
+  "source_inputs": {
+    "cache/X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "cache/subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "cache/y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd"
+  },
+  "source_retained_triplet_digest_sha256": "e65a61852564410ed89cc4576509eadf4943c2c722f39eb742ca3df3543267be",
+  "test_file_sha256": "a90289c04a9c0116ec24881b28ca44d8933b05a440145a24a93fa34c13c8f5a8",
+  "transfer_manifest_sha256": "10516baf0b49a84e6a39169ef447fffcdcb29defa2a6cc79e301dc938ddceb4d"
+}
