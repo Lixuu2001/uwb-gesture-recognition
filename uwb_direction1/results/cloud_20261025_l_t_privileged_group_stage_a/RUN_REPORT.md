@@ -38,6 +38,8 @@ Pre-run code hashes from the committed version:
 | `protocol.json` used at launch | `2f3a8d613f44da59916cbc85cb9656c6bed57de8442732fe0b8269fafc9b69e0` |
 | `tests/test_budget_and_protocol.py` | `27cc043e3131b7ac42b505750bd106f52d62c045fe2062317af943378507b104` |
 
+Postmortem code fix (not used by the failed attempt): `diagnostic.py` SHA-256 `4bdfae4e8a17dd1a13bd61cf51bbba190fc51ba6b5a58b75b7377884c8ebb3bb`; consumed protocol SHA-256 `691543462cb19fa374aa602d4aa3ee1363925dafede1d6d1330f67437e7c33f9`; updated synthetic test SHA-256 `860b34154de8bc9aeace02a3fb32d186469fc57a46ff1a77f8ccc53138d580a9`. The fix was tested synthetically only.
+
 Restoration metadata SHA-256: `10516baf0b49a84e6a39169ef447fffcdcb29defa2a6cc79e301dc938ddceb4d`. Expected cache hashes (from that verified transfer manifest): X `3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519`; y `d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd`; subjects `5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480`. Those are manifest provenance values; the failed worker did not hash or load arrays.
 
 Runtime at the worker's preflight: Python 3.12.14; NumPy 2.3.5; SciPy 1.17.0; scikit-learn 1.8.0; threadpoolctl 3.6.0; Linux x86_64; 5 CPUs. BLAS/OpenMP pools were verified at one thread. Full runtime details are in the outside-Git run artifacts.
@@ -47,6 +49,8 @@ Runtime at the worker's preflight: Python 3.12.14; NumPy 2.3.5; SciPy 1.17.0; sc
 The amended/fixed runner passes **15/15 synthetic tests**; compile and JSON validation pass. Tests cover sealed HV1/HV2 sentinels, fit/audit separation, audit-order identity, CMI toys, shuffle-count preservation, exact-alias detection and source-only row access, restore-receipt/hash/size metadata, one-shot consumed state, and hard CPU/wall limit behavior. These tests use only synthetic arrays.
 
 Outside-Git immutable run artifacts: `/workspace/uwb-stage-a-descriptive-20261025/run01/`. They include the actual `worker.stderr.log`, `worker.stdout.log`, terminal `run_status.json`, `BUDGET_RECEIPT.json`, `RUN_ATTEMPT.json`, `runtime_environment.json`, the registered protocol snapshot, and `artifact_hashes.json`. No array, label, prediction, or per-sample data was copied into Git.
+
+The same non-data run receipts are committed in the private branch under `uwb_direction1/results/cloud_20261025_l_t_privileged_group_stage_a/`; the final postmortem artifact commit is `9af565272009781b68b90aa05c796016c933be66` (ordinary content commits; no force update).
 
 ## Strongest support and counterevidence
 
