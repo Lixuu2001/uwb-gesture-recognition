@@ -9,3 +9,8 @@ However, the dataset metadata do not record trial order, timestamp, session, or 
 No data-derived local artifacts were produced or uploaded. Tests were synthetic only. Outer users HV1/HV2 remain sealed; audit labels do not enter fitting, and group identity stays fit-anchored under audit-row permutation.
 
 Interpretation remains narrow: Right is represented by one binary K=2 control, so any incremental CMI would be relative to that partition, not all Right-view information. HV7/HV8 labels are class-conditional audit variables, not deployment inputs or independent validation labels.
+
+
+## 2026-10-25 — owner selected descriptive-only run
+
+The owner selected path B before real data access. The amendment removes permutation p-values/significance/GO from the fixed decision rule; 1,999 seeded count-preserving shuffles remain only as a descriptive finite-randomization reference. Trial-level exchangeability remains unresolved. The exact duplicate audit maps all 100 duplicate triplets to participant ID 2 = sealed HV2 (`HV_02_G11/G12`), outside HV3-HV8 source users; they do not directly contaminate this split. Provenance remains unknown. The runner hashes retained source triplets before fitting and blocks if any source alias exists, with no post-hoc removal. One bounded run only; no CNN, tuning, extra seed, acquisition, or rerun. A positive descriptive screen only informs whether a separate validation design merits consideration.
