@@ -1059,3 +1059,14 @@ A third candidate asked whether L/T/R radial-motion projections could form a phy
 # 2026-10-26 — identity auxiliary task prior-art gate
 
 The generic idea of adding participant identity as an auxiliary source-training target for gesture recognition is not method novelty by itself. Wu et al., *Sensors* 25(23), 7249 (2025), DOI 10.3390/s25237249, reports joint gesture/identity mmWave radar recognition using task heads and MDM/ATM/ETM inputs. Its dataset/modality differs from three-view X4 IR-UWB and its user split is not shown comparable; the relevant narrow precedent is the auxiliary-task recipe, not comparable accuracy. The current project adds no verified physical signal mechanism through an identity head, and identity-sensitive representations could conflict with held-user deployment. Bounded prior-art gate only; no fitting/training or sample/label reads. See `uwb_direction1/results/cloud_20261026_identity_auxiliary_prior_art_gate/RUN_REPORT.md`.
+
+
+## 2026-10-26 18:57 UTC — Raw/ClutterRemoved input-availability gate
+
+A metadata-only inventory confirmed the current restore has the real-valued clutter-removed tensor `X_clutterremoved[9593,3,90,189]` (float32) but no Raw signal tensor. Raw-named arrays are participant/label indices; no array values or label values were read. The 789-file source snapshot remains unchanged.
+
+The original `docs/RESULTS.md` already documents Raw versus ClutterRemoved: three-view results were near tied (§16); single-view Raw had a random-split result (§20.4); single-view held-user case 0 favored ClutterRemoved (§30.4). These historical results are not a new result from this run, and the differing scopes do not constitute a complete matched factorial. Without the Raw tensor this executor cannot reproduce that comparison. Close this route as a method contribution; do not relabel it novel or launch a run using only the existing ClutterRemoved cache.
+
+Executor revision 1437 is running with five CPUs and no PyTorch; restore and 789-file source snapshot are present; process/checkpoint scan found no active UWB run or common serialized checkpoint. No Drive download or permission change occurred. Contribution remains unvalidated. Next work remains a distinct, literature-cleared, physically justified mechanism directly observable in current inputs.
+
+Report: `uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md`.

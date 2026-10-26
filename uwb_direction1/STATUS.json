@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261026_identity_auxiliary_prior_art_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,14 +134,14 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-26 15:41:25 UTC",
+  "last_completed_update_utc": "2026-10-26 18:57:34 UTC",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261026_executor_preflight/RUN_REPORT.md",
-    "observed_at_utc": "2026-10-26 11:55:32 UTC",
-    "observed_spec_revision": "1423",
+    "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
+    "observed_at_utc": "2026-10-26 18:57:34 UTC",
+    "observed_spec_revision": "1437",
     "observed_executor_phase": "running",
     "capabilities": [],
-    "compute": "Python 3.12.14; 5 CPUs; NumPy/SciPy/scikit-learn available; PyTorch unavailable; no GPU",
+    "compute": "Python 3.12.14; 5 CPUs; NumPy/SciPy/scikit-learn available per prior current status; PyTorch unavailable",
     "network_policy": "restricted_enforced; no custom allowed hosts; package-manager preset only",
     "restored_data_path": "/workspace/uwb-restored-20261020",
     "restored_data_present": true,
@@ -152,7 +152,7 @@
     "source_file_count": 789,
     "active_training_process_found": false,
     "active_uwb_process_found": false,
-    "serialized_checkpoint_files_found_within_workspace_depth6": 0,
+    "serialized_checkpoint_files_found_within_workspace_depth7": 0,
     "array_values_or_labels_read": false,
     "training_started": false
   },
@@ -2376,5 +2376,25 @@
     "candidate_cleared_for_experiment": false,
     "method_contribution_validated": false,
     "disposition": "close generic auxiliary identity supervision; retain only method-first search for a physically justified signal mechanism"
+  },
+  "latest_signal_input_inventory": {
+    "observed_at_utc": "2026-10-26 18:57:34 UTC",
+    "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
+    "restore_path": "/workspace/uwb-restored-20261020",
+    "restored_payload_files": 86,
+    "source_signal_tensor": "cache/X_clutterremoved.npy",
+    "source_signal_tensor_shape": [
+      9593,
+      3,
+      90,
+      189
+    ],
+    "source_signal_tensor_dtype": "float32",
+    "raw_signal_tensor_in_restore": false,
+    "raw_named_arrays_are_indices_only": true,
+    "metadata_only": true,
+    "array_values_or_labels_read": false,
+    "training_started": false,
+    "candidate_contribution_validated": false
   }
 }
