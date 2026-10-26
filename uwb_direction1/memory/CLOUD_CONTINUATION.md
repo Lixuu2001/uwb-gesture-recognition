@@ -1427,3 +1427,8 @@ A source-only review found a potentially useful historical empirical result in t
 ### 2026-10-26 — Metadata-only Drive archive check (correction/addendum)
 
 Follow-up to the phase-motion source audit: the user-specified Drive folder metadata confirms owner-only sharing remains unchanged. The folder contains 803 direct children (metadata listing); none of their names match `p1_20260905`, `phase`, `Right`, `amplitude`, `seed2026`, or `R_concat`. No file content was fetched and no signed URL was requested. This rules out an obvious name-matched phase-run archive only; a differently named archive could still exist. The historical per-fold phase outputs/checkpoints therefore remain unverified. Report: `uwb_direction1/results/cloud_20261026_phase_motion_candidate_review/RUN_REPORT.md`.
+
+
+## 2026-10-26 21:19:04 UTC — Generic phase-reliability weighting prior-art gate
+
+A bounded review of local phase-coherence/reliability weighting found prior art for phase-noise effects on micro-Doppler, phase-coherent CIR motion sensing, and coherence-based signal-quality detection. The existing phase-increment representation already attenuates weak returns by echo magnitude; a second generic reliability weight may be redundant, and low local coherence may represent real gesture reversals or multipath transitions. No corpus values/labels were read and no diagnostics, fitting, training, or synthetic perturbations ran. Close this generic candidate as not cleared for an experiment; do not infer that all reliability-aware designs fail. Any future version must identify nonredundant information and a frozen observable control. Report: `uwb_direction1/results/cloud_20261026_phase_reliability_prior_art_gate/RUN_REPORT.md`.
