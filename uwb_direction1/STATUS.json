@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-26 18:57:34 UTC",
+  "last_completed_update_utc": "2026-10-26 20:38:39 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
     "observed_at_utc": "2026-10-26 18:57:34 UTC",
@@ -2396,5 +2396,49 @@
     "array_values_or_labels_read": false,
     "training_started": false,
     "candidate_contribution_validated": false
+  },
+  "latest_phase_motion_candidate_review": {
+    "date_utc": "2026-10-26 20:38:39 UTC",
+    "report": "uwb_direction1/results/cloud_20261026_phase_motion_candidate_review/RUN_REPORT.md",
+    "evidence_source": "immutable 789-file source snapshot only; historical phase-motion experiment",
+    "reported_retained_records": 9300,
+    "reported_participants": 8,
+    "reported_task": "12-class Right-view closed-set LOSO",
+    "reported_accuracy_percent": {
+      "seed2026": {
+        "amplitude": 68.57,
+        "amplitude_plus_phase_motion": 72.41,
+        "delta_pp": 3.84,
+        "participants_improved": "8/8"
+      },
+      "seed2027": {
+        "amplitude": 68.22,
+        "amplitude_plus_phase_motion": 72.4,
+        "delta_pp": 4.18,
+        "participants_improved": "8/8"
+      }
+    },
+    "reported_same_width_duplicate_amplitude_percent": 67.86,
+    "signed_vs_unsigned_control": {
+      "unsigned_phase_percent": 70.83,
+      "signed_minus_unsigned_participant_bootstrap_ci_pp": [
+        -0.69,
+        3.72
+      ],
+      "participants_positive": "5/8",
+      "direction_specific_cause_supported": false
+    },
+    "view_selected_after_prior_multiview_exploration": true,
+    "seeds_change_initialization_and_within_user_split": true,
+    "prior_art_cleared_for_generic_phase_doppler_claim": false,
+    "exact_method_novelty_cleared": false,
+    "full_per_fold_predictions_and_checkpoints_in_source_snapshot": false,
+    "current_workspace_torch_available": false,
+    "current_workspace_serialized_checkpoint_found": false,
+    "arrays_or_labels_read": false,
+    "training_started": false,
+    "drive_accessed": false,
+    "contribution_validated": false,
+    "disposition": "retain_as_exploratory same-corpus empirical candidate; do not call a new algorithm or claim independent validation; report historical numbers only"
   }
 }
