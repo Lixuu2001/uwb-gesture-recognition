@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261026_executor_preflight/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261026_identity_auxiliary_prior_art_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-26 11:55:32 UTC",
+  "last_completed_update_utc": "2026-10-26 15:41:25 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_executor_preflight/RUN_REPORT.md",
     "observed_at_utc": "2026-10-26 11:55:32 UTC",
@@ -2357,5 +2357,24 @@
     "arrays_or_labels_read": false,
     "fitting_or_training_started": false,
     "disposition": "closed_generic_method_combination; goal remains unresolved"
+  },
+  "latest_identity_auxiliary_prior_art_gate": {
+    "date_utc": "2026-10-26 15:41:25 UTC",
+    "report": "uwb_direction1/results/cloud_20261026_identity_auxiliary_prior_art_gate/RUN_REPORT.md",
+    "candidate": "participant identity as an auxiliary source-training target for held-user gesture recognition",
+    "prior_art": {
+      "citation": "Wu et al., Sensors 25(23), 7249 (2025)",
+      "doi": "10.3390/s25237249",
+      "venue": "4D FMCW mmWave; 7 volunteers; 7 gestures; MDM/ATM/ETM; joint gesture-identity heads",
+      "source_scope": "publisher/indexed primary-source excerpts; publisher page rate-limited; PMC browser verification; no full-text review"
+    },
+    "generic_auxiliary_identity_task_novelty_cleared": false,
+    "signal_specific_mechanism_identified": false,
+    "exact_protocol_equivalence_verified": false,
+    "project_arrays_or_label_values_read": false,
+    "fitting_or_training_started": false,
+    "candidate_cleared_for_experiment": false,
+    "method_contribution_validated": false,
+    "disposition": "close generic auxiliary identity supervision; retain only method-first search for a physically justified signal mechanism"
   }
 }
