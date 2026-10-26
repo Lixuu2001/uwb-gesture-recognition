@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261026_phase_reliability_prior_art_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261026_range_augmentation_prior_art_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-26 21:19:04 UTC",
+  "next_candidate": "No currently screened candidate clears all gates. Generic range/aspect/time augmentation is also not cleared: current map inputs lack calibrated physical trajectories and these generic transforms are prior art. Continue method-first only with a materially distinct, literature-cleared signal mechanism directly observable in current clutter-removed inputs; otherwise retain the historical phase-motion result as exploratory and prepare a reproducibility/protocol-audit scope. No training without a frozen candidate gate.",
+  "last_completed_update_utc": "2026-10-26 22:26:00 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
     "observed_at_utc": "2026-10-26 18:57:34 UTC",
@@ -2488,5 +2488,31 @@
     "fitting_or_training_started": false,
     "experiment_cleared": false,
     "disposition": "close generic phase-reliability weighting candidate; no training; do not generalize to all reliability-aware designs"
+  },
+  "latest_range_augmentation_prior_art_gate": {
+    "date_utc": "2026-10-26 22:26 UTC",
+    "report": "uwb_direction1/results/cloud_20261026_range_augmentation_prior_art_gate/RUN_REPORT.md",
+    "candidate": "generic range/aspect/time augmentation on clutter-removed UWB range-time maps",
+    "literature_prior_art": [
+      {
+        "citation": "Hassab, Stadelmayer & Lurz, IEEE Transactions on Radar Systems 1 (2023), 571–582, DOI 10.1109/TRS.2023.3320869",
+        "scope": "physically interpretable range/azimuth/elevation time-series augmentation for multi-range FMCW gestures"
+      },
+      {
+        "citation": "Fusco et al., IEEE Access 13 (2025), 60556–60569, DOI 10.1109/ACCESS.2025.3556565",
+        "scope": "time-scale, range/angle, and noise augmentation of radar gesture features"
+      },
+      {
+        "citation": "Kim et al., IEEE Access 14 (2026), 40034–40041, DOI 10.1109/ACCESS.2026.3671243",
+        "scope": "same UWB-Gestures corpus; range-Doppler multi-scale treatment of speed-induced scale variation"
+      }
+    ],
+    "current_input": "metadata inventory: real-valued clutter-removed X[9593,3,90,189]; no raw complex echoes or calibrated/synchronized hand-motion trajectories",
+    "novelty_cleared": false,
+    "physical_mapping_supported_by_current_input": false,
+    "arrays_or_labels_read": false,
+    "fitting_or_training_started": false,
+    "experiment_cleared": false,
+    "disposition": "close generic range/aspect/time augmentation as not cleared; do not claim all UWB-specific augmentation is ineffective"
   }
 }
