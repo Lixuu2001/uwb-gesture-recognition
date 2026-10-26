@@ -1,3 +1,11 @@
+# 2026-10-26 — candidate novelty gate: motion-primitive label factorization
+
+A bounded literature-only screen considered factorized label supervision for the corpus's directed and diagonal swipe classes. Ahmed et al. already define this gesture ontology and document L/T/R range-time signatures (DOI 10.1038/s41597-021-00876-0); Chen et al. describe radar gesture primitives (DOI 10.3390/electronics15020437); and dual-radar direction decomposition is established (DOI 10.3390/s23208551). The review did not find a sufficiently specific novelty gap for generic hierarchical/multitask classification. No experiment was authorized or run. Full review: `uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md`.
+
+This cloud still has the verified restore and 789-file source subtree; current executor revision 1389 is CPU-only (5 CPUs, PyTorch absent), with no active training job or checkpoint found. No array/label values were accessed. The research contribution remains unvalidated; this candidate is not counted as a result.
+
+---
+
 # 2026-10-20 — Replacement cloud restore and direct same-corpus prior art
 
 The execution environment had changed, so I restored the original private package via its persistent Drive index into `/workspace/uwb-restored-20261020`. Folder metadata remained owner-only; all 163 chunks and the Drive transfer manifest passed size/SHA checks, and the verified restore contains 86 files / 2,141,981,100 bytes. The branch’s original 789-file source subtree is present in a separate detached worktree and was not modified. The restored-data audit passed original-file hashes and replayed all eight historical LTR folds (mean 93.4417%, worst user 75.00%); this is not a new model result.

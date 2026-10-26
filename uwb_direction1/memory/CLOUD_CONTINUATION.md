@@ -1,3 +1,9 @@
+# 2026-10-26 00:55:36 UTC — label-ontology factorization candidate not cleared
+
+Bounded literature-only review screened factorized supervision from shared motion primitives for the directed/diagonal swipe labels. The published corpus taxonomy and prior radar gesture work already cover these primitive concepts; the bounded search did not clear a sufficiently specific algorithmic gap. No experiment is authorized. Current cloud was verified present (revision 1389; 5 CPUs; no PyTorch; no active UWB process/checkpoint); no arrays/labels were read and no download or fit ran. Full review: `uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md`. Contribution remains unvalidated.
+
+---
+
 # 2026-10-20 21:07:12 UTC — replacement-cloud restore and direct same-corpus prior-art gate
 
 The selected executor was a replacement environment: the earlier restored-data path and project checkout were absent. The repository branch was fetched from the then-current remote head `5b811103daa2b3e546ee591c971547d94779bb31` into a separate detached worktree. The original checkout was left on its existing branch. The private Drive folder metadata confirmed owner-only visibility (`shared=false`); no permissions changed.

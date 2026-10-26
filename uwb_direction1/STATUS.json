@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Keep the owner-reaffirmed method-first scope. No candidate currently clears novelty and current-input feasibility, including the screened radial-velocity projection-norm idea. Do not train until a materially distinct, literature-cleared mechanism observable in current inputs is identified.",
+  "next_required_input": "Maintain method-first scope. The 2026-10-26 factorized motion-primitive label candidate did not clear a sufficiently specific novelty gap; no fitting/training is authorized. Screen only a materially distinct mechanism supported by current inputs, and do not reopen closed routes.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-25 23:07:46 UTC",
+  "last_completed_update_utc": "2026-10-26 00:55:36 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261025_research_decision_review/DECISION_REVIEW.md",
     "observed_at_utc": "2026-10-25 17:00:20 UTC",
@@ -2307,25 +2307,68 @@
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
   "latest_task_state": {
-    "observed_at_utc": "2026-10-25 23:07:46 UTC",
-    "scope": "method_first_reaffirmed",
-    "candidate_review": "third candidate (multi-view radial-velocity projection norm) screened and closed before fitting; missing simultaneous timestamp/calibrated LOS inputs, projection principle has prior art",
-    "last_real_experiment": "Stage A run02, 2026-10-25; descriptive CMI 0.011062 bits/sample, continuation coverage-qualified same-direction classes 1/12 vs frozen gate 8/12; route closed",
+    "observed_at_utc": "2026-10-26 00:55:36 UTC",
+    "scope": "method_first",
+    "candidate_review": "factorized motion-primitive label supervision screened; not cleared for novelty; no experiment",
+    "last_real_experiment": "Stage A run02 (2026-10-25), descriptive only; 1/12 coverage-qualified consistent higher-error direction classes vs 8/12 frozen continuation bar",
     "no_new_experiment_this_turn": true,
     "cloud_executor": {
-      "observed_spec_revision": "1385",
+      "observed_spec_revision": "1389",
       "phase": "running",
       "network_policy": "restricted_enforced",
       "capabilities": [],
       "cpu_count": 5,
+      "torch_installed": false,
       "restored_data_path": "/workspace/uwb-restored-20261020",
+      "restored_data_present": true,
       "restore_receipt_present": true,
-      "active_python_or_uwb_training_process": false,
-      "checkpoint_files_found_within_workspace_depth5": 0,
-      "labels_or_array_values_read": false,
+      "original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
+      "original_source_files": 789,
+      "active_training_process_found": false,
+      "checkpoint_files_found_within_workspace_depth6": 0,
+      "arrays_or_labels_read": false,
       "training_started": false
     },
-    "blocker": "No candidate currently clears both novelty and current-input observability; the newly screened projection-norm idea requires simultaneous per-frame radial velocities and calibrated line-of-sight geometry absent from the current cache.",
-    "next_step": "Continue bounded method-first screening only; do not implement/train this candidate or reopen closed routes. Require a distinct, literature-cleared mechanism observable in available inputs before any experiment."
+    "blocker": "No candidate clears a specific novelty gap and an interpretable mechanism on the present cache; this candidate reduces to generic semantic label factorization and lacks physical primitive truth.",
+    "next_step": "Continue only bounded literature-only screening for a materially distinct, current-input-observable mechanism; do not train this candidate or reopen closed routes."
+  },
+  "latest_literature_candidate_screen_20261026": {
+    "date_utc": "2026-10-26 00:55:36 UTC",
+    "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
+    "candidate": "factorized supervision from shared ordered motion primitives for directed/diagonal gesture labels",
+    "disposition": "not_cleared_before_experiment",
+    "novelty_gate": "bounded search did not identify a sufficiently specific algorithmic gap beyond generic hierarchical/multitask classification; not an exhaustive search",
+    "input_gate": "current clutter-removed real-valued range-time maps and class/user metadata can support semantic labels, but no synchronized hand-pose/physical trajectory truth",
+    "literature": [
+      {
+        "citation": "Ahmed et al., Scientific Data 8, 102 (2021)",
+        "doi": "10.1038/s41597-021-00876-0",
+        "scope": "publisher full text: class vocabulary, acquisition, signal patterns"
+      },
+      {
+        "citation": "Chen et al., Electronics 15(2), 437 (2026)",
+        "doi": "10.3390/electronics15020437",
+        "scope": "publisher article/abstract and gesture primitive definitions"
+      },
+      {
+        "citation": "Li et al., Sensors 23(20), 8551 (2023)",
+        "doi": "10.3390/s23208551",
+        "scope": "dual-radar radial direction decomposition"
+      },
+      {
+        "citation": "Xue et al., Frontiers in Neuroscience 20 (2026)",
+        "doi": "10.3389/fnins.2026.1864448",
+        "scope": "same-corpus multiview recognition prior art; previously documented"
+      }
+    ],
+    "active_training_process_found": false,
+    "serialized_checkpoint_found": false,
+    "restored_data_present": true,
+    "source_789_snapshot_present": true,
+    "arrays_or_label_values_read": false,
+    "fitting_or_training_started": false,
+    "data_downloaded": false,
+    "new_method_validated": false,
+    "experiment_authorized": false
   }
 }
