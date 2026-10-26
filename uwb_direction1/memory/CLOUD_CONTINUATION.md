@@ -1,3 +1,13 @@
+# 2026-10-26 04:10 UTC — joint view/label reflection-equivariance not cleared
+
+A bounded screen considered a dataset-specific mirror relation: LR↔RL, diagonal LR↔RL pairs, CW↔CCW; proposed view-role action swaps Left/Right while retaining Top. Generic group-equivariant convolutions (Cohen & Welling, ICML 2016) and radar-gesture time/Doppler and physically interpretable range/angle augmentations (Kern et al. 2022; Fusco et al. 2023) are prior art. Xue et al. 2026 already covers same-corpus generic tri-view fusion.
+
+More decisively, the UWB-Gestures dataset paper describes three independently operating monostatic sensors saved separately. The restored package does not establish shared frame timing, calibrated extrinsics, or paired mirrored hand-pose truth. A map flip or channel swap would impose an unverified physical label transform. Candidate closed before implementation/fit/training; no arrays or labels were read. Report: `uwb_direction1/results/cloud_20261026_view_label_symmetry_gate/RUN_REPORT.md`.
+
+Current executor revision 1401: restore and 789-file original source tree present, five CPUs, PyTorch absent, no active UWB process/checkpoint found. This is a feasibility/prior-art gate, not a scientific negative. Goal remains unresolved; do not reopen the candidate without finding synchronized/calibrated geometry already present in the repository.
+
+---
+
 # 2026-10-26 03:05 UTC — bounded scope review recommends no unregistered model run
 
 The literature-only scope review compared (A) continued method-first screening on the existing clutter-removed cache with (B) a reproducibility/protocol audit of existing artifacts. No signal-specific candidate has cleared novelty and observability, so no new fitting/training is justified. Scope B is feasible without new data/model training but must be described as an empirical reproducibility audit, not a novel method or independent generalization study. The documented 93.4417% LTR figure is a saved-prediction replay, not fresh training replication; eight participants are previously project-exposed. Report: `uwb_direction1/results/cloud_20261026_reproducibility_scope_review/DECISION_REVIEW.md`.
