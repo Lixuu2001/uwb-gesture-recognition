@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261026_privileged_view_distillation_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261026_executor_preflight/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,14 +134,14 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-26 09:43:25 UTC",
+  "last_completed_update_utc": "2026-10-26 11:55:32 UTC",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261026_privileged_view_distillation_gate/RUN_REPORT.md",
-    "observed_at_utc": "2026-10-26 09:43:25 UTC",
-    "observed_spec_revision": "1415",
+    "report": "uwb_direction1/results/cloud_20261026_executor_preflight/RUN_REPORT.md",
+    "observed_at_utc": "2026-10-26 11:55:32 UTC",
+    "observed_spec_revision": "1423",
     "observed_executor_phase": "running",
     "capabilities": [],
-    "compute": "CPU-only; 5 CPUs; PyTorch unavailable",
+    "compute": "Python 3.12.14; 5 CPUs; NumPy/SciPy/scikit-learn available; PyTorch unavailable; no GPU",
     "network_policy": "restricted_enforced; no custom allowed hosts; package-manager preset only",
     "restored_data_path": "/workspace/uwb-restored-20261020",
     "restored_data_present": true,
