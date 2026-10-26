@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-26 20:38:39 UTC",
+  "last_completed_update_utc": "2026-10-26 20:40:43 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
     "observed_at_utc": "2026-10-26 18:57:34 UTC",
@@ -2398,7 +2398,7 @@
     "candidate_contribution_validated": false
   },
   "latest_phase_motion_candidate_review": {
-    "date_utc": "2026-10-26 20:38:39 UTC",
+    "date_utc": "2026-10-26 20:40:43 UTC",
     "report": "uwb_direction1/results/cloud_20261026_phase_motion_candidate_review/RUN_REPORT.md",
     "evidence_source": "immutable 789-file source snapshot only; historical phase-motion experiment",
     "reported_retained_records": 9300,
@@ -2437,8 +2437,27 @@
     "current_workspace_serialized_checkpoint_found": false,
     "arrays_or_labels_read": false,
     "training_started": false,
-    "drive_accessed": false,
+    "drive_accessed": true,
     "contribution_validated": false,
-    "disposition": "retain_as_exploratory same-corpus empirical candidate; do not call a new algorithm or claim independent validation; report historical numbers only"
+    "disposition": "retain_as_exploratory same-corpus empirical candidate; do not call a new algorithm or claim independent validation; report historical numbers only",
+    "drive_metadata_inventory": {
+      "folder_shared": false,
+      "folder_owner_only": true,
+      "direct_child_count": 803,
+      "filename_matches_for": [
+        "p1_20260905",
+        "phase",
+        "Right",
+        "amplitude",
+        "seed2026",
+        "R_concat"
+      ],
+      "filename_match_count": 0,
+      "folder_listing_metadata_only": true,
+      "file_content_fetched": false,
+      "signed_url_requested": false,
+      "limitations": "A differently named archive is not ruled out."
+    },
+    "drive_content_fetched": false
   }
 }
