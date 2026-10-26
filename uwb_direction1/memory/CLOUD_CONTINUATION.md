@@ -1,3 +1,11 @@
+# 2026-10-26 02:32 UTC — generic topological map features did not clear novelty
+
+A bounded literature-only screen checked persistent-homology/Mapper summaries of the current clutter-removed range-time maps. Gao (arXiv:2506.05169) already applies Mapper-based topological point-cloud matching to radar RT/DT-map human-activity recognition; Żelawski & Hachaj (2021, DOI 10.37705/techtrans/e2021011) apply persistent topological features to motion-capture action recognition; Blumenstein et al. (Sensors 2023, DOI 10.3390/s23042224) apply persistent homology to radar delay-Doppler presence detection. These are not the exact same IR-UWB gesture task, but they preempt generic topology summaries as the contribution. No concrete signal-specific novelty gap cleared, so no implementation, data read, fit, or training was authorized. Close this generic TDA candidate; do not reopen the 2026-10-26 motion-primitive label candidate or earlier closed routes. Report: `uwb_direction1/results/cloud_20261026_topological_signal_gate/RUN_REPORT.md`.
+
+Executor check at observed revision 1391: restore present, 789-file source subtree present, 5 CPUs, PyTorch absent, no active UWB process and no checkpoint files found through workspace depth 6. This is a literature gate only, not a scientific negative. Contribution remains unvalidated. If no signal-specific candidate can be distinguished from prior art using current observables, define the next work as a reproducibility/benchmark audit rather than relabel generic feature engineering.
+
+---
+
 # 2026-10-26 00:55:36 UTC — label-ontology factorization candidate not cleared
 
 Bounded literature-only review screened factorized supervision from shared motion primitives for the directed/diagonal swipe labels. The published corpus taxonomy and prior radar gesture work already cover these primitive concepts; the bounded search did not clear a sufficiently specific algorithmic gap. No experiment is authorized. Current cloud was verified present (revision 1389; 5 CPUs; no PyTorch; no active UWB process/checkpoint); no arrays/labels were read and no download or fit ran. Full review: `uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md`. Contribution remains unvalidated.
