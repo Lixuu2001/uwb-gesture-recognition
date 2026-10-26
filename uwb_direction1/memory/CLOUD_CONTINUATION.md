@@ -1,3 +1,11 @@
+# 2026-10-26 03:05 UTC — bounded scope review recommends no unregistered model run
+
+The literature-only scope review compared (A) continued method-first screening on the existing clutter-removed cache with (B) a reproducibility/protocol audit of existing artifacts. No signal-specific candidate has cleared novelty and observability, so no new fitting/training is justified. Scope B is feasible without new data/model training but must be described as an empirical reproducibility audit, not a novel method or independent generalization study. The documented 93.4417% LTR figure is a saved-prediction replay, not fresh training replication; eight participants are previously project-exposed. Report: `uwb_direction1/results/cloud_20261026_reproducibility_scope_review/DECISION_REVIEW.md`.
+
+Current execution check: revision 1394; restore and 789-file source subtree present; five CPUs; no active UWB process/checkpoint found; PyTorch absent per the latest preflight. This review used repository reports/metadata only and read no arrays or label values. No experiment started. Keep the novel-method goal unresolved. The next substantive work depends on selecting a scope: continue only a bounded, concrete, literature-cleared signal mechanism, or proceed with Scope B audit with an explicit no-novel-method limitation.
+
+---
+
 # 2026-10-26 02:32 UTC — generic topological map features did not clear novelty
 
 A bounded literature-only screen checked persistent-homology/Mapper summaries of the current clutter-removed range-time maps. Gao (arXiv:2506.05169) already applies Mapper-based topological point-cloud matching to radar RT/DT-map human-activity recognition; Żelawski & Hachaj (2021, DOI 10.37705/techtrans/e2021011) apply persistent topological features to motion-capture action recognition; Blumenstein et al. (Sensors 2023, DOI 10.3390/s23042224) apply persistent homology to radar delay-Doppler presence detection. These are not the exact same IR-UWB gesture task, but they preempt generic topology summaries as the contribution. No concrete signal-specific novelty gap cleared, so no implementation, data read, fit, or training was authorized. Close this generic TDA candidate; do not reopen the 2026-10-26 motion-primitive label candidate or earlier closed routes. Report: `uwb_direction1/results/cloud_20261026_topological_signal_gate/RUN_REPORT.md`.
