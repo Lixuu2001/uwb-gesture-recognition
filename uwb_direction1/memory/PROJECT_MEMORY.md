@@ -1,3 +1,11 @@
+# 2026-10-26 02:32 UTC — generic topological map features did not clear novelty
+
+A bounded literature-only screen checked persistent-homology/Mapper summaries of the current clutter-removed range-time maps. Gao (arXiv:2506.05169) already applies Mapper-based topological point-cloud matching to radar RT/DT-map human-activity recognition; Żelawski & Hachaj (2021, DOI 10.37705/techtrans/e2021011) apply persistent topological features to motion-capture action recognition; Blumenstein et al. (Sensors 2023, DOI 10.3390/s23042224) apply persistent homology to radar delay-Doppler presence detection. These are not the exact same IR-UWB gesture task, but they preempt generic topology summaries as the contribution. No concrete signal-specific novelty gap cleared, so no implementation, data read, fit, or training was authorized. Close this generic TDA candidate; do not reopen the 2026-10-26 motion-primitive label candidate or earlier closed routes. Report: `uwb_direction1/results/cloud_20261026_topological_signal_gate/RUN_REPORT.md`.
+
+Executor check at observed revision 1391: restore present, 789-file source subtree present, 5 CPUs, PyTorch absent, no active UWB process and no checkpoint files found through workspace depth 6. This is a literature gate only, not a scientific negative. Contribution remains unvalidated. If no signal-specific candidate can be distinguished from prior art using current observables, define the next work as a reproducibility/benchmark audit rather than relabel generic feature engineering.
+
+---
+
 # 2026-10-26 — candidate novelty gate: motion-primitive label factorization
 
 A bounded literature-only screen considered factorized label supervision for the corpus's directed and diagonal swipe classes. Ahmed et al. already define this gesture ontology and document L/T/R range-time signatures (DOI 10.1038/s41597-021-00876-0); Chen et al. describe radar gesture primitives (DOI 10.3390/electronics15020437); and dual-radar direction decomposition is established (DOI 10.3390/s23208551). The review did not find a sufficiently specific novelty gap for generic hierarchical/multitask classification. No experiment was authorized or run. Full review: `uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md`.
