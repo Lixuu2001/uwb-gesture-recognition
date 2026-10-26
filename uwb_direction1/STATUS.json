@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261026_view_label_symmetry_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261026_privileged_view_distillation_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-26 02:32 UTC: bounded screen found generic persistent-homology/Mapper radar-map recognition and topology-based human-action prior art; exact same-corpus method not established, but no narrow signal-specific gap cleared. Candidate closed before fitting; no data read or training.",
+  "latest_literature_note": "2026-10-26 09:43 UTC: bounded screen closed generic three-view-teacher to one-view-student distillation; same-corpus view subsets, radar-gesture KD, and multi-view teacher-student learning are prior art. No fit/training or array/label read.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -134,17 +134,20 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Search only for a materially distinct signal mechanism supported by current clutter-removed three-view maps and a valid frozen evaluation. Stage A L/T subgroup, generic view fusion, range trajectories/speed-scale, calibration, grouping, and prior screened mechanisms remain closed. No training is authorized from the present status.",
-  "last_completed_update_utc": "2026-10-26 04:10:00 UTC",
+  "last_completed_update_utc": "2026-10-26 09:43:25 UTC",
   "latest_environment_preflight": {
-    "report": "uwb_direction1/results/cloud_20261026_view_label_symmetry_gate/RUN_REPORT.md",
-    "observed_at_utc": "2026-10-26 04:10:00 UTC",
-    "observed_spec_revision": "1401",
+    "report": "uwb_direction1/results/cloud_20261026_privileged_view_distillation_gate/RUN_REPORT.md",
+    "observed_at_utc": "2026-10-26 09:43:25 UTC",
+    "observed_spec_revision": "1415",
     "observed_executor_phase": "running",
     "capabilities": [],
-    "compute": "CPU-only; 5 CPUs; PyTorch absent",
+    "compute": "CPU-only; 5 CPUs; PyTorch unavailable",
     "network_policy": "restricted_enforced; no custom allowed hosts; package-manager preset only",
     "restored_data_path": "/workspace/uwb-restored-20261020",
     "restored_data_present": true,
+    "restored_files": 86,
+    "restored_records": 9593,
+    "quality_retained_records": 9300,
     "source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
     "source_file_count": 789,
     "active_training_process_found": false,
@@ -1044,7 +1047,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-10-25T14:51:14Z",
+  "last_updated_utc": "2026-10-26T09:43:25Z",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -2304,7 +2307,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "No method candidate cleared. Joint Left/Right view-swap plus gesture-label reflection equivariance is not implementable from currently verified inputs; synchronization/calibrated geometry/paired mirrored motion are absent. No fit/training authorized; goal unresolved.",
+  "latest_task_state": "No method candidate cleared. Generic three-view teacher to one-view student distillation is feasible as a setting but combines established multi-view teacher-student learning and radar gesture KD; no distinct signal-specific transfer mechanism was cleared. No fit/training authorized; goal unresolved.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -2343,5 +2346,16 @@
     "data_downloaded": false,
     "new_method_validated": false,
     "experiment_authorized": false
+  },
+  "latest_privileged_view_distillation_gate": {
+    "date_utc": "2026-10-26T09:43:25Z",
+    "report": "uwb_direction1/results/cloud_20261026_privileged_view_distillation_gate/RUN_REPORT.md",
+    "candidate": "three-view teacher during training; one-view radar student at inference",
+    "literature_gate_passed": false,
+    "candidate_cleared_for_experiment": false,
+    "fulltext_scope": "Xue et al. 2026 full text; Zhang et al. 2026 full text; Tian et al. 2022 abstract/metadata; targeted search adjacent works",
+    "arrays_or_labels_read": false,
+    "fitting_or_training_started": false,
+    "disposition": "closed_generic_method_combination; goal remains unresolved"
   }
 }

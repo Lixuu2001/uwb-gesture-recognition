@@ -1,3 +1,11 @@
+# 2026-10-26 09:43 UTC — multi-view privileged distillation candidate closed
+
+A bounded screen examined training a three-view teacher and deploying a one-view radar student. Xue et al. 2026 full text covers this same corpus and reports single-, dual-, and tri-view configurations, but no distillation; Zhang et al. 2026 full text already applies teacher/student KD to mmWave hand gestures; Tian et al. 2022 introduces multi-view teacher-student learning (abstract/metadata only). No exact same-corpus held-user train-three/deploy-one KD paper was confirmed, but that is a setting gap, not a distinct learning mechanism. Generic composition is not cleared for a method claim. Candidate closed before fitting; no labels, arrays, logits, or checkpoints read, no training or download. Full report: `uwb_direction1/results/cloud_20261026_privileged_view_distillation_gate/RUN_REPORT.md`.
+
+Runtime refresh at executor revision 1415: restored package contains 86 payload files plus receipt; original-source subtree has 789 files; no active UWB/training process or serialized checkpoint found. CPU-only, five CPUs, PyTorch unavailable, restricted/enforced network. Goal remains unresolved; continue method-first.
+
+---
+
 # 2026-10-26 04:10 UTC — joint view/label reflection-equivariance not cleared
 
 A bounded screen considered a dataset-specific mirror relation: LR↔RL, diagonal LR↔RL pairs, CW↔CCW; proposed view-role action swaps Left/Right while retaining Top. Generic group-equivariant convolutions (Cohen & Welling, ICML 2016) and radar-gesture time/Doppler and physically interpretable range/angle augmentations (Kern et al. 2022; Fusco et al. 2023) are prior art. Xue et al. 2026 already covers same-corpus generic tri-view fusion.
