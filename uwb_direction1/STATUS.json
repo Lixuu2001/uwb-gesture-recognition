@@ -1,5 +1,5 @@
 {
-  "date_client": "2026-10-26",
+  "date_client": "2026-10-27",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261026_range_augmentation_prior_art_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261027_cross_view_prior_art_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "No currently screened candidate clears all gates. Generic range/aspect/time augmentation is also not cleared: current map inputs lack calibrated physical trajectories and these generic transforms are prior art. Continue method-first only with a materially distinct, literature-cleared signal mechanism directly observable in current clutter-removed inputs; otherwise retain the historical phase-motion result as exploratory and prepare a reproducibility/protocol-audit scope. No training without a frozen candidate gate.",
-  "last_completed_update_utc": "2026-10-26 22:26:00 UTC",
+  "next_candidate": "No currently screened candidate clears all gates. Do not run held-view folds as a novel-method study. Next bounded action: lawfully review the full text of DOI 10.1109/TIM.2025.3637962 to check whether its domain-generalized multiview mechanism already covers sensor-view shifts; then continue method-first only if a materially distinct, physically justified signal mechanism is observable in current clutter-removed inputs. Otherwise retain a protocol-audit scope as fallback without claiming it meets the original-method goal. No training without a frozen candidate gate.",
+  "last_completed_update_utc": "2026-10-27 01:10:00 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
     "observed_at_utc": "2026-10-26 18:57:34 UTC",
@@ -1401,45 +1401,24 @@
     "next_action": "do not run RQA parameter/classifier grid; await a distinct reviewed mechanism or calibrated independent radar plus synchronized hand-motion truth"
   },
   "latest_view_generalization_gate": {
-    "report": "uwb_direction1/results/cloud_20261010_view_provenance_and_tim_access/RUN_REPORT.md",
-    "review_date": "2026-10-10",
-    "branch_parent": "d5e8fc3cb5451095f0ac141292d15fe11f4459d5",
-    "exact_corpus_mv_glf_reviewed": true,
-    "mv_glf_input_settings": [
-      "left",
-      "right",
-      "top",
-      "left+right",
-      "left+top",
-      "right+top",
-      "left+right+top"
-    ],
-    "mv_glf_protocol": "6 subjects train / 2 subjects test; no held-out-view test reported",
-    "angular_diversity_prior_art": "Yang et al. 2018 full text",
-    "tim_2025_multiview_dg_fulltext_verified": false,
-    "leave_one_view_out_method_novelty_cleared": false,
-    "paired_view_sample_provenance_verified": false,
-    "training_started": false,
-    "active_job_found": false,
-    "restored_cache_present": true,
-    "cuda_available": false,
-    "next_action": "Seek a lawful author/institutional full-text copy of DOI 10.1109/TIM.2025.3637962 and review method-level held-view prior art. Do not run held-view folds from protocol novelty alone.",
-    "paired_view_cache_index_pairing_documented": true,
-    "paired_view_pairing_key": [
-      "participant",
-      "gesture",
-      "repetition_index"
-    ],
-    "paired_view_order": [
-      "left",
-      "top",
-      "right"
-    ],
-    "paired_view_same_event_claim_in_source": true,
-    "paired_view_external_timestamp_or_shared_trigger_verified": false,
-    "paired_view_phase_calibration_verified": false,
-    "tim_2025_fulltext_review_complete": false,
-    "tim_2025_fulltext_access_note": "Official IEEE Xplore page returned JavaScript/robot verification; DOI page unavailable in browser; public abstract/metadata and author code only."
+    "report": "uwb_direction1/results/cloud_20261027_cross_view_prior_art_gate/RUN_REPORT.md",
+    "review_date": "2026-10-27",
+    "candidate": "outer participant-held-out, held physical radar view among Left/Top/Right",
+    "candidate_is_method": false,
+    "dataset_three_view_prior": "Khan et al. Scientific Data 2021; three separately accessible IR-UWB sensors",
+    "same_corpus_multiview_prior": "Xue et al. Frontiers in Neuroscience 2026; single/multi-view same-corpus, participant-independent 6/2",
+    "generic_multiview_DG_prior": "Chen et al. IEEE TIM DOI 10.1109/TIM.2025.3637962; abstract and author repository README only",
+    "physical_view_mapping_prior": "Chen et al. IEEE IWS 2026 DOI 10.1109/IWS69027.2026.11674697; abstract/metadata only",
+    "tim_fulltext_review_complete": false,
+    "novelty_cleared": false,
+    "same_event_external_sync_verified": false,
+    "phase_calibration_verified": false,
+    "project_arrays_or_labels_read": false,
+    "fitting_or_training_started": false,
+    "active_training_process_found": false,
+    "restored_data_present": true,
+    "source_snapshot_present": true,
+    "next_action": "Lawfully review TIM full text, then continue only if a distinct observable mechanism clears prior art; otherwise no method training."
   },
   "latest_author_code_multiview_review": {
     "report": "results/cloud_20261010_view_generalization_prior_art/RUN_REPORT.md",
@@ -2307,7 +2286,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "No method candidate cleared. Generic three-view teacher to one-view student distillation is feasible as a setting but combines established multi-view teacher-student learning and radar gesture KD; no distinct signal-specific transfer mechanism was cleared. No fit/training authorized; goal unresolved.",
+  "latest_task_state": "No method candidate cleared. Held-physical-view evaluation is feasible in principle but is not itself a distinct method; same-corpus multiview, radar gesture domain generalization, and physical position/orientation mapping have close prior art. The TIM full text remains unreviewed. No fitting/training authorized; goal unresolved.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
