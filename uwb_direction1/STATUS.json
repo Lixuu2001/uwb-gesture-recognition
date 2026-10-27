@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261027_cross_view_prior_art_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261027_tim_fulltext_access_gate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Do not run held-view folds as a novel-method study. Next bounded action: lawfully review the full text of DOI 10.1109/TIM.2025.3637962 to check whether its domain-generalized multiview mechanism already covers sensor-view shifts; then continue method-first only if a materially distinct, physically justified signal mechanism is observable in current clutter-removed inputs. Otherwise retain a protocol-audit scope as fallback without claiming it meets the original-method goal. No training without a frozen candidate gate.",
-  "last_completed_update_utc": "2026-10-27 01:10:00 UTC",
+  "last_completed_update_utc": "2026-10-27 02:14:00 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
     "observed_at_utc": "2026-10-26 18:57:34 UTC",
@@ -1418,7 +1418,8 @@
     "active_training_process_found": false,
     "restored_data_present": true,
     "source_snapshot_present": true,
-    "next_action": "Lawfully review TIM full text, then continue only if a distinct observable mechanism clears prior art; otherwise no method training."
+    "next_action": "Do not run held-view folds from protocol novelty alone. Continue with a materially distinct, physically justified mechanism observable in current maps, or leave the candidate closed until lawful full text is available.",
+    "tim_fulltext_access_attempt": "Bounded search on 2026-10-27 found no lawful open copy; see latest_tim_fulltext_access_gate."
   },
   "latest_author_code_multiview_review": {
     "report": "results/cloud_20261010_view_generalization_prior_art/RUN_REPORT.md",
@@ -2286,7 +2287,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "No method candidate cleared. Held-physical-view evaluation is feasible in principle but is not itself a distinct method; same-corpus multiview, radar gesture domain generalization, and physical position/orientation mapping have close prior art. The TIM full text remains unreviewed. No fitting/training authorized; goal unresolved.",
+  "latest_task_state": "No candidate cleared and no training is running. A bounded lawful search found no public full text for the TIM multiview-DG paper; method-level prior-art distinction remains unresolved. Continue only with a materially distinct mechanism observable in current maps, or keep this candidate closed until full text is available. Goal unresolved.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -2493,5 +2494,21 @@
     "fitting_or_training_started": false,
     "experiment_cleared": false,
     "disposition": "close generic range/aspect/time augmentation as not cleared; do not claim all UWB-specific augmentation is ineffective"
+  },
+  "latest_tim_fulltext_access_gate": {
+    "report": "uwb_direction1/results/cloud_20261027_tim_fulltext_access_gate/RUN_REPORT.md",
+    "date_utc": "2026-10-27 02:14 UTC",
+    "doi": "10.1109/TIM.2025.3637962",
+    "ieee_xplore_access": "JavaScript/robot verification page; no paper text",
+    "doi_landing_access": "unavailable in browser tool",
+    "author_repository": "MVRADAR README accessible; no paper manuscript",
+    "researchgate": "request-full-text page only",
+    "lawful_open_fulltext_found": false,
+    "author_contacted": false,
+    "access_control_bypassed": false,
+    "arrays_or_labels_read": false,
+    "drive_fetch": false,
+    "fitting_or_training_started": false,
+    "method_contribution_validated": false
   }
 }
