@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261027_tim_fulltext_access_gate/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261027_drive_payload_inventory/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "No currently screened candidate clears all gates. Do not run held-view folds as a novel-method study. Next bounded action: lawfully review the full text of DOI 10.1109/TIM.2025.3637962 to check whether its domain-generalized multiview mechanism already covers sensor-view shifts; then continue method-first only if a materially distinct, physically justified signal mechanism is observable in current clutter-removed inputs. Otherwise retain a protocol-audit scope as fallback without claiming it meets the original-method goal. No training without a frozen candidate gate.",
-  "last_completed_update_utc": "2026-10-27 02:14:00 UTC",
+  "last_completed_update_utc": "2026-10-27 07:48 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
     "observed_at_utc": "2026-10-26 18:57:34 UTC",
@@ -2287,7 +2287,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "No candidate cleared and no training is running. A bounded lawful search found no public full text for the TIM multiview-DG paper; method-level prior-art distinction remains unresolved. Continue only with a materially distinct mechanism observable in current maps, or keep this candidate closed until full text is available. Goal unresolved.",
+  "latest_task_state": "Drive transfer-manifest audit verified the 86-file restore payload and current signal boundary: the restored X_clutterremoved tensor is present, but the transfer payload has no raw complex echo tensor. Opaque Drive parts were not fetched, so separately stored raw content remains unverified. No candidate cleared method gates and no training is running; goal unresolved.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -2509,6 +2509,39 @@
     "arrays_or_labels_read": false,
     "drive_fetch": false,
     "fitting_or_training_started": false,
+    "method_contribution_validated": false
+  },
+  "latest_drive_payload_inventory_20261027": {
+    "date_utc": "2026-10-27 07:48 UTC",
+    "report": "uwb_direction1/results/cloud_20261027_drive_payload_inventory/RUN_REPORT.md",
+    "folder_owner_only": true,
+    "transfer_manifest_bytes": 56367,
+    "transfer_manifest_sha256": "10516baf0b49a84e6a39169ef447fffcdcb29defa2a6cc79e301dc938ddceb4d",
+    "transfer_manifest_hash_matches_archived_restore_report": true,
+    "payload_files": 86,
+    "payload_original_bytes": 2141981100,
+    "current_map": {
+      "path": "cache/X_clutterremoved.npy",
+      "shape": [
+        9593,
+        3,
+        90,
+        189
+      ],
+      "dtype": "float32"
+    },
+    "raw_named_arrays": {
+      "subj_raw": "int64 index array [9593]",
+      "y_raw": "int64 label array [9593]"
+    },
+    "raw_complex_tensor_in_migrated_payload": false,
+    "opaque_drive_archive_parts_unfetched": true,
+    "values_or_labels_read": false,
+    "fitting_or_training_started": false,
+    "active_uwb_process_found": false,
+    "serialized_checkpoint_found_within_inspected_scope": false,
+    "executor_spec_revision": "1437",
+    "torch_installed": false,
     "method_contribution_validated": false
   }
 }
