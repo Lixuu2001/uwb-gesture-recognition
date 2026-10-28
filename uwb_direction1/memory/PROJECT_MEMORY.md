@@ -1,3 +1,11 @@
+# 2026-10-28 11:20 UTC — TIM multiview-DG author-repository addendum
+
+A bounded source check found the authors' public MVRADAR repository/readme for Chen et al., DOI 10.1109/TIM.2025.3637962. The README documents multi-view gesture recognition configurations including concatenation/addition, attention, and Dempster–Shafer evidence fusion; the indexed author abstract describes domain-knowledge-guided multiview D-S fusion for out-of-distribution generalization on 4D FMCW/mmWave data. The paper's full text remains unavailable: the repository has code/readme but no manuscript, IEEE access was blocked in the prior access gate, and ResearchGate provides a request-full-text page. No access restrictions were bypassed and no author was contacted.
+
+This strengthens the decision to close generic multiview fusion/evidence aggregation as a novelty route. It does not establish exact algorithm/protocol equivalence to IR-UWB; the same-corpus Xue et al. 2026 tri-view prior separately preempts generic multiview performance claims. No new single-view signal mechanism was identified, and no data or labels were accessed. No training or fitting occurred. Note: `uwb_direction1/results/cloud_20261028_tim_author_repo_addendum/RUN_REPORT.md`. The method-contribution goal remains unresolved.
+
+---
+
 # 2026-10-28 11:13 UTC — temporal-reversal label-transform novelty gate closed
 
 A source-only screen evaluated reversing the slow-time order of the current clutter-removed range-time maps and swapping to each gesture’s opposite ordered-motion label. The operation is directly relevant to UWB gesture classes but is not method-novel: Molchanov et al. (CVPR Workshops 2015) already reverse frame order and map left-swipe labels to right-swipe; a wireless-sensing ICASSP 2020 paper also studies gesture time reversal. The proposed UWB adaptation therefore does not clear the method gate. No arrays, label values, or predictions were read; there was no training, fitting, tuning, or download. Full-text retrieval was incomplete, so this is a bounded prior-art screen, not an exhaustive review. Decision note: `uwb_direction1/results/cloud_20261028_temporal_reversal_label_gate/DECISION_NOTE.md`.
