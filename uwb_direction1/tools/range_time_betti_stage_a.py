@@ -7,6 +7,7 @@ import json
 import os
 import platform
 import resource
+import signal
 import sys
 import time
 from pathlib import Path
@@ -21,8 +22,9 @@ from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
 
 ROOT = Path("/workspace/uwb-restored-20261020")
-OUT = Path("/workspace/uwb-range-time-topology-20261028/results")
-PROTOCOL = Path("/workspace/uwb-range-time-topology-20261028/protocol/STAGE_A.json")
+RUN_ID = "run02"
+OUT = Path("/workspace/uwb-range-time-topology-20261028/results/run02")
+PROTOCOL = Path("/workspace/uwb-range-time-topology-20261028/protocol/STAGE_A_RUN02.json")
 SCRIPT = Path(__file__).resolve()
 USERS = (1, 2, 3, 4, 5, 6)
 VIEWS = ("Left", "Top", "Right")
@@ -31,6 +33,9 @@ AMP_QS = np.asarray([0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90], dtyp
 STRUCT4 = np.asarray([[0, 1, 0], [1, 1, 1], [0, 1, 0]], dtype=np.uint8)
 STRUCT8 = np.ones((3, 3), dtype=np.uint8)
 SEED = 20261028
+ACTIVE_STATE: dict | None = None
+RUN_CPU_START = 0.0
+RUN_WALL_START = 0.0
 
 
 def sha256(path: Path) -> str:
@@ -115,21 +120,64 @@ def fit_score(X: np.ndarray, y: np.ndarray, subject: np.ndarray, ids: np.ndarray
     return detail, {"model_file": str(model_file), "model_sha256": sha256(model_file)}
 
 
+def budget_signal(signum, frame) -> None:
+    # Persist an explicit incomplete terminal state if the independent wall timer
+    # or the preemptive CPU soft limit fires. The hard CPU ceiling remains 900 s.
+    raise TimeoutError(f"budget signal {signum}")
+
+
+def mark_incomplete(exc: BaseException) -> None:
+    OUT.mkdir(parents=True, exist_ok=True)
+    state_path = OUT / "state.json"
+    state = ACTIVE_STATE
+    if state is None and state_path.exists():
+        try:
+            state = json.loads(state_path.read_text())
+        except Exception:
+            state = {}
+    if state is None:
+        state = {}
+    state.update({
+        "status": "incomplete", "completed_unix": time.time(),
+        "cpu_seconds": time.process_time() - RUN_CPU_START if RUN_CPU_START else None,
+        "wall_seconds": time.monotonic() - RUN_WALL_START if RUN_WALL_START else None,
+        "failure_type": type(exc).__name__, "failure": str(exc),
+        "partial_model_files": [str(p) for p in sorted(OUT.glob("model_*.npz"))],
+        "scientific_result": "none_incomplete_not_a_negative"
+    })
+    try:
+        write_json(state_path, state)
+    except Exception:
+        pass
+    fail = {"run_id": RUN_ID, "status": "incomplete", "error_type": type(exc).__name__,
+            "error": str(exc), "note": "engineering failure or budget interruption is not a scientific negative"}
+    try:
+        write_json(OUT / "failure.json", fail)
+    except Exception:
+        pass
+
+
 def main() -> int:
+    global ACTIVE_STATE, RUN_CPU_START, RUN_WALL_START
     OUT.mkdir(parents=True, exist_ok=True)
     protocol_sha = sha256(PROTOCOL)
     code_sha = sha256(SCRIPT)
     cpu_start = time.process_time()
     wall_start = time.monotonic()
+    RUN_CPU_START, RUN_WALL_START = cpu_start, wall_start
+    signal.signal(signal.SIGXCPU, budget_signal)
+    signal.signal(signal.SIGTERM, budget_signal)
     state = {
-        "status": "running", "started_unix": time.time(), "protocol_sha256": protocol_sha,
+        "run_id": RUN_ID, "status": "running", "started_unix": time.time(), "protocol_sha256": protocol_sha,
         "code_sha256": code_sha, "cpu_limit_seconds": 900, "wall_limit_seconds": 900,
         "participants_read_for_labels": list(USERS), "audit_labels_read": False,
         "completed_feature_records": 0, "completed_models": 0, "results": []
     }
+    ACTIVE_STATE = state
     write_json(OUT / "state.json", state)
-    # Child process CPU hard limit. Wall limit is independently enforced by the launcher.
-    resource.setrlimit(resource.RLIMIT_CPU, (900, 900))
+    # SIGXCPU at 890 s persists an incomplete receipt; 900 s is the hard CPU ceiling.
+    # Wall time is independently enforced by the launcher at 900 s.
+    resource.setrlimit(resource.RLIMIT_CPU, (890, 900))
     with threadpool_limits(limits=1):
         x = np.load(ROOT / "cache/X_clutterremoved.npy", mmap_mode="r")
         s_all = np.load(ROOT / "cache/subj_clutterremoved.npy", mmap_mode="r")
@@ -149,7 +197,7 @@ def main() -> int:
         ids = source_idx[quality]
         subject = source_subject[quality]
         y = y_source_all[quality]
-        expected = {1: 1200, 2: 1000, 3: 1200, 4: 1200, 5: 1200, 6: 1107}
+        expected = {1: 1200, 2: 1000, 3: 1200, 4: 1200, 5: 1200, 6: 1100}
         got = {u: int(np.sum(subject == u)) for u in USERS}
         if got != expected or len(ids) != 6907:
             raise RuntimeError(f"quality-mask retained counts mismatch: {got}, total={len(ids)}")
@@ -230,12 +278,5 @@ if __name__ == "__main__":
     try:
         raise SystemExit(main())
     except BaseException as exc:
-        out = Path("/workspace/uwb-range-time-topology-20261028/results")
-        out.mkdir(parents=True, exist_ok=True)
-        fail = {"status": "incomplete", "error_type": type(exc).__name__, "error": str(exc),
-                "note": "engineering failure or budget interruption is not a scientific negative"}
-        try:
-            (out / "failure.json").write_text(json.dumps(fail, indent=2) + "\n")
-        except Exception:
-            pass
+        mark_incomplete(exc)
         raise

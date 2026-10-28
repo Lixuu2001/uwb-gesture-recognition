@@ -1,0 +1,94 @@
+{
+  "title": "Amended run02: range-time echo Betti source feasibility screen",
+  "date_utc": "2026-10-28",
+  "status": "amended_preregistered_pilot_only_not_a_validated_contribution",
+  "candidate": {
+    "name": "per-sample normalized upper-level-set Betti curves",
+    "input": "real-valued X_clutterremoved range-time maps only",
+    "mechanism": "track 4-connected echo components and enclosed 4-connected holes across fixed upper-tail intensity quantiles; this describes persistence of connected scattering patterns across thresholds, not hand kinematics",
+    "scope": "single-view classifiers reported separately for Left, Top, Right; no view selection or fusion"
+  },
+  "prior_art_boundary": {
+    "same_corpus": "Xue et al., Frontiers in Neuroscience 20 (2026), 1864448, DOI 10.3389/fnins.2026.1864448, uses the same 12-class, 8-subject, three-X4-view UWB-Gestures corpus and 90x189 MTI maps; it reports early tri-view fusion, local/global backbones, and adaptive bilinear fusion, but no topological descriptor in the reviewed full text.",
+    "radar_topology": "Blumenstein et al., Sensors 23(4), 2224 (2023), DOI 10.3390/s23042224, applies persistent homology to 60-GHz OTFS delay-Doppler maps for human-presence/target-peak detection against CFAR, not gesture classification.",
+    "screen_scope": "bounded targeted primary-source search, not an exhaustive novelty search; PH itself is established and this pilot cannot establish algorithmic novelty"
+  },
+  "data_and_split": {
+    "root": "/workspace/uwb-restored-20261020",
+    "tensor": "cache/X_clutterremoved.npy [9593,3,90,189] float32",
+    "participants": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "held_out_unit": "one source participant at a time (six internal development folds)",
+    "participants_7_8": "do not read their gesture labels, fit on them, score them, or use them for selection",
+    "quality_exclusions": "exclude participant 2 zero-based classes 10/11 and participant 6 zero-based class 3, matching the archived quality rule; for source participants 1-6, assert retained counts 1200,1000,1200,1200,1200,1107 (6907 total), otherwise abort before fit",
+    "caveat": "all eight participants have prior project-development exposure; this is an exploratory feasibility screen, not independent validation",
+    "expected_source_retained_counts": {
+      "1": 1200,
+      "2": 1000,
+      "3": 1200,
+      "4": 1200,
+      "5": 1200,
+      "6": 1100,
+      "total": 6900
+    }
+  },
+  "frozen_transform": {
+    "map": "absolute-valued map, non-overlapping 3x3 max pooling to 30x63, then divide by per-map mean plus 1e-8",
+    "quantiles": [
+      0.5,
+      0.6,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "topology": "at each quantile threshold, compute beta0 with 4-connectivity and beta1 as enclosed background components using the dual 8-connectivity; feature is log1p(beta0,beta1) concatenated over thresholds",
+    "amplitude_control": "nine fixed quantile values of the same normalized map (spatial-layout-free)",
+    "spatial_null": "same topology descriptor after one fixed, seeded permutation of the 30x63 pixels per view; preserves each map's intensity multiset but disrupts local range-time adjacency",
+    "model": "StandardScaler fitted on training-source records only, then sklearn RidgeClassifier(alpha=1.0); no hyperparameter search, no CNN"
+  },
+  "evaluation": {
+    "primary_metric": "macro recall over classes present for each held-out source participant, averaged equally across six participants and three views",
+    "go_rule": "topology minus amplitude-control >= 0.010 absolute macro recall; positive in at least 4/6 source participants for at least 2/3 views; no view mean below -0.010; and topology exceeds spatial-null by >=0.010 overall",
+    "interpretation": "GO only permits designing a separate frozen outer-user validation; it is not evidence of a contribution. Any other outcome closes this descriptor without retuning thresholds, connectivity, view, classifier, or seed.",
+    "no_p_values": true
+  },
+  "budget": {
+    "cpu_seconds_hard_limit": 900,
+    "wall_seconds_hard_limit": 900,
+    "blas_threads": 1,
+    "max_processes": 1,
+    "budget_exhaustion": "SIGXCPU at 890 CPU seconds or independent 900-second wall timeout writes an incomplete terminal receipt; 900 CPU seconds is hard ceiling; never interpret as a scientific negative",
+    "cpu_soft_stop_seconds": 890
+  },
+  "artifacts": [
+    "protocol and code SHA-256 before any source map/label value read",
+    "environment receipt, participant/sample IDs for source folds only, feature matrices, fold scalers and ridge coefficients, predictions, per-user/per-view metrics, timing/budget receipt, and failure state",
+    "all bulky arrays and model artifacts stay in cloud workspace, not Git",
+    "run02 runner SHA-256 bound before source-map pixel access"
+  ],
+  "stop_conditions": [
+    "retained-count assertion fails",
+    "any audit participant label is accessed",
+    "any test/audit user used for fitting, standardization, choice, or selection",
+    "CPU or wall budget exceeded",
+    "GO rule fails"
+  ],
+  "run_id": "run02",
+  "amendment": {
+    "reason": "The first invocation stopped at the source-count assertion before map pixels/features/fits/scores. The pre-registered expected count for participant 6 was a transcription error.",
+    "source_only_basis": "Archived original project experiments/p1_20260905/AUDIT.md states HV6 retains 1100 rows after excluding its 93 quality-flagged G4 records; it states HV2 retains 1000 and the remaining participants 1200. The observed 1-6 retained counts 1200/1000/1200/1200/1200/1100 therefore match that pre-existing audit.",
+    "sole_scientific_protocol_change": "Correct expected source user 6 retained count 1107 to 1100, and total source count 6907 to 6900. Quality mask, source folds, maps, feature definitions, baselines, classifier, weights, thresholds, gates, and audit-user exclusion are unchanged.",
+    "preserved_failed_attempt": "Original protocol and run receipt remain intact; no fitting or feature output occurred in that attempt.",
+    "authorization": "Previously authorized one repair-and-retry for a pre-score engineering/protocol defect; run02 is the sole retry."
+  },
+  "runner_sha256": "46d08787c130bfbbe4d546eef6826fa045e855068e517711bec7e439bec8896a"
+}
