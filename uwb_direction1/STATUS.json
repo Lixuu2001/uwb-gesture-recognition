@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261028_single_view_mechanism_reconciliation/DECISION_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261028_mv_glf_direct_same_corpus_prior_art/DECISION_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-28: author-repository addendum for TIM.2025.3637962 confirms generic multiview fusion/D-S OOD prior; full manuscript still unavailable. No project data/labels/training. See latest report.",
+  "latest_literature_note": "2026-10-28: full publisher article for Xue et al., Front Neurosci 20 (2026) 1864448, DOI 10.3389/fnins.2026.1864448, directly establishes same-corpus three-view global/local adaptive fusion prior art; protocol is 6/2, not matched to project LOSO. See results/cloud_20261028_mv_glf_direct_same_corpus_prior_art/DECISION_NOTE.md.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -2680,5 +2680,18 @@
     "method_contribution_validated": false,
     "no_new_data_request": true,
     "conclusion": "Do not repackage closed routes. Continue method-first only with a materially distinct physically grounded mechanism observable in current maps; otherwise preserve replay audit as reproducibility evidence and keep goal unresolved."
+  },
+  "same_corpus_mv_glf_prior_art": {
+    "paper_doi": "10.3389/fnins.2026.1864448",
+    "full_publisher_text_reviewed": true,
+    "same_public_corpus": true,
+    "same_12_classes_8_subjects_3_view_x4_setup": true,
+    "generic_architecture_fusion_view_count_claims_preempted": true,
+    "reported_protocol": "six train subjects / two test subjects",
+    "project_protocol_comparable": false,
+    "project_values_or_labels_read": false,
+    "training_started": false,
+    "method_contribution_validated": false,
+    "next_step": "Continue method-first only if a distinct physically justified signal observable in current clutter-removed maps clears literature review; no training without frozen candidate gate."
   }
 }
