@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261028_archived_multiview_replay/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261028_temporal_reversal_label_gate/DECISION_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-28: bounded metadata-only Drive search (specified owner-only folder, 803 child names, account-wide UWB raw/complex queries) found no obviously named separate raw-complex echo archive; not proof of absence. No content/arrays/labels read and no training.",
+  "latest_literature_note": "2026-10-28: bounded prior-art screen closed generic temporal-reversal label transform; core operation already used in gesture recognition. No arrays/label values read; no training. See latest report.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -2287,7 +2287,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Archived multi-view saved-prediction replay completed: 8 folds × 7 fixed heads; 136/136 audit checks passed. Full-view saved-logit replay reproduced 93.4417% mean held-user class-macro accuracy. This is not new training, independent validation, or a novel method; method-contribution goal remains unresolved.",
+  "latest_task_state": "A bounded literature screen closed generic label-covariant temporal reversal: the same core label transform is established in gesture-recognition prior art. No arrays or label values read; no training, fitting, tuning, download, or experiment authorized. Candidate search remains method-first; goal unresolved.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -2575,5 +2575,30 @@
     "method_contribution_validated": false,
     "independent_validation": false,
     "run01_and_run02_preserved": true
+  },
+  "latest_literature_candidate_screen_20261028": {
+    "date_utc": "2026-10-28 11:13",
+    "report": "uwb_direction1/results/cloud_20261028_temporal_reversal_label_gate/DECISION_NOTE.md",
+    "candidate": "reverse slow-time order and map each directional gesture to its opposite ordered-motion label on current clutter-removed maps",
+    "disposition": "closed_before_experiment_generic_operation_preempted",
+    "primary_prior_art": [
+      {
+        "citation": "Molchanov et al., Hand Gesture Recognition with 3D Convolutional Neural Networks, CVPR Workshops 2015",
+        "scope": "explicit frame-order reversal with left-swipe to right-swipe label transform"
+      },
+      {
+        "citation": "Regani et al., Time Reversal Based Robust Gesture Recognition Using WiFi, ICASSP 2020",
+        "scope": "wireless gesture time-reversal"
+      }
+    ],
+    "literature_review_scope": "bounded primary-source search; indexed source excerpts exposed the operation; direct CVF PDF 403 and ICASSP PDF timeout; not exhaustive",
+    "input_feasible_from_current_maps": true,
+    "exact_UWB_reversal_method_novelty_cleared": false,
+    "labels_or_array_values_read": false,
+    "fitting_or_training_started": false,
+    "experiment_authorized": false,
+    "method_contribution_validated": false,
+    "independent_validation": false,
+    "next_action": "Continue only for materially different physically justified mechanism observable in clutter-removed input; no experiment without frozen candidate gate."
   }
 }

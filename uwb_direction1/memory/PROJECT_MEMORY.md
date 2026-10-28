@@ -1,3 +1,11 @@
+# 2026-10-28 11:13 UTC — temporal-reversal label-transform novelty gate closed
+
+A source-only screen evaluated reversing the slow-time order of the current clutter-removed range-time maps and swapping to each gesture’s opposite ordered-motion label. The operation is directly relevant to UWB gesture classes but is not method-novel: Molchanov et al. (CVPR Workshops 2015) already reverse frame order and map left-swipe labels to right-swipe; a wireless-sensing ICASSP 2020 paper also studies gesture time reversal. The proposed UWB adaptation therefore does not clear the method gate. No arrays, label values, or predictions were read; there was no training, fitting, tuning, or download. Full-text retrieval was incomplete, so this is a bounded prior-art screen, not an exhaustive review. Decision note: `uwb_direction1/results/cloud_20261028_temporal_reversal_label_gate/DECISION_NOTE.md`.
+
+The previous archived prediction audit remains the latest completed experiment: 136/136 checks across eight folds and seven fixed heads; it reproduced the saved full-view metric, not a method contribution. No experiment is authorized. The method-contribution goal remains unresolved.
+
+---
+
 # 2026-10-28 10:31 UTC — archived multi-view prediction replay audit
 
 A bounded, read-only audit replayed saved predictions for all eight held-user folds and all seven stored sensor-subset heads. Structural, split, and metric consistency checks passed 136/136. The full L+T+R head reproduced a 93.4417% mean held-user class-macro accuracy from the archived logits and labels; the user-level values and all subset-head results are in `uwb_direction1/results/cloud_20261028_archived_multiview_replay/RUN_REPORT.md`.
