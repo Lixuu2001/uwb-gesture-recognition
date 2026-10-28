@@ -39,3 +39,8 @@ The prior attempt remains preserved as incomplete (0 feature records, 0 fits, no
 # Run03 engineering amendment — 2026-10-28 UTC
 
 Run02 stopped before pixel/feature/model access because the corrected per-participant assertion still contained a stale literal total of 6,907. The archived source audit supports 6,900 retained source rows (HV6=1,100). Run01 and run02 logs are retained, with 0 feature records, 0 fits, and no scores; no audit-user labels were read. User-authorized pre-score engineering repairs permit this third invocation. Run03 changes only the remaining total-count guard. To keep aggregate work within 900 seconds, the process has an 885-second CPU soft stop, 895-second CPU hard ceiling, and independent 895-second wall limit; the two earlier preflight exits were each under two seconds wall. New run03 protocol/code hashes are recorded in `PREREGISTRATION_RUN03.md`. The descriptor, splits, fixed quality mask, classifiers, controls, decision thresholds, and all science remain unchanged.
+
+
+## 2026-10-28 run03 result
+
+The source-only range-time Betti feasibility screen completed but failed its preregistered GO criteria: Betti − amplitude overall −2.716 pp; Betti − fixed spatial shuffle +5.605 pp; 0/6 positive Left folds, 3/6 Top, 3/6 Right; Left/Top also failed the per-view non-inferiority threshold. All 54 fitted model artifacts and the feature artifact were hash-verified. Only participants 1–6 labels were used; users 7–8 gesture labels were not read. The terminal SystemExit(0) wrapper bug was corrected in metadata from saved outputs only, without rerunning. Exact candidate is closed, no Stage B; overall method-contribution goal remains unresolved. See results/cloud_20261028_range_time_betti_gate/RUN03_REPORT.md.
