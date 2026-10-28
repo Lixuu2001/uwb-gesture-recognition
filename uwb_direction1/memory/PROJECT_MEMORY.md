@@ -1,3 +1,11 @@
+# 2026-10-28 10:31 UTC — archived multi-view prediction replay audit
+
+A bounded, read-only audit replayed saved predictions for all eight held-user folds and all seven stored sensor-subset heads. Structural, split, and metric consistency checks passed 136/136. The full L+T+R head reproduced a 93.4417% mean held-user class-macro accuracy from the archived logits and labels; the user-level values and all subset-head results are in `uwb_direction1/results/cloud_20261028_archived_multiview_replay/RUN_REPORT.md`.
+
+This is a saved-output replay, not new model training, an independent cohort, independent validation, or evidence of a novel method. Test labels were read only to recompute the fixed metrics; nothing was fit or tuned, and feature matrices/weights/checkpoints were not read. The three engineering attempts (RUN01, RUN02, final) are retained. No raw arrays or row-level sample IDs were added to Git. The research-method goal remains unresolved.
+
+---
+
 # 2026-10-26 04:10 UTC — joint view/label reflection-equivariance not cleared
 
 A bounded screen considered a dataset-specific mirror relation: LR↔RL, diagonal LR↔RL pairs, CW↔CCW; proposed view-role action swaps Left/Right while retaining Top. Generic group-equivariant convolutions (Cohen & Welling, ICML 2016) and radar-gesture time/Doppler and physically interpretable range/angle augmentations (Kern et al. 2022; Fusco et al. 2023) are prior art. Xue et al. 2026 already covers same-corpus generic tri-view fusion.

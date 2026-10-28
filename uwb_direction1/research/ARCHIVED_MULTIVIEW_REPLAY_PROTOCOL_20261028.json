@@ -1,0 +1,22 @@
+{
+  "audit_id": "archived_p1_20260928_multiview_outputs_20261028",
+  "scope": "read-only integrity and metric replay of existing saved predictions",
+  "source_root": "/workspace/uwb-restored-20261020/experiments/p1_20260928/multiview_s2026",
+  "folds": [1, 2, 3, 4, 5, 6, 7, 8],
+  "heads": "all seven stored subset heads, no selection",
+  "checks": [
+    "sample IDs unique and agree among split metadata and prediction archive",
+    "train/validation/test ID sets are disjoint and have expected subject roles",
+    "saved validation logits and labels are bitwise equal to the corresponding rows in the saved full prediction archive",
+    "recompute every stored test accuracy from saved logits and test labels and compare with result.json",
+    "compute per-held-user class-macro accuracy for all seven heads and all eight folds"
+  ],
+  "prohibited": [
+    "fit or update any model, transform, or threshold",
+    "choose a head, fold, class, or user after inspecting outcomes",
+    "read features.npz or model/checkpoint weights",
+    "claim independent-user validation or a novel method from this archive replay"
+  ],
+  "fixed_decision": "record all checks and metrics; this audit can establish artifact consistency only, not a method contribution or independent generalization",
+  "outputs": "aggregate metrics, structural checks, source artifact SHA-256 values; no row-level IDs or arrays copied to Git"
+}

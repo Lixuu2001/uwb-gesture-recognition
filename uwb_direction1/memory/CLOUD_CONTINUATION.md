@@ -1,3 +1,11 @@
+# 2026-10-28 10:31 UTC — archived multi-view prediction replay audit
+
+A bounded, read-only audit replayed saved predictions for all eight held-user folds and all seven stored sensor-subset heads. Structural, split, and metric consistency checks passed 136/136. The full L+T+R head reproduced a 93.4417% mean held-user class-macro accuracy from the archived logits and labels; the user-level values and all subset-head results are in `uwb_direction1/results/cloud_20261028_archived_multiview_replay/RUN_REPORT.md`.
+
+This is a saved-output replay, not new model training, an independent cohort, independent validation, or evidence of a novel method. Test labels were read only to recompute the fixed metrics; nothing was fit or tuned, and feature matrices/weights/checkpoints were not read. The three engineering attempts (RUN01, RUN02, final) are retained. No raw arrays or row-level sample IDs were added to Git. The research-method goal remains unresolved.
+
+---
+
 # 2026-10-26 09:43 UTC — multi-view privileged distillation candidate closed
 
 A bounded screen examined training a three-view teacher and deploying a one-view radar student. Xue et al. 2026 full text covers this same corpus and reports single-, dual-, and tri-view configurations, but no distillation; Zhang et al. 2026 full text already applies teacher/student KD to mmWave hand gestures; Tian et al. 2022 introduces multi-view teacher-student learning (abstract/metadata only). No exact same-corpus held-user train-three/deploy-one KD paper was confirmed, but that is a setting gap, not a distinct learning mechanism. Generic composition is not cleared for a method claim. Candidate closed before fitting; no labels, arrays, logits, or checkpoints read, no training or download. Full report: `uwb_direction1/results/cloud_20261026_privileged_view_distillation_gate/RUN_REPORT.md`.
