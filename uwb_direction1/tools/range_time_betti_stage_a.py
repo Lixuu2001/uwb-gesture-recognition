@@ -22,9 +22,9 @@ from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
 
 ROOT = Path("/workspace/uwb-restored-20261020")
-RUN_ID = "run02"
-OUT = Path("/workspace/uwb-range-time-topology-20261028/results/run02")
-PROTOCOL = Path("/workspace/uwb-range-time-topology-20261028/protocol/STAGE_A_RUN02.json")
+RUN_ID = "run03"
+OUT = Path("/workspace/uwb-range-time-topology-20261028/results/run03")
+PROTOCOL = Path("/workspace/uwb-range-time-topology-20261028/protocol/STAGE_A_RUN03.json")
 SCRIPT = Path(__file__).resolve()
 USERS = (1, 2, 3, 4, 5, 6)
 VIEWS = ("Left", "Top", "Right")
@@ -177,7 +177,7 @@ def main() -> int:
     write_json(OUT / "state.json", state)
     # SIGXCPU at 890 s persists an incomplete receipt; 900 s is the hard CPU ceiling.
     # Wall time is independently enforced by the launcher at 900 s.
-    resource.setrlimit(resource.RLIMIT_CPU, (890, 900))
+    resource.setrlimit(resource.RLIMIT_CPU, (885, 895))
     with threadpool_limits(limits=1):
         x = np.load(ROOT / "cache/X_clutterremoved.npy", mmap_mode="r")
         s_all = np.load(ROOT / "cache/subj_clutterremoved.npy", mmap_mode="r")
@@ -199,7 +199,7 @@ def main() -> int:
         y = y_source_all[quality]
         expected = {1: 1200, 2: 1000, 3: 1200, 4: 1200, 5: 1200, 6: 1100}
         got = {u: int(np.sum(subject == u)) for u in USERS}
-        if got != expected or len(ids) != 6907:
+        if got != expected or len(ids) != 6900:
             raise RuntimeError(f"quality-mask retained counts mismatch: {got}, total={len(ids)}")
         classes = np.unique(y)
         if len(classes) != 12:
