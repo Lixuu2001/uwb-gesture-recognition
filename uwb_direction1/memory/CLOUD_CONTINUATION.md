@@ -1,3 +1,11 @@
+# 2026-10-28 UTC — single-view mechanism gate reconciliation
+
+A read-only synthesis of prior literature/engineering gates found no eligible candidate among the already screened local echo matching, range-ridge/energy/area, range-time trajectory, range-resolved recurrence/RQA, temporal-reversal label mapping, and generic multiview/evidence fusion routes. The 2026-10-04 local echo diagnostic passed its joint gate for 0/6 source users in each view and did not evaluate classifier accuracy; this closes only that registered matching configuration. The other routes were closed by direct radar/UWB or same-corpus prior art, missing physical ground truth, or both. Current restore metadata supports only real-valued clutter-removed maps of shape [9593,3,90,189], without raw complex echoes or calibrated/synchronized hand trajectories.
+
+No model was trained, no data values or labels were read, and no parameter grid was run. This synthesis does not conclude all current-data methods are impossible. It records which common routes must not be repackaged and keeps the method-contribution goal unresolved. No new data request is made. Report: uwb_direction1/results/cloud_20261028_single_view_mechanism_reconciliation/DECISION_NOTE.md.
+
+---
+
 # 2026-10-28 11:20 UTC — TIM multiview-DG author-repository addendum
 
 A bounded source check found the authors' public MVRADAR repository/readme for Chen et al., DOI 10.1109/TIM.2025.3637962. The README documents multi-view gesture recognition configurations including concatenation/addition, attention, and Dempster–Shafer evidence fusion; the indexed author abstract describes domain-knowledge-guided multiview D-S fusion for out-of-distribution generalization on 4D FMCW/mmWave data. The paper's full text remains unavailable: the repository has code/readme but no manuscript, IEEE access was blocked in the prior access gate, and ResearchGate provides a request-full-text page. No access restrictions were bypassed and no author was contacted.

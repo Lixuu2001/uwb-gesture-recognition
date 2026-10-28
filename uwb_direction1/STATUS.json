@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261028_tim_author_repo_addendum/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261028_single_view_mechanism_reconciliation/DECISION_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -2287,7 +2287,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "A bounded source addendum found author-repository/readme evidence for the 2025 mmWave multiview-DG method and its fusion modes. Full text remains unavailable; generic multiview fusion is further preempted. No project data/labels read, no training. No new single-view mechanism identified; goal unresolved.",
+  "latest_task_state": "Read-only reconciliation of prior gates: local echo correspondence was 0/6 source users per view on its fixed joint criterion (no classifier); generic range-ridge/trajectory, recurrence, temporal reversal, and multiview fusion routes are closed by prior art and/or observability limits. No new experiment, fitting, labels, or data read. The method goal remains unresolved; further work requires a distinct physically grounded mechanism observable in current clutter-removed maps.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -2624,5 +2624,61 @@
     "new_single_view_mechanism_identified": false,
     "new_method_validated": false,
     "next_action": "Method-first search only for a distinct physically grounded single-view mechanism observable in current clutter-removed inputs; no training without candidate gate."
+  },
+  "latest_single_view_mechanism_reconciliation_20261028": {
+    "date_utc": "2026-10-28",
+    "report": "uwb_direction1/results/cloud_20261028_single_view_mechanism_reconciliation/DECISION_NOTE.md",
+    "scope": "read-only reconciliation of previously archived gates",
+    "current_input_metadata": {
+      "type": "real-valued clutter-removed range-time maps",
+      "shape": [
+        9593,
+        3,
+        90,
+        189
+      ],
+      "dtype": "float32",
+      "raw_complex_echoes_present": false,
+      "calibrated_synchronized_motion_truth_present": false
+    },
+    "prior_routes": [
+      {
+        "name": "local echo/patch correspondence",
+        "report": "uwb_direction1/results/cloud_20261004_local_echo/RUN_REPORT.md",
+        "result": "fixed joint source gate passed by 0/6 users in each view; no classifier accuracy"
+      },
+      {
+        "name": "range ridge/direction plus echo energy or area",
+        "report": "uwb_direction1/results/cloud_20261012_range_ridge_mechanism_gate/RUN_REPORT.md",
+        "status": "generic mechanism preempted by IR-UWB prior"
+      },
+      {
+        "name": "range-time trajectory",
+        "report": "uwb_direction1/results/cloud_20261011_range_trajectory_prior_art/RUN_REPORT.md",
+        "status": "same-corpus prior and missing motion truth"
+      },
+      {
+        "name": "range-resolved recurrence/RQA",
+        "report": "uwb_direction1/results/cloud_20261010_range_resolved_recurrence_gate/RUN_REPORT.md",
+        "status": "radar self-similarity/RQA prior; no model fit"
+      },
+      {
+        "name": "temporal reversal with inverse labels",
+        "report": "uwb_direction1/results/cloud_20261028_temporal_reversal_label_gate/DECISION_NOTE.md",
+        "status": "closed before experiment; prior art"
+      },
+      {
+        "name": "generic multiview/evidence fusion",
+        "report": "uwb_direction1/results/cloud_20261028_tim_author_repo_addendum/RUN_REPORT.md",
+        "status": "same-corpus tri-view plus mmWave multiview-DG prior"
+      }
+    ],
+    "arrays_or_labels_read": false,
+    "fitting_or_training_started": false,
+    "parameter_grid_started": false,
+    "candidate_cleared": false,
+    "method_contribution_validated": false,
+    "no_new_data_request": true,
+    "conclusion": "Do not repackage closed routes. Continue method-first only with a materially distinct physically grounded mechanism observable in current maps; otherwise preserve replay audit as reproducibility evidence and keep goal unresolved."
   }
 }
