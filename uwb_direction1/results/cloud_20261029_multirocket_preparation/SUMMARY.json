@@ -1,0 +1,30 @@
+{
+  "state": "complete_exploratory_source_pilot",
+  "scores": {
+    "multirocket": 0.9441666666666667,
+    "minirocket": 0.85
+  },
+  "validation_scores": {
+    "multirocket": 0.9279999999999999,
+    "minirocket": 0.836
+  },
+  "cnn_reference": {
+    "full": 0.9600000000000001,
+    "local": 0.9683333333333333,
+    "minirocket": 0.8533333333333335
+  },
+  "gate_passed": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "users7_8_labels_used": false,
+  "diagnostic_user": 1,
+  "validation_user": 2,
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "wall_seconds": 160.18636257492471,
+  "cpu_seconds": 159.628759798
+}

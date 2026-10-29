@@ -1,0 +1,54 @@
+{
+  "state": "complete_source_pilot",
+  "scores": {
+    "full": 0.9600000000000001,
+    "local": 0.9683333333333333,
+    "minirocket": 0.8533333333333335
+  },
+  "per_class_recall": {
+    "full": {
+      "0": 0.99,
+      "1": 0.84,
+      "2": 0.97,
+      "3": 0.99,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 0.99,
+      "8": 0.85,
+      "9": 0.89,
+      "10": 1.0,
+      "11": 1.0
+    },
+    "local": {
+      "0": 0.98,
+      "1": 0.87,
+      "2": 0.99,
+      "3": 0.97,
+      "4": 1.0,
+      "5": 0.97,
+      "6": 1.0,
+      "7": 0.98,
+      "8": 0.87,
+      "9": 0.99,
+      "10": 1.0,
+      "11": 1.0
+    }
+  },
+  "full_gate_passed": false,
+  "local_baseline_expansion_eligible": true,
+  "independent_validation": false,
+  "innovation_claim": false,
+  "held_user": 1,
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "users7_8_labels_used": false,
+  "epochs": 24,
+  "cumulative_wall_seconds": 16603.924712555017,
+  "cumulative_cpu_seconds": 47173.445301721
+}

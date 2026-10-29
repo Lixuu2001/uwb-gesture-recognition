@@ -1,3 +1,13 @@
+# Completed CNN/MultiRocket queue; eligible local baseline source-sixfold study registered
+
+Verified true results:fullCNN96.0000%,localCNN96.8333%,originalMini85.3333% on sourceheld1/train3–6/val2. Full-minus-local -0.8333pp fails full24epoch gate; exactconfigclosed, norescuegrid or claimabout100epochs. Local+11.5ppoverMini passes its separatebaseline-expansion criterion.93completefunctional/role/state/hash checks pass. MultiRocket94.4167% vsmatched directMini85.0000%,+9.4167pp but -2.4167ppvslocalCNN; its jointgatefails and exactconfigclosed. MatchedMini differsfromoriginalLSQR85.3333 by preregisteredreadout; no solverselection. Multiartifact/moments/objective/all2200logitsperarm/metrics auditpasses; extractionreplay6recordsperarmonly. No7–8labels; sourceexploratory, noold8foldcomparison/noveltyclaim.
+
+Entire controller queuecomplete/exit;42028absent,42906/42027zombiesnotlivejobs. Final149trackedpayloadfiles+manifest/22owner-onlychunks/156309271bytes authenticatedreadback/reassembly/allmemberSHAverified, archivefcf8dee9fa9b899033e38ffbabfa8ecf862017e7ba4e00c092197e6f18a9f07b. Recovery results/cloud_20261029_mvglf_pilot/FINAL_QUEUE_DRIVE_BACKUP_RECEIPT.json. Original86inputs/789sourcesunchanged;rawarrays/models/IDsnotinGit. Complete reports FINAL_REPORT.md inCNN/Multiresults.
+
+New localCNNsource-sixfoldconfirmation preregistered under research/localcnn_source6_20261029 and /workspace/uwb-localcnn-sixfold-20261029. Exactsame24epoch/seed/model, reuseheld1auditedweights/predictions; only5newfolds2–6(120epochs), valh%6+1/fourtrainfrom1–6, sameinputcache/optimizer/selection. Metadata/preflightconstructor/ties pass. Estimate38569s<12hwall/36CPUhours3threads. Allfivepredictionsfreeze beforeaggregate, comparefixedexistingMini6; descriptivemeangain1pp/4wins/minloss-2pponly. No automaticretries; budget/engineeringstop=incomplete. This registration does not itself prove launch; inspect nextactualreceipt/PIDs beforeclaimingtraining. TimeMILremainsfixed/prepared/unlaunched; prioritizecurrentconfirmation. Originalcontribution/overallgoalunresolved.
+
+---
+
 # 2026-10-29 — TimeMIL CPU implementation and fixed64epoch pilot registered, not started
 
 Original42028 remainslocalepoch21/full24done;42906continuation02 waits; no newdiagnostic scores or TimeMILfit. CurrentCNN→audit→MultiRocket→audit queue unchanged; inspectactualPIDs/state first and neverduplicate. Positiveexistinggates should lead to separatelyfrozenmatchedsource-fold confirmation; newTimeMIL is a latercandidate, not an automaticthirdstage.

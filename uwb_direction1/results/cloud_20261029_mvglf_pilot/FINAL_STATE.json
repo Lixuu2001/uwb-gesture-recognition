@@ -1,0 +1,35 @@
+{
+  "state": "complete",
+  "pid": null,
+  "resume": false,
+  "completed_arms": [
+    "full",
+    "local"
+  ],
+  "held_user": 1,
+  "validation_user": 2,
+  "cumulative_wall_seconds": 16603.92487456801,
+  "cumulative_cpu_seconds": 47173.445301721,
+  "observed_unix": 1793287442.1856883,
+  "training_labels_read": true,
+  "validation_labels_read": true,
+  "diagnostic_labels_read": true,
+  "users7_8_labels_used": false,
+  "arm": "local",
+  "epoch": 24,
+  "batch": 141,
+  "training_started": true,
+  "first_update_sha256": "67279ac44603e5b6e3fcf4f28f50e8c94b3e33d7a25b53235e558c595731cff1",
+  "train_loss_partial": 0.004107189286166451,
+  "last_checkpoint": "/workspace/uwb-mvglf-20261029/run01/local/last.pt",
+  "last_checkpoint_sha256": "e23601f33c2c67a8a80ec95685575bdf729dd8c598f198f5e137519ff9d7cb89",
+  "train_loss": 0.004034689138197598,
+  "validation_macro": 0.9650000000000001,
+  "validation_loss": 0.08907109498977661,
+  "best_validation_macro": 0.983,
+  "epoch_wall_seconds": 254.81658197299112,
+  "prediction_hashes": {
+    "full": "f68683a5356cf4dde12c8bdbfac9c6d0479d22dd35bbc40e2a94293e0873295d",
+    "local": "46de221591001cbd2c1c3ead5310e5e1d03eb1dbe31f527ee8e44b1c45173d4f"
+  }
+}

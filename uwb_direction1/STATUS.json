@@ -1,9 +1,9 @@
 {
-  "date_client": "2026-10-29",
+  "date_client": "2026-10-30",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "cloud_continuation_waiting_original_cnn",
+  "state": "local_source6_registered_ready",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,8 +13,8 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
-  "next_required_input": "Inspect actual controller42906 /workspace/uwb-multirocket-20261029/continuation02/STATE.json and original42028 first; neverduplicate whilealive. It serially completes/auditsCNN, runs/audits frozenMultiRocket. Aftergenuinecurrentresults, preservefinalprivateartifacts and prioritize separatelyfrozenmatchedsource-foldconfirmation if gatespass. A laterTimeMIL64epoch pairedpilot is implemented/preregistered at /workspace/uwb-timemil-20261029 (16frozenhashes,CPU12h) but no realfit or watcher; its explicitlaunch refuses unfinishedCNN/Multiqueue/audits. Do not manuallylaunch it alongsidecurrentqueue or skip realresultaudits. All7–8labels stayoutside methodselection; norescuegrids. Ifcontrollerfails inspectexactTERMINATIONlogs andrepairengineeringwithremainingbudget, notstatisticalretries.",
+  "background_training_running": false,
+  "next_required_input": "Verify new source6 registration/code/hashes and actual process state, then launch /workspace/uwb-localcnn-sixfold-20261029/launch.py --run once. Reuse held1 local, train five missing folds only;12hwall/36CPUh3threads. No newTimeMIL alongside it. OriginalCNN/Multi queue is complete and audited/privatebacked; do not restart formerjobs or mistake zombies fortraining. Close failedfull24/MultiRocketconfigs withoutrescue. Afterallfivepredictionfreezes, independently audit source6 checkpoint/roles/functionalpredictions/metrics beforeanygainclaim. Source6exploratory;7–8labels excluded. Goalstillunmet.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_timemil_preparation/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/REGISTRATION_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793286412.1817863,
-  "background_training_pid": 42028,
-  "background_training_status_note": "Original worker42028/supervisor42027 localepoch21/full24done, controller42906waiting. No complete diagnostic comparison or Multi/TimeMIL newrealfit yet.",
+  "background_training_pid": null,
+  "background_training_status_note": "Completed CNN full/local24 and MultiRocket fixed pilots; no active training at registration. Former42027/42906 are zombies,42028 exited. New localCNN source6 five-fold run registered but not yet launched.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Queued full-size corrected MultiRocket accuracy pilot; actual code/protocol frozen, synthetic/cost/budget checks passed. Real-data run waits original CNN queue complete/audited; published baseline, no novelty claim.",
-  "last_completed_update_utc": "2026-10-29T15:06:56.172901+00:00",
+  "next_candidate": "Eligible localConvMixerCNN source-sixfold baseline confirmation; reuseheld1,5missingfolds only. TimeMIL64epochprotocolalreadyprepared but waitsconfirmation. Knownbaselineaccuracywork, notnoveltyclaim.",
+  "last_completed_update_utc": "2026-10-29T16:11:39.690465+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T12:14:40.634677+00:00",
     "observed_executor_phase": "running",
@@ -2876,7 +2876,7 @@
     "diagnostic_labels_read": false,
     "latest_partial_audit": "uwb_direction1/results/cloud_20261029_mvglf_pilot/PARTIAL_AUDIT_20261029_1337.json",
     "audit_code": "uwb_direction1/research/mvglf_accuracy_20261029/audit.py",
-    "complete_forward_replay_executed": false,
+    "complete_forward_replay_executed": true,
     "latest_live_state_observed": {
       "state": "training",
       "pid": 42028,
@@ -2926,10 +2926,19 @@
       "checkpoint_sha256": "15a1143e6bce4bbe55a21ea0de2eb063ffc1dd71e326a8606c5f22a335af1c06",
       "prediction_sha256": "f68683a5356cf4dde12c8bdbfac9c6d0479d22dd35bbc40e2a94293e0873295d"
     },
-    "arm_transition_verification": "uwb_direction1/results/cloud_20261029_mvglf_pilot/ARM_TRANSITION_VERIFIED.json"
+    "arm_transition_verification": "uwb_direction1/results/cloud_20261029_mvglf_pilot/ARM_TRANSITION_VERIFIED.json",
+    "final_scores": {
+      "full": 0.9600000000000001,
+      "local": 0.9683333333333333,
+      "minirocket": 0.8533333333333335
+    },
+    "full_gate_passed": false,
+    "local_baseline_expansion_eligible": true,
+    "final_audit": "uwb_direction1/results/cloud_20261029_mvglf_pilot/COMPLETE_AUDIT.json",
+    "final_report": "uwb_direction1/results/cloud_20261029_mvglf_pilot/FINAL_REPORT.md"
   },
   "multirocket_accuracy_preparation": {
-    "state": "implemented_preregistered_synthetic_pass_real_run_not_started",
+    "state": "completed_and_independently_audited_gate_failed_exact_config_closed",
     "path": "/workspace/uwb-multirocket-20261029",
     "report": "uwb_direction1/results/cloud_20261029_multirocket_preparation/RUN_REPORT.md",
     "protocol_sha256": "fcd064648caebca71aae2efac8b55ad18f17f673e2f9db5e8a49d47dc4d22d7b",
@@ -2953,10 +2962,10 @@
     "validation_user": 2,
     "diagnostic_user": 1,
     "users7_8_labels_used": false,
-    "new_method_real_run_started": false,
+    "new_method_real_run_started": true,
     "result_auditor_implemented": true,
     "result_auditor_synthetic_checks_passed": true,
-    "real_complete_result_audit_executed": false,
+    "real_complete_result_audit_executed": true,
     "auto_continuation": {
       "pid": 42906,
       "actual_command_verified": true,
@@ -2969,25 +2978,63 @@
       "prior_stopped_preanalysis": true,
       "science_changed": false,
       "latest_observed_state": {
-        "pid": 42906,
-        "state": "waiting_for_original_cnn",
-        "analysis_started": false,
+        "pid": null,
+        "state": "complete_registered_queue",
+        "analysis_started": true,
         "controller_sha256": "ec6336e8ec23caea86c86f01ac7f3616bb08d21233479a06e285617934e050a1",
-        "cnn_audit_started": false,
-        "multirocket_started": false,
-        "multirocket_audit_started": false,
+        "cnn_audit_started": true,
+        "multirocket_started": true,
+        "multirocket_audit_started": true,
         "scientific_negative": false,
-        "observed_unix": 1793286412.794417,
-        "elapsed_wall_seconds": 4040.2513398439623,
-        "cnn_state_observed": "training",
+        "observed_unix": 1793287854.4605832,
+        "elapsed_wall_seconds": 5481.9175060749985,
+        "cnn_state_observed": "complete",
         "cnn_arm_observed": "local",
-        "cnn_epoch_observed": 21,
-        "original_worker_alive": true
+        "cnn_epoch_observed": 24,
+        "original_worker_alive": false,
+        "phase_argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/uwb-multirocket-20261029/audit_result.py",
+          "--out",
+          "/workspace/uwb-multirocket-20261029/COMPLETE_RESULT_AUDIT.json"
+        ],
+        "last_phase": "multirocket_audit01",
+        "last_phase_receipt": {
+          "pid": 43188,
+          "exit_code": 0,
+          "wall_timeout": false,
+          "supervisor_wall_seconds": 11.703897336963564,
+          "child_cpu_seconds": 11.666126999999975,
+          "cpu_soft_seconds": 870,
+          "cpu_hard_seconds": 890,
+          "scientific_negative": false
+        },
+        "cnn_audit_passed": true,
+        "cnn_scores": {
+          "full": 0.9600000000000001,
+          "local": 0.9683333333333333,
+          "minirocket": 0.8533333333333335
+        },
+        "cnn_gate_passed": false,
+        "multirocket_scores": {
+          "multirocket": 0.9441666666666667,
+          "minirocket": 0.85
+        },
+        "multirocket_gate_passed": false,
+        "new_scientific_experiments_started": 1,
+        "independent_validation": false,
+        "novel_contribution_validated": false,
+        "next_action": "preserve private artifacts, review frozen gates; any sixfold expansion requires a separate protocol"
       }
-    }
+    },
+    "final_scores": {
+      "multirocket": 0.9441666666666667,
+      "minirocket": 0.85
+    },
+    "gate_passed": false
   },
-  "background_continuation_running": true,
-  "background_continuation_pid": 42906,
+  "background_continuation_running": false,
+  "background_continuation_pid": null,
   "timemil_accuracy_preparation": {
     "state": "implemented_preregistered_synthetic_and_resume_pass_real_fit_not_started",
     "path": "/workspace/uwb-timemil-20261029",
@@ -3011,5 +3058,37 @@
     "users7_8_labels_used": false,
     "exact_paper_reproduction_claim": false,
     "original_contribution_validated": false
+  },
+  "local_source6_confirmation": {
+    "state": "registered_not_started",
+    "path": "/workspace/uwb-localcnn-sixfold-20261029",
+    "protocol_sha256": "b3633e607fc27365e6e7ab487ac6d0161b12cd112124bdf04a203236ca53d1df",
+    "reused_fold": 1,
+    "new_held_users": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "epochs": 24,
+    "new_trajectories": 5,
+    "seed": 20261029,
+    "threads": 3,
+    "estimated_wall_seconds": 38569.160197470104,
+    "wall_budget_seconds": 43200,
+    "cpu_budget_seconds": 129600,
+    "preflight_passed": true,
+    "real_training_started": false,
+    "report": "uwb_direction1/results/cloud_20261029_localcnn_source6/REGISTRATION_REPORT.md"
+  },
+  "final_queue_private_backup": {
+    "receipt": "uwb_direction1/results/cloud_20261029_mvglf_pilot/FINAL_QUEUE_DRIVE_BACKUP_RECEIPT.json",
+    "tracked_payload_files": 149,
+    "objects": 22,
+    "compressed_bytes": 156309271,
+    "archive_sha256": "fcf8dee9fa9b899033e38ffbabfa8ecf862017e7ba4e00c092197e6f18a9f07b",
+    "owner_only": true,
+    "remote_reassembly_and_members_verified": true
   }
 }

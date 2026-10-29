@@ -1,0 +1,49 @@
+{
+  "pid": null,
+  "state": "complete_registered_queue",
+  "analysis_started": true,
+  "controller_sha256": "ec6336e8ec23caea86c86f01ac7f3616bb08d21233479a06e285617934e050a1",
+  "cnn_audit_started": true,
+  "multirocket_started": true,
+  "multirocket_audit_started": true,
+  "scientific_negative": false,
+  "observed_unix": 1793287854.4605832,
+  "elapsed_wall_seconds": 5481.9175060749985,
+  "cnn_state_observed": "complete",
+  "cnn_arm_observed": "local",
+  "cnn_epoch_observed": 24,
+  "original_worker_alive": false,
+  "phase_argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-multirocket-20261029/audit_result.py",
+    "--out",
+    "/workspace/uwb-multirocket-20261029/COMPLETE_RESULT_AUDIT.json"
+  ],
+  "last_phase": "multirocket_audit01",
+  "last_phase_receipt": {
+    "pid": 43188,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 11.703897336963564,
+    "child_cpu_seconds": 11.666126999999975,
+    "cpu_soft_seconds": 870,
+    "cpu_hard_seconds": 890,
+    "scientific_negative": false
+  },
+  "cnn_audit_passed": true,
+  "cnn_scores": {
+    "full": 0.9600000000000001,
+    "local": 0.9683333333333333,
+    "minirocket": 0.8533333333333335
+  },
+  "cnn_gate_passed": false,
+  "multirocket_scores": {
+    "multirocket": 0.9441666666666667,
+    "minirocket": 0.85
+  },
+  "multirocket_gate_passed": false,
+  "new_scientific_experiments_started": 1,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "next_action": "preserve private artifacts, review frozen gates; any sixfold expansion requires a separate protocol"
+}
