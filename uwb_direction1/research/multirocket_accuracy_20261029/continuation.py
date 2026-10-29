@@ -7,7 +7,7 @@ from pathlib import Path
 from launch import bounded_run
 B=Path(__file__).resolve().parent
 C=Path('/workspace/uwb-mvglf-20261029')
-O=B/'continuation01'
+O=B/'continuation02'
 def sha(p):
  h=hashlib.sha256()
  with open(p,'rb') as f:
@@ -35,7 +35,7 @@ def main():
   state.update(kw);state.update(observed_unix=time.time(),elapsed_wall_seconds=time.monotonic()-started)
   p=O/'STATE.tmp';p.write_text(json.dumps(state,indent=2));p.replace(O/'STATE.json')
  def checked_phase(name,argv,wall,soft,hard):
-  record(state='running_'+name,phase_argv=argv)
+  record(state='running_'+name,phase_argv=argv,analysis_started=True)
   receipt=bounded_run(argv,O/name,wall,soft,hard)
   record(last_phase=name,last_phase_receipt=receipt)
   assert receipt['exit_code']==0 and not receipt['wall_timeout'],name+' incomplete; inspect exact receipt, do not retry automatically'
