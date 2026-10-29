@@ -1,3 +1,11 @@
+# Actual localCNNsource-sixfold confirmation launched and first update verified
+
+Registered1b8ffb10393682478718f8dee15f3c8c94528084 before launch. Actual worker43382/supervisor43381 at /workspace/uwb-localcnn-sixfold-20261029, held2/val3/train1,4,5,6 epoch1; onlyfive missingfolds2–6, reuseheld1. Firstrealupdateverified67changedtensors,finite,alloptimizerstep1,32training-onlyIDs/noheldvalIDs,SHAa9bbf3b5df24b21064614cb7a5ad53cdcafa034819a498dd7e4e1638ab181cb7; protocolb3633e607fc27365e6e7ab487ac6d0161b12cd112124bdf04a203236ca53d1df. No newfoldaccuracyscores; no7–8labels. Report results/cloud_20261029_localcnn_source6/LAUNCH_VERIFIED.md. Do notduplicate alivejob or runTimeMIL alongsideit. Afterallfivepredictionfreezes, independentlyauditallroles/checkpoints/functionallogits/metrics andprivatelypreservestates; norescuegrids/restartswithoutbudgetdiagnosis.
+
+Completed upstreamCNN/Multi/audits/privatebackup remainvalid: local96.8333/full96%,Multi94.4167/directMini85%; full/Multi gatesfailed, exactconfigsclosed, originalcontributionunvalidated. Source6isdescriptivebenchmarkconfirmation, notold8fold/improvement/independentvalidation. Currentclientdate updated to 2026-10-30 Asia/Shanghai fromactualUTCclock.
+
+---
+
 # Completed CNN/MultiRocket queue; eligible local baseline source-sixfold study registered
 
 Verified true results:fullCNN96.0000%,localCNN96.8333%,originalMini85.3333% on sourceheld1/train3–6/val2. Full-minus-local -0.8333pp fails full24epoch gate; exactconfigclosed, norescuegrid or claimabout100epochs. Local+11.5ppoverMini passes its separatebaseline-expansion criterion.93completefunctional/role/state/hash checks pass. MultiRocket94.4167% vsmatched directMini85.0000%,+9.4167pp but -2.4167ppvslocalCNN; its jointgatefails and exactconfigclosed. MatchedMini differsfromoriginalLSQR85.3333 by preregisteredreadout; no solverselection. Multiartifact/moments/objective/all2200logitsperarm/metrics auditpasses; extractionreplay6recordsperarmonly. No7–8labels; sourceexploratory, noold8foldcomparison/noveltyclaim.
