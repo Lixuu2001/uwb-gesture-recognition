@@ -1,0 +1,36 @@
+{
+  "synthetic_only": true,
+  "arms": {
+    "full": {
+      "times": [
+        2.911667002015747,
+        2.5612423500278965,
+        2.698344506905414,
+        2.718386586988345,
+        2.743622487061657
+      ],
+      "median_seconds": 2.718386586988345,
+      "output_parity": true,
+      "finite_gradients": true
+    },
+    "local": {
+      "times": [
+        1.3696875920286402,
+        1.3708478659391403,
+        1.4668194480473176,
+        1.5519084529951215,
+        1.4400784650351852
+      ],
+      "median_seconds": 1.4668194480473176,
+      "output_parity": true,
+      "finite_gradients": true
+    }
+  },
+  "estimated100epochs_wall_seconds": 92283.79307253635,
+  "budget_wall_seconds": 43200,
+  "full_100_epochs_passed": false,
+  "memory_format": "channels_last",
+  "threads": 3,
+  "model_sha256": "e03499c52f35ad0349acf20ce6a239a51464563261d1856c9fbac10d972c620c",
+  "script_sha256": "ed887b080e5381ff90b35110ad2121ec17bd337f69372449e8b85220e4024567"
+}

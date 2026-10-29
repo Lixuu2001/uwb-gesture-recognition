@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-29",
+  "candidate": "MV-GLFNet-style paper-informed reimplementation, not official/exact author reproduction",
+  "paper": "https://doi.org/10.3389/fnins.2026.1864448",
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "source_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "held_user": 1,
+  "validation_user": 2,
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "arms": [
+    "full",
+    "local"
+  ],
+  "seed": 20261029,
+  "epochs": 24,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0005,
+  "optimizer": "AdamW fixed LR, all parameters decay; unweighted crossentropy, no scheduler/augmentation/label smoothing",
+  "selection": "best validation present-class macro, then smaller validationCE, then earlier epoch; diagnostic labels indexed only after both prediction sets frozen",
+  "preprocessing": "Provided real clutter-removed cache, no secondMTI; bilinear64x128 align_cornersFalse, signed maps; each record/view RMS normalized after resize. No fitted cross-record preprocessing.",
+  "memory_format": "channels_last",
+  "threads": 3,
+  "deterministic_algorithms": true,
+  "wall_budget_seconds": 43200,
+  "cpu_budget_seconds": 129600,
+  "cost_gate_passed": true,
+  "estimated_wall_seconds": 22148.110337408725,
+  "cost_decision": "Paper100epochs estimated92283.8s with margin1.5 >12h; only synthetic outcomes existed. Freeze24epoch resource pilot estimated22148.1s; 100epoch paper result is not being reproduced. Failed24epoch pilot cannot rule out100epoch method.",
+  "model": {
+    "local_width": 256,
+    "local_depth": 4,
+    "local_patch": 2,
+    "depthwise_kernel": 3,
+    "local_output": 256,
+    "stem_channels": [
+      32,
+      64
+    ],
+    "stem_kernel": 3,
+    "global_projection": 256,
+    "global_patch": 2,
+    "global_tokens": 128,
+    "transformer_layers": 4,
+    "heads": 8,
+    "ffn_hidden": 1024,
+    "dropout": 0.1,
+    "bilinear_latent": 128,
+    "bilinear_output": 32,
+    "gating_hidden": 128,
+    "gating_activation": "ReLU",
+    "fusion_classifier_dim": 288
+  },
+  "unspecified_paper_choices": [
+    "depthwisekernel3",
+    "stemfirstwidth32 and kernel3",
+    "localFCoutput256",
+    "dropout0.1 and posinitstd0.02",
+    "bilinearoutput32",
+    "gatehidden128 ReLU",
+    "providedcluttercache versus rawMTI and perrecordnormalization",
+    "constantLR/noadditionalaugmentations",
+    "earlycheckpointselectiononourvalidationuser"
+  ],
+  "parameters": {
+    "full": 4498094,
+    "local": 350220
+  },
+  "minirocket_reference": "/workspace/uwb-accuracy-loop-20261029/run01/held1/predictions.npz",
+  "gate": "full minus local >=0.5pp and full>=matchedMiniRocket licenses new sixfold design only. Local baseline>=MiniRocket+1pp separately licenses matched baseline expansion; neither is original contribution or eightfoldconfirmation.",
+  "limits": [
+    "One fixed source diagnosticuser chosen by indexbeforeoutcomes, not untouched validation",
+    "All source users have development history",
+    "No users7/8 labels fit/select/score",
+    "Paper sixtrain/twotest98.29% not comparable to project LOSO93.4417%",
+    "No depth/seed/normalization/LR rescuegrid after diagnostic outcomes",
+    "Budget/engineering stops=incomplete not scientificnegative",
+    "No official authorcode found in bounded search; no authorcontact or accessbypass",
+    "No raw arrays/checkpoints in Git"
+  ]
+}

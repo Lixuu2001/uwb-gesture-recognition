@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "accuracy_loop_hydra_complete_stop_configuration",
+  "state": "mvglf_24epoch_pilot_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Implement a paper-faithful MV-GLFNet same-corpus strong CNN baseline: read original methods/tables/code availability, explicitly freeze missing implementation choices, source users1-6 only and matched roles/seed/validation selection; CPU cost and gradient checks before real training. Preserve checkpoints/logs/source IDs. No MiniRocket/HYDRA rescue grids; no7-8 label selection. Evaluate accuracy and originality separately per user's latest request.",
+  "next_required_input": "Launch frozen /workspace/uwb-mvglf-20261029/train.py only after checking process/lock/state. Monitor full/local24epochs held1/val2/train3-6, same seed20261029; diagnostic labels only after both predictions saved. Cost estimate6.15h, hard12hwall/36hCPU3threads. Source IDs/checkpoints local; preserve scientific choices. Resume only epoch checkpoint with matching identity and remaining budget, no duplicate start.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_hydra_accuracy/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/research/mvglf_accuracy_20261029/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Published MV-GLFNet (Xue etal2026 same UWB-Gestures) paper-faithful strong CNN; implementation and cost not started; prior art enables baseline experiment but prevents novelty claim.",
+  "next_candidate": "MV-GLFNet-style full vs local CNN fixed24epoch source pilot; 100epochCPUcost gate failed,24epochcost passed; implementation gaps declared; no accuracy outcomes.",
   "last_completed_update_utc": "2026-10-29 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
@@ -2837,5 +2837,37 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     }
+  },
+  "mvglf_source_pilot": {
+    "state": "preregistered",
+    "protocol": "uwb_direction1/research/mvglf_accuracy_20261029/PROTOCOL.json",
+    "workspace": "/workspace/uwb-mvglf-20261029",
+    "epochs": 24,
+    "paper_epochs": 100,
+    "arms": [
+      "full",
+      "local"
+    ],
+    "held_user": 1,
+    "validation_user": 2,
+    "training_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "seed": 20261029,
+    "full_parameters": 4498094,
+    "local_parameters": 350220,
+    "estimated_wall_seconds": 22148.110337408725,
+    "wall_budget_seconds": 43200,
+    "cpu_budget_seconds": 129600,
+    "finite_gradient_checks_passed": true,
+    "resume_bitwise_equality_passed": true,
+    "users7_8_labels_used": false,
+    "training_started": false,
+    "official_author_reproduction": false,
+    "independent_validation": false,
+    "novel_contribution_validated": false
   }
 }
