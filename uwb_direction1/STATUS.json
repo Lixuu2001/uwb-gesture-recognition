@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD3_BACKUP_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_tslanet_screen/REVIEW_AND_IMPLEMENTATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793305459.4335973,
+  "background_training_observed_unix": 1793310927.0810325,
   "background_training_pid": 43382,
-  "background_training_status_note": "Actual worker43382/supervisor43381 remains alive. Reusedheld1/newheld2/newheld3complete; nowheld4/validation5 epoch4. Newheld3checkpoint/optimizer/IDs/unscoredpredictions privatelypreserved andauthenticatedreadback/all31memberSHAverified. No aggregate diagnostic score or TimeMIL launch.",
+  "background_training_status_note": "Actual worker43382/supervisor43381 continues held4/val5 epoch24; folds1(reused),2,3 complete. No new diagnostic aggregate, duplicate training or TimeMIL launch. Separately reviewed/pinned TSLANet and executed synthetic full UEA-scale core only; no real TSLANet fitting/protocol/cost gate.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Eligible localConvMixerCNN source-sixfold baseline confirmation; reuseheld1,5missingfolds only. TimeMIL64epochprotocolalreadyprepared but waitsconfirmation. Knownbaselineaccuracywork, notnoveltyclaim.",
-  "last_completed_update_utc": "2026-10-29T20:24:51.547Z",
+  "last_completed_update_utc": "2026-10-29T21:56:31.715Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -3110,13 +3110,13 @@
       ],
       "users7_8_labels_used": false,
       "all_new_diagnostic_predictions_frozen": false,
-      "wall_seconds": 14942.807020495995,
-      "cpu_seconds": 43944.471359549,
-      "observed_unix": 1793305459.4335973,
+      "wall_seconds": 20410.454456548905,
+      "cpu_seconds": 60076.749373848,
+      "observed_unix": 1793310927.0810325,
       "held_user": 4,
       "validation_user": 5,
-      "epoch": 4,
-      "batch": 21
+      "epoch": 24,
+      "batch": 81
     },
     "first_update_receipt": "uwb_direction1/results/cloud_20261029_localcnn_source6/FIRST_UPDATE_VERIFIED.json",
     "first_update_sha256": "a9bbf3b5df24b21064614cb7a5ad53cdcafa034819a498dd7e4e1638ab181cb7",
@@ -3174,5 +3174,33 @@
     "archive_sha256": "fcf8dee9fa9b899033e38ffbabfa8ecf862017e7ba4e00c092197e6f18a9f07b",
     "owner_only": true,
     "remote_reassembly_and_members_verified": true
+  },
+  "tslanet_author_core_screen": {
+    "state": "paper_code_review_and_executable_synthetic_prototype_only_no_real_protocol",
+    "workspace": "/workspace/uwb-tslanet-screen-20261029",
+    "report": "uwb_direction1/results/cloud_20261029_tslanet_screen/REVIEW_AND_IMPLEMENTATION.md",
+    "author_commit": "ca0e88416d3ae49fd50e399c44ae94868378a94d",
+    "timm_commit": "78c3724f4545c0067d0b4d2f7df6337196be01ce",
+    "paper": "https://proceedings.mlr.press/v235/eldele24a.html",
+    "read_scope": "Paper methods3.2-3.6 andAppendixD1-D3/E1; originalclassificationcore/driver/dataloader/masking utility and run_datasets.sh; not full-paper review.",
+    "parameters": 4132879,
+    "embedding": 256,
+    "depth": 3,
+    "channels": 567,
+    "time_points": 90,
+    "patch_size": 8,
+    "patches": 21,
+    "source_scale": "Author UEA command; distinct from CLI128/2 defaults; no architectural shrinking",
+    "synthetic_forward_backward_passed": true,
+    "independent_numpy_spectral_forward_verified": true,
+    "stochastic_model_optimizer_torch_rng_resume_bitwise": true,
+    "real_UWB_values_labels_read": false,
+    "real_training_started": false,
+    "real_protocol_registered": false,
+    "real_cost_gate_passed": false,
+    "automatic_launch": false,
+    "priority": "Later candidate only; current source-sixfold must finish/audit first, then resolve already prepared TimeMIL. No additional real fit while current job runs.",
+    "original_contribution_validated": false,
+    "accuracy_improvement_validated": false
   }
 }
