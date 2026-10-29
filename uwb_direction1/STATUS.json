@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_method_gate_refresh/DECISION_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_cross_range_coupling_gate/DECISION_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -2755,5 +2755,18 @@
       "Kim et al. 2026 IEEE Access DOI 10.1109/ACCESS.2026.3671243",
       "Maršálek et al. 2023 Sensors DOI 10.3390/s23042224"
     ]
+  },
+  "latest_candidate_gate_20261029_cross_range_coupling": {
+    "date": "2026-10-29",
+    "report": "uwb_direction1/results/cloud_20261029_cross_range_coupling_gate/DECISION_NOTE.md",
+    "hypothesis": "neighboring range-bin envelope co-modulation in a single-view clutter-removed range-time map",
+    "literature_scope": "bounded targeted search; no exact descriptor hit, but generic correlation/texture and same-corpus spatiotemporal modeling make novelty unclear",
+    "candidates_cleared": 0,
+    "candidate_cleared": false,
+    "training_started": false,
+    "data_values_or_labels_read": false,
+    "process_active": false,
+    "checkpoint_found": false,
+    "contribution_validated": false
   }
 }
