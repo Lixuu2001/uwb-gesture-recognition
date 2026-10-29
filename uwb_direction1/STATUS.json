@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_cross_range_coupling_gate/DECISION_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_transfer_entropy_gate/DECISION_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -2768,5 +2768,19 @@
     "process_active": false,
     "checkpoint_found": false,
     "contribution_validated": false
+  },
+  "latest_candidate_gate_20261029_transfer_entropy": {
+    "date": "2026-10-29",
+    "report": "uwb_direction1/results/cloud_20261029_transfer_entropy_gate/DECISION_NOTE.md",
+    "hypothesis": "single-view lagged directed predictive information (transfer entropy) between neighboring range-bin envelope traces",
+    "literature_scope": "bounded primary-source review: Schreiber 2000 general TE; Ritchie & Jones 2019 multi-range gesture representation; Xue et al. 2026 same-corpus time-range modeling; two targeted exact-term searches",
+    "candidates_cleared": 0,
+    "candidate_cleared": false,
+    "training_started": false,
+    "data_values_or_labels_read": false,
+    "process_active": false,
+    "checkpoint_found": false,
+    "contribution_validated": false,
+    "disposition": "closed before implementation/fit; generic estimator application, limited 90-frame traces, and absent kinematic truth do not clear novelty/physical-verification gates"
   }
 }
