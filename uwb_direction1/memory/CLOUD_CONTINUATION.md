@@ -1,3 +1,9 @@
+# 2026-10-29 UTC — cross-range-bin co-modulation candidate gate
+
+A bounded source search screened neighboring range-bin envelope co-modulation as a phase-free, single-view candidate observable in the clutter-removed maps. No exact IR-UWB descriptor hit was found, but the feature is generic second-order texture/correlation and overlaps established magnitude/TOA descriptors, hand localization, and the same-corpus global/local time-range model. Without kinematic truth, a gain would not verify the proposed physical explanation. Candidate not cleared; no arrays, labels, fitting, training, or parameter search were used. Decision note: `uwb_direction1/results/cloud_20261029_cross_range_coupling_gate/DECISION_NOTE.md`. This is a bounded no-go for this candidate, not a conclusion that all current-data methods are impossible.
+
+---
+
 # 2026-10-28 UTC — single-view mechanism gate reconciliation
 
 A read-only synthesis of prior literature/engineering gates found no eligible candidate among the already screened local echo matching, range-ridge/energy/area, range-time trajectory, range-resolved recurrence/RQA, temporal-reversal label mapping, and generic multiview/evidence fusion routes. The 2026-10-04 local echo diagnostic passed its joint gate for 0/6 source users in each view and did not evaluate classifier accuracy; this closes only that registered matching configuration. The other routes were closed by direct radar/UWB or same-corpus prior art, missing physical ground truth, or both. Current restore metadata supports only real-valued clutter-removed maps of shape [9593,3,90,189], without raw complex echoes or calibrated/synchronized hand trajectories.
