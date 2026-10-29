@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-29",
+  "candidate": "MultiRocket full default feature scale, aeon1.6.0 corrected multivariate implementation",
+  "paper_doi": "10.1007/s10618-022-00844-1",
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "source_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "seed": 20261029,
+  "arms": [
+    "multirocket49728",
+    "minirocket9996_same_readout"
+  ],
+  "multirocket": {
+    "aeon": "1.6.0",
+    "n_kernels": 6250,
+    "max_dilations_per_kernel": 32,
+    "n_features_per_kernel": 4,
+    "actual_features": 49728,
+    "normalise": false,
+    "n_jobs": 1
+  },
+  "input": "all three signed clutterremoved views, all189 range bins as567 channels,90 slow-time frames; no smoothing, standardization or extra MTI on input",
+  "readout": "Unweighted training-only StandardScaler, user/class balanced weights normalized mean1, ridge alpha1, weighted intercept, float64 Cholesky dual solve with relative normal-equation residual <1e-8; same for both arms. No alpha/feature/seed search.",
+  "selection": "No fitted hyperparameter selection. Validation user2 only reported. All fitted states and both unscored predictions are frozen before diagnostic user1 labels are indexed. No users7-8 labels.",
+  "minirocket_code": "/workspace/uwb-accuracy-loop-20261029/vendor/minirocket/code/minirocket_multivariate.py",
+  "minirocket_code_sha256": "e48c16b9b9b122d3794638d4e01303396c2db76f44b561b6cd6b21331035d940",
+  "minirocket_parameters": "/workspace/uwb-accuracy-loop-20261029/run01/held1/transform.npz",
+  "minirocket_parameters_sha256": "8680f03e033559cc5265bb799c58ce98321fc02faf4fc4b85ee217c8fe1042f8",
+  "previous_state": "/workspace/uwb-mvglf-20261029/run01/STATE.json",
+  "previous_summary": "/workspace/uwb-mvglf-20261029/run01/SUMMARY.json",
+  "previous_complete_audit": "/workspace/uwb-mvglf-20261029/COMPLETE_AUDIT.json",
+  "gate": "MultiRocket-minus-matchedMiniRocket >=0.5pp AND MultiRocket >= max(fullCNN,localCNN)-0.5pp. This only licenses a separately registered source-sixfold study. Otherwise close this exact configuration; no rescue grids.",
+  "threads": 1,
+  "cpu_budget_seconds": 1800,
+  "wall_budget_seconds": 1800,
+  "cost_gate": "synthetic-only 3x estimate <1700s; independent supervisor child1790wall+3sgrace within1800wall; process CPU1780soft/1790hard from pre-exec including imports; preserve incomplete terminal receipt/partial files on timeout; no scientific negative from engineering stops",
+  "launch": "Explicit python launch.py --run only after prior full/local24epoch CNN queue complete and independently audited. No next real-data fitting has been started.",
+  "limits": [
+    "Exploratory repeated source development, not untouched validation.",
+    "No original-method contribution claimed; published-method baseline transfer.",
+    "Paper mainly univariate UCR evidence does not establish radar effectiveness.",
+    "Corrected aeon transform is not bitwise original buggy author implementation.",
+    "New readout is a declared fixed adapter, not exact author classifier reproduction.",
+    "Difference traces are signal changes, not measured velocity or acceleration.",
+    "Partial/timeout is incomplete, never a scientific negative.",
+    "No raw arrays, fitted transforms, sample IDs or tensors in Git."
+  ]
+}

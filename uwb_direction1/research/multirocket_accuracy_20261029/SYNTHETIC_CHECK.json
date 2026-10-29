@@ -1,0 +1,24 @@
+{
+  "state": "pass",
+  "synthetic_only": true,
+  "uwb_arrays_or_labels_read": false,
+  "shape": [
+    4,
+    49728
+  ],
+  "full_size_features": 49728,
+  "deterministic_parameters": true,
+  "batch_invariant": true,
+  "public_api_parity": true,
+  "pickle_replay_exact": true,
+  "weighted_dual_ridge_matches_sklearn": true,
+  "normal_equation_relative_residual": 1.3685497259207277e-15,
+  "transform4_including_compilation_seconds": 27.00299842201639,
+  "warm_transform4_seconds": 0.07357439293991774,
+  "aeon_version": "1.6.0",
+  "numba_version": "0.63.1",
+  "llvmlite_version": "0.46.0",
+  "wall_seconds": 41.256181044038385,
+  "cpu_seconds": 43.629411369,
+  "adapter_sha256": "5cd2847fdaa2acf0c8b044f0e8e2377ef274fb71f86809e721b7988f6a40105a"
+}

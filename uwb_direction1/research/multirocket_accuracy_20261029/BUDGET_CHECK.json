@@ -1,0 +1,29 @@
+{
+  "state": "pass",
+  "synthetic_only": true,
+  "uwb_arrays_or_labels_read": false,
+  "wall_timeout_terminal_receipt": true,
+  "cpu_limit_terminal_receipt": true,
+  "partial_artifact_retained": true,
+  "scientific_negative": false,
+  "wall_case": {
+    "pid": 42775,
+    "exit_code": -15,
+    "wall_timeout": true,
+    "supervisor_wall_seconds": 0.2530982450116426,
+    "child_cpu_seconds": 0.028485999999999997,
+    "cpu_soft_seconds": 3,
+    "cpu_hard_seconds": 4,
+    "scientific_negative": false
+  },
+  "cpu_case": {
+    "pid": 42776,
+    "exit_code": -24,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 1.019464276963845,
+    "child_cpu_seconds": 1.01172,
+    "cpu_soft_seconds": 1,
+    "cpu_hard_seconds": 2,
+    "scientific_negative": false
+  }
+}

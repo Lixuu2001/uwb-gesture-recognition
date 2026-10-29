@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": true,
-  "next_required_input": "Monitor original worker42028/supervisor42027 and run01/STATE.json; full24 then local24 remain frozen. Do not duplicate/restart. After both complete receipts, SUMMARY and STATEcomplete exist, run independent audit.py with fresh complete output before scientific conclusions. Recovery index results/cloud_20261029_mvglf_pilot/DRIVE_BACKUP_RECEIPT.json preserves immutable full epoch11 optimizer/RNG snapshot; only diagnosed dead/incomplete-job resume with remaining budget is allowed. Continue accuracy-first literature/experiment loop under latest user authorization; no7–8label selection or rescue grids.",
+  "next_required_input": "Monitor original local24 queue; do not duplicate. Once SUMMARY/STATEcomplete and both ARM_COMPLETE exist, run independent audit.py to fresh /workspace/uwb-mvglf-20261029/COMPLETE_AUDIT.json before applying frozen CNN gate. Full arm completed24, selected17, partial35checks pass, no diagnostic score. A full-scale MultiRocket source pilot is preregistered/implemented with passed synthetic/cost/budget/queue checks at /workspace/uwb-multirocket-20261029; no realrun yet. Its explicit launch.py --run guard requires entireCNNcomplete/auditpass and no existingMulti run. Verify13frozenhashes first; do not overlap or rescuegrid. Continue latest-user accuracy-first loop; no7–8label selection.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_mvglf_pilot/CHECKPOINT_BACKUP_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_mvglf_pilot/FULL_ARM_COMPLETE_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793276076.365641,
+  "background_training_observed_unix": 1793281267.4415374,
   "background_training_pid": 42028,
-  "background_training_status_note": "Actual original worker42028/supervisor42027 alive at12:14UTC; full epoch13, local24 queued. Immutable epoch11 checkpoint privately backed up and verified. No completed diagnostic score yet; do not duplicate alive job.",
+  "background_training_status_note": "Original worker42028/supervisor42027: full24 completed/unscoredpredictions frozen, localepoch2 running. No diagnostic scoring yet; no duplicate/newrealmethodjob.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "2026-10-28: full publisher article for Xue et al., Front Neurosci 20 (2026) 1864448, DOI 10.3389/fnins.2026.1864448, directly establishes same-corpus three-view global/local adaptive fusion prior art; protocol is 6/2, not matched to project LOSO. See results/cloud_20261028_mv_glf_direct_same_corpus_prior_art/DECISION_NOTE.md.",
+  "latest_literature_note": "MultiRocket Tan et al.2022 DOI10.1007/s10618-022-00844-1: publisher abstract/introduction/method3.1–3.5 plus author multivariate source/driver read; not fullpaper. Maintainedfix evidence aeon2967/3003 and authorcomment. Fullscale practical baseline preparation, not novelmethod claim.",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "MV-GLFNet-style full vs local CNN fixed24epoch source pilot; 100epochCPUcost gate failed,24epochcost passed; implementation gaps declared; no accuracy outcomes.",
-  "last_completed_update_utc": "2026-10-29T12:14:40.634677+00:00",
+  "next_candidate": "Queued full-size corrected MultiRocket accuracy pilot; actual code/protocol frozen, synthetic/cost/budget checks passed. Real-data run waits original CNN queue complete/audited; published baseline, no novelty claim.",
+  "last_completed_update_utc": "2026-10-29T13:41:12.836443+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T12:14:40.634677+00:00",
     "observed_executor_phase": "running",
@@ -2874,44 +2874,38 @@
     "first_update_checkpoint_sha256": "723aee3b7a9d4d6c8a47a6b822324619e590a999464f2858e6be85b38db7fe76",
     "report": "uwb_direction1/results/cloud_20261029_mvglf_pilot/RUN_REPORT.md",
     "diagnostic_labels_read": false,
-    "latest_partial_audit": {
-      "report": "uwb_direction1/results/cloud_20261029_mvglf_pilot/PARTIAL_AUDIT_20261029_1115.json",
-      "scope": "partial_no_diagnostic_label_access",
-      "checks_passed": 36,
-      "full_last_epoch": 3,
-      "selected_epoch": 3,
-      "optimizer_steps": 441,
-      "diagnostic_labels_indexed": false
-    },
+    "latest_partial_audit": "uwb_direction1/results/cloud_20261029_mvglf_pilot/PARTIAL_AUDIT_20261029_1337.json",
     "audit_code": "uwb_direction1/research/mvglf_accuracy_20261029/audit.py",
     "complete_forward_replay_executed": false,
     "latest_live_state_observed": {
       "state": "training",
       "pid": 42028,
       "resume": false,
-      "completed_arms": [],
+      "completed_arms": [
+        "full"
+      ],
       "held_user": 1,
       "validation_user": 2,
-      "cumulative_wall_seconds": 5238.104823914939,
-      "cumulative_cpu_seconds": 14593.099990684,
-      "observed_unix": 1793276076.365641,
+      "cumulative_wall_seconds": 10429.180720226024,
+      "cumulative_cpu_seconds": 29081.184163513,
+      "observed_unix": 1793281267.4415374,
       "training_labels_read": true,
       "validation_labels_read": true,
       "diagnostic_labels_read": false,
       "users7_8_labels_used": false,
-      "arm": "full",
-      "epoch": 13,
-      "batch": 111,
+      "arm": "local",
+      "epoch": 2,
+      "batch": 11,
       "training_started": true,
-      "first_update_sha256": "723aee3b7a9d4d6c8a47a6b822324619e590a999464f2858e6be85b38db7fe76",
-      "train_loss_partial": 0.03930786652861505,
-      "last_checkpoint": "/workspace/uwb-mvglf-20261029/run01/full/last.pt",
-      "last_checkpoint_sha256": "b5d60c0f4d19229b45d7c852f139709fab22fdc51c6473e0a5788349f1581182",
-      "train_loss": 0.009138304587302512,
-      "validation_macro": 0.867,
-      "validation_loss": 0.5906745791435242,
-      "best_validation_macro": 0.9559999999999998,
-      "epoch_wall_seconds": 428.0966457030736
+      "first_update_sha256": "67279ac44603e5b6e3fcf4f28f50e8c94b3e33d7a25b53235e558c595731cff1",
+      "train_loss_partial": 0.15466676381501285,
+      "last_checkpoint": "/workspace/uwb-mvglf-20261029/run01/local/last.pt",
+      "last_checkpoint_sha256": "6b2703b935a18382c817295b7656a8d57f5ebfb225af435e867138741b0d92c1",
+      "train_loss": 0.7590884752730106,
+      "validation_macro": 0.5589999999999999,
+      "validation_loss": 1.8069219589233398,
+      "best_validation_macro": 0.5589999999999999,
+      "epoch_wall_seconds": 256.81375571200624
     },
     "private_partial_checkpoint_backup": {
       "report": "uwb_direction1/results/cloud_20261029_mvglf_pilot/CHECKPOINT_BACKUP_NOTE.md",
@@ -2924,6 +2918,41 @@
       "members_verified": 38,
       "owner_only": true,
       "remote_reassembly_verified": true
-    }
+    },
+    "full_arm_complete": {
+      "epochs": 24,
+      "selected_epoch": 17,
+      "best_validation_macro": 0.9690000000000001,
+      "checkpoint_sha256": "15a1143e6bce4bbe55a21ea0de2eb063ffc1dd71e326a8606c5f22a335af1c06",
+      "prediction_sha256": "f68683a5356cf4dde12c8bdbfac9c6d0479d22dd35bbc40e2a94293e0873295d"
+    },
+    "arm_transition_verification": "uwb_direction1/results/cloud_20261029_mvglf_pilot/ARM_TRANSITION_VERIFIED.json"
+  },
+  "multirocket_accuracy_preparation": {
+    "state": "implemented_preregistered_synthetic_pass_real_run_not_started",
+    "path": "/workspace/uwb-multirocket-20261029",
+    "report": "uwb_direction1/results/cloud_20261029_multirocket_preparation/RUN_REPORT.md",
+    "protocol_sha256": "fcd064648caebca71aae2efac8b55ad18f17f673e2f9db5e8a49d47dc4d22d7b",
+    "features": 49728,
+    "aeon_version": "1.6.0",
+    "numba_version": "0.63.1",
+    "llvmlite_version": "0.46.0",
+    "upstream_multivariate_bug_confirmed": true,
+    "synthetic_checks_passed": true,
+    "budget_self_tests_passed": true,
+    "queue_guard_exercised": true,
+    "estimated_wall_seconds": 924.8034902719231,
+    "cpu_budget_seconds": 1800,
+    "wall_budget_seconds": 1800,
+    "training_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "users7_8_labels_used": false,
+    "new_method_real_run_started": false
   }
 }
