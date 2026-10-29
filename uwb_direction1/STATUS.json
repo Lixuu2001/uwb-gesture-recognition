@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "accuracy_first_experiment_completed_next_candidate",
+  "state": "accuracy_loop_hydra_complete_stop_configuration",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Continue HYDRA primary-method and author multivariate code review, freeze one default config/seed, compatibility and CPU-cost gate, run same six source-user roles and save matched controls. Complete strong CNN matched baseline before any improvement claim/eightfold. No MiniRocket bank/seed/alpha rescue grid. User7-8 labels remain excluded from selection.",
+  "next_required_input": "Implement a paper-faithful MV-GLFNet same-corpus strong CNN baseline: read original methods/tables/code availability, explicitly freeze missing implementation choices, source users1-6 only and matched roles/seed/validation selection; CPU cost and gradient checks before real training. Preserve checkpoints/logs/source IDs. No MiniRocket/HYDRA rescue grids; no7-8 label selection. Evaluate accuracy and originality separately per user's latest request.",
   "remaining_user_goal": "At least one original, effective, reproducible and literature-supported contribution remains unvalidated. The Figshare UWB_HGR item is a processed release of the same UWB-Gestures corpus, not independent external validation. Same-corpus multi-view/global-local fusion is preempted. Current cloud lacks acquisition hardware and independent calibrated/synchronized measurements; continue only with a distinct literature-cleared method and a feasible frozen protocol.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_hydra_accuracy/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1791378328.75244,
   "background_training_pid": null,
-  "background_training_status_note": "Full MiniRocket source run completed, 6 folds,12 readouts,93 audit checks. No active job after completion. CPU torch2.15.0 installed; installation is not training.",
+  "background_training_status_note": "MiniRocket and HYDRA source screens complete; direct HYDRA numerical completion verified. No active training. CPU PyTorch2.15.0 available.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "HYDRA default competing-kernel dictionary features; author multivariate extension experimental; code/cost validation pending; not started.",
+  "next_candidate": "Published MV-GLFNet (Xue etal2026 same UWB-Gestures) paper-faithful strong CNN; implementation and cost not started; prior art enables baseline experiment but prevents novelty claim.",
   "last_completed_update_utc": "2026-10-29 UTC",
   "latest_environment_preflight": {
     "report": "uwb_direction1/results/cloud_20261026_signal_input_inventory/RUN_REPORT.md",
@@ -2798,7 +2798,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "source_experiment_complete",
+    "state": "two_source_experiments_complete_no_cnn_improvement_validated",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2818,7 +2818,24 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "HYDRA",
-    "next_method_started": false
+    "next_method": "MV-GLFNet strong CNN baseline",
+    "next_method_started": false,
+    "last_method": "HYDRA",
+    "hydra": {
+      "state": "complete_stop_exact_configuration",
+      "mean_macro_recall": 0.577060606060606,
+      "matched_minirocket_mean": 0.7853358585858586,
+      "mean_gain_vs_mini": -0.20827525252525259,
+      "wins": 0,
+      "gate_passed": false,
+      "numerical_completion_verified": true,
+      "original_truncated_score": 0.6609242424242425,
+      "cumulative_cpu_seconds": 121.137212218,
+      "original_audit_checks": 99,
+      "completion_audit_checks": 90,
+      "report": "uwb_direction1/results/cloud_20261029_hydra_accuracy/RUN_REPORT.md",
+      "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
+      "strong_cnn_improvement_validated": false
+    }
   }
 }
