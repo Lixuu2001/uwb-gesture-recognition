@@ -1,0 +1,14 @@
+test_complete_metadata_never_decodes_sentinel_arrays (test_audit.GuardTests.test_complete_metadata_never_decodes_sentinel_arrays) ... ok
+test_missing_prediction_freeze_rejected (test_audit.GuardTests.test_missing_prediction_freeze_rejected) ... ok
+test_running_guard_precedes_all_array_access (test_audit.GuardTests.test_running_guard_precedes_all_array_access) ... ok
+test_tampered_prediction_rejected (test_audit.GuardTests.test_tampered_prediction_rejected) ... ok
+test_unsuccessful_supervisor_rejected (test_audit.GuardTests.test_unsuccessful_supervisor_rejected) ... ok
+test_gate_all_three_conditions (test_audit.StatisticsTests.test_gate_all_three_conditions) ... ok
+test_missing_class_macro_and_unequal_counts (test_audit.StatisticsTests.test_missing_class_macro_and_unequal_counts) ... ok
+test_source_split_exact_order_and_contamination (test_audit.StatisticsTests.test_source_split_exact_order_and_contamination) ... ok
+test_validation_ties_ignore_diagnostic_results (test_audit.StatisticsTests.test_validation_ties_ignore_diagnostic_results) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.027s
+
+OK

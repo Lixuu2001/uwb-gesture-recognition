@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-localcnn-sixfold-20261029/audit_launch.py", line 33, in <module>
+    main()
+  File "/workspace/uwb-localcnn-sixfold-20261029/audit_launch.py", line 13, in main
+    require_complete(BASE)
+  File "/workspace/uwb-localcnn-sixfold-20261029/audit_complete.py", line 36, in require_complete
+    raise RuntimeError('not_ready: training not complete')
+RuntimeError: not_ready: training not complete
