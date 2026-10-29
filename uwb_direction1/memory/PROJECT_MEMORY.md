@@ -1,3 +1,13 @@
+# 2026-10-29 — held4 completed and privately preserved; original job continues
+
+Actual worker 43382 / supervisor 43381 remains alive. Reused held1 and newly trained held2–4 are complete; now held5 / validation6 epoch24. Held4 completed the unchanged24 epochs and validation-user5 selected epoch24. Best SHA64831f291c2c68a8ef13d3876ccf7e3e9c07ecb0644fac61416587ea55b78544; unscored prediction SHA618c1be35027b07283ae368b08f1299db230d8293af710859621d7e6e80e2fae. No new diagnostic accuracy was decoded or used for choices. All12 scientific hashes still match; no duplicate training, new real trial or TimeMIL launch.
+
+Completed held4 private backup passed all checks:31 tracked payload files plus MEMBERS.json,10553068 compressed bytes,two<=7MiB chunks. Original folder and uploaded chunk metadata owner-only/parent/size verified; authenticated raw fetch with base64 disabled, immediate materialization/SHA, downloaded reassembly and all31 payload hashes pass. Archive SHAd7d38a2b9c138a989649d4a13ee534c8ce3732d9f0f618a9af6c982c7b29c2ab. Recovery index results/cloud_20261029_localcnn_source6/HELD4_DRIVE_BACKUP_RECEIPT.json; report HELD4_BACKUP_NOTE.md; local backup_held4_20261029 under current study workspace. Exact model/optimizer/RNG/IDs/logs/unscored predictions and prerequisites included; raw maps/live held5/remaining folds excluded. Not a whole-job resume snapshot; never duplicate/restart the alive worker. Prior held2/3 backups remain valid. No arrays, model tensors or sample-ID values in Git; no signed URLs retained or sharing changes.
+
+Continue original budget/configuration. Real complete-sixfold audit has not run: wait allfive new prediction freezes and successful training-supervisor termination, run prepared audit_launch.py --run once, privately preserve remaining states and apply the frozen descriptive gate. TimeMIL stays prepared/unlaunched; TSLANet is a later synthetic prototype without real protocol/cost gate. No7–8 labels used. Source results remain exploratory; no old-eightfold/independent-validation/original-contribution conclusion. Goal unresolved; continuation enabled.
+
+---
+
 # 2026-10-29 — TSLANet author-core prototype verified with synthetic tensors; original training continues
 
 Actual localCNN worker43382/supervisor43381 remains active held4/validation5 epoch24; reused held1 and newheld2/3 complete. No new diagnostic accuracy aggregate or configuration change, no duplicate model fit and no TimeMIL launch. Continue this original job; current sixfold audit still waits all predictions and successful training-supervisor termination. Existing private held2/3 backups remain valid.
