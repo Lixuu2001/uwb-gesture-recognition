@@ -1,3 +1,13 @@
+# 2026-10-29 — first new source fold completed and privately preserved
+
+Original worker 43382 / supervisor 43381 remains alive. Reused held1 and newly trained held2 are complete; held3 / validation4 is at epoch 3. Held2 completed the unchanged 24 epochs, validation-only selected epoch23, best SHA28f289c56dd0ce6aeb1b3d62c90831d858a1c2534497394301b5618df6afc7ff, unscored prediction SHA2efa6448f5bc4a39fa62aa76e9fd6bafba4427d4b1f3eb5f5b29520a63a8dff0. No new diagnostic accuracy was decoded or used for choices. Original 12 frozen hashes still match; no duplicate launch or scientific change.
+
+Privately preserved completed held2: 31 tracked payload files plus MEMBERS.json, 10540109 compressed bytes, two <=7MiB chunks in the original owner-only Drive folder. Both chunks passed metadata/parent/size checks, authenticated raw fetch with base64 disabled, materialization/SHA, remote reassembly and all31 member hashes. Archive SHA88bbf918595bbe92273ee208468b125b0b8791c5db4043fde76890ed30a3f509. Exact models/optimizer/RNG, split IDs, unscored predictions, logs and code included; no raw maps or arrays/models/IDs in Git. Recovery receipt results/cloud_20261029_localcnn_source6/HELD2_DRIVE_BACKUP_RECEIPT.json, report HELD2_BACKUP_NOTE.md; local backup_held2_20261029 under current study workspace. This bundle excludes live held3 and remaining folds: not a complete job-resume snapshot, never use it to duplicate the alive worker.
+
+All remaining folds continue under the unchanged budget. Complete sixfold audit remains prepared, NOT executed; wait successful worker/supervisor termination and all five prediction freezes, run audit_launch.py --run once, preserve remaining artifacts privately and apply the frozen gate. TimeMIL stays prepared/unlaunched. Users7–8 labels unused; source results exploratory, no eightfold/independent-validation/original-contribution conclusion. Overall goal unresolved; continuation remains enabled.
+
+---
+
 # 2026-10-29 — completed-run source-sixfold verifier prepared; original training continues
 
 Actual cloud worker 43382 / supervisor 43381 remains alive at held2 / validation3, epoch 13; only held1 is completed and reused. No new diagnostic scores were opened. No extra training, candidate, seed or grid was started; original 12 frozen hashes still match. Completed CNN/Multi results and private backup remain valid.
