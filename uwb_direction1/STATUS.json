@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_timemil_preparation/AUDIT_PREPARATION.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD3_BACKUP_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793301208.1437726,
+  "background_training_observed_unix": 1793305459.4335973,
   "background_training_pid": 43382,
-  "background_training_status_note": "Actual worker 43382 / supervisor 43381 remains alive: completed source folds1(reused),2; held3/val4 epoch12. No new diagnostic aggregate; unchanged training budget/configuration. TimeMIL result auditor prepared/synthetic tests pass, but TimeMIL fitting and its real audit have not started.",
+  "background_training_status_note": "Actual worker43382/supervisor43381 remains alive. Reusedheld1/newheld2/newheld3complete; nowheld4/validation5 epoch4. Newheld3checkpoint/optimizer/IDs/unscoredpredictions privatelypreserved andauthenticatedreadback/all31memberSHAverified. No aggregate diagnostic score or TimeMIL launch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Eligible localConvMixerCNN source-sixfold baseline confirmation; reuseheld1,5missingfolds only. TimeMIL64epochprotocolalreadyprepared but waitsconfirmation. Knownbaselineaccuracywork, notnoveltyclaim.",
-  "last_completed_update_utc": "2026-10-29T19:14:30.358Z",
+  "last_completed_update_utc": "2026-10-29T20:24:51.547Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -3105,17 +3105,18 @@
       "pid": 43382,
       "completed_folds": [
         1,
-        2
+        2,
+        3
       ],
       "users7_8_labels_used": false,
       "all_new_diagnostic_predictions_frozen": false,
-      "wall_seconds": 10691.517195990891,
-      "cpu_seconds": 31414.995454761,
-      "observed_unix": 1793301208.1437726,
-      "held_user": 3,
-      "validation_user": 4,
-      "epoch": 12,
-      "batch": 111
+      "wall_seconds": 14942.807020495995,
+      "cpu_seconds": 43944.471359549,
+      "observed_unix": 1793305459.4335973,
+      "held_user": 4,
+      "validation_user": 5,
+      "epoch": 4,
+      "batch": 21
     },
     "first_update_receipt": "uwb_direction1/results/cloud_20261029_localcnn_source6/FIRST_UPDATE_VERIFIED.json",
     "first_update_sha256": "a9bbf3b5df24b21064614cb7a5ad53cdcafa034819a498dd7e4e1638ab181cb7",
@@ -3133,9 +3134,10 @@
       "cpu_hard_seconds": 1790,
       "threads": 1
     },
-    "latest_progress_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD2_BACKUP_NOTE.md",
+    "latest_progress_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD3_BACKUP_NOTE.md",
     "completed_new_folds": [
-      2
+      2,
+      3
     ],
     "private_completed_fold_backups": {
       "2": {
@@ -3143,6 +3145,18 @@
         "receipt": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD2_DRIVE_BACKUP_RECEIPT.json",
         "archive_bytes": 10540109,
         "archive_sha256": "88bbf918595bbe92273ee208468b125b0b8791c5db4043fde76890ed30a3f509",
+        "drive_chunks": 2,
+        "tracked_payload_files_verified": 31,
+        "owner_only": true,
+        "remote_reassembly_verified": true,
+        "full_job_resume_snapshot": false,
+        "current_in_progress_fold_included": false
+      },
+      "3": {
+        "state": "private_readback_verified",
+        "receipt": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD3_DRIVE_BACKUP_RECEIPT.json",
+        "archive_bytes": 10549509,
+        "archive_sha256": "dc833082913593e2c498773b375e8eb1359f1778eddafdc30c865bba31f79d6c",
         "drive_chunks": 2,
         "tracked_payload_files_verified": 31,
         "owner_only": true,

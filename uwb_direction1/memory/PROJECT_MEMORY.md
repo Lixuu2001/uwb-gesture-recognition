@@ -1,3 +1,13 @@
+# 2026-10-29 — held3 completed; unchanged source-sixfold job now trains held4
+
+Actual worker43382/supervisor43381 remains alive; reused held1 and newly trained held2/held3 complete. Now held4/validation5 epoch4. Held3 completed24epochs, validation-user4 selectedepoch11, bestSHA67a276d59609fe6172ee1b846784421bc1e3e62af663221502a0550e0bdea6ad, unscored predictionSHA33901c341ca3f3ecf8ff6cd9fe9670f27b7f5ffeb01dd759af2f2a811d1bb278. No new diagnostic accuracy decoded or used for method/configuration choices; original12scientific hashes unchanged. No extra fitting/process/TimeMIL launch.
+
+Privately preserved completed held3 with unchanged backup utility:31trackedpayloadfiles+MEMBERS.json,10549509compressedbytes,two<=7MiBchunks. Folder and uploadedchunk metadata owner-only/parent/size verified; authenticated rawfetch/base64false, immediate materialization/SHA, downloadedreassembly and all31member hashes pass. ArchiveSHAdc833082913593e2c498773b375e8eb1359f1778eddafdc30c865bba31f79d6c. Recovery results/cloud_20261029_localcnn_source6/HELD3_DRIVE_BACKUP_RECEIPT.json; note HELD3_BACKUP_NOTE.md; local backup_held3_20261029 under currentstudyworkspace. Includes exactmodels/optimizer/RNG/splitIDs/logs/unscoredpredictions andprerequisites, excludes rawmaps/liveheld4/remainingfolds. Not a whole-job resume snapshot; neverduplicate thealiveworker. Held2 priorbackup remainsvalid. No rawarrays/models/sampleIDvalues or authenticatedURLs inGit; sharingunchanged.
+
+Continue originalbudget/configuration. Realcomplete-sixfoldaudit remainsunexecuted: wait allfivepredictionfreezes and successfultrainingsupervisortermination, run prepared audit_launch.py --run once, preserve remaining artifacts andapplyfrozengate. TimeMIL64epochcandidate/resultauditor staysprepared/unlaunched. No7–8labels used. Sourceaccuracy remains exploratory, no old-eightfold/independentvalidation/originalityconclusion; overallgoalunresolved andcontinuationenabled.
+
+---
+
 # 2026-10-29 — TimeMIL result verification implemented; current source-sixfold job continues
 
 Actual local CNN worker43382/supervisor43381 remains alive, held3/validation4 epoch12; reused held1 and new held2 complete. No new diagnostic aggregate was opened; no training/scientific configuration changed. Continue this existing job; do not duplicate it or launch TimeMIL alongside it. Held2 private backup remains valid. Current sixfold completion audit is prepared but not yet runnable until all predictions freeze and the training supervisor finishes successfully.
