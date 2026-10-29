@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_transfer_entropy_gate/DECISION_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_dmd_spatiotemporal_gate/DECISION_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -2782,5 +2782,19 @@
     "checkpoint_found": false,
     "contribution_validated": false,
     "disposition": "closed before implementation/fit; generic estimator application, limited 90-frame traces, and absent kinematic truth do not clear novelty/physical-verification gates"
+  },
+  "latest_candidate_gate_20261029_dmd": {
+    "date": "2026-10-29",
+    "report": "uwb_direction1/results/cloud_20261029_dmd_spatiotemporal_gate/DECISION_NOTE.md",
+    "hypothesis": "standard DMD modal/eigenvalue summaries of a single-view clutter-removed range-time map",
+    "literature_scope": "bounded primary-source review: DMD spatiotemporal features for vision-based hand gesture recognition (Sharma & Panda 2024); same-corpus time-range model (Xue et al. 2026); indexed radar DMD-CFAR target-processing paper (full text not accessed)",
+    "candidates_cleared": 0,
+    "candidate_cleared": false,
+    "training_started": false,
+    "data_values_or_labels_read": false,
+    "process_active": false,
+    "checkpoint_found": false,
+    "contribution_validated": false,
+    "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   }
 }
