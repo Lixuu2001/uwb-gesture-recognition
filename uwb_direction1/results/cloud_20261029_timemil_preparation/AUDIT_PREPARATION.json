@@ -1,0 +1,28 @@
+{
+  "state": "prepared_synthetic_verification_pass",
+  "observed_unix": 1793301170.662444,
+  "synthetic_unittest_command": "python -m unittest -v test_audit",
+  "tests_passed": 13,
+  "tests_elapsed_seconds": 3.174,
+  "synthetic_only": true,
+  "real_project_arrays_or_labels_or_checkpoints_read": false,
+  "real_fitting_started": false,
+  "real_complete_audit_executed": false,
+  "actual_absent_run_guard_exercised": true,
+  "original_scientific_frozen_hashes_unchanged": 16,
+  "new_auditor_hashes": {
+    "audit_result.py": "fa837655846bafcf571eb202f4a0c910848eb4b102619e9cacd67b2607e9db4c",
+    "audit_launch.py": "a87fa122a33d91a321e3e6375ab10d16ec3b028035ab3a4cb162bda0cd2e5c17",
+    "test_audit.py": "6822bfb79926fb32fc103b89a584c56600a068b67c8e9c7a5dcbbada8bf07dd5",
+    "AUDIT_INPUT_HASHES.json": "27b5c28ceff49ff538812e14b1e96be5db07645ae414e729b19ecfd407b2a94e"
+  },
+  "verification_budget": {
+    "threads": 1,
+    "wall_seconds": 890,
+    "cpu_soft_seconds": 880,
+    "cpu_hard_seconds": 890
+  },
+  "existing_bounded_supervisor_reused": true,
+  "users7_8_labels_used": false,
+  "automatic_controller_started": false
+}
