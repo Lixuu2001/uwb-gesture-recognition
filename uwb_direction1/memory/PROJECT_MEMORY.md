@@ -1,3 +1,9 @@
+# User scope update — 2026-10-29
+
+2026-10-29 user explicitly prioritizes an ongoing literature-to-real-experiment accuracy loop. Published methods may be tested as strong baselines without immediate novelty clearance. Do not conflate accuracy improvement with original contribution. Prior failed small altered response bank does not test full author MiniRocket. One fixed default9996 transform / seed20261029 now runs source users1-6 only; users7-8 labels excluded, no tuning; four train users / next validation / held source diagnostic. Raw fixed blockmean Ridge is a feasibility control, not a strong CNN. Gate only allows matched strong CNN comparison. Actual cloud run observed PID41531; cost284.59estimated sec and determinism check passed. No eightfold or novel contribution claimed. Protocol/code: uwb_direction1/research/minirocket_accuracy_20261029/. Automation 6abc995e1620819195fcff77dbd81118 prompt updated under latest instruction, schedule preserved.
+
+---
+
 ## 2026-10-29 — DMD-on-range-time candidate screened and closed
 
 Applying standard DMD to the cached range-time maps would transfer an existing spatiotemporal feature method into the same gesture task. Sharma & Panda 2024 already use DMD for vision-based hand gestures; Xue et al. 2026 already model temporal dynamics on this exact corpus; radar DMD target-processing prior art exists. No direct exact IR-UWB-DMD classifier hit was found, but that bounded absence does not clear novelty. With only clutter-removed real magnitude maps and no hand-motion truth, the candidate lacks a verified radar-specific mechanism. Closed before data-value/label access or fit. No process/checkpoint is active; restore remains verified and original 789-file source untouched. Method contribution remains unvalidated. See `uwb_direction1/results/cloud_20261029_dmd_spatiotemporal_gate/DECISION_NOTE.md`.

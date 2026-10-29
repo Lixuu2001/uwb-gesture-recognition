@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-29",
+  "candidate": "Author MiniRocket multivariate default 10000 (actual9996) on complete 3view x189range channels, time90",
+  "source_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "seed": 20261029,
+  "data": "/workspace/uwb-restored-20261020",
+  "author_commit": "0b1c245d9c9dbc50886f28bc7b32d5d45b5663d6",
+  "author_code_sha256": "e48c16b9b9b122d3794638d4e01303396c2db76f44b561b6cd6b21331035d940",
+  "splits": "held h, validation h%6+1, four others fit; transform/scaler/ridge fit training only; validation saved, no tuning",
+  "ridge": "alpha1 lsqr tol1e-4 max_iter200; equal train user-class weights; StandardScaler default; readout adaptation differs author RidgeCV",
+  "control": "fixed 3x15time x21range block mean raw maps + identical ridge",
+  "quality_mask": "exclude HV2 classes10/11 and HV6 class3; 6900 retained",
+  "gate": "At least1pp mean gain vs raw Ridge and4/6 diagnostic user wins => only schedule matched strong CNN comparison, not eightfold or contribution claim",
+  "budget": "cost1800CPU/wall; real1800CPU/wall; single thread",
+  "novelty": "Published baseline transfer, no innovation claim; differs closed20261004 small modified504bank; no bank/seed/alpha grid",
+  "limits": [
+    "source six users repeatedly developed; exploratory",
+    "No users7/8 gesture labels read",
+    "No direct comparison to93.4417 historical cached test accuracy",
+    "No raw arrays or pickled models in Git"
+  ],
+  "review_scope": "author README and complete multivariate code read; primary arxiv abstract/metadata; paper fulltext not claimed",
+  "citations": [
+    "https://arxiv.org/abs/2012.08791",
+    "https://github.com/angus924/minirocket"
+  ]
+}
