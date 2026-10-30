@@ -1,0 +1,15 @@
+{
+  "state": "resolved_reference_and_lookup_issues_active_SVM_pipeline_checked",
+  "real_data_or_labels_read": false,
+  "real_training_started": false,
+  "synthetic_author_fit_steps_before_failure": 0,
+  "issue": "Independent hierarchical loss reference assumedfloat64 accumulation, original author initializes float32 scalar and updates it in place; component float64 losses matched but hierarchy differed2.62992654e-8",
+  "original_supervisor": "synthetic_supervisor01/TERMINATION.json",
+  "original_test_preserved": "attempt01/synthetic_check.py",
+  "author_source_changed": false,
+  "execution_transport_issue": "One read failed with exec-server transport disconnected; current environment recheck running/connected and immediate pwd retry succeeded. Existing TSLANet workers remained active and were not restarted.",
+  "resolution": "Independent NumPy hierarchy reproduces sourcefloat32 in-place accumulation and division exactly, componentfloat64 and finite-difference checks retained; attempt02 passed before any real data. Author source unchanged.",
+  "corrected_attempt": "synthetic_supervisor02/TERMINATION.json",
+  "source_lookup_issue": "Paper alias yuezhihan/ts2vec commit lookup did not return a commit. Repository metadata resolved canonical zhihanyue/ts2vec; canonical main commit pinned successfully.",
+  "optional_linear_helper": "sklearn1.8 rejects legacy multi_class=ovr; unused by the active original CLI SVM route. SVM originalfull grid inclinf passed, only n_jobs5to1 adapter."
+}

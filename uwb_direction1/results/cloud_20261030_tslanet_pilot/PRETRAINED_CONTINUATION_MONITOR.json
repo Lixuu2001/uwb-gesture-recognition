@@ -1,0 +1,27 @@
+{
+  "observed_unix": 1793366438.7585013,
+  "state": {
+    "state": "training",
+    "pid": 46536,
+    "completed_arms": [
+      "pretrained"
+    ],
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 9328.09088056907,
+    "cpu_seconds": 9327.631628461,
+    "observed_unix": 1793366437.0300784,
+    "arm": "scratch",
+    "phase": "classification",
+    "epoch": 52,
+    "batch": 101,
+    "training_loss": 0.5598028749736096,
+    "training_records_used": 4688,
+    "validation_loss": 0.8695062389373779,
+    "validation_macro": 0.908,
+    "epoch_seconds": 46.94960135000292
+  },
+  "processes": "    PID    PPID STAT     ELAPSED     TIME\n  46531       1 Ss      02:35:33 00:00:15\n  46536   46531 Rs      02:35:32 02:35:29\n",
+  "frozen_science_unchanged": 31,
+  "full_pilot_audit_unchanged": 4
+}

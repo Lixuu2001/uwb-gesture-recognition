@@ -1,0 +1,34 @@
+{
+  "state": "synthetic_cost_screen_complete",
+  "policy_sha256": "8183702ec3ea1fe0ebfd9a048863b6d394474509f58324751f03cf6e4fc72af8",
+  "parameters": 673472,
+  "encoder_iterations_profiled": 4,
+  "encoder_iterations_estimated": 600,
+  "training_fullbatch_seconds": [
+    0.35785835003480315,
+    0.32971523702144623,
+    0.3995745329884812
+  ],
+  "encoding_fullbatch_seconds": [
+    0.032340422039851546,
+    0.03407872992102057,
+    0.03269987099338323
+  ],
+  "SVM_full_training_shape": [
+    4700,
+    320
+  ],
+  "SVM_original_C_candidates": 10,
+  "SVM_original_training_CV_folds": 5,
+  "SVM_jobs": 1,
+  "SVM_full_fit_seconds": 163.7528594819596,
+  "SVM_2200_inference_seconds": 3.4482356449589133,
+  "estimated_total_seconds": 963.3356524917763,
+  "CPU_and_wall_gate_passed": true,
+  "real_UWB_values_or_labels_read": false,
+  "real_training_started": false,
+  "wall_seconds": 170.02398363500834,
+  "cpu_seconds": 172.356636121,
+  "peak_rss_kib": 600208,
+  "limitations": "Two full90frame contexts conservatively replace random shorter crop contexts for synthetic timing only. Original masking/dropout/AdamW defaultdecay.01/initial-inclusive averaging preserved. Actual full600fit, SVM on real representations, resumable driver and source accuracy remain unexecuted. Passing estimate is not a runtime guarantee or real-launch permission."
+}

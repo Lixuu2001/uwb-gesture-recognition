@@ -1,3 +1,21 @@
+# 2026-10-30 — TSLANet预训练臂完成、1000验证前向复核及私有保存；TS2Vec完整默认实现通过CPU筛查
+
+先读取最新3f228f6远端四文件并核环境/原进程。原supervisor46531/worker46536未重启，已完成50SSL+100FT预训练臂，最新观测scratch/classification第52/100轮；31科学冻结文件和原完整审计4项哈希均未变。两臂诊断标签仍未读、用户7–8标签未用。新增预训练臂不可变审计与3项合成守卫测试通过；实际阶段审计exit0，8.798911wall/8.773625CPU，53项哈希、初始/首步/最优/末轮、SSLbest→分类initial逐位一致、分类优化器重置、16个确切首批训练ID、44组AdamW首步/29300步状态、未用参数和RNG可重载/原100轮选模(第99轮)核验。仅读取user2数值，独立重放1000验证前向及smoothing.1 CE/macro，与记录一致；held1预测仅当不透明文件哈希，未解码/评分。它不是完整配对准确率结论。
+
+预训练分类器四份模型（首/末优化器，末RNG）、ID/split、100轮日志、未评分预测、源码/许可/阶段审计及上游SSL索引已私有保存：124619749字节、17块、122payload+manifest=123成员，整包SHAc4e75261619b1121b5272022a19d7dbe269d3aae22a5d192b12b240c83f1cbaa。owner-only/父目录/大小/MIME、raw_fetch且base64=false、立即物化SHA、重组和全部成员核验通过。回执SHAead7dd1cbdfc20b18a3ff5341caa4750df4f5d0817bd389e23785521915b6bc4，results/cloud_20261030_tslanet_pilot/PRETRAINED_DRIVE_BACKUP_RECEIPT.json。依赖原SSL17块取回SSL模型；旧17块元数据/私有/可用性已新查，未把旧字节全重下载，保留旧完整回下载回执。新包排除原数组/RMS缓存/运行中scratch，不是完整任务恢复快照。part009上传管线在ID持久化前失败，精确远端名/目录查询0条后仅重试1次成功并回下载验SHA；初始错误细节未保留，不臆测根因，痕迹UPLOAD_RETRY_009。未改共享/科学配置或重训。
+
+新增下一项可运行已发表基线TS2Vec：Yue等AAAI36(8):8980–8987(2022)，DOI10.1609/aaai.v36i8.20881；核读选定Method/架构/上下文一致性/层级对比/Algorithm1(8981–8983)及Table1caption、元数据，不称全文/图表/附录全读。原论文别名yuezhihan/ts2vec由仓库元数据确认迁移到canonical zhihanyue/ts2vec，固定提交b0088e14a99706c05451316dc6db8d3da9351163。12原文件Git blob和SHA256字节核验、MIT许可保留；原model/loss/fit/augmentation不改。最新STATUS/两memory及原789源码精确标识TS2Vec/TSEncoder/hierarchical_contrastive_loss查重0，仅有界查重，不是新颖性证据。
+
+完整constructor默认320输出/hidden64/depth10实际11残差块，673472参数，batch16、temporal_unit0、lr.001/AdamW默认decay.01、独立mask/dropout、原随机重叠裁剪、平均器包含初始权重。源码默认按train_data.size>100000选600 **iterations**，不是600epochs；在4700×90×567成立。CLI默认batch8（本原型用constructor16）及maxlen3000（90帧与None等效）差异明示，不称原GPU/CLI整套复现。实际CLI指定原十档C含inf/五折训练内CV的RBF-SVM；仅n_jobs5→1，未改网格/solver/refit/特征缩放。合成对原AST的支持向量/dual/decision/predict逐位一致；sklearn1.8支持该SVM含inf。可选旧linear helper的multi_class参数不兼容，但不是当前CLI路径，未称已复现。
+
+5个独立NumPy实例/时间/层级损失（含奇数/B1/T1）及有限差分梯度通过，原full模型真实执行2个**合成**fit更新，梯度全有限/48状态改变，平均器等于initial+2更新平均，full_series编码对应平均网络maxpool。首次数值参考错按float64累加，作者实际float32原地累加；已修独立参考逐次rounding精确核验，原脚本/trace/exit1(模型构造/fit前)保留，未改作者源。attempt02 exit0，4.026840wall/3.979872CPU。一次exec-server读取短暂断连，环境复核running/connected后重试恢复，原TS进程一直活动，未改环境/重启。
+
+全规模**合成**CPU成本通过：定时前本地冻结policy/hash，一次warmup+3次full90帧双上下文更新/encoding，max .399574533s/.034078730s；真实执行原完整4700×320十C五折+refit SVM耗163.752859482s，2200推理3.448235645s。600更新+6900编码+分类2×max/实测+120秒余量估963.335652492秒(<43200)，cost supervisor exit0无超时，173.521906wall/173.428167CPU，RSS600208KiB。没有读取任何真实UWB值/ID/标签或真实fit/分数，未把合成分类准确率用于配置选择；成本通过不等于效果或准许直接启动。
+
+TS2Vec准备目录/workspace/uwb-ts2vec-screen-20261030，代码research/ts2vec_author_screen_20261030，报告results/cloud_20261030_ts2vec_screen/REVIEW_AND_IMPLEMENTATION.md。原save/load只有平均encoder，完整真实source用户协议、可恢复raw+average+optimizer+RNG+sampler/IDs/logs驱动/独立审计尚未实现注册，不能声称TS2Vec后台训练已启动或可直接续训。先完成当前TSLANet两臂、正常退出、原完整audit_launch.py --run、scratch/final私有保存，再按原门槛走确认或关闭。若TS准许确认优先另注册确认；若确切TS配置关闭，再把已备好TS2Vec补齐完整预注册与驱动后实际验证。全源历史开发仍属探索性，准确率证据与原创性分开，整体目标未达、自动接续保留。以下历史。
+
+---
+
 # 2026-10-30 — ConvTran 作者实现与数值检查完成，两个完整100轮CPU配置均未过资源门槛；原TSLANet继续
 
 先读最新4ba042e远端四文件并核验云环境。原supervisor46531/worker46536仍活动，最新观测 pretrained/classification 第57/100轮，之后scratch100尚待；31项科学冻结哈希不变，无重复启动、诊断标签未读、用户7–8标签未用。不要因本轮新实现/资源结果重启或改原TSLANet。完整准确率和门槛仍须原两臂预测全部冻结、正常退出、现成完整审计及最终分类器私有备份后判断；SSL50已有阶段审计和17块私有回执，不重复下载。
