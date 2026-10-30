@@ -1,0 +1,136 @@
+{
+  "date_utc": "2026-10-30",
+  "candidate": "Published TSLANet full UEA256/3 known-method accuracy transfer,50SSL+100FT vs100scratch",
+  "paper": "https://proceedings.mlr.press/v235/eldele24a.html",
+  "author_commit": "ca0e88416d3ae49fd50e399c44ae94868378a94d",
+  "timm_commit": "78c3724f4545c0067d0b4d2f7df6337196be01ce",
+  "prototype": "/workspace/uwb-tslanet-screen-20261029",
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "source_maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "previous_state": "/workspace/uwb-gap-sixfold-20261030/run01/STATE.json",
+  "previous_audit": "/workspace/uwb-gap-sixfold-20261030/COMPLETE_AUDIT.json",
+  "previous_termination": "/workspace/uwb-gap-sixfold-20261030/supervisor01/TERMINATION.json",
+  "previous_private_backup": "/workspace/uwb-gap-sixfold-20261030/final_backup_20261030/DRIVE_BACKUP_RECEIPT.json",
+  "prior_held1_summary": "/workspace/uwb-timemil-20261029/run02/SUMMARY.json",
+  "reference_held1_macro": 0.9866666666666667,
+  "reference_held1_scope": "max known TimeMIL64/GAP64/fullCNN24/localCNN24 held1macro,notGAPsixfoldmean",
+  "seed": 20261029,
+  "author_stage_seed_not_reproduced": 42,
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "source_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "users7_8_labels_used": false,
+  "arms": [
+    "pretrained",
+    "scratch"
+  ],
+  "pretraining_epochs": 50,
+  "classification_epochs_per_arm": 100,
+  "total_epochs": 250,
+  "batch_size": 16,
+  "train_drop_last": true,
+  "training_records_per_epoch": 4688,
+  "validation_diagnostic_drop_last": false,
+  "threads": 1,
+  "model": {
+    "parameters": 4132879,
+    "embedding": 256,
+    "depth": 3,
+    "input_channels": 567,
+    "time_frames": 90,
+    "patch_size": 8,
+    "stride": 4,
+    "patches": 21,
+    "dropout": 0.15,
+    "mask_ratio": 0.4,
+    "ASB": true,
+    "ICB": true,
+    "adaptive_filter": true,
+    "unused_input_layer_retained": true,
+    "final_two_frames_dropped_author_behavior_retained": true
+  },
+  "preprocessing": "Existing per-record/view RMS signedclutterremoved all189rangebins/3views cache90x567,transpose to567x90; no resize or cross-record fitted normalization. Heldfeatures not used for fitting or SSL.",
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "scheduler": null,
+    "gradient_clip": null,
+    "finetune_optimizer_reset": true
+  },
+  "classification_loss": "Unchanged pinned timm LabelSmoothingCrossEntropy(smoothing=.1),unweightedrecords",
+  "pretraining_loss": "Literal originalmaskedmean squared difference to attached learnedposdrop target; originalrandommask/targetgradient/dropout retained",
+  "selection": "SSL:minimum validationmaskedloss/earlierepoch. Each100epochclassifier:highest validationpresentclassmacro/lowerlabelsmoothedCE/earlierepoch. Allbothdiagnosticpredictions frozenbefore held1labels.",
+  "sampling_adaptation": "Dedicated epochorder torch.Generator(seed+epoch),same classifier order/dropoutinitialRNG in botharms; stagefreshmodel seeds20261029 then transfer only SSLbestmodel. Original Lightning sampler trajectory/seed42 not reproduced. SSLvalidation retains originalfresh globalRNG masking.",
+  "gates": {
+    "mechanism": "pretrained-scratch>=.5pp AND pretrained>=strongestpriorheld1-.5pp",
+    "scratch_baseline": "scratch>=strongestpriorheld1+.5pp",
+    "pretrained_baseline": "pretrained>=strongestpriorheld1+.5pp",
+    "numerical_comparison_tolerance": 1e-12,
+    "route_priority": [
+      "pretrained_mechanism",
+      "scratch_baseline",
+      "pretrained_baseline",
+      "close_exact_configuration"
+    ],
+    "scope": "Only licenses later separately frozen sourceconfirmation; baselineeligibilitydoesnotproveSSLmechanism/originality; allfailclosesexactconfig"
+  },
+  "unused_parameters": {
+    "pretrain": [
+      "input_layer.weight",
+      "input_layer.bias",
+      "head.weight",
+      "head.bias"
+    ],
+    "classification": [
+      "input_layer.weight",
+      "input_layer.bias"
+    ]
+  },
+  "cost_gate_passed": true,
+  "cost_receipt_sha256": "dddc4e3360e0883794a5d3c3f80eae4257e76337117f5521ae6ebe6f070cfe5c",
+  "estimated_seconds": 25584.1565146856,
+  "cpu_budget_seconds": 43200,
+  "wall_budget_seconds": 43200,
+  "child_cpu_soft_seconds": 43000,
+  "child_cpu_hard_seconds": 43100,
+  "child_wall_seconds": 43100,
+  "automatic_retry": false,
+  "independent_validation": false,
+  "original_contribution_claim": false,
+  "full_50_100_epoch_driver_implemented": true,
+  "limits": [
+    "Published full-UEAarchitecture/defaulttraincounts/loss/optimizer transfer,notnovelarchitecture or exactLightning/GPUreproduction.",
+    "Input/RMS/seed/sampling/validationmacro adapted explicitly for user sourceprotocol; no7-8labels.",
+    "Currenteightusershistoricallydeveloped; held1positivepilot only exploratory.",
+    "No LR/epoch/seed/normalization/masking sweep afterdiagnosticresults.",
+    "Engineering/numerical/resourcefailure=incomplete,notaccuracynegative.",
+    "No originalsource789snapshot changes;rawarrays/modeltensors/sampleIDvalues private."
+  ]
+}

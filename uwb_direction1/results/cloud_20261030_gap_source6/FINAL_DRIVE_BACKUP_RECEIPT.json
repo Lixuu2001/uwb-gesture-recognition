@@ -1,0 +1,132 @@
+{
+  "state": "private_readback_verified",
+  "observed_unix": 1793355734.3774426,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "folder_owner_only": true,
+  "manifest": {
+    "state": "completed_gap_source6_recoverable_composite",
+    "observed_unix": 1793355054.3403149,
+    "current_archive_models": [
+      6
+    ],
+    "prior_model_indices": {
+      "2": "prior_backups/held2.json",
+      "3": "prior_backups/held3.json",
+      "4": "prior_backups/held4.json",
+      "5": "prior_backups/held5.json"
+    },
+    "held1": "prior_backups/upstream_held1_author_core.json",
+    "full_set_requires_prior_archives": true,
+    "raw_radar_arrays_included": false,
+    "source_maps_included": false,
+    "scope": "All trajectories finished; current archive contains held6 tensors/final metadata and references earlier private model bundles. Never claim this archive alone contains every model. Original input migration index and exact source IDs regenerate signed-map per-record/view RMS/reshape cache.",
+    "archive_name": "gap_source6_final.tar.gz",
+    "archive_bytes": 21360257,
+    "archive_sha256": "44ca6b1612c24ea3f35635b108a0a356fa8b3e6a81a2706fee1b6851748839ee",
+    "tracked_payload_files": 76,
+    "members_manifest_sha256": "e3d919fd5a8df2dc6589e6abb2c2be1ae4de6a0619fed92780f5748e6e82d55f",
+    "chunks": [
+      {
+        "name": "gap_source6_final.part000",
+        "bytes": 7340032,
+        "sha256": "a231a978789930d133472584f923e0fa9b16bf6fc852ece0f830e1e8d9591e18"
+      },
+      {
+        "name": "gap_source6_final.part001",
+        "bytes": 7340032,
+        "sha256": "1dcf9e3ac8c5e2d498e18057fa9aeabc79a56d761b07179a8dc680a1cbc7fff7"
+      },
+      {
+        "name": "gap_source6_final.part002",
+        "bytes": 6680193,
+        "sha256": "a26bf373d6d1d7d3a5289b4f2943ffb95393a4919bc28c4d0657943f44bcc8fb"
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "name": "gap_source6_final.part000",
+      "file_id": "1GqDC4hfJMfcBjY5LrxCOka-hXHwgKGlk",
+      "remote_name": "gap_source6_final_20261030.part000",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "gap_source6_final.part001",
+      "file_id": "1fE93h4d4Dwv1qD1NcBwKuHzkQzsk6Aej",
+      "remote_name": "gap_source6_final_20261030.part001",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "gap_source6_final.part002",
+      "file_id": "1Jwx_XCSHqyO95UBcM081NT-_bxt0_WGs",
+      "remote_name": "gap_source6_final_20261030.part002",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "6680193",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    }
+  ],
+  "verification": {
+    "state": "remote_archive_and_all_members_verified",
+    "chunks_verified": 3,
+    "tracked_payload_members_verified": 76,
+    "archive_members": 77,
+    "archive_sha256": "44ca6b1612c24ea3f35635b108a0a356fa8b3e6a81a2706fee1b6851748839ee",
+    "models_in_this_archive": [
+      6
+    ],
+    "full_set_requires_prior_archives": true
+  },
+  "full_study_complete": true,
+  "full_set_recoverable_composite": true,
+  "full_set_requires_prior_archives": true,
+  "models_in_this_archive": [
+    6
+  ],
+  "prior_backup_metadata_chunks_freshly_verified": 20,
+  "all_prior_bytes_redownloaded": false,
+  "prior_full_readback_receipts_retained": true
+}

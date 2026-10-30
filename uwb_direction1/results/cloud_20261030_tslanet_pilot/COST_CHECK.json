@@ -1,0 +1,48 @@
+{
+  "state": "pass",
+  "synthetic_only": true,
+  "real_data_or_labels_read": false,
+  "parameters": 4132879,
+  "embedding": 256,
+  "depth": 3,
+  "batch_size": 16,
+  "pretraining_epochs": 50,
+  "classification_epochs_per_arm": 100,
+  "timings": {
+    "pretrain": {
+      "training": [
+        0.16006178397219628,
+        0.13765608705580235,
+        0.14539576100651175
+      ],
+      "validation": [
+        0.04887086292728782,
+        0.05645618902053684,
+        0.046065500006079674
+      ],
+      "max_training": 0.16006178397219628,
+      "max_validation": 0.05645618902053684
+    },
+    "classification": {
+      "training": [
+        0.15848513308446854,
+        0.16475548199377954,
+        0.15524321503471583
+      ],
+      "validation": [
+        0.041407200042158365,
+        0.04350312799215317,
+        0.042156504932790995
+      ],
+      "max_training": 0.16475548199377954,
+      "max_validation": 0.04350312799215317
+    }
+  },
+  "estimated_seconds": 25584.1565146856,
+  "cpu_budget_seconds": 43200,
+  "wall_budget_seconds": 43200,
+  "margin": 2,
+  "reserve_seconds": 120,
+  "wall_seconds": 1.613296151976101,
+  "cpu_seconds": 3.659830623
+}
