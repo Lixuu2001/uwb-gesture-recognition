@@ -93,5 +93,18 @@
     "Engineering/budget/numerical stops are incomplete, not accuracy-negative.",
     "No automatic retry/resampling or postdiagnostic seed/epoch/LR/normalization rescue.",
     "Keep raw arrays/model tensors/sample IDs private outsideGit."
-  ]
+  ],
+  "run_directory": "run02",
+  "supervisor_directory": "supervisor02",
+  "prior_predata_attempt_budget": {
+    "wall_seconds": 2.7734175310470164,
+    "cpu_seconds": 2.7235650000000002
+  },
+  "engineering_amendment": {
+    "date_utc": "2026-10-30",
+    "reason": "Missing os import before state initialization; attempt01 read zero sample values, performed zero fits and produced zero scores. Preserve original dirs/receipts, add import and use fresh run02/supervisor02; science unchanged.",
+    "original_protocol_sha256": "80998fbc56d1273462fc2f58c25fa0ad14d754e343b7789d35fcf06a3de66d6d",
+    "same_seed_split_model_hyperparameters_preprocessing_selection_gates_and_limits": true,
+    "original_failed_run_retained": true
+  }
 }

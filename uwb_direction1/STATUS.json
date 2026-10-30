@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_complete_audited_privately_preserved_timemil_ready",
+  "state": "timemil_predata_failure_repaired_run02_registered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "Inspect all actual processes and TimeMIL run/supervisor directories first. Source6 is complete/audited/preserved. Launch the already registered unchanged /workspace/uwb-timemil-20261029/launch.py --run once under existing user authorization; do not seek novelty-based permission or duplicate a real job. Verify actual first update/IDs/optimizer and save launch receipt before claiming background training. Keep original fixed64epoch split/seed/config/gates/budget; no7–8label choice or rescuegrid. On completion run its prepared result audit, privately preserve real artifacts and apply original gate. Source6 score93.5944% vs Mini78.5336% is exploratory and not a comparison to legacy eightfold93.4417%; original contribution remains unvalidated.",
+  "next_required_input": "Original source6 complete/audited/privately preserved. TimeMIL attempt01 failed before arrays/model/steps from missing os import; old run01/supervisor01/LAUNCH/logs/snapshots retained. Updated run02/supervisor02 repair is registered, old39sciencefields unchanged and16synthetic tests pass including intercepted pre-value startup. Launch repaired launch.py --run once into fresh directories; retain prior2.773417531wall/2.723565CPU seconds in cumulative43200budget. Actual first update/IDs/optimizer proof required before claiming normal training. No resampling or changed seed/model/gates; no7–8label choice. After completion use amended audit result paths, preserve all attempts/artifacts, apply original gate. Overall novelty goal unresolved.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_timemil_preparation/REPAIR_REPORT_RUN02.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793320940.469469,
   "background_training_pid": null,
-  "background_training_status_note": "Original source6 worker43382 exited; supervisor43381 is a zombie, not live. All five new folds completed, independent audit passed and final composite preservation verified. TimeMIL is prepared, not yet launched.",
+  "background_training_status_note": "TimeMIL attempt01 worker44946 exited before arrays/model/steps due missing os import; supervisor44945 is zombie. Source6 results remain valid. Repair tested16synthetic checks, run02/supervisor02 registered but not started.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Already registered fixed TimeMIL64epoch full model/GAP source pilot; source6 baseline confirmation now complete/audited/preserved. TSLANet stays later synthetic prototype, no real trial.",
-  "last_completed_update_utc": "2026-10-30T02:38:47.399Z",
+  "last_completed_update_utc": "2026-10-30T02:52:26.564Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -3037,10 +3037,10 @@
   "background_continuation_running": false,
   "background_continuation_pid": null,
   "timemil_accuracy_preparation": {
-    "state": "implemented_preregistered_synthetic_and_resume_pass_real_fit_not_started",
+    "state": "attempt01_predata_failure_repaired_run02_registered_not_started",
     "path": "/workspace/uwb-timemil-20261029",
     "report": "uwb_direction1/results/cloud_20261029_timemil_preparation/RUN_REPORT.md",
-    "protocol_sha256": "80998fbc56d1273462fc2f58c25fa0ad14d754e343b7789d35fcf06a3de66d6d",
+    "protocol_sha256": "25ab7782df5a351914f0c7cde356f281e3ca2bda5c55688fec5d9e1a8cab7107",
     "author_commit": "7542c1c275aae3a9db35ee5c9bdfc0ccf386cd5c",
     "seed": 20261029,
     "epochs": 64,
@@ -3065,7 +3065,7 @@
       "code": "uwb_direction1/research/timemil_accuracy_20261029/audit_result.py",
       "launcher": "uwb_direction1/research/timemil_accuracy_20261029/audit_launch.py",
       "report": "uwb_direction1/results/cloud_20261029_timemil_preparation/AUDIT_PREPARATION.md",
-      "synthetic_tests_passed": 13,
+      "synthetic_tests_passed": 16,
       "actual_absent_run_guard_exercised": true,
       "original_frozen_hashes_unchanged": 16,
       "wall_seconds": 890,
@@ -3074,6 +3074,32 @@
       "threads": 1,
       "real_complete_audit_executed": false,
       "automatic_controller_started": false
+    },
+    "original_protocol_sha256": "80998fbc56d1273462fc2f58c25fa0ad14d754e343b7789d35fcf06a3de66d6d",
+    "run_directory": "run02",
+    "supervisor_directory": "supervisor02",
+    "prior_predata_failure": {
+      "cause": "NameError missing os import before state initialization",
+      "arrays_values_read": false,
+      "real_fits": 0,
+      "optimization_batches": 0,
+      "diagnostic_scores": 0,
+      "receipt": "uwb_direction1/results/cloud_20261029_timemil_preparation/attempt01/FAILURE.json",
+      "wall_seconds": 2.7734175310470164,
+      "cpu_seconds": 2.7235650000000002
+    },
+    "engineering_repair": {
+      "report": "uwb_direction1/results/cloud_20261029_timemil_preparation/REPAIR_REPORT_RUN02.md",
+      "all_39_original_protocol_fields_unchanged": true,
+      "changed_original_frozen_files": [
+        "run_pilot.py",
+        "launch.py",
+        "PROTOCOL.json"
+      ],
+      "tests_passed": 16,
+      "fresh_run02_registered": true,
+      "cumulative_original_budget_seconds": 43200,
+      "automatic_retry": false
     }
   },
   "local_source6_confirmation": {

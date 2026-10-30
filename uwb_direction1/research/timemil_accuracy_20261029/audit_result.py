@@ -19,6 +19,10 @@ import numpy as np
 BASE = Path(__file__).resolve().parent
 ARMS = ('timemil', 'gap')
 
+def locations(base):
+    cfg=read(base/'PROTOCOL.json') if (base/'PROTOCOL.json').exists() else {}
+    return base/cfg.get('run_directory','run01'),base/cfg.get('supervisor_directory','supervisor01'),cfg
+
 def read(path):
     return json.loads(Path(path).read_text())
 
@@ -30,7 +34,7 @@ def sha(path):
     return h.hexdigest()
 
 def ready(base):
-    run = base/'run01'
+    run,supervisor,cfg = locations(base)
     if not (run/'STATE.json').exists():
         raise RuntimeError('not_ready: TimeMIL has not started')
     state = read(run/'STATE.json')
@@ -38,11 +42,14 @@ def ready(base):
         raise RuntimeError('not_ready: incomplete TimeMIL run')
     if set(state.get('completed_arms', [])) != set(ARMS):
         raise RuntimeError('not_ready: missing arm')
-    termination = read(base/'supervisor01/TERMINATION.json')
+    termination = read(supervisor/'TERMINATION.json')
     if termination['exit_code'] != 0 or termination['wall_timeout']:
         raise RuntimeError('not_ready: training supervisor failed')
     assert termination['supervisor_wall_seconds'] <= 43200
     assert termination['child_cpu_seconds'] <= 43200
+    prior=cfg.get('prior_predata_attempt_budget',{})
+    assert termination['supervisor_wall_seconds']+prior.get('wall_seconds',0)<=43200
+    assert termination['child_cpu_seconds']+prior.get('cpu_seconds',0)<=43200
     freeze = read(run/'ALL_PREDICTIONS_FROZEN.json')
     assert set(freeze) == set(ARMS)
     for arm in ARMS:
@@ -114,7 +121,7 @@ def audit(base, output):
     torch.set_num_interop_threads(1)
     torch.use_deterministic_algorithms(True)
     started = time.monotonic()
-    run = base/'run01'
+    run,_,_ = locations(base)
     cfg, identity = read(base/'PROTOCOL.json'), read(run/'IDENTITY.json')
     frozen = read(base/'FROZEN_HASHES.json')
     hashes = {}
@@ -218,6 +225,8 @@ def audit(base, output):
     for name,value in expected_gates.items(): assert summary[name] == value
     assert summary['epochs'] == 64 and summary['users7_8_labels_used'] is False
     assert summary['wall_seconds'] <= 43200 and summary['cpu_seconds'] <= 43200
+    assert summary.get('cumulative_wall_seconds',summary['wall_seconds'])<=43200
+    assert summary.get('cumulative_cpu_seconds',summary['cpu_seconds'])<=43200
     for path,expected in hashes.items(): assert sha(path) == expected, 'changed during read-only audit'
     result = dict(state='pass',scope='completed_timeMIL_read_only',scores=scores,arms=details,
                   gates=expected_gates,artifact_hashes=hashes,source_preprocessing_records_verified=6900,

@@ -66,6 +66,22 @@ class AccessAndStatistics(unittest.TestCase):
             write(base/'supervisor01/TERMINATION.json',dict(exit_code=-9,wall_timeout=True))
             with self.assertRaisesRegex(RuntimeError,'supervisor failed'): verifier.ready(base)
 
+    def test_retry_directory_ignores_preserved_failed_attempt(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base=Path(tmp);fixture(base)
+            (base/'run01').rename(base/'run02');(base/'supervisor01').rename(base/'supervisor02')
+            write(base/'run01/STATE.json',dict(state='incomplete',pid=None))
+            write(base/'supervisor01/TERMINATION.json',dict(exit_code=1,wall_timeout=False))
+            write(base/'PROTOCOL.json',dict(run_directory='run02',supervisor_directory='supervisor02',prior_predata_attempt_budget=dict(wall_seconds=2.8,cpu_seconds=2.8)))
+            with patch.object(verifier.np,'load',side_effect=AssertionError('array read')) as sentinel:
+                verifier.ready(base);sentinel.assert_not_called()
+
+    def test_cumulative_budget_rejects_excess(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base=Path(tmp);fixture(base)
+            write(base/'PROTOCOL.json',dict(prior_predata_attempt_budget=dict(cpu_seconds=43150)))
+            with self.assertRaises(AssertionError):verifier.ready(base)
+
     def test_validation_ties_ignore_diagnostic_scores(self):
         history = [dict(epoch=e,validation_macro=.8,validation_bce=b,diagnostic_macro=d)
                    for e,b,d in [(1,.5,1.),(2,.4,0.),(3,.4,1.)]]
@@ -133,6 +149,32 @@ class OptimizerState(unittest.TestCase):
         with self.assertRaises(AssertionError): verifier.check_optimizer(self.model,bad,7,{'unused'})
         bad = copy.deepcopy(self.last); bad['fast']['state'][0]['exp_avg_sq'] = self.torch.zeros(3)
         with self.assertRaises(AssertionError): verifier.check_optimizer(self.model,bad,7,{'unused'})
+
+class RuntimeStartup(unittest.TestCase):
+    def test_state_initialization_reaches_intercept_before_any_values(self):
+        import hashlib,importlib.util
+        path=Path(__file__).with_name('run_pilot.py')
+        spec=importlib.util.spec_from_file_location('startup_under_test',path)
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        class StopBeforeArrayValues(RuntimeError):pass
+        with tempfile.TemporaryDirectory() as tmp:
+            base=Path(tmp);module.B=base
+            write(base/'previous.json',dict(state='complete_registered_queue'))
+            write(base/'previous_audit.json',dict(state='pass'))
+            write(base/'FROZEN_HASHES.json',{})
+            write(base/'RESUME_CHECK.json',dict(state='pass'))
+            source=base/'sentinel.npz';source.write_bytes(b'not a real array')
+            write(base/'PROTOCOL.json',dict(previous_controller_state=str(base/'previous.json'),
+                  previous_multirocket_audit=str(base/'previous_audit.json'),run_directory='run02',
+                  cost_gate_passed=True,source_manifest=str(source),source_manifest_sha256=hashlib.sha256(source.read_bytes()).hexdigest()))
+            with patch.object(module.resource,'setrlimit'),patch.object(module.signal,'signal'),patch.object(module.signal,'setitimer'),patch.object(module.torch,'set_num_threads'),patch.object(module.torch,'set_num_interop_threads'),patch.object(module.torch,'use_deterministic_algorithms'),patch.object(module.np,'load',side_effect=StopBeforeArrayValues('synthetic intercept, no values')) as sentinel:
+                with self.assertRaises(StopBeforeArrayValues):module.main()
+                sentinel.assert_called_once_with(str(source))
+            state=json.loads((base/'run02/STATE.json').read_text())
+            self.assertEqual(state['state'],'incomplete')
+            self.assertIn('StopBeforeArrayValues',state['error'])
+            self.assertFalse((base/'run01').exists())
+            self.assertTrue((base/'run02/IDENTITY.json').exists())
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

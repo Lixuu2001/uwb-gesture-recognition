@@ -1,0 +1,26 @@
+{
+  "state": "run02_engineering_repair_registered_pending_launch",
+  "original_scientific_fields_unchanged": 39,
+  "changed_original_frozen_files": [
+    "run_pilot.py",
+    "launch.py",
+    "PROTOCOL.json"
+  ],
+  "protocol_sha256": "25ab7782df5a351914f0c7cde356f281e3ca2bda5c55688fec5d9e1a8cab7107",
+  "original_protocol_sha256": "80998fbc56d1273462fc2f58c25fa0ad14d754e343b7789d35fcf06a3de66d6d",
+  "source_arrays_or_labels_or_checkpoints_read": false,
+  "real_fits": 0,
+  "diagnostic_scores_observed": 0,
+  "tests_passed": 16,
+  "new_run_directory": "run02",
+  "new_supervisor_directory": "supervisor02",
+  "prior_predata_attempt_budget": {
+    "wall_seconds": 2.7734175310470164,
+    "cpu_seconds": 2.7235650000000002
+  },
+  "limits_unchanged": {
+    "wall": 43200,
+    "cpu": 43200
+  },
+  "automatic_retry": false
+}

@@ -1,6 +1,6 @@
 """Fixed, separately registered TimeMIL resource pilot; no automatic invocation."""
 from adapter import make_model,StableLookahead
-import fcntl,hashlib,json,pickle,random,resource,signal,sys,time,traceback
+import fcntl,hashlib,json,os,pickle,random,resource,signal,sys,time,traceback
 from pathlib import Path
 import numpy as np
 import torch
@@ -22,7 +22,7 @@ def main():
  previous=json.loads(Path(cfg['previous_controller_state']).read_text())
  assert previous['state']=='complete_registered_queue','wait registered CNN/MultiRocket queue and audits'
  prior_audit=json.loads(Path(cfg['previous_multirocket_audit']).read_text());assert prior_audit['state']=='pass'
- out=B/'run01';out.mkdir(exist_ok=False);lock=open(out/'worker.lock','w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+ out=B/cfg.get('run_directory','run01');out.mkdir(exist_ok=False);lock=open(out/'worker.lock','w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
  torch.set_num_threads(1);torch.set_num_interop_threads(1);torch.use_deterministic_algorithms(True)
  started=time.monotonic();state=dict(state='starting',pid=os.getpid(),completed_arms=[],diagnostic_labels_read=False,users7_8_labels_used=False)
  def record(**kw):
@@ -89,8 +89,10 @@ def main():
    with np.load(out/arm/'predictions_unscored.npz') as z:np.testing.assert_array_equal(z['ids'],ids[te]);scores[arm]=macro(yt,z['logits'].argmax(1))
   cnn=json.loads(Path(cfg['previous_cnn_summary']).read_text())['scores'];reference=max(cnn['full'],cnn['local'])
   result=dict(state='complete_exploratory_source_pilot',scores=scores,cnn_reference=cnn,gate_passed=bool(scores['timemil']-scores['gap']>=.005 and scores['timemil']>=reference-.005),gap_baseline_expansion_eligible=bool(scores['gap']>=reference+.01),epochs=cfg['epochs'],independent_validation=False,novel_contribution_validated=False,users7_8_labels_used=False,wall_seconds=time.monotonic()-started,cpu_seconds=time.process_time())
+  prior=cfg.get('prior_predata_attempt_budget',{});result.update(cumulative_wall_seconds=result['wall_seconds']+prior.get('wall_seconds',0),cumulative_cpu_seconds=result['cpu_seconds']+prior.get('cpu_seconds',0))
   write(out/'SUMMARY.json',result);record(state='complete',pid=None,diagnostic_labels_read=True);write(out/'FILES.json',{str(p.relative_to(out)):sha(p) for p in out.rglob('*') if p.is_file() and p.suffix!='.tmp'});print(json.dumps(result),flush=True)
  except BaseException as e:
   record(state='incomplete',pid=None,error=repr(e),traceback=traceback.format_exc(),scientific_negative=False);raise
+ finally:lock.close()
 if __name__=='__main__':
  assert sys.argv[1:]==['--run'];main()
