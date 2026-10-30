@@ -1,3 +1,17 @@
+# 2026-10-30 — TimesNet完整审计/私有收尾并关闭；LightTS完整配置真实源协议已实现，远端读回前未启动
+
+TimesNet原训练27epoch/7938updates/126900训练出现按patience10结束，best epoch17；完整独立审计exit0/no timeout3222.116599752wall/3221.831730childCPU，64产物SHA、6900RMS、每步模型/loss/ID、27验证/stopper/选模、initial/first/best/last全model/RAdam/RNG及rawcheckpoint、固定labelblindB16分批和2200final logits/pred逐位通过。独立held1macro93.583333%、validation93.700000%，同held1参考98.666667%，差−5.083333pp，原+.5pp gate=false，确切配置关闭、不救援或扩折。macro独立归约2e−16差满足原1e−12，tensors/logits/RNG严格。42原科学哈希不变，无7–8标签，不当旧LTR八折、独立测试或原创贡献。审计SHA4a154626a0964c177862533cfdbf7e74360eb332d5feb48e9ff099ca6614fdd0。
+
+完整独立私有包103133259字节/15块/75payload+manifest=76成员，SHA212c9069e494cc989977fa8bb7998183cd815779fe08f1d2cc2659f222c520a5；回执SHA1f1512c836fe9f5a30f0993062ce8fae0974ebcaeb26c7ce944b1edf7cf6626b。所有owner-only/父目录/大小/MIME、authenticatedrawfetch(download_raw_file=true,include_base64=false)/即物化SHA/重组/全部75成员核验通过。索引results/cloud_20261030_timesnet_pilot/complete_backup_20261030/DRIVE_BACKUP_RECEIPT.json。包含initial/first/best/last完整模型/RAdam/RNG/IDs/分批/logs/preds/source/audit，不依赖首步6块；无原数组/maps，无自动整作业resume。人类FINAL_REPORT在不可变包之后，机器SUMMARY/audit/检查点已在包中。controller旧private_remote_complete=false只是无Drive能力时的本地观察，最终回执为准，不改历史伪造自动上传。part008一次上传未返回ID，精确同名/父目录metadata search0后单次重试和raw/member核验成功，错误/修复记录保留。最初JS字符串偏移SyntaxError发生于上传调用前，已先stripcomments再替换storekey修复，无科学更改/训练或审计重启。
+
+下一LightTS并非只文献否定：/workspace/uwb-lightts-pilot-20261030真实driver/auditor/首步验证/backup/controller与完整源协议已实现。延续已通过source3步/恢复2步+全部RNG/独立NumPyIEBlock/9135.381511秒成本的库完整UWaveGestureLibrary配置：952642params、32活跃RAdam组、width128/b16/chunk24、100epochcap/patience10，90内部pad96再输出90×567分类。原脚本e_layers3/dff256/topk3未用于模型，原classifier未使用声明GELU/dropout均保留。不是原论文分类复现/原创：arXiv2207.01186预测论文身份据pinnedREADME/docstring，正文/公式/图工具emptycontent/isErrortrue未取得；库维护者分类迁移、RMS替代UEA标准化及专用seededloader明示。
+
+固定仅train3–6/4700、validation2/1000、diag1/1200，seed20261029，全90×567RMS/source6900IDs，每轮294批/末12、上限29400updates/470000训练出现，不丢记录。原RAdam.001/decay0/CE/clip4/无scheduler，user2rawaccuracy选best，ties保存later/reset、严格下降耗patience；替代原TEST做validation，诊断两份预测先冻结再读held1。固定labelblindseed+101/+102 B16分批，不搜seed/order。参考.9866666666666667+.005/1e−12，过门槛仅另注册source确认，失败关闭确切配置，无救援网格；7–8标签不用于选择。历史全部八用户反复开发，探索性，非独立测试或旧八折结论。
+
+6项入口/前置/remote错误标记/活动失败拒绝/分批末批/gate守卫、3项controller守卫通过。前任务完整审计/成功TERM/关闭route/standalone私有回执为硬前置且绑定哈希。真实wall43100/CPU43000–43100，独立完整审计14400；initial/first/best/last完整model/RAdam/stopper/全部RNG/sampler/identity和全部实际训练ID/logs保留，完整重放已实现。controller只等现有训练成功→审计一次→本地完整包，无Drive/Git能力，不自动retry/resume。下一必须先逐字远端读回本协议/代码，再仅一次launch.py --run，核首步32组RAdam/16IDs后保存首步私有保险，并启动已有守卫controller一次；未读回或已有run/audit不得重复启动。本条写入时真实LightTS未启动，无真实值/标签/拟合，不声称后台训练。
+
+协议research/lightts_pilot_20261030/PROTOCOL.json SHA f2ffb8c4d716feaecb4a36edd0add92f6e884ec11f757e5056991bb2017715fb，47科学/作者/准备/前任务证据冻结。TimesNet最终results/cloud_20261030_timesnet_pilot/FINAL_REPORT.md。准确率提升与原创贡献仍未达目标，接续保持启用；原789快照/实际数组/模型/实际ID值不入Git。
+
 # 2026-10-30 — TimesNet训练正常结束，完整重放审计进行中；LightTS完整分类迁移实现/恢复/成本检查通过
 
 现有TimesNet worker49570按原patience10规则于27epoch结束，7938updates/126900训练出现，best epoch17/user2rawaccuracy.937；没有重复启动或按诊断缩短。训练supervisor exit0/no timeout，3413.217818749wall/3412.846813childCPU。两份预测先冻结再读held1；保存user2macro93.700000%、held1macro93.583333%，同held1冻结最强参考98.666667%，差−5.083333pp，保存gate=false/close_exact_configuration。**这些是待完整独立重放的训练输出，尚非审计通过的最终结论**；不扩此确切配置、不搜seed/epoch/FFT/宽度/eval批次救援。42科学/作者/协议哈希未变，无7–8标签，源内诊断探索性，不当旧LTR八折或独立验证。
