@@ -1,0 +1,51 @@
+{
+  "state": "implemented_synthetic_checks_pass_waiting_current_training",
+  "observed_unix": 1793343646.2544396,
+  "synthetic_test_methods_passed": 10,
+  "synthetic_subcases_include": [
+    "prediction/checkpoint tamper",
+    "missing fold/freeze",
+    "supervisor failure/timeout/wall/CPU excess",
+    "allsource roles/overlap",
+    "signed/zero preprocessing",
+    "held1 log schema and tie selection",
+    "missingclass macro and allgateconditions",
+    "AdamW fast+Lookaheadslow reload and corrupt state"
+  ],
+  "actual_incomplete_run_guard_verified": true,
+  "real_audit_executed": false,
+  "audit_supervisor_started": false,
+  "scientific_frozen_entries_verified": 35,
+  "scientific_frozen_entries_changed": 0,
+  "pinned_reused_inputs": 10,
+  "cpu_soft_seconds": 880,
+  "cpu_hard_seconds": 890,
+  "wall_seconds": 890,
+  "threads": 1,
+  "active_worker_pid": 45683,
+  "active_supervisor_pid": 45678,
+  "active_state": {
+    "state": "training",
+    "pid": 45683,
+    "completed_folds": [
+      1
+    ],
+    "all_new_diagnostic_predictions_frozen": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 1105.6978540109703,
+    "cpu_seconds": 1107.266868523,
+    "observed_unix": 1793343642.6331651,
+    "held_user": 2,
+    "validation_user": 3,
+    "epoch": 29,
+    "batch": 41,
+    "held": 2,
+    "train_bce": 5.708826934928669e-05,
+    "validation_macro": 0.9083333333333333,
+    "validation_loss": 0.14507956802845,
+    "epoch_seconds": 39.19289368297905
+  },
+  "auditor_sha256": "a6a77a8bdbfce9ca89bbf090331db7a65732d34f31ff72af57870f8223ea88b0",
+  "scope": "Prepare independent result verification only; no real new model fit/forward, labels/maps/scores read. Existing completed prerequisite JSON/byte hashes read.",
+  "real_result_completeness": "All6900source preprocessing and selected GAP val/diagnostic forwards planned; no historical nonselected epoch replay, CNN prior functional replay not repeated."
+}

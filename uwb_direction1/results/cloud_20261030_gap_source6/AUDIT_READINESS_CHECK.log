@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-gap-sixfold-20261030/audit_launch.py", line 15, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-gap-sixfold-20261030/audit_launch.py", line 7, in main
+    assert sys.argv[1:]==['--run'];require_complete(BASE)
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-gap-sixfold-20261030/audit_complete.py", line 20, in require_complete
+    if state.get('state')!='complete' or state.get('pid') is not None: raise RuntimeError('not_ready: GAP training not complete')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: not_ready: GAP training not complete
