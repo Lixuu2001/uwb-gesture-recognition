@@ -1,18 +1,23 @@
 {
   "state": "training",
   "pid": 48834,
-  "completed_phases": [],
+  "completed_phases": [
+    "ssl"
+  ],
   "all_predictions_frozen": false,
   "diagnostic_labels_read": false,
   "users7_8_labels_used": false,
-  "wall_seconds": 442.12071157898754,
-  "cpu_seconds": 444.340460075,
-  "observed_unix": 1793375838.7460303,
-  "phase": "ssl",
-  "epoch": 32,
+  "wall_seconds": 637.8916455309372,
+  "cpu_seconds": 640.081125507,
+  "observed_unix": 1793376034.516963,
+  "phase": "linear",
+  "epoch": 37,
   "batch": 35,
-  "total_steps": 1152,
-  "training_loss": 7.286816133393182,
+  "total_steps": 1332,
   "records_used": 4608,
-  "epoch_seconds": 13.859112881007604
+  "epoch_seconds": 2.453859872999601,
+  "training_loss": 0.15044111551509964,
+  "validation_loss": 0.6255176030099392,
+  "validation_macro": 0.7489999999999999,
+  "learning_rate": 0.0003
 }

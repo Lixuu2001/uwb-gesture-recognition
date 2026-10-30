@@ -1,3 +1,11 @@
+# 2026-10-30 — 后处理控制器48961已真实启动，SSL40轮完成；仍无诊断准确率结论
+
+97461cdfc4f59adbd4067ed399e82477b1d2d1d5代码/回执21文件精确读回并force=false推进后，postprocess.py --run 一次启动PID48961，实际POSTPROCESS_STATE=waiting_existing_training。训练supervisor48833/worker48834继续原协议，SSL40轮/1440步/184320训练出现已完整完成，SSLlast检查点SHA01f343bf63f7288bd7ad2346e454f808f13dd6c10d73efaf3dc0aed6142225f1；最新观察linear37/40，未重启训练。当前诊断预测尚未全部冻结、held1标签尚未读、无7–8标签，无真实诊断准确率或贡献结论。该阶段完结不等于完整160epoch作业成功或全轨迹审计。
+
+后处理只等现有训练TERM exit0，再固定审计一次，审计成功才本地打包；失败留下POSTPROCESS_STATE/trace而不retry。它无Drive/Git工具，不能声称完整远端备份或结果已自动发布。首步2块/89payload保险包已raw取回与全部成员验证，范围只含SSLinitial/first及recipe/IDs/source，不能代替最终四阶段包。完整流程预计依据合成成本约2785秒，属估计而非承诺。
+
+接续首查POSTPROCESS_STATE及真实进程，已有controller等待/审计/打包时不另启动。若state=audited_local_archive_ready_requires_Drive_upload_readback_and_Git_publication，先读COMPLETE_AUDIT、训练/审计TERMINATION、完整MANIFEST；用backup.py verify和已保存upload_readback_pipeline.js参考完成新块私有上传/元数据/raw(fetchdownload_raw_file=true,include_base64=false)/即物化SHA/重组成员验证，再真实发布原协议完整三分类器结果与gate。若state=incomplete/原TERM失败，先读trace修复，不能当科学负结果或重开训练。若controller缺失，先查是否已有audit_supervisor/完成包，避免重复工作。目标未达，自动接续保持启用。
+
 # 2026-10-30 — TS‑TCC真实160epoch实验已启动，首步模型/128ID核验与私有恢复包完成
 
 原预登记67bf23dc7acc41636caf38dd0e5ca69068478cc4的25文件逐字读回后force=false推进，再一次启动云端supervisor48833/worker48834。最新持久观测SSL第32/40、1152/1440更新；后续linear40/finetune40/scratch40按原协议继续。诊断标签未读，7–8标签未用，无真实准确率结论，不因训练loss推断准确率。只观察现有PID/检查点，禁止重复启动或重下已有数据。
