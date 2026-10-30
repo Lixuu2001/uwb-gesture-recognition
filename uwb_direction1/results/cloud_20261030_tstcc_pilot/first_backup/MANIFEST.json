@@ -1,0 +1,29 @@
+{
+  "state": "immutable_TS_TCC_private_snapshot",
+  "scope": "first_update_only",
+  "observed_unix": 1793375527.086382,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_augmentation_recipe_and_hashes_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": false,
+  "limitations": "First snapshot supplies onlySSLinitial/first update and fixed recipe/IDs/code, not live/latest/all phases. Complete snapshot supplies all four phase checkpoints/optimizer/scheduler/RNG/IDs/logs/predictions and audit. Source maps regenerate from private migration with exact RMS; augmented views regenerate from pinned algorithm/recipe. Tested restore helpers exist; no automatic job-resume. No new fit/scoring by backup.",
+  "archive_name": "tstcc_first_update_20261030.tar.gz",
+  "archive_bytes": 12199432,
+  "archive_sha256": "8c27a1c1cd04acb19d64bfb91f23743f56c34d73a631dda9471496e92eb00f2a",
+  "tracked_payload_files": 89,
+  "members_manifest_sha256": "04155a649f876db999efde29672d86baa1ba4d58ba757c5a12e90401cb016953",
+  "chunks": [
+    {
+      "name": "tstcc_first_update_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "c08d37f85330226ce8876d645d3295e4daad3fe6e2ea73023e434f8bf0658364"
+    },
+    {
+      "name": "tstcc_first_update_20261030.part001",
+      "bytes": 4859400,
+      "sha256": "559f7937e613b64bb90339f2bd8164ab1cbeeaea580239644a1dd3f355a053cb"
+    }
+  ]
+}

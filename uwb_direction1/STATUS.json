@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "tstcc_fullHAR_four_phase_adaptation_preregistered_not_started",
+  "state": "tstcc_full160epoch_real_training_running_first_update_verified_privately_preserved",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,8 +13,8 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
-  "next_required_input": "No user input. Verify current preregistration readback, inspect actual old/new processes/checkpoints; if no TSTCCrun01 and priorTS2Veccomplete/audit/privateverified then launch existing /workspace/uwb-tstcc-pilot-20261030/launch.py --run exactlyonce. Verify first_update.py artifact script verify_first_update.py after actual128ID/model/optimizer checkpoint; preserve truePID. After successful complete train do launch.py --audit and private model/log/ID/raw-readback backup. No7-8labels,no rescuegrids,no duplicate downloads/starts.",
+  "background_training_running": true,
+  "next_required_input": "No user input. Inspect POSTPROCESS_STATE/actual existing worker48834 andsupervisor48833/run01STATE/checkpoints first; never duplicate training or download. Postprocess helper may already be running after next receipt: waitexisting job; after trainexit0 auditonce then localcompletearchive only. If localarchive ready, upload Drive chunks <=3parallel with metadata/rawfetch include_base64false/instantmaterializeSHA/reassembly/memberverification; then publish true finalscore/gate. Firststepbundle only insurance, not fullmodelset or jobresume. No7-8labels or rescuegrids. Code and instructions at latestreport.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/research/tstcc_pilot_20261030/CONTINUATION.md",
+  "latest_report": "uwb_direction1/results/cloud_20261030_tstcc_pilot/LAUNCH_AND_PRIVATE_FIRST_UPDATE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -1561,7 +1561,7 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "Implement and preregister fixed fullTS-TCC160epoch source accuracy pilot; no real training claimed before verified launch. PreviousTS2VecandTSLANetexactconfigsclosed, goalunresolved.",
+  "latest_reported_action": "ActualfullTS-TCCtraining andfirstupdateprivate insuranceverified;fixed4stage experiment underway, no accuracyclaim;completion audit/localarchive helper ready.",
   "latest_paired_event_view_candidate_screen": {
     "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
     "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
@@ -2279,7 +2279,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "TS-TCC fullHARdefault transparent multichannel adaptation implemented, all4author-step/resume tests andaugmentationRNG parity passed; full160epochcost2785.263668s passed.71frozenentries;fixedsourceprotocolpreregistered, no realTSTCCvalues/fitsyet. Launch onlyafterexactremote readback.",
+  "latest_task_state": "ActualTS-TCC worker48834/supervisor48833 continuing frozen160epochs. Firststep bothmodels/9+65Adam/128IDs and71hashes verified; immutable firststep2chunk private readback verified. No diagnosticaccuracy/novelty result. Completion audit/localarchive controller implemented, not yet launched at this record; later real receipt authoritative.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -4155,7 +4155,7 @@
     "missing_capabilities": "No general webpage-fetch tool in current active tools; primary paper fulltext not yet obtained. Shellapi.github.comCONNECT403 used connectedGitHub fallback; no network bypass. Runtime/CPU/data/sourcecode available."
   },
   "tstcc_accuracy_pilot": {
-    "state": "preregistered_not_started",
+    "state": "real_training_running_first_update_verified_private_first_snapshot",
     "workspace": "/workspace/uwb-tstcc-pilot-20261030",
     "protocol": "uwb_direction1/research/tstcc_pilot_20261030/PROTOCOL.json",
     "protocol_sha256": "024d044ce1a619526b8072672e1b76bf9623748ddc57dbcab0d937fe2be43d3a",
@@ -4179,8 +4179,8 @@
     "all_four_author_step_and_two_step_resume_bitwise_passed": true,
     "augmentation_fullreference_and_RNG_bitwise_passed": true,
     "guard_tests_passed": 4,
-    "real_training_started": false,
-    "real_UWB_values_read": false,
+    "real_training_started": true,
+    "real_UWB_values_read": true,
     "train_users": [
       3,
       4,
@@ -4195,6 +4195,67 @@
     "complete_auditor_implemented": true,
     "paper_read_scope": "PublisherHTMLMethods3.1-3.3,4.2,5.1-5.3/Table1-3;equationsundecoded/figuresnotread/PDFredirectfailed",
     "augmentation_repair": "NumPy2 segmentindexshuffle+allchannelspat[:,warp]; originalcodeHARmaxseg8/Gaussianmean2sigma1.1/jitter.8 retained;explicit90time/567channelaxis",
-    "known_code_paper_differences_explicit": true
+    "known_code_paper_differences_explicit": true,
+    "worker_pid": 48834,
+    "supervisor_pid": 48833,
+    "preregistration_commit": "67bf23dc7acc41636caf38dd0e5ca69068478cc4",
+    "first_update_verification": {
+      "state": "pass",
+      "initial_both_models_exact_author_seed": true,
+      "changed_state_tensors": {
+        "model": 18,
+        "temporal": 68
+      },
+      "optimizer_steps": 1,
+      "encoder_optimizer_states": 9,
+      "temporal_optimizer_states": 65,
+      "both_optimizer_moments_finite_and_reload_exact": true,
+      "unused_SSL_logits_unchanged": true,
+      "exact_seeded_training_ID_count": 128,
+      "frozen_entries_verified": 71,
+      "first_update_sha256": "794ccdb7e24a6fef0c86fa39d1540cdb6cb298f0feae8163284d1b525da03fc4",
+      "verifier_sha256": "125e94fbd3a2add1a4166ae4cddba20fef90b16d37d8b921fb007b23c9b32a56",
+      "real_raw_values_or_labels_read": false,
+      "real_forward_or_fit": false,
+      "users7_8_labels_used": false,
+      "observed_unix": 1793375467.3485608
+    },
+    "latest_live_state_observed": {
+      "state": "training",
+      "pid": 48834,
+      "completed_phases": [],
+      "all_predictions_frozen": false,
+      "diagnostic_labels_read": false,
+      "users7_8_labels_used": false,
+      "wall_seconds": 442.12071157898754,
+      "cpu_seconds": 444.340460075,
+      "observed_unix": 1793375838.7460303,
+      "phase": "ssl",
+      "epoch": 32,
+      "batch": 35,
+      "total_steps": 1152,
+      "training_loss": 7.286816133393182,
+      "records_used": 4608,
+      "epoch_seconds": 13.859112881007604
+    },
+    "first_update_private_backup": {
+      "state": "private_readback_verified",
+      "scope": "first_update_only",
+      "index": "uwb_direction1/results/cloud_20261030_tstcc_pilot/first_backup/DRIVE_BACKUP_RECEIPT.json",
+      "archive_bytes": 12199432,
+      "chunks": 2,
+      "tracked_payload_files": 89,
+      "archive_members": 90,
+      "archive_sha256": "8c27a1c1cd04acb19d64bfb91f23743f56c34d73a631dda9471496e92eb00f2a",
+      "receipt_sha256": "34536d74e62bd673e6760f862ebfdce95ccc13a80939dbffeafa9b7fb0fa0175",
+      "all_completed_models_included": false,
+      "full_job_resume_snapshot": false
+    },
+    "postprocess_controller_implemented": true,
+    "postprocess_controller_started": false,
+    "postprocess_guard_tests_passed": 3,
+    "completion_audit_executed": false,
+    "complete_private_backup_done": false,
+    "diagnostic_labels_read": false
   }
 }
