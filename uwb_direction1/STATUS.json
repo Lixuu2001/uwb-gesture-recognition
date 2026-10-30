@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "timemil_run02_training_running",
+  "state": "timemil_pilot_closed_gap_source6_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,8 +13,8 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
-  "next_required_input": "Check actual TimeMIL worker45017/supervisor45016 and /workspace/uwb-timemil-20261029/run02/STATE.json first; no duplicate launch. Original failed run01/supervisor01 stay untouched, current real run is run02/supervisor02. First update131changedtensors/finite/64trainingIDs/step1 verified. Continue same64epoch arms/source-only split/config/gates. Require both prediction freezes/completeSTATE/successful supervisor02 and cumulative budget<=43200wall/CPU including attempt01 2.773417531wall/2.723565CPU. Then run prepared amended audit_launch.py --run, verify full results and privately preserve all real models/IDs/logs. No7–8label tuning, rescuegrid or premature novelty/accuracy claim; engineering stops=incomplete, inspect exact receipts before repair. Source6 mean93.5944 vs Mini78.5336 gatepasses, allsixmodel sets recoverable via FINAL_DRIVE_BACKUP_RECEIPT composite; not legacy eightfold improvement or original contribution.",
+  "background_training_running": false,
+  "next_required_input": "Verify no GAP source6 worker/run directory exists. After this preregistration commit launch /workspace/uwb-gap-sixfold-20261030/launch.py --run once, verify first actual update, retain receipts/model/optimizer/RNG/IDs/logs. Fixedseed20261029/64epochs/newheld2-6/oneCPUthread/43200wall+CPU. Allfivepredictionsfreeze before aggregate; compare existing localCNNsame6sourcefolds with mean>=1pp,>=4wins,min>=-2pp gate. No7-8labels or postscoregrid. Prepare independent completion audit during active training, then require successful supervisor and fullprivatepreservation before finalgainclaim. TimeMILexact64 configclosed; overallgoalunresolved.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_timemil_preparation/PARTIAL_EPOCH43_BACKUP_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261030_timemil_final/FINAL_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793335305.5521986,
-  "background_training_pid": 45017,
-  "background_training_status_note": "Existing TimeMIL run02 worker45017/supervisor45016 continues. Consistent epoch43 model/optimizer/RNG/IDs/log prefix privately preserved and fivechunk/all115payload readback verified. No diagnostic score or new fit/config; completion audit still waits both64epoch arms/prediction freezes.",
+  "background_training_pid": null,
+  "background_training_status_note": "TimeMIL/GAP64epoch pilot complete, training exited0, independent44hash/fullfunctional audit passes; all pair states privately backed up8chunks/135payloads. GAP source-sixfold separately preregistered but not launched yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Current fixed TimeMIL64epoch source pilot running; full/GAP accuracy gate after both prediction freezes and independent audit. TSLANet remains later synthetic prototype, no new real fit.",
-  "last_completed_update_utc": "2026-10-30T04:41:45.552Z",
+  "next_candidate": "Launch once the registered unchanged GAP source-sixfold baseline, reusingheld1 and trainingonlyheld2-6; no TimeMIL rescue or TSLANet real launch.",
+  "last_completed_update_utc": "2026-10-30T06:41:30.926Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -1564,7 +1564,7 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "Verified TimeMIL epoch43 partial private checkpoint preservation; original full/GAP64epoch pilot still running, no new diagnostic accuracy conclusion.",
+  "latest_reported_action": "TimeMIL98.6667/GAP98.4167 audit passes. TimeMIL-GAP+.25pp fails+.5pp; close exact64epochTimeMIL. GAP+1.5833pp vs held1localCNN passes baseline-expansion gate; fixed GAP6source protocol registered before new fits.",
   "latest_paired_event_view_candidate_screen": {
     "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
     "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
@@ -3037,7 +3037,7 @@
   "background_continuation_running": false,
   "background_continuation_pid": null,
   "timemil_accuracy_preparation": {
-    "state": "run02_training_partial_epoch43_privately_preserved",
+    "state": "complete_audited_exact64epoch_timemil_gate_failed_gap_expansion_eligible",
     "path": "/workspace/uwb-timemil-20261029",
     "report": "uwb_direction1/results/cloud_20261029_timemil_preparation/RUN_REPORT.md",
     "protocol_sha256": "25ab7782df5a351914f0c7cde356f281e3ca2bda5c55688fec5d9e1a8cab7107",
@@ -3059,9 +3059,9 @@
     "users7_8_labels_used": false,
     "exact_paper_reproduction_claim": false,
     "original_contribution_validated": false,
-    "launch_priority": "Already running run02; inspect worker45017/supervisor45016/run02 state first, continue the same trajectory and do not duplicate launch.",
+    "launch_priority": "Completed; never relaunch. Exact64epochTimeMIL mechanism closed. GAPbaseline may expand under separate protocol.",
     "completed_result_audit_preparation": {
-      "state": "implemented_synthetic_checks_pass_waiting_active_run02_pair_completion",
+      "state": "completed_pass",
       "code": "uwb_direction1/research/timemil_accuracy_20261029/audit_result.py",
       "launcher": "uwb_direction1/research/timemil_accuracy_20261029/audit_launch.py",
       "report": "uwb_direction1/results/cloud_20261029_timemil_preparation/AUDIT_PREPARATION.md",
@@ -3071,7 +3071,7 @@
       "cpu_soft_seconds": 880,
       "cpu_hard_seconds": 890,
       "threads": 1,
-      "real_complete_audit_executed": false,
+      "real_complete_audit_executed": true,
       "automatic_controller_started": false,
       "original_preparation_frozen_entries_unchanged_after_engineering_repair": 13,
       "current_frozen_hashes_matching": 16
@@ -3105,21 +3105,24 @@
     "worker_pid": 45017,
     "supervisor_pid": 45016,
     "latest_live_state_observed": {
-      "state": "training",
-      "pid": 45017,
-      "completed_arms": [],
-      "diagnostic_labels_read": false,
+      "state": "complete",
+      "pid": null,
+      "completed_arms": [
+        "timemil",
+        "gap"
+      ],
+      "diagnostic_labels_read": true,
       "users7_8_labels_used": false,
-      "wall_seconds": 6486.9837256419705,
-      "cpu_seconds": 6487.85212606,
-      "observed_unix": 1793335305.5521986,
-      "arm": "timemil",
-      "epoch": 46,
-      "batch": 31,
-      "train_bce": 0.0014794024842001122,
-      "validation_macro": 0.983,
-      "validation_bce": 0.00918793585151434,
-      "epoch_seconds": 141.63526290399022
+      "wall_seconds": 11533.669947043993,
+      "cpu_seconds": 11534.088267264,
+      "observed_unix": 1793340352.2384179,
+      "arm": "gap",
+      "epoch": 64,
+      "batch": 71,
+      "train_bce": 0.000025465305655590317,
+      "validation_macro": 0.9899999999999999,
+      "validation_bce": 0.007310789544135332,
+      "epoch_seconds": 37.36026673193555
     },
     "actual_launch_receipt": "uwb_direction1/results/cloud_20261029_timemil_preparation/LAUNCH_RUN02.json",
     "first_real_update_receipt": "uwb_direction1/results/cloud_20261029_timemil_preparation/FIRST_UPDATE_VERIFIED_RUN02.json",
@@ -3139,6 +3142,44 @@
       "local_path": "/workspace/uwb-timemil-20261029/partial_backup_20261030",
       "production_resume_entrypoint_implemented": false,
       "full_study_complete": false
+    },
+    "final_result": {
+      "state": "complete_exploratory_source_pilot",
+      "scores": {
+        "timemil": 0.9866666666666667,
+        "gap": 0.9841666666666667
+      },
+      "cnn_reference": {
+        "full": 0.9600000000000001,
+        "local": 0.9683333333333333,
+        "minirocket": 0.8533333333333335
+      },
+      "gate_passed": false,
+      "gap_baseline_expansion_eligible": true,
+      "epochs": 64,
+      "independent_validation": false,
+      "novel_contribution_validated": false,
+      "users7_8_labels_used": false,
+      "wall_seconds": 11533.669827201986,
+      "cpu_seconds": 11534.088267264,
+      "cumulative_wall_seconds": 11536.443244733033,
+      "cumulative_cpu_seconds": 11536.811832264
+    },
+    "final_audit": {
+      "state": "pass",
+      "artifact_hashes": 44,
+      "preprocessing_records": 6900,
+      "per_arm_validation_records": 1000,
+      "per_arm_diagnostic_records": 1200,
+      "report": "uwb_direction1/results/cloud_20261030_timemil_final/COMPLETE_RESULT_AUDIT.json"
+    },
+    "full_private_backup": {
+      "state": "private_readback_verified",
+      "chunks": 8,
+      "bytes": 53196575,
+      "tracked_payload_files": 135,
+      "archive_sha256": "e305d2c59314f299a174c47a736ec1ec7096dd4a7f623e7c3d331613a793c207",
+      "receipt": "uwb_direction1/results/cloud_20261030_timemil_final/FINAL_DRIVE_BACKUP_RECEIPT.json"
     }
   },
   "local_source6_confirmation": {
@@ -3350,5 +3391,29 @@
     "accuracy_improvement_validated": false
   },
   "latest_completed_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
-  "practical_baseline_source6_confirmed": true
+  "practical_baseline_source6_confirmed": true,
+  "gap_source6_confirmation": {
+    "state": "preregistered_not_launched",
+    "workspace": "/workspace/uwb-gap-sixfold-20261030",
+    "protocol_sha256": "9195ac6d69ec54fe285cacd840765305f7013626667ab734ac34eefcf4bfd7c8",
+    "seed": 20261029,
+    "epochs": 64,
+    "new_trajectories": 5,
+    "new_epochs": 320,
+    "reused_held": 1,
+    "threads": 1,
+    "cpu_budget_seconds": 43200,
+    "wall_budget_seconds": 43200,
+    "conservative_cost_seconds": 24883.641023412347,
+    "frozen_entries": 35,
+    "synthetic_tests_passed": 6,
+    "gate": {
+      "mean_gap_minus_localcnn_minimum": 0.01,
+      "positive_users_minimum": 4,
+      "worst_user_difference_minimum": -0.02
+    },
+    "users7_8_labels_used": false,
+    "original_contribution_claim": false,
+    "protocol": "uwb_direction1/research/gap_source6_20261030/PROTOCOL.json"
+  }
 }
