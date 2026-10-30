@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-ts2vec-pilot-20261030/audit_complete.py", line 105, in <module>
+    parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,required=True);args=parser.parse_args();audit(B,args.out)
+                                                                                                                   ^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-ts2vec-pilot-20261030/audit_complete.py", line 98, in audit
+    summary=read(out/'SUMMARY.json');reference=cfg['reference_held1_macro'];assert scores==summary['scores'] and summary['reference_held1_macro']==reference
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

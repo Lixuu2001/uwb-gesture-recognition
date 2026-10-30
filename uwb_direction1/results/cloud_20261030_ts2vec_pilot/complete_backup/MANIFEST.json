@@ -1,0 +1,45 @@
+{
+  "state": "completed_TS2Vec600_full_model_and_evidence_snapshot",
+  "observed_unix": 1793371514.3337038,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "learned_features_and_predictions_included": true,
+  "initial_first_last_raw_average_optimizer_RNG_included": true,
+  "full_600_update_ID_log_included": true,
+  "SVM_model_and_training_CV_IDs_included": true,
+  "checkpoint_interval_policy": "last.pt atomically overwritten every50updates; initial and first_update separate. Intermediate50step versions were rolling, not retained as separate historical files.",
+  "full_job_resume_snapshot": false,
+  "limitations": "Completed-job model recovery and reproducibility artifacts. No automatic job resume. Original migration restores raw maps, exact RMS regenerates source maps. No new fitting/scoring by backup; source pilot exploratory.",
+  "archive_name": "ts2vec_complete_20261030.tar.gz",
+  "archive_bytes": 33451378,
+  "archive_sha256": "45a5175865dea6626c3f1daa8937fa8a1ed432f0aac5a014024d251f6e72c626",
+  "tracked_payload_files": 87,
+  "members_manifest_sha256": "da5e2240676ca18e95aa3afbeeb97cbe244869270cac5987f00bab85e93e5d3d",
+  "chunks": [
+    {
+      "name": "ts2vec_complete_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "289f93e05d9c9585211bebcae7eb2253634615d60cfa1d935993bb67e210bf40"
+    },
+    {
+      "name": "ts2vec_complete_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "a660ab3d5c3165bac521474b38b171b23c6d68c7cae50c28fa9ec78b7507a7bd"
+    },
+    {
+      "name": "ts2vec_complete_20261030.part002",
+      "bytes": 7340032,
+      "sha256": "a0777a540162408ea9a6140d04dd98ddb94b80543644a5262ea4280248eca9b4"
+    },
+    {
+      "name": "ts2vec_complete_20261030.part003",
+      "bytes": 7340032,
+      "sha256": "6af550638bc325043523334b575234c0ef027e7df4640c0a634a88838f0cfb22"
+    },
+    {
+      "name": "ts2vec_complete_20261030.part004",
+      "bytes": 4091250,
+      "sha256": "867ceb687089f2a012cb94c20c13192e61efc9bd29b2488ae8a29ba5bd421ef4"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "ts2vec_full_default_real_pilot_running_first_update_verified",
+  "state": "ts2vec600_complete_failed_gate_audited_preserved_tstcc_full_default_synthetic_preparation",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,8 +13,8 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
-  "next_required_input": "No user input. Inspect existing worker48090/supervisor48089 and checkpoints first; after successful termination run frozen audit_launch.py --run then private completed-model backup/readback. Do not re-launch, tune diagnostic scores or use7-8labels.",
+  "background_training_running": false,
+  "next_required_input": "No user input required. First inspect actual process/checkpoint state; never restart closed TS2Vec/TSLANet or download existing raw data. Continue /workspace/uwb-tstcc-screen-20261030: verify paper multichannel augmentation semantics, implement documented NumPy2/radar-axis compatibility without silent source changes, author-step/checkpoint/RNG parity and full40epoch pipeline cost, then register one fixed source protocol before actual fitting. No7-8labels or diagnostic rescue grids. Accuracy and novelty separate; goal unresolved; continuation enabled.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/LAUNCH_VERIFIED.md",
+  "latest_report": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/CONTINUATION_RESULT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -1561,7 +1561,7 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "GAP6source93.667172vs93.594444,+.072727pp/worst-4.363636 failsgate,private/auditedclosurecomplete. TSLANet full50SSL+100FTvs100scratch actuallylaunched afterpreregistration, firstSSLupdateverified.",
+  "latest_reported_action": "Two published-method source pilots closed with real negative accuracy evidence:TSLANetpair andTS2Vec600. NextTS-TCC has runnable full-default synthetic core and concrete compatibility proof, not real training. No validated new accuracy gain/original contribution.",
   "latest_paired_event_view_candidate_screen": {
     "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
     "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
@@ -2279,7 +2279,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Full TS2Vec600/originalSVM actual source pilot running, first update independently verified; monitor existing worker, no duplicate/restart. Previous TSLANet pair failed and fully preserved; goal unresolved.",
+  "latest_task_state": "TS2Vec600/originaltenC-SVM real source pilot completed;65.50%held1vs98.666667%reference failedgate. Full600step/feature/SVM audit passes after isolated1ULPmetric engineering repair; complete5chunk private readback verified. NextTS-TCC fullHARdefault synthetic authorstep passed; concrete augmentation/axis compatibility, paper-method review, resume/cost/protocol pending; no new real training.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3403,7 +3403,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "uwb_direction1/results/cloud_20261030_tslanet_pilot/FINAL_REPORT.md",
+  "latest_completed_report": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/FINAL_REPORT.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -4031,7 +4031,7 @@
     "next_condition": "CurrentTS first. Eligibility route->confirmation; TS exactclosure->complete full prospective TS2Vec protocol/driver before real data. Original save/load only averagedencoder; no pretend resume/training."
   },
   "ts2vec_accuracy_pilot": {
-    "state": "real_encoder_training_first_update_verified",
+    "state": "complete_failed_gate_closed_full_replay_audited_privately_preserved",
     "workspace": "/workspace/uwb-ts2vec-pilot-20261030",
     "protocol": "uwb_direction1/research/ts2vec_pilot_20261030/PROTOCOL.json",
     "protocol_sha256": "b8e9946ee351eeee735bfffcbb50539e2b4d8fb9bc0cc86614dcc8db6ad183a1",
@@ -4056,8 +4056,8 @@
     "novel_contribution_validated": false,
     "gate": "held1macro>=.9866666666666667+.005;elsecloseexactconfig",
     "audit_implemented": true,
-    "worker_pid": 48090,
-    "supervisor_pid": 48089,
+    "worker_pid": null,
+    "supervisor_pid": null,
     "preregistration_commit": "095171d72ebb156a101ea42bc1ca4af621a07763",
     "first_update_verification": {
       "state": "pass",
@@ -4078,18 +4078,80 @@
       "users7_8_labels_used": false
     },
     "latest_live_state_observed": {
-      "state": "encoder_training",
-      "pid": 48090,
-      "iteration": 350,
-      "diagnostic_labels_read": false,
-      "all_predictions_frozen": false,
-      "users7_8_labels_used": false,
-      "wall_seconds": 81.27031534002163,
-      "cpu_seconds": 85.153856141,
-      "observed_unix": 1793370810.3044093,
-      "encoder_loss": 1.4206095933914185
+      "state": "complete",
+      "pid": null,
+      "iteration": 600,
+      "diagnostic_labels_read": true,
+      "all_predictions_frozen": true,
+      "users7_8_labels_used": false
     },
     "launch_report": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/LAUNCH_VERIFIED.md",
-    "checkpoint_preservation_policy": "initial/first_update separate;last.pt rollingevery50updates and final;intermediatehistoricalversionsnotretained"
+    "checkpoint_preservation_policy": "initial/first_update separate;last.pt rollingevery50updates and final;intermediatehistoricalversionsnotretained",
+    "scores": {
+      "validation": 0.6489999999999999,
+      "diagnostic": 0.655
+    },
+    "reference_held1_macro": 0.9866666666666667,
+    "diagnostic_gain_pp": -33.16666666666667,
+    "selected_C": 10,
+    "predeclared_route": "close_exact_configuration",
+    "completion_audit_executed": true,
+    "completion_audit": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/COMPLETE_AUDIT.json",
+    "completion_audit_hash_count": 63,
+    "training_updates_replayed_exact": 600,
+    "training_sample_appearances_verified": 9600,
+    "all6900representations_bitwise_equal": true,
+    "all2200predictions_and_decisions_exact": true,
+    "metric_reduction_repair": {
+      "original_exit_code": 1,
+      "diagnostic_difference": -1.1102230246251565e-16,
+      "original_auditor_unchanged": true,
+      "repair_scope": "onlymacrocomparison<=1e-12;allmodel/optimizer/RNG/features/predictionsexact",
+      "repaired_auditor_sha256": "016e7df0c3349b6db9e65c4d38bb1b1c4ab948684217d7c6a12ff900a92ed617",
+      "full_reaudit_exit_code": 0,
+      "trace": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/AUDIT_ENGINEERING_REPAIR01.json"
+    },
+    "private_backup": {
+      "state": "private_readback_verified",
+      "index": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/complete_backup/DRIVE_BACKUP_RECEIPT.json",
+      "archive_bytes": 33451378,
+      "chunks": 5,
+      "tracked_payload_files": 87,
+      "archive_members": 88,
+      "archive_sha256": "45a5175865dea6626c3f1daa8937fa8a1ed432f0aac5a014024d251f6e72c626",
+      "receipt_sha256": "1af36577d6d4f875ef48de04ff08fa9808ff3e67492db031c7037ff9d38b16fb",
+      "raw_arrays_included": false,
+      "full_job_resume_snapshot": false
+    },
+    "report": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/FINAL_REPORT.md",
+    "known_baseline_expansion_eligible": false
+  },
+  "tstcc_author_core_preparation": {
+    "state": "pinned_core_fullHARdefault_batch128_synthetic_update_passed_augmentation_adapter_pending",
+    "workspace": "/workspace/uwb-tstcc-screen-20261030",
+    "author_commit": "15bdfd6eced6aeb6c638839828effe1b4b2ea391",
+    "paper": "https://doi.org/10.24963/ijcai.2021/324",
+    "report": "uwb_direction1/research/tstcc_author_screen_20261030/REVIEW_AND_NEXT_STEP.md",
+    "author_blobs_verified": 10,
+    "encoder_parameters": 247500,
+    "temporal_parameters": 313096,
+    "batch_size": 128,
+    "num_epoch": 40,
+    "shape_only_adaptations": {
+      "input_channels": 567,
+      "classes": 12,
+      "features_len": 13
+    },
+    "synthetic_author_training_step_executed": true,
+    "source_augmentation_synthetic_issue_reproduced": true,
+    "paper_fulltext_read": false,
+    "real_UWB_values_or_labels_read": false,
+    "real_training_started": false,
+    "real_training_launcher_exists": false,
+    "checkpoint_resume_test_passed": false,
+    "full_cost_gate_passed": false,
+    "license_verified": false,
+    "novel_contribution_claim": false,
+    "missing_capabilities": "No general webpage-fetch tool in current active tools; primary paper fulltext not yet obtained. Shellapi.github.comCONNECT403 used connectedGitHub fallback; no network bypass. Runtime/CPU/data/sourcecode available."
   }
 }

@@ -1,0 +1,145 @@
+{
+  "state": "private_readback_verified",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "role": "owner",
+      "type": "user"
+    }
+  ],
+  "archive_name": "ts2vec_complete_20261030.tar.gz",
+  "archive_bytes": 33451378,
+  "archive_sha256": "45a5175865dea6626c3f1daa8937fa8a1ed432f0aac5a014024d251f6e72c626",
+  "members_manifest_sha256": "da5e2240676ca18e95aa3afbeeb97cbe244869270cac5987f00bab85e93e5d3d",
+  "tracked_payload_files": 87,
+  "archive_members": 88,
+  "chunks": [
+    {
+      "name": "ts2vec_complete_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "289f93e05d9c9585211bebcae7eb2253634615d60cfa1d935993bb67e210bf40",
+      "file_id": "1gtFipF_r1bWoy8VX8BEou9ZzlXyhdFDR",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "ts2vec_complete_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "a660ab3d5c3165bac521474b38b171b23c6d68c7cae50c28fa9ec78b7507a7bd",
+      "file_id": "1hfRIiF1oiXmDRF7DG7WcdmKJBsYz-nG_",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "ts2vec_complete_20261030.part002",
+      "bytes": 7340032,
+      "sha256": "a0777a540162408ea9a6140d04dd98ddb94b80543644a5262ea4280248eca9b4",
+      "file_id": "1ihDDW08yj6ShFcdNm0NIGB5h2sPyJEgi",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "ts2vec_complete_20261030.part003",
+      "bytes": 7340032,
+      "sha256": "6af550638bc325043523334b575234c0ef027e7df4640c0a634a88838f0cfb22",
+      "file_id": "1XC2nwYYnD1BdWqz0Nxx41xnFd9AtEUi3",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "ts2vec_complete_20261030.part004",
+      "bytes": 4091250,
+      "sha256": "867ceb687089f2a012cb94c20c13192e61efc9bd29b2488ae8a29ba5bd421ef4",
+      "file_id": "1vw-mIs0cN9EumntN-RLuaEC7QxMdnCAn",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 4091250,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "modelset_recoverable": true,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "learned_features_predictions_models_optimizer_RNG_IDs_included": true,
+  "full_job_resume_snapshot": false,
+  "checkpoint_interval_policy": "last.pt atomically overwritten every50updates; initial and first_update separate. Intermediate50step versions were rolling, not retained as separate historical files.",
+  "verified_unix": 1793371688.5942194,
+  "backup_builder_sha256": "3cd7ab7999cc84fbcac0ebbc7a2f16d7ac9370eabccba127e6b1109329f050f8",
+  "final_audit_sha256": "9c34b51f645209b7120eb107c982b822cf557b97119ce46f592bbf430e44eda2",
+  "limitations": "Completed-job model recovery and reproducibility artifacts. No automatic job resume. Original migration restores raw maps, exact RMS regenerates source maps. No new fitting/scoring by backup; source pilot exploratory."
+}

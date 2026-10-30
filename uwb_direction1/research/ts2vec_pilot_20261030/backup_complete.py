@@ -5,7 +5,9 @@ from audit_complete import require_complete,read,sha
 B=Path(__file__).resolve().parent
 def build(out):
  require_complete(B);audit=read(B/'COMPLETE_AUDIT.json');assert audit['state']=='pass'
- term=read(B/'audit_supervisor01/TERMINATION.json');assert term['exit_code']==0 and not term['wall_timeout']
+ completion=read(B/'AUDIT_COMPLETION_RECEIPT.json');assert completion['state']=='pass' and completion['supervisor_folder']=='audit_supervisor02'
+ term=read(B/completion['supervisor_folder']/'TERMINATION.json');assert term['exit_code']==0 and not term['wall_timeout'] and completion['termination']==term
+ for n,h in read(B/'REPAIRED_AUDIT_HASHES.json').items():assert sha(B/n)==h,n
  for p,h in audit['artifact_hashes'].items():assert sha(p)==h,p
  out.mkdir(exist_ok=False);payload=out/'payload';payload.mkdir();members=[]
  def copy(source,name):
@@ -14,7 +16,7 @@ def build(out):
   if p.is_file() and p.suffix in ('.py','.json','.md','.log') and p.name not in ('LAUNCH.log','AUDIT_LAUNCH.log'):copy(p,Path('study')/p.name)
  for p in sorted((B/'run01').rglob('*')):
   if p.is_file() and p.name!='worker.lock':copy(p,Path('run01')/p.relative_to(B/'run01'))
- for folder in ('supervisor01','audit_supervisor01'):
+ for folder in ('supervisor01','audit_supervisor01','audit_supervisor02'):
   for p in sorted((B/folder).iterdir()):
    if p.is_file():copy(p,Path(folder)/p.name)
  cfg=read(B/'PROTOCOL.json');screen=Path(cfg['prototype'])

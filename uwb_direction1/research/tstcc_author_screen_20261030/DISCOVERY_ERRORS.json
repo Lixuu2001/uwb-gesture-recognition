@@ -1,0 +1,14 @@
+[
+  {
+    "stage": "README_fetch",
+    "error": "requests package not installed in runtime",
+    "real_UWB_or_models_read": false,
+    "repair": "Use Python standard-library urllib through configured proxy/CA; no network bypass"
+  },
+  {
+    "stage": "author_commit_fetch_shell",
+    "error": "api.github.com CONNECT403 by configured network proxy",
+    "repair": "GitHub connected tool obtained pinned main commit15bdfd6eced6aeb6c638839828effe1b4b2ea391 and10sourceblobs; no network bypass",
+    "real_UWB_values_read": false
+  }
+]
