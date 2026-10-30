@@ -1,3 +1,11 @@
+# 2026-10-30 — GAP source-sixfold real training started; first update verified
+
+Remote0f50505a62ad5d572cdd6d928974150047cce10a and protocol9195ac6d69ec54fe285cacd840765305f7013626667ab734ac34eefcf4bfd7c8 verified beforelaunch. Actualsupervisor45678/worker45683 alive,held2/validation3 epoch3. Firstupdate108changed tensors/617612params/finite/Lookaheadcount1/faststeps1/slowempty,64unique exactseededtrainIDs,no val/heldIDs,private roles/35frozenhashes allpass. Author/reusedheld1initial exactlymatches. FirstSHA4a5b77f649fe4cbd205005314d4e1976eb25f97fb813a03bc3bfc06e308b2042; verifierreads no map/labelvalues/no forward/update. Actualoptimizationproof,notwatcher. Evidence results/cloud_20261030_gap_source6/{LAUNCH_VERIFIED.md,LAUNCH.json,FIRST_UPDATE_VERIFIED.json}, code research/gap_source6_20261030/verify_first_update.py.
+
+Continue same5new64epochGAPtrajectories/seed/config/gate/oneCPUthread/43200wall+CPU; held1reused. Do notduplicate/restartworker. Allfivepredictionsfreeze beforeaggregate, no7-8labels/rescuegrid. Completionauditor still needsimplementation+syntheticvalidation whileactive; it has notrun and is notyetclaimedready. Then successfultrainingtermination/fullfunctional+artifact+role+selection+metric audit/privatefinalstates beforegainclaim. UpstreamTimeMIL64mechanismclosed,final44hashaudit/8chunk135payloadprivatebackupvalid; source6localCNNclosureunchanged. TSLANet remainslatersyntheticcandidate,exploratoryaccuracy!=originality,goalunresolved/continuationenabled.
+
+---
+
 # 2026-10-30 — TimeMIL/GAP audited; exact TimeMIL64 configuration closes, GAP source6 registered
 
 Verified held1macro: TimeMIL98.666667%,GAP98.416667%,priorlocalCNN96.833333%. TimeMIL-GAP+.25pp fails frozen+.5pp jointmechanismgate; close exact64epochTimeMIL withoutrescuegrid/source6TimeMIL. GAP-localCNN+1.583333pp passes separate frozen+1pp baselineeligibility. No legacy8fold comparison/independentvalidation/originalityproof.

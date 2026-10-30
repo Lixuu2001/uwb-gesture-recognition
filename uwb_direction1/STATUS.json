@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "timemil_pilot_closed_gap_source6_preregistered",
+  "state": "gap_source6_training_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,8 +13,8 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
-  "next_required_input": "Verify no GAP source6 worker/run directory exists. After this preregistration commit launch /workspace/uwb-gap-sixfold-20261030/launch.py --run once, verify first actual update, retain receipts/model/optimizer/RNG/IDs/logs. Fixedseed20261029/64epochs/newheld2-6/oneCPUthread/43200wall+CPU. Allfivepredictionsfreeze before aggregate; compare existing localCNNsame6sourcefolds with mean>=1pp,>=4wins,min>=-2pp gate. No7-8labels or postscoregrid. Prepare independent completion audit during active training, then require successful supervisor and fullprivatepreservation before finalgainclaim. TimeMILexact64 configclosed; overallgoalunresolved.",
+  "background_training_running": true,
+  "next_required_input": "Inspect actual /workspace/uwb-gap-sixfold-20261030/run01/STATE.json worker45683/supervisor45678 and checkpoints first; do not duplicate/restart. Same5new64epoch trajectories/seed20261029/oneCPUthread/43200wall+CPU; held1 reused. Prepare independent completion auditor and synthetic checks during active job (not implemented/executed yet), preserving protocol/gates. Allfive new diagnostic predictions freeze before aggregate; compare existing localCNN6source with mean>=1pp,>=4wins,min>=-2pp. Require successful supervisor termination, fullrole/input/hash/checkpoint/validationselection/functional/metric verification and private final preservation before claims. No7-8labels or postscoregrid. Old45016 is completedzombie; never restartTimeMIL64. TSLANet remains later synthetic candidate. Overallgoal unresolved, continuationenabled.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261030_timemil_final/FINAL_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261030_gap_source6/LAUNCH_VERIFIED.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793335305.5521986,
-  "background_training_pid": null,
-  "background_training_status_note": "TimeMIL/GAP64epoch pilot complete, training exited0, independent44hash/fullfunctional audit passes; all pair states privately backed up8chunks/135payloads. GAP source-sixfold separately preregistered but not launched yet.",
+  "background_training_observed_unix": 1793342656.1901815,
+  "background_training_pid": 45683,
+  "background_training_status_note": "Actual GAP source6 worker45683/supervisor45678 trains held2/validation3; first update108changedtensors/finite/64exacttrainingIDs/step1 and35hashes verified. UpstreamTimeMIL pair complete/audited/private; no new fold diagnostic score.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Launch once the registered unchanged GAP source-sixfold baseline, reusingheld1 and trainingonlyheld2-6; no TimeMIL rescue or TSLANet real launch.",
-  "last_completed_update_utc": "2026-10-30T06:41:30.926Z",
+  "last_completed_update_utc": "2026-10-30T06:44:16.190Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -1564,7 +1564,7 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "TimeMIL98.6667/GAP98.4167 audit passes. TimeMIL-GAP+.25pp fails+.5pp; close exact64epochTimeMIL. GAP+1.5833pp vs held1localCNN passes baseline-expansion gate; fixed GAP6source protocol registered before new fits.",
+  "latest_reported_action": "Audited TimeMIL98.6667/GAP98.4167 closes TimeMIL64 mechanism; eligible GAP six-source real training launched after preregistration, first update independently verified.",
   "latest_paired_event_view_candidate_screen": {
     "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
     "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
@@ -3393,7 +3393,7 @@
   "latest_completed_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
-    "state": "preregistered_not_launched",
+    "state": "running_first_actual_update_verified",
     "workspace": "/workspace/uwb-gap-sixfold-20261030",
     "protocol_sha256": "9195ac6d69ec54fe285cacd840765305f7013626667ab734ac34eefcf4bfd7c8",
     "seed": 20261029,
@@ -3414,6 +3414,54 @@
     },
     "users7_8_labels_used": false,
     "original_contribution_claim": false,
-    "protocol": "uwb_direction1/research/gap_source6_20261030/PROTOCOL.json"
+    "protocol": "uwb_direction1/research/gap_source6_20261030/PROTOCOL.json",
+    "worker_pid": 45683,
+    "supervisor_pid": 45678,
+    "preregistration_commit": "0f50505a62ad5d572cdd6d928974150047cce10a",
+    "first_update_verification": {
+      "state": "pass",
+      "observed_unix": 1793342576.140337,
+      "held": 2,
+      "validation_user": 3,
+      "changed_model_tensors": 108,
+      "parameters": 617612,
+      "initial_matches_author_and_reused_held1": true,
+      "all_model_and_optimizer_values_finite": true,
+      "optimizer_steps": 1,
+      "slow_buffer_empty": true,
+      "training_ids_verified": 64,
+      "exact_seeded_training_batch": true,
+      "split_roles_verified": true,
+      "frozen_hashes_verified": 35,
+      "first_update_sha256": "4a5b77f649fe4cbd205005314d4e1976eb25f97fb813a03bc3bfc06e308b2042",
+      "real_sample_values_or_labels_read_by_verifier": false,
+      "real_forward_or_optimization_by_verifier": false,
+      "users7_8_labels_used": false,
+      "preregistration_commit": "0f50505a62ad5d572cdd6d928974150047cce10a",
+      "verifier_sha256": "568d92ce2866be5e8e4e0338311d4af48b016f19bd11cf4bf1b59de95d56eeb1"
+    },
+    "latest_live_state_observed": {
+      "state": "training",
+      "pid": 45683,
+      "completed_folds": [
+        1
+      ],
+      "all_new_diagnostic_predictions_frozen": false,
+      "users7_8_labels_used": false,
+      "wall_seconds": 119.25487013999373,
+      "cpu_seconds": 120.951606885,
+      "observed_unix": 1793342656.1901815,
+      "held_user": 2,
+      "validation_user": 3,
+      "epoch": 3,
+      "batch": 71,
+      "held": 2,
+      "train_bce": 0.019656824629674566,
+      "validation_macro": 0.8708333333333335,
+      "validation_loss": 0.06955789029598236,
+      "epoch_seconds": 39.36967013194226
+    },
+    "launch_report": "uwb_direction1/results/cloud_20261030_gap_source6/LAUNCH_VERIFIED.md",
+    "completion_auditor_implemented": false
   }
 }
