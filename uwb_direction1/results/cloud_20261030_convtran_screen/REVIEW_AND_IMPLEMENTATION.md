@@ -105,3 +105,12 @@ users7–8 label use. Current work should continue the existing TSLANet experime
 complete its guarded audit/private preservation, and then move to another
 published method that passes an actual CPU feasibility test. Accuracy evidence,
 originality evidence and resource eligibility remain separate.
+
+Publication validation caught and repaired an export-only newline conversion in
+one dependency metadata file (`einops-0.8.1.dist-info/RECORD`):59 CRLF delimiters
+were restored from unchanged original bytes. Its recorded SHA256 is
+`b4b231ccd46f7891c44ea965d03d5118d2c43042422a948f64ab0913e0c27583`. All12 author source blobs were exact. Model/optimizer code,
+source hashes, synthetic results and timing policy did not change; no training
+was restarted. The corrected target Git blob SHA is
+`0f00988b645f65ba70cc25d6db49355cec4dc237`; readback is required before moving the branch.
+See `PUBLICATION_TRANSPORT_REPAIR.json` for the retained trace.
