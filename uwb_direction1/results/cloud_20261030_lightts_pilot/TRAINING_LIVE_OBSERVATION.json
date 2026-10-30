@@ -1,0 +1,23 @@
+{
+  "state": "training",
+  "pid": 50281,
+  "epoch": 3,
+  "total_steps": 882,
+  "all_predictions_frozen": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "wall_seconds": 79.09548833605368,
+  "cpu_seconds": 81.325961925,
+  "observed_unix": 1793391726.1139698,
+  "batch": 293,
+  "training_loss": 0.24611321803019395,
+  "training_records": 4700,
+  "validation_loss": 2.5285681920081733,
+  "validation_accuracy": 0.786,
+  "validation_macro": 0.7859999999999999,
+  "best_epoch": 2,
+  "best_accuracy": 0.821,
+  "stopper_counter": 1,
+  "early_stop": false,
+  "epoch_seconds": 24.63845128903631
+}

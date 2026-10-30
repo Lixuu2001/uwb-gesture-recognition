@@ -1,0 +1,29 @@
+{
+  "state": "immutable_LightTS_private_snapshot",
+  "scope": "first_update_only",
+  "observed_unix": 1793391669.0706632,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": false,
+  "limitations": "First snapshot supplies only initial/first-update model/RAdam/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/stopper/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. No new fit/scoring by backup.",
+  "archive_name": "lightts_first_update_20261030.tar.gz",
+  "archive_bytes": 13026938,
+  "archive_sha256": "6485dcfc3f5c5c1df1148ad6b487de6fc6d1ecf502dcac6c556ef5bd233865a3",
+  "tracked_payload_files": 54,
+  "members_manifest_sha256": "3771f9f141889c9e13342bf5250a3276b16c1a5b2df7f4bdc6adbd38e85cf3f7",
+  "chunks": [
+    {
+      "name": "lightts_first_update_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "4730cf15c8accdb87deb09f0180374141dc66c6a84d8f6979d6f8ba4443984d3"
+    },
+    {
+      "name": "lightts_first_update_20261030.part001",
+      "bytes": 5686906,
+      "sha256": "433b4e04be5cc418b6bb906edd3d9d4ae6dbe8c64776a140f13ce1566de23545"
+    }
+  ]
+}

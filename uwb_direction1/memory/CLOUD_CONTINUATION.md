@@ -1,3 +1,15 @@
+# 2026-10-30 — LightTS真实云端训练已启动，32组RAdam/16ID首步和私有2块保险核验完成
+
+948a532f1ade58a0ca29dfaba8f7c49c22645f79的33新增/更新文件逐字读回并force=false推进后，仅一次实际启动supervisor50280/worker50281。协议SHA f2ffb8c4d716feaecb4a36edd0add92f6e884ec11f757e5056991bb2017715fb，47科学/源码/准备/前任务证据哈希不变。完整952642params/width128/B16/chunk24/100cap/patience10/seed20261029，train3–6/val2/diag1/full90×567RMS，每轮4700记录全用。当前观察epoch3/882updates，尚未冻结最终双预测、尚未读held1标签，无7–8标签，**无LightTS诊断准确率结论**，不能按验证曲线调配置或重复启动。
+
+首步只读核验pass：原库完整gesturepreset初始化逐位，32状态张量改变、32组RAdamstep1/moments有限且重载一致，16确切seededtrainIDs和47冻结项一致。checkpoint SHA fe197fa099020d3aba648c562f0d8e9b39f90a268830c8ee78191677ab416025，verifier SHA b7e01363c4a0ea33631c7cd0d53833329d584b40b891acb09c0f984c79eb5b0b。核验器未读rawvalues/labels或新增forward/fit；producer是真实训练。合成source3steps/restore后2steps/RNG已通过，不冒称完整真实轨迹已审计。
+
+首步不可变私有保险13026938字节/2块/54payload+manifest=55成员，SHA6485dcfc3f5c5c1df1148ad6b487de6fc6d1ecf502dcac6c556ef5bd233865a3；回执SHAedbccebef20f4ca2f770b121624f813603caea54f069783350bbb52d0facb1ff。owner-only/parent/size/MIME、authenticatedrawfetch(download_raw_file=true,include_base64=false)/即物化SHA、重组和全部54成员核验通过。索引results/cloud_20261030_lightts_pilot/first_backup/DRIVE_BACKUP_RECEIPT.json。只含initial/first完整模型/RAdam/RNG、IDs/划分/固定batchIDs/code/deps；不含live/latest/best/last/完整后续模型、原数组/maps或整作业resume。活动真实运行的completebackup守卫已拒绝；完成后独立完整包仍必须保存。
+
+controller50300已真实启动waiting_existing_training，代码在预登记读回内。只等现有训练exit0/complete→固定完整审计一次→本地complete_backup_20261030；不重启训练或自动retry，无Drive/Git能力。下一接续先查50280/50281/50300实际进程、run01STATE/checkpoints/POSTPROCESS_STATE；等待/审计/打包时不重复起任务。若audited_local_archive_ready，核成功TERMs/COMPLETE_AUDIT/MANIFEST，再agent最多3块并发私有上传/元数据/raw取回即物化SHA/重组所有成员，最后latestparentforce=false写真实scores/gate。若工程失败保留trace并修复，不能当科学负结果。首步保险不能代替完整模型集。
+
+一次本地启动编排将JSON false插作Python literal，NameError发生在markerwrite/Popen/真实数据读取之前，无run01/训练；已改为json.loads、保留LAUNCH_ORCHESTRATION_REPAIR，所有科学文件和协议47哈希未变，实际训练只启动一次。TimesNet27epoch/7938steps完整审计64哈希/15块完整私有收尾已确认关闭，不重开。LightTS已发表预测论文/库分类迁移、RMS适配、原paper全文未取得等限制照实；源开发探索性，不称独立测试/旧八折/原创。准确率提升与研究贡献目标未达，自动接续继续，原789源码/实际数组/模型/ID值不入Git。
+
 # 2026-10-30 — TimesNet完整审计/私有收尾并关闭；LightTS完整配置真实源协议已实现，远端读回前未启动
 
 TimesNet原训练27epoch/7938updates/126900训练出现按patience10结束，best epoch17；完整独立审计exit0/no timeout3222.116599752wall/3221.831730childCPU，64产物SHA、6900RMS、每步模型/loss/ID、27验证/stopper/选模、initial/first/best/last全model/RAdam/RNG及rawcheckpoint、固定labelblindB16分批和2200final logits/pred逐位通过。独立held1macro93.583333%、validation93.700000%，同held1参考98.666667%，差−5.083333pp，原+.5pp gate=false，确切配置关闭、不救援或扩折。macro独立归约2e−16差满足原1e−12，tensors/logits/RNG严格。42原科学哈希不变，无7–8标签，不当旧LTR八折、独立测试或原创贡献。审计SHA4a154626a0964c177862533cfdbf7e74360eb332d5feb48e9ff099ca6614fdd0。
