@@ -1,0 +1,21 @@
+{
+  "state": "pass",
+  "preset": "originalUWaveGestureLibrary",
+  "model_parameters": 2433260,
+  "batch_size": 16,
+  "epochs_cap": 30,
+  "training_batches_per_epoch": 294,
+  "all4700records_used_each_epoch": true,
+  "maximum_full_training_updates": 8820,
+  "training_max_step_seconds": 0.389276206959039,
+  "validation_max_batch_seconds": 0.09846687398385257,
+  "training_steps_measured": 8,
+  "eval_batches_measured": 4,
+  "estimated_seconds": 7386.2139316359535,
+  "estimate_formula": "2*(30*294*maxtrainstep+(30*63+63+75)*maxevalbatch)+120",
+  "budget_seconds": 43200,
+  "wall_seconds": 2.7867111270315945,
+  "max_RSS_KiB": 447244,
+  "real_UWB_values_read": false,
+  "real_training_started": false
+}
