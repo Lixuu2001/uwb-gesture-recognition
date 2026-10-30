@@ -1,0 +1,22 @@
+{
+  "state": "pass",
+  "observed_unix": 1793357383.4711258,
+  "phase": "pretrained/pretrain",
+  "parameters": 4132879,
+  "changed_model_tensors": 42,
+  "initial_exact_author_UEA_seed": true,
+  "model_and_optimizer_finite": true,
+  "optimizer_steps": 1,
+  "active_optimizer_parameter_tensors": 42,
+  "unused_head_and_input_layer_unchanged": true,
+  "optimizer_reload_exact_moments": true,
+  "training_ids_verified": 16,
+  "exact_seeded_training_batch": true,
+  "roles_verified": true,
+  "frozen_hashes_verified": 31,
+  "first_update_sha256": "c98d374cec0de1df87f3260e68c0c05d41829d986bf448f4e2fc74c78677a513",
+  "verifier_sha256": "cddac6a85605260862f2401379b4620bdddd2412bc5eddfbd69ff91cb439afca",
+  "real_sample_or_label_values_read_by_verifier": false,
+  "real_forward_or_fit_by_verifier": false,
+  "users7_8_labels_used": false
+}
