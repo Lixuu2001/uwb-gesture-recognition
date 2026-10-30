@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-resnet-keras-screen-20261030/synthetic_check.py", line 29, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-resnet-keras-screen-20261030/synthetic_check.py", line 24, in main
+    equal(final,snapshot(other));out=other.predict_on_batch(x);assert out.shape==(64,12) and np.isfinite(out).all();np.testing.assert_allclose(out.sum(1),1,rtol=1e-6,atol=1e-6)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-resnet-keras-screen-20261030/author_adapter.py", line 45, in equal
+    for k in a:equal(a[k],b[k],path+"/"+str(k))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-resnet-keras-screen-20261030/author_adapter.py", line 48, in equal
+    for i,(x,y) in enumerate(zip(a,b)):equal(x,y,path+"/"+str(i))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-resnet-keras-screen-20261030/author_adapter.py", line 48, in equal
+    for i,(x,y) in enumerate(zip(a,b)):equal(x,y,path+"/"+str(i))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-resnet-keras-screen-20261030/author_adapter.py", line 49, in equal
+    else:assert a==b,(path,a,b)
+                ^^^^
+AssertionError: ('root/python_rng/1/624', 15, 14)

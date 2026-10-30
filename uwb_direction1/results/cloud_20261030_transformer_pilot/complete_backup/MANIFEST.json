@@ -1,0 +1,49 @@
+{
+  "state": "immutable_Transformer_private_snapshot",
+  "scope": "complete_selected_and_last_model_evidence",
+  "observed_unix": 1793400304.4600108,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": true,
+  "limitations": "First snapshot supplies only initial/first-update model/RAdam/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/stopper/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. No new fit/scoring by backup.",
+  "archive_name": "transformer_complete_20261030.tar.gz",
+  "archive_bytes": 42820943,
+  "archive_sha256": "3a4ea1781c41a92eeda8bae984c7c0a0764c87e83aaf23b65ded2d64559ce9d8",
+  "tracked_payload_files": 79,
+  "members_manifest_sha256": "6ae817a17d9c1b030c3ad7e966468f73126bfcc4b4fe847615dd741d05bc48bc",
+  "chunks": [
+    {
+      "name": "transformer_complete_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "3dd247bca5c781a9de049a09075a6d3b886ebbb9608975ca64d5ab90b5082737"
+    },
+    {
+      "name": "transformer_complete_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "94e05f032a94170cf866f70c4631aebb56082a1fb587cf78d55f4440ca8fca3d"
+    },
+    {
+      "name": "transformer_complete_20261030.part002",
+      "bytes": 7340032,
+      "sha256": "bef4e4132f8b1bb34ff69652bb3e4bb77440b25c8737954cb91a7b0d7573cfe3"
+    },
+    {
+      "name": "transformer_complete_20261030.part003",
+      "bytes": 7340032,
+      "sha256": "90450ef753819f81abca86965de9882404c3e13cc2dd2703b9fd0f1d0e697d15"
+    },
+    {
+      "name": "transformer_complete_20261030.part004",
+      "bytes": 7340032,
+      "sha256": "666f545aa5f6919c754c08ad59a70ac1ca4f62dba9c8aa60571dff3df00eac7a"
+    },
+    {
+      "name": "transformer_complete_20261030.part005",
+      "bytes": 6120783,
+      "sha256": "8313f7ab50a92ac639307d0138cce100a327c48072be5a2495bb7b52dfce9fad"
+    }
+  ]
+}

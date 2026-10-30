@@ -1,0 +1,26 @@
+{
+  "state": "pass",
+  "framework": "Keras3.11.3nativeTorchbackend",
+  "full_author_architecture": true,
+  "parameters": 834124,
+  "trainable_parameter_tensors": 48,
+  "native_optimizer_variables": 98,
+  "layer_counts": {
+    "Conv1D": 11,
+    "BatchNormalization": 12,
+    "Add": 3,
+    "GlobalAveragePooling1D": 1,
+    "Dense": 1
+  },
+  "independent_NumPy_SAME_even_conv": true,
+  "independent_NumPy_population_BN_and_moving_moments": true,
+  "independent_NumPy_Keras_Adam": true,
+  "three_native_full_batch_updates": true,
+  "next_two_updates_weights_optimizer_BN_metrics_all_RNG_exact": true,
+  "native_keras_save_load_weights_optimizer_exact": true,
+  "original_TensorFlow_training_reproduction": false,
+  "fit_full_epoch_shuffle_parity_tested": false,
+  "author_epochs1500_not_run": true,
+  "real_UWB_values_labels_or_fit": false,
+  "wall_seconds": 3.72547575191129
+}

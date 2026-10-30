@@ -1,0 +1,13 @@
+# 完整库 Transformer 源内实验：92.50%，关闭确切配置
+
+固定协议在81bc4302f11b26d50d1f0a91fa8a8551e6bad7b4远端预登记并逐字读回后，仅一次训练。协议SHA fb2526e92bac69d58cbc92932e049d025f45aaa9b2a2d7d72c4113635dc89fcf；154冻结科学/作者源码/依赖/准备/前任务证明本轮复核未变。完整库128/256/e3/h8/B16、754188参数、seed20261029、全90×567RMS，train3–6/val2/diag1。
+
+实际12轮、3528更新、56400样本出现；原user2 accuracy stopper按注册规则选择epoch2，val accuracy93.8%，连续严格下降10次停止。所有最终val/diag预测均冻结后才读取held1标签。独立完整审计held1 macro92.50%，相同源内reference98.666667%，差−6.166667百分点，未过预注册+.5百分点门槛，close_exact_configuration。不得延长/换seed/缩宽/调批等救援该确切配置，不进行8折扩展。该结论只针对本配置；已发表方法的迁移价值与原创贡献证据分开，当前均未达到用户目标。
+
+审计通过176项artifact SHA、3528逐步loss/更新与全部56400实际训练ID、12轮validation/stopping/selection、6900RMS输入、初始/首步/best/last全部模型/RAdam/stopper/RNG及原selected checkpoint、固定labelblind分批和2200最终logits/predictions逐位重放。producer val macro与审计相差1ULP，使用预有1e-12归约容差；模型/优化器/RNG/logits保持逐位。审计文件SHA eb1d2bfed8a42397a71a62a13fe95af12589fd02171f0230d3406197a5bbbe4f。
+
+训练supervisor记录608.900414wall/608.728943childCPU；审计558.870374wall/558.772702childCPU，均exit0/no timeout。训练、审计及本地打包已完成，本轮没有重启这些任务。
+
+完整私有归档42820943字节/6块/79payload+manifest=80成员，SHA3a4ea1781c41a92eeda8bae984c7c0a0764c87e83aaf23b65ded2d64559ce9d8。owner-only文件夹/文件元数据、parent/size/MIME，authenticated rawfetch(download_raw_file=true,include_base64=false)立即物化size/SHA，远端6块重组及79payload全成员校验均通过。完整回执SHA c155fb62c55192831342d584aa34d86b200dbfcaec63a57980721bfcd5448713，见complete_backup/DRIVE_BACKUP_RECEIPT.json。完整模型集可独立于早期首步保险恢复；运行依赖另由预登记Git中的96文件固定并被154哈希绑定，归档不是整环境或整作业resume。原始数组/maps和实际模型/样本ID值不入Git。
+
+历史八用户重复开发已使源结果具探索性，本次不是独立测试、旧八折或创新证据；7–8标签未用于新方法选择。用户目标尚未达，既有自动接续保持。下一项ResNet完整网络的原生Keras准备、独立合成检查和一次CPU成本测量已完成；原1500轮超预算，按前置规则固定100轮CPU开发配置，其真实runner/auditor/预登记仍待完成，目前无新后台训练。
