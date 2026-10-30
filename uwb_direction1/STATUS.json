@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "local_source6_training_running",
+  "state": "source6_complete_audited_privately_preserved_timemil_ready",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,8 +13,8 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
-  "next_required_input": "Continue inspecting actual worker43382/supervisor43381 and run01/STATE.json first; do not duplicate training or launch TimeMIL concurrently. After STATEcomplete, successful training supervisor termination and all prediction freezes, run python /workspace/uwb-localcnn-sixfold-20261029/audit_launch.py --run once, inspect COMPLETE_AUDIT.json and audit_supervisor01/TERMINATION.json. The read-only verifier is frozen separately and passed nine synthetic tests; no real completed-run audit yet. Preserve new model/optimizer/RNG/ID/prediction states privately after completion. Failures are incomplete, inspect exact receipts and remaining budget before engineering repair; no statistical rescue/restarts. Source-sixfold remains exploratory, no7–8label selection or old-eightfold/novelty claim.",
+  "background_training_running": false,
+  "next_required_input": "Inspect all actual processes and TimeMIL run/supervisor directories first. Source6 is complete/audited/preserved. Launch the already registered unchanged /workspace/uwb-timemil-20261029/launch.py --run once under existing user authorization; do not seek novelty-based permission or duplicate a real job. Verify actual first update/IDs/optimizer and save launch receipt before claiming background training. Keep original fixed64epoch split/seed/config/gates/budget; no7–8label choice or rescuegrid. On completion run its prepared result audit, privately preserve real artifacts and apply original gate. Source6 score93.5944% vs Mini78.5336% is exploratory and not a comparison to legacy eightfold93.4417%; original contribution remains unvalidated.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD5_BACKUP_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793320940.469469,
-  "background_training_pid": 43382,
-  "background_training_status_note": "Actual worker 43382 / supervisor 43381 remains alive. Reused held1 and new held2–5 are complete; last held6/validation1 is at epoch14. Held5 is privately preserved with authenticated chunk readback, reassembled archive and all31 payload hashes verified. No diagnostic aggregate or TimeMIL launch.",
+  "background_training_pid": null,
+  "background_training_status_note": "Original source6 worker43382 exited; supervisor43381 is a zombie, not live. All five new folds completed, independent audit passed and final composite preservation verified. TimeMIL is prepared, not yet launched.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Eligible localConvMixerCNN source-sixfold baseline confirmation; reuseheld1,5missingfolds only. TimeMIL64epochprotocolalreadyprepared but waitsconfirmation. Knownbaselineaccuracywork, notnoveltyclaim.",
-  "last_completed_update_utc": "2026-10-30T00:43:11.887Z",
+  "next_candidate": "Already registered fixed TimeMIL64epoch full model/GAP source pilot; source6 baseline confirmation now complete/audited/preserved. TSLANet stays later synthetic prototype, no real trial.",
+  "last_completed_update_utc": "2026-10-30T02:38:47.399Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -3077,7 +3077,7 @@
     }
   },
   "local_source6_confirmation": {
-    "state": "training_running_last_fold",
+    "state": "complete_audited_and_privately_preserved_gate_passed",
     "path": "/workspace/uwb-localcnn-sixfold-20261029",
     "protocol_sha256": "b3633e607fc27365e6e7ab487ac6d0161b12cd112124bdf04a203236ca53d1df",
     "reused_fold": 1,
@@ -3098,50 +3098,61 @@
     "preflight_passed": true,
     "real_training_started": true,
     "report": "uwb_direction1/results/cloud_20261029_localcnn_source6/REGISTRATION_REPORT.md",
-    "worker_pid": 43382,
-    "supervisor_pid": 43381,
+    "worker_pid": null,
+    "supervisor_pid": null,
     "latest_observed_state": {
-      "state": "training",
-      "pid": 43382,
+      "state": "complete",
+      "pid": null,
       "completed_folds": [
         1,
         2,
         3,
         4,
-        5
+        5,
+        6
       ],
       "users7_8_labels_used": false,
-      "all_new_diagnostic_predictions_frozen": false,
-      "wall_seconds": 30423.842892473913,
-      "cpu_seconds": 89724.676116642,
-      "observed_unix": 1793320940.469469,
+      "all_new_diagnostic_predictions_frozen": true,
+      "wall_seconds": 33122.69322590099,
+      "cpu_seconds": 97708.974566077,
+      "observed_unix": 1793323639.3198004,
       "held_user": 6,
       "validation_user": 1,
-      "epoch": 14,
-      "batch": 131
+      "epoch": 24,
+      "batch": 141,
+      "held": 6,
+      "train_ce": 0.0008930334248662289,
+      "validation_macro": 0.985,
+      "validation_loss": 0.06311311572790146,
+      "epoch_seconds": 266.01215184899047
     },
     "first_update_receipt": "uwb_direction1/results/cloud_20261029_localcnn_source6/FIRST_UPDATE_VERIFIED.json",
     "first_update_sha256": "a9bbf3b5df24b21064614cb7a5ad53cdcafa034819a498dd7e4e1638ab181cb7",
     "registration_commit": "1b8ffb10393682478718f8dee15f3c8c94528084",
     "completed_run_audit": {
-      "state": "implemented_synthetic_tests_pass_real_completion_audit_not_started",
+      "state": "pass_real_completed_run",
       "code": "uwb_direction1/research/localcnn_source6_20261029/audit_complete.py",
       "launcher": "uwb_direction1/research/localcnn_source6_20261029/audit_launch.py",
-      "report": "uwb_direction1/results/cloud_20261029_localcnn_source6/AUDIT_PREPARATION.md",
+      "report": "uwb_direction1/results/cloud_20261029_localcnn_source6/COMPLETE_AUDIT.json",
       "synthetic_tests": 9,
       "actual_running_guard_exercised": true,
       "training_frozen_hashes_unchanged": true,
       "wall_seconds": 1790,
       "cpu_soft_seconds": 1780,
       "cpu_hard_seconds": 1790,
-      "threads": 1
+      "threads": 1,
+      "real_completion_audit_executed": true,
+      "verified_hashes": 69,
+      "validation_predictions_replayed": 6900,
+      "diagnostic_predictions_replayed": 6900
     },
     "latest_progress_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/HELD5_BACKUP_NOTE.md",
     "completed_new_folds": [
       2,
       3,
       4,
-      5
+      5,
+      6
     ],
     "private_completed_fold_backups": {
       "2": {
@@ -3192,6 +3203,48 @@
         "full_job_resume_snapshot": false,
         "current_in_progress_fold_included": false
       }
+    },
+    "final_scores": {
+      "local": 0.9359444444444446,
+      "minirocket": 0.7853358585858586
+    },
+    "mean_difference": 0.15060858585858586,
+    "wins": 6,
+    "descriptive_continuation_gate": true,
+    "independent_validation": false,
+    "novel_contribution_validated": false,
+    "final_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
+    "training_receipt": {
+      "pid": 43382,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "supervisor_wall_seconds": 33125.70518213301,
+      "child_cpu_seconds": 97709.758205,
+      "cpu_soft_seconds": 129400,
+      "cpu_hard_seconds": 129500,
+      "scientific_negative": false
+    },
+    "audit_receipt": {
+      "pid": 44874,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "supervisor_wall_seconds": 529.8310829029651,
+      "child_cpu_seconds": 529.755558,
+      "cpu_soft_seconds": 1780,
+      "cpu_hard_seconds": 1790,
+      "scientific_negative": false
+    },
+    "final_private_composite": {
+      "state": "private_readback_verified_recoverable_composite_set",
+      "receipt": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_DRIVE_BACKUP_RECEIPT.json",
+      "archive_sha256": "316348a82639cc6beea1c120b2d9adb816e258614a6a96000e9db482a206261f",
+      "archive_bytes": 10858443,
+      "new_chunks": 2,
+      "new_payload_files_verified": 62,
+      "all_six_model_sets_privately_recoverable": true,
+      "requires_prior_archives": true,
+      "prior_queue_chunks_metadata_rechecked": 22,
+      "prior_fold_chunks_metadata_rechecked": 8
     }
   },
   "final_queue_private_backup": {
@@ -3230,5 +3283,7 @@
     "priority": "Later candidate only; current source-sixfold must finish/audit first, then resolve already prepared TimeMIL. No additional real fit while current job runs.",
     "original_contribution_validated": false,
     "accuracy_improvement_validated": false
-  }
+  },
+  "latest_completed_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
+  "practical_baseline_source6_confirmed": true
 }
