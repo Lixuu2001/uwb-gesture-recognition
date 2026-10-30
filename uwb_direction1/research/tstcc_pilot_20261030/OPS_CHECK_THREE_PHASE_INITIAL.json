@@ -1,0 +1,30 @@
+{
+  "state": "pass",
+  "augmented_full_reference_float32_and_final_RNG_bitwise": true,
+  "chunk_boundary_records": 257,
+  "all_channels_preserved": true,
+  "phases": {
+    "ssl": {
+      "author_single_step_bitwise_parity": true,
+      "checkpoint_next_two_steps_all_models_optimizers_scheduler_RNG_bitwise": true,
+      "optimizer_states": 9,
+      "temporal_optimizer_states": 65
+    },
+    "linear": {
+      "author_single_step_bitwise_parity": true,
+      "checkpoint_next_two_steps_all_models_optimizers_scheduler_RNG_bitwise": true,
+      "optimizer_states": 2,
+      "temporal_optimizer_states": 0
+    },
+    "scratch": {
+      "author_single_step_bitwise_parity": true,
+      "checkpoint_next_two_steps_all_models_optimizers_scheduler_RNG_bitwise": true,
+      "optimizer_states": 11,
+      "temporal_optimizer_states": 0
+    }
+  },
+  "full_default_batch": 128,
+  "elapsed_seconds": 3.8278234530007467,
+  "real_UWB_values_or_labels_read": false,
+  "real_training_started": false
+}

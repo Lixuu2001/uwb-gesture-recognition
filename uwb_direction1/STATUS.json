@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "ts2vec600_complete_failed_gate_audited_preserved_tstcc_full_default_synthetic_preparation",
+  "state": "tstcc_fullHAR_four_phase_adaptation_preregistered_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "No user input required. First inspect actual process/checkpoint state; never restart closed TS2Vec/TSLANet or download existing raw data. Continue /workspace/uwb-tstcc-screen-20261030: verify paper multichannel augmentation semantics, implement documented NumPy2/radar-axis compatibility without silent source changes, author-step/checkpoint/RNG parity and full40epoch pipeline cost, then register one fixed source protocol before actual fitting. No7-8labels or diagnostic rescue grids. Accuracy and novelty separate; goal unresolved; continuation enabled.",
+  "next_required_input": "No user input. Verify current preregistration readback, inspect actual old/new processes/checkpoints; if no TSTCCrun01 and priorTS2Veccomplete/audit/privateverified then launch existing /workspace/uwb-tstcc-pilot-20261030/launch.py --run exactlyonce. Verify first_update.py artifact script verify_first_update.py after actual128ID/model/optimizer checkpoint; preserve truePID. After successful complete train do launch.py --audit and private model/log/ID/raw-readback backup. No7-8labels,no rescuegrids,no duplicate downloads/starts.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261030_ts2vec_pilot/CONTINUATION_RESULT.md",
+  "latest_report": "uwb_direction1/research/tstcc_pilot_20261030/CONTINUATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -1561,7 +1561,7 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "Two published-method source pilots closed with real negative accuracy evidence:TSLANetpair andTS2Vec600. NextTS-TCC has runnable full-default synthetic core and concrete compatibility proof, not real training. No validated new accuracy gain/original contribution.",
+  "latest_reported_action": "Implement and preregister fixed fullTS-TCC160epoch source accuracy pilot; no real training claimed before verified launch. PreviousTS2VecandTSLANetexactconfigsclosed, goalunresolved.",
   "latest_paired_event_view_candidate_screen": {
     "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
     "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
@@ -2279,7 +2279,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "TS2Vec600/originaltenC-SVM real source pilot completed;65.50%held1vs98.666667%reference failedgate. Full600step/feature/SVM audit passes after isolated1ULPmetric engineering repair; complete5chunk private readback verified. NextTS-TCC fullHARdefault synthetic authorstep passed; concrete augmentation/axis compatibility, paper-method review, resume/cost/protocol pending; no new real training.",
+  "latest_task_state": "TS-TCC fullHARdefault transparent multichannel adaptation implemented, all4author-step/resume tests andaugmentationRNG parity passed; full160epochcost2785.263668s passed.71frozenentries;fixedsourceprotocolpreregistered, no realTSTCCvalues/fitsyet. Launch onlyafterexactremote readback.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -4153,5 +4153,48 @@
     "license_verified": false,
     "novel_contribution_claim": false,
     "missing_capabilities": "No general webpage-fetch tool in current active tools; primary paper fulltext not yet obtained. Shellapi.github.comCONNECT403 used connectedGitHub fallback; no network bypass. Runtime/CPU/data/sourcecode available."
+  },
+  "tstcc_accuracy_pilot": {
+    "state": "preregistered_not_started",
+    "workspace": "/workspace/uwb-tstcc-pilot-20261030",
+    "protocol": "uwb_direction1/research/tstcc_pilot_20261030/PROTOCOL.json",
+    "protocol_sha256": "024d044ce1a619526b8072672e1b76bf9623748ddc57dbcab0d937fe2be43d3a",
+    "frozen_entries": 71,
+    "seed": 20261029,
+    "batch_size": 128,
+    "epochs_each_phase": 40,
+    "phases": [
+      "ssl",
+      "linear",
+      "finetune",
+      "scratch"
+    ],
+    "total_epochs": 160,
+    "total_updates": 5760,
+    "total_training_appearances": 737280,
+    "encoder_parameters": 247500,
+    "temporal_parameters": 313096,
+    "cost_gate_passed": true,
+    "cost_estimate_seconds": 2785.2636678219133,
+    "all_four_author_step_and_two_step_resume_bitwise_passed": true,
+    "augmentation_fullreference_and_RNG_bitwise_passed": true,
+    "guard_tests_passed": 4,
+    "real_training_started": false,
+    "real_UWB_values_read": false,
+    "train_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_claim": false,
+    "complete_auditor_implemented": true,
+    "paper_read_scope": "PublisherHTMLMethods3.1-3.3,4.2,5.1-5.3/Table1-3;equationsundecoded/figuresnotread/PDFredirectfailed",
+    "augmentation_repair": "NumPy2 segmentindexshuffle+allchannelspat[:,warp]; originalcodeHARmaxseg8/Gaussianmean2sigma1.1/jitter.8 retained;explicit90time/567channelaxis",
+    "known_code_paper_differences_explicit": true
   }
 }
