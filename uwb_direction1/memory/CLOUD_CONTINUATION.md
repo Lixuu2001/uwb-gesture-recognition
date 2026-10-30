@@ -1,3 +1,17 @@
+# 2026-10-30 — 完整库Transformer分类基线已实现并预登记，真实训练尚未启动
+
+先读008ceece远端四文件、核同云端环境/现有进程，无活动旧训练/审计，无Transformer工作区或重复下载。按上一队列推进完整Time-Series-Library UWaveGestureLibrary Transformer分类配置，作者/库commit4e938a1767106324dd753b2a44832bf870a0252e、modelblob3ecae526df0d9f8022d023c75733ce966d714a92、scriptblob677bf0dc59e1041d1be8875feafbec07d4a04390。原789文本对RAdam/UWaveGestureLibrary/Exp_Classification/确切两blob有界检索0；读原config/model：逐view共享时间+距离双路径/preLN/D32/L4/H4及wideheads/融合/OSR不同于本次全567channels混合conv/postLN全局时间encoder3层128宽8头。旧genericTransformer文献/模块不当未做此完整基线或新颖性证明，非穷尽等价核查。已发表身份不阻止实际准确率基线。
+
+primary Vaswani等NeurIPS2017 Attention Is All You Need出版方PDF本轮可读，读abstract、3.1–3.5架构/attention/FFN/position与5.3–5.4optimizer/dropout文字/公式，非全11页或图。当前是库维护者时间序列分类迁移：完整库128/256/e3/h8/B16/.1dropout/GELU/100epochcap/patience10，非原翻译512/2048/6layerencoderdecoder复现或创新。输入完整90×567/12类，754188params/53活跃RAdam组；原未用timefeatureembedding保留，circular3tapconv混合channels→90×128tokens→postLNselfattention/finalLN→maskedflattenclassifier；未手工删源模块、缩宽/层/批/轮。14pinnedsource/MIT和96真实localdeps文件校验，无importstub或全局包替换。
+
+/workspace/uwb-transformer-screen-20261030合成检查通过：独立NumPyFullAttention、原完整innerloop3updates模型/RAdam/loss/全部RNG逐位、恢复后2steps/stopper/RNG逐位、原tiesreset/严格下降patience；unusedtimeembedding保留，合成3.070547wall，16vs两8eval最大4.768e−7浮点归约差，仅有限检查。一次独立600wall/590–600CPU成本进程exit0/no timeout4.328030wall/4.323817childCPU，8完整train/4eval、maxtrain.191386973/maxeval.057942393秒、RSS497348KiB，100cap全29400updates/all4700each/末12/470000出现，原2xmax+120成本12119.620266秒<43200，非时长保证。无真实Transformer值/标签/fit。
+
+/workspace/uwb-transformer-pilot-20261030真实runner/完整逐步审计/首步检查/备份/controller已具体实现。固定source6900IDs/全90×567RMS，train3–6=4700/validation2=1000/diag1=1200、seed20261029/CPU1thread/deterministic，全294批/末12每epoch不丢记录，100cap/patience10。原RAdam.001/decay0/CE/clip4/无scheduler，原EarlyStopping(-user2rawaccuracy)选best、ties保存later/reset、严格下降耗10；原TEST用于validation改为仅user2。dedicatedGenerator(seed+epoch)训练shuffle、countsonlyseed+101val/+102diag固定B16分批为明示适配；原UEAnormalizer替换现有record/viewRMS，无resize/augmentation。双val/diagID/logit/pred均冻结后才读held1label。参考同held1.9866666666666667+.005/1e−12，pass只允许另注册source确认，fail关闭确切配置，禁止诊断/7–8label模型调参或seed/width/epoch/batch/normalization救援。历史八用户反复开发，源结果探索性，不称独立测试/旧八折/原创贡献。
+
+6项真实入口/prior/remote错marker/活动失败拒绝/分批末批/gate守卫、3项controller守卫通过；LightTS完整成功TERM/69哈希审计/closedroute/standalone6私有chunks回执和PatchTSTresourceclosed证据已绑定，前任务不重开。协议SHA fb2526e92bac69d58cbc92932e049d025f45aaa9b2a2d7d72c4113635dc89fcf，154科学/源码/准备/依赖/前任务证据冻结。真实43100wall/43000–43100CPU，完整重放审计14400。initial/first/best/last全model/RAdam/stopper/全部RNG/sampler/identity/rawselectedcheckpoint/实际ID/logs保存。controller只等现有训练成功→审计一次→本地完整包，无Drive/Git能力，不retry/resume；agent后续需私有metadata/rawfetch(base64false)/立即物化SHA/重组所有成员再发最终score/gate。
+
+本条写入时run01不存在、真实Transformer训练未启动。下一先逐字远端读回协议/代码且确认无已有run，再仅一次launch.py --run，实际首步53组RAdam/unusedembedding/16IDs核验、首步私有保险，再启动守卫controller一次；不得在已有worker/audit/controller时重复。LightTS/TimesNet/TSTCC/TS2Vec/TSLANet确切失败配置和resourceclosedPatchTST不重开/缩小/重测，无迁移重下。当前无新后台训练声明。research/transformer_screen_20261030与research/transformer_pilot_20261030。目标未达、自动接续继续，原789快照/实际数组/模型/实际ID值不入Git。
+
 # 2026-10-30 — LightTS完整重放/私有收尾并关闭；PatchTST完整库配置已实现，通过一致性但未过CPU成本门槛
 
 先读e6d4e3bd远端四文件、核同云端环境/已有进程，未重启训练/审计或重复迁移。LightTS原100cap/patience10在24epoch/7056updates/112800训练出现结束，user2选best epoch14/rawaccuracy.882。双预测先冻结再读held1，独立审计held1macro84.250000%、validation88.200000%，同held1最强冻结参考98.666667%，差−14.416667pp，原+.5pp gate失败，确切配置关闭，不救援/扩折。不当旧LTR八折比较/独立测试/原创贡献，无7–8标签使用。
