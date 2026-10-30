@@ -1,0 +1,51 @@
+{
+  "state": "pass",
+  "synthetic_only": true,
+  "real_data_or_labels_read": false,
+  "real_training_started": false,
+  "config": {
+    "Data_shape": [
+      16,
+      567,
+      90
+    ],
+    "emb_size": 16,
+    "dim_ff": 256,
+    "num_heads": 8,
+    "dropout": 0.01,
+    "Fix_pos_encode": "tAPE",
+    "Rel_pos_encode": "eRPE"
+  },
+  "parameters": 592324,
+  "source_CLI_defaults": {
+    "data_path": "Dataset/UEA/",
+    "output_dir": "Results",
+    "Norm": false,
+    "val_ratio": 0.2,
+    "print_interval": 10,
+    "Net_Type": [
+      "C-T"
+    ],
+    "emb_size": 16,
+    "dim_ff": 256,
+    "num_heads": 8,
+    "Fix_pos_encode": "tAPE",
+    "Rel_pos_encode": "eRPE",
+    "epochs": 100,
+    "batch_size": 16,
+    "lr": 0.001,
+    "dropout": 0.01,
+    "val_interval": 2,
+    "key_metric": "accuracy",
+    "gpu": "0",
+    "seed": 1234
+  },
+  "all_gradients_finite": true,
+  "changed_parameter_tensors": 24,
+  "full_model_batch": 2,
+  "optimizer_steps": 8,
+  "stochastic_resume_steps_exact": 2,
+  "all_model_optimizer_rng_BN_states_exact": true,
+  "tAPE_closed_form_verified": true,
+  "wall_seconds": 2.5636894480558112
+}

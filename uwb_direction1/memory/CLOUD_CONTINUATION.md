@@ -1,3 +1,17 @@
+# 2026-10-30 — ConvTran 作者实现与数值检查完成，两个完整100轮CPU配置均未过资源门槛；原TSLANet继续
+
+先读最新4ba042e远端四文件并核验云环境。原supervisor46531/worker46536仍活动，最新观测 pretrained/classification 第57/100轮，之后scratch100尚待；31项科学冻结哈希不变，无重复启动、诊断标签未读、用户7–8标签未用。不要因本轮新实现/资源结果重启或改原TSLANet。完整准确率和门槛仍须原两臂预测全部冻结、正常退出、现成完整审计及最终分类器私有备份后判断；SSL50已有阶段审计和17块私有回执，不重复下载。
+
+本轮新增可执行已发表方法ConvTran，而非仅抽象文献否定：Foumani/Tan/Webb/Salehi DMKD38:22–48(2024)，DOI10.1007/s10618-023-00948-2；核读publisher HTML4.1–4.3/5.3及元数据、实际作者model/attention/position/loss/optimizer/driver/UEAloader。未读整篇/图片/全部统计表。历史最新STATUS/两memory和原789源码精确标识查重未见ConvTran/tAPE/eRPE实现，仅是有界查重，不作原创判断。作者提交148afb6ca549915b7e78b05e2ec3b4ba6e052341，12源文件Git blob/SHA256逐字节核验，einops0.8.1沿用已固定依赖33文件及许可。研究目录 /workspace/uwb-convtran-screen-20261030，Git research/convtran_author_screen_20261030。原类AST保持，绕过数据下载/报告脚本，不读真实UWB值。
+
+64维作者core9340708参数、作者入口原默认16维592324参数均已实现。需保留差异：论文64temporal filters，64维代码实际4×扩张256filters；入口默认emb16，FFN256/8heads/dropout.01。实际driver为原RAdam .001/decay0、clip4而非论文Adam；代码embedding^-0.5缩放、softmax后eRPE、ReLU/GAP/residual保持，不默改/称精确论文复现。64维合成NumPy tAPE/非零bias eRPE/relative_index/CE验证通过，全24参数梯度有限并改变；6步checkpoint后2步随机resume的全部模型/原优化器缓存/BN/TorchRNG逐位一致（batch2）；CLI默认16另有同样梯度与6+2恢复检查及字面默认值断言。64合成supervisor退出0，12.757225wall/12.704269CPU；CLI测试2.563689s。无真实手势准确率证据。
+
+定时前本地固定COST_POLICY+hash：优先64，资源不过仅允许测官方CLI16默认；不是准确率网格/远端真实实验预注册。两个配置都100轮、batch16、全567变量/90帧、单线程、不drop_last；每阶段1warmup+3steady，2×max完整批耗时按4700训练/1000验证/1200推理再加120秒。64 maxtrain7.951136s/eval2.995557s，估计505840.138555秒(140.51h)；CLI16 maxtrain1.484511s/eval.551257s，估计94437.766924秒(26.23h)。均超过43200秒CPU/wall门槛，selected=null；cost supervisor正常退出0，68.872178wall/68.757109CPU，峰值RSS4637044KiB。是原TSLANet同时使用另一CPU时的保守外推，不是完整训练实测或准确率失败。两配置本策略下资源关闭，不按诊断结果缩小/缩轮/换seed救援；当前没有ConvTran真实读数/拟合/诊断分数，也没有其完整真实协议或启动器。
+
+真实训练仍是原TSLANet，自动接续保留，整体有效原创目标未达。下一步先查原进程；完成后执行已有完整审计、保留所有故障并修复工程问题、不改科学配置、私有保存全分类模型后按原门槛判定。若再转方法，选有依据且通过实际CPU门槛的不同已发表实现，并重新完整源用户预登记；不要自动启动已超预算ConvTran。准确率提升、原创性和资源可行性三者分开。细节与合成日志见results/cloud_20261030_convtran_screen/REVIEW_AND_IMPLEMENTATION.md，未动原789源码/原始大数组。以下历史。
+
+---
+
 # 2026-10-30 — TSLANet 50轮自监督完成，阶段复核及私有备份通过；分类仍在运行
 
 原 supervisor46531/worker46536 继续运行，最新观测 pretrained/classification 第15/100轮；没有重复启动，31项科学冻结文件及协议 a4bf25e2f220430b8cdfc6cc21930344da8bdcd51335e7e885fb73f06e572f59 不变。自监督50轮已完成，按原验证损失规则选中第27轮。独立阶段复核通过：38个产物/冻结/manifest哈希、初始/首步/最优/末轮模型、16个确切训练ID、42组AdamW首步和14650步状态、有限矩和可重载RNG、未用参数保持；未读真实map或标签值、无前向/拟合。阶段复核退出0，3.275121秒wall/3.228570秒CPU。

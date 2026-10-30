@@ -1,0 +1,101 @@
+{
+  "repository": "Navidfoumani/ConvTran",
+  "commit": "148afb6ca549915b7e78b05e2ec3b4ba6e052341",
+  "files": {
+    "Models/AbsolutePositionalEncoding.py": {
+      "bytes": 4870,
+      "git_blob_sha": "edaf93bb2b5075157e595f05f913ba136795d455",
+      "sha256": "2090a6090fa2f5a7064ad568736fa6e31f27f1a2497d918f9cd1cd451ab83b86"
+    },
+    "LICENSE": {
+      "bytes": 1117,
+      "git_blob_sha": "e6a0139269d9709a7c49163e91faf3c0db0c8bbf",
+      "sha256": "c2803d3a893240f77772d7139083047d78e7634865df362797c41e6c2bbec7c0"
+    },
+    "Models/Attention.py": {
+      "bytes": 6554,
+      "git_blob_sha": "e16cd813c8956b0c0c734f9d3d08ec50398a1642",
+      "sha256": "072bcc98c9249e9e9ab1c6ae07fc152593641d59cbf8bd7081dd1c69a2f38cb5"
+    },
+    "Models/optimizers.py": {
+      "bytes": 10653,
+      "git_blob_sha": "b21d910b0bcd10f23c78167afe92e37adc795b24",
+      "sha256": "c01d3e0d056b11105311079d09721036a5d69563235b01f5c56c7e31e67b3f1f"
+    },
+    "main.py": {
+      "bytes": 8121,
+      "git_blob_sha": "d9d2dc48259aad0e0735b1ecb16ec61e33164fdb",
+      "sha256": "f890e9d68bb1053901c32a8728057c17903480b948adce4ca6fa4112c1288328"
+    },
+    "Models/model.py": {
+      "bytes": 10042,
+      "git_blob_sha": "74ec1113a59d6b338c1e7e70ee05d842ba73ea1f",
+      "sha256": "ecd85b2cef183db854d7f0a2938d2f7b894ac0432ac12d11b54fcac9e6bd931c"
+    },
+    "README.md": {
+      "bytes": 10303,
+      "git_blob_sha": "288a24175413529f5f22f34e07a4dd689b524b87",
+      "sha256": "8c8da08f566a6eb71c4c10d0278b698198c9343def5ac52031b86709a2cba694"
+    },
+    "Training.py": {
+      "bytes": 10557,
+      "git_blob_sha": "c58c7a0846378f4fbb85435cd6fe4e6533183eab",
+      "sha256": "66afb0756726979cf32f7fcdf1f13ec7d87c582ee5b564b5f8e5c20f8939fec0"
+    },
+    "Models/loss.py": {
+      "bytes": 830,
+      "git_blob_sha": "8de2a27e93e98a5dc6052bed38737cf9914cee4e",
+      "sha256": "05b5ff386fe293f8fd2ec5ab69a3835d3272bf43ea62a9f473e5226e10a656a9"
+    },
+    "Dataset/data_loader.py": {
+      "bytes": 5210,
+      "git_blob_sha": "2036af223a3c7df3d6c471f426d1a156989799f0",
+      "sha256": "ad089a98baea9d91ec47921fc77a5002b8a8f6dfc4c726ef7bd7c5ad2f7cc223"
+    },
+    "Dataset/load_UEA_data.py": {
+      "bytes": 7002,
+      "git_blob_sha": "457d5b1c1a0ffa8ecf00d007eeeb89724992e2db",
+      "sha256": "1112678cd3a08405b031a874379d56a46ffdf43c9add0af33776752ed0d765b0"
+    },
+    "utils.py": {
+      "bytes": 5210,
+      "git_blob_sha": "0b542e4949367a25cb664f72820a8b20e4f7489a",
+      "sha256": "4b3e84a805f1a0926ad32cf7a830ba0195e3f943c0c2d30b2cd9acfa1e02cf78"
+    }
+  },
+  "dependencies": {
+    "vendor/site-packages/einops/__init__.py": "acacaf13ae1b60c38c5c01b811f30c4951b1805674c79d5db7cda946cc389471",
+    "vendor/site-packages/einops/_backends.py": "ec10222967412cbbc08abc9f8700dbc318251835bd0e1e4534c4f51114aecf19",
+    "vendor/site-packages/einops/_torch_specific.py": "c8c6907aa0198412d647543e26feae4483497f344e84b6feaf328a7afa5e7d45",
+    "vendor/site-packages/einops/array_api.py": "8ce6fc461c0b4bdc286ff63f7bf2ab9c147a8a140fa01d8bcb4b5fac7afefd99",
+    "vendor/site-packages/einops/einops.py": "b17bc3f12585aae7f38b24092913e67c018754dd5c303bd838f36e67c2f55d05",
+    "vendor/site-packages/einops/experimental/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/site-packages/einops/experimental/indexing.py": "c8515f956dfe915ebfe4f3c953bfe3389b090425825a513874696ef60c123d7a",
+    "vendor/site-packages/einops/layers/__init__.py": "bc1b6702dd9a7ece1096aa5e154e1d95937106e0bd2179777e68a593ed8ecc73",
+    "vendor/site-packages/einops/layers/_einmix.py": "90dc96d390441be9a2329bb5bc642a297afc38931efb1c1e4bf68c520b9eaea3",
+    "vendor/site-packages/einops/layers/flax.py": "cc5cbcde048b466df570bb8a151bd9f36fc7b1e7e75cf6d1be42998752a40b52",
+    "vendor/site-packages/einops/layers/keras.py": "fbb4a8d30f78a61bdff47756d318b6992781834daa54fbc0c9fa7fd57474d8d3",
+    "vendor/site-packages/einops/layers/oneflow.py": "6043f3cf8c5cec10d141f6fcba50f7b5ea9025d6ceeaa420ed9e0a20f5532f3f",
+    "vendor/site-packages/einops/layers/paddle.py": "f1c45943c053f6f60473387ba4d3eba2e4ccff75e32edcb686ddac76f5cd1622",
+    "vendor/site-packages/einops/layers/tensorflow.py": "4fdba1495c1b5d111a85cdf5011007a0de4afbbcecb92f0d44d3dd63a664d417",
+    "vendor/site-packages/einops/layers/torch.py": "e74e06f7d904832edd93550f05b8fd873266664007c1584c0c537ff09fa9dc2f",
+    "vendor/site-packages/einops/packing.py": "d7037dbcc6be728ab5462391fcdbb6697aa0224ac37f78fe37543e60dd3ec56a",
+    "vendor/site-packages/einops/parsing.py": "c5ba9cbf045e2e244e12e7287a0676d1642210794b834bb1a3fbd8a1ecca07fe",
+    "vendor/site-packages/einops/py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/site-packages/einops/tests/__init__.py": "08b2821af1530b0994a14c5f6be2461d040bf5ce37ad38aa89e9d58d3d7c3e17",
+    "vendor/site-packages/einops/tests/run_tests.py": "57cabbfd8f5d324b272ecaa86ea3476d1d23f1d542be8d6139e07602343cdcda",
+    "vendor/site-packages/einops/tests/test_einsum.py": "79f4bbca726fc08dd515f4f3a58aee5a72988715b2c5f47375b5ec3276451d63",
+    "vendor/site-packages/einops/tests/test_examples.py": "a6c77ffc258e717d89e403d7c6c151bd79692a6f728a84d012711e6c44ad3ca7",
+    "vendor/site-packages/einops/tests/test_layers.py": "a1055f5371b3b17abf749577664601246a7c12e98912d3d107479183aa5a2daf",
+    "vendor/site-packages/einops/tests/test_ops.py": "a258f327637893be508d2b6168e011e24e7b8f4c812a3b92ac369cec9b991da9",
+    "vendor/site-packages/einops/tests/test_other.py": "6a0fe1ea8cf780c1fc324778091e505d7c3d92679811e7d4686a1b5c48078cc3",
+    "vendor/site-packages/einops/tests/test_packing.py": "3dd20ebc7af52bb778179b3532d080388ac892f027889070e709db9e90f1df19",
+    "vendor/site-packages/einops/tests/test_parsing.py": "5ca1487b5d059696b98131359475de62dd462aba1791423e6f5f0f6adfee41e1",
+    "vendor/site-packages/einops-0.8.1.dist-info/INSTALLER": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+    "vendor/site-packages/einops-0.8.1.dist-info/METADATA": "79529559045603ccd27713c844f2b57247c48e93135077bdb904bc53ed189403",
+    "vendor/site-packages/einops-0.8.1.dist-info/RECORD": "b4b231ccd46f7891c44ea965d03d5118d2c43042422a948f64ab0913e0c27583",
+    "vendor/site-packages/einops-0.8.1.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vendor/site-packages/einops-0.8.1.dist-info/WHEEL": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+    "vendor/site-packages/einops-0.8.1.dist-info/licenses/LICENSE": "30d984364296f51ffaecad4b01ee127e95250c5068918d4b66fc96206723e434"
+  }
+}

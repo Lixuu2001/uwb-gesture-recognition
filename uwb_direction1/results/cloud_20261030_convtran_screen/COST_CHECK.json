@@ -1,0 +1,77 @@
+{
+  "state": "synthetic_cost_screen_complete",
+  "policy_sha256": "ce2fda4e2bca3e7a690972840f10f6a332d3eb560028ea1e09b915f0ef1313c3",
+  "profiles": [
+    {
+      "name": "paper_width64_author_core",
+      "config": {
+        "Data_shape": [
+          16,
+          567,
+          90
+        ],
+        "emb_size": 64,
+        "dim_ff": 256,
+        "num_heads": 8,
+        "Fix_pos_encode": "tAPE",
+        "Rel_pos_encode": "eRPE",
+        "dropout": 0.01
+      },
+      "parameters": 9340708,
+      "fullbatch_times": {
+        "train": [
+          7.951135874027386,
+          7.205382989952341,
+          7.709423489985056
+        ],
+        "validation": [
+          2.8500411830609664,
+          2.935828299028799,
+          2.9955567970173433
+        ]
+      },
+      "estimated_seconds": 505840.13855478144,
+      "wall_and_CPU_gate_passed": false,
+      "optimizer_steps": 4
+    },
+    {
+      "name": "literal_author_CLI_defaults16",
+      "config": {
+        "Data_shape": [
+          16,
+          567,
+          90
+        ],
+        "emb_size": 16,
+        "dim_ff": 256,
+        "num_heads": 8,
+        "dropout": 0.01,
+        "Fix_pos_encode": "tAPE",
+        "Rel_pos_encode": "eRPE"
+      },
+      "parameters": 592324,
+      "fullbatch_times": {
+        "train": [
+          1.484510938054882,
+          1.424279481987469,
+          1.2767414579866454
+        ],
+        "validation": [
+          0.5512567659607157,
+          0.455232804059051,
+          0.546112806070596
+        ]
+      },
+      "estimated_seconds": 94437.76692362619,
+      "wall_and_CPU_gate_passed": false,
+      "optimizer_steps": 4
+    }
+  ],
+  "selected_by_resource_only": null,
+  "real_data_or_labels_read": false,
+  "real_training_started": false,
+  "wall_seconds": 65.36605455807876,
+  "cpu_seconds": 67.801170275,
+  "peak_rss_kib": 4637044,
+  "limitation": "Synthetic one-thread timing while original TSLANet also uses one of five CPUs; estimator uses2xmaxsteadyfullbatch plus120seconds. Passing is a prospective resource estimate, not a guarantee or accuracy result."
+}
