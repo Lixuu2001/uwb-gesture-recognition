@@ -1,0 +1,21 @@
+{
+  "state": "complete_exploratory_source_pilot",
+  "scores": {
+    "validation": 0.9369999999999999,
+    "diagnostic": 0.9358333333333332
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "known_baseline_expansion_eligible": false,
+  "predeclared_route": "close_exact_configuration",
+  "epochs": 27,
+  "steps": 7938,
+  "best_epoch": 17,
+  "best_validation_accuracy": 0.937,
+  "training_appearances": 126900,
+  "prediction_batch_context": "fixedlabelblindseed+101/102permutations;B16;originalperiodroutingpreserved",
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "wall_seconds": 3409.7130085580284,
+  "cpu_seconds": 3411.91343467
+}

@@ -1,3 +1,15 @@
+# 2026-10-30 — TimesNet训练正常结束，完整重放审计进行中；LightTS完整分类迁移实现/恢复/成本检查通过
+
+现有TimesNet worker49570按原patience10规则于27epoch结束，7938updates/126900训练出现，best epoch17/user2rawaccuracy.937；没有重复启动或按诊断缩短。训练supervisor exit0/no timeout，3413.217818749wall/3412.846813childCPU。两份预测先冻结再读held1；保存user2macro93.700000%、held1macro93.583333%，同held1冻结最强参考98.666667%，差−5.083333pp，保存gate=false/close_exact_configuration。**这些是待完整独立重放的训练输出，尚非审计通过的最终结论**；不扩此确切配置、不搜seed/epoch/FFT/宽度/eval批次救援。42科学/作者/协议哈希未变，无7–8标签，源内诊断探索性，不当旧LTR八折或独立验证。
+
+原controller49588已自然转completed_run_audit_running，实际audit supervisor49853/worker49854，尚无audit TERM/COMPLETE_AUDIT/完整私有包。本次不重复启动审计或下载数据。下一接续首查实际进程/审计日志/TERM；成功后原controller构建本地complete_backup_20261030，agent仍需新块私有上传/metadata/rawfetch(download_raw_file=true,include_base64=false)/立即物化SHA/重组全成员，最后发布最终结果。首步6块保险只initial/first，不能当完整模型保存；控制器无Drive/Git能力。工程故障保留trace/修复，不能当科学负结果。
+
+下一候选LightTS，已固定thuml/Time-Series-Library 4e938a1767106324dd753b2a44832bf870a0252e的完整UWaveGestureLibrary分类preset。README/模型docstring指向 Less Is More: Fast Multivariate Time Series Forecasting with Light Sampling-oriented MLP Structures (arXiv2207.01186)。论文正文/公式/图webtool本轮emptycontent/isErrortrue、无详细原因，未读全文；这是库维护者分类迁移，不冒充原论文分类复现或原创。未因发表身份停止准确率实验。当前三远端memorySTATUS和原789快照有界检索0 LightTS/PatchTST，不是穷尽等价/创新证明。歧义LightTS搜索repo未作身份依据。
+
+/workspace/uwb-lightts-screen-20261030已实现未改核心、精确source训练AST/RAdam/CE/clip4/stopper、10作者/库源码blob校验和完整恢复。952642参数、32活跃RAdam组、width128/b16/lr.001/100epochcap/patience10，chunk24内部90pad96再输出90×567→12；script e_layers3/dff256/topk3原模型不使用，源classifier声明GELU/dropout却未应用的行为也保留，无手工缩小或改写。未来RMS输入替代UEA数据集标准化属明示适配。独立NumPy IEBlock/identityinit、完整source3updates模型/RAdam/loss/全部RNG逐位、恢复后2steps+stopper/RNG逐位、原tiesreset/strictdeclinepatience通过。全16vs两8合成eval差0仅有限检查。CPU独立600wall/590–600CPU成本进程exit0/no timeout4.429881wall/4.398800CPU，8train+4eval完整shape，maxRSS463068KiB，上限29400steps/all4700each/470000出现成本9135.381511秒<43200，不是运行承诺。
+
+LightTS无真实UWB值/标签/拟合，尚无真实driver/守卫/完整审计/源协议或新训练；当前prototype不能直接实跑。TimesNet完整审计/私有收尾后，若原gate确认关闭，再按源train3–6/val2/diag1/seed20261029固定协议完成driver/guard/audit、远端预登记逐字读回后启动一次。7–8标签不参与选择，历史八用户反复开发声明探索性；不把已发表模块转用称原创。代码 research/lightts_screen_20261030，检查 results/cloud_20261030_lightts_preparation；当前观察 results/cloud_20261030_timesnet_pilot/TRAINING_FINISHED_AUDIT_PENDING.md。准确率提升/研究贡献目标未达，自动接续继续，原789源码/实际数组/模型/ID值不入Git。
+
 # 2026-10-30 — TimesNet真实训练已启动，53组RAdam/16ID首步核验及私有保险包完成
 
 115ac1ac2a1fa85382e74210cf8eec140bc59ded预登记21文件逐字读回、force=false推进后，仅一次启动真实云端supervisor49569/worker49570。首步检查通过：2433260参数完整作者gesturepreset初始化逐位、53状态张量改变、53组RAdamstep1/moments有限且重载一致、原未用timefeatureembedding不变、16确切训练ID/seededshuffle及42冻结哈希。first updateSHA0c87da38c98460c914beef12c00c8fe3023932414f816d69e908a99262e196a0，验证器SHA7d07af7f87d3679ececed31dac2fe42f1cdee94096c1aa464fd4851590963bca；验证器未读原始数值/标签或新增实际前向/拟合。当前观测epoch2/cap30、588steps，held1标签未读，7–8未用，无诊断准确率结论。训练按原user2选模和patience10继续，不改配置或根据验证曲线另搜。
