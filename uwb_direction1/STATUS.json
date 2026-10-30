@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": true,
-  "next_required_input": "Inspect actual GAP source6 worker45683/supervisor45678 and /workspace/uwb-gap-sixfold-20261030/run01/STATE.json first; do not duplicate or restart. Continue original5new64epoch trajectories/seed20261029/oneCPUthread/43200wall+CPU. Completion auditor is now prepared: audit_complete.py/audit_launch.py,10synthetic checks+actual active-run rejection,4audithashes/10pinnedreusedinputs. Do not run while active. After allfive new predictions freeze and successful training termination, invoke audit_launch.py --run once, inspect COMPLETE_AUDIT.json + audit_supervisor01/TERMINATION.json (890wall/880soft890hardCPU). Verify allGAP validation/diagnostic forwards/roles/hashes/metrics and original gate; priorCNN references retain earlier full-forward proof. Preserve all models/optimizer/RNG/IDs/logs privately before gain claim. No7-8labels/rescuegrid. TimeMIL64closed,TSLANetlatersynthetic; overallgoalunresolved/continuationenabled.",
+  "next_required_input": "Check actual GAP source6 worker45683/supervisor45678 and /workspace/uwb-gap-sixfold-20261030/run01/STATE.json first; never duplicate or restart. Same5new64epoch/seed20261029/oneCPUthread/43200wall+CPU. Held2 immutable states/logs/IDs/unscoredpredictions already private via HELD2_DRIVE_BACKUP_RECEIPT; upstream finalTimeMIL/GAPreceipt recoversheld1. Preserve later completedfolds with backup_completed_fold.py without scoring; current live fold absent from partialbundle, no whole-jobresume claim. Completionauditor ready/tested10checks; after allfivepredictionfreezes+STATEcomplete+successfulsupervisor termination run audit_launch.py --run once (890wall/880soft890hardCPU), verify COMPLETE_AUDIT.json/fullfunctional/roles/hashes/metrics/originalgate and privately preserveallfinalstates. No7-8labels/rescuegrid. TimeMIL64closed,TSLANetlatersynthetic; goalunresolved/continuationenabled.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261030_gap_source6/AUDIT_PREPARATION.md",
+  "latest_report": "uwb_direction1/results/cloud_20261030_gap_source6/HELD2_BACKUP_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793343783.752227,
+  "background_training_observed_unix": 1793346763.1517756,
   "background_training_pid": 45683,
-  "background_training_status_note": "GAP source6 worker45683/supervisor45678 actually trains held2/validation3; original35frozen hashes unchanged. Completion auditor prepared/tested, not run; no duplicate fit/new diagnostic score.",
+  "background_training_status_note": "Actual GAP source6 worker45683/supervisor45678 trains held3/validation4; reusedheld1/newheld2 complete. Held2 private3chunk82payload backup verified; original35science/4audithashes unchanged. No diagnostic aggregate or complete audit yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Launch once the registered unchanged GAP source-sixfold baseline, reusingheld1 and trainingonlyheld2-6; no TimeMIL rescue or TSLANet real launch.",
-  "last_completed_update_utc": "2026-10-30T07:03:03.752Z",
+  "last_completed_update_utc": "2026-10-30T07:52:43.151Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -1564,7 +1564,7 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "Implemented independent completed GAP source-sixfold verifier,10synthetic tests pass and active-run guard rejects before arrays. Original35science hashes unchanged; actual worker45683/supervisor45678 continues. No new diagnostic result.",
+  "latest_reported_action": "GAP held2 completed64epochs and immutable checkpoint/IDs/log/unscored prediction bundle privately readback verified3chunks/82payloads. Originalworker45683/supervisor45678 continuesheld3; no new diagnostic score or gate change.",
   "latest_paired_event_view_candidate_screen": {
     "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
     "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
@@ -3393,7 +3393,7 @@
   "latest_completed_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
-    "state": "running_first_actual_update_verified",
+    "state": "running_held2_complete_privately_preserved",
     "workspace": "/workspace/uwb-gap-sixfold-20261030",
     "protocol_sha256": "9195ac6d69ec54fe285cacd840765305f7013626667ab734ac34eefcf4bfd7c8",
     "seed": 20261029,
@@ -3444,22 +3444,23 @@
       "state": "training",
       "pid": 45683,
       "completed_folds": [
-        1
+        1,
+        2
       ],
       "all_new_diagnostic_predictions_frozen": false,
       "users7_8_labels_used": false,
-      "wall_seconds": 1246.8169156139484,
-      "cpu_seconds": 1248.366689996,
-      "observed_unix": 1793343783.752227,
-      "held_user": 2,
-      "validation_user": 3,
-      "epoch": 33,
-      "batch": 11,
-      "held": 2,
-      "train_bce": 0.00005890174062323182,
-      "validation_macro": 0.9091666666666667,
-      "validation_loss": 0.13696524500846863,
-      "epoch_seconds": 37.85816474608146
+      "wall_seconds": 4226.216464415891,
+      "cpu_seconds": 4227.434794727,
+      "observed_unix": 1793346763.1517756,
+      "held_user": 3,
+      "validation_user": 4,
+      "epoch": 47,
+      "batch": 1,
+      "held": 3,
+      "train_bce": 0.00018112556730759226,
+      "validation_macro": 0.9383333333333334,
+      "validation_loss": 0.030925102531909943,
+      "epoch_seconds": 38.187562878010795
     },
     "launch_report": "uwb_direction1/results/cloud_20261030_gap_source6/LAUNCH_VERIFIED.md",
     "completion_auditor_implemented": true,
@@ -3480,6 +3481,24 @@
       "cpu_soft_seconds": 880,
       "cpu_hard_seconds": 890,
       "threads": 1
+    },
+    "completed_new_folds_at_observation": [
+      2
+    ],
+    "completed_fold_private_backups": {
+      "2": {
+        "state": "private_readback_verified",
+        "held": 2,
+        "epochs": 64,
+        "chunks": 3,
+        "bytes": 21110355,
+        "tracked_payload_files": 82,
+        "archive_members": 83,
+        "archive_sha256": "a72be5a59c4a38240e3a334756a00291912ddee1ca704cf0e07e587bb66f889f",
+        "receipt": "uwb_direction1/results/cloud_20261030_gap_source6/HELD2_DRIVE_BACKUP_RECEIPT.json",
+        "local_path": "/workspace/uwb-gap-sixfold-20261030/backup_held2_20261030",
+        "full_job_resume_snapshot": false
+      }
     }
   }
 }

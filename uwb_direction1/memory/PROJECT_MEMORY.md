@@ -1,3 +1,13 @@
+# 2026-10-30 — GAP held2 completed and privately preserved; current job continues
+
+Actualworker45683/supervisor45678 alive,held3/validation4 epoch47; reusedheld1/newheld2 complete. Held2 unchanged64epochs,validationselectedepoch43,bestSHA6b200b3fbdb0a5f5097f2f23681757fc2a25ae0c73b735821561d8f780a63966,unscoredpredSHAe513d56f657155038aa30e682b295441e74fe77ed86837605748f4daaa728440. No newheldscoresdecoded/usedforchoices,35science/4audithashesmatch,noduplicatefit.
+
+Held2 privatebackup21110355bytes/3chunks/82payload+MEMBERS,archiveSHAa72be5a59c4a38240e3a334756a00291912ddee1ca704cf0e07e587bb66f889f. Folder/newobjects owneronly/sharedfalse/parent/size/MIME checked; authenticatedrawfetch/base64false/immediatechunkSHA,reassembly/exact83members/all82payloadSHA pass. Includes allheld2initial/first/best/lastoptimizer/RNG/modelstates,IDs/logs/unscoredpreds/code/authorcoredependencies/licenses/preparedaudit/referenceindices. Rawarrays/maps/liveheld3/remainingfolds absent; held1tensors requireembeddedupstreamcompletebackup. Notwholejobresumesnapshot; neverrestartaliveworker. Evidence results/cloud_20261030_gap_source6/{HELD2_BACKUP_NOTE.md,HELD2_DRIVE_BACKUP_RECEIPT.json,HELD2_READBACK_VERIFIED.json,held2_FOLD_COMPLETE.json}; localbackup_held2_20261030; helperresearch/gap_source6_20261030/backup_completed_fold.py. No sharing changes; raw arrays/model tensors/sample ID values not in Git.
+
+Continue original5new64epochGAPjob/seed/budget. Preserve laterimmutablefoldssimilarlywithoutscoring. Allfivepredictionfreezes/STATEcomplete/successfulsupervisorrequired before preparedindependent audit_launch.py --run once (890wall/880soft890hardCPU),actualverification/privatefinalpreservation/originalgate. No completeaudit or aggregateyet. Users7-8unused,norescuegrid/legacy8foldimprovement/independentvalidation/originalityclaim;TimeMIL64closed,TSLANetlatersynthetic,goalunresolved/continuationenabled.
+
+---
+
 # 2026-10-30 — GAP source6 completion auditor prepared; original training continues
 
 Existing worker45683/supervisor45678 alive,held2/validation3 epoch33. Same35scientific frozenentries match; no duplicate fit, score/config/seed/gate change. Independent read-only audit_complete.py/audit_launch.py implemented and10synthetic testmethods pass incl active-run-before-array guard,failure/timeout/wall/CPU limits,missingfold/freeze,checkpoint/predictiontamper,allroles/overlap,signedzeroRMSpreprocess,held1validation_bce schema/ties,missingclassmacro/gates,fast+slowoptimizerreload/corruption. Actual audit_launch --run rejected currentincomplete task with not_ready beforearrays/auditsupervisor/output. No realcompleteaudit or newdiagnosticscore yet.
