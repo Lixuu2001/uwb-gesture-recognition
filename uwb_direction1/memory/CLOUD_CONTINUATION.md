@@ -1,3 +1,15 @@
+# 2026-10-30 — TSLANet 50轮自监督完成，阶段复核及私有备份通过；分类仍在运行
+
+原 supervisor46531/worker46536 继续运行，最新观测 pretrained/classification 第15/100轮；没有重复启动，31项科学冻结文件及协议 a4bf25e2f220430b8cdfc6cc21930344da8bdcd51335e7e885fb73f06e572f59 不变。自监督50轮已完成，按原验证损失规则选中第27轮。独立阶段复核通过：38个产物/冻结/manifest哈希、初始/首步/最优/末轮模型、16个确切训练ID、42组AdamW首步和14650步状态、有限矩和可重载RNG、未用参数保持；未读真实map或标签值、无前向/拟合。阶段复核退出0，3.275121秒wall/3.228570秒CPU。
+
+完成复核脚本 audit_complete.py/audit_launch.py 已实现，7项合成测试通过；全实验真实完成复核尚未运行。需等待两臂/所有阶段完整、两份诊断预测冻结且原训练supervisor成功退出，之后在本目录运行一次 python audit_launch.py --run（890秒wall/CPU边界）。将全量复算每臂1000验证+1200诊断前向、独立smoothedCE/宏准确率/固定门槛，检查6900源预处理、ID、模型迁移、优化器重置/步数、四类检查点。审计器SHA9159fb91b615c175aac1f076534915cf30036c182ba74fd6f079b83fca6cec4a。SSL原随机掩码验证损失缺少单独pre-val RNG，明确仅核历史/选模/状态/迁移，不声称重现历史masked-val前向；RNG可重载不等于完整轨迹重演。不得修改冻结代码补记录/更换已选模型。工程故障要保留原失败痕迹并修复，不当作科学失败。
+
+四份不可变SSL模型（首/末含优化器，末含RNG）、私有样本ID/split、50轮日志、作者源码/许可/已读PDF、协议/测试/审计已存原私有Drive目录。124253198字节、17块、111payload+manifest=112成员，owner-only/父目录/大小/MIME、raw fetch且base64=false、立即物化SHA、整包及全部成员回下载核验通过；未改共享。整包SHA2c265abb9ee53a3e0eafc696abf675fabed3cc6efa50387da0faa9262ac986c2。回执SHA83e202d91c16980bae88d83d87803b4ee27eac70633ccca6d37d8ec53d38d7c1，results/cloud_20261030_tslanet_pilot/SSL_DRIVE_BACKUP_RECEIPT.json。仅已完成SSL阶段，排除运行中分类器/原数组/RMS缓存，不能称完整任务恢复快照；分类模型完成后另备份。
+
+当前无诊断准确率结果、用户7–8标签未用。按原50SSL+100FT对100scratch固定seed/batch16/full256×3/一线程继续，二臂预测冻结后再评分；不调门槛或救援搜索。完成复核和最终分类器私有保存后才报告预登记门槛。探索性准确率证据与原创贡献分开，目标未达，接续保留。报告 results/cloud_20261030_tslanet_pilot/AUDIT_AND_SSL_PRESERVATION.md；下次先核进程，勿重开旧GAP/TimeMIL队列。历史如下。
+
+---
+
 # 2026-10-30 — TSLANet full-default actual training; first SSL update verified
 
 Remotepreregee3b1f33e0c1ce96ce3e7ab68dba4faa9d30594f/protocola4bf25e2f220430b8cdfc6cc21930344da8bdcd51335e7e885fb73f06e572f59 verified beforelaunch. Actualsupervisor46531/worker46536 alive,pretrained/pretrain epoch7/50. Firstactual update42changedmodeltensors,4132879params,all42activeAdamWstep1/momentsfinite/reloadexact;authorinitialseedexact,unusedinput_layer/headunchanged.16uniqueexactseededtrainingIDs fromusers3-6,noval2/held1IDs,roles/31frozenhashespass. FirstSHAc98d374cec0de1df87f3260e68c0c05d41829d986bf448f4e2fc74c78677a513,verifierSHAcddac6a85605260862f2401379b4620bdddd2412bc5eddfbd69ff91cb439afca. Verifier readno raw/labelvalues andperformednoforward/fit. Actual optimization,notwatcher. Evidence results/cloud_20261030_tslanet_pilot/{LAUNCH_VERIFIED.md,LAUNCH.json,FIRST_UPDATE_VERIFIED.json},codeverify_first_update.py underresearch/tslanet_pilot_20261030.
