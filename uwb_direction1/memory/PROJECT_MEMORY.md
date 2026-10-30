@@ -1,3 +1,13 @@
+# 2026-10-30 — TSLANet完整配对失败并完成私有保存；TS2Vec600完整默认协议预登记
+
+TSLANet未重启，250轮完成且独立审计通过68项哈希、6900条RMS和每臂1000验证+1200诊断前向。held1宏准确率预训练91.500000%、scratch94.083333%，冻结最强同held1参考98.666667%；全部预设门槛失败，close_exact_configuration。训练supervisor exit0，11683.606964wall/11680.284148childCPU；审计exit0，26.204453wall/26.171851CPU。SSL随机验证历史未独立重建（单独pre-validation RNG未记录），未替换随机掩码冒充重放。不是旧LTR八折提升或独立验证。
+
+最终scratch与完整配对证据私有包122861638字节/17块/82payload+manifest，SHA0980d088aeabdeee03771cb3b36744e5c67911fe1e97b22c5c50021e2cd48cb0，回执SHA413c82c6a966a9909ff1164d1a1bcbf3454a8f531b331d63233694dae850a175。17块新包全部owner-only元数据、authenticated raw fetch/base64=false、立即SHA、重组及所有成员核验通过。加此前SSL17+pretrained17共三包51块才恢复全三阶段模型；此前34块此次仅新查元数据，字节沿用已有全下载校验回执。索引 results/cloud_20261030_tslanet_pilot/final_backup/DRIVE_BACKUP_RECEIPT.json，内嵌两旧索引。首个仅本地报告构建误将workerCPU称childCPU，上传前已修正并重建；旧报告和修正记录保留，无训练/预测更改。
+
+下一项已发表TS2Vec(AAAI2022 DOI10.1609/aaai.v36i8.20881)完整constructor320/64/depth10实际11块、673472参数、batch16、seed20261029、600次更新。原作者minibatch AST原样；三步原fit对照及断点后两步raw/average/optimizer/全部RNG逐位通过，3协议和2审计守卫测试通过。41项冻结哈希。原ten-C五折RBF-SVM仅n_jobs5→1，C只在训练用户3–6内选；验证2、诊断1全部预测先冻结再读标签；不读7–8标签。门槛固定held1超过98.666667%至少.5pp，未过即关闭确切配置，无诊断后补救搜索。synthetic成本估计963.335652秒通过预算。完整协议/driver/审计已实现，research/ts2vec_pilot_20261030/PROTOCOL.json；SHA b8e9946ee351eeee735bfffcbb50539e2b4d8fb9bc0cc86614dcc8db6ad183a1。
+
+本次登记时TS2Vec尚未读取真实数值或拟合；远端协议精确读回后才准一次启动。先查云端run01/STATE、supervisor与检查点，禁止重复启动。全部历史八用户反复开发，结果探索性；准确率与原创证据分开，研究目标仍未达到，继续任务启用。
+
 # 2026-10-30 — TSLANet预训练臂完成、1000验证前向复核及私有保存；TS2Vec完整默认实现通过CPU筛查
 
 先读取最新3f228f6远端四文件并核环境/原进程。原supervisor46531/worker46536未重启，已完成50SSL+100FT预训练臂，最新观测scratch/classification第52/100轮；31科学冻结文件和原完整审计4项哈希均未变。两臂诊断标签仍未读、用户7–8标签未用。新增预训练臂不可变审计与3项合成守卫测试通过；实际阶段审计exit0，8.798911wall/8.773625CPU，53项哈希、初始/首步/最优/末轮、SSLbest→分类initial逐位一致、分类优化器重置、16个确切首批训练ID、44组AdamW首步/29300步状态、未用参数和RNG可重载/原100轮选模(第99轮)核验。仅读取user2数值，独立重放1000验证前向及smoothing.1 CE/macro，与记录一致；held1预测仅当不透明文件哈希，未解码/评分。它不是完整配对准确率结论。

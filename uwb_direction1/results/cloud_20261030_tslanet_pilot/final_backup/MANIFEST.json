@@ -1,0 +1,119 @@
+{
+  "state": "completed_TSLANet_final_evidence_snapshot",
+  "observed_unix": 1793369029.0410757,
+  "current_archive_model_phases": [
+    "scratch/classification"
+  ],
+  "requires_prior_model_bundles": [
+    "pretrained/pretrain",
+    "pretrained/classification"
+  ],
+  "prior_archives": [
+    {
+      "archive_sha256": "2c265abb9ee53a3e0eafc696abf675fabed3cc6efa50387da0faa9262ac986c2",
+      "receipt_sha256": "83e202d91c16980bae88d83d87803b4ee27eac70633ccca6d37d8ec53d38d7c1"
+    },
+    {
+      "archive_sha256": "c4e75261619b1121b5272022a19d7dbe269d3aae22a5d192b12b240c83f1cbaa",
+      "receipt_sha256": "ead7dd1cbdfc20b18a3ff5341caa4750df4f5d0817bd389e23785521915b6bc4"
+    }
+  ],
+  "full_experiment_modelset_recoverable_composite": true,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "full_job_resume_snapshot": false,
+  "diagnostic_values_decoded_by_backup": false,
+  "limitations": "Current archive supplies scratch initial/first/best/last tensors and full final evidence. Prior two verified17chunk bundles supply SSL and pretrained classifier tensors plus author source/licenses. All three recovery indices form a complete modelset composite. Original migration restores raw data; exact declared RMS regenerates source maps. No new fitting/scoring by backup.",
+  "archive_name": "tslanet_final_20261030.tar.gz",
+  "archive_bytes": 122861638,
+  "archive_sha256": "0980d088aeabdeee03771cb3b36744e5c67911fe1e97b22c5c50021e2cd48cb0",
+  "tracked_payload_files": 82,
+  "members_manifest_sha256": "a565acfe009a08e938805fa3b4d9c8c919c610555350f0ba737040b94d4c063c",
+  "chunks": [
+    {
+      "name": "tslanet_final_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "89870b32cc7e87aecca4ce1f6f3d582efe63b6bca008747678ff079bf46bf203"
+    },
+    {
+      "name": "tslanet_final_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "e25b3a4b2c5be050f8bcaab3ad7546a42b936621ec72403199319f0cae3d83f8"
+    },
+    {
+      "name": "tslanet_final_20261030.part002",
+      "bytes": 7340032,
+      "sha256": "c879cacc720115c40b0794de61c0710e23e4c99931b6bf37fa71339d5ef5a4ea"
+    },
+    {
+      "name": "tslanet_final_20261030.part003",
+      "bytes": 7340032,
+      "sha256": "d61dc41ee157ed3cbceabfd0eca45f7ecadbd052d1759caafbb276220bd22ac4"
+    },
+    {
+      "name": "tslanet_final_20261030.part004",
+      "bytes": 7340032,
+      "sha256": "9d9878d41c512b987b792b03e42c5b1d296fce2b5d00899579498d089e93641a"
+    },
+    {
+      "name": "tslanet_final_20261030.part005",
+      "bytes": 7340032,
+      "sha256": "ca63d7cf94f9749a43c48ffa1879644199367314322d1764d6ffc08a13096afd"
+    },
+    {
+      "name": "tslanet_final_20261030.part006",
+      "bytes": 7340032,
+      "sha256": "dc38cdd141df646ef0d5c6cf1949c5fdfefc9c0c254ccc4a0462ca6834e71b27"
+    },
+    {
+      "name": "tslanet_final_20261030.part007",
+      "bytes": 7340032,
+      "sha256": "b56a0d3de5c2ce7fb2ea403993a30322ea794edef08a897215fc6fbe49f30b7d"
+    },
+    {
+      "name": "tslanet_final_20261030.part008",
+      "bytes": 7340032,
+      "sha256": "77f52a8272ea435375eda65c8a8e5d82112ced0991309ac3aa0dfe42959131c1"
+    },
+    {
+      "name": "tslanet_final_20261030.part009",
+      "bytes": 7340032,
+      "sha256": "9687741806decdb0fd4659eb5165f5358f3623ad77265c5a3051aac3f492faad"
+    },
+    {
+      "name": "tslanet_final_20261030.part010",
+      "bytes": 7340032,
+      "sha256": "925908f476c3631a7ea26374cb477d1fd35f680f62eea67080f61be539b9bf10"
+    },
+    {
+      "name": "tslanet_final_20261030.part011",
+      "bytes": 7340032,
+      "sha256": "df39d49f263b2052e12bb5850b8f445e93ce412c31ea0ceec14ed0d9d1a5126d"
+    },
+    {
+      "name": "tslanet_final_20261030.part012",
+      "bytes": 7340032,
+      "sha256": "6f9f2e7f3145fe16c258c087d1a6787a3c1546bc718d12b9056c1661668caff0"
+    },
+    {
+      "name": "tslanet_final_20261030.part013",
+      "bytes": 7340032,
+      "sha256": "a8a55006f603b4f93bc1b66cddfc4d4fa81aede6f43701efeeeae1a802253c5a"
+    },
+    {
+      "name": "tslanet_final_20261030.part014",
+      "bytes": 7340032,
+      "sha256": "e1e6f0a6955e27a5a330c994dc6ac328bb7afa3b01458943640c4b49ceca491e"
+    },
+    {
+      "name": "tslanet_final_20261030.part015",
+      "bytes": 7340032,
+      "sha256": "1f5839ad6ba0104c87ea91f8373e0209deb89c8c9d2d61662fe51c8aa805ea98"
+    },
+    {
+      "name": "tslanet_final_20261030.part016",
+      "bytes": 5421126,
+      "sha256": "0bf7990d178f35bb58722ecc21bf76022047e8c9d69f5837b74cd927915bedd2"
+    }
+  ]
+}

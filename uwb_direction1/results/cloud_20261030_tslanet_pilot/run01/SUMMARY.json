@@ -1,0 +1,19 @@
+{
+  "state": "complete_exploratory_source_pilot",
+  "scores": {
+    "pretrained": 0.915,
+    "scratch": 0.9408333333333334
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "gates": {
+    "mechanism_expansion_eligible": false,
+    "scratch_baseline_expansion_eligible": false,
+    "pretrained_baseline_expansion_eligible": false,
+    "predeclared_route": "close_exact_configuration"
+  },
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "users7_8_labels_used": false,
+  "wall_seconds": 11679.872933128034,
+  "cpu_seconds": 11678.804676484
+}

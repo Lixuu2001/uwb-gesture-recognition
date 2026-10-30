@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "tslanet_pretrained_arm_complete_preserved_scratch_training_running",
+  "state": "tslanet_pair_complete_failed_audited_preserved_ts2vec_preregistered_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,8 +13,8 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
-  "next_required_input": "First inspect actual TSLANet46536/supervisor46531 and run01/STATE/checkpoints; no restart/duplicate. Latest scratch epoch52/100; pretrained arm100complete/selected99/29300classifiersteps, validation-only1000user2forwards exact, private17newchunks verified. Both diagnostic predictions must freeze and training supervisor exit0 before existing python audit_launch.py --run full paired audit. Preserve completed scratch states/final scores/config/IDs/logs privately with authenticated readback, then apply unchanged source gates; no7-8labels/legacy8foldcomparison/originality claim. SSL and pretrained bundles are composite completed-stage recovery, not full-job resume; priorSSL17metadatafresh but bytes not redownloaded. New TS2Vec /workspace/uwb-ts2vec-screen-20261030 full320/64/depth10actual11blocks/673472params/constructorbatch16/600defaultiterations, CLI batch8 difference explicit; original ten-C fivefold RBF-SVM n_jobs5->1 only. Synthetic loss/grad/original2steps/initial-inclusiveaverage/maxpool/SVMparity pass, prospective full-size CPUestimate963.335652s<43200. Original float32 loss-accumulator reference fault fixed with failedattempt retained; author12blobs unchanged. TS2Vec full real source-user protocol/resumable raw+average+optimizer+RNG+sampler+IDs driver/audit NOT implemented/registered, no real launcher/fit/score. Finish TS gate route first: eligible route->separately registered confirmation; exactTS closure->complete prospective TS2Vec real driver/protocol/cost/guards before actual pilot. Do not mistake feasibility for accuracy or background training. Overall goal unresolved, continuation enabled.",
+  "background_training_running": false,
+  "next_required_input": "No user input required. Verify this preregistration, inspect real processes/checkpoints, then launch TS2Vec once with independent supervisor. Retain full states/IDs/logs; complete all600 updates/originaltraining-onlySVM, audit and private readback before accepting gate. No7-8labels, no rescue grids, no original789 modifications.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261030_tslanet_pilot/PRETRAINED_PHASE_PRESERVATION.md",
+  "latest_report": "uwb_direction1/results/cloud_20261030_tslanet_pilot/FINAL_PRESERVATION_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -2279,7 +2279,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Read-only reconciliation of prior gates: local echo correspondence was 0/6 source users per view on its fixed joint criterion (no classifier); generic range-ridge/trajectory, recurrence, temporal reversal, and multiview fusion routes are closed by prior art and/or observability limits. No new experiment, fitting, labels, or data read. The method goal remains unresolved; further work requires a distinct physically grounded mechanism observable in current clutter-removed maps.",
+  "latest_task_state": "TSLANet exact configuration closed by all registered gates, full audit/private three-bundle recovery verified. TS2Vec full-default600update/originalSVM fixed source pilot implemented and prospectively registered; launch only after remote exact readback. Goal unresolved; exploratory accuracy evidence separated from novelty.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3403,7 +3403,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
+  "latest_completed_report": "uwb_direction1/results/cloud_20261030_tslanet_pilot/FINAL_REPORT.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -3651,7 +3651,7 @@
     }
   },
   "tslanet_accuracy_pilot": {
-    "state": "pretrained50SSL100FT_complete_audited_preserved_scratch_running",
+    "state": "complete_all_gates_failed_closed_audited_privately_preserved",
     "workspace": "/workspace/uwb-tslanet-pilot-20261030",
     "protocol_sha256": "a4bf25e2f220430b8cdfc6cc21930344da8bdcd51335e7e885fb73f06e572f59",
     "frozen_entries": 31,
@@ -3691,9 +3691,9 @@
     "independent_validation": false,
     "novel_contribution_validated": false,
     "protocol": "uwb_direction1/research/tslanet_pilot_20261030/PROTOCOL.json",
-    "report": "uwb_direction1/results/cloud_20261030_tslanet_pilot/PRETRAINED_PHASE_PRESERVATION.md",
-    "worker_pid": 46536,
-    "supervisor_pid": 46531,
+    "report": "uwb_direction1/results/cloud_20261030_tslanet_pilot/FINAL_REPORT.md",
+    "worker_pid": null,
+    "supervisor_pid": null,
     "preregistration_commit": "ee3b1f33e0c1ce96ce3e7ab68dba4faa9d30594f",
     "first_update_verification": {
       "state": "pass",
@@ -3718,30 +3718,19 @@
       "users7_8_labels_used": false
     },
     "latest_live_state_observed": {
-      "state": "training",
-      "pid": 46536,
+      "state": "complete",
+      "pid": null,
       "completed_arms": [
-        "pretrained"
+        "pretrained",
+        "scratch"
       ],
-      "diagnostic_labels_read": false,
-      "users7_8_labels_used": false,
-      "wall_seconds": 9328.09088056907,
-      "cpu_seconds": 9327.631628461,
-      "observed_unix": 1793366437.0300784,
-      "arm": "scratch",
-      "phase": "classification",
-      "epoch": 52,
-      "batch": 101,
-      "training_loss": 0.5598028749736096,
-      "training_records_used": 4688,
-      "validation_loss": 0.8695062389373779,
-      "validation_macro": 0.908,
-      "epoch_seconds": 46.94960135000292
+      "diagnostic_labels_read": true,
+      "users7_8_labels_used": false
     },
     "launch_report": "uwb_direction1/results/cloud_20261030_tslanet_pilot/LAUNCH_VERIFIED.md",
     "SSL_validation_replay_limitation": "Original stochastic SSL validation losses NOT independently reconstructed: separate pre-validation RNG unlogged. Audit checks recordedhistory/selection/modelstates and later classifier transfer; no freshmask substitute or live science change.",
     "first_update_private_persistent_backup_complete": true,
-    "completion_auditor_executed": false,
+    "completion_auditor_executed": true,
     "completion_auditor_sha256": "9159fb91b615c175aac1f076534915cf30036c182ba74fd6f079b83fca6cec4a",
     "audit_synthetic_test_methods_passed": 7,
     "completion_audit_hashes": "uwb_direction1/research/tslanet_pilot_20261030/AUDIT_HASHES.json",
@@ -3769,7 +3758,7 @@
       "full_job_resume_snapshot": false,
       "live_classifier_included": false
     },
-    "full_classifier_private_backup_complete": false,
+    "full_classifier_private_backup_complete": true,
     "pretrained_phase_audit": {
       "state": "pass",
       "selected_epoch": 99,
@@ -3801,7 +3790,23 @@
       "live_scratch_included": false,
       "full_job_resume_snapshot": false
     },
-    "full_paired_audit_executed": false
+    "full_paired_audit_executed": true,
+    "scores": {
+      "pretrained": 0.915,
+      "scratch": 0.9408333333333333
+    },
+    "predeclared_route": "close_exact_configuration",
+    "completion_audit": "uwb_direction1/results/cloud_20261030_tslanet_pilot/COMPLETE_AUDIT.json",
+    "final_private_backup": {
+      "index": "uwb_direction1/results/cloud_20261030_tslanet_pilot/final_backup/DRIVE_BACKUP_RECEIPT.json",
+      "state": "private_readback_verified",
+      "archive_bytes": 122861638,
+      "chunks": 17,
+      "archive_sha256": "0980d088aeabdeee03771cb3b36744e5c67911fe1e97b22c5c50021e2cd48cb0",
+      "requires_SSL_and_pretrained_bundles": true,
+      "full_experiment_modelset_recoverable_composite": true,
+      "all_composite_chunks": 51
+    }
   },
   "convtran_author_core_screen": {
     "state": "implementation_synthetic_checks_pass_resource_gate_failed",
@@ -4024,5 +4029,32 @@
     "code": "uwb_direction1/research/ts2vec_author_screen_20261030",
     "report": "uwb_direction1/results/cloud_20261030_ts2vec_screen/REVIEW_AND_IMPLEMENTATION.md",
     "next_condition": "CurrentTS first. Eligibility route->confirmation; TS exactclosure->complete full prospective TS2Vec protocol/driver before real data. Original save/load only averagedencoder; no pretend resume/training."
+  },
+  "ts2vec_accuracy_pilot": {
+    "state": "preregistered_not_started",
+    "workspace": "/workspace/uwb-ts2vec-pilot-20261030",
+    "protocol": "uwb_direction1/research/ts2vec_pilot_20261030/PROTOCOL.json",
+    "protocol_sha256": "b8e9946ee351eeee735bfffcbb50539e2b4d8fb9bc0cc86614dcc8db6ad183a1",
+    "frozen_entries": 41,
+    "parameters": 673472,
+    "iterations": 600,
+    "batch_size": 16,
+    "seed": 20261029,
+    "train_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "users7_8_labels_used": false,
+    "real_training_started": false,
+    "cost_gate_passed": true,
+    "original_fit_three_step_parity_and_two_step_resume_passed": true,
+    "independent_validation": false,
+    "novel_contribution_validated": false,
+    "gate": "held1macro>=.9866666666666667+.005;elsecloseexactconfig",
+    "audit_implemented": true
   }
 }

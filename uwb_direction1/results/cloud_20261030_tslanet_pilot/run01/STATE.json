@@ -1,0 +1,22 @@
+{
+  "state": "complete",
+  "pid": null,
+  "completed_arms": [
+    "pretrained",
+    "scratch"
+  ],
+  "diagnostic_labels_read": true,
+  "users7_8_labels_used": false,
+  "wall_seconds": 11679.873060943093,
+  "cpu_seconds": 11678.804676484,
+  "observed_unix": 1793368788.8122559,
+  "arm": "scratch",
+  "phase": "classification",
+  "epoch": 100,
+  "batch": 281,
+  "training_loss": 0.54106537372179,
+  "training_records_used": 4688,
+  "validation_loss": 0.8636325130462646,
+  "validation_macro": 0.914,
+  "epoch_seconds": 49.29350948496722
+}
