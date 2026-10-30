@@ -1,0 +1,48 @@
+{
+  "state": "synthetic_author_default_training_ops_verified",
+  "observed_unix": 1793354404.5068133,
+  "paper": "https://proceedings.mlr.press/v235/eldele24a.html",
+  "TSLANet_commit": "ca0e88416d3ae49fd50e399c44ae94868378a94d",
+  "timm_commit": "78c3724f4545c0067d0b4d2f7df6337196be01ce",
+  "additional_source": "https://github.com/huggingface/pytorch-image-models/blob/78c3724f4545c0067d0b4d2f7df6337196be01ce/timm/loss/cross_entropy.py",
+  "fetched_utf8_source_bytes_preserved": true,
+  "original_eight_pinned_sources_unchanged": true,
+  "files": {
+    "training_ops.py": {
+      "bytes": 1228,
+      "sha256": "a1535ccd5e8ecaf685072e593b42a1b6dfd5d29178f64f1f6e7e3867ace82d2f"
+    },
+    "test_training_ops.py": {
+      "bytes": 4436,
+      "sha256": "0c41096de7b47b45fe1e2263fc920a6e827de14e9ca176a408fd530bdaa7d1b7"
+    },
+    "TRAINING_OPS_TESTS.log": {
+      "bytes": 956,
+      "sha256": "b9699dd5964be469ec43cec01a9bca9abc83bb126e5de1aefc047267608c8d52"
+    },
+    "vendor/timm_pinned/cross_entropy.py": {
+      "bytes": 1145,
+      "sha256": "5c3135f459e16237ae7407ab6fa52e948203df80266685d0d423c40231240903"
+    }
+  },
+  "synthetic_tests_passed": 6,
+  "parameters": 4132879,
+  "embedding": 256,
+  "depth": 3,
+  "batch_size_author_default": 16,
+  "pretrain_epochs_author_default": 50,
+  "classification_epochs_author_default": 100,
+  "lr_author_default": 0.001,
+  "weight_decay_author_default": 0.0001,
+  "label_smoothing_author_default": 0.1,
+  "train_drop_last_author": true,
+  "validation_and_test_drop_last_author": false,
+  "both_stage_author_checkpoint_monitor": "val_loss,min",
+  "author_stage_seed": 42,
+  "no_new_UWB_values_or_labels": true,
+  "real_training_started": false,
+  "real_protocol_registered": false,
+  "real_cost_gate_executed": false,
+  "whole_Lightning_driver_reproduction": false,
+  "scope": "Exact original model method AST loss/gradient parity with reporting metrics stubbed; pinned timm default CE vs PyTorch. Optimizer defaults and SSL-to-classifier reset/retained-head/attached-target behavior checked. No new full250epoch UWB experiment implemented or launched."
+}

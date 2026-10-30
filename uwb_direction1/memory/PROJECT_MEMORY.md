@@ -1,3 +1,15 @@
+# 2026-10-30 — GAP held5 preserved, final fold active; TSLANet author-default operations verified
+
+ActualGAPworker45683/supervisor45678 trains held6/validation1,observedepoch57; reusedheld1/newheld2-5 complete. Held5 unchanged64epochs/validationselected46,private21129357bytes/3chunks/83payload+manifest,SHAd69ef03ee7f6a7290e7eb1469de83330fcd220187005a6250becdd9b3f6b0d17. Owneronly/parent/size/MIME/rawfetch/base64false/immediateSHA/reassembly/exact84members/all83payloadpass. Evidence results/cloud_20261030_gap_source6/HELD5_{BACKUP_NOTE.md,DRIVE_BACKUP_RECEIPT.json,READBACK_VERIFIED.json} andheld5_FOLD_COMPLETE.json; localbackup_held5_20261030. Liveheld6absentfrompartialbundle,notwholejobresume. No newheldscoresread/choices/duplicatefit.
+
+Finalcomposite helper backup_final_source6.py prepared; actualactive-run guard passeswithoutcreatingoutput. After complete/freeze/trainingtermination+independentauditpass, preserve held6tensors/finalmetadata/alllogs/predictions/privateIDs and embeddedheld2-5/upstreamheld1indices; newarchivealonewillnotcontainallmodels. Prior20chunks metadata availability/size/parent/owneronly rechecked; earliercompleteSHAreadbacksretained,notfreshallpriorbytes. Continue original35science/4audit hashes/budget/gates. Actualcompleted-resultaudit stillnotrun. Use audit_launch.py --run once only aftercompletion (890wall/880soft890hardCPU).
+
+LaterTSLANet implementation progressed: pinnedtimm1.0.22cross_entropy.py1145bytes SHA5c3135f459e16237ae7407ab6fa52e948203df80266685d0d423c40231240903,original8sourcesunchanged. Newtraining_ops.py matchesoriginal default smoothing.1,AdamW.001/decay.0001,literalmaskedlearned-targetloss(targetattached),stageoptimizerreset/headpreservation. Sixsynthetic testmethods pass,full4132879paramloss/allgradients equalunmodifiedauthormethodASTs(reportingstubs),independentPyTorchCEcheck,transfer/maskchecks. No UWBdata/labels/newaccuracyseen,norealTSprotocol/costgate/runner/fit. Originaldriverbothcallbacksminval_loss,seed42,50SSL/100FT,batch16/drop_lasttrainTrue/valtestFalse; UEA256/3 vsCLI128/2 scopeexplicit. Futureuserprotocolseed/macroselection/RMS adaptationsmustbefrozen,notexactdriverreproduction. Evidence results/cloud_20261029_tslanet_screen/{TRAINING_OPS_REVIEW.md,TRAINING_OPS_CHECK.json,TRAINING_OPS_TESTS.log},code research/tslanet_author_screen_20261029/{training_ops.py,test_training_ops.py,vendor/timm_pinned/cross_entropy.py}. Nextaftercurrentclosure freeze/costfull50SSL+100FTvs100scratchsingleconfig usingtrain/val only; no additional noveltyapprovalneeded underaccuracy-firstinstruction.
+
+No7-8labels/rescuegrid/legacy8foldgain/independentvalidation/originalityclaim. TimeMIL64closed,allsourceexploratory,goalunresolved/continuationenabled.
+
+---
+
 # 2026-10-30 — GAP held3/held4 privately preserved; held5 training continues
 
 Actualworker45683/supervisor45678 alive,held5/validation6 epoch15; reusedheld1/newheld2-4 complete. Held3/4 unchanged64epochs,validation-selectedepochs14/26. No newheldscoresdecoded/usedforchoices,35science/4audithashesmatch,no duplicatefit or newmethodlaunch.

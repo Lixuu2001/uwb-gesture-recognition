@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": true,
-  "next_required_input": "Inspect current GAP source6 worker45683/supervisor45678 and /workspace/uwb-gap-sixfold-20261030/run01/STATE.json first; do not duplicate/restart. Continue remainingfolds within original5new64epoch trajectories/seed20261029/oneCPUthread/43200wall+CPU. Held2-4 completed private bundles verified via HELD2/3/4_DRIVE_BACKUP_RECEIPT; upstream TimeMIL/GAP final index recoversreusedheld1. Preserve latercompletedfolds with backup_completed_fold.py without scoring; live optimizer absent from partialbundles, no wholejobresume claim. Require allfive new predictionfreezes+STATEcomplete+successfulsupervisor termination before prepared audit_launch.py --run once (890wall/880soft890hardCPU). Verify COMPLETE_AUDIT.json/functional/roles/hashes/metrics/originalgate and preservefinalstates privately. No7-8labels/rescuegrid; TimeMIL64closed,TSLANetlatersynthetic,goalunresolved/continuationenabled.",
+  "next_required_input": "Check /workspace/uwb-gap-sixfold-20261030/run01/STATE.json and actualworker45683/supervisor45678; do notduplicate/restart. Lastheld6 still active. Held2-5private snapshots verified; held1upstreamfullprivate. Require allfivepredictionsfreeze+completeSTATE+successfulsupervisor termination then prepared audit_launch.py --run once (890wall/880soft890hardCPU), verify COMPLETE_AUDIT and receipt. Write realfinalreport, use prepared backup_final_source6.py build into final_backup_20261030 after auditpass, owner-only chunks/rawfetch/base64false/immediateSHA/member checks. It is composite held6tensors+priorheld2-5/upstreamheld1indices. Prior20chunkmetadatafresh, earlierfullreadbackreceipts retained (notfreshallpriorbytes). Apply originalGAPsourcegate; no7-8labels/rescuegrid. TSLANet later: unchanged full256/3core +training_ops matchesauthor smoothing.1,AdamW.001/decay.0001,targetattached/optimizerreset;6syntheticchecks pass. No realTSprotocol/cost/runner/fit yet; next freeze singlefull50SSL+100FTvs100scratch using train/val only after currentclosure. Publishedmethodnotoriginalitybarrier; overallgoalunresolved/continuationenabled.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261030_gap_source6/HELD3_4_BACKUP_NOTE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261030_gap_source6/HELD5_BACKUP_NOTE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793350478.7383685,
+  "background_training_observed_unix": 1793354652.182206,
   "background_training_pid": 45683,
-  "background_training_status_note": "Actual GAP source6 worker45683/supervisor45678 trains held5/validation6; reusedheld1/newheld2-4 complete. Held2-4 checkpoints privately backed up; 35science/4audithashes unchanged. Aggregate and real completionaudit still pending.",
+  "background_training_status_note": "Actual GAP source6 worker45683/supervisor45678 trains lastheld6/validation1; reusedheld1/newheld2-5 complete and privately recoverable. No aggregate/completeaudit yet; no duplicatefit or new TSLANet training.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Launch once the registered unchanged GAP source-sixfold baseline, reusingheld1 and trainingonlyheld2-6; no TimeMIL rescue or TSLANet real launch.",
-  "last_completed_update_utc": "2026-10-30T08:54:38.738Z",
+  "next_candidate": "Finish the already-running unchanged GAP source6, then audit and privately preserve. Next separately register/implement/cost-check full authorUEA TSLANet50SSL+100finetune vs100scratch; currentdefaultloss adapters synthetic-only.",
+  "last_completed_update_utc": "2026-10-30T10:06:13.311Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-29T17:17:25.178Z",
     "observed_executor_phase": "running",
@@ -1564,7 +1564,7 @@
     "training_started": false,
     "research_contribution_validated": false
   },
-  "latest_reported_action": "GAP held3/held4 completed64epochs; both immutable bundles private readback verified6chunks/164payloads. Originalworker45683/supervisor45678 continuesheld5; no new diagnostic score/complete audit.",
+  "latest_reported_action": "GAP held5 completed/private3chunk83payload preservation verified; lastheld6 continues. TSLANet author-default losses/optimizer/stage-transfer adapters pass6synthetic checks, no realfit. Finalcomposite helper guarded/prepared, prior20chunkmetadata rechecked.",
   "latest_paired_event_view_candidate_screen": {
     "report": "uwb_direction1/results/cloud_20261011_paired_event_view_candidate_screen/RUN_REPORT.md",
     "candidate": "sample-level event-paired cross-view consistency for held-physical-view transfer",
@@ -3363,7 +3363,7 @@
     "remote_reassembly_and_members_verified": true
   },
   "tslanet_author_core_screen": {
-    "state": "paper_code_review_and_executable_synthetic_prototype_only_no_real_protocol",
+    "state": "full_author_core_and_training_ops_synthetic_only_no_real_protocol",
     "workspace": "/workspace/uwb-tslanet-screen-20261029",
     "report": "uwb_direction1/results/cloud_20261029_tslanet_screen/REVIEW_AND_IMPLEMENTATION.md",
     "author_commit": "ca0e88416d3ae49fd50e399c44ae94868378a94d",
@@ -3386,14 +3386,30 @@
     "real_protocol_registered": false,
     "real_cost_gate_passed": false,
     "automatic_launch": false,
-    "priority": "Later candidate only; current source-sixfold must finish/audit first, then resolve already prepared TimeMIL. No additional real fit while current job runs.",
+    "priority": "Later candidate after current GAP source6 completes/audits/privatefinalpreservation; next implement/freeze/costcheck full50SSL+100FT vs100scratch, no unregistered realfit.",
     "original_contribution_validated": false,
-    "accuracy_improvement_validated": false
+    "accuracy_improvement_validated": false,
+    "training_ops": {
+      "state": "synthetic_author_default_training_ops_verified",
+      "synthetic_tests_passed": 6,
+      "loss_smoothing": 0.1,
+      "adamw_lr": 0.001,
+      "adamw_weight_decay": 0.0001,
+      "original_method_loss_gradient_exact": true,
+      "pretraining_target_attached": true,
+      "pretrained_head_retained": true,
+      "finetune_optimizer_reset_verified": true,
+      "criterion_source_sha256": "5c3135f459e16237ae7407ab6fa52e948203df80266685d0d423c40231240903",
+      "report": "uwb_direction1/results/cloud_20261029_tslanet_screen/TRAINING_OPS_REVIEW.md",
+      "receipt": "uwb_direction1/results/cloud_20261029_tslanet_screen/TRAINING_OPS_CHECK.json",
+      "real_UWB_training_started": false,
+      "real_protocol_registered": false
+    }
   },
   "latest_completed_report": "uwb_direction1/results/cloud_20261029_localcnn_source6/FINAL_REPORT.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
-    "state": "running_held2_4_complete_privately_preserved",
+    "state": "running_held2_5_complete_privately_preserved",
     "workspace": "/workspace/uwb-gap-sixfold-20261030",
     "protocol_sha256": "9195ac6d69ec54fe285cacd840765305f7013626667ab734ac34eefcf4bfd7c8",
     "seed": 20261029,
@@ -3447,22 +3463,23 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "all_new_diagnostic_predictions_frozen": false,
       "users7_8_labels_used": false,
-      "wall_seconds": 7941.8030570949195,
-      "cpu_seconds": 7942.59873675,
-      "observed_unix": 1793350478.7383685,
-      "held_user": 5,
-      "validation_user": 6,
-      "epoch": 15,
-      "batch": 11,
-      "held": 5,
-      "train_bce": 0.00046491469297072163,
-      "validation_macro": 0.8309090909090909,
-      "validation_loss": 0.10680416226387024,
-      "epoch_seconds": 38.61148031591438
+      "wall_seconds": 12115.24689440697,
+      "cpu_seconds": 12115.493172625,
+      "observed_unix": 1793354652.182206,
+      "held_user": 6,
+      "validation_user": 1,
+      "epoch": 57,
+      "batch": 21,
+      "held": 6,
+      "train_bce": 0.00019588023700318604,
+      "validation_macro": 0.9883333333333333,
+      "validation_loss": 0.0069154053926467896,
+      "epoch_seconds": 39.248920597019605
     },
     "launch_report": "uwb_direction1/results/cloud_20261030_gap_source6/LAUNCH_VERIFIED.md",
     "completion_auditor_implemented": true,
@@ -3487,7 +3504,8 @@
     "completed_new_folds_at_observation": [
       2,
       3,
-      4
+      4,
+      5
     ],
     "completed_fold_private_backups": {
       "2": {
@@ -3528,7 +3546,28 @@
         "receipt": "uwb_direction1/results/cloud_20261030_gap_source6/HELD4_DRIVE_BACKUP_RECEIPT.json",
         "local_path": "/workspace/uwb-gap-sixfold-20261030/backup_held4_20261030",
         "full_job_resume_snapshot": false
+      },
+      "5": {
+        "state": "private_readback_verified",
+        "held": 5,
+        "epochs": 64,
+        "chunks": 3,
+        "bytes": 21129357,
+        "tracked_payload_files": 83,
+        "archive_members": 84,
+        "archive_sha256": "d69ef03ee7f6a7290e7eb1469de83330fcd220187005a6250becdd9b3f6b0d17",
+        "receipt": "uwb_direction1/results/cloud_20261030_gap_source6/HELD5_DRIVE_BACKUP_RECEIPT.json",
+        "local_path": "/workspace/uwb-gap-sixfold-20261030/backup_held5_20261030",
+        "full_job_resume_snapshot": false
       }
+    },
+    "final_composite_backup_preparation": {
+      "implemented": true,
+      "active_run_guard_verified": true,
+      "real_final_archive_created": false,
+      "code": "uwb_direction1/research/gap_source6_20261030/backup_final_source6.py",
+      "prior_backup_metadata_chunks_rechecked": 20,
+      "prior_bytes_all_redownloaded": false
     }
   }
 }
