@@ -1,3 +1,19 @@
+# 2026-10-30 — LightTS完整重放/私有收尾并关闭；PatchTST完整库配置已实现，通过一致性但未过CPU成本门槛
+
+先读e6d4e3bd远端四文件、核同云端环境/已有进程，未重启训练/审计或重复迁移。LightTS原100cap/patience10在24epoch/7056updates/112800训练出现结束，user2选best epoch14/rawaccuracy.882。双预测先冻结再读held1，独立审计held1macro84.250000%、validation88.200000%，同held1最强冻结参考98.666667%，差−14.416667pp，原+.5pp gate失败，确切配置关闭，不救援/扩折。不当旧LTR八折比较/独立测试/原创贡献，无7–8标签使用。
+
+训练exit0/no timeout620.852092318wall/620.765379childCPU；完整独立审计exit0/no timeout550.715513043wall/550.642638childCPU。69产物SHA、6900RMS、7056每步loss/112800实际训练ID、24validation/stopper/选模、initial/first/best/last全model/RAdam/stopper/全部RNG及rawselectedcheckpoint、固定labelblindB16分批/2200最终logits/preds重放逐位通过。47原科学/源码/准备/前置证据哈希不变。审计SHA49bb40cda5edd342d17aba8731e56900a82e361920ca497fac94a93c0d5ecd66。
+
+完整独立私有包38302184字节/6块/73payload+manifest=74成员，SHA47480c8fa0df4fbf1f97e7638fe2833fb7d82a7066660246345fe766cd08f6ee；回执SHA3f6da254215dc937e6fab0a3ac708505c7665f367fdbb558605f0e381d92a33f。所有owner-only/父目录/大小/MIME、authenticatedrawfetch(download_raw_file=true,include_base64=false)即物化size/SHA、重组和全部73成员SHA验证。索引results/cloud_20261030_lightts_pilot/complete_backup_20261030/DRIVE_BACKUP_RECEIPT.json。独立恢复完整模型/优化器/RNG/IDs/分批/logs/preds/source/audit，不依赖旧首步2块；无原数组/maps，无自动整作业resume。人类FINAL_REPORT写于不可变包后，机器SUMMARY/audit/模型已在包内。历史controller private_remote_complete=false只是agent上传前的本地观察，最终回执为准，不改历史假称自动上传。无活动旧训练/审计，原789快照未动。
+
+下一PatchTST已做具体实现/运行而非抽象否定。primary arXiv2211.14730v2本轮可读，已读abstract、3.1–3.2、4.1–4.2部分、A1.4–A1.5；patch数/复制padding/attention/normalization公式文本，未看图或全24页。OpenReview论坛browser verification未绕过，使用可访问一手arXiv。核心是时间patch和共享逐channel encoder；库分类与论文default存在heads/dropout/position/norm/head差异明示，不称原paper实验复现或创新。库源码14blob固定thuml/Time-Series-Library4e938a1767106324dd753b2a44832bf870a0252e，MIT；完整UWaveGestureLibrary128/256/e3/h8/B16/100cap/patience10/P16S8、90×567/12类、9979788params/53活跃RAdam组，11tokens/channel，完整批展开9072channel序列，无resize/通道减少/改head/删module/缩batch或epoch。
+
+/workspace/uwb-patchtst-screen-20261030已实现原模型/精确source训练AST/RAdam/CE/clip4/stopper，独立NumPyFullAttention和replicatepad/unfold/linear/position参考，原完整3updates模型/RAdam/loss/全部RNG逐位、恢复后2steps/stopper/RNG逐位和tiesreset/严格下降patience通过。完整B16合成测试112.922623wall；所有53参数组活跃，whole16vs两8有限合成eval差0。共享SelfAttention模块顶层导入Reformer/einops，未改源码或使用stub；安装localdeps真实固定版本reformer1.4.4/einops.8.1/axial.2.1/localattention1.9.15/productkey.2.11/CoLT5.10.14，96文件SHA/metadata/MIT许可与6wheel/sdist哈希记录，未全局替换环境。三最新远端记录仅先前0匹配说明、原789有界PatchTST检索0；前一回合只读邻近model/script未实现或fit，不是穷尽等价/创新证明。
+
+一次独立600wall/590–600CPU合成成本进程exit0/no timeout99.762112336wall/99.458524childCPU。8完整trainsteps/4evalbatches，maxtrain11.066285443秒、maxeval3.256040594秒、peakRSS3603868KiB；原固定公式2*(100*294*maxtrain+(100*63+63+75)*maxeval)+120=692742.362739秒>43200，资源门槛失败。此为保守完整cap估计，非实测全训练时长，不可用猜测早停越过门槛。不启动/缩小/重测此确切CPU配置。**0真实PatchTST UWB值/标签/fit，准确率未测，资源失败不是科学负结果**。原始实现/日志/成本和COST_DECISION均保存，129准备项冻结。无新后台训练。
+
+下一具体候选已读库Transformer分类model(同commit、blob3ecae526df0d9f8022d023c75733ce966d714a92)，只作为待核对候选；其source script/精确旧baseline等价性/primary paper/实现/CPUgate/真实协议尚未完成，不声称新fit。后续先按确切完整配置查旧记录，读实际分类脚本/原attention论文，再做完整source-update/restore/成本；通过后固定train3–6/val2/diag1/seed20261029及参考门槛、远端预登记逐字读回再实跑。不以已有先例阻止实测，不搜held诊断/7–8标签，不重开旧封存配置。源用户/历史八用户反复开发仍探索性，准确率提升与原创证据分开。报告LightTS results/cloud_20261030_lightts_pilot/FINAL_REPORT.md；PatchTST research/patchtst_screen_20261030/{REVIEW_AND_IMPLEMENTATION,COST_DECISION}.md。目标未达、接续保持启用，实际数组/模型/ID值不入Git。
+
 # 2026-10-30 — LightTS真实云端训练已启动，32组RAdam/16ID首步和私有2块保险核验完成
 
 948a532f1ade58a0ca29dfaba8f7c49c22645f79的33新增/更新文件逐字读回并force=false推进后，仅一次实际启动supervisor50280/worker50281。协议SHA f2ffb8c4d716feaecb4a36edd0add92f6e884ec11f757e5056991bb2017715fb，47科学/源码/准备/前任务证据哈希不变。完整952642params/width128/B16/chunk24/100cap/patience10/seed20261029，train3–6/val2/diag1/full90×567RMS，每轮4700记录全用。当前观察epoch3/882updates，尚未冻结最终双预测、尚未读held1标签，无7–8标签，**无LightTS诊断准确率结论**，不能按验证曲线调配置或重复启动。
