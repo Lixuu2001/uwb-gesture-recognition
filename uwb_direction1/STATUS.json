@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "OSCNN_CPU100_accuracy_gate_failed_complete_private_verified_LITEMV_resource_closed_HInception_CPU100_ready_for_remote_preregistration",
+  "state": "HInception_full_width_depth_multivariate_transfer_CPU100_real_training_first_full_state_verified_private_insurance_complete",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_oscnn_pilot/FINAL_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_pilot/LAUNCH_AND_PRIVATE_FIRST_UPDATE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793416239.006619,
-  "background_training_pid": null,
-  "background_training_status_note": "Existing OS-CNN training/audit/controller completed normally; no live scientific run yet. H-Inception fixed CPU100 pipeline tested/frozen and ready for remote preregistration; actual UWB access/fit must wait for all-new-files exact readback/marker.",
+  "background_training_observed_unix": 1793428210.071978,
+  "background_training_pid": 54456,
+  "background_training_status_note": "Observed actual H-Inception worker54456/supervisor54454/controller54482 active. Completeep4/296updates in fixed100/B64/seed20261029 run. No final diagnostic prediction/labels, users7-8unused. Exactfirst64ID/fullstate/17fixedfilters/102Adam and twochunk143payload insurance verified. Full100ep audit/privatecomplete modelset still pending; no accuracy gain claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Read back this full H-Inception preregistration commit byte-exactly, materialize matching marker and launch once; then first full-state verification/private insurance/controller. Full32/depth6/B64/CPU100/seed20261029 explicitinput1to567/nativeKerasRMS+channelznorm. No labels7-8 or diagnostic rescue. OS exactCPU100 closed; LITEMV exactnativeTorch resourcepolicy closed, no LITEMV accuracy inference.",
-  "last_completed_update_utc": "2026-10-31T06:21:02.016Z",
+  "next_candidate": "Continue exactly preregistered HInception CPU100 singlemodel multivariateinput1to567 transfer; inspect currentPIDs54454/54456/54482,STATE/checkpoints/TERMs/POSTPROCESS before any action. Do not duplicate train/audit/download or select next real config/cost while this run is active. Afterexit0 fullaudit/privatecomplete readback, apply original gate; pass requires separate sourceconfirmation, fail closes exact configuration without diagnostic rescue.",
+  "last_completed_update_utc": "2026-10-31T06:33:11.326Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -5808,7 +5808,8 @@
     "ensemble_HInceptionTime_implemented": false,
     "fulltext_review_complete": false,
     "real_UWB_values_labels_or_fit": false,
-    "novel_contribution_claim": false
+    "novel_contribution_claim": false,
+    "used_by_registered_real_pilot": true
   },
   "hinception_formal_cost": {
     "state": "passed_prospective_CPU100_budget_after_prior_closures",
@@ -5887,10 +5888,11 @@
       "supervisor_wall_seconds": 23.338583308039233,
       "child_cpu_seconds": 23.316883
     },
-    "real_UWB_values_labels_or_fit": false
+    "real_UWB_values_labels_or_fit": false,
+    "used_by_registered_real_pilot": true
   },
   "hinception_accuracy_pilot": {
-    "state": "implemented_tested_frozen_ready_for_remote_preregistration_no_actual_fit",
+    "state": "real_training_running_first_update_verified_private_first_snapshot",
     "workspace": "/workspace/uwb-hinception-pilot-20261031",
     "protocol": "uwb_direction1/research/hinception_pilot_20261031/PROTOCOL.json",
     "protocol_sha256": "8a97c1f8a1901004d81f03c03846cee15e9cedcd7bf1424d9ea62e974c3ed7fd",
@@ -5923,10 +5925,70 @@
     "pre_UWB_guard_order_fault_repaired_and_traces_preserved": true,
     "actual_runner_and_full_step_auditor_implemented": true,
     "postprocess_Drive_Git_or_trainingrestart_capability": false,
-    "real_values_labels_or_fit": false,
-    "background_training_started": false,
+    "real_values_labels_or_fit": true,
+    "background_training_started": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
-    "novel_contribution_claim": false
+    "novel_contribution_claim": false,
+    "preregistration_commit": "251695c6d7dc41149e508a15fbf15310b471263a",
+    "supervisor_pid": 54454,
+    "worker_pid": 54456,
+    "postprocess_pid": 54482,
+    "postprocess_controller_started": true,
+    "postprocess_state": "waiting_existing_training",
+    "latest_live_state_observed": {
+      "state": "training",
+      "pid": 54456,
+      "epoch": 4,
+      "total_steps": 296,
+      "all_predictions_frozen": false,
+      "diagnostic_labels_read": false,
+      "users7_8_labels_used": false,
+      "wall_seconds": 397.4486231789924,
+      "cpu_seconds": 400.701866177,
+      "observed_unix": 1793428171.4829865,
+      "batch": 73,
+      "best_epoch": 4,
+      "best_training_loss": 0.01139147114008665
+    },
+    "first_update_verification": {
+      "state": "pass",
+      "initial_exact_native_full_author_architecture_seed": true,
+      "parameters": 851434,
+      "trainable_parameter_tensors": 50,
+      "native_Adam_variables": 102,
+      "Adam_iterations": 1,
+      "changed_model_state_tensors": 66,
+      "all_model_optimizer_state_finite": true,
+      "seventeen_fixed_filters_unchanged": true,
+      "full_first_state_restore_including_callbacks_metrics_all_RNG_exact": true,
+      "exact_seeded_training_ID_count": 64,
+      "frozen_entries_verified": 1423,
+      "first_update_sha256": "7763060e953621fad91ec3f6b6710a555b5323f821746651124238bc0e63cd03",
+      "verifier_sha256": "90c7e2a2b7a706ffa13e761d03d497e5523e7e86626291ea20a769882e6a1b81",
+      "real_raw_values_or_labels_read": false,
+      "real_forward_or_fit": false,
+      "users7_8_labels_used": false,
+      "observed_unix": 1793427832.3089619
+    },
+    "first_update_private_backup": {
+      "state": "private_readback_verified",
+      "scope": "first_update_only",
+      "index": "uwb_direction1/results/cloud_20261031_hinception_pilot/first_backup/DRIVE_BACKUP_RECEIPT.json",
+      "archive_bytes": 11310946,
+      "chunks": 2,
+      "payload_members": 143,
+      "archive_members": 144,
+      "archive_sha256": "b58ba7ec6c7905ee51058f6b81ea7747d7cc840da52cb8ce0f29d4335a2560ad",
+      "receipt_sha256": "8d88132ff8f2c2e13a09f6de1da6362e7c9e9799e413e9ade087f03fc49f9aec",
+      "all_completed_models_included": false,
+      "full_job_resume_snapshot": false
+    },
+    "complete_audit_started": false,
+    "complete_audit_complete": false,
+    "complete_private_backup_done": false,
+    "diagnostic_labels_read": false,
+    "all_final_predictions_frozen": false,
+    "latest_observation": "uwb_direction1/results/cloud_20261031_hinception_pilot/LIVE_OBSERVATION.json"
   }
 }

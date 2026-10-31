@@ -1,0 +1,86 @@
+{
+  "state": "private_readback_verified",
+  "scope": "first_update_only",
+  "observed_unix": 1793427905.9114966,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": false,
+  "limitations": "First snapshot supplies only initial/first-update model/Adam/callbacks/metrics/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/callbacks/metrics/RNG/IDs/logs/predictions/audit. Inputs regenerate from private migration with exact RMS and source per-channel z-normalization. Source helper packages and paths are separately pinned by protocol/dependency manifest. Tested restore helpers exist; no automatic job-resume. Exact runtime wheels/base environment separately pinned in Git and dependency manifest; no whole-runtime/job-resume claim. No new fit/scoring by backup.",
+  "archive_name": "hinception_first_update_20261031.tar.gz",
+  "archive_bytes": 11310946,
+  "archive_sha256": "b58ba7ec6c7905ee51058f6b81ea7747d7cc840da52cb8ce0f29d4335a2560ad",
+  "tracked_payload_files": 143,
+  "members_manifest_sha256": "422f92dd53705871efdfb44969c48ec197fdc7e8a2016263391f454092e80f96",
+  "chunks": [
+    {
+      "name": "hinception_first_update_20261031.part000",
+      "bytes": 7340032,
+      "sha256": "e10306f88c0c981917793f1b66718533b5267bd533dcea3ef435f216086c96c9",
+      "file_id": "13EZovUHB5dEyUlqehgyQ2yfvXWhnCGQI",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "hinception_first_update_20261031.part001",
+      "bytes": 3970914,
+      "sha256": "a56027eea4bd9256d8b920ae101caf5d44e3f83393327c59e229e336eabf36d1",
+      "file_id": "1lmy8fk7zbBdbdvQxx2CE6jxoO1XbGRVb",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 3970914,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "standalone_complete_modelset_recoverable": false,
+  "first_update_state_recoverable": true,
+  "requires_future_complete_modelset_backup": true,
+  "verified_readback": {
+    "state": "remote_archive_and_all_members_verified",
+    "scope": "first_update_only",
+    "chunks_verified": 2,
+    "tracked_payload_members_verified": 143,
+    "archive_members": 144,
+    "archive_sha256": "b58ba7ec6c7905ee51058f6b81ea7747d7cc840da52cb8ce0f29d4335a2560ad"
+  },
+  "verified_unix": 1793428210.002092
+}
