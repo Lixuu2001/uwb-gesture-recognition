@@ -1,3 +1,11 @@
+# 2026-10-31 — Python RNG观测隔离修复已远端22文件精确回读，完整手动重审57620/57621已实际启动
+
+d5c536eb95a2875b2f5cc3157b142dfd673c33f4以ad7ce0b最新父、force=false、22文件逐字回读后才创建AUDIT_REPAIR_REGISTRATION并仅一次启动driver/supervisor57620、worker57621。当前repaired_full100epoch_audit_running，完整原100epoch/7400update重放、所有原assert与finalcompare/tolerance/gate保持，不是训练restart；相同14400wall/14390soft/14400hardCPU，原失败9453秒另记，不静默扩预算/自动retry。原audit_supervisor01移存audit_attempt01，九项原failure/source/log SHA全部复核不变，canonical audit_supervisor01现在是手动attempt02。1423science+19训练产物及16repair冻结SHA不变；diag SUMMARY未解析，无新分数/提升/原创结论。
+
+**下一先查57620/57621和/workspace/uwb-hinception-audit-repair-20261031/STATE.json、canonical TERM/COMPLETE_AUDIT，不再按旧POSTPROCESS_STATE的postprocess_incomplete误判当前进程。旧root失败状态/AUDIT_INCOMPLETE保留描述attempt01，不能改成成功。** repaired worker pass且TERM exit0后driver才build complete_backup_20261031，builder保留所有原检查并纳入原failure/repair code/hash/log/patch；driver没有Drive/Git或重训/retry能力。agent还须owner-private metadata→download_raw_file=true/include_base64=false/max3/即物化SHA/重组全成员完整私有模型集回读，首步保险不可替代；之后才发布audited分数/原gate，pass须source确认，fail只关确切配置，不diag救援。
+
+runtime/registration/原失败保留凭据与接续说明results/cloud_20261031_hinception_audit_repair/RUNTIME_AND_CONTINUATION.md，修复代码研究目录同名research路径。本阶段不选下一Disjoint/MLSTM实际cost/config/fit；准确率价值/原创证据分开，all8历史探索性、用户7–8不作新选择，目标未达、既有小时接续保持。原789和真实arrays/ID值/models/binaries不改或入Git。以下保留历史。
+
 # 2026-10-31 — H完整审计末步Python RNG观测副作用失败；定位与回归通过，手动全程重审修复先远端登记
 
 先读ad7ce0b123eadae90c46bcf2c8c98c9144305db4最新四记录/云端能力及实际进程。原audit55822 exit1/no timeout，9453.333773313905wall/9452.627575CPU；旧controller54482已postprocess_incomplete，无运行中的训练/审计。trace到final_prediction_state的精确比较，前面100epoch/7400update/2200prediction路径已到达但**不能当成完整审计pass/分数结论**。训练仍100epochs/7400updates完成、所有19产物/1423冻结SHA不变，不重训，不当方法准确率负结果，未解析diag SUMMARY。

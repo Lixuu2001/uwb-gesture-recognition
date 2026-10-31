@@ -1,0 +1,24 @@
+{
+  "state": "manual_repaired_full_audit_actually_running",
+  "observed_utc": "2026-10-31T12:32:53.896934+00:00",
+  "remote_repair_commit": "d5c536eb95a2875b2f5cc3157b142dfd673c33f4",
+  "driver_pid": 57620,
+  "audit_worker_pid": 57621,
+  "driver_state": {
+    "state": "repaired_full100epoch_audit_running",
+    "pid": 57620,
+    "training_restarted": false,
+    "automatic_retry": false,
+    "Drive_or_Git_capability": false,
+    "observed_unix": 1793449919.2585375
+  },
+  "all16_repair_files_and1423_frozen_and19_training_artifact_SHA_verified": true,
+  "original_failed_attempt_preserved": true,
+  "training_restarted": false,
+  "automatic_retry": false,
+  "full_audit_complete": false,
+  "complete_private_backup_done": false,
+  "diagnostic_summary_parsed": false,
+  "next_method_configuration_or_cost_selected": false,
+  "accuracy_or_originality_claim": false
+}
