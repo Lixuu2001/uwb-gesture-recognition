@@ -1,0 +1,167 @@
+{
+  "state": "verified_actual_source_confirmation_training_processes",
+  "observed_utc": "2026-10-31T16:16:07.449363+00:00",
+  "queue": {
+    "state": "running_unscored_source_confirmation",
+    "pid": 59236,
+    "automatic_retry": false,
+    "Drive_or_Git_capability": false,
+    "users7_8_labels_used": false,
+    "pending": [
+      4,
+      5,
+      6
+    ],
+    "active": {
+      "2": 59237,
+      "3": 59238
+    },
+    "completed": [],
+    "failed": [],
+    "observed_unix": 1793463140.112089
+  },
+  "folds": {
+    "2": {
+      "job": {
+        "state": "training",
+        "held": 2,
+        "pid": 59237,
+        "diagnostic_labels_read": false,
+        "automatic_retry": false,
+        "observed_unix": 1793463140.222318
+      },
+      "worker": {
+        "state": "training",
+        "pid": 59239,
+        "epoch": 1,
+        "total_steps": 74,
+        "all_predictions_frozen": false,
+        "diagnostic_labels_read": false,
+        "users7_8_labels_used": false,
+        "wall_seconds": 131.55148664896842,
+        "cpu_seconds": 135.26453249,
+        "observed_unix": 1793463275.5600793,
+        "batch": 73,
+        "best_epoch": 1,
+        "best_training_loss": 0.6078007221221924
+      }
+    },
+    "3": {
+      "job": {
+        "state": "training",
+        "held": 3,
+        "pid": 59238,
+        "diagnostic_labels_read": false,
+        "automatic_retry": false,
+        "observed_unix": 1793463140.2232618
+      },
+      "worker": {
+        "state": "training",
+        "pid": 59240,
+        "epoch": 1,
+        "total_steps": 71,
+        "all_predictions_frozen": false,
+        "diagnostic_labels_read": false,
+        "users7_8_labels_used": false,
+        "wall_seconds": 126.71398358803708,
+        "cpu_seconds": 130.660645176,
+        "observed_unix": 1793463270.99876,
+        "batch": 70,
+        "best_epoch": 1,
+        "best_training_loss": 0.6079981327056885
+      }
+    }
+  },
+  "processes": [
+    {
+      "pid": 59236,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-hinception-sixfold-20261031/controller.py",
+        "--run"
+      ],
+      "status": {
+        "Name": "python",
+        "State": "S (sleeping)",
+        "PPid": "1",
+        "VmRSS": "12528 kB",
+        "Threads": "1"
+      }
+    },
+    {
+      "pid": 59237,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-hinception-sixfold-20261031/job.py",
+        "--held",
+        "2"
+      ],
+      "status": {
+        "Name": "python",
+        "State": "S (sleeping)",
+        "PPid": "59236",
+        "VmRSS": "11968 kB",
+        "Threads": "1"
+      }
+    },
+    {
+      "pid": 59239,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+        "--held",
+        "2"
+      ],
+      "status": {
+        "Name": "python",
+        "State": "R (running)",
+        "PPid": "59237",
+        "VmRSS": "3062268 kB",
+        "Threads": "1"
+      }
+    },
+    {
+      "pid": 59238,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-hinception-sixfold-20261031/job.py",
+        "--held",
+        "3"
+      ],
+      "status": {
+        "Name": "python",
+        "State": "S (sleeping)",
+        "PPid": "59236",
+        "VmRSS": "11964 kB",
+        "Threads": "1"
+      }
+    },
+    {
+      "pid": 59240,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+        "--held",
+        "3"
+      ],
+      "status": {
+        "Name": "python",
+        "State": "R (running)",
+        "PPid": "59238",
+        "VmRSS": "3030868 kB",
+        "Threads": "1"
+      }
+    }
+  ],
+  "all1465_frozen_dependencies_reverified": true,
+  "no_new_diagnostic_labels_scored": true,
+  "users7_8_labels_used": false,
+  "complete_folds": 0,
+  "source_sixfold_result_available": false,
+  "complete_private_modelset_verified": false
+}

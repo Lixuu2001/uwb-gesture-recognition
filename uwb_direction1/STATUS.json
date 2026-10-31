@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_source_sixfold_fixed_CPU100_preregistered_pending_exact_readback_and_single_launch",
+  "state": "HInception_source6_fixed_CPU100_running_held2_3_first_epoch_verified_held4_5_6_queued",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -6240,7 +6240,7 @@
     "diagnostic_summary_parsed_after_private_preservation": true
   },
   "hinception_source_sixfold_20261031": {
-    "state": "pre_registration_complete_not_launched",
+    "state": "running_unscored_source_confirmation",
     "workspace": "/workspace/uwb-hinception-sixfold-20261031",
     "protocol": "results/cloud_20261031_hinception_sixfold/study/PROTOCOL.json",
     "frozen_hashes": "results/cloud_20261031_hinception_sixfold/study/FROZEN_HASHES.json",
@@ -6261,8 +6261,42 @@
     "synthetic_native_state_pass": true,
     "users7_8_labels_used": false,
     "all_source_evidence_exploratory": true,
-    "new_training_started": false,
+    "new_training_started": true,
     "complete_private_modelset_verified": false,
-    "novel_contribution_validated": false
-  }
+    "novel_contribution_validated": false,
+    "registration_commit": "9ff765103ab2e6107cc452b3b5abc0f926b836ee",
+    "controller_pid": 59236,
+    "job_supervisor_pids": {
+      "2": 59237,
+      "3": 59238
+    },
+    "worker_pids": {
+      "2": 59239,
+      "3": 59240
+    },
+    "observed_epoch_steps": {
+      "2": [
+        1,
+        74
+      ],
+      "3": [
+        1,
+        71
+      ]
+    },
+    "pending": [
+      4,
+      5,
+      6
+    ],
+    "failed": [],
+    "completed_new_folds": 0,
+    "diagnostic_labels_scored": false,
+    "live_observation": "results/cloud_20261031_hinception_sixfold/LIVE_OBSERVATION.json",
+    "first_update_insurance_private_readback_verified": true,
+    "insurance_scope": "held2_held3_initial_first_update_only",
+    "insurance_chunks": 4,
+    "insurance_archive_members": 138
+  },
+  "next_action_source_confirmation": "Inspect existing OS/state/queued jobs; do not relaunch. Wait for five frozen dual predictions and complete audits, then aggregate; preserve full private modelset before publishing final source6 comparison. No users7–8 selection/diagnostic rescue."
 }

@@ -1,3 +1,13 @@
+# 2026-10-31 — H-Inception固定source6确认已真实启动，用户2/3首轮完成；4私有块/138成员首步保险回读通过
+
+最新parent9ff765103ab2e6107cc452b3b5abc0f926b836ee是本轮23文件逐字节回读后的正式预登记；protocolSHA4f126897145217f217cad11a3465dfafa6a09b1760c80d82618e8eb65fae5a8b，1465依赖冻结SHA核验通过，之后才marker/fit。先检查无重复进程和jobs/run01，再于16:12:20UTC单次启动controller59236；job2/3 supervisor59237/59238，真实trainworkers59239/59240。只读OS/state实测2026-10-31T16:16:07.449363+00:00均活跃，用户2已74更新/1epoch、用户3已71更新/1epoch，用户4/5/6排队，failures0、完整新fold0，本折诊断标签均未索引/评分。第一轮实测118.4049/113.1591秒，只作运行耗时，无选模/改参。**当前没有source6最终准确率。** 不要重启/重复下载/重复启动。
+
+同完整851434/601006模型100epochs/B64/seed20261029固定；每job train→完整独立数值replay审计，两job并发，各一CPU线程。用户1复用完整已审计99.416667%（单held探索性+0.75pp）与7块完整私有恢复证据，用户2–6新增36000updates；五组双预测全部冻结并通过全部审计后才aggregate统一评分。已登记对LocalCNN/GAP分别mean>=+1pp、strictwins>=4/6、worst>=−2pp，失败关闭确切配置，不救援调参/扫测试；7–8标签不用，全部source探索性，不称独立验证/原创/旧八折结论。
+
+已私有保险held2/3 immutable initial+first_update全状态、split/EVAL IDs、code/sourceID manifest与既有held1完整恢复引用，22295403bytes/4chunks/137payload+MEMBERS=138。先owner-only元数据、rawfetch(download_raw_file=true,include_base64=false)、最多3流水线、立即size/SHA→重组SHA+每成员全通过。archiveSHA293861fcdd3ebedf645a87edbf9c81fe8f6868c9fc26ba36553658cf6e4f6bca。不包含raw/maps，不改变分享。此仅首两折首步保险，非selected/last/final/整jobresume/完整新modelset或全fold审计。完整新5fold模型集必须完成后另备份全回读再发最终均值。
+
+恢复与当前记录：results/cloud_20261031_hinception_sixfold/LIVE_OBSERVATION.json、REMOTE_PREREGISTRATION.json、first_two_fold_insurance/CLOUD_DOWNLOAD_INDEX.json。先核OS/state/现有检查点，controller自动顺序推进audit/剩余jobs。发现故障保留失败/既有activejobs，诊断后单独登记工程修复，无自动重试。operations/为只读观测和immutable保险脚本，冻结训练study未变。运行期无Drive/Git能力；后续agent负责完整私有备份/真实结果提交。继续原自动任务，不新建重复任务；目标仍未完成。
+
 # 2026-10-31 — 固定H-Inception源用户确认代码与协议预登记，尚未启动新训练
 
 以最新远端b1ae88cbfeed1feee27e86bc674c601eeb26576f及四记录为准。已完成H pilot完整独立审计/私有恢复证据；held1 99.416667%相对固定98.666667%高0.75pp过原门槛。现单独登记source1–6确认，复用held1，仅新训held2–6，不切到Disjoint/MLSTM，不重训已有pilot。
