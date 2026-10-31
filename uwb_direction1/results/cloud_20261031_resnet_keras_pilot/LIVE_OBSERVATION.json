@@ -1,0 +1,34 @@
+{
+  "observed_unix": 1793406769.9359224,
+  "real_training_process_alive": true,
+  "supervisor_pid": 52481,
+  "worker_pid": 52488,
+  "controller_pid": 52562,
+  "state": {
+    "state": "training",
+    "pid": 52488,
+    "epoch": 8,
+    "total_steps": 592,
+    "all_predictions_frozen": false,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 260.4065110250376,
+    "cpu_seconds": 263.713768649,
+    "observed_unix": 1793406743.3782291,
+    "batch": 73,
+    "best_epoch": 8,
+    "best_training_loss": 0.0015055881813168526
+  },
+  "postprocess": {
+    "state": "waiting_existing_training",
+    "pid": 52562,
+    "training_restarted": false,
+    "Drive_upload_or_Git_push_capability": false,
+    "observed_unix": 1793406697.2907102
+  },
+  "frozen_entries_verified": 1358,
+  "protocol_sha256": "cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca",
+  "first_receipt_sha256": "e0c7e6050d919411bc7cb12125251459213d03ffa20f740310314da99dad256a",
+  "first_verifier_clean_exit0": true,
+  "goal_achieved": false
+}
