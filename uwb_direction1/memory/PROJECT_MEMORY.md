@@ -1,3 +1,17 @@
+# 2026-10-31 — 完整网络ResNet CPU100真实入口/完整重放/保险守卫已实现，预登记前未真实fit
+
+先读19a36cf7远端四文件，核同云端实际running/current/connected、restricted/enforced/vpnfalse，无活动旧train/audit/controller，数据仍/workspace/uwb-restored-20261020，无迁移重下。按固定队列完成/workspace/uwb-resnet-keras-pilot-20261031代码，不重复筛选/计时其他方法。完整作者ResNet原生Keras3.11.3 TorchCPU、834124总参数含BN非训练量/48训练张量/98Adam变量，100固定轮/B64/seed20261029/1thread，每轮4700全记录/74批末28，共7400更新/470000出现。100是前置资源规则选的CPU适配，不称原1500轮TF基准复现。原strict最小训练loss选best/ties留前、ReduceLR(loss,.5,50,min_delta1e-4,min_lr.0001)保留，无earlystop；user2验证只监视，不拿来改变训练loss选模。
+
+真实runner具体保存initial/first/best/rollinglast全native模型/Adam/BN/metrics/callbackstates（best/min_delta/wait/cooldown/currentepoch等）/全部RNG/sampler/identity、原best_model.keras和last_model.keras；每步实际ID+native累计metrics+tracker差分batchloss，明示累计loss不是batchloss。显式dedicatedGenerator(seed+epoch)shuffle、eval仅countsseed+101/102固定B64/末40/48。全90×567 RMS/train3–6/val2/diag1和源ID/maps/rawSHA固定；12类用既有taxonomy，不复制原main合并train+testlabels拟合onehot路径。双最终val/held1概率/ID/pred冻结哈希后才索引held1labels，保存的为softmax概率而非虚称logits。7–8labels不用；同reference .9866666666666667+.005/1e-12 gate，fail关闭确切100配置，pass只允许另注册source确认，不用诊断改seed/epoch/width/batch。100失败不能否定原1500科学效果。
+
+独立auditor已具体实现：从seed全7400逐步native指标/Adam更新/470000实际ID、100轮训练/验证指标、trainlossbest/ReduceLR、initial/first/best/last全模型/Adam/BN/metrics/callback/RNG、两native.keras权重与优化器、6900RMS生成式、2200最终probabilities/predictions精确重放。仅macro归约允许已有1e-12，状态/输出不放宽。firstverifier只读immutablefirst/native恢复/64确切ID/1358冻结项，无raw值/gesturelabels/新forwardfit；首次保险不包含latest/best/完整未来模型。completebackup必须训练/审计成功并复核所有SHA，拒绝active/incomplete；controller仅等待已有训练成功→审计一次→本地完整包，无训练restart/retry/Drive/Git能力，agent后续做私有rawreadback全成员。
+
+六项入口/已有任务/分批/gate/三轮完整nativecheckpoint恢复重放检查通过，包含两个独立合成运行及epoch1恢复续两轮全模型/Adam/metrics/callback/allRNG逐位、故意损坏optimizer被拒；三项postprocess等待/失败/成功守卫通过。仅合成，未重新做资源选项扫描。协议SHA cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca；1358本次code/协议/准备/1302runtimefiles/前Transformer完整成功审计私有关闭证明等冻结。训练43100wall/43000–43100CPU、完整审计14400预算。文献/网络/optimizer/1500→100/TensorFlow→nativeTorch差异完整保留在旧准备与新PREREG中，不声称创新或paperfulltext全读。
+
+本记录时run01/supervisor不存在、真实ResNet值/标签/fit未开始，也无后台训练。下一必须先逐字远端读回本次16科学文件+状态/双memory，生成REMOTE_PREREGISTRATION绑定协议，再确认无existingrun/process后仅一次launch.py --run。观察首步proof通过→既有私有Drivefolder owner-onlymetadata、chunk最多3、rawfetch(download_raw_file=true,include_base64=false)立即物化size/SHA/重组全成员→实际启动已注册postprocess一次，发布真实PID/进度和首步回执。任何工程失败留trace先修，不当科学负结果，禁止盲重启。若先前运行已启动只观察。原789源码/原数组/maps/实际ID/模型/wheel/.so不入Git。
+
+Transformer已关闭并完整6私有块验证，不重跑；其他LightTS/TimesNet/TSTCC/TS2Vec/TSLANet等失败配置及PatchTST资源关闭保持。八用户历史开发使源结果探索性，非独立测试/旧八折/原创贡献。提升与创新证据分开，已发表不阻止实测。目标未达，既有小时接续保持，不新建或暂停，无Windows依赖。
+
 # 2026-10-30 — Transformer完整审计92.50%关闭；ResNet完整网络原生Keras合成/成本准备通过，未真实训练
 
 先读90ea562f远端四文件并核同云端/已有任务；未重启训练/审计/迁移。完整库Transformer实际12轮/3528更新/56400样本出现，user2原stopper选epoch2，val93.8%、held1macro92.50%；相同source reference98.666667%，差−6.166667pp，预登记+.5pp未过，close_exact_configuration。协议fb2526e92bac69d58cbc92932e049d025f45aaa9b2a2d7d72c4113635dc89fcf/预登记81bc4302；154冻结项和176审计artifact本轮重核未变。完整逐步3528loss/更新/实际ID、12轮validation/stopper、6900RMS、initial/first/best/last全模型/RAdam/stopper/RNG、原选中checkpoint、固定labelblind分批和2200logits/predictions逐位重放通过；macro归约1ULP只用既有1e-12容差。审计SHA eb1d2bfed8a42397a71a62a13fe95af12589fd02171f0230d3406197a5bbbe4f。train TERM608.900414wall/608.728943CPU，audit558.870374wall/558.772702CPU均exit0/no timeout。旧worker/controller已完成，不重开/延长/换seed/批量救援。

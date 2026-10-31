@@ -1,0 +1,9 @@
+..../workspace/uwb-resnet-keras-screen-20261030/deps/keras/src/backend/common/variables.py:248: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  return np.array(self)
+/workspace/uwb-resnet-keras-screen-20261030/deps/keras/src/backend/torch/core.py:256: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  return np.array(x)
+..
+----------------------------------------------------------------------
+Ran 6 tests in 6.728s
+
+OK

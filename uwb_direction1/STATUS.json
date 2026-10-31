@@ -1,9 +1,9 @@
 {
-  "date_client": "2026-10-30",
+  "date_client": "2026-10-31",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Transformer_complete_audited_private_backup_closed_ResNet_native_full_architecture_CPU100_prepared",
+  "state": "ResNet_native_full_architecture_CPU100_real_runner_auditor_implemented_ready_remote_preregistration_no_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "No user input. Same cloud data already present: do not download/restart oldjobs. Read ResNet REVIEW_AND_IMPLEMENTATION and exact fixed100epoch CPU decision. Implement real native-Keras runner/independent step replay/first-update/privatebackup guards, freeze B64/seed20261029/100fixed/noearlystop/full64-128-128/90x567RMS/train3-6/val2/diag1/originaltrainlossbest+ReduceLR. Explicit dedicated shuffle/actual IDs/callback+allRNG states. Latestparent preregister/exactreadback BEFORE any realResNet values/labels/fit, then one guarded launch, private firstsnapshot. No7-8label fitting/selection. Both final predictions freeze beforeheld1labels; registered +.005 vs .9866666666666667 gate. 100epoch CPU adaptation is not1500epoch TensorFlow benchmark; failed100cannotclose1500 scientifically. No diagnosticrescue or resource-retiming.",
+  "next_required_input": "No user input. After remote exact readback all preregistration files at new commit, materialize marker bound to cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca, confirm no existing run/supervisor/process, then launch.py --run once. Check actual first nativeAdam update/64IDs/1358frozen proof, private firstinsurance via owner metadata/rawfetchbase64false/materializeSHA/allmembers, then start registered local postprocess controller once. If already running inspect only; no duplicate train/download/audit. Frozen100/B64/seed20261029,stricttrainlossbest+ReduceLR,not1500TensorFlowrepro. No7-8labelselection/diagnosticrescue.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261030_transformer_pilot/FINAL_REPORT.md",
+  "latest_report": "uwb_direction1/research/resnet_keras_pilot_20261031/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Full source hfawaz/dl-4-tsc ResNet nativeKeras3.11.3 TorchCPU implementation;834124totalparams,48trainabletensors/98Adamvariables,B64. Prospective resource rule selected100fixedepochs after original1500 estimate103363.775629>43200,100estimate7011.481360 passed. No real ResNet values/labels/fit yet; exact runner/auditor/prereg next. Publishedbaseline transfer, no novelty claim.",
-  "last_completed_update_utc": "2026-10-30T23:40:22Z",
+  "next_candidate": "Concrete nativeKeras ResNet CPU100 real runner/fullstep auditor/firstproof/backup/controller implemented; six synthetic state/entry/partition/gate checks and three controller guards pass.1358frozen entries,protocol cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca. Ready remote preregistration before any realvalues/labels/fit.",
+  "last_completed_update_utc": "2026-10-31T00:27:20.040Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-30T23:40:22Z",
     "observations_current": true,
@@ -5020,9 +5020,46 @@
       "scientific_negative": false
     },
     "real_UWB_values_labels_or_fit": false,
-    "real_pilot_runner_implemented": false,
+    "real_pilot_runner_implemented": true,
     "real_pilot_remotely_preregistered": false,
     "background_training_started": false,
     "novelty_claim": false
+  },
+  "resnet_accuracy_pilot": {
+    "state": "implemented_ready_remote_preregistration_no_real_values_labels_fit",
+    "workspace": "/workspace/uwb-resnet-keras-pilot-20261031",
+    "protocol": "uwb_direction1/research/resnet_keras_pilot_20261031/PROTOCOL.json",
+    "protocol_sha256": "cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca",
+    "frozen_entries": 1358,
+    "parameters": 834124,
+    "trainable_parameter_tensors": 48,
+    "Adam_variables": 98,
+    "epochs": 100,
+    "source_author_epochs": 1500,
+    "original_TensorFlow_reproduction": false,
+    "batch_size": 64,
+    "seed": 20261029,
+    "training_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "training_updates": 7400,
+    "training_appearances": 470000,
+    "cost_gate_passed": true,
+    "cost_estimated_seconds": 7011.481360446196,
+    "guard_and_state_replay_tests": 6,
+    "postprocess_guard_tests": 3,
+    "source_selection": "Originalstrictminimumtrainingloss savesbest;tiesretainfirst;ReduceLROnPlateau(loss,factor.5,patience50,min_delta1e-4,min_lr.0001);noearlystop;100fixedepochs",
+    "complete_step_replay_auditor_implemented": true,
+    "real_values_labels_or_fit": false,
+    "background_training_started": false,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_claim": false,
+    "postprocess_Drive_upload_or_Git_capability": false
   }
 }
