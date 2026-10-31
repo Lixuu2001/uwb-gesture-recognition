@@ -1,0 +1,217 @@
+{
+  "scope": "complete_selected_and_last_model_evidence",
+  "observed_unix": 1793412795.0255806,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": true,
+  "limitations": "First snapshot supplies only initial/first-update model/Adam/callbacks/metrics/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/callbacks/metrics/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. Exact runtime wheels/base environment separately pinned in Git and dependency manifest; no whole-runtime/job-resume claim. No new fit/scoring by backup.",
+  "archive_name": "resnet_keras_complete_20261031.tar.gz",
+  "archive_bytes": 57277242,
+  "archive_sha256": "04093604d34310530b64c6c613b056a127560c972236af60fe673908223b711e",
+  "tracked_payload_files": 81,
+  "members_manifest_sha256": "a6278f2338fd348bd0f89e2605ea3b02c6587017ffcf8ed9c04c35410a8db65a",
+  "state": "private_readback_verified",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "resnet_keras_complete_20261031.part000",
+      "bytes": 7340032,
+      "sha256": "05be7296f80f01a66280e6779981b8bb1e3f3122ce9477bf3e2e7a81fe489f95",
+      "file_id": "17CEaEeNtzW21-T87OFeJ90pDWUNM7fDl",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_complete_20261031.part001",
+      "bytes": 7340032,
+      "sha256": "11f359969c0cd01705e7ddd79af71b2ef7dfc2679008d49cead1bb49467df962",
+      "file_id": "1I-McMuIdGDslIWUJ8ON_hEzHnpP5P8ML",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_complete_20261031.part002",
+      "bytes": 7340032,
+      "sha256": "347756a8510b98af071ed19c839a9ba91d33896606be13abf6656c8b66585c2f",
+      "file_id": "1kcdC3oDuNS23dWjHvQC1lZwY6kKEjhWC",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_complete_20261031.part003",
+      "bytes": 7340032,
+      "sha256": "ea98870e923b5467824f9b4c68c0c8a83c706176ef2ad6d6e2a7bbb27e987791",
+      "file_id": "1MpULSy0aAHyj6KmIx7xsguqAR0deJFCM",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_complete_20261031.part004",
+      "bytes": 7340032,
+      "sha256": "bdde703aec9da020d088c9006278faee2c13d9424ff10c4f6edbd7e332c32e9d",
+      "file_id": "1AisOicoXEeHZJPkf-ycEvpEIdiJAfmZ8",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_complete_20261031.part005",
+      "bytes": 7340032,
+      "sha256": "22a7d34f2de95855a31dd7ea86e6f0d93861f79bffca1cb605eb71dffe3c79a6",
+      "file_id": "1N-BVuBpENxADSh5c4a2_9DoO9IRdxx_M",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_complete_20261031.part006",
+      "bytes": 7340032,
+      "sha256": "fbe80a34057492812ef902dec95eb845ab8a289e3a3153d6f82f832b8a730e39",
+      "file_id": "1F9l_v5CKj5v0bFMljqwdoByu0_X5e405",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_complete_20261031.part007",
+      "bytes": 5897018,
+      "sha256": "ad573362c18f51912cd55a80e3364c34b05e433bcd7dcbf636e44d4d0f782c93",
+      "file_id": "1C1qpnmXgdxojKXOL_1-4PF-mCkNVRLDL",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 5897018,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "archive_members": 82,
+  "standalone_complete_modelset_recoverable": true,
+  "requires_first_update_bundle": false,
+  "runtime_dependency_recovery": "All completed initial/first/best/last native model/Adam/BN/metrics/callback/RNG/rawkeras/IDs/logs/evidence recover independently of first insurance. Runtime10wheels/1302files/base environment separately pinned in preregistered parent19a36cf7, not whole runtime or whole-job resume.",
+  "verified_unix": 1793415235.794754
+}

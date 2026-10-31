@@ -1,0 +1,29 @@
+{
+  "state": "prospective_before_one_synthetic_cost_measurement_and_all_real_OSCNN_values_labels_fit",
+  "created_unix": 1793415273.6023617,
+  "variant": "author_multivariate_OS_CNN",
+  "source_commit": "f70626d3c4aad70a76ba7b4745f556df01044279",
+  "input_shape": [
+    567,
+    90
+  ],
+  "source_parameter_budgets": [
+    580608,
+    229376
+  ],
+  "batch_size": 16,
+  "seed": 20261029,
+  "evaluation_period": 50,
+  "source_constructor_epochs": 2000,
+  "author_multivariate_demo_epochs": 500,
+  "explicit_CPU_development_epochs": 100,
+  "selection_rule": "One syntheticprobe; choose first feasible fixedepoch count among2000(sourceconstructor),500(authormultivariatedemo),100(explicitCPUadaptation),eachestimate<=43200. No width/kernel/batch/seed/normalization rescue or accuracy grid. Freezechosenconfig beforeactualvalues/labels/fit.100not2000or500reproduction.",
+  "budget_seconds": 43200,
+  "probe_wall_seconds": 600,
+  "probe_CPU_soft": 590,
+  "probe_CPU_hard": 600,
+  "train_steps_to_measure": 8,
+  "eval_batches_to_measure": 4,
+  "eval_measurement": "sourcegrad-enabled eval asconservative estimate; futureengine no_grad numericstateparityalreadychecked",
+  "real_UWB_values_labels_or_fit": false
+}
