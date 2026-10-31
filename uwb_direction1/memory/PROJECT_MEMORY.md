@@ -1,3 +1,15 @@
+# 2026-10-31 — Disjoint-CNN显式加权epoch/state引擎通过原fit与完整恢复合成对照；当前H-Inception继续
+
+先读7b9eeba673f0623362122dd21b1fadcb85ae6ff2最新四记录、同一云端可执行进程；保存观察H原54454/54456/54482仍alive、85epoch/6290update，1423冻结science/dependency SHA全部不变，完整audit/complete private未就绪、diag1label未读、7–8未用。无重复下载/启动/选下一真实配置或cost，不修改现有训练协议；既有controller仍waiting_existing_training。
+
+继续具体实现而非只抽象文献否定：新增完整默认DCNN_2L显式epoch/state API，复用前提交固定原source/nativeKeras，setup从原fit AST prefix取得mini/Adam/val_loss callbacks，无epoch/B/seed默认或任何实际数据路径。原max(1,log(2N/count)) trainclassweight→native sample_weight、val unweighted、strictminval tiesfirst/ReduceLR、末批全用。固定12taxonomy不看diaglabel；独立Generator seed+epoch采样需未来协议明示，不冒称原DataAdapter RNG等价。快照含model/Adam/BN/metrics/callbacks/allRNG/modulemodes/settings/identity/epoch/update，epochboundary恢复，非自动wholejob/midbatch恢复。
+
+真实执行的合成对照pass：25train/3val/2epoch/26update，原native fit与新engine全部model/Adam/BN/metrics/callback/selected native.keras一致，epoch1保存→fresh恢复→epoch2、labelblind预测分区与postpredictionstates逐项精确；wrongidentity在赋值前拒绝。source mini min规则25→2、末1；dedicatedSampler覆盖/重复/换epoch/不消耗globalTorchRNG。7输入/标签数值拒绝+6独立role/ID/leakageguard用例通过。实际currentreadiness在missing H fullaudit时先拒绝，metadata/value/label callbacks调用0，没读summary。合成25.0235476秒仅工程用时非正式CPUcost。
+
+代码research/cloud_20261031_disjoint_engine/，报告results/cloud_20261031_disjoint_engine/ENGINEERING_REPORT.md，完整log/hash保留，GPL notice保留；前source准备36textref哈希再核，原MIT和789不变。补充title/DOI搜索仅找到同作者源/机构abstract/DBLP closedaccess，没新得全文、未绕过IEEE challenge，不称全文复现。**仍无Disjoint实际UWB runner/auditor/输入preprocess/config/seed/cost选择或值标签读取/训练/分数；是可复用engine准备，不可直接启动实际实验。**
+
+下一先收尾当前H原训练→完整7400update审计→owner-private/max3/rawfetchbase64false/即物化SHA/全成员备份→原gate。pass须source确认；只有verified exact closure才定下一单项有界cost/config/seed和远端实际runner/auditor预登记，不能diag救援。准确率与原创贡献分开、all8历史探索性、用户7–8不作新选择；总体目标未达，既有小时接续保持，不新建/暂停。以下保留历史。
+
 # 2026-10-31 — 完整Disjoint-CNN默认2L原码/native加权fit验证通过；H-Inception原任务持续运行
 
 先读f5c9beeac5db0a674ff6c0ff07ff018a309d749e最新四记录并查同一云端进程，不重复恢复/训练/审计。H-Inception supervisor54454/worker54456/controller54482仍alive；保存观察42epoch/3108更新、1423冻结SHA全不变，完整audit/complete private尚未完成、diag1label未读、7–8未用。已有首步保险不能替代完整模型集。**运行中未选下一实际配置/cost/fit；下一先查STATE/TERM/POSTPROCESS，按原协议收尾。**

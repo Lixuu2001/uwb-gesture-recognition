@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_disjoint_source/IMPLEMENTATION_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261031_disjoint_engine/ENGINEERING_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue existing HInception CPU100 PIDs54454/54456/54482; inspect run01/STATE, TERM and POSTPROCESS before any action. Full audit/private complete preservation and original gate precede next real config/cost. Disjoint-CNN full author default2L source/native weighted-fit preparation is ready for later evaluation, not a registered UWB run. No duplicate restart or diagnostic rescue.",
-  "last_completed_update_utc": "2026-10-31T07:31:54.592490+00:00",
+  "next_candidate": "Continue existing real HInception CPU100 train/audit PIDs54454/54456/54482; inspect current STATE/TERM/POSTPROCESS first. No duplicate run/cost/config. New full-default Disjoint-CNN explicit weighted epoch/state engine is synthetic-validated only; no actual UWB runner/auditor/preprocessing selected. After current full audit/private preservation apply original gate; pass requires separate source confirmation, verified exact closure permits next single bounded cost/config/seed and remote preregistration.",
+  "last_completed_update_utc": "2026-10-31T08:40:13.370927+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -6001,6 +6001,19 @@
       "full_audit_complete": false,
       "complete_private_backup_done": false,
       "path": "uwb_direction1/research/cloud_20261031_disjoint_source/EXISTING_RUN_OBSERVATION.json"
+    },
+    "latest_source_engine_observation": {
+      "observed_utc": "2026-10-31T08:39:21.005572+00:00",
+      "epoch": 85,
+      "total_steps": 6290,
+      "supervisor_pid": 54454,
+      "worker_pid": 54456,
+      "controller_pid": 54482,
+      "all1423_frozen_sha256_verified": true,
+      "complete_audit_done": false,
+      "complete_private_backup_done": false,
+      "diagnostic_labels_read": false,
+      "path": "uwb_direction1/research/cloud_20261031_disjoint_engine/EXISTING_RUN_OBSERVATION.json"
     }
   },
   "disjoint_cnn_source_preparation": {
@@ -6030,5 +6043,22 @@
     "existing_H_observation": "uwb_direction1/research/cloud_20261031_disjoint_source/EXISTING_RUN_OBSERVATION.json",
     "code": "uwb_direction1/research/cloud_20261031_disjoint_source",
     "report": "uwb_direction1/results/cloud_20261031_disjoint_source/IMPLEMENTATION_REPORT.md"
+  },
+  "disjoint_cnn_engine_preparation": {
+    "state": "pass_synthetic_explicit_source_engine_original_fit_and_replay",
+    "path": "uwb_direction1/research/cloud_20261031_disjoint_engine",
+    "source_preparation_commit": "7b9eeba673f0623362122dd21b1fadcb85ae6ff2",
+    "synthetic_updates": 26,
+    "source_weighted_fit_vs_engine_and_replay_exact": true,
+    "selected_native_checkpoint_and_inference_partition_exact": true,
+    "module_training_flags_and_full_native_RNG_saved": true,
+    "split_and_leakage_guard_tests": 6,
+    "numeric_guard_rejections": 7,
+    "actual_current_guard": "refused before all data loaders because current full audit missing",
+    "actual_UWB_runner_or_configuration_selected": false,
+    "formal_CPU_cost_run": false,
+    "Disjoint_UWB_values_labels_fit": false,
+    "paper_fulltext_obtained": false,
+    "accuracy_or_originality_claim": false
   }
 }
