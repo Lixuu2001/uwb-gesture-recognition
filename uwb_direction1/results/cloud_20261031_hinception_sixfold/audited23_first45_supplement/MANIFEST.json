@@ -1,0 +1,54 @@
+{
+  "state": "immutable_partial_source_confirmation_audited23_first45_supplement",
+  "scope": "full_audits23_linked_to_private_models_and_first_updates45",
+  "created_unix": 1793485854.2382543,
+  "fully_audited_new_folds": [
+    2,
+    3
+  ],
+  "first_update_folds": [
+    4,
+    5
+  ],
+  "producer23_reference_archive_sha256": "ad129c8fbf376cb34648ae354fa387959081b819bc3dee04c35db998c9525883",
+  "producer23_reference_receipt_sha256": "ec0b55b62db4ab30783c51ebb57c79fbb6699736cafac8e1f6f19e5ab803a44d",
+  "recovery_requires_existing_verified_producer23_archive": true,
+  "linked_producer_files": 38,
+  "all_five_new_folds_complete": false,
+  "complete_source6_modelset": false,
+  "all_completed_models_included": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "full_job_resume_snapshot": false,
+  "limitations": "Supplement includes full independent audits/terminations2/3 and initial/first states/IDs/code4/5. To recover audited selected/last2/3 models also fetch the existing verified14-chunk producer23 archive; every38 archived producer file remains byte-identical to later audit evidence. No duplicate selected/last model upload. Folds4/5 not complete, fold6 pending; no source6 accuracy or complete-modelset claim. Original raw/maps/runtime restore separately; no automatic whole-job resume.",
+  "archive_name": "hinception_source6_audited23_first45_20261031.tar.gz",
+  "archive_bytes": 22397365,
+  "archive_sha256": "b15cf8fbbc32cdfadbb77fddf36fc002bda0dfd529deaf01f08a5c10a844fb84",
+  "members_manifest_sha256": "102d7b041bab612cd7a0c1a6eb481db6fd4942ee3704dcebdf1354040c90c159",
+  "tracked_payload_files": 154,
+  "chunks": [
+    {
+      "name": "hinception_source6_audited23_first45_20261031.part000",
+      "bytes": 7340032,
+      "sha256": "7c7a6dd7677ea38c54e93d0a3b4f703bd917b0c54b21ae3ddfa19d4b58c3f41f"
+    },
+    {
+      "name": "hinception_source6_audited23_first45_20261031.part001",
+      "bytes": 7340032,
+      "sha256": "9457b2da17c9eba0899ab9a92a30e5f6558624e65b91f4b7242124487b5fe4be"
+    },
+    {
+      "name": "hinception_source6_audited23_first45_20261031.part002",
+      "bytes": 7340032,
+      "sha256": "62da0fa5eedbc4698030f60c13b39ebff03b962f59dd3b643f2790dc38833d9c"
+    },
+    {
+      "name": "hinception_source6_audited23_first45_20261031.part003",
+      "bytes": 377269,
+      "sha256": "0f913e325e8d1dce22cb909920742447cda9a99e7a7de4562c21a7a82776ec3e"
+    }
+  ]
+}

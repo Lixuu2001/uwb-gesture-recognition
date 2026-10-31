@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_source6_held2_3_train_complete_numeric_audits_running_private_producer_models_verified",
+  "state": "HInception_source6_full_numeric_audits2_3_passed_original_training4_5_active_6_queued",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -6240,7 +6240,7 @@
     "diagnostic_summary_parsed_after_private_preservation": true
   },
   "hinception_source_sixfold_20261031": {
-    "state": "producer2_3_complete_full_numeric_audits_running",
+    "state": "audits2_3_complete_original_training4_5_active",
     "workspace": "/workspace/uwb-hinception-sixfold-20261031",
     "protocol": "results/cloud_20261031_hinception_sixfold/study/PROTOCOL.json",
     "frozen_hashes": "results/cloud_20261031_hinception_sixfold/study/FROZEN_HASHES.json",
@@ -6267,12 +6267,12 @@
     "registration_commit": "9ff765103ab2e6107cc452b3b5abc0f926b836ee",
     "controller_pid": 59236,
     "job_supervisor_pids": {
-      "2": 59237,
-      "3": 59238
+      "4": 61223,
+      "5": 61235
     },
     "worker_pids": {
-      "2": null,
-      "3": null
+      "4": 61224,
+      "5": 61236
     },
     "observed_epoch_steps": {
       "2": [
@@ -6282,42 +6282,59 @@
       "3": [
         100,
         7100
+      ],
+      "4": [
+        29,
+        2059
+      ],
+      "5": [
+        20,
+        1440
       ]
     },
     "pending": [
-      4,
-      5,
       6
     ],
     "failed": [],
-    "completed_new_folds": 0,
+    "completed_new_folds": 2,
     "diagnostic_labels_scored": false,
     "live_observation": "results/cloud_20261031_hinception_sixfold/LIVE_OBSERVATION.json",
     "first_update_insurance_private_readback_verified": true,
     "insurance_scope": "held2_held3_initial_first_update_only",
     "insurance_chunks": 4,
     "insurance_archive_members": 138,
-    "live_observed_utc": "2026-10-31T19:35:33.343068+00:00",
+    "live_observed_utc": "2026-10-31T22:33:29.960652+00:00",
     "complete_preservation_tools": "results/cloud_20261031_hinception_sixfold/complete_preservation_tools",
     "complete_preservation_integrity_tests": 9,
     "active_guard_refusal_expected": true,
     "new_complete_archive_created": false,
-    "audit_worker_pids": {
-      "2": 60565,
-      "3": 60557
-    },
+    "audit_worker_pids": {},
     "completed_producer_folds": [
       2,
       3
     ],
-    "fully_audited_new_folds": [],
+    "fully_audited_new_folds": [
+      2,
+      3
+    ],
     "producer23_private_readback_verified": true,
     "producer23_insurance_scope": "held2_held3_training_complete_full_audits_pending",
     "producer23_insurance_chunks": 14,
     "producer23_insurance_members": 174,
-    "producer23_recovery_index": "results/cloud_20261031_hinception_sixfold/producer23_insurance/CLOUD_DOWNLOAD_INDEX.json"
+    "producer23_recovery_index": "results/cloud_20261031_hinception_sixfold/producer23_insurance/CLOUD_DOWNLOAD_INDEX.json",
+    "completed_audit_worker_pids": {
+      "2": 60565,
+      "3": 60557
+    },
+    "audited23_distinct_hashes_reverified": 1508,
+    "private_producer_files_crosslinked_to_full_audits": 38,
+    "audited23_first45_private_readback_verified": true,
+    "audited23_first45_supplement_scope": "full_audits23_linked_to_private_models_and_first_updates45",
+    "audited23_first45_supplement_chunks": 4,
+    "audited23_first45_supplement_members": 155,
+    "audited23_first45_recovery_index": "results/cloud_20261031_hinception_sixfold/audited23_first45_supplement/CLOUD_DOWNLOAD_INDEX.json"
   },
-  "next_action_source_confirmation": "Inspect already-running audit60565/60557 under supervisors59237/59238/controller59236. Original producer2/3 complete, no diagnostic scoring; do not relaunch. Audit success advances4/5/6. After all five full audits and frozen dual predictions aggregate, preserve entire completed six-model modelset before final source6 publication.",
+  "next_action_source_confirmation": "Continue existing controller59236, original training4/5 workers61224/61236 and queued6. Full audits2/3 passed with models unchanged/private-recoverable; do not relaunch. All five dual predictions and full audits must complete before aggregate diagnostic scoring; preserve complete six-model archive before final publication. Current numerical pass is not an accuracy gate or originality claim.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6336,6 +6353,6 @@
     "novelty_claim": false,
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes"
   },
-  "background_numeric_audit_running": true,
+  "background_numeric_audit_running": false,
   "background_experiment_queue_running": true
 }

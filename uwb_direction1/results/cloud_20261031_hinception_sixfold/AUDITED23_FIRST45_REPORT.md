@@ -1,0 +1,14 @@
+# 2026-10-31 — 用户2/3完整数值复现审计通过，用户4/5自动开始真实训练；补充4块/155成员私有证据回读完成
+
+先读最新远端ffe6922ac101eeac577bce622f4ab8e079ef1ed2四记录并核同一cloud实际OS/jobs/checkpoints，无重复下载/启动。独立audits60565/60557已exit0/no timeout，held2/3各完整重放100epoch/7400与7100updates，470000/450000训练出现；selected_epoch99/59来自原最低trainingloss。所有initial/first/best/last/final model/Adam/BN/metrics/callbacks/modes/allRNG、nativebest/last、原6900RMS+authorznorm独立FP64参考、4600行val+diag probs/IDs全部匹配。每份audit记录1489 artifact hashes；本次去重1508哈希全部重核并将旧私有模型档中38个producer文件逐一连接到独立audit证据。审计仍不索引本折诊断标签，没有提前评分或accuracy门槛结论。
+
+审计TERM held2 wall10206.644620468956/CPU10205.702478000001，held3 wall9730.94396637706/CPU9730.415851999998，均在14400wall/CPU预算内。auditor内部wall10201.297451965977/9725.89335830009，不混为supervisor总墙时。两折COMPLETE_AUDIT原文/TERM/JOB_STATE在completed_fold_audits/held2,held3/。代码/1465冻结前提不变，无原pilot训练或审计重跑。
+
+原controller59236自动由completed[3,2]推进：用户4 supervisor61223/train61224、用户5 supervisor61235/train61236已实际执行，不是本轮重复启动。只读OS/state观测2026-10-31T22:33:29.960652+00:00：held4 29epoch/2059updates，held5 20epoch/1440updates，6排队，failed0，完整新fold通过2/5。当前后台是原producer4/5训练，没有仍活跃的2/3audit；后台布尔只是此时快照，后续必须查OS/state不按旧布尔启动任务。原100/B64/seed20261029/完整模型/Adam/input/源划分/gate均不改，zero17消融仍仅合成准备，不提前fit。
+
+新增私有**增量证据**scope=full_audits23_linked_to_private_models_and_first_updates45：完整2/3审计和成功TERM/旧14块producer模型恢复索引+receipt+member表，以及4/5 immutable initial/first状态与IDs/code。旧100181097bytes/14块producer档ad129c8fbf376cb34648ae354fa387959081b819bc3dee04c35db998c9525883仍保留，38个文件与现在audited当前bytes一致；**不重复上传2/3 selected/last模型**。恢复2/3完整审计模型需旧14块档加新补充；补充自身不是standalone完整模型集。补充22397365bytes/4chunks/154payload+MEMBERS=155，全owner-only元数据先核、prefix无重复搜索、max3上传rawfetch(download_raw_file=true,include_base64=false)立即物化size/SHA、重组/每成员全部通过；archiveSHAb15cf8fbbc32cdfadbb77fddf36fc002bda0dfd529deaf01f08a5c10a844fb84，membermanifestSHA102d7b041bab612cd7a0c1a6eb481db6fd4942ee3704dcebdf1354040c90c159，receiptSHA76630c8727c7565aec8e5d86eb463adbbf21112e131d32c3b17c6b89f2731d07。folder12AGMwT99yXCTYBQocQaX901Br-IelmOf隐私未改，无认证URL输出。raw/maps/runtime binaries不入档/不入Git；真实ID/model仍仅私有。
+
+恢复索引audited23_first45_supplement/CLOUD_DOWNLOAD_INDEX.json，内部producer23_recovery_reference/CLOUD_DOWNLOAD_INDEX.json连接旧14块完整训练模型档；不覆盖旧首步/producer/held1备份。4/5仅firstupdate保险，6未完成，**all_five_new_folds_complete=false、complete_modelset_verified=false，无source6最终分数或原创贡献**。最终仍待5新fold双predfreeze/fullaudit全部成功→统一aggregate→完整六模型私有回读后再发表结果。用户7–8标签不用于新方法选择，历史所有source开发声明探索性；不能将数值审计通过误当准确率提升门槛通过。
+
+本次只更新真实audit/运行证据/增量私有索引/操作代码及记忆，保留789原源码与既有结果。下一步继续已有4/5训练→审计→6，按最新stage检查旧专用observer适用范围，不要对已完成2/3再调用“audits_running”断言。目标未达，保持原自动接续，无新增重复任务。
+
