@@ -1,3 +1,13 @@
+# 2026-10-31 — 下一Disjoint实际协议的成本证据绑定API完成；H原数值审计仍在执行，无新分数
+
+先读ded304fa56130d3c498668b8209976a5da7f4116最新四记录、同一云端进程。H fullaudit55820/55822、controller54482仍active，1423冻结source/science/runtime SHA和19完成产物SHA全不变；audit TERM/COMPLETE_AUDIT/full private未就绪。本轮无新分数、不解析diag SUMMARY、不重复train/audit/download、不选下一真实policy/config/cost。现有完整数值重放仍是当前实际实验接续，不以元数据核验代替。
+
+补齐具体未来runner所需的证据接口：cost_evidence.py在prior fullaudit/private close之前拒绝一切下一policy/config/cost读取；之后校验实际frozenpolicy/profiler、profile政策原字节、模型full2L参数、类别加权train/unweightedval、8/4/3/3 timing向量、exit0/no timeout620wall/600CPU、RSS与原保守算式每字段，拒绝resourceclosed/不完整/缩小模型或改算式。后续remote protocol必须绑定policy/freeze/result/declaration/TERM五个文件SHA，seed/requestedB/selectedE/preprocess逐项相同；cost_gate_passed布尔不能替代这些证据。这里只新增供未来实际runner调用的API；旧已注册实验无修改，也尚无新的实际UWB runner/协议。
+
+7测试通过，使用编造的unit metadata/临时文件，并明确mock priorclose/registration，**这些fixture数字绝非实际计时/资源结论/配置选择/手势分数**。覆盖参数错配、declaration/TERM失败、向量/参数规模/算式篡改、精确resourceclose拒绝、current audit缺失先拒绝全部读取、完整证据哈希绑定。实际guard也在当前fullaudit缺失时先拒绝，没有新policy/config/evidence/native model import或UWB值标签读取/fit。前source+engine+cost59textrefs再核，无runtime/global改动；code研究目录research/cloud_20261031_disjoint_cost_evidence/，report results/cloud_20261031_disjoint_cost_evidence/ENGINEERING_REPORT.md。
+
+下一仍先完成当前fullaudit/成功TERMs→owner-only metadata/rawfetch base64false/即物化SHA/max3/全archive成员完整私有保存→原gate，pass须source确认，fail关确切CPU100不diag救援；之后才单项prospectivecost与真实runner/auditor预登记。准确率与原创贡献分开，all8历史探索性、用户7–8不作新选择；目标未达，既有接续保持。原789/数组/真实ID值/模型/二进制不入本次Git。以下保留历史。
+
 # 2026-10-31 — H-Inception完整100epoch/7400update训练exit0，47万ID及19产物SHA通过；原全程数值审计正在执行
 
 先读197dce032e1a7968f2e1fbcd87e0bf24ff890b8e最新四记录和云端进程。原训练已完成100epoch/7400update，supervisor TERM exit0/no timeout，9616.520260029007wall/9614.596172childCPU秒。producer两套predictions均冻结后已按原协议计分（本轮不解析SUMMARY），7–8未用。原controller54482已仅一次自动启动audit supervisor55820/worker55822，当前active，完整audit/complete private尚未完成。**background_training_running现在false、background_audit_running true；不是新训练，也未重复restart。**
