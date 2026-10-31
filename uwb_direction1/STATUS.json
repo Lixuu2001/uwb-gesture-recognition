@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "ResNet_CPU100_training_complete_existing_full_audit_running_OSCNN_source_only_probe_pass",
+  "state": "ResNet_existing_full_audit_running_OSCNN_generic_engine_semantics_and_readiness_implemented",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -14,7 +14,7 @@
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
   "background_training_running": false,
-  "next_required_input": "No user input. First inspect existingcontroller52562/audit52682/52684,POSTPROCESS_STATE/auditTERM/COMPLETE_AUDIT; do not restart train/audit/download. If stillactive, allowexistingreplay; no producer-score-driven newconfig. If auditedlocalready verify successfulTERMs/allartifact+1358frozenSHA/MANIFEST thenprivateowner metadata/rawfetch(download_raw_file=true,include_base64=false)/immediatematerializeSHA/chunksmax3/reassembleallmembers forcomplete_backup_20261031,latestparentforcefalse publishregisteredscore/gate. First3chunkinsurance notcomplete modelset. FailCPU100 closesexactconfigonly(not1500TF);passsourceconfirmationrequiresnewprereg. Onlyaftergate chooseonefutureOSCNNvariant/resourcepolicyBEFOREcostthenrunner/auditor/prereg;currentOSsourceprobe isnotrealconfig/cost/fit. No7-8labelselection or diagnosticrescue.",
+  "next_required_input": "No user input. First inspect existing52562/52682/52684,POSTPROCESS_STATE and auditTERM/COMPLETE_AUDIT; do not duplicate train/audit/download. On completed passingaudit/localarchive verify successfulTERMs/allartifact+1358frozenSHA/MANIFEST,owner-privateDrive metadata/max3chunkpipeline/rawfetchdownloadtruebase64false/immediatematerializeSHA/reassembleallmembers thenlatestparentforcefalsepublishResNet registeredscore/gate. Do not selectOSCNN realconfig/cost/fit before priorauditedgate+completeprivatebackup. OSCNNgenericengine now preserveslastbatchloss/periodictrain+val/lastcheckpoint/evalmaskmutation and allstates; use it after choosingonefixedauthorvariant/resourcepolicy BEFORE formalcost, thenimplementfullUWB runner/auditor/prereg/readback beforefit. Existingreadinessguard currentlyrefusesasexpected. No7-8labelselection,producer-scoretuning or ResNet rescue.",
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
   "original_source_complete_snapshot_in_cloud": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_resnet_keras_pilot/TRAINING_COMPLETE_AUDIT_RUNNING.md",
+  "latest_report": "uwb_direction1/research/oscnn_engine_20261031/ENGINEERING_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793406769.9359224,
   "background_training_pid": null,
-  "background_training_status_note": "NativeResNet100epochs/7400updates complete,trainTERMexit0/no timeout3204.387117wall/3204.003014CPU;selectedepoch75 byregisteredtrainloss. Existingcontroller52562/auditsupervisor52682/worker52684 alive roughly20min, no fullaudit receipt yet. No duplicate process/download.1358frozenhashes rechecked. Producerdiagnostic score notread/publishedthiscontinuation;waitcompleteaudit+privatecompletebackup+registeredgate. OSCNNsourceonlysyntheticchecks,no newrealconfiguration/cost/fit.",
+  "background_training_status_note": "ExistingResNet fullauditor52684 continued99.9%CPU ~33min underregistered14400budget;controller52562/supervisor52682 active,train100/7400 alreadyexit0. NoauditTERM/COMPLETE_AUDIT/newscoreyet. No duplicate job/download. OSCNNnewgenericengine synthetic fullfit2epochs22updates+periodiceval/save/model/Adam/scheduler/allRNG exact; fourready+twoIDidentityguards pass. No realconfig/cost/fit or UWBentry/auditor yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Conditional only: existing ResNet gate must close/allowconfirmation after fullreplay. OSCNN authorrepo pinned f70626d3c4aad70a76ba7b4745f556df01044279 and unmodified core synthetic probe passed; no UWBconfiguration,trainingseed,epochs,batch or CPUcost selected. On ResNet pass prioritize newregistered sourceconfirmation; on close, resource-preregister and test a single author OSCNN variant.",
-  "last_completed_update_utc": "2026-10-31T01:44:18.859Z",
+  "next_candidate": "Conditional unchanged: finish current ResNet auditedgate/privatecompletebackup first; pass requires newsourceconfirmation, fail closesonlyCPU100. OSCNNgenericengine now sourcefullfit2epochs22steps/periodiceval/checkpoint/stateRNG exact, but not realUWBentry/config/cost. No variant/seed/epoch/batch chosen.",
+  "last_completed_update_utc": "2026-10-31T01:56:10.803Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -5209,5 +5209,36 @@
     "real_values_labels_or_fit": false,
     "cost_gate_run": false,
     "novel_contribution_claim": false
+  },
+  "oscnn_engine_preparation": {
+    "state": "generic_engine_synthetic_tests_and_fail_closed_readiness_pass",
+    "workspace": "/workspace/uwb-oscnn-engine-20261031",
+    "report": "uwb_direction1/research/oscnn_engine_20261031/ENGINEERING_REPORT.md",
+    "source_commit": "f70626d3c4aad70a76ba7b4745f556df01044279",
+    "synthetic_semantics": {
+      "state": "pass_synthetic_engine_only",
+      "author_model_and_fit_body_unmodified": true,
+      "posthoc_return_appended_after_source_fit_for_observation_only": true,
+      "full_source_two_epochs_22updates_periodic_eval_rawcheckpoint_model_Adam_scheduler_all_RNG_exact": true,
+      "full_source_uses_native_DataLoader_shuffle_in_this_test": true,
+      "source_data_loader_global_RNG_vs_future_explicit_sampler_not_claimed": true,
+      "independent_NumPy_CE": true,
+      "restore_next_epoch_including_eval_weight_mask_side_effect_all_states_RNG_exact": true,
+      "last_batch_loss_scheduler_preserved": true,
+      "periodic_checkpoint_and_final_last_not_validation_best_preserved": true,
+      "plateau_154_constant_steps_matches_independent51step_rule": true,
+      "real_UWB_configuration_selected": false,
+      "formal_CPU_cost_gate_run": false,
+      "real_UWB_values_labels_or_fit": false,
+      "wall_seconds": 6.050660890061408
+    },
+    "readiness_tests_passed": 4,
+    "observer_identity_tests_passed": 2,
+    "current_prior_guard_refusal": "Previous full replay audit is not complete; no new config/cost/fit",
+    "generic_epoch_engine_implemented": true,
+    "real_UWB_runner_and_complete_auditor_implemented": false,
+    "formal_CPU_cost_gate_run": false,
+    "real_UWB_configuration_selected": false,
+    "real_UWB_values_labels_or_fit": false
   }
 }

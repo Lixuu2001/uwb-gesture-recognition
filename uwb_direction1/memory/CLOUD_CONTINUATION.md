@@ -1,3 +1,19 @@
+# 2026-10-31 — ResNet原audit持续运行；OS-CNN完整源fit语义/状态/IDobserver/入口守卫组件已实现，未选新真实配置
+
+先读c50be8d0远端四文件，核同云端running/current/connected、restricted/enforced/vpnfalse/no配置credentials。既有ResNet controller52562/auditsupervisor52682/worker52684继续，观察audit约33分钟、持续99.9%CPU，尚无auditTERM/COMPLETE_AUDIT，未读producer最终score或宣布完整重放/目标达成；1358冻结项本轮重核仍通过。训练100轮/7400updates已exit0状态不变，不再重复通知训练完成。未重启train/audit/controller、未重下数据或修改活动冻结code。当前backgroundtraining=false/audit=true。
+
+等待原audit期间在/workspace/uwb-oscnn-engine-20261031具体实现source_engine.py：直接使用前固定作者f70626d3未修改OS_CNN/structurebuilder及multivariate规模公式，训练/epoch/evaluate/snapshot/restore/observer均具体可用。保留source最后一batchloss调度而非epochmean、周期评估train+val后model.train并覆写checkpoint、最终last而非valbest、maskholes Adam后regrow和包括eval的forward清零副作用；全model/Adam/BN/scheduler/模式/PythonNumPyTorchRNG/identity/sampler快照可恢复，可强制expectedidentity。seed/shape/class参数由caller显式提供，不替用户选UWBepoch/batch/seed。
+
+不是只复测三innersteps：synthetic_semantics.py加载作者完整fit AST，原body不改，只在末尾追加return用于观察local model/optimizer/scheduler。纯合成32train/19val、567×90/12类、seed19、sourcebatcharg16→原min(n/10,16)有效B3、2轮/22updates、每轮eval（fixtureperiod1不是原真实50选择）。使用原生DataLoader shuffle对照新engine，模型/Adam/scheduler/BN/allRNG及周期/最终raw checkpoint加载后的模型状态逐位一致。只声称此fixture的nativeDataLoader轨迹，不声称未来显式sampler等同原全局RNG。作者sourcefit的requires_gradTensor→float warning留日志；engine传last.detach()兼容修复，数值/状态一致已证，无fit失败/无改作者源体。
+
+独立NumPy CE公式、epoch1完整状态恢复续epoch2（含evalmask副作用）逐位，154恒loss调度步符合PyTorch >50badstep触发的独立51step规则。新增第三字段IDobserver与无observer不改变训练/Adam/scheduler/RNG，wrongidentity在修改前拒绝，两项通过。四项readiness检查通过：prioraudit缺/失败时不读diagnostic summary，未固定真实配置/远端marker不匹配均拒绝；守卫还要求原ResNet完整私有modelset验证及route确实close。实际prior_closed在当前audit尚缺时按预期拒绝“Previous full replay audit is not complete; no new config/cost/fit”，没有读producer诊断值。
+
+**当前仍没有OSCNN真实UWB配置选择、正式costgate、真实数据入口/完整真实auditor或远端实验预登记，也无新真实值/labels/fit。** 本目录是generic工程组件，不能冒称已注册或启动新方法。synthetic的2轮/B3/seed19/period1只为控制流核查，不是UWB缩小实验。文献已发表身份、MIT源码与1–38卷积局部RF/GAP全90帧区别沿用上轮核查，不把组件测试包装成准确率/原创贡献。13准备文件/hash绑定原source preparation；无全局包替换。报告research/oscnn_engine_20261031/ENGINEERING_REPORT.md。
+
+下一必须首查52562/52682/52684、POSTPROCESS_STATE/成功TERMs/COMPLETE_AUDIT。active时不重启。auditedready后核全部artifact/1358frozenSHA/MANIFEST，owner-onlymetadata/max3pipeline/rawfetch(download_raw_file=true,include_base64=false)/即物化sizeSHA/重组所有chunk/成员保存ResNet完整模型集，再latestparent expectedsha force=false发布原reference.9866666666666667+.005/1e-12 gate和真实score。失败先留trace修复，不当科学负结果。CPU100fail只关确切100，不否定1500TF；pass要另注册sourceconfirmation。只有原audit/完整私有备份/gate收尾后，才选择一项来源明确的OSCNNvariant和测量前资源policy，然后正式cost、完整真实runner/auditor/协议/readback再fit；不得从producer未审计score抢跑。
+
+原小时自动接续保持，目标尚未达，不新建/暂停任务。历史8用户开发使source探索性，非独立test/旧8fold/原创贡献；7–8label不用于新选择，无ResNetseed/epoch/batch救援。原789源码/原数组/maps/真实模型/实际IDs不入Git或覆盖，无Windows依赖。
+
 # 2026-10-31 — ResNet训练100轮已成功完成，原完整审计仍在运行；OS-CNN作者源码合成核查通过，未选新真实配置
 
 先读5fecadee远端四文件。环境metadata current/running，但启动首个shell一度暂不可用；随当前环境就绪第二次调用恢复，同持久工作区/数据和已有process保留，不曾重下/重启。ResNet固定协议cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca/预登记8193a0ec的实际训练已成功100轮/7400updates/470000出现，原trainloss规则选epoch75（besttrainloss3.359471520525403e-05仅训练指标，不当提升证据）。train TERM exit0/no timeout3204.387117wall/3204.003014CPU；STATEcomplete/双最终预测已冻结后producer按协议索引held1，7–8未用。**本轮未读/发布producer最终score，不提前宣布完整审计通过或准确率提升。**
