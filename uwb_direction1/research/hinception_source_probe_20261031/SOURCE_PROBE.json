@@ -1,0 +1,40 @@
+{
+  "state": "pass_full_author_width_depth_with_explicit_multivariate_input_adaptation_synthetic_only",
+  "source_commit": "cf4d0e55ee11b7393ae3d317cdf5f22dcc51ba3e",
+  "model_blob": "bb8c08bf24cd3b3dcdfd90f079403900ab4df1eb",
+  "adaptations": {
+    "native_keras_bindings": 26,
+    "input_channel_literal_adaptations": 1,
+    "artifact_suffix_adaptations": 1
+  },
+  "input_channels_from1_to567": true,
+  "architecture_methods_reused": 5,
+  "width32_depth6_bottleneck32_residual2_full": true,
+  "kernels": [
+    40,
+    20,
+    10
+  ],
+  "custom_filters": 17,
+  "custom_Conv1D_sums_channels": true,
+  "LITEMV_depthwise_concatenation_used": false,
+  "all_fixed_kernels_analytic_exact_nontrainable_unchanged_after3": true,
+  "independent_NumPy_sum_channel_fixed_conv_even_SAME": true,
+  "total_parameters": 851434,
+  "trainable_parameters": 601006,
+  "trainable_variable_tensors": 50,
+  "native_Adam_variables": 102,
+  "restore_next2_updates_model_Adam_BN_metrics_all_RNG_exact": true,
+  "native_keras_reload_weights_optimizer_exact": true,
+  "source_author_epochs": 1500,
+  "source_batch_size": 64,
+  "ensemble_HInceptionTime_not_implemented": true,
+  "original_TensorFlow_reproduction": false,
+  "native_TensorFlow_stub_used": false,
+  "synthetic_batch": 2,
+  "synthetic_seed": 7,
+  "real_UWB_configuration_selected": false,
+  "formal_CPU_cost_gate_run": false,
+  "real_UWB_values_labels_or_fit": false,
+  "wall_seconds": 3.8313012860016897
+}

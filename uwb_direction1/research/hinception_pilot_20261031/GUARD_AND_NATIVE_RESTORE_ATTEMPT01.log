@@ -1,0 +1,21 @@
+.E../workspace/uwb-resnet-keras-screen-20261030/deps/keras/src/backend/common/variables.py:248: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  return np.array(self)
+/workspace/uwb-resnet-keras-screen-20261030/deps/keras/src/backend/torch/core.py:256: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  return np.array(x)
+..
+======================================================================
+ERROR: test_bad_previous_state_prevents_progress (__main__.Guards.test_bad_previous_state_prevents_progress)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/uwb-hinception-pilot-20261031/test_guards_and_native_restore.py", line 30, in test_bad_previous_state_prevents_progress
+    with self.assertRaises(AssertionError):runner.ready(dict(previous_state=str(p)))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-hinception-pilot-20261031/run_pilot.py", line 21, in ready
+    cost=read('/workspace/uwb-hinception-cost-20261031/profile01/COST_CHECK.json');assert cost['state']=='pass' and cost['chosen_epochs']==cfg['epochs'] and cost['policy']['seed']==cfg['seed'] and cost['policy']['batch_size']==cfg['batch_size']
+                                                                                                                                           ~~~^^^^^^^^^^
+KeyError: 'epochs'
+
+----------------------------------------------------------------------
+Ran 6 tests in 33.734s
+
+FAILED (errors=1)

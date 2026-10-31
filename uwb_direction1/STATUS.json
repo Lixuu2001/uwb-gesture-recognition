@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "OSCNN_CPU100_existing_full_replay_audit_active_LITEMV_full_author_engine_synthetic_checks_pass",
+  "state": "OSCNN_CPU100_accuracy_gate_failed_complete_private_verified_LITEMV_resource_closed_HInception_CPU100_ready_for_remote_preregistration",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/research/litemv_engine_20261031/ENGINEERING_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261031_oscnn_pilot/FINAL_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793416239.006619,
   "background_training_pid": null,
-  "background_training_status_note": "Observed existing OS-CNN CPU100 training complete, exit0/no timeout/100epochs/29400updates. Existing controller53415 audit53524/53525 active. No new training/download/audit/controller started. Final producer scores not read; no audited gate yet.",
+  "background_training_status_note": "Existing OS-CNN training/audit/controller completed normally; no live scientific run yet. H-Inception fixed CPU100 pipeline tested/frozen and ready for remote preregistration; actual UWB access/fit must wait for all-new-files exact readback/marker.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/research/litemv_engine_20261031/PRIOR_ART_ADDENDUM.md",
+  "latest_literature_note": "uwb_direction1/research/hinception_source_probe_20261031/REVIEW_AND_IMPLEMENTATION.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Finish existingOSCNN29400stepaudit/privatecompletebackup/registeredsourcegate first. FullLITEMV source/native epoch/checkpoint/ID/normalization components ready on synthetic only; no fixed real config/cost/UWB runner/full auditor. Auditpass requires sourceconfirmation, exactgatefailure permits prospective singlecostpolicy/config/seed and remoteprereg before nextactualfit.",
-  "last_completed_update_utc": "2026-10-31T04:57:44.649Z",
+  "next_candidate": "Read back this full H-Inception preregistration commit byte-exactly, materialize matching marker and launch once; then first full-state verification/private insurance/controller. Full32/depth6/B64/CPU100/seed20261029 explicitinput1to567/nativeKerasRMS+channelznorm. No labels7-8 or diagnostic rescue. OS exactCPU100 closed; LITEMV exactnativeTorch resourcepolicy closed, no LITEMV accuracy inference.",
+  "last_completed_update_utc": "2026-10-31T06:21:02.016Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -4496,8 +4496,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": true,
-  "background_audit_pid": 53525,
+  "background_audit_running": false,
+  "background_audit_pid": null,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5172,7 +5172,7 @@
   },
   "background_audit_supervisor_pid": null,
   "oscnn_source_probe": {
-    "state": "unmodified_author_source_synthetic_probe_pass_await_current_ResNet_audited_gate",
+    "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
     "report": "uwb_direction1/research/oscnn_source_probe_20261031/REVIEW_AND_SOURCE_PROBE.md",
     "repository": "Wensi-Tang/OS-CNN",
@@ -5329,7 +5329,7 @@
     "real_UWB_values_labels_or_fit": false
   },
   "oscnn_accuracy_pilot": {
-    "state": "training_complete_existing_full_replay_audit_running",
+    "state": "complete_audited_exact_CPU100_accuracy_gate_failed_private_complete",
     "workspace": "/workspace/uwb-oscnn-pilot-20261031",
     "protocol": "uwb_direction1/research/oscnn_pilot_20261031/PROTOCOL.json",
     "protocol_sha256": "1221b2b73058121425c8aac31172480c2cf9ab51555ac320496bab66c2c89bd5",
@@ -5419,10 +5419,10 @@
       "full_job_resume_snapshot": false
     },
     "postprocess_controller_started": true,
-    "postprocess_pid": 53415,
-    "postprocess_state": "completed_run_audit_running",
-    "completion_audit_executed": false,
-    "complete_private_backup_done": false,
+    "postprocess_pid": null,
+    "postprocess_state": "controller_local_complete_agent_private_remote_verified",
+    "completion_audit_executed": true,
+    "complete_private_backup_done": true,
     "diagnostic_labels_read": true,
     "training_termination": {
       "pid": 53370,
@@ -5437,14 +5437,37 @@
     "completed_epochs": 100,
     "completed_updates": 29400,
     "completion_audit_started": true,
-    "completion_audit_complete": false,
-    "audit_supervisor_pid": 53524,
-    "audit_worker_pid": 53525,
-    "producer_final_scores_not_read_this_continuation": true,
+    "completion_audit_complete": true,
+    "audit_supervisor_pid": null,
+    "audit_worker_pid": null,
+    "producer_final_scores_not_read_this_continuation": false,
     "latest_observation": "uwb_direction1/results/cloud_20261031_oscnn_pilot/AUDIT_RUNNING_OBSERVATION.json",
     "scientific_frozen_entries_verified": 58,
     "new_training_download_or_audit_started_this_continuation": false,
-    "latest_audit_activity_observed_utc": "2026-10-31T04:54:49.919989+00:00"
+    "latest_audit_activity_observed_utc": "2026-10-31T04:54:49.919989+00:00",
+    "scores": {
+      "validation": 0.953,
+      "diagnostic": 0.9516666666666667
+    },
+    "reference_held1_macro": 0.9866666666666667,
+    "delta_diagnostic_percentage_points": -3.5,
+    "known_baseline_expansion_eligible": false,
+    "predeclared_route": "close_exact_configuration",
+    "audit_artifact_hashes": 81,
+    "audit_sha256": "cc2e00874b91c5b64ae02bd6131c75cffe12c6252a5403d0e40fb6aa8834ae27",
+    "complete_private_backup": {
+      "state": "private_readback_verified",
+      "index": "uwb_direction1/results/cloud_20261031_oscnn_pilot/complete_backup/DRIVE_BACKUP_RECEIPT.json",
+      "archive_bytes": 67336510,
+      "chunks": 10,
+      "payload_members": 93,
+      "archive_members": 94,
+      "archive_sha256": "d76caf191750bf19e7cc8198c979c01c53451ff39422794327ca3c92717f20fa",
+      "receipt_sha256": "51520f7b5cefe4c3e8706c0cdd3d13e93fd8290995b20e202c26bfba4dd2c27a",
+      "standalone_complete_modelset_recoverable": true,
+      "requires_first_update_bundle": false,
+      "full_job_resume_snapshot": false
+    }
   },
   "litemv_source_preparation": {
     "state": "full_author_native_source_probe_and_fit_semantics_pass_only_no_real_config_or_cost",
@@ -5551,7 +5574,7 @@
     "engineering_repair": "CallbackListcopieslogsdict/ReduceLRinsertslearning_rate;fixturecapturespostcallbackRecorderwithfullkeysunchanged;attempt01source+failurepreserved/attempt02pass;noactualUWB.",
     "ensemble_LITEMVTime_implemented": false,
     "real_UWB_runner_and_complete_auditor_implemented": false,
-    "formal_CPU_cost_gate_run": false,
+    "formal_CPU_cost_gate_run": true,
     "real_UWB_configuration_selected": false,
     "real_UWB_values_labels_or_fit": false,
     "background_training_started": false,
@@ -5559,7 +5582,8 @@
     "novel_contribution_claim": false,
     "next_boundary": "ExistingOSfullaudit/privatecompletegatefirst;thenprospectiveboundedcostpolicy/preprocessing/config/oneSeed/preregexactremotereadbackbeforeUWBvalueslabelsfit;no2epochdefaultpapernegative.",
     "generic_epoch_engine_implemented": true,
-    "engine_report": "uwb_direction1/research/litemv_engine_20261031/ENGINEERING_REPORT.md"
+    "engine_report": "uwb_direction1/research/litemv_engine_20261031/ENGINEERING_REPORT.md",
+    "cost_policy_closed_for_resources": true
   },
   "litemv_engine_preparation": {
     "state": "generic_engine_synthetic_native_fit_restore_IDguards_and_failclosed_readiness_pass",
@@ -5649,5 +5673,260 @@
       "new_real_configuration_selected": false,
       "real_UWB_values_labels_or_fit": false
     }
+  },
+  "litemv_formal_cost": {
+    "state": "exact_nativeTorch_full_model_B64_policy_resource_closed_without_UWB_fit",
+    "workspace": "/workspace/uwb-litemv-cost-20261031",
+    "report": "uwb_direction1/research/litemv_cost_20261031/RESOURCE_REPORT.md",
+    "prospective_policy_fixed_after_prior_full_audit_private_close": true,
+    "result": {
+      "state": "resource_closed_exact_policy",
+      "chosen_epochs": null,
+      "estimated_seconds_by_epoch_budget": {
+        "100": 88897.35941774095,
+        "1500": 1330044.598300372
+      },
+      "formula": "2*(E*ceil4700B*maxtrain+(E*ceil1000B+ceil1000B+ceil1200B)*maxeval+(E+1)*maxkeras_save+(E+4)*maxfullsnapshot_save)+120",
+      "training_batches": 74,
+      "validation_batches": 16,
+      "diagnostic_batches": 19,
+      "memory_gate_passed": true,
+      "accuracy_measured": false,
+      "policy": {
+        "epoch_candidates": [
+          1500,
+          100
+        ],
+        "batch_size": 64,
+        "seed": 20261029,
+        "input_preprocessing": "explicit_RMS_then_author_znormalization_adaptation",
+        "budget_seconds": 43200,
+        "memory_limit_KiB": 14680064,
+        "prior_workspace": "/workspace/uwb-oscnn-pilot-20261031",
+        "variant": "author_LITEMV_full",
+        "paper_epochs": 1500,
+        "current_constructor_epochs_not_used": 2,
+        "rule": "First feasible fixed1500 then explicitCPU100; unchanged fullarchitecture/B64/seed/filters; no batch,width,kernel,normalization or seed rescue"
+      },
+      "full_author_LITEMV_architecture": true,
+      "total_parameters": 889624,
+      "trainable_parameters": 621680,
+      "training_seconds": [
+        5.593593067023903,
+        5.386245158035308,
+        5.565353162004612,
+        5.565077406005003,
+        5.531339877983555,
+        5.441505474969745,
+        5.516907686949708,
+        5.407182905008085
+      ],
+      "evaluation_seconds": [
+        1.7112386369844899,
+        1.6825083040166646,
+        1.6440745149739087,
+        1.6702267860528082
+      ],
+      "keras_save_seconds": [
+        1.91513662901707,
+        1.6414306369842961,
+        1.6823356329696253
+      ],
+      "snapshot_save_seconds": [
+        0.0460292489733547,
+        0.04050941998139024,
+        0.040320178028196096
+      ],
+      "max_RSS_KiB": 2958280,
+      "wall_seconds": 56.56575916497968,
+      "real_UWB_values_labels_or_fit": false,
+      "real_pilot_started": false
+    },
+    "frozen_entries": 1366,
+    "termination": {
+      "exit_code": 0,
+      "wall_timeout": false,
+      "supervisor_wall_seconds": 61.004834954976104,
+      "child_cpu_seconds": 60.952504
+    },
+    "real_UWB_values_labels_or_fit": false,
+    "accuracy_measured": false,
+    "scientific_accuracy_failure": false
+  },
+  "hinception_source_preparation": {
+    "state": "full_author_width_depth_with_explicit_multivariate_input_adaptation_synthetic_checks_pass",
+    "workspace": "/workspace/uwb-hinception-source-probe-20261031",
+    "report": "uwb_direction1/research/hinception_source_probe_20261031/REVIEW_AND_IMPLEMENTATION.md",
+    "repository": "MSD-IRIMAS/CF-4-TSC",
+    "source_commit": "cf4d0e55ee11b7393ae3d317cdf5f22dcc51ba3e",
+    "model_blob": "bb8c08bf24cd3b3dcdfd90f079403900ab4df1eb",
+    "license": "GPL-3.0-only",
+    "source_files": 7,
+    "source_probe": {
+      "state": "pass_full_author_width_depth_with_explicit_multivariate_input_adaptation_synthetic_only",
+      "source_commit": "cf4d0e55ee11b7393ae3d317cdf5f22dcc51ba3e",
+      "model_blob": "bb8c08bf24cd3b3dcdfd90f079403900ab4df1eb",
+      "adaptations": {
+        "native_keras_bindings": 26,
+        "input_channel_literal_adaptations": 1,
+        "artifact_suffix_adaptations": 1
+      },
+      "input_channels_from1_to567": true,
+      "architecture_methods_reused": 5,
+      "width32_depth6_bottleneck32_residual2_full": true,
+      "kernels": [
+        40,
+        20,
+        10
+      ],
+      "custom_filters": 17,
+      "custom_Conv1D_sums_channels": true,
+      "LITEMV_depthwise_concatenation_used": false,
+      "all_fixed_kernels_analytic_exact_nontrainable_unchanged_after3": true,
+      "independent_NumPy_sum_channel_fixed_conv_even_SAME": true,
+      "total_parameters": 851434,
+      "trainable_parameters": 601006,
+      "trainable_variable_tensors": 50,
+      "native_Adam_variables": 102,
+      "restore_next2_updates_model_Adam_BN_metrics_all_RNG_exact": true,
+      "native_keras_reload_weights_optimizer_exact": true,
+      "source_author_epochs": 1500,
+      "source_batch_size": 64,
+      "ensemble_HInceptionTime_not_implemented": true,
+      "original_TensorFlow_reproduction": false,
+      "native_TensorFlow_stub_used": false,
+      "synthetic_batch": 2,
+      "synthetic_seed": 7,
+      "real_UWB_configuration_selected": false,
+      "formal_CPU_cost_gate_run": false,
+      "real_UWB_values_labels_or_fit": false,
+      "wall_seconds": 3.8313012860016897
+    },
+    "native_full_fit_vs_explicit_batch_and_epoch_restore_pass": true,
+    "original_TensorFlow_execution_parity_asserted": false,
+    "original_univariate_input1_adapted_to567": true,
+    "ensemble_HInceptionTime_implemented": false,
+    "fulltext_review_complete": false,
+    "real_UWB_values_labels_or_fit": false,
+    "novel_contribution_claim": false
+  },
+  "hinception_formal_cost": {
+    "state": "passed_prospective_CPU100_budget_after_prior_closures",
+    "workspace": "/workspace/uwb-hinception-cost-20261031",
+    "report": "uwb_direction1/research/hinception_cost_20261031/COST_REPORT.md",
+    "result": {
+      "state": "pass",
+      "chosen_epochs": 100,
+      "estimated_seconds_by_epoch_budget": {
+        "100": 20890.104619972175,
+        "1500": 310817.49064172595
+      },
+      "formula": "2*(E*ceil4700B*maxtrain+(E*ceil1000B+ceil1000B+ceil1200B)*maxeval+(E+1)*maxkeras_save+(E+4)*maxfullsnapshot_save)+120",
+      "training_batches": 74,
+      "validation_batches": 16,
+      "diagnostic_batches": 19,
+      "memory_gate_passed": true,
+      "accuracy_measured": false,
+      "policy": {
+        "epoch_candidates": [
+          1500,
+          100
+        ],
+        "batch_size": 64,
+        "seed": 20261029,
+        "input_preprocessing": "explicit_RMS_then_author_znormalization_adaptation",
+        "budget_seconds": 43200,
+        "memory_limit_KiB": 14680064,
+        "prior_workspace": "/workspace/uwb-oscnn-pilot-20261031",
+        "previous_resource_workspace": "/workspace/uwb-litemv-cost-20261031",
+        "variant": "author_HInception_full_width_depth_multivariate_input_adaptation",
+        "paper_epochs": 1500,
+        "source_commit": "cf4d0e55ee11b7393ae3d317cdf5f22dcc51ba3e",
+        "input_channel_literal_adaptation": "1_to567",
+        "ensemble": false,
+        "rule": "First feasible1500 then explicitCPU100; full32filters/depth6/residual2/bottleneck32/17fixedregularConv; B64/seed/preprocessing fixed; no batch,width,depth,filter or seed rescue"
+      },
+      "full_author_HInception_width_depth_with_input_adaptation": true,
+      "total_parameters": 851434,
+      "trainable_parameters": 601006,
+      "training_seconds": [
+        1.1950034649344161,
+        1.0936940950341523,
+        1.11630868492648,
+        1.1144390349509194,
+        1.1054745930014178,
+        1.1012568370206282,
+        1.1224111259216443,
+        1.186603492940776
+      ],
+      "evaluation_seconds": [
+        0.7425400499487296,
+        0.8027606409741566,
+        0.7712741519790143,
+        0.7516317409463227
+      ],
+      "keras_save_seconds": [
+        2.2260288710240275,
+        1.6602190540870652,
+        2.1448185810586438
+      ],
+      "snapshot_save_seconds": [
+        0.04326493199914694,
+        0.043555427924729884,
+        0.04503947601187974
+      ],
+      "max_RSS_KiB": 815392,
+      "wall_seconds": 18.66411142493598,
+      "real_UWB_values_labels_or_fit": false,
+      "real_pilot_started": false
+    },
+    "frozen_entries": 1384,
+    "termination": {
+      "exit_code": 0,
+      "wall_timeout": false,
+      "supervisor_wall_seconds": 23.338583308039233,
+      "child_cpu_seconds": 23.316883
+    },
+    "real_UWB_values_labels_or_fit": false
+  },
+  "hinception_accuracy_pilot": {
+    "state": "implemented_tested_frozen_ready_for_remote_preregistration_no_actual_fit",
+    "workspace": "/workspace/uwb-hinception-pilot-20261031",
+    "protocol": "uwb_direction1/research/hinception_pilot_20261031/PROTOCOL.json",
+    "protocol_sha256": "8a97c1f8a1901004d81f03c03846cee15e9cedcd7bf1424d9ea62e974c3ed7fd",
+    "frozen_entries": 1423,
+    "parameters": 851434,
+    "trainable_parameters": 601006,
+    "trainable_variable_tensors": 50,
+    "Adam_variables": 102,
+    "epochs": 100,
+    "source_author_epochs": 1500,
+    "explicit_CPU_epoch_budget_adaptation": true,
+    "source_input_channel_adaptation": "1_to567",
+    "batch_size": 64,
+    "seed": 20261029,
+    "training_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "max_updates": 7400,
+    "training_appearances": 470000,
+    "selection": "source_strict_minimum_training_loss_ties_first",
+    "source_channelwise_znormalization": true,
+    "guard_and_native_state_replay_tests_passed": 6,
+    "postprocess_tests_passed": 3,
+    "preprocessing_independent_NumPy_check_passed": true,
+    "pre_UWB_guard_order_fault_repaired_and_traces_preserved": true,
+    "actual_runner_and_full_step_auditor_implemented": true,
+    "postprocess_Drive_Git_or_trainingrestart_capability": false,
+    "real_values_labels_or_fit": false,
+    "background_training_started": false,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_claim": false
   }
 }
