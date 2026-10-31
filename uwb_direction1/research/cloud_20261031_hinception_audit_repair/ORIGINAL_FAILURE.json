@@ -1,0 +1,26 @@
+{
+  "state": "original_full_audit_failed_at_final_state_python_rng_comparison",
+  "files_sha256": {
+    "audit_complete.py": "0ba96c3475355c623fecf6944894ef28c179f811d58a6d60184b129d3520868f",
+    "ops.py": "44d20f1aa259920b41f2fc747e21edbbc44b6490a068d561683cd703db745948",
+    "run_pilot.py": "0748279d54e0793d31187f2bd448eb1695d18901e6519c0ead4f1eb6aed879d3",
+    "PROTOCOL.json": "8a97c1f8a1901004d81f03c03846cee15e9cedcd7bf1424d9ea62e974c3ed7fd",
+    "FROZEN_HASHES.json": "6bc05ea4ac7384879ce33b8c874c3ef72bd7db0969cc176622e3bc94ff122321",
+    "audit_supervisor01/TERMINATION.json": "8eb5b017971e45c870dede84c13a5a4e593f8366ece09c41f8dfeec61c2ea7fd",
+    "audit_supervisor01/process.log": "8cffc4e7a9d1d0dbcd5f3aabf0c2358034e29826f991e1348282feeea5916866",
+    "AUDIT_INCOMPLETE.json": "0a44def5de50ec637b21a508abd5372d6037e50f7d5ad58ab2d30837786aff52",
+    "POSTPROCESS_STATE.json": "0a6b9033975b849cebd8385fe1f8e56ade1e45b8718c71e7f3f752369d4e96a6"
+  },
+  "termination": {
+    "pid": 55822,
+    "exit_code": 1,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 9453.333773313905,
+    "child_cpu_seconds": 9452.627575,
+    "cpu_soft_seconds": 14390,
+    "cpu_hard_seconds": 14400,
+    "scientific_negative": false
+  },
+  "diagnostic_summary_parsed": false,
+  "scientific_negative": false
+}

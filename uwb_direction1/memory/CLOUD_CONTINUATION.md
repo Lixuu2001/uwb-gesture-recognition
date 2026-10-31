@@ -1,3 +1,15 @@
+# 2026-10-31 — H完整审计末步Python RNG观测副作用失败；定位与回归通过，手动全程重审修复先远端登记
+
+先读ad7ce0b123eadae90c46bcf2c8c98c9144305db4最新四记录/云端能力及实际进程。原audit55822 exit1/no timeout，9453.333773313905wall/9452.627575CPU；旧controller54482已postprocess_incomplete，无运行中的训练/审计。trace到final_prediction_state的精确比较，前面100epoch/7400update/2200prediction路径已到达但**不能当成完整审计pass/分数结论**。训练仍100epochs/7400updates完成、所有19产物/1423冻结SHA不变，不重训，不当方法准确率负结果，未解析diag SUMMARY。
+
+只读checkpoint诊断明确：saved last→final除bestweights外optimizer/metrics/所有RNG/callbacks/modes/identity/cursor均一致；mirror保存native模型无状态改变。审计额外keras.models.load_model检查best/last时仅消耗Python random，model/Adam/metrics及其他RNG不动，这个构造步骤不存在producer预测路径。恢复inspection RNG再置bestweights，甚至不读真实输入/labels或realforward，就与保存final全状态exact。原故障是checker观测副作用，非数据模型/预测拟合问题。
+
+修复只在native模型检查外包Python RNG隔离，之后全before/after snapshot仍必须exact；不恢复/忽略其他状态，不放松任何tolerance/原gate/原assert/finalcompare。合成原生reload回归pass且注入optimizer改动仍失败；4driver/staticguard测试pass，原所有assert和compare调用AST保留。原audit_complete.py/ops/producer/协议完全不改。新repaired auditor+helper/driver/backupbuilder code研究目录research/cloud_20261031_hinception_audit_repair/，报告results/cloud_20261031_hinception_audit_repair/REPAIR_AND_RERUN.md。
+
+本提交先登记16修复文件+manifest逐字远端回读，再marker与**一次手动完整重审**（非自动retry），相同14400wall/14390soft/14400hardCPU。driver把原audit_supervisor01保留为audit_attempt01再新建canonical supervisor；原failurelog/TERM/POSTPROCESS状态都保留，不伪改exitcode。新repair/STATE才是当前接续状态。重新跑全部100epoch7400update，不从未保存的partial推断完整pass；额外审计计算明确记账，不是新增训练。若成功新canonical COMPLETE_AUDIT记录repaired auditor/helper及原failedTERM；成功TERMs后builder保留所有原备份检查并加firstfailure/repair完整provenance到complete localarchive。driver无Drive/Git能力，agent还必须owner-private metadata→rawfetch download_raw_file=true/include_base64=false/max3/即物化SHA/重组全成员完整模型集回读，再发布分数按原gate。
+
+**本提交时修复全审未启动**，下一先看新STATE/PIDs/TERMs，已启动则绝不重复；失败保留trace手动修复不autoloop。准确率/原创结论均无、下一Disjoint/MLSTM实际config/cost/fit仍禁止在本阶段越过未关闭前置；pass须source确认，fail关确切CPU100不diag救援。all8历史探索性、用户7–8不作新选择，目标未达、既有小时接续保持。原789、真实arrays/ID值/模型/二进制不入本次Git。以下保留历史。
+
 # 2026-10-31 — 新核查MLSTM-FCN方法全文相关章节与作者结构实现；合成恢复通过，H原审计仍active
 
 先读18eb1aebe026c64f9688319f6d883080bf9ac0a9最新四记录及云端进程。H原fullaudit55820/55822/controller54482仍active，1423science/runtime冻结和19完成产物SHA均不变，完整audit/complete private未就绪，无新分数、不解析diag SUMMARY、不重复启动或选下一实际配置/cost。

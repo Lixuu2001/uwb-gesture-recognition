@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_CPU100_training_complete_7400_updates_artifact_and_ID_metadata_verified_existing_full_audit_running",
+  "state": "HInception_original_full_audit_failed_on_observational_Python_RNG_side_effect_manual_repair_registered_before_reaudit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_completion/TRAINING_COMPLETION_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_audit_repair/REPAIR_AND_RERUN.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793438842.9450998,
   "background_training_pid": null,
-  "background_training_status_note": "Existing training completed100epochs/7400updates exit0/no timeout. Existing full replay audit supervisor55820/worker55822 under controller54482 is active; no duplicate restart. Full numerical audit and complete private modelset pending; no audited accuracy released.",
+  "background_training_status_note": "Original training completed; first full audit exited1/no timeout at final snapshot due only to Python RNG consumed by separate native model loading. Read-only checkpoint diagnosis and synthetic regression pass. Manual full re-audit code registered before one bounded launch; not yet started in this commit. No retraining or scientific negative/accuracy claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Finish existing HInception full audit55820/55822/controller54482 and private full modelset preservation before score/gate/new actual selection. Do not duplicate train/audit/cost or read diagnostic summary early. Pass needs source confirmation; exact verified closure permits next single fixed cost policy and remotely registered runner/auditor. Disjoint-CNN remains previously prepared candidate with exact cost evidence binding. MLSTM-FCN full documented8-cell native source preparation is an additional option only, with known legacy recurrent-gate difference and no actual UWB configuration/cost/fit. Synthetic checks are not accuracy results.",
-  "last_completed_update_utc": "2026-10-31T10:52:20.641706+00:00",
+  "next_candidate": "After this repair commit is byte-exactly read back and force=false advanced, create AUDIT_REPAIR_REGISTRATION marker then launch exactly one repair_driver.py --run. It preserves original failed audit as audit_attempt01, performs full unchanged100epoch/7400update replay with Python-only inspection isolation under same bounds, then builds complete local archive including failure/repair provenance. No training restart or next method/cost/config selection. Inspect repair STATE/PIDs/TERM first on continuation, do not repeat. Successful full audit plus private all-member modelset readback precedes score release/original gate; pass requires source confirmation, fail closes exact CPU100.",
+  "last_completed_update_utc": "2026-10-31T12:30:02.725294+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -4496,8 +4496,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": true,
-  "background_audit_pid": 55822,
+  "background_audit_running": false,
+  "background_audit_pid": null,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5170,7 +5170,7 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_supervisor_pid": 55820,
+  "background_audit_supervisor_pid": null,
   "oscnn_source_probe": {
     "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
@@ -6040,6 +6040,22 @@
       "existing_audit_worker_pid": 55822,
       "controller_pid": 54482,
       "metadata_checker_repair": "Unavailable procfs children interface changed to ps --ppid only; original failed attempt retained; no science or running audit changed"
+    },
+    "audit_attempt01": {
+      "state": "failed_engineering_not_scientific_negative",
+      "termination": {
+        "pid": 55822,
+        "exit_code": 1,
+        "wall_timeout": false,
+        "supervisor_wall_seconds": 9453.333773313905,
+        "child_cpu_seconds": 9452.627575,
+        "cpu_soft_seconds": 14390,
+        "cpu_hard_seconds": 14400,
+        "scientific_negative": false
+      },
+      "failure_point": "final_prediction_state exact comparison; observational native reload altered Python RNG",
+      "original_evidence": "uwb_direction1/research/cloud_20261031_hinception_audit_repair/ORIGINAL_FAILURE.json",
+      "full_numeric_audit_pass_claimed": false
     }
   },
   "disjoint_cnn_source_preparation": {
@@ -6141,5 +6157,27 @@
     "UWB_values_labels_fit": false,
     "accuracy_or_originality_claim": false,
     "queue_note": "Additional published baseline preparation; prepared Disjoint candidate and current H audit/gate remain ahead; no real ordering/configuration selected from new scores"
+  },
+  "hinception_audit_manual_repair": {
+    "state": "ready_for_remote_exact_readback_then_one_manual_bounded_reaudit",
+    "code": "uwb_direction1/research/cloud_20261031_hinception_audit_repair",
+    "report": "uwb_direction1/results/cloud_20261031_hinception_audit_repair/REPAIR_AND_RERUN.md",
+    "manifest_sha256": "1a9b20099ee9e710796ccd65a1577610407e83cafeb28b4e6d201ff5e62bc843",
+    "only_observational_python_rng_isolated": true,
+    "all_original_assertions_and_compare_calls_retained": true,
+    "all1423_frozen_and19_training_artifact_SHA_unchanged": true,
+    "read_only_stored_final_state_diagnosis_exact": true,
+    "synthetic_native_reload_regression_pass": true,
+    "driver_static_guard_tests": 4,
+    "training_restarted": false,
+    "repaired_full_audit_started": false,
+    "diagnostic_summary_parsed": false,
+    "accuracy_or_originality_claim": false,
+    "preserve_original_supervisor_as": "audit_attempt01",
+    "canonical_next_supervisor": "audit_supervisor01",
+    "full_reaudit_wall_limit": 14400,
+    "full_reaudit_hard_CPU_limit": 14400,
+    "complete_archive_builder_includes_original_failure_and_repair": true,
+    "automatic_retry": false
   }
 }

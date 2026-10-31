@@ -1,0 +1,33 @@
+--- original_audit_complete.py
++++ repaired_audit_complete.py
+@@ -3,8 +3,9 @@
+ for k in ('OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS'):os.environ[k]='1'
+ import json,sys,tempfile,time
+ from pathlib import Path
++sys.path.insert(0,'/workspace/uwb-hinception-pilot-20261031')
+ from run_pilot import read,sha
+-B=Path(__file__).resolve().parent
++B=Path('/workspace/uwb-hinception-pilot-20261031')
+ def require_complete(base):
+  out=base/'run01';s=read(out/'STATE.json')
+  if s.get('state')!='complete' or s.get('pid') is not None:raise RuntimeError('not_ready: active/incomplete pilot')
+@@ -56,8 +57,10 @@
+    row=epochs[epoch-1];assert row['epoch']==epoch and row['steps']==total and row['training_records']==4700;equal(epochlogs,row['metrics']);assert row['best_epoch']==best_epoch and row['best_training_loss']==best_loss and row['LR_wait']==h.callbacks[0].wait and row['LR_cooldown']==h.callbacks[0].cooldown_counter and row['current_learning_rate']==float(m.optimizer.learning_rate.numpy())
+   cb.on_train_end();assert total==7400 and best_epoch==done['best_epoch'] and best_loss==done['best_training_loss'] and int(m.optimizer.iterations.numpy())==7400;compare('last.pt',100,73)
+   best=torch.load(out/'best.pt',map_location='cpu',weights_only=False);last=torch.load(out/'last.pt',map_location='cpu',weights_only=False)
+-  for name,saved in [('best_model.keras',best),('last_model.keras',last)]:
+-   loaded=keras.models.load_model(out/name);equal(loaded.get_weights(),saved['native']['weights']);equal([v.numpy() for v in loaded.optimizer.variables],saved['native']['optimizer'])
++  from inspection_rng import isolate_inspection_python_rng
++  with isolate_inspection_python_rng(h,m,100,total,73,identity):
++   for name,saved in [('best_model.keras',best),('last_model.keras',last)]:
++    loaded=keras.models.load_model(out/name);equal(loaded.get_weights(),saved['native']['weights']);equal([v.numpy() for v in loaded.optimizer.variables],saved['native']['optimizer'])
+   m.set_weights(best['native']['weights']);scores={}
+   for role in ['validation','diagnostic']:
+    values=val if role=='validation' else preprocess(maps[ordered[role]]);probs=predict(m,values);decision=probs.argmax(1)
+@@ -69,5 +72,6 @@
+  eligible=bool(scores['diagnostic']-cfg['reference_held1_macro']+1e-12>=.005);assert eligible==summary['known_baseline_expansion_eligible'] and summary['predeclared_route']==('known_baseline_source_confirmation' if eligible else 'close_exact_configuration')
+  for p,hsh in hashes.items():assert sha(p)==hsh,p
+  result=dict(state='pass',scores=scores,producer_scores=summary['scores'],reference_held1_macro=cfg['reference_held1_macro'],known_baseline_expansion_eligible=eligible,training_updates_replayed_exact=total,training_appearances_verified=470000,epochs_replayed=100,selected_epoch_verified=best_epoch,initial_first_best_last_finalprediction_model_Adam_callbacks_metrics_modes_all_RNG_bitwise=True,native_author_selected_and_last_keras_weights_optimizer_equal=True,all6900RMS_inputs_verified=True,author_channelwise_znormalization_applied_and_replayed=True,all6900_normalized_raw_cache_and_independent_float64_reference_tolerance_2e5_2e6=True,labelblind_evaluation_batches_reconstructed=True,all2200final_probabilities_predictions_exact=True,all100_epoch_metrics_training_loss_selection_and_LR_replayed=True,artifact_hashes=hashes,training_termination=term,auditor_sha256=sha(__file__),audit_wall_seconds=time.monotonic()-start,users7_8_labels_used=False,independent_validation=False,novel_contribution_validated=False,limitations='Full authorHInception32depth6 nativeKerasTorch CPU100 with explicitinput1to567 and RMS+channelznorm adaptation, not source1500epoch TensorFlow reproduction. Loader/RNG adaptation explicit; all100epochs replayed, no diagnostic selection. Exploratory historically-developed source cohort, not independent test or novelty.')
++ result.update(audit_repair='Isolate only Python RNG consumed by observational native model loading; every original state comparison remains exact',original_auditor_sha256=sha(B/'audit_complete.py'),inspection_helper_sha256=sha(Path(__file__).parent/'inspection_rng.py'),original_failed_audit_termination=read(B/'audit_attempt01/TERMINATION.json'))
+  output.write_text(json.dumps(result,indent=2));print(json.dumps(dict(state='pass',epochs=100,steps=total)))
+ if __name__=='__main__':assert sys.argv[1:]==['--run'];audit(B/'COMPLETE_AUDIT.json')

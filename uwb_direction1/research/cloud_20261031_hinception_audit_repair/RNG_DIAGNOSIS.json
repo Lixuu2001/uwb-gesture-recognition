@@ -1,0 +1,30 @@
+{
+  "saved_last_to_final": {
+    "optimizer": true,
+    "metrics": true,
+    "torch_rng": true,
+    "numpy_rng": true,
+    "python_rng": true,
+    "keras_global_rng": true
+  },
+  "saved_other_fields": {
+    "callbacks": true,
+    "epoch": true,
+    "total_steps": true,
+    "sampler": true,
+    "identity": true,
+    "settings": true,
+    "module_training_modes": true
+  },
+  "native_save_last_changed_fields": [],
+  "native_reload_changed_fields": [
+    "python_rng"
+  ],
+  "native_reload_changed_non_native_fields": [],
+  "native_reload_changed_model_optimizer_metrics": [],
+  "restored_inspection_rng_then_selected_weights_equals_saved_final_without_real_forward": true,
+  "remaining_fields_before_real_prediction": [],
+  "state": "read_only_checkpoint_diagnosis",
+  "real_UWB_arrays_labels_or_forward_fit": false,
+  "diagnostic_summary_parsed": false
+}
