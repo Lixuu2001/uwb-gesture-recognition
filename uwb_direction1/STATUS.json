@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_source6_fixed_CPU100_running_held2_3_first_epoch_verified_held4_5_6_queued",
+  "state": "HInception_source6_fixed_CPU100_running_held2_3_midtraining_complete_preservation_tools_ready",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -6276,12 +6276,12 @@
     },
     "observed_epoch_steps": {
       "2": [
-        1,
-        74
+        50,
+        3700
       ],
       "3": [
-        1,
-        71
+        52,
+        3692
       ]
     },
     "pending": [
@@ -6296,7 +6296,12 @@
     "first_update_insurance_private_readback_verified": true,
     "insurance_scope": "held2_held3_initial_first_update_only",
     "insurance_chunks": 4,
-    "insurance_archive_members": 138
+    "insurance_archive_members": 138,
+    "live_observed_utc": "2026-10-31T17:42:09.590171+00:00",
+    "complete_preservation_tools": "results/cloud_20261031_hinception_sixfold/complete_preservation_tools",
+    "complete_preservation_integrity_tests": 9,
+    "active_guard_refusal_expected": true,
+    "new_complete_archive_created": false
   },
   "next_action_source_confirmation": "Inspect existing OS/state/queued jobs; do not relaunch. Wait for five frozen dual predictions and complete audits, then aggregate; preserve full private modelset before publishing final source6 comparison. No users7–8 selection/diagnostic rescue."
 }
