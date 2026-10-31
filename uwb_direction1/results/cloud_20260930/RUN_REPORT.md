@@ -1,3 +1,17 @@
+# 2026-10-31 — H-Inception用户2/3固定100轮训练正常完成；完整重放审计运行中，14私有块/174成员训练产物恢复验证完成
+
+先GitHub读取最新5d7244d4ac5c5834ad594f0007f0c69b94dfb589四主记录，核同一可执行cloud环境及旧进程/检查点。无重复数据下载/启动。用户2/3固定100epochs分别7400/7100updates（合14500），训练出现470000/450000（合920000），两组train都exit0/no timeout；supervisor wall10577.832880981965/10127.512331670034秒，CPU10575.867017999999/10125.331176秒。source strict最低trainingloss选epoch99/59，非诊断选模。双方validation+diagnostic四档preds均冻结，producer不索引诊断标签，4600个预测行仍未评分；用户4/5/6仍排队，完整新fold审计通过数0，不能提前算source6均值。
+
+实际只读观测2026-10-31T19:35:33.343068+00:00：controller59236和job59237/59238活跃，原train59239/59240已正常结束，独立fullreplay auditworkers60565/60557活跃，auditTERM/COMPLETE_AUDIT尚未生成。此时后台进行的是**数值审计重放**，不是仍有原producer训练；审计步数未知，不从CPU时间猜测已重放多少。1465冻结依赖SHA再次一致。队列会在审计成功后自动推进4–6，无需重启。冻结code/100/B64/seed20261029/源角色/Adam/门槛不改；未来zero-fixed消融仍仅合成原型，不提前fit。
+
+本轮真实保存held2/3的全部immutable producer文件：initial/first/best/last/finalprediction model/Adam/BN/metrics/callbacks/RNG，nativebest/last，准确train/eval IDs/batch+epoch logs/双preds及成功train TERM。先核每个FILES/checkpoint/predSHA，复制后重核，封档后全成员核验。私有folder12AGMwT99yXCTYBQocQaX901Br-IelmOf先owner-only元数据及唯一prefix搜索，再14块最多3流水线upload→每文件private/parent/size/MIME→rawfetch(download_raw_file=true,include_base64=false)→立即物化size/SHA→整档SHA与173payload+MEMBERS=174成员全部通过，无分享改变/认证URL输出。archive100181097bytes，SHAad129c8fbf376cb34648ae354fa387959081b819bc3dee04c35db998c9525883，membermanifestSHA2ec610b0713df5cf7f2aaaaac0bc6928c4d5566ec4bf3ff5d6f7bca3cf74e00d。receiptSHAec0b55b62db4ab30783c51ebb57c79fbb6699736cafac8e1f6f19e5ab803a44d。
+
+**scope=held2_held3_training_complete_full_audits_pending**，不是source6完整模型集/审计成功/准确率结论；all_completed_models_included=false、full_replay_audits_complete=false、complete_modelset_verified=false。既有held1完整7块恢复引用包含在此归档；held4–6尚未完成，最终仍须all5audit+aggregate后使用完整六模型归档工具另备份全回读。现在的14块补充并超过旧4块首步保险，但不删除/覆盖旧备份。raw/maps/runtime binaries不入档；真实ID/model只在私有档，不入Git。
+
+只读observer首试因本环境不提供/proc/PID/task/PID/children而失败；已保留原脚本与错误记录，改用ps --ppid枚举指定supervisor子进程，再独立核PPid/命令/非僵尸状态/CPU，真实观测通过。此为观测兼容问题，**实际训练和审计没有失败、重启或改码**。operationalrepair仅在producer23_insurance/operations/engineering/留痕。
+
+恢复索引results/cloud_20261031_hinception_sixfold/producer23_insurance/CLOUD_DOWNLOAD_INDEX.json，代码/字节proof/receipt在同目录；真实train TERM/完成metadata在producer23_training/held2,held3/。只读实时状态在LIVE_OBSERVATION.json；后续先查现有OS/jobs/checkpoints，不按旧背景布尔值重复启动。5新fold双预测冻结且全部fullaudits通过后才能aggregate统一评分，7–8不用于新方法选择；所有source研发探索性，原单held1正结果不等于八折提升或原创贡献。目标未达，原自动接续继续。
+
 # 2026-10-31 — 固定滤波分支同参数消融原型通过合成检查；真实source6训练持续，不新增诊断选择
 
 先通过GitHub读取最新ce6b442699c52336a33685056bc532440d1d034f四主记录，确认同一cloud运行环境/数据/实际进程，不重复下载或启动。只读观测2026-10-31T18:19:08.544985+00:00：controller59236、job2/3 59237/59238、train59239/59240正常；用户2已72epoch/5328updates、用户3已75epoch/5325updates，4–6排队，failed0、完整新fold0，1465冻结SHA再核通过。本折诊断标签均未用于评分，无source6最终准确率。原100epoch/B64/seed20261029/Adam/选模/源划分/门槛全部不变，继续已登记训练→审计队列，不提前切方法或根据中途指标调参。

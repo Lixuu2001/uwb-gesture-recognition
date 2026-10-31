@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_source6_fixed_CPU100_running_fixed_branch_ablation_prepared_synthetic_only",
+  "state": "HInception_source6_held2_3_train_complete_numeric_audits_running_private_producer_models_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -6240,7 +6240,7 @@
     "diagnostic_summary_parsed_after_private_preservation": true
   },
   "hinception_source_sixfold_20261031": {
-    "state": "running_unscored_source_confirmation",
+    "state": "producer2_3_complete_full_numeric_audits_running",
     "workspace": "/workspace/uwb-hinception-sixfold-20261031",
     "protocol": "results/cloud_20261031_hinception_sixfold/study/PROTOCOL.json",
     "frozen_hashes": "results/cloud_20261031_hinception_sixfold/study/FROZEN_HASHES.json",
@@ -6271,17 +6271,17 @@
       "3": 59238
     },
     "worker_pids": {
-      "2": 59239,
-      "3": 59240
+      "2": null,
+      "3": null
     },
     "observed_epoch_steps": {
       "2": [
-        72,
-        5328
+        100,
+        7400
       ],
       "3": [
-        75,
-        5325
+        100,
+        7100
       ]
     },
     "pending": [
@@ -6297,13 +6297,27 @@
     "insurance_scope": "held2_held3_initial_first_update_only",
     "insurance_chunks": 4,
     "insurance_archive_members": 138,
-    "live_observed_utc": "2026-10-31T18:19:08.544985+00:00",
+    "live_observed_utc": "2026-10-31T19:35:33.343068+00:00",
     "complete_preservation_tools": "results/cloud_20261031_hinception_sixfold/complete_preservation_tools",
     "complete_preservation_integrity_tests": 9,
     "active_guard_refusal_expected": true,
-    "new_complete_archive_created": false
+    "new_complete_archive_created": false,
+    "audit_worker_pids": {
+      "2": 60565,
+      "3": 60557
+    },
+    "completed_producer_folds": [
+      2,
+      3
+    ],
+    "fully_audited_new_folds": [],
+    "producer23_private_readback_verified": true,
+    "producer23_insurance_scope": "held2_held3_training_complete_full_audits_pending",
+    "producer23_insurance_chunks": 14,
+    "producer23_insurance_members": 174,
+    "producer23_recovery_index": "results/cloud_20261031_hinception_sixfold/producer23_insurance/CLOUD_DOWNLOAD_INDEX.json"
   },
-  "next_action_source_confirmation": "Inspect existing OS/state/queued jobs; do not relaunch. Wait for five frozen dual predictions and complete audits, then aggregate; preserve full private modelset before publishing final source6 comparison. No users7–8 selection/diagnostic rescue.",
+  "next_action_source_confirmation": "Inspect already-running audit60565/60557 under supervisors59237/59238/controller59236. Original producer2/3 complete, no diagnostic scoring; do not relaunch. Audit success advances4/5/6. After all five full audits and frozen dual predictions aggregate, preserve entire completed six-model modelset before final source6 publication.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6321,5 +6335,7 @@
     "structural_InceptionTime_reproduction": false,
     "novelty_claim": false,
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes"
-  }
+  },
+  "background_numeric_audit_running": true,
+  "background_experiment_queue_running": true
 }

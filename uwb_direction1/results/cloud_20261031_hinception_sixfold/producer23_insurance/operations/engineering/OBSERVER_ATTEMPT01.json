@@ -1,0 +1,15 @@
+{
+  "state": "observer_only_failed_no_experiment_failure",
+  "error": "FileNotFoundError: /proc/59237/task/59237/children absent",
+  "cause": "Thread children file not exposed by this execution environment; process status/stat/cmdline and ps are available.",
+  "frozen_training_or_audit_changed": false,
+  "training_restarted": false,
+  "science_settings_changed": false,
+  "repair": "Use ps --ppid to enumerate only authorized supervisor children; still independently check PPid/command/non-zombie status/CPU from /proc.",
+  "repaired_observation_passed": true,
+  "actual_audit_workers": {
+    "2": 60565,
+    "3": 60557
+  },
+  "actual_numeric_audit_failure": false
+}
