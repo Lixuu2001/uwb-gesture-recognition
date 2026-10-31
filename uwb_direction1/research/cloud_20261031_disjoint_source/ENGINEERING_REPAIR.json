@@ -1,0 +1,16 @@
+{
+  "state": "test_reference_precision_repaired_synthetic_only",
+  "attempt01_source_sha256": "ef582b60b9b072fd034e305231e565fd6acc247cc1a83a8d2f1aba4b788c9ace",
+  "attempt01_log_sha256": "cd74374f066089d8fde55c0fd581bf6383bc6ae063b72420d043e73ee2807741",
+  "failure": "Exact-equality test compared original float32-derived class weights against independent float64 formula before any optimizer updates.",
+  "max_abs_difference": 3.8146973579955556e-08,
+  "numpy_version": "2.3.5",
+  "change": "Only independent class-weight reference assert changed to np.testing.assert_allclose rtol=1e-7,atol=1e-7",
+  "author_classweight_code_unchanged": true,
+  "model_optimizer_unchanged": true,
+  "all_model_state_restore_comparisons_remain_exact": true,
+  "repaired_source_sha256": "9f0dbe3276f0ea1c42a2e8a7f8422cdef6894efa8597a4fbac1726e5c708b6be",
+  "attempt02_log_sha256": "adcff634c73cb55cc642648b9f46130ebb9706d34b3181ee16a3c105a1c99812",
+  "attempt02_result_sha256": "4c7aecbdaa0d65def441b799acde061faeea6a7222e3d23652521acf7130282a",
+  "real_UWB_values_labels_or_fit": false
+}

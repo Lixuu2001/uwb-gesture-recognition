@@ -1,3 +1,15 @@
+# 2026-10-31 — 完整Disjoint-CNN默认2L原码/native加权fit验证通过；H-Inception原任务持续运行
+
+先读f5c9beeac5db0a674ff6c0ff07ff018a309d749e最新四记录并查同一云端进程，不重复恢复/训练/审计。H-Inception supervisor54454/worker54456/controller54482仍alive；保存观察42epoch/3108更新、1423冻结SHA全不变，完整audit/complete private尚未完成、diag1label未读、7–8未用。已有首步保险不能替代完整模型集。**运行中未选下一实际配置/cost/fit；下一先查STATE/TERM/POSTPROCESS，按原协议收尾。**
+
+推进具体新实现：Navidfoumani/Disjoint-CNN commit38180ccc1f050a3fee6961f5b4ea3bc132016ab3、默认DCNN_2L blob7d46ed906334b2603e39d123b494e4797f11ec64，12原UTF8文件Gitblob/size/SHA验证、MIT保留。Main实际默认2L/500/B8，非把3/4L缩小；构造API本来支持90×567×1。4Conv64/bias/he_uniform/4BN/4ELU/Permute/pool，2587468total/2586956trainable/18tensors/38Adam。原AST/nativeKeras3.11.3Torch兼容，仅三artifactsuffix变化与7layerbindings，无TFstub/全TF执行等价主张；复用原隔离1302runtimefiles+GPLstatehelper，SHA再核，无globalinstall/修改H冻结依赖。
+
+原类权重max(1,log(2N/count))、val_loss ReduceLR/strictminimum tiesfirst选模保留。独立NumPy spatialconv/weightedCE、3步restore再2步state/allRNG精确、native.keras回载通过；原fitbody25合成train/3val/2epoch/26update与显式sample_weight loop/model/Adam/BN/metrics/callback/selectedfinalckpt一致，固定fixture shuffle=False不声称DataAdapter全RNG等价；251plateau和val-loss ties检查通过。3readiness用例及实际guard均在missingaudit时先拒绝、不读summary。初次reference exact比较源float32与float64权重差3.814697e-8，唯一修复数学参考rtol/atol1e-7，原源码/模型/optimizer和全部state exact不变；原失败脚本/log/ENGINEERING_REPAIR保留。
+
+文献DOI10.1109/ICDMW53433.2021.00099机构metadata/abstract+12作者源读完，IEEE challenge无绕过，未得PDF/fullmethods，不能冒称全文核验。原Main train/test label拼接和validation仍在train中不可复制；未来须固定12taxonomy、独立sourceval和labelblind预测。未用3/4L第三分支bypass及README PyTorch片段GELU差异原样记录，不暗改。789原snapshot/最新四记录无exactDisjointmarker，只是有限词检索非创新/全面等价证据；37泛permute/initializer等marker记录供复查。
+
+**这是source/synthetic准备，无Disjoint实际UWB配置/正式CPUcost/值标签读取/训练/分数、无提升或原创结论、还没有实际UWB runner/auditor。** H原gatepass须单独source确认；完整audit/private原配置close后才可定下一单项cost/config/seed、远端预登记runner/auditor后读数据，不做diag救援。准确率和原创贡献分开，all8历史探索性、7–8不作新选择，目标未达、既有小时自动接续继续。报告results/cloud_20261031_disjoint_source/IMPLEMENTATION_REPORT.md，代码与全部合成log/hash研究目录research/cloud_20261031_disjoint_source/。不上传arrays/真实ID值/模型/wheels/so，不改789。
+
 # 2026-10-31 — 完整H-Inception多变量输入迁移CPU100已实际云端训练；102Adam/17fixed/64ID首步与2私有块保险通过
 
 251695c6d7dc41149e508a15fbf15310b471263a的82新增/更新文件全部远端逐字读回且expectedparent/force=false推进后才创建marker并仅一次启动supervisor54454/worker54456。协议SHA8a97c1f8a1901004d81f03c03846cee15e9cedcd7bf1424d9ea62e974c3ed7fd，1423science/source/dependency/runtime/prior冻结SHA再核不变。完整32filters/bottleneck32/depth6/residual2/17regularfixedConv的H-Inception，明确原作者输入1→567/nativeKeras多变量迁移、单模型非五ensemble/原TF2.4.1/UCR复现；851434total/601006trainable/50trainabletensors/102Adam，100/B64/seed20261029/1CPU，全90×567RMS+原channelznorm，train3–6/val2/diag1。观察已完成4epoch/296更新，每轮4700全用/74批末28。两套最终预测未冻结、held1标签未读、7–8未用，**尚无最终诊断准确率、提升或原创结论**。

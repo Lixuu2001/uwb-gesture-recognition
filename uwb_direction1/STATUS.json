@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_pilot/LAUNCH_AND_PRIVATE_FIRST_UPDATE.md",
+  "latest_report": "uwb_direction1/results/cloud_20261031_disjoint_source/IMPLEMENTATION_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/research/hinception_source_probe_20261031/REVIEW_AND_IMPLEMENTATION.md",
+  "latest_literature_note": "uwb_direction1/research/cloud_20261031_disjoint_source/PAPER_ACCESS.json",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue exactly preregistered HInception CPU100 singlemodel multivariateinput1to567 transfer; inspect currentPIDs54454/54456/54482,STATE/checkpoints/TERMs/POSTPROCESS before any action. Do not duplicate train/audit/download or select next real config/cost while this run is active. Afterexit0 fullaudit/privatecomplete readback, apply original gate; pass requires separate sourceconfirmation, fail closes exact configuration without diagnostic rescue.",
-  "last_completed_update_utc": "2026-10-31T06:33:11.326Z",
+  "next_candidate": "Continue existing HInception CPU100 PIDs54454/54456/54482; inspect run01/STATE, TERM and POSTPROCESS before any action. Full audit/private complete preservation and original gate precede next real config/cost. Disjoint-CNN full author default2L source/native weighted-fit preparation is ready for later evaluation, not a registered UWB run. No duplicate restart or diagnostic rescue.",
+  "last_completed_update_utc": "2026-10-31T07:31:54.592490+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -3115,7 +3115,7 @@
       "arm": "gap",
       "epoch": 64,
       "batch": 71,
-      "train_bce": 0.000025465305655590317,
+      "train_bce": 2.5465305655590317e-05,
       "validation_macro": 0.9899999999999999,
       "validation_bce": 0.007310789544135332,
       "epoch_seconds": 37.36026673193555
@@ -3473,7 +3473,7 @@
       "epoch": 64,
       "batch": 71,
       "held": 6,
-      "train_bce": 0.000024089224461931734,
+      "train_bce": 2.4089224461931734e-05,
       "validation_macro": 0.9891666666666666,
       "validation_loss": 0.006259538698941469,
       "epoch_seconds": 38.69035201508086
@@ -5079,7 +5079,7 @@
       "observed_unix": 1793409682.7188423,
       "batch": 73,
       "best_epoch": 75,
-      "best_training_loss": 0.00003359471520525403
+      "best_training_loss": 3.359471520525403e-05
     },
     "first_update_verification": {
       "state": "pass",
@@ -5989,6 +5989,46 @@
     "complete_private_backup_done": false,
     "diagnostic_labels_read": false,
     "all_final_predictions_frozen": false,
-    "latest_observation": "uwb_direction1/results/cloud_20261031_hinception_pilot/LIVE_OBSERVATION.json"
+    "latest_observation": "uwb_direction1/results/cloud_20261031_hinception_pilot/LIVE_OBSERVATION.json",
+    "latest_source_preparation_observation": {
+      "observed_utc": "2026-10-31T07:30:31.414585+00:00",
+      "epoch": 42,
+      "total_steps": 3108,
+      "worker_pid": 54456,
+      "controller_pid": 54482,
+      "all1423_frozen_sha256_reverified": true,
+      "diagnostic_labels_read": false,
+      "full_audit_complete": false,
+      "complete_private_backup_done": false,
+      "path": "uwb_direction1/research/cloud_20261031_disjoint_source/EXISTING_RUN_OBSERVATION.json"
+    }
+  },
+  "disjoint_cnn_source_preparation": {
+    "state": "full_author_default_DCNN2L_native_weighted_fit_synthetic_pass_only_current_run_barrier",
+    "source_commit": "38180ccc1f050a3fee6961f5b4ea3bc132016ab3",
+    "source_files": 12,
+    "model_blob": "7d46ed906334b2603e39d123b494e4797f11ec64",
+    "license": "originalMIT_wrapperGPL3",
+    "total_parameters": 2587468,
+    "trainable_parameters": 2586956,
+    "source_main_defaults": {
+      "epochs": 500,
+      "batch_size": 8,
+      "actual_UWB_policy_selected": false
+    },
+    "native_Adam_variables": 38,
+    "synthetic_original_fit_updates": 26,
+    "source_class_weight_and_val_loss_selection_preserved": true,
+    "synthetic_restore_native_checkpoints_exact": true,
+    "readiness_tests": 3,
+    "engineering_repair": "float32-vs-float64 independent-reference assertion tolerance only; original attempt preserved",
+    "paper_fulltext_obtained": false,
+    "formal_cost_run": false,
+    "real_UWB_config_selected": false,
+    "Disjoint_UWB_values_labels_fit": false,
+    "accuracy_or_originality_claim": false,
+    "existing_H_observation": "uwb_direction1/research/cloud_20261031_disjoint_source/EXISTING_RUN_OBSERVATION.json",
+    "code": "uwb_direction1/research/cloud_20261031_disjoint_source",
+    "report": "uwb_direction1/results/cloud_20261031_disjoint_source/IMPLEMENTATION_REPORT.md"
   }
 }
