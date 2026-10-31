@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_full_width_depth_multivariate_transfer_CPU100_real_training_first_full_state_verified_private_insurance_complete",
+  "state": "HInception_CPU100_training_complete_7400_updates_artifact_and_ID_metadata_verified_existing_full_audit_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_disjoint_engine/ENGINEERING_REPORT.md",
+  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_completion/TRAINING_COMPLETION_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793428210.071978,
-  "background_training_pid": 54456,
-  "background_training_status_note": "Observed actual H-Inception worker54456/supervisor54454/controller54482 active. Completeep4/296updates in fixed100/B64/seed20261029 run. No final diagnostic prediction/labels, users7-8unused. Exactfirst64ID/fullstate/17fixedfilters/102Adam and twochunk143payload insurance verified. Full100ep audit/privatecomplete modelset still pending; no accuracy gain claim.",
+  "background_training_observed_unix": 1793438842.9450998,
+  "background_training_pid": null,
+  "background_training_status_note": "Existing training completed100epochs/7400updates exit0/no timeout. Existing full replay audit supervisor55820/worker55822 under controller54482 is active; no duplicate restart. Full numerical audit and complete private modelset pending; no audited accuracy released.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue existing real HInception CPU100 train/audit PIDs54454/54456/54482; inspect current STATE/TERM/POSTPROCESS first. No duplicate run/cost/config. New full-default Disjoint-CNN explicit weighted epoch/state engine is synthetic-validated only; no actual UWB runner/auditor/preprocessing selected. After current full audit/private preservation apply original gate; pass requires separate source confirmation, verified exact closure permits next single bounded cost/config/seed and remote preregistration.",
-  "last_completed_update_utc": "2026-10-31T08:40:13.370927+00:00",
+  "next_candidate": "Existing HInception training is complete; inspect controller54482 and full audit supervisor55820/worker55822, TERMs/COMPLETE_AUDIT/POSTPROCESS before action. Do not restart train/audit or choose next real config/cost while audit/private complete preservation pending. After numerical audit exit0 verify hashes and privately raw-readback complete modelset; only then release audited score/apply original gate. Pass requires separate source confirmation; exact verified closure permits one fixed Disjoint-CNN prospective cost policy with frozen/bounded launcher, then actual preregistered UWB runner/auditor. Do not launch from prepared utilities alone.",
+  "last_completed_update_utc": "2026-10-31T09:27:22.945105+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -4496,8 +4496,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": false,
-  "background_audit_pid": null,
+  "background_audit_running": true,
+  "background_audit_pid": 55822,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5170,7 +5170,7 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_supervisor_pid": null,
+  "background_audit_supervisor_pid": 55820,
   "oscnn_source_probe": {
     "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
@@ -5984,11 +5984,11 @@
       "all_completed_models_included": false,
       "full_job_resume_snapshot": false
     },
-    "complete_audit_started": false,
+    "complete_audit_started": true,
     "complete_audit_complete": false,
     "complete_private_backup_done": false,
-    "diagnostic_labels_read": false,
-    "all_final_predictions_frozen": false,
+    "diagnostic_labels_read": true,
+    "all_final_predictions_frozen": true,
     "latest_observation": "uwb_direction1/results/cloud_20261031_hinception_pilot/LIVE_OBSERVATION.json",
     "latest_source_preparation_observation": {
       "observed_utc": "2026-10-31T07:30:31.414585+00:00",
@@ -6014,6 +6014,32 @@
       "complete_private_backup_done": false,
       "diagnostic_labels_read": false,
       "path": "uwb_direction1/research/cloud_20261031_disjoint_engine/EXISTING_RUN_OBSERVATION.json"
+    },
+    "completed_training": {
+      "epochs": 100,
+      "steps": 7400,
+      "selected_epoch_from_source_trainingloss": 75,
+      "termination": {
+        "pid": 54456,
+        "exit_code": 0,
+        "wall_timeout": false,
+        "supervisor_wall_seconds": 9616.520260029007,
+        "child_cpu_seconds": 9614.596172,
+        "cpu_soft_seconds": 43000,
+        "cpu_hard_seconds": 43100,
+        "scientific_negative": false
+      },
+      "all1423_frozen_SHA256_verified": true,
+      "all19_run_artifact_SHA256_verified": true,
+      "training_ID_appearances": 470000,
+      "sampler_orders_and_last_batch28_verified": true,
+      "metadata_checker_diagnostic_summary_parsed": false,
+      "full_numerical_audit_pending": true,
+      "checker_receipt": "uwb_direction1/research/cloud_20261031_hinception_completion_check/TRAINING_ARTIFACTS_VERIFIED.json",
+      "existing_audit_supervisor_pid": 55820,
+      "existing_audit_worker_pid": 55822,
+      "controller_pid": 54482,
+      "metadata_checker_repair": "Unavailable procfs children interface changed to ps --ppid only; original failed attempt retained; no science or running audit changed"
     }
   },
   "disjoint_cnn_source_preparation": {
@@ -6060,5 +6086,19 @@
     "Disjoint_UWB_values_labels_fit": false,
     "paper_fulltext_obtained": false,
     "accuracy_or_originality_claim": false
+  },
+  "disjoint_cnn_cost_tool_preparation": {
+    "state": "guarded_synthetic_profile_utility_and_arithmetic_tests_ready_no_policy_or_profile_selected",
+    "code": "uwb_direction1/research/cloud_20261031_disjoint_cost_tools",
+    "tests": 4,
+    "actual_current_guard_refused_before_policy_read_model_import_or_output": true,
+    "full_author_DCNN2L_preserved": true,
+    "source_actual_minibatch_rule_preserved": true,
+    "worst_case_best_and_last_fullstate_saves_every_epoch_in_formula": true,
+    "actual_epoch_batch_seed_policy_selected": false,
+    "formal_timed_profile_run": false,
+    "UWB_values_labels_fit": false,
+    "accuracy_claim": false,
+    "report": "uwb_direction1/results/cloud_20261031_disjoint_cost_tools/ENGINEERING_REPORT.md"
   }
 }
