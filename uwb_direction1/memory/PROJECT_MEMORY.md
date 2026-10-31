@@ -1,3 +1,19 @@
+# 2026-10-31 — ResNet训练100轮已成功完成，原完整审计仍在运行；OS-CNN作者源码合成核查通过，未选新真实配置
+
+先读5fecadee远端四文件。环境metadata current/running，但启动首个shell一度暂不可用；随当前环境就绪第二次调用恢复，同持久工作区/数据和已有process保留，不曾重下/重启。ResNet固定协议cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca/预登记8193a0ec的实际训练已成功100轮/7400updates/470000出现，原trainloss规则选epoch75（besttrainloss3.359471520525403e-05仅训练指标，不当提升证据）。train TERM exit0/no timeout3204.387117wall/3204.003014CPU；STATEcomplete/双最终预测已冻结后producer按协议索引held1，7–8未用。**本轮未读/发布producer最终score，不提前宣布完整审计通过或准确率提升。**
+
+既有controller52562自动启动auditsupervisor52682/worker52684，观察实际audit运行约20分钟，暂无auditTERM/COMPLETE_AUDIT。1358science/source/preparation/runtime/priorSHA本轮重核通过。没有重复train/audit/controller/download；旧supervisor52481自然结束的僵尸不是活动训练。首步3私有块保险仍仅initial/first，不冒称完整模型集保存。当前backgroundtraining=false、backgroundaudit=true。报告uwb_direction1/results/cloud_20261031_resnet_keras_pilot/TRAINING_COMPLETE_AUDIT_RUNNING.md。
+
+等待现有审计期间具体完成OS-CNN作者实现的source-only合成核查，没有新UWB值/labels/fit、没有挑下一真实configuration/seed/epoch/batch或跑costgate。作者Wensi-Tang/OS-CNN固定commit f70626d3c4aad70a76ba7b4745f556df01044279，modelblob f36f055663d3cc00bc51d8aeec7dd3aec2bb8664；7UTF8原文件GitblobSHA1+SHA256核验、MIT完整许可。789原源码与最新远端STATUS/continuation exactOSCNN/Omni/repo/arxiv标记0，为有界非穷尽查重，不证明新颖性。primary Tang等ICLR2022 arxiv2002.10061v3摘要/3.1–3.4方法/4.3设置文字公式图注读，非完整17页或图核验；OpenReviewbrowserchallenge未绕过，使用可直接获取的作者arxiv。
+
+/workspace/uwb-oscnn-source-probe-20261031直接调用未修改原OS_CNN+structurebuilder。按multivariate示例的第一层8*128*C（C567）和第二层5*128*256+2*256*128，而非误用单变量constructor1024预算造成0channel再补丁。L90wrappermin(L//4,89)=22，primes[1,2,3,5,7,11,13,17,19]、层输出117/225/234，可训练1870464/含固定mask总3736380params/14活跃Adamstates。精确卷积路径局部RF集合1–38（不计BN统计依赖），**GAP仍汇总完整90帧，不能说输入截断或不使用其他帧**；不把本wrapper冒称局部RF1–90全覆盖，未悄悄放大kernel。forward每次weight.data=weight*mask，Adam后maskholes会regrow、下一forward包括eval再归零；此副作用实测成立，不静默换成gradientmask。后续审计须重放eval权重副作用。
+
+sourcewrapper LR scheduler输入该轮最后一batchloss，不是epochmean；Best_model实际每50和最后覆写，不做验证最优选择，最终last。constructor2000轮、multivariate notebook示例500（注释作者实验2000）；仅记录不同设定，不预选新UWB轮数/成本适配。纯合成B2/seed7只是工程case，不是训练配置选择。原fit未改innerbodyAST三步vs独立adapter三步loss/model/Adam/allPythonNumPyTorchRNG逐位，restore后两步逐位，独立NumPy并行支路卷积/evenSAME通过；maskregrow/forwardzero已核。SOURCE_PROBE 0.742039秒是合成脚本时间，**不是成本门槛或真实训练时间估计**，不宣称原2000/500实验复现/准确率/创新。详细uwb_direction1/research/oscnn_source_probe_20261031/REVIEW_AND_SOURCE_PROBE.md。
+
+下一**首查52562/52682/52684实际进程、POSTPROCESS_STATE、auditTERM/COMPLETE_AUDIT**。仍active允许原replay，不另起任务，不从producer未审计score抢跑下一项。auditedlocalready后复核全部artifact/1358frozenSHA和成功TERMs/MANIFEST，agent按owner-only metadata→max3chunkpipeline→rawfetch(download_raw_file=true,include_base64=false)→立即物化size/SHA→重组所有chunk/成员，保存complete_backup_20261031完整模型集，再latestparent expectedsha force=false发布真实score与原reference .9866666666666667+.005/1e-12 gate。若失败留trace先修，不当科学负结果。CPU100 fail只关确切100，不否定原1500TF；pass要另注册sourceconfirmation。**只有当前审计/注册gate收尾后**才正式选择一项未来OSCNN作者variant及测量前资源policy，接着cost/runner/auditor/远端preregreadback才能新fit；不混合residual/ensemble/pervar后称新方法。无需用户输入。
+
+源因历史8用户反复开发探索性，非独立测试/旧8折/原创贡献；7–8labels不用于新选择。准确率与创新目标未达，既有小时自动接续继续。原789快照/原数组/maps/实际IDs/模型不入Git或覆盖，Windows无依赖。OSCNN准备不是当前准确率结果。
+
 # 2026-10-31 — ResNet完整网络CPU100真实训练已启动，98Adam变量/64ID首步及3私有块保险完成
 
 8193a0ecb65bf2fa8c403271e7597d89403f9d0a的19新增/更新文件逐字远端读回、force=false推进后才物化marker并仅一次真实启动supervisor52481/worker52488。协议SHA cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca，1358本次science/源码/准备/1302runtimefiles/前任务关闭证明冻结项重核不变。完整834124总参数含BN非训练量/48trainabletensors/98nativeAdam变量，B64/100固定完整轮/seed20261029/1CPU，全90×567RMS/train3–6/val2/diag1；最新观察完成epoch8/592updates，每轮4700全记录/末28，按原strict最小trainloss best/ties留前及ReduceLR继续，无earlystop/配置更改。双最终预测未冻结、held1labels未读、7–8未用于新选择，**无最终诊断准确率/提升/目标达成结论**。100是前置规则CPU适配，非1500轮TF复现，未来100失败不否定1500准确率。
