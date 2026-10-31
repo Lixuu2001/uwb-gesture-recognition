@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_complete_audited_private_source_held1_99p4167_gate_passed_separate_source_confirmation_required",
+  "state": "HInception_source_sixfold_fixed_CPU100_preregistered_pending_exact_readback_and_single_launch",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -6238,5 +6238,31 @@
     "full_audit_complete": true,
     "original_failed_attempt_preserved": true,
     "diagnostic_summary_parsed_after_private_preservation": true
+  },
+  "hinception_source_sixfold_20261031": {
+    "state": "pre_registration_complete_not_launched",
+    "workspace": "/workspace/uwb-hinception-sixfold-20261031",
+    "protocol": "results/cloud_20261031_hinception_sixfold/study/PROTOCOL.json",
+    "frozen_hashes": "results/cloud_20261031_hinception_sixfold/study/FROZEN_HASHES.json",
+    "reused_held1_macro": 0.9941666666666666,
+    "new_held_users": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "fixed_epochs": 100,
+    "batch_size": 64,
+    "seed": 20261029,
+    "queue_slots": 2,
+    "training_steps": 36000,
+    "protocol_tests": 6,
+    "synthetic_native_state_pass": true,
+    "users7_8_labels_used": false,
+    "all_source_evidence_exploratory": true,
+    "new_training_started": false,
+    "complete_private_modelset_verified": false,
+    "novel_contribution_validated": false
   }
 }

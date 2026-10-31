@@ -1,3 +1,15 @@
+# 2026-10-31 — 固定H-Inception源用户确认代码与协议预登记，尚未启动新训练
+
+以最新远端b1ae88cbfeed1feee27e86bc674c601eeb26576f及四记录为准。已完成H pilot完整独立审计/私有恢复证据；held1 99.416667%相对固定98.666667%高0.75pp过原门槛。现单独登记source1–6确认，复用held1，仅新训held2–6，不切到Disjoint/MLSTM，不重训已有pilot。
+
+同一完整851434/601006模型、RMS90×567+作者channelznorm、100epoch/B64/seed20261029/原Adam与最低trainingloss选模固定。heldh/valh%6+1/其他四训练；五新折36000updates/2290000训练出现。producer和独立完整replay auditor均不索引本折诊断标签；五折双预测冻结且全审计通过后才统一评分。预登记对已审计LocalCNN和GAP各自要求mean>=+1pp、>=4/6strictwins、worst>=−2pp，失败关闭确切配置无救援扫参。不同预算/input管线比较非因果架构消融，用户7–8标签不用，全部source探索性，尚无原创/八折结论。
+
+6项协议测试通过；原held1初始化所有model/Adam/BN/metrics/RNG/callbacks/modes完全一致；variable-count合成3+2更新恢复/native观察隔离/跨折拒绝/train+eval sampler覆盖通过。登记前静态review修正继承的held1-only eval计数guard、pilot marker字符串和stdlib queue命名冲突；无新UWB值/标签/fit、无科学设置变更。1465冻结依赖SHA；实际4CPU/16GiB；最多两个独立job supervisor、各一线程train或audit，CPU计费分开。train43100wall/43000soft43100hardCPU，audit14400wall/14390soft14400hardCPU，无自动重试。
+
+当前尚未启动新训练。先将study/19文本文件与本四记录创建latest-parent unreferencedcommit，全部逐字节回读，再force=false/expected_sha推进；之后写准确marker，核查无重复进程/jobs/run01后只启动一次controller。运行receipt另存，不以预登记声称已启动。完成后完整新modelset私有备份全部成员回读再发最终均值，原始大数组/实际ID/model/runtime binaries不入Git。
+
+代码/协议/恢复说明：results/cloud_20261031_hinception_sixfold/study/。目标未达成，原有自动接续保持，不新建重复任务。
+
 # 2026-10-31 — H-Inception真实source-held1 99.416667%，对固定98.666667%高0.75pp过门槛；完整审计与7私有块/193成员回读完成
 
 先读fcb8c1afdbf544f063b3ed735510f1df229fd91f最新四记录、核对云端实际状态。手动修复fullaudit57621已exit0/no timeout，9955.080367621966wall/9953.554849CPU；完整100epoch/7400update/470000ID、所有初始/首步/best/last/finalprediction model/Adam/BN/metrics/callbacks/modes/allRNG、nativebest/last、6900rawRMS+原znorm、2200probs/decisions与全部1447SHA均通过。原attempt01 exit1/9453秒failure、Python-only observation隔离code/patch和所有原assert保持均保留，不重训、不改阈值。
