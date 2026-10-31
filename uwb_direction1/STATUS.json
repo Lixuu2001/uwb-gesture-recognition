@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_manual_repaired_full_audit_actually_running_original_failure_preserved",
+  "state": "HInception_complete_audited_private_source_held1_99p4167_gate_passed_separate_source_confirmation_required",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_audit_repair/RUNTIME_AND_CONTINUATION.md",
+  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_pilot/FINAL_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793438842.9450998,
   "background_training_pid": null,
-  "background_training_status_note": "Training remains complete. Original full audit failed on observational Python RNG side effect; preserved as audit_attempt01. Repair exact-readback commit d5c536e authorized one manual full re-audit, actually running supervisor57620/worker57621. No training restart, score release or next-method selection; full audit/private preservation pending.",
+  "background_training_status_note": "No active H pilot train/audit. Full repaired100epoch/7400step audit passed; all1447hashes verified and complete7privatechunk/193member modelset readback passed. Source-held1 macro99.416667% versus98.666667% reference,+0.75pp passes original0.5pp gate. Only next route is separately registered fixed-method source confirmation; no six/eightfold or originality conclusion.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Inspect manual repair driver57620/worker57621 and /workspace/uwb-hinception-audit-repair-20261031/STATE.json, canonical audit_supervisor01 TERM and COMPLETE_AUDIT before any action. Original root POSTPROCESS_STATE/AUDIT_INCOMPLETE refer to preserved attempt01, not this active attempt02. Do not duplicate audit/train or choose next real config/cost. Current driver runs full strict100epoch/7400update re-audit then local complete archive with original failure/repair evidence. After pass+exit0 verify all hashes, owner-only Drive metadata/authenticated raw fetch max3/base64false/materializeSHA/allmembers for full modelset, then publish audited score/original gate. Pass requires source confirmation; failed execution requires preserved engineering repair, no automatic retry or scientific negative.",
-  "last_completed_update_utc": "2026-10-31T12:34:03.554374+00:00",
+  "next_candidate": "HInception fixed CPU100 passed source-held1 gate with complete numerical audit/private preservation. Implement and separately remote-preregister source1..6 confirmation using unchanged full architecture/RMS+authorznorm/Adam/source strict training-loss selection/seed20261029/B64/100epochs; reuse audited held1, run only held2..6 with validationH%6+1 and otherfourtrain. Freeze all5new diagnostic predictions before aggregate scoring; users7-8 excluded. Compare frozen LocalCNN6 and GAP6 pipelines on exact same roles/quality IDs, disclose pipeline/budget differences; fix confirmation gate and independently bounded training/audits before real data. No Disjoint/MLSTM selection or diagnostic rescue while this route remains pending. Need source confirmation/matched ablations before any eightfold/originality claim; goal unresolved.",
+  "last_completed_update_utc": "2026-10-31T15:49:26.334240+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -4496,8 +4496,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": true,
-  "background_audit_pid": 57621,
+  "background_audit_running": false,
+  "background_audit_pid": null,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5170,7 +5170,7 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_supervisor_pid": 57620,
+  "background_audit_supervisor_pid": null,
   "oscnn_source_probe": {
     "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
@@ -5892,7 +5892,7 @@
     "used_by_registered_real_pilot": true
   },
   "hinception_accuracy_pilot": {
-    "state": "real_training_running_first_update_verified_private_first_snapshot",
+    "state": "complete_audited_private_source_pilot_gate_passed_confirmation_required",
     "workspace": "/workspace/uwb-hinception-pilot-20261031",
     "protocol": "uwb_direction1/research/hinception_pilot_20261031/PROTOCOL.json",
     "protocol_sha256": "8a97c1f8a1901004d81f03c03846cee15e9cedcd7bf1424d9ea62e974c3ed7fd",
@@ -5985,8 +5985,8 @@
       "full_job_resume_snapshot": false
     },
     "complete_audit_started": true,
-    "complete_audit_complete": false,
-    "complete_private_backup_done": false,
+    "complete_audit_complete": true,
+    "complete_private_backup_done": true,
     "diagnostic_labels_read": true,
     "all_final_predictions_frozen": true,
     "latest_observation": "uwb_direction1/results/cloud_20261031_hinception_pilot/LIVE_OBSERVATION.json",
@@ -6057,6 +6057,54 @@
       "original_evidence": "uwb_direction1/research/cloud_20261031_hinception_audit_repair/ORIGINAL_FAILURE.json",
       "full_numeric_audit_pass_claimed": false,
       "preserved_local_directory": "/workspace/uwb-hinception-pilot-20261031/audit_attempt01"
+    },
+    "scores": {
+      "validation": 0.9879999999999999,
+      "diagnostic": 0.9941666666666666
+    },
+    "reference_held1_macro": 0.9866666666666667,
+    "delta_diagnostic_percentage_points": 0.7499999999999951,
+    "known_baseline_expansion_eligible": true,
+    "predeclared_route": "known_baseline_source_confirmation",
+    "selected_epoch": 75,
+    "audit_artifact_hashes": 1447,
+    "audit_sha256": "09088bca39ed0cd965a5aa0a5d669f73fc56cced99a1bc34a027976bd3975623",
+    "audit_termination": {
+      "pid": 57621,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "supervisor_wall_seconds": 9955.080367621966,
+      "child_cpu_seconds": 9953.554849,
+      "cpu_soft_seconds": 14390,
+      "cpu_hard_seconds": 14400,
+      "scientific_negative": false
+    },
+    "training_termination": {
+      "pid": 54456,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "supervisor_wall_seconds": 9616.520260029007,
+      "child_cpu_seconds": 9614.596172,
+      "cpu_soft_seconds": 43000,
+      "cpu_hard_seconds": 43100,
+      "scientific_negative": false
+    },
+    "source_sixfold_confirmation_completed": false,
+    "eightfold_improvement_established": false,
+    "complete_private_backup": {
+      "state": "private_readback_verified",
+      "index": "uwb_direction1/results/cloud_20261031_hinception_pilot/complete_backup/DRIVE_BACKUP_RECEIPT.json",
+      "download_index": "uwb_direction1/results/cloud_20261031_hinception_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+      "archive_bytes": 50350252,
+      "archive_sha256": "4110292ce8f3c1093d5e7fdba5e2c928d7c2b2666a1724c8f2f349d69081e8c4",
+      "receipt_sha256": "f7e1f46b98fe02782a954870986ce2a3b1e3b5a8c15f088f6fa6003e17de2771",
+      "chunks": 7,
+      "payload_members": 192,
+      "archive_members": 193,
+      "all_completed_models_included": true,
+      "standalone_complete_modelset_recoverable": true,
+      "original_failure_and_repair_code_included": true,
+      "whole_job_resume": false
     }
   },
   "disjoint_cnn_source_preparation": {
@@ -6160,7 +6208,7 @@
     "queue_note": "Additional published baseline preparation; prepared Disjoint candidate and current H audit/gate remain ahead; no real ordering/configuration selected from new scores"
   },
   "hinception_audit_manual_repair": {
-    "state": "manual_full_reaudit_actually_running",
+    "state": "complete_audit_pass_and_full_private_readback_verified",
     "code": "uwb_direction1/research/cloud_20261031_hinception_audit_repair",
     "report": "uwb_direction1/results/cloud_20261031_hinception_audit_repair/REPAIR_AND_RERUN.md",
     "manifest_sha256": "1a9b20099ee9e710796ccd65a1577610407e83cafeb28b4e6d201ff5e62bc843",
@@ -6181,11 +6229,14 @@
     "complete_archive_builder_includes_original_failure_and_repair": true,
     "automatic_retry": false,
     "repair_commit": "d5c536eb95a2875b2f5cc3157b142dfd673c33f4",
-    "supervisor_driver_pid": 57620,
-    "audit_worker_pid": 57621,
+    "supervisor_driver_pid": null,
+    "audit_worker_pid": null,
     "local_state": "/workspace/uwb-hinception-audit-repair-20261031/STATE.json",
     "runtime_observation": "uwb_direction1/results/cloud_20261031_hinception_audit_repair/LIVE_OBSERVATION.json",
     "original_failure_preservation_receipt": "uwb_direction1/results/cloud_20261031_hinception_audit_repair/PRESERVED_FAILURE_RECEIPT.json",
-    "complete_private_backup_done": false
+    "complete_private_backup_done": true,
+    "full_audit_complete": true,
+    "original_failed_attempt_preserved": true,
+    "diagnostic_summary_parsed_after_private_preservation": true
   }
 }

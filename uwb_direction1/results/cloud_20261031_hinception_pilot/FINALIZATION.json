@@ -1,0 +1,30 @@
+{
+  "state": "complete_audited_private_source_pilot_gate_passed_confirmation_required",
+  "observed_utc": "2026-10-31T15:48:09.823174+00:00",
+  "scores": {
+    "validation": 0.9879999999999999,
+    "diagnostic": 0.9941666666666666
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "diagnostic_gain_percentage_points": 0.7499999999999951,
+  "known_baseline_expansion_eligible": true,
+  "predeclared_route": "known_baseline_source_confirmation",
+  "epochs": 100,
+  "updates": 7400,
+  "selected_epoch": 75,
+  "audit_sha256": "09088bca39ed0cd965a5aa0a5d669f73fc56cced99a1bc34a027976bd3975623",
+  "audit_artifact_hashes_reverified": 1447,
+  "complete_private_receipt_sha256": "f7e1f46b98fe02782a954870986ce2a3b1e3b5a8c15f088f6fa6003e17de2771",
+  "complete_private_archive_sha256": "4110292ce8f3c1093d5e7fdba5e2c928d7c2b2666a1724c8f2f349d69081e8c4",
+  "complete_private_archive_bytes": 50350252,
+  "chunks": 7,
+  "payload_members": 192,
+  "archive_members": 193,
+  "original_failed_attempt_preserved": true,
+  "full_job_resume_snapshot": false,
+  "users7_8_labels_used": false,
+  "source_sixfold_confirmation_completed": false,
+  "legacy_eightfold_improvement_established": false,
+  "independent_validation": false,
+  "original_contribution_validated": false
+}

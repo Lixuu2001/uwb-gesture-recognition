@@ -1,0 +1,55 @@
+{
+  "state": "private_persistent_complete_modelset_download_index",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "hinception_complete_20261031.tar.gz",
+  "archive_bytes": 50350252,
+  "archive_sha256": "4110292ce8f3c1093d5e7fdba5e2c928d7c2b2666a1724c8f2f349d69081e8c4",
+  "members_manifest_sha256": "9d4c6334ff5b02f7da2f5255224df272633f1a19bcd0a2465a7a75f367bed67e",
+  "chunks": [
+    {
+      "name": "hinception_complete_20261031.part000",
+      "file_id": "1lOjibrfoXzeq54aZZBtKnAO-4j0s1J47",
+      "bytes": 7340032,
+      "sha256": "6b43d9d9d856ef122506406078c0d9ad5529f85803bd77ab0f6dc04067f4cfab"
+    },
+    {
+      "name": "hinception_complete_20261031.part001",
+      "file_id": "1smwGPidk290_mgwMj09CLM5wcZVK_iDW",
+      "bytes": 7340032,
+      "sha256": "55e39c4ce519dc276b7fdcca2c5506d6fda756394fe7fa54a59ea9defb4a951d"
+    },
+    {
+      "name": "hinception_complete_20261031.part002",
+      "file_id": "18WUhJTrFNRfcV9k7ryNdCkU3x2TQIEJU",
+      "bytes": 7340032,
+      "sha256": "5656cf8a8d75ba59cbb390de621305102b2900c62d3a1c3eb60b368b146ffec0"
+    },
+    {
+      "name": "hinception_complete_20261031.part003",
+      "file_id": "1rfaOhakihiX1UVJqajsrE3Bsikr8SqL5",
+      "bytes": 7340032,
+      "sha256": "d7460d566d03b082a88782ea0a89dddf12f477853cf0a0480b40dd1147eeaf33"
+    },
+    {
+      "name": "hinception_complete_20261031.part004",
+      "file_id": "1nW2UDSd2ZKimswgcGWWhlOVRqj5jlkJN",
+      "bytes": 7340032,
+      "sha256": "5e9445e17613549ff64f204b2c1616a6a5e900734b61aaa6fee1c00eb2466cf8"
+    },
+    {
+      "name": "hinception_complete_20261031.part005",
+      "file_id": "18J6SJKh8UIew4XhNBFcmlKpuItTcRAXZ",
+      "bytes": 7340032,
+      "sha256": "4d8c86ea149c258d55c3f0f3b8cc1a8d11b6bd93dc33374bc2d1bc98520d6bae"
+    },
+    {
+      "name": "hinception_complete_20261031.part006",
+      "file_id": "1_SgPm0H5PtxIHvgzFtPqyRa6C9_nDbsF",
+      "bytes": 6310060,
+      "sha256": "221bcab7001b7f64e9f1176a1672f02dd7c5fae4802096f94196f16c7cfe6b2b"
+    }
+  ],
+  "download_rule": "Metadata owner-private/parent/size/MIME first; fetch(download_raw_file=true,include_base64=false); immediately materialize size/SHA; max3 concurrent; concatenate in listed order then verify all MEMBERS entries.",
+  "raw_authentication_URLs_included": false,
+  "whole_environment_resume_claim": false
+}
