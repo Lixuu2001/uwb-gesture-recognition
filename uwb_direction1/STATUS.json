@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "uwb_direction1/research/cloud_20261031_disjoint_source/PAPER_ACCESS.json",
+  "latest_literature_note": "uwb_direction1/research/cloud_20261031_mlstmfcn_source/PAPER_REVIEW.json",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Existing HInception full numerical audit supervisor55820/worker55822 under controller54482 remains active; inspect TERMs/COMPLETE_AUDIT/POSTPROCESS first and do not duplicate or choose next actual policy/config/cost while audit/private complete preservation pending. After successful full audit verify hashes and private raw-readback all modelset members, then release audited scores/apply original gate. Pass requires separate source confirmation; exact verified closure permits one fixed actual Disjoint cost policy. Future remotely registered UWB runner must call new require_cost_and_registration to bind measured cost evidence and exact seed/B/E/preprocessing, plus source split/data guards. Prepared tools and synthetic metadata fixtures are not a registered runner, real measurements or accuracy results.",
-  "last_completed_update_utc": "2026-10-31T09:47:49.122335+00:00",
+  "next_candidate": "Finish existing HInception full audit55820/55822/controller54482 and private full modelset preservation before score/gate/new actual selection. Do not duplicate train/audit/cost or read diagnostic summary early. Pass needs source confirmation; exact verified closure permits next single fixed cost policy and remotely registered runner/auditor. Disjoint-CNN remains previously prepared candidate with exact cost evidence binding. MLSTM-FCN full documented8-cell native source preparation is an additional option only, with known legacy recurrent-gate difference and no actual UWB configuration/cost/fit. Synthetic checks are not accuracy results.",
+  "last_completed_update_utc": "2026-10-31T10:52:20.641706+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -6115,5 +6115,31 @@
     "current_H_full_audit_active": true,
     "all1423_current_science_and19_artifact_SHA_unchanged": true,
     "accuracy_or_originality_claim": false
+  },
+  "mlstm_fcn_source_preparation": {
+    "state": "pass_full_documented_MLSTM_FCN8_structure_and_native_synthetic_only",
+    "code": "uwb_direction1/research/cloud_20261031_mlstmfcn_source",
+    "report": "uwb_direction1/results/cloud_20261031_mlstmfcn_source/REVIEW_AND_IMPLEMENTATION.md",
+    "paper_doi": "10.1016/j.neunet.2019.04.014",
+    "selected_fulltext_sections_read": true,
+    "source_commit": "85100ccfec7ee08106b3a25906a0c9c707e1b7ab",
+    "paper_linked_repo_commit": "84a2e6c0fdef811920483723ac1aaf29d6b8dc7f",
+    "same_model_blob_both_repos": "6d425bda53e84b0c9d6c620a016f29b903807ae6",
+    "source_files_local_verified": 9,
+    "source_files_redistributed_in_Git": false,
+    "full_documented_LSTM8_conv128_256_128_SE16_variant": true,
+    "total_parameters": 860364,
+    "trainable_parameters": 859340,
+    "native_Adam_variables": 44,
+    "independent_NumPy_masked_LSTM_and_both_SE_references": true,
+    "restore_model_Adam_BN_metrics_global_layer_RNG_modes_exact": true,
+    "native_keras_weights_optimizer_reload_exact": true,
+    "native_keras_layer_RNG_reload_equal": false,
+    "legacy_gate_difference": "nativeKeras3 sigmoid versus Keras2.1.2 hard_sigmoid; historical TF parity not claimed",
+    "initial_engineering_assertion_repaired": "unseeded Torch dropout consumes global Torch RNG, not layer counters; original model unchanged; failed attempt retained",
+    "formal_CPU_cost_or_actual_UWB_configuration_selected": false,
+    "UWB_values_labels_fit": false,
+    "accuracy_or_originality_claim": false,
+    "queue_note": "Additional published baseline preparation; prepared Disjoint candidate and current H audit/gate remain ahead; no real ordering/configuration selected from new scores"
   }
 }

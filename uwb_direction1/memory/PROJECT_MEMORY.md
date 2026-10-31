@@ -1,3 +1,15 @@
+# 2026-10-31 — 新核查MLSTM-FCN方法全文相关章节与作者结构实现；合成恢复通过，H原审计仍active
+
+先读18eb1aebe026c64f9688319f6d883080bf9ac0a9最新四记录及云端进程。H原fullaudit55820/55822/controller54482仍active，1423science/runtime冻结和19完成产物SHA均不变，完整audit/complete private未就绪，无新分数、不解析diag SUMMARY、不重复启动或选下一实际配置/cost。
+
+继续找可运行已发表强基线：Karim/Majumdar/Darabi/Harford，Multivariate LSTM-FCNs，Neural Networks116(2019)237–245，DOI10.1016/j.neunet.2019.04.014，arXiv1801.04503v2。已读所需architecture/input/training/results/shuffleablation等全文章节，非所有图/参考文献穷尽；PubMed校准citation。最新四records及original789 exactMLSTM/LSTM-FCN词检索0，有限lexicalscope非全面equivalence或创新证明。titu1994作者repo85100ccfec7ee08106b3a25906a0c9c707e1b7ab，paper链接houshd repo84a2e6c0fdef811920483723ac1aaf29d6b8dc7f，两repo gesture_phase_model.py同blob6d425bda53e84b0c9d6c620a016f29b903807ae6；9原文件Gitblob/size/SHA验证，仅local_author_sources本地保留，repo license metadata null所以原文件不再分发到Git；Git只index/自写adapter/test/真实合成log，可用connector按commit自动取回，非要求用户拖文件。
+
+执行原generate_model和SE函数AST/nativeKeras，仅_keras_shape→shape一属性适配，保留完整Conv128/256/128/k8/5/3/BN/ReLU/两SE16/Masking/LSTM8/Dropout0.8/Permute，input567×90，固定12taxonomy。860364total/859340trainable/21tensors/44Adam/2layerRNG，独立整数count吻合。这是作者完整8-cell文档variant，非把另128-cellUwave缩小，也不称整套8/64/128grid已跑；paper250/sourceGesture1000/Uwave500/helper50及normalization/ReduceLR/legacyclassweightarray差异记录，未选实际UWB设置。原dimensionShuffle扫描567step，变量多于90时间点，不预言CPU收益。
+
+实际合成检查pass：独立NumPy567step masked LSTM与两SE数学参考，3updates保存→2updates、fresh恢复→同2updates，model/Adam/BN/metrics/globalRNG/layerRNG/modulemodes全部exact；native.keras weights/optimizer精确，layerRNG回载不一致，不能仅凭.keras声称完整训练resume。首attempt误判layercounter应变化，查pinnedTorch backend明确unseededDropout使用globalTorch RNG且layercounter不变；仅修fixture断言和submodel input结构warning，model/Dropoutseed/optimizer/backend不变、exact比较不放松，失败source/log与ENGINEERING_REPAIR保留。attempt02工程4.514796秒非正式CPUcost。现代nativeLSTM recurrent sigmoid不同历史Keras2.1.2默认hard_sigmoid（pinned26d5e100148272166868da8f817e1a4fb49e34cc），明确兼容迁移，不冒称原TF数值复现。
+
+代码/证据research/cloud_20261031_mlstmfcn_source/，报告results/cloud_20261031_mlstmfcn_source/REVIEW_AND_IMPLEMENTATION.md。1302原隔离runtimefiles/helperrefs再核、无global改动。**无MLSTM实际UWB runner/auditor/config/seed/cost选择或数据标签读取/训练/分数，无提升/原创结论；仅额外source/synthetic候选，既有Disjoint准备和H原收尾优先不变。** 后续先现有audit成功TERM+全hash+owner-private原始认证rawfetch/即物化SHA/max3/全成员fullbackup，再原gate；pass须source确认，exactclose才下一单项cost+远端真实协议，不能diag救援。准确率价值与原创证据分开，all8历史探索性，7–8不作新选择；目标未达、既有接续保持。原789/真实数组ID值/模型/二进制不修改或入Git。以下保留历史。
+
 # 2026-10-31 — 下一Disjoint实际协议的成本证据绑定API完成；H原数值审计仍在执行，无新分数
 
 先读ded304fa56130d3c498668b8209976a5da7f4116最新四记录、同一云端进程。H fullaudit55820/55822、controller54482仍active，1423冻结source/science/runtime SHA和19完成产物SHA全不变；audit TERM/COMPLETE_AUDIT/full private未就绪。本轮无新分数、不解析diag SUMMARY、不重复train/audit/download、不选下一真实policy/config/cost。现有完整数值重放仍是当前实际实验接续，不以元数据核验代替。
