@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-litemv-source-probe-20261031/fit_semantics_check.py", line 59, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-litemv-source-probe-20261031/fit_semantics_check.py", line 44, in main
+    equal(rec.epochs,epochs);equal(rec.batches,batches);equal(native_best.get_weights(),best.get_weights());equal([v.numpy() for v in native_best.optimizer.variables],[v.numpy() for v in best.optimizer.variables]);equal(callbacks_state(h),callbacks_state(h2))
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-litemv-source-probe-20261031/native_litemv.py", line 53, in equal
+    for x,y in zip(a,b):equal(x,y)
+                        ^^^^^^^^^^
+  File "/workspace/uwb-litemv-source-probe-20261031/native_litemv.py", line 49, in equal
+    assert set(a)==set(b)
+           ^^^^^^^^^^^^^^
+AssertionError

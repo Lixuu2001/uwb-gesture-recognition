@@ -1,0 +1,15 @@
+{
+  "state": "fixed_synthetic_fixture_log_capture_without_dropping_keys",
+  "attempt01_exit_code": 1,
+  "attempt01_source_sha256": "c7b91e0f5160aff8849f89ec0ab2eb6a2ae7f0558bcf93cb56ea200900204812",
+  "attempt01_log_sha256": "02158f9e56df7aae2196ad4651c7850a46dd6230850874d20b054db547d9065c",
+  "failure": "Epoch log key mismatch: native callback log contains learning_rate, explicit retained pre-callback dictionary. Model/optimizer/metrics equality had already passed.",
+  "source_evidence": "Pinned Keras CallbackList.on_epoch_end calls pythonify_logs (copies dict); ReduceLROnPlateau inserts learning_rate in copied callback dict.",
+  "repair": "Capture Recorder post-callback dictionary, retaining exact full-key/full-value comparisons.",
+  "repaired_source_sha256": "c2a21b9e7bdc4046bf2eb546b742a7325c64050d93cf950a14aeec18b844964f",
+  "attempt02_log_sha256": "67dee691001c8eb576a58c0acbab5aadfd70882fcd1f260174b102f592afdc2c",
+  "attempt02_exit_code": 0,
+  "all_checks_passed": true,
+  "scientific_configuration_or_real_UWB_data_changed": false,
+  "real_UWB_values_labels_or_fit": false
+}
