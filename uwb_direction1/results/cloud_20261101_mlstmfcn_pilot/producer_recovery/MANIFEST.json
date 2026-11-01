@@ -1,0 +1,75 @@
+{
+  "state": "immutable_completed_full_MLSTM_training_producer",
+  "scope": "completed_full250_training_producer_numeric_audit_pending_not_certified",
+  "created_utc": "2026-11-01T15:23:59.929400+00:00",
+  "epochs": 250,
+  "updates": 9250,
+  "training_appearances": 1175000,
+  "selected_epoch": 250,
+  "all_produced_initial_first_best_last_final_and_native_checkpoints_included": true,
+  "numeric_audit_certified_by_this_snapshot": false,
+  "complete_modelset_verified": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Complete immutable training producer bytes/IDs/logs/unscored predictions and successful train termination only. Independent full numerical audit runs separately and is not certified by this archive. Not a complete audited modelset, score authorization, accuracy or originality result. Raw/maps/runtime restore separately.",
+  "archive_name": "mlstmfcn250_completed_producer_20261101.tar.gz",
+  "archive_bytes": 71682435,
+  "archive_sha256": "b1161134622de9415827c23c0d5db4a17aee27a86e2f0f40b4e084ed6fbab60d",
+  "members_manifest_sha256": "b6617010bcff5be03f6d48a0054342e7f5276ff85de6474a3ed4cda6a43af318",
+  "tracked_payload_files": 112,
+  "chunks": [
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part000",
+      "bytes": 7340032,
+      "sha256": "56ca05824c477bb78a7dd05083d4ebb8e6a38c038975821bab2c81248c2ac399"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part001",
+      "bytes": 7340032,
+      "sha256": "d23fa507dbf46e01bc73212b15aa18e678b5fb0451833420e3435c92ca967d6f"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part002",
+      "bytes": 7340032,
+      "sha256": "20b8902cc553d04720b5de684099653c5baec1e6d7a140fb681413270c10a700"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part003",
+      "bytes": 7340032,
+      "sha256": "b2b3238585516cfb9207bf202fa8eb3f35e512d359f3ca36ae1ba06c0c20aff4"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part004",
+      "bytes": 7340032,
+      "sha256": "9908857a2c1d3404ad3110947299a70bca785fbe9f47dcbf5d7b1754d5cca00f"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part005",
+      "bytes": 7340032,
+      "sha256": "4ee57f43336fc40e25ea52ce1182c1743a63d3b73bc79d0a16eaec0546e6900a"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part006",
+      "bytes": 7340032,
+      "sha256": "e530e8ac05a209423cd881aefa71fc5a850c4c386687f9c90499808d2261cf9e"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part007",
+      "bytes": 7340032,
+      "sha256": "6bc75b3998c3cc864938437adda09dfa24ad09ff2972edec75ce212e897cb4cd"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part008",
+      "bytes": 7340032,
+      "sha256": "66696ee8eac209110d26dc1b7f85dca00f02796860836349525c38bfed5a00d8"
+    },
+    {
+      "name": "mlstmfcn250_completed_producer_20261101.part009",
+      "bytes": 5622147,
+      "sha256": "3474f1fc58df2d3e5758d4e2470c2b18d1bb0f45a0415957b080b24449bc0cec"
+    }
+  ]
+}

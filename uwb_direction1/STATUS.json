@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MLSTM_FCN250_real_training_active_initial_first_private_insurance_verified",
+  "state": "MLSTM_FCN250_training_complete_full_numeric_audit_active_producer_private_recovery_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261101_mlstmfcn_pilot/LAUNCH_AND_FIRST_INSURANCE.md",
+  "latest_report": "results/cloud_20261101_mlstmfcn_pilot/TRAINING_COMPLETION_AND_PRODUCER_RECOVERY.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -4496,8 +4496,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": false,
-  "background_audit_pid": null,
+  "background_audit_running": true,
+  "background_audit_pid": 67737,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5170,7 +5170,7 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_supervisor_pid": null,
+  "background_audit_supervisor_pid": 67053,
   "oscnn_source_probe": {
     "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
@@ -6404,7 +6404,7 @@
     "source_sixfold_confirmation_completed": true,
     "eightfold_improvement_established": false
   },
-  "next_action_source_confirmation": "Existing MLSTM controller67053/worker67054 actually training full250/B128/seed20261029; initial/first immutable states privately verified3chunks95members. Observe existing process/checkpoints; do NOT relaunch/download/change frozen1541 files or rerun integration tests that overwrite frozen checks/logs. Controller automatically full-audits after training success, then stops unscored. Require complete backup to pilot/complete_backup and full private raw readback before finalize.py diagnostic score once; pass separate source6, fail exact closure, no users7-8 selection.",
+  "next_action_source_confirmation": "MLSTM full250/B128/seed20261029 training finished9250updates/1175000appearances; original controller67053 and full replay audit67737 actually active. Completed producer all checkpoints/IDs/logs/preds privately readback verified10chunks113members but no numerical-audit or score authorization. Do not restart/change frozen1541files or rerun tests. After fullaudit success and controller end, complete backup.py complete to pilot/complete_backup, raw full private readback and full receipt, then finalize.py exactly once. Pass separate source6, fail exact close; user7-8 excluded.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6424,7 +6424,7 @@
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes",
     "real_ablation_closed_by_source6_gate_failure": true
   },
-  "background_numeric_audit_running": false,
+  "background_numeric_audit_running": true,
   "background_experiment_queue_running": true,
   "disjoint_cnn_formal_cost_20261101": {
     "state": "actual_synthetic_profile_successfully_completed_full500_B8_resource_closed",
@@ -6511,7 +6511,7 @@
     "real_UWB_runner_auditor_registered": false
   },
   "mlstm_fcn_accuracy_pilot_20261101": {
-    "state": "real_full250_training_active_first_state_verified_partial_insurance_private",
+    "state": "full250_training_complete_original_full_numeric_audit_active",
     "workspace": "/workspace/uwb-mlstmfcn-pilot-20261101",
     "protocol": "results/cloud_20261101_mlstmfcn_pilot/study/PROTOCOL.json",
     "frozen_hashes": "results/cloud_20261101_mlstmfcn_pilot/study/FROZEN_HASHES.json",
@@ -6556,10 +6556,10 @@
     "automatic_resume": false,
     "registration_commit": "17b4d80e0c5903d0a36b9ff9fd0aa8ad22916753",
     "controller_pid": 67053,
-    "training_worker_pid": 67054,
-    "observed_epoch": 3,
-    "observed_steps": 111,
-    "observed_utc": "2026-11-01T11:46:48.098113+00:00",
+    "training_worker_pid": null,
+    "observed_epoch": 250,
+    "observed_steps": 9250,
+    "observed_utc": "2026-11-01T15:27:46.343538+00:00",
     "first_update_verified": true,
     "first_batch_size": 128,
     "first_private_insurance_verified": true,
@@ -6567,8 +6567,28 @@
     "first_private_insurance_chunks": 3,
     "first_private_insurance_members": 95,
     "first_private_insurance_index": "results/cloud_20261101_mlstmfcn_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
-    "latest_weights_privately_preserved": false,
+    "latest_weights_privately_preserved": true,
     "diagnostic_labels_scored": false,
-    "full_audit_complete": false
+    "full_audit_complete": false,
+    "completed_training_worker_pid": 67054,
+    "audit_worker_pid": 67737,
+    "training_complete": true,
+    "training_appearances": 1175000,
+    "selected_epoch": 250,
+    "training_termination": {
+      "pid": 67054,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "supervisor_wall_seconds": 10120.495430208044,
+      "child_cpu_seconds": 10119.28046,
+      "cpu_soft_seconds": 43000,
+      "cpu_hard_seconds": 43100,
+      "scientific_negative": false
+    },
+    "producer_private_recovery_verified": true,
+    "producer_private_recovery_scope": "completed_full250_training_producer_numeric_audit_pending_not_certified",
+    "producer_private_recovery_chunks": 10,
+    "producer_private_recovery_members": 113,
+    "producer_private_recovery_index": "results/cloud_20261101_mlstmfcn_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json"
   }
 }
