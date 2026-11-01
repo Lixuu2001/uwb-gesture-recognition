@@ -1,0 +1,22 @@
+{
+  "state": "verified_actual_full_MLSTM_FCN8_250_B128_synthetic_cost",
+  "registration_commit": "3f0007c2d40383d332975e86d10014db8e899a6e",
+  "policy_sha256": "9b27a95da0ad08c93c6593783828e98ad8a2684986fab166fefb5f4826541c75",
+  "profiler_sha256": "c7e1a50ab8ce0e85695d829dd19de6a28658e48b566f9485393e6e82909ad086",
+  "result_sha256": "530919b5e2553a071084ca11a581f46d60e2194716b9d3307ef8ea11fc0fdbd4",
+  "declaration_sha256": "110491b3339cbb0b96da6a1f16acf596197c503c662ffb35c231eda9fd0c9812",
+  "termination_sha256": "466b637a92fa0bde793b68952961c5c9767ea846e76304adec824cdd6ba7ea84",
+  "profile_completed_successfully": true,
+  "profile_exit_code": 0,
+  "resource_gate_passed": true,
+  "estimated_full250_seconds": 21684.352822553366,
+  "estimated_full250_hours": 6.023431339598157,
+  "resource_budget_seconds": 43200,
+  "memory_gate_passed": true,
+  "max_RSS_KiB": 822652,
+  "next_action": "separately_register_actual_UWB_epoch_callback_engine_protocol_and_full_auditor",
+  "accuracy_measured": false,
+  "real_UWB_values_labels_fit": false,
+  "historical_TF_parity": false,
+  "no_smaller_epoch_batch_fallback": true
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MLSTM_FCN8_single_paper250_B128_synthetic_cost_preregistered_pending_execution",
+  "state": "MLSTM_FCN8_full250_B128_cost_pass_epoch_engine_synthetic_verified_requires_real_runner_auditor",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "research/cloud_20261101_mlstmfcn_formal_cost/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261101_mlstmfcn_formal_cost/ACTUAL_COST_AND_ENGINE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -3402,7 +3402,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "results/cloud_20261101_disjoint_formal_cost/ACTUAL_COST_REPORT.md",
+  "latest_completed_report": "results/cloud_20261101_mlstmfcn_formal_cost/ACTUAL_COST_AND_ENGINE.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -6202,7 +6202,7 @@
     "native_keras_layer_RNG_reload_equal": false,
     "legacy_gate_difference": "nativeKeras3 sigmoid versus Keras2.1.2 hard_sigmoid; historical TF parity not claimed",
     "initial_engineering_assertion_repaired": "unseeded Torch dropout consumes global Torch RNG, not layer counters; original model unchanged; failed attempt retained",
-    "formal_CPU_cost_or_actual_UWB_configuration_selected": false,
+    "formal_CPU_cost_or_actual_UWB_configuration_selected": true,
     "UWB_values_labels_fit": false,
     "accuracy_or_originality_claim": false,
     "queue_note": "Additional published baseline preparation; prepared Disjoint candidate and current H audit/gate remain ahead; no real ordering/configuration selected from new scores"
@@ -6404,7 +6404,7 @@
     "source_sixfold_confirmation_completed": true,
     "eightfold_improvement_established": false
   },
-  "next_action_source_confirmation": "Finish exact remote MLSTM-FCN8 cost preregistration/readback then execute one bounded synthetic full250/B128/seed20261029 profile. Resource pass requires separately registered real UWB epoch/callback engine and full auditor; failure closes exact policy without reduced budget or accuracy inference. H CPU100 source6 and Disjoint full500/B8 policies remain closed. Users7-8 excluded.",
+  "next_action_source_confirmation": "MLSTM full documented8/Conv128-256-128+SE paper250/B128/seed20261029 passed actual6.02h synthetic cost; complete native epoch/callback/custom-state engine synthetic checks pass. Next implement fixed source-held1/validation2 real sample-ID guard, persistent full250 runner and independent raw RMS/full numerical replay auditor, freeze protocol and accuracy gate, remote exact-readback then launch one real UWB pilot. Do not stop at additional abstracts; no current real MLSTM fit/score. Preserve7-8 exclusion and exploratory source disclosure; H CPU100 and Disjoint500/B8 remain closed.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6456,7 +6456,7 @@
     "verified_result": "research/cloud_20261101_disjoint_formal_cost/VERIFIED_COST_RESULT.json"
   },
   "mlstm_fcn_formal_cost_20261101": {
-    "state": "fixed_single_synthetic_cost_preregistration_pending_exact_readback",
+    "state": "actual_bounded_synthetic_profile_passed",
     "workspace": "/workspace/uwb-mlstmfcn-formal-cost-20261101",
     "paper_doi": "10.1016/j.neunet.2019.04.014",
     "variant": "complete_documented_LSTM8_Conv128_256_128_SE16",
@@ -6479,8 +6479,35 @@
     "source9_original_and_preparation_hashes_reverified": true,
     "actual_pre_access_guard_passed": true,
     "arithmetic_guard_tests": 4,
-    "profile_started": false,
+    "profile_started": true,
     "UWB_values_labels_fit": false,
+    "real_UWB_runner_auditor_registered": false,
+    "profile_completed": true,
+    "profile_running": false,
+    "registration_commit": "3f0007c2d40383d332975e86d10014db8e899a6e",
+    "child_pid": 66028,
+    "termination_exit_code": 0,
+    "estimated_full250_seconds": 21684.352822553366,
+    "estimated_full250_hours": 6.023431339598157,
+    "max_RSS_KiB": 822652,
+    "resource_gate_passed": true,
+    "verified_result": "research/cloud_20261101_mlstmfcn_formal_cost/VERIFIED_COST_RESULT.json",
+    "accuracy_measured": false
+  },
+  "mlstm_fcn_epoch_engine_20261101": {
+    "state": "pass_synthetic_full_MLSTM_epoch_callbacks_fullstate_prediction_replay",
+    "workspace": "/workspace/uwb-mlstmfcn-engine-20261101",
+    "code": "research/cloud_20261101_mlstmfcn_engine",
+    "full_architecture_preserved": true,
+    "synthetic_epochs": 3,
+    "synthetic_updates": 9,
+    "initial_first_epoch_state_restoration_exact": true,
+    "epoch1_restore_next2_states_and_predictions_exact": true,
+    "native_best_weight_optimizer_strict_trainloss_selection_checked": true,
+    "identity_settings_cursor_rejections": 3,
+    "numeric_input_label_rejections": 7,
+    "native_fit_DataAdapter_RNG_parity_claim": false,
+    "real_UWB_values_labels_fit": false,
     "real_UWB_runner_auditor_registered": false
   }
 }

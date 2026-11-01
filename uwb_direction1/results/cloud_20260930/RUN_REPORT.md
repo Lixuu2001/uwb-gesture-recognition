@@ -1,3 +1,21 @@
+# 2026-11-01 — MLSTM-FCN完整250/B128实际CPU测量通过（6.02h估算），新增完整epoch/callback/fullstate引擎且合成重放通过；真实UWB尚未启动
+
+先按383300cb895c9ac847b258c89e4f153397d1f549读取四主记录/核查同一cloud原进程与检查点，未重复下载或启动旧实验。MLSTM成本固定policy/代码/依赖/guard/四项算式测试等17文件已在3f0007c2d40383d332975e86d10014db8e899a6e预登记并逐字回读，marker匹配后才启动单次实际synthetic profile。H CPU100六折和Disjoint full500/B8关闭结论维持，均不救配置。
+
+实际profile child66028 exit0/no timeout，独立supervisor wall29.372629039920866s/CPU29.298046s。完整860364total/859340trainable，固定LSTM8、Conv128/256/128+SE16+Masking+Dropout0.8、LSTM567步/CNN90步，8合成weightedtrain/4unweighted eval/3native保存/3custom全state保存完成。max train1.0505515129771084s、eval0.5040158680640161s、native save0.0478924629278481s、fullsave0.0703370759729296s；RSS822652KiB。冻结公式估计full250为21684.352822553366s=6.023431339598157h，低于43200s，内存也过；不是准确率结果。verify_result复核policy/declaration/成功TERM/完整结构/每条timingvector/原算式和resource decision通过。
+
+当前完整配置是paper/README250epochs、B128、seed20261029，未缩小或扫8/64/128-cell/epoch/batch；gesture脚本1000/Uwave500差异及nativeKeras3 sigmoid不同于legacy2.1.2 hard_sigmoid均保留披露，不冒充旧TF数值复现。没有UWB值、标签或fit，也没有新的准确率。
+
+资源通过后新增真实可运行完整native epoch/callback/state接口engine.py：显式参数、固定12head/仅训练类inversefreqweights、未加权val、source helper checkpoint/ReduceLR顺序、strict minimum weightedtrainloss选择、patience100/factor1/cuberoot2/minlr1e-4；全native.keras替代weights-only文件用于审计证据，但custom状态仍必要。每batch返回准确indices/cursor/累计metrics/由trackerdelta得batchloss，可hook持久ID与firstupdate。Torch Generator(seed+zero-basedepoch)独立sampler不消耗globalRNG；这是显式协议适配，不称native.fit DataAdapter shuffle/RNG等价。
+
+使用同完整模型合成5train/3val、B2/seed7、3epoch9updates做engine检查，B2/小样本仅工程fixture，不是实际配置替换。initial与firstupdate全状态恢复精确；epoch1保存到磁盘并freshrestore后继续两epoch，全部metrics/IDs次序/weights/Adam/BN/callback/metrics/global+layerRNG/modulemodes及predictions逐项一致；native best权重和Adam等于strict最低trainloss轮；独立classcounts权重正确，3身份/settings/cursor错误在模型变更前拒绝、7shape/dtype/label错误拒绝、samplercoverage/repeat/globalRNG检查通过。首次check也通过，final增加initial/firstupdate覆盖并删unused test code，两个真实log保留，无失败隐瞒。原native masked LSTM/SE独立NumPy检查及源9文件/prepare hashes继续不变。
+
+本轮完成实际cost和具体engine实现，**尚无真实UWB数据入口/固定pilot角色与准确率门槛的正式协议、完整runner/fullauditor，也没有后台训练**。下一步使用已固定候选实现user1held/user2val/其余source训练的ID guard、真实全epoch持久runner、原始RMS独立参考/全重放auditor、private checkpoint流程，再远端exact登记后方可加载真实值/标签与启动；不能把资源通过或合成9update当真实准确率。不要无界停在文献摘要或从旧H/user7–8诊断误差重新挑模型/参数。
+
+报告results/cloud_20261101_mlstmfcn_formal_cost/ACTUAL_COST_AND_ENGINE.md，原始timings/declaration/TERM/verified result在research/cloud_20261101_mlstmfcn_formal_cost；具体engine/check/log/hash在research/cloud_20261101_mlstmfcn_engine。论文仍Karim等Neural Networks2019 DOI10.1016/j.neunet.2019.04.014/arxiv1801.04503v2，已读架构/训练/消融章节，本轮不假称新增全文查阅；已发表移植准确率价值与原创证据分开。源85100ccfec7ee08106b3a25906a0c9c707e1b7ab/同modelblob6d425bda53e84b0c9d6c620a016f29b903807ae6，原源本地only不再分发。
+
+原789源码和runtime未改，真实arrays/ID值/model不入Git；合成模型文件留本云。7–8标签未用于选择，全部source因历史开发仅探索性；目标仍未达，原自动接续保持，当前无训练/审计进程。H完整六模型私有恢复索引不变，不能重复迁移。
+
 # 2026-11-01 — MLSTM-FCN完整8-cell版本单项250/B128合成CPU测量预登记，尚未实际测时或读取UWB
 
 先GitHub读最新383300cb895c9ac847b258c89e4f153397d1f549四主记录，核同一可执行云端。无遗留后台训练/审计/MLSTM profile，未重下数据；实际data路径仍/workspace/uwb-restored-20261020。H CPU100六折已完成完整审计及41块/478成员私有回读但未过gate，确切配置已关；Disjoint full500/B8已实际测时并按269.81h>12h关闭资源策略，均不重跑或预算补救。
