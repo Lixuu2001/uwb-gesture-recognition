@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MLSTM_FCN250_failed_accuracy_gate_FCN2000_B16_actual_resource_closed_full_TimeCNN_synthetic_preparation_passed",
+  "state": "full_TimeCNN2000_B16_synthetic_cost_preregistered_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261101_fcn_formal_cost/ACTUAL_COST_AND_TIMECNN_PREPARATION.md",
+  "latest_report": "research/cloud_20261101_timecnn_formal_cost/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Full review Time-CNN6/12 kernel7 avgpool3 flattened sigmoid12head MSE/Adam,25356trainableparameters; source defaults2000/B16 with one fixedseed20261029/oneCPU intended. Next implement/register fixed synthetic cost policy/guards/independent bounds and exact remote readback before profiling; do not infer resource pass from model size. If resources pass then separately implement/register real source-user runner/full auditor/accuracy gate before UWB.7-8 labels excluded; source evidence exploratory, no epoch/seed/diag rescue of closed MLSTM or FCN.",
-  "last_completed_update_utc": "2026-11-01T18:01:49+00:00",
+  "next_candidate": "One complete review Time-CNN2000/B16/seed20261029 synthetic CPU profile, fixed43200s/14GiB, max620wall/590soft600hardCPU; no smaller fallback. Require exact remote all-file readback and matching COST_HASHES marker before timing. Resource pass requires separate real UWB runner/full auditor/source accuracy protocol registration. No new UWB values/labels/fit yet.",
+  "last_completed_update_utc": "2026-11-01T18:44:12+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -6691,5 +6691,21 @@
     "real_UWB_values_labels_fit": false,
     "legacy_TF_numeric_parity": false,
     "novelty_claim": false
+  },
+  "timecnn_formal_cost_20261101": {
+    "state": "single_full2000_B16_synthetic_cost_policy_preregistered_not_started",
+    "workspace": "/workspace/uwb-timecnn-formal-cost-20261101",
+    "epochs": 2000,
+    "batch_size": 16,
+    "seed": 20261029,
+    "threads": 1,
+    "total_parameters": 25356,
+    "trainable_parameters": 25356,
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "cost_hashes_sha256": "0b9062784ee1b8790622438f22689924518c63e4e7cbfd9080ce71598c941b39",
+    "profile_started": false,
+    "real_UWB_values_labels_fit": false,
+    "no_smaller_epoch_batch_fallback": true
   }
 }

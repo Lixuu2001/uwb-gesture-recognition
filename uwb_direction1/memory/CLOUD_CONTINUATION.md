@@ -1,3 +1,13 @@
+# 2026-11-01 — 完整Time-CNN2000/B16固定合成CPU测量预登记，尚未测时或UWB训练
+
+已先GitHub读最新99bb682b00bfbb3cc0e8541d5928228a990b77a7四主记录，核同一可执行云端；无遗留train/audit/profile，无重复下载。MLSTM250失败准确率门槛及完整私有保存、FCN2000/B16实际37.07h资源关闭结论维持，不救配置。
+
+本轮实现完整review Time-CNN6/12kernel7 valid/localavgpool3/flattened sigmoid12/MSE/Adam固定2000epoch/B16/seed20261029/oneCPU的单次合成CPU测量，保留原25356参数和90x567输入。原paper DOI10.21629/JSEE.2017.01.18、综述3.2.8和完整review代码已核；原全文未读，来源及native兼容差异不隐瞒。合成3update/独立NumPy完整推理+MSE/完整状态恢复之前已通过，未因此假定CPU可行。
+
+固定8train/4eval/3native/3fullstate保存、43200s/14GiB门槛，完整2000轮588000updates/9400000出现及每轮验证/最坏best+last保存公式已冻结。独立CPU590/600、wall620，无retry/缩epoch/batch/seed；4算式/拒绝测试和source/runtime1302/前序闭合byteguard通过。文件与COST_HASHES在research/cloud_20261101_timecnn_formal_cost；现在先远端latest-parent/forcefalse登记并逐文件回读，再写匹配marker方可真正测时。本提交不声称profile或后台UWB训练已启动。
+
+资源过只可另登记真实source角色/loader/全epoch持久runner/fullauditor/accuracygate后接触UWB；不过关确切资源策略，不是准确率负结果。7–8标签不作方法选择，source历史重复开发仅探索性，无准确率提升/原创结论；目标未达，原自动接续保留。
+
 # 2026-11-01 — 完整FCN2000/B16实际CPU测量37.07h超过12h并关闭资源策略；完整Time-CNN实现和合成核验通过，尚未正式CPU测量/UWB训练
 
 MLSTM-FCN250 negative closure and full private10part115member audited modelset remain valid: diagnostic85.00% vs fixed98.666667%, delta−13.666667pp, no rescue. Record279e8278a92fa79d185b3490e7853de9b9d1b6f4 added that closure and fixed fullFCN CPU policy; all39files were read back exactly before matching COST_HASHES marker and actual timing. No UWB arrays/labels or real FCN fit were read.
