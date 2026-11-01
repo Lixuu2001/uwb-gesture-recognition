@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_TimeCNN2000_actual_cloud_training_active_first_private_insurance_verified",
+  "state": "full_TimeCNN2000_training_complete_full_numeric_audit_active_completed_producer_private_recovery_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261101_timecnn_pilot/ACTUAL_START_AND_PRIVATE_INSURANCE.md",
+  "latest_report": "results/cloud_20261101_timecnn_pilot/TRAINING_COMPLETION_AND_PRODUCER_RECOVERY.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": 69262,
-  "background_training_status_note": "Actual full Time-CNN2000/B16/seed20261029 native unweightedMSE/all-sigmoid/source trainingloss selection is running under existing controller69261/worker69262. Observed2026-11-01T18:56:57.730902+00:00 completed33epochs/9702updates. Immutable initial/first-only insurance1privatechunk/91members verified; not latest/complete/audited modelset, no diagnostic score.",
+  "background_training_pid": null,
+  "background_training_status_note": "Original Time-CNN full2000/B16/seed completed2000epochs/588000updates/9.4Mappearances, training worker69262 exit0/no timeout, selectedepoch1830. Controller69261 automatically started full audit69545; no audit completion/diagnostic score yet. Complete training producer privately recovered7selected chunks/109members; audit certification/complete audited private modelset remain false. Upload no-ID fault recovered and empty-search limitation retained.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue existing Time-CNN controller69261/worker69262 only. No frozen-file/test edits, repeated download or launch. Complete2000epochs/588000updates/9.4Mappearances, both frozen score sets and automatic sequential full audit. After audit success and controller stop, frozenbackup.py complete plus private rawchunk/allmember readback before once-only finalize. Fixed+0.5pp overTimeMIL98.666667%, Hheld1 context99.416667%; pass separate source6 confirmation, fail exact config closure.7-8 labels excluded, all source evidence exploratory.",
-  "last_completed_update_utc": "2026-11-01T18:57:40+00:00",
+  "next_candidate": "Continue original controller69261/audit69545 only; no frozen-file/test edits, repeat download or launch. After full2000epoch/588000update audit+successfulTERM and controller stop, frozenbackup.py complete to pilot/complete_backup, private metadata-first/rawfetchtrue/base64false/max3/allchunk+allmember readback and complete receipt, then frozenfinalize once for+0.5pp overfixedTimeMIL98.666667%. Completed producer backup is not complete-audited scope or score authorization. Pass separate fixed source6, fail exact config close no rescue.7-8 labels excluded, source evidence exploratory.",
+  "last_completed_update_utc": "2026-11-01T21:37:43+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
     "observations_current": true,
@@ -4495,8 +4495,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": false,
-  "background_audit_pid": null,
+  "background_audit_running": true,
+  "background_audit_pid": 69545,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -6722,7 +6722,7 @@
     "accuracy_measured": false
   },
   "timecnn_accuracy_pilot_20261101": {
-    "state": "actual_full2000_B16_training_active_immutable_first_private_insurance_verified",
+    "state": "full2000_training_complete_original_full_numeric_audit_active_producer_recovery_verified",
     "workspace": "/workspace/uwb-timecnn-pilot-20261101",
     "protocol": "results/cloud_20261101_timecnn_pilot/study/PROTOCOL.json",
     "protocol_sha256": "a966b15984ffbab96c7a05c11ea92faf0db563e01b88cbb5af437a99de8a7cb1",
@@ -6767,10 +6767,10 @@
     "automatic_resume": false,
     "registration_commit": "0713333c9e5a517e1d69b49f013abb2aa0f06ce5",
     "controller_pid": 69261,
-    "training_worker_pid": 69262,
-    "observed_epoch": 33,
-    "observed_updates": 9702,
-    "observed_utc": "2026-11-01T18:56:57.730902+00:00",
+    "training_worker_pid": null,
+    "observed_epoch": 2000,
+    "observed_updates": 588000,
+    "observed_utc": "2026-11-01T21:36:20.202874+00:00",
     "first_update_verified": true,
     "first_batch_size": 16,
     "first_private_insurance_verified": true,
@@ -6778,6 +6778,29 @@
     "first_private_insurance_members": 91,
     "first_private_insurance_scope": "initial_first_only_not_latest_or_complete",
     "first_private_insurance_index": "results/cloud_20261101_timecnn_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
-    "latest_epoch_weights_privately_preserved": false
+    "latest_epoch_weights_privately_preserved": true,
+    "completed_training_worker_pid": 69262,
+    "audit_worker_pid": 69545,
+    "training_complete": true,
+    "training_appearances": 9400000,
+    "selected_epoch": 1830,
+    "training_termination": {
+      "exit_code": 0,
+      "wall_timeout": false,
+      "pid": 69262,
+      "supervisor_wall_seconds": 7658.850591339171,
+      "child_cpu_seconds": 7658.077568000001,
+      "cpu_soft_seconds": 21500,
+      "cpu_hard_seconds": 21600,
+      "scientific_negative": false
+    },
+    "all_predictions_frozen": true,
+    "producer_private_recovery_verified": true,
+    "producer_private_recovery_scope": "completed_full2000_training_producer_numeric_audit_pending_not_certified",
+    "producer_private_recovery_chunks": 7,
+    "producer_private_recovery_members": 109,
+    "producer_private_recovery_index": "results/cloud_20261101_timecnn_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json",
+    "producer_upload_fault_recovered": true,
+    "empty_Drive_search_is_not_duplicate_absence_proof": true
   }
 }

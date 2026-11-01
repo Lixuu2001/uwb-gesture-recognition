@@ -1,0 +1,18 @@
+{
+  "state": "part000_recovered_with_returned_ID_after_two_empty_exact_name_searches",
+  "failed_upload_receipts": [
+    "ERROR_000_1793568534431.json",
+    "ERROR_000_1793568681946.json"
+  ],
+  "unknown_upstream_cause": "The first two calls returned no usable ID; their raw responses were not retained, so upstream cause is unestablished.",
+  "exact_searches_returned_files": [
+    0,
+    0
+  ],
+  "diagnostic_upload_result": "UPLOAD_000_DIAGNOSTIC_RESULT.json",
+  "returned_file_id": "1XTR7AvbZI1zrgdVMkBPrFKjdyHmjhWNP",
+  "further_part000_uploads_permitted": false,
+  "next": "Reuse returned ID for metadata/rawfetch/materialization/SHA only",
+  "experiment_restarted": false,
+  "scientific_configuration_changed": false
+}
