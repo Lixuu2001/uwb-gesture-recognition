@@ -1,0 +1,14 @@
+{
+  "state": "pass_full_native_producer_and_complete_replay_integration_synthetic_only",
+  "epochs": 3,
+  "updates": 9,
+  "five_initial_first_best_last_final_custom_states_exact": true,
+  "all_batch_metrics_losses_IDs_and_epochs_exact": true,
+  "native_selected_last_weights_optimizer_exact": true,
+  "both_partition_predictions_and_final_state_exact": true,
+  "corrupt_training_ID_rejected": true,
+  "source_roles_and_user8_rejection_synthetic_checked": true,
+  "labelblind_evaluation_permutation_no_global_NumPy_rng_draw": true,
+  "real_UWB_values_labels_fit": false,
+  "wall_seconds": 1.080822307150811
+}
