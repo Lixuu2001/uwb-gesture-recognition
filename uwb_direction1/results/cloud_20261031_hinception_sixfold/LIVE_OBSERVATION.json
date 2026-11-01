@@ -1,6 +1,6 @@
 {
   "state": "verified_source_queue_mixed_phase_observation",
-  "observed_utc": "2026-11-01T04:49:30.701865+00:00",
+  "observed_utc": "2026-11-01T06:27:32.307895+00:00",
   "queue": {
     "state": "running_unscored_source_confirmation",
     "pid": 59236,
@@ -22,36 +22,36 @@
   },
   "folds": {
     "6": {
-      "phase": "training",
+      "phase": "numeric_audit",
       "job": {
-        "state": "training",
+        "state": "numeric_audit",
         "held": 6,
         "pid": 63068,
         "diagnostic_labels_read": false,
-        "observed_unix": 1793502446.6411264,
+        "observed_unix": 1793512194.717361,
         "automatic_retry": false
       },
       "worker": {
-        "state": "training",
-        "pid": 63069,
-        "epoch": 62,
+        "state": "complete",
+        "pid": null,
+        "epoch": 100,
         "batch": 71,
-        "total_steps": 4464,
-        "all_predictions_frozen": false,
+        "total_steps": 7200,
+        "all_predictions_frozen": true,
         "diagnostic_labels_read": false,
         "users7_8_labels_used": false,
-        "wall_seconds": 6111.359344149008,
-        "cpu_seconds": 6113.55300812,
-        "observed_unix": 1793508561.5934174,
+        "wall_seconds": 9743.078748118947,
+        "cpu_seconds": 9744.435731205,
+        "observed_unix": 1793512193.3128195,
         "best_epoch": 53,
         "best_training_loss": 2.337667319807224e-05
       },
       "active_process": {
-        "pid": 63069,
+        "pid": 63747,
         "command": [
           "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
           "-u",
-          "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+          "/workspace/uwb-hinception-sixfold-20261031/audit_fold.py",
           "--held",
           "6"
         ],
@@ -59,12 +59,12 @@
           "Name": "python",
           "State": "R (running)",
           "PPid": "63068",
-          "VmRSS": "3118212 kB",
+          "VmRSS": "4823984 kB",
           "Threads": "1"
         },
-        "process_cpu_seconds": 6122.65
+        "process_cpu_seconds": 2257.2
       },
-      "audit_progress_step_known": null
+      "audit_progress_step_known": false
     }
   },
   "processes": [
@@ -83,7 +83,7 @@
         "VmRSS": "12544 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 0.8
+      "process_cpu_seconds": 0.89
     },
     {
       "pid": 63068,
@@ -98,17 +98,17 @@
         "Name": "python",
         "State": "S (sleeping)",
         "PPid": "59236",
-        "VmRSS": "11960 kB",
+        "VmRSS": "11972 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 9.02
+      "process_cpu_seconds": 17.52
     },
     {
-      "pid": 63069,
+      "pid": 63747,
       "command": [
         "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
         "-u",
-        "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+        "/workspace/uwb-hinception-sixfold-20261031/audit_fold.py",
         "--held",
         "6"
       ],
@@ -116,17 +116,18 @@
         "Name": "python",
         "State": "R (running)",
         "PPid": "63068",
-        "VmRSS": "3118212 kB",
+        "VmRSS": "4823984 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 6122.65
+      "process_cpu_seconds": 2257.2
     }
   ],
   "completed_producer_folds": [
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "fully_audited_new_folds": [
     2,
@@ -137,8 +138,8 @@
   "completed_audit_metadata_checked": true,
   "new_completed_audit_artifact_hashes_reverified_by_this_observer": false,
   "all1465_frozen_prerequisites_reverified": true,
-  "background_original_training_running": true,
-  "background_numeric_audit_running": false,
+  "background_original_training_running": false,
+  "background_numeric_audit_running": true,
   "phase_transitions_or_unverified": [],
   "diagnostic_scoring_performed": false,
   "users7_8_labels_used": false,

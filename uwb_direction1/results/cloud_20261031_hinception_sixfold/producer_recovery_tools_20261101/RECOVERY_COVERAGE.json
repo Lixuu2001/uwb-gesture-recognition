@@ -1,6 +1,6 @@
 {
   "state": "current_private_recovery_coverage_inventory_not_source6_completion",
-  "observed_utc": "2026-11-01T04:47:04.361533+00:00",
+  "observed_utc": "2026-11-01T06:27:31.661278+00:00",
   "groups": [
     {
       "folds": [
@@ -79,6 +79,18 @@
       "archive_sha256": "d9ef82eb8f955b4ff5b262c9152e81b2ad82f7202ee3f05ffcbffb00f781c63f",
       "chunks": 2,
       "archive_members": 157
+    },
+    {
+      "folds": [
+        6
+      ],
+      "local_receipt": "/workspace/uwb-hinception-producer6-20261101/DRIVE_BACKUP_RECEIPT.json",
+      "git_index": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer6_recovery/CLOUD_DOWNLOAD_INDEX.json",
+      "scope": "full_producer6_no_numeric_audit_claim",
+      "receipt_sha256": "5657ffd309da4c1449931e088851d708e3b041c8f5061f2eb1367699ce3da3cc",
+      "archive_sha256": "6d5252fe7374b3c5433105f8f3b92f06276e84d637d90e2781b842009a2a5ec0",
+      "chunks": 7,
+      "archive_members": 158
     }
   ],
   "required_combination_for_audited2_3": "producer23_insurance plus audited23_first45_supplement",
@@ -87,11 +99,10 @@
     2,
     3,
     4,
-    5
-  ],
-  "private_first_update_only_for": [
+    5,
     6
   ],
+  "private_first_update_only_for": [],
   "no_model_yet_for": [],
   "complete_source6_modelset_verified": false,
   "raw_maps_runtime_restore_separately": true,
@@ -101,5 +112,6 @@
     3,
     4,
     5
-  ]
+  ],
+  "required_combination_for_audited4_5": "producer4_recovery plus producer5_recovery plus audited45_first6_supplement"
 }

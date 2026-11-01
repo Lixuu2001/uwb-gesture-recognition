@@ -1,3 +1,17 @@
+# 2026-11-01 — 最后用户6固定训练完成并进入完整审计；完整训练产物7私有块/158成员回读通过
+
+先GitHub读取最新098f0e0805fcada7b118cc566fb0d47300ef345e分支四主记录，核查同一可执行云端原controller/jobs/checkpoints。held6原train63069已exit0/no timeout，完成100epoch/7200updates/460000训练出现，strict最低trainingloss选择epoch53；supervisor wall9748.075404300936s/CPU9745.821098s，producer内部wall9743.078748118947s/CPU9744.435731205s。双val+diag2300行预测冻结，不索引诊断标签、未评分。所有5新producer共500epoch/36000updates/2290000appearances均训练完成，但最后一折尚未数值审计完成。
+
+原job63068已自动开始独立fullreplay audit63747。只读观测2026-11-01T06:27:32.307895+00:00：controller59236/job63068/audit63747实际活跃，completed producer[2,3,4,5,6]，completed fullaudit[2,3,4,5]，pending空/failed空，无phase transition/unverified。当前没有producer训练在运行；held6没有成功audit TERM/COMPLETE_AUDIT，不能把训练/备份通过算成数值审计通过。1465冻结前提重核，未重启训练/重复下载；原100/B64/seed20261029/native模型/Adam/输入/IDs/划分/门槛全部不变。
+
+使用已冻结SHA的通用producer_snapshot.py --held6，只在完成STATE及成功train TERM后核对protocol identity/steps/counts、全部FILES、selected/last/native/checkpoint和双预测SHA，复制后再核。完整6档50295935bytes/7chunks/157payload+MEMBERS=158。先owner-only folder元数据与exact prefix查重，再max3上传/metadata核parent/private/size/MIME，rawfetch(download_raw_file=true,include_base64=false)立即物化校验size/SHA；重组整档及全部成员回读通过，未改分享/未输出认证URL。archiveSHA6d5252fe7374b3c5433105f8f3b92f06276e84d637d90e2781b842009a2a5ec0，memberSHA155aab5aab5a498708a3d98f0bde6a5e7edb61d788bdc5fa746df8a3604d040d，receiptSHA5657ffd309da4c1449931e088851d708e3b041c8f5061f2eb1367699ce3da3cc。
+
+scope=held6_training_complete_producer_recovery_no_numeric_audit_claim，含initial/first/best/last/final model/Adam/BN/metrics/callback/RNG、nativebest/last、准确IDs、全部训练logs、未评分预测及成功train TERM。真实ID/model/predictions始终私有；Git仅代码/hash metadata/恢复索引，原789源码不动，无raw/maps/runtime大数组。private完整训练模型现覆盖1–6，但complete audited source6 modelset仍false，6审计仍待完成；不是整jobresume、source6准确率或原创贡献。
+
+恢复索引producer6_recovery/CLOUD_DOWNLOAD_INDEX.json；producer6_training/保存成功metadata和TERM。更新producer_recovery_tools_20261101/RECOVERY_COVERAGE.json，原4/5审计补充索引继续对应原私有模型，未重传1–5。一个操作脚本序列化函数存储错误发生在首次upload前，已改为保存函数源码后调用，7分块均仅成功上传一次，工程记录ORCHESTRATION_REPAIR_PRODUCER6.json保留；实验无故障/改动。
+
+继续现有audit63747，不手工重启。5新fold全部双预测冻结/fullaudit通过后由固定aggregate统一对比LocalCNN6及GAP6：对每项均需mean至少+1pp、至少4/6严格胜、worst不低于-2pp。随后完整六模型私有回读并发布真实结果；若通过再独立预登记matched消融，若失败关闭确切配置转下一个文献方法。7–8标签不用于方法选择，source反复开发明确探索性；暂无source6/八折提升/原创结论，目标未达，原自动接续保留。
+
 # 2026-11-01 — H-Inception 用户4、5完整数值审计通过；最后用户6原进程继续训练，补充审计与首步恢复档已私有回读
 
 以最新远端 cadac3b4e12a980c864acd876092819ce97b037e 为父读取四主记录，同一可执行云端核查现有controller/jobs/checkpoints，没有重复启动或下载。原4/5独立完整重放均exit0、无timeout：held4 replay100epoch/7100updates/450000appearances、selected59，audit61907 wall9605.859795016935s/CPU9604.918535s；held5 replay100epoch/7200updates/460000appearances、selected99，audit62381 wall9823.24306716898s/CPU9821.433236s。两审计分别1489产物哈希，去重1508逐一再核，38个既有私有producer文件SHA与审计对应。每批IDs/metrics/loss、initial/first/best/last/final的model/Adam/BN/metrics/callback/modes/allRNG及native selected/last一致，4700行双预测精确一致。全部6900输入RMS+author znorm独立FP64参考按原rtol2e-5/atol2e-6验证，不把浮点参考容差校验写成bitwise相同。
