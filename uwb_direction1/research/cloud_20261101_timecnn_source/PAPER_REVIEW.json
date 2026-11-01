@@ -1,0 +1,36 @@
+{
+  "state": "review_TimeCNN_section_and_full_review_source_checked",
+  "original_paper": {
+    "authors": [
+      "Bendong Zhao",
+      "Huanzhang Lu",
+      "Shangfeng Chen",
+      "Junliang Liu",
+      "Dongya Wu"
+    ],
+    "title": "Convolutional neural networks for time series classification",
+    "journal": "Journal of Systems Engineering and Electronics",
+    "year": 2017,
+    "volume": 28,
+    "issue": 1,
+    "pages": "162-169",
+    "doi": "10.21629/JSEE.2017.01.18",
+    "metadata_sources": [
+      "https://www.jseepub.com/EN/10.21629/JSEE.2017.01.18",
+      "https://ieeexplore.ieee.org/document/7870510"
+    ],
+    "publisher_page_open_timeout": true,
+    "original_fulltext_read": false
+  },
+  "review": {
+    "url": "https://germain-forestier.info/publis/dmkd2019.pdf",
+    "doi": "10.1007/s10618-019-00619-1",
+    "section_read": "3.2.8 Time Convolutional Neural Network",
+    "all_pages_figures_read": false
+  },
+  "implementation": "Pinned review-author cnn.py, full6/12filters, kernel7, localaveragepool3, allsigmoid, flattened12head, MSE/Adam. No substituted softmax/CE or reduced model.",
+  "source_default_budget": "2000epochs/B16; minimum trainingloss checkpoint, no ReduceLR in this source.",
+  "native_adaptation": "Keras3/Torch; only artifact extension changed in complete build_model AST. Not original paper author code or legacy TF numerical parity.",
+  "next": "History-reviewed preparation only. Formal fixed default CPU policy and real UWB protocol still require separate exact remote registration.",
+  "accuracy_and_novelty": "No UWB result. Published baseline transfer, not originality evidence."
+}

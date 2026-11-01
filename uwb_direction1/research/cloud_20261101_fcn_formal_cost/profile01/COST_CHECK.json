@@ -1,0 +1,83 @@
+{
+  "state": "resource_closed_exact_policy",
+  "resource_gate_passed": false,
+  "epochs": 2000,
+  "batch_size": 16,
+  "training_batches": 294,
+  "validation_batches": 63,
+  "diagnostic_batches": 75,
+  "estimated_seconds": 133440.44458083762,
+  "estimated_hours": 37.06679016134378,
+  "memory_gate_passed": true,
+  "formula": "2*(2000*294*maxtrain+126138*maxeval+2001*maxnative+4004*maxfullstate)+120",
+  "worst_case_best_last_fullstate_every_epoch_included": true,
+  "no_smaller_epoch_batch_fallback": true,
+  "accuracy_measured": false,
+  "policy": {
+    "method": "full_review_FCN_Conv128_256_128",
+    "paper_doi": "10.1109/IJCNN.2017.7966039",
+    "review_commit": "e0233efd886df8c6ca18e6f1b545d15aaf423627",
+    "source_blob": "90029248d7336561614fab304211748f2faf15a8",
+    "epochs": 2000,
+    "batch_size": 16,
+    "seed": 20261029,
+    "threads": 1,
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "input_shape": [
+      90,
+      567
+    ],
+    "total_parameters": 846860,
+    "trainable_parameters": 845836,
+    "input_adaptation_intent": "Full signed per-view RMS90x567, review multivariate Conv1D baseline without extra normalization/resizing/augmentation. Original paper author Conv2D/univariate train-global z-normalization is distinct; native Keras3 Adam epsilon1e-7 differs from paper1e-8. Synthetic timing only; no real data authorized.",
+    "training_unweighted": true,
+    "validation_unweighted": true,
+    "source_callbacks": "ReduceLROnPlateau(trainingloss,factor0.5,patience50,min_lr1e-4) then ModelCheckpoint(strict minimum trainingloss,ties earliest). Validation never selects.",
+    "synthetic_fixture_only": true,
+    "real_UWB_values_labels_fit_authorized": false,
+    "no_smaller_epoch_or_batch_fallback": true,
+    "maximum_profile_wall_seconds": 620,
+    "maximum_profile_CPU_soft": 590,
+    "maximum_profile_CPU_hard": 600
+  },
+  "total_parameters": 846860,
+  "trainable_parameters": 845836,
+  "trainable_tensors": 14,
+  "Adam_variables": 30,
+  "full_review_Conv128_256_128_kernels8_5_3_BN_ReLU_GAP_softmax": true,
+  "training_unweighted": true,
+  "validation_unweighted": true,
+  "training_seconds": [
+    0.1053648479282856,
+    0.0854897138196975,
+    0.09046243596822023,
+    0.08507426688447595,
+    0.08555693505331874,
+    0.08238632790744305,
+    0.08364415285177529,
+    0.08131959103047848
+  ],
+  "evaluation_seconds": [
+    0.03288234188221395,
+    0.03406009706668556,
+    0.03266639611683786,
+    0.033388696145266294
+  ],
+  "native_save_seconds": [
+    0.041727287927642465,
+    0.029776633018627763,
+    0.028907764004543424
+  ],
+  "fullstate_save_seconds": [
+    0.08139932109043002,
+    0.06474299519322813,
+    0.06947723892517388
+  ],
+  "max_RSS_KiB": 617972,
+  "wall_seconds": 1.4616287369281054,
+  "synthetic_fixture_only": true,
+  "real_UWB_values_labels_or_fit": false,
+  "real_pilot_started": false,
+  "legacy_TF_numeric_parity": false
+}

@@ -1,0 +1,165 @@
+{
+  "state": "remote_cost_preregistration_exact_readback_verified",
+  "parent": "ac1d0dbc789b1def4dd05b58b68e9f89943b0369",
+  "commit": "279e8278a92fa79d185b3490e7853de9b9d1b6f4",
+  "cost_hashes_sha256": "62c7c0a96710f2268e2d67c9139ae0fda78bc6556eed838d7b3b5cdfbceeeb22",
+  "force": false,
+  "exact_blobs": [
+    {
+      "path": "uwb_direction1/STATUS.json",
+      "sha": "f02ff99440509cf086697610e925d308f34707a3"
+    },
+    {
+      "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+      "sha": "5567bfc49627e8b018cff53a92141da3f772bd58"
+    },
+    {
+      "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+      "sha": "13b3c2e2678430c3b5ed8c9f37b063dd1ba6329e"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20260930/RUN_REPORT.md",
+      "sha": "0750cdb2fcbdc43260cbd2f59d741b36ea866805"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/COST_HASHES.json",
+      "sha": "90c32319ab9e0c6fbd2e5cfe8a9e2367e484c868"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/COST_TESTS.log",
+      "sha": "f85a6884de83d0cd4ad7696358f85ad05cdde95e"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/DEPENDENCIES.json",
+      "sha": "e867f718aeb389584cdca2b70d79f976ab3822a4"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/POLICY.json",
+      "sha": "727eab16f0b8e6d08bdc4806aa3c67c483d4daa5"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/PREREGISTRATION.md",
+      "sha": "4a834d733c27a8a34350a92dfe3cbc4dc12d82f6"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/PRE_ACCESS_GUARD_CHECK.json",
+      "sha": "d650f65edb11817b37fb056f1d3109a4733eb4fb"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/cost_math.py",
+      "sha": "9b1a9085b07c91f80718945b0043ff6f40f0badb"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/guard.py",
+      "sha": "5ba1c68e562d00b4dd40207b9cdfcbdf18107f6a"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/independent_supervisor.py",
+      "sha": "c1db58037b1f0b09c7d5554ce4e5f01bef167122"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/profile_cost.py",
+      "sha": "817d546d2725777d241a6244394efe2e950c6987"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/run_profile.py",
+      "sha": "712697953e0a002005a9afec9688c9df3a8f1abb"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/test_cost_math.py",
+      "sha": "cd1d0cbd344f859edd636621b005a1e2c97d978e"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_formal_cost/verify_result.py",
+      "sha": "6efd322b94317c30cecf0a78104b2dc47fcb4d5e"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/HISTORY_CHECK.json",
+      "sha": "301718bb3cf360fe38a75821984f8d51d670f999"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/HISTORY_SEARCH.txt",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/PAPER_REVIEW.json",
+      "sha": "d6beaa142bdb73731ad298de35abcc99478b7703"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/PREPARATION_HASHES.json",
+      "sha": "0f1e10f1d7bbc770f4aceecbb67d66a57baf2186"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/SOURCE_DEPENDENCIES.json",
+      "sha": "106a5d1a6e15edbcdc073b3e2ea35cd4d35d6ee9"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/SOURCE_INDEX.json",
+      "sha": "2217e062da4c832f49165977d816d0e346f40cff"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/SYNTHETIC_CHECK.json",
+      "sha": "26dd1dc6ab5d5f2c9844a45a19c54cb17befa4b0"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/SYNTHETIC_CHECK.log",
+      "sha": "993aae15c32d494fac8331fe9fae7fe5afcb6e69"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/native_fcn.py",
+      "sha": "a21e473690c5d6ebc07cdd08b16f42b3d2739bc8"
+    },
+    {
+      "path": "uwb_direction1/research/cloud_20261101_fcn_source/synthetic_check.py",
+      "sha": "92aeee81a0f204226af3012f297fd8b765264bec"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/AUDIT_TERMINATION.json",
+      "sha": "47cbf3a5519e544a1a01442fe7834626ef9bd361"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/CLOSURE_AND_FCN_COST_REGISTRATION.md",
+      "sha": "27797067e8394614f4450abd88b3555980826158"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/COMPLETE_AUDIT.json",
+      "sha": "f23d81468a29a7564a77b36ea9e9fdb2558b54df"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/STATE.json",
+      "sha": "0980ebbb2687b861889dafed03bca9a81fdcc43a"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/SUMMARY.json",
+      "sha": "160e9b0b9559b33df8923c99116e8c66b08cfeff"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+      "sha": "a0b1669414468db9b119c80db6436e6fdac35e7d"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/complete_backup/DRIVE_BACKUP_RECEIPT.json",
+      "sha": "ae2d612dcbf1d73aa8a1dc583fa3187f0dc260c6"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/complete_backup/MANIFEST.json",
+      "sha": "83e50885ea864455568184986454a14416fb78f4"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/complete_backup/READBACK_VERIFIED.json",
+      "sha": "35e6c5dd36a0db35633533ba0ec685f103bef8a1"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/completion_tools/BUILD_COMPLETE_BACKUP.log",
+      "sha": "42be44598daa71549641c25de6ebcc2ec5fdbfe7"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/completion_tools/FINALIZE.log",
+      "sha": "1d06548c41f7aa76e2908997390abb8a4edacbb7"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/completion_tools/VERIFY_COMPLETE_BACKUP.log",
+      "sha": "592ad940d04be6e2224ea6552c15b4292642db0a"
+    }
+  ]
+}
