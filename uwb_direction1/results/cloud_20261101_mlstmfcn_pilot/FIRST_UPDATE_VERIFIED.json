@@ -1,0 +1,22 @@
+{
+  "state": "immutable_full_MLSTM_initial_first_update_verified",
+  "protocol_sha256": "2b48325487cc11c6f534527377092e7f6f946a9aa2f7c7afd51d4069244c4ca3",
+  "initial_sha256": "2b61986b01f2c2815daf29d4f19c22f351f35bd9891955fcc52f597275c2d201",
+  "first_update_sha256": "486631f519a54b9cd08785a3b90037eec7233a312dd6971ab8189381e057e116",
+  "first_training_batch_IDs_sha256": "5744cd1e4e65d8631e986181cbdac5531afe098b907bc54ecb5c897bb084fbc1",
+  "first_batch_size": 128,
+  "first_training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "first_optimizer_step": 1,
+  "model_parameters": 860364,
+  "optimizer_variables": 44,
+  "full_global_and_layer_RNG_preserved": true,
+  "known_unseeded_dropout_Torch_RNG_changed_layer_counters_constant": true,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "complete_modelset_verified": false
+}

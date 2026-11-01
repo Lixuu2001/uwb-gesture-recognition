@@ -1,0 +1,31 @@
+{
+  "state": "private_persistent_MLSTM250_initial_first_insurance_download_index",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "mlstmfcn250_initial_first_20261101.tar.gz",
+  "archive_bytes": 15436987,
+  "archive_sha256": "86933abbfc0185f9f78c69e658a2e516c53fe63669b2db9377002e55f28ae18b",
+  "members_manifest_sha256": "ea2bbb228267656b207b2ef099495d5bc3b35dd000514893352c749a7d2b8881",
+  "chunks": [
+    {
+      "name": "mlstmfcn250_initial_first_20261101.part000",
+      "file_id": "1OAzMge81g-iKTKljGS4T9MEvRwURuhsC",
+      "bytes": 7340032,
+      "sha256": "7cf3a1ebac0aa0d64f199c2c28788939c8ec7947a9209dcba121233941a7878e"
+    },
+    {
+      "name": "mlstmfcn250_initial_first_20261101.part001",
+      "file_id": "1MhUTcuLnfOB_hhTXZ6lb8dzssGGFrEsf",
+      "bytes": 7340032,
+      "sha256": "34fd5e3bd30e5d982d311107a46ac9562fddbb85c8bd8774771c52fa06816007"
+    },
+    {
+      "name": "mlstmfcn250_initial_first_20261101.part002",
+      "file_id": "1oYKwyQf-KRzdkrJKuCY2qOyfTh1a5x99",
+      "bytes": 756923,
+      "sha256": "dab641b6bdb4f9b9dacd2603e0206642c1568cedb440a2a961945558f2583e00"
+    }
+  ],
+  "scope": "initial_first_only_not_latest_or_complete",
+  "complete_modelset_verified": false,
+  "restore_instructions": "Metadata owner-only/parent/size first. For stored non-native chunks rawfetch(download_raw_file=true,include_base64=false), immediately materialize and verify size/SHA; max3 pipelines. Concatenate manifest order; verify archive SHA and every safe unique regular MEMBERS.json entry. Only initial/first step states plus initial split/ID and code/source evidence, not current/latest or full model/audit. Raw/maps/runtime restore separately. Do not restart an active job, assume whole-job resume or score diagnostic labels from this partial backup."
+}
