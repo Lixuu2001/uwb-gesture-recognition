@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "H_CPU100_source6_gate_failed_Disjoint_full500_B8_resource_closed_next_MLSTM_FCN",
+  "state": "MLSTM_FCN8_single_paper250_B128_synthetic_cost_preregistered_pending_execution",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261101_disjoint_formal_cost/ACTUAL_COST_REPORT.md",
+  "latest_report": "research/cloud_20261101_mlstmfcn_formal_cost/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -6404,7 +6404,7 @@
     "source_sixfold_confirmation_completed": true,
     "eightfold_improvement_established": false
   },
-  "next_action_source_confirmation": "H exact CPU100 source6 gate failure and full private six-model preservation complete; Disjoint author full500/B8 fixed synthetic resource policy closed after actual timing. Next use prepared full MLSTM-FCN8/128-256-128+SE source, check history and preregister one exact synthetic cost policy/current closure guard before timing; only cost pass permits separately registered UWB train-validation runner/auditor. No rescue search, zero17 run or users7-8 selection. No training/audit running.",
+  "next_action_source_confirmation": "Finish exact remote MLSTM-FCN8 cost preregistration/readback then execute one bounded synthetic full250/B128/seed20261029 profile. Resource pass requires separately registered real UWB epoch/callback engine and full auditor; failure closes exact policy without reduced budget or accuracy inference. H CPU100 source6 and Disjoint full500/B8 policies remain closed. Users7-8 excluded.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6454,5 +6454,33 @@
     "chosen_epochs": null,
     "accuracy_measured": false,
     "verified_result": "research/cloud_20261101_disjoint_formal_cost/VERIFIED_COST_RESULT.json"
+  },
+  "mlstm_fcn_formal_cost_20261101": {
+    "state": "fixed_single_synthetic_cost_preregistration_pending_exact_readback",
+    "workspace": "/workspace/uwb-mlstmfcn-formal-cost-20261101",
+    "paper_doi": "10.1016/j.neunet.2019.04.014",
+    "variant": "complete_documented_LSTM8_Conv128_256_128_SE16",
+    "epochs": 250,
+    "batch_size": 128,
+    "seed": 20261029,
+    "total_parameters": 860364,
+    "trainable_parameters": 859340,
+    "LSTM_steps": 567,
+    "native_recurrent_gate": "sigmoid differs from legacyhard_sigmoid",
+    "policy_sha256": "9b27a95da0ad08c93c6593783828e98ad8a2684986fab166fefb5f4826541c75",
+    "resource_budget_seconds": 43200,
+    "profile_CPU_limits": [
+      590,
+      600
+    ],
+    "profile_wall_seconds": 620,
+    "no_smaller_epoch_batch_fallback": true,
+    "history_refreshed": true,
+    "source9_original_and_preparation_hashes_reverified": true,
+    "actual_pre_access_guard_passed": true,
+    "arithmetic_guard_tests": 4,
+    "profile_started": false,
+    "UWB_values_labels_fit": false,
+    "real_UWB_runner_auditor_registered": false
   }
 }

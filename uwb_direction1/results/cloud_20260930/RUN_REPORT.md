@@ -1,3 +1,17 @@
+# 2026-11-01 — MLSTM-FCN完整8-cell版本单项250/B128合成CPU测量预登记，尚未实际测时或读取UWB
+
+先GitHub读最新383300cb895c9ac847b258c89e4f153397d1f549四主记录，核同一可执行云端。无遗留后台训练/审计/MLSTM profile，未重下数据；实际data路径仍/workspace/uwb-restored-20261020。H CPU100六折已完成完整审计及41块/478成员私有回读但未过gate，确切配置已关；Disjoint full500/B8已实际测时并按269.81h>12h关闭资源策略，均不重跑或预算补救。
+
+刷新历史四记录及先前有限original789/source检查：MLSTM此前只有source/synthetic preparation，未见相同完整native profile/UWB运行，不能把其与别的缩小版本混同；有限范围并非全面equivalence/novelty证明。源码9文件/准备哈希全部重核。论文依据为已读Neural Networks2019 DOI10.1016/j.neunet.2019.04.014/arxiv1801.04503v2的架构/训练/消融等章节，本轮未假称新全文核查。作者源85100ccfec7ee08106b3a25906a0c9c707e1b7ab、paper-linked84a2e6c0fdef811920483723ac1aaf29d6b8dc7f同gesture blob6d425bda53e84b0c9d6c620a016f29b903807ae6，本地原码不改/不再分发到Git。
+
+现在固定单项完整文档MLSTM-FCN8+Conv128/256/128 kernels8/5/3+SE16+Masking+Dropout0.8、860364total/859340trainable、21trainabletensors/44Adamvars，输入567变量×90时点，保留LSTM567步/CNN90步，无stride/分支/宽度缩减。paper/README250epoch、B128、seed20261029，不扫8/64/128或缩小epoch/batch。不同gesture脚本1000/Uwave500仅如实披露，不把250称该脚本默认；nativeKeras3 sigmoid与legacy2.1.2 hard_sigmoid不同，不称旧TF数值复现。
+
+本次只登记合成高斯128×567×90与12类fixture的8weighted训练batch/4unweighted eval/3native保存/3custom全模型Adam/BN/metrics/global+layerRNG/modes保存。inverse-frequency权重来自合成4700行标签而非UWB；未来输入意图为full signed RMS/no addednorm/augmentation、helper normalize_timeseries=False。独立child590/600CPU、620wall，固定估算2*(250*37*maxtrain+(250*8+8+10)*maxeval+251*maxnative+504*maxfull)+120须<=43200s/RSS<=14GiB；无缩小候选或自动retry。
+
+新增closure核H source6全audit/六模型私有member/失败gate及Disjoint实际cost/TERM/hash关闭后，才读policy/importmodel/创建输出/测时；真实pre-access guard通过。四个算式/时间内存失败/nonfinite/禁预算救援测试通过。全部代码/依赖/配置先远端exact readback后再单次启动。此提交没有声称profile已开始、没有MLSTM UWB值/标签/fit、没有新准确率。cost通过还需另预登记真实epoch-loader/callback/selection协议/runner及fullauditor；失败关确切250/B128策略，不推断准确率负结果。
+
+现有native模型3update+save+2restore exact/独立LSTM和SE检查继续有效，但未实现真实epoch/callback loader；native.keras自身layerRNG恢复不完整，真实训练必须custom fullstate，不能称native文件单独可resume。原runtime/789源码/数组/真实IDs/模型不入本次Git。source已反复开发仅探索性，7–8标签不作新选择。目标仍未达，保留原自动接续。
+
 # 2026-11-01 — Disjoint-CNN完整默认500/B8实际合成测量完成，269.81小时保守估算超过12小时预算，关闭确切资源策略；下一项MLSTM-FCN
 
 H-Inception固定CPU100六折结论及完整六模型私有回读已发布013a4a880c81af8696c68de71fe5a191013d31ae：平均平衡准确率93.7209596%，对LocalCNN仅+0.1265152pp、对GAP仅+0.0537879pp，两项预登记gate均失败，确切配置已关闭。该提交同时逐文件exact readback37项，包括Disjoint正式cost policy/代码/guard/独立supervisor，再启动实际合成测量；未提前读取UWB值或标签。
