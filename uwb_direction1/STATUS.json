@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MLSTM_FCN250_training_complete_full_numeric_audit_active_producer_private_recovery_verified",
+  "state": "MLSTM_FCN250_audited_private_complete_failed_accuracy_gate_full_FCN2000_B16_synthetic_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261101_mlstmfcn_pilot/TRAINING_COMPLETION_AND_PRODUCER_RECOVERY.md",
+  "latest_report": "results/cloud_20261101_mlstmfcn_pilot/CLOSURE_AND_FCN_COST_REGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793438842.9450998,
   "background_training_pid": null,
-  "background_training_status_note": "No active H pilot train/audit. Full repaired100epoch/7400step audit passed; all1447hashes verified and complete7privatechunk/193member modelset readback passed. Source-held1 macro99.416667% versus98.666667% reference,+0.75pp passes original0.5pp gate. Only next route is separately registered fixed-method source confirmation; no six/eightfold or originality conclusion.",
+  "background_training_status_note": "MLSTM full250/B128 completed and full replay/private10part115member modelset verified. One registered finalization: held1 macro85.00%, fixed TimeMIL98.666667%, delta-13.666667pp; gate failed, exact configuration closed without rescue. No active training/audit. Full review FCN2000/B16 synthetic cost is registered but has not run; remote exact readback marker required first.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "HInception fixed CPU100 passed source-held1 gate with complete numerical audit/private preservation. Implement and separately remote-preregister source1..6 confirmation using unchanged full architecture/RMS+authorznorm/Adam/source strict training-loss selection/seed20261029/B64/100epochs; reuse audited held1, run only held2..6 with validationH%6+1 and otherfourtrain. Freeze all5new diagnostic predictions before aggregate scoring; users7-8 excluded. Compare frozen LocalCNN6 and GAP6 pipelines on exact same roles/quality IDs, disclose pipeline/budget differences; fix confirmation gate and independently bounded training/audits before real data. No Disjoint/MLSTM selection or diagnostic rescue while this route remains pending. Need source confirmation/matched ablations before any eightfold/originality claim; goal unresolved.",
-  "last_completed_update_utc": "2026-10-31T15:49:26.334240+00:00",
+  "next_candidate": "Full review FCN Conv128/256/128 kernels8/5/3 BN/ReLU/GAP/12softmax,846860total/845836trainable, default2000/B16/seed20261029/oneCPU. Run one preregistered synthetic CPU measurement only after exact remote readback; fixed43200s/14GiB bound, no shrink/sweep. Resource pass requires separate real runner/full-auditor/accuracy protocol; failure closes exact resource policy without accuracy negative. Source1-6 exploratory,7-8 labels excluded.",
+  "last_completed_update_utc": "2026-11-01T17:57:30+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-10-31T01:44:18.860Z",
     "observations_current": true,
@@ -3115,7 +3115,7 @@
       "arm": "gap",
       "epoch": 64,
       "batch": 71,
-      "train_bce": 2.5465305655590317e-05,
+      "train_bce": 0.000025465305655590317,
       "validation_macro": 0.9899999999999999,
       "validation_bce": 0.007310789544135332,
       "epoch_seconds": 37.36026673193555
@@ -3473,7 +3473,7 @@
       "epoch": 64,
       "batch": 71,
       "held": 6,
-      "train_bce": 2.4089224461931734e-05,
+      "train_bce": 0.000024089224461931734,
       "validation_macro": 0.9891666666666666,
       "validation_loss": 0.006259538698941469,
       "epoch_seconds": 38.69035201508086
@@ -4496,8 +4496,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": true,
-  "background_audit_pid": 67737,
+  "background_audit_running": false,
+  "background_audit_pid": null,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5079,7 +5079,7 @@
       "observed_unix": 1793409682.7188423,
       "batch": 73,
       "best_epoch": 75,
-      "best_training_loss": 3.359471520525403e-05
+      "best_training_loss": 0.00003359471520525403
     },
     "first_update_verification": {
       "state": "pass",
@@ -6511,7 +6511,7 @@
     "real_UWB_runner_auditor_registered": false
   },
   "mlstm_fcn_accuracy_pilot_20261101": {
-    "state": "full250_training_complete_original_full_numeric_audit_active",
+    "state": "complete_audited_private_preserved_failed_predeclared_pilot_gate_exact_configuration_closed",
     "workspace": "/workspace/uwb-mlstmfcn-pilot-20261101",
     "protocol": "results/cloud_20261101_mlstmfcn_pilot/study/PROTOCOL.json",
     "frozen_hashes": "results/cloud_20261101_mlstmfcn_pilot/study/FROZEN_HASHES.json",
@@ -6551,11 +6551,11 @@
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
-    "complete_private_modelset_verified": false,
+    "complete_private_modelset_verified": true,
     "automatic_retry": false,
     "automatic_resume": false,
     "registration_commit": "17b4d80e0c5903d0a36b9ff9fd0aa8ad22916753",
-    "controller_pid": 67053,
+    "controller_pid": null,
     "training_worker_pid": null,
     "observed_epoch": 250,
     "observed_steps": 9250,
@@ -6568,10 +6568,10 @@
     "first_private_insurance_members": 95,
     "first_private_insurance_index": "results/cloud_20261101_mlstmfcn_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
     "latest_weights_privately_preserved": true,
-    "diagnostic_labels_scored": false,
-    "full_audit_complete": false,
+    "diagnostic_labels_scored": true,
+    "full_audit_complete": true,
     "completed_training_worker_pid": 67054,
-    "audit_worker_pid": 67737,
+    "audit_worker_pid": null,
     "training_complete": true,
     "training_appearances": 1175000,
     "selected_epoch": 250,
@@ -6589,6 +6589,58 @@
     "producer_private_recovery_scope": "completed_full250_training_producer_numeric_audit_pending_not_certified",
     "producer_private_recovery_chunks": 10,
     "producer_private_recovery_members": 113,
-    "producer_private_recovery_index": "results/cloud_20261101_mlstmfcn_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json"
+    "producer_private_recovery_index": "results/cloud_20261101_mlstmfcn_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json",
+    "predeclared_gate_passed": false,
+    "scores": {
+      "validation": 0.8619999999999999,
+      "diagnostic": 0.85
+    },
+    "delta_macro": -0.13666666666666671,
+    "source6_confirmation_complete": false,
+    "complete_private_modelset_index": "results/cloud_20261101_mlstmfcn_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "complete_private_modelset_chunks": 10,
+    "complete_private_modelset_members": 115,
+    "route": "close_exact_full250_B128_seed_configuration_no_rescue",
+    "closed_without_rescue": true,
+    "audit_termination": {
+      "completed_pid": 67737,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "wall_seconds": 10052.355324865086,
+      "cpu_seconds": 10050.895064999999
+    }
+  },
+  "fcn_source_preparation_20261101": {
+    "state": "full_native_review_FCN_synthetic_checks_passed",
+    "code": "research/cloud_20261101_fcn_source",
+    "paper_doi": "10.1109/IJCNN.2017.7966039",
+    "paper_selected_sections_read": true,
+    "paper_figures_all_pages_read": false,
+    "review_commit": "e0233efd886df8c6ca18e6f1b545d15aaf423627",
+    "review_source_blob": "90029248d7336561614fab304211748f2faf15a8",
+    "original_author_commit": "3ecc8971fa768bd01ada7f3a613688255e6256c2",
+    "original_Conv2D_and_review_Conv1D_distinguished": true,
+    "total_parameters": 846860,
+    "trainable_parameters": 845836,
+    "synthetic_updates": 3,
+    "independent_NumPy_full_inference_reference": true,
+    "complete_custom_state_restore_next_update_exact": true,
+    "native_weights_Adam_reload_exact": true,
+    "real_UWB_values_labels_fit": false,
+    "legacy_TF_numeric_parity": false,
+    "novelty_claim": false
+  },
+  "fcn_formal_cost_20261101": {
+    "state": "single_full2000_B16_synthetic_cost_policy_preregistered_not_started",
+    "workspace": "/workspace/uwb-fcn-formal-cost-20261101",
+    "epochs": 2000,
+    "batch_size": 16,
+    "seed": 20261029,
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "profile_started": false,
+    "real_UWB_values_labels_fit": false,
+    "no_smaller_epoch_batch_fallback": true,
+    "cost_hashes_sha256": "62c7c0a96710f2268e2d67c9139ae0fda78bc6556eed838d7b3b5cdfbceeeb22"
   }
 }

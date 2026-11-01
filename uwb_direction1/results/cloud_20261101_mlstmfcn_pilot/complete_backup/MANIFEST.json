@@ -1,0 +1,71 @@
+{
+  "state": "immutable_MLSTM_FCN_modelset_snapshot",
+  "scope": "complete_audited_full250_modelset",
+  "created_unix": 1793555061.4672344,
+  "complete_modelset": true,
+  "all_initial_first_best_last_final_and_native_models_included": true,
+  "full_numerical_audit_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback.",
+  "archive_name": "mlstmfcn250_complete_20261101.tar.gz",
+  "archive_bytes": 71750236,
+  "archive_sha256": "b3549c0bd586d3944244844158c4d27d6d017c974ba5ec68954e9e90fc8a5b53",
+  "members_manifest_sha256": "0ef9a3ac8dafc5b5cc16ddc6b912d784a871c5776bfacc2d4e94cfd8f91bba65",
+  "tracked_payload_files": 114,
+  "chunks": [
+    {
+      "name": "mlstmfcn250_complete_20261101.part000",
+      "bytes": 7340032,
+      "sha256": "0ba1ddddf4e7a0e28b9b22078ac1c56d5f30a99dff7fa4264a0641e1bfbc6b55"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part001",
+      "bytes": 7340032,
+      "sha256": "ffa1dc720e614f61180ec185b807bc2020da77a7375f4aa46efde40b7b8abc69"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part002",
+      "bytes": 7340032,
+      "sha256": "32a8601255f13170ad9ee7ee244d9b8bcaeff5bae84a17416334a6af6466c3ad"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part003",
+      "bytes": 7340032,
+      "sha256": "8298ced48ea946fc884dbdc669aae727fd2e9e4cf60cd2e5ce681eb601416c06"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part004",
+      "bytes": 7340032,
+      "sha256": "a5827c2a651e3c1cbe106a32a718990ebd6a1868f1e8c8d0a7771913efd03efa"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part005",
+      "bytes": 7340032,
+      "sha256": "65847ae2dceb7dd0526c8a31bca8a8fdd2c73f0590fab6be28b18a0ce11ea3c9"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part006",
+      "bytes": 7340032,
+      "sha256": "09cd8af3317761ee3d3242bfe136469f616536f600bae838c9df65955b8f1174"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part007",
+      "bytes": 7340032,
+      "sha256": "aad62a6a7c6dcf61e72a315a543982bf921343723041ff2477fd3ff841bed76f"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part008",
+      "bytes": 7340032,
+      "sha256": "76c3c677dd759b71504765ac65546fcc370ff0a59881e916c0d405f7085c34b5"
+    },
+    {
+      "name": "mlstmfcn250_complete_20261101.part009",
+      "bytes": 5689948,
+      "sha256": "197b32346580d9fdc2759c64fcd531d286ad52e2afe861eb5dbada9388264973"
+    }
+  ]
+}
