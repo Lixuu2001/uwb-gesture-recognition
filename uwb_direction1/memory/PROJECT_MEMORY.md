@@ -1,3 +1,17 @@
+# 2026-11-01 — 用户4固定100轮训练完成并进入数值审计；其完整训练产物7私有块/149成员回读验证通过
+
+先通过GitHub读取最新dc28f1b0faa5006e7984161abaf8cf0ec9187e1c四主记录，再核同一可执行云端/旧OS进程/jobs/checkpoints。未重复下载/启动。held4原train61224已exit0/no timeout，100epoch/7100updates/450000训练出现，strict最低trainingloss选epoch59；supervisor wall9826.970224592951/CPU9824.989529999999，producer内部wall9822.021239456022/CPU9823.405066689。双val+diag预测已冻结且未索引诊断标签。原job61223自动进入numeric_audit，实际独立fullreplay worker61907运行；无audit TERM/COMPLETE_AUDIT成功结论，不能把训练完成或字节校验当数值审计通过。
+
+只读混合阶段观测2026-11-01T00:39:46.478003+00:00：controller59236，held4 audit61907活跃；held5原train61236（supervisor61235）活跃，97epochs/6984updates；held6排队。已完成producer[2,3,4]，已完成完整audit[2,3]，failed0。1465冻结依赖再核通过；source6全局SUMMARY仍未生成，5新fold全部双预测冻结/fullaudit通过前不允许统一评分。原方法/100/B64/seed20261029/Adam/input/划分/gate不变；zero17消融仍仅合成原型，不提前启动。
+
+本轮私有保存held4全部immutable训练文件：initial/first/best/last/final model/Adam/BN/metrics/callback/RNG states，nativebest/last，准确sample IDs/batch+epoch logs/双preds/成功train TERM。先STATE完成guard，再核协议identity/steps/counts和全部FILES/checkpoint/predSHA，复制后重核。归档50196945bytes/7chunks/148payload+MEMBERS=149，folder12AGMwT99yXCTYBQocQaX901Br-IelmOf先owner-only元数据/prefix搜索无重复→最多3并发upload→每文件private/parent/size/MIME→rawfetch(download_raw_file=true,include_base64=false)→立即物化size/SHA→整档和每成员全部验证通过，未改分享/未输出认证URL。archiveSHA9726a2f12def5d5ee1172b31a5c406be57f4af920c603127e89403dfd6941d38，membermanifestSHA176c01885c3addea57588428e407a7418934e76f9eb2fef9a035f34085c369e7，receiptSHAdc4dd2c410ee82a94d392c779bdaedd9b2f946433e456e3a86bee17721153388。
+
+恢复scope=held4_training_complete_producer_recovery_no_numeric_audit_claim，numeric_audit_certified_by_this_snapshot=false、complete_modelset_verified=false/all_completed_models_included=false。不是全6模型集、held4数值审计成功、准确率/原创贡献或整jobresume；raw/maps/runtime binaries不入档，真实ID/model只私有不入Git。恢复索引producer4_recovery/CLOUD_DOWNLOAD_INDEX.json，训练完成/TERM/冻预测哈希在producer4_training/，旧2/3训练14块+审计补充、held1完整7块和旧4/5首步保险均保留，不重复上传它们的selected/last模型。
+
+本轮实现可复用remaining producer4/5/6备份工具producer_recovery_tools_20261101/，云端/workspace/uwb-hinception-producer-preservation-20261101。只做元数据/字节校验，不解码模型/数组/标签、不fit/score/launch。2项合成guard测试通过：active先拒绝在TERM/modelhash前、非剩余producer在任何文件读取前拒绝。通用member checker仍使用固定3c9f9968...版本及既有完整性测试，另以本次真实149成员验证；不包装为新的准确率实验。新只读observer支持mixed training/numeric-audit和短暂phase transition，使用ps --ppid及命令/PPid/non-zombie实际检查，明确原训练/审计背景布尔；不再对所有active fold强行套单一阶段假设。它核1465前提/完成audit元数据，不声称重放或重核新audit全部artifacthashes。
+
+下一步继续已有4 audit与5 training→audit→6，不重启、不提前诊断评分/救援调参。只有5/6训练真的成功完成后，才可用同guard工具另建其producer恢复档，不能提前创建“完成”备份。最终all5fullaudit/dualpredfreeze→aggregate→完整六模型私有回读后发布真实source6比较；用户7–8标签不用于选择，所有source历史研发探索性，八折/原创目标仍未达。原自动接续保持。
+
 # 2026-10-31 — 用户2/3完整数值复现审计通过，用户4/5自动开始真实训练；补充4块/155成员私有证据回读完成
 
 先读最新远端ffe6922ac101eeac577bce622f4ab8e079ef1ed2四记录并核同一cloud实际OS/jobs/checkpoints，无重复下载/启动。独立audits60565/60557已exit0/no timeout，held2/3各完整重放100epoch/7400与7100updates，470000/450000训练出现；selected_epoch99/59来自原最低trainingloss。所有initial/first/best/last/final model/Adam/BN/metrics/callbacks/modes/allRNG、nativebest/last、原6900RMS+authorznorm独立FP64参考、4600行val+diag probs/IDs全部匹配。每份audit记录1489 artifact hashes；本次去重1508哈希全部重核并将旧私有模型档中38个producer文件逐一连接到独立audit证据。审计仍不索引本折诊断标签，没有提前评分或accuracy门槛结论。

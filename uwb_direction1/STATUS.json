@@ -1,9 +1,9 @@
 {
-  "date_client": "2026-10-31",
+  "date_client": "2026-11-01",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_source6_full_numeric_audits2_3_passed_original_training4_5_active_6_queued",
+  "state": "HInception_source6_producer4_complete_private_recovery_verified_audit4_and_train5_active_6_queued",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -6240,7 +6240,7 @@
     "diagnostic_summary_parsed_after_private_preservation": true
   },
   "hinception_source_sixfold_20261031": {
-    "state": "audits2_3_complete_original_training4_5_active",
+    "state": "producer4_complete_audit4_and_training5_active",
     "workspace": "/workspace/uwb-hinception-sixfold-20261031",
     "protocol": "results/cloud_20261031_hinception_sixfold/study/PROTOCOL.json",
     "frozen_hashes": "results/cloud_20261031_hinception_sixfold/study/FROZEN_HASHES.json",
@@ -6271,7 +6271,6 @@
       "5": 61235
     },
     "worker_pids": {
-      "4": 61224,
       "5": 61236
     },
     "observed_epoch_steps": {
@@ -6284,12 +6283,12 @@
         7100
       ],
       "4": [
-        29,
-        2059
+        100,
+        7100
       ],
       "5": [
-        20,
-        1440
+        97,
+        6984
       ]
     },
     "pending": [
@@ -6303,15 +6302,18 @@
     "insurance_scope": "held2_held3_initial_first_update_only",
     "insurance_chunks": 4,
     "insurance_archive_members": 138,
-    "live_observed_utc": "2026-10-31T22:33:29.960652+00:00",
+    "live_observed_utc": "2026-11-01T00:39:46.478003+00:00",
     "complete_preservation_tools": "results/cloud_20261031_hinception_sixfold/complete_preservation_tools",
     "complete_preservation_integrity_tests": 9,
     "active_guard_refusal_expected": true,
     "new_complete_archive_created": false,
-    "audit_worker_pids": {},
+    "audit_worker_pids": {
+      "4": 61907
+    },
     "completed_producer_folds": [
       2,
-      3
+      3,
+      4
     ],
     "fully_audited_new_folds": [
       2,
@@ -6332,9 +6334,15 @@
     "audited23_first45_supplement_scope": "full_audits23_linked_to_private_models_and_first_updates45",
     "audited23_first45_supplement_chunks": 4,
     "audited23_first45_supplement_members": 155,
-    "audited23_first45_recovery_index": "results/cloud_20261031_hinception_sixfold/audited23_first45_supplement/CLOUD_DOWNLOAD_INDEX.json"
+    "audited23_first45_recovery_index": "results/cloud_20261031_hinception_sixfold/audited23_first45_supplement/CLOUD_DOWNLOAD_INDEX.json",
+    "producer4_private_readback_verified": true,
+    "producer4_recovery_scope": "held4_training_complete_producer_recovery_no_numeric_audit_claim",
+    "producer4_recovery_chunks": 7,
+    "producer4_recovery_members": 149,
+    "producer4_recovery_index": "results/cloud_20261031_hinception_sixfold/producer4_recovery/CLOUD_DOWNLOAD_INDEX.json",
+    "remaining_producer_recovery_tools": "results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101"
   },
-  "next_action_source_confirmation": "Continue existing controller59236, original training4/5 workers61224/61236 and queued6. Full audits2/3 passed with models unchanged/private-recoverable; do not relaunch. All five dual predictions and full audits must complete before aggregate diagnostic scoring; preserve complete six-model archive before final publication. Current numerical pass is not an accuracy gate or originality claim.",
+  "next_action_source_confirmation": "Inspect actual mixed phases under existing controller59236: producer4 completed, audit61907 running; producer5 training61236, source6 pending. Do not relaunch. Preserve producer5/6 only after actual successful completion. All five frozen dual predictions/full audits precede aggregate; complete six-model private readback precedes final publication.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6353,6 +6361,6 @@
     "novelty_claim": false,
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes"
   },
-  "background_numeric_audit_running": false,
+  "background_numeric_audit_running": true,
   "background_experiment_queue_running": true
 }

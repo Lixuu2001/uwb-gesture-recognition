@@ -1,6 +1,6 @@
 {
-  "state": "verified_full_audits23_complete_original_training45_active",
-  "observed_utc": "2026-10-31T22:33:29.960652+00:00",
+  "state": "verified_source_queue_mixed_phase_observation",
+  "observed_utc": "2026-11-01T00:39:46.478003+00:00",
   "queue": {
     "state": "running_unscored_source_confirmation",
     "pid": 59236,
@@ -23,54 +23,94 @@
   },
   "folds": {
     "4": {
+      "phase": "numeric_audit",
       "job": {
-        "state": "training",
+        "state": "numeric_audit",
         "held": 4,
         "pid": 61223,
         "diagnostic_labels_read": false,
-        "automatic_retry": false,
-        "observed_unix": 1793483005.959457
+        "observed_unix": 1793492832.9305475,
+        "automatic_retry": false
       },
       "worker": {
-        "state": "training",
-        "pid": 61224,
-        "epoch": 29,
-        "total_steps": 2059,
-        "all_predictions_frozen": false,
+        "state": "complete",
+        "pid": null,
+        "epoch": 100,
+        "batch": 70,
+        "total_steps": 7100,
+        "all_predictions_frozen": true,
         "diagnostic_labels_read": false,
         "users7_8_labels_used": false,
-        "wall_seconds": 2925.34523443901,
-        "cpu_seconds": 2928.067850997,
-        "observed_unix": 1793485934.6424944,
-        "batch": 70,
-        "best_epoch": 26,
-        "best_training_loss": 0.00015627502580173314
-      }
+        "wall_seconds": 9822.021239456022,
+        "cpu_seconds": 9823.405066689,
+        "observed_unix": 1793492831.3184974,
+        "best_epoch": 59,
+        "best_training_loss": 2.022955050051678e-05
+      },
+      "active_process": {
+        "pid": 61907,
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-u",
+          "/workspace/uwb-hinception-sixfold-20261031/audit_fold.py",
+          "--held",
+          "4"
+        ],
+        "status": {
+          "Name": "python",
+          "State": "R (running)",
+          "PPid": "61223",
+          "VmRSS": "4827436 kB",
+          "Threads": "1"
+        },
+        "process_cpu_seconds": 753.33
+      },
+      "audit_progress_step_known": false
     },
     "5": {
+      "phase": "training",
       "job": {
         "state": "training",
         "held": 5,
         "pid": 61235,
         "diagnostic_labels_read": false,
-        "automatic_retry": false,
-        "observed_unix": 1793483930.9980798
+        "observed_unix": 1793483930.9980798,
+        "automatic_retry": false
       },
       "worker": {
         "state": "training",
         "pid": 61236,
-        "epoch": 20,
-        "total_steps": 1440,
+        "epoch": 97,
+        "batch": 71,
+        "total_steps": 6984,
         "all_predictions_frozen": false,
         "diagnostic_labels_read": false,
         "users7_8_labels_used": false,
-        "wall_seconds": 2069.4173776590033,
-        "cpu_seconds": 2072.596009065,
-        "observed_unix": 1793486004.0639544,
-        "batch": 71,
-        "best_epoch": 20,
-        "best_training_loss": 0.00017465290147811174
-      }
+        "wall_seconds": 9640.598536650068,
+        "cpu_seconds": 9642.352446059,
+        "observed_unix": 1793493575.245113,
+        "best_epoch": 96,
+        "best_training_loss": 3.6303533761383733e-06
+      },
+      "active_process": {
+        "pid": 61236,
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-u",
+          "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+          "--held",
+          "5"
+        ],
+        "status": {
+          "Name": "python",
+          "State": "R (running)",
+          "PPid": "61235",
+          "VmRSS": "3156960 kB",
+          "Threads": "1"
+        },
+        "process_cpu_seconds": 9653.57
+      },
+      "audit_progress_step_known": null
     }
   },
   "processes": [
@@ -88,7 +128,8 @@
         "PPid": "1",
         "VmRSS": "12540 kB",
         "Threads": "1"
-      }
+      },
+      "process_cpu_seconds": 0.56
     },
     {
       "pid": 61223,
@@ -103,16 +144,17 @@
         "Name": "python",
         "State": "S (sleeping)",
         "PPid": "59236",
-        "VmRSS": "11972 kB",
+        "VmRSS": "11980 kB",
         "Threads": "1"
-      }
+      },
+      "process_cpu_seconds": 15.16
     },
     {
-      "pid": 61224,
+      "pid": 61907,
       "command": [
         "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
         "-u",
-        "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+        "/workspace/uwb-hinception-sixfold-20261031/audit_fold.py",
         "--held",
         "4"
       ],
@@ -120,9 +162,10 @@
         "Name": "python",
         "State": "R (running)",
         "PPid": "61223",
-        "VmRSS": "3155344 kB",
+        "VmRSS": "4827436 kB",
         "Threads": "1"
-      }
+      },
+      "process_cpu_seconds": 753.33
     },
     {
       "pid": 61235,
@@ -139,7 +182,8 @@
         "PPid": "59236",
         "VmRSS": "11956 kB",
         "Threads": "1"
-      }
+      },
+      "process_cpu_seconds": 13.97
     },
     {
       "pid": 61236,
@@ -154,21 +198,29 @@
         "Name": "python",
         "State": "R (running)",
         "PPid": "61235",
-        "VmRSS": "3097592 kB",
+        "VmRSS": "3156960 kB",
         "Threads": "1"
-      }
+      },
+      "process_cpu_seconds": 9653.57
     }
   ],
   "completed_producer_folds": [
     2,
-    3
+    3,
+    4
   ],
   "fully_audited_new_folds": [
     2,
     3
   ],
-  "no_new_diagnostic_labels_scored": true,
+  "completed_audit_metadata_checked": true,
+  "new_completed_audit_artifact_hashes_reverified_by_this_observer": false,
+  "all1465_frozen_prerequisites_reverified": true,
+  "background_original_training_running": true,
+  "background_numeric_audit_running": true,
+  "phase_transitions_or_unverified": [],
+  "diagnostic_scoring_performed": false,
   "users7_8_labels_used": false,
-  "source_sixfold_result_available": false,
+  "source6_summary_file_exists": false,
   "complete_private_modelset_verified": false
 }
