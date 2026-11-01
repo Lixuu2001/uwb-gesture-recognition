@@ -1,0 +1,67 @@
+{
+  "state": "complete_exploratory_source_sixfold_confirmation",
+  "rows": [
+    {
+      "held": 1,
+      "hinception": 0.9941666666666666,
+      "localcnn": 0.9683333333333333,
+      "gap": 0.9841666666666667
+    },
+    {
+      "held": 2,
+      "hinception": 0.99,
+      "localcnn": 0.9640000000000001,
+      "gap": 0.9869999999999999
+    },
+    {
+      "held": 3,
+      "hinception": 0.88,
+      "localcnn": 0.8958333333333334,
+      "gap": 0.8999999999999999
+    },
+    {
+      "held": 4,
+      "hinception": 0.9091666666666667,
+      "localcnn": 0.9441666666666667,
+      "gap": 0.9425
+    },
+    {
+      "held": 5,
+      "hinception": 0.9808333333333333,
+      "localcnn": 0.9533333333333335,
+      "gap": 0.96
+    },
+    {
+      "held": 6,
+      "hinception": 0.8690909090909091,
+      "localcnn": 0.8900000000000001,
+      "gap": 0.8463636363636364
+    }
+  ],
+  "means": {
+    "hinception": 0.937209595959596,
+    "localcnn": 0.9359444444444446,
+    "gap": 0.9366717171717172
+  },
+  "comparisons": {
+    "localcnn": {
+      "mean_difference": 0.0012651515151514599,
+      "wins": 3,
+      "worst_difference": -0.03500000000000003,
+      "pass_gate": false
+    },
+    "gap": {
+      "mean_difference": 0.0005378787878788094,
+      "wins": 4,
+      "worst_difference": -0.033333333333333326,
+      "pass_gate": false
+    }
+  },
+  "predeclared_gate_passed": false,
+  "route": "close_exact_CPU100_source_confirmation_no_rescue",
+  "all_five_predictions_frozen_before_new_diagnostic_scoring": true,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "complete_private_modelset_verified": false
+}
