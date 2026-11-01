@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MLSTM_FCN8_full250_B128_cost_pass_epoch_engine_synthetic_verified_requires_real_runner_auditor",
+  "state": "MLSTM_FCN250_real_pilot_runner_full_auditor_ready_preregister_pending_start",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261101_mlstmfcn_formal_cost/ACTUAL_COST_AND_ENGINE.md",
+  "latest_report": "results/cloud_20261101_mlstmfcn_pilot/REGISTRATION_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -6404,7 +6404,7 @@
     "source_sixfold_confirmation_completed": true,
     "eightfold_improvement_established": false
   },
-  "next_action_source_confirmation": "MLSTM full documented8/Conv128-256-128+SE paper250/B128/seed20261029 passed actual6.02h synthetic cost; complete native epoch/callback/custom-state engine synthetic checks pass. Next implement fixed source-held1/validation2 real sample-ID guard, persistent full250 runner and independent raw RMS/full numerical replay auditor, freeze protocol and accuracy gate, remote exact-readback then launch one real UWB pilot. Do not stop at additional abstracts; no current real MLSTM fit/score. Preserve7-8 exclusion and exploratory source disclosure; H CPU100 and Disjoint500/B8 remain closed.",
+  "next_action_source_confirmation": "MLSTM250/B128/seed20261029 real pilot fully implemented and1541 final hashes checked; exact-readback current registration then immediately launch existing single controller once, verify real child/first update, preserve initial/first privately with honest partial scope. Train->full audit sequential; both predictions/full audit/complete private modelset before diagnostic scoring. No duplicate run or source7-8 selection; pass only separately registered source6 confirmation, fail close exact configuration.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6509,5 +6509,50 @@
     "native_fit_DataAdapter_RNG_parity_claim": false,
     "real_UWB_values_labels_fit": false,
     "real_UWB_runner_auditor_registered": false
+  },
+  "mlstm_fcn_accuracy_pilot_20261101": {
+    "state": "fixed_real_pilot_preregistered_pending_exact_readback_and_launch",
+    "workspace": "/workspace/uwb-mlstmfcn-pilot-20261101",
+    "protocol": "results/cloud_20261101_mlstmfcn_pilot/study/PROTOCOL.json",
+    "frozen_hashes": "results/cloud_20261101_mlstmfcn_pilot/study/FROZEN_HASHES.json",
+    "protocol_sha256": "2b48325487cc11c6f534527377092e7f6f946a9aa2f7c7afd51d4069244c4ca3",
+    "frozen_sha256": "e4d806da3b0e37f915ddfb7e3d04156e840af660f6320de7312c458626f72433",
+    "frozen_prerequisites": 1541,
+    "epochs": 250,
+    "batch_size": 128,
+    "seed": 20261029,
+    "total_parameters": 860364,
+    "trainable_parameters": 859340,
+    "counts": {
+      "train": 4700,
+      "validation": 1000,
+      "diagnostic": 1200
+    },
+    "training_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "max_updates": 9250,
+    "max_training_appearances": 1175000,
+    "gate_minimum_gain_over_fixed_TimeMIL_reference": 0.005,
+    "fixed_reference_macro": 0.9866666666666667,
+    "historical_H_held1_context_macro": 0.9941666666666666,
+    "cost_estimate_seconds": 21684.352822553366,
+    "protocol_tests": 4,
+    "completion_boundary_tests": 3,
+    "full_native_synthetic_integration_pass": true,
+    "all_final_preaccess_checks_passed": true,
+    "real_training_started": false,
+    "real_UWB_values_labels_fit": false,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_validated": false,
+    "complete_private_modelset_verified": false,
+    "automatic_retry": false,
+    "automatic_resume": false
   }
 }
