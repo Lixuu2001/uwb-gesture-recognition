@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "hinception_CPU100_source6_gate_failed_complete_private_preservation_next_disjoint_cost_registered",
+  "state": "H_CPU100_source6_gate_failed_Disjoint_full500_B8_resource_closed_next_MLSTM_FCN",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261031_hinception_sixfold/SOURCE6_RESULT.md",
+  "latest_report": "results/cloud_20261101_disjoint_formal_cost/ACTUAL_COST_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -3402,7 +3402,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "results/cloud_20261031_hinception_sixfold/SOURCE6_RESULT.md",
+  "latest_completed_report": "results/cloud_20261101_disjoint_formal_cost/ACTUAL_COST_REPORT.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -6127,7 +6127,7 @@
     "readiness_tests": 3,
     "engineering_repair": "float32-vs-float64 independent-reference assertion tolerance only; original attempt preserved",
     "paper_fulltext_obtained": false,
-    "formal_cost_run": false,
+    "formal_cost_run": true,
     "real_UWB_config_selected": false,
     "Disjoint_UWB_values_labels_fit": false,
     "accuracy_or_originality_claim": false,
@@ -6160,8 +6160,8 @@
     "full_author_DCNN2L_preserved": true,
     "source_actual_minibatch_rule_preserved": true,
     "worst_case_best_and_last_fullstate_saves_every_epoch_in_formula": true,
-    "actual_epoch_batch_seed_policy_selected": false,
-    "formal_timed_profile_run": false,
+    "actual_epoch_batch_seed_policy_selected": true,
+    "formal_timed_profile_run": true,
     "UWB_values_labels_fit": false,
     "accuracy_claim": false,
     "report": "uwb_direction1/results/cloud_20261031_disjoint_cost_tools/ENGINEERING_REPORT.md"
@@ -6174,10 +6174,10 @@
     "full_architecture_resource_arithmetic_recomputed": true,
     "registered_seed_batch_epochs_preprocessing_must_match": true,
     "fixtures_are_not_actual_measurements": true,
-    "formal_profile_or_actual_UWB_configuration_selected": false,
+    "formal_profile_or_actual_UWB_configuration_selected": true,
     "real_UWB_values_labels_or_fit": false,
     "actual_UWB_runner_not_yet_registered": true,
-    "current_H_full_audit_active": true,
+    "current_H_full_audit_active": false,
     "all1423_current_science_and19_artifact_SHA_unchanged": true,
     "accuracy_or_originality_claim": false
   },
@@ -6404,7 +6404,7 @@
     "source_sixfold_confirmation_completed": true,
     "eightfold_improvement_established": false
   },
-  "next_action_source_confirmation": "H-Inception exact CPU100 configuration failed both fixed source6 gates and is closed; no rescue or real zero17 ablation. Complete six-model private recovery verified. Finish exact remote preregistration then run fixed full-default Disjoint-CNN500/B8 synthetic bounded cost profile; pass requires separate UWB runner/auditor registration, failure closes exact resource policy. Users7-8 excluded.",
+  "next_action_source_confirmation": "H exact CPU100 source6 gate failure and full private six-model preservation complete; Disjoint author full500/B8 fixed synthetic resource policy closed after actual timing. Next use prepared full MLSTM-FCN8/128-256-128+SE source, check history and preregister one exact synthetic cost policy/current closure guard before timing; only cost pass permits separately registered UWB train-validation runner/auditor. No rescue search, zero17 run or users7-8 selection. No training/audit running.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6427,7 +6427,7 @@
   "background_numeric_audit_running": false,
   "background_experiment_queue_running": false,
   "disjoint_cnn_formal_cost_20261101": {
-    "state": "preregistered_fixed_synthetic_cost_pending_exact_remote_readback_and_execution",
+    "state": "actual_synthetic_profile_successfully_completed_full500_B8_resource_closed",
     "workspace": "/workspace/uwb-disjoint-formal-cost-20261101",
     "policy": "research/cloud_20261101_disjoint_formal_cost/POLICY.json",
     "policy_sha256": "713475ceb65cac0b7982be4246609d83e48b7936a8cb32cb97763ef9251b2f5f",
@@ -6438,9 +6438,21 @@
     "seed": 20261029,
     "cost_budget_seconds": 43200,
     "actual_UWB_values_labels_fit": false,
-    "profile_started": false,
+    "profile_started": true,
     "source6_closure_guard_passed": true,
     "paper_fulltext_obtained": false,
-    "no_smaller_epoch_fallback": true
+    "no_smaller_epoch_fallback": true,
+    "profile_completed": true,
+    "profile_running": false,
+    "profile_registration_commit": "013a4a880c81af8696c68de71fe5a191013d31ae",
+    "profile_child_pid": 65232,
+    "termination_exit_code": 0,
+    "resource_gate_passed": false,
+    "conservative_estimate_seconds": 971304.161989152,
+    "conservative_estimate_hours": 269.80671166365335,
+    "max_RSS_KiB": 1241000,
+    "chosen_epochs": null,
+    "accuracy_measured": false,
+    "verified_result": "research/cloud_20261101_disjoint_formal_cost/VERIFIED_COST_RESULT.json"
   }
 }
