@@ -1,0 +1,114 @@
+{
+  "state": "producer4_completed_training_private_recovery_exact_remote_readback_verified",
+  "parent": "dc28f1b0faa5006e7984161abaf8cf0ec9187e1c",
+  "commit": "ec571447d1f43035149264f359a587da00111853",
+  "force": false,
+  "exact_blobs": [
+    {
+      "path": "uwb_direction1/STATUS.json",
+      "sha": "d018f599e75bae61a914a7ac625142afac782e48"
+    },
+    {
+      "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+      "sha": "d2a3a9f7e88d029820c94abb56b957080baf89fb"
+    },
+    {
+      "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+      "sha": "a32c5498ecd165ca265b7cc1199d154b4abee7f2"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20260930/RUN_REPORT.md",
+      "sha": "56eb3d82e393bca22010993aad969ab82da2d334"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/LIVE_OBSERVATION.json",
+      "sha": "ee051ba0cef3e4ded439b42cf10ae02d38385190"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/PRODUCER4_COMPLETION_AND_RECOVERY.md",
+      "sha": "360164848d8ea17b4b8e5f5acd91ba700b706cd1"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_recovery/CLOUD_DOWNLOAD_INDEX.json",
+      "sha": "82596002ac92ca3c1ec2ccc7617e692d93c2b3b7"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_recovery/DRIVE_BACKUP_RECEIPT.json",
+      "sha": "04356e59557a7b7882b77e8e65854086d3e3a80b"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_recovery/MANIFEST.json",
+      "sha": "3fb4371c9fb0b175b43d645ba0093e41fcb985f6"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_recovery/READBACK_VERIFIED.json",
+      "sha": "d9e9bcc517dd60359fdb99161bd42de42ba86e35"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_training/ALL_PREDICTIONS_FROZEN.json",
+      "sha": "a59857050289b974a6e04b42e5ac6cbb986dcc58"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_training/FILES.json",
+      "sha": "b3fa6513ab8b7830721edcd6f22d59b2d560a067"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_training/TERMINATION.json",
+      "sha": "54c79f8fc0009bf70d3e193581317dd27f87caea"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_training/TRAINING_COMPLETE.json",
+      "sha": "0f59d90b0cc68b9440edcd54926e504b985742cd"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_training/TRAINING_RESULT.json",
+      "sha": "552e793dc9f2693f2ebdae679bd0e68efd4fea92"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/BUILD.log",
+      "sha": "adc2a5f8a6ab3b5d939a1d68922abf575dcf2e1c"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/GUARD_TESTS.log",
+      "sha": "bbf64a9946eb5eacca6eba1924a46e494e59c5b8"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/OBSERVE.log",
+      "sha": "0b9478fb60a6a0845045bc0de31479b1462a4f40"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/PREPARATION_HASHES.json",
+      "sha": "6c6e848ef26dc0615fd4862b12a31016fe577247"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/README.md",
+      "sha": "7276d5551200210c2a7ffbb24474a58cd3c302c7"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/VERIFY.log",
+      "sha": "a4333ab603453b17a362aa67092a71a508e26f8e"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/observe_current.py",
+      "sha": "f1cde98c08978b03d55cf2e1586edbb790ecb31f"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/producer_snapshot.py",
+      "sha": "36782bd1f3269ed973ca85a184499306a8feacc6"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer_recovery_tools_20261101/test_guard.py",
+      "sha": "894b4bd7bfb1cd3b8470e9084155175f5d432c80"
+    }
+  ],
+  "producer_folds_completed": [
+    2,
+    3,
+    4
+  ],
+  "fully_audited_new_folds": [
+    2,
+    3
+  ],
+  "source6_accuracy_available": false
+}

@@ -1,0 +1,85 @@
+{
+  "state": "current_private_recovery_coverage_inventory_not_source6_completion",
+  "observed_utc": "2026-11-01T00:51:39.774061+00:00",
+  "groups": [
+    {
+      "folds": [
+        1
+      ],
+      "local_receipt": "/workspace/uwb-hinception-pilot-20261031/complete_backup_20261031/DRIVE_BACKUP_RECEIPT.json",
+      "git_index": "uwb_direction1/results/cloud_20261031_hinception_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+      "scope": "full_models_and_complete_audit",
+      "receipt_sha256": "f7e1f46b98fe02782a954870986ce2a3b1e3b5a8c15f088f6fa6003e17de2771",
+      "archive_sha256": "4110292ce8f3c1093d5e7fdba5e2c928d7c2b2666a1724c8f2f349d69081e8c4",
+      "chunks": 7,
+      "archive_members": 193
+    },
+    {
+      "folds": [
+        2,
+        3
+      ],
+      "local_receipt": "/workspace/uwb-hinception-sixfold-trained23-20261031/snapshot01/DRIVE_BACKUP_RECEIPT.json",
+      "git_index": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer23_insurance/CLOUD_DOWNLOAD_INDEX.json",
+      "scope": "full_producer_models_require_later_audit_supplement",
+      "receipt_sha256": "ec0b55b62db4ab30783c51ebb57c79fbb6699736cafac8e1f6f19e5ab803a44d",
+      "archive_sha256": "ad129c8fbf376cb34648ae354fa387959081b819bc3dee04c35db998c9525883",
+      "chunks": 14,
+      "archive_members": 174
+    },
+    {
+      "folds": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "local_receipt": "/workspace/uwb-hinception-audited23-first45-20261031/snapshot01/DRIVE_BACKUP_RECEIPT.json",
+      "git_index": "uwb_direction1/results/cloud_20261031_hinception_sixfold/audited23_first45_supplement/CLOUD_DOWNLOAD_INDEX.json",
+      "scope": "full_audit_evidence2_3_and_initial_first_only4_5",
+      "receipt_sha256": "76630c8727c7565aec8e5d86eb463adbbf21112e131d32c3b17c6b89f2731d07",
+      "archive_sha256": "b15cf8fbbc32cdfadbb77fddf36fc002bda0dfd529deaf01f08a5c10a844fb84",
+      "chunks": 4,
+      "archive_members": 155
+    },
+    {
+      "folds": [
+        4
+      ],
+      "local_receipt": "/workspace/uwb-hinception-producer4-20261101/DRIVE_BACKUP_RECEIPT.json",
+      "git_index": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer4_recovery/CLOUD_DOWNLOAD_INDEX.json",
+      "scope": "full_producer4_no_numeric_audit_claim",
+      "receipt_sha256": "dc4dd2c410ee82a94d392c779bdaedd9b2f946433e456e3a86bee17721153388",
+      "archive_sha256": "9726a2f12def5d5ee1172b31a5c406be57f4af920c603127e89403dfd6941d38",
+      "chunks": 7,
+      "archive_members": 149
+    },
+    {
+      "folds": [
+        5
+      ],
+      "local_receipt": "/workspace/uwb-hinception-producer5-20261101/DRIVE_BACKUP_RECEIPT.json",
+      "git_index": "uwb_direction1/results/cloud_20261031_hinception_sixfold/producer5_recovery/CLOUD_DOWNLOAD_INDEX.json",
+      "scope": "full_producer5_no_numeric_audit_claim",
+      "receipt_sha256": "023774868443d98d7b56318c1ea8f4d6c74365bc3e4e7545c817a6041ff65b44",
+      "archive_sha256": "36432d67b96fae014ee0733f8f9dc0e7ffc7c24994cf8aefc6b1ffc9a00ab571",
+      "chunks": 7,
+      "archive_members": 155
+    }
+  ],
+  "required_combination_for_audited2_3": "producer23_insurance plus audited23_first45_supplement",
+  "full_private_models_available_for": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "private_first_update_only_for": [],
+  "no_model_yet_for": [
+    6
+  ],
+  "complete_source6_modelset_verified": false,
+  "raw_maps_runtime_restore_separately": true,
+  "whole_job_resume_claim": false
+}

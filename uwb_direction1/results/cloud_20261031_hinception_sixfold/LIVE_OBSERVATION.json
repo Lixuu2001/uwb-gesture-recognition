@@ -1,6 +1,6 @@
 {
   "state": "verified_source_queue_mixed_phase_observation",
-  "observed_utc": "2026-11-01T00:39:46.478003+00:00",
+  "observed_utc": "2026-11-01T00:50:01.741306+00:00",
   "queue": {
     "state": "running_unscored_source_confirmation",
     "pid": 59236,
@@ -60,44 +60,44 @@
           "Name": "python",
           "State": "R (running)",
           "PPid": "61223",
-          "VmRSS": "4827436 kB",
+          "VmRSS": "4822620 kB",
           "Threads": "1"
         },
-        "process_cpu_seconds": 753.33
+        "process_cpu_seconds": 1368.52
       },
       "audit_progress_step_known": false
     },
     "5": {
-      "phase": "training",
+      "phase": "numeric_audit",
       "job": {
-        "state": "training",
+        "state": "numeric_audit",
         "held": 5,
         "pid": 61235,
         "diagnostic_labels_read": false,
-        "observed_unix": 1793483930.9980798,
+        "observed_unix": 1793493906.715527,
         "automatic_retry": false
       },
       "worker": {
-        "state": "training",
-        "pid": 61236,
-        "epoch": 97,
+        "state": "complete",
+        "pid": null,
+        "epoch": 100,
         "batch": 71,
-        "total_steps": 6984,
-        "all_predictions_frozen": false,
+        "total_steps": 7200,
+        "all_predictions_frozen": true,
         "diagnostic_labels_read": false,
         "users7_8_labels_used": false,
-        "wall_seconds": 9640.598536650068,
-        "cpu_seconds": 9642.352446059,
-        "observed_unix": 1793493575.245113,
-        "best_epoch": 96,
-        "best_training_loss": 3.6303533761383733e-06
+        "wall_seconds": 9970.839669975103,
+        "cpu_seconds": 9972.520326606,
+        "observed_unix": 1793493905.4862437,
+        "best_epoch": 99,
+        "best_training_loss": 3.3151170555356657e-06
       },
       "active_process": {
-        "pid": 61236,
+        "pid": 62381,
         "command": [
           "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
           "-u",
-          "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+          "/workspace/uwb-hinception-sixfold-20261031/audit_fold.py",
           "--held",
           "5"
         ],
@@ -105,12 +105,12 @@
           "Name": "python",
           "State": "R (running)",
           "PPid": "61235",
-          "VmRSS": "3156960 kB",
+          "VmRSS": "4749324 kB",
           "Threads": "1"
         },
-        "process_cpu_seconds": 9653.57
+        "process_cpu_seconds": 294.94
       },
-      "audit_progress_step_known": null
+      "audit_progress_step_known": false
     }
   },
   "processes": [
@@ -129,7 +129,7 @@
         "VmRSS": "12540 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 0.56
+      "process_cpu_seconds": 0.57
     },
     {
       "pid": 61223,
@@ -147,7 +147,7 @@
         "VmRSS": "11980 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 15.16
+      "process_cpu_seconds": 15.93
     },
     {
       "pid": 61907,
@@ -162,10 +162,10 @@
         "Name": "python",
         "State": "R (running)",
         "PPid": "61223",
-        "VmRSS": "4827436 kB",
+        "VmRSS": "4822620 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 753.33
+      "process_cpu_seconds": 1368.52
     },
     {
       "pid": 61235,
@@ -180,17 +180,17 @@
         "Name": "python",
         "State": "S (sleeping)",
         "PPid": "59236",
-        "VmRSS": "11956 kB",
+        "VmRSS": "11968 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 13.97
+      "process_cpu_seconds": 14.69
     },
     {
-      "pid": 61236,
+      "pid": 62381,
       "command": [
         "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
         "-u",
-        "/workspace/uwb-hinception-sixfold-20261031/run_fold.py",
+        "/workspace/uwb-hinception-sixfold-20261031/audit_fold.py",
         "--held",
         "5"
       ],
@@ -198,16 +198,17 @@
         "Name": "python",
         "State": "R (running)",
         "PPid": "61235",
-        "VmRSS": "3156960 kB",
+        "VmRSS": "4749324 kB",
         "Threads": "1"
       },
-      "process_cpu_seconds": 9653.57
+      "process_cpu_seconds": 294.94
     }
   ],
   "completed_producer_folds": [
     2,
     3,
-    4
+    4,
+    5
   ],
   "fully_audited_new_folds": [
     2,
@@ -216,7 +217,7 @@
   "completed_audit_metadata_checked": true,
   "new_completed_audit_artifact_hashes_reverified_by_this_observer": false,
   "all1465_frozen_prerequisites_reverified": true,
-  "background_original_training_running": true,
+  "background_original_training_running": false,
   "background_numeric_audit_running": true,
   "phase_transitions_or_unverified": [],
   "diagnostic_scoring_performed": false,

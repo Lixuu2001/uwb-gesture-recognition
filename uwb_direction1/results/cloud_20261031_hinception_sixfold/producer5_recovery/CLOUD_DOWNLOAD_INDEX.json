@@ -1,0 +1,57 @@
+{
+  "state": "private_persistent_completed_producer5_download_index",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "hinception_source6_producer5_20261101.tar.gz",
+  "archive_bytes": 50097722,
+  "archive_sha256": "36432d67b96fae014ee0733f8f9dc0e7ffc7c24994cf8aefc6b1ffc9a00ab571",
+  "members_manifest_sha256": "cace9a9f3866548548ac63a793199637cc723e993292bdd5bc6dc9ec53bdea04",
+  "chunks": [
+    {
+      "name": "hinception_source6_producer5_20261101.part000",
+      "file_id": "1-i6EKQMcPdvSnQW18cWeeeunSHaIXTui",
+      "bytes": 7340032,
+      "sha256": "d8e8a74aa07eaa4059269c1ac2098ec5873a44e33bbde732db97f23fa1864f5b"
+    },
+    {
+      "name": "hinception_source6_producer5_20261101.part001",
+      "file_id": "1xox6K1nhl2gfboaZjeipE13d3FAdanJR",
+      "bytes": 7340032,
+      "sha256": "78bcf529c4d7b74e91091b492f26896b7fd4149f03beeed53dec17b83e4e5574"
+    },
+    {
+      "name": "hinception_source6_producer5_20261101.part002",
+      "file_id": "1JOqhMZXqku5Hu-YvgnEJef_T7zM9oSM6",
+      "bytes": 7340032,
+      "sha256": "76f88112090976cd52f0401efa6c0c23f13d77940e55bcd009739ce23efa0320"
+    },
+    {
+      "name": "hinception_source6_producer5_20261101.part003",
+      "file_id": "1M6IkF0aHJdmFFQ6uO-Y_g_JnpGgNVwQE",
+      "bytes": 7340032,
+      "sha256": "4238ebb58bbea3dc80a46afbb0cfec395c4f3e9a4b3a734a3846cb075793d1af"
+    },
+    {
+      "name": "hinception_source6_producer5_20261101.part004",
+      "file_id": "1b2CdPEJZBuWdSG_ch9Xh3yxnEbTc0RkX",
+      "bytes": 7340032,
+      "sha256": "3b539a24cbf49896eba90e281160478edee17028596ce8c42e2e5d7d05471325"
+    },
+    {
+      "name": "hinception_source6_producer5_20261101.part005",
+      "file_id": "13QYT6QMp7Catqqogm77mnCoB0HTKave-",
+      "bytes": 7340032,
+      "sha256": "d6917b3d9e500b7e704d3b7d8b1a270523db0ec78ded908610a78c149e92155d"
+    },
+    {
+      "name": "hinception_source6_producer5_20261101.part006",
+      "file_id": "17A5vqJCs1Hp8cRPfUVofzGU4DKyXX78l",
+      "bytes": 6057530,
+      "sha256": "ca3ab2115037d224b324e8afba961450f4848200fa577537773c57c3232fabae"
+    }
+  ],
+  "scope": "held5_training_complete_producer_recovery_no_numeric_audit_claim",
+  "held": 5,
+  "numeric_audit_certified_by_this_snapshot": false,
+  "complete_source6_modelset": false,
+  "restore_instructions": "Owner-only metadata first; rawfetch(download_raw_file=true,include_base64=false), immediately materialize size/SHA; at most3 pipelines. Concatenate manifest order, verify archive SHA and every MEMBERS.json entry. All immutable producer5 selected/last/initial/first/final/native states, IDs/logs/preds and train TERM are preserved. Its independent numerical audit runs separately; no source6 completion or whole-job resume. Raw/maps/runtime restore separately."
+}
