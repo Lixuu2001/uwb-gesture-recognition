@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "HInception_source6_producers4_5_complete_private_recovery_verified_both_numeric_audits_active_6_pending",
+  "state": "hinception_source6_audited2345_last6_training_pending_full_audit_and_scoring",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "uwb_direction1/results/cloud_20261031_hinception_pilot/FINAL_REPORT.md",
+  "latest_report": "results/cloud_20261031_hinception_sixfold/AUDITED45_FIRST6_PROGRESS.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -6240,7 +6240,7 @@
     "diagnostic_summary_parsed_after_private_preservation": true
   },
   "hinception_source_sixfold_20261031": {
-    "state": "producers4_5_complete_both_numeric_audits_active",
+    "state": "full_numeric_audits2345_pass_last6_original_training_active",
     "workspace": "/workspace/uwb-hinception-sixfold-20261031",
     "protocol": "results/cloud_20261031_hinception_sixfold/study/PROTOCOL.json",
     "frozen_hashes": "results/cloud_20261031_hinception_sixfold/study/FROZEN_HASHES.json",
@@ -6267,10 +6267,11 @@
     "registration_commit": "9ff765103ab2e6107cc452b3b5abc0f926b836ee",
     "controller_pid": 59236,
     "job_supervisor_pids": {
-      "4": 61223,
-      "5": 61235
+      "6": 63068
     },
-    "worker_pids": {},
+    "worker_pids": {
+      "6": 63069
+    },
     "observed_epoch_steps": {
       "2": [
         100,
@@ -6287,28 +6288,27 @@
       "5": [
         100,
         7200
+      ],
+      "6": [
+        62,
+        4464
       ]
     },
-    "pending": [
-      6
-    ],
+    "pending": [],
     "failed": [],
-    "completed_new_folds": 2,
+    "completed_new_folds": 4,
     "diagnostic_labels_scored": false,
     "live_observation": "results/cloud_20261031_hinception_sixfold/LIVE_OBSERVATION.json",
     "first_update_insurance_private_readback_verified": true,
     "insurance_scope": "held2_held3_initial_first_update_only",
     "insurance_chunks": 4,
     "insurance_archive_members": 138,
-    "live_observed_utc": "2026-11-01T00:50:01.741306+00:00",
+    "live_observed_utc": "2026-11-01T04:49:30.701865+00:00",
     "complete_preservation_tools": "results/cloud_20261031_hinception_sixfold/complete_preservation_tools",
     "complete_preservation_integrity_tests": 9,
     "active_guard_refusal_expected": true,
     "new_complete_archive_created": false,
-    "audit_worker_pids": {
-      "4": 61907,
-      "5": 62381
-    },
+    "audit_worker_pids": {},
     "completed_producer_folds": [
       2,
       3,
@@ -6317,7 +6317,9 @@
     ],
     "fully_audited_new_folds": [
       2,
-      3
+      3,
+      4,
+      5
     ],
     "producer23_private_readback_verified": true,
     "producer23_insurance_scope": "held2_held3_training_complete_full_audits_pending",
@@ -6326,7 +6328,9 @@
     "producer23_recovery_index": "results/cloud_20261031_hinception_sixfold/producer23_insurance/CLOUD_DOWNLOAD_INDEX.json",
     "completed_audit_worker_pids": {
       "2": 60565,
-      "3": 60557
+      "3": 60557,
+      "4": 61907,
+      "5": 62381
     },
     "audited23_distinct_hashes_reverified": 1508,
     "private_producer_files_crosslinked_to_full_audits": 38,
@@ -6353,9 +6357,20 @@
       3,
       4,
       5
-    ]
+    ],
+    "audited45_distinct_hashes_reverified": 1508,
+    "audited45_private_producer_files_crosslinked": 38,
+    "audited45_first6_private_readback_verified": true,
+    "audited45_first6_supplement_scope": "full_audits45_linked_to_private_models_and_initial_first6_only",
+    "audited45_first6_supplement_chunks": 2,
+    "audited45_first6_supplement_members": 157,
+    "audited45_first6_recovery_index": "results/cloud_20261031_hinception_sixfold/audited45_first6_supplement/CLOUD_DOWNLOAD_INDEX.json",
+    "private_first_update_only_for": [
+      6
+    ],
+    "latest_producer6_weights_preserved": false
   },
-  "next_action_source_confirmation": "Continue existing controller59236 and numeric audits4/5 (61907/62381); source6 pending, do not relaunch. Completed producer1-5 models recover privately; audit4/5 success not yet claimed. All five new dual prediction/full audit completions precede aggregate; then preserve complete six-model archive before final publication.",
+  "next_action_source_confirmation": "Continue existing controller59236/job63068/train63069 for last held6 without relaunch; complete full audit6, then all-five-new-fold aggregate gate and complete six-model private preservation before final source6 publication. Audits4/5 now passed and privately preserved. No new diagnostic scores or real ablation yet.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -6374,6 +6389,6 @@
     "novelty_claim": false,
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes"
   },
-  "background_numeric_audit_running": true,
+  "background_numeric_audit_running": false,
   "background_experiment_queue_running": true
 }

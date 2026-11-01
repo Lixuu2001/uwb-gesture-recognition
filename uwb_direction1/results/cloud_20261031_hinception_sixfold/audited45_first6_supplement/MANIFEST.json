@@ -1,0 +1,59 @@
+{
+  "state": "immutable_partial_audited45_and_initial_first6_supplement",
+  "scope": "full_audits45_linked_to_private_models_and_initial_first6_only",
+  "created_unix": 1793508143.8899105,
+  "fully_audited_folds_in_this_supplement": [
+    4,
+    5
+  ],
+  "initial_first_only_folds": [
+    6
+  ],
+  "producer_model_recovery_references": {
+    "4": {
+      "archive_sha256": "9726a2f12def5d5ee1172b31a5c406be57f4af920c603127e89403dfd6941d38",
+      "receipt_sha256": "dc4dd2c410ee82a94d392c779bdaedd9b2f946433e456e3a86bee17721153388",
+      "local_directory": "/workspace/uwb-hinception-producer4-20261101",
+      "chunks": 7
+    },
+    "5": {
+      "archive_sha256": "36432d67b96fae014ee0733f8f9dc0e7ffc7c24994cf8aefc6b1ffc9a00ab571",
+      "receipt_sha256": "023774868443d98d7b56318c1ea8f4d6c74365bc3e4e7545c817a6041ff65b44",
+      "local_directory": "/workspace/uwb-hinception-producer5-20261101",
+      "chunks": 7
+    }
+  },
+  "requires_existing_producer4_and5_archives": true,
+  "linked_producer_files": 38,
+  "latest_producer6_weights_preserved": false,
+  "producer6_preserved_steps": [
+    0,
+    1
+  ],
+  "complete_source6_modelset": false,
+  "all_completed_models_included": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume_snapshot": false,
+  "limitations": "Full independent audit/termination evidence4/5 links38 unchanged files in existing private7-chunk producer4 and7-chunk producer5 archives, which are required to recover selected/last models. Only immutable initial/first model/optimizer/RNG/IDs for6, not its observed latest epoch weights, selected/last/final or complete trajectory. No duplicate trained model upload, no source6 accuracy, no whole-job resume. Raw/maps/runtime restore separately.",
+  "archive_name": "hinception_source6_audited45_first6_20261101.tar.gz",
+  "archive_bytes": 11484833,
+  "archive_sha256": "d9ef82eb8f955b4ff5b262c9152e81b2ad82f7202ee3f05ffcbffb00f781c63f",
+  "members_manifest_sha256": "6c97a71f0875829316671082559e7e5012a6f14390670c92e09b52becfa47c56",
+  "tracked_payload_files": 156,
+  "chunks": [
+    {
+      "name": "hinception_source6_audited45_first6_20261101.part000",
+      "bytes": 7340032,
+      "sha256": "957f47d5f2165e874e462fc5066338b4d6a9aca68c3a5ae0b2489ce0770a18cf"
+    },
+    {
+      "name": "hinception_source6_audited45_first6_20261101.part001",
+      "bytes": 4144801,
+      "sha256": "08f41b1ed6b14f26f514476c35f35997a15fd80120f794aea1ffcb6fdc8b9b4e"
+    }
+  ]
+}

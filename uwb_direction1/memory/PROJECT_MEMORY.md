@@ -1,3 +1,17 @@
+# 2026-11-01 — H-Inception 用户4、5完整数值审计通过；最后用户6原进程继续训练，补充审计与首步恢复档已私有回读
+
+以最新远端 cadac3b4e12a980c864acd876092819ce97b037e 为父读取四主记录，同一可执行云端核查现有controller/jobs/checkpoints，没有重复启动或下载。原4/5独立完整重放均exit0、无timeout：held4 replay100epoch/7100updates/450000appearances、selected59，audit61907 wall9605.859795016935s/CPU9604.918535s；held5 replay100epoch/7200updates/460000appearances、selected99，audit62381 wall9823.24306716898s/CPU9821.433236s。两审计分别1489产物哈希，去重1508逐一再核，38个既有私有producer文件SHA与审计对应。每批IDs/metrics/loss、initial/first/best/last/final的model/Adam/BN/metrics/callback/modes/allRNG及native selected/last一致，4700行双预测精确一致。全部6900输入RMS+author znorm独立FP64参考按原rtol2e-5/atol2e-6验证，不把浮点参考容差校验写成bitwise相同。
+
+controller59236已按原队列自动推进最后held6；观测 2026-11-01T04:49:30.701865+00:00，job63068/train63069实际活跃，已完成62epoch/4464updates。completed新fold[2,3,4,5]均完整审计，pending空、failed空；没有活跃numeric audit，6尚未训练完成或审计。原100/B64/seed20261029/native架构/Adam/输入/划分/门槛全部不变。当前不加载新诊断标签、不评分、不运行真实zero17消融，不根据途中分数修改方法。
+
+新增补充私有档11484833bytes/2chunks/156payload+MEMBERS=157，scope=full_audits45_linked_to_private_models_and_initial_first6_only。folder owner-only元数据与exact prefix先查，再上传、逐文件核private/parent/size/MIME，rawfetch(download_raw_file=true,include_base64=false)立即物化size/SHA，整档及全部成员回读通过。archiveSHAd9ef82eb8f955b4ff5b262c9152e81b2ad82f7202ee3f05ffcbffb00f781c63f，memberSHA6c97a71f0875829316671082559e7e5012a6f14390670c92e09b52becfa47c56，receiptSHA217266835e0b1224df4b04767f00a736b01956c82642fc56b5275df6d9a91e49。不改分享、不输出认证URL。
+
+此档保存4/5完整audit与关闭日志/TERM，引用既有各7块producer模型；恢复完整4/5需各自旧producer档加本补充档，不重复上传模型。6只保存immutable initial/first完整模型/优化器/RNG和IDs，observed最新epoch仅状态上下文，**不保存6当前最新权重，不称完成6模型、整jobresume或完整六模型档**。模型/准确IDs/logs私有，Git仅代码、hash metadata和恢复索引；raw/maps/runtime另恢复，原789源码不动。
+
+下一步沿用原controller与held6训练；成功后继续其完整重放审计。5个新fold全部双预测冻结且审计通过后由固定aggregate统一与LocalCNN6、GAP6按预登记门槛比较，再完成六模型整档私有回读和结果发布。若gate通过，另登记matched消融；若失败关闭确切配置并转下一个有依据的方法。用户7–8标签不用于选择；所有source证据仍探索性，暂无source6/八折提升或原创贡献结论，目标未达，原自动接续保持。
+
+证据：completed_fold_audits/held4、held5/COMPLETE_AUDIT.json 与 TERMINATION.json；audited45_first6_supplement/CLOUD_DOWNLOAD_INDEX.json、AUDIT_CROSSCHECK.json、READBACK_VERIFIED.json；producer_recovery_tools_20261101/RECOVERY_COVERAGE.json。
+
 # 2026-11-01 — 用户5固定100轮训练亦正常完成并进入审计，7私有块/155成员回读完成；现有完整训练模型1–5均可私有恢复
 
 本轮以最新ec571447d1f43035149264f359a587da00111853为parent，先GitHub读回四主记录，核对同一cloud实际状态，无重复下载/启动。held5原train61236已exit0/no timeout，100epoch/7200updates/460000训练出现，source strict最低trainingloss选epoch99；supervisor wall9975.716793773929/CPU9973.714665。双val+diag2300行预测冻结，不索引诊断标签；未提前评分。此前同轮已完成held4训练/7块私有完整训练恢复，故本提交只新增held5模型档，不重复上传held4或旧2/3、held1模型。
