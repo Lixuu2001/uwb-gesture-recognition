@@ -1,0 +1,7 @@
+{
+  "reference": "Dempster, Petitjean and Webb (2020), ROCKET: Exceptionally fast and accurate time series classification using random convolutional kernels, Data Mining and Knowledge Discovery 34:1454\u20131495. DOI 10.1007/s10618-020-00701-z; https://arxiv.org/pdf/1910.13051. Read original manuscript sections 3\u20133.4, pages 5\u20139, not entire paper. Random Gaussian mean-centered kernels vary length, dilation, padding and bias; each returns PPV and maximum. Default 10,000 kernels give 20,000 features; a ridge classifier chooses regularization using efficient training cross-validation. This supports a published-method transfer baseline, not originality or expected accuracy improvement. The aeon multivariate channel sampling, per-channel normalization and current sklearn pipeline are explicit library adaptations, not an exact original univariate experiment replication. Its classifier citation has the correct authors; the transform docstring incorrectly lists MultiRocket authors, so we use the paper author list. No new method contribution established.",
+  "source": "https://github.com/aeon-toolkit/aeon/tree/b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+  "accuracy_evidence": false,
+  "original_contribution_evidence": false,
+  "full_paper_read": false
+}

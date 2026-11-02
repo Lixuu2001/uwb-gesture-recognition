@@ -1,0 +1,41 @@
+{
+  "state": "immutable_MC100_frozen_TimeMIL_snapshot",
+  "scope": "complete_audited_MC100_frozen_TimeMIL_inference",
+  "created_unix": 1793616677.0527499,
+  "complete_modelset": true,
+  "all_initial_first_MC_final_native_and_reused_selected_weights_included": true,
+  "full_numerical_audit_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback.",
+  "archive_name": "mc100_complete_20261102.tar.gz",
+  "archive_bytes": 23240132,
+  "archive_sha256": "72d2baa8bca09f04106b97a382f23160ff35222b963b3acb801d0deed89bdfd5",
+  "members_manifest_sha256": "b7c8486fba3fc519a5ece9ef992719e62772d58a8ed1f5c4994105a2db7b8ff1",
+  "tracked_payload_files": 122,
+  "chunks": [
+    {
+      "name": "mc100_complete_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "c4d6a793dfeb97ce982fdd25262fd54fca3bb1aaf3c979f012e0bb336b8a045e"
+    },
+    {
+      "name": "mc100_complete_20261102.part001",
+      "bytes": 7340032,
+      "sha256": "0097046fd2855fd09dcdf30f6eab59c64b25a5738723a0bc599a2baa527088f8"
+    },
+    {
+      "name": "mc100_complete_20261102.part002",
+      "bytes": 7340032,
+      "sha256": "e767a3ed0b80f796fd1872b8988fd09f56122333e5a4561bfac02cc8ab74f4f9"
+    },
+    {
+      "name": "mc100_complete_20261102.part003",
+      "bytes": 1220036,
+      "sha256": "3e869d4be5f69a01e224b400dc18e4be5e82102d64d7f4ad6134eed2c2165673"
+    }
+  ]
+}

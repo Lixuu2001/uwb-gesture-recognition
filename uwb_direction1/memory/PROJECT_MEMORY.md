@@ -1,3 +1,13 @@
+# 2026-11-02 — MC100全量审计/私有完整回读后一次评分失败关闭；完整ROCKET10000原生RidgeCV已实现并预登记合成CPU成本
+
+MC100原producer75250与auditor75878均exit0/no timeout；200pass逐logits/RNG、独立loop/FP64mean、各stage/native41weights、两role deterministiccontrol、6900rawRMS/cache全部通过。完整私有23240132bytes/4块123成员回读验证通过；新index results/cloud_20261102_mcdropout_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json。只在该完整恢复后原finalizer运行一次exit0：val99.4%(det99.5%)、held1诊断98.6667%(det/ref相同)，delta0未过固定+0.5pp，关闭确切MC100/B64/p.2/sigmoid/seed20261029，无救援/重评分/扩展source6/新训练。旧initial2块103和producer4块119的原scope不变；controller旧unscored快照保持原字节，最终SUMMARY/FINAL_RESULT权威。无用户7–8标签用于新选择，全部探索性，无原创贡献或八折提升证据。
+
+下一项为完整Gaussian ROCKET10000核/20000PPV+max，aeon1.6.0固定upstream b694b1c03c0a753cc844dcb9ee357d77ca6bda6b三核心文件与本地字节一致。保留author默认normalise=True、StandardScaler(with_mean=False)、unweighted native RidgeClassifierCV(logspace(-3,3,10),cv=None/scoring=None)，仅训练内LOO负MSE选alpha，seed20261029/CPU1。与旧MiniRocket9996+改写balanced LSQR200及MultiRocket不同；不是作者原始单变量实验精确复现/新创新。原论文methods3–3.4已读，未读全文。
+
+已实现合成full10000核native pipeline，68独立NumPy核数值、constantchannel、独立LOOalpha、trainonlyscaler预测不可变、同seed重建、pickle回载通过。第一次独立校验器直接逆centeredGram再减nearunit leverage出现小alpha数值抵消，保留attempt01/debug；改正为orthonormal contrast subspace求逆，未改native科学配置/源码，无真实数据。Cost4边界测试通过，2605依赖SHA+10cost文件冻结，远端marker缺失确实阻止profile。先发布精确预登记，再一次synthetic64 transform+full4700x20000 nativeRidgeCV+3save测时，620wall/590soft600hardCPU；producer+replay成本<=12h/RSS+2GiB<=14GiB门槛，失败关闭确切配置。此时formal timing/真实ROCKET数据/标签/训练尚未开始。实际pilot须另行完整预登记固定3–6train/2val/1diagnostic及完整私有恢复后一次评分；禁止用户7–8标签，禁止kernel/alpha/seed救援。
+
+云端同一环境可执行、原路径/workspace/uwb-restored-20261020仍在，无活跃旧MC训练/审计，无重复启动/下载。仓库canonical Lixuu2001/uwb-gesture-recognition稳定ID1309576134，当前可见性不变；Drive仍owner-only。Git以27b78c6aebc0a90058c69e304103b3e9c52808bf为父force=false，保留用户README清理和789原源码。研究目标未达到，继续实证循环。
+
 # 2026-11-02 — MC100两组输出已全部冻结，完整producer私有4块119成员回读通过；原全量审计继续
 
 先按canonical仓库最新head2a82827252cb1f6278cfd500adc0a716a04d0a13读取四记录，并检查原进程/检查点。MC100实际推理worker75250已完成validation1000与diagnostic1200各100pass，两组确定性control及全部100xNx12随机logits/mean/pred/每pass RNG已冻结；原held1确定性ID/logits精确control检查通过。producer正常exit0，无timeout，supervisor wall2751.5320380330086s/CPU2751.099675s，低于5700wall/5600soft5700hardCPU。无新训练/梯度更新、未读诊断标签/新评分。原控制器75249已自动转full_numeric_audit，原审计worker75878在2026-11-02T09:59观察仍存活/PPid75249/约24分钟运行；无audit TERM或COMPLETE_AUDIT，不能宣称全量审计已通过。

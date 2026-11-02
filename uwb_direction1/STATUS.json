@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MC100_all_outputs_frozen_full_numeric_audit_active_completed_producer_recovery_verified",
+  "state": "MC100_closed_failed_accuracy_gate_full_ROCKET_synthetic_cost_preregistered_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_mcdropout_pilot/PRODUCER_RECOVERY_AUDIT_ACTIVE.md",
+  "latest_report": "results/cloud_20261102_mcdropout_pilot/FINAL_RESULT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Original cloud TCN controller71723/worker71724 observed running2026-11-02T06:11:24.493447+00:00,epoch9/666updates, fixed full20/B64/seed20261029. Automatic full1480update replay follows training; no diagnostic score. Initial-first1chunk/75members privately verified, not latest/complete.",
+  "background_training_status_note": "MC producer and original full auditor completed exit0; one final score failed. Full ROCKET synthetic CPU profile awaits exact remote cost preregistration; no actual ROCKET data/fit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/cloud_20261101_timecnn_source/PAPER_REVIEW.json",
+  "latest_literature_note": "research/cloud_20261102_rocket_source/PAPER_REVIEW.json",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -133,16 +133,16 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Registered known MC100 inference estimator on immutable TimeMIL41; execute once after remote exact preregistration",
-  "last_completed_update_utc": "2026-11-02T10:01:05.162320+00:00",
+  "next_candidate": "Full aeon ROCKET10000/default native RidgeCV10alphas/seed20261029; run synthetic CPU cost once after remote exact preregistration. Real pilot separate.",
+  "last_completed_update_utc": "2026-11-02T11:06:42.648917+00:00",
   "latest_environment_preflight": {
-    "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
+    "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
     "observed_executor_phase": "running",
     "network_policy": "restricted_enforced;vpnfalse;no configuredcredentials",
     "restored_data_path": "/workspace/uwb-restored-20261020",
     "restored_data_present": true,
-    "active_training_process_found": true,
+    "active_training_process_found": false,
     "active_audit_process_found": false,
     "users7_8_labels_used": false
   },
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "mvglf_source_pilot_in_progress",
+    "state": "full_ROCKET10000_synthetic_cost_preregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,8 +2808,8 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "MV-GLFNet-style full/local24epoch pilot running; monitor before next method.",
-    "next_method_started": true,
+    "next_method": "full_ROCKET10000_native_RidgeCV",
+    "next_method_started": false,
     "last_method": "HYDRA",
     "hydra": {
       "state": "complete_stop_exact_configuration",
@@ -7306,7 +7306,7 @@
   "repository_observed_visibility": "public",
   "repository_visibility_changed_by_agent": false,
   "mcdropout_accuracy_pilot_20261102": {
-    "state": "completed_MC100_producer_full_audit_active_producer_recovery_verified",
+    "state": "complete_audited_privately_verified_scored_once_failed_exact_configuration_closed",
     "workspace": "/workspace/uwb-mcdropout-pilot-20261102",
     "protocol": "results/cloud_20261102_mcdropout_pilot/study/PROTOCOL.json",
     "protocol_sha256": "a0ea474e8486425286fba467da32d8384a4370138a29da28e343cddf050c0e6b",
@@ -7325,9 +7325,9 @@
     "real_inference_started": true,
     "trained_UWB_checkpoint_loaded": true,
     "new_UWB_values_accessed": true,
-    "full_audit_complete": false,
-    "complete_private_modelset_verified": false,
-    "diagnostic_scored": false,
+    "full_audit_complete": true,
+    "complete_private_modelset_verified": true,
+    "diagnostic_scored": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
@@ -7336,7 +7336,7 @@
     "protocol_boundary_tests": 8,
     "full_synthetic_producer_independent_replay_passed": true,
     "registration_commit": "9d8b37a25d1933e71bca00b75a4e465e2901f44e",
-    "controller_pid": 75249,
+    "controller_pid": null,
     "inference_worker_pid": null,
     "observed_role": "validation",
     "observed_samples_current_role": 14,
@@ -7357,7 +7357,7 @@
     "actual_samples_per_role": 100,
     "deterministic_and_MC_both_roles_frozen": true,
     "baseline_same_ID_control_exact": true,
-    "audit_worker_pid": 75878,
+    "audit_worker_pid": null,
     "audit_observed_utc": "2026-11-02T09:59:39.134434+00:00",
     "producer_recovery_verified": true,
     "producer_recovery_scope": "completed_MC100_inference_producer_numeric_audit_pending_not_certified",
@@ -7366,8 +7366,53 @@
     "producer_recovery_members": 119,
     "producer_recovery_bytes": 23234114,
     "producer_recovery_archive_sha256": "20ad90651f37d5b4d14ba82563401b3c83ad8a818a8708c53b7fb33f547e4f58",
-    "producer_recovery_index": "results/cloud_20261102_mcdropout_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json"
+    "producer_recovery_index": "results/cloud_20261102_mcdropout_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json",
+    "final_scores": {
+      "validation": 0.9940000000000001,
+      "diagnostic": 0.9866666666666667
+    },
+    "diagnostic_delta_macro": 0.0,
+    "predeclared_gate_passed": false,
+    "source6_confirmation_complete": false,
+    "route": "close_exact_MC100_B64_p02_seed_configuration_no_rescue",
+    "complete_private_chunks": 4,
+    "complete_private_members": 123,
+    "complete_private_bytes": 23240132,
+    "complete_private_archive_sha256": "72d2baa8bca09f04106b97a382f23160ff35222b963b3acb801d0deed89bdfd5",
+    "complete_private_index": "results/cloud_20261102_mcdropout_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "audit_exit_code": 0,
+    "audit_wall_seconds": 2659.960253039142,
+    "audit_CPU_seconds": 2659.543488
   },
   "background_inference_running": false,
-  "background_inference_pid": null
+  "background_inference_pid": null,
+  "rocket_source_preparation_20261102": {
+    "state": "full_ROCKET10000_native_RidgeCV_synthetic_checks_passed",
+    "workspace": "/workspace/uwb-rocket-source-probe-20261102",
+    "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+    "source_files_exact_upstream_verified": 3,
+    "source_edits": false,
+    "synthetic_kernel_checks": 68,
+    "independent_LOO_alpha_match": true,
+    "seed": 20261029,
+    "n_kernels": 10000,
+    "features": 20000,
+    "real_UWB_values_labels_fit": false,
+    "novelty_claim": false
+  },
+  "rocket_formal_cost_20261102": {
+    "state": "registered_synthetic_profile_awaiting_exact_remote_readback",
+    "workspace": "/workspace/uwb-rocket-formal-cost-20261102",
+    "cost_hashes_sha256": "979afb9e5cb2e8af89c96d6c6780b99af2b947cb9008dacfa74876eec3794742",
+    "dependent_byte_hashes": 2605,
+    "formal_timing_started": false,
+    "real_UWB_values_labels_fit": false,
+    "accuracy_measured": false,
+    "full_train_shape": [
+      4700,
+      20000
+    ],
+    "threads": 1,
+    "budget_seconds": 43200
+  }
 }

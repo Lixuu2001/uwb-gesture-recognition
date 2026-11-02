@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-rocket-source-probe-20261102/check_synthetic.py", line 53, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-rocket-source-probe-20261102/check_synthetic.py", line 26, in main
+    assert float(r.alpha_)==float(r.alphas[np.argmax(scores)])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

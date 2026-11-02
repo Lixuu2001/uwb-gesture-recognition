@@ -1,0 +1,30 @@
+{
+  "repository": "aeon-toolkit/aeon",
+  "tag": "v1.6.0",
+  "commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+  "verified_files": [
+    {
+      "path": "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/classification/convolution_based/_rocket.py",
+      "upstream_path": "aeon/classification/convolution_based/_rocket.py",
+      "github_blob_sha": "0c4eeec54975ab534031a25eb8f700bdfbb291e6",
+      "sha256": "68cd780198b01ffe5af6c7d2b5ac354e8e28888659fc97f650a6c4631f52c152",
+      "exact_upstream_bytes": true
+    },
+    {
+      "path": "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/convolution_based/_rocket.py",
+      "upstream_path": "aeon/transformations/collection/convolution_based/_rocket.py",
+      "github_blob_sha": "24d03cef9d592ce1e593cb1a49f91773a485755f",
+      "sha256": "52594ffa20863bae1753018a0daa7b7fc52d62e01f207691ea8daf5387258857",
+      "exact_upstream_bytes": true
+    },
+    {
+      "path": "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/_rescale.py",
+      "upstream_path": "aeon/transformations/collection/_rescale.py",
+      "github_blob_sha": "2f820f1a83cfafebcfcc574a81489ae5777c57b7",
+      "sha256": "87fad334aa27c2857709a0daefe61994852e5779a41a1e653ebcab0da740d997",
+      "exact_upstream_bytes": true
+    }
+  ],
+  "scope": "Three directly scientific source files match fetched immutable upstream bytes; whole package not claimed individually upstream-verified. Runtime closure frozen separately.",
+  "source_edits": false
+}

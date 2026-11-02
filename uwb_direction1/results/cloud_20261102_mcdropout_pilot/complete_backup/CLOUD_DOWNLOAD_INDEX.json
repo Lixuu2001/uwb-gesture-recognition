@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "created_date_utc": "2026-11-02",
+  "purpose": "Audited complete MC100 immutable TimeMIL inference weights/outputs recovery.",
+  "state": "private_readback_verified",
+  "scope": "complete_audited_MC100_frozen_TimeMIL_inference",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "mc100_complete_20261102.tar.gz",
+  "archive_bytes": 23240132,
+  "archive_sha256": "72d2baa8bca09f04106b97a382f23160ff35222b963b3acb801d0deed89bdfd5",
+  "members_manifest_sha256": "b7c8486fba3fc519a5ece9ef992719e62772d58a8ed1f5c4994105a2db7b8ff1",
+  "chunks": [
+    {
+      "name": "mc100_complete_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "c4d6a793dfeb97ce982fdd25262fd54fca3bb1aaf3c979f012e0bb336b8a045e",
+      "file_id": "1C9xCCG7BG7kHI22lOZPeD0ieUVsTGJ07",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mc100_complete_20261102.part001",
+      "bytes": 7340032,
+      "sha256": "0097046fd2855fd09dcdf30f6eab59c64b25a5738723a0bc599a2baa527088f8",
+      "file_id": "1mFQL916HmYwmtQFWXtyxJXYgaWCt92Px",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mc100_complete_20261102.part002",
+      "bytes": 7340032,
+      "sha256": "e767a3ed0b80f796fd1872b8988fd09f56122333e5a4561bfac02cc8ab74f4f9",
+      "file_id": "1p6-4onaeRKghq_LMHMZTy9iC6V5myDF7",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mc100_complete_20261102.part003",
+      "bytes": 1220036,
+      "sha256": "3e869d4be5f69a01e224b400dc18e4be5e82102d64d7f4ad6134eed2c2165673",
+      "file_id": "1VdkZC6igwGRLj50_VWrmq4M6Gug4jH0e",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1220036,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "chunks_verified": 4,
+  "archive_members": 123,
+  "complete_modelset_verified": true,
+  "numeric_audit_certified": true,
+  "all_produced_initial_first_final_native_selected_weights_and_MC_traces_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "receipt_sha256": "51531a45d21142a9ce080dabc307e8a93ecc2878f6e5f7ea85abd35d7ce35a1a",
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "folder_must_remain_owner_only": true,
+  "latest_epoch_privately_preserved": true,
+  "raw_maps_runtime_restore_separately": true,
+  "empty_search_is_not_duplicate_absence_proof": true
+}
