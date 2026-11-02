@@ -1,0 +1,44 @@
+{
+  "state": "private_readback_verified",
+  "scope": "complete_audited_ROCKET10000_native_RidgeCV_source_held1",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "rocket10000_complete_20261102.tar.gz",
+  "archive_bytes": 6954493,
+  "archive_sha256": "cffc2810a1030938a6fd89328dbf8db53c5da45031ad033c98f2c4b4597d237b",
+  "members_manifest_sha256": "9fc37d03db71204c989e58c7e4d7d9a53b058ac51b4bc4e94e7cd31f6be78ec2",
+  "chunks": [
+    {
+      "name": "rocket10000_complete_20261102.part000",
+      "bytes": 6954493,
+      "sha256": "cffc2810a1030938a6fd89328dbf8db53c5da45031ad033c98f2c4b4597d237b",
+      "file_id": "192ggfQ75TPv7XQfkt6yu-dGfPJ8CCsZy",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 6954493,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "chunks_verified": 1,
+  "archive_members": 995,
+  "complete_modelset_verified": true,
+  "numeric_audit_certified": true,
+  "initial_unfitted_native_fitted_final_models_and_full_predictions_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false
+}

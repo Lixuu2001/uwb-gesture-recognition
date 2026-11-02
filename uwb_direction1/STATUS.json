@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "ROCKET10000_full_real_native_fit_and_audit_passed_unscored_report_support_amendment_preregistered",
+  "state": "ROCKET10000_failed_accuracy_gate_closed_full_native_MiniRocket_cost_preregistered_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_rocket_pilot/operations/VALIDATION_SUPPORT_POLICY.json",
+  "latest_report": "results/cloud_20261102_rocket_pilot/FINAL_RESULT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Original ROCKET producer78039/auditor78137 complete exit0; no active compute. Complete private recovery and preregistered validation-support reporting correction required before one final score.",
+  "background_training_status_note": "ROCKET complete audited/private/scored once/failed closed;no active training or audit. MiniRocket formal synthetic cost not started at registration snapshot.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Run full ROCKET10000 native RidgeCV V2 once after exact remote real-pilot registration; no old closed reruns.",
-  "last_completed_update_utc": "2026-11-02T11:27:10.189962+00:00",
+  "next_candidate": "Full default MiniRocket9996/unweighted native RidgeCV10alphas published baseline correction; synthetic cost once after exact remote preregistration.",
+  "last_completed_update_utc": "2026-11-02T11:31:47.662157+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_ROCKET10000_real_V2_preregistered",
+    "state": "full_native_MiniRocket9996_synthetic_cost_preregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,7 +2808,7 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "full_ROCKET10000_native_RidgeCV",
+    "next_method": "full_native_MiniRocket9996",
     "next_method_started": false,
     "last_method": "HYDRA",
     "hydra": {
@@ -7423,7 +7423,7 @@
     "estimated_max_RSS_KiB": 5555580
   },
   "rocket_accuracy_pilot_20261102": {
-    "state": "complete_full_native_replay_unscored_private_backup_pending_report_amendment_preregistered",
+    "state": "complete_audited_privately_verified_scored_once_failed_exact_configuration_closed",
     "workspace": "/workspace/uwb-rocket-pilot-v2-20261102",
     "protocol_sha256": "949c427f6611252d738ea221d17cd52d3ca16a7fd790ddd478ee21c48e85520f",
     "frozen_sha256": "42b2ed7fa8ad67b1710b46a0280dc6be1534b2b1cec5ea4eae2ce4cf1873a843",
@@ -7443,7 +7443,7 @@
     "diagnostic_user": 1,
     "reference": 0.9866666666666667,
     "minimum_gain": 0.005,
-    "diagnostic_scored": false,
+    "diagnostic_scored": true,
     "real_fit_started": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
@@ -7462,8 +7462,50 @@
     "audit_wall_seconds": 257.1507024769671,
     "audit_CPU_seconds": 257.076328,
     "selected_training_alpha": 1000.0,
-    "complete_private_modelset_verified": false,
+    "complete_private_modelset_verified": true,
     "original_finalizer_executed": false,
-    "validation_report_support_repair_registered": true
+    "validation_report_support_repair_registered": true,
+    "final_scores": {
+      "validation": 0.9279999999999999,
+      "diagnostic": 0.9483333333333333
+    },
+    "diagnostic_delta_macro": -0.03833333333333344,
+    "predeclared_gate_passed": false,
+    "source6_confirmation_complete": false,
+    "complete_private_chunks": 1,
+    "complete_private_members": 995,
+    "complete_private_bytes": 6954493,
+    "complete_private_archive_sha256": "cffc2810a1030938a6fd89328dbf8db53c5da45031ad033c98f2c4b4597d237b",
+    "complete_private_index": "results/cloud_20261102_rocket_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "report_correction_registration_commit": "9f449e236e796ebebb94e47063cd5fd5c201ad98",
+    "corrected_finalizer_executed_once": true,
+    "route": "close_exact_ROCKET10000_native_RidgeCV_seed_configuration_no_rescue"
+  },
+  "minirocket_native_source_preparation_20261102": {
+    "state": "full_native_MiniRocket9996_synthetic_checks_passed",
+    "workspace": "/workspace/uwb-minirocket-native-source-probe-20261102",
+    "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+    "features": 9996,
+    "base_kernels": 84,
+    "max_dilations_per_kernel": 32,
+    "seed": 20261029,
+    "independent_PPVs_checked": 24,
+    "prior_modified_MiniRocket_family_exposure": true,
+    "UWB_values_labels_fit": false,
+    "novelty_claim": false
+  },
+  "minirocket_native_formal_cost_20261102": {
+    "state": "registered_synthetic_profile_awaiting_exact_remote_readback",
+    "workspace": "/workspace/uwb-minirocket-native-formal-cost-20261102",
+    "cost_hashes_sha256": "03f304daf6370aadbf5653519710a7c3ed7116e004b40bca807a445d29a38257",
+    "formal_timing_started": false,
+    "real_UWB_values_labels_fit": false,
+    "accuracy_measured": false,
+    "full_train_shape": [
+      4700,
+      9996
+    ],
+    "threads": 1,
+    "budget_seconds": 43200
   }
 }

@@ -1,0 +1,11 @@
+{
+  "reference": "Dempster, Schmidt, Webb (2021). MiniRocket: A Very Fast (Almost) Deterministic Transform for Time Series Classification. KDD pp248\u2013257. DOI10.1145/3447548.3467231. https://arxiv.org/pdf/2012.08791",
+  "read_scope": "Original manuscript sections3\u20133.1.6 and table1,pages2\u20133; partial original paper,not whole paper.",
+  "method_support": "Fixed84length9 kernels,weights-1/+2,dilation schedule,training-convolution quantile biases,alternating padding,PPVonly;default10000 requested gives9996features. Linear ridge classification supported. Library multivariate channel-subset sampling and native current sklearn scaler/RidgeCV are explicit adaptations,not original univariate experimental replication.",
+  "history": "Original full9996 transform was run with modified alpha1 weighted LSQR200 readout in source6 folds on20261029; small504 modified bank on20261004 also closed. Exact unweighted native RidgeClassifierCV10alphas with full aeon transform was not that prior implementation. This is a fixed canonical baseline correction,not a claim of kernel innovation or no prior family exposure.",
+  "prior_protocol": "/workspace/uwb-accuracy-loop-20261029/PROTOCOL.json",
+  "accuracy_gain_validated": false,
+  "original_contribution_validated": false,
+  "UWB_values_labels_fit": false,
+  "next_method_conditional": "Only eligible after exact current ROCKET10000 closure; no real-data action authorized by source preparation."
+}
