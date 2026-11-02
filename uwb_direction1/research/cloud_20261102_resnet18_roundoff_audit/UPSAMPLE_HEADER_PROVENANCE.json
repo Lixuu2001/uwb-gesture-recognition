@@ -1,0 +1,12 @@
+{
+  "path": "/home/agent/.local/lib/python3.12/site-packages/torch/include/ATen/native/UpSample.h",
+  "sha256": "af11f52b3897869432e30ebcc27fc240d40fb5921d8800378ee685ebea5ac5f7",
+  "methods": [
+    "compute_scales_value",
+    "area_pixel_compute_source_index",
+    "guard_index_and_lambda",
+    "compute_source_index_and_lambda"
+  ],
+  "reference_correction": "Float32half-pixelcoordinate/weightarithmeticrequiresroundoffallowanceagainstidealFP64",
+  "original_header_changed": false
+}

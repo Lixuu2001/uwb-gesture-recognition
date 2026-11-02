@@ -1,0 +1,22 @@
+{
+  "state": "passed_label_free_stress_images_under_analytic_IEEE754_bound",
+  "dtype": "float32",
+  "unit_roundoff": 5.960464477539063e-08,
+  "bound": 0.00023389505667192252,
+  "maximum_synthetic_error": 2.9204755386036396e-05,
+  "pixels": 1204224,
+  "patterns": [
+    "constant",
+    "zero",
+    "random",
+    "1e30",
+    "1e-30",
+    "checkerboard",
+    "impulse",
+    "step",
+    "ramp"
+  ],
+  "bound_derived_from_dtype_dimensions_not_observed_UWB_error": true,
+  "no_UWB_values_or_labels_loaded": true,
+  "scientific_pipeline_changed": false
+}

@@ -1,0 +1,43 @@
+{
+  "state": "original_strict_audit_failure_preserved_before_any_new_held_labels",
+  "original_study_frozen_sha256": "80e067862039bdbf03fc600c60600d4c06aeadea3864ab349dade34af5d8624b",
+  "original_auditor_sha256": "3a4aa73ab558a41566afcad606df86ba123bb77cd5157f021423ab534b292d13",
+  "original_log_sha256": "fb80d5398ede9ec6e4acd096ec3afe2a981b54e0ca1f517f2800cc099bc5ffa9",
+  "original_audit_termination": {
+    "pid": 92461,
+    "exit_code": 1,
+    "wall_timeout": false,
+    "resource_stop_reason": null,
+    "peak_observed_RSS_KiB": 1964824,
+    "RSS_stop_KiB": 14680064,
+    "supervisor_wall_seconds": 151.13793175807223,
+    "child_cpu_seconds": 567.0294370000001,
+    "cpu_soft_seconds": 14380,
+    "cpu_hard_seconds": 14400,
+    "cgroup_events_before": {
+      "low": 0,
+      "high": 0,
+      "max": 41040,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_events_after": {
+      "low": 0,
+      "high": 0,
+      "max": 41040,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_oom_kill_delta": 0,
+    "scientific_negative": false
+  },
+  "failure": "IdealFP64pixelreference_fixedrtol2e-5atol2e-5rejectedfloat32interpolateroundoff;1of1204224pixelsfirstfailedbatch,maxviolation2.08115908e-5",
+  "previous_full_encoder_head_feature_replay_assertions_reached_before_failure": true,
+  "original_FROZEN17_code_tests_logs_unchanged": true,
+  "correction_after_unlabelled_inputs_before_held_labels": true,
+  "no_new_accuracy_measured": true,
+  "no_producer_refit_requested": true,
+  "new_full_auditor_replay_is_corrective_verification_not_new_configuration": true
+}

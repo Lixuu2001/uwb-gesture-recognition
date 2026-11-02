@@ -1,0 +1,24 @@
+{
+  "reason": "OriginalfixedidealFP64pixelcomparisonunderestimatedfloat32coordinate/weightarithmeticroundoff",
+  "original_tolerance": {
+    "rtol": 2e-05,
+    "atol": 2e-05
+  },
+  "corrected_pixel_absolute_bound": 0.00023389505667192252,
+  "bound_definition": "(gamma5+gamma12+gamma3*(90+.5)+gamma3*(189+.5)+4u+3gamma6)/.224;u=2^-24;gamman=n*u/(1-n*u)",
+  "bound_not_fitted_to_observed_UWB_error_or_labels": true,
+  "all_source6900_pixels_to_check": 1038643200,
+  "original_RMS_tolerances_unchanged": {
+    "rtol": 2e-05,
+    "atol": 2e-06
+  },
+  "other_all6900_encoder_features_SVM_coefficients_decisions_predictions_exact_unchanged": true,
+  "model_preprocessing_weights_C_seed_views_changed": false,
+  "original_failed_audit_preserved": true,
+  "original_producer_not_repeated": true,
+  "new_independent_auditor_full_replay": true,
+  "held_labels_not_read": true,
+  "correction_after_unlabelled_inputs_before_any_new_held_labels": true,
+  "all_exploratory": true,
+  "new_scope": "complete_audited_ResNet18_ImageNetV1_frozen512_LinearSVC_C1_source_held1_IEEE754_pixel_audit"
+}
