@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-02T18:05:34.949147+00:00",
+  "controller_pid": 90752,
+  "worker_pid": 90753,
+  "worker_exists": true,
+  "worker_state": {
+    "state": "full4700_complete_pretrained_ResNet18_frozen_feature_extraction_then_fixed_C1_SVM",
+    "actual_UWB_values_labels_fit": false
+  },
+  "proc_usage": [
+    "State:\tR (running)",
+    "VmHWM:\t  628868 kB",
+    "VmRSS:\t  528628 kB",
+    "Threads:\t13"
+  ],
+  "registration_commit": "59e2dacbe76e0de36c2acbf4ae056e6ae033e476",
+  "all39_changed_files_exact_before_Popen": true,
+  "full_synthetic_cases": 4700,
+  "full_official_ResNet18_parameters": 11689512,
+  "frozen_encoder_parameters": 11176512,
+  "features": 512,
+  "head": "LinearSVC_C1_dualFalse_seed20261029",
+  "synthetic_cost_running": true,
+  "real_UWB_values_labels_fit": false,
+  "real_UWB_training_started": false,
+  "resource_cost_passed": false,
+  "accuracy_measured": false
+}
