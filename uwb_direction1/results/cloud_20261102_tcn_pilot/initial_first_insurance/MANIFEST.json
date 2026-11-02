@@ -1,0 +1,26 @@
+{
+  "state": "immutable_TCN_modelset_snapshot",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "created_unix": 1793599765.3795958,
+  "complete_modelset": false,
+  "all_initial_first_epoch10_last_final_and_native_models_included": false,
+  "full_numerical_audit_included": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback.",
+  "archive_name": "tcn20_initial_first_20261102.tar.gz",
+  "archive_bytes": 2799035,
+  "archive_sha256": "85aa24eb6d181b29e8dc9314fa931db68b51f534322ae5ae80766bca9beb7f2d",
+  "members_manifest_sha256": "6ec3e4c7f702feea04ce05d23dd3b9a8967e083e18b0334b78f9445be1dc8dfd",
+  "tracked_payload_files": 74,
+  "chunks": [
+    {
+      "name": "tcn20_initial_first_20261102.part000",
+      "bytes": 2799035,
+      "sha256": "85aa24eb6d181b29e8dc9314fa931db68b51f534322ae5ae80766bca9beb7f2d"
+    }
+  ]
+}

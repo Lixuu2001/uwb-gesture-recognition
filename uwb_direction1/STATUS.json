@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "TCN_full20_B64_actual_cost_passed_real_source_pilot_remotely_preregistered_not_started",
+  "state": "full_official_TCN20_B64_real_source_training_active_first_private_insurance_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_tcn_pilot/REAL_PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_tcn_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": null,
-  "background_training_status_note": "Encoder full100 complete audit and private113member modelset passed; final diagnostic93.3333% failed fixed98.6667%+.5pp gate. Exact config closed. TCN full released20/B64 source synthetic checks pass; fixed synthetic cost preregistered, no TCN UWB fit.",
+  "background_training_pid": 71724,
+  "background_training_status_note": "Original cloud TCN controller71723/worker71724 observed running2026-11-02T06:11:24.493447+00:00,epoch9/666updates, fixed full20/B64/seed20261029. Automatic full1480update replay follows training; no diagnostic score. Initial-first1chunk/75members privately verified, not latest/complete.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Full TCN released classification20/B64 actual synthetic cost996.714s passed; real runner/full1480update auditor and107frozen prerequisites/boundary+integration tests passed. Real protocol remotely preregistered, not yet launched at snapshot.",
+  "latest_task_state": "Full official TCN released CLI real training active on cloud only; first state and private initial-first bundle verified. Original controller will full replay after20epochs; complete modelset private recovery and fixed diagnostic gate pending. Encoder exact100 failed and closed; goals unresolved.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3029,8 +3029,8 @@
     },
     "gate_passed": false
   },
-  "background_continuation_running": false,
-  "background_continuation_pid": null,
+  "background_continuation_running": true,
+  "background_continuation_pid": 71723,
   "timemil_accuracy_preparation": {
     "state": "complete_audited_exact64epoch_timemil_gate_failed_gap_expansion_eligible",
     "path": "/workspace/uwb-timemil-20261029",
@@ -3401,7 +3401,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "results/cloud_20261102_tcn_pilot/REAL_PREREGISTRATION.md",
+  "latest_completed_report": "results/cloud_20261102_tcn_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -7051,7 +7051,7 @@
     "accuracy_measured": false
   },
   "tcn_accuracy_pilot_20261102": {
-    "state": "real_full_released20_B64_source_pilot_registered_not_started",
+    "state": "full_released20_B64_real_training_active_initial_first_insurance_verified",
     "workspace": "/workspace/uwb-tcn-pilot-20261102",
     "protocol": "results/cloud_20261102_tcn_pilot/study/PROTOCOL.json",
     "protocol_sha256": "b9dfe45dbec4d02f9160005c6142cc3ead5fb07810d4a8b3fe1e5c88a6504f53",
@@ -7088,8 +7088,8 @@
     "full_native_synthetic_producer_replay_integration_passed": true,
     "source_LR10_20_and_epoch_restore_checks_passed": true,
     "actual_cost_estimate_seconds": 996.7140554799698,
-    "real_training_started": false,
-    "real_UWB_values_labels_fit": false,
+    "real_training_started": true,
+    "real_UWB_values_labels_fit": true,
     "complete_private_modelset_verified": false,
     "full_audit_complete": false,
     "diagnostic_scored": false,
@@ -7097,6 +7097,20 @@
     "independent_validation": false,
     "novel_contribution_validated": false,
     "automatic_retry": false,
-    "automatic_resume": false
+    "automatic_resume": false,
+    "registration_commit": "820150e2a84c750f76f2c4f37de82cb988db5ae7",
+    "controller_pid": 71723,
+    "training_worker_pid": 71724,
+    "observed_epoch": 9,
+    "observed_updates": 666,
+    "observed_utc": "2026-11-02T06:11:24.493447+00:00",
+    "first_update_verified": true,
+    "first_batch_size": 64,
+    "first_private_insurance_verified": true,
+    "first_private_insurance_chunks": 1,
+    "first_private_insurance_members": 75,
+    "first_private_insurance_scope": "initial_first_only_not_latest_or_complete",
+    "first_private_insurance_index": "results/cloud_20261102_tcn_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
+    "latest_epoch_weights_privately_preserved": false
   }
 }

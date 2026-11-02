@@ -1,0 +1,15 @@
+# 2026-11-02 — 官方完整TCN20/B64真实云端训练已启动，初始首步1块/75成员私有回读通过
+
+真实预登记820150e2a84c750f76f2c4f37de82cb988db5ae7（父e3b9002acce8e57fc73accbcac15d4e495a2a2c7）全部45份文件逐字节远端回读，force=false更新分支并核对head后，才写入匹配协议/FROZEN marker并实际Popen一次。原控制器71723、实际训练子进程71724（PPid71723）在2026-11-02T06:11:24.493447+00:00仍运行，单线程，RSS2736932KiB；已完成9轮/666更新，未有训练或审计终止记录、未有诊断评分。没有重复启动或下载，Windows未参与。
+
+固定官方发布完整8x25/k7/causal weightnorm/Dropout.05/末时刻分类、20轮/B64/seed20261029/Adam.002/NLLLoss/canonical无shuffle、验证后第10/20轮LR除10、最终20轮选择及source3–6train/2val/1diag不变。当前107项冻结字节与实际成本/已关闭前任证据、两份不可变初始首步检查点均在私有保存后复核一致，没有重跑冻结科学测试或修改代码/配置。
+
+首批64个实际训练ID与canonical source3–6首批完全一致，优化器步1、180162参数/52参数张量、52组Adam参数状态、100个state_dict键、权重和优化器有限；native DataLoader及dropout使全局Torch RNG按预期改变。该核查仅实例化并加载状态，不读手势标签或拟合。初始SHA250b515839c67c44d6b0172b4030ceb2e4709801a5e91c91c4c08b62fd502976，首步SHA0ff5996c26b70495222d25eede10b4c928a3723b981dee5fb9284cd57d58807d，首批ID hash0dab04b726005d17145bffa2146e310293743f1d3572ef14253ef03a3f26b5e7。
+
+初始首步包2799035字节/1个选定分块/74payload+MEMBERS共75成员，owner-only文件夹与分块元数据、rawfetch(download_raw_file=true,include_base64=false)、立即物化size/SHA、归档与全部安全唯一成员均验证通过，无本次上传错误/重试。ArchiveSHA85aa24eb6d181b29e8dc9314fa931db68b51f534322ae5ae80766bca9beb7f2d，MEMBERS SHA6ec3e4c7f702feea04ce05d23dd3b9a8967e083e18b0334b78f9445be1dc8dfd，receipt SHAe24b9e30a4d2c139a0713e16f781118f83de5ed03045aa2c55aa5801d899cae1。持久索引 results/cloud_20261102_tcn_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json。范围INITIAL_FIRST_ONLY，不是最新轮或完整模型集/审计证明，也不声称全任务自动恢复；raw/maps/runtime分别恢复。空Drive查询不是重复不存在证明，已知ID优先复用。
+
+继续现有71723控制器，先1100wall/1080soft/1100hardCPU训练，再同等独立有界全部1480更新/20轮回放、完整状态/原生权重/两组logprob、rawRMS/cache/FP64检查。无科学自动retry/resume/Drive/Git/评分。成功后须保存完整已审计模型集并私有raw/整包/全部成员回读，才可冻结finalize对诊断1评分一次。失败先保存并查因，不静默重跑。不要使用初始首步或已关闭Encoder/旧producer回执作为完整TCN证明。
+
+固定同ID TimeMIL98.6667%+.5pp门槛，失败关闭确切配置，成功才另登记source6。用户7–8标签未用于新选择；既有八用户开发暴露使未来结果仍探索性，不称独立/八折提升或创新。Encoder完整100配置已在审计/私有保存后得到93.3333%诊断，差−5.3333pp并关闭，不补救。新TCN仅是有文献与官方源码支撑的迁移基线，其CLI/论文设置和weightnorm运行时差异已明示，准确率及原创贡献尚未证实。
+
+目标未达，既有自动接续6abc995e1620819195fcff77dbd81118保留，不新增重复任务。原789快照不动，实际样本ID值/原数组/模型二进制/私有原作者源码不入Git。下次先读最新四记录并查原进程/检查点；正常训练/审计则仅本地journal，若已完成则推进完整私有保存和一次固定评分。
