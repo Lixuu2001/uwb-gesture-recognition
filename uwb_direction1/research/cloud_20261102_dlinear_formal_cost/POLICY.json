@@ -1,0 +1,26 @@
+{
+  "method": "full_TSLib_DLinear_classification_CLI",
+  "paper_arxiv": "2205.13504",
+  "source_commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+  "epochs": 10,
+  "batch_size": 32,
+  "patience": 3,
+  "seed": 20261029,
+  "threads": 1,
+  "budget_seconds": 43200,
+  "memory_limit_KiB": 14680064,
+  "total_parameters": 628752,
+  "trainable_tensors": 6,
+  "optimizer": "nativeTorchRAdam_lr.0001",
+  "gradient_clip_max_norm": 4.0,
+  "loss": "unweighted_CrossEntropy",
+  "moving_average": 25,
+  "input_shape": [
+    90,
+    567
+  ],
+  "checkpoint_selection": "source_validation_micro_accuracy_latest_tie_patience3",
+  "synthetic_fixture_only": true,
+  "real_UWB_values_labels_fit_authorized": false,
+  "no_smaller_epoch_or_batch_fallback": true
+}

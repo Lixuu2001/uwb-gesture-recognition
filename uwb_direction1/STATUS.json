@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_official_TCN20_failed_closed_full_private_verified_next_full_tLeNet_cost_preregistered",
+  "state": "full_tLeNet1000_resource_closed_next_full_DLinear_classification_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_tcn_pilot/FINAL_AND_NEXT_TLENET_COST.md",
+  "latest_report": "research/cloud_20261102_dlinear_formal_cost/PREREGISTRATION_AND_PREVIOUS_CLOSURE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "full review-author t-LeNet1000/B256/seed20261029, cost first",
-  "last_completed_update_utc": "2026-11-02T07:11:28.728091+00:00",
+  "next_candidate": "full TSLib DLinear classification default10/B32/patience3/RAdam, synthetic cost then separate real source pilot",
+  "last_completed_update_utc": "2026-11-02T07:17:48.750866+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
     "observations_current": true,
@@ -1037,7 +1037,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-11-02T07:11:28.728091+00:00",
+  "last_updated_utc": "2026-11-02T07:17:48.750866+00:00",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "TCN full20 audited/private preserved and fixed diagnostic gate failed; exact configuration closed. Full t-LeNet source/synthetic passed; one full1000/B256 synthetic cost registered before timing. No active real training or new t-LeNet UWB values/labels/fit.",
+  "latest_task_state": "t-LeNet full1000 exact policy resource closed21.40h without real data/accuracy; complete DLinear classification source/synthetic passed and single cost preregistered. No active real training.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -7144,7 +7144,7 @@
     "novelty_claim": false
   },
   "tlenet_formal_cost_20261102": {
-    "state": "preregistered_not_yet_timed",
+    "state": "resource_closed_exact_full1000_B256_policy",
     "workspace": "/workspace/uwb-tlenet-formal-cost-20261102",
     "policy": "research/cloud_20261102_tlenet_formal_cost/POLICY.json",
     "epochs": 1000,
@@ -7155,8 +7155,46 @@
     "training_updates": 184000,
     "streaming_batch_gather_included": true,
     "dependent_byte_hashes": 1351,
-    "formal_timing_started": false,
+    "formal_timing_started": true,
     "real_UWB_values_labels_fit": false,
-    "no_smaller_epoch_batch_fallback": true
+    "no_smaller_epoch_batch_fallback": true,
+    "formal_cost_completed": true,
+    "resource_gate_passed": false,
+    "actual_estimated_seconds": 77046.43955478538,
+    "actual_estimated_hours": 21.40178876521816,
+    "max_RSS_KiB": 727852,
+    "registration_commit": "e7b45a25df99a4f7fab6eafdc6d0df15db55292b",
+    "accuracy_measured": false
+  },
+  "dlinear_source_preparation_20261102": {
+    "state": "full_source_and_synthetic_passed",
+    "workspace": "/workspace/uwb-dlinear-source-probe-20261102",
+    "source_commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+    "source_model_blob": "3f4d666a9ffe7fb6f58627ba43f1a9d3d9804d78",
+    "paper_arxiv": "2205.13504",
+    "paper_task": "forecasting",
+    "migration_task": "classification",
+    "max_epochs": 10,
+    "batch_size": 32,
+    "patience": 3,
+    "parameters": 628752,
+    "optimizer": "RAdam.0001",
+    "gradient_clip": 4.0,
+    "full_synthetic_passed": true,
+    "real_UWB_values_labels_fit": false,
+    "novelty_claim": false
+  },
+  "dlinear_formal_cost_20261102": {
+    "state": "preregistered_not_yet_timed",
+    "workspace": "/workspace/uwb-dlinear-formal-cost-20261102",
+    "max_epochs": 10,
+    "batch_size": 32,
+    "seed": 20261029,
+    "threads": 1,
+    "budget_seconds": 43200,
+    "max_training_updates": 1470,
+    "dependent_byte_hashes": 52,
+    "real_UWB_values_labels_fit": false,
+    "formal_timing_started": false
   }
 }
