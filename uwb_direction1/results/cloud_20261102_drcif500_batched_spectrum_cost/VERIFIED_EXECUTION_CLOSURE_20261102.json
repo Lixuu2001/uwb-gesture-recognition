@@ -1,0 +1,46 @@
+{
+  "state": "verified_DrCIF500_CIT20_batched_spectrum_RSS_screen_closed_before_fit_complete",
+  "utc": "2026-11-02T17:52:15.576276+00:00",
+  "registration_commit": "64a166ff3e5658d89bc05ed49893c0ccbf931cb7",
+  "termination": {
+    "pid": 89981,
+    "exit_code": -15,
+    "wall_timeout": false,
+    "resource_stop_reason": "RSS_resource_limit",
+    "peak_observed_RSS_KiB": 12636572,
+    "RSS_stop_KiB": 12582912,
+    "cgroup_events_before": {
+      "low": 0,
+      "high": 0,
+      "max": 40931,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_events_after": {
+      "low": 0,
+      "high": 0,
+      "max": 41040,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_oom_kill_delta": 0,
+    "supervisor_wall_seconds": 16.554265165003017,
+    "child_cpu_seconds": 20.080412000000003,
+    "cpu_soft_seconds": 14380,
+    "cpu_hard_seconds": 14400,
+    "scientific_negative": false,
+    "accuracy_measured": false,
+    "real_UWB_values_labels_fit": false
+  },
+  "termination_sha256": "c6eeff8ee2c5fc523397bc1130896e2fc23168504c22df6817a44b598e9d9ff9",
+  "full_fit_completed": false,
+  "full12h_estimate_available": false,
+  "accuracy_measured": false,
+  "real_UWB_values_labels_fit": false,
+  "no_old_screen_retry": true,
+  "no_further_same_configuration_resource_rescue": true,
+  "next_action": "ReviewprimaryradarImageNettransferliterature_andimplementfullpretrained2Dencoder_baseline",
+  "scientific_method_accuracy_negative": false
+}

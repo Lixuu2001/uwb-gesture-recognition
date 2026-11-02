@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "DrCIF500_fullbatch_RSS_closed_equivalent_batched_spectrum_cost_preregistered",
+  "state": "DrCIFbatched_RSS_closed_full_pretrained_ResNet18_frozen_SVM_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_drcif500_full_cost/MEMORY_CLOSURE_AND_BATCHED_PLAN.md",
+  "latest_report": "results/cloud_20261102_drcif500_batched_spectrum_cost/CLOSURE_AND_RESNET18_PLAN.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "NativefullbatchDrCIF500cost89168stoppedbyregisteredRSSlimitafter12.925s;noUWBtraining. Newoutputequivalent64caseFFTcostfrozen/preregisteredbutnotstartedatsnapshot.",
+  "background_training_status_note": "DrCIFbatchedcost89981terminatedat16.554sbyregisteredRSSstop;noactualUWBtraining. NewfullpretrainedResNet18frozen512/SVMC1costfrozen/preregisteredbutnotstartedatsnapshot.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "SamefullDrCIF500CIT20_float64_outputequivalent_batchednativeFFT_execution_cost",
-  "last_completed_update_utc": "2026-11-02T17:49:04.418276+00:00",
+  "next_candidate": "FullofficialImageNetResNet18_frozen512_LinearSVC_C1_seed20261029",
+  "last_completed_update_utc": "2026-11-02T18:03:02.200022+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "DrCIFfullbatchRSSclosed_outputequivalentbatchedcostpreregistered",
+    "state": "DrCIFbatchedRSSclosed_fullResNet18frozenSVMcostpreregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,7 +2808,7 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "sameDrCIF500CIT20_batchedspectrum_execution",
+    "next_method": "FullofficialResNet18_ImageNetfrozen512_LinearSVC_C1",
     "next_method_started": false,
     "last_method": "QUANTfull_author200_syntheticcostonly_incomplete",
     "hydra": {
@@ -2827,7 +2827,7 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     },
-    "next_method_stage": "separatecostpreregistration_notrealUWBtraining"
+    "next_method_stage": "costpreregistration_notrealUWBtraining"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -8108,7 +8108,7 @@
     "report": "results/cloud_20261102_drcif500_full_cost/MEMORY_CLOSURE_AND_BATCHED_PLAN.md"
   },
   "drcif500_batched_spectrum_cost_20261102": {
-    "state": "frozen_cost_remote_preregistration_pending_not_started",
+    "state": "verified_batched_spectrum_RSS_screen_closed_no_further_rescue",
     "workspace": "/workspace/uwb-drcif500-batched-spectrum-cost-20261102",
     "source_workspace": "/workspace/uwb-drcif500-batched-spectrum-source-20261102",
     "scientific_configuration_and_float64_unchanged": true,
@@ -8160,18 +8160,127 @@
     "cost_files": 11,
     "dependencies": 2683,
     "actual_UWB_values_labels_fit": false,
-    "formal_timing_started": false,
+    "formal_timing_started": true,
     "novelty_claim": false,
-    "all_exploratory": true
+    "all_exploratory": true,
+    "controller_pid": 89980,
+    "worker_pid": 89981,
+    "registration_commit": "64a166ff3e5658d89bc05ed49893c0ccbf931cb7",
+    "all37_changed_files_exact_before_Popen": true,
+    "worker_alive": false,
+    "termination": {
+      "pid": 89981,
+      "exit_code": -15,
+      "wall_timeout": false,
+      "resource_stop_reason": "RSS_resource_limit",
+      "peak_observed_RSS_KiB": 12636572,
+      "RSS_stop_KiB": 12582912,
+      "cgroup_events_before": {
+        "low": 0,
+        "high": 0,
+        "max": 40931,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_events_after": {
+        "low": 0,
+        "high": 0,
+        "max": 41040,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_oom_kill_delta": 0,
+      "supervisor_wall_seconds": 16.554265165003017,
+      "child_cpu_seconds": 20.080412000000003,
+      "cpu_soft_seconds": 14380,
+      "cpu_hard_seconds": 14400,
+      "scientific_negative": false,
+      "accuracy_measured": false,
+      "real_UWB_values_labels_fit": false
+    },
+    "full_fit_completed": false,
+    "accuracy_measured": false,
+    "no_old_screen_retry": true,
+    "no_further_same_configuration_resource_rescue": true,
+    "report": "results/cloud_20261102_drcif500_batched_spectrum_cost/CLOSURE_AND_RESNET18_PLAN.md"
   },
   "future_image_transfer_leads_20261102": {
-    "state": "literature_leads_only_not_selected",
+    "state": "primaryUWBpaper_read_full_official_ResNet18_implemented_synthetic_checks_passed",
     "record": "research/cloud_20261102_future_image_transfer/LEADS.json",
     "primary_direct_read_challenged": true,
     "fulltext_or_source_review_complete": false,
-    "model_or_weights_downloaded": false,
+    "model_or_weights_downloaded": true,
     "actual_UWB_values_labels_fit": false,
     "novelty_claim": false,
-    "current_priority": "DrCIF500CIT20_batched_native_spectrum_cost"
+    "current_priority": "FullResNet18frozen512_C1_syntheticcost",
+    "primary_UWB_publisher_methods_read": true,
+    "gesture_primary_fulltext_blocked": true,
+    "updated_report": "research/cloud_20261102_resnet18_imagenet_source/PAPER_REVIEW.json"
+  },
+  "resnet18_imagenet_cost_20261102": {
+    "state": "frozen_cost_remote_preregistration_pending_not_started",
+    "workspace": "/workspace/uwb-resnet18-imagenet-cost-20261102",
+    "source_workspace": "/workspace/uwb-resnet18-imagenet-source-20261102",
+    "official_vision_commit": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+    "weights": {
+      "source": "official_torchvision_IMAGENET1K_V1_public_checkpoint",
+      "public_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "bytes": 46830571,
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "publisher_sha256_prefix": "f37072fd",
+      "source_commit": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+      "source_git_blob": "47067ec83175a97cc6f6a8721b342128a434d440",
+      "full_1000class_weights_not_fitted_to_UWB": true
+    },
+    "original_full_parameters": 11689512,
+    "frozen_encoder_parameters": 11176512,
+    "embedding_width": 512,
+    "head": "LinearSVC_C1_dualFalse",
+    "seed": 20261029,
+    "CPU_threads": 4,
+    "batch_size": 16,
+    "input_shape": [
+      3,
+      90,
+      189
+    ],
+    "image_shape": [
+      3,
+      224,
+      224
+    ],
+    "source_integration_check": {
+      "state": "passed_full_official_ResNet18_ImageNet_V1_frozen_encoder_linear_SVM_synthetic_integration",
+      "official_vision_commit": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+      "original_full_parameters": 11689512,
+      "frozen_encoder_parameters": 11176512,
+      "embedding_width": 512,
+      "original_AST_classes_unmodified": true,
+      "all_official1000class_weights_loaded_strict": true,
+      "preprocessing_independent_FP64_reference_rtol": 2e-05,
+      "preprocessing_independent_FP64_reference_atol": 2e-05,
+      "independent_functional_residual_driver_logits_exact": true,
+      "encoder_all_parameters_frozen_BN_eval_unchanged": true,
+      "repeated_samebatch_encoder_features_exact": true,
+      "encoder_pickle_all_state_features_exact": true,
+      "linearSVC72case_12class_converged_and_restored_exact": true,
+      "C": 1,
+      "seed": 20261029,
+      "batch_size": 16,
+      "torch_threads": 4,
+      "original_radar_paper_finetuning_reproduction": false,
+      "no_UWB_values_labels_accessed": true,
+      "formal_cost_not_started": true,
+      "accuracy_or_novelty_claim": false
+    },
+    "cost_hashes_sha256": "18de6a0c075828dcf287992c1690d80989867b145e5564101ca92cb7a894b3ed",
+    "cost_files": 11,
+    "dependencies": 3511,
+    "formal_timing_started": false,
+    "actual_UWB_values_labels_fit": false,
+    "novelty_claim": false,
+    "all_exploratory": true
   }
 }

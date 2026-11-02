@@ -1,0 +1,80 @@
+{
+  "method": "full_official_ResNet18_ImageNet1K_V1_frozen512_encoder_LinearSVC_C1_transfer",
+  "vision_commit": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "encoder_bytes": 46830571,
+  "full_original_parameters": 11689512,
+  "frozen_encoder_parameters": 11176512,
+  "embedding_width": 512,
+  "encoder_BN_eval": true,
+  "input_shape": [
+    3,
+    90,
+    189
+  ],
+  "image_shape": [
+    3,
+    224,
+    224
+  ],
+  "channel_mapping": "orderedthreephysicalradars_asthreeinputchannels",
+  "per_record_view_minmax_floor": 1e-08,
+  "resize": "bilinear_fullimage_align_cornersFalse_antialiasFalse_nocrop",
+  "ImageNet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "ImageNet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "batch_size": 16,
+  "seed": 20261029,
+  "threads": 4,
+  "head": "LinearSVC",
+  "C": 1.0,
+  "loss": "squared_hinge",
+  "penalty": "l2",
+  "dual": false,
+  "tol": 0.0001,
+  "max_iter": 10000,
+  "fit_intercept": true,
+  "intercept_scaling": 1.0,
+  "class_weight": null,
+  "no_head_grid": true,
+  "synthetic_train_size": 4700,
+  "synthetic_fixture_shape": [
+    4700,
+    3,
+    90,
+    189
+  ],
+  "budget_seconds": 43200,
+  "CPU_budget_seconds": 172800,
+  "RSS_stop_KiB": 12582912,
+  "map_margin_KiB": 2097152,
+  "memory_limit_KiB": 14680064,
+  "profile_wall_seconds": 3600,
+  "profile_CPU_soft_seconds": 14380,
+  "profile_CPU_hard_seconds": 14400,
+  "formula": "3*full4700_encoder_plus_SVMfit+2*2200*maxeval64/64+4*maxheadsave+2*maxheadload+180",
+  "checkpoint_storage": "2*shared_official_encoder_checkpoint+8*headcheckpoint+64MiB<=remainingdisk;frozenencoderweightsnotduplicatedperhead",
+  "actual_UWB_values_labels_fit_authorized": false,
+  "eventual_source_train_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "eventual_validation_user": 2,
+  "eventual_diagnostic_user": 1,
+  "fixed_reference": 0.9866666666666667,
+  "minimum_gain": 0.005,
+  "tolerance": 1e-12,
+  "users7_8_labels_forbidden": true,
+  "all_exploratory": true,
+  "novelty_claim": false,
+  "no_weight_architecture_view_preprocessing_C_seed_or_role_rescue": true
+}

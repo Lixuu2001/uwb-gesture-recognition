@@ -1,0 +1,32 @@
+{
+  "pid": 89981,
+  "exit_code": -15,
+  "wall_timeout": false,
+  "resource_stop_reason": "RSS_resource_limit",
+  "peak_observed_RSS_KiB": 12636572,
+  "RSS_stop_KiB": 12582912,
+  "cgroup_events_before": {
+    "low": 0,
+    "high": 0,
+    "max": 40931,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0
+  },
+  "cgroup_events_after": {
+    "low": 0,
+    "high": 0,
+    "max": 41040,
+    "oom": 0,
+    "oom_kill": 0,
+    "oom_group_kill": 0
+  },
+  "cgroup_oom_kill_delta": 0,
+  "supervisor_wall_seconds": 16.554265165003017,
+  "child_cpu_seconds": 20.080412000000003,
+  "cpu_soft_seconds": 14380,
+  "cpu_hard_seconds": 14400,
+  "scientific_negative": false,
+  "accuracy_measured": false,
+  "real_UWB_values_labels_fit": false
+}

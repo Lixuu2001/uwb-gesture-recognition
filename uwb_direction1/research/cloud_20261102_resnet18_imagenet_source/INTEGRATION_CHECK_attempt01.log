@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-resnet18-imagenet-source-20261102/check_integration.py", line 4, in <module>
+    from native_resnet18 import np,torch,F,B,make,preprocess,extract,make_head,encoder_digest
+  File "/workspace/uwb-resnet18-imagenet-source-20261102/native_resnet18.py", line 23, in <module>
+    assert hashlib.sha1(b'blob '+str(len(_raw)).encode()+b'\0'+_raw).hexdigest()=='47067ec83175a97cc6f6a8721b342128a434d440'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,15 @@
+{
+  "state":"published_transfer_baseline_basis_not_originality_evidence",
+  "radar_primary":{"title":"Classification of human body motions using an ultra-wideband pulse radar","authors":"Hui-SupCho;Young-JinPark","year":2022,"doi":"10.3233/THC-212827","url":"https://journals.sagepub.com/doi/10.3233/THC-212827","read":"Publisherprimaryabstract/methodology3.1–3.3/Table1 andindexedexperimentalsections;notallfigures/PDF"},
+  "radar_scope":"PretrainedCNNs/ResNet18and224x224inputusedforUWBpulse-radarbody-motionclassificationwithmicro-rangeimagesandfine-tuning.Thecurrentgesturedata/RMS-signedimages/3viewchannels/frozenencoder-SVMareprojectadaptations,notthatpaper'sexperimentalreproduction.",
+  "frozen_feature_primary":{"title":"CNN Features Off-the-Shelf:An Astounding Baseline for Recognition","authors":"Razavian;Azizpour;Sullivan;Carlsson","year":2014,"doi":"10.1109/CVPRW.2014.131","url":"https://arxiv.org/abs/1403.6382","read":"Primaryabstract/indexedmethodsexcerpts describingfixedpretrainedCNNfeature+linearSVM;notfull4096featuremodel/settingsreplication"},
+  "architecture":"FullofficialtorchvisionResNet18/BasicBlock[2,2,2,2]/ImageNet1K_V1,notreduced1DResNet.Hefamilyresidualarchitectureispriorart;officialcodeandweightsareimplementationauthority.",
+  "additional_gesture_lead":{"doi":"10.3390/s21010259","title":"On the Effect of Training Convolution Neural Network for Millimeter-Wave Radar-Based Hand Gesture Recognition","limits":"IndexedprimaryshowsImageNetfine-tuning/ResNet18;PMCbrowserchallengeandMDPI429preventedcompleteprimaryread.Noexactauthorhyperparametersclaimed."},
+  "history":"BoundedlatestfourrecordsexactResNet18/ResNet-18/ImageNet/DINOv2/MobileNettokenszero;notexhaustiveabsenceproof.Old1Dfrom-scratchResNetandfrozenLTRfeaturesarenotequivalenttofullImageNet2Dencoder.",
+  "fixed_project_adapter":"3radarsas3orderedchannels;eachrecord/viewminmaxfloor1e-8;full90timeby189rangebilinearresizeto224x224,no crop/augmentation;ImageNetmean/std;freezeallencoderparamsandBNeval;pooled512features;LinearSVC_C1_dualFalse_tol1e-4_max_iter10000_noclassweight_seed20261029.Noheadhyperparametergrid.",
+  "accuracy_evidence":"NoneonUWBforthisconfiguration.Synthetictestsarenotaccuracyvalidation.",
+  "originality_evidence":"None.Publishedimagefeaturetransferbaseline;modulestackingnotclaimednewcontribution.",
+  "actual_UWB_values_labels_fit":false,
+  "users7_8_labels_used":false,
+  "all8historicaldevelopment_exploratory":true
+}
