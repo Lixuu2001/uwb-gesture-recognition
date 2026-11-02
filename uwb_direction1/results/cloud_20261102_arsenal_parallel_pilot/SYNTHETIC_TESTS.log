@@ -1,0 +1,14 @@
+test_failed_timeout_receipts (__main__.Checks.test_failed_timeout_receipts) ... Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+Numba: Attempted to fork from a non-main thread, the TBB library may be in an invalid state in the child process.
+ok
+test_gate_and_known_support (__main__.Checks.test_gate_and_known_support) ... ok
+test_independent_all25_streaming_stats (__main__.Checks.test_independent_all25_streaming_stats) ... ok
+test_kernel_and_vote_tampering_detected (__main__.Checks.test_kernel_and_vote_tampering_detected) ... ok
+test_missing_remote_and_private_proofs_block (__main__.Checks.test_missing_remote_and_private_proofs_block) ... ok
+test_native_full_probabilities_votes_canonical_predictions_reload_immutable (__main__.Checks.test_native_full_probabilities_votes_canonical_predictions_reload_immutable) ... ok
+test_nontrivial_native_training_LOO_accuracy_alpha_and_weight (__main__.Checks.test_nontrivial_native_training_LOO_accuracy_alpha_and_weight) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 28.305s
+
+OK

@@ -1,0 +1,60 @@
+{
+  "utc": "2026-11-02T14:50:36.393115+00:00",
+  "state": "synthetic_cost_complete_verified_gate_passed",
+  "termination": {
+    "pid": 85574,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "resource_stop_reason": null,
+    "peak_observed_RSS_KiB": 7905108,
+    "RSS_stop_KiB": 12582912,
+    "cgroup_events_before": {
+      "low": 0,
+      "high": 0,
+      "max": 40124,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_events_after": {
+      "low": 0,
+      "high": 0,
+      "max": 40124,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_oom_kill_delta": 0,
+    "supervisor_wall_seconds": 1036.3419650639407,
+    "child_cpu_seconds": 2158.678821,
+    "cpu_soft_seconds": 14380,
+    "cpu_hard_seconds": 14400,
+    "scientific_negative": false,
+    "accuracy_measured": false,
+    "real_UWB_values_labels_fit": false
+  },
+  "verified_cost": {
+    "state": "independently_verified_full4700_native_Arsenal25x2000_jobs4_cost",
+    "resource_gate_passed": true,
+    "estimated_CPU_seconds": 15303.287684219657,
+    "estimated_seconds": 3825.821921054914,
+    "estimated_hours": 1.0627283114041428,
+    "estimated_max_RSS_KiB": 10056220,
+    "required_checkpoint_workspace_bytes": 188827632,
+    "checkpoint_bytes": 15214846,
+    "workspace_free_bytes": 744849408,
+    "accuracy_measured": false,
+    "real_UWB_values_labels_fit": false,
+    "real_pilot_started": false,
+    "no_member_kernel_seed_normalization_alpha_weighting_fallback": true,
+    "registration_commit": "a1b6ac4b843270932240bb21cf5582a5b29fa9ba",
+    "profile_peak_RSS_KiB": 7959068,
+    "supervisor_peak_RSS_KiB": 7905108,
+    "real_fit_authorized": false,
+    "native_parallel_jobs": 4,
+    "scientific_configuration_unchanged": true,
+    "next_action": "separately_register_fixed_real_jobs4_pilot_runner_full_auditor_private_preservation"
+  },
+  "actual_UWB_values_labels_fit": false,
+  "real_fit_started": false
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Arsenal_CPU1_cost_window_incomplete_closed_same_full_model_jobs4_execution_preregistered",
+  "state": "Arsenal25x2000_full4700_cost_passed_fixed_real_pilot_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_arsenal_parallel_full25_cost/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_arsenal_parallel_pilot/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "OldCPU1cost terminatedwallcap,no realtraining. Newjobs4syntheticprofile prereg snapshot notstarted.",
+  "background_training_status_note": "No realfit yet in registration snapshot;cost complete andpassed,realrunner16files awaitingexactremote readback",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "SamefullnativeArsenal25x2000 jobs4 separateexecutionpolicy;syntheticfull4700cost afterexactremote preregreadback",
-  "last_completed_update_utc": "2026-11-02T14:26:30.171065+00:00",
+  "next_candidate": "Full native Arsenal25x2000 fixedtrain3–6/val2/diag1 fit+fullnativeaudit afterexactremote readback",
+  "last_completed_update_utc": "2026-11-02T14:51:26.982300+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "same_Arsenal_full25x2000_jobs4_execution_preregistered_after_CPU1windowfailure",
+    "state": "full_native_Arsenal25x2000_fixed_real_pilot_preregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,7 +2808,7 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "same_native_Arsenal25x2000_CVaccuracy_votes_execution_jobs4",
+    "next_method": "native_Arsenal25x2000_CVaccuracy_weightedvotes",
     "next_method_started": false,
     "last_method": "HYDRA",
     "hydra": {
@@ -7851,10 +7851,10 @@
     "actual_UWB_values_labels_fit": false
   },
   "arsenal_parallel_full25_cost_20261102": {
-    "state": "separate_jobs4_execution_policy_preregistered_not_timing_yet",
+    "state": "full4700_native_cost_complete_independently_verified_passed",
     "workspace": "/workspace/uwb-arsenal-parallel-full25-cost-20261102",
     "cost_hashes_sha256": "d77bf64a845f6095faba7739b40e762c430f381b2f65fdf0572bfca3a2254786",
-    "formal_timing_started": false,
+    "formal_timing_started": true,
     "cost_files": 10,
     "dependencies": 2605,
     "profile_wall_seconds": 3600,
@@ -7862,6 +7862,56 @@
     "CPU_hard_seconds": 14400,
     "actual_UWB_values_labels_fit": false,
     "accuracy_measured": false,
-    "real_fit_authorized": false
+    "real_fit_authorized": false,
+    "registration_commit": "a1b6ac4b843270932240bb21cf5582a5b29fa9ba",
+    "exit_code": 0,
+    "full_fit_seconds": 969.3683332439978,
+    "estimated_seconds": 3825.821921054914,
+    "estimated_max_RSS_KiB": 10056220,
+    "checkpoint_bytes": 15214846,
+    "cost_gate_passed": true
+  },
+  "arsenal_parallel_accuracy_pilot_20261102": {
+    "state": "fixed_real_source_held1_protocol_full_runner_auditor_privatebackup_oncefinalizer_preregistered",
+    "workspace": "/workspace/uwb-arsenal-parallel-pilot-20261102",
+    "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+    "frozen_sha256": "76153b2566fbfd607470d74be09b0271f1ecafb25cdc3abaf6f7ba647cb595e6",
+    "study_files": 16,
+    "source_train_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200,
+    "seed": 20261029,
+    "threads": 4,
+    "native_parallel_jobs": 4,
+    "BLAS_threads_per_member": 1,
+    "members": 25,
+    "kernels_per_member": 2000,
+    "total_kernels": 50000,
+    "native_scorer": "trainingLOOaccuracy",
+    "native_vote_weight": "directtrainingLOOaccuracy",
+    "real_fit_started": false,
+    "full_audit_complete": false,
+    "diagnostic_scored": false,
+    "complete_private_modelset_verified": false,
+    "users7_8_labels_used": false,
+    "all8historicallydeveloped_exploratory": true,
+    "novel_contribution_claim": false
+  },
+  "future_static_literature_review_20261102": {
+    "method": "QUANT",
+    "paper_DOI": "10.1007/s10618-024-01036-9",
+    "author_commit": "f3907f7e531b6a304e3c54310869a0023a9e0fd6",
+    "scope": "static_primary_paper_and_complete_author_source_review_only;not_selected_not_executed",
+    "review": "research/cloud_20261102_quant_static_review/STATIC_REVIEW.json",
+    "actual_UWB_values_labels_fit": false,
+    "not_accuracy_rejection": true
   }
 }

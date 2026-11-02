@@ -1,0 +1,77 @@
+{
+  "state": "static_primary_paper_and_official_source_review_only_not_selected_not_run",
+  "paper": "Dempster,Schmidt,Webb2024 QUANT,DMKD38:2377\u20132402",
+  "DOI": "10.1007/s10618-024-01036-9",
+  "paper_url": "https://link.springer.com/article/10.1007/s10618-024-01036-9",
+  "review_scope": "PrimaryHTML method3.1\u20133.4/evaluationprotocol excerpts andfullcurrentauthortransform/README/documentation;not fullpaperread",
+  "repository": "angus924/quant",
+  "commit": "f3907f7e531b6a304e3c54310869a0023a9e0fd6",
+  "license": "GPL-3.0 originalsources local-only,pinnedfetchrecovery possible",
+  "upstream_files": [
+    {
+      "path": "README.md",
+      "git_blob_sha1": "02b27d1b00a3727140372724a25338723575e2cf",
+      "sha256": "600e66190bb60e3e12afc5f0dae3cea532c41ccf9726eb7ffc29969264ee53fa"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "code/quant.py",
+      "git_blob_sha1": "7a4b05b402ed152d7c2040164979258827701380",
+      "sha256": "68bb354a6fd2344c5a160a141feb9db4599fce2bad5e4acf5381c435b3b8772a"
+    },
+    {
+      "path": "doc.md",
+      "git_blob_sha1": "3c4f74d45014a29215fb1786b824ae397cadc650",
+      "sha256": "0f008a3914ca8634b751a0621f95fda90efc3fa1678c5423ed972324f7eaa967"
+    }
+  ],
+  "defaults": {
+    "depth": 6,
+    "div": 4,
+    "ExtraTrees_estimators": 200,
+    "max_features": 0.1,
+    "criterion": "entropy"
+  },
+  "paper_vs_current_source": "Publishedarticle restricts discussion to univariate equal-length;currentauthorcode explicitly adds multivariatehandling via aaltd2024. Must label multivariatetransfer.",
+  "representation_lengths_atT90": [
+    90,
+    89,
+    88,
+    46
+  ],
+  "static_interval_counts": [
+    {
+      "input_length": 90,
+      "intervals": 120,
+      "quantiles_per_channel": 271
+    },
+    {
+      "input_length": 89,
+      "intervals": 120,
+      "quantiles_per_channel": 269
+    },
+    {
+      "input_length": 88,
+      "intervals": 120,
+      "quantiles_per_channel": 267
+    },
+    {
+      "input_length": 46,
+      "intervals": 89,
+      "quantiles_per_channel": 144
+    }
+  ],
+  "static_features_per_channel": 951,
+  "static_features_for567channels": 539217,
+  "minimum_float32_full4700_feature_bytes": 10137279600,
+  "static_scope": "Arithmeticonly,noexecutionofQUANTtransform/noformalresourcespeedclaim. Nativefullcatmaymaterializecopies;featurestorageestimateisnotpeakRAMproof.",
+  "potential_compatibility_issue": "Reviewfoundquantilepermute\u2192view merging channelandquantileaxes mayrejectnoncontiguousmultivariatetensor. Notnumericallyreproducedorpatched;requireseparateunitproofbeforefutureselection. Do notcallstaticconcernanalgorithmfailure.",
+  "history_scope": "ExactQUANTtokenzero inlatestfourmainrecords ee07807,boundednotexhaustive;oldergenericmoments/descriptorsnegatives arefamilyexposure,not equivalent fullQUANTproof.",
+  "current_priority": "Arsenaljobs4costactive;QUANT staticfuturequeueonly,noQUANTmethodselection/fit/timing/seedgrid/UWBdata",
+  "actual_UWB_values_labels_fit": false,
+  "accuracy_or_novelty_claim": false
+}
