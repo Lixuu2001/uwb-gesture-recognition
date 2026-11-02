@@ -1,0 +1,27 @@
+{
+  "state": "real_full_ResNet18_SGDM40_B15_producer_observed_actively_training",
+  "utc": "2026-11-02T19:31:32.545627+00:00",
+  "controller_pid": 94807,
+  "controller_start_ticks": "117060187",
+  "worker_pid": 94808,
+  "worker_start_ticks": "117060435",
+  "process_args_verified": true,
+  "actual_completed_updates": 112,
+  "last_aggregate_step": {
+    "epoch": 1,
+    "offset": 1665,
+    "update": 112,
+    "order_sha256": "f7f13e001ee3953f22dd6dde63680e63505cc9839be2766119be5d9d29b99997",
+    "augmentation_rng_sha256": "9f883dde2501e45f65bbb0eeb64ab8f920456deeabdce8bc77450e92067452f5",
+    "loss": 1.5170245170593262
+  },
+  "initial12_head_checkpoint_bytes": 26525,
+  "initial12_head_checkpoint_sha256": "3f9f526e4c9a2c50d6fc322b075b2526024abe4e26a7fa59faacd4299273d711",
+  "source_split_saved": true,
+  "actual_UWB_training_started": true,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "accuracy_measured": false,
+  "registration_commit": "50765a0c72d6fc3b5434a14864bab6a6560099aa",
+  "workspace_free_bytes": 489902080
+}

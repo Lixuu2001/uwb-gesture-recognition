@@ -1,0 +1,16 @@
+{
+  "state": "actual_real_controller_Popen_started",
+  "utc": "2026-11-02T19:29:47.532007+00:00",
+  "commit": "50765a0c72d6fc3b5434a14864bab6a6560099aa",
+  "frozen_sha256": "69b12b2e244cd95d6c249237459d61dad91ef023d1ed19bc6c23f529cabc2886",
+  "automatic_retry": false,
+  "controller_pid": 94807,
+  "proc_start_ticks": "117060187",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/uwb-resnet18-finetune-pilot-20261102/controller.py"
+  ],
+  "current_worker_pid": null,
+  "real_UWB_producer_pending_initialization": true
+}
