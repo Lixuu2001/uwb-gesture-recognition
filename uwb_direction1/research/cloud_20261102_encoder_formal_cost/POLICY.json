@@ -1,0 +1,31 @@
+{
+  "method": "full_review_Encoder_128_256_512_channel_attention",
+  "paper_doi": "10.3233/978-1-61499-918-8-120",
+  "review_doi": "10.1007/s10618-019-00619-1",
+  "review_commit": "e0233efd886df8c6ca18e6f1b545d15aaf423627",
+  "source_blob": "54fe5742b495f2ff81fa377de9c0ceaa0bac3e77",
+  "epochs": 100,
+  "batch_size": 12,
+  "seed": 20261029,
+  "threads": 1,
+  "budget_seconds": 43200,
+  "memory_limit_KiB": 14680064,
+  "input_shape": [
+    90,
+    567
+  ],
+  "total_parameters": 3613324,
+  "trainable_parameters": 3613324,
+  "input_adaptation_intent": "Full signed perview RMS90x567, no additional normalization/resizing/augmentation. Review implementation, distinct from original temporal attention and multi-dataset pretraining.",
+  "training_unweighted": true,
+  "validation_unweighted": true,
+  "source_callbacks": "Strict minimum training CE ties earliest; no LR/early-stop callback",
+  "synthetic_fixture_only": true,
+  "real_UWB_values_labels_fit_authorized": false,
+  "no_smaller_epoch_or_batch_fallback": true,
+  "maximum_profile_wall_seconds": 620,
+  "maximum_profile_CPU_soft": 590,
+  "maximum_profile_CPU_hard": 600,
+  "loss": "categorical_crossentropy",
+  "optimizer": "Adam1e-5_eps1e-7"
+}

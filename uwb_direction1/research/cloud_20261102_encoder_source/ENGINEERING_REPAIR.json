@@ -1,0 +1,19 @@
+{
+  "state": "synthetic_only_test_faults_fixed",
+  "attempts": [
+    {
+      "log": "SYNTHETIC_ATTEMPT01.log",
+      "cause": "Incorrect expectation that default unseeded Keras Torch dropout increments layer counters; actual implementation uses global torch dropout",
+      "repair": "Assert global Torch RNG changes and preserve global plus layer state; runtime source lines137-168 inspected"
+    },
+    {
+      "log": "SYNTHETIC_ATTEMPT02.log",
+      "cause": "Wrong synthetic assertion dictionary key rng/torch",
+      "repair": "Use existing native torch_rng key"
+    }
+  ],
+  "final_log": "SYNTHETIC_CHECK.log",
+  "all_final_checks_passed": true,
+  "UWB_values_or_labels_read": false,
+  "scientific_configuration_changed": false
+}

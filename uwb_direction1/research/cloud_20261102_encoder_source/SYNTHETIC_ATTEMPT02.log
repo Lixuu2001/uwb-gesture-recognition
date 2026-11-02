@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-encoder-source-probe-20261102/synthetic_check.py", line 71, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-encoder-source-probe-20261102/synthetic_check.py", line 60, in main
+    assert not torch.equal(initial['native']['rng']['torch'],saved['native']['rng']['torch'])
+                           ~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'rng'

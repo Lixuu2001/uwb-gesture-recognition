@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-encoder-source-probe-20261102/synthetic_check.py", line 68, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-encoder-source-probe-20261102/synthetic_check.py", line 57, in main
+    assert len(saved['layer_rng'])==3 and any(not np.array_equal(a['value'],b['value']) for a,b in zip(initial['layer_rng'],saved['layer_rng']))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,9 +1,9 @@
 {
-  "date_client": "2026-11-01",
+  "date_client": "2026-11-02",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_TimeCNN2000_training_complete_full_numeric_audit_active_completed_producer_private_recovery_verified",
+  "state": "TimeCNN_full2000_audited_private_preserved_accuracy_gate_failed_Encoder_full100_synthetic_cost_registered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261101_timecnn_pilot/TRAINING_COMPLETION_AND_PRODUCER_RECOVERY.md",
+  "latest_report": "results/cloud_20261101_timecnn_pilot/FINAL_RESULT_AND_NEXT_ENCODER.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue original controller69261/audit69545 only; no frozen-file/test edits, repeat download or launch. After full2000epoch/588000update audit+successfulTERM and controller stop, frozenbackup.py complete to pilot/complete_backup, private metadata-first/rawfetchtrue/base64false/max3/allchunk+allmember readback and complete receipt, then frozenfinalize once for+0.5pp overfixedTimeMIL98.666667%. Completed producer backup is not complete-audited scope or score authorization. Pass separate fixed source6, fail exact config close no rescue.7-8 labels excluded, source evidence exploratory.",
-  "last_completed_update_utc": "2026-11-01T21:37:43+00:00",
+  "next_candidate": "complete_review_author_Encoder100_B12_seed20261029",
+  "last_completed_update_utc": "2026-11-02",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
     "observations_current": true,
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "ActualTimesNetsupervisor49569/worker49570 training;firstsource53RAdam/16IDs+42hashes verified;privatefirstsnapshot6chunks/all57payloadverified. Controller49588waitingoriginaljob,auditonce/localarchiveonly. Noheld1score or noveltyclaim,goalunresolved.",
+  "latest_task_state": "TimeCNN full588000 replay and complete audited private111member backup passed; fixed diagnostic77.8333% fails98.6667%reference +0.5pp gate. Exact config closed. Full review Encoder3613324params synthetic checks passed, fixed100/B12 cost preregistered; no Encoder UWB values/labels/fit.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3029,8 +3029,8 @@
     },
     "gate_passed": false
   },
-  "background_continuation_running": true,
-  "background_continuation_pid": 67053,
+  "background_continuation_running": false,
+  "background_continuation_pid": null,
   "timemil_accuracy_preparation": {
     "state": "complete_audited_exact64epoch_timemil_gate_failed_gap_expansion_eligible",
     "path": "/workspace/uwb-timemil-20261029",
@@ -3401,7 +3401,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "results/cloud_20261101_mlstmfcn_formal_cost/ACTUAL_COST_AND_ENGINE.md",
+  "latest_completed_report": "results/cloud_20261101_timecnn_pilot/FINAL_RESULT_AND_NEXT_ENCODER.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -4495,8 +4495,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": true,
-  "background_audit_pid": 69545,
+  "background_audit_running": false,
+  "background_audit_pid": null,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5169,7 +5169,7 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_supervisor_pid": 67053,
+  "background_audit_supervisor_pid": null,
   "oscnn_source_probe": {
     "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
@@ -6423,8 +6423,8 @@
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes",
     "real_ablation_closed_by_source6_gate_failure": true
   },
-  "background_numeric_audit_running": true,
-  "background_experiment_queue_running": true,
+  "background_numeric_audit_running": false,
+  "background_experiment_queue_running": false,
   "disjoint_cnn_formal_cost_20261101": {
     "state": "actual_synthetic_profile_successfully_completed_full500_B8_resource_closed",
     "workspace": "/workspace/uwb-disjoint-formal-cost-20261101",
@@ -6722,7 +6722,7 @@
     "accuracy_measured": false
   },
   "timecnn_accuracy_pilot_20261101": {
-    "state": "full2000_training_complete_original_full_numeric_audit_active_producer_recovery_verified",
+    "state": "closed_exact_configuration_after_full_audit_private_backup_failed_accuracy_gate",
     "workspace": "/workspace/uwb-timecnn-pilot-20261101",
     "protocol": "results/cloud_20261101_timecnn_pilot/study/PROTOCOL.json",
     "protocol_sha256": "a966b15984ffbab96c7a05c11ea92faf0db563e01b88cbb5af437a99de8a7cb1",
@@ -6757,16 +6757,16 @@
     "actual_cost_estimate_seconds": 21461.52823175164,
     "real_training_started": true,
     "real_UWB_values_labels_fit": true,
-    "complete_private_modelset_verified": false,
-    "full_audit_complete": false,
-    "diagnostic_scored": false,
+    "complete_private_modelset_verified": true,
+    "full_audit_complete": true,
+    "diagnostic_scored": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
     "automatic_retry": false,
     "automatic_resume": false,
     "registration_commit": "0713333c9e5a517e1d69b49f013abb2aa0f06ce5",
-    "controller_pid": 69261,
+    "controller_pid": null,
     "training_worker_pid": null,
     "observed_epoch": 2000,
     "observed_updates": 588000,
@@ -6780,7 +6780,7 @@
     "first_private_insurance_index": "results/cloud_20261101_timecnn_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
     "latest_epoch_weights_privately_preserved": true,
     "completed_training_worker_pid": 69262,
-    "audit_worker_pid": 69545,
+    "audit_worker_pid": null,
     "training_complete": true,
     "training_appearances": 9400000,
     "selected_epoch": 1830,
@@ -6801,6 +6801,73 @@
     "producer_private_recovery_members": 109,
     "producer_private_recovery_index": "results/cloud_20261101_timecnn_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json",
     "producer_upload_fault_recovered": true,
-    "empty_Drive_search_is_not_duplicate_absence_proof": true
+    "empty_Drive_search_is_not_duplicate_absence_proof": true,
+    "predeclared_gate_passed": false,
+    "scores": {
+      "validation": 0.7289999999999999,
+      "diagnostic": 0.7783333333333333
+    },
+    "delta_macro": -0.20833333333333337,
+    "fixed_reference_macro": 0.9866666666666667,
+    "route": "close_exact_full2000_B16_seed_configuration_no_rescue",
+    "closed_without_rescue": true,
+    "source6_confirmation_complete": false,
+    "audit_termination": {
+      "completed_pid": 69545,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "wall_seconds": 6790.679616503185,
+      "cpu_seconds": 6790.191944
+    },
+    "complete_private_modelset_index": "results/cloud_20261101_timecnn_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "complete_private_modelset_chunks": 7,
+    "complete_private_modelset_members": 111,
+    "complete_private_modelset_sha256": "47fbb01f8de8c3f012aa889e34e678c79250f1916d3f6315f5cef376ad8f59d1",
+    "complete_private_receipt_sha256": "86a391b4a9b9a9a4081ffcbb8f06a9f19ef4dd3eb2b3c696513a940afe197bcd"
+  },
+  "encoder_source_preparation_20261102": {
+    "state": "complete_review_native_synthetic_checks_passed",
+    "workspace": "/workspace/uwb-encoder-source-probe-20261102",
+    "code": "research/cloud_20261102_encoder_source",
+    "source_commit": "e0233efd886df8c6ca18e6f1b545d15aaf423627",
+    "source_blob": "54fe5742b495f2ff81fa377de9c0ceaa0bac3e77",
+    "paper_doi": "10.3233/978-1-61499-918-8-120",
+    "review_doi": "10.1007/s10618-019-00619-1",
+    "selected_sections_read": true,
+    "all_pages_figures_read": false,
+    "total_parameters": 3613324,
+    "trainable_parameters": 3613324,
+    "trainable_tensors": 21,
+    "Adam_variables": 44,
+    "input_shape": [
+      90,
+      567
+    ],
+    "source_default_epochs": 100,
+    "source_default_batch_size": 12,
+    "review_channel_attention_distinct_from_original_temporal_attention": true,
+    "synthetic_updates": 3,
+    "independent_NumPy_full_graph_and_IN_gradients_passed": true,
+    "complete_custom_restore_next_update_exact": true,
+    "native_weights_Adam_reload_exact": true,
+    "real_UWB_values_labels_fit": false,
+    "original_TF_parity": false,
+    "novelty_claim": false
+  },
+  "encoder_formal_cost_20261102": {
+    "state": "fixed_full100_B12_synthetic_cost_remotely_preregistered_not_executed",
+    "workspace": "/workspace/uwb-encoder-formal-cost-20261102",
+    "epochs": 100,
+    "batch_size": 12,
+    "seed": 20261029,
+    "threads": 1,
+    "parameters": 3613324,
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "cost_hashes_sha256": "441bee2b90f8bfb5a137f037b76d39417c1451d84340144870d0f47726801a2a",
+    "policy_sha256": "536c1ac81863973d8583b963da856b3879fa1ae47eb07805bd2f3ec59f90a60a",
+    "profile_started": false,
+    "real_UWB_values_labels_fit": false,
+    "no_smaller_epoch_batch_fallback": true
   }
 }
