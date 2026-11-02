@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "DrCIF_RSS_policies_closed_full_ImageNet_ResNet18_frozen_SVM_synthetic_cost_active",
+  "state": "full_ResNet18_frozen_SVM_cost_passed_real_pilot_frozen_preregistered_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_resnet18_imagenet_cost/ACTIVE_COST.md",
+  "latest_report": "results/cloud_20261102_resnet18_imagenet_pilot/PREREGISTERED_REAL_EXPERIMENT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "NoactualUWBtrainingactive;fullpretrainedResNet18frozen512/SVMC1syntheticcostworker90753/controller90752actuallyrunningatsnapshot. InspectexactPID/TERMbeforeanylaunch.",
+  "background_training_status_note": "Syntheticcost90753completeexit0/auditedpass;realResNet18C1pilot17filesfrozen/preregisteredbutnotstartedatsnapshot.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "FullofficialImageNetResNet18_frozen512_LinearSVC_C1_seed20261029",
-  "last_completed_update_utc": "2026-11-02T18:05:34.949147+00:00",
+  "next_candidate": "LaunchoncefrozenrealResNet18C1producer_thenfullindependentaudit_privatebackup_onceheldscore",
+  "last_completed_update_utc": "2026-11-02T18:19:59.700601+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "DrCIFclosed_fullResNet18frozenC1_syntheticcostactive",
+    "state": "fullResNet18frozenC1_costpassed_realpilotpreregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2809,7 +2809,7 @@
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
     "next_method": "FullofficialResNet18_ImageNetfrozen512_LinearSVC_C1",
-    "next_method_started": true,
+    "next_method_started": false,
     "last_method": "QUANTfull_author200_syntheticcostonly_incomplete",
     "hydra": {
       "state": "complete_stop_exact_configuration",
@@ -2827,7 +2827,7 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     },
-    "next_method_stage": "full4700_syntheticcostonly_notrealUWBtraining"
+    "next_method_stage": "realpilotfrozen_preregistered_notstarted"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -8034,8 +8034,8 @@
     "no_old_screen_retry": true,
     "no_method_family_accuracy_rejection": true
   },
-  "background_compute_running": true,
-  "background_compute_pid": 90753,
+  "background_compute_running": false,
+  "background_compute_pid": null,
   "drcif500_full_cost_20261102": {
     "state": "verified_native_fullbatch_RSS_screen_closed_before_complete_fit",
     "workspace": "/workspace/uwb-drcif500-full-cost-20261102",
@@ -8220,7 +8220,7 @@
     "updated_report": "research/cloud_20261102_resnet18_imagenet_source/PAPER_REVIEW.json"
   },
   "resnet18_imagenet_cost_20261102": {
-    "state": "actual_full4700_synthetic_encoder_SVM_cost_active_not_UWB_training",
+    "state": "complete_full4700_synthetic_cost_independently_verified_pass",
     "workspace": "/workspace/uwb-resnet18-imagenet-cost-20261102",
     "source_workspace": "/workspace/uwb-resnet18-imagenet-source-20261102",
     "official_vision_commit": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
@@ -8287,9 +8287,98 @@
     "registration_commit": "59e2dacbe76e0de36c2acbf4ae056e6ae033e476",
     "all39_changed_files_exact_before_Popen": true,
     "snapshot_utc": "2026-11-02T18:05:34.949147+00:00",
-    "full_cost_result_available": false,
-    "resource_cost_passed": false,
+    "full_cost_result_available": true,
+    "resource_cost_passed": true,
     "accuracy_measured": false,
-    "report": "results/cloud_20261102_resnet18_imagenet_cost/ACTIVE_COST.md"
+    "report": "results/cloud_20261102_resnet18_imagenet_cost/ACTIVE_COST.md",
+    "worker_alive": false,
+    "termination": {
+      "pid": 90753,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "resource_stop_reason": null,
+      "peak_observed_RSS_KiB": 639468,
+      "RSS_stop_KiB": 12582912,
+      "cgroup_events_before": {
+        "low": 0,
+        "high": 0,
+        "max": 41040,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_events_after": {
+        "low": 0,
+        "high": 0,
+        "max": 41040,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_oom_kill_delta": 0,
+      "supervisor_wall_seconds": 122.87631035107188,
+      "child_cpu_seconds": 405.311608,
+      "cpu_soft_seconds": 14380,
+      "cpu_hard_seconds": 14400,
+      "scientific_negative": false,
+      "accuracy_measured": false,
+      "real_UWB_values_labels_fit": false
+    },
+    "verified_cost": {
+      "state": "independently_verified_full4700_official_ResNet18_frozen512_LinearSVC_C1_cost",
+      "resource_gate_passed": true,
+      "estimated_seconds": 619.3629508287995,
+      "estimated_hours": 0.17204526411911097,
+      "estimated_CPU_seconds": 2477.451803315198,
+      "estimated_max_RSS_KiB": 2736832,
+      "required_checkpoint_workspace_bytes": 161170662,
+      "head_checkpoint_bytes": 50082,
+      "shared_encoder_checkpoint_bytes": 46830571,
+      "workspace_free_bytes": 472449024,
+      "accuracy_measured": false,
+      "real_UWB_values_labels_fit": false,
+      "real_pilot_started": false,
+      "no_weight_architecture_view_preprocessing_C_seed_or_role_rescue": true,
+      "registration_commit": "59e2dacbe76e0de36c2acbf4ae056e6ae033e476",
+      "real_fit_authorized": false,
+      "next_action": "separately_register_real_runner_full_audit_private_encoder_head_backup"
+    }
+  },
+  "resnet18_imagenet_real_pilot_20261102": {
+    "state": "frozen_real_pilot_remote_preregistration_pending_not_started",
+    "workspace": "/workspace/uwb-resnet18-imagenet-pilot-20261102",
+    "source_workspace": "/workspace/uwb-resnet18-imagenet-source-20261102",
+    "study_files": 17,
+    "dependencies": 3112,
+    "frozen_sha256": "80e067862039bdbf03fc600c60600d4c06aeadea3864ab349dade34af5d8624b",
+    "protocol_sha256": "080320ba55b2e64ef96f13eba4bbc734a8addbfcc28de1d3e098f9a6375bbed7",
+    "source_train_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "counts": {
+      "train": 4700,
+      "validation": 1000,
+      "diagnostic": 1200
+    },
+    "seed": 20261029,
+    "CPU_threads": 4,
+    "batch_size": 16,
+    "full_encoder_frozen": true,
+    "features": 512,
+    "head": "LinearSVC_C1",
+    "actual_UWB_values_labels_fit": false,
+    "real_fit_started": false,
+    "full_audit_complete": false,
+    "diagnostic_scored": false,
+    "complete_private_encoder_head_modelset_verified": false,
+    "users7_8_labels_used": false,
+    "all_exploratory": true,
+    "novelty_claim": false,
+    "operations_workspace": "/workspace/uwb-resnet18-imagenet-completion-20261102"
   }
 }

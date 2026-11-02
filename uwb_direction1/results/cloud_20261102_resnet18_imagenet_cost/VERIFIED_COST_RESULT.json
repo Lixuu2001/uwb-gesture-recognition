@@ -1,0 +1,19 @@
+{
+  "state": "independently_verified_full4700_official_ResNet18_frozen512_LinearSVC_C1_cost",
+  "resource_gate_passed": true,
+  "estimated_seconds": 619.3629508287995,
+  "estimated_hours": 0.17204526411911097,
+  "estimated_CPU_seconds": 2477.451803315198,
+  "estimated_max_RSS_KiB": 2736832,
+  "required_checkpoint_workspace_bytes": 161170662,
+  "head_checkpoint_bytes": 50082,
+  "shared_encoder_checkpoint_bytes": 46830571,
+  "workspace_free_bytes": 472449024,
+  "accuracy_measured": false,
+  "real_UWB_values_labels_fit": false,
+  "real_pilot_started": false,
+  "no_weight_architecture_view_preprocessing_C_seed_or_role_rescue": true,
+  "registration_commit": "59e2dacbe76e0de36c2acbf4ae056e6ae033e476",
+  "real_fit_authorized": false,
+  "next_action": "separately_register_real_runner_full_audit_private_encoder_head_backup"
+}

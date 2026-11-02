@@ -1,0 +1,102 @@
+{
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "source_maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "reference_predictions": "/workspace/uwb-timemil-20261029/run02/timemil/predictions_unscored.npz",
+  "reference_predictions_sha256": "d55515802fc7f824a2c2d435a6a6c47e312f49e5a425d32eda5d3d81cfa96766",
+  "reference_summary": "/workspace/uwb-timemil-20261029/run02/SUMMARY.json",
+  "reference_summary_sha256": "437555b681540ec85a170843429c57f34dbc782fd7b1bd5481e27750e95311ca",
+  "repository": "Lixuu2001/uwb-gesture-recognition",
+  "stable_repository_id": 1309576134,
+  "branch": "codex/uwb-direction1-cloud-20260930",
+  "seed": 20261029,
+  "threads": 4,
+  "class_weight": null,
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "minimum_gain": 0.005,
+  "tolerance": 1e-12,
+  "metric_support": "Known qualitymask validation user2 classes0..9,diagnostic user1 classes0..11;assert support and report finite macro over present classes. Fixed diagnostic gate above unchanged.",
+  "automatic_retry": false,
+  "automatic_resume": false,
+  "users7_8_labels_used": false,
+  "all8_historically_developed": true,
+  "independent_validation": false,
+  "novel_contribution_claim": false,
+  "candidate": "full_official_ImageNet1K_V1_ResNet18_frozen512_LinearSVC_C1",
+  "actual_workspace": "/workspace/uwb-resnet18-imagenet-pilot-20261102",
+  "source_preparation": "/workspace/uwb-resnet18-imagenet-source-20261102",
+  "cost_workspace": "/workspace/uwb-resnet18-imagenet-cost-20261102",
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "encoder_weights": "/workspace/uwb-resnet18-imagenet-source-20261102/weights/resnet18-f37072fd.pth",
+  "encoder_state_sha256": "3be2865fb07f7181ca5436322189029c373de0c5abab965c8881d7c37b0c2f3d",
+  "official_vision_commit": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+  "original_full_parameters": 11689512,
+  "frozen_encoder_parameters": 11176512,
+  "feature_count": 512,
+  "input_shape": [
+    3,
+    90,
+    189
+  ],
+  "image_shape": [
+    3,
+    224,
+    224
+  ],
+  "inference_batch_size": 16,
+  "CPU_threads": 4,
+  "head": "nativeLinearSVC_C1_L2_squaredhinge_dualFalse_tol1e-4_max_iter10000_interceptTrue_scaling1_noclassweight_seed20261029",
+  "preprocessing": "Canonicalperrecord/viewRMSmapsreversedto3radarchannelsx90timex189range;perrecord/viewminmaxfloor1e-8;fullbilinear224x224alignCornersFalseantialiasFalse/nocrop/noaugmentation;ImageNetmeanstd;frozenBNeval.",
+  "selection": "OnefixedC1headfittrain3\u20136only;nofeature/scaler/C/seed/weights/backbone/rolegrid.Noheldlabelsuntilfullaudit+completeprivaterestoreandoncescore.",
+  "pass_route": "separately_register_source6_confirmation",
+  "fail_route": "close_exact_ResNet18_ImageNetV1_frozen512_LinearSVC_C1_seed_configuration_no_rescue",
+  "producer_limits": {
+    "wall": 3600,
+    "soft_cpu": 14380,
+    "hard_cpu": 14400,
+    "RSS_KiB": 14680064
+  },
+  "audit_limits": {
+    "wall": 3600,
+    "soft_cpu": 14380,
+    "hard_cpu": 14400,
+    "RSS_KiB": 14680064
+  },
+  "resource_estimate_seconds": 619.3629508287995,
+  "resource_conservative_RSS_KiB": 2736832,
+  "resource_profile_commit": "59e2dacbe76e0de36c2acbf4ae056e6ae033e476",
+  "private_preservation_scope": "complete_audited_ResNet18_ImageNetV1_frozen512_LinearSVC_C1_source_held1",
+  "checkpoint_set": "SharedfullImageNetencodercheckpointonce+originalAST/license;unfitted/fitted/finalSVMweightboundpayloads;all6900features/roleIDs/2200scores/predictions/logs/cost/audit/source;notheadonlyarchive.",
+  "audit": "Freshfullfrozenencoderreplay6900andnativeC1fit4700;allfeatures/batchhashes/headcoef/intercept/classes/niter/2200decisions/predictionsexact;all6900independentFP64pixeladapterandrawRMS/cachechecks.Noheldlabelsread.Auditusesoriginalauthorforwardindependentdriver/sameTorchkernels,notsecondimplementationofallconvolutions.",
+  "statistics_tolerances": {
+    "RMS_rtol": 2e-05,
+    "RMS_atol": 2e-06,
+    "pixel_rtol": 2e-05,
+    "pixel_atol": 2e-05,
+    "independent_linear_scores_rtol": 1e-12,
+    "independent_linear_scores_atol": 1e-12
+  },
+  "original_contribution_claim": false,
+  "published_support": "UWBpulseradarCNNtransferChoPark2022DOI10.3233/THC-212827;frozenCNN+linearSVMRazavian2014DOI10.1109/CVPRW.2014.131;notoriginalradarfine-tuningprotocolreplication",
+  "runtime_parity": "Exactofficialtorchvisionv0.24.0ResNetASTandImageNet1K_V1weights/full18layerbackbone,currenthashedTorchCPU4deterministicruntime. APIloggingstubonly;3radarRGB-likeadapterdisclosed,notnaturalRGB/micro-rangeenvelope/authorradartrainingparity."
+}
