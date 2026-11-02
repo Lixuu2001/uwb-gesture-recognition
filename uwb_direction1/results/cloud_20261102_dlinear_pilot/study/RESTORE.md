@@ -1,0 +1,7 @@
+# Recovery boundaries
+
+Read newest four branch records and inspect actual process/checkpoints before downloading or launching. Current cloud raw /workspace/uwb-restored-20261020, cached maps/source IDs and runtime have separate persistent private indexes. Restore automatically through known Drive indexes if lost, never request manual transfer or change sharing.
+
+Full private scope is complete_audited_DLinear_default10_max_earlystop_modelset after successful producer/full every-update auditor. It includes initial/first/best/last/final custom states, exact IDs/logs/predictions, three native weight states, source code and audit/terminal evidence. Native files have weights only; custom states include their own RAdam/global RNG/early-stop state. Final prediction state intentionally uses selected weights with last optimizer, not a training-resume checkpoint. Raw/maps/runtime separately restored; no whole-job auto resume.
+
+Initial-first scope, if made, is immutable start insurance only. Raw chunk size/SHA, ordered archive SHA and every safe unique member must pass before declaring recovery. Archive before scoring; SUMMARY separately published afterward, controller STATE retained as pre-finalizer snapshot. Never edit/rerun frozen code/tests/logs or silently retry scientific processes. Preserve actual failure trace before a separately recorded repair. Only proven duplicate transport copies may be pruned, retaining verified archive/MEMBERS/index/proofs/original models.

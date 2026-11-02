@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_tLeNet1000_resource_closed_next_full_DLinear_classification_cost_preregistered",
+  "state": "DLinear_complete_default_classification_real_source_protocol_preregistered_not_yet_launched",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "research/cloud_20261102_dlinear_formal_cost/PREREGISTRATION_AND_PREVIOUS_CLOSURE.md",
+  "latest_report": "results/cloud_20261102_dlinear_pilot/PREREGISTRATION_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "full TSLib DLinear classification default10/B32/patience3/RAdam, synthetic cost then separate real source pilot",
-  "last_completed_update_utc": "2026-11-02T07:17:48.750866+00:00",
+  "last_completed_update_utc": "2026-11-02T07:23:50.205099+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
     "observations_current": true,
@@ -1037,7 +1037,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-11-02T07:17:48.750866+00:00",
+  "last_updated_utc": "2026-11-02T07:23:50.205099+00:00",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "t-LeNet full1000 exact policy resource closed21.40h without real data/accuracy; complete DLinear classification source/synthetic passed and single cost preregistered. No active real training.",
+  "latest_task_state": "DLinear actual synthetic cost passed397.805s. Complete actual real source runner/auditor/protocol frozen and preregistered before access; actual launch waits exact remote readback/head check.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -7185,7 +7185,7 @@
     "novelty_claim": false
   },
   "dlinear_formal_cost_20261102": {
-    "state": "preregistered_not_yet_timed",
+    "state": "actual_full_CLI_cost_passed",
     "workspace": "/workspace/uwb-dlinear-formal-cost-20261102",
     "max_epochs": 10,
     "batch_size": 32,
@@ -7195,6 +7195,55 @@
     "max_training_updates": 1470,
     "dependent_byte_hashes": 52,
     "real_UWB_values_labels_fit": false,
-    "formal_timing_started": false
+    "formal_timing_started": true,
+    "formal_cost_completed": true,
+    "resource_gate_passed": true,
+    "estimated_seconds": 397.8051855391823,
+    "max_RSS_KiB": 420784,
+    "registration_commit": "05c74f2033519ea8e6e977b1d7cf8a3326647086",
+    "accuracy_measured": false
+  },
+  "dlinear_accuracy_pilot_20261102": {
+    "state": "real_protocol_registered_not_yet_launched",
+    "workspace": "/workspace/uwb-dlinear-pilot-20261102",
+    "protocol": "results/cloud_20261102_dlinear_pilot/study/PROTOCOL.json",
+    "protocol_sha256": "f8d0ac39bebf1639c45d91fc2ea85f41e7b6b5a31c8d682de825e0a0c5f99055",
+    "frozen_sha256": "f584338aed54af294be4949a1d5aaf4635a7fc567c22e6d7587351bd829a705a",
+    "frozen_prerequisites": 107,
+    "max_epochs": 10,
+    "batch_size": 32,
+    "patience": 3,
+    "seed": 20261029,
+    "threads": 1,
+    "parameters": 628752,
+    "optimizer": "RAdam.0001",
+    "loss": "CrossEntropy",
+    "gradient_clip": 4.0,
+    "checkpoint_selection": "validation2 micro accuracy latest tie/patience3",
+    "training_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "max_updates": 1470,
+    "max_training_appearances": 47000,
+    "source_full_CLI_scale": true,
+    "real_training_started": false,
+    "real_UWB_values_labels_fit": false,
+    "complete_private_modelset_verified": false,
+    "full_audit_complete": false,
+    "diagnostic_scored": false,
+    "source6_confirmation_complete": false,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_validated": false,
+    "automatic_retry": false,
+    "automatic_resume": false,
+    "synthetic_complete10epochs30updates_passed": true,
+    "synthetic_controlled4epoch_earlystop_passed": true,
+    "protocol_boundary_tests": 8
   }
 }
