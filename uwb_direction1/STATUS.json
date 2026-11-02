@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_ResNet18_alllayer_SGDM40_B15_real_producer_active",
+  "state": "full_ResNet18_SGDM40_B15_producer40_complete_independent_full40_audit_active",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_resnet18_finetune/ACTIVE_REAL_EXPERIMENT.md",
+  "latest_report": "results/cloud_20261102_resnet18_finetune/AUDIT_ACTIVE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": 94808,
-  "background_training_status_note": "Actualrealproducer94808/controller94807running;realupdates112;diagnosticuser1sealed;inspectPIDandTERMbeforeanylaunch.",
+  "background_training_pid": null,
+  "background_training_status_note": "Producer94808complete40epochs12560updatesexit0/noOOM;independentfull40replayaudit95649/controller94807activelyrunning;diagnosticuser1sealed.DoNotRelaunchProducer.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "finish_active_full40_producer_then_full40_audit_then_private_stream_restore_once_score",
-  "last_completed_update_utc": "2026-11-02T19:31:32.545627+00:00",
+  "next_candidate": "finish_current_independent_full40_audit_then_private_stream_restore_before_once_diagnostic",
+  "last_completed_update_utc": "2026-11-02T23:25:01.134722+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_alllayer_ResNet18_SGDM40_B15_actual_real_producer_active",
+    "state": "full_ResNet18_alllayer_40epochs_producer_complete_full_replay_active",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2827,7 +2827,7 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     },
-    "next_method_stage": "finish_current_full40_producer_then_full40_replay_audit_no_duplicate_launch"
+    "next_method_stage": "finish_current_audit_no_duplicate_producer_no_diagnostic_unseal"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -8035,7 +8035,7 @@
     "no_method_family_accuracy_rejection": true
   },
   "background_compute_running": true,
-  "background_compute_pid": 94808,
+  "background_compute_pid": 95649,
   "drcif500_full_cost_20261102": {
     "state": "verified_native_fullbatch_RSS_screen_closed_before_complete_fit",
     "workspace": "/workspace/uwb-drcif500-full-cost-20261102",
@@ -8539,7 +8539,7 @@
     "private_archive_index": "results/cloud_20261102_resnet18_roundoff_completion/complete_backup/CLOUD_DOWNLOAD_INDEX.json"
   },
   "resnet18_finetune_20261102": {
-    "state": "actual_full40_epoch_real_producer_running",
+    "state": "producer40_complete_independent_full40_replay_audit_active",
     "workspace": "/workspace/uwb-resnet18-finetune-source-20261102",
     "cost_workspace": "/workspace/uwb-resnet18-finetune-cost-20261102",
     "protocol_file": "research/cloud_20261102_resnet18_finetune/PROSPECTIVE_NEXT_CONFIG.json",
@@ -8714,8 +8714,88 @@
     "real_report": "results/cloud_20261102_resnet18_finetune/PREREGISTRATION.md",
     "actual_real_registration_commit": "50765a0c72d6fc3b5434a14864bab6a6560099aa",
     "all40_changed_files_exact_before_Popen": true,
-    "phase": "producer_active",
+    "phase": "full_numeric_audit_active",
     "observation": {
+      "state": "producer40_complete_verified_audit_full40_active_unscored",
+      "utc": "2026-11-02T23:25:01.134722+00:00",
+      "producer_termination": {
+        "pid": 94808,
+        "exit_code": 0,
+        "wall_timeout": false,
+        "resource_stop_reason": null,
+        "peak_observed_RSS_KiB": 2284064,
+        "RSS_stop_KiB": 14680064,
+        "supervisor_wall_seconds": 10454.170534444973,
+        "child_cpu_seconds": 41467.2435,
+        "cpu_soft_seconds": 86380,
+        "cpu_hard_seconds": 86400,
+        "cgroup_events_before": {
+          "low": 0,
+          "high": 0,
+          "max": 41040,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "cgroup_events_after": {
+          "low": 0,
+          "high": 0,
+          "max": 41040,
+          "oom": 0,
+          "oom_kill": 0,
+          "oom_group_kill": 0
+        },
+        "cgroup_oom_kill_delta": 0,
+        "scientific_negative": false
+      },
+      "producer_artifacts_verified": 90,
+      "producer_FILES_sha256": "172935ce4554f6625be43a0d8e069f724731d4f15e27367ced1c510999ad2018",
+      "completed_training_epochs": 40,
+      "completed_training_updates": 12560,
+      "training_log_order_count_verified": true,
+      "validation_selection_verified": true,
+      "selection": {
+        "epochs": 40,
+        "updates": 12560,
+        "selected_epoch": 22,
+        "best_validation_macro": 0.9800000000000001,
+        "initial_full_model_state_sha256": "056076c7f4c4cd8336668f8817017a5fd8d51e4203b4df4b42e2a22d160bfd2b",
+        "selection": "maxvalidationmacro_earliesttie",
+        "all_layers_trainable": true,
+        "diagnostic_labels_read": false,
+        "users7_8_labels_used": false
+      },
+      "checkpoints": {
+        "initial12_head.pt": {
+          "bytes": 26525,
+          "sha256": "3f9f526e4c9a2c50d6fc322b075b2526024abe4e26a7fa59faacd4299273d711"
+        },
+        "best_model.pt": {
+          "bytes": 44808971,
+          "sha256": "f4172f826e678a982bc81a66addfba9ad639e985f4daae0b917762315a902b2f"
+        },
+        "final_full.pt": {
+          "bytes": 89574031,
+          "sha256": "2a12d2446a9d93cc6842831f818be5c92f54531d9739968d3f8617c7a235fe35"
+        }
+      },
+      "controller_pid": 94807,
+      "controller_start_ticks": "117060187",
+      "audit_worker_pid": 95649,
+      "audit_worker_start_ticks": "118105852",
+      "audit_worker_args_verified": true,
+      "audit_completed_replay_epochs": 16,
+      "full_audit_passed": false,
+      "private_complete_modelset_recovered": false,
+      "diagnostic_labels_read": false,
+      "users7_8_labels_used": false,
+      "diagnostic_accuracy_measured": false,
+      "independent_validation": false,
+      "novel_contribution_validated": false,
+      "workspace_free_bytes": 347140096
+    },
+    "report": "results/cloud_20261102_resnet18_finetune/AUDIT_ACTIVE.md",
+    "initial_producer_observation": {
       "state": "real_full_ResNet18_SGDM40_B15_producer_observed_actively_training",
       "utc": "2026-11-02T19:31:32.545627+00:00",
       "controller_pid": 94807,
@@ -8742,6 +8822,45 @@
       "registration_commit": "50765a0c72d6fc3b5434a14864bab6a6560099aa",
       "workspace_free_bytes": 489902080
     },
-    "report": "results/cloud_20261102_resnet18_finetune/ACTIVE_REAL_EXPERIMENT.md"
+    "producer_complete": true,
+    "producer_completed_epochs": 40,
+    "producer_completed_updates": 12560,
+    "producer_termination": {
+      "pid": 94808,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "resource_stop_reason": null,
+      "peak_observed_RSS_KiB": 2284064,
+      "RSS_stop_KiB": 14680064,
+      "supervisor_wall_seconds": 10454.170534444973,
+      "child_cpu_seconds": 41467.2435,
+      "cpu_soft_seconds": 86380,
+      "cpu_hard_seconds": 86400,
+      "cgroup_events_before": {
+        "low": 0,
+        "high": 0,
+        "max": 41040,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_events_after": {
+        "low": 0,
+        "high": 0,
+        "max": 41040,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_oom_kill_delta": 0,
+      "scientific_negative": false
+    },
+    "producer_artifacts_SHA_verified": 90,
+    "validation_checkpoint_selected_epoch": 22,
+    "validation_macro": 0.9800000000000001,
+    "validation_is_development_selection_only": true,
+    "full_audit_complete": false,
+    "private_complete_modelset_recovered": false,
+    "diagnostic_scored": false
   }
 }

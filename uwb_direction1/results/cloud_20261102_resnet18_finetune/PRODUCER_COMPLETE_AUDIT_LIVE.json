@@ -1,0 +1,79 @@
+{
+  "state": "producer40_complete_verified_audit_full40_active_unscored",
+  "utc": "2026-11-02T23:25:01.134722+00:00",
+  "producer_termination": {
+    "pid": 94808,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "resource_stop_reason": null,
+    "peak_observed_RSS_KiB": 2284064,
+    "RSS_stop_KiB": 14680064,
+    "supervisor_wall_seconds": 10454.170534444973,
+    "child_cpu_seconds": 41467.2435,
+    "cpu_soft_seconds": 86380,
+    "cpu_hard_seconds": 86400,
+    "cgroup_events_before": {
+      "low": 0,
+      "high": 0,
+      "max": 41040,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_events_after": {
+      "low": 0,
+      "high": 0,
+      "max": 41040,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_oom_kill_delta": 0,
+    "scientific_negative": false
+  },
+  "producer_artifacts_verified": 90,
+  "producer_FILES_sha256": "172935ce4554f6625be43a0d8e069f724731d4f15e27367ced1c510999ad2018",
+  "completed_training_epochs": 40,
+  "completed_training_updates": 12560,
+  "training_log_order_count_verified": true,
+  "validation_selection_verified": true,
+  "selection": {
+    "epochs": 40,
+    "updates": 12560,
+    "selected_epoch": 22,
+    "best_validation_macro": 0.9800000000000001,
+    "initial_full_model_state_sha256": "056076c7f4c4cd8336668f8817017a5fd8d51e4203b4df4b42e2a22d160bfd2b",
+    "selection": "maxvalidationmacro_earliesttie",
+    "all_layers_trainable": true,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false
+  },
+  "checkpoints": {
+    "initial12_head.pt": {
+      "bytes": 26525,
+      "sha256": "3f9f526e4c9a2c50d6fc322b075b2526024abe4e26a7fa59faacd4299273d711"
+    },
+    "best_model.pt": {
+      "bytes": 44808971,
+      "sha256": "f4172f826e678a982bc81a66addfba9ad639e985f4daae0b917762315a902b2f"
+    },
+    "final_full.pt": {
+      "bytes": 89574031,
+      "sha256": "2a12d2446a9d93cc6842831f818be5c92f54531d9739968d3f8617c7a235fe35"
+    }
+  },
+  "controller_pid": 94807,
+  "controller_start_ticks": "117060187",
+  "audit_worker_pid": 95649,
+  "audit_worker_start_ticks": "118105852",
+  "audit_worker_args_verified": true,
+  "audit_completed_replay_epochs": 16,
+  "full_audit_passed": false,
+  "private_complete_modelset_recovered": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "diagnostic_accuracy_measured": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "workspace_free_bytes": 347140096
+}
