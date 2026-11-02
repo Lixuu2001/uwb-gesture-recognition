@@ -1,0 +1,41 @@
+{
+  "observed_utc": "2026-11-02T11:52:08.154598+00:00",
+  "synthetic_only": true,
+  "real_UWB_training": false,
+  "LAUNCH.json": {
+    "pid": 80601,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/uwb-hydra-multirocket-formal-cost-20261102/run_profile.py"
+    ],
+    "registration_commit": "45f15ebaf1a0048d57689a135f64563481f2ced4",
+    "started_utc": "2026-11-02T11:51:32.792360+00:00"
+  },
+  "supervisor01/PID.json": {
+    "pid": 80602,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/uwb-hydra-multirocket-formal-cost-20261102/profile_cost.py"
+    ]
+  },
+  "profile01/DECLARATION_BEFORE_TIMING.json": {
+    "policy_sha256": "bc858dd8339679cc6c170d2b905579d89f561daf947def62a22004ca76d3e36e",
+    "cost_hashes_sha256": "0d3126cf5140b042115fe0b67886da7378d1bbc76ad569a20359d34f37d9edb3",
+    "synthetic_only": true,
+    "real_UWB_values_labels_fit": false,
+    "full_training_shape": [
+      4700,
+      567,
+      90
+    ]
+  },
+  "worker_status": {
+    "State": "R (running)",
+    "PPid": "80601",
+    "VmHWM": "4956292 kB",
+    "VmRSS": "4357056 kB",
+    "Threads": "5"
+  }
+}

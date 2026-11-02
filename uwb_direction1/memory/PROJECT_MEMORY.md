@@ -1,3 +1,11 @@
+# 2026-11-02 — 已发表完整Hydra+MultiRocket的真实云端合成full4700资源profile已启动；不是UWB训练/准确率结果
+
+按canonical仓库45f15ebaf1a0048d57689a135f64563481f2ced4的44changed文件逐一远端exact readback、forcefalse更新和head复核后，才写costmarker并Popen独立supervisor80601/worker80602。2026-11-02T11:52:08.154598+00:00核验worker确为profile_cost.py/PPid80601/R运行，VmRSS4357056KiB/VmHWM4956292KiB；完整4700x567x90 synthetic输入声明在timing前落盘。CPU计算线程1（进程含后台线程，观察Threads5不是5计算线程授权），default64groups×8kernels/53824features/native blockscalers/fullRidgeCV均冻结。没有TERM/COST_CHECK，不能称资源门槛已通过/CPU最终耗时或准确率结果。
+
+原CPU1/1200wall/1180soft1200hardCPU、12GiBRSS stop+2GiBrealmaps余量、12h/14GiB成本门槛继续。独立supervisor只监测该exactchild，每.2s RSS，超预算终止并保留TERM；profile任何failure不是accuracynegative，不自动重跑/缩group/kernel/features/seed。不得重复启动。先检查原PID/TERM/COST_CHECK；完成后独立复算成本/内存与冻结SHA，resourcepass才另行实现/测试/固定3–6train/2val/1diag完整真实hybrid预登记。真实hybrid尚无UWBvalues/labels/fit；用户7–8标签不用、所有历史八用户开发为探索性；不得把已发表组合称新贡献。
+
+本轮已有真实结果保持：MC10098.6667%delta0关闭；完整ROCKET94.8333%和完整nativeMiniRocket90.0833%均低于固定98.6667%且未过+.005门槛，已完成独立全量数值审计及各自完整私有归档逐成员回读后各一次评分，所有确切配置关闭无救援/重评分/source6扩展。相应完整恢复index已入Git、Drive仍owneronly；冻结科学代码/原始789snapshot/用户README清理/currentrepo visibility不变。当前只有新的synthetic cost进程，无真实UWB训练/审计后台进程，不依赖Windows，不重复迁移。目标未达，自动接续保持原任务/日程enabled，推进下一实际实现或实验。
+
 # 2026-11-02 — 完整默认MiniRocket9996/nativeRidgeCV真实90.0833%失败关闭/990成员私有恢复；完整已发表Hydra+MultiRocket已实现并预登记合成full4700成本
 
 新真实MiniRocket按333cadb93f02332be0a30d4697dfe4144b62fd9d精确29文件回读后启动，producer79859exit0/no timeout，supervisor wall64.76530340895988s/CPU64.675985s，fit48.2065637819469s，原生训练LOO选alpha1000。Auditor79876exit0/no timeout，wall73.73685478582047s/CPU73.671848s，完整4700nativefit/parameters/scaler/coef/alpha/LOO精确，2200heldpred/decisions/featureshash精确，6900rawRMS/cache/FP64通过，科学冻结字节无改/无重跑。完整private3116642bytes/1块990安全唯一成员回读通过，archiveSHA1601e2a3409f065f7938e53850c6c81075b9dbf232e83d3b805bf0a4abd89241，receiptSHA13b609cefa3e0f27faf0ac8a337fa39709b9aa83164ff5862f904314f7bb6e09；index results/cloud_20261102_minirocket_native_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json。首upload成功无错误/重试，owneronly/rawtrue/base64false/立即sizeSHA/全成员检查均通过，原始大数组/模型/样本ID值不入Git。

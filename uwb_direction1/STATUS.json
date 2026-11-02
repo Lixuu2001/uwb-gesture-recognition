@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "native_MiniRocket_failed_accuracy_gate_closed_full_published_HydraMultiRocket_synthetic_cost_preregistered",
+  "state": "closed_accuracy_pilots_published_full_HydraMultiRocket_synthetic_cost_profile_actually_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_minirocket_native_pilot/FINAL_RESULT.md",
+  "latest_report": "results/cloud_20261102_hydra_multirocket_formal_cost/CURRENT_OBSERVATION.json",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "MC100/fullROCKET/fullnativeMiniRocket complete audited/private/scored once and failed exact gates. No active training/audit;newhybrid synthetic profile not yet started in registration snapshot.",
+  "background_training_status_note": "No real UWB training/audit active. Only separately registered full4700 synthetic Hydra+MultiRocket cost supervisor80601/worker80602 observed running;no realhybridfit or new accuracy.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Full published native MultiRocketHydraClassifier64x8/53824features;once synthetic full4700 fit resource profile after exact remote preregistration. ActualUWB separate protocol required.",
-  "last_completed_update_utc": "2026-11-02T11:50:21.278683+00:00",
+  "next_candidate": "Observe original synthetic cost worker80602/supervisor80601;do not duplicate. After successful TERM/COST_CHECK independently verify,then implement/register fixed real source-user hybrid pilot if resourcepass.",
+  "last_completed_update_utc": "2026-11-02T11:53:21.844263+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -7586,10 +7586,10 @@
     "UWB_values_labels_fit": false
   },
   "hydra_multirocket_formal_cost_20261102": {
-    "state": "registered_full4700_synthetic_profile_awaiting_exact_remote_readback",
+    "state": "actual_full4700_synthetic_native_cost_profile_running_not_yet_resource_verified",
     "workspace": "/workspace/uwb-hydra-multirocket-formal-cost-20261102",
     "cost_hashes_sha256": "0d3126cf5140b042115fe0b67886da7378d1bbc76ad569a20359d34f37d9edb3",
-    "formal_timing_started": false,
+    "formal_timing_started": true,
     "real_UWB_values_labels_fit": false,
     "accuracy_measured": false,
     "full_native_training_shape": [
@@ -7600,6 +7600,13 @@
     "features": 53824,
     "threads": 1,
     "profile_RSS_stop_KiB": 12582912,
-    "budget_seconds": 43200
+    "budget_seconds": 43200,
+    "registration_commit": "45f15ebaf1a0048d57689a135f64563481f2ced4",
+    "profile_supervisor_pid": 80601,
+    "profile_worker_pid": 80602,
+    "observed_utc": "2026-11-02T11:52:08.154598+00:00",
+    "observed_RSS_KiB": 4357056,
+    "observed_HWM_KiB": 4956292,
+    "formal_cost_completed": false
   }
 }
