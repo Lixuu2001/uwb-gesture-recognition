@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Arsenal25x2000_jobs4_failed_exact_closed_QUANTfull200_cost_preregistered_not_started",
+  "state": "Arsenal25x2000_failed_exact_closed_QUANTfull200_synthetic_cost_active",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_arsenal_parallel_pilot/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261102_quant_full200_cost/ACTIVE_COST.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Arsenalproducer/auditorcompleted normally,once-scorefailed/private992membersverified. QUANTsyntheticcostregisteredbutnotstartedatsnapshot;noactualQUANTtraining.",
+  "background_training_status_note": "NoUWBtrainingactive;QUANTfull4700syntheticcostworker87746/controller87745actuallyrunningatsnapshot. InspectPIDs/TERMbeforeanylaunch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "CompleteauthorQUANT539217features_200ExtraTrees_fixedseed20261029_formalsyntheticcostonce_after_remoteverification",
-  "last_completed_update_utc": "2026-11-02T16:10:21.711359+00:00",
+  "last_completed_update_utc": "2026-11-02T16:12:32.771136+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "Arsenal25x2000_exact_failed_closed_QUANTfull200_cost_preregistered",
+    "state": "Arsenal25x2000_failed_closed_QUANTfull200_synthetic_cost_active",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2809,7 +2809,7 @@
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
     "next_method": "QUANTfull_author_depth6_div4_ExtraTrees200",
-    "next_method_started": false,
+    "next_method_started": true,
     "last_method": "Arsenal25x2000_native_jobs4_CVaccuracy_weightedvotes",
     "hydra": {
       "state": "complete_stop_exact_configuration",
@@ -2826,7 +2826,8 @@
       "report": "uwb_direction1/results/cloud_20261029_hydra_accuracy/RUN_REPORT.md",
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
-    }
+    },
+    "next_method_stage": "syntheticresourcecostonly_notactualUWBtraining"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -7962,7 +7963,7 @@
     "not_accuracy_rejection": true
   },
   "quant_full200_cost_20261102": {
-    "state": "frozen_remote_preregistration_pending_not_started",
+    "state": "actual_full4700_synthetic_cost_running_not_real_UWB_training",
     "workspace": "/workspace/uwb-quant-full200-cost-20261102",
     "author_commit": "f3907f7e531b6a304e3c54310869a0023a9e0fd6",
     "full_features": 539217,
@@ -7978,12 +7979,23 @@
     "validation_user": 2,
     "diagnostic_user": 1,
     "actual_UWB_values_labels_fit": false,
-    "formal_timing_started": false,
+    "formal_timing_started": true,
     "source_evidence": "research/cloud_20261102_quant_author_preparation/SOURCE_INDEX.json",
     "cost_hashes_sha256": "33f53438e1a74d8c796c78981e028854bcf896740d127699a6bf321155fdf25a",
     "frozen_files": 11,
     "dependencies": 2646,
     "no_originality_claim": true,
-    "all_exploratory": true
-  }
+    "all_exploratory": true,
+    "controller_pid": 87745,
+    "worker_pid": 87746,
+    "registration_commit": "4cc4b08e424d4060d8a3ecb34f804d3829708f28",
+    "all44_changed_files_exact_before_Popen": true,
+    "snapshot_utc": "2026-11-02T16:12:32.771136+00:00",
+    "full_cost_result_available": false,
+    "resource_cost_passed": false,
+    "accuracy_measured": false,
+    "report": "results/cloud_20261102_quant_full200_cost/ACTIVE_COST.md"
+  },
+  "background_compute_running": true,
+  "background_compute_pid": 87746
 }
