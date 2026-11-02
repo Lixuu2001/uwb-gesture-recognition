@@ -1,0 +1,23 @@
+{
+  "state": "independently_verified_full_XCM128_100E_B32_resource_cost",
+  "resource_gate_passed": false,
+  "reasons": [
+    "full_producer_and_replay_wall_cost",
+    "full_producer_and_replay_CPU_cost"
+  ],
+  "estimated_pair_wall_seconds": 94727.32840326754,
+  "estimated_pair_CPU_seconds": 378909.3136130702,
+  "peak_with_margin_KiB": 7650264,
+  "required_checkpoint_workspace_bytes": 319361184,
+  "checkpoint_bytes": 31531540,
+  "workspace_free_bytes": 803520512,
+  "profile_peak_RSS_KiB": 5553112,
+  "supervisor_peak_RSS_KiB": 5393040,
+  "registration_commit": "c725504007e0bc5e4a5f048ae939f674f7e2e79c",
+  "cost_hashes_sha256": "f6300940686b1a26fe1419912a3c5ed4bc30a813fe4a50f1fd9d9de622cd63c9",
+  "actual_UWB_values_labels_fit": false,
+  "accuracy_measured": false,
+  "scientific_negative": false,
+  "real_fit_authorized": false,
+  "next_action": "close_exact_full_XCM128_100E_B32_CPU4_resource_configuration_no_rescue"
+}

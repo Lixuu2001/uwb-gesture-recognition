@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "ModernTCN_fullwave_resource_closed_full_XCM128_synthetic_cost_preregistered",
+  "state": "full_XCM128_resource_closed_full_native_Arsenal25x2000_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_xcm_full128_cost/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_arsenal_full25_cost/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "No real training/audit active;ModernTCN synthetic screen terminated RSSlimit;XCM prereg awaits exactremote readback",
+  "background_training_status_note": "No real UWB training/audit active;XCMcost completed rejected;Arsenal costprereg snapshot not yettiming",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Full author XCM128/window.2/B32/100E Keras3TorchCPU4 synthetic cost;no real UWB access authorized",
-  "last_completed_update_utc": "2026-11-02T13:05:13.239596+00:00",
+  "next_candidate": "Full native Arsenal25x2000 end-to-end4700 synthetic cost afterexactremote readback",
+  "last_completed_update_utc": "2026-11-02T13:13:20.012723+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_XCM128_cost_preregistered_after_ModernTCN_resource_close",
+    "state": "full_native_Arsenal25x2000_cost_preregistered_after_XCMresource_close",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,7 +2808,7 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "full_XCM128_window.2_B32_100E_Keras3TorchCPU4",
+    "next_method": "native_Arsenal25x2000_CVaccuracy_weightedvotes",
     "next_method_started": false,
     "last_method": "HYDRA",
     "hydra": {
@@ -7733,13 +7733,51 @@
     "original_contribution_claim": false
   },
   "xcm_full128_cost_20261102": {
-    "state": "full_author_single_configuration_synthetic_cost_preregistered",
+    "state": "complete_independently_verified_resource_closed_exact_configuration",
     "workspace": "/workspace/uwb-xcm-full128-cost-20261102",
     "cost_hashes_sha256": "f6300940686b1a26fe1419912a3c5ed4bc30a813fe4a50f1fd9d9de622cd63c9",
-    "formal_timing_started": false,
+    "formal_timing_started": true,
     "actual_UWB_values_labels_fit": false,
     "accuracy_measured": false,
     "cost_gate_passed": false,
+    "real_fit_authorized": false,
+    "registration_commit": "c725504007e0bc5e4a5f048ae939f674f7e2e79c",
+    "exit_code": 0,
+    "resource_gate_passed": false,
+    "estimated_pair_seconds": 94727.32840326754,
+    "estimated_pair_hours": 26.31314677868543,
+    "profile_peak_RSS_KiB": 5553112,
+    "checkpoint_bytes": 31531540,
+    "scientific_negative": false
+  },
+  "arsenal_full25_source_preparation_20261102": {
+    "state": "full25x2000_native_source_verified_synthetic_checks_passed",
+    "workspace": "/workspace/uwb-arsenal-source-probe-20261102",
+    "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+    "members": 25,
+    "kernels_per_member": 2000,
+    "total_kernels": 50000,
+    "features_per_member": 4000,
+    "seed": 20261029,
+    "threads": 1,
+    "independent_all25_LOOaccuracy_optimum_match": true,
+    "weighted_votes_and_canonical_tie_RNG_verified": true,
+    "pickle_reload_and_seed_exact": true,
+    "full_author_Java_runtime_parity": false,
+    "paper_majority_vs_native_CVaccuracy_weighting_disclosed": true,
+    "prior_single_ROCKET_failed_family_exposure": true,
+    "actual_UWB_values_labels_fit": false,
+    "novelty_claim": false
+  },
+  "arsenal_full25_cost_20261102": {
+    "state": "full4700_native_25x2000_synthetic_cost_preregistered",
+    "workspace": "/workspace/uwb-arsenal-full25-cost-20261102",
+    "cost_hashes_sha256": "1e99df2defd6e9979d8b83c8427244f32a3345abd3f818b4d286bfe8c3768d45",
+    "cost_files": 10,
+    "dependencies": 2606,
+    "formal_timing_started": false,
+    "actual_UWB_values_labels_fit": false,
+    "accuracy_measured": false,
     "real_fit_authorized": false
   }
 }

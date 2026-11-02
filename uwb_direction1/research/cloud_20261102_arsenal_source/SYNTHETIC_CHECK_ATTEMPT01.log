@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-arsenal-source-probe-20261102/check_synthetic.py", line 50, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-arsenal-source-probe-20261102/check_synthetic.py", line 16, in main
+    m=make();m.fit(x,y);assert_native(m,True);z=Normalizer().fit_transform(x).astype('float32',copy=False)
+                        ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-arsenal-source-probe-20261102/native_arsenal.py", line 25, in assert_native
+    assert m._weight_sum==float(np.sum(m.weights_)) and m._weight_sum>0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

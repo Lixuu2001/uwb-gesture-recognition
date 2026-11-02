@@ -1,0 +1,18 @@
+{
+  "paper": "Middlehurst et al.2021 HIVE-COTE2.0,MachineLearning110:3211\u20133243",
+  "DOI": "10.1007/s10994-021-06057-9",
+  "primary_paper": "https://arxiv.org/pdf/2104.07551",
+  "review_scope": "Originalsection3.3/Algorithm4/parameterTable2,pp13\u201316;complete native aeon Arsenal source",
+  "published_scale": {
+    "estimators": 25,
+    "kernels_per_member": 2000
+  },
+  "paper_scope": "Arsenal constituent family,not fullHC2 or novelproposedalgorithm. Paper reports comparable standaloneaccuracy;probability benefits do not guarantee UWBaccuracy increase.",
+  "implementation": "Fullnative aeon1.6.0 at b694b1c03c0a753cc844dcb9ee357d77ca6bda6b,sourcebyteexact. Multivariate modernlibrary transfer,not authorsoriginalJava runtime reproduction.",
+  "declared_differences": "Currentaeon native uses trainingLOOaccuracy-weightedvotes;paper prose majorityvote. Preserve native code/defaults,disclose implementation variation. Native scoreraccuracy selectsalpha;old singleRocket scorerNone usedLOOnegMSE. Fulltrain scalers beforeLOO,not nestedpreprocessing.",
+  "history": "Bounded latestfourrecords Arsenal token0;not exhaustive allrepository search. PriorfullsingleROCKET10000/RidgeCV-MSE diag.9483333 failed remains closed;25x2000 distinct publishedensemble not claimedindependentfamily.",
+  "pre_freeze_fixture_failure": "First24pure-noise/12classfixture native trainingLOO votes allzero;positivevote guard correctly failed. Retainattempt01/log,replaceonly syntheticfixture with fixedclassspecificsinusoid+noise beforefreeze. Full25 unchanged,not actualUWBmethodtuning.",
+  "tie_handling": "Native_predict restarts seededRNG percall. Futurebatchedpredictproba concatenateincompletecanonicalIDorder then reproduce native tiechoice once,never independentlyreset tieRNG perbatch. Fullvsstagedproba/pickle/seed and injectedtiefixture exact.",
+  "actual_UWB_values_labels_fit": false,
+  "original_contribution_claim": false
+}
