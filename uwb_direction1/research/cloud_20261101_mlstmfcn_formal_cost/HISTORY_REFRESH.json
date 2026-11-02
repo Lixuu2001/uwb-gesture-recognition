@@ -1,0 +1,51 @@
+{
+  "state": "current_history_refreshed_no_equivalent_complete_native_MLSTM_profile_or_UWB_run_found",
+  "parent": "383300cb895c9ac847b258c89e4f153397d1f549",
+  "remote_records": [
+    {
+      "path": "uwb_direction1/STATUS.json",
+      "sha": "2153ea08c18fc28676399a28134175061a646fb9"
+    },
+    {
+      "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+      "sha": "69cdfff4207ad46562135b62fe3b18da113a17c3"
+    },
+    {
+      "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+      "sha": "c4c1396afefe55f9fe51d101d2776aa34ae119b9"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20260930/RUN_REPORT.md",
+      "sha": "d4330f8e9e17cfdcc50c3efeb2d097bf2f8ed3ca"
+    }
+  ],
+  "previous_preparation_state": {
+    "state": "pass_full_documented_MLSTM_FCN8_structure_and_native_synthetic_only",
+    "code": "uwb_direction1/research/cloud_20261031_mlstmfcn_source",
+    "report": "uwb_direction1/results/cloud_20261031_mlstmfcn_source/REVIEW_AND_IMPLEMENTATION.md",
+    "paper_doi": "10.1016/j.neunet.2019.04.014",
+    "selected_fulltext_sections_read": true,
+    "source_commit": "85100ccfec7ee08106b3a25906a0c9c707e1b7ab",
+    "paper_linked_repo_commit": "84a2e6c0fdef811920483723ac1aaf29d6b8dc7f",
+    "same_model_blob_both_repos": "6d425bda53e84b0c9d6c620a016f29b903807ae6",
+    "source_files_local_verified": 9,
+    "source_files_redistributed_in_Git": false,
+    "full_documented_LSTM8_conv128_256_128_SE16_variant": true,
+    "total_parameters": 860364,
+    "trainable_parameters": 859340,
+    "native_Adam_variables": 44,
+    "independent_NumPy_masked_LSTM_and_both_SE_references": true,
+    "restore_model_Adam_BN_metrics_global_layer_RNG_modes_exact": true,
+    "native_keras_weights_optimizer_reload_exact": true,
+    "native_keras_layer_RNG_reload_equal": false,
+    "legacy_gate_difference": "nativeKeras3 sigmoid versus Keras2.1.2 hard_sigmoid; historical TF parity not claimed",
+    "initial_engineering_assertion_repaired": "unseeded Torch dropout consumes global Torch RNG, not layer counters; original model unchanged; failed attempt retained",
+    "formal_CPU_cost_or_actual_UWB_configuration_selected": false,
+    "UWB_values_labels_fit": false,
+    "accuracy_or_originality_claim": false,
+    "queue_note": "Additional published baseline preparation; prepared Disjoint candidate and current H audit/gate remain ahead; no real ordering/configuration selected from new scores"
+  },
+  "scope": "Current four latest records plus pinned prior finite original789/source history check; no exhaustive novelty or semantic-equivalence claim.",
+  "source9files_and_preparation_hashes_reverified": true,
+  "prior_native_source_gate_difference_disclosed": true
+}

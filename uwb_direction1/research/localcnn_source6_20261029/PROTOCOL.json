@@ -1,0 +1,129 @@
+{
+  "registered_at_utc": "2026-10-29T16:02:51.423730+00:00",
+  "study": "Eligible local ConvMixer CNN baseline source-sixfold confirmation; no new method or originality claim",
+  "rationale": "Prior frozen gate independently permits local-baseline expansion. Reuse exact held1, train only five missing folds. This confirms a strong baseline rather than promoting failed full/MultiRocket configurations.",
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "source_maps": "/workspace/uwb-mvglf-20261029/run01/source_maps.npy",
+  "source_maps_sha256": "7cc6ddde31de3201a811e492508fc02e4e2874172f924e7fa84eb422cac21934",
+  "model_code": "/workspace/uwb-mvglf-20261029/model.py",
+  "model_code_sha256": "e03499c52f35ad0349acf20ce6a239a51464563261d1856c9fbac10d972c620c",
+  "source_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "new_held_users": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation": "held%6+1",
+  "counts": {
+    "1": [
+      4700,
+      1000,
+      1200
+    ],
+    "2": [
+      4700,
+      1200,
+      1000
+    ],
+    "3": [
+      4500,
+      1200,
+      1200
+    ],
+    "4": [
+      4500,
+      1200,
+      1200
+    ],
+    "5": [
+      4600,
+      1100,
+      1200
+    ],
+    "6": [
+      4600,
+      1200,
+      1100
+    ]
+  },
+  "reused_held1": {
+    "prediction": "/workspace/uwb-mvglf-20261029/run01/local/predictions_unscored.npz",
+    "prediction_sha256": "46de221591001cbd2c1c3ead5310e5e1d03eb1dbe31f527ee8e44b1c45173d4f",
+    "checkpoint": "/workspace/uwb-mvglf-20261029/run01/local/best.pt",
+    "checkpoint_sha256": "9a14b3d68e2e40ee8576a384d3e4ab9cae3d50faa5096a33213d2d447e38c1a1",
+    "selected_epoch": 23,
+    "score": 0.9683333333333333,
+    "audit": "/workspace/uwb-mvglf-20261029/COMPLETE_AUDIT.json",
+    "audit_sha256": "d3cdf07895f045336909f6a915a6aead214d331bc01c3da1b93c20ac30fa12f3"
+  },
+  "minirocket_references": {
+    "1": {
+      "path": "/workspace/uwb-accuracy-loop-20261029/run01/held1/predictions.npz",
+      "sha256": "59e44247e5bc1872d37052b45c72117bc7d58866d9ba89e3e2b08cba9bb92921"
+    },
+    "2": {
+      "path": "/workspace/uwb-accuracy-loop-20261029/run01/held2/predictions.npz",
+      "sha256": "4fad79badb2f2b4e8140d7e73dc6a3a7b7b7fa07da631c5950a1b92dd9118142"
+    },
+    "3": {
+      "path": "/workspace/uwb-accuracy-loop-20261029/run01/held3/predictions.npz",
+      "sha256": "626b63ac2d7a38ba3690a6503a968d212c9de3355c4110af06d1ff2a81291b59"
+    },
+    "4": {
+      "path": "/workspace/uwb-accuracy-loop-20261029/run01/held4/predictions.npz",
+      "sha256": "739742030acd48fee4d636fc0db5b97324c6471af9b624ccbd27dac7f3decebe"
+    },
+    "5": {
+      "path": "/workspace/uwb-accuracy-loop-20261029/run01/held5/predictions.npz",
+      "sha256": "786bc5bc1b755e644a5062e71ac6be4f25679670f08dcfc268e0b81361e2c8af"
+    },
+    "6": {
+      "path": "/workspace/uwb-accuracy-loop-20261029/run01/held6/predictions.npz",
+      "sha256": "130fd3eadc1d295d704150b11af94588de59aa5b73cd5700aba1451b5f26b315"
+    }
+  },
+  "seed": 20261029,
+  "epochs": 24,
+  "batch_size": 32,
+  "threads": 3,
+  "optimizer": "AdamW lr0.001 weight_decay0.0005 unweighted CE, no augmentation/scheduler/smoothing; same original pilot",
+  "memory_format": "channels_last",
+  "preprocessing": "Provided real clutter-removed cache, no secondMTI; bilinear64x128 align_cornersFalse, signed maps; each record/view RMS normalized after resize. No fitted cross-record preprocessing.",
+  "selection": "Best current validation user present-class macro, lower validation CE, earlier epoch. No held-user checkpoint choice. All five new prediction sets frozen before aggregate scoring.",
+  "gate": "Descriptive source confirmation: mean local-minus-existingMiniRocket >=1pp, >=4/6 positive users, minimum per-user difference >=-2pp. Not independent significance, eightfold improvement or an original contribution.",
+  "cpu_budget_seconds": 129600,
+  "wall_budget_seconds": 43200,
+  "cost_gate_passed": true,
+  "estimated_new5_seconds_with_margin1p2": 38569.160197470104,
+  "cost_basis": "Sum observed24 local-pilot epoch times6428.193s times5 times1.2; all new folds train<=4700. No epoch/seed/model tuning. Source1 reused rather than retrained.",
+  "upstream_state": "/workspace/uwb-multirocket-20261029/continuation02/STATE.json",
+  "upstream_cnn_summary": "/workspace/uwb-mvglf-20261029/run01/SUMMARY.json",
+  "upstream_cnn_audit": "/workspace/uwb-mvglf-20261029/COMPLETE_AUDIT.json",
+  "limits": [
+    "Known local-only ConvMixer baseline, not novel or exact author/paper reproduction.",
+    "All six users already developed; descriptive exploratory confirmation only.",
+    "No7-8labels used or fitted; current fold held labels excluded from its own fitting/selection.",
+    "Standard crossvalidation uses each source user in other folds training/validation; no global hyperparameters selected with held scores.",
+    "No expansion/rescue of failed24epoch full-fusion or fixedMultiRocket configuration.",
+    "Existing sixfoldMiniRocket is fixed precomputed comparator, not a claim of beating every strong method.",
+    "Old eightfold93.4417% is not directly comparable.",
+    "Timeout/engineering failures=incomplete, no scientific negative.",
+    "Preserve checkpoints/RNG/IDs/logs privately; no automatic restart/new sampling."
+  ]
+}

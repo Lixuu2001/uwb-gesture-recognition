@@ -1,0 +1,23 @@
+{
+  "pid": 1398,
+  "started_unix": 1791077394.8221266,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-temporal-publish-20261003/uwb_direction1/tools/source_sam_pilot.py",
+    "train",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--prepared",
+    "/workspace/uwb-circular-prepared-20260930",
+    "--baseline",
+    "/workspace/uwb-swad-source-runs-20261003",
+    "--out",
+    "/workspace/uwb-sam-source-runs-20261004",
+    "--cost",
+    "/workspace/uwb-temporal-publish-20261003/uwb_direction1/results/cloud_20261004_source_sam/COST.json"
+  ],
+  "cwd": "/workspace/uwb-temporal-publish-20261003",
+  "log": "/workspace/uwb-sam-source-train-20261004.log",
+  "preregistered_commit": "4c4a4c65696b1510f228504e1375de3223fedbc6",
+  "remote_files_readback_verified": 18
+}

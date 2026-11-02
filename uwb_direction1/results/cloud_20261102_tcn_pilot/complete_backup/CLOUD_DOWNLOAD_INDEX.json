@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "created_date_utc": "2026-11-02",
+  "purpose": "Complete audited full20 TCN modelset captured before one fixed diagnostic finalization; inspect existing cloud before restore/relaunch",
+  "state": "private_readback_verified",
+  "scope": "complete_audited_full20_modelset",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "tcn20_complete_20261102.tar.gz",
+  "archive_bytes": 10670831,
+  "archive_sha256": "cc61421838ca4139956eec59b32e0c25212a851c5b21250be7b6d651d6811544",
+  "members_manifest_sha256": "007270f44a7b479debc3a0c1e7dcdc5cb30fe243a1b008111e9f26e995a49474",
+  "receipt_sha256": "5c0a291e7881018061e2294237e1c970ddeef3c5bbab59077977fb41db55b869",
+  "chunks": [
+    {
+      "name": "tcn20_complete_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "fb94d186ed8cf1fb4a49753e7e470b7b5090eee53fa935a55550f88bae672e6f",
+      "file_id": "1kKYv39AHkv-o5dpfnuTCCv6nfNUh8kPW",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "tcn20_complete_20261102.part001",
+      "bytes": 3330799,
+      "sha256": "3306bfb097c5c1d3a7af0495f57c3290023562b3e58543d105dc316050ff3634",
+      "file_id": "1T2UngecVrds_yzySG69XjOB0P047enjm",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 3330799,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "archive_members": 95,
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "complete_modelset_verified": true,
+  "numeric_audit_certified": true,
+  "folder_must_remain_owner_only": true,
+  "diagnostic_labels_scored": false,
+  "whole_job_resume": false,
+  "raw_maps_runtime_restore_separately": true,
+  "empty_search_is_not_duplicate_absence_proof": true
+}

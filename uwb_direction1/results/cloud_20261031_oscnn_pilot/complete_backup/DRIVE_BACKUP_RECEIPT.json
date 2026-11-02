@@ -1,0 +1,269 @@
+{
+  "state": "private_readback_verified",
+  "scope": "complete_selected_and_last_model_evidence",
+  "observed_unix": 1793425712.3736923,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "source_ID_split_and_native_loader_rule_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": true,
+  "limitations": "First snapshot supplies only initial/first-update model/Adam/scheduler/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/last/finalprediction and original selected model, full optimizer/scheduler/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. Author/source/engine/cost and current base Python/NumPy/Torch versions separately pinned in Git; no whole-runtime/job-resume claim. No new fit/scoring by backup.",
+  "archive_name": "oscnn_complete_20261031.tar.gz",
+  "archive_bytes": 67336510,
+  "archive_sha256": "d76caf191750bf19e7cc8198c979c01c53451ff39422794327ca3c92717f20fa",
+  "tracked_payload_files": 93,
+  "members_manifest_sha256": "5fec00c54ab3fe7795d438e67eda07b80764a6e7bb410e909953589f032f5bf7",
+  "chunks": [
+    {
+      "name": "oscnn_complete_20261031.part000",
+      "bytes": 7340032,
+      "sha256": "287810dcaf34c98b5c389bef364434cf92955bcf75af359439bcdb6e0174f184",
+      "file_id": "1CB-FSZasWSytwDDfHfDMsKpeGVSgD8DD",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part001",
+      "bytes": 7340032,
+      "sha256": "3a4b291d1191057613235db03890b93cafc41c17e7a7de948804153c41f849c2",
+      "file_id": "1AnKWQgel2uZhbYbsBLcqT4tN5zuQ7c6p",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part002",
+      "bytes": 7340032,
+      "sha256": "8d6cc9e2ebe83ab652b9b9c626fd8618e73bfaa3ad9be92f56677fb290e769a3",
+      "file_id": "1EWUF86GHYTMTHBe5IIRcLWvPe5EMksK4",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part003",
+      "bytes": 7340032,
+      "sha256": "d1ed8ef5fa6fd9736c8b66834fba1fd590bd339faa981356937ffcf89a21d4cc",
+      "file_id": "1gXEK3D-YFxxbqQvct9Pw5aoSPWXrzwsD",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part004",
+      "bytes": 7340032,
+      "sha256": "e985f379a3b899d6199bbf61088e49369872bdac1327ce31ac59494a1f5ee7f3",
+      "file_id": "1lT533UDTKNClBLsDmicyxhHF1LULTHEy",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part005",
+      "bytes": 7340032,
+      "sha256": "7e47f77e4c1a2d8018340403da34ee00ae02a7128437bdb4865ba9606e200036",
+      "file_id": "1VCtKBHiZV3o8XornGXDg1K-VR8ORfkov",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part006",
+      "bytes": 7340032,
+      "sha256": "8624ccbb30b3d21170ee232af1c5ab72e9b5b0bfec1c0282d60b56adcc41994d",
+      "file_id": "12fUmL5RGskJVk0uIz5uum2JNMdIjgsZX",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part007",
+      "bytes": 7340032,
+      "sha256": "f6705ca237ca62b373aa613b3a704bef5444590d9c4c7eeb27c31358d4e82248",
+      "file_id": "1MVySHfK4BuitEDc4vlWkFyyNRLyY6s_L",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part008",
+      "bytes": 7340032,
+      "sha256": "09572cd79238158256a4aa6770f3d61ed33f5b5cdaa8f541e3c38abf2781a276",
+      "file_id": "1ls9Fa-rhFLATAucZjTq2p_XWQL_rFZ-_",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "oscnn_complete_20261031.part009",
+      "bytes": 1276222,
+      "sha256": "83eca274f2e8e36f89aac432590fb609bffab588d41dd5686dfdfc330cb8c415",
+      "file_id": "1HDAd-Fg-GtDrVIDi3uP6F4ti9tdzC5wW",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1276222,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "standalone_complete_modelset_recoverable": true,
+  "requires_first_update_bundle": false,
+  "verified_readback": {
+    "state": "remote_archive_and_all_members_verified",
+    "scope": "complete_selected_and_last_model_evidence",
+    "chunks_verified": 10,
+    "tracked_payload_members_verified": 93,
+    "archive_members": 94,
+    "archive_sha256": "d76caf191750bf19e7cc8198c979c01c53451ff39422794327ca3c92717f20fa"
+  },
+  "verified_unix": 1793426077.6079946
+}

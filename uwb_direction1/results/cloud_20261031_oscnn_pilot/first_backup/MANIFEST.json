@@ -1,0 +1,39 @@
+{
+  "state": "immutable_OSCNN_nativeTorch_private_snapshot",
+  "scope": "first_update_only",
+  "observed_unix": 1793415978.7298145,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "source_ID_split_and_native_loader_rule_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": false,
+  "limitations": "First snapshot supplies only initial/first-update model/Adam/scheduler/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/last/finalprediction and original selected model, full optimizer/scheduler/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. Author/source/engine/cost and current base Python/NumPy/Torch versions separately pinned in Git; no whole-runtime/job-resume claim. No new fit/scoring by backup.",
+  "archive_name": "oscnn_first_update_20261031.tar.gz",
+  "archive_bytes": 22876729,
+  "archive_sha256": "baa180fea43e19434ad9fb06c25874ed2f901c322b0092989d29e8024b7e2e4c",
+  "tracked_payload_files": 67,
+  "members_manifest_sha256": "769e12146a8af20d4e6f9a27a88a487813ca955e6edb273cf11b2b14b4f67ee5",
+  "chunks": [
+    {
+      "name": "oscnn_first_update_20261031.part000",
+      "bytes": 7340032,
+      "sha256": "2d89bad97c273741b9564f096f191b889e4cb529b7f0c9f0e9bebd1628f4f3a1"
+    },
+    {
+      "name": "oscnn_first_update_20261031.part001",
+      "bytes": 7340032,
+      "sha256": "c5dcf233c84c1da15c896c9b661faf32e6c74b761fe5bc1e2a49cb821dc68245"
+    },
+    {
+      "name": "oscnn_first_update_20261031.part002",
+      "bytes": 7340032,
+      "sha256": "ac52727b59ee2a01ec4bb3cec23d781e5c91820366f5199ae6bed5e63b8bf0d5"
+    },
+    {
+      "name": "oscnn_first_update_20261031.part003",
+      "bytes": 856633,
+      "sha256": "a53b8155419289576bfb37c925c8fd1fd63b3df22a46e9c3c08f6746338f6d89"
+    }
+  ]
+}

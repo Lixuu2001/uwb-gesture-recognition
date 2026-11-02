@@ -1,0 +1,257 @@
+{
+  "state": "complete_and_audited",
+  "protocol_sha256": "87cea3b087c21f917c7b9054309923f343cc0c62ab37f98d35bc8c3cbfec4cff",
+  "summary": {
+    "static": {
+      "mean": 0.943155303030303,
+      "worst_user": 0.7809090909090909,
+      "per_user": [
+        0.995,
+        0.9760000000000002,
+        0.915,
+        0.9866666666666667,
+        0.9666666666666668,
+        0.7809090909090909,
+        0.9533333333333335,
+        0.9716666666666668
+      ]
+    },
+    "ordered": {
+      "mean": 0.9392310606060605,
+      "worst_user": 0.7781818181818182,
+      "per_user": [
+        0.9958333333333332,
+        0.9389999999999998,
+        0.9091666666666667,
+        0.9841666666666665,
+        0.9608333333333333,
+        0.7781818181818182,
+        0.9674999999999999,
+        0.9791666666666666
+      ]
+    },
+    "legacy": {
+      "mean": 0.9418428030303031,
+      "worst_user": 0.7709090909090908,
+      "per_user": [
+        0.9958333333333332,
+        0.9580000000000002,
+        0.9116666666666667,
+        0.985,
+        0.9825,
+        0.7709090909090908,
+        0.9525,
+        0.9783333333333335
+      ]
+    }
+  },
+  "paired": {
+    "ordered__minus__static": {
+      "mean_pp": -0.3924242424242566,
+      "improved_users": 3,
+      "per_user_pp": [
+        0.08333333333332416,
+        -3.7000000000000366,
+        -0.5833333333333357,
+        -0.2500000000000169,
+        -0.5833333333333468,
+        -0.27272727272726893,
+        1.4166666666666439,
+        0.749999999999984
+      ],
+      "descriptive_user_bootstrap_95pct_pp": [
+        -1.466098484848502,
+        0.45549242424241243
+      ]
+    },
+    "ordered__minus__legacy": {
+      "mean_pp": -0.26117424242425163,
+      "improved_users": 3,
+      "per_user_pp": [
+        0.0,
+        -1.900000000000035,
+        -0.2500000000000058,
+        -0.08333333333334636,
+        -2.1666666666666723,
+        0.7272727272727431,
+        1.4999999999999902,
+        0.08333333333331305
+      ],
+      "descriptive_user_bootstrap_95pct_pp": [
+        -1.0791666666666824,
+        0.49715909090908283
+      ]
+    },
+    "static__minus__legacy": {
+      "mean_pp": 0.13125000000000497,
+      "improved_users": 5,
+      "per_user_pp": [
+        -0.08333333333332416,
+        1.8000000000000016,
+        0.33333333333332993,
+        0.16666666666667052,
+        -1.5833333333333255,
+        1.000000000000012,
+        0.08333333333334636,
+        -0.666666666666671
+      ],
+      "descriptive_user_bootstrap_95pct_pp": [
+        -0.5312499999999929,
+        0.7833333333333401
+      ]
+    }
+  },
+  "frozen_continuation_gate_passed": false,
+  "new_models": 16,
+  "training_seeds": [
+    2026
+  ],
+  "parameters": {
+    "static": 273900,
+    "ordered": 273900,
+    "legacy": 265836
+  },
+  "runs": [
+    {
+      "held_user": 1,
+      "arm": "static",
+      "macro_accuracy": 0.995,
+      "selected_epoch": 17,
+      "epochs_run": 25,
+      "epoch_seconds": 622.390593277989
+    },
+    {
+      "held_user": 1,
+      "arm": "ordered",
+      "macro_accuracy": 0.9958333333333332,
+      "selected_epoch": 17,
+      "epochs_run": 25,
+      "epoch_seconds": 573.6907497209613
+    },
+    {
+      "held_user": 2,
+      "arm": "static",
+      "macro_accuracy": 0.9760000000000002,
+      "selected_epoch": 2,
+      "epochs_run": 16,
+      "epoch_seconds": 317.5175164200482
+    },
+    {
+      "held_user": 2,
+      "arm": "ordered",
+      "macro_accuracy": 0.9389999999999998,
+      "selected_epoch": 1,
+      "epochs_run": 16,
+      "epoch_seconds": 306.82907564900233
+    },
+    {
+      "held_user": 3,
+      "arm": "static",
+      "macro_accuracy": 0.915,
+      "selected_epoch": 24,
+      "epochs_run": 32,
+      "epoch_seconds": 694.1103661769885
+    },
+    {
+      "held_user": 3,
+      "arm": "ordered",
+      "macro_accuracy": 0.9091666666666667,
+      "selected_epoch": 13,
+      "epochs_run": 21,
+      "epoch_seconds": 439.0965838430275
+    },
+    {
+      "held_user": 4,
+      "arm": "static",
+      "macro_accuracy": 0.9866666666666667,
+      "selected_epoch": 9,
+      "epochs_run": 17,
+      "epoch_seconds": 422.3396769519313
+    },
+    {
+      "held_user": 4,
+      "arm": "ordered",
+      "macro_accuracy": 0.9841666666666665,
+      "selected_epoch": 6,
+      "epochs_run": 16,
+      "epoch_seconds": 377.5564330199559
+    },
+    {
+      "held_user": 5,
+      "arm": "static",
+      "macro_accuracy": 0.9666666666666668,
+      "selected_epoch": 1,
+      "epochs_run": 16,
+      "epoch_seconds": 290.7712566519913
+    },
+    {
+      "held_user": 5,
+      "arm": "ordered",
+      "macro_accuracy": 0.9608333333333333,
+      "selected_epoch": 1,
+      "epochs_run": 16,
+      "epoch_seconds": 318.4049715390138
+    },
+    {
+      "held_user": 6,
+      "arm": "static",
+      "macro_accuracy": 0.7809090909090909,
+      "selected_epoch": 3,
+      "epochs_run": 16,
+      "epoch_seconds": 279.72031036994304
+    },
+    {
+      "held_user": 6,
+      "arm": "ordered",
+      "macro_accuracy": 0.7781818181818182,
+      "selected_epoch": 3,
+      "epochs_run": 16,
+      "epoch_seconds": 288.448897715949
+    },
+    {
+      "held_user": 7,
+      "arm": "static",
+      "macro_accuracy": 0.9533333333333335,
+      "selected_epoch": 4,
+      "epochs_run": 16,
+      "epoch_seconds": 287.00767412997084
+    },
+    {
+      "held_user": 7,
+      "arm": "ordered",
+      "macro_accuracy": 0.9674999999999999,
+      "selected_epoch": 4,
+      "epochs_run": 16,
+      "epoch_seconds": 347.853078213986
+    },
+    {
+      "held_user": 8,
+      "arm": "static",
+      "macro_accuracy": 0.9716666666666668,
+      "selected_epoch": 8,
+      "epochs_run": 16,
+      "epoch_seconds": 411.4281513619353
+    },
+    {
+      "held_user": 8,
+      "arm": "ordered",
+      "macro_accuracy": 0.9791666666666666,
+      "selected_epoch": 10,
+      "epochs_run": 18,
+      "epoch_seconds": 425.9946103579714
+    }
+  ],
+  "epochs_total": 298,
+  "epoch_seconds_total": 6403.159945400665,
+  "audit_sha256": "0202624ce0a771b825dd581721268eb54e1302b99229236eae0bd33a9d0fec19",
+  "identity_sha256": "f2fd0c2a5516291f744118401b91448710411df335d2a7161ebe1c29ca288501",
+  "novel_contribution_confirmed": false,
+  "limitations": [
+    "eight repeatedly used development users, not independent confirmation",
+    "one model seed; only static/ordered branches parameter matched",
+    "legacy reused with audit/hash provenance, not newly retrained",
+    "bootstrap is descriptive; overlapping train folds and research selection remain",
+    "RF moments are not calibrated physical hand trajectories",
+    "known modules concatenation alone establishes no novelty"
+  ]
+}

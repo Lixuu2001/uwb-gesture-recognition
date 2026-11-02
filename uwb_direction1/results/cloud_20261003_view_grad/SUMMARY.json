@@ -1,0 +1,509 @@
+{
+  "trajectories": {
+    "3": {
+      "epochs": {
+        "1": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.25,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.176518388353775,
+            0.0950260943406167,
+            0.1525771098504699
+          ],
+          "median_norm_shares_L_T_R": [
+            0.33255434888707014,
+            0.382438188093713,
+            0.2795487736571378
+          ],
+          "median_cancellation_ratio": 0.6692315096043451
+        },
+        "12": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 1.0,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.1606504516073037,
+            -0.3866224316387913,
+            -0.09828500667225189
+          ],
+          "median_norm_shares_L_T_R": [
+            0.35190789546340395,
+            0.2898522510198618,
+            0.3173008826249467
+          ],
+          "median_cancellation_ratio": 0.4897420371215494
+        },
+        "24": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 1.0,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.1736315048999397,
+            -0.3400606549640144,
+            -0.04309047556724232
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3828899788443517,
+            0.2886115910717741,
+            0.28582992164395277
+          ],
+          "median_cancellation_ratio": 0.4842700266080768
+        }
+      },
+      "conflict_epochs": [
+        12,
+        24
+      ],
+      "dominance_epochs": []
+    },
+    "4": {
+      "epochs": {
+        "1": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.5,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.1012435666500184,
+            -0.010609029971548145,
+            0.11667658019450894
+          ],
+          "median_norm_shares_L_T_R": [
+            0.35367760311813906,
+            0.34503391021698865,
+            0.30792178319990016
+          ],
+          "median_cancellation_ratio": 0.6299906082566376
+        },
+        "12": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.8333333333333334,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.06037548024248927,
+            -0.37752131926771826,
+            -0.0860507041676632
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3595895736201449,
+            0.2948281760115641,
+            0.34555808152755174
+          ],
+          "median_cancellation_ratio": 0.5016508428153692
+        },
+        "24": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.9166666666666666,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.09201631391861811,
+            -0.3594095828030799,
+            -0.14686614938022088
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3215245193335461,
+            0.3008321596675543,
+            0.35554101611216204
+          ],
+          "median_cancellation_ratio": 0.5039973873429325
+        }
+      },
+      "conflict_epochs": [
+        1,
+        12,
+        24
+      ],
+      "dominance_epochs": []
+    },
+    "5": {
+      "epochs": {
+        "1": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.6666666666666666,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.06434284183237031,
+            -0.1320331837308142,
+            0.05252594027081392
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3192669230950025,
+            0.3478142502122355,
+            0.3263514537734245
+          ],
+          "median_cancellation_ratio": 0.5332557245808016
+        },
+        "12": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.9166666666666666,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            -0.2160008149060631,
+            -0.19258670016466584,
+            0.04114396064117701
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3389183769173937,
+            0.3350867274449417,
+            0.33127840301465894
+          ],
+          "median_cancellation_ratio": 0.5361505059343511
+        },
+        "24": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.8333333333333334,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            -0.061982331040925646,
+            -0.18358532646887976,
+            0.06369277153931807
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3306625619685928,
+            0.3315126200137363,
+            0.3227403801283178
+          ],
+          "median_cancellation_ratio": 0.576932881391581
+        }
+      },
+      "conflict_epochs": [
+        1,
+        12,
+        24
+      ],
+      "dominance_epochs": []
+    },
+    "6": {
+      "epochs": {
+        "1": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.75,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.16410290314205328,
+            -0.1418660711975941,
+            0.18498819822149254
+          ],
+          "median_norm_shares_L_T_R": [
+            0.322901394556183,
+            0.39191028968151204,
+            0.27234351340572815
+          ],
+          "median_cancellation_ratio": 0.5934031954274963
+        },
+        "12": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.4166666666666667,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.024314590404852218,
+            0.052652487020166186,
+            -0.01755088024330211
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3326108047342047,
+            0.3144716606502021,
+            0.31059290169378806
+          ],
+          "median_cancellation_ratio": 0.5832766031071623
+        },
+        "24": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.5,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.036594356758431416,
+            0.11073030416942631,
+            0.018250999498400873
+          ],
+          "median_norm_shares_L_T_R": [
+            0.32148813333415804,
+            0.32151619574674406,
+            0.3170140353747292
+          ],
+          "median_cancellation_ratio": 0.5896159736756361
+        }
+      },
+      "conflict_epochs": [
+        1,
+        24
+      ],
+      "dominance_epochs": []
+    },
+    "7": {
+      "epochs": {
+        "1": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.6666666666666666,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.20843006749733908,
+            -0.07609642125059204,
+            -0.028483937500989126
+          ],
+          "median_norm_shares_L_T_R": [
+            0.2697010732356457,
+            0.37410880239334277,
+            0.3632815234923116
+          ],
+          "median_cancellation_ratio": 0.582092572927926
+        },
+        "12": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.75,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            -0.055414975440990256,
+            -0.26715081670104435,
+            -0.04491350908167758
+          ],
+          "median_norm_shares_L_T_R": [
+            0.29172520887588904,
+            0.3287098892368297,
+            0.3415714668757206
+          ],
+          "median_cancellation_ratio": 0.5376775609275423
+        },
+        "24": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 1.0,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            -0.07138425892620912,
+            -0.36826199413203853,
+            -0.12282894925843793
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3268024535065176,
+            0.3130254632878442,
+            0.35099471011608235
+          ],
+          "median_cancellation_ratio": 0.4755589077690079
+        }
+      },
+      "conflict_epochs": [
+        1,
+        12,
+        24
+      ],
+      "dominance_epochs": []
+    },
+    "8": {
+      "epochs": {
+        "1": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.4166666666666667,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.09256177867099274,
+            0.07631884806575051,
+            0.12196268001819632
+          ],
+          "median_norm_shares_L_T_R": [
+            0.33448748234759335,
+            0.3482766857694942,
+            0.29592642787757784
+          ],
+          "median_cancellation_ratio": 0.6193473394254282
+        },
+        "12": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.8333333333333334,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            0.06474857709999053,
+            -0.16381279820465783,
+            0.027480431696431402
+          ],
+          "median_norm_shares_L_T_R": [
+            0.39828286525953605,
+            0.34610020581635353,
+            0.2521391643879341
+          ],
+          "median_cancellation_ratio": 0.5737369680015174
+        },
+        "24": {
+          "batches": 12,
+          "valid": 12,
+          "conflict_fraction": 0.9166666666666666,
+          "dominance_fraction": 0.0,
+          "median_cosines_LT_LR_TR": [
+            -0.07341277380305998,
+            -0.19942703239493637,
+            0.043157557122173104
+          ],
+          "median_norm_shares_L_T_R": [
+            0.3512105569108478,
+            0.3420515742150073,
+            0.27685225995646956
+          ],
+          "median_cancellation_ratio": 0.5643435615216956
+        }
+      },
+      "conflict_epochs": [
+        12,
+        24
+      ],
+      "dominance_epochs": []
+    }
+  },
+  "conflict_trajectories": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "dominance_trajectories": [],
+  "screen_passed": true,
+  "state": "completed_source_training_gradient_diagnostic",
+  "batches": 216,
+  "models": 18,
+  "total_seconds_excluding_input_hashes": 369.1980966720148,
+  "independent_replica_checks": [
+    {
+      "held": 3,
+      "epoch": 1,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 3,
+      "epoch": 12,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 3,
+      "epoch": 24,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 4,
+      "epoch": 1,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 4,
+      "epoch": 12,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 4,
+      "epoch": 24,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 5,
+      "epoch": 1,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 5,
+      "epoch": 12,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 5,
+      "epoch": 24,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 6,
+      "epoch": 1,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 6,
+      "epoch": 12,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 6,
+      "epoch": 24,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 7,
+      "epoch": 1,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 7,
+      "epoch": 12,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 7,
+      "epoch": 24,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 8,
+      "epoch": 1,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 8,
+      "epoch": 12,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    },
+    {
+      "held": 8,
+      "epoch": 24,
+      "gradient_relative_error": 0.0,
+      "logit_max_error": 0.0
+    }
+  ],
+  "max_sum_relative_error": 1.0975655024389276e-15,
+  "new_training": false,
+  "test_accuracy_computed": false,
+  "protocol_sha256": "83d566ee4175cdb036b41690865372998b390d6682775286b0bf8884d0dd6b7e",
+  "script_sha256": "59428bdd262b6420eb7be79826a95a01d1dec8d7833b40a10bb84117b7e23b35",
+  "files_sha256": {
+    "BATCHES.json": "19234ca9ddedd43285407dab525765d0396d300c2cfd37f9208bc3dd1d661e70",
+    "MODEL_INDEX.json": "9132a862160e7f7ce11e6840adaae384d50d55e9b9d38313abccd0df3cce4325",
+    "SAMPLE_IDS.json": "05567758acb21883fb2033d93c590a498fe62385cc567f447d04dc9fc9657b48",
+    "first_batch_gradients.npz": "164b3eb06119244a988725a3ba0a536d15784113d6e490048ff0c458d06096d5",
+    "protocol.json": "83d566ee4175cdb036b41690865372998b390d6682775286b0bf8884d0dd6b7e"
+  },
+  "limits": [
+    "eval-mode frozen interval averages; not online noisy training gradients",
+    "four source training users per trajectory, not diagnosis/validation users",
+    "views are paths of one objective, not independent PCGrad tasks",
+    "cancellation or dominance alone does not prove harmful optimization, generalization loss, or novelty"
+  ]
+}

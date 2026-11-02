@@ -1,0 +1,30 @@
+{
+  "observed_utc": "2026-10-04T20:27:32.399987+00:00",
+  "source_type": "author doctoral thesis, not publisher ECCV article PDF",
+  "title": "Toward Robust Machine Learning by Countering Superficial Features",
+  "author": "Haohan Wang",
+  "institution": "Carnegie Mellon University, Language Technologies Institute",
+  "cover_date": "September2021",
+  "repository": "HaohanWang/HaohanWang.github.io",
+  "commit": "e1e3c2b2cba8fcedfa75de8188eecfc1df2d3885",
+  "path": "file/haohanw_phd_lti_2021.pdf",
+  "git_blob": "f472e9236aa30806de15b9e42cb55a101ae1311e",
+  "sha256": "5c3e1fc67a2a0bbf4e2f962e4c7d41ad8a52268332a039f88e2837514d3129e0",
+  "bytes": 11464208,
+  "pages": 112,
+  "reviewed_sections": "4.4.2 Method incl Algorithm1, theoretical assumptions and engineering specification;4.4.3 experiments/ablations; opening4.4.4 discussion",
+  "reviewed_printed_pages": "59\u201369 full main method/experiment text, opening70 discussion; preceding58 only final lines",
+  "reviewed_pdf_pages": "65\u201375 and opening76; no AppendixA3 proof review",
+  "entire_thesis_read": false,
+  "publisher_article_fulltext_read": false,
+  "publisher_doi_from_author_publications": "10.1007/978-3-030-58536-5_8",
+  "publications_html_sha": "81a900e790560c1b415c670c37bf9038d9278de9",
+  "scientific_protocol_unchanged": true,
+  "findings": [
+    "Signed class-logit gradient and strict quantile mask match mathematical mechanism",
+    "Theory fixes features and analyzes finite hypothesis class,binary0-1loss,common optimal classifier assumptions; loss-increase and small-step conditions are not established for current UWB CNN",
+    "Author text batch selection random or highestCE differs chosen DomainBed probability-drop rule",
+    "Spatial/channel mixed and feature/batch1/3 PACS ablations are prior art; random masking control is also prior art",
+    "Author reports SGD30epochs,batch128,ImageNet-style backbone settings; UWB AdamW24/GN1728-vector adaptation is not exact reproduction"
+  ]
+}

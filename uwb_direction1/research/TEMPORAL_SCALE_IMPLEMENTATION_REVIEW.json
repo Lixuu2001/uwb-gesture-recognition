@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "url": "https://github.com/locuslab/TCN/blob/master/TCN/tcn.py",
+      "git_blob_sha": "37dfd435e5c5a66cb2706f80d540b7ce4c396be5",
+      "scope": "full text read; no author code copied or executed"
+    },
+    {
+      "url": "https://github.com/locuslab/TCN/blob/master/README.md",
+      "git_blob_sha": "9bced8cc3944f5e82ba34d1bac9d02bee4d17189",
+      "scope": "full text read; no author code copied or executed"
+    }
+  ],
+  "paper": {
+    "title": "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
+    "authors": "Shaojie Bai, J. Zico Kolter, Vladlen Koltun",
+    "year": 2018,
+    "url": "https://arxiv.org/abs/1803.01271",
+    "main_paper_read": false
+  },
+  "old_snapshot": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
+  "old_source_verified": [
+    {
+      "path": "project/experiments/p1_20260905/vendor/uwb_osr/model.py",
+      "sha256": "19fe54c7363c88e9cca32190cdf76f03da6e2b7cd6056e02144b0cfb4f557050",
+      "read_scope": "full file"
+    },
+    {
+      "path": "project/experiments/p1_20260905/train.py",
+      "sha256": "df3bc0c49e7e8fa00a1577f04ed666e054f7224bad09a2ceb5c0fb24f516c108",
+      "read_scope": "Classifier and imports first68lines; SHA checked for entire file"
+    }
+  ]
+}

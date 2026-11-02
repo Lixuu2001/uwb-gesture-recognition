@@ -1,0 +1,28 @@
+{
+  "state": "pass",
+  "scope": "completed_pilot_artifacts_moments_objective_predictions_metrics",
+  "scores": {
+    "multirocket": 0.9441666666666667,
+    "minirocket": 0.85
+  },
+  "validation_scores": {
+    "multirocket": 0.9279999999999999,
+    "minirocket": 0.836
+  },
+  "gate_passed": false,
+  "verified_artifact_hashes": 16,
+  "extraction_replay_records_per_arm": 6,
+  "extraction_replay_scope": "first_two_per_role_not_all6900",
+  "prediction_replay_records_per_arm": 2200,
+  "ridge_normal_equation_relative_residuals": {
+    "multirocket": 1.204659664652812e-14,
+    "minirocket": 2.4813451717098265e-13
+  },
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "users7_8_labels_used": false,
+  "refit_or_new_sampling": false,
+  "auditor_sha256": "46dd4a205f4410dab2be8665e71abddd88e499f46d20ae500e256b069b54eeaa",
+  "audit_wall_seconds": 8.307820457965136,
+  "audit_cpu_seconds": 10.747571783
+}

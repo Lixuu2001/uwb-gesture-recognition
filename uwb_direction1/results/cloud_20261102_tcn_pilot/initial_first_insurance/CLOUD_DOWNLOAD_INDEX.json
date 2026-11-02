@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_date_utc": "2026-11-02",
+  "purpose": "Immutable TCN initial/first recovery only. Inspect existing cloud/processes/checkpoints before restore; never duplicate training or reupload known IDs.",
+  "state": "private_readback_verified",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "tcn20_initial_first_20261102.tar.gz",
+  "archive_bytes": 2799035,
+  "archive_sha256": "85aa24eb6d181b29e8dc9314fa931db68b51f534322ae5ae80766bca9beb7f2d",
+  "members_manifest_sha256": "6ec3e4c7f702feea04ce05d23dd3b9a8967e083e18b0334b78f9445be1dc8dfd",
+  "receipt_sha256": "e24b9e30a4d2c139a0713e16f781118f83de5ed03045aa2c55aa5801d899cae1",
+  "archive_members": 75,
+  "chunks": [
+    {
+      "name": "tcn20_initial_first_20261102.part000",
+      "bytes": 2799035,
+      "sha256": "85aa24eb6d181b29e8dc9314fa931db68b51f534322ae5ae80766bca9beb7f2d",
+      "file_id": "1qDTU76W5IhRmYL5qfImSvD0NcHj_CtRm",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 2799035,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "folder_must_remain_owner_only": true,
+  "complete_modelset_verified": false,
+  "numeric_audit_certified": false,
+  "whole_job_resume": false,
+  "latest_epoch_privately_preserved": false,
+  "raw_maps_runtime_restore_separately": true,
+  "empty_search_is_not_duplicate_absence_proof": true
+}

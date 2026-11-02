@@ -1,0 +1,102 @@
+{
+  "state": "private_readback_verified",
+  "scope": "first_update_only",
+  "observed_unix": 1793399176.6342993,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": false,
+  "limitations": "First snapshot supplies only initial/first-update model/RAdam/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/stopper/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. No new fit/scoring by backup.",
+  "archive_name": "transformer_first_update_20261030.tar.gz",
+  "archive_bytes": 16000017,
+  "archive_sha256": "7833289f9bf59d68a3a6233e98a8f264b62efa72aea7469c084812556006cfbe",
+  "tracked_payload_files": 60,
+  "members_manifest_sha256": "94573a23c4addd485071f827a4d998973342505ed502dfd668b95fdbf57b8f1b",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "transformer_first_update_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "b4863784990117cd027c82d65a4a6b99235811c28bdcb0dbe6534b5de80d9cf9",
+      "file_id": "1IONbECQKjHN3OeQiK5MBSJmTCH5_9Lxq",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "transformer_first_update_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "a556ada10320e9ea6e3e5e7072764435212605af528ee7861243ee9ff8d54eb4",
+      "file_id": "1OTi0ptPZdJrb34k-ijVQ1wr1vL2yvbhd",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "transformer_first_update_20261030.part002",
+      "bytes": 1319953,
+      "sha256": "32b4c3f096c4d418fc14e64f870569528d40f89fd24b595ba8bf43a7a2950580",
+      "file_id": "1RNrdNCfRyN7oSdQBTD_ZC8W0iCDuMgVb",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1319953,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "archive_members": 61,
+  "verified_unix": 1793399297.787537,
+  "backup_builder_sha256": "58b56c0e73217bb02b002a639377beeefc226dca7db55d37357cc03b979c4456",
+  "first_update_sha256": "4b59fd2b2f611f4ee9bce022eef9803a50f2179813b0f1dd7a0733ba5256f9a6",
+  "runtime_dependency_recovery": "All154frozenfilehashes include96localruntimepackagefiles; exact files available in preregistrationGit research/transformer_screen_20261030/deps. Firstsnapshot is modelinsurance, not entire runtime/jobresume."
+}

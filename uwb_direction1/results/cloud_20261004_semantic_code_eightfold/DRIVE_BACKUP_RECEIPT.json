@@ -1,0 +1,1220 @@
+{
+  "state": "private_upload_authenticated_redownload_all_members_verified",
+  "verified_at": "2026-10-04T21:40:00.265641+00:00",
+  "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "compressed_bytes": 79338880,
+  "member_records": 185,
+  "part_count": 19,
+  "bundles": [
+    {
+      "name": "source.tar.gz",
+      "bytes": 10958818,
+      "sha256": "904eb49e408e2f7e0bf09a0ff987807fc14830fa9a6869e1bc36bccb2935b541",
+      "contents": {
+        "source-run/IDENTITY.json": {
+          "bytes": 436,
+          "sha256": "bae0035b8d6720b4dd5df12884b7c687bd474659e3689ba98415cf032561536a"
+        },
+        "source-run/codes.npz": {
+          "bytes": 2839,
+          "sha256": "1f5e4432229b777d58d26ce99b19a5bb7844707a90bfe4f36cb86e1c4fa82c42"
+        },
+        "source-run/SUMMARY.json": {
+          "bytes": 3193,
+          "sha256": "5c873c1608d90871cabbeb31d855d3bad559d9d2b843e920f2e1937c4488998b"
+        },
+        "source-run/AUDIT.json": {
+          "bytes": 378,
+          "sha256": "2ed7586cc385d8dbbe97ebfa2e79491880c09e83d38094d2b9528ba1b3eca66d"
+        },
+        "source-run/PROTOCOL.json": {
+          "bytes": 3431,
+          "sha256": "9e1a7af72828a43afc2eaeb5c48ba66a88d2feff70c7b7bd7653a1a07f579395"
+        },
+        "source-run/FILES.json": {
+          "bytes": 3106,
+          "sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca"
+        },
+        "source-run/held6/selection.json": {
+          "bytes": 1517,
+          "sha256": "32e70866d870053881fce2a484f08eac0837288463fa4f12d0bfd653ffd80010"
+        },
+        "source-run/held6/models.npz": {
+          "bytes": 38182,
+          "sha256": "ac2c606ee55aa1796130d5816e24408d94c6e3b2cbcfa12f47840415cfcc7b02"
+        },
+        "source-run/held6/result.json": {
+          "bytes": 200,
+          "sha256": "07d19715a31743962897ee5b63dd09d529d0c8d16d401f639217dc848d7edaf6"
+        },
+        "source-run/held6/predictions.npz": {
+          "bytes": 1752605,
+          "sha256": "50a39c16b968eb2b32845a5d2cef329f681c92f994e25b511ad5838f8ed91a36"
+        },
+        "source-run/held6/split.json": {
+          "bytes": 71057,
+          "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+        },
+        "source-run/held7/selection.json": {
+          "bytes": 1563,
+          "sha256": "948b8d89804f283f5cdef0ed0dc0e62186cd7b7852811b307fed746739a87a81"
+        },
+        "source-run/held7/models.npz": {
+          "bytes": 38197,
+          "sha256": "8abadf1124474b1a8ca46faa7e69417834cb0d58626ff30c3affff6bde3c6c26"
+        },
+        "source-run/held7/result.json": {
+          "bytes": 214,
+          "sha256": "d31144793f4aea22179da4b7fb78bdb19c30af5e55367c464329eae0ff64efc2"
+        },
+        "source-run/held7/predictions.npz": {
+          "bytes": 1795143,
+          "sha256": "186d2a131752347f8ed1898b8c21f7bbf5370369b1d9a6cbf05dab0c79bed3cb"
+        },
+        "source-run/held7/split.json": {
+          "bytes": 71057,
+          "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+        },
+        "source-run/held8/selection.json": {
+          "bytes": 1567,
+          "sha256": "e2e7bb119095f35283755aa8b4f71860fd76c2d2ed8c4f67da360cffd7a9250b"
+        },
+        "source-run/held8/models.npz": {
+          "bytes": 38199,
+          "sha256": "1514a780d9ed8c1589082b44ae7b08cc0249b9466da4b191cf4268ec297fcfba"
+        },
+        "source-run/held8/result.json": {
+          "bytes": 214,
+          "sha256": "500e6f279311fdf788ce34d510d9840165ea81bc6a1abd83bc7cd79b781bc690"
+        },
+        "source-run/held8/predictions.npz": {
+          "bytes": 1793169,
+          "sha256": "8dfe82e0f2a9e43b4093121e026bc165848db0972220f453ea240268200d6515"
+        },
+        "source-run/held8/split.json": {
+          "bytes": 71057,
+          "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+        },
+        "source-run/held5/selection.json": {
+          "bytes": 1587,
+          "sha256": "67aee80de3f05343de099356541a5a69282aee4566eb5066df343e4da155ec1b"
+        },
+        "source-run/held5/models.npz": {
+          "bytes": 38186,
+          "sha256": "25e9a18cd5a0da0ccac60ad31744b408daf84bff784b7fbd95e8799f4577249f"
+        },
+        "source-run/held5/result.json": {
+          "bytes": 214,
+          "sha256": "53ca3d48486dfe1b8b02ecb6d330993262c490597a87b997587b74ec52e41fcd"
+        },
+        "source-run/held5/predictions.npz": {
+          "bytes": 1685644,
+          "sha256": "22b6e368d226c940ce7bace1e9737cac98bf4e18bfb4b23d128a2d1fb287e74d"
+        },
+        "source-run/held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        },
+        "source-run/held4/selection.json": {
+          "bytes": 1507,
+          "sha256": "fb6c965cf2d0fb79144e8a22fe1af25e092741a2e2fd1eb45b0d0e01f978f595"
+        },
+        "source-run/held4/models.npz": {
+          "bytes": 38210,
+          "sha256": "07be933ec7d38811e6cdd5fef84c8a2d948abc0f4379435a4c43563f5d909979"
+        },
+        "source-run/held4/result.json": {
+          "bytes": 214,
+          "sha256": "119ceca321afa37ae1635f090fa9edb5dfdea011e1f3c10e1c8397797c7be2c0"
+        },
+        "source-run/held4/predictions.npz": {
+          "bytes": 1794043,
+          "sha256": "b763887d2e7dfccb7f25195dc75bd49f4ef4fccb534cb95e6386e6ea50556a3e"
+        },
+        "source-run/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        },
+        "source-run/held3/selection.json": {
+          "bytes": 1582,
+          "sha256": "32da74aedc6bf243ef567f17d4595fbc5e8c8a75683e7e59ff282230fc204047"
+        },
+        "source-run/held3/models.npz": {
+          "bytes": 38197,
+          "sha256": "9cbd5a5abdfd6452d491f5306b4bb92296edcd5a3311fb5aa18bd8f25664249c"
+        },
+        "source-run/held3/result.json": {
+          "bytes": 214,
+          "sha256": "470573645f78be021d51c57a123300c378d5550386a6e54c5e103cf415743a88"
+        },
+        "source-run/held3/predictions.npz": {
+          "bytes": 1795126,
+          "sha256": "8e2db938639bac1a5d2f18a0714ccea966fda76ee32075df11d1afe5b0ceddae"
+        },
+        "source-run/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b00-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b00-p01.part",
+          "bytes": 7340032,
+          "sha256": "47b7a03471c419265543d221db6b8e7d057f185855f39c65eeb31fa9dee0ef81",
+          "bundle_index": 0,
+          "part_index": 1,
+          "file_id": "1ioAWBXiecESyzJP9v_lHt4_24LnfXx1Y",
+          "url": "https://drive.google.com/file/d/1ioAWBXiecESyzJP9v_lHt4_24LnfXx1Y/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/64059d27-0516-4ba2-a6e0-c0a714cad1e8/uwb-semantic-code-20261004-b00-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b00-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b00-p02.part",
+          "bytes": 3618786,
+          "sha256": "9a28261c2dfb2153af6ce24798113b8463305d05c7ccaee43b478c1ef15bd233",
+          "bundle_index": 0,
+          "part_index": 2,
+          "file_id": "1NULNaNoTVAvBkZskB_Be2gg-FiixMjjz",
+          "url": "https://drive.google.com/file/d/1NULNaNoTVAvBkZskB_Be2gg-FiixMjjz/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/c058ff70-fb8d-4678-86d3-df6ef36ff73b/uwb-semantic-code-20261004-b00-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held1.tar.gz",
+      "bytes": 8347727,
+      "sha256": "374a7126114ed0d105d4b7d2e5abc6593c3125988d99e21402cf0d11deb9e8f2",
+      "contents": {
+        "eightfold-run/held1/selection.json": {
+          "bytes": 1517,
+          "sha256": "46fc3f1b828634875547aacfbc6ac11e199716be9ab6dbafdcab9c79377c8bf3"
+        },
+        "eightfold-run/held1/models.npz": {
+          "bytes": 38212,
+          "sha256": "1bb00d0f85d59194469c305f8bf12eb5feba840e10df4a67737d53bc46efbbc0"
+        },
+        "eightfold-run/held1/result.json": {
+          "bytes": 185,
+          "sha256": "25d9faa83a03ede9b24e548b0c35f1f1655543984264341803b82857c462b9de"
+        },
+        "eightfold-run/held1/predictions.npz": {
+          "bytes": 1577930,
+          "sha256": "a60af72e72d1f7b30d51d20576d58f2b680babeb7b4603694b8998b2f0a07154"
+        },
+        "eightfold-run/held1/split.json": {
+          "bytes": 91947,
+          "sha256": "1ccb36dfd1e8074616dc1d6a1b697866e4ba77e087def9cefcf2427e815b9e06"
+        },
+        "eightfold-reference/held1/features.npz": {
+          "bytes": 5540316,
+          "sha256": "41aec2061a10c54730c999e0574cdc47036218607e4311ea04041a00b6bd6e88"
+        },
+        "eightfold-reference/held1/predictions.npz": {
+          "bytes": 55942,
+          "sha256": "c2acd456b36b8c0a1136e35a0e59cf37660e3ae51b08a81c9796f7821be14ace"
+        },
+        "eightfold-reference/held1/split.json": {
+          "bytes": 91947,
+          "sha256": "1ccb36dfd1e8074616dc1d6a1b697866e4ba77e087def9cefcf2427e815b9e06"
+        },
+        "checkpoints/fold1/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "171663cff0f8c0e7f54e14186ae241ca8ef3ab6413395ef63f956e7802ddc1aa"
+        },
+        "checkpoints/fold1/legacy/predictions.npz": {
+          "bytes": 102441,
+          "sha256": "87ab0967b042fac39dc21bfda914efd5823744cbda6354ece874eb6064cee3a3"
+        },
+        "checkpoints/fold1/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "50047fc9f347985dc4301b63d1ee2186c5c03bb53d4d0dc4b2a73160b40068fc"
+        },
+        "checkpoints/fold1/legacy/result.json": {
+          "bytes": 12381,
+          "sha256": "c64f496d097866be0596ca9291e041aef1a1cf8345f894ccbf94c9746ea82afc"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b01-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b01-p01.part",
+          "bytes": 7340032,
+          "sha256": "0ffdb18001c560af540a55be696c9c8376ed2cb15b5099b10e97780e96128ff5",
+          "bundle_index": 1,
+          "part_index": 1,
+          "file_id": "1RcheRmcAUMC4z1GkWmOelMfR0i_gEToq",
+          "url": "https://drive.google.com/file/d/1RcheRmcAUMC4z1GkWmOelMfR0i_gEToq/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/ec79b936-56a7-48b9-9867-c47595e322ef/uwb-semantic-code-20261004-b01-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b01-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b01-p02.part",
+          "bytes": 1007695,
+          "sha256": "0b8f8856a4643574aa984406e9233a90e0a7b68b90472aaa748302757dcc84dd",
+          "bundle_index": 1,
+          "part_index": 2,
+          "file_id": "1C4PxZddtXBOLbu0oluNXrg5tOcL_RHNo",
+          "url": "https://drive.google.com/file/d/1C4PxZddtXBOLbu0oluNXrg5tOcL_RHNo/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/6cd9a231-81e1-4d58-8928-34a954151e8d/uwb-semantic-code-20261004-b01-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held2.tar.gz",
+      "bytes": 8518435,
+      "sha256": "6109998c7b0a2758207589fcb8afd0a42fb92a22d06150f7fd8f8ef2622506da",
+      "contents": {
+        "eightfold-run/held2/selection.json": {
+          "bytes": 1587,
+          "sha256": "3c878b3e64b559ac5a718c1c90424b8be2ea79788db5fbc23cf3830d6abe958b"
+        },
+        "eightfold-run/held2/models.npz": {
+          "bytes": 38215,
+          "sha256": "ebd6b6a3b70dd439dd4fe9015750ccdaaa0feccc9e897164547f571ca8ec636e"
+        },
+        "eightfold-run/held2/result.json": {
+          "bytes": 196,
+          "sha256": "0c6e5a70af05a47debf7c3e80d0162cd591b9f9eefcc8b469ec7e62096b0afae"
+        },
+        "eightfold-run/held2/predictions.npz": {
+          "bytes": 1713681,
+          "sha256": "2cf9ef112ba4f991e48befe90219bc3c25fffea50a448dad0c6a4017aa956960"
+        },
+        "eightfold-run/held2/split.json": {
+          "bytes": 91947,
+          "sha256": "7822cca6bfd6b1f6c5af729debda778fb149ceaa60d7d46c2f937467d5e445e1"
+        },
+        "eightfold-reference/held2/features.npz": {
+          "bytes": 5583437,
+          "sha256": "7cf396883149330d09082f344f9ee899651d67fb22d5c3cc5e96c5cd064707a2"
+        },
+        "eightfold-reference/held2/predictions.npz": {
+          "bytes": 46887,
+          "sha256": "7c12ad0eb166a0784177c4f5e30794d46b965a352fb0db950db8bc2e72ac88bc"
+        },
+        "eightfold-reference/held2/split.json": {
+          "bytes": 91947,
+          "sha256": "7822cca6bfd6b1f6c5af729debda778fb149ceaa60d7d46c2f937467d5e445e1"
+        },
+        "checkpoints/fold2/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "943461cce120433f23cc11a3fb88c6047b77518ef005f0062901810a1722aa46"
+        },
+        "checkpoints/fold2/legacy/predictions.npz": {
+          "bytes": 102761,
+          "sha256": "604afa91e1222b982fb7d0bcfb0d642512206ef3296ec2bed184124f63f3f669"
+        },
+        "checkpoints/fold2/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "f7a875d525248b14c6f8bc120438f824d619f9fb45e8ac7c8bc008606001e6ef"
+        },
+        "checkpoints/fold2/legacy/result.json": {
+          "bytes": 7766,
+          "sha256": "1bcf9dcd93975e07fe0288c3f5c0e88fe8af05e0511d05a88dbcc537e1cb2c37"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b02-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b02-p01.part",
+          "bytes": 7340032,
+          "sha256": "b4c9465c7b9a42a8c512b99b804190dd575580e6bc3ff440e871f94474f724e1",
+          "bundle_index": 2,
+          "part_index": 1,
+          "file_id": "1YeDhCQxPtX2wOEBjoPObvfWa6yXHUWQ8",
+          "url": "https://drive.google.com/file/d/1YeDhCQxPtX2wOEBjoPObvfWa6yXHUWQ8/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/6a936ab2-c0dd-46d3-883e-a7b0c3d4836f/uwb-semantic-code-20261004-b02-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b02-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b02-p02.part",
+          "bytes": 1178403,
+          "sha256": "5b866b9c8cc3ba412ab6c325c649f9f577924c55d6688f14b2d4c0165d5b3619",
+          "bundle_index": 2,
+          "part_index": 2,
+          "file_id": "108xPXBrRw_iYrM5nvoZm-nNsvvVE0h1l",
+          "url": "https://drive.google.com/file/d/108xPXBrRw_iYrM5nvoZm-nNsvvVE0h1l/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/d5b83fa0-40f3-4d19-904a-da11a7e8f155/uwb-semantic-code-20261004-b02-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held3.tar.gz",
+      "bytes": 8555261,
+      "sha256": "92d8162340f2ad839fd60151a2577182fb889e9108318034f42cf8d68098824a",
+      "contents": {
+        "eightfold-run/held3/selection.json": {
+          "bytes": 1591,
+          "sha256": "d099edc18efb435fcf6e65411cff8baa766b8db5549396aa7ad96aa585a7c78e"
+        },
+        "eightfold-run/held3/models.npz": {
+          "bytes": 38209,
+          "sha256": "ccd468486b3f2430ffa88393aead7ffe6ee61d06c6def38aad2af18178a27553"
+        },
+        "eightfold-run/held3/result.json": {
+          "bytes": 209,
+          "sha256": "55dde845e8e2365afce90691a20f12198e65d4d226885cef66bd2c20d0a60460"
+        },
+        "eightfold-run/held3/predictions.npz": {
+          "bytes": 1792934,
+          "sha256": "e1316a2ac9e9a59d82616011ee2e62996bddbf20b941050e158732795801549d"
+        },
+        "eightfold-run/held3/split.json": {
+          "bytes": 91947,
+          "sha256": "120b5386c405e59580a8d319bd644dc478a566446ea831d6be2f47534660b3d9"
+        },
+        "eightfold-reference/held3/features.npz": {
+          "bytes": 5524935,
+          "sha256": "259b0794e3120ede23b4c52aab81ce677388246bd6f03bc63dff681a98fc1da0"
+        },
+        "eightfold-reference/held3/predictions.npz": {
+          "bytes": 56039,
+          "sha256": "96f06a5efae604f4d4fb6522c6eaa82396f0a8cac43a2800907ec8750dc114b7"
+        },
+        "eightfold-reference/held3/split.json": {
+          "bytes": 91947,
+          "sha256": "120b5386c405e59580a8d319bd644dc478a566446ea831d6be2f47534660b3d9"
+        },
+        "checkpoints/fold3/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "fa22efb631361593eeb5af7012b031bbfc71b32f20dcd314cb960490041d295c"
+        },
+        "checkpoints/fold3/legacy/predictions.npz": {
+          "bytes": 111978,
+          "sha256": "f22a024cfb81a24199b43e8af5ca9fb4b49527c6c9385d851bf113d64046b9f3"
+        },
+        "checkpoints/fold3/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "ce20d6110fafc6d1877dfea94bbb71f767625bd815c537b7bcbafc27ed135433"
+        },
+        "checkpoints/fold3/legacy/result.json": {
+          "bytes": 8982,
+          "sha256": "aa61a8a82eeeee83d21c31256d4cd0aded1a7148b2328e04eaa9480dbc56aa28"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b03-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b03-p01.part",
+          "bytes": 7340032,
+          "sha256": "15e36dadafbb0729b41cf81af9d74c11f59b7a40ea6350c227ddc68e9a5bac28",
+          "bundle_index": 3,
+          "part_index": 1,
+          "file_id": "1-QI-oN5OExhOawxgZDR-FMz70lWkVkz6",
+          "url": "https://drive.google.com/file/d/1-QI-oN5OExhOawxgZDR-FMz70lWkVkz6/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/a2af0759-1f5f-4142-bbde-8c2281a702ad/uwb-semantic-code-20261004-b03-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b03-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b03-p02.part",
+          "bytes": 1215229,
+          "sha256": "c6d4c1a508a11d2ae613207395480ab14b3a7041d6d30fcf2737333cf90615fb",
+          "bundle_index": 3,
+          "part_index": 2,
+          "file_id": "1qv9q7rN40WHw5FFcuPGpKorn981TmYVy",
+          "url": "https://drive.google.com/file/d/1qv9q7rN40WHw5FFcuPGpKorn981TmYVy/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/0cbd229d-2d17-4df5-9fe1-90320a951504/uwb-semantic-code-20261004-b03-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held4.tar.gz",
+      "bytes": 8584281,
+      "sha256": "da2d8f98896eb8c8a0e844d72935416403e7f8a77a88944d18f4b409483b933f",
+      "contents": {
+        "eightfold-run/held4/selection.json": {
+          "bytes": 1557,
+          "sha256": "b63e96bd059e432d1db615b5141a227b48942ca2f6cc25a66c2102e4da88d435"
+        },
+        "eightfold-run/held4/models.npz": {
+          "bytes": 38216,
+          "sha256": "882cb3aa8cc16846ed4a1c519572cb8fdf248553f7dd55df5497543a41184462"
+        },
+        "eightfold-run/held4/result.json": {
+          "bytes": 196,
+          "sha256": "65f64fc20f6b72f214b40a40f323dcf5403c65f69d7fc942ab185fd9bb3030a7"
+        },
+        "eightfold-run/held4/predictions.npz": {
+          "bytes": 1792914,
+          "sha256": "8e631d83d37d5a09dbd05138baf48c1cac48eb74fba74ba1eb401eb16f676f99"
+        },
+        "eightfold-run/held4/split.json": {
+          "bytes": 91947,
+          "sha256": "790a009003e26f4e052cb3fe76f754d0a147bde757d7a5007a96a1bf0c03c6d3"
+        },
+        "eightfold-reference/held4/features.npz": {
+          "bytes": 5549617,
+          "sha256": "d7241e2e9f2dc5baea3c1e7bb4b644b20ddcce382a4b1c38bd89a845f5761201"
+        },
+        "eightfold-reference/held4/predictions.npz": {
+          "bytes": 56067,
+          "sha256": "a527751069d02ae016063d7e96b144a1f8b596fde8a5db5e739d5c48d2504e6d"
+        },
+        "eightfold-reference/held4/split.json": {
+          "bytes": 91947,
+          "sha256": "790a009003e26f4e052cb3fe76f754d0a147bde757d7a5007a96a1bf0c03c6d3"
+        },
+        "checkpoints/fold4/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "f82e1fbee56680c2fd72bf7fb10438921214b14671e74ce3b7b322f8ed74ea21"
+        },
+        "checkpoints/fold4/legacy/predictions.npz": {
+          "bytes": 111880,
+          "sha256": "45e90792b16d4462188101630caf687f06a3b571e1222ad819e52697dbf0e509"
+        },
+        "checkpoints/fold4/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "dcb0e20a1d31cf3f74839d5ec95f0de1526e42c56676fff8e7a1891173613f38"
+        },
+        "checkpoints/fold4/legacy/result.json": {
+          "bytes": 8371,
+          "sha256": "f6dc606c3ed916eb3bffcfc65d9c49975026cd7036d765ca17d2d8abda115854"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b04-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b04-p01.part",
+          "bytes": 7340032,
+          "sha256": "865333c05203027d4f40d4a2dd4138fded89a1150e89827a630179746504f72b",
+          "bundle_index": 4,
+          "part_index": 1,
+          "file_id": "1Qawfdb_2AIUjM4F0nc9zk9FhsPI-Xhrd",
+          "url": "https://drive.google.com/file/d/1Qawfdb_2AIUjM4F0nc9zk9FhsPI-Xhrd/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/c8894d24-9bde-4afe-8bab-baa3e53784c5/uwb-semantic-code-20261004-b04-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b04-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b04-p02.part",
+          "bytes": 1244249,
+          "sha256": "935df76a4b5b287ad119a96997966cc192fbbc701f1bc269460e7f28bcc36a9f",
+          "bundle_index": 4,
+          "part_index": 2,
+          "file_id": "1JW1P_X7a06EQewQdijCEmuuXZSkV-az8",
+          "url": "https://drive.google.com/file/d/1JW1P_X7a06EQewQdijCEmuuXZSkV-az8/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/e5d341f8-8c80-46d4-b135-d42eacf0bc14/uwb-semantic-code-20261004-b04-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held5.tar.gz",
+      "bytes": 8521386,
+      "sha256": "d63cac51a570d2dd43c1eb75c39bd26961e0781d0fcdacefce88c12ff74ded75",
+      "contents": {
+        "eightfold-run/held5/selection.json": {
+          "bytes": 1576,
+          "sha256": "44c5539e2a525b15ffe3db67f9072724713944c9987791011d57124cedcf050a"
+        },
+        "eightfold-run/held5/models.npz": {
+          "bytes": 38260,
+          "sha256": "ab49711698485087b9e58e1a5cb1f3c6a5c9176558062f3dd9fb7f7ba562a6a8"
+        },
+        "eightfold-run/held5/result.json": {
+          "bytes": 197,
+          "sha256": "4eee6798f0eef81d371f294d651a38252637904e6579b3e9a9e0cb18fbee4996"
+        },
+        "eightfold-run/held5/predictions.npz": {
+          "bytes": 1684117,
+          "sha256": "9379658657b2055ab385cb6c1d3f5c44f0e869bdcaaf706017dd9c1df3bd8ccd"
+        },
+        "eightfold-run/held5/split.json": {
+          "bytes": 91947,
+          "sha256": "428b58c4d43052f7f916d4eeb3805c1e033579a09f63762d2261c233b19e56fb"
+        },
+        "eightfold-reference/held5/features.npz": {
+          "bytes": 5604669,
+          "sha256": "f1c98a7c2a456a7e285cc6c8873257fabf192cc3246cc036dc1a8a5680461fb6"
+        },
+        "eightfold-reference/held5/predictions.npz": {
+          "bytes": 55951,
+          "sha256": "472629a316a152ddd95c7b8c449c187fea048bc81856e24e83e3f591920724a2"
+        },
+        "eightfold-reference/held5/split.json": {
+          "bytes": 91947,
+          "sha256": "428b58c4d43052f7f916d4eeb3805c1e033579a09f63762d2261c233b19e56fb"
+        },
+        "checkpoints/fold5/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "4f96442fb208ae99a37dca469f2fe07a738e7fb43fbce33a6842adf33b231257"
+        },
+        "checkpoints/fold5/legacy/predictions.npz": {
+          "bytes": 107022,
+          "sha256": "6fafabdc79465965e695d0dabce81f9dea43aab2475703ef4669dfee46850f6c"
+        },
+        "checkpoints/fold5/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "8afef2889477ec584d523a96e51773da744e15efdca353c9d587fd30f88733da"
+        },
+        "checkpoints/fold5/legacy/result.json": {
+          "bytes": 7786,
+          "sha256": "166936234c3fa0fe750e6a1906aed7c5d0c279f047143c91cca00cc7b1ef68a0"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b05-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b05-p01.part",
+          "bytes": 7340032,
+          "sha256": "ecc656515044f2ed5a4ccbb24fcc0a0abc07980ba9380979b0ae966f6c7f402c",
+          "bundle_index": 5,
+          "part_index": 1,
+          "file_id": "1G8FhYSeG2NLaT6SirM_oFzKNkUsQO4V6",
+          "url": "https://drive.google.com/file/d/1G8FhYSeG2NLaT6SirM_oFzKNkUsQO4V6/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/258839f1-f815-4b32-bd83-c987c0579d54/uwb-semantic-code-20261004-b05-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b05-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b05-p02.part",
+          "bytes": 1181354,
+          "sha256": "48bf9753640178552f5239bf7916c56c2ceefbd4ef2eb5ca661aa032b0f0cf8c",
+          "bundle_index": 5,
+          "part_index": 2,
+          "file_id": "18OQzRVte9afMd-kKXJ8x-eYKz1rkKQ1J",
+          "url": "https://drive.google.com/file/d/18OQzRVte9afMd-kKXJ8x-eYKz1rkKQ1J/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/5fb52b08-acbe-410f-bce6-bd3374167b61/uwb-semantic-code-20261004-b05-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held6.tar.gz",
+      "bytes": 8573727,
+      "sha256": "d6ef0632e9e8376cdba4cc030e705fc0dbae162c61caf8aa23e9cc9fe421cac7",
+      "contents": {
+        "eightfold-run/held6/selection.json": {
+          "bytes": 1521,
+          "sha256": "482ccaf49e0d073b1e2e3e3fd5c5ae84c3b3229c65f5d58571257f54621a6d83"
+        },
+        "eightfold-run/held6/models.npz": {
+          "bytes": 38199,
+          "sha256": "7f74e6bbedae642374def85db88521f15703f5fda258a1e3501c95c9d530305e"
+        },
+        "eightfold-run/held6/result.json": {
+          "bytes": 209,
+          "sha256": "a32c5e7d310b0c208c89a0451d5fab36a8dc4a4b899f97c29ce931c2da344899"
+        },
+        "eightfold-run/held6/predictions.npz": {
+          "bytes": 1751786,
+          "sha256": "37a2fc30d704ae9a0d4a7452e9d9a4e54b51f17f278840835dc937666cc68526"
+        },
+        "eightfold-run/held6/split.json": {
+          "bytes": 91947,
+          "sha256": "936e9f74061775572a74d924e6a8fd7ef9373266fa2c87be6711348100ca8a1b"
+        },
+        "eightfold-reference/held6/features.npz": {
+          "bytes": 5595911,
+          "sha256": "9c8c9e25326cf1aa7d94da9afcd9819a3d8234b69f27ebbcc01275e96174c55d"
+        },
+        "eightfold-reference/held6/predictions.npz": {
+          "bytes": 51280,
+          "sha256": "99d71601145091e2d249bf8f0bfe6442347a7077b7e84e7500d02c587ce5ca33"
+        },
+        "eightfold-reference/held6/split.json": {
+          "bytes": 91947,
+          "sha256": "936e9f74061775572a74d924e6a8fd7ef9373266fa2c87be6711348100ca8a1b"
+        },
+        "checkpoints/fold6/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "8b815c608de359485677de2d2337563e92ecd5ce9251740ca0b2556e9ab55f65"
+        },
+        "checkpoints/fold6/legacy/predictions.npz": {
+          "bytes": 107071,
+          "sha256": "d7e02df9b35b5e7576d59671113f7d783025e545e3196ea1da3a021ceb37f81a"
+        },
+        "checkpoints/fold6/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "0bff24497e76bbe7739a09421a4715c1f67afa1bdaae2a01c31ea51e9c6dd060"
+        },
+        "checkpoints/fold6/legacy/result.json": {
+          "bytes": 7804,
+          "sha256": "1ae158d0eb856315c05882c9454f4fa4edf7328644044b9aee614e65284bf428"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b06-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b06-p01.part",
+          "bytes": 7340032,
+          "sha256": "e6fc86341f4c55ac4c30e9fb5fdfc7e61ecffd9600e3334291a502fdd684161a",
+          "bundle_index": 6,
+          "part_index": 1,
+          "file_id": "1V93GPw-I0hmRA07g5A9GEhwJr3a51Xry",
+          "url": "https://drive.google.com/file/d/1V93GPw-I0hmRA07g5A9GEhwJr3a51Xry/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/61d5c2f9-60c6-4a2c-a270-eb242b475e65/uwb-semantic-code-20261004-b06-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b06-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b06-p02.part",
+          "bytes": 1233695,
+          "sha256": "d864bd8f83cf6dc0b90048b82a4078a3e62d353683b70e2fe1fdea4188a17f84",
+          "bundle_index": 6,
+          "part_index": 2,
+          "file_id": "10JULPSMQ3WcufwZdRQGT70yndROfiWo5",
+          "url": "https://drive.google.com/file/d/10JULPSMQ3WcufwZdRQGT70yndROfiWo5/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/318d858a-b47c-483e-8722-71d95fbb1fd0/uwb-semantic-code-20261004-b06-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held7.tar.gz",
+      "bytes": 8630651,
+      "sha256": "50b083469e7e5ec3dac6ab5a4283179d080913ee198015c59a42c89e2c6c14a8",
+      "contents": {
+        "eightfold-run/held7/selection.json": {
+          "bytes": 1583,
+          "sha256": "66241f95c295b98d50f59100e2916a9dff7788e759db723dd78333487704040e"
+        },
+        "eightfold-run/held7/models.npz": {
+          "bytes": 38247,
+          "sha256": "57dbcc411a8908cb117091a231c85a916af3e02cbcc6977ac58e4567ed35d730"
+        },
+        "eightfold-run/held7/result.json": {
+          "bytes": 197,
+          "sha256": "7df5177380e2b166d672e23dddab4af207a2458d750f23ae10ec6c5b4f666e45"
+        },
+        "eightfold-run/held7/predictions.npz": {
+          "bytes": 1793606,
+          "sha256": "c990ccf9371a379816701bfe828fd918fc0a78be232618084628acf57dc529ef"
+        },
+        "eightfold-run/held7/split.json": {
+          "bytes": 91947,
+          "sha256": "df172a8122bba51182b83b15edd63a8591d1bd11ec54d825ce7d284bf542088c"
+        },
+        "eightfold-reference/held7/features.npz": {
+          "bytes": 5599492,
+          "sha256": "7fb00d69a99c7c5d0adeb8d5fe6677cb860fd8c073419397cdb1f4054293bfd7"
+        },
+        "eightfold-reference/held7/predictions.npz": {
+          "bytes": 56094,
+          "sha256": "a804e00c1c9f973d0f80321e5162fe567a4a1270bb036c01491c380317c77862"
+        },
+        "eightfold-reference/held7/split.json": {
+          "bytes": 91947,
+          "sha256": "df172a8122bba51182b83b15edd63a8591d1bd11ec54d825ce7d284bf542088c"
+        },
+        "checkpoints/fold7/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "8b479179320737777e36fc34bd326701b684375cc04f49035cfacd9617235e00"
+        },
+        "checkpoints/fold7/legacy/predictions.npz": {
+          "bytes": 112011,
+          "sha256": "1724d793f21fecb2b8405f1813aba35e14910638a0b172918a109aefe2ec8033"
+        },
+        "checkpoints/fold7/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "94640ca52eff05288fa738e16bf788bd173131443cdbaebb42b1cc1459c8c898"
+        },
+        "checkpoints/fold7/legacy/result.json": {
+          "bytes": 7806,
+          "sha256": "2998476e16865c885c8b40b46f50c20b4996e834412bc850bae297b1ebc2e658"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b07-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b07-p01.part",
+          "bytes": 7340032,
+          "sha256": "a6024e721087dc773aa077a7f8a744ca52f06418f2b6e72216582f8bab30b5a9",
+          "bundle_index": 7,
+          "part_index": 1,
+          "file_id": "1t3v6f2ueyJQ3kb4KSHTYFT0UE19pPNQm",
+          "url": "https://drive.google.com/file/d/1t3v6f2ueyJQ3kb4KSHTYFT0UE19pPNQm/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/292293de-b523-4dee-85b0-8d7f531c0d1b/uwb-semantic-code-20261004-b07-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b07-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b07-p02.part",
+          "bytes": 1290619,
+          "sha256": "e5f44ab57ac9ba23680051d0d69144a25ef6a6baff90a9b53e21a79df918fb22",
+          "bundle_index": 7,
+          "part_index": 2,
+          "file_id": "14wXTBC-dOOcidgo1CUjaReuTgeruhYCn",
+          "url": "https://drive.google.com/file/d/14wXTBC-dOOcidgo1CUjaReuTgeruhYCn/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/d538e29c-e7bd-4255-9c34-9fba0520ad5f/uwb-semantic-code-20261004-b07-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "held8.tar.gz",
+      "bytes": 8584769,
+      "sha256": "2fb7b80cb6375ca2dc4b0c28a27d9c5fe1a32646298766afea333ecc6d6d805f",
+      "contents": {
+        "eightfold-run/held8/selection.json": {
+          "bytes": 1555,
+          "sha256": "a0ae8e17788c12e6fe9d3472bc37157e460f0d5f7b370e4692b4449b4d6e4b7b"
+        },
+        "eightfold-run/held8/models.npz": {
+          "bytes": 38215,
+          "sha256": "0457ba36445320801dec0f46d87cb4796a1781a8ea89568bdc16dcc0c5272a5a"
+        },
+        "eightfold-run/held8/result.json": {
+          "bytes": 197,
+          "sha256": "771db18e791faf12ba88e7d938d8ed308685e15221e167e9104314962d37fedc"
+        },
+        "eightfold-run/held8/predictions.npz": {
+          "bytes": 1794227,
+          "sha256": "c5e04a659c70adb05e5cde25d241f58a431d750e8f9ff554c71948de30a0d4c6"
+        },
+        "eightfold-run/held8/split.json": {
+          "bytes": 91947,
+          "sha256": "401145a1461bd9bd021891d9f8c5b773d0febf86c5be23c616fddf8bfc9ae6c5"
+        },
+        "eightfold-reference/held8/features.npz": {
+          "bytes": 5550578,
+          "sha256": "7a252e0de8de2576543b9ba3c2fcf6844a8e6be3a69010b1c69631f6a432318e"
+        },
+        "eightfold-reference/held8/predictions.npz": {
+          "bytes": 55994,
+          "sha256": "925ea2bf5bbff18fe98f60a44ebeecbbd36558cea551b04cd5a675964e1fdc30"
+        },
+        "eightfold-reference/held8/split.json": {
+          "bytes": 91947,
+          "sha256": "401145a1461bd9bd021891d9f8c5b773d0febf86c5be23c616fddf8bfc9ae6c5"
+        },
+        "checkpoints/fold8/legacy/best.pt": {
+          "bytes": 1070029,
+          "sha256": "de5d596b30b4208ac3eaa46c79679d75e29fd5c9bd1452184c98d3b7120c4937"
+        },
+        "checkpoints/fold8/legacy/predictions.npz": {
+          "bytes": 111778,
+          "sha256": "82daaab28227a209aa539879077ec51d828e63f3e36d4eec4194fadfca87663c"
+        },
+        "checkpoints/fold8/legacy/split.json": {
+          "bytes": 91941,
+          "sha256": "cf69fa3749365f7f83585c7d0d4d70f96f93c51919a981f54ab381c1ba02d75f"
+        },
+        "checkpoints/fold8/legacy/result.json": {
+          "bytes": 10140,
+          "sha256": "3698f1b0549d143774bef8776a379c5b77cc17099c6dcb35592e62268cfa050f"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b08-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b08-p01.part",
+          "bytes": 7340032,
+          "sha256": "bf63f7368a817234f8e7b6aaf4340c0e6bdac443d4e9665d924d7e2cd21b08d2",
+          "bundle_index": 8,
+          "part_index": 1,
+          "file_id": "15bAJeEoicnYn2n1VB0Q7zQpAFST6X318",
+          "url": "https://drive.google.com/file/d/15bAJeEoicnYn2n1VB0Q7zQpAFST6X318/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/0b74d58e-2686-4fb7-86a5-cdf78070adba/uwb-semantic-code-20261004-b08-p01.part"
+        },
+        {
+          "name": "uwb-semantic-code-20261004-b08-p02.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b08-p02.part",
+          "bytes": 1244737,
+          "sha256": "719c0f8f72279799d93a64b6933547a64f22694b7664b0de67781ee4f6089cc9",
+          "bundle_index": 8,
+          "part_index": 2,
+          "file_id": "1FTM31EatBQizOf5FUzZm-ndx659aK6mu",
+          "url": "https://drive.google.com/file/d/1FTM31EatBQizOf5FUzZm-ndx659aK6mu/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/409ddf0e-b361-458d-965a-4a6251fac716/uwb-semantic-code-20261004-b08-p02.part.bin"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    },
+    {
+      "name": "common.tar.gz",
+      "bytes": 63825,
+      "sha256": "0f189b9faab04c9c810513047674d4c613cd8136d70fc19ff8d4fee1e1b5fa86",
+      "contents": {
+        "eightfold-run/IDENTITY.json": {
+          "bytes": 466,
+          "sha256": "9b2709992326602f1046ae8efcc2698014bba149c5291f3801bd9619f515b028"
+        },
+        "eightfold-run/codes.npz": {
+          "bytes": 2839,
+          "sha256": "1f5e4432229b777d58d26ce99b19a5bb7844707a90bfe4f36cb86e1c4fa82c42"
+        },
+        "eightfold-run/SUMMARY.json": {
+          "bytes": 3790,
+          "sha256": "87971741ac481e2f90635aab98906e04c07752c47f6b64c86fbacc14319e207e"
+        },
+        "eightfold-run/AUDIT.json": {
+          "bytes": 376,
+          "sha256": "290b81e8fdfecc142b5860ee46e0441bd39fb2257f47931edd32e387bfd586c2"
+        },
+        "eightfold-run/PROTOCOL.json": {
+          "bytes": 6986,
+          "sha256": "c065cbf344e23d37cdc8bbad9ea9dad79fd951b7bc7398dfdb7eadb4f2f39727"
+        },
+        "eightfold-run/FILES.json": {
+          "bytes": 4026,
+          "sha256": "6a2fbafc3278c446c0f037eb6d2b5916b964266f26dda0a65900cb0bc7114613"
+        },
+        "eightfold-reference/FEATURE_AUDIT.json": {
+          "bytes": 2960,
+          "sha256": "f6feb5a0e5ff4e4a2f3e9ad998a33c60f1fcc3c8c50f9ab48c390f17b27ebe4a"
+        },
+        "eightfold-reference/SOURCE_IDENTITY.json": {
+          "bytes": 4007,
+          "sha256": "81dbebf68b78b6db244b471fe948da916f6af257b1bcc5182afb20a83e10e1f9"
+        },
+        "eightfold-reference/FILES.json": {
+          "bytes": 2405,
+          "sha256": "4ca737c9bbf5fce6c4cc2350ec4c77b7c4bf2c1ab52788fe0edf53e001e53a9b"
+        },
+        "source-cost/IDENTITY.json": {
+          "bytes": 436,
+          "sha256": "bae0035b8d6720b4dd5df12884b7c687bd474659e3689ba98415cf032561536a"
+        },
+        "source-cost/COST.json": {
+          "bytes": 163,
+          "sha256": "70fd4a1e0f5349c03fe9843a3568b55a3ce85c383bf6935f22ab1581a66673a6"
+        },
+        "source-cost/PROTOCOL.json": {
+          "bytes": 3431,
+          "sha256": "9e1a7af72828a43afc2eaeb5c48ba66a88d2feff70c7b7bd7653a1a07f579395"
+        },
+        "eightfold-cost/COST.json": {
+          "bytes": 265,
+          "sha256": "62687976c5dc0fee59a25ff464b8ba8df9278d7369181ae394cb2e792091f42f"
+        },
+        "eightfold-cost/SOURCE_IDENTITY.json": {
+          "bytes": 4007,
+          "sha256": "81dbebf68b78b6db244b471fe948da916f6af257b1bcc5182afb20a83e10e1f9"
+        },
+        "tools/audit_semantic_code_eightfold.py": {
+          "bytes": 6722,
+          "sha256": "d84dc70c662ed4941281527f8d45809ad576dfc1c4041e9bdc1500a04e1d7e7e"
+        },
+        "tools/semantic_code_eightfold_prepare.py": {
+          "bytes": 5620,
+          "sha256": "e3031c4dd9d92e3ccc1096b9312448fa6e5c63fe9a091fbbd3b467ea785c866e"
+        },
+        "tools/semantic_code_eightfold.py": {
+          "bytes": 6457,
+          "sha256": "e4941b0f589f543e28bd6c9faac538250c0953fa9ebf462cac8e860c2e08a7d0"
+        },
+        "tools/audit_semantic_code.py": {
+          "bytes": 6792,
+          "sha256": "94304017b8092ae4108e4f934fccd00bd6024ea58fecc3d1df1a34658f8e14f3"
+        },
+        "tools/test_semantic_code.py": {
+          "bytes": 1270,
+          "sha256": "89c76acd21429706575668189c20c44b4f7f3c30a3612943127354d29ae1a1c5"
+        },
+        "tools/semantic_code.py": {
+          "bytes": 6251,
+          "sha256": "c4d54d482cc5e9b753d3ec59919eff8f40b19b9511f7b8453808d9bd0b860292"
+        },
+        "tools/second_order_core.py": {
+          "bytes": 2032,
+          "sha256": "ff1257df2a133bbbb21f6754d3ecf2e8e02d9ffcc76b1f763f08500a0f1ef98d"
+        },
+        "tools/energy_area.py": {
+          "bytes": 2315,
+          "sha256": "3fe9bd8d9755641fb2812036624170b82b6999aaccef15385389f16303012025"
+        },
+        "tools/audit_restored.py": {
+          "bytes": 8247,
+          "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+        },
+        "tools/circular_signal.py": {
+          "bytes": 15962,
+          "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+        },
+        "tools/archive_source_sam.py": {
+          "bytes": 10316,
+          "sha256": "a7ef6d78744e61b4f4b54a7c6a540ee1150075dc7fd164ced9fcb53c9616c365"
+        },
+        "research/SEMANTIC_CODE_EIGHTFOLD_PROTOCOL.json": {
+          "bytes": 6986,
+          "sha256": "c065cbf344e23d37cdc8bbad9ea9dad79fd951b7bc7398dfdb7eadb4f2f39727"
+        },
+        "research/SEMANTIC_CODE_REVIEW.md": {
+          "bytes": 3572,
+          "sha256": "ce0422d59387a67cbd34099a39a1be3c79d894ffb3842af59ab3a2a414ae7d90"
+        },
+        "research/SEMANTIC_CODE_PROTOCOL.json": {
+          "bytes": 3431,
+          "sha256": "9e1a7af72828a43afc2eaeb5c48ba66a88d2feff70c7b7bd7653a1a07f579395"
+        },
+        "provenance/cloud_20261004_semantic_code_source/IDENTITY.json": {
+          "bytes": 436,
+          "sha256": "bae0035b8d6720b4dd5df12884b7c687bd474659e3689ba98415cf032561536a"
+        },
+        "provenance/cloud_20261004_semantic_code_source/SUMMARY.json": {
+          "bytes": 3193,
+          "sha256": "5c873c1608d90871cabbeb31d855d3bad559d9d2b843e920f2e1937c4488998b"
+        },
+        "provenance/cloud_20261004_semantic_code_source/AUDIT.json": {
+          "bytes": 378,
+          "sha256": "2ed7586cc385d8dbbe97ebfa2e79491880c09e83d38094d2b9528ba1b3eca66d"
+        },
+        "provenance/cloud_20261004_semantic_code_source/RUN_REPORT.md": {
+          "bytes": 1934,
+          "sha256": "7d4a234bd60030ce9079f07424bd7b9e9a811ff5246cc2dc440e7ef183a8a713"
+        },
+        "provenance/cloud_20261004_semantic_code_source/COST.json": {
+          "bytes": 163,
+          "sha256": "70fd4a1e0f5349c03fe9843a3568b55a3ce85c383bf6935f22ab1581a66673a6"
+        },
+        "provenance/cloud_20261004_semantic_code_source/PROTOCOL.json": {
+          "bytes": 3431,
+          "sha256": "9e1a7af72828a43afc2eaeb5c48ba66a88d2feff70c7b7bd7653a1a07f579395"
+        },
+        "provenance/cloud_20261004_semantic_code_source/FILES.json": {
+          "bytes": 3106,
+          "sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca"
+        },
+        "provenance/cloud_20261004_semantic_code_source/PER_USER.csv": {
+          "bytes": 630,
+          "sha256": "d4d337df97371cbbd41870155965416ff691b3208a00c83af26c104f8f156c96"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/IDENTITY.json": {
+          "bytes": 466,
+          "sha256": "9b2709992326602f1046ae8efcc2698014bba149c5291f3801bd9619f515b028"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/RESTORE.md": {
+          "bytes": 1509,
+          "sha256": "5ed2ebc84e7e41145b370ade40b051d7b3e340a40b909293075d89ae31d7c9d3"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/FEATURE_AUDIT.json": {
+          "bytes": 2960,
+          "sha256": "f6feb5a0e5ff4e4a2f3e9ad998a33c60f1fcc3c8c50f9ab48c390f17b27ebe4a"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/FEATURE_IDENTITY.json": {
+          "bytes": 4007,
+          "sha256": "81dbebf68b78b6db244b471fe948da916f6af257b1bcc5182afb20a83e10e1f9"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/SUMMARY.json": {
+          "bytes": 3790,
+          "sha256": "87971741ac481e2f90635aab98906e04c07752c47f6b64c86fbacc14319e207e"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/AUDIT.json": {
+          "bytes": 376,
+          "sha256": "290b81e8fdfecc142b5860ee46e0441bd39fb2257f47931edd32e387bfd586c2"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/RUN_REPORT.md": {
+          "bytes": 2461,
+          "sha256": "dbcd62dffea6f093c6365392e92cc7eb8fb8a8df356f7bf645a70345c2b91aa0"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/COST.json": {
+          "bytes": 265,
+          "sha256": "62687976c5dc0fee59a25ff464b8ba8df9278d7369181ae394cb2e792091f42f"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/PROTOCOL.json": {
+          "bytes": 6986,
+          "sha256": "c065cbf344e23d37cdc8bbad9ea9dad79fd951b7bc7398dfdb7eadb4f2f39727"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/FILES.json": {
+          "bytes": 4026,
+          "sha256": "6a2fbafc3278c446c0f037eb6d2b5916b964266f26dda0a65900cb0bc7114613"
+        },
+        "provenance/cloud_20261004_semantic_code_eightfold/PER_USER.csv": {
+          "bytes": 749,
+          "sha256": "a847c59c2977cff2edca3c2184c3d26175eebca9ed8e7b5f907f69a3f360a97e"
+        },
+        "logs/uwb-semantic-code-source-20261004.log": {
+          "bytes": 1314,
+          "sha256": "86d0a3f67f1e57158fe0c5aaa67bbf6fe9cc809ebeddb2de8142c78aed4f2e52"
+        },
+        "logs/uwb-semantic-code-eightfold-20261004.log": {
+          "bytes": 1566,
+          "sha256": "4f1adad6563885d96355d20840e614029370f37c0d6a5d31c3ea04d619a870de"
+        },
+        "logs/uwb-semantic-code-eightfold-extract-20261004.log": {
+          "bytes": 136,
+          "sha256": "09e996c78204f156baca227c879e04c3cf6731ed0b8254264399459a39eac068"
+        },
+        "labels/y_clutterremoved.npy": {
+          "bytes": 76872,
+          "sha256": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd"
+        },
+        "labels/subj_clutterremoved.npy": {
+          "bytes": 76872,
+          "sha256": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+        },
+        "prior_backup/ENERGY_AREA_RECEIPT.json": {
+          "bytes": 20038,
+          "sha256": "60ec5c479d24e6569a77ef79a8a0df397891a4bb2ab63345757f86738431a0fd"
+        }
+      },
+      "parts": [
+        {
+          "name": "uwb-semantic-code-20261004-b09-p01.part",
+          "path": "/workspace/uwb-semantic-code-private-20261004/uwb-semantic-code-20261004-b09-p01.part",
+          "bytes": 63825,
+          "sha256": "0f189b9faab04c9c810513047674d4c613cd8136d70fc19ff8d4fee1e1b5fa86",
+          "bundle_index": 9,
+          "part_index": 1,
+          "file_id": "1-hVuPtirUW6O0M5m6wd5c8oBlFU4wn6s",
+          "url": "https://drive.google.com/file/d/1-hVuPtirUW6O0M5m6wd5c8oBlFU4wn6s/view",
+          "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+          "shared": false,
+          "permissions": [
+            {
+              "role": "owner",
+              "type": "user"
+            }
+          ],
+          "redownload_path": "/workspace/attachments/8b39beb7-58e9-4b1d-bf6e-0d820de4ad83/uwb-semantic-code-20261004-b09-p01.part"
+        }
+      ],
+      "authenticated_redownload_all_members_verified": true
+    }
+  ],
+  "scope": "Full six-source code readouts, full eightfold code readouts/features, original eightfold best checkpoints, code/protocol/labels/logs/cost/reports. Old six-source hidden features and checkpoints referenced by prior energy-area receipt. Raw/prepared data remain prior verified migration.",
+  "report_snapshot_note": "Archives captured before upload verification and before final strong-baseline commentary; final Git report and this receipt supersede archive report backup-pending wording. Scientific predictions/configurations unchanged."
+}

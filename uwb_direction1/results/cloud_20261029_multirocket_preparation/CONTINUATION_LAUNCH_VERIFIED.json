@@ -1,0 +1,27 @@
+{
+  "launched_at_utc": "2026-10-29T13:56:18.368129+00:00",
+  "pid": 42881,
+  "registration_commit": "015f56ddceb96e2cec0659175bf1971caef386c9",
+  "controller_sha256": "60fa91e811cf23c10f60ceef2a83ae637e54939f4d6aaf0dbc3723ca1bfa67a9",
+  "actual_process_command_verified": true,
+  "observed_state": {
+    "pid": 42881,
+    "state": "waiting_for_original_cnn",
+    "analysis_started": false,
+    "controller_sha256": "60fa91e811cf23c10f60ceef2a83ae637e54939f4d6aaf0dbc3723ca1bfa67a9",
+    "cnn_audit_started": false,
+    "multirocket_started": false,
+    "multirocket_audit_started": false,
+    "scientific_negative": false,
+    "observed_unix": 1793282178.304257,
+    "elapsed_wall_seconds": 0.001148474053479731,
+    "cnn_state_observed": "training",
+    "cnn_arm_observed": "local",
+    "cnn_epoch_observed": 5,
+    "original_worker_alive": true
+  },
+  "original_cnn_worker_pid": 42028,
+  "original_cnn_worker_alive": true,
+  "new_multirocket_real_fit_started": false,
+  "scientific_protocol_changed": false
+}

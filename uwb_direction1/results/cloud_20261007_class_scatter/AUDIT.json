@@ -1,0 +1,17 @@
+{
+  "state": "passed",
+  "artifact_hashes": 45,
+  "all_splits_and_evaluation_labels_verified": true,
+  "source_class_counts_equal_within_present_users": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "failed_attempt_predictions_unchanged": true,
+  "gate_independently_recomputed": true,
+  "fit_numerical_audit": "72 independent analytic covariance reconstructions and576 SciPy Gaussian logpdf systems were checked by runner before label evaluation",
+  "max_scipy_score_difference": 4.831235855817795e-09
+}

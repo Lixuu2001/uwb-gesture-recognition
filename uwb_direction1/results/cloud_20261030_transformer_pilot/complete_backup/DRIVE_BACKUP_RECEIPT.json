@@ -1,0 +1,171 @@
+{
+  "state": "private_readback_verified",
+  "scope": "complete_selected_and_last_model_evidence",
+  "observed_unix": 1793400304.4600108,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": true,
+  "limitations": "First snapshot supplies only initial/first-update model/RAdam/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/stopper/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. No new fit/scoring by backup.",
+  "archive_name": "transformer_complete_20261030.tar.gz",
+  "archive_bytes": 42820943,
+  "archive_sha256": "3a4ea1781c41a92eeda8bae984c7c0a0764c87e83aaf23b65ded2d64559ce9d8",
+  "tracked_payload_files": 79,
+  "members_manifest_sha256": "6ae817a17d9c1b030c3ad7e966468f73126bfcc4b4fe847615dd741d05bc48bc",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "transformer_complete_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "3dd247bca5c781a9de049a09075a6d3b886ebbb9608975ca64d5ab90b5082737",
+      "file_id": "1Zao2XdyBzcniw6D00lbJHvAJEzKjoSCs",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "transformer_complete_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "94e05f032a94170cf866f70c4631aebb56082a1fb587cf78d55f4440ca8fca3d",
+      "file_id": "1H-p86bXPhMxzkLSyTDqbg8APrLeBg40Z",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "transformer_complete_20261030.part002",
+      "bytes": 7340032,
+      "sha256": "bef4e4132f8b1bb34ff69652bb3e4bb77440b25c8737954cb91a7b0d7573cfe3",
+      "file_id": "1Dg-yGExPustd-_562V5Dt8b1Tu15hxJ3",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "transformer_complete_20261030.part003",
+      "bytes": 7340032,
+      "sha256": "90450ef753819f81abca86965de9882404c3e13cc2dd2703b9fd0f1d0e697d15",
+      "file_id": "19AXbP9WRricj0uJDwlpBsly8gkR0ibw9",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "transformer_complete_20261030.part004",
+      "bytes": 7340032,
+      "sha256": "666f545aa5f6919c754c08ad59a70ac1ca4f62dba9c8aa60571dff3df00eac7a",
+      "file_id": "1pYV7sTc5YFexWfRZRdfocAH0rjXzApss",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "transformer_complete_20261030.part005",
+      "bytes": 6120783,
+      "sha256": "8313f7ab50a92ac639307d0138cce100a327c48072be5a2495bb7b52dfce9fad",
+      "file_id": "1WiOCZiP7NqFiykh3sr9E8BjxQ1o69Cuj",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 6120783,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "archive_members": 80,
+  "standalone_complete_modelset_recoverable": true,
+  "requires_first_update_bundle": false,
+  "runtime_dependency_recovery": "96runtimepackagefiles are pinned in preregistrationGit research/transformer_screen_20261030/deps; all154scientific filehashes included; complete modelset is standalone relative to firstinsurance, not entire environment/jobresume",
+  "verified_unix": 1793403034.778871
+}

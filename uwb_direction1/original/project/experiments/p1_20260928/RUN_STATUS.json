@@ -1,0 +1,18 @@
+{
+  "multiview": "complete_8_folds",
+  "calibration": "complete_STOP_LOW_RANK_MECHANISM",
+  "report": "complete_spec_quality_tests_hashes_and_visual_QA_PASS",
+  "policy": "complete_STOP_VALUE_POLICY_MECHANISM",
+  "budget": "complete_POLICY_PILOT_WARRANTED",
+  "phase": "complete",
+  "latency": "complete_8_folds_279_clips_1953_observations_frozen",
+  "baseline": "complete_8_folds",
+  "updated_utc": "2026-09-28T17:46:54Z",
+  "final_report": "D:/uwb_gestures/experiments/p1_20260928/report_s2026_release_v2/REPORT.md",
+  "completion_record": "D:/uwb_gestures/experiments/p1_20260928/FINAL_VALIDATION.json",
+  "entrypoint": "D:/uwb_gestures/experiments/p1_20260928/README.md",
+  "code_commit": "01c9785ee47b8de784fc0efb53c307498edf5b7f",
+  "tests": {"passed": 145, "skipped": 1, "warnings": 6},
+  "scientific_outcome": "Both tested complex mechanisms failed the prespecified continuation gates; fixed real multiradar remains a candidate engineering basis, without a validated new core innovation.",
+  "remaining_required_work": []
+}

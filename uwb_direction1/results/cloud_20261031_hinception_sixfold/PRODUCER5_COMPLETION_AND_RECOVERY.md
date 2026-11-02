@@ -1,0 +1,14 @@
+# 2026-11-01 — 用户5固定100轮训练亦正常完成并进入审计，7私有块/155成员回读完成；现有完整训练模型1–5均可私有恢复
+
+本轮以最新ec571447d1f43035149264f359a587da00111853为parent，先GitHub读回四主记录，核对同一cloud实际状态，无重复下载/启动。held5原train61236已exit0/no timeout，100epoch/7200updates/460000训练出现，source strict最低trainingloss选epoch99；supervisor wall9975.716793773929/CPU9973.714665。双val+diag2300行预测冻结，不索引诊断标签；未提前评分。此前同轮已完成held4训练/7块私有完整训练恢复，故本提交只新增held5模型档，不重复上传held4或旧2/3、held1模型。
+
+原job61235自动开始fullreplay audit62381；同原held4audit61907一起运行。只读OS/state观测2026-11-01T00:50:01.741306+00:00：controller59236、job61223/61235与audit61907/62381均实际活跃，无phase transition/unverified标记；当前没有原producer训练进程。已完成producer[2,3,4,5]（新增总400epoch/28800updates/1830000appearances），已完整审计新fold[2,3]，6仍排队、failed0。held4/5审计尚无成功TERM或COMPLETE_AUDIT，不能因训练完成/备份通过称其数值复现通过。1465冻结前提再核，原100/B64/seed20261029/架构/Adam/输入/划分/gate不变，未启动zero17真实消融。
+
+使用已验证通用producer_snapshot.py --held5，仅在完成STATE与成功TERM后执行；核正确held/协议identity/100轮/7200步/460000出现及所有FILES/checkpoint/双pred SHA，复制后重核。私有held5档50097722bytes/7chunks/154payload+MEMBERS=155，owner-only文件夹元数据及prefix搜索先核→max3上传→逐文件private/parent/size/MIME→rawfetch(download_raw_file=true,include_base64=false)→立即物化size/SHA→整档和每成员全通过，未改分享/未输出认证URL。archiveSHA36432d67b96fae014ee0733f8f9dc0e7ffc7c24994cf8aefc6b1ffc9a00ab571，membermanifestSHAcace9a9f3866548548ac63a793199637cc723e993292bdd5bc6dc9ec53bdea04，receiptSHA023774868443d98d7b56318c1ea8f4d6c74365bc3e4e7545c817a6041ff65b44。
+
+恢复scope=held5_training_complete_producer_recovery_no_numeric_audit_claim，含initial/first/best/last/final model/Adam/BN/metrics/callback/RNG states、nativebest/last、准确IDs/logs/双pred及train TERM；numeric_audit_certified_by_this_snapshot=false、all_completed_models_included=false、complete_modelset_verified=false。raw/maps/runtime另恢复，不入档/Git；真实ID/model始终私有。这是单producer字节恢复，不是source6完整模型集/审计成功/准确率贡献/整jobresume。
+
+索引producer5_recovery/CLOUD_DOWNLOAD_INDEX.json，完成metadata/TERM在producer5_training/。新增producer_recovery_tools_20261101/RECOVERY_COVERAGE.json梳理已验证私有恢复覆盖：held1完整模型+audit7块；held2/3完整producer14块加audited23_first45补充审计引用；held4完整producer7块；held5完整producer7块。**完整训练模型1–5有私有路径，6尚无模型，所有source6完整模型验证仍false。** 索引和receipt保留明确scope，不能把旧pending archive的原描述篡成audit已通过；新增独立audit证据通过引用链对应旧相同模型bytes。
+
+后续继续现有4/5audit，任一成功后controller自动推进6，不手工重启或提前复制“完成6”模型。5新fold全部双预测冻结/fullaudit成功→aggregate统一评分→完整六模型私有回读后发真实source6比较；此前不根据中途分数改变方法/seed/epoch等。7–8标签不用于新方法选择，所有source历史开发均探索性，暂无新source6 accuracy/八折/原创结论，目标未达，原自动接续保持。
+

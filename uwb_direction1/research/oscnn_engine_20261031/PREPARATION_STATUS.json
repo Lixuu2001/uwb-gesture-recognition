@@ -1,0 +1,28 @@
+{
+  "state": "generic_engine_synthetic_semantics_and_guard_tests_pass_not_UWB_entry",
+  "author_source_commit": "f70626d3c4aad70a76ba7b4745f556df01044279",
+  "source_preparation_sha256": "36531a02d42a8a63f27294984a36b9fdaeeba30c2da7c801497d53e01fcb2de5",
+  "synthetic_fixture": {
+    "seed": 19,
+    "train_records": 32,
+    "validation_records": 19,
+    "channels": 567,
+    "length": 90,
+    "classes": 12,
+    "source_batch_argument": 16,
+    "effective_batch": 3,
+    "epochs": 2,
+    "periodic_evaluation": 1
+  },
+  "readiness_tests_passed": 4,
+  "observer_identity_tests_passed": 2,
+  "current_prior_blocked": "Previous full replay audit is not complete; no new config/cost/fit",
+  "formal_cost_gate_run": false,
+  "real_UWB_configuration_selected": false,
+  "real_UWB_values_labels_or_fit": false,
+  "real_UWB_runner_and_complete_auditor_implemented": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.3.5",
+  "base_packages_modified": false
+}

@@ -1,0 +1,183 @@
+{
+  "state": "private_readback_verified",
+  "observed_unix": 1793335248.9145403,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "folder_owner_only": true,
+  "manifest": {
+    "state": "completed_epoch_snapshot_local_verified",
+    "observed_unix": 1793335064.7758,
+    "run_directory": "run02",
+    "arm": "timemil",
+    "completed_epoch": 43,
+    "selected_epoch_at_snapshot": 41,
+    "optimizer_steps": 3182,
+    "current_frozen_hashes_verified": 16,
+    "audit_hashes_verified": 4,
+    "finite_model_and_optimizer": true,
+    "model_and_optimizer_load_verified": true,
+    "wavelet_storage_aliases_preserved": true,
+    "rng_states_preserved": true,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "real_training_updates_performed_by_backup": 0,
+    "real_model_forward_passes_performed_by_backup": 0,
+    "raw_radar_arrays_included": false,
+    "source_maps_included": false,
+    "gap_arm_included": false,
+    "scientific_protocol_changed": false,
+    "original_failed_attempt_preserved": true,
+    "recovery_limit": "Recovery materials only. Current run_pilot.py intentionally refuses existing run directories. No production resume entrypoint is implemented/tested by this snapshot. If interrupted, inspect receipts and implement same-trajectory epoch-boundary recovery under remaining cumulative compute; do not restart/resample or select a new configuration.",
+    "input_recovery_index": "GitHub uwb_direction1/migration/20260930/CLOUD_DOWNLOAD_INDEX.json; source maps regenerate with original RMS/reshape and exact IDs.",
+    "scope": "Partial TimeMIL checkpoint preservation; neither full pair completion, diagnostic accuracy audit nor originality evidence.",
+    "archive_name": "timemil_run02_partial.tar.gz",
+    "archive_bytes": 32449815,
+    "archive_sha256": "88068ed049614a5fc0db43dfd83a189160dc433b8383018b6de0d9a2dd9e44bb",
+    "tracked_payload_files": 115,
+    "members_manifest_sha256": "2349165ea1baf3f9f389f3898b57b8f3e4a6dc19e3c24a95f277af1f6cacb2aa",
+    "chunks": [
+      {
+        "name": "timemil_run02_partial.part000",
+        "bytes": 7340032,
+        "sha256": "8fe5234d8fa0c5ca9f262c3e26232c3e72d7c9063a74de7813c483c6fbc9da9b"
+      },
+      {
+        "name": "timemil_run02_partial.part001",
+        "bytes": 7340032,
+        "sha256": "85129861a4b07a88466e97318236861001e851c8acd0d0a8ff95dfa75d51b34b"
+      },
+      {
+        "name": "timemil_run02_partial.part002",
+        "bytes": 7340032,
+        "sha256": "1ce5e36d8077dc7bddcdd1ac74745f234b2cf7daf83514868afad3a464daaff2"
+      },
+      {
+        "name": "timemil_run02_partial.part003",
+        "bytes": 7340032,
+        "sha256": "48a544f0b29022e02075a467cab8ef5eee92887a6acd9e16239c4e0a4479d740"
+      },
+      {
+        "name": "timemil_run02_partial.part004",
+        "bytes": 3089687,
+        "sha256": "ea6d1b7bca61cc18bd4cae82cb124cef617eabba6c026f79c6cb66538bab6791"
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "file_id": "1leBzWeHiidj_Ant_fe8PtX2PpsfrMqIU",
+      "name": "timemil_run02_partial.part000",
+      "remote_name": "timemil_run02_epoch43_20261030.part000",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_partial.part001",
+      "file_id": "1AA7Z58O4LMDQx1lbZoAMegPBHoZ7cWGU",
+      "remote_name": "timemil_run02_epoch43_20261030.part001",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_partial.part002",
+      "file_id": "1aFRQ-L0kO7U8iruT4HJGc9B4CMMrOOL8",
+      "remote_name": "timemil_run02_epoch43_20261030.part002",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_partial.part003",
+      "file_id": "1cRIPsOtFCM9XrzgMh3h1wdr4f8NBCHbd",
+      "remote_name": "timemil_run02_epoch43_20261030.part003",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_partial.part004",
+      "file_id": "1zgpIyMdeYSlMpRowKc8wkoki-X9YsFeg",
+      "remote_name": "timemil_run02_epoch43_20261030.part004",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "3089687",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    }
+  ],
+  "verification": {
+    "state": "remote_archive_and_all_members_verified",
+    "archive_sha256": "88068ed049614a5fc0db43dfd83a189160dc433b8383018b6de0d9a2dd9e44bb",
+    "chunks_verified": 5,
+    "tracked_payload_members_verified": 115,
+    "archive_members": 116,
+    "completed_epoch": 43
+  },
+  "full_study_complete": false,
+  "production_resume_entrypoint_implemented": false
+}

@@ -1,0 +1,9 @@
+# ResNet完整网络CPU100：源内92.1667%，关闭确切配置
+
+预登记8193a0ecb65bf2fa8c403271e7597d89403f9d0a、协议cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca之后仅一次实际训练。100完整轮/7400更新/470000出现，原最小训练loss选epoch75；完整重放审计val macro94.9%、held1 macro92.166667%，同source reference98.666667%，差−6.5百分点，未过+.5pp注册门槛，close_exact_configuration，不扩八折、不调seed/轮数/批量救援。此负结果限于固定nativeKeras CPU100适配，不否定未跑的作者1500轮TensorFlow配置。
+
+审计通过1381 artifact SHA（含1358科学/源码/准备/runtime/prior冻结项），重放全部7400更新/loss/470000实际IDs、100轮native训练/validationmetrics/trainlossbest/ReduceLR、initial/first/best/last全模型/Adam/BN/metrics/callback/allRNG、两原native.keras权重/优化器、6900RMS生成式和2200最终probabilities/predictions。实际auditSHA4e18ca0c7a61bbf3794e45db8da5152ac8ed5114383fd2bafaab0c4042041c49，状态/输出逐位，macro仅原有1e-12归约容差。训练TERM3204.387117wall/3204.003014CPU，audit TERM3096.722227wall/3096.273653CPU，均exit0/no timeout。未重启训练/审计。
+
+完整私有归档57277242字节/8块/81payload+manifest82，SHA04093604d34310530b64c6c613b056a127560c972236af60fe673908223b711e；owner-onlyfolder/chunks/parent/size/MIME、authenticatedrawfetch(download_raw_file=true,include_base64=false)立即物化size/SHA、8块重组及所有81payload验证通过。回执SHA27463191f28795104b2cf9ec3dd76ef9b33d90bd0b04681fef0a0049a79b2f42，complete_backup/DRIVE_BACKUP_RECEIPT.json。完整模型集独立于首步保险恢复；runtime10wheel/1302files/base环境另外预登记固定，非整环境或整作业resume。原数组/maps不在包中，模型/实际IDs保留私有，不入Git。
+
+八用户历史开发使源结果探索性，不称独立test/旧八折/原创贡献，7–8labels未用于新选择。准确率提升和原创目标均未达，既有自动接续保持。下一OS-CNN在本次完整审计/私有收尾/close后按提前成本规则固定CPU100，完整作者模型/B16/原last选择保留；真实入口/完整auditor/guard已实现，必须远端预登记读回后才一次真实fit。该项准备或成本通过不是提升证据，不虚称后台已跑。原789源码不改，无原数据重下或Windows依赖。

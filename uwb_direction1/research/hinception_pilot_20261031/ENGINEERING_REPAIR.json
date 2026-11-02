@@ -1,0 +1,12 @@
+{
+  "state": "pre_UWB_guard_order_repair",
+  "failure": "Synthetic bad-previous-state fixture reached new cost check before rejecting incomplete previous state; KeyError epochs instead of intended AssertionError. Other five checks including full native model/callback/RNG replay passed.",
+  "repair": "Check supplied previous state/closure fields before reading fixed cost selection keys. No source architecture/epoch/batch/seed/normalization/gate changes; no real UWB data touched.",
+  "attempt01_source_sha256": "798a338e9c2ee7ab81b9e60af4bb6ed92bff8d677f40508b5ee1a04273e54793",
+  "attempt01_log_sha256": "fd314f3633a75529e3cf1472508928bd906986c635fdcb9374c348bd8359f610",
+  "repaired_source_sha256": "0748279d54e0793d31187f2bd448eb1695d18901e6519c0ead4f1eb6aed879d3",
+  "real_UWB_values_labels_or_fit": false,
+  "final_guard_tests_passed": 6,
+  "final_guard_log_sha256": "c0b65c0f6164b4d5402ef138e6d48c840c8996a3defdf8192e9fbc06b30728e6",
+  "postprocess_tests_passed": 3
+}

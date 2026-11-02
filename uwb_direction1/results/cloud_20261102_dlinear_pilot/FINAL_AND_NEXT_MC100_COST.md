@@ -1,0 +1,15 @@
+# 2026-11-02 — DLinear完整默认真实实验失败关闭并完整私有保存；下一项MC100实现/合成验证与成本预登记
+
+DLinear真实预登记6b6b03c14b9a7cccbae69c8b0c37f0c31d759fa6（父05c74f2033519ea8e6e977b1d7cf8a3326647086）40文件逐字节回读、force=false及head核对后才写marker/Popen一次。控制器73772/训练73773已完成默认全部10轮/1470更新/47000训练出现，selected10；训练exit0无timeout，wall130.0380151909776/CPU129.970473。全审计73814 exit0无timeout，wall120.49717147299089/CPU120.469892；全部1470更新、10轮、每批精确ID/loss/clip前norm、原生shuffle/globalRNG、源RAdam、双source2验证、early/tie状态、初始首步best/last/final完整模型/优化器/模式/RNG、3份native权重/两组ID和logits逐位重放，6900source rawRMS/cache/独立FP64通过。审计SHA2ce60477b8c9d19c0693f5a6ac7b83866db1b13cd23b878f25f3c15401244bdf，不读诊断标签。107冻结依赖与科学代码/测试/日志未改写重跑。旧控制器退出成为zombie，不是后台训练。
+
+初始首步9311475字节/2块/74成员保险已owner-only metadata/rawfetch/整包/成员验证，scope initial_first_only_not_latest_or_complete，archive dabe9dc8fe178379ac79b816c306da53e1520bd91c1c1900452893eab062f670，receipt b1078b03872efbaf31338d1dce4e64506b4571a4be56608857f8349180ee876c。范围不混同最终模型集。完整已审计包37473713字节/6个选定唯一分块/94payload+MEMBERS共95成员在评分前全部owner-only元数据、rawfetch(download_raw_file=true,include_base64=false)、立即size/SHA物化、顺序整包与安全唯一成员核验通过，无本次上传错误/重试，最多3并发。完整archive SHA c48731961e128d234f4335730a35c81190d63d6ba84de09cc0085fe17551f436，receipt SHA ea7c8c98d1f5456776e4ec527450c24fa05f5cb92d6ce199ca5d243ff1ac9bd3。索引results/cloud_20261102_dlinear_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json；scope complete_audited_DLinear_default10_max_earlystop_modelset。raw/maps/runtime另恢复，不称全任务自动resume。controller STATE保留原未评分快照，以本条和SUMMARY为最新关闭状态。
+
+之后冻结finalize仅执行一次且exit0：validation macro33.9000%，diagnostic macro16.6667%，固定同ID TimeMIL98.6667%，差−82.0000pp，未过+.5pp/1e-12门槛。关闭确切默认10/B32/patience3/RAdam.0001/seed20261029配置，不改学习率/轮数/seed/输入补救，不进source6。仅这是确切分类迁移配置的负结果，不否定DLinear原预测论文。用户7–8标签未用于新选择；历史八用户开发使此为探索性，非独立或八折提升。没有准确率提升/原创贡献证据。
+
+下一项选MC dropout已发表推理估计器：Gal&Ghahramani ICML2016 PMLR48:1050–1059，https://proceedings.mlr.press/v48/gal16.html；主文3–4与5.2已读，100次随机前向/平均输出有直接依据，不声称新方法或真实贝叶斯校准保证。最新四记录无执行，原789/本地仅proposal/其他radar README先例提及，无等价MC100 TimeMIL实验的有界证据。旧TimeMIL64 MIL-vs-GAP机制门槛失败保持关闭；本方法只复用其不可变validation选中epoch41权重，不重训或改seed/epoch/optimizer救援，研究一种不同的已发表推理规则。
+
+固定未来MC100/B64/base seed20261029/原3个p.2 dropout节点，其他模块包括全部BN eval，完整850973参数TimeMIL128/90x567/原3视图189range不变。旧OvR BCE对应mean(sigmoid(logits))逐类平均再argmax；不称分类softmax后验或已校准概率。固定val/diag角色seed+101/+102，规范批顺序，无每批重置seed、rate/T/seed搜索。全部100xNx12 logits与每次RNG状态应保留；两组输出/完整数值审计及私有恢复后才可一次固定参考+.5pp gate，7–8标签不用。
+
+实现完成，完整随机初始化TimeMIL和BN/toy合成MC100 checks通过：仅3Dropout节点激活、BN/全部权重不变、caller混合modes/globalRNG及异常恢复、同seed精确重复、独立显式100次随机前向逐位一致、独立NumPy sigmoid/均值一致。未加载训练UWB检查点或读取新值/标签/拟合。本提交只登记一次完整B64随机模型CPU成本：8forward/3全输出保存/3完整状态保存，2*(3535*maxforward+3*maxoutputsave+3*maxstatesave)+120，预算43200s/14GiB，无T/rate/B/seed降配救援。5项边界检查通过，76依赖冻结；全部远端逐字节回读、force=false核对后才实际计时。成本通过仍需另实现/冻结/登记真实推理runner/auditor和恢复流程，不能冒称已开始后台真实训练。
+
+此前TCN完整20/B64诊断92.0833%、差−6.5833pp已完整私有保存后关闭；t-LeNet完整1000/B256估21.40h只资源关闭，没有真实准确率负结果；MiniRocket全默认/ResNet1500资源既有历史未重复。目标未达，准确率和原创贡献分别累积；既有接续6abc995e1620819195fcff77dbd81118保留不重复、不暂停。Windows未参与，原789/实际样本ID值/原数组/模型二进制/私有原作者源码不入Git。下次先查进程/检查点/成本记录，不重复下载、Popen或冻结诊断评分。

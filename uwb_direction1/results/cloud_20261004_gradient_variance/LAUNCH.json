@@ -1,0 +1,15 @@
+{
+  "pid": 3886,
+  "started_unix": 1791098743.0046506,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-temporal-publish-20261003/uwb_direction1/tools/source_gradient_variance.py",
+    "--protocol",
+    "/workspace/uwb-temporal-publish-20261003/uwb_direction1/research/SOURCE_GRADIENT_VARIANCE_PROTOCOL.json",
+    "--out",
+    "/workspace/uwb-gradient-variance-source-20261004"
+  ],
+  "log": "/workspace/uwb-gradient-variance-source-20261004.log",
+  "preregistration_commit": "033a1521c89bb7d2daf09e17e40b601a6f66e48b",
+  "training": false
+}

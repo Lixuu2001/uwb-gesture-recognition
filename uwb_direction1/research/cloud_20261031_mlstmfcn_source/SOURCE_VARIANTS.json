@@ -1,0 +1,41 @@
+{
+  "paper": {
+    "epochs": 250,
+    "batch_size": 128,
+    "LSTM_cell_choices": [
+      8,
+      64,
+      128
+    ],
+    "grid_reproduced": false,
+    "normalization": "training statistics applied to train/test",
+    "selection": "minimum training loss"
+  },
+  "reviewed_source": {
+    "gesture_phase_generate_model": {
+      "LSTM_cells": 8,
+      "training_epochs": 1000,
+      "batch_size": 128,
+      "main_uses_nonattention": true
+    },
+    "action3d_generate_model": {
+      "LSTM_cells": 8,
+      "main_uses_attention128_with_stride2": true,
+      "training_line_commented_epochs600": true
+    },
+    "uwave_generate_model": {
+      "LSTM_cells": 128,
+      "main_uses_attention128": true,
+      "training_epochs": 500
+    },
+    "helper_default_epochs": 50,
+    "helper_normalize_timeseries_default": false,
+    "helper_selection_monitor": "loss",
+    "helper_reduce_lr": "plateau patience100,factor1/cuberoot2,minlr1e-4",
+    "classweight": "N/(number_train_classes*train_class_count)",
+    "legacy_classweight_array_needs_explicit_native_mapping": true,
+    "fixed12_taxonomy_required_for_future_UWB": true
+  },
+  "actual_UWB_configuration_or_epoch_batch_seed_selected": false,
+  "synthetic_only_variant": "documented generate_model LSTM8 with full128/256/128 convolutions and both SE blocks; not a reduced128-cell Uwave model"
+}

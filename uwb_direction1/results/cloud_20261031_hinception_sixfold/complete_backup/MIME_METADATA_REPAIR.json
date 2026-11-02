@@ -1,0 +1,13 @@
+{
+  "state": "metadata_MIME_detection_repair_no_science_change",
+  "original_error_file": "ERROR_004_1793526044176.json",
+  "file_index": 4,
+  "actual_stored_mime": "image/jpeg",
+  "owner_only_parent_size_verified": true,
+  "exact_raw_size_SHA_verified": true,
+  "explanation": "A later byte chunk of a gzip stream can be classified as image/jpeg from its leading arbitrary bytes. MIME is content detection, not an archive validity or sharing signal. Fetch all non-native stored file types as raw bytes; retain strict privacy/parent/size checks, reject Google native/shortcut MIME, and require exact raw size/SHA and complete reassembled archive/member verification.",
+  "same_existing_file_ID_reused_no_duplicate_upload": true,
+  "successful_readback": true,
+  "training_audit_score_or_scientific_configuration_changed": false
+}
+

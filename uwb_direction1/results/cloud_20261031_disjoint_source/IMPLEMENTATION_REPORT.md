@@ -1,0 +1,15 @@
+# 2026-10-31 — Disjoint-CNN default2L implemented; synthetic evidence only
+
+Full author DCNN_2L (four64-filter Conv2D layers, four BN/ELU, original Permute/pool; 2,586,956 trainable parameters) is implemented through original AST/native Keras3.11.3 Torch bindings. Twelve MIT source files at 38180ccc1f050a3fee6961f5b4ea3bc132016ab3 have Git-blob/SHA256 provenance. DOI10.1109/ICDMW53433.2021.00099 is verified through the institution's publication record/abstract; IEEE access hit a verification challenge, so full paper review is not claimed.
+
+Independent spatial-convolution/weighted-loss math, full native state restoration, native checkpoint reload, original weighted fit versus explicit steps (26 synthetic updates), val-loss callbacks/strict ties-first selection, and three readiness tests passed. The source default is the complete2L architecture,500epochs/B8 from Main, not a reduced3/4L candidate; no actual UWB budget was chosen. Old helper10/16 defaults do not override Main.
+
+An exact-equality reference assertion initially failed by3.814697e-8 because author float32-derived class weights were compared to float64 math. Original attempt/script/log are retained. Only this independent-reference tolerance changed; original class weights and exact model/state comparisons remain unchanged. No UWB failure or scientific negative result occurred.
+
+Original driver concatenates train/test labels for taxonomy and samples validation rows still used for training; a future registered UWB runner must instead use fixed12 classes and independent source validation. Original val_loss weighting/selection must be preserved and user7–8 labels excluded. Unused3/4L graph bypass and incomplete README PyTorch block are documented, without silently repairing or substituting them.
+
+At the saved observation the existing real H-Inception CPU100 worker is active at epoch42/3108updates; supervisor54454/worker54456/controller54482 are alive and all1423 frozen hashes match. No training/audit/download was duplicated. Its complete audit/complete private modelset remain pending, and diagnostic labels are unread. Readiness refuses before summary access. No new method configuration, formal cost timing, UWB values/labels or fit was selected/read/launched for Disjoint-CNN. This report makes no accuracy improvement or originality claim.
+
+Next complete the existing H-Inception registered audit/private preservation/gate. A pass requires separate source confirmation; only a verified exact closure permits the next fixed cost/config/seed and remote preregistration of an actual UWB runner/auditor. This preparation has no real-data runner/auditor yet and cannot itself launch an experiment. Historical all8 development remains exploratory. User accuracy/contribution goal is unresolved; existing hourly continuation stays enabled.
+
+Code/evidence: ../../research/cloud_20261031_disjoint_source/REVIEW_AND_IMPLEMENTATION.md and PREPARATION_HASHES.json. No original789 file, raw array, real sample-ID value, model or runtime binary is uploaded.

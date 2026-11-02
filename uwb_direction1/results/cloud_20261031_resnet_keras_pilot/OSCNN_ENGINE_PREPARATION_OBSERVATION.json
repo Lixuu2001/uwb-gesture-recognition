@@ -1,0 +1,28 @@
+{
+  "state": "existing_ResNet_full_audit_running_OSCNN_generic_engine_only_prepared",
+  "observed_unix": 1793411701.555947,
+  "audit_supervisor_pid": 52682,
+  "audit_worker_pid": 52684,
+  "postprocess": {
+    "state": "completed_run_audit_running",
+    "pid": 52562,
+    "training_restarted": false,
+    "Drive_upload_or_Git_push_capability": false,
+    "observed_unix": 1793409687.5313935
+  },
+  "training_termination": {
+    "pid": 52488,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 3204.387117016013,
+    "child_cpu_seconds": 3204.003014,
+    "cpu_soft_seconds": 43000,
+    "cpu_hard_seconds": 43100,
+    "scientific_negative": false
+  },
+  "frozen_entries_verified": 1358,
+  "producer_diagnostic_scores_not_read": true,
+  "new_real_configuration_or_fit": false,
+  "OSCNN_engine_report": "research/oscnn_engine_20261031/ENGINEERING_REPORT.md",
+  "readiness_refusal": "Previous full replay audit is not complete; no new config/cost/fit"
+}

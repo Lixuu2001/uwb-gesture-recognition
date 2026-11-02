@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-29",
+  "prepared_at_utc": "2026-10-29T15:02:28.133031+00:00",
+  "candidate": "Author TimeMIL model with CPU/protocol adapters; fixed64epoch source resource pilot",
+  "paper": "https://proceedings.mlr.press/v235/chen24af.html",
+  "author_repository": "https://github.com/xiwenc1/TimeMIL",
+  "author_commit": "7542c1c275aae3a9db35ee5c9bdfc0ccf386cd5c",
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "source_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "arms": [
+    "timemil",
+    "gap"
+  ],
+  "seed": 20261029,
+  "epochs": 64,
+  "batch_size": 64,
+  "threads": 1,
+  "cpu_budget_seconds": 43200,
+  "wall_budget_seconds": 43200,
+  "cost_gate_passed": true,
+  "estimated_pair_seconds_with_margin2": 37248.23645091057,
+  "default300epoch_estimated_pair_seconds_with_margin2": 174601.1083636433,
+  "cost_decision": "Before new real-data outcomes,300epoch authorCLI pair estimate174601.108s fails12h. One fixed64epoch resource pilot estimate37248.236s passes. No epoch grid;64failure does not reject300epoch method.",
+  "preprocessing": "All189range bins in all3views; each real signed clutterremoved record/view divided by its own90x189 RMS, floor1e-8; no resizing/smoothing/fitted cross-record normalization. Reshape to90time x567view/range channels.",
+  "model": {
+    "in_features": 567,
+    "embedding": 128,
+    "n_classes": 12,
+    "dropout": 0.2,
+    "inception_modules": 6,
+    "wavelet_bases_per_layer": 3,
+    "wavelet_kernel": 19,
+    "nystrom_layers": 2,
+    "heads": 8,
+    "landmarks": 64,
+    "pinv_iterations": 6,
+    "author_parameter_storage_aliases": "wave1/wave1_,wave2/wave2_,wave3/wave3_ share storage; preserved",
+    "unused_parameters": "author alpha, unused WPE projections and norm retained; expected pattern from synthetic receipt"
+  },
+  "optimizer": {
+    "base": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "lookahead_alpha": 0.5,
+    "lookahead_k": 6,
+    "lazy_first_slow_buffer": "author rule preserved",
+    "gradient_clip_norm": 2
+  },
+  "loss": "unweighted BCEWithLogitsLoss with12-class one-hot targets, identical for both arms",
+  "augmentation": "none; p=0 allowed by paper AppendixF.3, fixed before outcomes; do not run original masking driver",
+  "warmup": "author literal0.1*MIL+0.99*GAP in epochs1..9(epoch<10); preserve source behavior rather than silently changing to paper0.01",
+  "selection": "each arm best validation-user present-class macro recall, lower BCE, earlier epoch; both prediction sets frozen before diagnostic-user labels",
+  "gate": "TimeMIL-GAP >=0.5pp AND TimeMIL >= max(previous fullCNN,localCNN)-0.5pp allows separately frozen source-sixfold design only. GAP >=max(previous fullCNN,localCNN)+1pp separately permits baseline expansion. Otherwise close exact64epoch config, no rescuegrid.",
+  "previous_controller_state": "/workspace/uwb-multirocket-20261029/continuation02/STATE.json",
+  "previous_multirocket_audit": "/workspace/uwb-multirocket-20261029/COMPLETE_RESULT_AUDIT.json",
+  "previous_cnn_summary": "/workspace/uwb-mvglf-20261029/run01/SUMMARY.json",
+  "launch": "No automatic launch added. Explicit launch.py --run after previous CNN/MultiRocket queue complete and audited only. No TimeMIL real-data fitting has started.",
+  "limits": [
+    "Published-method transfer, not originality proof or exact author/paper reproduction.",
+    "Repeatedly developed source users: exploratory, not independent validation.",
+    "Users7-8labels excluded from fitting, selection and scoring.",
+    "Author main.py uses test-set checkpoint selection and must not be run.",
+    "Paper/CLI LR, embedding and warmup mismatches explicitly declared.",
+    "CPU/device and stable optimizer serialization adapters preserve tested model/update semantics, not bitwise oldGPU parity.",
+    "Full author-model architecture at128embedding,64resource epochs, not300epoch reproduction.",
+    "Engineering/budget/numerical stops are incomplete, not accuracy-negative.",
+    "No automatic retry/resampling or postdiagnostic seed/epoch/LR/normalization rescue.",
+    "Keep raw arrays/model tensors/sample IDs private outsideGit."
+  ]
+}

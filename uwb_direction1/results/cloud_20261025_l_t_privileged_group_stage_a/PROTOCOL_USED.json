@@ -1,0 +1,130 @@
+{
+  "title": "Stage A: L/T privileged within-class subgroup feasibility screen",
+  "status": "descriptive_amendment_preregistered_not_run",
+  "date_utc": "2026-10-25",
+  "objective": "Test whether train-only L/T-derived within-class statistical strata transfer to two inner source users and contain incremental information about errors of a fixed Right-only diagnostic probe, conditional on gesture class, audit user, and a matched Right-derived stratum.",
+  "not_a_claim": [
+    "not a validated method contribution",
+    "not evidence of true kinematic or motion subgroups",
+    "not performance evidence for the historical Right-only CNN",
+    "not independent external-user validation",
+    "incremental CMI is descriptive only relative to this fixed binary Right-cluster control, not all Right-view information",
+    "the row-level shuffle reference is not inferential because trial-level exchangeability is unresolved; no p-value, significance claim, or p-value-based gate is allowed",
+    "HV7/HV8 labels are class-conditional post-fit diagnostic strata, not deployment-time inputs or independent validation labels"
+  ],
+  "data_boundary": {
+    "source_users": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "outer_test_user_sealed": 1,
+    "outer_validation_user_sealed": 2,
+    "group_fit_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "inner_source_audit_users": [
+      7,
+      8
+    ],
+    "quality_rule": "Use the canonical shared quality mask: exclude subject 6/class 3 from source rows; the known subject 2/class 10-11 contradiction is outside the source-user selection, and subjects 1 and 2 are never read for labels or radar values. Before fitting, hash each retained source row’s full three-view triplet. Any exact source alias blocks before fit; no post-result deduplication or relabeling.",
+    "ids": "Original row indices are preserved and hashed; all fitting uses only users 3-6. Users 7-8 are used only after the representations, clusters, and Right probe are frozen.",
+    "historical_use": "Participants 3-8 have prior development use. Inner source audit is not independent validation and cannot support external-user claims."
+  },
+  "frozen_method": {
+    "input": "Existing real-valued clutter-removed X, shape [N,3,90,189], with view order L,T,R.",
+    "feature": "Per-view magnitude normalization followed by fixed 10x21 block averaging to 210 dimensions; no label-dependent feature search.",
+    "subgroups": "Within each gesture class, StandardScaler and 16-component PCA are fit on users 3-6 only. KMeans K=2, n_init=10, seed=20261025 is fit once on concatenated L/T features; matched R-only clusters use the identical pipeline on R. IDs are ordered by the frozen first PCA coordinate.",
+    "error_probe": "One fixed Right-only StandardScaler + RidgeClassifier(alpha=1.0,class_weight=balanced), fit on users 3-6 only; no CNN and no tuning.",
+    "controls": [
+      "Right-only within-class groups from the same cluster pipeline",
+      "user identity and class-conditional user error information",
+      "1999 seeded random shuffles of L/T assignments within audit class x user x Right-group strata, preserving counts, reported only as a descriptive finite-shuffle reference"
+    ],
+    "primary_statistic": "Descriptive I(Right-probe error; L/T group | gesture class, audit user, Right-only group), in bits per audit sample; no inferential interpretation.",
+    "secondary_statistics": [
+      "I(error; L/T group | class,user)",
+      "I(error; Right group | class,user)",
+      "I(error; user | class)",
+      "cluster occupancy per fit/audit user and class",
+      "audit error-rate direction for the two frozen group IDs per class/user"
+    ]
+  },
+  "fixed_decision_rule": {
+    "minimum_group_support": 10,
+    "coverage_gate": "At least 8/12 classes must have both groups with >=10 samples in each audit user and in >=3/4 fit users.",
+    "cross_user_error_gate": "For at least 8/12 classes, both audit users must show the same group ID with >=5 percentage-point higher Right-probe error, with >=10 samples/group/user.",
+    "incremental_effect_gate": "Descriptive primary conditional MI >=0.005 bits/sample.",
+    "all_must_pass": true,
+    "failure_action": "Record which frozen descriptive criteria failed; do not change K, representation, split, groups, probe, thresholds, or shuffle count based on results. A non-supportive screen is limited to this frozen representation and probe and is not a general mechanism failure.",
+    "pass_action": "Label only as descriptive_screen_supports_further_design. This is not a scientific GO or validated mechanism. It only indicates that the frozen representation may merit a separately designed validation study. Do not start Stage B or a CNN from this result; require separate authorization and design review.",
+    "inferential_boundary": "No record-level permutation p-value is computed or reported. The finite-shuffle reference is not used for inference or any decision gate."
+  },
+  "identity_alignment": {
+    "within_stage_a": "Per-class group IDs are assigned by frozen training-centroid order; audit users receive nearest frozen-centroid IDs. No audit refit, Hungarian matching, labels, or cross-user reassignment.",
+    "across_outer_folds": "No group IDs are compared or pooled across folds. Stage B, if separately authorized, fits fold-local group identities from that fold's training users and reports only fold-local diagnostics; cross-fold identity alignment is not claimed."
+  },
+  "source_exchangeability": {
+    "review_state": "trial_dependence_unresolved_descriptive_only_amendment_preregistered",
+    "known_exact_duplicate_triplets": {
+      "count": 100,
+      "participants": [
+        2
+      ],
+      "separate_gesture_files": [
+        "HV_02_G11",
+        "HV_02_G12"
+      ],
+      "views_equal": [
+        "L",
+        "T",
+        "R"
+      ],
+      "all_rows_excluded_by_preexisting_quality_rule": true,
+      "included_in_stage_a_source_users_3_to_8": false,
+      "evidence": [
+        "results/cloud_20261008_paired_time_alignment/RUN_REPORT.md",
+        "original/project/experiments/p1_20260905/results/quality_audit.json",
+        "results/cloud_20261008_direct_prior_art/DUPLICATE_SUBJECT_AUDIT.json"
+      ],
+      "interpretation": "The 100 verified exact aliases are across separately named HV2 G11/G12 source arrays, not merely duplicate manifest indices. Provenance cannot distinguish repeated acquisition from upstream copying. Participant 2 is sealed validation HV2 and outside source users 3-8, so these known pairs do not directly contaminate this source split. Prior metadata review lists no exact source-user duplicates in HV3-HV8; this run also performs a pre-fit exact-triplet scan on retained source rows and blocks if any alias is found.",
+      "participant_mapping": "Participant ID 2 is the sealed validation participant HV2; source quality-audit paths explicitly name HV_02_G11 and HV_02_G12."
+    },
+    "trial_independence": {
+      "evidence_available": "The preserved manifest has participant/class counts and row indices; source code shows 100 samples in each participant/class cell. The restored cache and reviewed source manifests provide no per-trial timestamps, acquisition order, session IDs, or repeat-level grouping metadata.",
+      "status": "not_established; descriptive only",
+      "implication": "Record-level exchangeability remains unresolved. No permutation p-value or inferential null statement is allowed. The count-preserving shuffles are only a descriptive finite-randomization reference; possible dependence can affect that reference and remains a limitation."
+    },
+    "run_authorized": true,
+    "pre_run_action": "Before model fitting, scan retained source users 3-8 after the canonical quality exclusion for exact byte-identical full L/T/R triplets. Any exact alias blocks before fitting and is reported; do not post-hoc remove or relabel. Do not invent blocks from row order.",
+    "authorized_scope": "One descriptive-only Stage A run on the already restored cache; no record-level p-value, inferential significance, or scientific GO. No acquisition, CNN, grid, extra seed, or rerun."
+  },
+  "compute_budget": {
+    "environment": "5 CPU cores, about 17.7 GB available RAM, about 25.8 GB free at 2026-10-24 preflight; no GPU, no PyTorch, no active job.",
+    "execution": "Parent supervisor launches one worker through budget_exec.py in a new process group. budget_exec applies Linux RLIMIT_CPU soft=hard=900 seconds then execs worker in the same PID; a separate parent monotonic timer SIGKILLs the group at 900 wall seconds. BLAS/OpenMP/BLIS/NumExpr pools are capped at one thread before worker imports and via threadpoolctl.",
+    "hard_budget": "900 process CPU-seconds and 900 seconds wall time. Any timeout yields an aborted/inconclusive terminal status, preserves flushed partial artifacts, and is never classified as a scientific negative.",
+    "partial_artifacts": "Retained source metadata and feature memmap flushed every 32 rows; exact source-triplet hashes/audit saved before model fitting; fitted per-class transforms/centroids/remaps and Right probe state atomically checkpointed; descriptive shuffle-reference values flushed every 50 draws. Parent preserves the last phase/progress and all partial artifacts.",
+    "run_manifest": "Store amended protocol/code hashes, restore receipt and transfer manifest metadata hashes, selected-source raw triplet digest, Python/platform/numerical-library versions, observed thread pools, model states, descriptive shuffle-reference statistics, and hashes of run artifacts outside Git.",
+    "cnn_training": "none"
+  },
+  "prior_art_boundary": {
+    "known": [
+      "GEORGE: feature-space subclass clustering and group-robust mitigation without subclass labels.",
+      "Domino: cross-modal embeddings plus error-aware mixture-based systematic-error slice discovery.",
+      "EIIL: infer partitions informative for invariant learning.",
+      "AGRO: adversarial error-prone group discovery coupled to robust optimization.",
+      "LUPI and multimodal privileged learning: extra views available during training but absent at inference.",
+      "Xue et al. 2026: same-corpus X4 single/dual/tri-view recognition and fusion.",
+      "Project P1: cross-user multi-view teacher distillation into Right-only student; multiview OOF-shape control did not beat Right-only OOF or global smoothing."
+    ],
+    "candidate_difference": "Only the untested empirical question of whether L/T defines train-only, class-conditional strata that transfer across source users and add Right-error information beyond a same-pipeline Right-only grouping/user control. The group discovery, privileged information, and robust weighting algorithms are not claimed as new.",
+    "novelty_status": "not cleared; bounded literature search only"
+  },
+  "interpretation_boundary": "No significance or inferential claims. Any CMI is descriptive relative only to the finite binary R-group control, not all R information. HV7/HV8 labels are post-fit class-conditioning diagnostics, not deployment inputs; those users have prior development use and are not independent validation."
+}

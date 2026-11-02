@@ -1,0 +1,12 @@
+{
+  "state": "completed_readonly_artifact_checker_process_metadata_interface_repaired",
+  "failure": "Current managed procfs exposes no /proc/PID/task/PID/children. First verifier completed hashes/ID/selection checks, then failed at process relationship lookup.",
+  "attempt01_source_sha256": "6fe77ccef51b3ad887daf5d437adf14769019d512da788c69225932ed84923cf",
+  "attempt01_log_sha256": "81bb4ee9f5081502d582b730c82a034bc774f46aa4a77fc5d6f0c0474e98cd70",
+  "change": "Only process relationship discovery changed to ps --ppid PID -o pid=,ppid=,args=; retain explicit parent/command/one-child checks.",
+  "scientific_checks_or_training_audit_changed": false,
+  "new_forward_fit_or_replay": false,
+  "attempt02_source_sha256": "f36a39888a0cbef382c2f20efe7f7c26855c02ecb29eb323dfc3587ce6916b2d",
+  "attempt02_log_sha256": "143ff852bef6862197982199b117f3523108a8c574e99ea1261b893d4cf03200",
+  "result_sha256": "26345a7b56b102273e734c96575e89617cd3e1524aa5874b634e84c0ade9cb15"
+}

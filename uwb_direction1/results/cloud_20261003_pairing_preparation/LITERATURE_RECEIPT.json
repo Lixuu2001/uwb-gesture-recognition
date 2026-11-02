@@ -1,0 +1,36 @@
+{
+  "main_paper_fulltext_read": false,
+  "sources": [
+    {
+      "repo": "changdaeoh/multimodal-mixup",
+      "path": "README.md",
+      "sha": "9076a44ffa6051e5d3c3731ebc99a4ddf9cd3bc2",
+      "scope": "full README including embedded OpenCLIP loss example"
+    },
+    {
+      "repo": "changdaeoh/multimodal-mixup",
+      "path": "loss.py",
+      "sha": "16537669a32b1c903641f9115e92ad92fd389fea",
+      "scope": "full file"
+    },
+    {
+      "repo": "changdaeoh/multimodal-mixup",
+      "path": "main.py",
+      "sha": "6df3ad6b5c75e4f7333c3557d678baaf6ebe456d",
+      "scope": "sph_inter and do_train sections only"
+    },
+    {
+      "repo": "RH-Lin/m3ixup",
+      "path": "README.md",
+      "sha": "ae9e510814aab8816a3374501c8f68fabeaf15b5",
+      "scope": "README and full tree; no training implementation seen"
+    },
+    {
+      "repo": "HongyuZhu-s/MS-Mix",
+      "path": "README.md",
+      "sha": "3bfa09aca7997a3ed6c24b88e101abaa4ee58ac0",
+      "scope": "README only; paper publication and code not verified"
+    }
+  ],
+  "copies_of_external_code_used_in_new_training": false
+}

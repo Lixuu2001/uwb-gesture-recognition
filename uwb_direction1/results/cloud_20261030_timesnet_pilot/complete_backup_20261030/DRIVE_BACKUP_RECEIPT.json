@@ -1,0 +1,379 @@
+{
+  "state": "private_readback_verified",
+  "scope": "complete_selected_and_last_model_evidence",
+  "observed_unix": 1793389304.2898037,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": true,
+  "limitations": "First snapshot supplies only initial/first-update model/RAdam/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/stopper/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. No new fit/scoring by backup.",
+  "archive_name": "timesnet_complete_20261030.tar.gz",
+  "archive_bytes": 103133259,
+  "archive_sha256": "212c9069e494cc989977fa8bb7998183cd815779fe08f1d2cc2659f222c520a5",
+  "tracked_payload_files": 75,
+  "members_manifest_sha256": "1976b0bda32c573608e11df6128be928dd290b6c52edd0bb66b36a113e57e9b8",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "timesnet_complete_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "1955e85ae2ef6e2fd973fafb5ba30ba92bd4bd6af25171de98b5e297c5cbcb9a",
+      "file_id": "1PCW3WPRuN6GiC6Udj0d8c5-TKzaU1xOQ",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "452a6caa847886f1616590c9aab6136ce39ecf8bc8df2fa34a2deaeeb94d10a6",
+      "file_id": "1U8j4WuMq8ZVGMwLXn_WuXM0cWLWB8zUF",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part002",
+      "bytes": 7340032,
+      "sha256": "d7e27a7eba4d8ff1b786e305f49f685648a4243c660da7b74b0560491e97dced",
+      "file_id": "1ENFyJTehbNkA_xy4ruuSWP5FT70O_51m",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part003",
+      "bytes": 7340032,
+      "sha256": "1b2219d443a3e7768a2b4e7283d1ca09231aad47a8b26ebcd2d3f51d8e8d3ae3",
+      "file_id": "1mJxRm95yMdwYPVPeaSNksn_E6bnPrWuO",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part004",
+      "bytes": 7340032,
+      "sha256": "91103bcabcaf90829b889bf3a968a10bc4a62b6603e7b5a5de322e64d1b71e13",
+      "file_id": "1InCXoseJbPebv4c8xf8iM6d6RkEDkqgy",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part005",
+      "bytes": 7340032,
+      "sha256": "55c3a7feee0f182d41b27abcdfcccbaa0d62d1915ed1becd2cc07f6bc7a3ae60",
+      "file_id": "1z7zgaFdj_9zKhTMknJN0sdhVrinsCVkd",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part006",
+      "bytes": 7340032,
+      "sha256": "d1dd021c775ea96dbe2683e06977701ee658cec037337afa12082368a5af0a15",
+      "file_id": "148wrCOtd-itwUSZXhMd_6V4MJgQVkHEi",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part007",
+      "bytes": 7340032,
+      "sha256": "ae727dbbf12e3a857e687a05125f594ee01230c331534ad00c3e6006aa77bfab",
+      "file_id": "1OQXVR1tfMQuOnGtyh58f4a4gZomMsj0s",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part008",
+      "bytes": 7340032,
+      "sha256": "0eeb26dd73116a587a5e80c8e14a211d9f0b88ed6cc8066eb16012c731499bb8",
+      "file_id": "1p7lv4y8Cmrp72lieuziSbf0s1nSnV6Iq",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part009",
+      "bytes": 7340032,
+      "sha256": "2eab81735790ada1a4a8caf1792d43acc2676c33dcf7d4d4f8f15a1fc3997714",
+      "file_id": "1WbkrzC9ePchBnmIx8C33NIiulwLLx9Ni",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part010",
+      "bytes": 7340032,
+      "sha256": "6be0504cf10e75b2047a1e1de940de96c4d5936a6d2508c0e3582403433c48ba",
+      "file_id": "147lmAzr3ALSfZHH7jBI5uaquQM1M0wIR",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part011",
+      "bytes": 7340032,
+      "sha256": "99983a54bbb1d4394423b734996d5ef922be837e9cfb8e20ff3f44011ade6ad2",
+      "file_id": "1OFJyWnjSUvZhUrIrhXjC2IkqSdGH3BtR",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part012",
+      "bytes": 7340032,
+      "sha256": "ee1c029c466d54bb7c6593cecd259b178ed5931532ec7a909914ef4b0414dc82",
+      "file_id": "13vGDnkUN3cvD_rFcG3ZR_JHnqa9jhSox",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part013",
+      "bytes": 7340032,
+      "sha256": "49a404ce1c38886608b346e3a34fbb83472fde15dc7d7320a627f13f42dbd269",
+      "file_id": "1NqxRQIAalyDYMzD3RBjkk4FaCeeYd-Hf",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_complete_20261030.part014",
+      "bytes": 372811,
+      "sha256": "f7b191a287ee15ba5f548117e315fe865992d9581249a9250c93649a7d9a6fb1",
+      "file_id": "1FhwpxIFDcO8-9ecMoltoqhoemsNE34uP",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 372811,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "standalone_complete_modelset_recoverable": true,
+  "requires_first_update_bundle": false,
+  "archive_members": 76,
+  "verified_unix": 1793391465.360567,
+  "upload_fault": "part008 upload returned no ID; exact-name parent-filtered metadata search returned zero before retry; retry/readback verified; original trace retained",
+  "backup_builder_sha256": "f0115b47488e26f11ac63da504e40ccf0bf4a3440f205488b93fc1f70b13d206"
+}

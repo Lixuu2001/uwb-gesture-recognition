@@ -1,0 +1,48 @@
+{
+  "frozen_utc": "2026-09-30T05:20:01.977011+00:00",
+  "hypothesis": "A joint product RBF kernel on all three radar embeddings captures class-relevant interactions that an additive per-radar kernel cannot; assess transfer on a held validation user before opening test predictions.",
+  "status": "exploratory mechanism screen, not novel algorithm",
+  "input": "existing fold-specific LTR encoder features; no other-fold encoder or test-fitted statistics",
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "split": "test=h; validation=h%8+1; training=other six; original 9300 quality mask",
+  "seed": 2027,
+  "landmarks": 384,
+  "bandwidth": "per-view median squared distance among 2048 deterministic source pairs after source-only coordinate standardization",
+  "kernels": [
+    "additive",
+    "joint"
+  ],
+  "formula": {
+    "additive": "mean_v exp(-d_v/median_v)",
+    "joint": "exp(-mean_v d_v/median_v)"
+  },
+  "capacity": "same 384 source landmarks, Nystrom eigenvalue floor 1e-10, 384-dimensional readout for each kernel",
+  "alpha_grid": [
+    1e-05,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "training": "class/user-balanced squared loss on one-hot targets, intercept unpenalized; no domain alignment penalty",
+  "selection": "maximize validation present-class macro accuracy; ties use first alpha",
+  "gate": {
+    "min_mean_gain_vs_additive_pp": 0.5,
+    "min_mean_gain_vs_old_LTR_pp": 0.5,
+    "min_positive_folds_vs_additive": 6
+  },
+  "test_policy": "Only evaluate selected models on outer test rows if global validation gate passes. Gate failing means stop this screen without a new outer-test metric. Existing cache integrity audits may replay historical baseline.",
+  "limits": "Eight users already have development history; old encoders used same validation users for early stopping. This is not independent external validation. Product kernel and Nystrom are established methods. Do not claim novelty from a positive screen.",
+  "followup_if_pass": "fixed seed 2027 landmark repeat, paired user uncertainty, raw-signal end-to-end matched CE investigation; no grid expansion based on outer-test scores",
+  "budget": "CPU 3 BLAS threads; one seed eight validation folds, no paid compute",
+  "repeat": "Preplanned landmark sampling repeat; encoder is unchanged seed2026. Both primary and repeat will be reported irrespective of repeat gate; primary gate already passed."
+}

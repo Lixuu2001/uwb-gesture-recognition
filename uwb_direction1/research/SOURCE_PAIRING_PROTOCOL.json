@@ -1,0 +1,42 @@
+{
+  "name": "Source clip-pairing sensitivity screen",
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "epoch": 24,
+  "batch": 64,
+  "permutation_seeds": [
+    20261003,
+    20261004
+  ],
+  "joint_seed": 438,
+  "audit_seed": 811,
+  "audit_samples": 64,
+  "budget_seconds": 900,
+  "input_sha256": {
+    "cache": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "screen": {
+    "cross_flip_min": 0.05,
+    "excess_flip_min": 0.02,
+    "min_trajectories": 4,
+    "rule": "At least one fixed view must meet cross-user flip>=5% AND cross-minus-same-user flip>=2pp in BOTH seeds in >=4/6 trajectories. Gate is a resource screen, not a statistical claim. Failure stops this cross-user pairing candidate without threshold/seed/view grid."
+  },
+  "readouts": "user-balanced class-balanced flip, JS and source CE delta; all full training pools only",
+  "controls": "single view replacement; same-class same-user derangement versus same-class different-user bijection; identity and joint three-view reorder",
+  "limits": [
+    "No new training or held-user scoring.",
+    "Source in-sample sensitivity is not generalization gain or causal user-style evidence.",
+    "Synthetic cross-user clips may be physically inconsistent; class preservation alone does not validate augmentation.",
+    "Six heavily reused development users, single training seed, two fixed permutation repetitions.",
+    "No verified frame timestamps; instance pairing only.",
+    "Even a passed screen requires separately frozen source pilot and matched augmentation controls, literature/novelty still unvalidated."
+  ]
+}

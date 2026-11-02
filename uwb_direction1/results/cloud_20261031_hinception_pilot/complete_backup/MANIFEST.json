@@ -1,0 +1,57 @@
+{
+  "state": "immutable_HInception_nativeKeras_private_snapshot",
+  "scope": "complete_selected_and_last_model_evidence",
+  "observed_unix": 1793459884.2100663,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": true,
+  "limitations": "First snapshot supplies only initial/first-update model/Adam/callbacks/metrics/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/callbacks/metrics/RNG/IDs/logs/predictions/audit. Inputs regenerate from private migration with exact RMS and source per-channel z-normalization. Source helper packages and paths are separately pinned by protocol/dependency manifest. Tested restore helpers exist; no automatic job-resume. Exact runtime wheels/base environment separately pinned in Git and dependency manifest; no whole-runtime/job-resume claim. No new fit/scoring by backup.",
+  "original_failed_audit_preserved": true,
+  "manual_observational_RNG_repair_preserved": true,
+  "successful_audit_canonical_termination": "audit_supervisor01/TERMINATION.json",
+  "archive_name": "hinception_complete_20261031.tar.gz",
+  "archive_bytes": 50350252,
+  "archive_sha256": "4110292ce8f3c1093d5e7fdba5e2c928d7c2b2666a1724c8f2f349d69081e8c4",
+  "tracked_payload_files": 192,
+  "members_manifest_sha256": "9d4c6334ff5b02f7da2f5255224df272633f1a19bcd0a2465a7a75f367bed67e",
+  "chunks": [
+    {
+      "name": "hinception_complete_20261031.part000",
+      "bytes": 7340032,
+      "sha256": "6b43d9d9d856ef122506406078c0d9ad5529f85803bd77ab0f6dc04067f4cfab"
+    },
+    {
+      "name": "hinception_complete_20261031.part001",
+      "bytes": 7340032,
+      "sha256": "55e39c4ce519dc276b7fdcca2c5506d6fda756394fe7fa54a59ea9defb4a951d"
+    },
+    {
+      "name": "hinception_complete_20261031.part002",
+      "bytes": 7340032,
+      "sha256": "5656cf8a8d75ba59cbb390de621305102b2900c62d3a1c3eb60b368b146ffec0"
+    },
+    {
+      "name": "hinception_complete_20261031.part003",
+      "bytes": 7340032,
+      "sha256": "d7460d566d03b082a88782ea0a89dddf12f477853cf0a0480b40dd1147eeaf33"
+    },
+    {
+      "name": "hinception_complete_20261031.part004",
+      "bytes": 7340032,
+      "sha256": "5e9445e17613549ff64f204b2c1616a6a5e900734b61aaa6fee1c00eb2466cf8"
+    },
+    {
+      "name": "hinception_complete_20261031.part005",
+      "bytes": 7340032,
+      "sha256": "4d8c86ea149c258d55c3f0f3b8cc1a8d11b6bd93dc33374bc2d1bc98520d6bae"
+    },
+    {
+      "name": "hinception_complete_20261031.part006",
+      "bytes": 6310060,
+      "sha256": "221bcab7001b7f64e9f1176a1672f02dd7c5fae4802096f94196f16c7cfe6b2b"
+    }
+  ]
+}

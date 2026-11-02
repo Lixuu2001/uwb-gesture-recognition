@@ -1,0 +1,27 @@
+{
+  "state": "pass",
+  "synthetic_only": true,
+  "real_UWB_values_or_labels_read": false,
+  "real_training_started": false,
+  "sklearn_version": "1.8.0",
+  "original_SVM_grid_with_inf_supported": true,
+  "original_C_grid_values": [
+    "0.0001",
+    "0.001",
+    "0.01",
+    "0.1",
+    "1",
+    "10",
+    "100",
+    "1000",
+    "10000",
+    "inf"
+  ],
+  "original_training_CV_folds": 5,
+  "parallel_only_change": "n_jobs5to1",
+  "original_source_parity_predictions_dual_support_exact": true,
+  "source_optional_linear_helper_compatibility": "TypeError(\"LogisticRegression.__init__() got an unexpected keyword argument 'multi_class'\")",
+  "selected_real_protocol": false,
+  "wall_seconds": 0.16779070207849145,
+  "limitation": "Synthetic SVM compatibility/parallelism check, no real accuracy result. Original CLI explicitly uses SVM; optional old linear helper is not reproduced under sklearn1.8."
+}

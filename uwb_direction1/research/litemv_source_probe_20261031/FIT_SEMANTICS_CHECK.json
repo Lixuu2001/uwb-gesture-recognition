@@ -1,0 +1,22 @@
+{
+  "state": "pass_synthetic_native_fit_and_callback_replay_only",
+  "full_author_LITEMV_architecture": true,
+  "synthetic_epochs": 3,
+  "synthetic_updates": 6,
+  "synthetic_batch_size": 4,
+  "last_batch": 2,
+  "synthetic_seed": 7,
+  "native_fit_vs_explicit_native_batches_weights_optimizer_BN_metrics_exact": true,
+  "all_epoch_and_batch_metrics_exact": true,
+  "original_trainloss_checkpoint_weights_optimizer_exact": true,
+  "explicit_restore_next_two_epochs_model_Adam_BN_metrics_callbacks_all_RNG_exact": true,
+  "plateau_251_constant_loss_epochs_independent_rule_exact": true,
+  "checkpoint_trainloss_strictmin_tiesfirst_and_validation_ignored": true,
+  "fixed12_label_mapping_handles_missing_validation_classes": true,
+  "native_fit_DataAdapter_global_RNG_parity_asserted": false,
+  "original_TensorFlow_execution_parity_asserted": false,
+  "formal_CPU_cost_gate_run": false,
+  "real_UWB_configuration_selected": false,
+  "real_UWB_values_labels_or_fit": false,
+  "wall_seconds": 27.72186025499832
+}

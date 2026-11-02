@@ -1,0 +1,40 @@
+{
+  "state": "pass",
+  "chosen_epochs": 100,
+  "full_author_architecture": true,
+  "parameters": 834124,
+  "batch_size": 64,
+  "source_author_epochs": 1500,
+  "original_TensorFlow_reproduction": false,
+  "explicit_epoch_budget_adaptation": true,
+  "training_batches_per_epoch": 74,
+  "all4700records_each_epoch": true,
+  "train_last_batch": 28,
+  "validation_batches": 16,
+  "diagnostic_batches": 19,
+  "training_seconds": [
+    0.43668210902251303,
+    0.3802476240089163,
+    0.37064073304645717,
+    0.37477482203394175,
+    0.3716333860065788,
+    0.38101173809263855,
+    0.40065654600039124,
+    0.3697791169397533
+  ],
+  "eval_seconds": [
+    0.13106609997339547,
+    0.12460527801886201,
+    0.12254492100328207,
+    0.12489545298740268
+  ],
+  "estimated_seconds_by_epoch_budget": {
+    "1500": 103363.77562871901,
+    "100": 7011.481360446196
+  },
+  "estimate_formula": "2*(epochs*74*maxtrain+(epochs*16+16+19)*maxeval)+120",
+  "budget_seconds": 43200,
+  "wall_seconds": 3.892586047993973,
+  "max_RSS_KiB": 709804,
+  "real_UWB_values_labels_or_fit": false
+}

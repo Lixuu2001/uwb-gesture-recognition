@@ -1,0 +1,180 @@
+{
+  "state": "pass",
+  "scope": "completed_source_sixfold_read_only",
+  "rows": [
+    {
+      "held": 1,
+      "local": 0.9683333333333333,
+      "minirocket": 0.8533333333333335,
+      "difference": 0.11499999999999977
+    },
+    {
+      "held": 2,
+      "local": 0.9640000000000001,
+      "minirocket": 0.8480000000000001,
+      "difference": 0.11599999999999999
+    },
+    {
+      "held": 3,
+      "local": 0.8958333333333334,
+      "minirocket": 0.8033333333333333,
+      "difference": 0.09250000000000003
+    },
+    {
+      "held": 4,
+      "local": 0.9441666666666667,
+      "minirocket": 0.7833333333333333,
+      "difference": 0.16083333333333338
+    },
+    {
+      "held": 5,
+      "local": 0.9533333333333335,
+      "minirocket": 0.8358333333333334,
+      "difference": 0.11750000000000005
+    },
+    {
+      "held": 6,
+      "local": 0.8900000000000001,
+      "minirocket": 0.5881818181818181,
+      "difference": 0.301818181818182
+    }
+  ],
+  "folds": [
+    {
+      "held": 1,
+      "selected_epoch": 23,
+      "optimizer_steps": 3528,
+      "validation_logits_replayed": 1000,
+      "diagnostic_logits_replayed": 1200,
+      "initial_first_update_optimizer_rng_bn_verified": true
+    },
+    {
+      "held": 2,
+      "selected_epoch": 23,
+      "optimizer_steps": 3528,
+      "validation_logits_replayed": 1200,
+      "diagnostic_logits_replayed": 1000,
+      "initial_first_update_optimizer_rng_bn_verified": true
+    },
+    {
+      "held": 3,
+      "selected_epoch": 11,
+      "optimizer_steps": 3384,
+      "validation_logits_replayed": 1200,
+      "diagnostic_logits_replayed": 1200,
+      "initial_first_update_optimizer_rng_bn_verified": true
+    },
+    {
+      "held": 4,
+      "selected_epoch": 24,
+      "optimizer_steps": 3384,
+      "validation_logits_replayed": 1200,
+      "diagnostic_logits_replayed": 1200,
+      "initial_first_update_optimizer_rng_bn_verified": true
+    },
+    {
+      "held": 5,
+      "selected_epoch": 21,
+      "optimizer_steps": 3456,
+      "validation_logits_replayed": 1100,
+      "diagnostic_logits_replayed": 1200,
+      "initial_first_update_optimizer_rng_bn_verified": true
+    },
+    {
+      "held": 6,
+      "selected_epoch": 23,
+      "optimizer_steps": 3456,
+      "validation_logits_replayed": 1200,
+      "diagnostic_logits_replayed": 1100,
+      "initial_first_update_optimizer_rng_bn_verified": true
+    }
+  ],
+  "descriptive_continuation_gate": true,
+  "artifact_hashes": {
+    "/workspace/uwb-localcnn-sixfold-20261029/train.py": "23cf1c77f60510afa7b971657d3d66de0aee31929ef9e96bdbfb9cb2b3b978e1",
+    "/workspace/uwb-localcnn-sixfold-20261029/launch.py": "259bc8573b264748162ce2e8fa1dca05dfc51b1b556c954171cc2abd238144de",
+    "/workspace/uwb-localcnn-sixfold-20261029/check_roles.py": "191e0ddfcf5f1a33903fc131c1a51a7de1088131a04e4aab1e2d879e1b9daee7",
+    "/workspace/uwb-localcnn-sixfold-20261029/PROTOCOL.json": "b3633e607fc27365e6e7ab487ac6d0161b12cd112124bdf04a203236ca53d1df",
+    "/workspace/uwb-localcnn-sixfold-20261029/PREFLIGHT.json": "9ec963cc043a694754879b98db7e689bed1cabdf2203772a56a26d536a112378",
+    "/workspace/uwb-mvglf-20261029/model.py": "e03499c52f35ad0349acf20ce6a239a51464563261d1856c9fbac10d972c620c",
+    "/workspace/uwb-mvglf-20261029/run01/local/initial.pt": "5975f4734cbca150bade0e0458c635394dfec825f4bcb711fa31eb75b1b0ed64",
+    "/workspace/uwb-mvglf-20261029/run01/local/best.pt": "9a14b3d68e2e40ee8576a384d3e4ab9cae3d50faa5096a33213d2d447e38c1a1",
+    "/workspace/uwb-mvglf-20261029/run01/local/predictions_unscored.npz": "46de221591001cbd2c1c3ead5310e5e1d03eb1dbe31f527ee8e44b1c45173d4f",
+    "/workspace/uwb-mvglf-20261029/COMPLETE_AUDIT.json": "d3cdf07895f045336909f6a915a6aead214d331bc01c3da1b93c20ac30fa12f3",
+    "/workspace/uwb-multirocket-20261029/launch.py": "b8f8038cc8242d20158b1e4870283fc61f884a039931fa08cf9940ea6b3d2eab",
+    "/workspace/uwb-localcnn-sixfold-20261029/PREREGISTRATION.md": "8268bda4475707376f78e099f18fbc3bf7d7d509ae1e554cfc01371c9e7cb2a9",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/IDENTITY.json": "9b1d8b9e390cef6c345d6d26654d276575ce56192e214c426e2c3e388dee0d10",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/worker.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/REUSED_HELD1.json": "8dbcd1558c4e61e49b5b46fc5b35ad4d4ca26aa05a3c7fc27f760daa3bf2ffab",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/ALL_NEW_PREDICTIONS_FROZEN.json": "4875b683e5f96e01eaa956cb5dabf2ce8c34df3b870478d1be31031c553f6fb9",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/STATE.json": "2464047f55bd57d78ea6e9965685c88189bc4cf72904068050deed45980b9331",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/SUMMARY.json": "1f2f94a7b4b1ddf0d3ba95adbf7c37a66b1290167b6d0cc4438dc3341b052342",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/best.pt": "80ea01525a2aa5afcc2e96da912af575b3c0ac538c9fdd0b5c88e203e22e2e8a",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/split.json": "438dd16ec82fead6ae888ce6d5eb845e06bec6fd4b87a5a7926ac328ac5c595f",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/first_update.pt": "9fdf95ef8eecd044c3f7bedddbc6172d3e9b0afeb031a4b38e9b65ab7582b123",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/predictions_unscored.npz": "9cf8233014f7835c9c05618b1c4e678f05e8b7d23bbd7a8461290a1758517fee",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/last.pt": "6681bdd6e9a8dba35a18dba596ebe20ef13bf7945deaa7b27287b082dfc686ce",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/FOLD_COMPLETE.json": "400f2c4f25c9138cdeb06518fe3128a24c15ecc8ca38f3e4dd967fbd9119ef93",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/initial.pt": "24d2f5462576da1cf251eefe345b7ff6f262aef4017070b5984956489b77846e",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held6/epochs.jsonl": "d8fc05c31512df13adcb337ce435bc6179ecd9a01dbea5806fa564e358cedc2f",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/best.pt": "64831f291c2c68a8ef13d3876ccf7e3e9c07ecb0644fac61416587ea55b78544",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/split.json": "e0b341476a2e09eea8b22c63e259d3d261240cb63bf85554a74068a28aa35ec1",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/first_update.pt": "3d7c44a3d648a37077765a8e68a6e8317030764ba1c21344e33a85e9811c8e72",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/predictions_unscored.npz": "618c1be35027b07283ae368b08f1299db230d8293af710859621d7e6e80e2fae",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/last.pt": "934cd143010f5ff74a4ef9921d29b099bac72f035b425469e21ea07415252064",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/FOLD_COMPLETE.json": "44dac88b674ea747d473cb96e1f59b602220f6717cfe92f975a21709151293b7",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/initial.pt": "9142cbea46155f2fe0d527bb4701768616ae03ee5069c2c94e717e1206916207",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held4/epochs.jsonl": "0c45301b725ede8d366e92cf3512ddb7f85d09092ece09875ef94f40f3444b1c",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/best.pt": "67a276d59609fe6172ee1b846784421bc1e3e62af663221502a0550e0bdea6ad",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/split.json": "a13f072c7339b216b9871dafd1ad486e2b5e33311b24702f9e525c2f79663124",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/first_update.pt": "5334208a3a418de0972cc7ddd6ef0c1b5923059a172605f7198aee800a72d766",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/predictions_unscored.npz": "33901c341ca3f3ecf8ff6cd9fe9670f27b7f5ffeb01dd759af2f2a811d1bb278",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/last.pt": "1b01b64a1521545511e946a3229e110c6cc67511ce835a7198e08674d59fb2d1",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/FOLD_COMPLETE.json": "92809d41061a45a92e13b5ab43d29e996a85f12642a7f6832e55f6aca275fd22",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/initial.pt": "787ce2831ae828261f2067e82b9a879fabdb325fb39af5f1e0a4aaffd686de61",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held3/epochs.jsonl": "d5cff6d906248db588e6d33a3c1091a8ea6a55f26173d7ef9a2b4f55c9886048",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/best.pt": "28f289c56dd0ce6aeb1b3d62c90831d858a1c2534497394301b5618df6afc7ff",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/split.json": "5397df25bb46f7b93dfbe9857d62f940c675128db105b4afd110295a874bfa56",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/first_update.pt": "a9bbf3b5df24b21064614cb7a5ad53cdcafa034819a498dd7e4e1638ab181cb7",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/predictions_unscored.npz": "2efa6448f5bc4a39fa62aa76e9fd6bafba4427d4b1f3eb5f5b29520a63a8dff0",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/last.pt": "2be061eec125c649366476d68eb6fd9598853a503e4cd779b4601c462aa846a7",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/FOLD_COMPLETE.json": "9a67c66ba73fe844230eced80c17403036dd4dda5c4781417bb07ef1bf5a0d6a",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/initial.pt": "1b738e3471ecc488cf49d3054d7169a91e724d4eb2a1b16972815c57f293fb38",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held2/epochs.jsonl": "3739eb25f37247a0824dc094dd650ced67d08046fb2372700d4660dcaeb2ac36",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/best.pt": "e1f1bb40a282ac77a774be10d36acf574075e1c0b7d8d7071b0f356e6a21f53a",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/split.json": "fc8c7f214bd97558ce9c29ba39fe593825a5b902debee03476ffe673bfb8765d",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/first_update.pt": "1c3c4cfd62ed4249a03bbc2d64b16bf2496ea50929ffed886c1a7e641cbda91a",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/predictions_unscored.npz": "d363f411d806976ebd6d63c52836029dfddb0530e66a15fc23c1c53a5707f8dc",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/last.pt": "11ca18716daa9a8eef1cfa440c1a48bf7bc5c8993d860eb62da56298ec32797d",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/FOLD_COMPLETE.json": "19cf7065ca1aed08b0c90aad3145486e787a813f5cb8a083448ab12be30b5070",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/initial.pt": "cbd6874ffe1533bc4636f9749837f311a56429c3413a9cd9e3bbc7d38ca73d93",
+    "/workspace/uwb-localcnn-sixfold-20261029/run01/held5/epochs.jsonl": "242ccc494bb9b1f19c1c6d532eafbc7ba3502d4c5af2c3e4db7c1cacc3df2d77",
+    "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+    "/workspace/uwb-mvglf-20261029/run01/source_maps.npy": "7cc6ddde31de3201a811e492508fc02e4e2874172f924e7fa84eb422cac21934",
+    "/workspace/uwb-restored-20261020/cache/X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "/workspace/uwb-restored-20261020/cache/y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "/workspace/uwb-restored-20261020/cache/subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "/workspace/uwb-accuracy-loop-20261029/run01/held1/predictions.npz": "59e44247e5bc1872d37052b45c72117bc7d58866d9ba89e3e2b08cba9bb92921",
+    "/workspace/uwb-accuracy-loop-20261029/run01/held2/predictions.npz": "4fad79badb2f2b4e8140d7e73dc6a3a7b7b7fa07da631c5950a1b92dd9118142",
+    "/workspace/uwb-accuracy-loop-20261029/run01/held3/predictions.npz": "626b63ac2d7a38ba3690a6503a968d212c9de3355c4110af06d1ff2a81291b59",
+    "/workspace/uwb-accuracy-loop-20261029/run01/held4/predictions.npz": "739742030acd48fee4d636fc0db5b97324c6471af9b624ccbd27dac7f3decebe",
+    "/workspace/uwb-accuracy-loop-20261029/run01/held5/predictions.npz": "786bc5bc1b755e644a5062e71ac6be4f25679670f08dcfc268e0b81361e2c8af",
+    "/workspace/uwb-accuracy-loop-20261029/run01/held6/predictions.npz": "130fd3eadc1d295d704150b11af94588de59aa5b73cd5700aba1451b5f26b315"
+  },
+  "training_termination": {
+    "pid": 43382,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 33125.70518213301,
+    "child_cpu_seconds": 97709.758205,
+    "cpu_soft_seconds": 129400,
+    "cpu_hard_seconds": 129500,
+    "scientific_negative": false
+  },
+  "auditor_sha256": "ab546a97ea56fe8155d1b48fed7baa1a77c6e819c69a2e506105a739a362acdd",
+  "audit_wall_seconds": 527.262847783044,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "limitation": "Selected-validation and all diagnostic logits replayed; historical nonselected epochs not retrained or functionally replayed."
+}

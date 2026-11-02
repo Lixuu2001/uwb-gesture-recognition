@@ -1,0 +1,58 @@
+{
+  "study": "Known fixed-percentile RSC adapted to existing UWB GN CNN; mechanism screen, not novel",
+  "seed": 2026,
+  "threads": 1,
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excluded_users": [
+    1,
+    2
+  ],
+  "arms": [
+    "rsc24",
+    "random24"
+  ],
+  "reused_control": "shared128 ordinary24 from SWAD source; exact first-epoch replay required",
+  "parameters": 265836,
+  "validation": "next cyclic source user; four train, one validation, one diagnostic only after selection",
+  "batch": 64,
+  "epochs": 24,
+  "tail_start_epoch": 13,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "min_lr": 1e-05,
+  "primary_selection": "fixed dense tail per actual optimizer update",
+  "secondary_selection": "earliest minimum validation CE including epoch0; never swap primary after observing diagnostic scores",
+  "gate": {
+    "mean_margin": {
+      "shared128": 0.005,
+      "random24": 0.0025,
+      "sam24": 0.0,
+      "cnn_readout": 0.0
+    },
+    "wins_each": 4,
+    "minimum_paired_difference_each": -0.01
+  },
+  "max_estimated_hours": 10,
+  "stop_on_failed_gate": "No mask-fraction/attribution/batch-selection/seed/tail/grid or full-eight expansion of this fixed hypothesis. Never swap random or best-CE to primary.",
+  "pass_next_step": "Same-protocol eight-user strong controls and independent seeds before efficacy; original domain contribution must be evidenced separately.",
+  "persistence": "everyepoch segment, source orders, full AdamW/scheduler/CPU RNG/best/tail, selected weights, IDs/logits/config/source hashes; epoch atomic resume; lock queue",
+  "limitations": "Repeatedly researched six development users; not pristine held-out test; one seed. RSC known. No main paper fulltext obtained. No authentic Doppler/velocity interpretation. Fixed DomainBed rule differs curriculum/spatial choices in author current code; nonlinear dropout head adaptation is not exact published reproduction.",
+  "feature_drop": 0.3333333333333333,
+  "batch_drop": 0.3333333333333333,
+  "mask_seed_base": 4072026,
+  "method": "signed correct-class logit gradient on detached1728D features; strict less-than row2/3 quantile, batch2/3 quantile probability-drop selection; no rescale. Auxiliary head dropout skipped; final masked head ordinary dropout and CE; encoder updated only by final CE.",
+  "control": "random24 computes same RSC selection in its own current state then randomizes feature coordinates while preserving per-row removed counts. Isolated CPU generator seed=base+held*100000+zero-based optimizerstep. Models diverge, so selected samples/counts need not coincide across separately trained arms.",
+  "ties": "Strict quantile comparisons follow DomainBed; zero/constant gradients can mask all coordinates on selected samples; recorded and tested, no adaptive fix.",
+  "sam_root": "/workspace/uwb-sam-source-runs-20261004",
+  "sam_summary": "/workspace/uwb-sam-source-runs-20261004/SUMMARY.json",
+  "cnn_summary": "/workspace/uwb-energy-area-source-20261004/SUMMARY.json",
+  "sam_summary_sha256": "8bec7ce4ec1eb2d97e334f389939f7afb49f541f76f66dec0e862c8b3ff72eb3",
+  "cnn_summary_sha256": "471cc64c987ca3bd155eceb8b7f35c0f4a503403512730180ce158c3205c153a"
+}

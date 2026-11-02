@@ -1,0 +1,48 @@
+{
+  "state": "passed",
+  "raw_records_independently_recomputed": 7100,
+  "raw_descriptor_max_error": 3.191891195797325e-15,
+  "verified_artifact_hashes": 40,
+  "selected_model_refits": 30,
+  "rows": [
+    {
+      "held": 3,
+      "independent_sklearn_held_prediction_max_error": 1.176836406102666e-13,
+      "functional_cnn_spot_checks": 6,
+      "train_val_diagnostic_roles_verified": true
+    },
+    {
+      "held": 4,
+      "independent_sklearn_held_prediction_max_error": 3.7969627442180354e-14,
+      "functional_cnn_spot_checks": 6,
+      "train_val_diagnostic_roles_verified": true
+    },
+    {
+      "held": 5,
+      "independent_sklearn_held_prediction_max_error": 8.56259507742152e-14,
+      "functional_cnn_spot_checks": 6,
+      "train_val_diagnostic_roles_verified": true
+    },
+    {
+      "held": 6,
+      "independent_sklearn_held_prediction_max_error": 1.028066520802895e-13,
+      "functional_cnn_spot_checks": 6,
+      "train_val_diagnostic_roles_verified": true
+    },
+    {
+      "held": 7,
+      "independent_sklearn_held_prediction_max_error": 1.199040866595169e-14,
+      "functional_cnn_spot_checks": 6,
+      "train_val_diagnostic_roles_verified": true
+    },
+    {
+      "held": 8,
+      "independent_sklearn_held_prediction_max_error": 1.376676550535194e-13,
+      "functional_cnn_spot_checks": 6,
+      "train_val_diagnostic_roles_verified": true
+    }
+  ],
+  "gate_passed": false,
+  "seconds": 4.549923708000279,
+  "limits": "CNN raw functional checks first2 per role per fold (36 total), not all hidden vectors; full descriptor recomputation and selected ridge refits; no encoder retraining"
+}

@@ -1,0 +1,749 @@
+{
+  "state": "verified",
+  "utc": "2026-10-07T08:12:25.018968+00:00",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "raw_download": true,
+  "include_base64": false,
+  "maximum_concurrent_downloads": 3,
+  "bundles": [
+    {
+      "name": "held3.tar.gz",
+      "bytes": 2169967,
+      "sha256": "098b2cef714c5285e3b6e83c22b1de96ff682dbe45ed44d7d49ff0e18791608c",
+      "contents": {
+        "runs/held3/selection.json": {
+          "bytes": 1188,
+          "sha256": "3b58abef9f796c690f3ce99fbfc03d3cce24f0c6098fee7f4bc7210097604baa"
+        },
+        "runs/held3/NUMERICAL_AUDIT.json": {
+          "bytes": 819,
+          "sha256": "c9e6c0c4f24e20b6d1510a0d3f5bb40782789ea83fd4fc3a289602e22070aa21"
+        },
+        "runs/held3/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held3/FEATURE_HASHES.json": {
+          "bytes": 255,
+          "sha256": "1b59407f2474a0c0aec864e3146ae54d19482126f0dbb501ba9d241da0909dc3"
+        },
+        "runs/held3/template.npz": {
+          "bytes": 42141,
+          "sha256": "ed8101cf2f2357f14c0eeaaa3f8fd6aa1647c5de384279998aa906928de28632"
+        },
+        "runs/held3/models.npz": {
+          "bytes": 226421,
+          "sha256": "32f2f7fa5a47d4e3251f454cbfac774f985c07a5a118a4f81667505d531626f6"
+        },
+        "runs/held3/result.json": {
+          "bytes": 273,
+          "sha256": "c1e9467264109c7bb671f7fe9a7be77271afb2a28da07f41ddb1e43dea7c656f"
+        },
+        "runs/held3/descriptor_ids.npz": {
+          "bytes": 10973,
+          "sha256": "9eb1ef2cb21a483eea68f5de1f68a2598c588e5cff732f22b851551af952afc2"
+        },
+        "runs/held3/predictions.npz": {
+          "bytes": 1883348,
+          "sha256": "bd87d682b3e8d6286cfe935d30279ffcce629116865e4165c8095acb90efec8b"
+        },
+        "runs/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        }
+      },
+      "verified_members": 10
+    },
+    {
+      "name": "held4.tar.gz",
+      "bytes": 2171351,
+      "sha256": "e9178a36437d60b940a790e4729a3b396f4c14b0e7ad103b2b54a79384e17624",
+      "contents": {
+        "runs/held4/selection.json": {
+          "bytes": 1200,
+          "sha256": "bc14c508bd0dd8e71a277e8a5cd0d4bedc0a101d72f98f7956a3119e676e94ea"
+        },
+        "runs/held4/NUMERICAL_AUDIT.json": {
+          "bytes": 816,
+          "sha256": "10d535d007dd2439a6e4dbf350ed4f464ab28e686f536031cf72ffdefe2c0429"
+        },
+        "runs/held4/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held4/FEATURE_HASHES.json": {
+          "bytes": 255,
+          "sha256": "99292a8937262953101214cbb1c158745bab61b910c5ddb5f599cebeb5028d3f"
+        },
+        "runs/held4/template.npz": {
+          "bytes": 42138,
+          "sha256": "c0020deb951938ca7aab9483b3ecc9eda20b8290dc3e01da09887700453cab85"
+        },
+        "runs/held4/models.npz": {
+          "bytes": 226473,
+          "sha256": "1f9878b9af9cb78c7f11d927e63be5d06cb6a3d8d4939aa6b8db161a624b04a4"
+        },
+        "runs/held4/result.json": {
+          "bytes": 285,
+          "sha256": "084e15fdb11a0acc810b4d2d5959761fe983611b4c15adbac0e19e2beb579629"
+        },
+        "runs/held4/descriptor_ids.npz": {
+          "bytes": 10973,
+          "sha256": "9eb1ef2cb21a483eea68f5de1f68a2598c588e5cff732f22b851551af952afc2"
+        },
+        "runs/held4/predictions.npz": {
+          "bytes": 1883336,
+          "sha256": "9232b268c85d7932e3ef2cfcc53d2fef832943f6365b014f082dacda7de62c16"
+        },
+        "runs/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        }
+      },
+      "verified_members": 10
+    },
+    {
+      "name": "held5.tar.gz",
+      "bytes": 2051425,
+      "sha256": "584071891b39bce88d1341252bab355f9bea14b668a34bb76102938c4a21f7c5",
+      "contents": {
+        "runs/held5/selection.json": {
+          "bytes": 1193,
+          "sha256": "20dbf0227908c7fc7c9a1fcf05a203c4e0408fc544d3f3a22181e831ae2c8c69"
+        },
+        "runs/held5/NUMERICAL_AUDIT.json": {
+          "bytes": 816,
+          "sha256": "161f36903cdc83d4b03a290165d450721b5ca7e34fb9c6fd94d20f196a107c0c"
+        },
+        "runs/held5/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "abecf6a822bf95a59c3d6a18810f03608cb80b3e580372342d7c10b4324ba7e6"
+        },
+        "runs/held5/FEATURE_HASHES.json": {
+          "bytes": 255,
+          "sha256": "0a1d02122309aedf93841d5c68d3055b75d31ff98aad618692e099c36144a567"
+        },
+        "runs/held5/template.npz": {
+          "bytes": 42138,
+          "sha256": "9dc324375f03e0c6fe0ea46e16fd819ca78d9a4e78af6e942e2515378ecf8f69"
+        },
+        "runs/held5/models.npz": {
+          "bytes": 226427,
+          "sha256": "871e8bfb7415e96b962698fa707bb35e1daf9462443ece13f9dbf9fb524703a5"
+        },
+        "runs/held5/result.json": {
+          "bytes": 285,
+          "sha256": "8c45b8aaddf0c25f6ac2ec442b3cfc72484792ef3400f12caeb61c8fd74c9454"
+        },
+        "runs/held5/descriptor_ids.npz": {
+          "bytes": 10973,
+          "sha256": "9eb1ef2cb21a483eea68f5de1f68a2598c588e5cff732f22b851551af952afc2"
+        },
+        "runs/held5/predictions.npz": {
+          "bytes": 1763687,
+          "sha256": "ba21f7684ecfc28077bce2b33343152b084a98683f8ed29c7ed370256153b1ac"
+        },
+        "runs/held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        }
+      },
+      "verified_members": 10
+    },
+    {
+      "name": "held6.tar.gz",
+      "bytes": 2133775,
+      "sha256": "f8a626f082629f0ecb43e0213ea7297184af6073a7ba9db084ab14c0468e9e3a",
+      "contents": {
+        "runs/held6/selection.json": {
+          "bytes": 1164,
+          "sha256": "029903df678ae61716475864fd4c6147673731bfcab75728187db9b0592de940"
+        },
+        "runs/held6/NUMERICAL_AUDIT.json": {
+          "bytes": 818,
+          "sha256": "f0b6b13c2ad20420a22845693aa506d2dc7de4040726bd41c4f5bc1cfc2a4eb7"
+        },
+        "runs/held6/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "0b667445fbbd02b05a1c48b04eca52443de2e8d2d864c1d36f734640d51f7c9a"
+        },
+        "runs/held6/FEATURE_HASHES.json": {
+          "bytes": 255,
+          "sha256": "9ae3701405223256a484a77a90e0427d3eb6bfd586f2dfdb55c5f91ef8733941"
+        },
+        "runs/held6/template.npz": {
+          "bytes": 42118,
+          "sha256": "e88287bb7ce46d5317eb2d540592f204f747e7781ecf19c9fa29eb5978d8f10a"
+        },
+        "runs/held6/models.npz": {
+          "bytes": 226396,
+          "sha256": "c3c03d4c956a50ffe3122087b2eb563fb80a23d6d350bf75be538c8900af4b73"
+        },
+        "runs/held6/result.json": {
+          "bytes": 285,
+          "sha256": "bdf3900190d5a60f10889afb802673ea6b3e8a431a44e163313f1f7a3bdab415"
+        },
+        "runs/held6/descriptor_ids.npz": {
+          "bytes": 10973,
+          "sha256": "9eb1ef2cb21a483eea68f5de1f68a2598c588e5cff732f22b851551af952afc2"
+        },
+        "runs/held6/predictions.npz": {
+          "bytes": 1846290,
+          "sha256": "d2a75697493bb95bf05bbb879e4c032b7e28819839e632d55bee3a9f2ec07897"
+        },
+        "runs/held6/split.json": {
+          "bytes": 71057,
+          "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+        }
+      },
+      "verified_members": 10
+    },
+    {
+      "name": "held7.tar.gz",
+      "bytes": 2169451,
+      "sha256": "6757326bce28703703e1b5e1c8f33918e4ba346d70ea9ba6843122ad2b5ee810",
+      "contents": {
+        "runs/held7/selection.json": {
+          "bytes": 1203,
+          "sha256": "72fab451cabf65c32a91ce821f009d6dfb00bf1b4402f81741a274b186cb9dd8"
+        },
+        "runs/held7/NUMERICAL_AUDIT.json": {
+          "bytes": 816,
+          "sha256": "902472bad9b06f6d3b856285974b35ca72a2fc981150772b9501516f0ab487bb"
+        },
+        "runs/held7/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held7/FEATURE_HASHES.json": {
+          "bytes": 255,
+          "sha256": "26a527b14dd200f5e9512a8ee9b2b77750fb3f23d50f55b7528cdc3345aa8fc7"
+        },
+        "runs/held7/template.npz": {
+          "bytes": 42135,
+          "sha256": "2a40154bb5ebadd6048ee50c527cea896130d1c169c96e9ecedfdaaacef4c37b"
+        },
+        "runs/held7/models.npz": {
+          "bytes": 226508,
+          "sha256": "969fd90888dba8cdb9b29b53adc433b42338181b22548cf9a99986dc24a1283c"
+        },
+        "runs/held7/result.json": {
+          "bytes": 283,
+          "sha256": "da482a3b1c3c5fb17df1242dee44c30e43864f098e6883917b0df709e24021b3"
+        },
+        "runs/held7/descriptor_ids.npz": {
+          "bytes": 10973,
+          "sha256": "9eb1ef2cb21a483eea68f5de1f68a2598c588e5cff732f22b851551af952afc2"
+        },
+        "runs/held7/predictions.npz": {
+          "bytes": 1881880,
+          "sha256": "0edae974ca58dfb6f9978fcb6b9d995920b52e104c54bfa3ef64d9eaef96a26c"
+        },
+        "runs/held7/split.json": {
+          "bytes": 71057,
+          "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+        }
+      },
+      "verified_members": 10
+    },
+    {
+      "name": "held8.tar.gz",
+      "bytes": 2169758,
+      "sha256": "9d03755773fbace5ec8104c9bfbb561a1b3b89525609b4c52fb14cfdac53c119",
+      "contents": {
+        "runs/held8/selection.json": {
+          "bytes": 1151,
+          "sha256": "fc59f28da3aa39d0583018db00b1dd4a4544874a39ef51f81554608ff848a3a5"
+        },
+        "runs/held8/NUMERICAL_AUDIT.json": {
+          "bytes": 818,
+          "sha256": "a3431048a9c9e6d1ccf2796d0620a01a69c9ec27b62413218b493b0780ee3ad9"
+        },
+        "runs/held8/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held8/FEATURE_HASHES.json": {
+          "bytes": 255,
+          "sha256": "718dd4c22f29eee51d8fa468671294bf663524bb56f1e564c28078fad2713538"
+        },
+        "runs/held8/template.npz": {
+          "bytes": 42147,
+          "sha256": "f5f82588092169554905d59f2f3243ba64e6aad11375c1ff2b4fc92a6b47361f"
+        },
+        "runs/held8/models.npz": {
+          "bytes": 226452,
+          "sha256": "9b27cbf7e8d97c45cf977559c6b740ddd5cededae65252cbae733114ce7058ac"
+        },
+        "runs/held8/result.json": {
+          "bytes": 272,
+          "sha256": "41e417e7b798d7e19c46b456f9b6245be9bdf42a3b34c1199d99d47951d6936b"
+        },
+        "runs/held8/descriptor_ids.npz": {
+          "bytes": 10973,
+          "sha256": "9eb1ef2cb21a483eea68f5de1f68a2598c588e5cff732f22b851551af952afc2"
+        },
+        "runs/held8/predictions.npz": {
+          "bytes": 1882946,
+          "sha256": "9d5bd0576c90027d0f2c487f52a92847f9b880c871b05446c95d2db0266663b0"
+        },
+        "runs/held8/split.json": {
+          "bytes": 71057,
+          "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+        }
+      },
+      "verified_members": 10
+    },
+    {
+      "name": "provenance.tar.gz",
+      "bytes": 50606,
+      "sha256": "e6ced1d0da83556ce523aac218006ffdefb0c3ed7dede396da62194a65d3edd2",
+      "contents": {
+        "runs/IDENTITY.json": {
+          "bytes": 583,
+          "sha256": "fc391be598fea7d783108f43c53a5ac02436c305f3079cb44f0b5197873d18fd"
+        },
+        "runs/SUMMARY.json": {
+          "bytes": 3621,
+          "sha256": "f16f31c868ddba1175eaeeac4ee0c8b0623c63cb1853251851c7e7d92d8ee192"
+        },
+        "runs/AUDIT.json": {
+          "bytes": 391,
+          "sha256": "59fe56cd08f99e70b5583a98eac7ea0538a250bc451a3d64d35087d77744f030"
+        },
+        "runs/PROTOCOL.json": {
+          "bytes": 3040,
+          "sha256": "64616dd50b95506892a7a83c28631c9797ebad9ddd57f9b0c776a536c2967a27"
+        },
+        "runs/FILES.json": {
+          "bytes": 5921,
+          "sha256": "5f371ec8b5975e63767d0e5cedb724e52065e314476ba167914d0840fa42d6db"
+        },
+        "runs/TEMPLATE_DIAGNOSTIC.json": {
+          "bytes": 4021,
+          "sha256": "c3c75d72d2b37dadfce81e86c7bc21e8ad115cc5a0184ebfaa2bb30a6591fc27"
+        },
+        "cost/COST.json": {
+          "bytes": 260,
+          "sha256": "5fd3e432dd2bba3f89448c485d103eb36804bbcc58c60dc4d91856bb83eabbf0"
+        },
+        "cost/IDENTITY.json": {
+          "bytes": 583,
+          "sha256": "fc391be598fea7d783108f43c53a5ac02436c305f3079cb44f0b5197873d18fd"
+        },
+        "cost/PROTOCOL.json": {
+          "bytes": 3040,
+          "sha256": "64616dd50b95506892a7a83c28631c9797ebad9ddd57f9b0c776a536c2967a27"
+        },
+        "provenance/AUDIT.json": {
+          "bytes": 391,
+          "sha256": "59fe56cd08f99e70b5583a98eac7ea0538a250bc451a3d64d35087d77744f030"
+        },
+        "provenance/AUDIT_IDENTITY.json": {
+          "bytes": 206,
+          "sha256": "330f721113fdb6614bb10b97a796ad2f7c9911d3bb8f8e19856d864df37a3f29"
+        },
+        "provenance/COST.json": {
+          "bytes": 260,
+          "sha256": "5fd3e432dd2bba3f89448c485d103eb36804bbcc58c60dc4d91856bb83eabbf0"
+        },
+        "provenance/FILES.json": {
+          "bytes": 5921,
+          "sha256": "5f371ec8b5975e63767d0e5cedb724e52065e314476ba167914d0840fa42d6db"
+        },
+        "provenance/IDENTITY.json": {
+          "bytes": 583,
+          "sha256": "fc391be598fea7d783108f43c53a5ac02436c305f3079cb44f0b5197873d18fd"
+        },
+        "provenance/PER_USER.csv": {
+          "bytes": 494,
+          "sha256": "967525ac29472f981cb6368fcc760282a8e26f0ef38ae82681d1068a3331392a"
+        },
+        "provenance/PROTOCOL.json": {
+          "bytes": 3040,
+          "sha256": "64616dd50b95506892a7a83c28631c9797ebad9ddd57f9b0c776a536c2967a27"
+        },
+        "provenance/RUN_REPORT.md": {
+          "bytes": 6596,
+          "sha256": "21d3f7f27aec51dd59b2a022ce2b2f6635bf6ff9f110535324b6804844bbd813"
+        },
+        "provenance/SUMMARY.json": {
+          "bytes": 3621,
+          "sha256": "f16f31c868ddba1175eaeeac4ee0c8b0623c63cb1853251851c7e7d92d8ee192"
+        },
+        "provenance/TEMPLATE_DIAGNOSTIC.json": {
+          "bytes": 4021,
+          "sha256": "c3c75d72d2b37dadfce81e86c7bc21e8ad115cc5a0184ebfaa2bb30a6591fc27"
+        },
+        "tools/empty_whiten.py": {
+          "bytes": 1343,
+          "sha256": "ae85fe8588f93e388ffe5b603ecf1ef22d5aba51c9be4a43e22eff3e9b3d4f9f"
+        },
+        "tools/run_empty_whiten.py": {
+          "bytes": 6844,
+          "sha256": "e5be54ad59593a76113b471a7e645a2ee2608fb125ebe9c999bc3a84556374fc"
+        },
+        "tools/audit_empty_whiten.py": {
+          "bytes": 7673,
+          "sha256": "d23d57c42122ad6a717e7894e5a37dc34a748a73ed268b1390b5dddf5bd16cb2"
+        },
+        "tools/test_empty_whiten.py": {
+          "bytes": 734,
+          "sha256": "2c797cccaac777ceff2acf9928a5dfb58b5d1ef3f592dbbde93b9892632a9ce7"
+        },
+        "tools/diagnose_empty_whiten.py": {
+          "bytes": 1208,
+          "sha256": "39fb072e677d50114df98b9da7cb5a66eea76758c98a941ce465b1dba1d1e3ca"
+        },
+        "tools/radar_exchange.py": {
+          "bytes": 1175,
+          "sha256": "aaaa753d394d38eb5a5fb6d0f79dde7c99a5fa4ec0a9cf1e7adc8e06e4a90da2"
+        },
+        "tools/second_order_core.py": {
+          "bytes": 2032,
+          "sha256": "ff1257df2a133bbbb21f6754d3ecf2e8e02d9ffcc76b1f763f08500a0f1ef98d"
+        },
+        "tools/circular_signal.py": {
+          "bytes": 15962,
+          "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+        },
+        "tools/audit_restored.py": {
+          "bytes": 8247,
+          "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+        },
+        "research/EMPTY_WHITEN_PROTOCOL.json": {
+          "bytes": 3040,
+          "sha256": "64616dd50b95506892a7a83c28631c9797ebad9ddd57f9b0c776a536c2967a27"
+        },
+        "research/EMPTY_WHITEN_REVIEW.md": {
+          "bytes": 3388,
+          "sha256": "3805e8f262d4316b4c407db1339db63dd63708a3e35bb50ffa74e721dda601b7"
+        },
+        "logs/source.log": {
+          "bytes": 1627,
+          "sha256": "464f2d82399ceac710568ba46a53f1dded2922545ac4a32372b55ac20693e2ee"
+        },
+        "logs/cost.log": {
+          "bytes": 246,
+          "sha256": "40f621f66a4c4644b927c7e5697baefca328e9d6d3281199041365e483ca9ad9"
+        },
+        "logs/audit.log": {
+          "bytes": 491,
+          "sha256": "3f40fe4721758b15e48e8ed7aa2383d4807bb405d63e60861c73258a47dd2c1f"
+        },
+        "prior_backup/semantic_RECEIPT.json": {
+          "bytes": 51898,
+          "sha256": "9f90c36ddfd1f3922225da4a18fc59ecf0456139a2ce95979332c2da7f0c3aa3"
+        },
+        "prior_backup/energy_area_RECEIPT.json": {
+          "bytes": 20038,
+          "sha256": "60ec5c479d24e6569a77ef79a8a0df397891a4bb2ab63345757f86738431a0fd"
+        }
+      },
+      "verified_members": 35
+    }
+  ],
+  "parts": [
+    {
+      "name": "uwb-empty-whiten-20261007-held3-p01.part",
+      "path": "/workspace/uwb-empty-whiten-private-20261007/uwb-empty-whiten-20261007-held3-p01.part",
+      "bundle": "held3.tar.gz",
+      "part_index": 1,
+      "bytes": 2169967,
+      "sha256": "098b2cef714c5285e3b6e83c22b1de96ff682dbe45ed44d7d49ff0e18791608c",
+      "metadata": {
+        "id": "1J_l2w5Reuy3hMo2Zaopn9av_CIHPgOTP",
+        "title": "",
+        "mime_type": null,
+        "size": "2169967",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/9848bbc6-c979-4ae5-b9cc-c180abc06cd0/uwb-empty-whiten-20261007-held3-p01.part",
+        "size_bytes": 2169967
+      },
+      "file_id": "1J_l2w5Reuy3hMo2Zaopn9av_CIHPgOTP",
+      "url": "https://drive.google.com/file/d/1J_l2w5Reuy3hMo2Zaopn9av_CIHPgOTP/view"
+    },
+    {
+      "name": "uwb-empty-whiten-20261007-held4-p01.part",
+      "path": "/workspace/uwb-empty-whiten-private-20261007/uwb-empty-whiten-20261007-held4-p01.part",
+      "bundle": "held4.tar.gz",
+      "part_index": 1,
+      "bytes": 2171351,
+      "sha256": "e9178a36437d60b940a790e4729a3b396f4c14b0e7ad103b2b54a79384e17624",
+      "metadata": {
+        "id": "199eeeA79EFlKNY7trIgU2W6u587VU8N3",
+        "title": "",
+        "mime_type": null,
+        "size": "2171351",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/bef9505d-3acc-436e-9a10-dc7b300893b5/uwb-empty-whiten-20261007-held4-p01.part",
+        "size_bytes": 2171351
+      },
+      "file_id": "199eeeA79EFlKNY7trIgU2W6u587VU8N3",
+      "url": "https://drive.google.com/file/d/199eeeA79EFlKNY7trIgU2W6u587VU8N3/view"
+    },
+    {
+      "name": "uwb-empty-whiten-20261007-held5-p01.part",
+      "path": "/workspace/uwb-empty-whiten-private-20261007/uwb-empty-whiten-20261007-held5-p01.part",
+      "bundle": "held5.tar.gz",
+      "part_index": 1,
+      "bytes": 2051425,
+      "sha256": "584071891b39bce88d1341252bab355f9bea14b668a34bb76102938c4a21f7c5",
+      "metadata": {
+        "id": "1SVfsEH8Y4-TpOyAJdrHTaHGYn26CG7ch",
+        "title": "",
+        "mime_type": null,
+        "size": "2051425",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/de291cc5-c12c-4c7b-8bd6-20bba2e08fb1/uwb-empty-whiten-20261007-held5-p01.part",
+        "size_bytes": 2051425
+      },
+      "file_id": "1SVfsEH8Y4-TpOyAJdrHTaHGYn26CG7ch",
+      "url": "https://drive.google.com/file/d/1SVfsEH8Y4-TpOyAJdrHTaHGYn26CG7ch/view"
+    },
+    {
+      "name": "uwb-empty-whiten-20261007-held6-p01.part",
+      "path": "/workspace/uwb-empty-whiten-private-20261007/uwb-empty-whiten-20261007-held6-p01.part",
+      "bundle": "held6.tar.gz",
+      "part_index": 1,
+      "bytes": 2133775,
+      "sha256": "f8a626f082629f0ecb43e0213ea7297184af6073a7ba9db084ab14c0468e9e3a",
+      "metadata": {
+        "id": "108oulPtxEcax-p3G_12CJy4I7dq8o-N-",
+        "title": "",
+        "mime_type": null,
+        "size": "2133775",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/c025ad45-b9c7-4461-ba8f-e604733d54f4/uwb-empty-whiten-20261007-held6-p01.part",
+        "size_bytes": 2133775
+      },
+      "file_id": "108oulPtxEcax-p3G_12CJy4I7dq8o-N-",
+      "url": "https://drive.google.com/file/d/108oulPtxEcax-p3G_12CJy4I7dq8o-N-/view"
+    },
+    {
+      "name": "uwb-empty-whiten-20261007-held7-p01.part",
+      "path": "/workspace/uwb-empty-whiten-private-20261007/uwb-empty-whiten-20261007-held7-p01.part",
+      "bundle": "held7.tar.gz",
+      "part_index": 1,
+      "bytes": 2169451,
+      "sha256": "6757326bce28703703e1b5e1c8f33918e4ba346d70ea9ba6843122ad2b5ee810",
+      "metadata": {
+        "id": "10z7KBpj1pbhd5x6krOKEQLDyP0hTA3ay",
+        "title": "",
+        "mime_type": null,
+        "size": "2169451",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/d6e492f0-44a9-48ec-ba1d-359d77988493/uwb-empty-whiten-20261007-held7-p01.part",
+        "size_bytes": 2169451
+      },
+      "file_id": "10z7KBpj1pbhd5x6krOKEQLDyP0hTA3ay",
+      "url": "https://drive.google.com/file/d/10z7KBpj1pbhd5x6krOKEQLDyP0hTA3ay/view"
+    },
+    {
+      "name": "uwb-empty-whiten-20261007-held8-p01.part",
+      "path": "/workspace/uwb-empty-whiten-private-20261007/uwb-empty-whiten-20261007-held8-p01.part",
+      "bundle": "held8.tar.gz",
+      "part_index": 1,
+      "bytes": 2169758,
+      "sha256": "9d03755773fbace5ec8104c9bfbb561a1b3b89525609b4c52fb14cfdac53c119",
+      "metadata": {
+        "id": "11q2JhDTXhlTu1t6S_vJ3koYqeX2-U0FB",
+        "title": "",
+        "mime_type": null,
+        "size": "2169758",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/9825a588-78df-4cdf-a392-6427b5d25d4a/uwb-empty-whiten-20261007-held8-p01.part",
+        "size_bytes": 2169758
+      },
+      "file_id": "11q2JhDTXhlTu1t6S_vJ3koYqeX2-U0FB",
+      "url": "https://drive.google.com/file/d/11q2JhDTXhlTu1t6S_vJ3koYqeX2-U0FB/view"
+    },
+    {
+      "name": "uwb-empty-whiten-20261007-provenance-p01.part",
+      "path": "/workspace/uwb-empty-whiten-private-20261007/uwb-empty-whiten-20261007-provenance-p01.part",
+      "bundle": "provenance.tar.gz",
+      "part_index": 1,
+      "bytes": 50606,
+      "sha256": "e6ced1d0da83556ce523aac218006ffdefb0c3ed7dede396da62194a65d3edd2",
+      "metadata": {
+        "id": "15V5gLvDcowrywjCyVpfbRqPkGFdT-S4k",
+        "title": "",
+        "mime_type": null,
+        "size": "50606",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/a35c64ab-e3b5-47bc-81ca-57d05450bfb5/uwb-empty-whiten-20261007-provenance-p01.part",
+        "size_bytes": 50606
+      },
+      "file_id": "15V5gLvDcowrywjCyVpfbRqPkGFdT-S4k",
+      "url": "https://drive.google.com/file/d/15V5gLvDcowrywjCyVpfbRqPkGFdT-S4k/view"
+    }
+  ],
+  "bytes": 12916333,
+  "members": 95,
+  "prior_encoder_features_readout_receipts": [
+    "results/cloud_20261004_energy_area/DRIVE_BACKUP_RECEIPT.json",
+    "results/cloud_20261004_semantic_code_eightfold/DRIVE_BACKUP_RECEIPT.json"
+  ]
+}

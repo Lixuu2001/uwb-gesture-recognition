@@ -1,0 +1,56 @@
+{
+  "state": "immutable_TimeCNN_modelset_snapshot",
+  "scope": "complete_audited_full2000_modelset",
+  "created_unix": 1793578866.0778654,
+  "complete_modelset": true,
+  "all_initial_first_best_last_final_and_native_models_included": true,
+  "full_numerical_audit_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback.",
+  "archive_name": "timecnn2000_complete_20261101.tar.gz",
+  "archive_bytes": 49177320,
+  "archive_sha256": "47fbb01f8de8c3f012aa889e34e678c79250f1916d3f6315f5cef376ad8f59d1",
+  "members_manifest_sha256": "ef1af31752aaed7b14a49a8cd0fb83a3a31fc69495995f6c32daefa6cea628ad",
+  "tracked_payload_files": 110,
+  "chunks": [
+    {
+      "name": "timecnn2000_complete_20261101.part000",
+      "bytes": 7340032,
+      "sha256": "89d1248a785705abe1583adb26b6d2541638910cd9466793bc11fc08b9b6defc"
+    },
+    {
+      "name": "timecnn2000_complete_20261101.part001",
+      "bytes": 7340032,
+      "sha256": "6a1edae3cd2bb0ec2e0c7282cd42150447b3d6aaa4dddd0a2acf0c8baea16dda"
+    },
+    {
+      "name": "timecnn2000_complete_20261101.part002",
+      "bytes": 7340032,
+      "sha256": "aa89f926ec63efbcc1853951309da4cda35ac931ad089169ab1b63c183c4c9bc"
+    },
+    {
+      "name": "timecnn2000_complete_20261101.part003",
+      "bytes": 7340032,
+      "sha256": "78e10bb70772a76fafb0739e66e5af56e4c7397921ff741200f43da49ffe13f1"
+    },
+    {
+      "name": "timecnn2000_complete_20261101.part004",
+      "bytes": 7340032,
+      "sha256": "8b240b9fb0839b44d033593c2a3f582087beb6ca00da32a7a233574ced0e97bb"
+    },
+    {
+      "name": "timecnn2000_complete_20261101.part005",
+      "bytes": 7340032,
+      "sha256": "1881ebda31929f348844b28c3c5c63be8887b4bb14061e1ae3f2d4e4be835fdf"
+    },
+    {
+      "name": "timecnn2000_complete_20261101.part006",
+      "bytes": 5137128,
+      "sha256": "5dcd583718244e708dc8c3bceb11fa7c19d7b8d8f4ba2c07eac248c205e66b1c"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{"epoch": 1, "steps": 1, "training_records": 3, "metrics": {"loss": 2.448047399520874, "val_loss": 1.0, "val_accuracy": 0.9, "second_validation_loss": 1.0, "second_validation_accuracy": 0.9}, "best_epoch": 1, "early_stop": false, "early_counter": 0, "learning_rate": 0.0001, "epoch_seconds": 0.04041834408417344}
+EarlyStopping counter: 1 out of 3
+{"epoch": 2, "steps": 2, "training_records": 3, "metrics": {"loss": 2.4442532062530518, "val_loss": 1.1, "val_accuracy": 0.8, "second_validation_loss": 1.1, "second_validation_accuracy": 0.8}, "best_epoch": 1, "early_stop": false, "early_counter": 1, "learning_rate": 0.0001, "epoch_seconds": 0.018743968103080988}
+EarlyStopping counter: 2 out of 3
+{"epoch": 3, "steps": 3, "training_records": 3, "metrics": {"loss": 2.4404640197753906, "val_loss": 1.1, "val_accuracy": 0.8, "second_validation_loss": 1.1, "second_validation_accuracy": 0.8}, "best_epoch": 1, "early_stop": false, "early_counter": 2, "learning_rate": 0.0001, "epoch_seconds": 0.017471211031079292}
+EarlyStopping counter: 3 out of 3
+{"epoch": 4, "steps": 4, "training_records": 3, "metrics": {"loss": 2.4366796016693115, "val_loss": 1.1, "val_accuracy": 0.8, "second_validation_loss": 1.1, "second_validation_accuracy": 0.8}, "best_epoch": 1, "early_stop": true, "early_counter": 3, "learning_rate": 0.0001, "epoch_seconds": 0.016792207024991512}
+EarlyStopping counter: 1 out of 3
+EarlyStopping counter: 2 out of 3
+EarlyStopping counter: 3 out of 3
+Controlled synthetic4epoch producer/full auditor passed; no real validation values

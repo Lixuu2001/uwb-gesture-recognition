@@ -1,0 +1,32 @@
+{
+  "method": "full_author_released_TCN_sequential_classification_CLI",
+  "paper_arxiv": "1803.01271",
+  "source_commit": "2f8c2b817050206397458dfd1f5a25ce8a32fe65",
+  "epochs": 20,
+  "batch_size": 64,
+  "seed": 20261029,
+  "threads": 1,
+  "budget_seconds": 43200,
+  "memory_limit_KiB": 14680064,
+  "total_parameters": 180162,
+  "trainable_tensors": 52,
+  "blocks": 8,
+  "channels": 25,
+  "kernel": 7,
+  "dropout": 0.05,
+  "optimizer": "nativeTorchAdam_lr.002_betas.9_.999_eps1e-8",
+  "loss": "unweighted_NLLLoss_mean",
+  "train_shuffle": false,
+  "checkpoint_selection": "final_epoch20",
+  "learning_rate_divided_by10_after_epochs": [
+    10,
+    20
+  ],
+  "input_shape": [
+    567,
+    90
+  ],
+  "synthetic_fixture_only": true,
+  "real_UWB_values_labels_fit_authorized": false,
+  "no_smaller_epoch_or_batch_fallback": true
+}

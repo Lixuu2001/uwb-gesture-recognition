@@ -1,0 +1,280 @@
+{
+  "state": "verified",
+  "utc": "2026-10-07T10:07:12.077601+00:00",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "raw_download": true,
+  "include_base64": false,
+  "maximum_concurrent_downloads": 3,
+  "bundles": [
+    {
+      "name": "empty_subspace.tar.gz",
+      "bytes": 10261113,
+      "sha256": "379b978771c497b908f8ef54f9b4fe9585eaa00640f368016d7ac46f42ac4da5",
+      "contents": {
+        "runs/IDENTITY.json": {
+          "bytes": 398,
+          "sha256": "8a8dc9c52f7dcf42b38a6d07db320ccfebfa03968f5e661e8e007b4878206423"
+        },
+        "runs/SUMMARY.json": {
+          "bytes": 17219,
+          "sha256": "cd93d38527d6c4d5e26f04bed275aeea5647204fb017503b5532b314e30eaeea"
+        },
+        "runs/AUDIT.json": {
+          "bytes": 375,
+          "sha256": "4a8b9181e9541e60035dc0c8e2dfcc2afaa55ccae4197737ad2ac6c5358ae97b"
+        },
+        "runs/PROTOCOL.json": {
+          "bytes": 3717,
+          "sha256": "d2da0b4cfda5330cb8996023fda3f57d46358d0a8893e7d910c310f7ed38e7f4"
+        },
+        "runs/source_moments.npz": {
+          "bytes": 4616538,
+          "sha256": "24021c0ffa9e6e4eedbde683c48ef0e8e4285bcb8cf56f8fab872cb46de80ecc"
+        },
+        "runs/FILES.json": {
+          "bytes": 2023,
+          "sha256": "19ecffe9a783aeab5fd598cb38856aec7332161174111253b9203c87f7f0a9d4"
+        },
+        "runs/source6/model.npz": {
+          "bytes": 962175,
+          "sha256": "e6e4896b2e8cf228af965958802ef9f2b561a93fabdf46487093ce29302891c3"
+        },
+        "runs/source6/energies.npz": {
+          "bytes": 10808,
+          "sha256": "32168f44df951a4027c2da747b6c064eba792ee55a5240de0f731357f38217ad"
+        },
+        "runs/source6/result.json": {
+          "bytes": 2364,
+          "sha256": "6d88373f391992cc34e7c94be5162be384e2d28fb0d8050cabcc828c5070f1b2"
+        },
+        "runs/source4/model.npz": {
+          "bytes": 962124,
+          "sha256": "66b111808b685c5d0149bb1eb16fc3f86952e2a6382518ca004e0766044f9ce9"
+        },
+        "runs/source4/energies.npz": {
+          "bytes": 11635,
+          "sha256": "c2f3503bf62889cc62d2a4005fa07d65f801c13607880f3fa885578413246ef5"
+        },
+        "runs/source4/result.json": {
+          "bytes": 2460,
+          "sha256": "1bfb71a811b93966bc98604114b88ade0fdd77c90fc502ef531191638ce7a5a1"
+        },
+        "runs/source8/model.npz": {
+          "bytes": 965055,
+          "sha256": "a0e15e631b3abcff0d941280c50907f8981001f522e229f0c2b625211a723547"
+        },
+        "runs/source8/energies.npz": {
+          "bytes": 11665,
+          "sha256": "8a279f228c104ad6de65e87978dc8a905ec1667638b3ce2c91700e9d8622b6db"
+        },
+        "runs/source8/result.json": {
+          "bytes": 2461,
+          "sha256": "fe13190710cb6e3ce21866707956ed588d768bfd595fb4638739357acb9520bf"
+        },
+        "runs/source7/model.npz": {
+          "bytes": 965160,
+          "sha256": "559347391953e4bb2651a0141880f82f366253790cfdb29a3cafcd2ab6f47528"
+        },
+        "runs/source7/energies.npz": {
+          "bytes": 11655,
+          "sha256": "26dbd2ac9a3a0bf1d8a218af158e85040f7d869cc478489d4b0de94efcc7c03b"
+        },
+        "runs/source7/result.json": {
+          "bytes": 2457,
+          "sha256": "71955bda903a2dfc9271d2042dc12788b664f1bc4f726eae3c1cbb2af2b56639"
+        },
+        "runs/source3/model.npz": {
+          "bytes": 965138,
+          "sha256": "9d984d767f32b074520aaab16e79de21e644cffa8520cb83a524a098a7a2cb6d"
+        },
+        "runs/source3/energies.npz": {
+          "bytes": 11665,
+          "sha256": "bc3c9ba5fc9755c6bbd548266b407cfd804608049dc4ae46bc0c6d041e86e30b"
+        },
+        "runs/source3/result.json": {
+          "bytes": 2456,
+          "sha256": "bcd58d1a0f60be718c67bb0288b878655fedc9a053592a0267c7ed0816179c0e"
+        },
+        "runs/source5/model.npz": {
+          "bytes": 962118,
+          "sha256": "caf1c0884ab6222d9a355a4c144d1f7500a2c9775f6c386b0bf8d1f80fb67241"
+        },
+        "runs/source5/energies.npz": {
+          "bytes": 11655,
+          "sha256": "f69672a158b7bcd920a9b0cb3ce30f0df9f58a2d7f80de2b80305a12414bb544"
+        },
+        "runs/source5/result.json": {
+          "bytes": 2458,
+          "sha256": "1995bc79270ab323410f1afdccb8ac7478fed573353aa137c33195aba095a347"
+        },
+        "cost/IDENTITY.json": {
+          "bytes": 398,
+          "sha256": "8a8dc9c52f7dcf42b38a6d07db320ccfebfa03968f5e661e8e007b4878206423"
+        },
+        "cost/COST.json": {
+          "bytes": 225,
+          "sha256": "32114d95b1974fd30eb55496baf97ce84ac118bc9433714c32210413cf7c5f81"
+        },
+        "cost/PROTOCOL.json": {
+          "bytes": 3717,
+          "sha256": "d2da0b4cfda5330cb8996023fda3f57d46358d0a8893e7d910c310f7ed38e7f4"
+        },
+        "provenance/IDENTITY.json": {
+          "bytes": 398,
+          "sha256": "8a8dc9c52f7dcf42b38a6d07db320ccfebfa03968f5e661e8e007b4878206423"
+        },
+        "provenance/SUMMARY.json": {
+          "bytes": 17219,
+          "sha256": "cd93d38527d6c4d5e26f04bed275aeea5647204fb017503b5532b314e30eaeea"
+        },
+        "provenance/AUDIT.json": {
+          "bytes": 375,
+          "sha256": "4a8b9181e9541e60035dc0c8e2dfcc2afaa55ccae4197737ad2ac6c5358ae97b"
+        },
+        "provenance/RUN_REPORT.md": {
+          "bytes": 1137,
+          "sha256": "4287f2b114b2a0eaf7210d5abd4a79cc7d67cf0af36ff83741be4df9d630dc92"
+        },
+        "provenance/COST.json": {
+          "bytes": 225,
+          "sha256": "32114d95b1974fd30eb55496baf97ce84ac118bc9433714c32210413cf7c5f81"
+        },
+        "provenance/FILES.json": {
+          "bytes": 2023,
+          "sha256": "19ecffe9a783aeab5fd598cb38856aec7332161174111253b9203c87f7f0a9d4"
+        },
+        "tools/empty_subspace.py": {
+          "bytes": 2555,
+          "sha256": "9dac6aaadb9b2bd4ca9a4ca5ec2cabcf69ed653ed6eed62f88e074641bb2c266"
+        },
+        "tools/run_empty_subspace.py": {
+          "bytes": 4313,
+          "sha256": "a2741cebd1ba38c9c0a02e7b58a706f130d2d5fcc6f195e3da05dc0b3cb085a4"
+        },
+        "tools/audit_empty_subspace.py": {
+          "bytes": 5222,
+          "sha256": "28103101dfa3150b29d61b8534997bf07daa122e88a0df5fcad5f2ec5bfa1a21"
+        },
+        "tools/test_empty_subspace.py": {
+          "bytes": 1085,
+          "sha256": "42cc92dab62d397d740745665ffb544fe5ddddc83f81752a1436da31ea7f4c4d"
+        },
+        "tools/audit_restored.py": {
+          "bytes": 8247,
+          "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+        },
+        "research/EMPTY_SUBSPACE_PROTOCOL.json": {
+          "bytes": 3717,
+          "sha256": "d2da0b4cfda5330cb8996023fda3f57d46358d0a8893e7d910c310f7ed38e7f4"
+        },
+        "research/EMPTY_SUBSPACE_REVIEW.md": {
+          "bytes": 3343,
+          "sha256": "2fb3c99da442cc8fc0defa85a3774763ed7a5e8caf4ab7660d07e38acce47344"
+        },
+        "logs/source.log": {
+          "bytes": 1022,
+          "sha256": "6bac4bae4338c2cea58d5ec07e971463d250e6448b901acb4921dc38b67647b1"
+        },
+        "logs/audit.log": {
+          "bytes": 353,
+          "sha256": "e39ae9bf74a5a2a61c710fd2226f9c0715495c620bdd31ee94463c3c2dbe8933"
+        },
+        "logs/cost.log": {
+          "bytes": 213,
+          "sha256": "acdd2777aaeafa4fe3a6eb2832185f41ed43c5bde7eae7289449a020c15441cb"
+        }
+      },
+      "verified_members": 43
+    }
+  ],
+  "parts": [
+    {
+      "name": "uwb-empty-subspace-20261007-p01.part",
+      "path": "/workspace/uwb-empty-subspace-private-20261007/uwb-empty-subspace-20261007-p01.part",
+      "bundle": "empty_subspace.tar.gz",
+      "part_index": 1,
+      "bytes": 7340032,
+      "sha256": "81b1a43e29af7871b45405e0c697f545f1a5a5d31c16eed401681e3d3723f08b",
+      "metadata": {
+        "id": "1AVYN8FLlcQsrb_qunMuQeaMsoO7QJCMC",
+        "title": "",
+        "mime_type": null,
+        "size": "7340032",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/af016b69-d042-435f-aec0-c17ba688f7d4/uwb-empty-subspace-20261007-p01.part",
+        "size_bytes": 7340032
+      },
+      "file_id": "1AVYN8FLlcQsrb_qunMuQeaMsoO7QJCMC",
+      "url": "https://drive.google.com/file/d/1AVYN8FLlcQsrb_qunMuQeaMsoO7QJCMC/view"
+    },
+    {
+      "name": "uwb-empty-subspace-20261007-p02.part",
+      "path": "/workspace/uwb-empty-subspace-private-20261007/uwb-empty-subspace-20261007-p02.part",
+      "bundle": "empty_subspace.tar.gz",
+      "part_index": 2,
+      "bytes": 2921081,
+      "sha256": "855bf20747011101705cc2f733bea508c33e9600112f1182bada713fd9694c17",
+      "metadata": {
+        "id": "1LfY_wTeJyR0NGcT5W2ZOs48STuq13LWK",
+        "title": "",
+        "mime_type": null,
+        "size": "2921081",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/cead2918-9f18-4ae9-a3c7-f80fd6082310/uwb-empty-subspace-20261007-p02.part.bin",
+        "size_bytes": 2921081
+      },
+      "file_id": "1LfY_wTeJyR0NGcT5W2ZOs48STuq13LWK",
+      "url": "https://drive.google.com/file/d/1LfY_wTeJyR0NGcT5W2ZOs48STuq13LWK/view"
+    }
+  ],
+  "bytes": 10261113,
+  "members": 43,
+  "prior_encoder_features_readout_receipts": []
+}

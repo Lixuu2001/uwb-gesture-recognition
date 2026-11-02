@@ -1,0 +1,27 @@
+{
+  "state": "pass",
+  "official_preset": "UWaveGestureLibrary_complete",
+  "parameters": 2433260,
+  "batch_size": 16,
+  "d_model": 32,
+  "d_ff": 64,
+  "e_layers": 2,
+  "top_k": 3,
+  "num_kernels": 6,
+  "train_epochs_cap": 30,
+  "patience": 10,
+  "fft_independent_NumPy_cases": 3,
+  "original_three_update_loop_model_optimizer_losses_all_RNG_bitwise": true,
+  "checkpoint_next_two_steps_model_RAdam_stopper_all_RNG_bitwise": true,
+  "original_early_stopping_tie_reset_and_decline_patience": true,
+  "active_optimizer_parameter_states": 53,
+  "unused_original_parameter_names": [
+    "enc_embedding.temporal_embedding.embed.weight"
+  ],
+  "batch_context_max_logit_difference": 0.01601862907409668,
+  "batch_context_period_selection_preserved": true,
+  "real_UWB_values_or_labels_read": false,
+  "real_training_started": false,
+  "paper_fulltext_read": false,
+  "wall_seconds": 4.89277417503763
+}

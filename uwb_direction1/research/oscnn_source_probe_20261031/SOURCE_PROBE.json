@@ -1,0 +1,48 @@
+{
+  "state": "pass_source_probe_only",
+  "author_commit": "f70626d3c4aad70a76ba7b4745f556df01044279",
+  "original_source_AST_inner_body_3updates_model_Adam_all_RNG_exact": true,
+  "restore_next_two_updates_model_Adam_all_RNG_exact": true,
+  "independent_NumPy_masked_branch_convolution_and_even_SAME": true,
+  "masked_weights_regrow_after_optimizer_and_zero_on_next_forward": true,
+  "author_model_unmodified": true,
+  "synthetic_batch_size": 2,
+  "synthetic_seed": 7,
+  "probe_only_not_real_training_configuration": true,
+  "input_shape": [
+    567,
+    90
+  ],
+  "multivariate_example_budget": [
+    580608,
+    229376
+  ],
+  "author_wrapper_kernel_upper_bound": 22,
+  "actual_primes": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "actual_maximum_RF": 38,
+  "RF1to90_fully_covered": false,
+  "layer_output_channels": [
+    117,
+    225,
+    234
+  ],
+  "total_parameters_including_fixed_masks": 3736380,
+  "trainable_parameters": 1870464,
+  "trainable_Adam_states": 14,
+  "source_constructor_epochs": 2000,
+  "source_multivariate_notebook_demo_epochs": 500,
+  "no_real_epoch_budget_or_configuration_selected": true,
+  "cost_gate_not_run": true,
+  "real_UWB_values_labels_or_fit": false,
+  "wall_seconds": 0.7420392509084195
+}

@@ -1,0 +1,7 @@
+# Restoration and completion boundaries
+
+Use latest branch four records first. Existing executable cloud and current process/checkpoints take priority; do not redownload/relaunch. If environment is lost, restore raw/source arrays from persistent Drive migration index; current data root /workspace/uwb-restored-20261020. Raw/maps/runtime and original789 snapshot have their own indexes; this model archive deliberately excludes raw arrays/maps/runtime binaries. Never ask the user for manual transfer.
+
+Initial_first insurance restores only immutable initial/first checkpoints, exact source partition IDs, protocol/code/dependency text and private original source. It is not latest epoch recovery or a complete modelset. Complete scope requires successful producer and full numerical replay/termination, all immutable artifact hashes and complete private raw readback/member verification. Neither native .keras files alone nor partial archives certify full RNG resume. No automatic retry/resume; inspect/preserve any failure first, leave diagnostic labels unscored. Restore code bytes exactly, bind runtime/source hashes, and run only preauthorized operations.
+
+Archive before final scoring; final SUMMARY is separately persisted in Git after one gate evaluation. Original controller STATE intentionally remains a pre-finalizer snapshot. Use latest main status/report for current scored closure; do not mutate old frozen evidence.

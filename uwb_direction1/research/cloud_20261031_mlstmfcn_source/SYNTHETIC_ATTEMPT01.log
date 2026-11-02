@@ -1,0 +1,12 @@
+/workspace/uwb-resnet-keras-screen-20261030/deps/keras/src/models/functional.py:241: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: ['keras_tensor']
+Received: inputs=Tensor(shape=(2, 567, 90))
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/workspace/uwb-mlstmfcn-source-probe-20261031/synthetic_check.py", line 37, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-mlstmfcn-source-probe-20261031/synthetic_check.py", line 27, in main
+    saved=capture(m);assert any(not np.array_equal(a['value'],b['value']) for a,b in zip(before['layer_rng'],saved['layer_rng']))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

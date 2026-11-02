@@ -1,0 +1,75 @@
+{
+  "state": "pass",
+  "resource_gate_passed": true,
+  "epochs": 10,
+  "batch_size": 32,
+  "training_batches": 147,
+  "validation_batches": 32,
+  "diagnostic_batches": 38,
+  "estimated_seconds": 397.8051855391823,
+  "estimated_hours": 0.11050144042755063,
+  "memory_gate_passed": true,
+  "formula": "2*(1470*maxtrain+710*maxeval+11*maxnative+24*maxfullstate)+120",
+  "no_smaller_epoch_batch_fallback": true,
+  "accuracy_measured": false,
+  "policy": {
+    "method": "full_TSLib_DLinear_classification_CLI",
+    "paper_arxiv": "2205.13504",
+    "source_commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+    "epochs": 10,
+    "batch_size": 32,
+    "patience": 3,
+    "seed": 20261029,
+    "threads": 1,
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "total_parameters": 628752,
+    "trainable_tensors": 6,
+    "optimizer": "nativeTorchRAdam_lr.0001",
+    "gradient_clip_max_norm": 4.0,
+    "loss": "unweighted_CrossEntropy",
+    "moving_average": 25,
+    "input_shape": [
+      90,
+      567
+    ],
+    "checkpoint_selection": "source_validation_micro_accuracy_latest_tie_patience3",
+    "synthetic_fixture_only": true,
+    "real_UWB_values_labels_fit_authorized": false,
+    "no_smaller_epoch_or_batch_fallback": true
+  },
+  "total_parameters": 628752,
+  "trainable_tensors": 6,
+  "full_TSLib_DLinear_classification_CLI": true,
+  "training_seconds": [
+    0.061445257160812616,
+    0.05459122289903462,
+    0.06473942520096898,
+    0.057579439133405685,
+    0.05912183504551649,
+    0.06701262202113867,
+    0.06132866209372878,
+    0.07280436507426202
+  ],
+  "evaluation_seconds": [
+    0.04285236308351159,
+    0.04314930108375847,
+    0.04261868097819388,
+    0.03875965205952525
+  ],
+  "native_save_seconds": [
+    0.013367355102673173,
+    0.015301361912861466,
+    0.0063885420095175505
+  ],
+  "fullstate_save_seconds": [
+    0.04482738999649882,
+    0.03480191505514085,
+    0.015228390926495194
+  ],
+  "max_RSS_KiB": 420784,
+  "wall_seconds": 0.8507733549922705,
+  "synthetic_fixture_only": true,
+  "real_UWB_values_labels_or_fit": false,
+  "real_pilot_started": false
+}

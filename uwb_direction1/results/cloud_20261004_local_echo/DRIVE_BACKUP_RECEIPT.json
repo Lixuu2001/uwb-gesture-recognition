@@ -1,0 +1,358 @@
+{
+  "state": "complete_authenticated_backup_verified",
+  "utc": "2026-10-04T14:49:11.722964+00:00",
+  "archive": {
+    "name": "local-echo-20261004.tar.gz",
+    "path": "/workspace/uwb-local-echo-private-20261004/local-echo-20261004.tar.gz",
+    "bytes": 143247631,
+    "sha256": "2b6576d5b501be03c1410ee7d505272b56a39f1fa4124dc04bad99a20f62efef",
+    "contents": {
+      "runs/IDENTITY.json": {
+        "bytes": 979,
+        "sha256": "e93da1d9b46898aafb144162ef768949b1775d6b704ae3bfbe9af425ff52ab28"
+      },
+      "runs/SUMMARY.json": {
+        "bytes": 9215,
+        "sha256": "2fe903ca6559a215ceed6338f5321566c7ce044e9448e2131c9a9d7fca58e51e"
+      },
+      "runs/AUDIT.json": {
+        "bytes": 463,
+        "sha256": "f1ffb7d66ddb30ff69d9baaf6db897daf1e897ff7f3d2c3fa4c40a9d1df16344"
+      },
+      "runs/STATE.json": {
+        "bytes": 81,
+        "sha256": "9c326658f0367f07dbe0e2b9ad37ed2b02a708bd301085a14108e7bd489620ee"
+      },
+      "runs/COST.json": {
+        "bytes": 222,
+        "sha256": "0158dc133a6e9399f5b4013debfb0d6757bf58a9550e6dcaffba15375b7c34b9"
+      },
+      "runs/PROTOCOL.json": {
+        "bytes": 3254,
+        "sha256": "f931ff7b31d1588da4915ff755600fe12f0a7842f5ec9340fd54052c0db2233e"
+      },
+      "runs/ids.npy": {
+        "bytes": 4672,
+        "sha256": "17964f5214a7116ef8291162dbd45e571bf2d1d1b6ab620cb75d70f38a9af3b1"
+      },
+      "runs/FILES.json": {
+        "bytes": 520,
+        "sha256": "e05258c90f887018d1e49c9c117f53bf48785e85d8940137b9e01c7ec6e653c7"
+      },
+      "runs/correspondences.npz": {
+        "bytes": 141154604,
+        "sha256": "429c7d0aa25df2365e499bae46c01651f6406d382d0a9b36fea16ca2b3c9c635"
+      },
+      "tools/local_echo_correspondence.py": {
+        "bytes": 4571,
+        "sha256": "5efd4bcc42f8e64de88fb13a0a2d3c8427586605d2ad0e1e3c613ef957f1bb49"
+      },
+      "tools/run_local_echo_screen.py": {
+        "bytes": 3548,
+        "sha256": "536452b7176f67409b93e5dcd3ae5243e6cac430eddaf7fc2951b0f1e97e910f"
+      },
+      "tools/check_local_echo.py": {
+        "bytes": 1882,
+        "sha256": "42b97d5554f0b5e8c423d75f465da84406407c0eaffa809ddeb6b54f77f88229"
+      },
+      "tools/audit_local_echo_screen.py": {
+        "bytes": 5775,
+        "sha256": "33434471562e3ea3f0b88712ea658170f25df09e34e6173c4c137748cf7eba18"
+      },
+      "research/LOCAL_ECHO_PROTOCOL.json": {
+        "bytes": 3046,
+        "sha256": "7cc49626d4346e355ce012e3a0a8e2cb3c16c1f8fdd0203271494c18ef9d2d2c"
+      },
+      "research/LOCAL_ECHO_REVIEW.md": {
+        "bytes": 4428,
+        "sha256": "9c8349ebbc98f805e90240a42f91a2cea4767808f352a391ab3a2e1a1285cbc9"
+      },
+      "TESTS.json": {
+        "bytes": 255,
+        "sha256": "2d4578a42965011c2098eb04ec8c78745485cec67e98866cc8403bc2568fa8ff"
+      },
+      "run.log": {
+        "bytes": 510,
+        "sha256": "377018d5681fcc85af7789c05e90180a422a769c3b33408219c152743367e315"
+      },
+      "audit.log": {
+        "bytes": 464,
+        "sha256": "7318672f202d77c3d4184b84cd56371c46c9a08bd276069d07f2f752b803b4f0"
+      },
+      "author_slides_unflow_aaai18.pdf": {
+        "bytes": 2190926,
+        "sha256": "ea79336322f7c1bd8a833ff16a3af216dd9c0f9023a759008aa89f87a1a2d222"
+      }
+    }
+  },
+  "chunks": [
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part001",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part001",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "63ad8ce1cffa1988efe65140b9d5564de8a8ba56d057565b760d6e967de08a56",
+      "id": "1nkWuvIir9sD_wMKLeh_GXAwhrolpBZwA",
+      "url": "https://drive.google.com/file/d/1nkWuvIir9sD_wMKLeh_GXAwhrolpBZwA/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/b571db5b-08a1-4ec3-a646-73006302aef8/uwb-local-echo-20261004.tar.gz.part001"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part002",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part002",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "510f2aac033a16b91c9ad0c396db0a31fe5980a4b4be80d260e9d8468d67dcca",
+      "id": "1X5vCOqbhPnMAjx6H_saV7qBqohI5oQFx",
+      "url": "https://drive.google.com/file/d/1X5vCOqbhPnMAjx6H_saV7qBqohI5oQFx/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/5916131b-f79f-4180-9c3b-b9dcd99ac1c5/uwb-local-echo-20261004.tar.gz.part002.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part003",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part003",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "a4fc14c691834ea0221ffd4efb169ab6954f66f8c884152f6d7d3bc4b77b0d7e",
+      "id": "1Hpbr_WV9MG7PLlhd1pFfbd89J9LOMH60",
+      "url": "https://drive.google.com/file/d/1Hpbr_WV9MG7PLlhd1pFfbd89J9LOMH60/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/32f50426-de9b-4e21-a891-0034f1ad8ea6/uwb-local-echo-20261004.tar.gz.part003.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part004",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part004",
+      "part": 4,
+      "bytes": 7340032,
+      "sha256": "da18ceef5eddaaf70124b1928a42662aaaae94226d4753de3f8b5ceebc2b1f3a",
+      "id": "1kI_ddhMMdp2Ls99mD5EVv6TnOEQb5hXd",
+      "url": "https://drive.google.com/file/d/1kI_ddhMMdp2Ls99mD5EVv6TnOEQb5hXd/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/a58555a8-f8cf-4aa7-87b2-a28376b6bdb0/uwb-local-echo-20261004.tar.gz.part004.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part005",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part005",
+      "part": 5,
+      "bytes": 7340032,
+      "sha256": "1c942c2247d2369c619ecaab9521c91a941031cf07ac9056551c06e35a7873cc",
+      "id": "1xZFqnbD_6l-sLChl4Vyg-yFftgiiQ23V",
+      "url": "https://drive.google.com/file/d/1xZFqnbD_6l-sLChl4Vyg-yFftgiiQ23V/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/bfe0f913-6415-4952-bfe6-673645f606cd/uwb-local-echo-20261004.tar.gz.part005.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part006",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part006",
+      "part": 6,
+      "bytes": 7340032,
+      "sha256": "9ded5aae5a8cc4f2a9a9cff46ac460a0f98168aa9af39361c7d60b3febb16720",
+      "id": "1l9Z2zSKBNSy6BpIjmupbyR1dU0kApI9b",
+      "url": "https://drive.google.com/file/d/1l9Z2zSKBNSy6BpIjmupbyR1dU0kApI9b/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/8cb73f21-6f69-4220-988a-7f3e018f2c81/uwb-local-echo-20261004.tar.gz.part006.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part007",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part007",
+      "part": 7,
+      "bytes": 7340032,
+      "sha256": "ed1964cf50b22473b520d9c1445c86c93bf1f930585128f0e480c971d5b115a2",
+      "id": "1xGgGRVpTdG0fQoBbLXzZtDQpiwEKenWn",
+      "url": "https://drive.google.com/file/d/1xGgGRVpTdG0fQoBbLXzZtDQpiwEKenWn/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/87388d83-21da-4c0b-8eda-48dedaeec358/uwb-local-echo-20261004.tar.gz.part007.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part008",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part008",
+      "part": 8,
+      "bytes": 7340032,
+      "sha256": "835399b22961a07cee7be8182b6fa3541dea2ac107574c896aa8dd3a32c63be1",
+      "id": "1PEzS1ntBoMKmMWDQQ_PwQm8bJiepkZbD",
+      "url": "https://drive.google.com/file/d/1PEzS1ntBoMKmMWDQQ_PwQm8bJiepkZbD/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/1df18e34-fea5-4b5f-b794-dc9fa72545d7/uwb-local-echo-20261004.tar.gz.part008.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part009",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part009",
+      "part": 9,
+      "bytes": 7340032,
+      "sha256": "b9b0c69e873912fa2ea4c24c2ee06bb071d157764a0b50cbfb06b9fe3c97f868",
+      "id": "1imf6EkkanaxcY5X2oEAFB_777rohw6Fw",
+      "url": "https://drive.google.com/file/d/1imf6EkkanaxcY5X2oEAFB_777rohw6Fw/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/863841b9-b4d9-4981-81c1-eee7a8f3b826/uwb-local-echo-20261004.tar.gz.part009.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part010",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part010",
+      "part": 10,
+      "bytes": 7340032,
+      "sha256": "343ce1027e8043ed458ed1b93c170084bdea40521539e3db422c9a1553f1a819",
+      "id": "1uR9rK6FvyOeQ-ZBDNAcogXp7xrfb4z2Z",
+      "url": "https://drive.google.com/file/d/1uR9rK6FvyOeQ-ZBDNAcogXp7xrfb4z2Z/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/774d2da5-1401-4dcb-bbfd-4cc69e149331/uwb-local-echo-20261004.tar.gz.part010.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part011",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part011",
+      "part": 11,
+      "bytes": 7340032,
+      "sha256": "272b5b067044c35c0f60efba44e302f67a75dd678b818203948474e1638bc174",
+      "id": "1b6im7ZLtJ3u0o6g5388LNX51qTmnZh3O",
+      "url": "https://drive.google.com/file/d/1b6im7ZLtJ3u0o6g5388LNX51qTmnZh3O/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/060ab999-23ef-4a52-b95d-fa53ab582e6f/uwb-local-echo-20261004.tar.gz.part011.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part012",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part012",
+      "part": 12,
+      "bytes": 7340032,
+      "sha256": "6890bdb225008470ee4b3215308215b9a8dbb5ecea0a6aa22c46fcb649cd6c75",
+      "id": "17ks6Qmf9m0FLi4Y-E7GJPK9c9dGIl2TF",
+      "url": "https://drive.google.com/file/d/17ks6Qmf9m0FLi4Y-E7GJPK9c9dGIl2TF/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/07f72789-5b2a-467d-add6-b143738b4e01/uwb-local-echo-20261004.tar.gz.part012.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part013",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part013",
+      "part": 13,
+      "bytes": 7340032,
+      "sha256": "c14cae5802688422c1afe9c6611a734171c2497b94bdb821128ec34516edc9e7",
+      "id": "1NGgEcyleBPrlTk6BLIKj56YxDnoPrVLl",
+      "url": "https://drive.google.com/file/d/1NGgEcyleBPrlTk6BLIKj56YxDnoPrVLl/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/d95f964e-8bd3-4c7b-ba19-477004bc299a/uwb-local-echo-20261004.tar.gz.part013.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part014",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part014",
+      "part": 14,
+      "bytes": 7340032,
+      "sha256": "a69bc73ad178855d967c6b132c9c3e72234431c6bea6de655e29de2d792e6719",
+      "id": "1_b3os1BhtROXjAlI6Z1LKHtYpt66LlNi",
+      "url": "https://drive.google.com/file/d/1_b3os1BhtROXjAlI6Z1LKHtYpt66LlNi/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/fccd9444-f48d-4e94-846e-986ba9d50a78/uwb-local-echo-20261004.tar.gz.part014.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part015",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part015",
+      "part": 15,
+      "bytes": 7340032,
+      "sha256": "aab798fe83ce39d7812cfbd4a352108a8b9d25b4b11909b95cf13d3ef9e7bb36",
+      "id": "1hOBn2aZGj-fqL6xmMiMv0ArYKmcmvvAY",
+      "url": "https://drive.google.com/file/d/1hOBn2aZGj-fqL6xmMiMv0ArYKmcmvvAY/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/d422cecb-0f5a-41cf-a86f-db419f68f86a/uwb-local-echo-20261004.tar.gz.part015.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part016",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part016",
+      "part": 16,
+      "bytes": 7340032,
+      "sha256": "3abb76f9e4516ff5966f79f3fb3b83ee1dc4c4080854239d11bd64e9058a655d",
+      "id": "1rzDbPPhUV8Y3YudLh3d2k7UAdb7hOxxo",
+      "url": "https://drive.google.com/file/d/1rzDbPPhUV8Y3YudLh3d2k7UAdb7hOxxo/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/9d1aed0b-625e-49e1-89c8-29387992d6c8/uwb-local-echo-20261004.tar.gz.part016.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part017",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part017",
+      "part": 17,
+      "bytes": 7340032,
+      "sha256": "3bc37d7527626dcf0dd0c3082e287f7a7c5987143c71c1c7ffb7bbdb43cef552",
+      "id": "1GNJYl2n7kO7KHhFcZUXLsCNCURvpZceZ",
+      "url": "https://drive.google.com/file/d/1GNJYl2n7kO7KHhFcZUXLsCNCURvpZceZ/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/98345a46-9c97-42fc-9a82-a13389806652/uwb-local-echo-20261004.tar.gz.part017.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part018",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part018",
+      "part": 18,
+      "bytes": 7340032,
+      "sha256": "e0c8f9c32bddf0352845047e0f4344d906433f72b967866f5d8153c0d0540643",
+      "id": "15JUX_cLiYIvyso-I5xYchosM8gU7pX0B",
+      "url": "https://drive.google.com/file/d/15JUX_cLiYIvyso-I5xYchosM8gU7pX0B/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/4ef1585c-6be3-434e-8d74-08d5861a0aa4/uwb-local-echo-20261004.tar.gz.part018.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part019",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part019",
+      "part": 19,
+      "bytes": 7340032,
+      "sha256": "8ea172c8d1a823d4c53babc47d64443a552bbce9ee3663eeab219c412893902b",
+      "id": "1FKqYgyWsloTkU57PRt-rKCz88l_RjMOu",
+      "url": "https://drive.google.com/file/d/1FKqYgyWsloTkU57PRt-rKCz88l_RjMOu/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/e3b55215-dbc1-4da9-b612-b706ffdab42f/uwb-local-echo-20261004.tar.gz.part019.bin"
+    },
+    {
+      "name": "uwb-local-echo-20261004.tar.gz.part020",
+      "path": "/workspace/uwb-local-echo-private-20261004/uwb-local-echo-20261004.tar.gz.part020",
+      "part": 20,
+      "bytes": 3787023,
+      "sha256": "62d4955cc26a81bd300257e094f20e479aee45214346000bbcc2a37a2dc2ee1d",
+      "id": "1bPcMMbgo4viYhID_1bBe3IFWdoArOlD0",
+      "url": "https://drive.google.com/file/d/1bPcMMbgo4viYhID_1bBe3IFWdoArOlD0/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/1729ffb0-5565-4dae-8beb-b6efd18342db/uwb-local-echo-20261004.tar.gz.part020.bin"
+    }
+  ],
+  "members": 19,
+  "bytes": 143247631,
+  "max_concurrency": 3,
+  "private_owner_only": true,
+  "parent_folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "raw_signal_arrays_included": false,
+  "classifier_checkpoint_applicable": false,
+  "protocol_commit": "59a999ee7eeaf65a46ef11642ddf20ff42e561e3"
+}

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-ts2vec-screen-20261030/synthetic_check.py", line 60, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-ts2vec-screen-20261030/synthetic_check.py", line 34, in main
+    loss=hierarchical_contrastive_loss(x,y);np.testing.assert_allclose(float(loss.detach()),hierarchy(a,b),rtol=1e-12,atol=1e-12)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1711, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 919, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=1e-12, atol=1e-12
+
+Mismatched elements: 1 / 1 (100%)
+Max absolute difference among violations: 2.62992654e-08
+Max relative difference among violations: 8.49240542e-09
+ ACTUAL: array(3.096798)
+ DESIRED: array(3.096798)

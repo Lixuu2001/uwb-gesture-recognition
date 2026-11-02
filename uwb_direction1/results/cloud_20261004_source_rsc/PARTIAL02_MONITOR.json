@@ -1,0 +1,28 @@
+{
+  "observed_utc": "2026-10-04T20:28:33.343669+00:00",
+  "queue": {
+    "state": "training",
+    "pid": 4719,
+    "held": 8,
+    "arm": "random24"
+  },
+  "process_state": "R",
+  "live": true,
+  "progress": {
+    "epoch": 17,
+    "validation_ce": 1.4293653964996338,
+    "source_ce": 0.0009617662549692582,
+    "lr": 0.0002575000000000001,
+    "source_ids_sha256": "c196d7b5920cd3cea28677f1d0af97e433efd3b993a71998e7a2b940f144f426",
+    "step": 1258,
+    "seconds": 35.37108510300459,
+    "segment_sha256": "4faef1aacd403d6accbd969e8a3f0f61a883e4be9ca471e73a78f381bb9bd506",
+    "state": "training",
+    "pid": 4719,
+    "held": 8,
+    "arm": "random24"
+  },
+  "completed": 11,
+  "privately_backed_up_completed_runs": 10,
+  "joint_gate_pending": true
+}

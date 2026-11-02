@@ -1,0 +1,55 @@
+{
+  "study": "Source-held frozen-model sensitivity to one pooled range-bin shift; not causal aliasing or accuracy test",
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excluded_users": [
+    1,
+    2
+  ],
+  "records": 7100,
+  "model": "Existing source-pilot selected ERM for each held user; four other users trained, next cyclic source user validated; checkpoint selection unchanged",
+  "views": [
+    "Left",
+    "Top",
+    "Right"
+  ],
+  "offsets": [
+    -1,
+    1
+  ],
+  "boundary": "zero fill, no circular wrap; shift both amplitude and weighted-phase channels of one view only; no renormalization",
+  "batch": 64,
+  "threads": 1,
+  "metrics": [
+    "argmax disagreement with unshifted prediction",
+    "probability Jensen-Shannon divergence in nats",
+    "per-affected-view discarded energy fraction over all channels/time/range"
+  ],
+  "boundary_subset": {
+    "max_discarded_fraction": 0.01,
+    "min_pairs_each_user": 200
+  },
+  "screen": {
+    "min_filtered_flip_rate": 0.05,
+    "min_users": 4
+  },
+  "decision": "A view passing boundary sample coverage for all6 users and filtered flip>=5% for at least4 users justifies planning a controlled anti-aliasing vs identity retraining pilot; no automatic launch. Otherwise do not expand this shift grid. Even passing does not establish label preservation, aliasing causality, accuracy gain or originality.",
+  "cost_budget_seconds": 300,
+  "cost_probe": "64 held-source3 records, seven forward passes only; no labels or accuracy metrics; full compute cost extrapolated before run",
+  "label_use": "Quality mask and existing split verification only; never compute accuracy or tune shifts from held labels",
+  "limits": [
+    "one63-bin shift equals3 original range bins, not calibrated physical displacement",
+    "input already3x range pooled",
+    "frozen model includes normalization, nonlinearities and position-sensitive flattened head",
+    "zero padding changes boundaries; filtering energy mitigates but does not remove artifacts",
+    "independent shifts across radars are numerical perturbations, not proven realizable3D motion",
+    "prediction consistency is not correctness",
+    "no new trainable method and no original research contribution proven"
+  ]
+}

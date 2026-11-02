@@ -1,0 +1,55 @@
+{
+  "state": "pass",
+  "synthetic_only": true,
+  "real_values_or_labels_read": false,
+  "arms": {
+    "full": {
+      "parameters": 4498094,
+      "training_seconds_batch32": [
+        3.45096923597157,
+        2.607290446991101,
+        2.9861330199055374,
+        3.0532921169651672,
+        3.0392330640461296
+      ],
+      "median_warm_seconds": 3.0392330640461296,
+      "finite_all_gradients": true,
+      "synthetic_losses": [
+        2.497687816619873,
+        2.7669076919555664,
+        2.351576328277588,
+        2.143634080886841,
+        1.7475093603134155
+      ]
+    },
+    "local": {
+      "parameters": 350220,
+      "training_seconds_batch32": [
+        1.6004056480014697,
+        1.9557633090298623,
+        2.0013876230223104,
+        1.9516236130148172,
+        1.661990339984186
+      ],
+      "median_warm_seconds": 1.9516236130148172,
+      "finite_all_gradients": true,
+      "synthetic_losses": [
+        2.483762264251709,
+        2.4138846397399902,
+        2.3398473262786865,
+        2.2524163722991943,
+        2.1462604999542236
+      ]
+    }
+  },
+  "epochs": 100,
+  "train_steps_per_epoch": 147,
+  "estimated_two_arm_wall_seconds": 110048.38972919388,
+  "budget_wall_seconds": 43200,
+  "passed": false,
+  "torch": "2.15.0+cpu",
+  "python": "3.12.14",
+  "threads": 3,
+  "model_sha256": "e03499c52f35ad0349acf20ce6a239a51464563261d1856c9fbac10d972c620c",
+  "preflight_sha256": "8c84af8742ca1f064937f615e31c58f589bb6fdf894fc28f40c046a8e8065847"
+}

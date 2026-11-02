@@ -1,0 +1,28 @@
+{
+  "state": "complete_synthetic_cost_only",
+  "synthetic_only": true,
+  "uwb_arrays_or_labels_read": false,
+  "single_thread": true,
+  "synthetic_fit_seconds": 0.25355667900294065,
+  "warm_transform64_seconds": 0.7748039140133187,
+  "matrix_shape": [
+    1024,
+    8192
+  ],
+  "synthetic_gram_seconds": 0.25240823603235185,
+  "synthetic_cholesky_seconds": 0.025244873948395252,
+  "synthetic_projection_seconds": 0.024866332998499274,
+  "scaled_readout_seconds": {
+    "49728": 35.4120947370564,
+    "9996": 9.068631695020779
+  },
+  "additional_minirocket_transform_and_io_seconds": 180,
+  "margin": 3.0,
+  "estimated_wall_seconds": 924.8034902719231,
+  "wall_budget_seconds": 1800,
+  "cpu_budget_seconds": 1800,
+  "passed": true,
+  "wall_seconds": 1.5488256450043991,
+  "cpu_seconds": 4.234845202,
+  "adapter_sha256": "5cd2847fdaa2acf0c8b044f0e8e2377ef274fb71f86809e721b7988f6a40105a"
+}

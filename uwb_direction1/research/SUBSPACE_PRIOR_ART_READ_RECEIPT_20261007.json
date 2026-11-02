@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-07T10:17:53.202191+00:00",
+  "method": "Connected primary-publisher web reads; no raw page archive",
+  "sources": [
+    {
+      "url": "https://ars.copernicus.org/articles/19/71/2021/",
+      "read_scope": "Abstract and sections1-4 HTML prose/equations/captions",
+      "not_read": "Figure images and entire numeric table"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1864448/full",
+      "read_scope": "Metadata/abstract,3.3-3.4 prose,4.1-4.3 tables/prose,conclusion/data statement",
+      "not_read": "Equation images, entire methods, source implementation"
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/16/9/1409",
+      "read_scope": "None: primary fetch returned Internal Error"
+    }
+  ],
+  "protocol_changed": false
+}

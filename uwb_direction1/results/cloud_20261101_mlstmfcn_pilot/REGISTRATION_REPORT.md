@@ -1,0 +1,18 @@
+# 2026-11-01 — 完整MLSTM-FCN250真实源用户pilot的loader/runner/fullauditor/private流程已实现并预登记，尚待远端逐字回读后实际启动
+
+先GitHub读取b1f5e054d659ddc037ec08d9c7222d272de02db1四主记录，核同一可执行云端原进程/检查点，无已有MLSTM pilot或controller/run01，未重复下载或启动。沿用已通过实际cost的完整8-cell/Conv128-256-128/SE16/Masking/Dropout0.8，860364total/859340trainable、250epoch/B128/seed20261029/oneCPU，保留567步LSTM/90步CNN；paper/README250与gesture脚本1000/Uwave500区分，Keras3 sigmoid与legacyhard_sigmoid差异保留，原作者和runtime/789均不改。
+
+本轮实际实现load/data角色guard、250轮逐批持久runner、独立全重放auditor、顺序train→audit controller、初始保险/完整私有tarbuilder+每成员checker、完整私有回读后一次性finalizer。真实协议固定source6900 users1–6：3–6train4700/user2val1000/user1diag1200，加载gesture标签前先核source ID/subject一致，train/audit只索引train+val标签；7–8不在source metadata，diag标签仅finalizer。输入full signed viewRMS90x567转连续float32[567,90]，无额外znorm/resize/augmentation。
+
+原helper训练类inversefreqweights/fixed12head/未加权val、strict最低weightedtrainloss(tiesearliest)选择、checkpoint→ReduceLR顺序/patience100/factor1/cuberoot2/minlr1e-4、Adam.001保持；dedicatedTorchGenerator(seed+zero-basedepoch)、counts-onlyRandomState(seed+101val/+102diag)、B128推理，不称nativefitDataAdapter等价。全部9250updates/1175000训练出现/250epoch日志、真实trainingIDs/loss/metrics/LR、initial/first/best/rollinglast/finalprediction完整weights/Adam/BN/metrics/callbacks/modes/allRNG及nativebest/last/双preds都持久保存。finalprediction是bestweights+lastAdam的inference状态，best.pt另保留自己的完整optimizer/RNG，native.keras单独不称训练resume。
+
+fullauditor校全部冻结字节、真实X→viewRMS与独立FP64容差参考、角色/ID/评估batch、所有epoch/batch/累计metrics/batchloss/classweights/sampler，重演所有9250更新和五个关键完整state、两个native文件及val+diag2300行预测。native文件观测隔离全RNG且证明活模型参数/Adam/metrics/layerRNG/modes不变，防止旧H反序列化PythonRNG故障重现。auditor不索引diag标签。controller独立train43000/43100CPU+43100wall，audit28790/28800CPU+28800wall，顺序执行；无retry/resume/Git/Drive/scoring，最后停在complete_audited_unscored_requires_private_backup_and_finalization。
+
+四项固定协议/改参数拒绝/角色及gate拒绝/无marker在nativeimport前拒绝测试、三项active/failed training及初始保险不能评分边界测试通过。完整架构合成producer→持久artifact→fullreplay端到端3epoch9updates(仅fixtureB2/seed7)通过；所有batch IDs/metrics/loss/epoch、initial/first/best/last/final custom states、nativebest/last和双预测一致；故意篡改训练ID被拒绝、user8元数据被拒绝、evaluation排列不消耗globalNumPyRNG。三个真实integration logs保留，均通过，无假称真实UWB值/fit已运行。
+
+所有最终1541项protocol/code/tests/source/native/runtime/原始data和RMS cache字节/cost/predecessor绑定已实际核验，native engine尚未import、未decode实际UWB值/标签。PROTOCOL SHA2b48325487cc11c6f534527377092e7f6f946a9aa2f7c7afd51d4069244c4ca3，FROZEN SHAe4d806da3b0e37f915ddfb7e3d04156e840af660f6320de7312c458626f72433。现在以最新parent预登记所有文件、逐字回读，再写匹配marker方可运行controller/producer；本提交不声称后台训练已启动。
+
+评分必须先两路pred冻结+完整auditterm0+完整模型私有保存(rawfetch true/include_base64 false/metadata-first/max3/每块SHA及全成员)，初始first-only scope不够。固定pilot门槛沿用既有0.5pp over TimeMIL64同held1 reference98.666667%及相同diag ID集合/预测SHA，非从新结果再选基线。H已知held1 99.416667%如实作context；其CPU100source6失败已关。MLSTM单pilot若过仅可另登记source6强pipeline确认，不能称超过所有单用户模型/八折/原创；未过关确切full250/B128seed配置，不调参/换seed/epoch救援。
+
+模型/准确ID值/原作者9source私有保存不入Git，raw/maps/runtime另从原私有索引恢复。初始保险只immutable initial/first，非最新训练模型/complete/resume；fullbackup含全部已产模型、日志、IDs、preds及audit，私有原源与text依赖可重取，controller不自动评分。source重复开发仍探索性，7–8标签不用于方法选择，已发表基线价值/原创分开。当前没有实际MLSTM训练进程；下一已授权动作是远端exact readback完成后立即启动，并核首步检查点/真实进程，保留原自动接续。
+

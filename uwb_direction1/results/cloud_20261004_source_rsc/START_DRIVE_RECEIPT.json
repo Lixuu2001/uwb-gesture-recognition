@@ -1,0 +1,140 @@
+{
+  "state": "initial_epoch_snapshot_private_backup_verified",
+  "observed_utc": "2026-10-04T18:26:15.949170+00:00",
+  "scope": "rsc24 held3 epoch2 only; not final12 trajectory backup",
+  "epoch": 2,
+  "step": 148,
+  "archive_bytes": 7261158,
+  "archive_sha256": "d63672523a97a0577b718e693ff7ee7a52d02fe584d6754b12d14bb77353c551",
+  "members_verified": 28,
+  "contents": {
+    "rsc24/held3/segment_02.pt": {
+      "bytes": 1074485,
+      "sha256": "289a447724a06cce489a7c5b08a7bff09fede0276de038df3beac2f10503fe66"
+    },
+    "rsc24/held3/segment_01.pt": {
+      "bytes": 1074485,
+      "sha256": "e3a295f26302cccaa2264f6bb4692d03237d3df389cae07b138baa333cc54a31"
+    },
+    "rsc24/held3/progress.pt": {
+      "bytes": 5389375,
+      "sha256": "380e653f99efdc9a53bdfe9d864c06a53561b5e038d5dbc39c4cccd3472b7e43"
+    },
+    "rsc24/held3/split.json": {
+      "bytes": 71057,
+      "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+    },
+    "rsc24/held3/source_orders.npz": {
+      "bytes": 281027,
+      "sha256": "127872bbc8fe0b95e7266eafa9b42a5bba255f988c8032956f8be825b074ea93"
+    },
+    "runs/identity.json": {
+      "bytes": 1751,
+      "sha256": "52774f23fd519e7679878babc3ed8b6bc7d84c3c974f4042212bf4c148ff6720"
+    },
+    "runs/protocol.json": {
+      "bytes": 3181,
+      "sha256": "ae44810041b795bd897574c2304cc91798e73150f436ac2d5a1ea06de0b1868c"
+    },
+    "runs/LAUNCH.json": {
+      "bytes": 1068,
+      "sha256": "7fbaa6d7246ebc1dac3dfd265ff4f03b3d4fcf913b33f17553a01f09ded0e7ae"
+    },
+    "runs/BASELINE_INDEX.json": {
+      "bytes": 3507,
+      "sha256": "9bbb07afe7a18985e3fd45fb82271e4fa12d80023d579eb7d7d0d348879b8718"
+    },
+    "tools/source_rsc.py": {
+      "bytes": 2824,
+      "sha256": "dbae49e983653dd42b7bb646638b6f0122387fc2963a1987571dc64c349b7b90"
+    },
+    "tools/audit_source_rsc.py": {
+      "bytes": 2454,
+      "sha256": "e3ca69afb61034e7a0ce20f514c3c9bcd0f3e7dbee3c70aa3ec12baa4f6388d9"
+    },
+    "tools/audit_source_sam.py": {
+      "bytes": 4355,
+      "sha256": "1e3fd9af1486043b9d1260cb64c9734f949f5d88672dae28b4acd62335d0ddfb"
+    },
+    "tools/audit_temporal_scale.py": {
+      "bytes": 4369,
+      "sha256": "6962ff8f6b625181ec57c4113c6e2e3580cf75a492e4d6238cdfdcd19727eddf"
+    },
+    "tools/test_source_rsc.py": {
+      "bytes": 6089,
+      "sha256": "9c6eed55893b13b8e0001082aee7869bd6e35cb7af3a6e6b520a28a6a8a9b655"
+    },
+    "tools/swad_source_pilot.py": {
+      "bytes": 15906,
+      "sha256": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc"
+    },
+    "tools/swad_core.py": {
+      "bytes": 9030,
+      "sha256": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4"
+    },
+    "tools/circular_signal.py": {
+      "bytes": 15962,
+      "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+    },
+    "tools/audit_restored.py": {
+      "bytes": 8247,
+      "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+    },
+    "tools/full_view_heads.py": {
+      "bytes": 14594,
+      "sha256": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "tools/source_rsc_pilot.py": {
+      "bytes": 14371,
+      "sha256": "911fb540da2a75931cc59a13ef38ed7ea37155f074a77c2bd6f9b2d255d026c0"
+    },
+    "tools/archive_source_sam.py": {
+      "bytes": 10316,
+      "sha256": "a7ef6d78744e61b4f4b54a7c6a540ee1150075dc7fd164ced9fcb53c9616c365"
+    },
+    "research/SOURCE_RSC_PROTOCOL.json": {
+      "bytes": 3181,
+      "sha256": "ae44810041b795bd897574c2304cc91798e73150f436ac2d5a1ea06de0b1868c"
+    },
+    "research/SOURCE_RSC_REVIEW_RECEIPT.json": {
+      "bytes": 1059,
+      "sha256": "f24ab499073e94539bd0f643d1ea652c9990ec9365655247fb3da3835d827cc8"
+    },
+    "research/SOURCE_RSC_REVIEW.md": {
+      "bytes": 2575,
+      "sha256": "a067db4ff072c4bb8bbc7584cd65dfb9bcd365b1ebfb24eabcf7cdac17557b5a"
+    },
+    "provenance/COST.json": {
+      "bytes": 3108,
+      "sha256": "24c6d8105553cf37cb985245b58fd3dcb5ec42fc0ca7ccaceec77706ecd6b0b4"
+    },
+    "provenance/TESTS.json": {
+      "bytes": 309,
+      "sha256": "5a99f025b9cca1dd3f685edf60629db7dd12b9434eb0ba7900bd19ea4dbd40de"
+    },
+    "provenance/START_AUDIT.json": {
+      "bytes": 2241,
+      "sha256": "265970e9ffa6e1876db90f3836735ec974452be6cde5da5f3e11ab579a3cae49"
+    },
+    "provenance/RESTORE.md": {
+      "bytes": 1814,
+      "sha256": "93ee25f713e4b58cb7480a9ba9045d2ec236e71ad271a0fc0f9d11db05e9dfc5"
+    }
+  },
+  "parent": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "owner_only": true,
+  "authenticated_raw_redownload": true,
+  "whole_archive_and_members_sha256_verified": true,
+  "parts": [
+    {
+      "id": "1L4HIsOxLZWg8CHhk0qAdWSzZLUdxQQb2",
+      "url": "https://drive.google.com/file/d/1L4HIsOxLZWg8CHhk0qAdWSzZLUdxQQb2/view",
+      "name": "uwb-rsc-start-20261004.part001",
+      "bytes": 7261158,
+      "sha256": "d63672523a97a0577b718e693ff7ee7a52d02fe584d6754b12d14bb77353c551"
+    }
+  ],
+  "full_run_backup_complete": false,
+  "raw_data_included": false
+}

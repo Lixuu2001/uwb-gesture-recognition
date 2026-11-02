@@ -1,0 +1,9 @@
+{
+  "state": "synthetic_RNG_capture_repair_before_real_UWB",
+  "attempt01_log": "SYNTHETIC_ATTEMPT01.log",
+  "diagnosis02_log": "SYNTHETIC_DIAGNOSIS02.log",
+  "cause": "snapshot read Python RNG before lazily creating Keras global SeedGenerator; that creation consumes one Python random draw. Captured Python state and Keras global state therefore did not describe one instant. Diagnosis python_rng MT index15vs14; model/optimizer/BN/metrics/Torch/NumPy states passed before Python comparison.",
+  "repair": "Materialize Keras global generator before capturing any RNG; require shape-only compilemetric build and exact immediate restore plus next2update comparison; no skipped metric restoration.",
+  "scientific_configuration_changed": false,
+  "real_UWB_values_labels_or_fit": false
+}

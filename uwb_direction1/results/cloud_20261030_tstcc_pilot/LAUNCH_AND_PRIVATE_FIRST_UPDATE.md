@@ -1,0 +1,14 @@
+# 2026-10-30 — TS‑TCC真实160epoch实验已启动，首步模型/128ID核验与私有恢复包完成
+
+原预登记67bf23dc7acc41636caf38dd0e5ca69068478cc4的25文件逐字读回后force=false推进，再一次启动云端supervisor48833/worker48834。最新持久观测SSL第32/40、1152/1440更新；后续linear40/finetune40/scratch40按原协议继续。诊断标签未读，7–8标签未用，无真实准确率结论，不因训练loss推断准确率。只观察现有PID/检查点，禁止重复启动或重下已有数据。
+
+首步只读验证通过：两模型作者默认seed初始化逐位、encoder18与TC68状态张量改变且有限、9+65组Adam step1及moments重载、未用SSLlogits不变、128确切训练ID和固定shuffle、71冻结哈希。first updateSHA794ccdb7e24a6fef0c86fa39d1540cdb6cb298f0feae8163284d1b525da03fc4；验证器未读原始数值/标签或新增前向/拟合。完整四阶段后续2步resume/author-step已在合成测试中通过，不等于真实完整轨迹复核，完成后仍需冻结审计。
+
+首步不可变私有保险包12199432字节/2块/89payload+manifest=90成员，SHA8c27a1c1cd04acb19d64bfb91f23743f56c34d73a631dda9471496e92eb00f2a，回执SHA34536d74e62bd673e6760f862ebfdce95ccc13a80939dbffeafa9b7fb0fa0175。folder/chunks shared=false且仅owner，目录/大小/MIME核验，authenticatedrawfetch/base64=false立即物化SHA，重组/全部成员SHA通过。索引 results/cloud_20261030_tstcc_pilot/first_backup/DRIVE_BACKUP_RECEIPT.json。只含SSLinitial/first的双模型/优化器/RNG、全部sourceID/split、固定随机增强recipe和hash、代码/依赖/元数据；不含live/latest/后续阶段完整模型、原数组/maps/大增强数组，也不称整作业resume。backup.py支持完结后独立完整包，活动运行被守卫拒绝完整打包；3项postprocess守卫测试通过。
+
+新增postprocess.py仅负责等待现有训练成功TERM，再一次执行已冻结 launch.py --audit，成功后 backup.py complete 本地构建完整恢复包。它不启动/重启训练、不自动retry、不调参，不具备Drive上传或Git发布能力。三项守卫覆盖未完结等待、失败/状态不一致拒绝、仅成功放行；POSTPROCESS_HASHES绑定控制器/备份与原冻结审计/launcher。此次登记时控制器尚未启动，远端读回后独立启动，记录真实PID再更新。完整私有上传/逐块raw取回/重组/memberSHA和Git最终结果仍需下一次agent操作，不能声称已自动完成。
+
+下一接续先查POSTPROCESS_STATE、实际worker/PID、run01/STATE与supervisor01/TERMINATION；后处理若在等待/审计/打包，禁止另起审计或训练；若已有audit_supervisor01/COMPLETE_AUDIT，先读日志/TERM避免重复。后处理完成只表示本地完整包 ready，按MANIFEST通过Drive连接器最多3并发上传新块，先保存ID/元数据核验后rawfetch(download_raw_file=true,include_base64=false)即物化校验、重组、成员验证，最后发布完整真实结果和原固定gate。发现失败保留trace，修复前不把工程故障当科学负结果。首步包已持久保存不代替最终完整包。
+
+本次导出保护一度把JS源码里的通用sediment scheme替换字面量误判为认证artifact引用，创建新Git tree前即停止；已保留PUBLICATION_GUARD_TRACE，并继续禁止JSON中的实际transport引用/认证URL。无敏感URL发布、无科学文件/配置或训练更改。原789快照未动，真实数组/模型/实际ID值不入Git。准确率提升与原创贡献仍未证实；方法/seed/门槛保持预登记，八用户历史开发下探索性，继续任务启用。
+

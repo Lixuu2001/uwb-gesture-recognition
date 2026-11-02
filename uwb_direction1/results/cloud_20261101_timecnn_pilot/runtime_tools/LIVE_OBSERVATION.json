@@ -1,0 +1,63 @@
+{
+  "state": "existing_TimeCNN_pilot_OS_and_metadata_verified",
+  "observed_utc": "2026-11-01T18:56:57.730902+00:00",
+  "controller": {
+    "pid": 69261,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/uwb-timecnn-pilot-20261101/controller.py"
+    ],
+    "status": {
+      "State": "S (sleeping)",
+      "PPid": "1",
+      "VmRSS": "12640 kB",
+      "Threads": "1"
+    }
+  },
+  "children": [
+    {
+      "pid": 69262,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-timecnn-pilot-20261101/run_pilot.py"
+      ],
+      "status": {
+        "State": "R (running)",
+        "PPid": "69261",
+        "VmRSS": "2806716 kB",
+        "Threads": "1"
+      }
+    }
+  ],
+  "controller_state": {
+    "state": "training",
+    "pid": 69261,
+    "automatic_retry": false,
+    "Drive_or_Git_capability": false,
+    "users7_8_labels_used": false,
+    "observed_unix": 1793559266.5418813
+  },
+  "training_state": {
+    "state": "training",
+    "pid": 69262,
+    "epoch": 33,
+    "total_steps": 9702,
+    "all_predictions_frozen": false,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 148.46224727202207,
+    "cpu_seconds": 150.972710553,
+    "observed_unix": 1793559417.5430605,
+    "batch": 0,
+    "best_epoch": 33
+  },
+  "initial_checkpoint_exists": true,
+  "first_checkpoint_exists": true,
+  "training_termination_exists": false,
+  "audit_termination_exists": false,
+  "diagnostic_score_exists": false,
+  "configuration_changed": false,
+  "labels_loaded_by_observer": false
+}

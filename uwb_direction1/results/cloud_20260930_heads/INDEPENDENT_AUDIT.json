@@ -1,0 +1,373 @@
+{
+  "state": "verified",
+  "runs": [
+    {
+      "held": 1,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.9683333333333334,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 1,
+      "arm": "full_ce",
+      "macro_accuracy": 0.9808333333333333,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 1,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.9783333333333334,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 1,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.9775,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 2,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.9890000000000001,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 2,
+      "arm": "full_ce",
+      "macro_accuracy": 0.9890000000000001,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 2,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.9890000000000001,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 2,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.9890000000000001,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 3,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.9083333333333333,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 3,
+      "arm": "full_ce",
+      "macro_accuracy": 0.9133333333333332,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 3,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.9158333333333334,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 3,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.9149999999999999,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 4,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.9558333333333334,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 4,
+      "arm": "full_ce",
+      "macro_accuracy": 0.9500000000000001,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 4,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.9283333333333333,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 4,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.9325,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 5,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.9425000000000002,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 5,
+      "arm": "full_ce",
+      "macro_accuracy": 0.9425000000000002,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 5,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.9875000000000002,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 5,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.9883333333333333,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 6,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.7172727272727273,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 6,
+      "arm": "full_ce",
+      "macro_accuracy": 0.7190909090909092,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 6,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.740909090909091,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 6,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.7599999999999999,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 7,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.9508333333333333,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 7,
+      "arm": "full_ce",
+      "macro_accuracy": 0.9708333333333332,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 7,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.9725,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 7,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.9733333333333333,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 8,
+      "arm": "subset_ce",
+      "macro_accuracy": 0.9308333333333333,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 8,
+      "arm": "full_ce",
+      "macro_accuracy": 0.9358333333333334,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 8,
+      "arm": "full_supcon",
+      "macro_accuracy": 0.9358333333333334,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    },
+    {
+      "held": 8,
+      "arm": "full_crossuser",
+      "macro_accuracy": 0.9333333333333332,
+      "prediction_replay": "bitwise_equal",
+      "earliest_minimum_validation_ce": true
+    }
+  ],
+  "artifact_hashes": {
+    "/workspace/uwb-full-heads-20260930/fold1/subset_ce/best.pt": "38b1b47f6329eb22d3e1b8cf00688ffdb94c697649111aba14e079b0c87c1ebc",
+    "/workspace/uwb-full-heads-20260930/fold1/subset_ce/predictions.npz": "f5e64ed4aa28cf9fabef547c3fdcb2543e23201dfacea5b3e813918820c93058",
+    "/workspace/uwb-full-heads-20260930/fold1/subset_ce/progress.pt": "58f2e0607eb8fba24bcd032d5c01da3902d34d12dde758e526b9cbfd5d0cacdd",
+    "/workspace/uwb-full-heads-20260930/fold1/full_ce/best.pt": "2423094dcc39cdc720ac8e4a5d8983fd1cf12b650d829abaaee88450483f2db7",
+    "/workspace/uwb-full-heads-20260930/fold1/full_ce/predictions.npz": "c44a68ade3959a3590fe63af8e9b3e67c541f43ba53cc35bb5b30965bbaf4b01",
+    "/workspace/uwb-full-heads-20260930/fold1/full_ce/progress.pt": "bd4feab84dfe184be868cd56d7e4d113062040a8178bdb173a4b276c49f0bf77",
+    "/workspace/uwb-full-heads-20260930/fold1/full_supcon/best.pt": "a51ce861581a9f9c882da614a95635fca2da99a334608a7993350c74c2d68eb2",
+    "/workspace/uwb-full-heads-20260930/fold1/full_supcon/predictions.npz": "ced354890bcde359b656e4b9c9ebd7990e6e3d4fb0e01ba3a6de6bfb79f5b128",
+    "/workspace/uwb-full-heads-20260930/fold1/full_supcon/progress.pt": "e9c7e8031e9ebfdcc4b953ebc00edc8e4fac9ce69f1a0e598e2cf73d252aa742",
+    "/workspace/uwb-full-heads-20260930/fold1/full_crossuser/best.pt": "27e63604fa744b1175454c6c8df9ad5ffc6787a860099804d5b3a7172c62084b",
+    "/workspace/uwb-full-heads-20260930/fold1/full_crossuser/predictions.npz": "483742408bbee74d95f751f3b26bffd8acc4c68859721adb916ce5877bca6b19",
+    "/workspace/uwb-full-heads-20260930/fold1/full_crossuser/progress.pt": "698f92d272070c314ada41e8eb38a003a92f12f4da11498bddd43092e3cc0602",
+    "/workspace/uwb-full-heads-20260930/fold2/subset_ce/best.pt": "32bbf8b410b6a039a8f2fbf17510bf0f79a119e7b54639fab07f16ecb6195c4c",
+    "/workspace/uwb-full-heads-20260930/fold2/subset_ce/predictions.npz": "a34eaa20bbbd926fcf8655ba3165846195525f2edb33ddec31afa902ee9d3956",
+    "/workspace/uwb-full-heads-20260930/fold2/subset_ce/progress.pt": "b498e1cdf03fe10099d1c21efc59a8783f790b880483d1412af12e3fa13309cb",
+    "/workspace/uwb-full-heads-20260930/fold2/full_ce/best.pt": "06692001a725176eb2c38f4a9bfa464c3afdbd939aa5e14771ef67c23a162334",
+    "/workspace/uwb-full-heads-20260930/fold2/full_ce/predictions.npz": "a34eaa20bbbd926fcf8655ba3165846195525f2edb33ddec31afa902ee9d3956",
+    "/workspace/uwb-full-heads-20260930/fold2/full_ce/progress.pt": "e36136591cd5081b1125d0e419191160d3020f505460760d2e05f05df2747e6b",
+    "/workspace/uwb-full-heads-20260930/fold2/full_supcon/best.pt": "e5bc70b7afbcca27c5b4338898d3335ee90b52b980e5a4fcfaa370916c6935af",
+    "/workspace/uwb-full-heads-20260930/fold2/full_supcon/predictions.npz": "a34eaa20bbbd926fcf8655ba3165846195525f2edb33ddec31afa902ee9d3956",
+    "/workspace/uwb-full-heads-20260930/fold2/full_supcon/progress.pt": "68413bc81d8766833ee7da3cebf5d77a6fa25baf3e631a04463e0112e73fac24",
+    "/workspace/uwb-full-heads-20260930/fold2/full_crossuser/best.pt": "d1923de816930abca349f0ae8962a78b9ebd6c499192be64119686a0cd51a449",
+    "/workspace/uwb-full-heads-20260930/fold2/full_crossuser/predictions.npz": "a34eaa20bbbd926fcf8655ba3165846195525f2edb33ddec31afa902ee9d3956",
+    "/workspace/uwb-full-heads-20260930/fold2/full_crossuser/progress.pt": "61fcaeff47ced1efd53d965c7bf089b45f9e8f35f303b1281f001169fa0f6c99",
+    "/workspace/uwb-full-heads-20260930/fold3/subset_ce/best.pt": "71fa33d0c4cc58dabda2e4be7ff957472a7dabaad12743f25af7cfeef0cc6014",
+    "/workspace/uwb-full-heads-20260930/fold3/subset_ce/predictions.npz": "12ddb4e8b8434a7cc99aacdb2043c66bcef613f4a40fe448857dfe9c6ad87ebc",
+    "/workspace/uwb-full-heads-20260930/fold3/subset_ce/progress.pt": "da823bc235dd29692c938e23454065d097918cba1dcf90698c5795a1e80eb48c",
+    "/workspace/uwb-full-heads-20260930/fold3/full_ce/best.pt": "7f31839718b56aaab383dafb2e95fd3b09bbab4a44012975ea3da8c874d06b9f",
+    "/workspace/uwb-full-heads-20260930/fold3/full_ce/predictions.npz": "4e83ceab5192d434907ae4f659cb674f5a19d9ddbed300445ffe2e26d9e07aba",
+    "/workspace/uwb-full-heads-20260930/fold3/full_ce/progress.pt": "b1eb4636e0f7b7b23b5a38fad47f446ff38094b509d987458028f888fd9ed4e5",
+    "/workspace/uwb-full-heads-20260930/fold3/full_supcon/best.pt": "2f972ccbb4615d729f2d252bc9bfa0f1d65600214f2c9b8d8b6a9a6beb64a73b",
+    "/workspace/uwb-full-heads-20260930/fold3/full_supcon/predictions.npz": "1a78e03862ec787ce61eb5d93cf9cc3ce032d4fa9cb1ac87136cbcef3173b4d8",
+    "/workspace/uwb-full-heads-20260930/fold3/full_supcon/progress.pt": "03d9744fa09a1dc0b149a84ee74eb8efd88e948068304a5aab76c01b974e543a",
+    "/workspace/uwb-full-heads-20260930/fold3/full_crossuser/best.pt": "70d3a7260a1d96f6e603758e64b5e55a2738f38d83c7226e9ef6c539025d09b4",
+    "/workspace/uwb-full-heads-20260930/fold3/full_crossuser/predictions.npz": "b621564504f3578deaa0d7d8e2ba436c74708ef9edf2552e5a18afdb7c952d07",
+    "/workspace/uwb-full-heads-20260930/fold3/full_crossuser/progress.pt": "f841860d73828966c7f6da56333c9db9afd111002f42f18ee15a6ed82572b97f",
+    "/workspace/uwb-full-heads-20260930/fold4/subset_ce/best.pt": "a8b9ed9616d85509da13183219c1446fb84a36e7170e21dde54dadacb22ec299",
+    "/workspace/uwb-full-heads-20260930/fold4/subset_ce/predictions.npz": "b0c6cad9d761fd2c0a64f45236bab2b53d35040262959832ecb77e3d8a8e2a0f",
+    "/workspace/uwb-full-heads-20260930/fold4/subset_ce/progress.pt": "98a6a549ef2537ca62b032015988ab040e83d0f81132e00ab463a50d539fa19d",
+    "/workspace/uwb-full-heads-20260930/fold4/full_ce/best.pt": "fe8e82a161c04e031770034720cfbb3fbd1ae580a2a64c722d15f1d763a48f9e",
+    "/workspace/uwb-full-heads-20260930/fold4/full_ce/predictions.npz": "baa7e292d29fc39dd3277c5c0da492103a473d5b4862fd84452b120c60a0d222",
+    "/workspace/uwb-full-heads-20260930/fold4/full_ce/progress.pt": "f1280ebb8077e8c713402e1546af9f8b032ffe79d6ac67d508c01d927b72b0c7",
+    "/workspace/uwb-full-heads-20260930/fold4/full_supcon/best.pt": "65782d1dacee47b3967b8864c30b506a42f603805635f0022a3fa5981bcabb40",
+    "/workspace/uwb-full-heads-20260930/fold4/full_supcon/predictions.npz": "d454cc7c86b5f475b5529333e7b52075dadaa78fd28553536f1ac6d87e9fc0d6",
+    "/workspace/uwb-full-heads-20260930/fold4/full_supcon/progress.pt": "dcfafc6c79b9f531f9a31f55ef0ecbf730cc2011f57e68c32d6c32a506ef3cee",
+    "/workspace/uwb-full-heads-20260930/fold4/full_crossuser/best.pt": "896e02469f6fcf01e243b6bbe63c2c7f65ba8c8c659f4ce0ff8a5caff4fb7a79",
+    "/workspace/uwb-full-heads-20260930/fold4/full_crossuser/predictions.npz": "c46f836c66270259600fcd287091189a6f4845056aea9d52311ea6041e4014bf",
+    "/workspace/uwb-full-heads-20260930/fold4/full_crossuser/progress.pt": "87b5d9585dcb6b6793a8c8f14b73be9c5b87b1a666c112c2cb39a355091374a0",
+    "/workspace/uwb-full-heads-20260930/fold5/subset_ce/best.pt": "b6441ae966a678ef43bc1162caec6492057e3e47184b62b89120d87d00e136e3",
+    "/workspace/uwb-full-heads-20260930/fold5/subset_ce/predictions.npz": "868bae8527fd487e174b6c04d72de68c3c38077733ef29ea83de93ecedc4df57",
+    "/workspace/uwb-full-heads-20260930/fold5/subset_ce/progress.pt": "0c7b6ad2164a877d1c9024d70541508297d69694c6e4e17b976add4ddc24fd97",
+    "/workspace/uwb-full-heads-20260930/fold5/full_ce/best.pt": "560d5160d7f58bda438e84c54187b8c7eb78e31f1fce7a6fa9dfbd38768c0cbd",
+    "/workspace/uwb-full-heads-20260930/fold5/full_ce/predictions.npz": "868bae8527fd487e174b6c04d72de68c3c38077733ef29ea83de93ecedc4df57",
+    "/workspace/uwb-full-heads-20260930/fold5/full_ce/progress.pt": "57cf9f38fceed72ac37eea2d74e3164b071a4e42cd0773053c3220840b9f6b57",
+    "/workspace/uwb-full-heads-20260930/fold5/full_supcon/best.pt": "7c7377ee61e02a00c8ce6e70023df9be4983c0c6e5c6d69a069d33ba8ab81f78",
+    "/workspace/uwb-full-heads-20260930/fold5/full_supcon/predictions.npz": "b5eaf6e694b87ac974c12f3ee3e47630e42cf7cb05d3bddab80fc5b3f9917898",
+    "/workspace/uwb-full-heads-20260930/fold5/full_supcon/progress.pt": "0eb84eb02c866d436f9a388e87a9e984d36e1c007114b7a2ab27879b2cd92c63",
+    "/workspace/uwb-full-heads-20260930/fold5/full_crossuser/best.pt": "e7e45efc50a67789da78777ed92e8c5c72f3ac81b7245e2d99d2fb16566314b1",
+    "/workspace/uwb-full-heads-20260930/fold5/full_crossuser/predictions.npz": "ff33bd31eb6612ce7533bff0de1b15c24abd5c4e20062bf169a18edb3bf0624b",
+    "/workspace/uwb-full-heads-20260930/fold5/full_crossuser/progress.pt": "fb8d150f654a56ef3a42d32d98bd2fd1c09dad605f754dd1ccbfc2a42cd1ef1d",
+    "/workspace/uwb-full-heads-20260930/fold6/subset_ce/best.pt": "5c2e76600e8bad6759080dc2ea6f52e51ec92ca4ceabd789eb856a007fd3d31e",
+    "/workspace/uwb-full-heads-20260930/fold6/subset_ce/predictions.npz": "6577d32c0563063c410f77eece3b8e36facbd99d6d01424dcff65b639a3509f7",
+    "/workspace/uwb-full-heads-20260930/fold6/subset_ce/progress.pt": "ee80b682ec1f075abb61d17fa3adc851322901b2ff6da3e25fe40ff45ec3f63d",
+    "/workspace/uwb-full-heads-20260930/fold6/full_ce/best.pt": "bcede00f448a761df569de97863aa1700854b09d0707b55e16bdaf2ccb3cab86",
+    "/workspace/uwb-full-heads-20260930/fold6/full_ce/predictions.npz": "f0bfa8451c5ac0fa2544db37c538cfee2e1db4d5b024eb2bebf72665269f961e",
+    "/workspace/uwb-full-heads-20260930/fold6/full_ce/progress.pt": "e668dd7347ceacb9a005807c178ff93a6547ae8152bc346da0275acbb94488c6",
+    "/workspace/uwb-full-heads-20260930/fold6/full_supcon/best.pt": "aaa2f31192cdaeae3a45983d6240824d5092ea582976fc52a219003cae4e7b0f",
+    "/workspace/uwb-full-heads-20260930/fold6/full_supcon/predictions.npz": "234b0969a4d7b6ea33aef2ea02da7bfd3b60456a4f9b7397400cb3d2c7784185",
+    "/workspace/uwb-full-heads-20260930/fold6/full_supcon/progress.pt": "e2d37b37ca60658da2bdd2786558306f8dee1159ce8c7d7b39ce14a640274ea8",
+    "/workspace/uwb-full-heads-20260930/fold6/full_crossuser/best.pt": "c6c6a70b5430ccd57922f38fa7d19f110911aa50e54430c8a9085afaf6897ee7",
+    "/workspace/uwb-full-heads-20260930/fold6/full_crossuser/predictions.npz": "8a26711f8ebd103035cc5770cb0721825743810a3901c30a5d31d953186726d7",
+    "/workspace/uwb-full-heads-20260930/fold6/full_crossuser/progress.pt": "56061ea4e8d7f8484d4279b68dad520dd1093828686d395a84d77fa5a5c0236d",
+    "/workspace/uwb-full-heads-20260930/fold7/subset_ce/best.pt": "b4799deb8a986fa2d77168ff49fc63757ef0b67978f7b6ec18b08bb96ddc82f6",
+    "/workspace/uwb-full-heads-20260930/fold7/subset_ce/predictions.npz": "cff69e3a8ad7313127334f8c8ede132995cf47162372ce2594bbac7427340083",
+    "/workspace/uwb-full-heads-20260930/fold7/subset_ce/progress.pt": "bf67d8bb028caec5cec379f9d4b7487ca714e93406bd92ca2eeece4d9b9af7d0",
+    "/workspace/uwb-full-heads-20260930/fold7/full_ce/best.pt": "7f76d0b025994c880e7275723c8803cdf5187b2f60d30aa176e54c2e66756478",
+    "/workspace/uwb-full-heads-20260930/fold7/full_ce/predictions.npz": "8f1eb6b7d22cfedfe1b493675a5222848882af6db37e8bb68f6711bd84048228",
+    "/workspace/uwb-full-heads-20260930/fold7/full_ce/progress.pt": "745eacfde3bf2a08475d98056f2574d7d531fbfcff578a5c2acab23915898aa0",
+    "/workspace/uwb-full-heads-20260930/fold7/full_supcon/best.pt": "43887325901e2f6f1ffd9f97a97cadd6b1433b5f69422b2baf5ef3ce66b1c8d7",
+    "/workspace/uwb-full-heads-20260930/fold7/full_supcon/predictions.npz": "0989c4587340e93e49a3b6511b3ab300b0666a8b6c48b156715c6dbfd28f60d4",
+    "/workspace/uwb-full-heads-20260930/fold7/full_supcon/progress.pt": "e5cfd77c03715638a9125ae1d6b27ff5b5d75a59358b41a4874f190d4caa07f3",
+    "/workspace/uwb-full-heads-20260930/fold7/full_crossuser/best.pt": "dd3cbc7bcc002fac2908f636feb9b314829650a277d7fc71a1dc933130ab29cf",
+    "/workspace/uwb-full-heads-20260930/fold7/full_crossuser/predictions.npz": "b7a9217c30d744075b1fe43bcc0330458beb0043c8ff4c8a0a7da7409ad80585",
+    "/workspace/uwb-full-heads-20260930/fold7/full_crossuser/progress.pt": "aba6c17595baf200f2ec873cb096b0cdbd2c75d6d9bfb94158b962edd7eb7994",
+    "/workspace/uwb-full-heads-20260930/fold8/subset_ce/best.pt": "3a49e8528016f62939b35e4d23246646347b000af4a526dfd6ea73d6df47c6cd",
+    "/workspace/uwb-full-heads-20260930/fold8/subset_ce/predictions.npz": "640b7f8190ee692cdcf90b9bdf9c51784425327c7c5fa9b9551484f2c1869706",
+    "/workspace/uwb-full-heads-20260930/fold8/subset_ce/progress.pt": "f832bc5b14af4051f6f8d4f9159dc314ad50e300e744631d3e449e79f4856544",
+    "/workspace/uwb-full-heads-20260930/fold8/full_ce/best.pt": "70fb61157f3e6840250fe978a90040b7d1e7f84072d4d733e1a7895bcedfcbd8",
+    "/workspace/uwb-full-heads-20260930/fold8/full_ce/predictions.npz": "e7ca2def1f242e0d2e5cdf07d0afc4013c6cfdf388f3a611520208980edd751f",
+    "/workspace/uwb-full-heads-20260930/fold8/full_ce/progress.pt": "c3a07a8a6372343b865f34b95e248c5ae082d6b4a8452e04c3301e4adc6b452c",
+    "/workspace/uwb-full-heads-20260930/fold8/full_supcon/best.pt": "bfed12a9f29b20307ab51466fe5ecf5d41fc74acf7ecead26a7aec069f77cfb9",
+    "/workspace/uwb-full-heads-20260930/fold8/full_supcon/predictions.npz": "d44c6da3fecac15a5aa95213ad383360b7173d80425409537eb1390d9c852600",
+    "/workspace/uwb-full-heads-20260930/fold8/full_supcon/progress.pt": "fd2dd27b0e1b436281cdd84cc8414829a1c631896a652e776f565425006f5c00",
+    "/workspace/uwb-full-heads-20260930/fold8/full_crossuser/best.pt": "6ab2b880dea240c3ce3d1dd7d3822bb76c6cc914b06ff814651cbfe49399704b",
+    "/workspace/uwb-full-heads-20260930/fold8/full_crossuser/predictions.npz": "77b73880006497237486ad040d05835d11bc1e8b116857e57cf3b071b3aa041b",
+    "/workspace/uwb-full-heads-20260930/fold8/full_crossuser/progress.pt": "8aa2d1f97a96dc9d31f27078eeaea48daed31245dbb7ee144dd54bfa6f80d2ce"
+  },
+  "paired": {
+    "full_ce minus subset_ce": {
+      "difference_pp": 0.4810606060606057,
+      "improved_users": 5,
+      "descriptive_95_interval_pp": [
+        0.0,
+        1.0312499999999987
+      ]
+    },
+    "full_supcon minus full_ce": {
+      "difference_pp": 0.5852272727272747,
+      "improved_users": 4,
+      "descriptive_95_interval_pp": [
+        -0.5501893939393945,
+        1.9744791666666635
+      ]
+    },
+    "full_crossuser minus full_ce": {
+      "difference_pp": 0.844696969696962,
+      "improved_users": 4,
+      "descriptive_95_interval_pp": [
+        -0.4678267045454646,
+        2.354166666666654
+      ]
+    },
+    "full_crossuser minus full_supcon": {
+      "difference_pp": 0.2594696969696872,
+      "improved_users": 4,
+      "descriptive_95_interval_pp": [
+        -0.07291666666667668,
+        0.7679924242424112
+      ]
+    },
+    "full_crossuser minus historical_LTR": {
+      "difference_pp": -0.07916666666667599,
+      "improved_users": 6,
+      "descriptive_95_interval_pp": [
+        -1.25625000000001,
+        0.8687499999999931
+      ]
+    }
+  },
+  "bootstrap_scope": "descriptive paired user bootstrap; overlapping training folds; exploratory users",
+  "run_count": 32,
+  "model_and_prediction_artifacts": 96,
+  "auditor_sha256": "0534045796174a794a13981a3f2da8c9e8a4a07626922f0cd27d992444db60ca"
+}

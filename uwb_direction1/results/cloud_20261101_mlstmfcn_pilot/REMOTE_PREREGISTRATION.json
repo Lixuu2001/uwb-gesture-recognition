@@ -1,0 +1,136 @@
+{
+  "state": "remote_UWB_preregistration_exact_readback_verified",
+  "parent": "b1f5e054d659ddc037ec08d9c7222d272de02db1",
+  "commit": "17b4d80e0c5903d0a36b9ff9fd0aa8ad22916753",
+  "force": false,
+  "exact_blobs": [
+    {
+      "path": "uwb_direction1/STATUS.json",
+      "sha": "e37c0a09a218709148860dd4d6eb9e567c9daf8e"
+    },
+    {
+      "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+      "sha": "7ba6b94ad88a1dd7c53341ddf6fb27ba9d91e3de"
+    },
+    {
+      "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+      "sha": "1c8cc5f88690d90e501e6387d0fe339c555f3de9"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20260930/RUN_REPORT.md",
+      "sha": "c5eb98e8c3eb91ffb8412928c29ef36f5286c899"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/REGISTRATION_REPORT.md",
+      "sha": "7f2f341874f97111eb32ea8fd0f28f90cb1b4cf5"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/COMPLETION_BOUNDARY_TESTS.log",
+      "sha": "b6a98dd46774fad5e3325cb612d6d12dc61a4f5a"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/FROZEN_HASHES.json",
+      "sha": "1f49ce0afe8e864ce1e8896aa44dde0eb496b9a5"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/HISTORY_CHECK.json",
+      "sha": "7e879bd0ceeca043f0f0579e7c79bf14b0564e76"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/INTEGRATION_ATTEMPT01.log",
+      "sha": "9327898e2bbf24fc815ed978ff35fd2596994e8a"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/INTEGRATION_CHECK.json",
+      "sha": "42ca018d59d51ccd39cd72d02b7ff8a6c25c5b88"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/INTEGRATION_FINAL.log",
+      "sha": "0a409043afd0589d521aa95538f14d7ff0eaf9f4"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/INTEGRATION_RELEASE.log",
+      "sha": "f3318a3e921dd4bddb0a744a5f90505890d337dc"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/PREREGISTRATION.md",
+      "sha": "433060a31dc6d09193b17066a775caf7897ec21b"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/PRE_ACCESS_CHECK.json",
+      "sha": "20b980f4f8750c1fd477f53174d4359e06dcd68d"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/PROTOCOL.json",
+      "sha": "0c34fe51395e026242fa46eb5ebe6bebec6f4dad"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/PROTOCOL_TESTS.log",
+      "sha": "d7bbf85c7e963ad2d076b5f23250057e36dddf5e"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/RESTORE.md",
+      "sha": "25f77bd417d1214d6ef8e48a5a11a8df34f42baf"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/artifacts.py",
+      "sha": "3c743dae19b8be5547f982a4e0da9b17dddd8703"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/audit_complete.py",
+      "sha": "445af4966f8910291371c5c5b7dffbf4f31c6930"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/backup.py",
+      "sha": "bb72cc559358c9923d3f890397372f9ba3746e59"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/controller.py",
+      "sha": "044732696fa8aa6fe68a2024b5968bc6a7d77d8d"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/data.py",
+      "sha": "1f2e8de52d937f7517c67fbf8c3963d9969db889"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/engine.py",
+      "sha": "796f575761bbceb6a5ca72afeec1602677f3717c"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/engineering/PRE_ACCESS_CHECK_BEFORE_FINAL_LOG_FREEZE.json",
+      "sha": "f198f24df83dcd81192c4c9514f99c77e5e62c23"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/finalize.py",
+      "sha": "9530ef01db84558e69a04e23b869db8d4a4cc113"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/guards.py",
+      "sha": "3c7c37415610471fe83dd02ab73cabe0cd22586f"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/independent_supervisor.py",
+      "sha": "c1db58037b1f0b09c7d5554ce4e5f01bef167122"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/run_pilot.py",
+      "sha": "3a1642955d9b9bd97e3b3c0cd75a8380dcd4f182"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/test_completion_boundaries.py",
+      "sha": "3876f0d9249c12bb01b6d8ee074e690096b14a64"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/test_integration.py",
+      "sha": "d610169fa298a120db5b98162112db702a869b1f"
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20261101_mlstmfcn_pilot/study/test_protocol.py",
+      "sha": "43bfc80d7157609f24b86449d4ada21c9e712cf2"
+    }
+  ],
+  "protocol_sha256": "2b48325487cc11c6f534527377092e7f6f946a9aa2f7c7afd51d4069244c4ca3",
+  "frozen_sha256": "e4d806da3b0e37f915ddfb7e3d04156e840af660f6320de7312c458626f72433",
+  "users7_8_labels_used": false,
+  "diagnostic_scoring_before_full_audit_and_private_backup_authorized": false
+}

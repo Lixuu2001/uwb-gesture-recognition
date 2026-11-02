@@ -1,0 +1,5 @@
+# Preparation workspace
+
+Copy this entire research directory into a local workspace; the source index, cost policy/hashes, source files, and synthetic checks are co-located. Results under results/cloud_20261030_lightts_preparation duplicate selected read-only receipts. This is a synthetic preparation, not a real-data pilot.
+
+With Python3.12.14, NumPy2.3.5 and CPU PyTorch2.15.0 as recorded, run `python synthetic_check.py` once in a fresh copy to verify the NumPy IEBlock reference, three source updates and two restored updates. This reads no real data. The original cost_launch.py is deliberately preserved byte-exact: it requires the existing bounded supervisor at /workspace/uwb-multirocket-20261029/launch.py (SHA256 b8f8038cc8242d20158b1e4870283fc61f884a039931fa08cf9940ea6b3d2eab), checks source hashes, and refuses existing cost outputs. It was run once; the saved successful termination and cost evidence are part of this directory. Do not rerun into the evidence directory or describe synthetic values as UWB results. No real LightTS runner/protocol is included yet.

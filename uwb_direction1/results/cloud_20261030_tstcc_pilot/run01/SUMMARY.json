@@ -1,0 +1,26 @@
+{
+  "state": "complete_exploratory_source_pilot",
+  "scores": {
+    "linear": 0.8500000000000001,
+    "finetune": 0.975,
+    "scratch": 0.9616666666666666
+  },
+  "validation_scores": {
+    "linear": 0.764,
+    "finetune": 0.9339999999999999,
+    "scratch": 0.952
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "known_baseline_expansion_eligible": false,
+  "predeclared_route": "close_exact_configuration",
+  "finetune_minus_scratch": 0.01333333333333342,
+  "linear_minus_scratch": -0.11166666666666647,
+  "all_four_full40_epochs_complete": true,
+  "training_updates": 5760,
+  "training_appearances": 737280,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "users7_8_labels_used": false,
+  "wall_seconds": 1050.9956850250019,
+  "cpu_seconds": 1053.134215165
+}

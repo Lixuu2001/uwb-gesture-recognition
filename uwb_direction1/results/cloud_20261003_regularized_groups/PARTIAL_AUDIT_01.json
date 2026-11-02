@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "held": 3,
+      "arm": "uniform_base",
+      "artifact_hashes": 53,
+      "functional_logits_bitwise_equal": true,
+      "source_sampler_and_all_q_updates_rebuilt": true
+    },
+    {
+      "held": 3,
+      "arm": "uniform_reg",
+      "artifact_hashes": 53,
+      "functional_logits_bitwise_equal": true,
+      "source_sampler_and_all_q_updates_rebuilt": true
+    },
+    {
+      "held": 3,
+      "arm": "dro_reg",
+      "artifact_hashes": 53,
+      "functional_logits_bitwise_equal": true,
+      "source_sampler_and_all_q_updates_rebuilt": true
+    }
+  ],
+  "seconds": 31.093063831329346,
+  "scope": "First three completed trajectories only; no full-study efficacy result"
+}

@@ -1,0 +1,685 @@
+{
+  "state": "verified",
+  "utc": "2026-10-07T06:09:05.535418+00:00",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "shared": false,
+  "raw_download": true,
+  "include_base64": false,
+  "maximum_concurrent_downloads": 3,
+  "bundles": [
+    {
+      "name": "held3.tar.gz",
+      "bytes": 3022862,
+      "sha256": "035890d26b986ae9804da4ca852987c63ee5757a85760450d808b217a95b4679",
+      "contents": {
+        "runs/held3/selection.json": {
+          "bytes": 459,
+          "sha256": "771579deed59fef94d7f8620ced985646c98871595e3fcc27253faf25ed1325f"
+        },
+        "runs/held3/NUMERICAL_AUDIT.json": {
+          "bytes": 1511,
+          "sha256": "a61849c23a78640dafa03ee84795688faf1907007ee661583fbc952e998c01f3"
+        },
+        "runs/held3/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held3/subsets.npz": {
+          "bytes": 44573,
+          "sha256": "49d7c768ff8cfb60c0c308d98d4e394a340b1f5c2f0fa960466423646a9a7632"
+        },
+        "runs/held3/models.npz": {
+          "bytes": 117403,
+          "sha256": "d682d4a9ca09937d7017ca7559b8c1646c0ef5ab159fc3185173d935b821021b"
+        },
+        "runs/held3/result.json": {
+          "bytes": 175,
+          "sha256": "adbf97a26bc21277d7acf3c6a389d70e2b9aa9d5742fd64e7817901a361114af"
+        },
+        "runs/held3/predictions.npz": {
+          "bytes": 2877942,
+          "sha256": "956f13168dc0bc8e7af02e191cba606f936aae7bfce85fe2f6283239d6a0f511"
+        },
+        "runs/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        }
+      },
+      "verified_members": 8
+    },
+    {
+      "name": "held4.tar.gz",
+      "bytes": 3024041,
+      "sha256": "809fb953c62b29c760358f9f02242961efc789d1874ab0b2c5a07165667785f5",
+      "contents": {
+        "runs/held4/selection.json": {
+          "bytes": 432,
+          "sha256": "c8fc34a6ad52f953198711bee2d615094a1afce69d5ed3a4075d55453394ba73"
+        },
+        "runs/held4/NUMERICAL_AUDIT.json": {
+          "bytes": 1509,
+          "sha256": "1c0083deb283ff2a30a4e3cf15bdf3decdeed98cd24f126d23c7881fbaddad94"
+        },
+        "runs/held4/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held4/subsets.npz": {
+          "bytes": 44578,
+          "sha256": "dce661177dba462fffa486a33b11122ee8111ff130fe382dffcbbd2bdf0d5226"
+        },
+        "runs/held4/models.npz": {
+          "bytes": 117392,
+          "sha256": "b628e14caf4f1515ae80ae967389f7accd24f41c7c44b77df1d72661b2104038"
+        },
+        "runs/held4/result.json": {
+          "bytes": 215,
+          "sha256": "069e307f9fe40cff338ff61a94c26c2193135888201cd60dbd4a9e5145b077fb"
+        },
+        "runs/held4/predictions.npz": {
+          "bytes": 2877653,
+          "sha256": "c54d02380bec40b37ffe84eb7f8230e51cb9ee95b46a710fe1f2ec07ebd88a61"
+        },
+        "runs/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        }
+      },
+      "verified_members": 8
+    },
+    {
+      "name": "held5.tar.gz",
+      "bytes": 2906004,
+      "sha256": "fed46859e8fb3ed95757b46257af0d391bcd547962ea9ba9e0f9734412df1edd",
+      "contents": {
+        "runs/held5/selection.json": {
+          "bytes": 457,
+          "sha256": "c8f005243b2d1be5cd1fe27a6c6317ca2c475d3b5069f950b63e5795f7f76b8a"
+        },
+        "runs/held5/NUMERICAL_AUDIT.json": {
+          "bytes": 1507,
+          "sha256": "e9dc704d2e045b8dba0b00495e0f30257044c4a0ab6f0cf9546782dcd02720a9"
+        },
+        "runs/held5/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "abecf6a822bf95a59c3d6a18810f03608cb80b3e580372342d7c10b4324ba7e6"
+        },
+        "runs/held5/subsets.npz": {
+          "bytes": 45475,
+          "sha256": "cf93a30caee2402a0a0bc47021983805f9be8cff5e68893d473e797355c71003"
+        },
+        "runs/held5/models.npz": {
+          "bytes": 117314,
+          "sha256": "0deb5fdfd48a1dab4d26fa650e409237a89f9a88107d41b3d0b3ab5349cf0add"
+        },
+        "runs/held5/result.json": {
+          "bytes": 203,
+          "sha256": "dcf1940b03bf9b88543818bcdbc453d132637afddca186bc4899decaa8f4d60a"
+        },
+        "runs/held5/predictions.npz": {
+          "bytes": 2758270,
+          "sha256": "cfb5facf22f2a07b273dc5b701269c304db20a1290364fcbf0797415bb8a0df5"
+        },
+        "runs/held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        }
+      },
+      "verified_members": 8
+    },
+    {
+      "name": "held6.tar.gz",
+      "bytes": 2904821,
+      "sha256": "0be56282a8319bbbb1d44692d65e14857b2e3e6b154598861fb0e8233ec66008",
+      "contents": {
+        "runs/held6/selection.json": {
+          "bytes": 434,
+          "sha256": "e78a24546c0418615f7673ada8cc676ca7d74cced03571d90bc85136d377062e"
+        },
+        "runs/held6/NUMERICAL_AUDIT.json": {
+          "bytes": 1511,
+          "sha256": "12d167bfe5bd0918bcf36793851281e7fa5325d2c3ac0973cac78de38d1c4535"
+        },
+        "runs/held6/evaluation.npz": {
+          "bytes": 537,
+          "sha256": "0b667445fbbd02b05a1c48b04eca52443de2e8d2d864c1d36f734640d51f7c9a"
+        },
+        "runs/held6/subsets.npz": {
+          "bytes": 45481,
+          "sha256": "374a756d1d65e85089572deea068a19092b17ba56f9f9eab8a4b5993ad5916b0"
+        },
+        "runs/held6/models.npz": {
+          "bytes": 117267,
+          "sha256": "32b122211dc6a3d4d10be433492886934381ec61e81edad4601b45d28fe2d88b"
+        },
+        "runs/held6/result.json": {
+          "bytes": 215,
+          "sha256": "2de8fc089bf031ba9dcaefa647b34332387c49a58b476c29a0f9a2f8c2f0d6e1"
+        },
+        "runs/held6/predictions.npz": {
+          "bytes": 2758252,
+          "sha256": "af459924e715a5a744a3c0e48b31e2547d281dab4854ff7f384c638091345203"
+        },
+        "runs/held6/split.json": {
+          "bytes": 71057,
+          "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+        }
+      },
+      "verified_members": 8
+    },
+    {
+      "name": "held7.tar.gz",
+      "bytes": 3022993,
+      "sha256": "f09d35dfb5387af6af9dd29bf90c6bc3aef9bbd599e660a97200a79453913ec4",
+      "contents": {
+        "runs/held7/selection.json": {
+          "bytes": 455,
+          "sha256": "bfe513495d22d32e62eb00618a79f9ac7087d3b75aea07c773e74103dcc18906"
+        },
+        "runs/held7/NUMERICAL_AUDIT.json": {
+          "bytes": 1510,
+          "sha256": "a2ff15e82f8311b973ad792e31c4d034ba1d9aae4390dcc5c14124d741a4471c"
+        },
+        "runs/held7/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held7/subsets.npz": {
+          "bytes": 44567,
+          "sha256": "34f12c648ccbcb87c94f4abd5dde4ef0ca8b5e76aa763a5e44330fd113c8c273"
+        },
+        "runs/held7/models.npz": {
+          "bytes": 117388,
+          "sha256": "7736b0561b43b297551dea49b21be69cbcb03f1172a3577d7fd3c39f56de754d"
+        },
+        "runs/held7/result.json": {
+          "bytes": 202,
+          "sha256": "2a85106a55bb236ca32d019afabbe0fbc1a1bf7a2a71566612b652b734e975b4"
+        },
+        "runs/held7/predictions.npz": {
+          "bytes": 2877256,
+          "sha256": "ecdfdd3c2212d0befba7692fedd649f01f985d3009f14a272cda2bbf279699d5"
+        },
+        "runs/held7/split.json": {
+          "bytes": 71057,
+          "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+        }
+      },
+      "verified_members": 8
+    },
+    {
+      "name": "held8.tar.gz",
+      "bytes": 3022569,
+      "sha256": "8310abfd74f115d8f1b1ecfd53244d01eddd6f73bbaf70823bf42994419517a2",
+      "contents": {
+        "runs/held8/selection.json": {
+          "bytes": 444,
+          "sha256": "c703ad5468d818b1bca34f79e9286423ca12905f643fd20d137cdf9b9fb59a3e"
+        },
+        "runs/held8/NUMERICAL_AUDIT.json": {
+          "bytes": 1515,
+          "sha256": "0396e8d5b33e2331ab09f0f821fde7975efd8be5eae36f25e3551c8ac7d2d2af"
+        },
+        "runs/held8/evaluation.npz": {
+          "bytes": 540,
+          "sha256": "0829c59a19c90421ea463d0afc7b2c422d7db73209b72eebb2b8e50ea6a7769d"
+        },
+        "runs/held8/subsets.npz": {
+          "bytes": 44561,
+          "sha256": "2dba44c53626b9c73bf434dcf0bd9a6764c6f07871ac9d1c99cf530e7593634f"
+        },
+        "runs/held8/models.npz": {
+          "bytes": 117322,
+          "sha256": "8ba1127004d9162160cc7bb484694d96363e1d92bd08a677ad0c50ee8f657e31"
+        },
+        "runs/held8/result.json": {
+          "bytes": 215,
+          "sha256": "5ec5a8f84e0c72b220c4e3ec7fa7f735e5ba91b96986a60ceb9f7090f6d3e92d"
+        },
+        "runs/held8/predictions.npz": {
+          "bytes": 2877190,
+          "sha256": "755c9b452186db8415b39361e95b86d684fea6d81367f96b3e3c9c3eabcb5558"
+        },
+        "runs/held8/split.json": {
+          "bytes": 71057,
+          "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+        }
+      },
+      "verified_members": 8
+    },
+    {
+      "name": "provenance.tar.gz",
+      "bytes": 67254,
+      "sha256": "d732938614f958b6d3e19ccf7750e322cf4b099e0d737e92719a4df9b169f1c9",
+      "contents": {
+        "runs/IDENTITY.json": {
+          "bytes": 581,
+          "sha256": "8a91da907a3209f8982d29a2295ca2bf18a366d4da2648b7cfd790334d396ddb"
+        },
+        "runs/SUMMARY.json": {
+          "bytes": 3399,
+          "sha256": "2af0b64f042e6e12f9d21148c51c94dff529b928ff262d7973076610116a9d96"
+        },
+        "runs/AUDIT.json": {
+          "bytes": 283,
+          "sha256": "052c4dbe441e6cab08a8409cb2b7fc28a143c833ea4306c067607c3fae579684"
+        },
+        "runs/PROTOCOL.json": {
+          "bytes": 2951,
+          "sha256": "1d55d7e3f53a58bcffa7fbe3f2caef06d9db17da0f45db1391cde5dbae8239da"
+        },
+        "runs/FILES.json": {
+          "bytes": 4733,
+          "sha256": "5567a9a5e21dbedce74bb4ede0d729c8c8e6f19919630d5b41f9f33a68de9ce2"
+        },
+        "cost/COST.json": {
+          "bytes": 223,
+          "sha256": "152e2eca800c726fbb0853eaf0408fd3ffdc5369272fd6d168cc5537507b8dc5"
+        },
+        "cost/IDENTITY.json": {
+          "bytes": 581,
+          "sha256": "8a91da907a3209f8982d29a2295ca2bf18a366d4da2648b7cfd790334d396ddb"
+        },
+        "cost/PROTOCOL.json": {
+          "bytes": 2951,
+          "sha256": "1d55d7e3f53a58bcffa7fbe3f2caef06d9db17da0f45db1391cde5dbae8239da"
+        },
+        "provenance/AUDIT.json": {
+          "bytes": 283,
+          "sha256": "052c4dbe441e6cab08a8409cb2b7fc28a143c833ea4306c067607c3fae579684"
+        },
+        "provenance/AUDIT_IDENTITY.json": {
+          "bytes": 94,
+          "sha256": "43502a91b85609e6c2e1c33e2fc52d8ff0139d4af24efdefb5c473985a86331b"
+        },
+        "provenance/COST.json": {
+          "bytes": 223,
+          "sha256": "152e2eca800c726fbb0853eaf0408fd3ffdc5369272fd6d168cc5537507b8dc5"
+        },
+        "provenance/FILES.json": {
+          "bytes": 4733,
+          "sha256": "5567a9a5e21dbedce74bb4ede0d729c8c8e6f19919630d5b41f9f33a68de9ce2"
+        },
+        "provenance/IDENTITY.json": {
+          "bytes": 581,
+          "sha256": "8a91da907a3209f8982d29a2295ca2bf18a366d4da2648b7cfd790334d396ddb"
+        },
+        "provenance/PER_USER.csv": {
+          "bytes": 575,
+          "sha256": "0c530843fd9914bdc529b4bd96e4705e7ba6146caabe65ff1e549257ddc414cf"
+        },
+        "provenance/PROTOCOL.json": {
+          "bytes": 2951,
+          "sha256": "1d55d7e3f53a58bcffa7fbe3f2caef06d9db17da0f45db1391cde5dbae8239da"
+        },
+        "provenance/RUN_REPORT.md": {
+          "bytes": 5582,
+          "sha256": "10d73fa443b372478bcd80ebad9b20fa6b1bea8c1ffdbf324a1385aa952c7070"
+        },
+        "provenance/SUMMARY.json": {
+          "bytes": 3399,
+          "sha256": "2af0b64f042e6e12f9d21148c51c94dff529b928ff262d7973076610116a9d96"
+        },
+        "literature/ensemble.rst": {
+          "bytes": 74304,
+          "sha256": "e597427cce6788ec992fe154a6e47c475b01bd3d0cccac886f3f45ea05903f0b"
+        },
+        "tools/delete_user.py": {
+          "bytes": 818,
+          "sha256": "fa2fdb8e1caf2c05d11807d989b0bb5337a131c3ebc91987658a0f4608a97576"
+        },
+        "tools/run_delete_user.py": {
+          "bytes": 6001,
+          "sha256": "3e823b633ade29493ea1aeb95a6bb242b834c34dc4b247ddd51da1974c52c43a"
+        },
+        "tools/audit_delete_user.py": {
+          "bytes": 5555,
+          "sha256": "61abb0a5b79071fcc192312b865487ed3db98008c41bc087e7ac200939d6e8f3"
+        },
+        "tools/test_delete_user.py": {
+          "bytes": 1128,
+          "sha256": "9ce5f8816f833d795e5475f68bff3b1e0b2c02fca47b8ed5af3505ac1f51a247"
+        },
+        "tools/radar_exchange.py": {
+          "bytes": 1175,
+          "sha256": "aaaa753d394d38eb5a5fb6d0f79dde7c99a5fa4ec0a9cf1e7adc8e06e4a90da2"
+        },
+        "tools/second_order_core.py": {
+          "bytes": 2032,
+          "sha256": "ff1257df2a133bbbb21f6754d3ecf2e8e02d9ffcc76b1f763f08500a0f1ef98d"
+        },
+        "tools/circular_signal.py": {
+          "bytes": 15962,
+          "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+        },
+        "tools/audit_restored.py": {
+          "bytes": 8247,
+          "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+        },
+        "research/DELETE_USER_REVIEW.md": {
+          "bytes": 3030,
+          "sha256": "e09d8649a274f38d9e6270c251983fa901c63fa84b028a95bd2125839f4c0198"
+        },
+        "research/DELETE_USER_PROTOCOL.json": {
+          "bytes": 2951,
+          "sha256": "1d55d7e3f53a58bcffa7fbe3f2caef06d9db17da0f45db1391cde5dbae8239da"
+        },
+        "logs/source.log": {
+          "bytes": 1270,
+          "sha256": "3ad7674ec306fcfc05873deee9b2f6aa6d78d80ae5c5a1a5a90517e68b279a3f"
+        },
+        "prior_backup/semantic_RECEIPT.json": {
+          "bytes": 51898,
+          "sha256": "9f90c36ddfd1f3922225da4a18fc59ecf0456139a2ce95979332c2da7f0c3aa3"
+        },
+        "prior_backup/energy_area_RECEIPT.json": {
+          "bytes": 20038,
+          "sha256": "60ec5c479d24e6569a77ef79a8a0df397891a4bb2ab63345757f86738431a0fd"
+        }
+      },
+      "verified_members": 31
+    }
+  ],
+  "parts": [
+    {
+      "name": "uwb-delete-user-20261007-held3-p01.part",
+      "path": "/workspace/uwb-delete-user-private-20261007/uwb-delete-user-20261007-held3-p01.part",
+      "bundle": "held3.tar.gz",
+      "part_index": 1,
+      "bytes": 3022862,
+      "sha256": "035890d26b986ae9804da4ca852987c63ee5757a85760450d808b217a95b4679",
+      "metadata": {
+        "id": "1O5Nb6HccWjtda2BBR6GLJhvCZXVRZjqi",
+        "title": "",
+        "mime_type": null,
+        "size": "3022862",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/185e1f57-dc45-4751-b08c-50403241d5c2/uwb-delete-user-20261007-held3-p01.part",
+        "size_bytes": 3022862
+      },
+      "file_id": "1O5Nb6HccWjtda2BBR6GLJhvCZXVRZjqi",
+      "url": "https://drive.google.com/file/d/1O5Nb6HccWjtda2BBR6GLJhvCZXVRZjqi/view"
+    },
+    {
+      "name": "uwb-delete-user-20261007-held4-p01.part",
+      "path": "/workspace/uwb-delete-user-private-20261007/uwb-delete-user-20261007-held4-p01.part",
+      "bundle": "held4.tar.gz",
+      "part_index": 1,
+      "bytes": 3024041,
+      "sha256": "809fb953c62b29c760358f9f02242961efc789d1874ab0b2c5a07165667785f5",
+      "metadata": {
+        "id": "11W5TzwufcTVleDs7o6VOlB9OKyPdsZqV",
+        "title": "",
+        "mime_type": null,
+        "size": "3024041",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/4501b783-6f82-47f5-9c11-47754c66c000/uwb-delete-user-20261007-held4-p01.part",
+        "size_bytes": 3024041
+      },
+      "file_id": "11W5TzwufcTVleDs7o6VOlB9OKyPdsZqV",
+      "url": "https://drive.google.com/file/d/11W5TzwufcTVleDs7o6VOlB9OKyPdsZqV/view"
+    },
+    {
+      "name": "uwb-delete-user-20261007-held5-p01.part",
+      "path": "/workspace/uwb-delete-user-private-20261007/uwb-delete-user-20261007-held5-p01.part",
+      "bundle": "held5.tar.gz",
+      "part_index": 1,
+      "bytes": 2906004,
+      "sha256": "fed46859e8fb3ed95757b46257af0d391bcd547962ea9ba9e0f9734412df1edd",
+      "metadata": {
+        "id": "1mopnWMOCddNJWIV6munpLomrvx3CL56n",
+        "title": "",
+        "mime_type": null,
+        "size": "2906004",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/8b803acd-3172-4c2d-bb47-8a19f5817d6d/uwb-delete-user-20261007-held5-p01.part",
+        "size_bytes": 2906004
+      },
+      "file_id": "1mopnWMOCddNJWIV6munpLomrvx3CL56n",
+      "url": "https://drive.google.com/file/d/1mopnWMOCddNJWIV6munpLomrvx3CL56n/view"
+    },
+    {
+      "name": "uwb-delete-user-20261007-held6-p01.part",
+      "path": "/workspace/uwb-delete-user-private-20261007/uwb-delete-user-20261007-held6-p01.part",
+      "bundle": "held6.tar.gz",
+      "part_index": 1,
+      "bytes": 2904821,
+      "sha256": "0be56282a8319bbbb1d44692d65e14857b2e3e6b154598861fb0e8233ec66008",
+      "metadata": {
+        "id": "1iGL_2zSbyFnOQpTjol6p1Uwquo0kbvsH",
+        "title": "",
+        "mime_type": null,
+        "size": "2904821",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/b21a974a-8446-4788-9a2e-68205577ae01/uwb-delete-user-20261007-held6-p01.part",
+        "size_bytes": 2904821
+      },
+      "file_id": "1iGL_2zSbyFnOQpTjol6p1Uwquo0kbvsH",
+      "url": "https://drive.google.com/file/d/1iGL_2zSbyFnOQpTjol6p1Uwquo0kbvsH/view"
+    },
+    {
+      "name": "uwb-delete-user-20261007-held7-p01.part",
+      "path": "/workspace/uwb-delete-user-private-20261007/uwb-delete-user-20261007-held7-p01.part",
+      "bundle": "held7.tar.gz",
+      "part_index": 1,
+      "bytes": 3022993,
+      "sha256": "f09d35dfb5387af6af9dd29bf90c6bc3aef9bbd599e660a97200a79453913ec4",
+      "metadata": {
+        "id": "1zxjMdWlyyEbZi90rlRDps0p4bxkBVvLv",
+        "title": "",
+        "mime_type": null,
+        "size": "3022993",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/791fefd3-4d0e-4d5e-b4fe-a9b619dfbaeb/uwb-delete-user-20261007-held7-p01.part",
+        "size_bytes": 3022993
+      },
+      "file_id": "1zxjMdWlyyEbZi90rlRDps0p4bxkBVvLv",
+      "url": "https://drive.google.com/file/d/1zxjMdWlyyEbZi90rlRDps0p4bxkBVvLv/view"
+    },
+    {
+      "name": "uwb-delete-user-20261007-held8-p01.part",
+      "path": "/workspace/uwb-delete-user-private-20261007/uwb-delete-user-20261007-held8-p01.part",
+      "bundle": "held8.tar.gz",
+      "part_index": 1,
+      "bytes": 3022569,
+      "sha256": "8310abfd74f115d8f1b1ecfd53244d01eddd6f73bbaf70823bf42994419517a2",
+      "metadata": {
+        "id": "13mCNh-Tdvq_qpavHynFvgYbf4eaRzkRB",
+        "title": "",
+        "mime_type": null,
+        "size": "3022569",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/b58a7cba-56eb-47dc-92c2-a81c50e363fc/uwb-delete-user-20261007-held8-p01.part",
+        "size_bytes": 3022569
+      },
+      "file_id": "13mCNh-Tdvq_qpavHynFvgYbf4eaRzkRB",
+      "url": "https://drive.google.com/file/d/13mCNh-Tdvq_qpavHynFvgYbf4eaRzkRB/view"
+    },
+    {
+      "name": "uwb-delete-user-20261007-provenance-p01.part",
+      "path": "/workspace/uwb-delete-user-private-20261007/uwb-delete-user-20261007-provenance-p01.part",
+      "bundle": "provenance.tar.gz",
+      "part_index": 1,
+      "bytes": 67254,
+      "sha256": "d732938614f958b6d3e19ccf7750e322cf4b099e0d737e92719a4df9b169f1c9",
+      "metadata": {
+        "id": "1AlRKqy3o2-X55OuwGdgZEhsxVHBMrRWO",
+        "title": "",
+        "mime_type": null,
+        "size": "67254",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "download": {
+        "path": "/workspace/attachments/5e05c257-037c-41df-be87-7f214ba49639/uwb-delete-user-20261007-provenance-p01.part",
+        "size_bytes": 67254
+      },
+      "file_id": "1AlRKqy3o2-X55OuwGdgZEhsxVHBMrRWO",
+      "url": "https://drive.google.com/file/d/1AlRKqy3o2-X55OuwGdgZEhsxVHBMrRWO/view"
+    }
+  ],
+  "bytes": 17970544,
+  "members": 79,
+  "prior_encoder_features_readout_receipts": [
+    "results/cloud_20261004_energy_area/DRIVE_BACKUP_RECEIPT.json",
+    "results/cloud_20261004_semantic_code_eightfold/DRIVE_BACKUP_RECEIPT.json"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "observed_utc": "2026-09-30T08:57:40.413214+00:00",
+  "observed_unix": 1790758660.4132302,
+  "queue": {
+    "state": "running",
+    "pid": 7419,
+    "fold": 8,
+    "arm": "angle_control"
+  },
+  "current_progress": {
+    "epoch": 14,
+    "validation_ce": 0.015198909677565098,
+    "source_ce": 0.0002817244265663802,
+    "lr": 0.0006486909152409587,
+    "source_ids_sha256": "42a0223399202c49d6fbaee265c9e4dc83e762e17d8112f0f4a363d9d76aa98c",
+    "seconds": 16.589026895999268,
+    "state": "training",
+    "pid": 7419,
+    "best_epoch": 10
+  },
+  "completed_runs": 22,
+  "completed_runs_independently_audited": 22,
+  "finalizer": {
+    "state": "waiting_for_existing_training",
+    "pid": 7926,
+    "observed_unix": 1790758607.5424461,
+    "runs": "/workspace/uwb-circular-runs-20260930"
+  },
+  "new_performance_conclusion": false,
+  "incomplete_summary_guard_passed": true
+}

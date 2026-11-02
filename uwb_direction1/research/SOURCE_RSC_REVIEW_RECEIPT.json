@@ -1,0 +1,26 @@
+{
+  "observed_utc": "2026-10-04T18:19:34.871448+00:00",
+  "paper_fulltext_read": false,
+  "novelty_claim": false,
+  "independent_implementation": true,
+  "sources": [
+    {
+      "repository": "DeLightCMU/RSC",
+      "commit": "bf6d280c5d74910f009ea8963c59167252659666",
+      "file_sha256": {
+        "README.md": "0caa7c739cd23b1d851946f10786fbaf8a22611946184097df722aee3788f6b0",
+        "Domain_Generalization/models/resnet.py": "bb73571c9aa4fe0c3b81a9c8bde8601c96af30080af810f5ed0b021e40902eed",
+        "LICENSE": "ad9c618330cbefc70062fb5aa533225722bb6935c2d9898ea107e71dd654ded1"
+      }
+    },
+    {
+      "repository": "facebookresearch/DomainBed",
+      "commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+      "file_sha256": {
+        "domainbed/algorithms.py": "1e4a0353e2c6e42460a43d9cba0bc97e49fec0f5163a39c2c13cadc2ac50eaac",
+        "domainbed/hparams_registry.py": "6deec4fceaa98ceab95e89a18358868b1653e3382ca8444ba14eacb2d21b56ea",
+        "LICENSE": "a74dc7c7d1650b2ef611962794f33e5432ff60227ad11fe8ff599eb892713fcb"
+      }
+    }
+  ]
+}

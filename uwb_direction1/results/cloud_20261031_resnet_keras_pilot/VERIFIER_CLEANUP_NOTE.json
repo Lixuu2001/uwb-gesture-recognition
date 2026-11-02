@@ -1,0 +1,10 @@
+{
+  "state": "read_only_verifier_operational_cleanup_completed",
+  "original_attempt_exit_code": 0,
+  "original_warning": "Keras CallbackList.__del__ invoked executor.shutdown after Python queue module teardown; unraisable AttributeError after passing proof, retained FIRST_UPDATE_VERIFIER.log",
+  "repair": "Execute byte-identical frozen verifier; explicitly shut down idle CallbackList executor before interpreter teardown. Repeated proof redirected to separate file; original insurance proof/checkpoints and active scientific training/code remain unchanged.",
+  "frozen_verifier_sha256": "adf16fdcedece115e5151090899c94496fd56b88cbf7ad1e7d75014d5227d55a",
+  "new_harness_sha256": "5d31a5dec62d9fb9cdf6f30b0a477d4442c2b5a285d6ff1d191516834ded308b",
+  "real_values_labels_or_new_forward_fit": false,
+  "active_training_or_frozen_code_modified": false
+}

@@ -1,0 +1,33 @@
+{
+  "state": "real_HInception_fixed_CPU100_training_active_first_update_verified_private_insurance_complete",
+  "observed_unix": 1793428210.071978,
+  "preregistration_commit": "251695c6d7dc41149e508a15fbf15310b471263a",
+  "protocol_sha256": "8a97c1f8a1901004d81f03c03846cee15e9cedcd7bf1424d9ea62e974c3ed7fd",
+  "supervisor_pid": 54454,
+  "worker_pid": 54456,
+  "controller_pid": 54482,
+  "worker_state": {
+    "state": "training",
+    "pid": 54456,
+    "epoch": 4,
+    "total_steps": 296,
+    "all_predictions_frozen": false,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 397.4486231789924,
+    "cpu_seconds": 400.701866177,
+    "observed_unix": 1793428171.4829865,
+    "batch": 73,
+    "best_epoch": 4,
+    "best_training_loss": 0.01139147114008665
+  },
+  "all1423_frozen_entries_verified": true,
+  "first_checkpoint_sha256": "7763060e953621fad91ec3f6b6710a555b5323f821746651124238bc0e63cd03",
+  "first_private_receipt_sha256": "8d88132ff8f2c2e13a09f6de1da6362e7c9e9799e413e9ade087f03fc49f9aec",
+  "read_only_verifier_no_real_values_labels_or_forward_fit": true,
+  "actual_producer_real_UWB_training": true,
+  "users7_8_labels_used": false,
+  "complete_audit_not_yet_run": true,
+  "complete_modelset_private_backup_done": false,
+  "accuracy_or_originality_claim": false
+}

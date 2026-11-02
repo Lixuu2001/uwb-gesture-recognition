@@ -1,0 +1,26 @@
+{
+  "state": "immutable_TimeCNN_modelset_snapshot",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "created_unix": 1793559319.4255848,
+  "complete_modelset": false,
+  "all_initial_first_best_last_final_and_native_models_included": false,
+  "full_numerical_audit_included": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback.",
+  "archive_name": "timecnn2000_initial_first_20261101.tar.gz",
+  "archive_bytes": 710723,
+  "archive_sha256": "2c4780025ec1faed88c4feb82d91367bf0f7d4bc95aafca03a859b86901296c0",
+  "members_manifest_sha256": "a882af1969e2d7ae040e7e2a3a33db43977bc04236e14cb9d9b8078f147453fa",
+  "tracked_payload_files": 90,
+  "chunks": [
+    {
+      "name": "timecnn2000_initial_first_20261101.part000",
+      "bytes": 710723,
+      "sha256": "2c4780025ec1faed88c4feb82d91367bf0f7d4bc95aafca03a859b86901296c0"
+    }
+  ]
+}

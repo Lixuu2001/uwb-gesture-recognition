@@ -1,0 +1,14 @@
+{
+  "id": "6abc995e1620819195fcff77dbd81118",
+  "title": "UWB 方向一云端接续",
+  "thread_id": "01a0f042-ddcd-7230-a3c7-ce27874f00a2",
+  "is_enabled": true,
+  "schedule": "BEGIN:VEVENT\nDTSTART:20260930T050946Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+  "default_timezone": "Asia/Shanghai",
+  "scope": "Resume cloud research from repository state; notify only meaningful changes",
+  "direct_dot_handoff": false,
+  "training_process_started_by_scheduling": false,
+  "created_from_user_request": "Continue in cloud while user's computer sleeps",
+  "manual_run_now_requested": true,
+  "manual_run_now_result": "HTTP 404 Action not found; hourly automation remains enabled, first execution unverified"
+}

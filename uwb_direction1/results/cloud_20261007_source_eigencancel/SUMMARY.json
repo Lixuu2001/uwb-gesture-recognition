@@ -1,0 +1,189 @@
+{
+  "state": "complete",
+  "scores": {
+    "ridge": [
+      0.8683333333333333,
+      0.9841666666666667,
+      0.9891666666666667,
+      0.7954545454545454,
+      0.9674999999999999,
+      0.9791666666666666
+    ],
+    "selective": [
+      0.8733333333333334,
+      0.9875000000000002,
+      0.9849999999999999,
+      0.7899999999999999,
+      0.965,
+      0.9808333333333333
+    ],
+    "all_views": [
+      0.8658333333333333,
+      0.9875000000000002,
+      0.9866666666666668,
+      0.7763636363636363,
+      0.9641666666666667,
+      0.9716666666666667
+    ],
+    "random_selected": [
+      0.8675,
+      0.9858333333333333,
+      0.9891666666666666,
+      0.7890909090909091,
+      0.9666666666666667,
+      0.9791666666666666
+    ]
+  },
+  "means": {
+    "ridge": 0.9306313131313132,
+    "selective": 0.9302777777777776,
+    "all_views": 0.9253661616161617,
+    "random_selected": 0.9295707070707072
+  },
+  "comparisons": {
+    "ridge": {
+      "mean_gain": -0.00035353535353534654,
+      "wins": 3,
+      "minimum_gain": -0.00545454545454549,
+      "passed": false
+    },
+    "all_views": {
+      "mean_gain": 0.004911616161616117,
+      "wins": 4,
+      "minimum_gain": -0.0016666666666669272,
+      "passed": true
+    },
+    "random_selected": {
+      "mean_gain": 0.0007070707070707116,
+      "wins": 4,
+      "minimum_gain": -0.004166666666666763,
+      "passed": false
+    }
+  },
+  "gate_passed": false,
+  "rows": [
+    {
+      "held": 3,
+      "scores": {
+        "ridge": 0.8683333333333333,
+        "selective": 0.8733333333333334,
+        "all_views": 0.8658333333333333,
+        "random_selected": 0.8675
+      },
+      "selected_views": [
+        true,
+        false,
+        true
+      ],
+      "ranks": [
+        1,
+        34,
+        29
+      ],
+      "checkpoint_sha256": "227a27623299d079da726fe0b4886d5e7eb69a0c76046244f2f2ea12e486dc2e"
+    },
+    {
+      "held": 4,
+      "scores": {
+        "ridge": 0.9841666666666667,
+        "selective": 0.9875000000000002,
+        "all_views": 0.9875000000000002,
+        "random_selected": 0.9858333333333333
+      },
+      "selected_views": [
+        true,
+        false,
+        true
+      ],
+      "ranks": [
+        1,
+        34,
+        29
+      ],
+      "checkpoint_sha256": "7b3f727e32da87da9093f7a2b591598dad44b4c4c1ecae19be0680eba3473f93"
+    },
+    {
+      "held": 5,
+      "scores": {
+        "ridge": 0.9891666666666667,
+        "selective": 0.9849999999999999,
+        "all_views": 0.9866666666666668,
+        "random_selected": 0.9891666666666666
+      },
+      "selected_views": [
+        true,
+        false,
+        true
+      ],
+      "ranks": [
+        1,
+        35,
+        28
+      ],
+      "checkpoint_sha256": "0a95ee9cbcfcaf6d97084e4601f6d2a2dd6e12b634f254fc56ed81c8847b7896"
+    },
+    {
+      "held": 6,
+      "scores": {
+        "ridge": 0.7954545454545454,
+        "selective": 0.7899999999999999,
+        "all_views": 0.7763636363636363,
+        "random_selected": 0.7890909090909091
+      },
+      "selected_views": [
+        true,
+        false,
+        true
+      ],
+      "ranks": [
+        1,
+        34,
+        28
+      ],
+      "checkpoint_sha256": "8ecaea9fb0463acb6a32984f5067245b263ded869cfd3c77328bedd587a39e1a"
+    },
+    {
+      "held": 7,
+      "scores": {
+        "ridge": 0.9674999999999999,
+        "selective": 0.965,
+        "all_views": 0.9641666666666667,
+        "random_selected": 0.9666666666666667
+      },
+      "selected_views": [
+        true,
+        false,
+        true
+      ],
+      "ranks": [
+        1,
+        35,
+        29
+      ],
+      "checkpoint_sha256": "14a9a9195ba9ea46cdc414ab2c6aaeb36f5547266798b5006c6e5c4159c4cc91"
+    },
+    {
+      "held": 8,
+      "scores": {
+        "ridge": 0.9791666666666666,
+        "selective": 0.9808333333333333,
+        "all_views": 0.9716666666666667,
+        "random_selected": 0.9791666666666666
+      },
+      "selected_views": [
+        true,
+        false,
+        true
+      ],
+      "ranks": [
+        1,
+        35,
+        29
+      ],
+      "checkpoint_sha256": "f48cec640153b779c54da38207d1c5f02dd688527d9dad364258ab1742063f37"
+    }
+  ],
+  "seconds": 1101.539452639001,
+  "readout_fits": 54,
+  "encoder_training": false
+}

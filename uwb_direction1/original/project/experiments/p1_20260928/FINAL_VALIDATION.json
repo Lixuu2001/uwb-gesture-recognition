@@ -1,0 +1,86 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-09-28T17:46:54Z",
+  "scope": "Completed preregistered seed-2026 pilots, research report, independent review, and reproducibility handoff. Scientific negative decisions are preserved.",
+  "code": {
+    "worktree": "C:/Users/19252/.codex/worktrees/uwb-user-calibration/uwb_gestures",
+    "branch": "codex/user-calibration-20260928",
+    "commit": "01c9785ee47b8de784fc0efb53c307498edf5b7f",
+    "clean_after_commit": true,
+    "retained": true
+  },
+  "tests": {
+    "command": "D:/D_conda/envs/pytorch/python.exe -m pytest experiments/new_routes -q",
+    "exit_code": 0,
+    "passed": 145,
+    "skipped": 1,
+    "warnings": 6,
+    "seconds": 30.96,
+    "skip_reason": "Optional RUN_CUDA_REPLAY_TEST=1 completed-smoke replay test is disabled by default. Formal CUDA runs and latency measurement were performed separately.",
+    "warning_reason": "PyTorch norm_first Transformer disables nested-tensor fast path.",
+    "terminal_result": "D:/uwb_gestures/experiments/p1_20260928/FINAL_TEST_RESULT.txt"
+  },
+  "report_verification": {
+    "status": "PASS",
+    "report_artifacts": 28,
+    "bound_input_files": 467,
+    "absolute_figure_links": [
+      "D:/uwb_gestures/experiments/p1_20260928/report_s2026_release_v2/A_user_effects.png",
+      "D:/uwb_gestures/experiments/p1_20260928/report_s2026_release_v2/B_accuracy_cost.png"
+    ],
+    "source_snapshots_match": true,
+    "errors": [],
+    "report_sha256": "71282c58c45627493ba39b6e8d084dda04b7cfea72fd7c331223fd0a64db9307",
+    "computed_results_sha256": "ec285ddf93133cffc282aaf4be1954edae1293d94d861c472ac5ab212b689bb1",
+    "artifact_manifest_sha256": "585143e9c090c05433e211df9465a00f4d30894bfb4a2161d70ef1a727708b1a",
+    "A_decision": "STOP_LOW_RANK_MECHANISM",
+    "policy_decision": "STOP_VALUE_POLICY_MECHANISM"
+  },
+  "visual_qa": {
+    "status": "PASS",
+    "figures": [
+      "A_user_effects.png",
+      "B_accuracy_cost.png"
+    ],
+    "notes": "Both final layouts viewed: text, axes, legends and labels readable; real costs retained, oracle marked non-deployable. Final v2 changed explanatory prose only."
+  },
+  "independent_audits": [
+    {
+      "name": "A calibration",
+      "checks": 3532,
+      "failures": 0,
+      "result": "D:/uwb_gestures/experiments/p1_20260928/calibration_s2026/INDEPENDENT_AUDIT.json"
+    },
+    {
+      "name": "B budget",
+      "checks": 168963,
+      "failures": 0,
+      "result": "D:/uwb_gestures/experiments/p1_20260928/budget_s2026/INDEPENDENT_AUDIT.json"
+    },
+    {
+      "name": "Value policy",
+      "checks": 56301,
+      "failures": 0,
+      "result": "D:/uwb_gestures/experiments/p1_20260928/value_policy_s2026/INDEPENDENT_AUDIT.json"
+    },
+    {
+      "name": "Latency archive",
+      "checks": 23218,
+      "failures": 0,
+      "result": "D:/uwb_gestures/experiments/p1_20260928/latency_audit_s2026/INDEPENDENT_AUDIT.json"
+    }
+  ],
+  "final_reviews": {
+    "spec": "PASS by report_spec_sol; fixed2 timing maps explicitly to validation-selected two-view accuracy 89.536932%.",
+    "quality": "PASS by final_quality_sol; no Critical or Important findings.",
+    "nonblocking_note": "report.py plot annotations at lines 1387-1389 contain the current frozen TR/ExtraTrees/cascade percentages. They are correct for this pilot; update them if intentionally reusing the generator on different results."
+  },
+  "scientific_decisions": {
+    "A": "STOP_LOW_RANK_MECHANISM",
+    "B_opportunity": "POLICY_PILOT_WARRANTED (opportunity diagnosis only)",
+    "B_learned_policy": "STOP_VALUE_POLICY_MECHANISM",
+    "second_seed_and_adapter": "Not triggered because gates failed",
+    "final_report": "D:/uwb_gestures/experiments/p1_20260928/report_s2026_release_v2/REPORT.md"
+  },
+  "remaining_required_work": []
+}

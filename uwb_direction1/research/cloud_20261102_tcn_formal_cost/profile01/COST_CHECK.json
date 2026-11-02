@@ -1,0 +1,81 @@
+{
+  "state": "pass",
+  "resource_gate_passed": true,
+  "epochs": 20,
+  "batch_size": 64,
+  "training_batches": 74,
+  "validation_batches": 16,
+  "diagnostic_batches": 19,
+  "estimated_seconds": 996.7140554799698,
+  "estimated_hours": 0.27686501541110276,
+  "memory_gate_passed": true,
+  "formula": "2*(1480*maxtrain+355*maxeval+2*maxnative+24*maxfullstate)+120",
+  "no_smaller_epoch_batch_fallback": true,
+  "accuracy_measured": false,
+  "policy": {
+    "method": "full_author_released_TCN_sequential_classification_CLI",
+    "paper_arxiv": "1803.01271",
+    "source_commit": "2f8c2b817050206397458dfd1f5a25ce8a32fe65",
+    "epochs": 20,
+    "batch_size": 64,
+    "seed": 20261029,
+    "threads": 1,
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "total_parameters": 180162,
+    "trainable_tensors": 52,
+    "blocks": 8,
+    "channels": 25,
+    "kernel": 7,
+    "dropout": 0.05,
+    "optimizer": "nativeTorchAdam_lr.002_betas.9_.999_eps1e-8",
+    "loss": "unweighted_NLLLoss_mean",
+    "train_shuffle": false,
+    "checkpoint_selection": "final_epoch20",
+    "learning_rate_divided_by10_after_epochs": [
+      10,
+      20
+    ],
+    "input_shape": [
+      567,
+      90
+    ],
+    "synthetic_fixture_only": true,
+    "real_UWB_values_labels_fit_authorized": false,
+    "no_smaller_epoch_or_batch_fallback": true
+  },
+  "total_parameters": 180162,
+  "trainable_tensors": 52,
+  "full_author_released_TCN_CLI": true,
+  "training_seconds": [
+    0.2788281599059701,
+    0.2152642970904708,
+    0.211278080008924,
+    0.21478233113884926,
+    0.21332046715542674,
+    0.20781869697384536,
+    0.21428965800441802,
+    0.20925625320523977
+  ],
+  "evaluation_seconds": [
+    0.0700154840014875,
+    0.07158650201745331,
+    0.06981787690892816,
+    0.07008669199422002
+  ],
+  "native_save_seconds": [
+    0.0045786709524691105,
+    0.0023797659669071436,
+    0.0025958612095564604
+  ],
+  "fullstate_save_seconds": [
+    0.011207730043679476,
+    0.010535177076235414,
+    0.010285869939252734
+  ],
+  "max_RSS_KiB": 449104,
+  "wall_seconds": 2.1627190851140767,
+  "synthetic_fixture_only": true,
+  "real_UWB_values_labels_or_fit": false,
+  "real_pilot_started": false
+}

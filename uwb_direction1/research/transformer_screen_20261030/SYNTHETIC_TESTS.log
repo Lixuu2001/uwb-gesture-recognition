@@ -1,0 +1,4 @@
+EarlyStopping counter: 1 out of 2
+EarlyStopping counter: 1 out of 2
+EarlyStopping counter: 2 out of 2
+{"state": "pass", "library_preset": "UWaveGestureLibrary_complete", "parameters": 754188, "batch_size": 16, "d_model": 128, "d_ff": 256, "e_layers": 3, "n_heads": 8, "dropout": 0.1, "train_epochs_cap": 100, "patience": 10, "independent_FullAttention_NumPy_reference": true, "original_three_update_loop_model_optimizer_losses_all_RNG_bitwise": true, "checkpoint_next_two_steps_model_RAdam_stopper_all_RNG_bitwise": true, "original_early_stopping_tie_reset_and_decline_patience": true, "active_optimizer_parameter_states": 53, "unused_original_parameter_names": ["enc_embedding.temporal_embedding.embed.weight"], "batch_partition_max_logit_difference": 4.76837158203125e-07, "real_UWB_values_or_labels_read": false, "real_training_started": false, "paper_original_classification_reproduction": false, "wall_seconds": 3.070547290961258}

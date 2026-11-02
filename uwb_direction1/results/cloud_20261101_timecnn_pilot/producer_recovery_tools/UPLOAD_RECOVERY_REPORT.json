@@ -1,0 +1,15 @@
+{
+  "state": "part000_upload_return_ID_failure_recovered_readback_all7_parts_verified",
+  "failed_calls_without_usable_ID": 2,
+  "upstream_cause_established": false,
+  "raw_first_two_responses_not_retained": true,
+  "exact_name_searches_empty_before_retries": true,
+  "third_call_sanitized_response_retained_and_returned_ID_used": true,
+  "further_upload_of_part000_forbidden_use_known_ID": true,
+  "search_limitation": "Subsequent prefix search returned zero even though7 known fileIDs each passed metadata parent/privacy/size and rawSHA checks. Empty search is not proof of absence; do not claim duplicate absence or delete unknown artifacts. Future missing-ID responses must be retained and nested metadata inspected before any retry.",
+  "all7_selected_IDs_distinct_and_recoverable": true,
+  "scientific_configuration_changed": false,
+  "experiment_restarted": false,
+  "private_sharing_changed": false,
+  "authenticated_URLs_exposed": false
+}

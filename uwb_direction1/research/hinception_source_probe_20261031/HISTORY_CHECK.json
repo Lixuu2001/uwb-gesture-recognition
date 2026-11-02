@@ -1,0 +1,51 @@
+{
+  "remote_commit": "bf6ee81a3bb249154e7011df995e92e1e58d42f0",
+  "original_snapshot_files": 789,
+  "original_snapshot_bytes_searched": 10199507,
+  "original_matched_files": 0,
+  "patterns": [
+    "h-inception",
+    "hybrid inception",
+    "cf-4-tsc",
+    "hccf-4-tsc"
+  ],
+  "remote_counts": [
+    {
+      "path": "uwb_direction1/STATUS.json",
+      "counts": {
+        "h-inception": 0,
+        "hybrid inception": 0,
+        "cf-4-tsc": 2,
+        "hccf-4-tsc": 1
+      }
+    },
+    {
+      "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+      "counts": {
+        "h-inception": 1,
+        "hybrid inception": 0,
+        "cf-4-tsc": 1,
+        "hccf-4-tsc": 0
+      }
+    },
+    {
+      "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+      "counts": {
+        "h-inception": 1,
+        "hybrid inception": 0,
+        "cf-4-tsc": 1,
+        "hccf-4-tsc": 0
+      }
+    },
+    {
+      "path": "uwb_direction1/results/cloud_20260930/RUN_REPORT.md",
+      "counts": {
+        "h-inception": 1,
+        "hybrid inception": 0,
+        "cf-4-tsc": 1,
+        "hccf-4-tsc": 0
+      }
+    }
+  ],
+  "interpretation": "Remote mentions are prior-art identification from previous turn; no real full H-Inception experiment found in inspected scope. Exact lexical search is not exhaustive equivalence or novelty proof."
+}

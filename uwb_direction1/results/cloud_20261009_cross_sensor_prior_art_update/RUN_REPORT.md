@@ -1,0 +1,5 @@
+# 2026-10-09 — cross-sensor radar gesture prior-art update
+
+The author-institution record confirms a January 2026 IEEE Transactions on Radar Systems paper on FMCW cross-device signal harmonization, target adaptation and unsupervised federated refinement (DOI 10.1109/TRS.2026.3654128). It further preempts generic FMCW sensor harmonization/adaptation claims but does not test IR-UWB/X4↔FMCW dynamic gesture transfer. Pantomime and UWB-Gestures differ in sensor representation and label vocabularies; no metadata-only common-class map or fixed transfer split has been established. The candidate remains a design lead, not a result.
+
+Fresh cloud preflight: connected/running with restricted egress and no configured capabilities, secrets or outbound identities. The restored package and 789-file original-source snapshot are present. Process/device inspection found no active research job or acquisition device (old runner entries were defunct). No data archive downloaded; no labels/arrays read; no fitting or training; source snapshot unchanged. No candidate currently clears both novelty and feasibility gates.

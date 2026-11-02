@@ -1,0 +1,16 @@
+{
+  "state": "pass_complete_DLinear_producer_full_replay_restore_integration_synthetic_only",
+  "max_epochs": 10,
+  "actual_fixture_epochs": 10,
+  "actual_fixture_updates": 30,
+  "all_initial_first_best_last_final_states_exact": true,
+  "native_initial_best_last_exact": true,
+  "all_batch_ID_loss_gradnorm_and_epoch_earlystop_double_validation_logits_exact": true,
+  "fresh_epoch_early_state_restore_next_epoch_exact": true,
+  "three_wrong_checkpoint_refusals_before_mutation": true,
+  "initial_restore_exact": true,
+  "corrupt_training_ID_rejected": true,
+  "user8_role_rejected": true,
+  "real_UWB_values_labels_fit": false,
+  "wall_seconds": 6.391332586994395
+}

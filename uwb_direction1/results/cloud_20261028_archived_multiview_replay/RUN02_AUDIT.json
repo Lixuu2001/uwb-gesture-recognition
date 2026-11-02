@@ -1,0 +1,740 @@
+{
+  "audit_id": "archived_p1_20260928_multiview_outputs_20261028",
+  "source_root": "/workspace/uwb-restored-20261020/experiments/p1_20260928/multiview_s2026",
+  "folds": 8,
+  "heads": 7,
+  "all_heads_reported": true,
+  "no_fitting_or_selection": true,
+  "fold_count": 8,
+  "checks_passed": 120,
+  "checks_total": 120,
+  "checks_failed": [],
+  "mean_user_macro_accuracy_by_head": [
+    0.681534090909091,
+    0.5810852272727273,
+    0.7167651515151515,
+    0.8749318181818182,
+    0.8410662878787877,
+    0.9058333333333334,
+    0.9344166666666667
+  ],
+  "mean_user_overall_accuracy_by_head": [
+    0.6815340909090908,
+    0.5810852272727273,
+    0.7167651515151515,
+    0.8749318181818182,
+    0.8410662878787878,
+    0.9058333333333333,
+    0.9344166666666667
+  ],
+  "per_user": [
+    {
+      "fold": 1,
+      "test_subject": 1,
+      "validation_subject": 2,
+      "training_subjects": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sample_counts_by_split": {
+        "train": 7100,
+        "val": 1000,
+        "test": 1200
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.6633333333333333,
+        0.5766666666666667,
+        0.705,
+        0.9283333333333333,
+        0.8416666666666667,
+        0.9608333333333333,
+        0.9625
+      ],
+      "test_macro_accuracy_by_head": [
+        0.6633333333333333,
+        0.5766666666666667,
+        0.7050000000000001,
+        0.9283333333333333,
+        0.8416666666666668,
+        0.9608333333333333,
+        0.9625
+      ],
+      "test_class_count": 12
+    },
+    {
+      "fold": 2,
+      "test_subject": 2,
+      "validation_subject": 3,
+      "training_subjects": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sample_counts_by_split": {
+        "train": 7100,
+        "val": 1200,
+        "test": 1000
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.765,
+        0.598,
+        0.872,
+        0.949,
+        0.923,
+        0.985,
+        0.987
+      ],
+      "test_macro_accuracy_by_head": [
+        0.7649999999999999,
+        0.5980000000000001,
+        0.8720000000000001,
+        0.9489999999999998,
+        0.923,
+        0.9850000000000001,
+        0.9870000000000001
+      ],
+      "test_class_count": 10
+    },
+    {
+      "fold": 3,
+      "test_subject": 3,
+      "validation_subject": 4,
+      "training_subjects": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sample_counts_by_split": {
+        "train": 6900,
+        "val": 1200,
+        "test": 1200
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.6683333333333333,
+        0.7041666666666667,
+        0.6308333333333334,
+        0.9008333333333334,
+        0.82,
+        0.8916666666666667,
+        0.9125
+      ],
+      "test_macro_accuracy_by_head": [
+        0.6683333333333333,
+        0.7041666666666666,
+        0.6308333333333334,
+        0.9008333333333334,
+        0.82,
+        0.8916666666666666,
+        0.9125
+      ],
+      "test_class_count": 12
+    },
+    {
+      "fold": 4,
+      "test_subject": 4,
+      "validation_subject": 5,
+      "training_subjects": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "sample_counts_by_split": {
+        "train": 6900,
+        "val": 1200,
+        "test": 1200
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.6633333333333333,
+        0.585,
+        0.74,
+        0.8508333333333333,
+        0.86,
+        0.9216666666666666,
+        0.9675
+      ],
+      "test_macro_accuracy_by_head": [
+        0.6633333333333334,
+        0.5850000000000001,
+        0.7399999999999999,
+        0.8508333333333332,
+        0.86,
+        0.9216666666666667,
+        0.9675000000000001
+      ],
+      "test_class_count": 12
+    },
+    {
+      "fold": 5,
+      "test_subject": 5,
+      "validation_subject": 6,
+      "training_subjects": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "sample_counts_by_split": {
+        "train": 7000,
+        "val": 1100,
+        "test": 1200
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.7808333333333334,
+        0.6191666666666666,
+        0.8275,
+        0.9041666666666667,
+        0.9008333333333334,
+        0.96,
+        0.9816666666666667
+      ],
+      "test_macro_accuracy_by_head": [
+        0.7808333333333334,
+        0.6191666666666668,
+        0.8275000000000001,
+        0.9041666666666667,
+        0.9008333333333334,
+        0.9600000000000001,
+        0.9816666666666668
+      ],
+      "test_class_count": 12
+    },
+    {
+      "fold": 6,
+      "test_subject": 6,
+      "validation_subject": 7,
+      "training_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "sample_counts_by_split": {
+        "train": 7000,
+        "val": 1200,
+        "test": 1100
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.5272727272727272,
+        0.41818181818181815,
+        0.5154545454545455,
+        0.6454545454545455,
+        0.6663636363636364,
+        0.67,
+        0.75
+      ],
+      "test_macro_accuracy_by_head": [
+        0.5272727272727273,
+        0.4181818181818182,
+        0.5154545454545455,
+        0.6454545454545454,
+        0.6663636363636364,
+        0.67,
+        0.75
+      ],
+      "test_class_count": 11
+    },
+    {
+      "fold": 7,
+      "test_subject": 7,
+      "validation_subject": 8,
+      "training_subjects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "sample_counts_by_split": {
+        "train": 6900,
+        "val": 1200,
+        "test": 1200
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.7108333333333333,
+        0.55,
+        0.7041666666666667,
+        0.9166666666666666,
+        0.85,
+        0.9341666666666667,
+        0.9641666666666666
+      ],
+      "test_macro_accuracy_by_head": [
+        0.7108333333333333,
+        0.5499999999999999,
+        0.7041666666666666,
+        0.9166666666666666,
+        0.85,
+        0.9341666666666667,
+        0.9641666666666667
+      ],
+      "test_class_count": 12
+    },
+    {
+      "fold": 8,
+      "test_subject": 8,
+      "validation_subject": 1,
+      "training_subjects": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "sample_counts_by_split": {
+        "train": 6900,
+        "val": 1200,
+        "test": 1200
+      },
+      "role_codes_by_split": {
+        "train": [
+          0
+        ],
+        "val": [
+          1
+        ],
+        "test": [
+          2
+        ]
+      },
+      "subset_masks": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "test_accuracy_by_head": [
+        0.6733333333333333,
+        0.5975,
+        0.7391666666666666,
+        0.9041666666666667,
+        0.8666666666666667,
+        0.9233333333333333,
+        0.95
+      ],
+      "test_macro_accuracy_by_head": [
+        0.6733333333333333,
+        0.5975,
+        0.7391666666666667,
+        0.9041666666666667,
+        0.8666666666666666,
+        0.9233333333333332,
+        0.9500000000000001
+      ],
+      "test_class_count": 12
+    }
+  ],
+  "artifact_sha256": {
+    "fold1/split.json": "239bb48cd86605f33aa277c5d82e1eff4ac41fe084d0e480728ceb39586fb559",
+    "fold1/result.json": "1dd408c15787170d4e1d906a48dadec9a782c05c8c1d2b36b6fb8a598a10c4eb",
+    "fold1/predictions.npz": "6fce9dd1c83ea74dfeac6257ab4fbb5030ebc4b57e272ff3cff8fd3066080d63",
+    "fold2/split.json": "2ddfa34ac2e95258198bae8ce91c09952e3da57017e7bf07e81f3dd05d6491f8",
+    "fold2/result.json": "2f8c6bc741a354c61b2dd8d6598e4381aaab415d1d3e99d835a6d5229151f483",
+    "fold2/predictions.npz": "b6e1da8b2cee2f98a8d63c293f538db20de532d0c48ef419b4e794f921309618",
+    "fold3/split.json": "7eff322c345010fa0a1451ce11c22d93b53697d0d4ee1bc94f1a72a96cc724fd",
+    "fold3/result.json": "baf8c9bff4a2985846a97a6023b48ca345c403d43a0b3518e864d7a5c356df04",
+    "fold3/predictions.npz": "af9778448b1f2735ad77ee1ac5a1c745c924e9021ce87acf7513f90b6a736f37",
+    "fold4/split.json": "059815f40a1730a87e6f7c2549d121a1375c3c77d32e37cf9ade942dc1b0df0c",
+    "fold4/result.json": "e09e6855d2371aa338bfcea2610d7577edb92c8d28b27d516b1962eedcb8eee3",
+    "fold4/predictions.npz": "b6399e178db2135c34e5130c9e9e9b1b894e17a463ca20c87d7dd5b4399b1749",
+    "fold5/split.json": "dbf65aefbfea12024ac527a6fdf19ae0aecea6cf1a307360d56a5418fe9da0e0",
+    "fold5/result.json": "5fd237c5b00f50ac8b37abb756060eed5275d3b7fa3df48ba75f4d334f5ef3dc",
+    "fold5/predictions.npz": "e4cea0cb383ede368354cb525821b840fab9448c597f0b5cea0bdac01d6fc21c",
+    "fold6/split.json": "d444a8a984fcdd53c3a1d8643049200c2c98767347ac5ce98ec6d899445ad1ed",
+    "fold6/result.json": "494fd71452781a11c2491287d1a510ddd4911d7493616b1c6a63b7647bf7f5ed",
+    "fold6/predictions.npz": "a56ba07045f2e00ca49ee760539804ce70e42611bd0b2fd7dcdf8797eeeda669",
+    "fold7/split.json": "76428625b68b0bbed4fa4732d37a371038c7decf0ce2fa8f07220cda35a54cc6",
+    "fold7/result.json": "fe35caed5cf18326923e6941453ba8ff5e760ec25348701e019d1219fcdef90f",
+    "fold7/predictions.npz": "066a2982dd38828829d79bb17ccb6d6a1ea8cc39bd7029e7607f51d05bd7b5af",
+    "fold8/split.json": "08bfbda92031e486f939674b85fe3a9ef1ee116577478b2a49160a66c81ce401",
+    "fold8/result.json": "4719a59d30ad7582e7558f440c9d768a682229ade6d8e2a2ceae36a016b1b0ea",
+    "fold8/predictions.npz": "25f63e0734eaaaa9ca4168c222b7a9097717a0f2740676c80c2eac5a7623e23a"
+  },
+  "elapsed_seconds": 0.26746318803634495,
+  "interpretation": "Read-only replay of historical saved predictions; not a new model result, independent cohort, or novel-method validation."
+}

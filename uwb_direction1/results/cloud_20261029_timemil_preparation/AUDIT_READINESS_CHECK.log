@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-timemil-20261029/audit_launch.py", line 31, in <module>
+    main()
+  File "/workspace/uwb-timemil-20261029/audit_launch.py", line 12, in main
+    ready(BASE)
+  File "/workspace/uwb-timemil-20261029/audit_result.py", line 35, in ready
+    raise RuntimeError('not_ready: TimeMIL has not started')
+RuntimeError: not_ready: TimeMIL has not started

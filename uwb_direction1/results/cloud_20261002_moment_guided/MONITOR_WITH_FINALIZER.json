@@ -1,0 +1,33 @@
+{
+  "observed_unix": 1790978139.2344933,
+  "training_process_state": "R",
+  "queue": {
+    "state": "running",
+    "pid": 14004,
+    "fold": 1,
+    "arm": "ordered",
+    "completed_runs": 1
+  },
+  "progress": {
+    "epoch": 18,
+    "validation_ce": 0.030326085165143013,
+    "source_ce": 0.00013274567436203884,
+    "lr": 0.0004564815155368674,
+    "source_ids_sha256": "337e03167c15580efa80665e7f43a8a501fee4da75f8bab4f9a1fdf5fb4a4d65",
+    "seconds": 25.74600623297738,
+    "state": "training",
+    "pid": 14004,
+    "best_epoch": 17
+  },
+  "training_and_protocol_hashes_unchanged": true,
+  "completed_runs_sha_checked": 1,
+  "artifact_hashes_checked": 4,
+  "full_model_audit_completed": false,
+  "finalizer": {
+    "state": "waiting_for_existing_training",
+    "pid": 14201,
+    "observed_unix": 1790978138.88631
+  },
+  "finalizer_process_state": "S",
+  "interim_summary_guard_checked": true
+}

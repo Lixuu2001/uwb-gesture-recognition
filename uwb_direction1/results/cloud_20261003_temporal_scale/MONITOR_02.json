@@ -1,0 +1,36 @@
+{
+  "observed_utc": "2026-10-03T23:29:31.246125+00:00",
+  "queue": {
+    "state": "training",
+    "pid": 21027,
+    "held": 7,
+    "arm": "range2"
+  },
+  "progress": {
+    "epoch": 10,
+    "validation_ce": 0.13097336888313293,
+    "source_ce": 0.0006795375738813086,
+    "lr": 0.0006944282990207194,
+    "source_ids_sha256": "bea1d05b5ba4f92866b7fe5affa035dbbf47f70e07c968d6294d45b0262cce1c",
+    "step": 740,
+    "seconds": 25.137406151974574,
+    "segment_sha256": "4f50c7d0b0acaab7c41a168b6895ebd2f63a3c10168c026d0c74608fc1819baf",
+    "state": "training",
+    "pid": 21027,
+    "held": 7,
+    "arm": "range2"
+  },
+  "archive": {
+    "state": "waiting",
+    "pid": 21039,
+    "started_unix": 1791064201.9419427
+  },
+  "completed_new_trajectories": 9,
+  "expected_new_trajectories": 12,
+  "training_protocol_and_helpers_unchanged": true,
+  "partial_audited_trajectories": 8,
+  "partial_backed_up_trajectories": 8,
+  "complete_study": false,
+  "full_run_backup_complete": false,
+  "no_midrun_metric_selection": true
+}

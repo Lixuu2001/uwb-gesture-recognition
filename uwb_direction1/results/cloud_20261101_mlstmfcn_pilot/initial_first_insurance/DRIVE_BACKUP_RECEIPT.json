@@ -1,0 +1,94 @@
+{
+  "state": "private_readback_verified",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "observed_utc": "2026-11-01T11:47:24.091030+00:00",
+  "archive_name": "mlstmfcn250_initial_first_20261101.tar.gz",
+  "archive_bytes": 15436987,
+  "archive_sha256": "86933abbfc0185f9f78c69e658a2e516c53fe63669b2db9377002e55f28ae18b",
+  "members_manifest_sha256": "ea2bbb228267656b207b2ef099495d5bc3b35dd000514893352c749a7d2b8881",
+  "tracked_payload_files": 94,
+  "archive_members": 95,
+  "chunks": [
+    {
+      "name": "mlstmfcn250_initial_first_20261101.part000",
+      "bytes": 7340032,
+      "sha256": "7cf3a1ebac0aa0d64f199c2c28788939c8ec7947a9209dcba121233941a7878e",
+      "file_id": "1OAzMge81g-iKTKljGS4T9MEvRwURuhsC",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mlstmfcn250_initial_first_20261101.part001",
+      "bytes": 7340032,
+      "sha256": "34fd5e3bd30e5d982d311107a46ac9562fddbb85c8bd8774771c52fa06816007",
+      "file_id": "1MhUTcuLnfOB_hhTXZ6lb8dzssGGFrEsf",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mlstmfcn250_initial_first_20261101.part002",
+      "bytes": 756923,
+      "sha256": "dab641b6bdb4f9b9dacd2603e0206642c1568cedb440a2a961945558f2583e00",
+      "file_id": "1oYKwyQf-KRzdkrJKuCY2qOyfTh1a5x99",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 756923,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "initial_first_complete_state_included": true,
+  "first_optimizer_step_preserved": 1,
+  "latest_training_weights_preserved": false,
+  "complete_modelset_verified": false,
+  "full_numerical_audit_included": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Immutable initial/first-update model/Adam/BN/metrics/callback/global+layer RNG/modes and exact initial ID/split evidence only, with frozen protocol/code/source dependencies. Not the observed current epoch weights, selected/last/final models, latest logs or complete trajectory/audit. Original raw/maps/runtime restore separately. This partial scope cannot authorize diagnostic scoring."
+}

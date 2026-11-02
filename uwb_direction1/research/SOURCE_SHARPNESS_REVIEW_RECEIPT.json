@@ -1,0 +1,55 @@
+{
+  "observed_utc": "2026-10-04T00:17:20.210865+00:00",
+  "state": "literature_and_synthetic_checkpoint_review_only",
+  "main_paper_fulltext_read": false,
+  "new_uwb_training_started": false,
+  "protocol_registered": false,
+  "novelty_claim": false,
+  "sources": [
+    {
+      "repo": "google-research/sam",
+      "path": "README.md",
+      "blob": "9730c3031e34f6c6ab9be7b2b578b602a964323a",
+      "scope": "full text; embedded images not visually inspected"
+    },
+    {
+      "repo": "google-research/sam",
+      "path": "sam_jax/training_utils/flax_training.py",
+      "blob": "50be4bfdf4ddf8c21fdf6e25c213bb7dfd2d51cc",
+      "read_line_ranges_inclusive": [
+        [
+          69,
+          115
+        ],
+        [
+          165,
+          200
+        ],
+        [
+          225,
+          343
+        ],
+        [
+          442,
+          580
+        ],
+        [
+          767,
+          828
+        ]
+      ]
+    },
+    {
+      "repo": "davda54/sam",
+      "path": "README.md",
+      "blob": "7499b90e8c14ab45af3709105c33c44867dac199",
+      "scope": "full text; unofficial implementation"
+    },
+    {
+      "repo": "davda54/sam",
+      "path": "sam.py",
+      "blob": "df9bcb7d97791f2f3036c2b173b12f8c572d0d80",
+      "scope": "full source; executed only synthetic checkpoint check"
+    }
+  ]
+}

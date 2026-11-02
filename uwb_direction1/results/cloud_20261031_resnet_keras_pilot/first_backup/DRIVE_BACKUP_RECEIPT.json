@@ -1,0 +1,101 @@
+{
+  "scope": "first_update_only",
+  "observed_unix": 1793406548.966388,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "fixed_augmented_arrays_included": false,
+  "fixed_labelblind_evaluation_partitions_included": true,
+  "full_job_resume_snapshot": false,
+  "all_completed_models_included": false,
+  "limitations": "First snapshot supplies only initial/first-update model/Adam/callbacks/metrics/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/callbacks/metrics/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. Exact runtime wheels/base environment separately pinned in Git and dependency manifest; no whole-runtime/job-resume claim. No new fit/scoring by backup.",
+  "archive_name": "resnet_keras_first_update_20261031.tar.gz",
+  "archive_bytes": 15157955,
+  "archive_sha256": "69cdcba0914e8e2e8b94645b4d641009e5c19f9d70274d9916c4d6132614ac20",
+  "tracked_payload_files": 51,
+  "members_manifest_sha256": "2b43457cb1802a0ea9ffc340839ad5c3b6b42809538c0604b071fbe0e207d5b0",
+  "state": "private_readback_verified",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "chunks": [
+    {
+      "name": "resnet_keras_first_update_20261031.part000",
+      "bytes": 7340032,
+      "sha256": "59b91ec2749afe8859d6530d269763ace09b53a7cf8cc4766c4dd0a78f0db985",
+      "file_id": "1u9BOPHVyWbOW1xl6iC5lWWjxbs4UP8KI",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_first_update_20261031.part001",
+      "bytes": 7340032,
+      "sha256": "bcaa41b14519868b4dcb2b07ea131aa9ef03b96dfaa1033a2d406209974c5fd1",
+      "file_id": "1ef0e9r1ZjUWd3k3bx-vNDpcUQ76rBjg-",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "resnet_keras_first_update_20261031.part002",
+      "bytes": 477891,
+      "sha256": "e2f7f457d1302a6aba2dd56b496cad88ee4d3671a786bda7e75df5e6402d0850",
+      "file_id": "1TL6cuxex9SCGzRzhYySYj8TtK8ISesqG",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 477891,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "archive_members": 52,
+  "standalone_complete_modelset_recoverable": false,
+  "runtime_dependency_recovery": "Not an entire runtime/job-resume snapshot. Exact wheel SHA/1302runtime file manifest/base runtime/native source in preregistered parent19a36cf7 research/resnet_keras_screen_20261030. First-only initial/first Adam/BN/metrics/callback/RNG/IDs; final selected/last modelset requires completed audit and newcompletebackup.",
+  "verified_unix": 1793406672.651123
+}

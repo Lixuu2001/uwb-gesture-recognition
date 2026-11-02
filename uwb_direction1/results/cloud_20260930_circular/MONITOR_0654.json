@@ -1,0 +1,27 @@
+{
+  "observed_utc": "2026-09-30T06:53:44.104872+00:00",
+  "observed_unix": 1790751224.1048841,
+  "pid_alive": true,
+  "queue": {
+    "state": "running",
+    "pid": 7419,
+    "fold": 2,
+    "arm": "angle_control"
+  },
+  "current_progress": {
+    "epoch": 4,
+    "validation_ce": 0.8414211869239807,
+    "source_ce": 0.01108549158757841,
+    "lr": 0.0009786854661874434,
+    "source_ids_sha256": "b6b1eb54236daeb5949a8a7d6a7a3d7e86215b167705ded48321ec2226cc9f1c",
+    "seconds": 22.511042965999877,
+    "state": "training",
+    "pid": 7419,
+    "best_epoch": 1
+  },
+  "completed_runs": 4,
+  "completed_runs_independently_audited": 3,
+  "training_unchanged": true,
+  "new_test_conclusion": false,
+  "action": "preserve active queue; no restart or protocol changes"
+}

@@ -1,0 +1,18 @@
+{
+  "state": "selected_paper_sections_and_both_original_review_source_verified",
+  "paper_url": "https://arxiv.org/pdf/1611.06455",
+  "paper_version": "1611.06455v4",
+  "doi": "10.1109/IJCNN.2017.7966039",
+  "sections_read": [
+    "II.B FCN architecture",
+    "III.A experiment settings",
+    "III.B-C evaluation and results"
+  ],
+  "all_paper_pages_figures_read": false,
+  "architecture": "Three full Conv128/256/128 kernels8/5/3, BN/ReLU, temporal GAP and fixed12 softmax; no shrinking.",
+  "evidence_limit": "Original UCR univariate experiments do not establish cross-user UWB improvement. This is a published baseline transfer, not an original contribution.",
+  "source_distinction": "Paper-linked cauchyturing author FCN.py uses univariate Conv2D and train-global z-normalization. hfawaz review fcn.py uses Conv1D over supplied multivariate channels; its mts_archive loader adds no normalization. These are separate implementations, not asserted numerically equivalent.",
+  "training": "Review defaults2000epochs/B16 (min(ntrain/10,16)), unweighted CE/Adam, ReduceLR(trainingloss,.5,p50,min1e-4) then strict minimum trainingloss checkpoint. Test-label encoder in original drivers will not be executed; adaptation uses fixed12 labels and excludes7-8.",
+  "runtime_difference": "Native Keras3/Torch compatibility only. Adam epsilon1e-7 differs from paper1e-8; no legacy TF parity claim.",
+  "next": "One full2000/B16/seed20261029 fixed synthetic CPU policy, no sweep/fallback. Real UWB only after a separate runner/role/accuracy-gate preregistration if resources pass."
+}

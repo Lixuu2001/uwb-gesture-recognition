@@ -1,0 +1,76 @@
+{
+  "state": "resource_closed_exact_policy",
+  "chosen_epochs": null,
+  "requested_batch_size": 8,
+  "source_actual_minibatch": 8,
+  "training_batches": 588,
+  "validation_batches": 125,
+  "diagnostic_batches": 150,
+  "estimated_seconds_by_epoch_budget": {
+    "500": 971304.161989152
+  },
+  "memory_gate_passed": true,
+  "formula": "2*(E*ceil4700B*maxtrain+(E*ceil1000B+ceil1000B+ceil1200B)*maxeval+(E+1)*maxkeras+(2E+4)*maxsnapshot)+120; B=int(min470,Brequested)",
+  "worst_case_best_and_last_fullstate_every_epoch_included": true,
+  "accuracy_measured": false,
+  "policy": {
+    "epoch_candidates": [
+      500
+    ],
+    "batch_size": 8,
+    "seed": 20261029,
+    "input_preprocessing": "Full90x567 signed RMS map plus singleton feature axis; no added normalization or augmentation, author Main normalise=False preserved. Synthetic cost fixture only; no UWB arrays opened.",
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "prior_workspace": "/workspace/uwb-hinception-sixfold-20261031",
+    "variant": "author_default_DCNN_2L",
+    "source_commit": "38180ccc1f050a3fee6961f5b4ea3bc132016ab3",
+    "cost_only_synthetic": true,
+    "UWB_values_labels_fitting_authorized_by_this_policy": false,
+    "no_smaller_epoch_fallback": true,
+    "profile_CPU_soft": 590,
+    "profile_CPU_hard": 600,
+    "profile_wall_seconds": 620,
+    "next_if_resource_closed": "close_exact_full500_B8_policy_without_accuracy_claim_then_next_documented_candidate",
+    "paper": "Disjoint-CNN for Multivariate Time Series Classification, ICDMW2021, pp760-769; IEEE document9679860",
+    "fulltext_reviewed": false,
+    "literature_basis": "Pinned author README and full default DCNN2L source; factorized temporal then cross-channel convolutions. Source mechanism and full defaults verified; no originality claim."
+  },
+  "full_author_default_DCNN2L_architecture": true,
+  "total_parameters": 2587468,
+  "trainable_parameters": 2586956,
+  "original_training_classweight_formula": true,
+  "validation_unweighted": true,
+  "training_seconds": [
+    1.554981374181807,
+    1.386488928226754,
+    1.3628300088457763,
+    1.4901381861418486,
+    1.4666933240368962,
+    1.3983606009278446,
+    1.4026633088942617,
+    1.4863959029316902
+  ],
+  "evaluation_seconds": [
+    0.4046343059744686,
+    0.44888969510793686,
+    0.4382736780680716,
+    0.4223420771304518
+  ],
+  "keras_save_seconds": [
+    0.0658851161133498,
+    0.0524614960886538,
+    0.05079954210668802
+  ],
+  "snapshot_save_seconds": [
+    0.21463937405496836,
+    0.19822714012116194,
+    0.2068025879561901
+  ],
+  "max_RSS_KiB": 1241000,
+  "wall_seconds": 14.485540554858744,
+  "synthetic_fixture_only": true,
+  "preprocessing_choice_recorded_but_no_UWB_preprocessing_executed": true,
+  "real_UWB_values_labels_or_fit": false,
+  "real_pilot_started": false
+}

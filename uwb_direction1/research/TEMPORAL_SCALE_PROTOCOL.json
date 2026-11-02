@@ -1,0 +1,81 @@
+{
+  "study": "Fixed axial dilation source-only intervention; established operation, no novelty claim",
+  "seed": 2026,
+  "threads": 1,
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "validation": "next source user cyclically, four others train, held diagnostic only after weight selection",
+  "excluded_users": [
+    1,
+    2
+  ],
+  "arms": [
+    "time2",
+    "range2"
+  ],
+  "reused_control": "shared128 from audited SWAD source pilot; ERM and fixed-tail states only",
+  "parameters": {
+    "shared128": 265836,
+    "time2": 265836,
+    "range2": 265836
+  },
+  "initialization": "Identical seed2026 SignalNet weights and post-constructor RNG; only Conv2d dilation/padding attributes change",
+  "input": "fixed legacy channels with no augmentation or auxiliary loss",
+  "batch": 64,
+  "epochs": 24,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "min_lr": 1e-05,
+  "tail_start_epoch": 13,
+  "scheduler": "cosine over24 epochs, no early stopping",
+  "primary_selection": "all-update dense parameter average epochs13..24",
+  "secondary_selection": "earliest minimum validation CE including epoch0; no posthoc switch of primary",
+  "gate": {
+    "time2_minus_shared128": 0.005,
+    "time2_minus_range2": 0.0025,
+    "wins_each": 4,
+    "minimum_paired_difference_each": -0.01
+  },
+  "gate_rationale": "Primary fixed-tail time2 must exceed baseline by0.5pp and axial range control by0.25pp, win at least4/6 vs each and lose no individual user by more than1pp vs either. Development screen only.",
+  "max_estimated_hours": 4.0,
+  "stop_on_failed_gate": "No dilation/kernel/seed/window grid or eight-fold expansion for this fixed hypothesis. Do not generalize failure to all TCNs.",
+  "pass_next_step": "Same-protocol eight-fold controls and independent seeds if warranted; scientific novelty remains separate.",
+  "persistence": "All split IDs and each epoch exact order NPZ, model/AdamW/scheduler/RNG progress,24 segment averages, fixed-tail and validation-ERM states and logits; source/data hashes.",
+  "limitations": "Six repeatedly researched development users, one training seed, overlapping train sets. GN and readout already use global spatial information. Axial dilation also changes sampling lattice and boundary padding; different time/range lengths mean this is not a perfect physical equivalence control. No calibrated range/velocity or global-RF claim. Not a reproduction of TCN or InceptionTime.",
+  "dilation": {
+    "shared128": [
+      1,
+      1
+    ],
+    "time2": [
+      2,
+      1
+    ],
+    "range2": [
+      1,
+      2
+    ]
+  },
+  "modified_layers": "Only second stride-one Conv3x3 in each of three blocks. All stride-two convolutions unchanged.",
+  "convolution_only_span": {
+    "shared128": [
+      43,
+      43
+    ],
+    "time2": [
+      71,
+      43
+    ],
+    "range2": [
+      43,
+      71
+    ]
+  },
+  "factor_rationale": "Dilation2 is the smallest integer expansion of unit spacing. Apply consistently to stride-one convolutions to keep learned downsampling unchanged. Chosen without candidate diagnostic scores; not optimized to measured event durations."
+}

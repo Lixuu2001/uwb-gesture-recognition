@@ -1,0 +1,38 @@
+{
+  "state": "pass",
+  "synthetic_only": true,
+  "real_UWB_values_or_labels_read": false,
+  "real_training_started": false,
+  "author_commit": "148afb6ca549915b7e78b05e2ec3b4ba6e052341",
+  "author_source_files_verified": 12,
+  "dependency_files_verified": 33,
+  "config": {
+    "Data_shape": [
+      16,
+      567,
+      90
+    ],
+    "emb_size": 64,
+    "dim_ff": 256,
+    "num_heads": 8,
+    "Fix_pos_encode": "tAPE",
+    "Rel_pos_encode": "eRPE",
+    "dropout": 0.01
+  },
+  "parameters": 9340708,
+  "all_parameter_gradients_finite": true,
+  "changed_parameter_tensors": 24,
+  "optimizer": "unmodified_author_RAdam_lr.001_weightdecay0",
+  "gradient_clip_norm": 4.0,
+  "full_model_training_batch": 2,
+  "synthetic_training_steps_before_resume": 6,
+  "stochastic_resume_steps_exact": 2,
+  "all_model_optimizer_rng_and_BN_states_exact": true,
+  "tAPE_NumPy_closed_form_max_abs_error": 3.479145841617237e-06,
+  "eRPE_nonzero_bias_NumPy_forward_verified": true,
+  "embedding_wide_attention_scale_preserved": true,
+  "post_softmax_bias_preserved": true,
+  "CE_mean_matches_author_wrapper": true,
+  "wall_seconds": 9.524079844006337,
+  "limitations": "Synthetic full-width author core test, not real UWB training, complete paper reproduction, resource gate or accuracy evidence. Paper/code and CLI-width differences documented separately."
+}

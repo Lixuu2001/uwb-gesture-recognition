@@ -1,0 +1,672 @@
+{
+  "state": "complete",
+  "scores": {
+    "grid": [
+      0.8708333333333332,
+      0.9791666666666666,
+      0.9816666666666668,
+      0.7881818181818182,
+      0.9691666666666667,
+      0.9825
+    ],
+    "diag": [
+      0.7733333333333333,
+      0.92,
+      0.9033333333333333,
+      0.8027272727272727,
+      0.9008333333333333,
+      0.8700000000000001
+    ],
+    "cov": [
+      0.8091666666666667,
+      0.9366666666666666,
+      0.9408333333333334,
+      0.8309090909090908,
+      0.92,
+      0.9091666666666667
+    ],
+    "sqrt": [
+      0.8241666666666666,
+      0.9458333333333333,
+      0.9441666666666667,
+      0.8272727272727273,
+      0.9183333333333333,
+      0.8975
+    ],
+    "cnn": [
+      0.8608333333333333,
+      0.9891666666666667,
+      0.9858333333333333,
+      0.78,
+      0.9674999999999999,
+      0.9791666666666666
+    ],
+    "tail_cnn": [
+      0.8624999999999999,
+      0.9891666666666667,
+      0.9866666666666667,
+      0.78,
+      0.9666666666666668,
+      0.9783333333333334
+    ]
+  },
+  "means": {
+    "grid": 0.9285858585858585,
+    "diag": 0.8617045454545454,
+    "cov": 0.8911237373737374,
+    "sqrt": 0.8928787878787879,
+    "cnn": 0.9270833333333335,
+    "tail_cnn": 0.9272222222222223
+  },
+  "comparisons": {
+    "grid": {
+      "mean_delta": -0.03570707070707074,
+      "wins": 1,
+      "worst_user_delta": 0.0359848484848484,
+      "passed": false
+    },
+    "diag": {
+      "mean_delta": 0.0311742424242424,
+      "wins": 6,
+      "worst_user_delta": 0.050833333333333286,
+      "passed": true
+    },
+    "cov": {
+      "mean_delta": 0.0017550505050504817,
+      "wins": 3,
+      "worst_user_delta": 0.014999999999999902,
+      "passed": false
+    },
+    "tail_cnn": {
+      "mean_delta": -0.0343434343434344,
+      "wins": 1,
+      "worst_user_delta": 0.044166666666666576,
+      "passed": false
+    }
+  },
+  "gate_passed": false,
+  "seconds_excluding_hashes": 106.27530133497203,
+  "selected_models": 24,
+  "ridge_fits": 72,
+  "encoder_training": false,
+  "protocol_sha256": "a2da8902a6afb4e3d609b280bea0166e7d2ff4f5b2f26c41d2c8cc13df3e8cfa",
+  "script_sha256": "2365fce990b3a224efe86dcce71c73d0554353e81a5251726bd8b236463e7355",
+  "helpers_sha256": {
+    "second_order_core.py": "ff1257df2a133bbbb21f6754d3ecf2e8e02d9ffcc76b1f763f08500a0f1ef98d",
+    "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+    "audit_circular_signal.py": "db2713d8c3e5386dea552e3189dc67f6ab197088ae26c4e20632518e44eb356d",
+    "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+  },
+  "rows": [
+    {
+      "held": 3,
+      "scores": {
+        "grid": 0.8708333333333332,
+        "diag": 0.7733333333333333,
+        "cov": 0.8091666666666667,
+        "sqrt": 0.8241666666666666,
+        "cnn": 0.8608333333333333,
+        "tail_cnn": 0.8624999999999999
+      },
+      "model_path": "/workspace/uwb-swad-source-runs-20261003/held3/segment_24.pt",
+      "model_sha256": "227a27623299d079da726fe0b4886d5e7eb69a0c76046244f2f2ea12e486dc2e",
+      "independent_raw_forward_max_errors": {
+        "train": {
+          "logits": 0.0,
+          "descriptors": 5.773159728050814e-15
+        },
+        "val": {
+          "logits": 0.0,
+          "descriptors": 6.106226635438361e-15
+        },
+        "diagnostic": {
+          "logits": 0.0,
+          "descriptors": 5.995204332975845e-15
+        }
+      },
+      "independent_ridge_fits": [
+        {
+          "arm": "grid",
+          "lam": 0.001,
+          "sklearn_max_error": 1.0401540739835013e-12
+        },
+        {
+          "arm": "grid",
+          "lam": 0.01,
+          "sklearn_max_error": 2.8332891588433995e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.1,
+          "sklearn_max_error": 6.705747068735946e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.001,
+          "sklearn_max_error": 2.055300374337321e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.01,
+          "sklearn_max_error": 1.0852430065710905e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.1,
+          "sklearn_max_error": 3.9968028886505635e-15
+        },
+        {
+          "arm": "cov",
+          "lam": 0.001,
+          "sklearn_max_error": 1.7399970353437766e-13
+        },
+        {
+          "arm": "cov",
+          "lam": 0.01,
+          "sklearn_max_error": 3.7470027081099033e-14
+        },
+        {
+          "arm": "cov",
+          "lam": 0.1,
+          "sklearn_max_error": 8.076872504148014e-15
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.001,
+          "sklearn_max_error": 5.007105841059456e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.01,
+          "sklearn_max_error": 2.8976820942716586e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.1,
+          "sklearn_max_error": 1.0422218643668657e-14
+        }
+      ],
+      "files": {
+        "split.json": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b",
+        "selection.json": "9a1c32f166baae4da2ac22c30e658fc0a7b718b14a755f986a3383ccf70edbae",
+        "models.npz": "da818761575def59c6bac1c57c84b2c5ff57b5e2912bba72d00a86d926b4f403",
+        "predictions.npz": "fb6cb0adbb405d101eb968a76cd379e002c0ca4a0dcdb84ae37a12df4750ded0"
+      }
+    },
+    {
+      "held": 4,
+      "scores": {
+        "grid": 0.9791666666666666,
+        "diag": 0.92,
+        "cov": 0.9366666666666666,
+        "sqrt": 0.9458333333333333,
+        "cnn": 0.9891666666666667,
+        "tail_cnn": 0.9891666666666667
+      },
+      "model_path": "/workspace/uwb-swad-source-runs-20261003/held4/segment_24.pt",
+      "model_sha256": "7b3f727e32da87da9093f7a2b591598dad44b4c4c1ecae19be0680eba3473f93",
+      "independent_raw_forward_max_errors": {
+        "train": {
+          "logits": 0.0,
+          "descriptors": 7.105427357601002e-15
+        },
+        "val": {
+          "logits": 0.0,
+          "descriptors": 6.661338147750939e-15
+        },
+        "diagnostic": {
+          "logits": 0.0,
+          "descriptors": 5.828670879282072e-15
+        }
+      },
+      "independent_ridge_fits": [
+        {
+          "arm": "grid",
+          "lam": 0.001,
+          "sklearn_max_error": 8.255479633234586e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.01,
+          "sklearn_max_error": 2.0272672429655358e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.1,
+          "sklearn_max_error": 4.7628567756419216e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.001,
+          "sklearn_max_error": 1.2004286453759505e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.01,
+          "sklearn_max_error": 8.326672684688674e-15
+        },
+        {
+          "arm": "diag",
+          "lam": 0.1,
+          "sklearn_max_error": 3.83026943495679e-15
+        },
+        {
+          "arm": "cov",
+          "lam": 0.001,
+          "sklearn_max_error": 1.1390888232654106e-13
+        },
+        {
+          "arm": "cov",
+          "lam": 0.01,
+          "sklearn_max_error": 3.250177904590146e-14
+        },
+        {
+          "arm": "cov",
+          "lam": 0.1,
+          "sklearn_max_error": 8.451572774959004e-15
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.001,
+          "sklearn_max_error": 4.007905118896815e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.01,
+          "sklearn_max_error": 2.0365653607967715e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.1,
+          "sklearn_max_error": 8.701372955499664e-15
+        }
+      ],
+      "files": {
+        "split.json": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b",
+        "selection.json": "3007193c925e71e7857134ac3a5030b2e2aad829539a305e7b17826278481264",
+        "models.npz": "84ef35ee3e5d0fd637be0feb71a2a8a00e86653e7e1ba962e48033560e54f8d0",
+        "predictions.npz": "22e04f13ff9709e2898ed5c398daebae805c2d9e6268b1556d02be248e3779fb"
+      }
+    },
+    {
+      "held": 5,
+      "scores": {
+        "grid": 0.9816666666666668,
+        "diag": 0.9033333333333333,
+        "cov": 0.9408333333333334,
+        "sqrt": 0.9441666666666667,
+        "cnn": 0.9858333333333333,
+        "tail_cnn": 0.9866666666666667
+      },
+      "model_path": "/workspace/uwb-swad-source-runs-20261003/held5/segment_24.pt",
+      "model_sha256": "0a95ee9cbcfcaf6d97084e4601f6d2a2dd6e12b634f254fc56ed81c8847b7896",
+      "independent_raw_forward_max_errors": {
+        "train": {
+          "logits": 0.0,
+          "descriptors": 6.439293542825908e-15
+        },
+        "val": {
+          "logits": 0.0,
+          "descriptors": 7.327471962526033e-15
+        },
+        "diagnostic": {
+          "logits": 0.0,
+          "descriptors": 7.327471962526033e-15
+        }
+      },
+      "independent_ridge_fits": [
+        {
+          "arm": "grid",
+          "lam": 0.001,
+          "sklearn_max_error": 1.3233025786263397e-12
+        },
+        {
+          "arm": "grid",
+          "lam": 0.01,
+          "sklearn_max_error": 2.5579538487363607e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.1,
+          "sklearn_max_error": 7.638334409421077e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.001,
+          "sklearn_max_error": 1.9817480989559044e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.01,
+          "sklearn_max_error": 1.1435297153639112e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.1,
+          "sklearn_max_error": 3.83026943495679e-15
+        },
+        {
+          "arm": "cov",
+          "lam": 0.001,
+          "sklearn_max_error": 1.7608137170554983e-13
+        },
+        {
+          "arm": "cov",
+          "lam": 0.01,
+          "sklearn_max_error": 5.651035195342047e-14
+        },
+        {
+          "arm": "cov",
+          "lam": 0.1,
+          "sklearn_max_error": 8.049116928532385e-15
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.001,
+          "sklearn_max_error": 6.425415755018093e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.01,
+          "sklearn_max_error": 2.7255975254547593e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.1,
+          "sklearn_max_error": 1.0519363158323358e-14
+        }
+      ],
+      "files": {
+        "split.json": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89",
+        "selection.json": "e5d39f774c8e5d46fc6dc6c4a2c6e417d78cc547a3ab0dd35fbfe2c67b02763d",
+        "models.npz": "269c3a8a2f835d981100043f6985923326408be43121b15369416d459f02e683",
+        "predictions.npz": "2b9ca7b71d7f63591de43c7c50a82a2a7b2415e1d63ac3b965c456dfe4188ce1"
+      }
+    },
+    {
+      "held": 6,
+      "scores": {
+        "grid": 0.7881818181818182,
+        "diag": 0.8027272727272727,
+        "cov": 0.8309090909090908,
+        "sqrt": 0.8272727272727273,
+        "cnn": 0.78,
+        "tail_cnn": 0.78
+      },
+      "model_path": "/workspace/uwb-swad-source-runs-20261003/held6/segment_24.pt",
+      "model_sha256": "8ecaea9fb0463acb6a32984f5067245b263ded869cfd3c77328bedd587a39e1a",
+      "independent_raw_forward_max_errors": {
+        "train": {
+          "logits": 0.0,
+          "descriptors": 5.662137425588298e-15
+        },
+        "val": {
+          "logits": 0.0,
+          "descriptors": 6.8833827526759706e-15
+        },
+        "diagnostic": {
+          "logits": 0.0,
+          "descriptors": 8.548717289613705e-15
+        }
+      },
+      "independent_ridge_fits": [
+        {
+          "arm": "grid",
+          "lam": 0.001,
+          "sklearn_max_error": 1.2891909761947318e-12
+        },
+        {
+          "arm": "grid",
+          "lam": 0.01,
+          "sklearn_max_error": 2.4291679778798425e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.1,
+          "sklearn_max_error": 5.484501741648273e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.001,
+          "sklearn_max_error": 1.8540724511240114e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.01,
+          "sklearn_max_error": 9.880984919163893e-15
+        },
+        {
+          "arm": "diag",
+          "lam": 0.1,
+          "sklearn_max_error": 4.427014310692812e-15
+        },
+        {
+          "arm": "cov",
+          "lam": 0.001,
+          "sklearn_max_error": 1.7369439220260574e-13
+        },
+        {
+          "arm": "cov",
+          "lam": 0.01,
+          "sklearn_max_error": 4.581057755359552e-14
+        },
+        {
+          "arm": "cov",
+          "lam": 0.1,
+          "sklearn_max_error": 8.770761894538737e-15
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.001,
+          "sklearn_max_error": 4.6754267124526905e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.01,
+          "sklearn_max_error": 2.7977620220553945e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.1,
+          "sklearn_max_error": 1.0963452368173421e-14
+        }
+      ],
+      "files": {
+        "split.json": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba",
+        "selection.json": "11ba1c24e0fd1c8b63902b2bc67e5b39d43194b2ee857f648bbcedd72b08fc64",
+        "models.npz": "b81e990ac5218fff6ea1081d5565df8331cac5a36a56cdfada6680d8a187d025",
+        "predictions.npz": "229a945c624ae2298a6469df2207ce2ac551099fbfd1067836e22a08cad3c060"
+      }
+    },
+    {
+      "held": 7,
+      "scores": {
+        "grid": 0.9691666666666667,
+        "diag": 0.9008333333333333,
+        "cov": 0.92,
+        "sqrt": 0.9183333333333333,
+        "cnn": 0.9674999999999999,
+        "tail_cnn": 0.9666666666666668
+      },
+      "model_path": "/workspace/uwb-swad-source-runs-20261003/held7/segment_24.pt",
+      "model_sha256": "14a9a9195ba9ea46cdc414ab2c6aaeb36f5547266798b5006c6e5c4159c4cc91",
+      "independent_raw_forward_max_errors": {
+        "train": {
+          "logits": 0.0,
+          "descriptors": 6.661338147750939e-15
+        },
+        "val": {
+          "logits": 0.0,
+          "descriptors": 5.773159728050814e-15
+        },
+        "diagnostic": {
+          "logits": 0.0,
+          "descriptors": 7.494005416219807e-15
+        }
+      },
+      "independent_ridge_fits": [
+        {
+          "arm": "grid",
+          "lam": 0.001,
+          "sklearn_max_error": 8.928968675547821e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.01,
+          "sklearn_max_error": 3.2163161023390785e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.1,
+          "sklearn_max_error": 5.051514762044462e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.001,
+          "sklearn_max_error": 1.7860712908657206e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.01,
+          "sklearn_max_error": 1.0796918914479647e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.1,
+          "sklearn_max_error": 3.497202527569243e-15
+        },
+        {
+          "arm": "cov",
+          "lam": 0.001,
+          "sklearn_max_error": 1.3945788968072748e-13
+        },
+        {
+          "arm": "cov",
+          "lam": 0.01,
+          "sklearn_max_error": 3.647082635893639e-14
+        },
+        {
+          "arm": "cov",
+          "lam": 0.1,
+          "sklearn_max_error": 8.257283745649602e-15
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.001,
+          "sklearn_max_error": 4.503342143635791e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.01,
+          "sklearn_max_error": 2.055300374337321e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.1,
+          "sklearn_max_error": 8.951173136040325e-15
+        }
+      ],
+      "files": {
+        "split.json": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802",
+        "selection.json": "e1d9a691ae7b55ecf98ddbdd417162bf081e143981ca0542b58dfbaacb3ab6f7",
+        "models.npz": "a42c5599b47a9d78abbd055ff186fea4a166f1b40521919dc606a7545e7bda57",
+        "predictions.npz": "1318ed3b811d3a065288841564278b041f32c07a51dac78aaa4d9cc8ce01914a"
+      }
+    },
+    {
+      "held": 8,
+      "scores": {
+        "grid": 0.9825,
+        "diag": 0.8700000000000001,
+        "cov": 0.9091666666666667,
+        "sqrt": 0.8975,
+        "cnn": 0.9791666666666666,
+        "tail_cnn": 0.9783333333333334
+      },
+      "model_path": "/workspace/uwb-swad-source-runs-20261003/held8/segment_24.pt",
+      "model_sha256": "f48cec640153b779c54da38207d1c5f02dd688527d9dad364258ab1742063f37",
+      "independent_raw_forward_max_errors": {
+        "train": {
+          "logits": 0.0,
+          "descriptors": 9.71445146547012e-15
+        },
+        "val": {
+          "logits": 0.0,
+          "descriptors": 6.2727600891321345e-15
+        },
+        "diagnostic": {
+          "logits": 0.0,
+          "descriptors": 7.716050021144838e-15
+        }
+      },
+      "independent_ridge_fits": [
+        {
+          "arm": "grid",
+          "lam": 0.001,
+          "sklearn_max_error": 8.395506512215434e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.01,
+          "sklearn_max_error": 1.9262369477246466e-13
+        },
+        {
+          "arm": "grid",
+          "lam": 0.1,
+          "sklearn_max_error": 4.1522341120980855e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.001,
+          "sklearn_max_error": 1.8207657603852567e-14
+        },
+        {
+          "arm": "diag",
+          "lam": 0.01,
+          "sklearn_max_error": 9.825473767932635e-15
+        },
+        {
+          "arm": "diag",
+          "lam": 0.1,
+          "sklearn_max_error": 3.6637359812630166e-15
+        },
+        {
+          "arm": "cov",
+          "lam": 0.001,
+          "sklearn_max_error": 1.3078427230084344e-13
+        },
+        {
+          "arm": "cov",
+          "lam": 0.01,
+          "sklearn_max_error": 3.091971123581061e-14
+        },
+        {
+          "arm": "cov",
+          "lam": 0.1,
+          "sklearn_max_error": 6.675215935558754e-15
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.001,
+          "sklearn_max_error": 5.047351425702118e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.01,
+          "sklearn_max_error": 2.6423307986078726e-14
+        },
+        {
+          "arm": "sqrt",
+          "lam": 0.1,
+          "sklearn_max_error": 9.006684287271582e-15
+        }
+      ],
+      "files": {
+        "split.json": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3",
+        "selection.json": "9757c54f2b72c2262ef0fc71b5d9dedd88eef8deb6d2d8f88010270c85638839",
+        "models.npz": "a5194f220c5a5feb055d9fd2db371971b5c5f905585faa99c98cb317b00fa85f",
+        "predictions.npz": "99e64d0aa8d5424194e492587a02cb5b75eadbee958b2985179a26ff0dfabc2a"
+      }
+    }
+  ]
+}

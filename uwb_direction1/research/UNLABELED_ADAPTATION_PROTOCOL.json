@@ -1,0 +1,52 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "models": "/workspace/uwb-swad-source-runs-20261003",
+  "checkpoint": "selected.pt states.tail; fixed epochs13..24 update average",
+  "cache": "/workspace/uwb-circular-prepared-20260930/signals.npy",
+  "cache_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+  "batch": 32,
+  "arms": [
+    "frozen",
+    "entropy",
+    "filtered",
+    "sar"
+  ],
+  "orders": [
+    "storage",
+    "shuffle"
+  ],
+  "order_seed": 1701,
+  "adapter": {
+    "lr": 0.0005,
+    "momentum": 0.9,
+    "rho": 0.05,
+    "margin": 0.9939626599152002,
+    "reset_threshold": 0.2
+  },
+  "budget_seconds": 1800,
+  "primary": "sar",
+  "hyperparameter_selection": "None; single fixed setting, SGD lr .001/64*32 consistent with SAR ResNet scaling, 12-class entropy threshold. Not an exact author-model reproduction.",
+  "gate": {
+    "mean_gain_vs_frozen": 0.005,
+    "min_wins": 4,
+    "max_worst_decline": 0.01,
+    "required_orders": "both",
+    "sar_gain_vs_entropy_and_filtered": 0
+  },
+  "information": "prequential current batch prediction before one update; only current x enters adapter; no labels or global target statistics; known user boundary resets; GN affine352 only; dropout disabled",
+  "limits": [
+    "Source3..8 development users already reused, not external validation or old8 protocol",
+    "Storage index is not proven chronological; shuffle is a fixed robustness control, never label stratified",
+    "TTA is a different target-input-update deployment protocol; standard SAR/Tent variants are not innovation",
+    "No learning-rate, threshold, seed, order or checkpoint sweep on failure",
+    "Empty/nonfinite update skips; SAR perturbations always rolled back; recovery clears EMA and optimizer intentionally unlike original ambiguous EMA reassign",
+    "Main papers unavailable via current network allowlist; official code/readme only. Do not claim full paper review"
+  ]
+}

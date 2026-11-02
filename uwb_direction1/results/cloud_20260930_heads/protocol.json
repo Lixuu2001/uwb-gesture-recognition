@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-30",
+  "stage": "exploratory frozen-encoder nonlinear readout study",
+  "question": "Does dedicated full-three-view readout training improve over matched subset-readout training, and does cross-user supervised contrast add value beyond ordinary SupCon?",
+  "novelty_claim": false,
+  "input": "verified per-fold multiview_s2026 features [9300,3,256]; original encoder is frozen and is not retrained",
+  "split": "test H, validation H%8+1, other six users train; original quality mask and IDs",
+  "arms": [
+    "subset_ce",
+    "full_ce",
+    "full_supcon",
+    "full_crossuser"
+  ],
+  "model": "Linear(771,256), GELU, Dropout(0.1), Linear(256,12); three physical feature slots plus three observation flags; exact original fusion-head topology",
+  "feature_scaling": "none; retain exported input representation for every arm",
+  "model_seed": 2026,
+  "sampler": "two distinct examples per available train user-class cell in each batch, shuffled; identical epoch sampling across arms; ceil(train_count / cell_count / 2) steps per epoch",
+  "subset_ce": "one uniform nonempty physical-view subset per batch; zero unavailable features, explicit flags; all seven subsets known in advance",
+  "full_arms": "all three physical views for every training and evaluation sample",
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs": 40,
+  "min_epochs": 12,
+  "patience": 8,
+  "selection": "earliest minimum full-view validation CE, including epoch 0, for every arm",
+  "supcon": {
+    "weight": 0.05,
+    "temperature": 0.1,
+    "embedding": "L2-normalized 256D GELU activation before dropout",
+    "ordinary_positive": "same class, different sample index",
+    "crossuser_positive": "same class, different source user",
+    "crossuser_denominator": "different-class samples and same-class different-user samples; self and same-class same-user samples excluded",
+    "no_positive": "exclude anchor from loss mean"
+  },
+  "continue_criterion": "full_crossuser exceeds full_ce, full_supcon and historical LTR by at least 1 percentage point mean user macro accuracy, and improves full_ce on at least 6/8 users",
+  "second_seed_rule": "only if continuation criterion is met; repeat matched arms at seed2027 without changing configuration",
+  "test_policy": "test labels used only for post-selection metrics; all eight test users already have exploration history",
+  "limits": "Not an end-to-end reproduction; no old encoder weights in transfer. Improvements over cached historical LTR cannot be attributed solely to subset sampling, because historical optimizer and sampling differ. Use matched subset_ce vs full_ce for that narrower contrast. This is a necessary baseline/mechanism check, not a new architecture or established paper contribution."
+}

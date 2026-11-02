@@ -1,0 +1,26 @@
+{
+  "state": "complete",
+  "pid": null,
+  "completed_phases": [
+    "ssl",
+    "linear",
+    "finetune",
+    "scratch"
+  ],
+  "all_predictions_frozen": true,
+  "diagnostic_labels_read": true,
+  "users7_8_labels_used": false,
+  "wall_seconds": 1050.9959140479332,
+  "cpu_seconds": 1053.134215165,
+  "observed_unix": 1793376447.62123,
+  "phase": "scratch",
+  "epoch": 40,
+  "batch": 35,
+  "total_steps": 1440,
+  "records_used": 4608,
+  "epoch_seconds": 5.187627758947201,
+  "training_loss": 0.0032329059362786617,
+  "validation_loss": 0.14749363611917943,
+  "validation_macro": 0.952,
+  "learning_rate": 2.9999999999999997e-05
+}

@@ -1,0 +1,48 @@
+{
+  "study": "Established supervised SAM source pilot; CE-only perturbation + AdamW, no novel algorithm claim",
+  "seed": 2026,
+  "threads": 1,
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excluded_users": [
+    1,
+    2
+  ],
+  "arms": [
+    "sam24",
+    "erm48"
+  ],
+  "reused_control": "shared128 ordinary24 from SWAD source; exact first-epoch replay required",
+  "parameters": 265836,
+  "validation": "next cyclic source user; four train, one validation, one diagnostic only after selection",
+  "batch": 64,
+  "epochs": 24,
+  "tail_start_epoch": 13,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "min_lr": 1e-05,
+  "rho": 0.05,
+  "rho_rationale": "single conventional author-example value; no diagnostic choice or radius search",
+  "sam_objective": "CE gradient global-L2 normalization over all parameters, same batch and CPU dropout RNG both passes, stop gradient through perturbation; ordinary AdamW after exact restoration; no coupled L2 in perturbation",
+  "zero_gradient": "zero perturbation; finite zero gradients still passed to AdamW once",
+  "compute_control": "erm48:48 single-pass epochs with cosine over48 and tail25..48, same batch and source sampling rule; matches approximate forward/backward count but not wall time or optimizer updates; sam24 uses24 two-pass epochs, tail13..24",
+  "primary_selection": "fixed dense tail per actual optimizer update",
+  "secondary_selection": "earliest minimum validation CE including epoch0; never swap primary after observing diagnostic scores",
+  "gate": {
+    "sam_minus_shared128": 0.005,
+    "sam_minus_erm48": 0.0025,
+    "wins_each": 4,
+    "minimum_paired_difference_each": -0.01
+  },
+  "max_estimated_hours": 5.0,
+  "stop_on_failed_gate": "No rho/decay/seed/tail grid or full-eight expansion of this fixed hypothesis",
+  "pass_next_step": "same-protocol eight-user controls and independent seeds; SAM performance alone is not a novel contribution",
+  "persistence": "everyepoch segment, source orders, full AdamW/scheduler/CPU RNG/best/tail, selected weights, IDs/logits/config/source hashes; epoch atomic resume; lock queue",
+  "limitations": "six repeatedly researched development users; single seed; old8fold scores not comparable; CE+decoupledAdamW differs author coupledL2; SAM known not original; no mainpaper fulltext claim"
+}

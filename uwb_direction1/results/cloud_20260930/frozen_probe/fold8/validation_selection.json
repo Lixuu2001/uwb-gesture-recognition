@@ -1,0 +1,98 @@
+[
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 0.01,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.9558333333333334
+  },
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 0.1,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.9566666666666666
+  },
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 1.0,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.9666666666666668
+  },
+  {
+    "method": "balanced_ridge_concat",
+    "alpha": 10.0,
+    "eta": 0.0,
+    "validation_macro_accuracy": 0.9575
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.01,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.9558333333333334
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.1,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.955
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 1.0,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.9666666666666668
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 10.0,
+    "eta": 0.1,
+    "validation_macro_accuracy": 0.9591666666666666
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.01,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.9500000000000001
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.1,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.9516666666666667
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 1.0,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.9650000000000002
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 10.0,
+    "eta": 1.0,
+    "validation_macro_accuracy": 0.9641666666666667
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.01,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.9408333333333333
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 0.1,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.9433333333333334
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 1.0,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.9508333333333333
+  },
+  {
+    "method": "balanced_ridge_class_conditional_user_penalty",
+    "alpha": 10.0,
+    "eta": 10.0,
+    "validation_macro_accuracy": 0.9716666666666667
+  }
+]

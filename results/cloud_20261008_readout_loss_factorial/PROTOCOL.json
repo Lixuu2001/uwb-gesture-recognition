@@ -1,0 +1,75 @@
+{
+  "scope": "Known frozen-feature classifier-loss baseline; no novel method claim. Full eightfold historical-user readout comparison only.",
+  "users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_reference": "/workspace/uwb-semantic-code-eightfold-features-20261004",
+  "feature_manifest_sha256": "4ca737c9bbf5fce6c4cc2350ec4c77b7c4bf2c1ab52788fe0edf53e001e53a9b",
+  "ridge_reference": "/workspace/uwb-semantic-code-eightfold-20261004",
+  "ridge_manifest_sha256": "6a2fbafc3278c446c0f037eb6d2b5916b964266f26dda0a65900cb0bc7114613",
+  "input_sha256": {
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "quality_exclusion": "Exclude known duplicate user2 labels10,11 and mismatched user6 label3; 9300 eligible rows.",
+  "roles": "For held user h, validation is h+1 with 8 wraps to1; train is other six. Use the existing frozen full8 epoch-selected 128-dimensional hidden features. No network training or changes.",
+  "arms": [
+    "ridge_balanced",
+    "ridge_uniform",
+    "logit_balanced",
+    "logit_uniform"
+  ],
+  "feature_preprocessing": "Use same hidden representation in all four arms. Fit standardization on train only using either equal-user/equal-present-class sample weights (balanced) or uniform record weights (uniform), according to arm. Intercept unpenalized.",
+  "ridge": "Weighted least squares on one-hot labels, objective sum_i w_i ||p_i-onehot(y_i)||^2 + lambda/2 ||W||_F^2, unpenalized intercept; w normalized to sum one.",
+  "logit": "True 12-class multinomial cross entropy, objective sum_i w_i[-log softmax(z_i W+b)_{y_i}] + lambda/2 ||W||_F^2, unpenalized intercept; w normalized to sum one. SciPy L-BFGS-B, require max gradient<2e-7 and convergence.",
+  "lambdas": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "selection": "For each arm independently choose lambda on next validation user by maximum macro accuracy, then minimum MSE of 12 output probabilities against one-hot, then larger lambda. This is a fixed three-value validation family, no held labels.",
+  "primary": "logit_balanced",
+  "gate": {
+    "minimum_mean_gain_vs_ridge_balanced": 0.005,
+    "minimum_wins": 6,
+    "minimum_paired_gain": -0.01,
+    "minimum_mean_gain_vs_frozen_cnn": 0.0025
+  },
+  "controls": "2x2 readout baseline: loss (onehot squared error vs multinomial cross entropy) × record weighting (balanced user/class vs uniform). Fixed checkpoint/features and split; uniform-weight arms assess whether balanced weighting explains a loss effect. Also report frozen CNN decisions.",
+  "stop": "No tuning outside lambda family. Regardless of result, this is a known readout baseline and cannot fulfill the novel contribution goal. Failure closes this fixed logistic-versus-ridge comparison; no eightfold seed/feature/model expansion or alternative-arm promotion.",
+  "prior_art": {
+    "logistic_probe": "Kumar et al., Fine-Tuning Can Distort Pretrained Features and Underperform Out-of-Distribution, ICLR 2022, arXiv:2202.10054. Paper uses L2-regularized logistic regression on frozen features and ID validation-selected regularization. General deep-learning prior, not UWB gesture contribution.",
+    "dataset_and_method": "Original project already includes multinomial logistic regression, so no claim of method novelty. This run fills the absent same-checkpoint full-eightfold controlled comparison.",
+    "implementation": "scikit-learn multinomial logistic model/objective docs; custom SciPy implementation independently checked against sklearn Newton-CG."
+  },
+  "budget_seconds": 3600,
+  "cost_estimator": "Time 1 fixed synthetic 7200x128 weighted multinomial logistic fit; multiply by 48 fits and 2x headroom. No real data read during cost-only.",
+  "files": {
+    "full8_features": "/workspace/uwb-semantic-code-eightfold-features-20261004",
+    "frozen_cnn_predictions": "/workspace/uwb-semantic-code-eightfold-20261004"
+  },
+  "quality_notes": [
+    "Historical eight source subjects have been reused; this is not fresh external confirmation.",
+    "The held diagnostic labels are loaded only after all eight folds, candidate coefficients, validation scores/selections, and held predictions are persisted.",
+    "Known full8 frozen ridge accuracy 94.897727%; evaluate new logistic against it under same fold and checkpoint.",
+    "No original-source snapshot changes, raw arrays remain outside Git, report remains a known baseline."
+  ],
+  "solver_pinning": {
+    "scipy": "1.17.0",
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0",
+    "tol_gradient_max": 2e-07,
+    "maxiter": 3000
+  },
+  "code_sha256": {
+    "loss_factorial.py": "af3d3e47901702122650b10be12bc9d4c3c557e33d137b5213395ff5a0bbd5d0",
+    "test_loss_factorial.py": "34516f0f6184c818664b1f8f1fc7c6ae904912103fe10080a3c91ddf127a7164"
+  }
+}

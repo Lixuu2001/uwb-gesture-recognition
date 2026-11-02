@@ -1,0 +1,54 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_reference": "/workspace/uwb-energy-area-source-20261004",
+  "feature_manifest_sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184",
+  "readout_reference": "/workspace/uwb-semantic-code-source-20261004",
+  "readout_manifest_sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca",
+  "primary": "ordered",
+  "arms": [
+    "ridge",
+    "ordered",
+    "lag_only",
+    "shuffled"
+  ],
+  "seed": 20261007,
+  "temporal_blocks": 18,
+  "batch_size": 16,
+  "lambdas": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "budget_seconds": 900,
+  "input_sha256": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519"
+  },
+  "gate": {
+    "minimum_mean_gain": {
+      "ridge": 0.005,
+      "lag_only": 0.0025,
+      "shuffled": 0.0025
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "selection": "Train-only equal-user/equal-present-class weighted mean/scale/bias/ridge. Fixed lambda .001/.01/.1 selected using next validation user macro, then MSE, then larger lambda. Held labels solely final evaluation after all predictions saved.",
+  "scope": "Fixed known temporal self-similarity descriptor screen on repeatedly reused development users3..8; not confirmatory evidence of novelty.",
+  "stop": "Failure closes fixed descriptor/block/seed/normalization configuration; no grid/control promotion or eightfold expansion. Pass permits separately preregistered eightfold study, not novelty claim.",
+  "limitations": [
+    "Known radar SSM prior He etal2014 uses mutual information and aligned range-Doppler sequences; this is cosine envelope profile Gram, not a replication.",
+    "No exact view or speed invariance in real radar is claimed. Shared orthogonal spatial changes preserve Gram of centered normalized profiles mathematically, but physical view changes need not be orthogonal. Direction identity may be lost.",
+    "Time pooling18x5 and full-clip mean are fixed engineering choices before any real screen; not paper prescriptions.",
+    "No MI/threshold/RBF/learned SSM sweep. Positive screen could still be descriptor complement, not an original contribution.",
+    "Repeated source-user reuse creates development-selection bias; this is a screening experiment. Existing eightfold data already seen, so even later eightfold would not constitute fresh external confirmation."
+  ],
+  "features": "float64 Hilbert along189fasttime; envelope abs; subtract each range bin temporal90-frame mean; normalize each frame by max(L2norm,1e-12); average disjoint5frame blocks into18profiles. G=Z Z^T per radar. Upper triangle including diagonal gives171/view,513 total, append128 frozen hidden. No cross-clip feature fitting. Full clip, not causal.",
+  "controls": "lag_only replaces each G diagonal offset by its mean (Toeplitz, loses event location,513 columns but54 independent values across3views). shuffled conjugates18x18G by per-clip seeded permutation shared by all3views, preserving spectrum and entry multiset. SeedSequence[20261007,global_sample_id]; never label/held/fold-dependent. Ordered and shuffled both513 dims. No independent-seed sweep."
+}

@@ -1,0 +1,17 @@
+{
+  "state": "pass_synthetic_engine_only",
+  "author_model_and_fit_body_unmodified": true,
+  "posthoc_return_appended_after_source_fit_for_observation_only": true,
+  "full_source_two_epochs_22updates_periodic_eval_rawcheckpoint_model_Adam_scheduler_all_RNG_exact": true,
+  "full_source_uses_native_DataLoader_shuffle_in_this_test": true,
+  "source_data_loader_global_RNG_vs_future_explicit_sampler_not_claimed": true,
+  "independent_NumPy_CE": true,
+  "restore_next_epoch_including_eval_weight_mask_side_effect_all_states_RNG_exact": true,
+  "last_batch_loss_scheduler_preserved": true,
+  "periodic_checkpoint_and_final_last_not_validation_best_preserved": true,
+  "plateau_154_constant_steps_matches_independent51step_rule": true,
+  "real_UWB_configuration_selected": false,
+  "formal_CPU_cost_gate_run": false,
+  "real_UWB_values_labels_or_fit": false,
+  "wall_seconds": 6.050660890061408
+}

@@ -1,0 +1,167 @@
+{
+  "state": "private_readback_verified",
+  "scope": "first_update_only",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "permissions": [
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "archive_name": "timesnet_first_update_20261030.tar.gz",
+  "archive_bytes": 37434721,
+  "archive_sha256": "034b48392a3f391ac7d29d789f778f96729bd89c56683d9166ff11d252816089",
+  "members_manifest_sha256": "4ec3529ebe2f7af6f4595c4e5f06374316fd3f41583a150940738a31d588f429",
+  "tracked_payload_files": 57,
+  "archive_members": 58,
+  "chunks": [
+    {
+      "name": "timesnet_first_update_20261030.part000",
+      "bytes": 7340032,
+      "sha256": "d1786193da8ddee8066bc38715dcb51c781c3e36165c9707731415d5d1d7cb6e",
+      "file_id": "1SP8GTXyoEQv09da_JzoNbSY3W7RCmQQr",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_first_update_20261030.part001",
+      "bytes": 7340032,
+      "sha256": "8746e3e0fa5c92aada8b7a44e945922ef49ecdecb44cc6f70e5c8d42aa373fa6",
+      "file_id": "1CLZaOGdoJPJgnyJcWZpTRxvie79lIpgf",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_first_update_20261030.part002",
+      "bytes": 7340032,
+      "sha256": "5e19e2f43aa984ef5405d7eb90b3f68c80873f67c4d9a17ef97a8e5eeafd709d",
+      "file_id": "1v7l7HHg05tj2iNQPgbqjyxNWfXxsoKZ-",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_first_update_20261030.part003",
+      "bytes": 7340032,
+      "sha256": "05d85cc5247e9142ad56c2b52169ca2de3d8c57ca2da5316569f667ae42d9458",
+      "file_id": "1vyct0St1keww7sv8byQ-zfIFp58Z6B_8",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_first_update_20261030.part004",
+      "bytes": 7340032,
+      "sha256": "1d03e0fea5dcc88e7ecf2ed031b9d149b8d87a353f7bebd4697a14f91e82526d",
+      "file_id": "1sLc8WfGYJL91wKbkn59GF7AoMHVVAQjD",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "timesnet_first_update_20261030.part005",
+      "bytes": 734561,
+      "sha256": "d6b5b766549e5b0c9ac102673a406baf5065c8aa19d76b101291196534411e42",
+      "file_id": "1DsI-mq5VP_xRpS0GfNOxU80MTyDvsVdd",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 734561,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "all_chunks_raw_authenticated_readback_and_members_verified": true,
+  "all_completed_models_included": false,
+  "full_job_resume_snapshot": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "verified_unix": 1793382946.878619,
+  "backup_builder_sha256": "f0115b47488e26f11ac63da504e40ccf0bf4a3440f205488b93fc1f70b13d206",
+  "first_update_sha256": "0c87da38c98460c914beef12c00c8fe3023932414f816d69e908a99262e196a0",
+  "limitations": "First snapshot supplies only initial/first-update model/RAdam/RNG, source IDs/partitions/code, not live/latest/complete selected models. Complete snapshot supplies initial/first/best/last and original selected model, full optimizer/stopper/RNG/IDs/logs/predictions/audit. Source maps regenerate from private migration with exact RMS. Tested restore helpers exist; no automatic job-resume. No new fit/scoring by backup."
+}

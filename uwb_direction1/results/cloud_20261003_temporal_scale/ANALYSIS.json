@@ -1,0 +1,77 @@
+{
+  "state": "complete_audited",
+  "identity": {
+    "script": "30ae2347b0db9c9a8121ae22073ab4af5e3df79b26e3249b69be587a1360d015",
+    "protocol": "09e32ef94e20db6201a093c461010909eab6fbb8e9cd082c6e346c1c398a2676",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "helpers": {
+      "temporal_scale.py": "9052761a3874058fc9caa2576b383ecfb6ab77c3b4a7ca10cb35dcc52b964f3b",
+      "audit_temporal_scale.py": "6962ff8f6b625181ec57c4113c6e2e3580cf75a492e4d6238cdfdcd19727eddf",
+      "test_temporal_scale.py": "c101c3e9686547d2ed57ee5f76f9eb93605683dbe87f1d27c4e5129aa2c92afc",
+      "swad_source_pilot.py": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc",
+      "swad_core.py": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4",
+      "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "baseline_result_hashes": {
+      "3": "1e506a5447fa10839a91221138083444cd93968e1d1c62f9596e358394c38626",
+      "4": "34a742588f22427410ad0940fb5daa581115431628115bdc36a6da42bfba0bd5",
+      "5": "5de2fc764e057a38992ac90996aacf2046c92c811593e26b124ceaa8601a2152",
+      "6": "f0fa95fa590a395e1c79130802475bd4610c694b42a711b082ccf57c45bbf520",
+      "7": "773ec14207b1208a2ada4d1ee56edaa0c3fc14d0e4099460063284e2078ebe48",
+      "8": "26b8ad787bc8f6f7526cbbf627b7332f6d7083b410207eea6fb16f716b1eb8f1"
+    }
+  },
+  "gate_passed": false,
+  "primary_tail_effects": {
+    "shared128": {
+      "mean_pp": 0.7777777777777735,
+      "per_user_pp": [
+        2.083333333333337,
+        0.4166666666666541,
+        0.33333333333334103,
+        1.9999999999999907,
+        -1.1102230246251565e-14,
+        -0.16666666666667052
+      ],
+      "wins": 4,
+      "descriptive_user_bootstrap95_pp": [
+        0.0833333333333297,
+        1.4861111111111138
+      ],
+      "gate_passed": true
+    },
+    "range2": {
+      "mean_pp": 0.13005050505050336,
+      "per_user_pp": [
+        -0.666666666666671,
+        0.8333333333333304,
+        0.7500000000000062,
+        1.3636363636363558,
+        -0.5833333333333357,
+        -0.9166666666666656
+      ],
+      "wins": 3,
+      "descriptive_user_bootstrap95_pp": [
+        -0.5277777777777788,
+        0.8345959595959573
+      ],
+      "gate_passed": false
+    }
+  },
+  "new_trajectories": 12,
+  "reused_trajectories": 6,
+  "new_epochs": 288,
+  "new_epoch_seconds": 7528.122727075254,
+  "outer_eight_fold_result": false,
+  "novel_contribution_validated": false,
+  "limitations": [
+    "six repeatedly used development users",
+    "overlapping training sets; intervals descriptive only",
+    "one seed",
+    "axial padding and sampling lattice differ; not a perfect physical control"
+  ]
+}

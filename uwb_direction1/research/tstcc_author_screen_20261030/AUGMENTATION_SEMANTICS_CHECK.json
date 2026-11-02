@@ -1,0 +1,16 @@
+{
+  "state": "source_augmentation_semantics_checked_synthetic_only",
+  "original_numpy2_error": "setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (2,) + inhomogeneous part.",
+  "original_exact_source_sha256": "84cc25a7c3f4b5646ce4dfab56eda5595fa3546c6b1d3210ca313bb44083fa29",
+  "temporary_analysis_adapter": "onlyraggedpermutation listordering changed to indexordering; original ret[i]=pat[0,warp] preserved",
+  "collapsed_all_channels_record_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "total_synthetic_records": 4,
+  "observation": "For permuted records pinned source broadcasts channel0 into all channels. Not a full multichannel time-permutation implementation. No silent repair or real-data decision.",
+  "real_UWB_values_read": false,
+  "real_experiment_started": false
+}

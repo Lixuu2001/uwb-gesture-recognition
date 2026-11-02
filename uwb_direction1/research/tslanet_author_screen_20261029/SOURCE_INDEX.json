@@ -1,0 +1,63 @@
+{
+  "TSLANet_commit": "ca0e88416d3ae49fd50e399c44ae94868378a94d",
+  "timm_commit": "78c3724f4545c0067d0b4d2f7df6337196be01ce",
+  "paper": {
+    "url": "https://proceedings.mlr.press/v235/eldele24a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/eldele24a/eldele24a.pdf",
+    "bytes": 1331383,
+    "sha256": "09ebe9bfd2efe4b629dac7dfd6b57090f27c3257dbadf4bf042695b3db831046"
+  },
+  "sources": [
+    {
+      "path": "vendor/TSLANet/Classification/TSLANet_classification.py",
+      "url": "https://raw.githubusercontent.com/emadeldeen24/TSLANet/ca0e88416d3ae49fd50e399c44ae94868378a94d/Classification/TSLANet_classification.py",
+      "bytes": 15874,
+      "sha256": "c503d4e841611136eaaa51cd39b49a2f4ada2feff28a023033e4c311a269f954"
+    },
+    {
+      "path": "vendor/TSLANet/Classification/utils.py",
+      "url": "https://raw.githubusercontent.com/emadeldeen24/TSLANet/ca0e88416d3ae49fd50e399c44ae94868378a94d/Classification/utils.py",
+      "bytes": 4064,
+      "sha256": "219926702d6afb2362b12bff9f51e1b786d1a2781caa57a93b1da0d4bfeee563"
+    },
+    {
+      "path": "vendor/TSLANet/Classification/dataloader.py",
+      "url": "https://raw.githubusercontent.com/emadeldeen24/TSLANet/ca0e88416d3ae49fd50e399c44ae94868378a94d/Classification/dataloader.py",
+      "bytes": 3326,
+      "sha256": "489047a435614e123a2e3fa55be4346a03f7c2214d27764cc6999ae2fa8145d4"
+    },
+    {
+      "path": "vendor/TSLANet/Classification/run_datasets.sh",
+      "url": "https://raw.githubusercontent.com/emadeldeen24/TSLANet/ca0e88416d3ae49fd50e399c44ae94868378a94d/Classification/run_datasets.sh",
+      "bytes": 2081,
+      "sha256": "a18454ddc9c38cbd5956158b6bd1adbe859f1b6fd419afd93332153c7e954c22"
+    },
+    {
+      "path": "vendor/TSLANet/LICENSE",
+      "url": "https://raw.githubusercontent.com/emadeldeen24/TSLANet/ca0e88416d3ae49fd50e399c44ae94868378a94d/LICENSE",
+      "bytes": 1074,
+      "sha256": "ad0f42199e022a64b41312ee330e742c3a2f9c660a7ee9f09725f7d81194d3c2"
+    },
+    {
+      "path": "vendor/timm_pinned/drop.py",
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/78c3724f4545c0067d0b4d2f7df6337196be01ce/timm/layers/drop.py",
+      "bytes": 8775,
+      "sha256": "3dc892acc4333156de3e1bd921bd2f335373f7212c23c0b9e3f4b3ec5f5b5710"
+    },
+    {
+      "path": "vendor/timm_pinned/weight_init.py",
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/78c3724f4545c0067d0b4d2f7df6337196be01ce/timm/layers/weight_init.py",
+      "bytes": 6208,
+      "sha256": "160c28c37b76405ea2ebb9944108584f525866e33c563718f6862615f4f4f4d8"
+    },
+    {
+      "path": "vendor/timm_pinned/LICENSE",
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/78c3724f4545c0067d0b4d2f7df6337196be01ce/LICENSE",
+      "bytes": 11343,
+      "sha256": "71b111620fa32c17a80ccd6db2da759d31a591e497d8b5f382174f59d1b59d49"
+    }
+  ],
+  "read_scope": "Paper methods3.2-3.6 andAppendixD1-D3/E1; originalclassificationcore/driver/dataloader/masking utility and run_datasets.sh; not full-paper review.",
+  "history_search": "No TSLANet/Time Series Lightweight Adaptive/Adaptive Spectral Block matches in latest STATUS/CLOUD_CONTINUATION/PROJECT_MEMORY or original789-file source snapshot; bounded textual search, not exhaustive semantic equivalence proof.",
+  "source_ast_unchanged_when_materializing_pinned_helpers": true
+}

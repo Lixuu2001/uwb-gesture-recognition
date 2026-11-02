@@ -1,0 +1,73 @@
+{
+  "state": "complete",
+  "rows": [
+    {
+      "held": 1,
+      "validation": 2,
+      "scores": {
+        "hydra": 0.7000000000000001,
+        "minirocket": 0.8533333333333335,
+        "raw_ridge": 0.1425
+      }
+    },
+    {
+      "held": 2,
+      "validation": 3,
+      "scores": {
+        "hydra": 0.7210000000000001,
+        "minirocket": 0.8480000000000001,
+        "raw_ridge": 0.267
+      }
+    },
+    {
+      "held": 3,
+      "validation": 4,
+      "scores": {
+        "hydra": 0.6266666666666667,
+        "minirocket": 0.8033333333333333,
+        "raw_ridge": 0.1675
+      }
+    },
+    {
+      "held": 4,
+      "validation": 5,
+      "scores": {
+        "hydra": 0.6475000000000001,
+        "minirocket": 0.7833333333333333,
+        "raw_ridge": 0.21
+      }
+    },
+    {
+      "held": 5,
+      "validation": 6,
+      "scores": {
+        "hydra": 0.7158333333333333,
+        "minirocket": 0.8358333333333334,
+        "raw_ridge": 0.2775
+      }
+    },
+    {
+      "held": 6,
+      "validation": 1,
+      "scores": {
+        "hydra": 0.5545454545454546,
+        "minirocket": 0.5881818181818183,
+        "raw_ridge": 0.19636363636363638
+      }
+    }
+  ],
+  "means": {
+    "hydra": 0.6609242424242425,
+    "minirocket": 0.7853358585858586,
+    "raw_ridge": 0.21014393939393938
+  },
+  "mean_gain_vs_mini": -0.12441161616161618,
+  "wins_vs_mini": 0,
+  "worst_gain_vs_mini": -0.17666666666666664,
+  "gate_passed": false,
+  "strong_cnn_comparison_completed": false,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "wall_seconds": 98.26487527601421,
+  "cpu_seconds": 100.227452948
+}

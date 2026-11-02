@@ -1,0 +1,12 @@
+{
+  "synthetic_only": true,
+  "numpy_analytic_softmax_sam_gradient_verified": true,
+  "same_dropout_mask_rng_once": true,
+  "second_pass_exception_restores_parameters_and_preserves_optimizer": true,
+  "zero_gradient_finite": true,
+  "rho0_equals_plain_adamw_including_rng": true,
+  "old_trainer_plain_trajectory_bitwise_equal": true,
+  "both_arms_resume_model_adamw_scheduler_rng_tail_selection_exact": true,
+  "held_inputs_and_labels_do_not_affect_selected_weights": true,
+  "both_arms_independent_inference_roles_order_selection_audit": true
+}

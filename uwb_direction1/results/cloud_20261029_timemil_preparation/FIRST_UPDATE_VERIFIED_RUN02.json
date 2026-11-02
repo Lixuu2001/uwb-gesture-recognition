@@ -1,0 +1,39 @@
+{
+  "state": "pass_first_real_update",
+  "observed_unix": 1793328888.3853226,
+  "worker_pid": 45017,
+  "supervisor_pid": 45016,
+  "run_directory": "run02",
+  "supervisor_directory": "supervisor02",
+  "arm": "timemil",
+  "changed_model_state_tensors": 131,
+  "all_floating_model_and_optimizer_tensors_finite": true,
+  "lookahead_count": 1,
+  "fast_optimizer_steps": 1,
+  "slow_buffers_empty_before_sync": true,
+  "batch_size": 64,
+  "all_ids_unique_and_training_only": true,
+  "validation_and_diagnostic_ids_excluded": true,
+  "seeded_first_batch_matches": true,
+  "source_sample_or_label_values_indexed_by_verifier": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "protocol_sha256": "25ab7782df5a351914f0c7cde356f281e3ca2bda5c55688fec5d9e1a8cab7107",
+  "repair_registration_commit": "e445c3f325b27579f06176e7f59d730353721fde",
+  "first_update_checkpoint_sha256": "6b3f5d053d7cdb67f2a6bba1064e5faffd660f3963fa103300abc31ce15a5599",
+  "verifier_sha256": "f8327883aba650ced0bfbbf30624fdd0a848cbd1febdecae4750064b5f41134d",
+  "prior_predata_attempt_budget": {
+    "wall_seconds": 2.7734175310470164,
+    "cpu_seconds": 2.7235650000000002
+  },
+  "state_observed": {
+    "state": "training",
+    "pid": 45017,
+    "arm": "timemil",
+    "epoch": 1,
+    "batch": 31,
+    "wall_seconds": 68.65457845304627,
+    "cpu_seconds": 70.385796728,
+    "observed_unix": 1793328887.2230523
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "state": "private_readback_verified",
+  "observed_unix": 1793354159.8546011,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "folder_owner_only": true,
+  "manifest": {
+    "state": "immutable_completed_fold_snapshot",
+    "held": 5,
+    "epochs": 64,
+    "observed_unix": 1793353858.868734,
+    "diagnostic_values_decoded": false,
+    "real_sample_or_label_values_read": false,
+    "real_fitting_or_forward": false,
+    "raw_arrays_included": false,
+    "source_maps_included": false,
+    "live_incomplete_fold_included": false,
+    "full_job_resume_snapshot": false,
+    "current_archive_models": [
+      5
+    ],
+    "held1_models_require_prior_backup": true,
+    "limitations": "Only immutable completed fold and code/IDs/reference prerequisites. Upstream complete private receipt recovers reused held1 tensors; original input migration index restores raw data and exact saved RMS/reshape regenerates maps. Current live fold and remaining folds absent; never restart/duplicate the alive worker from this bundle.",
+    "archive_name": "gap_source6_held5.tar.gz",
+    "archive_bytes": 21129357,
+    "archive_sha256": "d69ef03ee7f6a7290e7eb1469de83330fcd220187005a6250becdd9b3f6b0d17",
+    "tracked_payload_files": 83,
+    "members_manifest_sha256": "395f7c2adc74abd4b433faf6661f2a7b5ac30a1a88ec60ae7bac4d90042e9b4d",
+    "chunks": [
+      {
+        "name": "gap_source6_held5.part000",
+        "bytes": 7340032,
+        "sha256": "8814672eef3ad66406cc237e19dd231a2e78e8106b6042bfd355607a131a0903"
+      },
+      {
+        "name": "gap_source6_held5.part001",
+        "bytes": 7340032,
+        "sha256": "ea0af23887fa72cbb4f45704113b017bf6f70f5ee594672808f83f70f50c6ab7"
+      },
+      {
+        "name": "gap_source6_held5.part002",
+        "bytes": 6449293,
+        "sha256": "537f41cf0c4266be480a7d4f2c9de3f64a440ab9043ee8f99416ef1056841a6c"
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "name": "gap_source6_held5.part000",
+      "file_id": "1yIikr-GqKT6QuX9d1myPwKB8QaESvy0u",
+      "remote_name": "gap_source6_held5_20261030.part000",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "gap_source6_held5.part001",
+      "file_id": "1DDXw9AoldsKrmld7xMZnUoKPCHJT6Qjo",
+      "remote_name": "gap_source6_held5_20261030.part001",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "gap_source6_held5.part002",
+      "file_id": "1wDpvgHUYWPbw7d7NuyN_EH9Fd9Wl_ZrM",
+      "remote_name": "gap_source6_held5_20261030.part002",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "6449293",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    }
+  ],
+  "verification": {
+    "state": "remote_archive_and_all_members_verified",
+    "held": 5,
+    "epochs": 64,
+    "chunks_verified": 3,
+    "tracked_payload_members_verified": 83,
+    "archive_members": 84,
+    "archive_sha256": "d69ef03ee7f6a7290e7eb1469de83330fcd220187005a6250becdd9b3f6b0d17"
+  },
+  "full_study_complete": false,
+  "full_job_resume_snapshot": false,
+  "helper_sha256": "c48ddc88fe8167a291f07eaee6ba6c56f7f46193747dcdc3fd3978b024116791"
+}

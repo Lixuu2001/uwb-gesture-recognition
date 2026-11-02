@@ -1,0 +1,15 @@
+# Full-size MultiRocket prepared — no real-data run yet
+
+Published-method baseline candidate: Tan et al.(2022), DOI10.1007/s10618-022-00844-1. The historical small response-pooling bank explicitly did not test full MultiRocket. Original author multivariate code at3ccaa4f8ed11769b904af885e17018c39c89a2ac has a difference-branch index bug confirmed by an author in [aeon2967](https://github.com/aeon-toolkit/aeon/issues/2967); the prepared implementation uses unedited aeon1.6.0 with its maintained fix, not a silent local patch or bitwise original-code claim.
+
+Code/protocol: [research/multirocket_accuracy_20261029](../../research/multirocket_accuracy_20261029/). [REVIEW_AND_PREREGISTRATION.md](../../research/multirocket_accuracy_20261029/REVIEW_AND_PREREGISTRATION.md) states the exact source-read scope, implementation differences, history check, input, readout and leakage limits. No full-paper or novelty claim.
+
+One frozen seed20261029,6250kernels/representation,four statistics,raw+first-difference,49,728features, all567range/view channels over90frames. Train users3–6/4700, validation2/1000, diagnostic1/1200; no7–8labels. Compare a matched9996-feature MiniRocket using its already frozen held1transform parameters, with the same fixed alpha1 balanced dual-ridge readout. Both prediction sets and states freeze before diagnostic labels. Continue only for >=0.5pp over matchedMiniRocket and within0.5pp of the stronger full/localCNN; otherwise close exact configuration. Single-source exploratory pilot, no independent validation/eightfold/originality claim.
+
+Synthetic accepted checks pass on isolated aeon1.6.0/Numba0.63.1/llvmlite0.46.0: full feature count/finite outputs, repeat fit, batching, public API parity, serialized replay and sklearn weighted-ridge agreement; residual 1.3685497259207277e-15. A preliminary globalNumba0.68 smoke pass is preserved but not accepted as dependency-compatible; missingDeprecated was installed in this task target. Active CNN packages were not changed.
+
+Single-thread synthetic cost estimate 924.803seconds including3xmargin passes1700estimategate for1800CPU/wall allocation. A separate supervisor preserves termination/incomplete receipts after timeout or child kill. Controlled wall/CPU self-tests pass and retain a partial artifact. These are synthetic engineering checks, not radar effectiveness results.
+
+The launch guard was actually exercised while the CNN queue was alive: expected exit before creating a real run directory or reading arrays. No new real-data fit/train/diagnostic has run for MultiRocket. Original CNN remains active; current state full24complete/localepoch2. First finish and independently audit both CNN arms, then verify frozen hashes before explicit launch.py --run. Do not overlap, re-seed, grid-search, or consume users7–8labels.
+
+Protocol SHA256: `fcd064648caebca71aae2efac8b55ad18f17f673e2f9db5e8a49d47dc4d22d7b`. Receipt and exact executable prerequisites are co-located with the research code; raw arrays, fitted models and IDs stay private outsideGit.

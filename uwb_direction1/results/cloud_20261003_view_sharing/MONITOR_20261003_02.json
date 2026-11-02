@@ -1,0 +1,23 @@
+{
+  "observed_unix": 1791017517.1043167,
+  "training": {
+    "state": "training",
+    "pid": 16830,
+    "held": 5,
+    "arm": "untied128",
+    "process_state": "R",
+    "epoch": 14,
+    "step": 1050,
+    "checkpoint_path": "/workspace/uwb-sharing-source-runs-20261003/untied128/held5/progress.pt"
+  },
+  "completed_new_trajectories": 4,
+  "expected_new_trajectories": 12,
+  "partial_independent_audits": 3,
+  "finalizer": {
+    "state": "waiting",
+    "pid": 17076,
+    "started_unix": 1791017427.5849576,
+    "process_state": "S"
+  },
+  "full_study_conclusion": false
+}

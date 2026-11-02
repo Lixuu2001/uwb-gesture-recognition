@@ -1,0 +1,274 @@
+{
+  "state": "recorded_ancestry_verified",
+  "folds": [
+    {
+      "held_user": 1,
+      "validation_user": 2,
+      "source_users": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "baseline_weight_sha256": "1f6d52922dcb339071c7dd4638d2fd046663080299ec6c5ba06b7899969fc497",
+      "selected_state_sha256": "767427393f1598824ddba23a156cfa478f43987ad8a0b155f073943563747087",
+      "cache_sha256": "6fce9dd1c83ea74dfeac6257ab4fbb5030ebc4b57e272ff3cff8fd3066080d63",
+      "partitions": {
+        "train": "c791cf7988c35136bed9c0d97f5cd38e5682165c868aef9094532be8a5f8626f",
+        "val": "e7cb45cdd977e5689f28d3030e7ca41a82b04bc8133e5ad5adf28e3ccdb27111",
+        "test": "42af82a13853cefdd4371f23a0f3cfae21aadbaba01f9bd9e1ed1bf04c698b4b"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 12,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    },
+    {
+      "held_user": 2,
+      "validation_user": 3,
+      "source_users": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "baseline_weight_sha256": "7f1ef6d52fa71f4ddd71f71e395ab762bfc1d3ba4789bc95987798322b528180",
+      "selected_state_sha256": "6199c52016619f6fcc04a38a79a06db1027e47454b3bc870d99d7c451b87ff99",
+      "cache_sha256": "b6e1da8b2cee2f98a8d63c293f538db20de532d0c48ef419b4e794f921309618",
+      "partitions": {
+        "train": "5b47527a18d7210fea45cda6428a7aeaf5cbcee97b2e2e37abc932f8f9cb17c4",
+        "val": "aa040268595732c27a07380647eaec90cdff3ce96513987a488ba97a7d26a4cc",
+        "test": "e7cb45cdd977e5689f28d3030e7ca41a82b04bc8133e5ad5adf28e3ccdb27111"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 2,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    },
+    {
+      "held_user": 3,
+      "validation_user": 4,
+      "source_users": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "baseline_weight_sha256": "8f0aeb533c7e7f1618e94baa3d6a506a15ba45a6318e0e40558b7d8650d4ed92",
+      "selected_state_sha256": "136c0f92d0356bd1e89b9fad85ac4b06d1369125ddab0aaecfc26e889637c4c8",
+      "cache_sha256": "af9778448b1f2735ad77ee1ac5a1c745c924e9021ce87acf7513f90b6a736f37",
+      "partitions": {
+        "train": "459b07eb6ee0cffa5b237494f3eeb1ee76fe40a80b5a7847b00a929dda019d74",
+        "val": "a6ec73cb078b7dfa6e968cda9e4f101d8b040e9e899b226f05bda00f31e4fe6d",
+        "test": "aa040268595732c27a07380647eaec90cdff3ce96513987a488ba97a7d26a4cc"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 14,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    },
+    {
+      "held_user": 4,
+      "validation_user": 5,
+      "source_users": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "baseline_weight_sha256": "d349e20ebaa3feba845c7731334252bb6a7ea4b2b8964a4ba54d555723a49cc5",
+      "selected_state_sha256": "40c507e68a029960f973c79c015eeb10a4d20b8b9b2bb1c3e1f1b3830b65df47",
+      "cache_sha256": "b6399e178db2135c34e5130c9e9e9b1b894e17a463ca20c87d7dd5b4399b1749",
+      "partitions": {
+        "train": "8dc62f53c478cdbc88ac356e8a1655e08fec4389b2f5d420e35a6a027cc6183f",
+        "val": "c5aac40f6c02cffb4a83c8d2fbed9e16a807073f5fec06d51b816762874ac44a",
+        "test": "a6ec73cb078b7dfa6e968cda9e4f101d8b040e9e899b226f05bda00f31e4fe6d"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 5,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    },
+    {
+      "held_user": 5,
+      "validation_user": 6,
+      "source_users": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "baseline_weight_sha256": "871f5683129c31a0b14cc4ea8ebe3f87e64cb160448b05bdfe182b0e9931a7cb",
+      "selected_state_sha256": "d0f687d1bf8ff07ac5803147fad059605feea50e78345675fddb296ede10c848",
+      "cache_sha256": "e4cea0cb383ede368354cb525821b840fab9448c597f0b5cea0bdac01d6fc21c",
+      "partitions": {
+        "train": "bae47bfeae8f81b6eb085b6fb0e641c5c1e1e8e9dcb51bdd101368378ca3ceb1",
+        "val": "c3ec34255162cd945afd81d5fae54b33bd5e70ea3413e463eaf8a9d221f786e0",
+        "test": "c5aac40f6c02cffb4a83c8d2fbed9e16a807073f5fec06d51b816762874ac44a"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 2,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    },
+    {
+      "held_user": 6,
+      "validation_user": 7,
+      "source_users": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "baseline_weight_sha256": "1d4f38dfa0af19cff53698d4a98e2fc91184d1e34418b5ca40c4f605ba3571dd",
+      "selected_state_sha256": "9e67e6fed1f89379299cedd5435aa08b8690318118f79d6caf29e84cd6abc22c",
+      "cache_sha256": "a56ba07045f2e00ca49ee760539804ce70e42611bd0b2fd7dcdf8797eeeda669",
+      "partitions": {
+        "train": "2939e04d48f38628cbc752f52bf6b0b8780a1dcc487f6a043f02d4ebb4f42391",
+        "val": "eaea9f725357abd6af032fdcdd86fe589c9a4c4d46d8594ec9eddae42f9126c3",
+        "test": "c3ec34255162cd945afd81d5fae54b33bd5e70ea3413e463eaf8a9d221f786e0"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 3,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    },
+    {
+      "held_user": 7,
+      "validation_user": 8,
+      "source_users": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "baseline_weight_sha256": "e56e457c3e59180d89a30f1c22f6369dcc5da738b16ac2eb9f0a3aade1f392cb",
+      "selected_state_sha256": "dd67f111a7a1d1a37c32257c0d74e7760a487e180110be60078267734d0aae9f",
+      "cache_sha256": "066a2982dd38828829d79bb17ccb6d6a1ea8cc39bd7029e7607f51d05bd7b5af",
+      "partitions": {
+        "train": "699c0dab0ffc18360c738f108558a1cc9f6e592f9ad71dba361a23ae2a4d1031",
+        "val": "d1cf5fb0eb84f59ac2d6a1cb9448f554f7caa593b506e79c24b835d5c2ca8ef7",
+        "test": "eaea9f725357abd6af032fdcdd86fe589c9a4c4d46d8594ec9eddae42f9126c3"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 2,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    },
+    {
+      "held_user": 8,
+      "validation_user": 1,
+      "source_users": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "baseline_weight_sha256": "8674c96292d8c27baa884fa8d08d668507c20360d19fe93b3d7cca63e326bba9",
+      "selected_state_sha256": "c7758233a6f82979ce6a01f8b7c577eacfa98cc3ca42913e95201b23060222da",
+      "cache_sha256": "25f63e0734eaaaa9ca4168c222b7a9097717a0f2740676c80c2eac5a7623e23a",
+      "partitions": {
+        "train": "c7e848c0e86e9da4be09605ecaae2c601348abd155dc5d808c08424b4750562e",
+        "val": "42af82a13853cefdd4371f23a0f3cfae21aadbaba01f9bd9e1ed1bf04c698b4b",
+        "test": "d1cf5fb0eb84f59ac2d6a1cb9448f554f7caa593b506e79c24b835d5c2ca8ef7"
+      },
+      "provenance_records_match": true,
+      "earliest_minimum_validation_ce_verified": true,
+      "weights_present": false,
+      "selected_epoch": 2,
+      "history_fields": [
+        "epoch",
+        "val_ce",
+        "val_ce_by_subset",
+        "train_loss",
+        "steps",
+        "seconds",
+        "peak_allocated_bytes"
+      ]
+    }
+  ],
+  "limitations": [
+    "Weights not migrated: cannot independently rerun encoder or prove original training beyond recorded provenance and code.",
+    "Outer test users have repeatedly informed historical route decisions; all eight users are development data.",
+    "6 train / 1 validation / 1 outer test; not 7-user-training LOSO."
+  ]
+}

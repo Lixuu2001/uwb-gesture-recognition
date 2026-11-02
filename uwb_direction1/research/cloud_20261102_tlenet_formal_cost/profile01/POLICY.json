@@ -1,0 +1,34 @@
+{
+  "method": "full_review_author_tLeNet_with_exact_lazy_windows",
+  "paper_review_doi": "10.1007/s10618-019-00619-1",
+  "source_commit": "e0233efd886df8c6ca18e6f1b545d15aaf423627",
+  "epochs": 1000,
+  "batch_size": 256,
+  "seed": 20261029,
+  "threads": 1,
+  "budget_seconds": 43200,
+  "memory_limit_KiB": 14680064,
+  "total_parameters": 121212,
+  "trainable_tensors": 8,
+  "Adam_variables": 17,
+  "input_shape": [
+    81,
+    567
+  ],
+  "parent_input_shape": [
+    90,
+    567
+  ],
+  "windows_per_parent": 10,
+  "warping_ratios": [
+    1
+  ],
+  "slice_ratio": 0.9,
+  "optimizer": "nativeKeras3Adam_InverseTimeDecay_initial.01_decay.005",
+  "loss": "unweighted_categorical_crossentropy",
+  "checkpoint_selection": "strict_minimum_training_CE_tie_earliest",
+  "train_shuffle": true,
+  "synthetic_fixture_only": true,
+  "real_UWB_values_labels_fit_authorized": false,
+  "no_smaller_epoch_or_batch_fallback": true
+}

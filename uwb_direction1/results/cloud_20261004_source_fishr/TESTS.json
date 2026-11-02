@@ -1,0 +1,13 @@
+{
+  "state": "passed",
+  "synthetic_only": true,
+  "independent_analytic_higher_derivative_and_finite_difference_tests": true,
+  "ema_conventional_bias_correction_and_current_derivative_matches_numpy": true,
+  "ema_history_detached": true,
+  "permutation_preserves_class_domain_counts": true,
+  "ordinary_step_model_adamw_dropout_rng_bitwise": true,
+  "all3_arms_resume_model_adamw_scheduler_rng_ema_scale_tail_selection_exact": true,
+  "held_inputs_and_labels_do_not_affect_weights_or_ema_or_scale": true,
+  "all3_arms_independent_inference_roles_order_selection_audit": true,
+  "same_warmup_states_and_calibration_across_arms": true
+}

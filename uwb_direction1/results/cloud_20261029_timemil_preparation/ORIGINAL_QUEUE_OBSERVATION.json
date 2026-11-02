@@ -1,0 +1,50 @@
+{
+  "observed_at_utc": "2026-10-29T15:06:56.172901+00:00",
+  "cnn": {
+    "state": "training",
+    "pid": 42028,
+    "resume": false,
+    "completed_arms": [
+      "full"
+    ],
+    "held_user": 1,
+    "validation_user": 2,
+    "cumulative_wall_seconds": 15573.920969141996,
+    "cumulative_cpu_seconds": 44152.761363658,
+    "observed_unix": 1793286412.1817863,
+    "training_labels_read": true,
+    "validation_labels_read": true,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "arm": "local",
+    "epoch": 21,
+    "batch": 31,
+    "training_started": true,
+    "first_update_sha256": "67279ac44603e5b6e3fcf4f28f50e8c94b3e33d7a25b53235e558c595731cff1",
+    "train_loss_partial": 0.0022225372103416557,
+    "last_checkpoint": "/workspace/uwb-mvglf-20261029/run01/local/last.pt",
+    "last_checkpoint_sha256": "db9b66377f3d92dad20b782a5860f43d73628788729725c372adae989aaf1e60",
+    "train_loss": 0.017058383645078022,
+    "validation_macro": 0.9719999999999999,
+    "validation_loss": 0.07750000804662704,
+    "best_validation_macro": 0.977,
+    "epoch_wall_seconds": 265.31099583301693
+  },
+  "controller": {
+    "pid": 42906,
+    "state": "waiting_for_original_cnn",
+    "analysis_started": false,
+    "controller_sha256": "ec6336e8ec23caea86c86f01ac7f3616bb08d21233479a06e285617934e050a1",
+    "cnn_audit_started": false,
+    "multirocket_started": false,
+    "multirocket_audit_started": false,
+    "scientific_negative": false,
+    "observed_unix": 1793286412.794417,
+    "elapsed_wall_seconds": 4040.2513398439623,
+    "cnn_state_observed": "training",
+    "cnn_arm_observed": "local",
+    "cnn_epoch_observed": 21,
+    "original_worker_alive": true
+  },
+  "timemil_prepared_not_launched": true
+}

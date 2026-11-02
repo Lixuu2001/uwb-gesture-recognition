@@ -1,0 +1,33 @@
+{
+  "state": "existing_real_HInception_CPU100_training_active_no_duplicate",
+  "observed_utc": "2026-10-31T07:30:31.414585+00:00",
+  "preregistration_commit": "251695c6d7dc41149e508a15fbf15310b471263a",
+  "protocol_sha256": "8a97c1f8a1901004d81f03c03846cee15e9cedcd7bf1424d9ea62e974c3ed7fd",
+  "pids": {
+    "54454": "alive",
+    "54456": "alive",
+    "54482": "alive"
+  },
+  "worker_state": {
+    "state": "training",
+    "pid": 54456,
+    "epoch": 42,
+    "total_steps": 3108,
+    "all_predictions_frozen": false,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 4054.4145224780077,
+    "cpu_seconds": 4056.919306526,
+    "observed_unix": 1793431828.4488854,
+    "batch": 73,
+    "best_epoch": 42,
+    "best_training_loss": 3.904621917172335e-05
+  },
+  "frozen_entries_reverified": 1423,
+  "training_TERMINATION_present": false,
+  "complete_audit_present": false,
+  "new_real_configuration_or_formal_cost": false,
+  "Disjoint_UWB_values_labels_fit": false,
+  "diagnostic_summary_read": false,
+  "accuracy_or_originality_claim": false
+}

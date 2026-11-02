@@ -1,0 +1,31 @@
+{
+  "state": "immutable_DLinear_modelset_snapshot",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "created_unix": 1793604359.6866913,
+  "complete_modelset": false,
+  "all_initial_first_best_last_final_and_native_models_included": false,
+  "full_numerical_audit_included": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback.",
+  "archive_name": "dlinear10_initial_first_20261102.tar.gz",
+  "archive_bytes": 9311475,
+  "archive_sha256": "dabe9dc8fe178379ac79b816c306da53e1520bd91c1c1900452893eab062f670",
+  "members_manifest_sha256": "191361bbb158a58a656aad37256c1e443a039ae275c91acba9a2f28f6eeca408",
+  "tracked_payload_files": 73,
+  "chunks": [
+    {
+      "name": "dlinear10_initial_first_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "3f6bea0ad76a9effb508f15a93eb4d19144a28bbd20d306ef5fcc1d86a6564ad"
+    },
+    {
+      "name": "dlinear10_initial_first_20261102.part001",
+      "bytes": 1971443,
+      "sha256": "f3196a3f97c1c92e4a151971fcf994b14e2ae80fe7039355bebf63e389e8e1f5"
+    }
+  ]
+}

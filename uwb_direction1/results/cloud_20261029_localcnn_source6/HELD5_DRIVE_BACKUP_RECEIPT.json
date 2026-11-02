@@ -1,0 +1,59 @@
+{
+  "state": "private_readback_verified",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "manifest": {
+    "archive_name": "localcnn_source6_held5.tar.gz",
+    "archive_bytes": 10545006,
+    "archive_sha256": "ddb1bbb708a4ec89ba642aa671b86e27f3955be4a1a3573adb42de2c3ce11af7",
+    "tracked_payload_files": 31,
+    "members_manifest_sha256": "014d2e869b121b3bd1e23ef9a33157a73590c57d061bed071b820c57db6e5f3a",
+    "chunks": [
+      {
+        "name": "localcnn_source6_held5.part000",
+        "bytes": 7340032,
+        "sha256": "bd969834324cf6d6b7172c256411106e388fe951b0a17550592c64e1d5be27ae"
+      },
+      {
+        "name": "localcnn_source6_held5.part001",
+        "bytes": 3204974,
+        "sha256": "6a832138d3b6625251fb383b3d84a906b3715e512c85767f756b30e09a2e7d21"
+      }
+    ],
+    "held": 5,
+    "full_job_resume_snapshot": false
+  },
+  "chunks": [
+    {
+      "name": "localcnn_source6_held5.part000",
+      "bytes": 7340032,
+      "sha256": "bd969834324cf6d6b7172c256411106e388fe951b0a17550592c64e1d5be27ae",
+      "file_id": "1VHcyom8-a9KAkg13oOhjE8w6ol2bK6gY",
+      "owner_only_metadata_verified": true,
+      "parent_verified": true,
+      "authenticated_raw_readback": true,
+      "materialized_sha256_verified": true
+    },
+    {
+      "name": "localcnn_source6_held5.part001",
+      "bytes": 3204974,
+      "sha256": "6a832138d3b6625251fb383b3d84a906b3715e512c85767f756b30e09a2e7d21",
+      "file_id": "1Feerg88TBC8a4YSWsiSVmK44wsMVw2gG",
+      "owner_only_metadata_verified": true,
+      "parent_verified": true,
+      "authenticated_raw_readback": true,
+      "materialized_sha256_verified": true
+    }
+  ],
+  "verified_unix": 1793320898.5481362,
+  "archive_reassembly_sha256_verified": true,
+  "all_tracked_payload_members_verified": 31,
+  "folder_owner_only": true,
+  "download_raw_file": true,
+  "include_base64": false,
+  "max_concurrent_chunks": 2,
+  "diagnostic_predictions_decoded": false,
+  "users7_8_labels_used": false,
+  "full_job_resume_snapshot": false,
+  "current_in_progress_fold_included": false,
+  "restore_note": "Completed held5 and exact prerequisites only. Excludes live held6 optimizer; never duplicate the alive worker from this bundle. Raw maps use the original persistent input backup; no signed URL required."
+}

@@ -1,0 +1,50 @@
+{
+  "state": "training_complete_existing_full_replay_audit_active",
+  "observed_utc": "2026-10-31T04:42:55.022726+00:00",
+  "training_state": {
+    "state": "complete",
+    "pid": null,
+    "epoch": 100,
+    "total_steps": 29400,
+    "all_predictions_frozen": true,
+    "diagnostic_labels_read": true,
+    "users7_8_labels_used": false,
+    "wall_seconds": 4900.584551501903,
+    "cpu_seconds": 4901.948814361,
+    "observed_unix": 1793420803.167583,
+    "batch": 293,
+    "last_batch_loss": 0.011549134738743305
+  },
+  "training_termination": {
+    "pid": 53370,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 4903.09715075104,
+    "child_cpu_seconds": 4902.700678,
+    "cpu_soft_seconds": 43000,
+    "cpu_hard_seconds": 43100,
+    "scientific_negative": false
+  },
+  "postprocess_state": {
+    "state": "completed_run_audit_running",
+    "pid": 53415,
+    "training_restarted": false,
+    "Drive_upload_or_Git_push_capability": false,
+    "observed_unix": 1793420806.7502012
+  },
+  "active_processes": {
+    "53415": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -u /workspace/uwb-oscnn-pilot-20261031/postprocess.py --run",
+    "53524": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -u /workspace/uwb-oscnn-pilot-20261031/launch.py --audit",
+    "53525": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -u /workspace/uwb-oscnn-pilot-20261031/audit_complete.py --run"
+  },
+  "frozen_scientific_entries_verified": 58,
+  "frozen_hashes_manifest_sha256": "82979b2e8d1cc7231971f4c53020381cf112700c05a835d0cc5976d07f07f016",
+  "complete_audit_success_not_yet_available": true,
+  "producer_final_scores_read_this_continuation": false,
+  "complete_private_backup_done": false,
+  "new_training_download_or_audit_started_this_continuation": false,
+  "users7_8_labels_used": false,
+  "claimed_accuracy_improvement": false,
+  "audit_output_path": "/workspace/uwb-oscnn-pilot-20261031/COMPLETE_AUDIT.json",
+  "audit_output_exists_at_observation": false
+}

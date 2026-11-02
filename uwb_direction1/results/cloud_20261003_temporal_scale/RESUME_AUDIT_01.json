@@ -1,0 +1,14 @@
+{
+  "state": "passed",
+  "source_checkpoint_epoch": 11,
+  "resumed_epoch_checked": 12,
+  "source_checkpoint_sha256": "760c47e89210cac1fa67ed4ccd152aa1c4f5b272a9e139f59a1544bf9052cfd0",
+  "actual_segment_sha256": "2325278e1a9713a5f6f54d00d8763c1883c6bf378fd553e6441fb801c4a22de4",
+  "replay_segment_sha256": "dcf774e006df921d310cfde9561f57dcdff7f2a799cde5bc23a93267f8f7ca43",
+  "replayed_from_same_model_adamw_scheduler_rng_tail_best_state": true,
+  "epoch12_dense_average_tensors_selection_loss_and_step_metadata_bitwise_equal": true,
+  "diagnostic_inference_performed": false,
+  "training_protocol_unchanged": true,
+  "seconds": 32.22561001600002,
+  "scope": "One real epoch replay, not a second full scientific training trajectory"
+}

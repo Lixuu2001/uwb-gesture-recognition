@@ -1,0 +1,61 @@
+{
+  "state": "immutable_single_completed_source_producer",
+  "scope": "held6_training_complete_producer_recovery_no_numeric_audit_claim",
+  "held": 6,
+  "created_utc": "2026-11-01T06:24:28.807207+00:00",
+  "epochs": 100,
+  "updates": 7200,
+  "training_appearances": 460000,
+  "all_selected_last_initial_first_final_native_states_included": true,
+  "numeric_audit_certified_by_this_snapshot": false,
+  "complete_source6_modelset": false,
+  "all_completed_models_included": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "full_job_resume_snapshot": false,
+  "limitations": "Complete immutable artifacts for this single successful producer only; does not certify its full numerical replay, source6 accuracy, other producer models or whole-job resume. Exact IDs/logs/predictions/models remain private. Raw/maps/runtime restore separately. Later full audited six-model preservation is still required.",
+  "archive_name": "hinception_source6_producer6_20261101.tar.gz",
+  "archive_bytes": 50295935,
+  "archive_sha256": "6d5252fe7374b3c5433105f8f3b92f06276e84d637d90e2781b842009a2a5ec0",
+  "members_manifest_sha256": "155aab5aab5a498708a3d98f0bde6a5e7edb61d788bdc5fa746df8a3604d040d",
+  "tracked_payload_files": 157,
+  "chunks": [
+    {
+      "name": "hinception_source6_producer6_20261101.part000",
+      "bytes": 7340032,
+      "sha256": "9c9d8acda08f06e48d12775e3f2b109173e4242e9951b56857abf1da2a411e29"
+    },
+    {
+      "name": "hinception_source6_producer6_20261101.part001",
+      "bytes": 7340032,
+      "sha256": "5203725f65add38d58dcfe3fe4685c72603b07659f231b4b7512ea1ea3c27cf6"
+    },
+    {
+      "name": "hinception_source6_producer6_20261101.part002",
+      "bytes": 7340032,
+      "sha256": "5b60dea53a7f1a6950fd5568695a6814bbb048633821e84add770be9a8731e86"
+    },
+    {
+      "name": "hinception_source6_producer6_20261101.part003",
+      "bytes": 7340032,
+      "sha256": "215e801fea5c561941fd643c53dc99d1f9b985010512f98363d056422e2f164b"
+    },
+    {
+      "name": "hinception_source6_producer6_20261101.part004",
+      "bytes": 7340032,
+      "sha256": "4308c1e8240972e7819b70b650a846f1623153a43894498dd5b449a5a284a6f5"
+    },
+    {
+      "name": "hinception_source6_producer6_20261101.part005",
+      "bytes": 7340032,
+      "sha256": "c5aeb13acc30726d9382136ea3adc88cd1b3b8dd5f84826fa4f422852756a78d"
+    },
+    {
+      "name": "hinception_source6_producer6_20261101.part006",
+      "bytes": 6255743,
+      "sha256": "5fa60dffb00c6f7590a6bf784b1e4544518ef6592ce9a13ddf83c5783645ca43"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+test_classification_loss_gradients_exact_author_body (test_training_ops.TrainingTests.test_classification_loss_gradients_exact_author_body) ... ok
+test_default_smoothed_loss_and_gradient_vs_pytorch (test_training_ops.TrainingTests.test_default_smoothed_loss_and_gradient_vs_pytorch) ... ok
+test_optimizer_default_matches_both_author_stages (test_training_ops.TrainingTests.test_optimizer_default_matches_both_author_stages) ... ok
+test_pretrain_loss_gradients_exact_author_body (test_training_ops.TrainingTests.test_pretrain_loss_gradients_exact_author_body) ... ok
+test_pretrain_transfer_resets_optimizer_preserves_head (test_training_ops.TrainingTests.test_pretrain_transfer_resets_optimizer_preserves_head) ... ok
+test_pretraining_target_attached_and_mask_boolean (test_training_ops.TrainingTests.test_pretraining_target_attached_and_mask_boolean) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.745s
+
+OK

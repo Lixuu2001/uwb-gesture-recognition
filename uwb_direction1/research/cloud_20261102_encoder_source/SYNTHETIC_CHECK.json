@@ -1,0 +1,38 @@
+{
+  "state": "pass_full_review_Encoder_native_synthetic_only",
+  "total_parameters": 3613324,
+  "trainable_parameters": 3613324,
+  "trainable_tensors": 21,
+  "Adam_variables": 44,
+  "input_shape": [
+    90,
+    567
+  ],
+  "full_review_filters": [
+    128,
+    256,
+    512
+  ],
+  "kernels": [
+    5,
+    11,
+    21
+  ],
+  "source_epochs": 100,
+  "source_batch_size": 12,
+  "optimizer": "Adam1e-5_native_eps1e-7",
+  "synthetic_updates": 3,
+  "full_NumPy_graph_reference": true,
+  "independent_IN_output_and_analytical_gradients": true,
+  "review_attention_axis": -1,
+  "review_attention_elementwise_no_time_sum": true,
+  "full_state_fresh_restore_next_update_exact": true,
+  "native_weights_Adam_reload_exact": true,
+  "layer_rng_preserved_in_custom_state": true,
+  "initial_restore_exact": true,
+  "formal_cost_run": false,
+  "UWB_values_labels_fit": false,
+  "original_paper_architecture_or_TF_numeric_parity": false,
+  "accuracy_measured": false,
+  "novelty_claim": false
+}

@@ -1,0 +1,23 @@
+{
+  "state": "incomplete_predata_engineering_failure",
+  "cause": "Missing os import at state initialization",
+  "source_code": "run_pilot.py",
+  "arrays_values_or_labels_read": false,
+  "model_fits": 0,
+  "optimization_batches": 0,
+  "diagnostic_scores": 0,
+  "scientific_negative": false,
+  "termination": {
+    "pid": 44946,
+    "exit_code": 1,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 2.7734175310470164,
+    "child_cpu_seconds": 2.7235650000000002,
+    "cpu_soft_seconds": 43000,
+    "cpu_hard_seconds": 43100,
+    "scientific_negative": false
+  },
+  "original_run_directory": "run01",
+  "original_supervisor_directory": "supervisor01",
+  "retry_directory": "run02"
+}

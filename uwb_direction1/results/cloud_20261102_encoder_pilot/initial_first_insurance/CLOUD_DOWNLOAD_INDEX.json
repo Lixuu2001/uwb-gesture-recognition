@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "created_date_utc": "2026-11-02",
+  "purpose": "Private immutable initial-first recovery only; inspect existing cloud process/checkpoints first; never duplicate training or reupload known successful IDs",
+  "state": "private_readback_verified",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "encoder100_initial_first_20261102.tar.gz",
+  "archive_bytes": 64194902,
+  "archive_sha256": "eddd3716e587d21609ee01675580d5e94b45a2c5dce0935278494b25022e2470",
+  "members_manifest_sha256": "402fab59161e63a43801fcfdc1a3f62e5874220e23b5bcf14a04a28c029fe3e5",
+  "receipt_sha256": "73886b40e031d66b81645c0cb694c07481c2f954fe6d86f338cc36f0e467c01b",
+  "archive_members": 93,
+  "chunks": [
+    {
+      "name": "encoder100_initial_first_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "af33a78b365486035b3985fb80452ffe69bab1e47efd8650e6b5daab753ca851",
+      "file_id": "130DfKp_Bge-m2RZbLMk-CnR63mM8XxRB",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part001",
+      "bytes": 7340032,
+      "sha256": "fb7c0b6d6fe8861f1080846f74364f82264415613d788e4886f674f8c0ac9339",
+      "file_id": "1cq3Hz53D9J1gj31znBOVsFnoNtSBZz6L",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part002",
+      "bytes": 7340032,
+      "sha256": "92f87f3717f568f518743bb31ea00276f3e19ed65a7d728fe8f285b30a28faef",
+      "file_id": "1lqTQsU5v0iRFGE64P5da7B3ciGclCWRm",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part003",
+      "bytes": 7340032,
+      "sha256": "4d088cec764330665548aa3f8cd5c6f8342c9d9d303066c6a0d2f5d4affa1c46",
+      "file_id": "1LJM8I_78kyfWxISIDLUER1zpFUriADBO",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part004",
+      "bytes": 7340032,
+      "sha256": "fda92cb4490babe34e4256217c47839020f1315027115d3a743ed76f8252acd2",
+      "file_id": "1FWvYfaFoU83oQ7WSDY5K_xs_b12CYncM",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part005",
+      "bytes": 7340032,
+      "sha256": "6b08a5032f352e0ca634dc22230860ea447ea28f0de46ae74d01fa899aed72bb",
+      "file_id": "1FJtgsA09UvhwvkCQkQFr8yq8DibCe3iy",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part006",
+      "bytes": 7340032,
+      "sha256": "19add915296793f9f3fb9139cdc8a3605b6a8989d019efa431e288a6b93910f0",
+      "file_id": "1tyYLCUSP0bkpa7Mp9XCfrqamEvztMkP0",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part007",
+      "bytes": 7340032,
+      "sha256": "79122c8cc441634cc94ffb8d8b020d9464840240a4786e362ccaaf8473fdffc8",
+      "file_id": "1Zebo0xTrAuA8EvBfHbcIowetJzYbi3XD",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part008",
+      "bytes": 5474646,
+      "sha256": "2be81b2ffe354c78b563c9579d616a273550a57f0f33b305fc4c94b04236b80a",
+      "file_id": "1QS_wGhI3dnrFjzlY_tXjYIiWh1fGt1VF",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 5474646,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "readback_order": "Ordered chunks -> verify archive size/SHA -> safe unique member manifest and every payload hash",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "max_concurrency": 3,
+  "folder_must_remain_owner_only": true,
+  "complete_modelset_verified": false,
+  "latest_epoch_privately_preserved": false,
+  "numeric_audit_certified": false,
+  "whole_job_resume": false,
+  "raw_maps_runtime_restore_separately": true,
+  "empty_search_is_not_duplicate_absence_proof": true
+}

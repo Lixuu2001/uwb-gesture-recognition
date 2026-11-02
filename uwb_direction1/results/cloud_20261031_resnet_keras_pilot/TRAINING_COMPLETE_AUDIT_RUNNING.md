@@ -1,0 +1,13 @@
+# ResNet训练100轮完成，既有完整重放审计运行中
+
+本轮先读5fecadee远端四文件。云环境启动时第一次shell暂不可用，随当前环境就绪后第二次调用恢复；同持久工作区、数据和已有训练/审计进程均保留，没有重下数据或重启任务。
+
+预登记8193a0ec、协议cf38c498f5ce36761db8c3b9719d47d03a189b6d81347d8049774aeeb31db1ca的ResNet CPU100实际训练已成功结束：100轮/7400更新/470000样本出现，原最小训练loss规则选epoch75，best训练loss3.359471520525403e-05。后者只是训练指标，不能作为手势识别提升证据。训练TERM exit0/no timeout，3204.387117wall/3204.003014childCPU。producer STATE为complete、双最终预测已冻结/之后按协议索引held1；7–8标签未用。本轮尚未读取/发布producer最终准确率，也不据其选择下一配置。
+
+controller52562已按预登记自动启动既有audit supervisor52682/worker52684；观察audit运行约20分钟，尚无审计TERM/COMPLETE_AUDIT，不能声称7400步完整重放通过或完整模型私有备份完成。1358科学/源码/准备/runtime/prior证明哈希再次通过。无重复train/audit/controller/download，训练supervisor52481已自然结束（僵尸状态并非活动训练）。现有首步3私有块保险不替代最终完整模型集。
+
+审计等待期间只核查后续OS-CNN原论文、固定作者7文件和纯合成source compatibility：原训练body三更新/restore后两更新/全部RNG精确，独立NumPy卷积/源mask副作用通过。没有选择或预登记新真实方法配置、成本测试或读取新UWB值/labels/fit。详见research/oscnn_source_probe_20261031/REVIEW_AND_SOURCE_PROBE.md；这项准备不是准确率结果，也不允许抢跑ResNet已注册gate。
+
+下一首查52562/52682/52684实际进程及POSTPROCESS_STATE/成功TERMs。仍在跑则不要重复；controller只审计一次然后构建本地complete_backup_20261031。auditedready后agent复核COMPLETE_AUDIT/所有SHA与成功TERMs，再owner-only元数据、最多3chunkpipeline、rawfetch(download_raw_file=true,include_base64=false)即物化size/SHA、重组全部成员验证保存完整模型集，最后按原+.005/reference.9866666666666667/1e-12 gate发表真实分数并关闭或另注册扩展。失败必须留trace修复，不当科学负结果；未核验前不得启动第二项UWB配置或改ResNet参数。原100适配不等于1500轮TensorFlow复现。
+
+八用户历史开发使本次source结果探索性，非独立测试/旧八折/原创贡献。用户准确率与原创目标仍未达，既有小时接续保持，代码/证据/本次新资料按最新parent force=false发布，原789源码和原数组不覆盖。

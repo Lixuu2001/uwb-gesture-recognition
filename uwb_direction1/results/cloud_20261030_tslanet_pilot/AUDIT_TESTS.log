@@ -1,0 +1,12 @@
+test_adamw_shape_steps_unused_and_reload (__main__.AuditTests.test_adamw_shape_steps_unused_and_reload) ... ok
+test_full_guard_mutations (__main__.AuditTests.test_full_guard_mutations) ... ok
+test_full_guard_rejects_partial_before_any_array_or_checkpoint (__main__.AuditTests.test_full_guard_rejects_partial_before_any_array_or_checkpoint) ... ok
+test_history_and_gate_priority (__main__.AuditTests.test_history_and_gate_priority) ... ok
+test_independent_smoothing_and_preprocessing (__main__.AuditTests.test_independent_smoothing_and_preprocessing) ... ok
+test_roles_reject_overlap_and_non_source_users (__main__.AuditTests.test_roles_reject_overlap_and_non_source_users) ... ok
+test_ssl_guard_before_any_array_or_checkpoint (__main__.AuditTests.test_ssl_guard_before_any_array_or_checkpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.882s
+
+OK

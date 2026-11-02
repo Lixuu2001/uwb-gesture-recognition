@@ -1,0 +1,18 @@
+{
+  "state": "publication_transport_repair_verified_before_ref_update",
+  "original_publication_commit": "79683bda163db1168d27aa84428075d1220ef67b",
+  "affected_path": "uwb_direction1/research/convtran_author_screen_20261030/vendor/site-packages/einops-0.8.1.dist-info/RECORD",
+  "cause": "Python read_text universal-newline conversion normalized59CRLF delimiters in dependency metadata during Git payload export. Original local file and all recorded input/dependency hashes remained unchanged.",
+  "original_bytes": 4051,
+  "original_sha256": "b4b231ccd46f7891c44ea965d03d5118d2c43042422a948f64ab0913e0c27583",
+  "expected_restored_git_blob_sha": "0f00988b645f65ba70cc25d6db49355cec4dc237",
+  "incorrect_LF_git_blob_sha": "007fbd7dbb796d1277d2d3b01d2bc2b0f3db0a28",
+  "CRLF_delimiters_restored": 59,
+  "author_source_blobs_exact": 12,
+  "initial_published_files_text_readback_equal": 83,
+  "model_or_optimizer_code_changed": false,
+  "scientific_protocol_or_cost_estimates_changed": false,
+  "real_data_read_or_fit": false,
+  "training_restarted": false,
+  "required_validation": "Fetch corrected unreferenced commit and require expected exact Git blob SHA and CRLF content before force=false branch update."
+}

@@ -1,0 +1,16 @@
+{
+  "epoch_candidates": [
+    1500,
+    100
+  ],
+  "batch_size": 64,
+  "seed": 20261029,
+  "input_preprocessing": "explicit_RMS_then_author_znormalization_adaptation",
+  "budget_seconds": 43200,
+  "memory_limit_KiB": 14680064,
+  "prior_workspace": "/workspace/uwb-oscnn-pilot-20261031",
+  "variant": "author_LITEMV_full",
+  "paper_epochs": 1500,
+  "current_constructor_epochs_not_used": 2,
+  "rule": "First feasible fixed1500 then explicitCPU100; unchanged fullarchitecture/B64/seed/filters; no batch,width,kernel,normalization or seed rescue"
+}

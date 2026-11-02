@@ -1,0 +1,489 @@
+{
+  "state": "completed_source_proxy_extent_diagnostic",
+  "records": 7100,
+  "new_trained_models": 0,
+  "views": {
+    "Left": {
+      "by_user": {
+        "3": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.03,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              55.0,
+              65.0,
+              65.0
+            ],
+            [
+              68.0,
+              73.0,
+              73.0
+            ],
+            [
+              78.0,
+              80.0,
+              80.0
+            ]
+          ]
+        },
+        "4": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.008333333333333333,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              63.0,
+              69.0,
+              69.0
+            ],
+            [
+              75.0,
+              77.0,
+              78.0
+            ],
+            [
+              83.0,
+              81.0,
+              83.0
+            ]
+          ]
+        },
+        "5": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.0375,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              54.0,
+              64.0,
+              65.0
+            ],
+            [
+              68.0,
+              74.0,
+              74.0
+            ],
+            [
+              80.0,
+              81.0,
+              82.0
+            ]
+          ]
+        },
+        "6": {
+          "records": 1100,
+          "both_proxies_valid": 1100,
+          "joint_short_fraction_all_records": 0.07545454545454545,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              55.0,
+              61.0,
+              62.0
+            ],
+            [
+              73.0,
+              77.0,
+              78.0
+            ],
+            [
+              83.0,
+              84.0,
+              84.0
+            ]
+          ]
+        },
+        "7": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.03,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              56.0,
+              66.0,
+              67.0
+            ],
+            [
+              69.0,
+              74.0,
+              74.0
+            ],
+            [
+              79.0,
+              80.0,
+              81.0
+            ]
+          ]
+        },
+        "8": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.0475,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              59.0,
+              65.0,
+              65.0
+            ],
+            [
+              72.0,
+              75.0,
+              76.0
+            ],
+            [
+              81.0,
+              81.0,
+              82.0
+            ]
+          ]
+        }
+      },
+      "screen_passed_users": [],
+      "screen_passed": false,
+      "phase_amp_interval_iou_quantiles": [
+        0.7625,
+        0.9058823529411765,
+        0.9743589743589743
+      ],
+      "phase_amp_start_absolute_difference_median": 3.0,
+      "phase_amp_end_absolute_difference_median": 3.0,
+      "first_last9_transition_mass_mean_phase_amp": [
+        [
+          0.0684465739539616,
+          0.08319949114332179
+        ],
+        [
+          0.08013665130738486,
+          0.08110629710477568
+        ]
+      ]
+    },
+    "Top": {
+      "by_user": {
+        "3": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.015,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              58.0,
+              68.0,
+              68.0
+            ],
+            [
+              69.0,
+              75.0,
+              75.0
+            ],
+            [
+              80.0,
+              81.0,
+              81.0
+            ]
+          ]
+        },
+        "4": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.030833333333333334,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              56.0,
+              69.0,
+              69.0
+            ],
+            [
+              77.0,
+              78.0,
+              79.0
+            ],
+            [
+              84.0,
+              83.0,
+              84.0
+            ]
+          ]
+        },
+        "5": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.04416666666666667,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              53.900000000000006,
+              65.0,
+              65.0
+            ],
+            [
+              69.0,
+              75.0,
+              75.0
+            ],
+            [
+              81.0,
+              82.0,
+              83.0
+            ]
+          ]
+        },
+        "6": {
+          "records": 1100,
+          "both_proxies_valid": 1100,
+          "joint_short_fraction_all_records": 0.06636363636363636,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              56.0,
+              62.0,
+              63.0
+            ],
+            [
+              72.0,
+              74.0,
+              75.0
+            ],
+            [
+              82.0,
+              82.0,
+              83.0
+            ]
+          ]
+        },
+        "7": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.035833333333333335,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              55.0,
+              65.0,
+              65.0
+            ],
+            [
+              71.0,
+              75.0,
+              75.0
+            ],
+            [
+              82.0,
+              82.0,
+              83.0
+            ]
+          ]
+        },
+        "8": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.07583333333333334,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              54.0,
+              63.0,
+              63.0
+            ],
+            [
+              72.0,
+              75.0,
+              76.0
+            ],
+            [
+              81.0,
+              81.0,
+              82.0
+            ]
+          ]
+        }
+      },
+      "screen_passed_users": [],
+      "screen_passed": false,
+      "phase_amp_interval_iou_quantiles": [
+        0.7926599171652094,
+        0.9146341463414634,
+        0.9852941176470589
+      ],
+      "phase_amp_start_absolute_difference_median": 3.0,
+      "phase_amp_end_absolute_difference_median": 3.0,
+      "first_last9_transition_mass_mean_phase_amp": [
+        [
+          0.07282342693763177,
+          0.08768039142594986
+        ],
+        [
+          0.08548549528994771,
+          0.08368019371617168
+        ]
+      ]
+    },
+    "Right": {
+      "by_user": {
+        "3": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.03666666666666667,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              55.0,
+              65.0,
+              65.0
+            ],
+            [
+              69.0,
+              74.0,
+              75.0
+            ],
+            [
+              80.0,
+              80.0,
+              81.0
+            ]
+          ]
+        },
+        "4": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.0475,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              64.0,
+              66.0,
+              68.0
+            ],
+            [
+              76.0,
+              77.0,
+              78.0
+            ],
+            [
+              82.0,
+              82.0,
+              84.0
+            ]
+          ]
+        },
+        "5": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.056666666666666664,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              58.0,
+              65.0,
+              65.0
+            ],
+            [
+              71.0,
+              76.0,
+              76.0
+            ],
+            [
+              81.0,
+              82.0,
+              82.0
+            ]
+          ]
+        },
+        "6": {
+          "records": 1100,
+          "both_proxies_valid": 1100,
+          "joint_short_fraction_all_records": 0.08636363636363636,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              54.0,
+              61.900000000000006,
+              62.0
+            ],
+            [
+              72.0,
+              76.0,
+              76.0
+            ],
+            [
+              81.0,
+              82.0,
+              82.0
+            ]
+          ]
+        },
+        "7": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.11083333333333334,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              52.0,
+              58.0,
+              58.0
+            ],
+            [
+              69.0,
+              73.0,
+              73.0
+            ],
+            [
+              81.0,
+              81.0,
+              81.0
+            ]
+          ]
+        },
+        "8": {
+          "records": 1200,
+          "both_proxies_valid": 1200,
+          "joint_short_fraction_all_records": 0.029166666666666667,
+          "frame_length_quantiles_phase_amp_joint": [
+            [
+              59.0,
+              67.0,
+              67.0
+            ],
+            [
+              73.0,
+              76.0,
+              76.0
+            ],
+            [
+              81.0,
+              81.0,
+              82.0
+            ]
+          ]
+        }
+      },
+      "screen_passed_users": [],
+      "screen_passed": false,
+      "phase_amp_interval_iou_quantiles": [
+        0.7887323943661971,
+        0.9130434782608695,
+        0.975609756097561
+      ],
+      "phase_amp_start_absolute_difference_median": 3.0,
+      "phase_amp_end_absolute_difference_median": 3.0,
+      "first_last9_transition_mass_mean_phase_amp": [
+        [
+          0.06905260015748431,
+          0.08431248290459817
+        ],
+        [
+          0.07540605001710123,
+          0.07690128017855198
+        ]
+      ]
+    }
+  },
+  "invalid_proxy_cases": 0,
+  "checks": {
+    "uniform_impulse_disjoint_random_intervals_checked": true,
+    "zero_evidence_marked_invalid": true,
+    "first16_scipy_evidence_max_absolute_error": 8.881784197001252e-16,
+    "first16_exhaustive_intervals": 144
+  },
+  "seconds_excluding_input_hashes": 20.598473278048914,
+  "input_sha256": {
+    "X": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "protocol_sha256": "e0145ec9ba13040fe1ff6e851c3523564066509906e97cc1286533f6193077fa",
+  "script_sha256": "2cb035ea1de4098ac781ab34fd06656eccff1679dafc4433d9aa501db9a803ed",
+  "per_clip_sha256": "c826d364e6df560b58ebab99b341177d44df02d37036111a260fa5485020ce8d",
+  "interpretation": "Signal-change proxies, not gesture/background boundaries. Screen only for energy-preserving crop planning, not classification or novelty."
+}

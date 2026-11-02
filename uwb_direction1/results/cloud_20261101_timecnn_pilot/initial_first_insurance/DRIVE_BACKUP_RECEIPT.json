@@ -1,0 +1,47 @@
+{
+  "state": "private_readback_verified",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "observed_utc": "2026-11-01T18:56:57.153492+00:00",
+  "archive_name": "timecnn2000_initial_first_20261101.tar.gz",
+  "archive_bytes": 710723,
+  "archive_sha256": "2c4780025ec1faed88c4feb82d91367bf0f7d4bc95aafca03a859b86901296c0",
+  "members_manifest_sha256": "a882af1969e2d7ae040e7e2a3a33db43977bc04236e14cb9d9b8078f147453fa",
+  "tracked_payload_files": 90,
+  "archive_members": 91,
+  "chunks": [
+    {
+      "name": "timecnn2000_initial_first_20261101.part000",
+      "bytes": 710723,
+      "sha256": "2c4780025ec1faed88c4feb82d91367bf0f7d4bc95aafca03a859b86901296c0",
+      "file_id": "1lRQme0b2B84t2boSNltqWr6pd3By5H5e",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 710723,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "initial_first_states_verified": true,
+  "complete_modelset_verified": false,
+  "latest_epoch_weights_privately_preserved": false,
+  "numeric_audit_certified": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback."
+}

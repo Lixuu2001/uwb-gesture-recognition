@@ -1,0 +1,27 @@
+{
+  "state": "pass_full_FCN_native_synthetic_preparation",
+  "total_parameters": 846860,
+  "trainable_parameters": 845836,
+  "trainable_tensors": 14,
+  "Adam_variables": 30,
+  "input_shape": [
+    90,
+    567
+  ],
+  "output_classes": 12,
+  "complete_source_AST_artifact_extension_only": true,
+  "native_Keras3_Torch_backend": true,
+  "legacy_TF_numeric_parity": false,
+  "synthetic_updates": 3,
+  "independent_NumPy_full_Conv_BN_ReLU_GAP_softmax_reference": true,
+  "complete_custom_state_restore_and_next_update_exact": true,
+  "native_weights_Adam_reload_exact": true,
+  "initial_restore_exact": true,
+  "source_callback_order_reduceLR_then_checkpoint_checked": true,
+  "source_default_epochs": 2000,
+  "source_default_batch_size": 16,
+  "formal_full_budget_cost_passed": false,
+  "UWB_values_labels_fit": false,
+  "accuracy_measured": false,
+  "novelty_claim": false
+}

@@ -1,0 +1,78 @@
+{
+  "state": "pass_single_fullHARdefault_batch_author_SSL_step",
+  "model_parameters": 247500,
+  "temporal_parameters": 313096,
+  "batch_size": 128,
+  "epochs": 40,
+  "shape_only_adaptations": {
+    "input_channels": 567,
+    "classes": 12,
+    "features_len": 13
+  },
+  "full_latent_shape": [
+    128,
+    128,
+    13
+  ],
+  "loss": 13.717924118041992,
+  "changed_model_state_tensors": 18,
+  "encoder_optimizer_states": 9,
+  "temporal_optimizer_states": 65,
+  "elapsed_seconds": 1.8490842010360211,
+  "warnings": [
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    },
+    {
+      "category": "UserWarning",
+      "message": "Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument."
+    }
+  ],
+  "real_UWB_values_or_labels_read": false,
+  "real_experiment_started": false,
+  "author_augmentation_used": false,
+  "augmentation_semantics_still_pending": true,
+  "checkpoint_resume_test_passed": false,
+  "full_cost_gate_passed": false
+}

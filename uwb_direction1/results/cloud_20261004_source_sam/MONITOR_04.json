@@ -1,0 +1,41 @@
+{
+  "observed_utc": "2026-10-04T05:47:41.180650+00:00",
+  "processes": {
+    "train": {
+      "pid": 1398,
+      "state": "R",
+      "live": true
+    },
+    "archive": {
+      "pid": 1410,
+      "state": "S",
+      "live": true
+    }
+  },
+  "queue": {
+    "state": "training",
+    "pid": 1398,
+    "held": 8,
+    "arm": "erm48"
+  },
+  "progress": {
+    "epoch": 1,
+    "validation_ce": 0.6979435682296753,
+    "source_ce": 0.43266358154885315,
+    "lr": 0.001,
+    "source_ids_sha256": "825441009074ef0702fc33774c8da5b11d7267173bc0dbf22310788691ceae59",
+    "source_perturbed_ce": 0.43266358154885315,
+    "step": 74,
+    "seconds": 30.435554173000128,
+    "segment_sha256": "be0c6bf6cdabf849990fe7e8d3776c72620861a1b111056671a11bc207dcd5bf",
+    "state": "training",
+    "pid": 1398,
+    "held": 8,
+    "arm": "erm48"
+  },
+  "completed_new_trajectories": 11,
+  "audited_completed_trajectories": 10,
+  "backup_scope": "sam24 and erm48 held3,4,5,6,7",
+  "scientific_configuration_unchanged": true,
+  "aggregate_effectiveness_decision": null
+}

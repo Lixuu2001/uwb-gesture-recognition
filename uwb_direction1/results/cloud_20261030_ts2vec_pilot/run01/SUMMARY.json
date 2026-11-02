@@ -1,0 +1,18 @@
+{
+  "state": "complete_exploratory_source_pilot",
+  "scores": {
+    "validation": 0.6489999999999999,
+    "diagnostic": 0.655
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "known_baseline_expansion_eligible": false,
+  "predeclared_route": "close_exact_configuration",
+  "selected_C": 10.0,
+  "SVM_selection_scope": "Original5foldCV only within trainingusers3-6; no val2/held1labels used for fitting or Cselection",
+  "iterations": 600,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "users7_8_labels_used": false,
+  "wall_seconds": 225.0562136709923,
+  "cpu_seconds": 228.900891925
+}

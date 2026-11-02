@@ -1,0 +1,39 @@
+{
+  "state": "no_exact_prepared_zero_control_marker_in_latest_four_records",
+  "latest_remote": "ce6b442699c52336a33685056bc532440d1d034f",
+  "checks": [
+    {
+      "path": "STATUS.json",
+      "exact_new_control_marker_counts": {
+        "zero_fixed_responses": 0,
+        "ZeroFixedBranch": 0,
+        "paired_fixed_response_zero": 0
+      }
+    },
+    {
+      "path": "memory/CLOUD_CONTINUATION.md",
+      "exact_new_control_marker_counts": {
+        "zero_fixed_responses": 0,
+        "ZeroFixedBranch": 0,
+        "paired_fixed_response_zero": 0
+      }
+    },
+    {
+      "path": "memory/PROJECT_MEMORY.md",
+      "exact_new_control_marker_counts": {
+        "zero_fixed_responses": 0,
+        "ZeroFixedBranch": 0,
+        "paired_fixed_response_zero": 0
+      }
+    },
+    {
+      "path": "results/cloud_20260930/RUN_REPORT.md",
+      "exact_new_control_marker_counts": {
+        "zero_fixed_responses": 0,
+        "ZeroFixedBranch": 0,
+        "paired_fixed_response_zero": 0
+      }
+    }
+  ],
+  "limitations": "Lexical absence is not exhaustive equivalence or novelty proof. InceptionTime was already reviewed historically; existing full H-Inception real pilot and ongoing confirmation are reused, not repeated."
+}

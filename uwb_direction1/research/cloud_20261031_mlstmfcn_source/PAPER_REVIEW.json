@@ -1,0 +1,29 @@
+{
+  "title": "Multivariate LSTM-FCNs for Time Series Classification",
+  "authors": [
+    "Fazle Karim",
+    "Somshubra Majumdar",
+    "Houshang Darabi",
+    "Samuel Harford"
+  ],
+  "journal": "Neural Networks 116 (2019) 237-245",
+  "doi": "10.1016/j.neunet.2019.04.014",
+  "arxiv": "https://arxiv.org/pdf/1801.04503",
+  "version": "1801.04503v2",
+  "pages": 18,
+  "metadata_crosscheck": "https://pubmed.ncbi.nlm.nih.gov/31121421/",
+  "read_scope": [
+    "abstract/introduction/background text",
+    "sections3.1/3.2 network/input",
+    "section4 training protocol",
+    "sections4.1/4.2 evaluation/datasets",
+    "sections4.3/4.4 results and shuffle ablation text",
+    "conclusion opening"
+  ],
+  "figures_visually_inspected": false,
+  "entire_references_exhaustively_checked": false,
+  "reported_benchmark_results_reproduced": false,
+  "source_script_defaults_differ_by_dataset": true,
+  "shape_caution": "UWB567 variables exceed90 timepoints; retained dimension shuffle scans567 steps. No speed advantage assumed.",
+  "known_published_baseline_value_separate_from_originality": true
+}

@@ -1,0 +1,48 @@
+{
+  "observed_utc": "2026-10-04T19:12:06.400251+00:00",
+  "pid": 4719,
+  "process_state": "R",
+  "live": true,
+  "queue": {
+    "state": "training",
+    "pid": 4719,
+    "held": 5,
+    "arm": "rsc24"
+  },
+  "progress": {
+    "epoch": 17,
+    "validation_ce": 2.234437942504883,
+    "source_ce": 0.001688553161608676,
+    "lr": 0.0002575000000000001,
+    "source_ids_sha256": "0fa7e8c22fd8a0a0b5f26dfdf7d0df39a42063200390d352fd2e106782322760",
+    "step": 1275,
+    "seconds": 24.82428863899986,
+    "segment_sha256": "ed6d6a1a8a05081104c49611a8b047fe2d5bf24e83163c9f0c7423abc16f6035",
+    "state": "training",
+    "pid": 4719,
+    "held": 5,
+    "arm": "rsc24"
+  },
+  "completed_new_trajectories": 4,
+  "expected_new_trajectories": 12,
+  "audited_and_privately_backed_up_trajectories": [
+    {
+      "arm": "rsc24",
+      "held": 3
+    },
+    {
+      "arm": "random24",
+      "held": 3
+    },
+    {
+      "arm": "rsc24",
+      "held": 4
+    },
+    {
+      "arm": "random24",
+      "held": 4
+    }
+  ],
+  "final_joint_gate_pending": true,
+  "training_code_protocol_hashes_unchanged": true
+}

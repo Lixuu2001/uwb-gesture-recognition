@@ -1,0 +1,37 @@
+{
+  "state": "private_persistent_partial_first_two_fold_download_index",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "hinception_source6_first2_20261031.tar.gz",
+  "archive_bytes": 22295403,
+  "archive_sha256": "293861fcdd3ebedf645a87edbf9c81fe8f6868c9fc26ba36553658cf6e4f6bca",
+  "members_manifest_sha256": "3cb5d036356b365a273b76124a9eaab524390cc8e40ceb3c378eab5d691de839",
+  "chunks": [
+    {
+      "name": "hinception_source6_first2_20261031.part000",
+      "file_id": "1mNRr_XHU5bD4AJUH69r13ADUP_FLc-iu",
+      "bytes": 7340032,
+      "sha256": "287e2e2011965df717b2bc834c0e81c69a2290a004e4e22ce9ea6211d1444e5c"
+    },
+    {
+      "name": "hinception_source6_first2_20261031.part001",
+      "file_id": "1SaQ0cwaUgYlmDysxfBUFwfjhBGVAB_CL",
+      "bytes": 7340032,
+      "sha256": "22f89408776359a0021a7276a7e7f9caf6a6526dfc70a2184dcf7da7d57743a7"
+    },
+    {
+      "name": "hinception_source6_first2_20261031.part002",
+      "file_id": "1JuC2Kdh0lTRuOan2nZtplDACuHgNynov",
+      "bytes": 7340032,
+      "sha256": "e67f95d79b84fcba807cc89f51ddc2d44affedc5f767a38971b1b3be7220cf57"
+    },
+    {
+      "name": "hinception_source6_first2_20261031.part003",
+      "file_id": "1a5QtYKUerbe0cPnGEIyDI190PV0g0-3u",
+      "bytes": 275307,
+      "sha256": "4925b72ce97da5fa3d02e329a9ef23c7062963e39b67a3d1a2e72264943bd2ac"
+    }
+  ],
+  "scope": "held2_held3_initial_first_update_only",
+  "complete_modelset_verified": false,
+  "restore_instructions": "Verify owner-only folder/file metadata, raw fetch(download_raw_file=true,include_base64=false), immediately materialize size/SHA, at most3 pipelines; concatenate in order, archive SHA, verify every MEMBERS.json entry. This insurance has initial/first-update states only, not latest/selected/final models or whole-job resume."
+}

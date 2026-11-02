@@ -1,0 +1,52 @@
+{
+  "state": "pass_before_real_UWB_registration",
+  "protocol_and_completion_and_backup_boundary_tests": 8,
+  "full_epoch_restore_first_CE_synthetic": {
+    "state": "pass_complete_Encoder_epoch_engine_synthetic_only",
+    "epochs": 3,
+    "updates": 9,
+    "initial_complete_callback_state_restore_exact": true,
+    "epoch1_fresh_restore_next2epochs_all_states_exact": true,
+    "first_unweighted_training_CE_independent_reference": true,
+    "three_identity_settings_cursor_rejections_before_state_change": true,
+    "six_numeric_shape_dtype_label_rejections": true,
+    "dedicated_sampler_repeat_and_global_Torch_RNG_isolation": true,
+    "native_fit_DataAdapter_RNG_parity_claim": false,
+    "real_UWB_values_labels_fit": false
+  },
+  "full_producer_replay_integration_synthetic": {
+    "state": "pass_full_native_producer_and_complete_replay_integration_synthetic_only",
+    "epochs": 3,
+    "updates": 9,
+    "five_initial_first_best_last_final_custom_states_exact": true,
+    "all_batch_metrics_losses_IDs_and_epochs_exact": true,
+    "native_selected_last_weights_optimizer_exact": true,
+    "both_partition_predictions_and_final_state_exact": true,
+    "corrupt_training_ID_rejected": true,
+    "source_roles_and_user8_rejection_synthetic_checked": true,
+    "labelblind_evaluation_permutation_no_global_NumPy_rng_draw": true,
+    "real_UWB_values_labels_fit": false,
+    "wall_seconds": 9.534145101904869
+  },
+  "cost_gate": {
+    "state": "verified_actual_full_Encoder100_B12_synthetic_cost",
+    "registration_commit": "a808368e90b87b6bd0e5c4d0a34c0c5e12bc9b0e",
+    "policy_sha256": "536c1ac81863973d8583b963da856b3879fa1ae47eb07805bd2f3ec59f90a60a",
+    "result_sha256": "5db3207eed64ae5a07cc28996db38b64e45a64c823edd993fecffb2f7b14245e",
+    "termination_sha256": "d26216cd2176cbe198f74ebe020af152df9a3f6f1c7de7c2833b5b8a76e707fe",
+    "profile_completed_successfully": true,
+    "resource_gate_passed": true,
+    "estimated_seconds": 24009.215816214215,
+    "estimated_hours": 6.6692266156150595,
+    "memory_gate_passed": true,
+    "max_RSS_KiB": 926564,
+    "budget_seconds": 43200,
+    "accuracy_measured": false,
+    "real_UWB_values_labels_fit": false,
+    "no_smaller_epoch_batch_fallback": true,
+    "next_action": "separately_register_real_UWB_runner_protocol_and_full_auditor"
+  },
+  "real_UWB_values_labels_fit": false,
+  "automatic_retry": false,
+  "automatic_resume": false
+}

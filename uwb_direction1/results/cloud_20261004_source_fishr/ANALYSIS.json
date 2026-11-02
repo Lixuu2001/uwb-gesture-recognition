@@ -1,0 +1,97 @@
+{
+  "state": "complete_audited",
+  "identity": {
+    "script": "009df7b19877792329a3102d2db5fdf7af0299f6f03fa4ddd8763fb305ac2329",
+    "protocol": "49bbf677db2312372335c67311fb54d8bd910aba2b9dba621bd523d1ca7d7eb2",
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "prepared_sha256": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f",
+    "helpers": {
+      "source_fishr.py": "e9db16475fda10bca91d5393fac7d3d145230231fcad6a9f060aa994587cb3d0",
+      "linear_gradient_variance.py": "60148956ada64c3caa37981d778bea3692208be5bfcf24ca3566a2861a2f45a7",
+      "audit_source_fishr.py": "792131861b28acb8e0feef59b351314c5b454f4e0f5d2fa66776de207440dd34",
+      "audit_source_sam.py": "1e3fd9af1486043b9d1260cb64c9734f949f5d88672dae28b4acd62335d0ddfb",
+      "audit_temporal_scale.py": "6962ff8f6b625181ec57c4113c6e2e3580cf75a492e4d6238cdfdcd19727eddf",
+      "test_source_fishr.py": "ebd53b9e9f3d361feb77f4e4acb52fff8d29ae2cbee95f18585cf7fa0ea076e2",
+      "swad_source_pilot.py": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc",
+      "swad_core.py": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4",
+      "circular_signal.py": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403",
+      "audit_restored.py": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef",
+      "full_view_heads.py": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+    },
+    "baseline_result_hashes": {
+      "3": "1e506a5447fa10839a91221138083444cd93968e1d1c62f9596e358394c38626",
+      "4": "34a742588f22427410ad0940fb5daa581115431628115bdc36a6da42bfba0bd5",
+      "5": "5de2fc764e057a38992ac90996aacf2046c92c811593e26b124ceaa8601a2152",
+      "6": "f0fa95fa590a395e1c79130802475bd4610c694b42a711b082ccf57c45bbf520",
+      "7": "773ec14207b1208a2ada4d1ee56edaa0c3fc14d0e4099460063284e2078ebe48",
+      "8": "26b8ad787bc8f6f7526cbbf627b7332f6d7083b410207eea6fb16f716b1eb8f1"
+    }
+  },
+  "gate_passed": false,
+  "primary_tail_effects": {
+    "balanced_erm": {
+      "mean_pp": 0.16792929292929376,
+      "per_user_pp": [
+        0.5833333333333246,
+        -0.08333333333333526,
+        0.33333333333334103,
+        0.09090909090908594,
+        0.0,
+        0.08333333333334636
+      ],
+      "wins": 4,
+      "descriptive_user_bootstrap95_pp": [
+        0.0025252525252502283,
+        0.36111111111111205
+      ],
+      "gate_passed": false
+    },
+    "permuted_variance": {
+      "mean_pp": 0.09848484848485144,
+      "per_user_pp": [
+        0.08333333333333526,
+        0.0,
+        0.16666666666667052,
+        0.09090909090908594,
+        0.16666666666667052,
+        0.08333333333334636
+      ],
+      "wins": 5,
+      "descriptive_user_bootstrap95_pp": [
+        0.05555555555555869,
+        0.14015151515151908
+      ],
+      "gate_passed": false
+    },
+    "shared128": {
+      "mean_pp": 0.14772727272726788,
+      "per_user_pp": [
+        1.333333333333342,
+        -0.16666666666668162,
+        0.0,
+        -1.3636363636363669,
+        0.4166666666666541,
+        0.6666666666666599
+      ],
+      "wins": 3,
+      "descriptive_user_bootstrap95_pp": [
+        -0.5429292929292988,
+        0.7777777777777755
+      ],
+      "gate_passed": false
+    }
+  },
+  "new_trajectories": 18,
+  "reused_trajectories": 6,
+  "new_epochs": 432,
+  "new_epoch_seconds": 12060.905898826,
+  "outer_eight_fold_result": false,
+  "novel_contribution_validated": false,
+  "limitations": [
+    "six repeatedly used development users",
+    "overlapping training sets; intervals descriptive only",
+    "one seed",
+    "same-batch controls isolate domain identity only; corrected EMA and source calibration differ author Fishr; not novel; supplementary old sampler differs"
+  ]
+}

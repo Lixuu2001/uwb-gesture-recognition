@@ -1,0 +1,63 @@
+{
+  "state": "existing_MLSTM_pilot_OS_and_metadata_verified",
+  "observed_utc": "2026-11-01T15:27:46.343538+00:00",
+  "controller": {
+    "pid": 67053,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/uwb-mlstmfcn-pilot-20261101/controller.py"
+    ],
+    "status": {
+      "State": "S (sleeping)",
+      "PPid": "1",
+      "VmRSS": "21628 kB",
+      "Threads": "1"
+    }
+  },
+  "children": [
+    {
+      "pid": 67737,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-mlstmfcn-pilot-20261101/audit_complete.py"
+      ],
+      "status": {
+        "State": "R (running)",
+        "PPid": "67053",
+        "VmRSS": "4778576 kB",
+        "Threads": "1"
+      }
+    }
+  ],
+  "controller_state": {
+    "state": "full_numeric_audit",
+    "pid": 67053,
+    "automatic_retry": false,
+    "Drive_or_Git_capability": false,
+    "users7_8_labels_used": false,
+    "observed_unix": 1793543552.8943498
+  },
+  "training_state": {
+    "state": "complete",
+    "pid": null,
+    "epoch": 250,
+    "total_steps": 9250,
+    "all_predictions_frozen": true,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 10103.931411291938,
+    "cpu_seconds": 10117.944263162,
+    "observed_unix": 1793543551.5394197,
+    "batch": 0,
+    "best_epoch": 250
+  },
+  "initial_checkpoint_exists": true,
+  "first_checkpoint_exists": true,
+  "training_termination_exists": true,
+  "audit_termination_exists": false,
+  "diagnostic_score_exists": false,
+  "configuration_changed": false,
+  "labels_loaded_by_observer": false
+}

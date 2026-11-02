@@ -1,0 +1,1500 @@
+{
+  "state": "partial_private_backups_verified",
+  "utc": "2026-10-04T10:05:07.641556+00:00",
+  "archives": [
+    {
+      "name": "balanced_erm-held3-part1.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/balanced_erm-held3-part1.tar.gz",
+      "bytes": 26317134,
+      "sha256": "89d2ace5906c7fc7cf6e664b0434801e2801de4628ef783ab68cce5d04de44b8",
+      "contents": {
+        "balanced_erm/held3/result.json": {
+          "bytes": 21428,
+          "sha256": "f2bd0a202518dfc5e1f6a32f3a8d33b4aa40d3a3aca5df70324386a404d70dcc"
+        },
+        "balanced_erm/held3/source_orders.npz": {
+          "bytes": 272094,
+          "sha256": "9198500eb27b8f73df866cd38cbf2d232c0f4cb9ddc9e1f2b0f33c7586221183"
+        },
+        "balanced_erm/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "balanced_erm/held3/selection.json": {
+          "bytes": 87,
+          "sha256": "df56fbfe674927fc96a6c79da85d1e569a91280367154c32444fe1ec274e43aa"
+        },
+        "balanced_erm/held3/predictions.npz": {
+          "bytes": 219589,
+          "sha256": "4f5d501000c64a9d3301d960c0fbe32e3bc38721812300ea32039699b78df9a2"
+        },
+        "balanced_erm/held3/selected.pt": {
+          "bytes": 2144721,
+          "sha256": "f6b00e01f6ca323110f840c67ade6000397695988f0b5e7ae7ab5ab236d26f92"
+        },
+        "balanced_erm/held3/progress.pt": {
+          "bytes": 5424125,
+          "sha256": "af910f74c651a5b9e6e1169f47d5044e969d5994dd05c3db55171edb479ddee1"
+        },
+        "balanced_erm/held3/segment_01.pt": {
+          "bytes": 1074549,
+          "sha256": "eda7e986718161306bd62d08048bd12a2170f43bb646863bed3ff9038e6e8782"
+        },
+        "balanced_erm/held3/segment_02.pt": {
+          "bytes": 1074549,
+          "sha256": "0c63f2764dc0b899d6bfdf35133dbc8120ba5fc1b7ddfa5bca5e2d50d3540fdf"
+        },
+        "balanced_erm/held3/segment_03.pt": {
+          "bytes": 1074549,
+          "sha256": "736b803d64484b16d5a9bfcb5aac4e7f3bce649b8b84cd53a8eca8fdc6cb2c4f"
+        },
+        "balanced_erm/held3/segment_04.pt": {
+          "bytes": 1074549,
+          "sha256": "16bda87d7fb96f41acbba1703ba360a1767feb215769a4636245d5523f426db8"
+        },
+        "balanced_erm/held3/segment_05.pt": {
+          "bytes": 1074549,
+          "sha256": "5d0cc87ba627ae7b8dbf94a8bfc993212499166379151c15b02fc3b40e3a0345"
+        },
+        "balanced_erm/held3/segment_06.pt": {
+          "bytes": 1074549,
+          "sha256": "96648ddefca6e43e3b2a2ecc232f3ce91299af357e1b246831aa64378e35122a"
+        },
+        "balanced_erm/held3/segment_07.pt": {
+          "bytes": 1074549,
+          "sha256": "bb83423ba1a203df9a842acb6b8fe9f37d1e11a1aa6fff3fa31b44c3c08e3603"
+        },
+        "balanced_erm/held3/segment_08.pt": {
+          "bytes": 1074549,
+          "sha256": "78cf93b1a9d9ff6575c8f7f7351e99780787bcb9a0415e5e2584ff2edf9aee5f"
+        },
+        "balanced_erm/held3/segment_09.pt": {
+          "bytes": 1074549,
+          "sha256": "f0b7ab7c5aba29a07561dfd6b5f56a6024051607648b9080352d00bd60461516"
+        },
+        "balanced_erm/held3/segment_10.pt": {
+          "bytes": 1074549,
+          "sha256": "8c3b5eb7e03bf44afa49520da92d390efd1780a7534a2d40003bc836d65e4ffd"
+        },
+        "balanced_erm/held3/segment_11.pt": {
+          "bytes": 1074549,
+          "sha256": "54b73dce75f718bdf75d02055de44b49b5133dd6dcbc724f1034ade5381e93db"
+        },
+        "balanced_erm/held3/segment_12.pt": {
+          "bytes": 1074549,
+          "sha256": "d0f9fc0d2e9c33f17b674ded601d8af80ebf1db64f1567b9356b0feeda351979"
+        },
+        "balanced_erm/held3/segment_13.pt": {
+          "bytes": 1074549,
+          "sha256": "e36c567111f6c96d1ead4b6e941bf37705ee758ba616315ed7798389d9272c00"
+        },
+        "balanced_erm/held3/segment_14.pt": {
+          "bytes": 1074549,
+          "sha256": "ad577cafb428ed8ceb54c78116eb44df0a52dcabcc0a9b1c573ee0990c8abc44"
+        },
+        "balanced_erm/held3/segment_15.pt": {
+          "bytes": 1074549,
+          "sha256": "5e46fe8bc0bd655ca8f661a94d7bf6b5b48449f376a5784fbb107b6b809ed7a2"
+        },
+        "balanced_erm/held3/segment_16.pt": {
+          "bytes": 1074549,
+          "sha256": "21be419ee0334613dd1355ba4cf269d4befdbbf6f0fcedd3023418be77904e00"
+        },
+        "balanced_erm/held3/segment_17.pt": {
+          "bytes": 1074549,
+          "sha256": "48b4e07a34cd9a1aa21b1f0ccaff0f470f2886bec029c1bac1055206d0a32f3b"
+        },
+        "balanced_erm/held3/segment_18.pt": {
+          "bytes": 1074549,
+          "sha256": "1ac74649121e0a03b9b7054f894c729c9f1b3d1528a262bb5983c77e7c101914"
+        },
+        "balanced_erm/held3/segment_19.pt": {
+          "bytes": 1074549,
+          "sha256": "df5a1dfb6b036230e4b73965049b86007d0229cd3c494c9a828c9f55d2dab806"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "balanced_erm-held3-part2.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/balanced_erm-held3-part2.tar.gz",
+      "bytes": 4957932,
+      "sha256": "738ba443157b3abd714879ab0d7c479c39360754adca987df479d5a271ff01a0",
+      "contents": {
+        "balanced_erm/held3/segment_20.pt": {
+          "bytes": 1074549,
+          "sha256": "273bf6f8f7076a3c73183ac3467089d1e70bbda73d47f2153104eb18cc756faf"
+        },
+        "balanced_erm/held3/segment_21.pt": {
+          "bytes": 1074549,
+          "sha256": "11b7a2c692f1b2cc4d1476d2fab3a92e4a6ee2036aeaabb893a91d371c6f9f46"
+        },
+        "balanced_erm/held3/segment_22.pt": {
+          "bytes": 1074549,
+          "sha256": "96034731de5a1846b9a5fd8bf14338c1eead56b174aeb458a7d77e76f0c561a0"
+        },
+        "balanced_erm/held3/segment_23.pt": {
+          "bytes": 1074549,
+          "sha256": "12e34f426fe6982a03dcb30542277a8a8979935227d37e01d85b47713c8e1240"
+        },
+        "balanced_erm/held3/segment_24.pt": {
+          "bytes": 1074549,
+          "sha256": "31c3cae258ea4a54366ab1051c01fea0b5125fb61df4dc85c5488473de78cb8c"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "real_variance-held3-part1.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/real_variance-held3-part1.tar.gz",
+      "bytes": 26317493,
+      "sha256": "c4de253e86d841ebf0de0648e5572a62937cdbcbbbe8ac17b17b03cd1af2cc7e",
+      "contents": {
+        "real_variance/held3/result.json": {
+          "bytes": 21447,
+          "sha256": "89c31d90320e059d120c0e9d1408b25061af5d599ac71275701d5b462b77299d"
+        },
+        "real_variance/held3/source_orders.npz": {
+          "bytes": 272094,
+          "sha256": "9198500eb27b8f73df866cd38cbf2d232c0f4cb9ddc9e1f2b0f33c7586221183"
+        },
+        "real_variance/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "real_variance/held3/selection.json": {
+          "bytes": 87,
+          "sha256": "83120de1d296862e5897c1cd15e9ba7416035e3a503e7f6b902031c84d2cf03e"
+        },
+        "real_variance/held3/predictions.npz": {
+          "bytes": 219397,
+          "sha256": "7dd9a2bca9f8f23ab011e0d42fca52beaed8ab5b510f056f76d4b918893a3bcc"
+        },
+        "real_variance/held3/selected.pt": {
+          "bytes": 2144721,
+          "sha256": "2fa8b665d1afb6d9e4ef378ae8d0d59b4b96c6ee70ac2f5710281ad8deccab5a"
+        },
+        "real_variance/held3/progress.pt": {
+          "bytes": 5424125,
+          "sha256": "35bf90a0071c8fd4eb524977f3ba012ab902dfb276218ca615a6abd83a94df09"
+        },
+        "real_variance/held3/segment_01.pt": {
+          "bytes": 1074549,
+          "sha256": "c77976df31ad2c4d0ff2e40b0e8d91f7b21b11c6fa9c3362a0b1a56441543274"
+        },
+        "real_variance/held3/segment_02.pt": {
+          "bytes": 1074549,
+          "sha256": "0cb9a210c49beb493c1f534e2c138db2137d56deaf56836c4a7deff7f9d798bd"
+        },
+        "real_variance/held3/segment_03.pt": {
+          "bytes": 1074549,
+          "sha256": "5f46b8f1360e41aa35cf3aa20c29154c7e39862928aabd6619094039d80170fa"
+        },
+        "real_variance/held3/segment_04.pt": {
+          "bytes": 1074549,
+          "sha256": "035d077754a7d862800d4767d47c60154f4975d36458069f3719c8c699fc9606"
+        },
+        "real_variance/held3/segment_05.pt": {
+          "bytes": 1074613,
+          "sha256": "5894e50dae5f522a56678a6db335090b718ff4942190d39a32b6bdede61fb944"
+        },
+        "real_variance/held3/segment_06.pt": {
+          "bytes": 1074613,
+          "sha256": "2afd089b8d9d90fec32d269c3bc2b285e52dc3fff5bcca0d65788464eae4076b"
+        },
+        "real_variance/held3/segment_07.pt": {
+          "bytes": 1074613,
+          "sha256": "f3422c0ec4ba0109b8c1a37be75d84ffd108f048d6ff305dd207d4c44311d1cd"
+        },
+        "real_variance/held3/segment_08.pt": {
+          "bytes": 1074613,
+          "sha256": "f21e9c88a45b231ae015cbb3df8474d418ac7fd9d757f5d70e65187a55dbcdf5"
+        },
+        "real_variance/held3/segment_09.pt": {
+          "bytes": 1074613,
+          "sha256": "9ce317aebd5c27ee3bce3bfb39fb57d053ba3499e69252522317add68fd87e58"
+        },
+        "real_variance/held3/segment_10.pt": {
+          "bytes": 1074613,
+          "sha256": "eef4b8f33f85dacfe9825469e1e27fba60ba88dc40dfe7a067371ac6e773d80d"
+        },
+        "real_variance/held3/segment_11.pt": {
+          "bytes": 1074613,
+          "sha256": "3185d2e5033e41d4e03927240c499a2097665989d7d017e57f2e870754a2bc48"
+        },
+        "real_variance/held3/segment_12.pt": {
+          "bytes": 1074613,
+          "sha256": "ec3c62f018d99292a844ec8a49f10cb63d038ea8dd6d8d7449239fe21377a565"
+        },
+        "real_variance/held3/segment_13.pt": {
+          "bytes": 1074613,
+          "sha256": "fe4068d17cebdaefb4f5fe1a4662194afd747be2590084f9eb9b321d55531553"
+        },
+        "real_variance/held3/segment_14.pt": {
+          "bytes": 1074613,
+          "sha256": "f8f3f495b419f1a3e7906693b91269e987d5e5fb62f66a3df6e3859bf294233b"
+        },
+        "real_variance/held3/segment_15.pt": {
+          "bytes": 1074613,
+          "sha256": "b132d626712eddf8c120baeecaade236a55348a2810e15b2597370a85066acc8"
+        },
+        "real_variance/held3/segment_16.pt": {
+          "bytes": 1074613,
+          "sha256": "2bc1d9c614282807e26cf5ed6674d0815f29179433bcaa2fc62a4a16a5b6ee21"
+        },
+        "real_variance/held3/segment_17.pt": {
+          "bytes": 1074613,
+          "sha256": "fa06b85ca8d5bfa6894e089df5c0106d74c3980d5d1c28aa00cca22c99308b3a"
+        },
+        "real_variance/held3/segment_18.pt": {
+          "bytes": 1074613,
+          "sha256": "5955791bbc5280eeb164219524ad043d3d973f18f1a7b4d17be1e32099bc33d1"
+        },
+        "real_variance/held3/segment_19.pt": {
+          "bytes": 1074613,
+          "sha256": "6e5c0f3269c069dfb83054422b4f1a15b432fd1b327b24a6c311a8226e4c3fbf"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "real_variance-held3-part2.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/real_variance-held3-part2.tar.gz",
+      "bytes": 4958198,
+      "sha256": "7457857c5bf7f6b5a1411cdbf322cb448ebd2cc369665389715e64e31d04d2a6",
+      "contents": {
+        "real_variance/held3/segment_20.pt": {
+          "bytes": 1074613,
+          "sha256": "89982b3938a5ef817b7449487fe1991f8387273705040a677e920799e0623983"
+        },
+        "real_variance/held3/segment_21.pt": {
+          "bytes": 1074613,
+          "sha256": "2b843a6cfb2fd4802c95c85ce82fb4e4afe2362b0acb9f2be34fe7ed84539427"
+        },
+        "real_variance/held3/segment_22.pt": {
+          "bytes": 1074613,
+          "sha256": "beff030027dba8b403775d7be51296a345885eb9a163ecd81f1badf933d8582b"
+        },
+        "real_variance/held3/segment_23.pt": {
+          "bytes": 1074613,
+          "sha256": "97676e30cb7e88f266dea7bc0b1a68757802d816d7164c963f3efd8346284719"
+        },
+        "real_variance/held3/segment_24.pt": {
+          "bytes": 1074613,
+          "sha256": "afae6a21811d00f5f73ff119956351a14013938b493388f6fc6b628c10bb5b69"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "permuted_variance-held3-part1.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/permuted_variance-held3-part1.tar.gz",
+      "bytes": 26319286,
+      "sha256": "dc09cfd85580a350e61b2cbffa9c15e62d2365be46988a605ca20ac3164b7b7b",
+      "contents": {
+        "permuted_variance/held3/result.json": {
+          "bytes": 21405,
+          "sha256": "d59674af35ce2e5f5d7552fe3898b5c97fd567cca06aaad6e45f670b61d2a51f"
+        },
+        "permuted_variance/held3/source_orders.npz": {
+          "bytes": 272094,
+          "sha256": "9198500eb27b8f73df866cd38cbf2d232c0f4cb9ddc9e1f2b0f33c7586221183"
+        },
+        "permuted_variance/held3/split.json": {
+          "bytes": 71057,
+          "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+        },
+        "permuted_variance/held3/selection.json": {
+          "bytes": 87,
+          "sha256": "1afeeb82b2679f0305cf085518cfb71be11b4f03ed114e7035e84116c45ac95b"
+        },
+        "permuted_variance/held3/predictions.npz": {
+          "bytes": 219547,
+          "sha256": "d6077bde08b15f9ad253e98c17457807ee4ad57bb321816f70b647a393d0cea9"
+        },
+        "permuted_variance/held3/selected.pt": {
+          "bytes": 2144721,
+          "sha256": "b8f6ede9cd505f9007e1e3e39fb6aea6ffe79d28d38824e1c050b6041d8a8ab9"
+        },
+        "permuted_variance/held3/progress.pt": {
+          "bytes": 5424125,
+          "sha256": "4762ea08c7b34eee733a1e6a5340ebf3348a84e5e376bf6af92a0326fc37aa91"
+        },
+        "permuted_variance/held3/segment_01.pt": {
+          "bytes": 1074613,
+          "sha256": "fc12563d778b8b77a32674ffe460ecd0303c3efdc2c1f373c130f974577a6113"
+        },
+        "permuted_variance/held3/segment_02.pt": {
+          "bytes": 1074613,
+          "sha256": "49d97f0876cdf8f7b0b8310642cb8532c7c4289966e2e9d5cbb3918c869fde28"
+        },
+        "permuted_variance/held3/segment_03.pt": {
+          "bytes": 1074613,
+          "sha256": "c53108da3e7a9704b725c120b8d3dc10b771d9e761b8d3e8c980130bb130c96f"
+        },
+        "permuted_variance/held3/segment_04.pt": {
+          "bytes": 1074613,
+          "sha256": "0af8fd668d24dff8e014aab3345d3b7a7a75bd99c5f00ec397538fe8ef6376ce"
+        },
+        "permuted_variance/held3/segment_05.pt": {
+          "bytes": 1074613,
+          "sha256": "3fe56325a1a14241315a0aa49fd51031272372f7d746a7c7a14319a3659676d8"
+        },
+        "permuted_variance/held3/segment_06.pt": {
+          "bytes": 1074613,
+          "sha256": "d0d919ce0ba4907d30d4c8e269cb36dc4ea2cf3268ae0dd324ecfa1024926f2b"
+        },
+        "permuted_variance/held3/segment_07.pt": {
+          "bytes": 1074613,
+          "sha256": "30e728a3b4461926ea868f5002a28af676bd0fc3193f0b590db0daa44630b9e7"
+        },
+        "permuted_variance/held3/segment_08.pt": {
+          "bytes": 1074613,
+          "sha256": "83687b4be55e4865e50ed5fac09665b31ff82c37864803ef58d48bd7430ff279"
+        },
+        "permuted_variance/held3/segment_09.pt": {
+          "bytes": 1074613,
+          "sha256": "6c5cae777b0aae618992abfef0e7f6c187cda085d9826fa88fb1fe9614459550"
+        },
+        "permuted_variance/held3/segment_10.pt": {
+          "bytes": 1074613,
+          "sha256": "a6e4b2740a05be86d6e045cf783253d0dd5c4f9d3ce52018c3039c639ca1f90c"
+        },
+        "permuted_variance/held3/segment_11.pt": {
+          "bytes": 1074613,
+          "sha256": "74b244f68ba3cd76b96f95f569b90df98221332271c1a2affb6fee3081792a84"
+        },
+        "permuted_variance/held3/segment_12.pt": {
+          "bytes": 1074613,
+          "sha256": "9caa61e3a932f0c4a79c648543f39bb7f59b2feb28f66652b965786c51320d72"
+        },
+        "permuted_variance/held3/segment_13.pt": {
+          "bytes": 1074613,
+          "sha256": "0600f32ece74412b6426043a19ff5f40c9cbebbb569d45c9291065a231b82463"
+        },
+        "permuted_variance/held3/segment_14.pt": {
+          "bytes": 1074613,
+          "sha256": "d6eaa407f975764a72a51bcfceff8dbec4b81871b471d59fc5f55a3fb92af9ae"
+        },
+        "permuted_variance/held3/segment_15.pt": {
+          "bytes": 1074613,
+          "sha256": "7b74ff77728391d5253afb44b074a224cd8e20804ec414e43ed303d1ced09be8"
+        },
+        "permuted_variance/held3/segment_16.pt": {
+          "bytes": 1074613,
+          "sha256": "a66ad5ce0bc92426121caa91bec78beb42614ea2bb49783c513b495e8c360daa"
+        },
+        "permuted_variance/held3/segment_17.pt": {
+          "bytes": 1074613,
+          "sha256": "2d7bed29eb4d447000fbcb2c260b84655f8864ff32f68bfbc24d548eeb93259c"
+        },
+        "permuted_variance/held3/segment_18.pt": {
+          "bytes": 1074613,
+          "sha256": "dbcfb28d8f892fe41d0efab8bd8ee5a6881128728c6cee5c9f88603266f5560d"
+        },
+        "permuted_variance/held3/segment_19.pt": {
+          "bytes": 1074613,
+          "sha256": "ba7cec91c156bda4215272674dc9ea67e274c4d51b2087947acae758ea9513c4"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "permuted_variance-held3-part2.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/permuted_variance-held3-part2.tar.gz",
+      "bytes": 4958523,
+      "sha256": "df4283728aa4242cba36cd4ffd761dddb61c229b43f9daa99e20c45abec2a673",
+      "contents": {
+        "permuted_variance/held3/segment_20.pt": {
+          "bytes": 1074613,
+          "sha256": "e60330e8cb526105f5d9ecf8014c81eaa83ab46195c9187af498181b4ef4c5fb"
+        },
+        "permuted_variance/held3/segment_21.pt": {
+          "bytes": 1074613,
+          "sha256": "ed9d0d06efc25883e9ff29bf751f377984d7c3a3506e4c1ac2c6161747ab5acc"
+        },
+        "permuted_variance/held3/segment_22.pt": {
+          "bytes": 1074613,
+          "sha256": "76290aa04bf5ba7c42be34d62f8e18899b253183df58aad7b32327d902f8d413"
+        },
+        "permuted_variance/held3/segment_23.pt": {
+          "bytes": 1074613,
+          "sha256": "1621d75e2482b6a95588492ce3b34c744e37b350e6137532c6ca747b0f6a7342"
+        },
+        "permuted_variance/held3/segment_24.pt": {
+          "bytes": 1074613,
+          "sha256": "8e0f320371cd7cfae88b35bf8e3e114080eacc94fd49833c8b680c3dcf25f16d"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "balanced_erm-held4-part1.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/balanced_erm-held4-part1.tar.gz",
+      "bytes": 26320169,
+      "sha256": "7c61e8ac642be63dde3ec1de0b243e8b5ee432ec24822dfc49ed84854f299c49",
+      "contents": {
+        "balanced_erm/held4/result.json": {
+          "bytes": 21415,
+          "sha256": "cf4e4e08fa80bbe2da00a9c67086ac82a641d5ec36f301fbff5ba23836db1ac5"
+        },
+        "balanced_erm/held4/source_orders.npz": {
+          "bytes": 271483,
+          "sha256": "f802c7086252f2bb3d1d6b894c27a8c81e926854b969a1ce5d6790227e81b7fd"
+        },
+        "balanced_erm/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        },
+        "balanced_erm/held4/selection.json": {
+          "bytes": 87,
+          "sha256": "d9311bc057742ceeed9f105ec23b438d40c5bd0b31a9e11bb0402a274e8ae32f"
+        },
+        "balanced_erm/held4/predictions.npz": {
+          "bytes": 219316,
+          "sha256": "c3ba0776c922dbb70a14ee23c0eda3c99da34d4f9f0c0966b95ea690f2fc0fc1"
+        },
+        "balanced_erm/held4/selected.pt": {
+          "bytes": 2144721,
+          "sha256": "10076c19e2f77f49e0d4ebdc5bbedfbb3efe9a831b262aa64e9dec28488e2399"
+        },
+        "balanced_erm/held4/progress.pt": {
+          "bytes": 5424125,
+          "sha256": "e7452b767eb72b40469e181b16f456ad97a592bd0a43931ce6a2adfeea40fdfd"
+        },
+        "balanced_erm/held4/segment_01.pt": {
+          "bytes": 1074549,
+          "sha256": "6b82cad159c46f3cbbf95f86d590e6feafb4d502c115896a89107c90697d1db7"
+        },
+        "balanced_erm/held4/segment_02.pt": {
+          "bytes": 1074549,
+          "sha256": "4076d0d7a5917bc0cb0ea4e832bcb75be3760e02e89fffd40fe3b3008e2c929e"
+        },
+        "balanced_erm/held4/segment_03.pt": {
+          "bytes": 1074549,
+          "sha256": "f5b05d84019038728c349b96ee276e48bf2efbd59f87957aca9f9032b02d8a20"
+        },
+        "balanced_erm/held4/segment_04.pt": {
+          "bytes": 1074549,
+          "sha256": "4f3eb29b95216c340569d8436d52aa2034c49df44381b9bd4888b609f56e522e"
+        },
+        "balanced_erm/held4/segment_05.pt": {
+          "bytes": 1074549,
+          "sha256": "bebfa5a899c7d74f1c906cd679541565069e3cc7f3f8a0b12ad5d3dde6443bd1"
+        },
+        "balanced_erm/held4/segment_06.pt": {
+          "bytes": 1074549,
+          "sha256": "bfdebdd1209862f208425837b895bdccb86dec04a94922ff5f7ac6c9c58a5a25"
+        },
+        "balanced_erm/held4/segment_07.pt": {
+          "bytes": 1074549,
+          "sha256": "250ed0aae2ba59491de4784b75ffbd664ec2170492ca608cbd57fa27ba031ab4"
+        },
+        "balanced_erm/held4/segment_08.pt": {
+          "bytes": 1074549,
+          "sha256": "d57fa4fa2d4b77192470c9d413692286a4e4248052598354e1a1bf65813951a0"
+        },
+        "balanced_erm/held4/segment_09.pt": {
+          "bytes": 1074549,
+          "sha256": "2575479f05e9a528319c34b5360a27fe136ced00ee40581a003f80d4466db919"
+        },
+        "balanced_erm/held4/segment_10.pt": {
+          "bytes": 1074549,
+          "sha256": "c3170a91e48c91606d5c65358cc298138b1fb9b29e8041765e905bbb8287e425"
+        },
+        "balanced_erm/held4/segment_11.pt": {
+          "bytes": 1074549,
+          "sha256": "bd4f328e5fee8c4cd81a437498b9f525d186371c6ef69e64f398abc863e22c69"
+        },
+        "balanced_erm/held4/segment_12.pt": {
+          "bytes": 1074549,
+          "sha256": "5e50698b433554717609df081009e3b57c2147c998313e570f35198379b865e8"
+        },
+        "balanced_erm/held4/segment_13.pt": {
+          "bytes": 1074549,
+          "sha256": "92e5045ce9318533905e9536df8d0366dc28b790c3c298c1f1bd3321c1d31813"
+        },
+        "balanced_erm/held4/segment_14.pt": {
+          "bytes": 1074549,
+          "sha256": "e74ba5020d2be2a4e1d3506eae8f89b6e38b09da11996c74c66f2d9de2b064e5"
+        },
+        "balanced_erm/held4/segment_15.pt": {
+          "bytes": 1074549,
+          "sha256": "0fc09eb577906cd776400958a995bc52d51ab49725d32f3dec3092f0bbe99888"
+        },
+        "balanced_erm/held4/segment_16.pt": {
+          "bytes": 1074549,
+          "sha256": "beee5b6143431f3444ce0d77727e9069bfeb69ccd5d84a1284512b5bab09fb2d"
+        },
+        "balanced_erm/held4/segment_17.pt": {
+          "bytes": 1074549,
+          "sha256": "7dc514758795ee9679d3c32caffd8f52f7467c3bf76be6b3daff4c36194c6b5d"
+        },
+        "balanced_erm/held4/segment_18.pt": {
+          "bytes": 1074549,
+          "sha256": "3fdee95160c6ea9882aafaf6a5cd35d86e69e86fefc3ab138f7bfe0d788959a2"
+        },
+        "balanced_erm/held4/segment_19.pt": {
+          "bytes": 1074549,
+          "sha256": "0d23e1874de81ab25ee4e9107efde5387c3867493532c26190d52ff1d273b97a"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "balanced_erm-held4-part2.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/balanced_erm-held4-part2.tar.gz",
+      "bytes": 4958371,
+      "sha256": "419fedde2a49487bcb0e3c9f27d824ee094f52d26c749211e38bd85fdb2bc6ae",
+      "contents": {
+        "balanced_erm/held4/segment_20.pt": {
+          "bytes": 1074549,
+          "sha256": "89d438492093470d9b984809f134347d30487dd0015a7419873f57f3e82bc72a"
+        },
+        "balanced_erm/held4/segment_21.pt": {
+          "bytes": 1074549,
+          "sha256": "6ce5c1f1a4774e7a85cbd4a3370f910c5a58809cca0b531e2a9efd9a50d14c97"
+        },
+        "balanced_erm/held4/segment_22.pt": {
+          "bytes": 1074549,
+          "sha256": "e4c5d2d05e2bd361435894d0379935c67f1e41b64f124ca1b1ab61859b44a5fd"
+        },
+        "balanced_erm/held4/segment_23.pt": {
+          "bytes": 1074549,
+          "sha256": "f2a4b3c3862e963945eecf3588d78cd10ade2d7b93bc352f44a2434ac3ecadd1"
+        },
+        "balanced_erm/held4/segment_24.pt": {
+          "bytes": 1074549,
+          "sha256": "ce28e9520947536da2b76db5ae8d157885f2e1e9508cfc29225cd83bbd496c06"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "real_variance-held4-part1.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/real_variance-held4-part1.tar.gz",
+      "bytes": 26321603,
+      "sha256": "d436515a85dab6285d87ab0e9218edb85f170efd18a47774c0ecd799cdecb6ff",
+      "contents": {
+        "real_variance/held4/result.json": {
+          "bytes": 21434,
+          "sha256": "2bc768b488c409fe1424556bff67ef66c42b2675609237b1c0ac59f363ec160d"
+        },
+        "real_variance/held4/source_orders.npz": {
+          "bytes": 271483,
+          "sha256": "f802c7086252f2bb3d1d6b894c27a8c81e926854b969a1ce5d6790227e81b7fd"
+        },
+        "real_variance/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        },
+        "real_variance/held4/selection.json": {
+          "bytes": 88,
+          "sha256": "ad53c0bdae46a416f68c04418f238d7d5e65ce531bc8d8cb2c370671baa8f5eb"
+        },
+        "real_variance/held4/predictions.npz": {
+          "bytes": 219255,
+          "sha256": "e9fe536647672468985cf6e09a020e2508a2d56670a9576da8bc964e8322ee28"
+        },
+        "real_variance/held4/selected.pt": {
+          "bytes": 2144721,
+          "sha256": "f9b36c8829fd2b00ecbb448dc190c17ca9af768c4e41b28f08aa9cbdbbbedd57"
+        },
+        "real_variance/held4/progress.pt": {
+          "bytes": 5424317,
+          "sha256": "29efb5e020217a32d9106bd80f9024d88b5982873ea4d25364df9dca803ef56b"
+        },
+        "real_variance/held4/segment_01.pt": {
+          "bytes": 1074549,
+          "sha256": "9826585b4b030d96194254470befc895f83786bbafb295ec2e9b0b4ae1fe9784"
+        },
+        "real_variance/held4/segment_02.pt": {
+          "bytes": 1074549,
+          "sha256": "68c726d59e8c6285ccc77934995a0b5e9cb28065a3d7ebbc0140dfecd1a6cb67"
+        },
+        "real_variance/held4/segment_03.pt": {
+          "bytes": 1074549,
+          "sha256": "9673fd0243943bb98228035cadf03dfb78edc02d3f1131317b49a85344a573a9"
+        },
+        "real_variance/held4/segment_04.pt": {
+          "bytes": 1074549,
+          "sha256": "905727afcdabee3bba463ef6f2246a7f08e4f4e1abbdd1e5f0cc9ca7c97680a6"
+        },
+        "real_variance/held4/segment_05.pt": {
+          "bytes": 1074613,
+          "sha256": "a8862ec2ec6644415640435ba181d8ee68402f19c4e1049eb727b6dc1f69f4a7"
+        },
+        "real_variance/held4/segment_06.pt": {
+          "bytes": 1074613,
+          "sha256": "5d95fca8b670d2a3c562d91df9b7900978894e489c7cd9f7aacb45ac06fbe25a"
+        },
+        "real_variance/held4/segment_07.pt": {
+          "bytes": 1074613,
+          "sha256": "73c6637ac8e6fe19781982df57803620ab4875ce0a7ec0c942e9c76123b3808f"
+        },
+        "real_variance/held4/segment_08.pt": {
+          "bytes": 1074613,
+          "sha256": "70964bce95c392776682928989d7a56fe8059594eca95e3a07541016bd2ded38"
+        },
+        "real_variance/held4/segment_09.pt": {
+          "bytes": 1074613,
+          "sha256": "3a6efe570f9e858d4f4af25c345044cab50d4e76b2ca481cd1d775e0788e9d6d"
+        },
+        "real_variance/held4/segment_10.pt": {
+          "bytes": 1074613,
+          "sha256": "382b49d268f486b1b466c7fb39361a1e72a98028e1a0581645a5514cf1c6437a"
+        },
+        "real_variance/held4/segment_11.pt": {
+          "bytes": 1074613,
+          "sha256": "53710e354da51fedcd1f9758739457547d3195cadc703b8f73ffdc768e776170"
+        },
+        "real_variance/held4/segment_12.pt": {
+          "bytes": 1074613,
+          "sha256": "eb9d69542ee0b7361ad4dd0557a9258157b1e5603342a99d442d14f8d4c4d3b4"
+        },
+        "real_variance/held4/segment_13.pt": {
+          "bytes": 1074613,
+          "sha256": "9f260248c32122fe164ed26a87d9e1a2ac2f3b5e42637f22ccc41e982e792116"
+        },
+        "real_variance/held4/segment_14.pt": {
+          "bytes": 1074613,
+          "sha256": "6b1b4d576255f206c8cb8972e847b8793a795986f8c50c154539d30bed8784d9"
+        },
+        "real_variance/held4/segment_15.pt": {
+          "bytes": 1074613,
+          "sha256": "35f5ada258f9215cf366eee7906db0677f6e25524688dcf36fc9776552601e1a"
+        },
+        "real_variance/held4/segment_16.pt": {
+          "bytes": 1074613,
+          "sha256": "04882ce905ab3915fff98d2cd78c0a17532351cbdd102cddb69c70753842b364"
+        },
+        "real_variance/held4/segment_17.pt": {
+          "bytes": 1074613,
+          "sha256": "f5299497d3434eee1802f5192044d3f65901eb9f30e8a2259dbeaf0b0165e6c3"
+        },
+        "real_variance/held4/segment_18.pt": {
+          "bytes": 1074613,
+          "sha256": "264b5a87ef47ec7c1285d33defeaf982429a14c5cc4e3d64c8864b2316b4db70"
+        },
+        "real_variance/held4/segment_19.pt": {
+          "bytes": 1074613,
+          "sha256": "a3d7d2bf292d78655a5d996b1348bf86e39f02b4509408c1bd9da080af5a13a7"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "real_variance-held4-part2.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/real_variance-held4-part2.tar.gz",
+      "bytes": 4958868,
+      "sha256": "bb7892e97c7a3b802c4756da8df3123c7f8cd2eda74368aae8724bbacdfdcb3b",
+      "contents": {
+        "real_variance/held4/segment_20.pt": {
+          "bytes": 1074613,
+          "sha256": "0b31485ae461b5b776171f4c1aef284d497a485cfcbd4cddc7e8b540ff0c301e"
+        },
+        "real_variance/held4/segment_21.pt": {
+          "bytes": 1074613,
+          "sha256": "004e72375406f4a0db1d7064fb424bb563b4f9d4b7b08c1f1288499b8e48d02c"
+        },
+        "real_variance/held4/segment_22.pt": {
+          "bytes": 1074613,
+          "sha256": "497f2b4f8b4c7b00a4b47ca951a89e7f6a1f3db46460332ed86d0292fc319ec1"
+        },
+        "real_variance/held4/segment_23.pt": {
+          "bytes": 1074613,
+          "sha256": "fcaea858a6af9cb5c0c831f76402f2d976df0127afb2a627818b6f8f3497df2f"
+        },
+        "real_variance/held4/segment_24.pt": {
+          "bytes": 1074613,
+          "sha256": "fdfc49a9be2e1e7cee1d0a44ff53d740621ffde243ca42fff276fb0dcee65994"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "permuted_variance-held4-part1.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/permuted_variance-held4-part1.tar.gz",
+      "bytes": 26321027,
+      "sha256": "dbe29d4887e2913ff49ff5f6eed42bd612a54305e72e84d5dfbf38220ab2ac92",
+      "contents": {
+        "permuted_variance/held4/result.json": {
+          "bytes": 21395,
+          "sha256": "0d2183a585097df40265ae936dea48da34f16c17079760d8a90192fbadd84d99"
+        },
+        "permuted_variance/held4/source_orders.npz": {
+          "bytes": 271483,
+          "sha256": "f802c7086252f2bb3d1d6b894c27a8c81e926854b969a1ce5d6790227e81b7fd"
+        },
+        "permuted_variance/held4/split.json": {
+          "bytes": 71057,
+          "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+        },
+        "permuted_variance/held4/selection.json": {
+          "bytes": 88,
+          "sha256": "dde526c96f529850b8dffa80a97f36f572d7ba72bc1d4f0e1db56b568f94d7a3"
+        },
+        "permuted_variance/held4/predictions.npz": {
+          "bytes": 219346,
+          "sha256": "5c1317de485851c568b4d02e165841699ec46abbb96db232cabea07f134a9c05"
+        },
+        "permuted_variance/held4/selected.pt": {
+          "bytes": 2144721,
+          "sha256": "ebcbe509c55253a7e6553645a54f84d6c36f5836e1464a36d8d6e101df24e2f6"
+        },
+        "permuted_variance/held4/progress.pt": {
+          "bytes": 5424125,
+          "sha256": "379a34ac035c4de323b0300a20e5f71963677c9ca5e08b837e47431cf2b9eb0b"
+        },
+        "permuted_variance/held4/segment_01.pt": {
+          "bytes": 1074613,
+          "sha256": "88ae3c6abc44b4421d70f34991245d8490c210f36b6a7e38c477ef97a27fc3b8"
+        },
+        "permuted_variance/held4/segment_02.pt": {
+          "bytes": 1074613,
+          "sha256": "e61a66fc348774ea2709e3d8886a73f3c3fb91b6763b102c8d8fc411aee3e543"
+        },
+        "permuted_variance/held4/segment_03.pt": {
+          "bytes": 1074613,
+          "sha256": "9050bc11ae75ff70d507b937c625735aa4e1be0accc74423f20bf7c116c72d35"
+        },
+        "permuted_variance/held4/segment_04.pt": {
+          "bytes": 1074613,
+          "sha256": "8880b9df83f605bdfee1bcf32276bda6736792b0a02d350b133477f8ae31904c"
+        },
+        "permuted_variance/held4/segment_05.pt": {
+          "bytes": 1074613,
+          "sha256": "a2c21c37e4a3fde0e1a8bd235ff9ab00e1cefeaa73218d707a3d7804b3d7d663"
+        },
+        "permuted_variance/held4/segment_06.pt": {
+          "bytes": 1074613,
+          "sha256": "fa801630f895d27a913604a812ef4d66264f9182dd45ad260a0c5f9a9e94fe43"
+        },
+        "permuted_variance/held4/segment_07.pt": {
+          "bytes": 1074613,
+          "sha256": "2eb907e9aa4ea6ad8db649dabe9fdb748f9960daae012ac286d8969b2803e458"
+        },
+        "permuted_variance/held4/segment_08.pt": {
+          "bytes": 1074613,
+          "sha256": "0e5075e485e224c3bee3a4a3d42858cbd2e209afa3db86338ee3d9dd6ac94fab"
+        },
+        "permuted_variance/held4/segment_09.pt": {
+          "bytes": 1074613,
+          "sha256": "f5359f62b8cf61192d53cde5b9d4b740baf8623e19d7a3fd999baabed5374bd6"
+        },
+        "permuted_variance/held4/segment_10.pt": {
+          "bytes": 1074613,
+          "sha256": "70ddf9ebb78f3391e23614af0cb0314c686079086c7c1d2ff10b6a3b599cfc74"
+        },
+        "permuted_variance/held4/segment_11.pt": {
+          "bytes": 1074613,
+          "sha256": "8f30717cc4e8f8b83a031ad3568bb525aff0522612d062fb33deacfba6558b5c"
+        },
+        "permuted_variance/held4/segment_12.pt": {
+          "bytes": 1074613,
+          "sha256": "92c7043a2903ece9b00e1391c88b283b91632a6964dd4821ce70bafa1c8b372d"
+        },
+        "permuted_variance/held4/segment_13.pt": {
+          "bytes": 1074613,
+          "sha256": "6cb1c9721224e6de3bede3d800afdf79a9dc64deb344de81b9dbfe0e1e8066aa"
+        },
+        "permuted_variance/held4/segment_14.pt": {
+          "bytes": 1074613,
+          "sha256": "9fa4e36dccdb9553c07d2638239aefcdca3516b7861db6258a57cfa5198ad2d7"
+        },
+        "permuted_variance/held4/segment_15.pt": {
+          "bytes": 1074613,
+          "sha256": "25eb197086a7ce199e9301e5111a61bbebe898d832759ff2dfcff47dae6dda5c"
+        },
+        "permuted_variance/held4/segment_16.pt": {
+          "bytes": 1074613,
+          "sha256": "3e445ee89d810d4d7938137b2cbe5bf94f0b9c1b10831b8e924abe4940c4a0ee"
+        },
+        "permuted_variance/held4/segment_17.pt": {
+          "bytes": 1074613,
+          "sha256": "055fcb4dbcf3e2584c5c474a31b2d44b988ad214f676aafeeb441fc72d04ad98"
+        },
+        "permuted_variance/held4/segment_18.pt": {
+          "bytes": 1074613,
+          "sha256": "c8e95f4fd2be29923d5a9e3ab4694819830b2d8e3f56862195df33a789bbb3f3"
+        },
+        "permuted_variance/held4/segment_19.pt": {
+          "bytes": 1074613,
+          "sha256": "65e0322cc81bbbd339fc82c7eebe42253f43ebd0739b7aefb83a8e41d46bde12"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "permuted_variance-held4-part2.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/permuted_variance-held4-part2.tar.gz",
+      "bytes": 4958845,
+      "sha256": "b9bb142c306e08da14fe9ea1e6e2bc5f4297b0f5e9247336f2ecae671accb4f9",
+      "contents": {
+        "permuted_variance/held4/segment_20.pt": {
+          "bytes": 1074613,
+          "sha256": "65837e9b7fa83015a1dbcf49feb374dcd96096f0f672ebacbd874f22a0369313"
+        },
+        "permuted_variance/held4/segment_21.pt": {
+          "bytes": 1074613,
+          "sha256": "331561a90f4fdfda12ed02a2495be3fa8eb5b878123852ab12c0dcbe05db3efa"
+        },
+        "permuted_variance/held4/segment_22.pt": {
+          "bytes": 1074613,
+          "sha256": "f5f8e9adf4bf391e95de31598f475cebb6d9a8487e22169de0855b327b3c09ef"
+        },
+        "permuted_variance/held4/segment_23.pt": {
+          "bytes": 1074613,
+          "sha256": "2b697756c7965d8361224d45e1990e985d598fdcd777d53054f5138b362f9dc1"
+        },
+        "permuted_variance/held4/segment_24.pt": {
+          "bytes": 1074613,
+          "sha256": "1ee922cdefb275b318a8933d713cb4812007d2b18bccd3c680d35fc0477d5fd7"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "partial-metadata-02.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/partial-metadata-02.tar.gz",
+      "bytes": 40774,
+      "sha256": "2a27e4beaba72fd70493bef51f739505ea432820adf66073625ff2823d40aa4d",
+      "contents": {
+        "runs/identity.json": {
+          "bytes": 1860,
+          "sha256": "f172d4ac9efc3936d87f9d0cf753c3581d7fca18501db012a5aa2675f1b1d9df"
+        },
+        "runs/protocol.json": {
+          "bytes": 3909,
+          "sha256": "49bbf677db2312372335c67311fb54d8bd910aba2b9dba621bd523d1ca7d7eb2"
+        },
+        "runs/BASELINE_INDEX.json": {
+          "bytes": 3507,
+          "sha256": "9bbb07afe7a18985e3fd45fb82271e4fa12d80023d579eb7d7d0d348879b8718"
+        },
+        "runs/LAUNCH.json": {
+          "bytes": 3776,
+          "sha256": "8cab61b96519873e6a2610359051357e60020169391fcb1400429c20ed769ea3"
+        },
+        "tools/source_fishr.py": {
+          "bytes": 4165,
+          "sha256": "e9db16475fda10bca91d5393fac7d3d145230231fcad6a9f060aa994587cb3d0"
+        },
+        "tools/linear_gradient_variance.py": {
+          "bytes": 1647,
+          "sha256": "60148956ada64c3caa37981d778bea3692208be5bfcf24ca3566a2861a2f45a7"
+        },
+        "tools/audit_source_fishr.py": {
+          "bytes": 4077,
+          "sha256": "792131861b28acb8e0feef59b351314c5b454f4e0f5d2fa66776de207440dd34"
+        },
+        "tools/audit_source_sam.py": {
+          "bytes": 4355,
+          "sha256": "1e3fd9af1486043b9d1260cb64c9734f949f5d88672dae28b4acd62335d0ddfb"
+        },
+        "tools/audit_temporal_scale.py": {
+          "bytes": 4369,
+          "sha256": "6962ff8f6b625181ec57c4113c6e2e3580cf75a492e4d6238cdfdcd19727eddf"
+        },
+        "tools/test_source_fishr.py": {
+          "bytes": 4728,
+          "sha256": "ebd53b9e9f3d361feb77f4e4acb52fff8d29ae2cbee95f18585cf7fa0ea076e2"
+        },
+        "tools/swad_source_pilot.py": {
+          "bytes": 15906,
+          "sha256": "65432414612a7ebe73742a97804c73077e942271fd077b342a5353637da73cdc"
+        },
+        "tools/swad_core.py": {
+          "bytes": 9030,
+          "sha256": "b9462f2d616223c328e8c10c44ef1857517e884ff6599b4536cbd1a0221592a4"
+        },
+        "tools/circular_signal.py": {
+          "bytes": 15962,
+          "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+        },
+        "tools/audit_restored.py": {
+          "bytes": 8247,
+          "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+        },
+        "tools/full_view_heads.py": {
+          "bytes": 14594,
+          "sha256": "129f5bae2141a6e3b2071b47ef40da5149583a5eb6e36fe6a4da533b7579f7f6"
+        },
+        "tools/source_fishr_pilot.py": {
+          "bytes": 13473,
+          "sha256": "009df7b19877792329a3102d2db5fdf7af0299f6f03fa4ddd8763fb305ac2329"
+        },
+        "tools/archive_source_fishr.py": {
+          "bytes": 10418,
+          "sha256": "9c74c50ba96b3d34cf31148128d0443309f91d84139925cb0285bdfb39a865da"
+        },
+        "provenance/COST.json": {
+          "bytes": 3268,
+          "sha256": "d7e55ddeacf27134cef47d771c644874269f1d687d9bee5a7b60d00b6bb19db7"
+        },
+        "provenance/TESTS.json": {
+          "bytes": 637,
+          "sha256": "364faecabc5c873e6fc8894b0ed95cba3c647333d3ede0ca0b18226087716486"
+        },
+        "provenance/RESTORE.md": {
+          "bytes": 1156,
+          "sha256": "11a16be4c24055a0ca252a2c6691133fe8af0f8b40c299c9d9abfb0a4bd4df59"
+        },
+        "provenance/PARTIAL_AUDIT_01.json": {
+          "bytes": 2967,
+          "sha256": "5ffd5842ebbc35bc0c676891b4482aa6ccf61753423d49419781fa3e57cefcc6"
+        },
+        "provenance/PARTIAL_AUDIT_02.json": {
+          "bytes": 3428,
+          "sha256": "705131b89938b6daf0e29db15ae87efa0faa392560c4e9569f76260f6e2e44fe"
+        },
+        "provenance/RECOVERY_02.json": {
+          "bytes": 3383,
+          "sha256": "13623fc4ce63e5ecd56f435b03003869622ddc181e9080d8721d7b88c82f08e9"
+        },
+        "audit_partial.py": {
+          "bytes": 3408,
+          "sha256": "b4ccd15a17d6be3ddcf6f6ea85d789376383032a91f4242ac5ff1b6c4c8c0e92"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    },
+    {
+      "name": "recovery-02.tar.gz",
+      "path": "/workspace/uwb-fishr-final-20261004/recovery-02.tar.gz",
+      "bytes": 10218323,
+      "sha256": "e475d2704fc8da2c0adc00ae1ac91fa0c8e76f9cf68dc794477ba40a86b06f1f",
+      "contents": {
+        "balanced_erm-held5/segment_05.pt": {
+          "bytes": 1074549,
+          "sha256": "97e2b171bcc920c74a62e0304afe607a5ca0450f5ecf17bbdd357a93b08c503d"
+        },
+        "balanced_erm-held5/segment_02.pt": {
+          "bytes": 1074549,
+          "sha256": "88649e3c85ad87396db911acc1a4c7282d3ad5ac4637199805d5245e194b1939"
+        },
+        "balanced_erm-held5/segment_04.pt": {
+          "bytes": 1074549,
+          "sha256": "91dcdac7f9fdfe8ca1a62a5c123e23c1532a51dd5b7034e42b0853d30a6ff28f"
+        },
+        "balanced_erm-held5/progress.json": {
+          "bytes": 576,
+          "sha256": "1e1f01f59cbe9b2e3a5164e3f2dc0c4db3637a9e9d6da7210ccf54fd4d510405"
+        },
+        "balanced_erm-held5/segment_01.pt": {
+          "bytes": 1074549,
+          "sha256": "5abcedd00c7923dbc48f7318572d403be0c258f630598893689f0f4fd7eac8eb"
+        },
+        "balanced_erm-held5/progress.pt": {
+          "bytes": 5418557,
+          "sha256": "bfed6c9bb8728fb82a1dcc6319188d73a2dfaf98e9fb0ce7f6d3e5cc7dab991b"
+        },
+        "balanced_erm-held5/split.json": {
+          "bytes": 71057,
+          "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+        },
+        "balanced_erm-held5/segment_03.pt": {
+          "bytes": 1074549,
+          "sha256": "9042bb0652a09808bf8378af681629e9b42ab3267abda3044cf4884b0c33e415"
+        },
+        "balanced_erm-held5/source_orders.npz": {
+          "bytes": 270123,
+          "sha256": "84d71f6191623979e91bfc353b09c0cbd2c22f9d26db047b32f45026a00507a6"
+        },
+        "RECOVERY_02.json": {
+          "bytes": 3383,
+          "sha256": "13623fc4ce63e5ecd56f435b03003869622ddc181e9080d8721d7b88c82f08e9"
+        },
+        "identity.json": {
+          "bytes": 1860,
+          "sha256": "f172d4ac9efc3936d87f9d0cf753c3581d7fca18501db012a5aa2675f1b1d9df"
+        },
+        "protocol.json": {
+          "bytes": 3909,
+          "sha256": "49bbf677db2312372335c67311fb54d8bd910aba2b9dba621bd523d1ca7d7eb2"
+        }
+      },
+      "authenticated_redownload_and_all_members_verified": true
+    }
+  ],
+  "chunks": [
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part01",
+      "archive": "balanced_erm-held3-part1.tar.gz",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "1304e7b40e115d75c7e11e9397169ac44254d69daf22f71f0a648bb14cdfb20a",
+      "id": "1JxuIFLKKmF0_heEaN5tHRb94dOaYbiPd",
+      "url": "https://drive.google.com/file/d/1JxuIFLKKmF0_heEaN5tHRb94dOaYbiPd/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/810abc8a-b41a-43ba-af74-101f7f0737af/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part02",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part02",
+      "archive": "balanced_erm-held3-part1.tar.gz",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "a3bb2c547aa7ee1b442ee0dbda7b20c3658c7e8534d4269c0c36146a40af98eb",
+      "id": "1B1aaz8F_vaa-BjziC7QgVsqwIwZMBC0z",
+      "url": "https://drive.google.com/file/d/1B1aaz8F_vaa-BjziC7QgVsqwIwZMBC0z/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/2a737b56-efcd-41f8-be65-185898bee1ca/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part02.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part03",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part03",
+      "archive": "balanced_erm-held3-part1.tar.gz",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "c5bbc391ffdf1fbb4a695add982b933f955e740edcac0b6f54306200e26cddb3",
+      "id": "1UfBR2k_nG-C-AIHfG0NYZcB-DOT_Ysf1",
+      "url": "https://drive.google.com/file/d/1UfBR2k_nG-C-AIHfG0NYZcB-DOT_Ysf1/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/046b6f57-fbff-4e12-ac91-a92e26cc7661/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part03.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part04",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part04",
+      "archive": "balanced_erm-held3-part1.tar.gz",
+      "part": 4,
+      "bytes": 4297038,
+      "sha256": "587be26b77c190fc372ccffe584777d84482203e79d5f167fc6e9031506b08b6",
+      "id": "1vxO7VIXRCmY6HVf3wqNhAwKwoFyyIVij",
+      "url": "https://drive.google.com/file/d/1vxO7VIXRCmY6HVf3wqNhAwKwoFyyIVij/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/c8706f26-52de-46b0-9b0d-8cc80d00b195/uwb-fishr-20261004-balanced_erm-held3-part1.tar.gz.part04.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held3-part2.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held3-part2.tar.gz.part01",
+      "archive": "balanced_erm-held3-part2.tar.gz",
+      "part": 1,
+      "bytes": 4957932,
+      "sha256": "738ba443157b3abd714879ab0d7c479c39360754adca987df479d5a271ff01a0",
+      "id": "1W4jIGgUV3dV6DYhG8FpaDawr_PZ8UFHO",
+      "url": "https://drive.google.com/file/d/1W4jIGgUV3dV6DYhG8FpaDawr_PZ8UFHO/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/f2e56368-1cc7-48b3-9156-f2fd2daa2acf/uwb-fishr-20261004-balanced_erm-held3-part2.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part01",
+      "archive": "real_variance-held3-part1.tar.gz",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "3015a048c0446e1c77973450fe4eee9f1827a9b6f82bf5e6adff6a8fdd94ce20",
+      "id": "113CW0_-WyaSNKxa1KObg1y45Or_1ENRT",
+      "url": "https://drive.google.com/file/d/113CW0_-WyaSNKxa1KObg1y45Or_1ENRT/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/ac4faf28-7811-4fca-a454-fddbcb37f140/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part02",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part02",
+      "archive": "real_variance-held3-part1.tar.gz",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "a4c76d84352ca2eb97e949f6ef40c15ec98f6bb64f2babc77b76abe49bbf5d56",
+      "id": "1SvWg7oI2jPuyq1L58sDjbAnhlnCLZCHh",
+      "url": "https://drive.google.com/file/d/1SvWg7oI2jPuyq1L58sDjbAnhlnCLZCHh/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/9e2179a2-74fe-466f-98fd-f2c3097aec40/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part02.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part03",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part03",
+      "archive": "real_variance-held3-part1.tar.gz",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "563793caf1931107b41d3077f8d7436730dd704a0ee8dbb0ac073d802b082b8c",
+      "id": "1q0exyHATfYbJaoc0YXAzjnQBEdg7d0_S",
+      "url": "https://drive.google.com/file/d/1q0exyHATfYbJaoc0YXAzjnQBEdg7d0_S/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/579e735d-ac27-4058-ae3f-f1bec785037a/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part03.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part04",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part04",
+      "archive": "real_variance-held3-part1.tar.gz",
+      "part": 4,
+      "bytes": 4297397,
+      "sha256": "8edb105d3988e98ea0b2a1c528d794299b6dfe8dd0e37cec242030fe91832756",
+      "id": "1HAQh71fkZA8B7_7BvpM69RRM42bzBRzY",
+      "url": "https://drive.google.com/file/d/1HAQh71fkZA8B7_7BvpM69RRM42bzBRzY/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/654b59e4-5c7a-4316-8e1d-0f8ec7da4911/uwb-fishr-20261004-real_variance-held3-part1.tar.gz.part04.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held3-part2.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held3-part2.tar.gz.part01",
+      "archive": "real_variance-held3-part2.tar.gz",
+      "part": 1,
+      "bytes": 4958198,
+      "sha256": "7457857c5bf7f6b5a1411cdbf322cb448ebd2cc369665389715e64e31d04d2a6",
+      "id": "1ZjQepMR69DtAGASB2fOOM3SnZ8M7YaS4",
+      "url": "https://drive.google.com/file/d/1ZjQepMR69DtAGASB2fOOM3SnZ8M7YaS4/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/072b9543-8809-4b7b-9b2c-07d9d440d5c9/uwb-fishr-20261004-real_variance-held3-part2.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part01",
+      "archive": "permuted_variance-held3-part1.tar.gz",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "0ed9967322b172bc185514ef932fd11bf3ad2cd3646344e89650f77e1d60359a",
+      "id": "1GVlkl6nxJDcSVc5kL0eO6nEVBxqDoKXn",
+      "url": "https://drive.google.com/file/d/1GVlkl6nxJDcSVc5kL0eO6nEVBxqDoKXn/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/0a29576c-744e-43a1-b3b3-8367294a8970/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part02",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part02",
+      "archive": "permuted_variance-held3-part1.tar.gz",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "9679315101189eaa217e2b30b36f791be6a9bcf31a1376fc3697d8852108949e",
+      "id": "1mFx49GaOvzEP6K8tHKaJT6sFxyZONSi2",
+      "url": "https://drive.google.com/file/d/1mFx49GaOvzEP6K8tHKaJT6sFxyZONSi2/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/3ffe22b4-7a24-4c27-904e-3f6667894cef/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part02.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part03",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part03",
+      "archive": "permuted_variance-held3-part1.tar.gz",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "8a82d956825f4ab3e7eaeb0ab78c9695cb0ea053b6edebc903ee79e519e850b4",
+      "id": "13_q_IblohT52iz2bQZgfYV5xs1Vaw16p",
+      "url": "https://drive.google.com/file/d/13_q_IblohT52iz2bQZgfYV5xs1Vaw16p/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/cac6ae03-467e-46b3-a8e9-2f62e8be3317/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part03.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part04",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part04",
+      "archive": "permuted_variance-held3-part1.tar.gz",
+      "part": 4,
+      "bytes": 4299190,
+      "sha256": "0cd99643dd4cf4b126e1fb1bb87552f7288d9090feb80b51cb6e6085c482e533",
+      "id": "1cqlv5fCaWOq2CpgXNY0WeMkGCAP6xUKo",
+      "url": "https://drive.google.com/file/d/1cqlv5fCaWOq2CpgXNY0WeMkGCAP6xUKo/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/309357cc-70f5-4659-87a4-01f596995e8d/uwb-fishr-20261004-permuted_variance-held3-part1.tar.gz.part04.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held3-part2.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held3-part2.tar.gz.part01",
+      "archive": "permuted_variance-held3-part2.tar.gz",
+      "part": 1,
+      "bytes": 4958523,
+      "sha256": "df4283728aa4242cba36cd4ffd761dddb61c229b43f9daa99e20c45abec2a673",
+      "id": "1CrIkDOyHJDFsLRu3jbxLuuZs13D9l7Al",
+      "url": "https://drive.google.com/file/d/1CrIkDOyHJDFsLRu3jbxLuuZs13D9l7Al/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/033ec869-9a75-471b-ad8e-4385ed3f9e0e/uwb-fishr-20261004-permuted_variance-held3-part2.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part01",
+      "archive": "balanced_erm-held4-part1.tar.gz",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "14d8cc701e68e49ca7e574087286d5d96523880010f207b24154907c8b9c6334",
+      "id": "1_RqxBaBofc1B3MRKVT_HEfM2rmXoS9kw",
+      "url": "https://drive.google.com/file/d/1_RqxBaBofc1B3MRKVT_HEfM2rmXoS9kw/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/21c0c5e1-bf56-4140-bf75-2610fa948fd7/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part02",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part02",
+      "archive": "balanced_erm-held4-part1.tar.gz",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "a6f638289b271b3c723ef28bbbddc1a0a9fb2720d418ba4c0eaaadcfc9dddfc1",
+      "id": "1WhuedpfeCjkVpHd_Mk1qCXZr8Req6qM7",
+      "url": "https://drive.google.com/file/d/1WhuedpfeCjkVpHd_Mk1qCXZr8Req6qM7/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/68008f21-5206-4ced-a900-ec6972d97228/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part02.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part03",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part03",
+      "archive": "balanced_erm-held4-part1.tar.gz",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "717a4fb07feb89cceee2b5f2651400cbf82953dd3346ad4a70c439a408d9ca50",
+      "id": "1jG1S6doEJoElfhJO0_XQ6R5HZ4-oqlvE",
+      "url": "https://drive.google.com/file/d/1jG1S6doEJoElfhJO0_XQ6R5HZ4-oqlvE/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/18fd8b34-5097-4a50-aa80-d62e3c2f45af/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part03.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part04",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part04",
+      "archive": "balanced_erm-held4-part1.tar.gz",
+      "part": 4,
+      "bytes": 4300073,
+      "sha256": "51db8d6de30d18f5380ea4a1efc93641deca70e49f13fe0ca6f0567d95fdf403",
+      "id": "1QA4ywfR9kXc2IvODMaVT7jsjF8HTV0Tw",
+      "url": "https://drive.google.com/file/d/1QA4ywfR9kXc2IvODMaVT7jsjF8HTV0Tw/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/a115d129-be7f-4c68-ae13-9f501d96f5dd/uwb-fishr-20261004-balanced_erm-held4-part1.tar.gz.part04.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-balanced_erm-held4-part2.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-balanced_erm-held4-part2.tar.gz.part01",
+      "archive": "balanced_erm-held4-part2.tar.gz",
+      "part": 1,
+      "bytes": 4958371,
+      "sha256": "419fedde2a49487bcb0e3c9f27d824ee094f52d26c749211e38bd85fdb2bc6ae",
+      "id": "11iGSEqPGLp04ZJWWQ5LD_CJDN2M7UfrW",
+      "url": "https://drive.google.com/file/d/11iGSEqPGLp04ZJWWQ5LD_CJDN2M7UfrW/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/50d661d3-9fcf-48bf-b36a-253a4be49d29/uwb-fishr-20261004-balanced_erm-held4-part2.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part01",
+      "archive": "real_variance-held4-part1.tar.gz",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "f2335eea0d4fdffe9515dd371e45c5ed8f0d1ca698b5164c4b586f0801d41450",
+      "id": "1rM-w6FFf_5wYk052kXaX0QLlolrbtPua",
+      "url": "https://drive.google.com/file/d/1rM-w6FFf_5wYk052kXaX0QLlolrbtPua/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/9794b4dd-8544-494f-96b8-c4c21c8b3ec9/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part02",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part02",
+      "archive": "real_variance-held4-part1.tar.gz",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "4a09639941782b2af3cfa63c0dbc9e9214285030ad691fe03b800ce8a7ed2a67",
+      "id": "1MmJGCYLhO3jUkpew6j7Jb3TJ9aFU0pja",
+      "url": "https://drive.google.com/file/d/1MmJGCYLhO3jUkpew6j7Jb3TJ9aFU0pja/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/050c0c17-3285-43a8-84e8-6e8f5a8a856f/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part02.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part03",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part03",
+      "archive": "real_variance-held4-part1.tar.gz",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "be60762f004ebde65030940c6544b05be0b000d0cbbe91a7a28ab5bd51b20c8d",
+      "id": "1clOZl56d7S4hi8d1Z0OZBUVQ9J182t4z",
+      "url": "https://drive.google.com/file/d/1clOZl56d7S4hi8d1Z0OZBUVQ9J182t4z/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/7d9627b5-b2fe-471c-ab1f-a47b86f36fb5/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part03.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part04",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part04",
+      "archive": "real_variance-held4-part1.tar.gz",
+      "part": 4,
+      "bytes": 4301507,
+      "sha256": "1567d0e646716274db1041c37b716c2a92c0b2884b1f0ca8184052806f6af406",
+      "id": "1q_8UzefMmI4U-FJVMNS8CVBiNJEFS7mE",
+      "url": "https://drive.google.com/file/d/1q_8UzefMmI4U-FJVMNS8CVBiNJEFS7mE/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/89b7c485-ac76-4dff-ad18-d55f4d506b66/uwb-fishr-20261004-real_variance-held4-part1.tar.gz.part04.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-real_variance-held4-part2.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-real_variance-held4-part2.tar.gz.part01",
+      "archive": "real_variance-held4-part2.tar.gz",
+      "part": 1,
+      "bytes": 4958868,
+      "sha256": "bb7892e97c7a3b802c4756da8df3123c7f8cd2eda74368aae8724bbacdfdcb3b",
+      "id": "1OV1k_bICk_1NvlMLVCANKruMaSyL84zX",
+      "url": "https://drive.google.com/file/d/1OV1k_bICk_1NvlMLVCANKruMaSyL84zX/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/5b53e852-3552-4ebd-a10f-f9eebbb7ab9a/uwb-fishr-20261004-real_variance-held4-part2.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part01",
+      "archive": "permuted_variance-held4-part1.tar.gz",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "06efe20777a8f0f31a72423448db578f0472ce9eaefe1d1fc2e80640857a7f89",
+      "id": "1eBAnQajRoiu6KATklGSssQwV6TVcvr_h",
+      "url": "https://drive.google.com/file/d/1eBAnQajRoiu6KATklGSssQwV6TVcvr_h/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/cc83fd2e-8622-4672-a8da-95fc8296d5c8/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part02",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part02",
+      "archive": "permuted_variance-held4-part1.tar.gz",
+      "part": 2,
+      "bytes": 7340032,
+      "sha256": "1afc06d0396548c0395caec394930f00a8216a23f9d4dcf5467b070e43c0746b",
+      "id": "1Y4aDAEHigh2pFspnzlYHdJFq3RZCxCX_",
+      "url": "https://drive.google.com/file/d/1Y4aDAEHigh2pFspnzlYHdJFq3RZCxCX_/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/87cb29ce-e999-4e7a-a0e3-654767231f50/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part02.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part03",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part03",
+      "archive": "permuted_variance-held4-part1.tar.gz",
+      "part": 3,
+      "bytes": 7340032,
+      "sha256": "3b0976384291da100e8d91e521e5651ab4154fc3794fa741a45340b9164dee5f",
+      "id": "1hw4Hr_Xh3E0_UI722DR0gQtWytunNJq9",
+      "url": "https://drive.google.com/file/d/1hw4Hr_Xh3E0_UI722DR0gQtWytunNJq9/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/71459839-ad95-4be8-9295-dfe33f27673f/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part03.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part04",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part04",
+      "archive": "permuted_variance-held4-part1.tar.gz",
+      "part": 4,
+      "bytes": 4300931,
+      "sha256": "797156583e0207c80fde1046850862ce2cb81d9d265b5aa727128190826fa865",
+      "id": "1Vml4gA-pj0-U3B4GgN5TLrOO28BQ-BTO",
+      "url": "https://drive.google.com/file/d/1Vml4gA-pj0-U3B4GgN5TLrOO28BQ-BTO/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/e5f552bf-5762-41a0-be0e-dcb8e4399c2e/uwb-fishr-20261004-permuted_variance-held4-part1.tar.gz.part04.bin"
+    },
+    {
+      "name": "uwb-fishr-20261004-permuted_variance-held4-part2.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-permuted_variance-held4-part2.tar.gz.part01",
+      "archive": "permuted_variance-held4-part2.tar.gz",
+      "part": 1,
+      "bytes": 4958845,
+      "sha256": "b9bb142c306e08da14fe9ea1e6e2bc5f4297b0f5e9247336f2ecae671accb4f9",
+      "id": "1gtGeAmTO9HvzJJBbjkS98Vx8KPH3bEu3",
+      "url": "https://drive.google.com/file/d/1gtGeAmTO9HvzJJBbjkS98Vx8KPH3bEu3/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/89f585be-f486-455f-8190-065d947254af/uwb-fishr-20261004-permuted_variance-held4-part2.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-partial-metadata-02.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-partial-metadata-02.tar.gz.part01",
+      "archive": "partial-metadata-02.tar.gz",
+      "part": 1,
+      "bytes": 40774,
+      "sha256": "2a27e4beaba72fd70493bef51f739505ea432820adf66073625ff2823d40aa4d",
+      "id": "1m9aqdiaZZO8KilfL0phmtPDG6C-zFmX6",
+      "url": "https://drive.google.com/file/d/1m9aqdiaZZO8KilfL0phmtPDG6C-zFmX6/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/bc60e5c9-27ac-45dc-8be8-617f0efa269d/uwb-fishr-20261004-partial-metadata-02.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-recovery-02.tar.gz.part01",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-recovery-02.tar.gz.part01",
+      "archive": "recovery-02.tar.gz",
+      "part": 1,
+      "bytes": 7340032,
+      "sha256": "29a79a9bf601292b8f9bc724ac4bb7b93e12eb7afdf6cd8a9e44f8f2c72eef5c",
+      "id": "1oS5YCWHBcdFB6Ci88Lyg_YPOuLg519yn",
+      "url": "https://drive.google.com/file/d/1oS5YCWHBcdFB6Ci88Lyg_YPOuLg519yn/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/4b906687-3c89-41e0-8fa7-2f8aafe65603/uwb-fishr-20261004-recovery-02.tar.gz.part01"
+    },
+    {
+      "name": "uwb-fishr-20261004-recovery-02.tar.gz.part02",
+      "path": "/workspace/uwb-fishr-final-transport-20261004/uwb-fishr-20261004-recovery-02.tar.gz.part02",
+      "archive": "recovery-02.tar.gz",
+      "part": 2,
+      "bytes": 2878291,
+      "sha256": "fe26ee605e72687ea985087c4f481b09265fbb031d7e5a1459d78c475f60821f",
+      "id": "1m6Q05pxjez_HCKc0GbT4SJLZZX-BtGxD",
+      "url": "https://drive.google.com/file/d/1m6Q05pxjez_HCKc0GbT4SJLZZX-BtGxD/view?usp=drivesdk",
+      "verified": true,
+      "authenticated_redownload": true,
+      "private_owner_only_metadata_verified": true,
+      "download_path": "/workspace/attachments/961d9752-602f-4e42-919f-af2707f473fb/uwb-fishr-20261004-recovery-02.tar.gz.part02.bin"
+    }
+  ],
+  "bytes": 197926546,
+  "members": 222,
+  "training_members": 186,
+  "training_epochs": 144,
+  "completed_new_trajectories": 6,
+  "recovery_evidence_members": 12,
+  "interrupted_checkpoint_epoch": 5,
+  "interrupted_checkpoint_arm": "balanced_erm",
+  "interrupted_checkpoint_held": 5,
+  "previous_replay_receipt": "RECOVERY_REPLAY_01.json",
+  "reused_verified_objects": 20,
+  "new_verified_objects": 13,
+  "complete_experiment_backup": false,
+  "parent_folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "all_private_owner_only": true,
+  "max_transfer_concurrency": 3
+}

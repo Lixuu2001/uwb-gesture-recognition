@@ -1,0 +1,91 @@
+{
+  "state": "pass",
+  "scope": "completed_timeMIL_read_only",
+  "scores": {
+    "timemil": 0.9866666666666667,
+    "gap": 0.9841666666666667
+  },
+  "arms": {
+    "timemil": {
+      "selected_epoch": 41,
+      "optimizer_steps": 4736,
+      "all_validation_logits_replayed": 1000,
+      "all_diagnostic_logits_replayed": 1200,
+      "optimizer_rng_bn_initial_and_unused_verified": true
+    },
+    "gap": {
+      "selected_epoch": 60,
+      "optimizer_steps": 4736,
+      "all_validation_logits_replayed": 1000,
+      "all_diagnostic_logits_replayed": 1200,
+      "optimizer_rng_bn_initial_and_unused_verified": true
+    }
+  },
+  "gates": {
+    "gate_passed": false,
+    "gap_baseline_expansion_eligible": true
+  },
+  "artifact_hashes": {
+    "/workspace/uwb-timemil-20261029/adapter.py": "271e94bf46dda9ed31c1bbc9126ff3189d89435d658e6e455f29f6cac021a53b",
+    "/workspace/uwb-timemil-20261029/synthetic_check.py": "ed263d2ec71688b6df5500325e8756b895af140b2a7cd9a12c76a8b2ce0878d8",
+    "/workspace/uwb-timemil-20261029/check_resume.py": "8e641c1e221b7f5ce51e4e19dcbd818d8536a810fea078558b4d235b4aa81093",
+    "/workspace/uwb-timemil-20261029/run_pilot.py": "7846822bb4e20fed467fb41830acf567371cfd8aaecf628c0f92824541f52622",
+    "/workspace/uwb-timemil-20261029/launch.py": "58bda234a6804b4515e26c56b8f363d7a44c55f306e6faa33bd5b3f9611ddb81",
+    "/workspace/uwb-timemil-20261029/PROTOCOL.json": "25ab7782df5a351914f0c7cde356f281e3ca2bda5c55688fec5d9e1a8cab7107",
+    "/workspace/uwb-timemil-20261029/SYNTHETIC_CHECK.json": "782e42e3a83bfac3386f102e919b1e3194630de34da071795b01e839c7eaeb71",
+    "/workspace/uwb-timemil-20261029/RESUME_CHECK.json": "d6b8bee9cee46fa30b5bb359726c22ef66a04f32a346529824f91123b9036124",
+    "/workspace/uwb-timemil-20261029/requirements-task.txt": "aa39a99f3780e967b2f5f87e68d49161a4b40b3e0b853c952db81ab0a9adac8c",
+    "/workspace/uwb-timemil-20261029/REVIEW_AND_PREREGISTRATION.md": "3684a3ab55cc08322801035e8dc7c3b684ea8034b0e66e8bf6e20dfe5a80e911",
+    "/workspace/uwb-timemil-20261029/SOURCE_REVIEW.json": "16217db13b1b4f49fa0ea9c05a789465a187454dbe6221a923e69960a4074767",
+    "/workspace/uwb-timemil-20261029/vendor/TimeMIL/models/timemil.py": "0777c7d68ae131c5f2d0bc313e63ccbddf9acb3ef50b0e0660275febc02f8e44",
+    "/workspace/uwb-timemil-20261029/vendor/TimeMIL/models/inceptiontime.py": "1e045ac0eeb4b46cab8bec3ceca553eead04c6dd2df487f8b0ae5ca4c5aa0431",
+    "/workspace/uwb-timemil-20261029/vendor/TimeMIL/models/nystrom_attention.py": "7cedf9eaf78a57044bccd160ba83eb9e3093a1c1d78e53630d0832eb3f77136e",
+    "/workspace/uwb-timemil-20261029/vendor/TimeMIL/models/common.py": "68a91e96ab7e1f574d44952655c4e6714e324849c947b84ecdbeef08953a1805",
+    "/workspace/uwb-multirocket-20261029/launch.py": "b8f8038cc8242d20158b1e4870283fc61f884a039931fa08cf9940ea6b3d2eab",
+    "/workspace/uwb-mvglf-20261029/run01/SUMMARY.json": "d74528e1ef4444a9eaae1b7912baa67f9929802619bf6471f3ca1abcdb4a511f",
+    "/workspace/uwb-mvglf-20261029/COMPLETE_AUDIT.json": "d3cdf07895f045336909f6a915a6aead214d331bc01c3da1b93c20ac30fa12f3",
+    "/workspace/uwb-timemil-20261029/run02/IDENTITY.json": "bf08d9cfd002cc9936eb9edfce3e794effcf86344b2592f0423ca67f6bb71a4b",
+    "/workspace/uwb-timemil-20261029/run02/source_maps.npy": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+    "/workspace/uwb-timemil-20261029/run02/split.json": "d22d8fd08c8d33824ffb1bb2c10b60670ffa628d31a9004396e2232be3d7f88e",
+    "/workspace/uwb-timemil-20261029/run02/worker.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/workspace/uwb-timemil-20261029/run02/ALL_PREDICTIONS_FROZEN.json": "38cf25f14afcc7504df25a0271f122111b0a252eb59d7d575556c6568df7d902",
+    "/workspace/uwb-timemil-20261029/run02/STATE.json": "3c6ca3b2b554b1d567cf76bbb8d443a006a377016092a2c9f2de2545c851577e",
+    "/workspace/uwb-timemil-20261029/run02/SUMMARY.json": "437555b681540ec85a170843429c57f34dbc782fd7b1bd5481e27750e95311ca",
+    "/workspace/uwb-timemil-20261029/run02/SOURCE_CACHE.json": "162c93eb3f7bce8d34e391da91f71700fdab1a24fed588b90b1d73c0ceb0efac",
+    "/workspace/uwb-timemil-20261029/run02/gap/best.pt": "2fdb64b3348a6f9e774bf0212b2704e82acf4848bbf8cd077d7721d2dca77ff8",
+    "/workspace/uwb-timemil-20261029/run02/gap/first_update.pt": "91c92836f8c9cb876608f13c655abbad83b6206654a890e711fbedec5576a5de",
+    "/workspace/uwb-timemil-20261029/run02/gap/predictions_unscored.npz": "05527830339d410e43eef2c85c24c6b15674dc9ae56226dddac47c6a64797f58",
+    "/workspace/uwb-timemil-20261029/run02/gap/last.pt": "54ab5d925dad734f13cf7bf2656d03744fdb088850938eacc03f64a3a859fe78",
+    "/workspace/uwb-timemil-20261029/run02/gap/ARM_COMPLETE.json": "78c824e61667dc589c4d61701e33c940de315603ec568e3d0e6b7b4ee2efe18a",
+    "/workspace/uwb-timemil-20261029/run02/gap/initial.pt": "a98a87c08044bf97b98e1b8497af09a79155880799d1f9903627b3fcb1131655",
+    "/workspace/uwb-timemil-20261029/run02/gap/epochs.jsonl": "eeb8cefa9ae78de656f11cce7abb5ef07d85093145dc9b4d8bfe155431f97469",
+    "/workspace/uwb-timemil-20261029/run02/timemil/best.pt": "33af44c40fd933629ddc1e97a843943f6e3dc82a5a74bf1c5200db272c53980a",
+    "/workspace/uwb-timemil-20261029/run02/timemil/first_update.pt": "6b3f5d053d7cdb67f2a6bba1064e5faffd660f3963fa103300abc31ce15a5599",
+    "/workspace/uwb-timemil-20261029/run02/timemil/predictions_unscored.npz": "d55515802fc7f824a2c2d435a6a6c47e312f49e5a425d32eda5d3d81cfa96766",
+    "/workspace/uwb-timemil-20261029/run02/timemil/last.pt": "29b8f426caaa9a0d67ec4c07c99b4f57f738942493c165eac062241d349fa4c7",
+    "/workspace/uwb-timemil-20261029/run02/timemil/ARM_COMPLETE.json": "5eb7b7d68a112f31c0280c8fccc005fde1d51770dc79b39a7ccaad80cb3b9c0e",
+    "/workspace/uwb-timemil-20261029/run02/timemil/initial.pt": "73e05121d0d47cf4aae605a8f3837429c2f365aba3ee236f31b15c76d4915bf0",
+    "/workspace/uwb-timemil-20261029/run02/timemil/epochs.jsonl": "b9ddb03c3c9f3f21d1850fa840808707925644380c128c6392462b668b579094",
+    "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+    "/workspace/uwb-restored-20261020/cache/X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "/workspace/uwb-restored-20261020/cache/y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "/workspace/uwb-restored-20261020/cache/subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "source_preprocessing_records_verified": 6900,
+  "training_termination": {
+    "pid": 45017,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 11537.79131403903,
+    "child_cpu_seconds": 11536.040844,
+    "cpu_soft_seconds": 43000,
+    "cpu_hard_seconds": 43100,
+    "scientific_negative": false
+  },
+  "auditor_sha256": "09b34fa89f9e9b85685a0c500f56912a1df70f3dc4c2d6d5695c2aa8969afdcc",
+  "audit_wall_seconds": 36.963048640987836,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "limitation": "All selected-validation/diagnostic logits and preprocessing replayed; nonselected epochs not retrained or replayed."
+}

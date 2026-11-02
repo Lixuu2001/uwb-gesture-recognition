@@ -1,0 +1,14 @@
+{
+  "synthetic_only": true,
+  "implementation": "davda54/sam sam.py blob df9bcb7d97791f2f3036c2b173b12f8c572d0d80",
+  "optimizer": "AdamW",
+  "steps_before_resume": 3,
+  "uninterrupted_base_state_entries": 2,
+  "restored_base_state_entries_from_wrapper_state_dict_only": 0,
+  "next_step_max_parameter_difference": 3.921985626220703e-05,
+  "wrapper_saved_parameter_state_keys": [
+    "old_p"
+  ],
+  "finding": "Saving only this wrapper state_dict omits base AdamW moment state; explicit nested base state persistence required",
+  "not_a_uwb_experiment": true
+}

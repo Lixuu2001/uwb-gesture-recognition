@@ -1,0 +1,50 @@
+{
+  "pid": 14004,
+  "started_unix": 1790977073.3286865,
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/moment_guided_signal.py",
+    "train",
+    "--data",
+    "/workspace/uwb-restored-20260930",
+    "--prepared",
+    "/workspace/uwb-circular-prepared-20260930",
+    "--moments",
+    "/workspace/uwb-moment-guided-prepared-20261002",
+    "--out",
+    "/workspace/uwb-moment-guided-runs-20261002",
+    "--baseline",
+    "/workspace/uwb-circular-runs-20260930",
+    "--cost",
+    "/workspace/uwb-moment-guided-cost-batched-20261002.json"
+  ],
+  "protocol_commit": "213cd840871d32dbdd611f03937f16b9c60ed310",
+  "note": "Popen started; checkpoint observation required",
+  "observed_unix": 1790977228.9974864,
+  "process_state": "R",
+  "queue": {
+    "state": "running",
+    "pid": 14004,
+    "fold": 1,
+    "arm": "static",
+    "completed_runs": 0
+  },
+  "progress": {
+    "epoch": 6,
+    "validation_ce": 0.043618544936180115,
+    "source_ce": 0.0065687597516766736,
+    "lr": 0.0009415510258524358,
+    "source_ids_sha256": "4cc626c292c7c5afb6e37b840bd421134803a9cd45a42258d217c9e1f4c110bf",
+    "seconds": 19.413736960006645,
+    "state": "training",
+    "pid": 14004,
+    "best_epoch": 3
+  },
+  "checkpoint_epoch": 6,
+  "identity_matches_frozen_code": true,
+  "script_sha256": "7678c504a7e219b807defdccba7db6df0878f36f15642b23f76fd7937550f920",
+  "protocol_sha256": "87cea3b087c21f917c7b9054309923f343cc0c62ab37f98d35bc8c3cbfec4cff",
+  "torch_path": "/home/agent/.local/lib/python3.12/site-packages/torch/__init__.py",
+  "torch_version": "2.14.0+cpu",
+  "complete_new_results": false
+}

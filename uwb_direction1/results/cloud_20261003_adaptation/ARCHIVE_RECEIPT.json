@@ -1,0 +1,430 @@
+[
+  {
+    "name": "held3.tar.gz",
+    "path": "/workspace/uwb-adaptation-backup-20261003/held3.tar.gz",
+    "bytes": 1213865,
+    "sha256": "8f0cd340d04a8ec0a4df389b91cb25d46ccebdd71f61dcb58d7ba367f97ad76c",
+    "contents": {
+      "runs/held3/predictions.npz": {
+        "bytes": 435622,
+        "sha256": "fdd85a57b9656f8ecd385f35682e9cd4cd409f043f8e8e43ecd34cdf8fcdabd9"
+      },
+      "runs/held3/receipt.json": {
+        "bytes": 1282,
+        "sha256": "6120ec861b41f1e7afa55562343fa4fecc376cb50f75b83811a82a70bc0fe6d9"
+      },
+      "runs/held3/shuffle_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "cb5714c1c11ce36887874163512aac4787063252d3f67b4abd3d5aa71f24a0ec"
+      },
+      "runs/held3/shuffle_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "fbfe6d9f2b1758144e65fb4815f1c126ada8f212d53b0cbb5cde777db486297d"
+      },
+      "runs/held3/shuffle_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "b311749b0051af2e24fee7b13a914c6768d21c698f1ebe8b5b2b84fb6c9f424c"
+      },
+      "runs/held3/shuffle_sar_states.pt": {
+        "bytes": 199865,
+        "sha256": "df55e0a30e3e75b04f4991278769e2b5631ae63a0c6c956037ef14077a3acd96"
+      },
+      "runs/held3/split.json": {
+        "bytes": 71057,
+        "sha256": "ea3e4fb1683dfd2d3761203502607a8f9f0389cc4ef4a6f98a82d0704552359b"
+      },
+      "runs/held3/storage_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "1ab16d26fb42910a21f2d4be564f88fd432446aa1aec20681082b0d709898a88"
+      },
+      "runs/held3/storage_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "cd6f4d264e110833699b756e6a51d48babc085a5945f4c3151e1a493f17e879e"
+      },
+      "runs/held3/storage_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "42d7c442944302b64918d15570b7974324e0daf4c2e26b12b196a99ef08756b0"
+      },
+      "runs/held3/storage_sar_states.pt": {
+        "bytes": 279589,
+        "sha256": "03f29ed992e58c98a66c5946f4d7c8d1dcf6829e3b41ae8265ee5cfabca9c44e"
+      },
+      "runs/held3/updates.json": {
+        "bytes": 236796,
+        "sha256": "2e5785c75324300abf3218814c3ba77bf23aace3afeb9a446d7e3e36d5ece9a9"
+      }
+    }
+  },
+  {
+    "name": "held4.tar.gz",
+    "path": "/workspace/uwb-adaptation-backup-20261003/held4.tar.gz",
+    "bytes": 1126797,
+    "sha256": "f48e6c10abdb21d19888e85dd68cc5cc23d42e53c262e8b55c55b91b54ee422e",
+    "contents": {
+      "runs/held4/predictions.npz": {
+        "bytes": 435422,
+        "sha256": "5b8679a8746f6b1fb567d76dada88904e9017163592a8244dab43cdaa2047d9d"
+      },
+      "runs/held4/receipt.json": {
+        "bytes": 1282,
+        "sha256": "4566a63025ac49525e4f2875e85fa3bab11e7c1b3e3da609e4005c032f94ba03"
+      },
+      "runs/held4/shuffle_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "12f91c4205a34a25f3ff08eea0730ee0fcbec20c8f324f29708598d958d15d85"
+      },
+      "runs/held4/shuffle_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "c3bdbc940f37946c083ca40dcd604016539a035f4e04bef61cb1cd13dbc895e9"
+      },
+      "runs/held4/shuffle_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "a3d3dfaf736c205227e4891bbcbeada064301a1bb94f341d0bf9cdd9fe8cbe9e"
+      },
+      "runs/held4/shuffle_sar_states.pt": {
+        "bytes": 180873,
+        "sha256": "df74667b6c17b533da22b39f352ca09f01d958745a1583765ecf40636c831287"
+      },
+      "runs/held4/split.json": {
+        "bytes": 71057,
+        "sha256": "f3fb6c75a498759f52556f46d085c87806ea28bb6f57bff50b3f00f20a30251b"
+      },
+      "runs/held4/storage_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "6fd24dc1e0a17ce5950d56c3f5e35a18110775386a9127725321ad3be8ba3310"
+      },
+      "runs/held4/storage_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "9da91ef99630e9c8e953e8b364e61d141e5dfc083232139829a89d770fc1c477"
+      },
+      "runs/held4/storage_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "f29526d177f1e5d75f16da05601c38c89960e3a5fafb18c16e03ea2abf66f4e4"
+      },
+      "runs/held4/storage_sar_states.pt": {
+        "bytes": 180873,
+        "sha256": "7a6fab7e2820349f2afefa08cfc06c8031293160ce62a67e32e2569755b204c2"
+      },
+      "runs/held4/updates.json": {
+        "bytes": 236530,
+        "sha256": "305f4936c137d09773b19051457ce1ea95f0a2f405e580d6afb7580fc78c5272"
+      }
+    }
+  },
+  {
+    "name": "held5.tar.gz",
+    "path": "/workspace/uwb-adaptation-backup-20261003/held5.tar.gz",
+    "bytes": 1118497,
+    "sha256": "ec55477a0bdf0288af2657e805af76c9fb4ed9d055badf9ff274f618169ba75e",
+    "contents": {
+      "runs/held5/predictions.npz": {
+        "bytes": 434507,
+        "sha256": "f3a34120add289c915c5db127c012b5b4e9fdd4fd729b0e828115ec0773fc66c"
+      },
+      "runs/held5/receipt.json": {
+        "bytes": 1282,
+        "sha256": "bad2783e192dec855953073cd0a3f4d8e4cd78524a5a719b63f2f7d284322b8a"
+      },
+      "runs/held5/shuffle_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "cdb7116fe6069126a4e1c004e22e1a37941aadf58e0d9e3640d80ff86db1d691"
+      },
+      "runs/held5/shuffle_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "2d69e81eaa375c390fa280188332a565c52fbefd048410148578df47ca527b07"
+      },
+      "runs/held5/shuffle_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "ef7bb1002a4066dafa06ba4d2da41b0d444967fe9e9d9b9e404f2db9ca7eb93a"
+      },
+      "runs/held5/shuffle_sar_states.pt": {
+        "bytes": 180873,
+        "sha256": "6291aef0ccc3685d3c9f93feb5981349ab6bbbe7fe80f143da1c3ff4d48e697f"
+      },
+      "runs/held5/split.json": {
+        "bytes": 71057,
+        "sha256": "f6a56aa720becfb8240c62867eb24205558f066d366f0ac3ad4f33b255292f89"
+      },
+      "runs/held5/storage_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "bb04121402cf66bb817536e806ec2aa0a53af4e1350362ea5cb2900207e1a8ca"
+      },
+      "runs/held5/storage_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "e72738b352f8e8173113dfe1bd416689a657f318c282f110e68a4db2f97b51bd"
+      },
+      "runs/held5/storage_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "b8c5e0f18beabb91c1876df5dc843f23ad45ec4fca27c8758f1a5062cd23e695"
+      },
+      "runs/held5/storage_sar_states.pt": {
+        "bytes": 180873,
+        "sha256": "10a7fc071077899095ac41407240699c56000a50ffe295dc1c3c3ca8efe56786"
+      },
+      "runs/held5/updates.json": {
+        "bytes": 236645,
+        "sha256": "e99088cd5acdf7390e5f1d1d0d1e5d52e37d67dc1a8326b68e36d25ba32481b2"
+      }
+    }
+  },
+  {
+    "name": "held6.tar.gz",
+    "path": "/workspace/uwb-adaptation-backup-20261003/held6.tar.gz",
+    "bytes": 1161839,
+    "sha256": "2e0427597cc95166414d4f5b399230c0588fcfc66f91737342bf2c5a7d97b3dd",
+    "contents": {
+      "runs/held6/predictions.npz": {
+        "bytes": 398426,
+        "sha256": "e06c5c5c83e10deec3a861e4e77f4fecbc30bbc858cf1f3c73992e0957c8bd43"
+      },
+      "runs/held6/receipt.json": {
+        "bytes": 1282,
+        "sha256": "bc39082f34e8507732c89e9a0122705b7a34c9ad1fde0292a90aa9ded4fd2f30"
+      },
+      "runs/held6/shuffle_entropy_states.pt": {
+        "bytes": 334337,
+        "sha256": "425651ff0ee892ce3e70e77d1e0e49a40157780f36c20238a7ad5d18cf58254a"
+      },
+      "runs/held6/shuffle_filtered_states.pt": {
+        "bytes": 335183,
+        "sha256": "4e4583d931593a85aef4a1ceb880765877173785a244ca4f312a471b4cbd4181"
+      },
+      "runs/held6/shuffle_frozen_states.pt": {
+        "bytes": 167939,
+        "sha256": "e1994d56a3847a45b998ffc55310f50fa939396b5aca7e6588874a81b0818781"
+      },
+      "runs/held6/shuffle_sar_states.pt": {
+        "bytes": 228225,
+        "sha256": "5ca940c8bf4e5ea17c34724ae09ccebe9bb45f5593beab3e650d88bbcae293d7"
+      },
+      "runs/held6/split.json": {
+        "bytes": 71057,
+        "sha256": "296cb43686cb71fa1b6de5300fef27999533bdb283c71790f98d240cdeee4cba"
+      },
+      "runs/held6/storage_entropy_states.pt": {
+        "bytes": 334337,
+        "sha256": "523c5120c6e354117c13b131563b325ab8e241cec995f590ea9e0ae92b86f2d8"
+      },
+      "runs/held6/storage_filtered_states.pt": {
+        "bytes": 335183,
+        "sha256": "ee41f409a32ce830f0bdf735b60dc5d08665d1ed1b4026e0c44359cb77a73ec5"
+      },
+      "runs/held6/storage_frozen_states.pt": {
+        "bytes": 167939,
+        "sha256": "0fea7a3a64feb4c4fed297a6ad526c0eab61e3d099c9095914968e18ab1f7bf1"
+      },
+      "runs/held6/storage_sar_states.pt": {
+        "bytes": 275577,
+        "sha256": "f1be9fde6f3a377d00188978df392fbcda6eabc8b2de6fd529fb1d0474048fab"
+      },
+      "runs/held6/updates.json": {
+        "bytes": 217657,
+        "sha256": "136ba6d2fd70cccace25b7c796ddb1cd662a5c7473d9fa44c28a59170035a031"
+      }
+    }
+  },
+  {
+    "name": "held7.tar.gz",
+    "path": "/workspace/uwb-adaptation-backup-20261003/held7.tar.gz",
+    "bytes": 1126115,
+    "sha256": "d004a9359edfb38e9ddcbeea548cf98e629956fbf66598cd55aa437f2b74f766",
+    "contents": {
+      "runs/held7/predictions.npz": {
+        "bytes": 435722,
+        "sha256": "f0c75a6df3856fd8b0e9d8fa88801bf541cce4b55836226371f2e01837a64693"
+      },
+      "runs/held7/receipt.json": {
+        "bytes": 1282,
+        "sha256": "37a10f61cb6eb987c99e219dab53d3edbd66dbc678a37f3b3b3c91fb0f2503bc"
+      },
+      "runs/held7/shuffle_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "7dd2fa67c3869e62c5975330567a44a7da80eaef0cce8c129770f4d0fc6a5d4c"
+      },
+      "runs/held7/shuffle_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "32f40cbca4d687a5cfb0f0f529021166dd0d3e4d5ac82f37bf4ab025b864ad78"
+      },
+      "runs/held7/shuffle_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "b3c85e2d15c7f917779ad37aa618787f06a6dfb8d996e64defa5156a36984eda"
+      },
+      "runs/held7/shuffle_sar_states.pt": {
+        "bytes": 180873,
+        "sha256": "a2be79398666adeaa1880b0da83ec5b54d84d1dde5b325d6cf3a6112c29bd3dd"
+      },
+      "runs/held7/split.json": {
+        "bytes": 71057,
+        "sha256": "cd2fd3fa786f8e4fb1c83e0b3d40769c9db64fca3eff0d32bafa8e04275ca802"
+      },
+      "runs/held7/storage_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "2f021748fa065dd76c30ecfab6ada0a1d044c4bc594fbd904739d1b8fb0a7dc8"
+      },
+      "runs/held7/storage_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "36f69d3ebb1e5bb5af00b621f54a420ee76c5be13b71df4028985d903a33ad3b"
+      },
+      "runs/held7/storage_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "5d0e1115a43662d20fe7e0b34b3fa20ea1ef49a4c0035cedb0afd76b2c08d3ed"
+      },
+      "runs/held7/storage_sar_states.pt": {
+        "bytes": 180873,
+        "sha256": "2bde332d61557810469d4c9034d5d7832237fd648341880edd7fe8898d1fda81"
+      },
+      "runs/held7/updates.json": {
+        "bytes": 236607,
+        "sha256": "9d5617bf6bfeef4b9dc1c8889ebc69c30b28aade007a0e5375cf68d2b0047f8a"
+      }
+    }
+  },
+  {
+    "name": "held8.tar.gz",
+    "path": "/workspace/uwb-adaptation-backup-20261003/held8.tar.gz",
+    "bytes": 1137760,
+    "sha256": "de51d1d1ecd0795ffce02765bf2509258ef09f9f319d6bdd5db2de5be6a20daa",
+    "contents": {
+      "runs/held8/predictions.npz": {
+        "bytes": 435901,
+        "sha256": "1d482bbfc6f68ff1184a3467498a0c457fa4b25c5eee20a66f011b1cf3be6535"
+      },
+      "runs/held8/receipt.json": {
+        "bytes": 1282,
+        "sha256": "ba24766f0b0e68f0f94b9ba36a9e743ebf0ec6dcd18452964e3097eca37ae329"
+      },
+      "runs/held8/shuffle_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "b81f9c69ca4285b90e4facd04312ee8b7a3ce4e7af105442a7f559efc1013f9c"
+      },
+      "runs/held8/shuffle_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "4cec2f2635628d95841542ff58577a40e555fab5f38fe8f4cc8782420235905f"
+      },
+      "runs/held8/shuffle_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "790d03da12dd250e7e2b5aa45d2c9ba37e7336069e7c9dd573c576f364504c5f"
+      },
+      "runs/held8/shuffle_sar_states.pt": {
+        "bytes": 180873,
+        "sha256": "401273e62f61b2e60fc20e1c2369aafa1386b697a672a2e1e3fec820cd14a4e7"
+      },
+      "runs/held8/split.json": {
+        "bytes": 71057,
+        "sha256": "a654748c0e94d0a16b6f4b12e234dca88f926b4e5d34cb2542de714f35741bc3"
+      },
+      "runs/held8/storage_entropy_states.pt": {
+        "bytes": 362857,
+        "sha256": "2aa1e35f6188efca744c386ab30ead47fc33a90ee4b72a8361655943a3d2b225"
+      },
+      "runs/held8/storage_filtered_states.pt": {
+        "bytes": 363775,
+        "sha256": "a8c0fa8c0d36580db87c3f53a55b8b3648d2c110a8635fd0bcf49e1f43bf7a31"
+      },
+      "runs/held8/storage_frozen_states.pt": {
+        "bytes": 182259,
+        "sha256": "0ec07aa37d6411915ae930682a9a7e417fa9dc5491c7b139f70c899399142ca8"
+      },
+      "runs/held8/storage_sar_states.pt": {
+        "bytes": 195085,
+        "sha256": "f753f448ace25e170b4fa36364d4f1fa85247caa7f8b6d65584d854d5c1af994"
+      },
+      "runs/held8/updates.json": {
+        "bytes": 236573,
+        "sha256": "973ef992523b77e93307dc1754f2ce2d39361f73c62f32e8d0ca805cbcf8005b"
+      }
+    }
+  },
+  {
+    "name": "metadata.tar.gz",
+    "path": "/workspace/uwb-adaptation-backup-20261003/metadata.tar.gz",
+    "bytes": 31336,
+    "sha256": "0ef958909e1b0d5348d7df5684b38196ab89a276f40d7bf46618af0f898bdcf5",
+    "contents": {
+      "runs/SUMMARY.json": {
+        "bytes": 2786,
+        "sha256": "aad121d577a490d5b10ad840f8f1d1f4cb4658fa203a1d573df26902840a84c4"
+      },
+      "runs/AUDIT.json": {
+        "bytes": 313,
+        "sha256": "39e4891cf54b74b25d5691191b34a6069a3e9e14feba57ee223303bbbabf7ba5"
+      },
+      "runs/RUN.json": {
+        "bytes": 8321,
+        "sha256": "17e39eeba8c70c34454c0948e70c76d40819f6c9f1fb206e10f7fbba7d021c80"
+      },
+      "runs/EFFECT_DIAGNOSTIC.json": {
+        "bytes": 11496,
+        "sha256": "fbcdbd05f3d2d370975556350bd50b3424acf8e25a5ccf0d4bbcb5a5b63a70ed"
+      },
+      "runs/protocol.json": {
+        "bytes": 1954,
+        "sha256": "16b4f9cf1bde99bdae9b1349114364dd084c5645af41e7cb213006f92203ef5e"
+      },
+      "COST.json": {
+        "bytes": 941,
+        "sha256": "df325cc2f1c208ec2894e317894d722029342657c5d8f7648939e65b930e07a6"
+      },
+      "run.log": {
+        "bytes": 330,
+        "sha256": "28a196e59c133b24acbe30d16760f3aefea8cffb93c92422275d8cf687029a47"
+      },
+      "TESTS.json": {
+        "bytes": 395,
+        "sha256": "6c01c1875ccec27496e0f11bcb2076d8806ba72f346e283573c0ab2ba4e6e91e"
+      },
+      "tools/unlabeled_adaptation.py": {
+        "bytes": 4854,
+        "sha256": "beaef58a041d97b40db802fae75de067ddb87098afe8ed8657ddc0d88688ac34"
+      },
+      "tools/run_unlabeled_adaptation.py": {
+        "bytes": 4510,
+        "sha256": "4d243594720d257219c6d097c37157e2c57b9219d208c035a1b009e1dc51085b"
+      },
+      "tools/test_unlabeled_adaptation.py": {
+        "bytes": 3729,
+        "sha256": "e36d672c9125bb454a80ad6a61a3ad9721d21bd62d97117bf2907ecd9bcd64c6"
+      },
+      "tools/audit_unlabeled_adaptation.py": {
+        "bytes": 5723,
+        "sha256": "e668d76576038d40251d75a60d265b1916e5ba0de348101ad5a06a62e09143e2"
+      },
+      "tools/diagnose_adaptation_effect.py": {
+        "bytes": 1547,
+        "sha256": "0c3dce39f6ddf7278879843c4441f7d8d619c1cdfeefe3554fa933e45bc1e11a"
+      },
+      "tools/circular_signal.py": {
+        "bytes": 15962,
+        "sha256": "485347aac0f42eba0353fb6030919b7d451d5439b9df06838b4e1e3bebe44403"
+      },
+      "tools/audit_circular_signal.py": {
+        "bytes": 5977,
+        "sha256": "db2713d8c3e5386dea552e3189dc67f6ab197088ae26c4e20632518e44eb356d"
+      },
+      "tools/audit_restored.py": {
+        "bytes": 8247,
+        "sha256": "ff12bafac9d4c507e439006e7e7e584582bf634527d04d0ca4c125007ba0d8ef"
+      },
+      "research/UNLABELED_ADAPTATION_PROTOCOL.json": {
+        "bytes": 1954,
+        "sha256": "16b4f9cf1bde99bdae9b1349114364dd084c5645af41e7cb213006f92203ef5e"
+      },
+      "research/UNLABELED_ADAPTATION_REVIEW.md": {
+        "bytes": 5914,
+        "sha256": "95c115be66f6da478256d014ba1256f5609287f988a2ebb1a5fbe505266195ae"
+      },
+      "research/UNLABELED_ADAPTATION_REVIEW_RECEIPT.json": {
+        "bytes": 1865,
+        "sha256": "5ebb9432f272497620193de0133eb8d4eed50fc87f8441fe54612bb3ad924f66"
+      },
+      "research/SAR_LICENSE.txt": {
+        "bytes": 1513,
+        "sha256": "e04a34ed5ad6a1a54bf8cf1b5ea0bea33313809acb193e71313025aa0dd3e903"
+      },
+      "research/UNLABELED_ADAPTATION_ERRATA.md": {
+        "bytes": 1083,
+        "sha256": "58182a692276a4ecc75a238439430a9da6b5d0dc716409a9e78191086da0d729"
+      }
+    }
+  }
+]

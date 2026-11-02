@@ -1,0 +1,137 @@
+{
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "source_maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "previous_state": "/workspace/uwb-ts2vec-pilot-20261030/run01/STATE.json",
+  "previous_summary": "/workspace/uwb-ts2vec-pilot-20261030/run01/SUMMARY.json",
+  "previous_termination": "/workspace/uwb-ts2vec-pilot-20261030/supervisor01/TERMINATION.json",
+  "previous_audit": "/workspace/uwb-ts2vec-pilot-20261030/COMPLETE_AUDIT.json",
+  "previous_audit_receipt": "/workspace/uwb-ts2vec-pilot-20261030/AUDIT_COMPLETION_RECEIPT.json",
+  "previous_private": "/workspace/uwb-ts2vec-pilot-20261030/complete_backup_20261030/DRIVE_BACKUP_RECEIPT.json",
+  "date_utc": "2026-10-30",
+  "candidate": "PublishedTS-TCCfullHARdefaults40SSL+40linear+40finetune+40scratch with explicit multichannel augmentation adapter",
+  "paper": "https://doi.org/10.24963/ijcai.2021/324",
+  "author_commit": "15bdfd6eced6aeb6c638839828effe1b4b2ea391",
+  "screen": "/workspace/uwb-tstcc-screen-20261030",
+  "seed": 20261029,
+  "epochs": 40,
+  "batch_size": 128,
+  "phases": [
+    "ssl",
+    "linear",
+    "finetune",
+    "scratch"
+  ],
+  "training_updates_per_phase": 1440,
+  "total_updates": 5760,
+  "training_records_per_epoch": 4608,
+  "dropped_training_records_per_epoch": 92,
+  "training_appearances_per_phase": 184320,
+  "total_training_appearances": 737280,
+  "encoder_parameters": 247500,
+  "temporal_parameters": 313096,
+  "model": {
+    "internal_channels": [
+      32,
+      64,
+      128
+    ],
+    "kernel_size": 8,
+    "stride": 1,
+    "dropout": 0.35,
+    "input_channels": 567,
+    "classes": 12,
+    "latent_steps": 13,
+    "TC_hidden": 100,
+    "TC_layers": 4,
+    "TC_heads": 4,
+    "TC_future_steps": 6,
+    "TC_MLP": 64,
+    "TC_dropout": 0.1
+  },
+  "optimizer": {
+    "name": "Adam",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0003,
+    "betas": [
+      0.9,
+      0.99
+    ],
+    "epsilon": 1e-08
+  },
+  "scheduler": {
+    "ssl": null,
+    "downstream": "OriginalReduceLROnPlateau(min) defaults validation-mean-of-batch-CE, all1000user2 records retained"
+  },
+  "selection": "Exactly40last epoch for each phase;no validation epoch selection",
+  "SSL_loss": "OriginaltwoTCcrossview+0.7NTXent;temperature.2;originalLogSoftmaxdefault/scaling unchanged",
+  "augmentation": {
+    "once_fixed_training_only": true,
+    "weak": "OriginalGaussian timestamp gains mean2 sigma1.1 sharedchannels;no additional weakjitter",
+    "strong": "Allchannels same permutation,1..7segments(maxseg8exclusive),original cuts/emptysegments,Gaussian jitter sigma.8",
+    "repair": "NumPy2 ragged-list segmentindexshuffle and channel-preservingpat[:,warp];notbitidenticaloriginalchannel0broadcast",
+    "streaming": "Fixedviews float32 equal corrected fullreference and finalNumPyRNG;dedicatedRandomState(seed)",
+    "paper_differences": "CodeHARmaxseg8 vs paper10; weak codegain differs prose. Authorcodedistributionretained;notpurepaperreplication"
+  },
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "users7_8_labels_used": false,
+  "source_users_historically_developed": true,
+  "linear_evaluation": "Freezeencoderparameters exceptlogits;originaltrain-modeDropout/BatchNormstatsupdatesretained",
+  "finetune_evaluation": "Originalmain fine_tune loading nonlogitsSSLlast;freshsamehead andfreshAdam,trainallencoder",
+  "scratch_evaluation": "Samearchitecture/sameseed/randominit40supervised full",
+  "sampler": "DedicatedepochGenerator(seed+epoch),same36batchesperphaseepoch. Explicit adaptation fromglobalDataLoadertrajectory;IDlogall128recordsperupdate",
+  "prediction_freeze": "Allthreeclassifier validation+held1 predictions/logits/IDs fixed before any held1labels indexed",
+  "report_metric": "Present-classmacro accuracy",
+  "gate": {
+    "rule": "Anyofthreeprospectivelyregisteredclassifierarms>=frozenstrongestsameheld1+.005with1e-12tolerance",
+    "pass_route": "known_baseline_source_confirmation",
+    "fail_route": "close_exact_configuration",
+    "scope": "Exploratorysourcepilot;nooriginalityorindependenttestclaim;nofurtherseed/epoch/aug/resolutionrescue"
+  },
+  "checkpoint": "Initial/first/rollinglast eachphase plus separateepoch10/20/30/40;fullbothmodels/optimizers/scheduler/allRNG/IDlog/epochcursor",
+  "automatic_retry": false,
+  "automatic_resume": false,
+  "checkpoint_restore_two_next_steps_bitwise_test_passed": true,
+  "full_default_author_single_step_parity_passed": true,
+  "augmented_streaming_fullreference_and_rng_bitwise_passed": true,
+  "cost_gate_passed": true,
+  "cost_estimate_seconds": 2785.2636678219133,
+  "threads": 1,
+  "CPU_budget_seconds": 43200,
+  "wall_budget_seconds": 43200,
+  "child_CPU_soft": 43000,
+  "child_CPU_hard": 43100,
+  "child_wall_seconds": 43100,
+  "complete_audit_budget_seconds": 7200,
+  "independent_validation": false,
+  "novel_contribution_claim": false,
+  "prelaunch_real_UWB_values_read": false,
+  "prior_evidence_sha256": {
+    "/workspace/uwb-ts2vec-pilot-20261030/run01/STATE.json": "8d80f48975d6acea17d202d8c86faabb2b4b8f0b581d6425e037b1a2258bc3bf",
+    "/workspace/uwb-ts2vec-pilot-20261030/run01/SUMMARY.json": "5ee24fdaabc061b6007dc4b9052f66fc4c20595c5884681d57ae588b8bb28825",
+    "/workspace/uwb-ts2vec-pilot-20261030/supervisor01/TERMINATION.json": "d57d44c25cb0561d518ced3c3d4d6d056f288d64e399ad0e86450cdb3b707a8e",
+    "/workspace/uwb-ts2vec-pilot-20261030/COMPLETE_AUDIT.json": "9c34b51f645209b7120eb107c982b822cf557b97119ce46f592bbf430e44eda2",
+    "/workspace/uwb-ts2vec-pilot-20261030/AUDIT_COMPLETION_RECEIPT.json": "c841218cc11a61455a99718c5da5a488a3569ef918d08e0bee0b6a4b3dcc7fb6",
+    "/workspace/uwb-ts2vec-pilot-20261030/complete_backup_20261030/DRIVE_BACKUP_RECEIPT.json": "1af36577d6d4f875ef48de04ff08fa9808ff3e67492db031c7037ff9d38b16fb"
+  }
+}

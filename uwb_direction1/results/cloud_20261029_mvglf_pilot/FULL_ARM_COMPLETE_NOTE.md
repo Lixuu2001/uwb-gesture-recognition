@@ -1,0 +1,11 @@
+# Full CNN arm complete; local control running — 2026-10-29 UTC
+
+The original cloud worker42028/supervisor42027 completed the full network's24epochs and froze its unscored1200x12 diagnostic predictions. The same worker is now training the local CNN (epoch2 observed at 2026-10-29T13:41:12.836443+00:00). No worker was duplicated or restarted. The scientific protocol/model/runner hashes remain unchanged.
+
+Read-only partial audit passes35checks on the full arm's final checkpoint:3528optimizer updates, saved optimizer/RNG/BN state, contiguous epoch history and the frozen validation-selection rule. Selected epoch17. The35count differs from the earlier36because selected-best and last-epoch weights no longer have to be identical. This is not a failed check. This audit does not run complete forward replay.
+
+Separate transition verification checks the full selected-checkpoint and frozen-prediction SHA, exact diagnostic IDs/shape/finite logits, and the local arm's first real update:67tensors changed,32training-only IDs, all optimizer states atstep1, finite weights. No gesture labels for the diagnostic user or users7–8 were indexed by these checks. Receipts: [PARTIAL_AUDIT_20261029_1337.json](PARTIAL_AUDIT_20261029_1337.json), [ARM_TRANSITION_VERIFIED.json](ARM_TRANSITION_VERIFIED.json), [FULL_ARM_COMPLETE.json](FULL_ARM_COMPLETE.json), [FULL_ARM_EPOCHS.jsonl](FULL_ARM_EPOCHS.jsonl).
+
+There is still no completed accuracy comparison. Wait until the local24epochs also finish and both prediction arrays freeze. Then run the already implemented independent completed-run forward replay/audit and apply the original gate; no early diagnostic scoring or retuning. The prior epoch11 private recovery bundle remains valid; final artifacts still need final private preservation.
+
+A separately frozen full-scale MultiRocket baseline is prepared behind this queue. Its code, literature/bug-fix evidence, synthetic checks and budget are in [the preparation report](../cloud_20261029_multirocket_preparation/RUN_REPORT.md). Its real-data runner refuses unfinished/unaudited predecessors, and has not run. This preparatory work does not change the ongoing CNN experiment or establish accuracy improvement/originality.

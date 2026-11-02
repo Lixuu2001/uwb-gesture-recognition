@@ -1,0 +1,19 @@
+{
+  "state": "synthetic_assertion_assumption_repaired_no_model_or_backend_change",
+  "attempt01_source_sha256": "45359612c391b701edc10923b349f39e37b2f6e32a9c3b02ebf1684dacd065e8",
+  "attempt01_log_sha256": "71ac36b244fcfac3c960fcc17bdfeec2a318ca2936e9e1098b67751d88d8725a",
+  "failure": "Expected layer SeedGenerator counters to advance; native Keras3.11.3 Torch unseeded dropout fast path actually draws global Torch RNG.",
+  "backend_reference": "/workspace/uwb-resnet-keras-screen-20261030/deps/keras/src/backend/torch/random.py",
+  "backend_sha256": "6212df0bbaa41a9ce553f8ba8063d5a2b9a8dc1312a3b3940374c2dc609e86b0",
+  "backend_function": "dropout lines137-167",
+  "observed_unseeded_dropout_nontrivial_mask": true,
+  "observed_layer_seed_counters_unchanged": true,
+  "observed_global_Torch_RNG_changed_after_training": true,
+  "change": "Check active global Torch RNG changes plus unchanged layer counters, retaining capture/restore of both. Use singular input for diagnostic submodels to avoid an input-structure warning.",
+  "model_Dropout_seed_None_and_all_architecture_optimizer_unchanged": true,
+  "all_model_state_restore_comparisons_remain_exact": true,
+  "attempt02_source_sha256": "8b3d98e31b5ed52bf5f5ee950d899d71b6642cc7f3c230d9b924fa12305777fc",
+  "attempt02_log_sha256": "a2751da0ecb0f1a869d48a72d7c5549aa446e354ef36a2a975501e5c424f4fa4",
+  "result_sha256": "71a60e9d6a456500b811cddc66f84424b6dc8ef22e796aacc900e3ba3232d6ec",
+  "real_UWB_values_labels_fit": false
+}

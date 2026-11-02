@@ -1,0 +1,56 @@
+{
+  "study": "Source-inner range-frequency label-information diagnostic; known transforms and linear probes, not a novel method",
+  "source_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excluded_users": [
+    1,
+    2
+  ],
+  "expected_records": 7100,
+  "views": [
+    "Left",
+    "Top",
+    "Right"
+  ],
+  "channel": 0,
+  "cutoff": 21,
+  "time_samples": 90,
+  "projection_seed": 20261003,
+  "projection_dimension": 256,
+  "arms": [
+    "low",
+    "high",
+    "mixed"
+  ],
+  "representation": "Orthonormal DCT-II along range63, preserve all90 time frames. Fixed independent Gaussian projections: low k0..20 to256, high k21..62 to256; mixed concatenates first128 low and last128 high. Same projections across users/views; no fitted transform. All readouts256 inputs+intercept,12 outputs.",
+  "fit": "Within users3..8, hold one user for diagnostic, fit other five only. Training feature mean/std; floor std1e-8; divide standardized features by sqrt256. User/class-cell balanced positive weights normalized to training count. Weighted ridge squared one-hot regression alpha1, unpenalized intercept. No validation hyperparameter selection or label-dependent projection.",
+  "alpha": 1.0,
+  "metric": "Mean class accuracy over held-user present classes; then equal mean of six users",
+  "information_gate": {
+    "high_mean_min": 0.25,
+    "high_at_least_four_users_min": 0.2
+  },
+  "complementarity_gate": {
+    "mixed_minus_low_mean_min": 0.01,
+    "mixed_beats_low_users_min": 4,
+    "mixed_worst_minus_low_worst_min": -0.01
+  },
+  "decision": "Report both gates per view. Only information AND complementarity passing within the same view permits planning a matched nonlinear follow-up; no automatic full8 launch. Failure stops this linear-probe configuration; no cutoff/alpha/projection seed grid.",
+  "limits": [
+    "Exploratory reused source users, not independent confirmation",
+    "Negative probe cannot prove no information: random projection and linear model may lose it",
+    "Positive high-only score is not incremental benefit",
+    "Equal fitted parameter count does not guarantee identical effective information or regularization",
+    "Range-axis spatial frequency is not temporal Doppler/velocity",
+    "No noise classification from energy or accuracy alone",
+    "No measurement of compression latency or original189-bin retention"
+  ],
+  "cost_gate_seconds": 300,
+  "cost_probe": "First64 source signals only, feature extraction and synthetic-label ridge fit; no real diagnostic label scoring; extrapolate total feature and54fit cost before full execution"
+}

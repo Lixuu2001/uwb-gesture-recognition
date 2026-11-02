@@ -1,0 +1,65 @@
+{
+  "state": "private_readback_verified_recoverable_composite_set",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "manifest": {
+    "archive_name": "source6_final.tar.gz",
+    "archive_bytes": 10858443,
+    "archive_sha256": "316348a82639cc6beea1c120b2d9adb816e258614a6a96000e9db482a206261f",
+    "tracked_payload_files": 62,
+    "members_manifest_sha256": "400b6746c4d55f3895030e10a9b5d963ffe18dab4ddba80aa766c78065e0f75f",
+    "chunks": [
+      {
+        "name": "source6_final.part000",
+        "bytes": 7340032,
+        "sha256": "af25617a4276c08621bc81de74891ce08c08b712bd8e988f4d7f55f1dd860bbb"
+      },
+      {
+        "name": "source6_final.part001",
+        "bytes": 3518411,
+        "sha256": "0c703f94942275f2867053c5b21b802514a9def7424b1fc382d598107198d98e"
+      }
+    ],
+    "full_set_requires_prior_archives": true,
+    "models_in_this_archive": [
+      6
+    ]
+  },
+  "chunks": [
+    {
+      "name": "source6_final.part000",
+      "bytes": 7340032,
+      "sha256": "af25617a4276c08621bc81de74891ce08c08b712bd8e988f4d7f55f1dd860bbb",
+      "file_id": "1iRqmIoRxip2PhyaZDoBtq6zVL2lcSYKC",
+      "owner_only_metadata_verified": true,
+      "parent_verified": true,
+      "authenticated_raw_readback": true,
+      "materialized_sha256_verified": true
+    },
+    {
+      "name": "source6_final.part001",
+      "bytes": 3518411,
+      "sha256": "0c703f94942275f2867053c5b21b802514a9def7424b1fc382d598107198d98e",
+      "file_id": "1B8h0Opk4Uv9hlxUSVK8lEwK52MHwtW2Q",
+      "owner_only_metadata_verified": true,
+      "parent_verified": true,
+      "authenticated_raw_readback": true,
+      "materialized_sha256_verified": true
+    }
+  ],
+  "prior_fold_chunks_metadata_rechecked": 8,
+  "prior_held1_mini6_queue_chunks_metadata_rechecked": 22,
+  "verified_unix": 1793327764.1127768,
+  "archive_reassembly_sha256_verified": true,
+  "all_tracked_payload_members_verified": 62,
+  "folder_owner_only": true,
+  "download_raw_file": true,
+  "include_base64": false,
+  "max_concurrent_chunks": 2,
+  "all_six_model_states_privately_preserved_via_composite": true,
+  "full_set_requires_prior_archives": true,
+  "raw_radar_arrays_included": false,
+  "source_maps_included": false,
+  "prior_archives_authenticated_readback_verified_at_original_creation": true,
+  "prior_archives_rechecked_now": "Metadata availability, owner-only sharing, parent and size only; no repeat chunk download or new all-prior-member SHA claim.",
+  "restore_note": "Current archive contains held6 model states, final audit/results/IDs/metadata and all prior recovery receipts. Resolve embedded prior indices for held1 and mini6 (oldqueue uses drive_id) and held2-5 (file_id). Restore original inputs using migration/20260930/CLOUD_DOWNLOAD_INDEX.json; source maps can be regenerated. Current archive alone does not contain every tensor; no signed URL needed."
+}

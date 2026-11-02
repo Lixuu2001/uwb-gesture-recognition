@@ -1,0 +1,246 @@
+{
+  "state": "full_audits45_verified_and_linked_to_unchanged_private_models",
+  "observed_utc": "2026-11-01T04:42:20.867701+00:00",
+  "new_audited_folds": [
+    4,
+    5
+  ],
+  "rows": {
+    "4": {
+      "state": "pass",
+      "epochs": 100,
+      "updates": 7100,
+      "training_appearances": 450000,
+      "selected_epoch": 59,
+      "evaluation_rows": 2400,
+      "audit_sha256": "6048a5c24cfe608b4978bd07346a00621090a7c720b2578701f0420ce917717a",
+      "artifact_hashes": 1489,
+      "diagnostic_labels_read": false
+    },
+    "5": {
+      "state": "pass",
+      "epochs": 100,
+      "updates": 7200,
+      "training_appearances": 460000,
+      "selected_epoch": 99,
+      "evaluation_rows": 2300,
+      "audit_sha256": "317cfa72151240bf614ca4def0e397cd74bfb4cc442a18d16ee8f5ae8eb6b1af",
+      "artifact_hashes": 1489,
+      "diagnostic_labels_read": false
+    }
+  },
+  "distinct_artifact_hashes_reverified": 1508,
+  "linked_producer_files": [
+    {
+      "held": 4,
+      "path": "run01/held4/ALL_PREDICTIONS_FROZEN.json",
+      "sha256": "b42f2e2db47fc1da5ac644f130fcade0853f2e801663e7441bd650fcfc64f022"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/EVAL_BATCH_IDS.json",
+      "sha256": "02cb29496beecc64efca4aa2121b7e82dab11cca999187ff1cc5f142c33b272f"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/IDENTITY.json",
+      "sha256": "3bc84673fce7a4a8cdfcf00d40fe9543670bd4caca2ab632438c996347caddd4"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/STATE.json",
+      "sha256": "8821c921f2c45ee1aa65ffde1eff52c418e242f67a28812fe4ef8a90c2a43962"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/TRAINING_COMPLETE.json",
+      "sha256": "151b86238ff9625a53c56ec2536baeec5849d62730e473611be2d05ea13ab2c9"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/TRAINING_RESULT.json",
+      "sha256": "5631b16ebcbbb7c00cc5ae54fbaa2de21a79eb803ca14882d6dfcae0fa0f9f4a"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/best.pt",
+      "sha256": "ef8582c829303c351beb751c4b4e15cc62010164564b136d61502fde808252d7"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/best_model.keras",
+      "sha256": "684b51400187663b75344c630dead9c43af37a427684ae40648edfc6eaff4f17"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/diagnostic_predictions_unscored.npz",
+      "sha256": "8b5083b048da898399a01f46795299217e907e00c358bdc28b015817ffdfb59a"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/epochs.jsonl",
+      "sha256": "7ca30793620f8469f681128dcc9102d3019b2013e2bad6a29eb39522e55aba53"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/final_prediction_state.pt",
+      "sha256": "654d6c1c17f93615f7fdf9a6aa0399d2fe66304bdca5c8887b7e574136f6ca53"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/first_update.pt",
+      "sha256": "adec50e224e84fb57d7886285e37bc9dc22af7a4741de5667450c84a10779d42"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/initial.pt",
+      "sha256": "46c539463b526b06970439608f883ddac1ec948d0cffcc3d3df59b1a6aed15f3"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/iterations.jsonl",
+      "sha256": "bd6f50583a2d121b6ba310ea7585c8225f5b175ac1e699fb3ca1dde8557b34e7"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/last.pt",
+      "sha256": "bd1bddd544f081b8592af95d61283fc1899d4417ba368e0ebcd6e8ee32ec92e9"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/last_model.keras",
+      "sha256": "c97719c437c64d5c96a8760066fc413fecf09234e3b24e4db5f1fa604382c217"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/split.json",
+      "sha256": "e0b341476a2e09eea8b22c63e259d3d261240cb63bf85554a74068a28aa35ec1"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/validation_predictions_unscored.npz",
+      "sha256": "f0b5bd6f3b0eadad66deae6e2a56c628dc3245c1b236b706796de9f85b92fcb7"
+    },
+    {
+      "held": 4,
+      "path": "run01/held4/FILES.json",
+      "sha256": "1479d1b2c773cfbc9e96e942aa88bb9cc037ec9fc026710800ae8853d41a8d63"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/ALL_PREDICTIONS_FROZEN.json",
+      "sha256": "addf90f1288ae107e2650b9eedac5ea7af13728dd4e51fddca7379dcd20105ca"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/EVAL_BATCH_IDS.json",
+      "sha256": "95127c5e42d374a9f577d99a2f2ac4dfd7fce7126d41f2f3fe7cd262c6cb6058"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/IDENTITY.json",
+      "sha256": "b282cd5ab206788c1aff807c9f070a7c9b3473bea681440d44584a71e6635cad"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/STATE.json",
+      "sha256": "84fcb9a1091bdf1d8610318ca7d7fa598fcb4603f20a466c309469c9c12e8e4a"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/TRAINING_COMPLETE.json",
+      "sha256": "0a772f49681c054234cd55899a35c9c4db63bd67ac98a080acaec8d7383ddf3f"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/TRAINING_RESULT.json",
+      "sha256": "d102ced98c9d8f6dc4e70a09e89c5bd6d5cf1ab8c2cbb1d7eed3ae91e0569104"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/best.pt",
+      "sha256": "81b79a698853df26730a95b0ec09199e84bc2592a0a169b59447402ac40f1c2a"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/best_model.keras",
+      "sha256": "4c71e8c22addfa981272d918771ea882592b794db3fc5d90e167c3e2f49381cb"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/diagnostic_predictions_unscored.npz",
+      "sha256": "9eb60c4b8bcdefabea014f242714f2d74951727892059a35277f71c1bad8125d"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/epochs.jsonl",
+      "sha256": "d69718c9a6d7a881bbfe3a8ba5247f11fc6d5205c5f412f6d3120df000857b42"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/final_prediction_state.pt",
+      "sha256": "e8de6641981fec74ed48a42843acce925a142ab290cf5f191f3db89e85a7bf5c"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/first_update.pt",
+      "sha256": "683ecc190d3ce9a39a53401a24fd99b9ef8b68cc8c0c0fb17ff56bbcff416134"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/initial.pt",
+      "sha256": "ea0e521eff8e7d1bbdfd84ae8c094344137156850fc83c6b773781e52aae0dbd"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/iterations.jsonl",
+      "sha256": "140377c0ff9e2eb6466666335562badae078b776f0d581feaf0f428ae2ddd765"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/last.pt",
+      "sha256": "a9beacd3701add8eb5f629b649077d578a141fd4a741aa2785d1d20d6788c7d2"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/last_model.keras",
+      "sha256": "2da11fa8e4b82d3eedeec4ac31f5aeeddddff340a6f2358c01718928c1520f06"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/split.json",
+      "sha256": "fc8c7f214bd97558ce9c29ba39fe593825a5b902debee03476ffe673bfb8765d"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/validation_predictions_unscored.npz",
+      "sha256": "ae5fd35bbd6d4b7236bfb8e711a3993f2bdbab9170597200a084311364299b79"
+    },
+    {
+      "held": 5,
+      "path": "run01/held5/FILES.json",
+      "sha256": "a34e7eac5ac7935546066cc25ccf094d5f141c8f9e139c4a8fee230f5e724f31"
+    }
+  ],
+  "model_recovery_references": {
+    "4": {
+      "archive_sha256": "9726a2f12def5d5ee1172b31a5c406be57f4af920c603127e89403dfd6941d38",
+      "receipt_sha256": "dc4dd2c410ee82a94d392c779bdaedd9b2f946433e456e3a86bee17721153388",
+      "local_directory": "/workspace/uwb-hinception-producer4-20261101",
+      "chunks": 7
+    },
+    "5": {
+      "archive_sha256": "36432d67b96fae014ee0733f8f9dc0e7ffc7c24994cf8aefc6b1ffc9a00ab571",
+      "receipt_sha256": "023774868443d98d7b56318c1ea8f4d6c74365bc3e4e7545c817a6041ff65b44",
+      "local_directory": "/workspace/uwb-hinception-producer5-20261101",
+      "chunks": 7
+    }
+  },
+  "all1465_frozen_prerequisites_reverified": true,
+  "diagnostic_scoring_performed": false,
+  "users7_8_labels_used": false,
+  "all_five_new_folds_complete": false,
+  "complete_source6_modelset": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false
+}

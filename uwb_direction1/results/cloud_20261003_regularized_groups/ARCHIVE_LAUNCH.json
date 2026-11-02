@@ -1,0 +1,19 @@
+{
+  "pid": 19639,
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/uwb-cloud/uwb_direction1/tools/archive_regularized_groups.py",
+    "--runs",
+    "/workspace/uwb-regularized-group-runs-20261003",
+    "--out",
+    "/workspace/uwb-regularized-group-final-20261003",
+    "--log",
+    "/workspace/uwb-regularized-group-train-20261003.log",
+    "--state",
+    "/workspace/uwb-regularized-group-archive-state-20261003.json",
+    "--watch"
+  ],
+  "started_utc": "2026-10-03T17:01:54.375388+00:00",
+  "code_commit": "af96196f102dc70f4f1948d3082ff4df67f316ab",
+  "purpose": "Local post-training audited archive only; no automatic upload"
+}

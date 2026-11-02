@@ -1,0 +1,40 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "data": "/workspace/uwb-restored-20260930/cache",
+  "input_sha256": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "seed": 20261007,
+  "batch_size": 16,
+  "examples_per_class": 20,
+  "energy_fraction": 0.9,
+  "maximum_rank": 32,
+  "maximum_empty_retention": 0.2,
+  "minimum_active_retention": 0.5,
+  "minimum_selectivity": 0.3,
+  "minimum_selectivity_over_random": 0.2,
+  "minimum_successful_users": 4,
+  "budget_seconds": 600,
+  "scope": "Training-side mechanism screen inside outer-fold1 training users3..8. Users1/2 excluded entirely from RF access and fitting. Six leave-one-source-user-out nuisance checks; not the six-source classification protocol, not accuracy.",
+  "fit": "For each user, all retained class11 empty clips, per-clip/per-view RMS normalization floor1e-12, average90frame outer products. No extra temporal/feature centering. For each held source user average other five user moments equally, eigenbasis at smallest rank explaining90% energy. Do not truncate rank to32: report capacity-gate failure when rank exceeds32. Fit18 bases independently (six users x three radars).",
+  "diagnostic": "Held source user first20 sorted sample IDs per present quality-retained class, including empty11. User6 class3 excluded by existing quality rule. Each clip residual energy fraction1-||XU||F^2/||X||F^2. Active mean equals mean of class0..10 per-class means; empty class11 separately. Labels used only for fixed stratification and summarizing source diagnostic, never selecting eigenbasis/rank/seed.",
+  "controls": "Identity retains1. Fixed Gaussian-QR random orthogonal basis with exactly matching rank, seed[20261007,held_source,view]; compare active-empty retention contrast, not raw attenuation alone.",
+  "gate": "Each source/view cell must satisfy all: rank<=32, empty retention<=.2, active retention>=.5, active-empty>=.3 and contrast minus random contrast>=.2. A fixed radar qualifies if at least4/6source users pass; at least one radar required to justify a separately preregistered classifier study. These are prospective engineering criteria, not literature-optimal or statistical significance thresholds.",
+  "stop": "If no radar qualifies, close this fixed90%-energy empty-eigenspace removal screen; no rank/threshold/normalization/seed grid or classifier/eightfold expansion from it. A pass is mechanism eligibility only and requires new same-protocol classifier baselines/ablations before efficacy claims.",
+  "limits": [
+    "Energy overlap is not known nuisance/gesture decomposition. Removing high activity energy can still leave discriminative low-energy information; failing this proxy does not disprove all subspace filtering.",
+    "Input is dataset ClutterRemoved real RF, not unprocessed Raw ADC, not calibrated complex IQ or Doppler-angle snapshots.",
+    "Empty gestures include system pulse response and body/background echoes; no pure-noise ground truth.",
+    "Class sampling first20 is fixed reproducible subsampling and may retain acquisition-order bias. Source users are historically reused and the six fitted bases share training users; no independent external evidence or confidence claims.",
+    "Known eigencancellation, not RPCA, Liu2018 STAP replication or original research contribution. Prior empty-spectrum whitening failure motivates checking its nuisance-identifiability premise; this is a distinct uncentered range-basis selectivity diagnostic, not relabeled classification improvement."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_reference": "/workspace/uwb-energy-area-source-20261004",
+  "feature_manifest_sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184",
+  "readout_reference": "/workspace/uwb-semantic-code-source-20261004",
+  "readout_manifest_sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca",
+  "primary": "domain_min",
+  "arms": [
+    "ridge",
+    "domain_min",
+    "domain_mean",
+    "row_min",
+    "row_mean"
+  ],
+  "seed": 20261007,
+  "budget_seconds": 300,
+  "gate": {
+    "minimum_mean_gain": {
+      "ridge": 0.005,
+      "domain_mean": 0.0025,
+      "row_min": 0.0025,
+      "row_mean": 0.0025
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "fit": "Four source-user deletion submodels, each uses remaining3users. Four random-row deletion submodels match each domain deletion retained class counts exactly. Refit source-only mean/scale/intercept and weighted ridge for each mask, lambda inherited unchanged from full-source onehot validation selection. Encoder frozen and trained on all4source users.",
+  "random_masks": "For each held h, deleted user d, class k: RNG SeedSequence([seed,h,d,k]); choose without replacement from full source IDs the same number of IDs as domain deletion removes from that class. Sort retained IDs.",
+  "aggregation": "Per-class minimum of four raw onehot ridge scores is primary domain_min; arithmetic mean control. Same min and mean of four class-count-matched random deletion readouts. Full original ridge unchanged. No temperature, probabilities, calibration or uncertainty multiplier.",
+  "interpretation": "min equals worst expected class score over any convex mixture of four fixed deletion models. No generalization bound or confidence coverage; source model sensitivities correlated and encoder still saw each deleted user.",
+  "scope": "six reused development users3..8, source4/next validation/held diagnostic. Inductive per-clip head robustness screen, not original contribution.",
+  "stop": "Failure closes this fixed deletion/minimum/normalization/seed/lambda configuration. No mixture weights, quantile, uncertainty penalty or seed sweep; no eightfold expansion, no secondary-arm promotion.",
+  "limitations": [
+    "Source-only training labels may be accessed; no validation/diagnostic fitting or score selection.",
+    "Missing user6 class3 can change per-class and per-user weights; matching row deletion class counts does not guarantee causal isolation of user identity.",
+    "This is not out-of-fold encoder training or full unseen-user ensemble.",
+    "Bagging/pasting, worst-case aggregation and jackknife concepts are established; original OSR docs also mention support-sample jackknife calibration.",
+    "A successful source screen only permits a separately preregistered8fold study with the94.897727% strong frozen-ridge control; not independent test."
+  ]
+}

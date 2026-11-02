@@ -1,0 +1,261 @@
+{
+  "state": "private_readback_verified",
+  "observed_unix": 1793342321.016608,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_shared": false,
+  "folder_owner_only": true,
+  "manifest": {
+    "state": "complete_audited_pair",
+    "observed_unix": 1793341729.99353,
+    "arms": [
+      "timemil",
+      "gap"
+    ],
+    "epochs_per_arm": 64,
+    "all_model_optimizer_rng_states_included": true,
+    "private_sample_ids_and_predictions_included": true,
+    "raw_radar_arrays_included": false,
+    "source_maps_included": false,
+    "all_current_pair_models_in_this_archive": true,
+    "input_recovery": "Persistent GitHub migration/20260930/CLOUD_DOWNLOAD_INDEX.json; original exact IDs/RMS/reshape regenerate source maps.",
+    "scope": "Completed exploratory published-method transfer; no independent validation or originality proof.",
+    "archive_name": "timemil_run02_final.tar.gz",
+    "archive_bytes": 53196575,
+    "archive_sha256": "e305d2c59314f299a174c47a736ec1ec7096dd4a7f623e7c3d331613a793c207",
+    "tracked_payload_files": 135,
+    "members_manifest_sha256": "a9cef8f25e487223013079e43c07d4b663e3afbfab5f301206330f5aa6c44d7e",
+    "chunks": [
+      {
+        "name": "timemil_run02_final.part000",
+        "bytes": 7340032,
+        "sha256": "0e403d1140d5b85ae18b897ece749f2fb499a5881b7a3f77c6b5b4e5ede1b020"
+      },
+      {
+        "name": "timemil_run02_final.part001",
+        "bytes": 7340032,
+        "sha256": "4446618fd21c77fb72f43a2e8e35f2fc82af1567d2f746a97cbe615471e895ac"
+      },
+      {
+        "name": "timemil_run02_final.part002",
+        "bytes": 7340032,
+        "sha256": "b566caf71215ee1769ad24883f0a2bf0e3cd3edf800d7ae9ade919934118750b"
+      },
+      {
+        "name": "timemil_run02_final.part003",
+        "bytes": 7340032,
+        "sha256": "2544aa0c5371d4a2039bdf877dfa802b806357f6bc46cf5d9edee71cc36b6e45"
+      },
+      {
+        "name": "timemil_run02_final.part004",
+        "bytes": 7340032,
+        "sha256": "7bde599f9216948873e33b50c5fe2a9d33c515ac1d061b7bfc92d7c4007c3180"
+      },
+      {
+        "name": "timemil_run02_final.part005",
+        "bytes": 7340032,
+        "sha256": "f8ae92aad1fca2576125010ddcb2ee06558361721caa05f79749ab7f9046025c"
+      },
+      {
+        "name": "timemil_run02_final.part006",
+        "bytes": 7340032,
+        "sha256": "6a0ae173781c2b7fc65af844389424769609d0937d10cd43a0c5f401c8064aa6"
+      },
+      {
+        "name": "timemil_run02_final.part007",
+        "bytes": 1816351,
+        "sha256": "1f4f411f614138ef7f948b3701e5b0d9eb8cf8ab2f96fd26e497d420844a9689"
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "name": "timemil_run02_final.part000",
+      "file_id": "1qCywFiG8W-xqKPoF3erpdIoU2h7fLhhm",
+      "remote_name": "timemil_run02_complete_20261030.part000",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_final.part001",
+      "file_id": "1ItlfHyGk_PAqo78O7x69k8ocp24dIhRx",
+      "remote_name": "timemil_run02_complete_20261030.part001",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_final.part002",
+      "file_id": "1GrEYUgW_OS2yQhl9lZngirYNYO7UCsFx",
+      "remote_name": "timemil_run02_complete_20261030.part002",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_final.part003",
+      "file_id": "1huYkJrh6Ulo9L4EH7Y2U8bTBbN2U2jfq",
+      "remote_name": "timemil_run02_complete_20261030.part003",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_final.part004",
+      "file_id": "1aZmg6_hd37D8Q1dvATwi4z9Xzv7IpOpK",
+      "remote_name": "timemil_run02_complete_20261030.part004",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_final.part005",
+      "file_id": "13t18ah520_C3-0Nlv50bi0ygOvdCkq7s",
+      "remote_name": "timemil_run02_complete_20261030.part005",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_final.part006",
+      "file_id": "1bRw9CXaoeWLEdjrFfoqN4R2AL2PL2KmR",
+      "remote_name": "timemil_run02_complete_20261030.part006",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "7340032",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    },
+    {
+      "name": "timemil_run02_final.part007",
+      "file_id": "1h9u9oB4I2lj1kMcvgVUW6pc8Zglj6t4t",
+      "remote_name": "timemil_run02_complete_20261030.part007",
+      "metadata_verified": true,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "size": "1816351",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ]
+      },
+      "readback_sha256_verified": true
+    }
+  ],
+  "verification": {
+    "state": "remote_archive_and_all_members_verified",
+    "archive_sha256": "e305d2c59314f299a174c47a736ec1ec7096dd4a7f623e7c3d331613a793c207",
+    "chunks_verified": 8,
+    "tracked_payload_members_verified": 135,
+    "archive_members": 136,
+    "epochs_per_arm": 64,
+    "arms": [
+      "timemil",
+      "gap"
+    ],
+    "verifier_sha256": "aaf82fe41c5eed6240a9ce4321055c3a042ac1938cbecf24767bc2f1e2bc7800"
+  },
+  "full_study_complete": true,
+  "all_current_pair_model_states_preserved": true,
+  "engineering_attempts": [
+    "TRANSFER_ATTEMPT01_ERROR.json",
+    "READBACK_ATTEMPT01_ERROR.json"
+  ],
+  "verifier_code": "research/timemil_accuracy_20261029/verify_final_readback.py",
+  "archive_retains_build_time_helper_version": true
+}

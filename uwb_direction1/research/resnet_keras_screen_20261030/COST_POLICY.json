@@ -1,0 +1,14 @@
+{
+  "state": "prospective_before_native_ResNet_timing_or_real_UWB_fit",
+  "architecture": "Unchangedsource64/128/128threeblocks,kernels8/5/3,sourcebatch64",
+  "author_current_epochs": 1500,
+  "fixed_development_epochs_if_full_budget_unavailable": 100,
+  "resource_rule": "One syntheticprobe. Preferoriginal1500ifestimatedCPU/wall<=43200;elseonlyprospectivelydefined100ifitsestimate<=43200. FreezeonechosenconfigurationbeforeanyrealUWBvalue/label/fit. No accuracy grid or width/batch/kernel rescue.100isexplicitbudgetadaptation,not1500benchmarkreproduction.",
+  "seed": 20261029,
+  "budget_seconds": 43200,
+  "probe_wall_seconds": 600,
+  "probe_CPU_soft": 590,
+  "probe_CPU_hard": 600,
+  "real_UWB_values_labels_fit": false,
+  "framework_compatibility": "Keras3.11.3nativeTorchbackend with exactbuild_modelAST; onlyartifactextension.hdf5\u2192.keras; noTensorFloworGPUclaimed"
+}

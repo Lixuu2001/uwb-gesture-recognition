@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-cloud/uwb_direction1/tools/diagnose_view_gradients.py", line 132, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-cloud/uwb_direction1/tools/diagnose_view_gradients.py", line 108, in main
+    t=time.perf_counter();g,total,logits,loss,err=decompose(net,x,target)
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-cloud/uwb_direction1/tools/diagnose_view_gradients.py", line 32, in decompose
+    assert err<1e-5
+           ^^^^^^^^
+AssertionError

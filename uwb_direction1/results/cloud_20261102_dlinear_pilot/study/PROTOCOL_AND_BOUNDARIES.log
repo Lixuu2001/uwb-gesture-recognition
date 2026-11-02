@@ -1,0 +1,14 @@
+test_absent_registration_before_data (test_protocol.Protocol.test_absent_registration_before_data) ... ok
+test_current (test_protocol.Protocol.test_current) ... ok
+test_policy_refusal (test_protocol.Protocol.test_policy_refusal) ... ok
+test_role_gate_refusal (test_protocol.Protocol.test_role_gate_refusal) ... ok
+test_active_training_refused (test_completion_boundaries.Tests.test_active_training_refused) ... ok
+test_failed_training_refused (test_completion_boundaries.Tests.test_failed_training_refused) ... ok
+test_partial_private_scope_cannot_score (test_completion_boundaries.Tests.test_partial_private_scope_cannot_score) ... ok
+test_ordered_raw_chunks_and_corruption (test_backup_roundtrip.Roundtrip.test_ordered_raw_chunks_and_corruption) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.005s
+
+OK
+{"state": "remote_archive_and_all_members_verified", "scope": "initial_first_only_not_latest_or_complete", "chunks_verified": 2, "archive_members": 2, "tracked_payload_members_verified": 1, "archive_sha256": "ae4e7296c72a3a5f1f2e514a628d1dd7c055f0e75179474d8be0eab024da23cc", "complete_modelset_verified": false}

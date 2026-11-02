@@ -1,0 +1,42 @@
+{
+  "observed_unix": 1793410964.882164,
+  "training": {
+    "state": "complete",
+    "pid": null,
+    "epoch": 100,
+    "total_steps": 7400,
+    "all_predictions_frozen": true,
+    "diagnostic_labels_read": true,
+    "users7_8_labels_used": false,
+    "wall_seconds": 3199.7471258930163,
+    "cpu_seconds": 3202.774013456,
+    "observed_unix": 1793409682.7188423,
+    "batch": 73,
+    "best_epoch": 75,
+    "best_training_loss": 3.359471520525403e-05
+  },
+  "training_termination": {
+    "pid": 52488,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 3204.387117016013,
+    "child_cpu_seconds": 3204.003014,
+    "cpu_soft_seconds": 43000,
+    "cpu_hard_seconds": 43100,
+    "scientific_negative": false
+  },
+  "postprocess": {
+    "state": "completed_run_audit_running",
+    "pid": 52562,
+    "training_restarted": false,
+    "Drive_upload_or_Git_push_capability": false,
+    "observed_unix": 1793409687.5313935
+  },
+  "audit_supervisor_pid": 52682,
+  "audit_worker_pid": 52684,
+  "audit_termination_present": false,
+  "completion_audit_present": false,
+  "frozen_entries_verified": 1358,
+  "producer_scores_not_read_this_continuation": true,
+  "new_real_UWB_configuration_not_selected": true
+}

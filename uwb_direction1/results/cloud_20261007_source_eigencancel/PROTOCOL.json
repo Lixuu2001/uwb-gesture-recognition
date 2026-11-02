@@ -1,0 +1,68 @@
+{
+  "users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "feature_reference": "/workspace/uwb-energy-area-source-20261004",
+  "feature_manifest_sha256": "16c1265a18e590424e2e7d0245a533e2b95795634812ced1e1d90a21877c6184",
+  "readout_reference": "/workspace/uwb-semantic-code-source-20261004",
+  "readout_manifest_sha256": "1f01e7a54cf668fc441d3b28e5f19bf6cfe89d56157740803df5d15c2b4b4aca",
+  "input_sha256": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "labels": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "users": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "prepared": "1f689bba7f10bb37faf07a557c52653843e81b5907f04d17fa92dbf4dbae7c5f"
+  },
+  "prepared": "/workspace/uwb-circular-prepared-20260930/signals.npy",
+  "data": "/workspace/uwb-restored-20260930/cache",
+  "models": "/workspace/uwb-swad-source-runs-20261003",
+  "batch_size": 16,
+  "threads": 1,
+  "lambdas": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "seed": 20261007,
+  "primary": "selective",
+  "arms": [
+    "ridge",
+    "selective",
+    "all_views",
+    "random_selected"
+  ],
+  "budget_seconds": 3600,
+  "diagnostic": {
+    "examples_per_class": 20,
+    "energy_fraction": 0.9,
+    "maximum_rank": 32,
+    "maximum_empty_retention": 0.2,
+    "minimum_active_retention": 0.5,
+    "minimum_selectivity": 0.3,
+    "minimum_selectivity_over_random": 0.2
+  },
+  "gate": {
+    "minimum_mean_gain": {
+      "ridge": 0.005,
+      "all_views": 0.0025,
+      "random_selected": 0.0025
+    },
+    "minimum_wins": 4,
+    "maximum_paired_decline": 0.01
+  },
+  "scope": "Six historically reused development users3..8: held h, next validation, other four training. Not independent confirmation.",
+  "fit": "For each classifier fold, inner leave-one of its four TRAINING users: fit equal-user RMS-normalized uncentered empty moments on other three, evaluate fixed first20/class of inner source only with unchanged EMPTY_SUBSPACE criteria. Select each radar if ceil(2*n_training_users/3)=3 of4 pass. Refit 90%-energy bases on all four training empty users. All rank/energy gates fixed before classification. No global left/right choice from six-user diagnostic; validation/held labels never influence filter or view selection.",
+  "transform": "Raw float64 residual X-(X B) B.T, cast float32, recompute original Hilbert increments/per-clip normalization/float16 rounding/range pooling. Selected arm leaves unqualified views original; all_views filters every radar regardless gate; random_selected uses same selected views and same ranks but Gaussian-QR bases. SeedSequence[20261007+1000*outerheld,innerheld,view]; final refit innerheld=0. No query labels, fitted query statistics, or new CNN training.",
+  "readout": "Same frozen epoch24 CNN128 features for all arms, no concatenation. Training-only equal-user/present-class weighted standardization/ridge. Three lambda choices selected by next validation macro, MSE, larger lambda. Replay existing strong ridge exactly. Save all selected predictions before diagnostic scoring.",
+  "stop": "Failure of any joint gate closes this fixed filter/view gate/rank/normalizer/seed/readout setting; no eightfold expansion, sweeps, or control promotion. Passing only permits a separately preregistered same-protocol eightfold study with strong ridge94.897727%.",
+  "limits": [
+    "Known eigencancellation and source-only selection are not by themselves innovation. Positive mechanism energy proxy does not establish classification benefit.",
+    "Frozen encoder was trained on original observations: filtering may change learned feature distribution. Failure is limited to this frozen-representation intervention.",
+    "Empty signals are not pure nuisance ground truth; input is already ClutterRemoved real RF.",
+    "Source users and old encoder checkpoints are historically reused; no independent replication or novelty claim."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "reason": "All72 per-class LSQR solves hit max_iter200; this is not established convergence. Original99-check audit covered artifacts/roles/metrics, not optimizer convergence.",
+  "original_score": 0.6609242424242425,
+  "original_results_preserved": true,
+  "correction": "Complete same alpha1 weighted linear objective using float64 direct Cholesky, preserving frozen4096features, saved training-only SparseScaler, training/validation/diagnostic IDs, labels, seed and all science. No feature resampling or hyperparameter selection. Numerical solver and precision only.",
+  "decision": "Use direct solution if weighted centered normal-equation relative residual<1e-6, checked before scoring. If computationally incomplete do not treat as mechanism-negative.",
+  "budget": "Original100.227CPU/98.265wall plus repair, cumulative<=895CPU/900wall; repairCPU774soft779hard/wall780 including imports.",
+  "no_accuracy_based_solver_selection": true
+}

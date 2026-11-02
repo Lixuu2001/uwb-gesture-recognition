@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-disjoint-source-probe-20261031/synthetic_check.py", line 23, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-disjoint-source-probe-20261031/synthetic_check.py", line 12, in main
+    labels=np.arange(25)%12;onehot=np.eye(12,dtype='float32')[labels];weights=create_class_weight(onehot);expected={c:max(1.,math.log(2*len(labels)/int((labels==c).sum()))) for c in range(12)};equal(weights,expected)
+                                                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-litemv-source-probe-20261031/native_litemv.py", line 50, in equal
+    for k in a:equal(a[k],b[k])
+               ^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-litemv-source-probe-20261031/native_litemv.py", line 54, in equal
+    else:assert a==b
+                ^^^^
+AssertionError
