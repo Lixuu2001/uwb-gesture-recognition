@@ -1,62 +1,62 @@
 {
-  "state": "existing_Encoder_pilot_OS_and_metadata_verified",
-  "observed_utc": "2026-11-02T00:41:44.296477+00:00",
+  "state": "completed_Encoder_audit_metadata_verified",
+  "observed_utc": "2026-11-02T05:29:29.322239+00:00",
   "controller": {
     "pid": 70391,
-    "command": [
-      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
-      "-u",
-      "/workspace/uwb-encoder-pilot-20261102/controller.py"
-    ],
+    "present": true,
+    "active": false,
+    "command": [],
     "status": {
-      "State": "S (sleeping)",
+      "State": "Z (zombie)",
       "PPid": "1",
-      "VmRSS": "12672 kB",
       "Threads": "1"
     }
   },
-  "children": [
-    {
-      "pid": 70392,
-      "command": [
-        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
-        "-u",
-        "/workspace/uwb-encoder-pilot-20261102/run_pilot.py"
-      ],
-      "status": {
-        "State": "R (running)",
-        "PPid": "70391",
-        "VmRSS": "2932384 kB",
-        "Threads": "1"
-      }
-    }
-  ],
+  "children": [],
   "controller_state": {
-    "state": "training",
-    "pid": 70391,
+    "state": "complete_audited_unscored_requires_private_backup_and_finalization",
+    "pid": null,
     "automatic_retry": false,
     "Drive_or_Git_capability": false,
     "users7_8_labels_used": false,
-    "observed_unix": 1793579896.0643444
+    "observed_unix": 1793597181.7782032,
+    "complete_private_backup_done": false
   },
   "training_state": {
-    "state": "training",
-    "pid": 70392,
-    "epoch": 2,
-    "total_steps": 784,
-    "all_predictions_frozen": false,
+    "state": "complete",
+    "pid": null,
+    "epoch": 100,
+    "total_steps": 39200,
+    "all_predictions_frozen": true,
     "diagnostic_labels_read": false,
     "users7_8_labels_used": false,
-    "wall_seconds": 182.01920438813977,
-    "cpu_seconds": 184.254571323,
-    "observed_unix": 1793580080.4229388,
+    "wall_seconds": 8696.395945561118,
+    "cpu_seconds": 8697.46932079,
+    "observed_unix": 1793588594.799681,
     "batch": 0,
-    "best_epoch": 2
+    "best_epoch": 91
   },
-  "initial_checkpoint_exists": true,
-  "first_checkpoint_exists": true,
-  "training_termination_exists": false,
-  "audit_termination_exists": false,
+  "training_termination": {
+    "pid": 70392,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 8700.427628088044,
+    "child_cpu_seconds": 8699.156387,
+    "cpu_soft_seconds": 24200,
+    "cpu_hard_seconds": 24300,
+    "scientific_negative": false
+  },
+  "audit_termination": {
+    "pid": 70682,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 8585.28320830199,
+    "child_cpu_seconds": 8584.426932999997,
+    "cpu_soft_seconds": 24200,
+    "cpu_hard_seconds": 24300,
+    "scientific_negative": false
+  },
+  "full_audit_metadata_verified": true,
   "diagnostic_score_exists": false,
   "configuration_changed": false,
   "labels_loaded_by_observer": false

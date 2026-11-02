@@ -1,0 +1,30 @@
+{
+  "state": "pass_full_author_released_TCN_CLI_synthetic_only",
+  "total_parameters": 180162,
+  "trainable_tensors": 52,
+  "state_dict_keys": 100,
+  "blocks": 8,
+  "channels": 25,
+  "kernel": 7,
+  "dropout": 0.05,
+  "causal_two_convolutions_per_block": true,
+  "last_timestep_linear_logsoftmax": true,
+  "synthetic_updates": 3,
+  "independent_NumPy_full_graph_inference": true,
+  "future_input_prefix_invariance_exact": true,
+  "complete_weights_Adam_modes_global_RNG_fresh_restore_next_update_exact": true,
+  "initial_restore_exact": true,
+  "legacy_weight_norm_init_derived_cache_recomputed_on_first_forward": true,
+  "source_default_epochs": 20,
+  "source_default_batch_size": 64,
+  "source_default_training_shuffle": false,
+  "source_default_checkpoint_selection": "final_epoch20",
+  "source_LR_decays_after_epochs": [
+    10,
+    20
+  ],
+  "UWB_values_labels_fit": false,
+  "formal_cost_run": false,
+  "original_PyTorch_numeric_parity_claim": false,
+  "novelty_claim": false
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_Encoder100_training_complete_original_numeric_audit_active_producer_private_recovery_verified",
+  "state": "Encoder_full100_audited_private_preserved_accuracy_gate_failed_TCN_full20_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_encoder_pilot/COMPLETED_TRAINING_AND_PRODUCER_RECOVERY.md",
+  "latest_report": "results/cloud_20261102_encoder_pilot/FINAL_RESULT_AND_NEXT_TCN.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Full100 Encoder training worker70392 exited0/no timeout after39200updates/470000appearances, selectedepoch91. Original controller70391 now supervises full replay70682; observed running2026-11-02T03:53:47.894022+00:00.40chunk/111member completed producer private recovery verified; audit certificate and diagnostic score pending.",
+  "background_training_status_note": "Encoder full100 complete audit and private113member modelset passed; final diagnostic93.3333% failed fixed98.6667%+.5pp gate. Exact config closed. TCN full released20/B64 source synthetic checks pass; fixed synthetic cost preregistered, no TCN UWB fit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "complete_review_author_Encoder100_B12_seed20261029",
+  "next_candidate": "full_author_released_TCN_classification20_B64_seed20261029",
   "last_completed_update_utc": "2026-11-02",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Encoder full100 real training complete, original full numerical audit active. All completed training producer states/IDs/logs/dualscores privately verified and persistent index published. No diagnostic score; no accuracy or originality conclusion. Continue original auditor only.",
+  "latest_task_state": "Full Encoder final gate failed after complete replay/private preservation; exact config closed. Full released TCN classification preset implemented/synthetic checked; cost remotely preregistered but not executed at this snapshot. No active training; goal unresolved.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3029,8 +3029,8 @@
     },
     "gate_passed": false
   },
-  "background_continuation_running": true,
-  "background_continuation_pid": 70391,
+  "background_continuation_running": false,
+  "background_continuation_pid": null,
   "timemil_accuracy_preparation": {
     "state": "complete_audited_exact64epoch_timemil_gate_failed_gap_expansion_eligible",
     "path": "/workspace/uwb-timemil-20261029",
@@ -3401,7 +3401,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "results/cloud_20261102_encoder_pilot/COMPLETED_TRAINING_AND_PRODUCER_RECOVERY.md",
+  "latest_completed_report": "results/cloud_20261102_encoder_pilot/FINAL_RESULT_AND_NEXT_TCN.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -4495,8 +4495,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": true,
-  "background_audit_pid": 70682,
+  "background_audit_running": false,
+  "background_audit_pid": null,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5169,7 +5169,7 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_supervisor_pid": 70391,
+  "background_audit_supervisor_pid": null,
   "oscnn_source_probe": {
     "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
@@ -6423,7 +6423,7 @@
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes",
     "real_ablation_closed_by_source6_gate_failure": true
   },
-  "background_numeric_audit_running": true,
+  "background_numeric_audit_running": false,
   "background_experiment_queue_running": false,
   "disjoint_cnn_formal_cost_20261101": {
     "state": "actual_synthetic_profile_successfully_completed_full500_B8_resource_closed",
@@ -6885,7 +6885,7 @@
     "accuracy_measured": false
   },
   "encoder_accuracy_pilot_20261102": {
-    "state": "full100_training_complete_original_full_numeric_audit_active_producer_recovery_verified",
+    "state": "closed_exact_configuration_after_full_audit_private_backup_failed_accuracy_gate",
     "workspace": "/workspace/uwb-encoder-pilot-20261102",
     "protocol": "results/cloud_20261102_encoder_pilot/study/PROTOCOL.json",
     "protocol_sha256": "4278d2ad5688e0fe6bd5996432e00e92597f596ae3697f9f26a3146c61884b8a",
@@ -6919,16 +6919,16 @@
     "actual_cost_estimate_seconds": 24009.215816214215,
     "real_training_started": true,
     "real_UWB_values_labels_fit": true,
-    "complete_private_modelset_verified": false,
-    "full_audit_complete": false,
-    "diagnostic_scored": false,
+    "complete_private_modelset_verified": true,
+    "full_audit_complete": true,
+    "diagnostic_scored": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
     "automatic_retry": false,
     "automatic_resume": false,
     "registration_commit": "ec3c804aef1dea4c0bbcd539693622d6eb203a10",
-    "controller_pid": 70391,
+    "controller_pid": null,
     "training_worker_pid": null,
     "observed_epoch": 100,
     "observed_updates": 39200,
@@ -6943,7 +6943,7 @@
     "latest_epoch_weights_privately_preserved": true,
     "training_complete": true,
     "completed_training_worker_pid": 70392,
-    "audit_worker_pid": 70682,
+    "audit_worker_pid": null,
     "training_appearances": 470000,
     "selected_epoch": 91,
     "training_termination": {
@@ -6966,6 +6966,74 @@
     "producer_private_receipt_sha256": "0adf5f233da6389b2cbdf1dc6a808455daa58a17ab9a78646d12079f6b0305b3",
     "producer_upload_internal_errors_recovered": 2,
     "empty_Drive_search_is_not_duplicate_absence_proof": true,
-    "verified_duplicate_transport_copies_pruned_logical_bytes": 986483432
+    "verified_duplicate_transport_copies_pruned_logical_bytes": 986483432,
+    "predeclared_gate_passed": false,
+    "scores": {
+      "validation": 0.9570000000000001,
+      "diagnostic": 0.9333333333333332
+    },
+    "fixed_reference_macro": 0.9866666666666667,
+    "delta_macro": -0.053333333333333455,
+    "route": "close_exact_full100_B12_seed_configuration_no_rescue",
+    "closed_without_rescue": true,
+    "source6_confirmation_complete": false,
+    "audit_termination": {
+      "completed_pid": 70682,
+      "exit_code": 0,
+      "wall_timeout": false,
+      "wall_seconds": 8585.28320830199,
+      "cpu_seconds": 8584.426932999997
+    },
+    "complete_private_modelset_index": "results/cloud_20261102_encoder_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "complete_private_modelset_chunks": 40,
+    "complete_private_modelset_members": 113,
+    "complete_private_modelset_sha256": "0edb61307a6c5a18d41d5dc0a7ad757f492f8667ffeaa5b313ccdbc3441f5978",
+    "complete_private_receipt_sha256": "20aaeb927bf7281ddc19532b14d7124f16678231166b104e09a8f24d29a5216c",
+    "observer_completed_zombie_classification_fixed": true
+  },
+  "tcn_source_preparation_20261102": {
+    "state": "full_released_author_classification_CLI_synthetic_checks_passed",
+    "workspace": "/workspace/uwb-tcn-source-probe-20261102",
+    "code": "research/cloud_20261102_tcn_source",
+    "source_commit": "2f8c2b817050206397458dfd1f5a25ce8a32fe65",
+    "paper_arxiv": "1803.01271",
+    "selected_paper_sections_read": true,
+    "paper_all_pages_figures_read": false,
+    "source_cli_not_paper_table_replication": true,
+    "total_parameters": 180162,
+    "trainable_tensors": 52,
+    "blocks": 8,
+    "channels": 25,
+    "kernel": 7,
+    "dropout": 0.05,
+    "source_default_epochs": 20,
+    "source_default_batch_size": 64,
+    "source_training_shuffle": false,
+    "checkpoint_selection": "final_epoch20",
+    "source_LR_divide_by10_after_epochs": [
+      10,
+      20
+    ],
+    "legacy_weightnorm_init_behavior_preserved": true,
+    "independent_NumPy_full_graph_and_causality_checks_passed": true,
+    "complete_custom_restore_next_update_exact": true,
+    "real_UWB_values_labels_fit": false,
+    "novelty_claim": false
+  },
+  "tcn_formal_cost_20261102": {
+    "state": "fixed_full20_B64_synthetic_cost_preregistered_not_executed",
+    "workspace": "/workspace/uwb-tcn-formal-cost-20261102",
+    "epochs": 20,
+    "batch_size": 64,
+    "seed": 20261029,
+    "threads": 1,
+    "parameters": 180162,
+    "budget_seconds": 43200,
+    "memory_limit_KiB": 14680064,
+    "cost_hashes_sha256": "95c591382ba62e63a274adc064816a51f96b8c4893c26e71170e32839a2f58af",
+    "policy_sha256": "86c0f2964a64258594f4fa1f729cc642e4d58b762c6c5f61ca26aafacf961489",
+    "profile_started": false,
+    "real_UWB_values_labels_fit": false,
+    "no_smaller_epoch_batch_fallback": true
   }
 }

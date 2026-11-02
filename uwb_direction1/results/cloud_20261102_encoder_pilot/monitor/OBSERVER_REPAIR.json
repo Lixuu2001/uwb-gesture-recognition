@@ -1,0 +1,12 @@
+{
+  "state": "observer_classification_fault_not_scientific_job_failure",
+  "old_observer_sha256": "79f11e9aef9506d475606c1d460e2101504aaccb17db2f1002fdbce8a45a966e",
+  "observed_error": "RuntimeError: Zombie process",
+  "controller_pid": 70391,
+  "actual_controller_state": "complete_audited_unscored_requires_private_backup_and_finalization",
+  "training_exit_code": 0,
+  "audit_exit_code": 0,
+  "root_cause": "Active-only observer rejected normally exited zombie controller before reading successful termination evidence",
+  "scientific_code_or_tests_or_logs_changed": false,
+  "training_or_audit_restarted": false
+}
