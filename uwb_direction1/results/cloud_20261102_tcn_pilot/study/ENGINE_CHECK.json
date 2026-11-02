@@ -1,0 +1,12 @@
+{
+  "state": "pass_full_TCN_native_epoch_engine_synthetic_only",
+  "epochs": 20,
+  "updates": 40,
+  "source_LR_after10_and20_exact": true,
+  "epoch10_fresh_restore_next10epochs_exact": true,
+  "three_wrong_checkpoint_refusals_before_mutation": true,
+  "initial_restore_exact": true,
+  "native_save_full_RNG_isolation_exact": true,
+  "native_DataLoader_global_base_seed_consumption_verified": true,
+  "real_UWB_values_labels_fit": false
+}
