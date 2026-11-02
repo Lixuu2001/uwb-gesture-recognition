@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_ResNet18_frozen_SVM_cost_passed_real_pilot_frozen_preregistered_not_started",
+  "state": "full_ResNet18_frozen_C1_real_experiment_active_then_full_numeric_audit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_resnet18_imagenet_pilot/PREREGISTERED_REAL_EXPERIMENT.md",
+  "latest_report": "results/cloud_20261102_resnet18_imagenet_pilot/ACTIVE_REAL_EXPERIMENT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": null,
-  "background_training_status_note": "Syntheticcost90753completeexit0/auditedpass;realResNet18C1pilot17filesfrozen/preregisteredbutnotstartedatsnapshot.",
+  "background_training_pid": 91959,
+  "background_training_status_note": "RealResNet18frozenC1pipelineproducer_active/worker91959/controller91958actuallyrunning;user1/2labelssealed. InspectexactPID/TERMbeforeanylaunch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "LaunchoncefrozenrealResNet18C1producer_thenfullindependentaudit_privatebackup_onceheldscore",
-  "last_completed_update_utc": "2026-11-02T18:19:59.700601+00:00",
+  "last_completed_update_utc": "2026-11-02T18:23:57.478279+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "fullResNet18frozenC1_costpassed_realpilotpreregistered",
+    "state": "fullResNet18frozenC1_realproducer_then_full_audit_active",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2809,7 +2809,7 @@
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
     "next_method": "FullofficialResNet18_ImageNetfrozen512_LinearSVC_C1",
-    "next_method_started": false,
+    "next_method_started": true,
     "last_method": "QUANTfull_author200_syntheticcostonly_incomplete",
     "hydra": {
       "state": "complete_stop_exact_configuration",
@@ -2827,7 +2827,7 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     },
-    "next_method_stage": "realpilotfrozen_preregistered_notstarted"
+    "next_method_stage": "real_source3to6fit_then_fullaudit_notheldscore"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -8034,8 +8034,8 @@
     "no_old_screen_retry": true,
     "no_method_family_accuracy_rejection": true
   },
-  "background_compute_running": false,
-  "background_compute_pid": null,
+  "background_compute_running": true,
+  "background_compute_pid": 91959,
   "drcif500_full_cost_20261102": {
     "state": "verified_native_fullbatch_RSS_screen_closed_before_complete_fit",
     "workspace": "/workspace/uwb-drcif500-full-cost-20261102",
@@ -8345,7 +8345,7 @@
     }
   },
   "resnet18_imagenet_real_pilot_20261102": {
-    "state": "frozen_real_pilot_remote_preregistration_pending_not_started",
+    "state": "real_producer_or_full_audit_active_diagnostic_labels_sealed",
     "workspace": "/workspace/uwb-resnet18-imagenet-pilot-20261102",
     "source_workspace": "/workspace/uwb-resnet18-imagenet-source-20261102",
     "study_files": 17,
@@ -8371,14 +8371,21 @@
     "full_encoder_frozen": true,
     "features": 512,
     "head": "LinearSVC_C1",
-    "actual_UWB_values_labels_fit": false,
-    "real_fit_started": false,
+    "actual_UWB_values_labels_fit": true,
+    "real_fit_started": true,
     "full_audit_complete": false,
     "diagnostic_scored": false,
     "complete_private_encoder_head_modelset_verified": false,
     "users7_8_labels_used": false,
     "all_exploratory": true,
     "novelty_claim": false,
-    "operations_workspace": "/workspace/uwb-resnet18-imagenet-completion-20261102"
+    "operations_workspace": "/workspace/uwb-resnet18-imagenet-completion-20261102",
+    "phase": "producer_active",
+    "controller_pid": 91958,
+    "worker_pid": 91959,
+    "registration_commit": "ab894305b571469591d6b27b96e14ff46a2ff35e",
+    "all33_changed_files_exact_before_Popen": true,
+    "snapshot_utc": "2026-11-02T18:23:57.478279+00:00",
+    "initial_unfitted_and_encoder_identity_saved": true
   }
 }

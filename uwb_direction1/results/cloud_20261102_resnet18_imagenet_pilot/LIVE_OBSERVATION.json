@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-02T18:23:57.478279+00:00",
+  "pipeline_state": "producer_active",
+  "controller_pid": 91958,
+  "worker_pid": 91959,
+  "worker_exists": true,
+  "worker_usage": [
+    "State:\tR (running)",
+    "VmHWM:\t 1784948 kB",
+    "VmRSS:\t 1716032 kB",
+    "Threads:\t13"
+  ],
+  "registration_commit": "ab894305b571469591d6b27b96e14ff46a2ff35e",
+  "all33_changed_files_exact_before_Popen": true,
+  "real_training_started": true,
+  "full_encoder_frozen": true,
+  "train_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "train_cases": 4700,
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "validation_diagnostic_labels_sealed": true,
+  "users7_8_labels_used": false,
+  "full_audit_complete": false,
+  "complete_private_encoder_head_modelset_verified": false,
+  "diagnostic_scored": false
+}

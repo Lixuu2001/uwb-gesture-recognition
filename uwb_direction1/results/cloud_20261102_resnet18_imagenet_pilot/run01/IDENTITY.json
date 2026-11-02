@@ -1,0 +1,19 @@
+{
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "source_maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "protocol_sha256": "080320ba55b2e64ef96f13eba4bbc734a8addbfcc28de1d3e098f9a6375bbed7",
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "validation_labels_read": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false
+}
