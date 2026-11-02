@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-02T15:00:11.588406+00:00",
+  "registration_commit": "c7178d7cabc4c65192081f2a78eced2a5f179c70",
+  "exact_remote_readbacks_before_Popen": 39,
+  "controller_pid": 86334,
+  "worker_pid": 86335,
+  "worker_exists": true,
+  "controller_state": {
+    "state": "producer_active",
+    "pid": 86334,
+    "diagnostic_scored": false
+  },
+  "producer_state": {
+    "state": "native_full_25x2000_fit_train_users3_to6_only",
+    "pid": 86335,
+    "diagnostic_labels_read": false
+  },
+  "real_training_started": true,
+  "source_train_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_train_cases": 4700,
+  "full_native_members": 25,
+  "kernels_per_member": 2000,
+  "total_kernels": 50000,
+  "seed": 20261029,
+  "native_parallel_jobs": 4,
+  "BLAS_threads_per_member": 1,
+  "validation_labels_read": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "full_audit_complete": false,
+  "diagnostic_scored": false,
+  "complete_private_modelset_verified": false
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Arsenal25x2000_full4700_cost_passed_fixed_real_pilot_preregistered",
+  "state": "full_native_Arsenal25x2000_jobs4_real_fit_active_then_automatic_full_audit_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_arsenal_parallel_pilot/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_arsenal_parallel_pilot/ACTIVE_REAL_EXPERIMENT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": null,
-  "background_training_status_note": "No realfit yet in registration snapshot;cost complete andpassed,realrunner16files awaitingexactremote readback",
+  "background_training_pid": 86335,
+  "background_training_status_note": "RealArsenalproducer86335/controller86334 actuallyactiveatsnapshot;trainingusers3–6only. Controllerthenrunsfullaudit,never autoheldscore. InspectexactPIDs/statebeforeanylaunch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Full native Arsenal25x2000 fixedtrain3–6/val2/diag1 fit+fullnativeaudit afterexactremote readback",
-  "last_completed_update_utc": "2026-11-02T14:51:26.982300+00:00",
+  "next_candidate": "ObserveexistingactualArsenalproducerandauditor;completeprivatearchive+allmemberrecoverybeforeonceheldscore",
+  "last_completed_update_utc": "2026-11-02T15:00:11.588406+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_native_Arsenal25x2000_fixed_real_pilot_preregistered",
+    "state": "full_native_Arsenal25x2000_jobs4_realfit_active_then_fullaudit",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2809,7 +2809,7 @@
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
     "next_method": "native_Arsenal25x2000_CVaccuracy_weightedvotes",
-    "next_method_started": false,
+    "next_method_started": true,
     "last_method": "HYDRA",
     "hydra": {
       "state": "complete_stop_exact_configuration",
@@ -7872,7 +7872,7 @@
     "cost_gate_passed": true
   },
   "arsenal_parallel_accuracy_pilot_20261102": {
-    "state": "fixed_real_source_held1_protocol_full_runner_auditor_privatebackup_oncefinalizer_preregistered",
+    "state": "real_full4700_native_fit_active_diagnostic_labels_sealed",
     "workspace": "/workspace/uwb-arsenal-parallel-pilot-20261102",
     "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
     "frozen_sha256": "76153b2566fbfd607470d74be09b0271f1ecafb25cdc3abaf6f7ba647cb595e6",
@@ -7897,13 +7897,34 @@
     "total_kernels": 50000,
     "native_scorer": "trainingLOOaccuracy",
     "native_vote_weight": "directtrainingLOOaccuracy",
-    "real_fit_started": false,
+    "real_fit_started": true,
     "full_audit_complete": false,
     "diagnostic_scored": false,
     "complete_private_modelset_verified": false,
     "users7_8_labels_used": false,
     "all8historicallydeveloped_exploratory": true,
-    "novel_contribution_claim": false
+    "novel_contribution_claim": false,
+    "registration_commit": "c7178d7cabc4c65192081f2a78eced2a5f179c70",
+    "remote_changed_files_exact_before_Popen": 39,
+    "controller_pid": 86334,
+    "producer_pid": 86335,
+    "phase": "native_full_25x2000_fit_train_users3_to6_only",
+    "snapshot_utc": "2026-11-02T15:00:11.588406+00:00",
+    "initial_unfitted_and_source_ID_manifest_saved": true,
+    "producer_limits": {
+      "wall": 7200,
+      "soft_cpu": 28780,
+      "hard_cpu": 28800,
+      "RSS_KiB": 14680064
+    },
+    "audit_limits": {
+      "wall": 7200,
+      "soft_cpu": 28780,
+      "hard_cpu": 28800,
+      "RSS_KiB": 14680064
+    },
+    "private_preservation_scope": "complete_audited_Arsenal25x2000_native_CVaccuracy_jobs4_source_held1",
+    "operations_workspace": "/workspace/uwb-arsenal-parallel-completion-20261102"
   },
   "future_static_literature_review_20261102": {
     "method": "QUANT",
