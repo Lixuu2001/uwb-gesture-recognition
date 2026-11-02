@@ -1,0 +1,70 @@
+{
+  "resource_gate_passed": true,
+  "estimated_seconds": 30506.880974411033,
+  "estimated_hours": 8.474133604003065,
+  "estimated_CPU_seconds": 122027.52389764413,
+  "estimated_max_RSS_KiB": 3118976,
+  "required_additional_workspace_bytes": 443532966,
+  "workspace_free_bytes": 494768128,
+  "full_checkpoint_bytes": 89571787,
+  "model_only_upper_bytes": 45834470,
+  "stream_archive_upper_bytes": 218997749,
+  "streaming_backup_implementation_pending": true,
+  "actual_UWB_fit_started": false,
+  "accuracy_measured": false,
+  "state": "independently_verified_full_ResNet18_SGDM40_B15_cost",
+  "full_B15_update_seconds": [
+    1.1336388569325209,
+    0.995669063180685,
+    0.9250760350842029,
+    0.9049586248584092,
+    1.038941415026784,
+    0.9602938210591674
+  ],
+  "last_B5_update_seconds": [
+    0.3540699800942093
+  ],
+  "evaluation_B15_seconds": [
+    0.3152407461311668,
+    0.3270883150398731,
+    0.30208507599309087
+  ],
+  "full_checkpoint_save_seconds": [
+    0.054756173864006996,
+    0.03831450408324599,
+    0.038252721074968576
+  ],
+  "full_checkpoint_load_seconds": [
+    0.019376409938558936,
+    0.01810515089891851,
+    0.017700399970635772
+  ],
+  "peak_RSS_KiB": 1021824,
+  "disposable_checkpoint_records": [
+    {
+      "name": "disposable_full_checkpoint_0.pt",
+      "bytes": 89571787,
+      "sha256": "8aa33b17f1a1c5cd896a47a113748c34b51c542357ee3773455ee1c80e1553cd",
+      "full_state_exact": true
+    },
+    {
+      "name": "disposable_full_checkpoint_1.pt",
+      "bytes": 89571787,
+      "sha256": "9a066339366c3f3dfa06315f5a0554df29cf34424e97dac4c90b21fe7cdb4c16",
+      "full_state_exact": true
+    },
+    {
+      "name": "disposable_full_checkpoint_2.pt",
+      "bytes": 89571787,
+      "sha256": "0ccaf1d43bf7d089f8d2b3259fdfff9a756287789299fbf58cdd86d07f766d46",
+      "full_state_exact": true
+    }
+  ],
+  "model_optimizer_momentum_RNG_checkpoint_exact": true,
+  "no_actual_UWB_values_labels_read": true,
+  "full40_epochs_not_run": true,
+  "profile_result_sha256": "536861009778ece328cf8fe239a47f9e523bb8238c8346379934772b809e7735",
+  "supervisor_termination_sha256": "3e45a08c06ffc1f32508308d12f205977a24a9bb836bad58eaed14021e115b09",
+  "verified_without_reprofiling": true,
+  "real_training_allowed_only_after_streaming_backup_tests_and_new_preregistration": true
+}

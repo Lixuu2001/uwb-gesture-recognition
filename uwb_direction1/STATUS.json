@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "frozen_ResNet18_C1_failed_closed_full_alllayer_finetune_cost_preregistered",
+  "state": "full_ResNet18_SGDM40_B15_cost_passed_real_training_frozen_preregistered_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_resnet18_imagenet_pilot/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261102_resnet18_finetune/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "FrozenC1realfit/audit/privatebackup/once_scorecompletefailedclosed.Noactivetraining.NewfullSGDM40B15costfrozenbutnotstarted;actualUWBfinetuningnotstarted.",
+  "background_training_status_note": "Fullnetworkcostcompleteexit0/verified8.474hestimate.Newreal25filesfrozennotlaunched;streamingprivatebackuptested.OldC1failedclosed/norefit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "full_ResNet18_alllayer_SGDM40_B15_published_transfer_cost_once",
-  "last_completed_update_utc": "2026-11-02T19:18:01.185013+00:00",
+  "next_candidate": "launch_once_full_ResNet18_SGDM40_B15_real_producer_then_full_replay_audit",
+  "last_completed_update_utc": "2026-11-02T19:28:14.339728+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "frozen_ResNet18C1_exact_gate_failed_closed_next_distinct_full_finetune_cost",
+    "state": "full_ResNet18_alllayer_SGDM40_B15_cost_passed_real_preregistration",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2827,7 +2827,7 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     },
-    "next_method_stage": "full_ResNet18_alllayer_SGDM40_B15_formal_cost_not_UWB_fit"
+    "next_method_stage": "full40realtrain_then_independent40replay_then_private_streambackup_once_score"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -8539,7 +8539,7 @@
     "private_archive_index": "results/cloud_20261102_resnet18_roundoff_completion/complete_backup/CLOUD_DOWNLOAD_INDEX.json"
   },
   "resnet18_finetune_20261102": {
-    "state": "selected_full_published_alllayer_SGDM40_B15_synthetic_checkpoint_passed_cost_frozen_not_started",
+    "state": "full_network_cost_passed_real25_frozen_remote_registration_pending",
     "workspace": "/workspace/uwb-resnet18-finetune-source-20261102",
     "cost_workspace": "/workspace/uwb-resnet18-finetune-cost-20261102",
     "protocol_file": "research/cloud_20261102_resnet18_finetune/PROSPECTIVE_NEXT_CONFIG.json",
@@ -8630,10 +8630,87 @@
     },
     "cost_frozen_sha256": "f70ab90c9298ad46089affb01fdbe8d8b89ac616f513448bf9bda2e6382036ed",
     "actual_UWB_fit_started": false,
-    "formal_cost_started": false,
-    "streaming_private_backup_implemented": false,
+    "formal_cost_started": true,
+    "streaming_private_backup_implemented": true,
     "users7_8_labels_used": false,
     "all_exploratory": true,
-    "novelty_claim": false
+    "novelty_claim": false,
+    "real_workspace": "/workspace/uwb-resnet18-finetune-pilot-20261102",
+    "formal_cost_complete": true,
+    "cost_result": {
+      "resource_gate_passed": true,
+      "estimated_seconds": 30506.880974411033,
+      "estimated_hours": 8.474133604003065,
+      "estimated_CPU_seconds": 122027.52389764413,
+      "estimated_max_RSS_KiB": 3118976,
+      "required_additional_workspace_bytes": 443532966,
+      "workspace_free_bytes": 494768128,
+      "full_checkpoint_bytes": 89571787,
+      "model_only_upper_bytes": 45834470,
+      "stream_archive_upper_bytes": 218997749,
+      "streaming_backup_implementation_pending": true,
+      "actual_UWB_fit_started": false,
+      "accuracy_measured": false,
+      "state": "independently_verified_full_ResNet18_SGDM40_B15_cost",
+      "full_B15_update_seconds": [
+        1.1336388569325209,
+        0.995669063180685,
+        0.9250760350842029,
+        0.9049586248584092,
+        1.038941415026784,
+        0.9602938210591674
+      ],
+      "last_B5_update_seconds": [
+        0.3540699800942093
+      ],
+      "evaluation_B15_seconds": [
+        0.3152407461311668,
+        0.3270883150398731,
+        0.30208507599309087
+      ],
+      "full_checkpoint_save_seconds": [
+        0.054756173864006996,
+        0.03831450408324599,
+        0.038252721074968576
+      ],
+      "full_checkpoint_load_seconds": [
+        0.019376409938558936,
+        0.01810515089891851,
+        0.017700399970635772
+      ],
+      "peak_RSS_KiB": 1021824,
+      "disposable_checkpoint_records": [
+        {
+          "name": "disposable_full_checkpoint_0.pt",
+          "bytes": 89571787,
+          "sha256": "8aa33b17f1a1c5cd896a47a113748c34b51c542357ee3773455ee1c80e1553cd",
+          "full_state_exact": true
+        },
+        {
+          "name": "disposable_full_checkpoint_1.pt",
+          "bytes": 89571787,
+          "sha256": "9a066339366c3f3dfa06315f5a0554df29cf34424e97dac4c90b21fe7cdb4c16",
+          "full_state_exact": true
+        },
+        {
+          "name": "disposable_full_checkpoint_2.pt",
+          "bytes": 89571787,
+          "sha256": "0ccaf1d43bf7d089f8d2b3259fdfff9a756287789299fbf58cdd86d07f766d46",
+          "full_state_exact": true
+        }
+      ],
+      "model_optimizer_momentum_RNG_checkpoint_exact": true,
+      "no_actual_UWB_values_labels_read": true,
+      "full40_epochs_not_run": true,
+      "profile_result_sha256": "536861009778ece328cf8fe239a47f9e523bb8238c8346379934772b809e7735",
+      "supervisor_termination_sha256": "3e45a08c06ffc1f32508308d12f205977a24a9bb836bad58eaed14021e115b09",
+      "verified_without_reprofiling": true,
+      "real_training_allowed_only_after_streaming_backup_tests_and_new_preregistration": true
+    },
+    "streaming_private_backup_synthetic_roundtrip_passed": true,
+    "real_frozen_files": 25,
+    "real_frozen_sha256": "69b12b2e244cd95d6c249237459d61dad91ef023d1ed19bc6c23f529cabc2886",
+    "real_protocol": "research/cloud_20261102_resnet18_finetune_pilot/PROTOCOL.json",
+    "real_report": "results/cloud_20261102_resnet18_finetune/PREREGISTRATION.md"
   }
 }
