@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "created_date_utc": "2026-11-02",
+  "purpose": "Immutable MC initial/first-pass recovery only; not latest/complete.",
+  "state": "private_readback_verified",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "mc100_initial_first_20261102.tar.gz",
+  "archive_bytes": 9730135,
+  "archive_sha256": "f3397047ebc76464103bc33d6544a0a94e4491bafa1bb0a566263a35178301ad",
+  "members_manifest_sha256": "daca812599b72099c2ab2309a761ecf80a313320b7d692c308513121bb173d13",
+  "chunks": [
+    {
+      "name": "mc100_initial_first_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "6da6c3409c54613a6cde8898cfdbef440a473413cc5019195aa4932048990a7a",
+      "file_id": "1S5rx5ntmx62NjWw-osJDdxQ8Gxrd_Jc-",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mc100_initial_first_20261102.part001",
+      "bytes": 2390103,
+      "sha256": "1f4356aad9e59f52f439d76c65a577ade6bc07b2a11667f13fab7ab5f7520ca2",
+      "file_id": "1uZ_3LLUHLd4F91Qy32hSrxmt8ECaK938",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 2390103,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "chunks_verified": 2,
+  "archive_members": 103,
+  "complete_modelset_verified": false,
+  "numeric_audit_certified": false,
+  "all_produced_initial_first_final_native_selected_weights_and_MC_traces_included": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "receipt_sha256": "bbf655eb56de00d92e4dec14b6b52b275fe8c3e1b51965d027634086d57c847b",
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "folder_must_remain_owner_only": true,
+  "latest_epoch_privately_preserved": false,
+  "raw_maps_runtime_restore_separately": true,
+  "empty_search_is_not_duplicate_absence_proof": true
+}

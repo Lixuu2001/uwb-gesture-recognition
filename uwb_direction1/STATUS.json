@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MC100_real_inference_protocol_preregistered_after_cost_pass_and_repository_rename_repair",
+  "state": "MC100_real_stochastic_inference_active_initial_first_private_insurance_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_mcdropout_pilot/PREREGISTRATION_REPORT.md",
+  "latest_report": "results/cloud_20261102_mcdropout_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Registered known MC100 inference estimator on immutable TimeMIL41; execute once after remote exact preregistration",
-  "last_completed_update_utc": "2026-11-02T08:45:52.544286+00:00",
+  "last_completed_update_utc": "2026-11-02T08:54:36.005500+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
     "observations_current": true,
@@ -1037,7 +1037,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-11-02T08:45:52.544286+00:00",
+  "last_updated_utc": "2026-11-02T08:54:36.005500+00:00",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Canonical renamed repository routing resolved and existing automation context repaired without changing cadence. MC100 actual cost passed; complete real inference/independent auditor/private recovery protocol frozen and registered before value/checkpoint access. No active new real experiment until exact remote readback/head and marker.",
+  "latest_task_state": "Known MC100 inference actually active on cloud, no new training; immutable selected weights and first validation pass verified, initial-first2chunks103members private recovery passed. Original controller will run complete independent replay; full private output/audit and one diagnostic gate remain pending.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3029,8 +3029,8 @@
     },
     "gate_passed": false
   },
-  "background_continuation_running": false,
-  "background_continuation_pid": null,
+  "background_continuation_running": true,
+  "background_continuation_pid": 75249,
   "timemil_accuracy_preparation": {
     "state": "complete_audited_exact64epoch_timemil_gate_failed_gap_expansion_eligible",
     "path": "/workspace/uwb-timemil-20261029",
@@ -7306,7 +7306,7 @@
   "repository_observed_visibility": "public",
   "repository_visibility_changed_by_agent": false,
   "mcdropout_accuracy_pilot_20261102": {
-    "state": "real_protocol_registered_not_yet_launched",
+    "state": "active_stochastic_inference_initial_first_private_insurance_verified",
     "workspace": "/workspace/uwb-mcdropout-pilot-20261102",
     "protocol": "results/cloud_20261102_mcdropout_pilot/study/PROTOCOL.json",
     "protocol_sha256": "a0ea474e8486425286fba467da32d8384a4370138a29da28e343cddf050c0e6b",
@@ -7322,9 +7322,9 @@
     "link": "mean_sigmoid",
     "reused_selected_epoch": 41,
     "new_training": false,
-    "real_inference_started": false,
-    "trained_UWB_checkpoint_loaded": false,
-    "new_UWB_values_accessed": false,
+    "real_inference_started": true,
+    "trained_UWB_checkpoint_loaded": true,
+    "new_UWB_values_accessed": true,
     "full_audit_complete": false,
     "complete_private_modelset_verified": false,
     "diagnostic_scored": false,
@@ -7334,6 +7334,23 @@
     "automatic_retry": false,
     "automatic_resume": false,
     "protocol_boundary_tests": 8,
-    "full_synthetic_producer_independent_replay_passed": true
-  }
+    "full_synthetic_producer_independent_replay_passed": true,
+    "registration_commit": "9d8b37a25d1933e71bca00b75a4e465e2901f44e",
+    "controller_pid": 75249,
+    "inference_worker_pid": 75250,
+    "observed_role": "validation",
+    "observed_samples_current_role": 14,
+    "observed_MC_batches_derived": 224,
+    "observed_utc": "2026-11-02T08:52:27.445155+00:00",
+    "initial_first_verified": true,
+    "initial_first_private_verified": true,
+    "initial_first_private_chunks": 2,
+    "initial_first_private_members": 103,
+    "initial_first_private_bytes": 9730135,
+    "initial_first_private_scope": "initial_first_only_not_latest_or_complete",
+    "initial_first_private_index": "results/cloud_20261102_mcdropout_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
+    "latest_full_outputs_privately_preserved": false
+  },
+  "background_inference_running": true,
+  "background_inference_pid": 75250
 }

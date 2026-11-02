@@ -1,0 +1,23 @@
+{
+  "observed_utc": "2026-11-02T08:52:27.445155+00:00",
+  "controller_pid": 75249,
+  "actual_inference_worker_pid": 75250,
+  "controller_state": "stochastic_inference",
+  "worker_state": "inference",
+  "role": "validation",
+  "samples_completed_current_role": 14,
+  "total_stochastic_batches_derived": 224,
+  "worker_total_forward_batches_field_scope": "current role only, excludes deterministic controls and earlier role; do not interpret as global count",
+  "worker_wall_seconds": 187.2586849099025,
+  "worker_CPU_seconds": 191.548384589,
+  "worker_liveness_verified": true,
+  "training_started": false,
+  "new_training": false,
+  "diagnostic_scored": false,
+  "users7_8_labels_used": false,
+  "initial_first_private_verified": true,
+  "initial_first_private_scope": "initial_first_only_not_latest_or_complete",
+  "complete_private_modelset_verified": false,
+  "full_audit_complete": false,
+  "active_process_not_relaunched": true
+}
