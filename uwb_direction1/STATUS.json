@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_Encoder100_B12_real_source_training_active_first_private_insurance_verified",
+  "state": "full_Encoder100_training_complete_original_numeric_audit_active_producer_private_recovery_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_encoder_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
+  "latest_report": "results/cloud_20261102_encoder_pilot/COMPLETED_TRAINING_AND_PRODUCER_RECOVERY.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": 70392,
-  "background_training_status_note": "Original cloud controller70391/worker70392 observed running at2026-11-02T00:41:44.296477+00:00; epoch2/784updates, fixed full100/B12/seed. Automatic full replay follows training, no diagnostic score. Initial-first9chunk/93member private insurance verified; not complete or latest epoch.",
+  "background_training_pid": null,
+  "background_training_status_note": "Full100 Encoder training worker70392 exited0/no timeout after39200updates/470000appearances, selectedepoch91. Original controller70391 now supervises full replay70682; observed running2026-11-02T03:53:47.894022+00:00.40chunk/111member completed producer private recovery verified; audit certificate and diagnostic score pending.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Complete review Encoder real training active on cloud only; original controller will full replay after100epochs, private complete modelset and one fixed gate score pending. TimeCNN exact2000 closed failed. Goal unresolved.",
+  "latest_task_state": "Encoder full100 real training complete, original full numerical audit active. All completed training producer states/IDs/logs/dualscores privately verified and persistent index published. No diagnostic score; no accuracy or originality conclusion. Continue original auditor only.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3401,7 +3401,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "results/cloud_20261102_encoder_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
+  "latest_completed_report": "results/cloud_20261102_encoder_pilot/COMPLETED_TRAINING_AND_PRODUCER_RECOVERY.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -4495,8 +4495,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": false,
-  "background_audit_pid": null,
+  "background_audit_running": true,
+  "background_audit_pid": 70682,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -5169,7 +5169,7 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_supervisor_pid": null,
+  "background_audit_supervisor_pid": 70391,
   "oscnn_source_probe": {
     "state": "source_probe_used_by_completed_audited_OSCNN_CPU100",
     "workspace": "/workspace/uwb-oscnn-source-probe-20261031",
@@ -6423,7 +6423,7 @@
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes",
     "real_ablation_closed_by_source6_gate_failure": true
   },
-  "background_numeric_audit_running": false,
+  "background_numeric_audit_running": true,
   "background_experiment_queue_running": false,
   "disjoint_cnn_formal_cost_20261101": {
     "state": "actual_synthetic_profile_successfully_completed_full500_B8_resource_closed",
@@ -6885,7 +6885,7 @@
     "accuracy_measured": false
   },
   "encoder_accuracy_pilot_20261102": {
-    "state": "full100_B12_real_training_active_initial_first_insurance_verified",
+    "state": "full100_training_complete_original_full_numeric_audit_active_producer_recovery_verified",
     "workspace": "/workspace/uwb-encoder-pilot-20261102",
     "protocol": "results/cloud_20261102_encoder_pilot/study/PROTOCOL.json",
     "protocol_sha256": "4278d2ad5688e0fe6bd5996432e00e92597f596ae3697f9f26a3146c61884b8a",
@@ -6929,10 +6929,10 @@
     "automatic_resume": false,
     "registration_commit": "ec3c804aef1dea4c0bbcd539693622d6eb203a10",
     "controller_pid": 70391,
-    "training_worker_pid": 70392,
-    "observed_epoch": 2,
-    "observed_updates": 784,
-    "observed_utc": "2026-11-02T00:41:44.296477+00:00",
+    "training_worker_pid": null,
+    "observed_epoch": 100,
+    "observed_updates": 39200,
+    "observed_utc": "2026-11-02T03:53:47.894022+00:00",
     "first_update_verified": true,
     "first_batch_size": 12,
     "first_private_insurance_verified": true,
@@ -6940,6 +6940,32 @@
     "first_private_insurance_members": 93,
     "first_private_insurance_scope": "initial_first_only_not_latest_or_complete",
     "first_private_insurance_index": "results/cloud_20261102_encoder_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
-    "latest_epoch_weights_privately_preserved": false
+    "latest_epoch_weights_privately_preserved": true,
+    "training_complete": true,
+    "completed_training_worker_pid": 70392,
+    "audit_worker_pid": 70682,
+    "training_appearances": 470000,
+    "selected_epoch": 91,
+    "training_termination": {
+      "exit_code": 0,
+      "wall_timeout": false,
+      "pid": 70392,
+      "supervisor_wall_seconds": 8700.427628088044,
+      "child_cpu_seconds": 8699.156387,
+      "cpu_soft_seconds": 24200,
+      "cpu_hard_seconds": 24300,
+      "scientific_negative": false
+    },
+    "all_predictions_frozen": true,
+    "producer_private_recovery_verified": true,
+    "producer_private_recovery_scope": "completed_full100_training_producer_numeric_audit_pending_not_certified",
+    "producer_private_recovery_chunks": 40,
+    "producer_private_recovery_members": 111,
+    "producer_private_recovery_index": "results/cloud_20261102_encoder_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json",
+    "producer_private_recovery_sha256": "a3433e303b2bbf6810ded6c353e015ed2e4ed97bb731e023790222053538c787",
+    "producer_private_receipt_sha256": "0adf5f233da6389b2cbdf1dc6a808455daa58a17ab9a78646d12079f6b0305b3",
+    "producer_upload_internal_errors_recovered": 2,
+    "empty_Drive_search_is_not_duplicate_absence_proof": true,
+    "verified_duplicate_transport_copies_pruned_logical_bytes": 986483432
   }
 }

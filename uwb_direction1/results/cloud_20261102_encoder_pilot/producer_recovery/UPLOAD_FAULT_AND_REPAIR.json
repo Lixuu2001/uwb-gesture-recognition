@@ -1,0 +1,41 @@
+{
+  "state": "two_upload_internal_errors_recovered_with_retained_evidence",
+  "faults": [
+    {
+      "part": 2,
+      "name": "encoder100_completed_producer_20261102.part002",
+      "failed_response": "UPLOAD_RESPONSE_002_1793590485809.json",
+      "failed_response_sha256": "aec0ed4cd8e714e27cebaa862a3f18726cdbd19c565ba52cbf3a3a186a0f4e22",
+      "reported_error": "MCP -32603 Internal error, no usable uploadedID; upstream cause unknown",
+      "attempt_count": 2,
+      "exact_name_search_retained": true,
+      "search_empty_not_absence_proof": true,
+      "selected_file_id": "1GUcgRQDE_qOoVFa85BjII637qGlayH-y",
+      "private_metadata_and_raw_readback_SHA_verified": true,
+      "prior_unidentified_object_possible": true,
+      "unknown_object_deleted": false
+    },
+    {
+      "part": 14,
+      "name": "encoder100_completed_producer_20261102.part014",
+      "failed_response": "UPLOAD_RESPONSE_014_1793590823981.json",
+      "failed_response_sha256": "aec0ed4cd8e714e27cebaa862a3f18726cdbd19c565ba52cbf3a3a186a0f4e22",
+      "reported_error": "MCP -32603 Internal error, no usable uploadedID; upstream cause unknown",
+      "attempt_count": 2,
+      "exact_name_search_retained": true,
+      "search_empty_not_absence_proof": true,
+      "selected_file_id": "1NOkLumOkDc2BVg5OLbt2J9bkFNTXFXAa",
+      "private_metadata_and_raw_readback_SHA_verified": true,
+      "prior_unidentified_object_possible": true,
+      "unknown_object_deleted": false
+    }
+  ],
+  "selected_unique_verified_chunks": 40,
+  "successful_chunks_never_reuploaded": true,
+  "max_concurrent_pipelines": 3,
+  "checked_retry_wrapper_saved_for_explicit_internal_errors_only": true,
+  "new_wrapper_retry_branch_exercised_in_remaining25_chunks": false,
+  "scientific_training_or_audit_retry": false,
+  "scientific_code_or_configuration_changed": false,
+  "diagnostic_labels_scored": false
+}

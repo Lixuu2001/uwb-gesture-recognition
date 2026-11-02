@@ -1,0 +1,30 @@
+{
+  "state": "completed_producer_verified_private_preserved_original_full_audit_active",
+  "training_result": {
+    "state": "complete_unscored_training",
+    "epochs": 100,
+    "steps": 39200,
+    "best_epoch": 91,
+    "training_appearances": 470000,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false
+  },
+  "training_termination": {
+    "pid": 70392,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 8700.427628088044,
+    "child_cpu_seconds": 8699.156387,
+    "cpu_soft_seconds": 24200,
+    "cpu_hard_seconds": 24300,
+    "scientific_negative": false
+  },
+  "producer_archive_manifest_sha256": "5470e4bf51663a7574fbc6fa5e68b5ad172c3d2b02f6cff14902b5e65433f52d",
+  "producer_receipt_sha256": "0adf5f233da6389b2cbdf1dc6a808455daa58a17ab9a78646d12079f6b0305b3",
+  "full_audit_success_certificate_exists": false,
+  "diagnostic_summary_exists": false,
+  "frozen_protocol_sha256": "4278d2ad5688e0fe6bd5996432e00e92597f596ae3697f9f26a3146c61884b8a",
+  "frozen_hashes_sha256": "3b3abcc137538953c3e54fb3542e1aff371689184e0a51354235883fe790014b",
+  "scientific_configuration_changed": false,
+  "tests_rerun": false
+}
