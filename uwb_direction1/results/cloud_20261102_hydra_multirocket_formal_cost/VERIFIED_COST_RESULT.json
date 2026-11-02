@@ -1,0 +1,30 @@
+{
+  "state": "full_native_HydraMultiRocket_full4700_cost_independently_verified",
+  "profile_completed_successfully": true,
+  "resource_gate_passed": true,
+  "estimated_seconds": 765.9297303055064,
+  "estimated_hours": 0.2127582584181962,
+  "profiler_peak_RSS_KiB": 9407728,
+  "supervisor_peak_RSS_KiB": 9407856,
+  "conservative_peak_RSS_KiB": 9407856,
+  "conservative_estimated_RSS_with_margin_KiB": 11505008,
+  "memory_note": "Supervisor observed128KiB above profiler sample,after result construction. Use larger peak plus unchanged2GiBmargin;both pass14GiB. Frozen profiler result untouched;no tolerance or criterion changed.",
+  "profile_result_sha256": "e8920de288a4d04b93b60c6cf74e0db18083799f9c91646c394577281b4c3fcb",
+  "termination": {
+    "pid": 80602,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "resource_stop_reason": null,
+    "peak_observed_RSS_KiB": 9407856,
+    "RSS_stop_KiB": 12582912,
+    "supervisor_wall_seconds": 165.92333347001113,
+    "child_cpu_seconds": 165.536653,
+    "cpu_soft_seconds": 1180,
+    "cpu_hard_seconds": 1200,
+    "scientific_negative": false,
+    "accuracy_measured": false
+  },
+  "accuracy_measured": false,
+  "real_UWB_values_labels_fit": false,
+  "real_pilot_started": false
+}
