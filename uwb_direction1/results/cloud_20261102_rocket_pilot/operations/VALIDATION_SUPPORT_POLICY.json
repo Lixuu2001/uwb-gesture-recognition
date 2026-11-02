@@ -1,0 +1,14 @@
+{
+  "state": "pre_score_descriptive_validation_support_correction",
+  "original_frozen_finalizer": "/workspace/uwb-rocket-pilot-v2-20261102/finalize.py",
+  "original_sha256": "6f479ffc32ece75ab7138f6af6ede637a2831ab17c45b3b7680b928065919d2c",
+  "original_executed": false,
+  "actual_validation_or_diagnostic_labels_read": false,
+  "issue": "Validation user2 quality mask removes classes10 and11. Averaging all12classes creates empty-support means/NaN. Diagnostic user1 has all12classes and its registered accuracy gate is unchanged.",
+  "correction": "Compute descriptive validation macro over present classes0..9,assert known support before reporting;diagnostic still all12classes0..11. No fitting, no model/seed/kernel/alpha/config/IDs/predictions/reference/gate change.",
+  "finalizer": "finalize_supported_validation.py",
+  "registration_required_before_first_score": true,
+  "raw_scientific_study_files_modified": false,
+  "old_finalizer_must_never_execute": true,
+  "goal_or_pass_criteria_changed": false
+}

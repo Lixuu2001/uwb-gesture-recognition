@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_ROCKET10000_cost_passed_real_source_held1_V2_preregistered_not_started",
+  "state": "ROCKET10000_full_real_native_fit_and_audit_passed_unscored_report_support_amendment_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_rocket_pilot/study/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_rocket_pilot/operations/VALIDATION_SUPPORT_POLICY.json",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "ROCKET synthetic cost completed successfully; real V2 controller not launched at this registration snapshot. V1 unstarted preparation retained as engineering failure, never registered/launched.",
+  "background_training_status_note": "Original ROCKET producer78039/auditor78137 complete exit0; no active compute. Complete private recovery and preregistered validation-support reporting correction required before one final score.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Run full ROCKET10000 native RidgeCV V2 once after exact remote real-pilot registration; no old closed reruns.",
-  "last_completed_update_utc": "2026-11-02T11:15:38.462617+00:00",
+  "last_completed_update_utc": "2026-11-02T11:27:10.189962+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -7423,7 +7423,7 @@
     "estimated_max_RSS_KiB": 5555580
   },
   "rocket_accuracy_pilot_20261102": {
-    "state": "V2_frozen_real_pilot_preregistered_not_started",
+    "state": "complete_full_native_replay_unscored_private_backup_pending_report_amendment_preregistered",
     "workspace": "/workspace/uwb-rocket-pilot-v2-20261102",
     "protocol_sha256": "949c427f6611252d738ea221d17cd52d3ca16a7fd790ddd478ee21c48e85520f",
     "frozen_sha256": "42b2ed7fa8ad67b1710b46a0280dc6be1534b2b1cec5ea4eae2ce4cf1873a843",
@@ -7444,13 +7444,26 @@
     "reference": 0.9866666666666667,
     "minimum_gain": 0.005,
     "diagnostic_scored": false,
-    "real_fit_started": false,
+    "real_fit_started": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
     "protocol_tests_passed": 4,
     "unstarted_V1_retained": true,
     "automatic_retry": false,
-    "automatic_resume": false
+    "automatic_resume": false,
+    "registration_commit": "abf8e44bd48e12a19f79df6420d42f32d6c47160",
+    "real_fit_complete": true,
+    "full_audit_complete": true,
+    "producer_exit_code": 0,
+    "producer_wall_seconds": 242.78469405509531,
+    "producer_CPU_seconds": 242.67827599999998,
+    "audit_exit_code": 0,
+    "audit_wall_seconds": 257.1507024769671,
+    "audit_CPU_seconds": 257.076328,
+    "selected_training_alpha": 1000.0,
+    "complete_private_modelset_verified": false,
+    "original_finalizer_executed": false,
+    "validation_report_support_repair_registered": true
   }
 }

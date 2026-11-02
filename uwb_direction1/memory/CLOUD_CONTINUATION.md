@@ -1,3 +1,11 @@
+# 2026-11-02 — ROCKET10000真实producer及完整重放均完成，评分前登记validation support报告修复
+
+真实V2协议abf8e44bd48e12a19f79df6420d42f32d6c47160的46文件逐一exactreadback后才写marker/启动controller78038。Producer78039exit0/no timeout，supervisor wall242.78469405509531s/CPU242.67827599999998s，nativefit172.36240091407672s。仅训练3–6/4700，registered10alphas nativeLOO选择alpha1000，besttraining negativeMSE-0.05166057155647253，无val/diag标签参与。Auditor78137exit0/no timeout，wall257.1507024769671s/CPU257.076328s；完整4700nativefit、全部10000kernel/scaler/coef/alpha/LOOscore精确、2200heldpred/decisions/featurebatchhash精确、6900rawRMS/cache/FP64全部通过。Frozen science保持原字节，当前无活跃producer/auditor；仍未评分。
+
+评分前静态检查发现，原finalize.py validation macro遍历range12，但历史qualitymask令user2缺class10/11，会对空support求mean产生NaN。原finalize从未执行，保留冻结字节不改/不运行。新增冻结study外operational finalize_supported_validation.py及VALIDATION_SUPPORT_POLICY：只将描述性validation报告改为实际存在0..9类的macro并断言已知support；diagnostic user1仍0..11全12类，原sameformula/ref .9866666666666667/min+.005/tol1e-12/gate/所有ID/输出/模型/配置不变。没有新held标签读取/数值结果可见后再选择或救援。合成4tests通过：缺两类val finite、full12diagnostic与原公式完全一致、unexpected support拒绝、remote amendment marker缺失阻止评分。修复文件和policy需本次精确remote readback后写独立marker，原finalizer永不执行。
+
+完整private archive正按原冻结backup.py准备，尚不能宣称远端完整恢复；原数据/weights/rawmaps不入Git。先complete全成员private回读/owneronly校验，再此已登记report修复finalizer一次评分，不能重跑/救援确切ROCKET配置。旧state保留unscored快照，最终SUMMARY将权威。users7–8 labels未用，全部探索性，无贡献/八折改善/独立验证结论；目标未达。仓库最新parentabf8e44bd48e12a19f79df6420d42f32d6c47160、forcefalse，保留用户根README清理/789源码/当前visibility/Driveowneronly。
+
 # 2026-11-02 — 完整ROCKET10000/nativeRidgeCV合成成本通过；真实source-held1固定协议V2预登记，尚未启动
 
 先读canonical仓库6295738ff485648fb432a2d88f98c414c0712fbf最新四记录。MC100最终失败关闭/完整私有4块123成员记录已发布，不重复该配置。完整ROCKET10000+native RidgeCV合成cost已按该commit精确41文件远端回读后只运行一次：worker77367exit0/no timeout，supervisor wall52.26600157888606s/CPU52.192896999999995s；full4700x20000RidgeCV39.33281530090608s，max64transform1.8707464130129665s，producer+独立完整重放估算602.140730077721s=0.16726131391047805h，RSS3458428KiB+2GiB=5555580KiB，12h/14GiB资源门槛通过。成本公式/冻结依赖/TERM独立复算通过；这是合成估计，不是实际UWB准确率/成本。
