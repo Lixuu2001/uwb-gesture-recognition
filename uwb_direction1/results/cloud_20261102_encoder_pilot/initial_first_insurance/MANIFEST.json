@@ -1,0 +1,66 @@
+{
+  "state": "immutable_Encoder_modelset_snapshot",
+  "scope": "initial_first_only_not_latest_or_complete",
+  "created_unix": 1793579920.876638,
+  "complete_modelset": false,
+  "all_initial_first_best_last_final_and_native_models_included": false,
+  "full_numerical_audit_included": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Initial/first scope is immutable start insurance only. Complete scope retains all produced checkpoints, exact IDs/logs/predictions and full audit; raw/maps/runtime restore separately. Remote preservation is established only after ordered raw chunk and every-member readback.",
+  "archive_name": "encoder100_initial_first_20261102.tar.gz",
+  "archive_bytes": 64194902,
+  "archive_sha256": "eddd3716e587d21609ee01675580d5e94b45a2c5dce0935278494b25022e2470",
+  "members_manifest_sha256": "402fab59161e63a43801fcfdc1a3f62e5874220e23b5bcf14a04a28c029fe3e5",
+  "tracked_payload_files": 92,
+  "chunks": [
+    {
+      "name": "encoder100_initial_first_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "af33a78b365486035b3985fb80452ffe69bab1e47efd8650e6b5daab753ca851"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part001",
+      "bytes": 7340032,
+      "sha256": "fb7c0b6d6fe8861f1080846f74364f82264415613d788e4886f674f8c0ac9339"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part002",
+      "bytes": 7340032,
+      "sha256": "92f87f3717f568f518743bb31ea00276f3e19ed65a7d728fe8f285b30a28faef"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part003",
+      "bytes": 7340032,
+      "sha256": "4d088cec764330665548aa3f8cd5c6f8342c9d9d303066c6a0d2f5d4affa1c46"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part004",
+      "bytes": 7340032,
+      "sha256": "fda92cb4490babe34e4256217c47839020f1315027115d3a743ed76f8252acd2"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part005",
+      "bytes": 7340032,
+      "sha256": "6b08a5032f352e0ca634dc22230860ea447ea28f0de46ae74d01fa899aed72bb"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part006",
+      "bytes": 7340032,
+      "sha256": "19add915296793f9f3fb9139cdc8a3605b6a8989d019efa431e288a6b93910f0"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part007",
+      "bytes": 7340032,
+      "sha256": "79122c8cc441634cc94ffb8d8b020d9464840240a4786e362ccaaf8473fdffc8"
+    },
+    {
+      "name": "encoder100_initial_first_20261102.part008",
+      "bytes": 5474646,
+      "sha256": "2be81b2ffe354c78b563c9579d616a273550a57f0f33b305fc4c94b04236b80a"
+    }
+  ]
+}

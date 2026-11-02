@@ -1,0 +1,63 @@
+{
+  "state": "existing_Encoder_pilot_OS_and_metadata_verified",
+  "observed_utc": "2026-11-02T00:41:44.296477+00:00",
+  "controller": {
+    "pid": 70391,
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/uwb-encoder-pilot-20261102/controller.py"
+    ],
+    "status": {
+      "State": "S (sleeping)",
+      "PPid": "1",
+      "VmRSS": "12672 kB",
+      "Threads": "1"
+    }
+  },
+  "children": [
+    {
+      "pid": 70392,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/uwb-encoder-pilot-20261102/run_pilot.py"
+      ],
+      "status": {
+        "State": "R (running)",
+        "PPid": "70391",
+        "VmRSS": "2932384 kB",
+        "Threads": "1"
+      }
+    }
+  ],
+  "controller_state": {
+    "state": "training",
+    "pid": 70391,
+    "automatic_retry": false,
+    "Drive_or_Git_capability": false,
+    "users7_8_labels_used": false,
+    "observed_unix": 1793579896.0643444
+  },
+  "training_state": {
+    "state": "training",
+    "pid": 70392,
+    "epoch": 2,
+    "total_steps": 784,
+    "all_predictions_frozen": false,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "wall_seconds": 182.01920438813977,
+    "cpu_seconds": 184.254571323,
+    "observed_unix": 1793580080.4229388,
+    "batch": 0,
+    "best_epoch": 2
+  },
+  "initial_checkpoint_exists": true,
+  "first_checkpoint_exists": true,
+  "training_termination_exists": false,
+  "audit_termination_exists": false,
+  "diagnostic_score_exists": false,
+  "configuration_changed": false,
+  "labels_loaded_by_observer": false
+}
