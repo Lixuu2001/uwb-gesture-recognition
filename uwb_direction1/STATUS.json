@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Arsenal25x2000_synthetic_cost_executing_real_runner_prepared_sevenchecks_no_real_fit",
+  "state": "Arsenal_CPU1_cost_window_incomplete_closed_same_full_model_jobs4_execution_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_arsenal_pilot/PREPARATION_STATUS.md",
+  "latest_report": "results/cloud_20261102_arsenal_parallel_full25_cost/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Only syntheticfull4700Arsenal cost worker mayrun;realproducer/auditor notstarted,norealcheckpoint. ExactlivePIDandtermination snapshot inarsenal_full25_cost_20261102.",
+  "background_training_status_note": "OldCPU1cost terminatedwallcap,no realtraining. Newjobs4syntheticprofile prereg snapshot notstarted.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "ObserveexistingArsenal full4700synthetic costPID,then verifycostgate;onlypass permitspreparedrealstudyfreeze+separateregistration",
-  "last_completed_update_utc": "2026-11-02T13:36:55.134707+00:00",
+  "next_candidate": "SamefullnativeArsenal25x2000 jobs4 separateexecutionpolicy;syntheticfull4700cost afterexactremote preregreadback",
+  "last_completed_update_utc": "2026-11-02T14:26:30.171065+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_native_Arsenal25x2000_cost_executing_realstudy_prepared",
+    "state": "same_Arsenal_full25x2000_jobs4_execution_preregistered_after_CPU1windowfailure",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,7 +2808,7 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "native_Arsenal25x2000_CVaccuracy_weightedvotes",
+    "next_method": "same_native_Arsenal25x2000_CVaccuracy_votes_execution_jobs4",
     "next_method_started": false,
     "last_method": "HYDRA",
     "hydra": {
@@ -7770,7 +7770,7 @@
     "novelty_claim": false
   },
   "arsenal_full25_cost_20261102": {
-    "state": "synthetic_full4700_native_cost_active",
+    "state": "closed_exact_CPU1_1800second_synthetic_screen_incomplete_not_full12hour_method_rejection",
     "workspace": "/workspace/uwb-arsenal-full25-cost-20261102",
     "cost_hashes_sha256": "1e99df2defd6e9979d8b83c8427244f32a3345abd3f818b4d286bfe8c3768d45",
     "cost_files": 10,
@@ -7782,12 +7782,48 @@
     "registration_commit": "a6de5e2f579fdc06f2c36b1692e4c6425e2c8fa9",
     "supervisor_pid": 84019,
     "worker_pid": 84020,
-    "worker_exists_at_snapshot": true,
-    "termination_present_at_snapshot": false,
-    "observed_utc": "2026-11-02T13:36:55.134707+00:00"
+    "worker_exists_at_snapshot": false,
+    "termination_present_at_snapshot": true,
+    "observed_utc": "2026-11-02T14:19:35.747967+00:00",
+    "termination": {
+      "pid": 84020,
+      "exit_code": -15,
+      "wall_timeout": true,
+      "resource_stop_reason": "wall_resource_limit",
+      "peak_observed_RSS_KiB": 3852048,
+      "RSS_stop_KiB": 12582912,
+      "cgroup_events_before": {
+        "low": 0,
+        "high": 0,
+        "max": 40124,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_events_after": {
+        "low": 0,
+        "high": 0,
+        "max": 40124,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_oom_kill_delta": 0,
+      "supervisor_wall_seconds": 1800.2048931729514,
+      "child_cpu_seconds": 1799.5773490000001,
+      "cpu_soft_seconds": 1780,
+      "cpu_hard_seconds": 1800,
+      "scientific_negative": false,
+      "accuracy_measured": false,
+      "real_UWB_values_labels_fit": false
+    },
+    "complete_native_fit": false,
+    "full12h_estimate_unknown": true,
+    "no_old_profile_retry": true,
+    "scientific_negative": false
   },
   "arsenal_full25_accuracy_pilot_20261102": {
-    "state": "concrete_full_runner_auditor_privatebackup_oncefinalizer_prepared_NOTFROZEN_NOTREGISTERED_NOTSTARTED",
+    "state": "old_CPU1_draft_preserved_unstarted_not_valid_for_jobs4",
     "workspace": "/workspace/uwb-arsenal-pilot-20261102",
     "operations_workspace": "/workspace/uwb-arsenal-completion-20261102",
     "synthetic_tests_passed": 7,
@@ -7800,6 +7836,32 @@
     "diagnostic_scored": false,
     "complete_private_modelset_verified": false,
     "users7_8_labels_used": false,
-    "next_action": "awaitandverifyexistingfullcost;passonlyprepare_freeze_once_thenlatestparentexactremote_registration_beforePopen"
+    "next_action": "do_not_launch_old_CPU1draft;newjobs4costpass_requires_own_adapted_frozen_remote_registered_realstudy"
+  },
+  "arsenal_parallel_source_20261102": {
+    "state": "native_jobs4_execution_synthetic_full25x2000_equivalence_passed",
+    "workspace": "/workspace/uwb-arsenal-parallel-source-probe-20261102",
+    "native_jobs": 4,
+    "BLAS_threads_per_member": 1,
+    "Rocket_threads_per_member": 1,
+    "Numba_parallel_lock_retained": true,
+    "allscientificarrays_jobs1_vs4_exact_on_fixture": true,
+    "scientific_parameters_seed_unchanged": true,
+    "not_new_algorithm": true,
+    "actual_UWB_values_labels_fit": false
+  },
+  "arsenal_parallel_full25_cost_20261102": {
+    "state": "separate_jobs4_execution_policy_preregistered_not_timing_yet",
+    "workspace": "/workspace/uwb-arsenal-parallel-full25-cost-20261102",
+    "cost_hashes_sha256": "d77bf64a845f6095faba7739b40e762c430f381b2f65fdf0572bfca3a2254786",
+    "formal_timing_started": false,
+    "cost_files": 10,
+    "dependencies": 2605,
+    "profile_wall_seconds": 3600,
+    "CPU_soft_seconds": 14380,
+    "CPU_hard_seconds": 14400,
+    "actual_UWB_values_labels_fit": false,
+    "accuracy_measured": false,
+    "real_fit_authorized": false
   }
 }

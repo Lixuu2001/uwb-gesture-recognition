@@ -1,3 +1,15 @@
+# 2026-11-02 — Arsenal单核30分钟成本窗未完成；保留故障并单独登记同一完整模型4核执行配置
+
+Fresh远端ee0780773e02e791d284c0a9bcaa2e7f490e1e99四主记录已读/本地GitblobSHA一致，环境原ccarenv仍running/connected，原rawcache路径存在，无重迁移/重复下载。上一成本worker84020已被supervisor84019在1800.2048931729514wall/1799.577349CPU秒主动TERM，exit−15/wall_resource_limit，peak3852048KiB，OOMdelta0；停在full4700native25×2000fit，COST_RESULT不存在，无完整fit/throughput/12h估计/accuracy。原CPU1/1800exactscreen关闭，旧冻结代码/tests/log/partialSTATE不改/不重跑；新独立VERIFIED_EXECUTION_CLOSURE_20261102.json验证hash及receipt。该结果仅是30分钟观测窗不足，不能推断完整方法超12h或识别失败。无真实UWBvalues/labels/fit，未开启旧真实runner。
+
+用户要求执行故障修复并持续真实验证，故继续同一已发表Arsenal基线的执行迁移，不把它包装新算法/新贡献或重复开发标签实验。新/workspace/uwb-arsenal-parallel-source-probe-20261102只用nativeArsenal n_jobs4适配实际cgroup4CPU，BLAS每member1thread/Rockettransform每member1thread，原aeonNumba parallel lock保留，transform仍可能串行，不保证4倍加速。完整25members×2000/50000kernels/4000featuresperm、seed20261029、normalise/scaler/scoringAccuracy/native10alphas/trainLOO/directvote/contract0均不变，作者库b694b1c03c0a753cc844dcb9ee357d77ca6bda6b不改。原CPU1screen独立保留；资源执行选项在任何新UWB数据前定，不根据heldlabels选择。HIVE-COTE2.0 Algorithm4/Table2文献基础、当前aeonCVaccuracy权重vs papermajority/非Java原runtime/非完整HC2的限定保持。
+
+新独立合成检查（没有重跑旧冻结test）完整N24/T90/M567/class12jobs1与jobs4：全部25成员kernels/scalers/readouts/classes/alphas/LOOaccuracy/weight/weightsum逐array精确；nativeproba/完整canonicaltie预测/分批proba/pickle重载精确。仅固定fixture证明，不宣称所有输入数值恒等或实际准确率提高。源LICENSE/commit/依赖hash保存。原单核真实draft7tests通过记录有效但仍NOTFROZEN/NOTREGISTERED/NOTSTARTED；不能直接拿来启动jobs4。
+
+新/workspace/uwb-arsenal-parallel-full25-cost-20261102已实现并冻结10cost文件/2605依赖hash，4成本边界tests通过，缺remote marker阻止。此提交为首timing前登记：full4700×567×90完整native25×2000/jobs4 fit一次，3full25eval64/完整pickle保存重载/预测精确，3600wall/14380soft14400hardCPU/12GiBexactRSS/.2s/cgroupOOM有界supervisor。3fullfits+2*2200maxeval64/64+4maxsave+2maxload+180<=12wallhours，保守4*estimate<=48CPUhours，peak+2GiBmaps<=14GiB，8模型+64MiB<=剩余盘。当前CPUquota4/RAM16GiB/free约796MB，未写巨大数组/原数据到Git。只有全部本次文件精确远端readback/head核验后才启动新合成profile，不是旧profile自动retry，不改原冻结文件，不减kernel/member/seed/alpha/scaler/vote/视图/精度。此注册快照未正式jobs4timing，更未真实UWB拟合。
+
+若成本完整通过，再另适配/冻结/登记jobs4真实runner/fullnativeauditor/private保存协议；源3–6train4700/2val1000/1diag1200同canonicalIDs/RMS。所有alpha与vote权重仅trainingLOO；val/diag标签在完整审计及完整私有rawchunk/allmembers恢复前不读，然后一次评分。固定TimeMIL .9866666666666667/+ .005/tol1e-12/已知val0..9&diag0..11support，失败关闭确切scientific配置无seed/bank/kernel/member/alpha/vote/scaler/role救援/重评分，pass只另source6confirmation。用户7–8标签禁用，八用户历史开发探索性，无当前八折增益/独立验证/原创证据，目标未达。旧Hybrid95.5833%失败/private991保持，ModernTCN/XCM资源失败不当accuracynegative。最新远端父/forcefalse/只uwb_direction1、用户README/789源码/当前repovisibility/Driveowneronly/自动任务原启用日程不变，云端不依赖Windows。
+
 # 2026-11-02 — Arsenal成本真实执行中留痕，真实runner/fullaudit/privatebackup代码及7项核验已完成，尚未实际UWB拟合
 
 # Arsenal real-study preparation and actual cost execution snapshot
