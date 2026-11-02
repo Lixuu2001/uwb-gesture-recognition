@@ -1,3 +1,13 @@
+# 2026-11-02 — 完整ROCKET10000/nativeRidgeCV合成成本通过；真实source-held1固定协议V2预登记，尚未启动
+
+先读canonical仓库6295738ff485648fb432a2d88f98c414c0712fbf最新四记录。MC100最终失败关闭/完整私有4块123成员记录已发布，不重复该配置。完整ROCKET10000+native RidgeCV合成cost已按该commit精确41文件远端回读后只运行一次：worker77367exit0/no timeout，supervisor wall52.26600157888606s/CPU52.192896999999995s；full4700x20000RidgeCV39.33281530090608s，max64transform1.8707464130129665s，producer+独立完整重放估算602.140730077721s=0.16726131391047805h，RSS3458428KiB+2GiB=5555580KiB，12h/14GiB资源门槛通过。成本公式/冻结依赖/TERM独立复算通过；这是合成估计，不是实际UWB准确率/成本。
+
+真实固定pilot workspace /workspace/uwb-rocket-pilot-v2-20261102：source3–6/4700train，2/1000val，1/1200diagnostic，仅训练内nativeLOO负MSE选registered10alphas(logspace-3..3)；StandardScaler(with_mean=False)仅全训练拟合，明确不是nested每LOO重新拟合scaler。authornormaliseTrue/原signedRMS/完整10000核20000feature/CPU1/seed20261029，C-contiguous float32 [N,567,90]。每stage900wall/880soft900hardCPU，无自动retry/resume。保存initialunfitted/nativefit/finalpipeline/精确ID/unscoreddecisions/preds/batchfeaturehash/训练LOO日志；独立完整4700nativefit并逐kernel/scaler/coef/alpha/LOOscore精确对比，2200heldpreds/decisions/hash精确重放+6900rawRMS/cache/FP64核查，再完整私有恢复每成员，最后一次评分。无SGD中间update，不宣称first-update insurance。
+
+前置V1合成test将已约定C-contiguous stagedpredict与stridednative reference比较，float32归约使logits最大差2.3841858e-7、predictions相同。V1本地prepare错误地在failedlog后写了tests-passed预登记文字；该版本从未remote注册/launch/解释真实values/labels。保留V1全部冻结字节及failedlog不编辑/重跑。新V2只修test reference布局并显式协议连续数组约定，native源码/配置/gate/split不变，未放宽tolerance；全部4tests确实OK后才冻结16study文件/2619依赖SHA。保留ENGINEERING_REPAIR.json及V1原件；V2 marker缺失确实阻止actualaccess。
+
+本次精确remote注册前没有真实ROCKET数据/标签/训练。只有全部文件回读及forcefalse head验证后才写V2marker并启动原controller；不要重复启动V1或其他旧方法。诊断1/val2标签完整审计及私有恢复前不读；user7–8 labels始终禁止。固定ref .9866666666666667,min+.005,tol1e-12；失败关闭确切配置无救援，过关也只能另注册source6确认。没有八折提升/原创贡献/独立验证证据，历史八用户反复开发均探索性。目标未达继续循环。根README用户清理、789原源码、当前仓库可见性及Driveowner-only保持。
+
 # 2026-11-02 — MC100全量审计/私有完整回读后一次评分失败关闭；完整ROCKET10000原生RidgeCV已实现并预登记合成CPU成本
 
 MC100原producer75250与auditor75878均exit0/no timeout；200pass逐logits/RNG、独立loop/FP64mean、各stage/native41weights、两role deterministiccontrol、6900rawRMS/cache全部通过。完整私有23240132bytes/4块123成员回读验证通过；新index results/cloud_20261102_mcdropout_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json。只在该完整恢复后原finalizer运行一次exit0：val99.4%(det99.5%)、held1诊断98.6667%(det/ref相同)，delta0未过固定+0.5pp，关闭确切MC100/B64/p.2/sigmoid/seed20261029，无救援/重评分/扩展source6/新训练。旧initial2块103和producer4块119的原scope不变；controller旧unscored快照保持原字节，最终SUMMARY/FINAL_RESULT权威。无用户7–8标签用于新选择，全部探索性，无原创贡献或八折提升证据。

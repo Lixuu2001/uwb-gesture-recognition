@@ -1,0 +1,32 @@
+test_finite (test_boundaries.ProtocolBoundaries.test_finite) ... ok
+test_fixed_gate (test_boundaries.ProtocolBoundaries.test_fixed_gate) ... ok
+test_native_staged_predict_equivalence (test_boundaries.ProtocolBoundaries.test_native_staged_predict_equivalence) ... FAIL
+test_no_diagnostic_label_loader_in_producer_or_auditor (test_boundaries.ProtocolBoundaries.test_no_diagnostic_label_loader_in_producer_or_auditor) ... ok
+
+======================================================================
+FAIL: test_native_staged_predict_equivalence (test_boundaries.ProtocolBoundaries.test_native_staged_predict_equivalence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/uwb-rocket-pilot-20261102/test_boundaries.py", line 18, in test_native_staged_predict_equivalence
+    np.testing.assert_array_equal(result['decisions'],m.estimator_.decision_function(m.pipeline_[:-1].transform(x.transpose(0,2,1))))
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1054, in assert_array_equal
+    assert_array_compare(operator.__eq__, actual, desired, err_msg=err_msg,
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 919, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not equal
+
+Mismatched elements: 136 / 288 (47.2%)
+Max absolute difference among violations: 2.3841858e-07
+Max relative difference among violations: 2.605737e-07
+ ACTUAL: array([[ 0.915851, -0.992303, -0.992075, -0.990729, -0.992785, -0.994622,
+        -0.991601, -0.992369, -0.992094, -0.992832, -0.992825, -0.991616],
+       [-0.992515,  0.916025, -0.992766, -0.99302 , -0.99255 , -0.992157,...
+ DESIRED: array([[ 0.915851, -0.992303, -0.992075, -0.990729, -0.992785, -0.994622,
+        -0.991601, -0.992369, -0.992094, -0.992832, -0.992824, -0.991616],
+       [-0.992515,  0.916025, -0.992766, -0.99302 , -0.99255 , -0.992157,...
+
+----------------------------------------------------------------------
+Ran 4 tests in 7.902s
+
+FAILED (failures=1)

@@ -1,0 +1,10 @@
+{
+  "state": "new_v2_preparation_after_preserved_unstarted_v1_synthetic_check_failure",
+  "prior_frozen_workspace": "/workspace/uwb-rocket-pilot-20261102",
+  "prior_run_started": false,
+  "prior_remote_registered": false,
+  "actual_UWB_values_labels_fit": false,
+  "cause": "V1 synthetic equivalence test compared registered C-contiguous staged prediction against a strided native decision path. Float32 per-channel mean/std reduction layout caused at most2.3841858e-7 logit differences; class predictions exact. Production and replay already require same C-contiguous contract. V2 fixes only test reference input layout, no tolerance change/native source/model/kernel/seed/alpha/protocol split/gate tuning.",
+  "preservation": "All V1 files/logs/frozen manifest retained unchanged; do not edit/re-run V1. Only V2 is eligible for tests/freeze/remote preregistration.",
+  "false_local_claim_disclosed": "V1 preparation script prematurely wrote local preregistration prose saying tests passed despite failed log; never published or used for actual access. V2 tests must pass before freezing; failures retained. Old PRE_ACCESS guard only verified hashes/missing remote marker, not protocol tests."
+}

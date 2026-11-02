@@ -1,0 +1,79 @@
+{
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "source_maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "reference_held1_macro": 0.9866666666666667,
+  "reference_predictions": "/workspace/uwb-timemil-20261029/run02/timemil/predictions_unscored.npz",
+  "reference_predictions_sha256": "d55515802fc7f824a2c2d435a6a6c47e312f49e5a425d32eda5d3d81cfa96766",
+  "reference_summary": "/workspace/uwb-timemil-20261029/run02/SUMMARY.json",
+  "reference_summary_sha256": "437555b681540ec85a170843429c57f34dbc782fd7b1bd5481e27750e95311ca",
+  "repository": "Lixuu2001/uwb-gesture-recognition",
+  "stable_repository_id": 1309576134,
+  "branch": "codex/uwb-direction1-cloud-20260930",
+  "source_preparation": "/workspace/uwb-rocket-source-probe-20261102",
+  "cost_workspace": "/workspace/uwb-rocket-formal-cost-20261102",
+  "candidate": "full_aeon1.6.0_ROCKET10000_default_native_RidgeClassifierCV",
+  "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+  "seed": 20261029,
+  "threads": 1,
+  "n_kernels": 10000,
+  "features": 20000,
+  "batch_size_inference": 64,
+  "native_pipeline_fit_count": 1,
+  "independent_replay_fit_count": 1,
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "input_shape": [
+    567,
+    90
+  ],
+  "preprocessing": "fixed prior signed per-view RMS then native author normalise=True per-case/channel mean/std over time; no cross-case or held-label normalization fit",
+  "native_readout": "StandardScaler(with_mean=False)+RidgeClassifierCV(alphas=logspace(-3,3,10),class_weight=None,fit_intercept=True,cv=None,scoring=None)",
+  "selection": "Only native training LOO negativeMSE chooses alpha after the training-only full-train scaler. This is the exact native pipeline, not nested scaler-refitting LOO. No hyperparameter choice from validation or diagnostic. All10alphas are registered part of training procedure.",
+  "minimum_gain": 0.005,
+  "tolerance": 1e-12,
+  "producer_limits": {
+    "wall": 900,
+    "soft_cpu": 880,
+    "hard_cpu": 900
+  },
+  "audit_limits": {
+    "wall": 900,
+    "soft_cpu": 880,
+    "hard_cpu": 900
+  },
+  "resource_estimate_seconds": 602.140730077721,
+  "full_resource_estimated_RSS_KiB": 5555580,
+  "automatic_retry": false,
+  "automatic_resume": false,
+  "users7_8_labels_used": false,
+  "all8_historically_developed": true,
+  "independent_validation": false,
+  "novel_contribution_claim": false,
+  "pass_route": "separately_register_source6_confirmation",
+  "fail_route": "close_exact_ROCKET10000_native_RidgeCV_seed_configuration_no_rescue",
+  "scoring_boundary": "Diagnostic1 and validation2 labels remain unread until full native independent4700 fit, every held prediction/decision/batch-feature hash and all6900rawRMS audit passes plus complete private all-member restore verified; then exactly one finalization. No rescue by seed/kernel/scaler/alpha grid/estimator.",
+  "checkpoint_set": "initial unfitted native estimator;native fitted full pipeline;final fitted pipeline exact unchanged after held inference;sourceIDs,unscored decisions/predictions/batchfeatures digests,training-native alpha and bestLOO score,logs",
+  "no_initial_first_update_claim": "A ridge fit is one atomic native operation; no SGD updates or intermediate optimizer state. Only complete modelset insurance is planned after bounded producer and audit.",
+  "runtime_parity": "Current aeon1.6/sklearn1.8/NumPy2/Numba.68 CPU1 only; no historical original univariate runtime/paper result replication guarantee.",
+  "actual_workspace": "/workspace/uwb-rocket-pilot-v2-20261102",
+  "contiguous_input_contract": "C-contiguous float32 [N,567,90] for producer and independent replay at fit and inference; no bit-exact comparison against strided NumPy reductions."
+}
