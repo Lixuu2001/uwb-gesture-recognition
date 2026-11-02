@@ -1,0 +1,71 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-drcif500-source-probe-20261102/check_integration.py", line 9, in <module>
+    m=make(jobs);m.fit(x,y);assert_native(m,True,jobs);models.append(m)
+                 ^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/utils/decorators/method_timer.py", line 50, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/classification/base.py", line 123, in fit
+    self._fit(X, y)
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/classification/interval_based/_drcif.py", line 261, in _fit
+    return super()._fit(X, y)
+           ^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/base/_estimators/interval_based/base_interval_forest.py", line 237, in _fit
+    self._fit_forest(X, y)
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/base/_estimators/interval_based/base_interval_forest.py", line 961, in _fit_forest
+    fit = _run_jobs(
+          ^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/utils/_parallel.py", line 48, in _run_jobs
+    return [func(*args, **kwargs) for func, args, kwargs in tasks]
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/base/_estimators/interval_based/base_interval_forest.py", line 1148, in _fit_estimator
+    f = intervals[r].fit_transform(Xt[r], y)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 316, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/base.py", line 206, in fit_transform
+    Xt = self._fit_transform(X=X, y=y)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/interval_based/_random_intervals.py", line 154, in _fit_transform
+    fit = _run_jobs(
+          ^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/utils/_parallel.py", line 48, in _run_jobs
+    return [func(*args, **kwargs) for func, args, kwargs in tasks]
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/interval_based/_random_intervals.py", line 380, in _generate_interval
+    t = _fit_transform_feature(feature, interval, y)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/interval_based/_interval_features.py", line 80, in _fit_transform_feature
+    return feature._fit_transform(np.expand_dims(X, axis=1), y)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/base.py", line 267, in _fit_transform
+    return self._transform(X, y)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/feature_based/_catch22.py", line 406, in _transform
+    c22_list = [func(*args) for args in case_args]
+                ^^^^^^^^^^^
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/numba/core/dispatcher.py", line 424, in _compile_for_args
+    error_rewrite(e, 'typing')
+  File "/workspace/uwb-multirocket-20261029/vendor/site-packages/numba/core/dispatcher.py", line 365, in error_rewrite
+    raise e.with_traceback(None)
+numba.core.errors.TypingError: Failed in nopython mode pipeline (step: nopython frontend)
+Cannot unify array(float32, 1d, C) and array(float64, 1d, C) for 'outlier_series.2', defined at /workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/feature_based/_catch22.py (1999)
+
+File "uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/feature_based/_catch22.py", line 1999:
+def _transform_case_numba(
+    <source elided>
+                    if feature == 13:
+                        c22[dim + n] = _outlier_include(outlier_series)
+                        ^
+
+During: typing of assignment at /workspace/uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/feature_based/_catch22.py (1999)
+
+File "uwb-multirocket-20261029/vendor/site-packages/aeon/transformations/collection/feature_based/_catch22.py", line 1999:
+def _transform_case_numba(
+    <source elided>
+                    if feature == 13:
+                        c22[dim + n] = _outlier_include(outlier_series)
+                        ^
+
+During: Pass nopython_type_inference

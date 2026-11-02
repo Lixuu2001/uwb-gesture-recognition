@@ -1,0 +1,47 @@
+{
+  "state": "verified_full_QUANT200_onehour_synthetic_screen_incomplete_wall_closed",
+  "utc": "2026-11-02T17:27:21.633483+00:00",
+  "registration_commit": "4cc4b08e424d4060d8a3ecb34f804d3829708f28",
+  "termination": {
+    "pid": 87746,
+    "exit_code": -15,
+    "wall_timeout": true,
+    "resource_stop_reason": "wall_resource_limit",
+    "peak_observed_RSS_KiB": 10498296,
+    "RSS_stop_KiB": 12582912,
+    "cgroup_events_before": {
+      "low": 0,
+      "high": 0,
+      "max": 40124,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_events_after": {
+      "low": 0,
+      "high": 0,
+      "max": 40124,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_oom_kill_delta": 0,
+    "supervisor_wall_seconds": 3600.0768854669295,
+    "child_cpu_seconds": 13597.843748,
+    "cpu_soft_seconds": 14380,
+    "cpu_hard_seconds": 14400,
+    "scientific_negative": false,
+    "accuracy_measured": false,
+    "real_UWB_values_labels_fit": false
+  },
+  "termination_sha256": "a325ac94c495be928f33178e74820c2780e433972528934fd84f3e601dd1cd81",
+  "full_fit_completed": false,
+  "full12h_estimate_available": false,
+  "resource_gate_passed": false,
+  "no_accuracy_measured": true,
+  "real_UWB_values_labels_fit": false,
+  "no_old_screen_retry": true,
+  "no_feature_tree_seed_precision_view_or_role_rescue": true,
+  "no_method_family_accuracy_rejection": true,
+  "next_action": "implement_and_register_paper_scale_DrCIF500_native_transfer_cost"
+}

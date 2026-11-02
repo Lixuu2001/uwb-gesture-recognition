@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Arsenal25x2000_failed_exact_closed_QUANTfull200_synthetic_cost_active",
+  "state": "QUANTfull200_onehour_screen_incomplete_closed_DrCIF500_CIT20_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_quant_full200_cost/ACTIVE_COST.md",
+  "latest_report": "results/cloud_20261102_quant_full200_cost/CLOSURE_AND_NEXT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "NoUWBtrainingactive;QUANTfull4700syntheticcostworker87746/controller87745actuallyrunningatsnapshot. InspectPIDs/TERMbeforeanylaunch.",
+  "background_training_status_note": "QUANTcostworker87746endedbyregisteredonehourwallstop;noUWBtrainingstarted. DrCIF500CIT20syntheticcostfrozen/preregisteredbutnotstartedatsnapshot.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "CompleteauthorQUANT539217features_200ExtraTrees_fixedseed20261029_formalsyntheticcostonce_after_remoteverification",
-  "last_completed_update_utc": "2026-11-02T16:12:32.771136+00:00",
+  "next_candidate": "Fullpaper_scaleDrCIF500_nativeCIT20_fixedseed20261029_costonce_afterexactremoteverification",
+  "last_completed_update_utc": "2026-11-02T17:36:29.558862+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "Arsenal25x2000_failed_closed_QUANTfull200_synthetic_cost_active",
+    "state": "QUANTonehourincompleteclosed_DrCIF500CIT20costpreregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,9 +2808,9 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "QUANTfull_author_depth6_div4_ExtraTrees200",
-    "next_method_started": true,
-    "last_method": "Arsenal25x2000_native_jobs4_CVaccuracy_weightedvotes",
+    "next_method": "DrCIF500_native_CIT20",
+    "next_method_started": false,
+    "last_method": "QUANTfull_author200_syntheticcostonly_incomplete",
     "hydra": {
       "state": "complete_stop_exact_configuration",
       "mean_macro_recall": 0.577060606060606,
@@ -2827,7 +2827,7 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     },
-    "next_method_stage": "syntheticresourcecostonly_notactualUWBtraining"
+    "next_method_stage": "costpreregistration_notactualUWBtraining"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -7963,7 +7963,7 @@
     "not_accuracy_rejection": true
   },
   "quant_full200_cost_20261102": {
-    "state": "actual_full4700_synthetic_cost_running_not_real_UWB_training",
+    "state": "verified_onehour_full4700_screen_incomplete_wall_closed_no_accuracy",
     "workspace": "/workspace/uwb-quant-full200-cost-20261102",
     "author_commit": "f3907f7e531b6a304e3c54310869a0023a9e0fd6",
     "full_features": 539217,
@@ -7990,12 +7990,79 @@
     "worker_pid": 87746,
     "registration_commit": "4cc4b08e424d4060d8a3ecb34f804d3829708f28",
     "all44_changed_files_exact_before_Popen": true,
-    "snapshot_utc": "2026-11-02T16:12:32.771136+00:00",
+    "snapshot_utc": "2026-11-02T17:36:29.558862+00:00",
     "full_cost_result_available": false,
     "resource_cost_passed": false,
     "accuracy_measured": false,
-    "report": "results/cloud_20261102_quant_full200_cost/ACTIVE_COST.md"
+    "report": "results/cloud_20261102_quant_full200_cost/CLOSURE_AND_NEXT.md",
+    "worker_alive": false,
+    "termination": {
+      "pid": 87746,
+      "exit_code": -15,
+      "wall_timeout": true,
+      "resource_stop_reason": "wall_resource_limit",
+      "peak_observed_RSS_KiB": 10498296,
+      "RSS_stop_KiB": 12582912,
+      "cgroup_events_before": {
+        "low": 0,
+        "high": 0,
+        "max": 40124,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_events_after": {
+        "low": 0,
+        "high": 0,
+        "max": 40124,
+        "oom": 0,
+        "oom_kill": 0,
+        "oom_group_kill": 0
+      },
+      "cgroup_oom_kill_delta": 0,
+      "supervisor_wall_seconds": 3600.0768854669295,
+      "child_cpu_seconds": 13597.843748,
+      "cpu_soft_seconds": 14380,
+      "cpu_hard_seconds": 14400,
+      "scientific_negative": false,
+      "accuracy_measured": false,
+      "real_UWB_values_labels_fit": false
+    },
+    "full_fit_completed": false,
+    "full12h_estimate_available": false,
+    "no_accuracy_measured": true,
+    "no_old_screen_retry": true,
+    "no_method_family_accuracy_rejection": true
   },
-  "background_compute_running": true,
-  "background_compute_pid": 87746
+  "background_compute_running": false,
+  "background_compute_pid": null,
+  "drcif500_full_cost_20261102": {
+    "state": "frozen_cost_remote_preregistration_pending_not_started",
+    "workspace": "/workspace/uwb-drcif500-full-cost-20261102",
+    "source_workspace": "/workspace/uwb-drcif500-source-probe-20261102",
+    "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+    "n_estimators": 500,
+    "base_estimator": "ContinuousIntervalTree",
+    "thresholds": 20,
+    "intervals_per_representation": [
+      79,
+      78,
+      67
+    ],
+    "att_subsample_size": 10,
+    "seed": 20261029,
+    "native_parallel_jobs": 4,
+    "parallel_backend": "threading",
+    "input_dtype": "float64_exact_promotion",
+    "source_failure_repaired": true,
+    "full500_synthetic_integration_passed": true,
+    "full567_fit_not_yet": true,
+    "cost_hashes_sha256": "4e77d0fa486239f16241d3c846e414fe13e7629edd05a1d3d4a42bd2f3b15256",
+    "frozen_files": 11,
+    "dependencies": 2671,
+    "formal_timing_started": false,
+    "actual_UWB_values_labels_fit": false,
+    "novelty_claim": false,
+    "all_exploratory": true
+  }
 }
