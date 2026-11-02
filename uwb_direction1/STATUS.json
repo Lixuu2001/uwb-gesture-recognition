@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_native_MiniRocket9996_cost_passed_real_source_held1_preregistered_not_started",
+  "state": "native_MiniRocket_failed_accuracy_gate_closed_full_published_HydraMultiRocket_synthetic_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_minirocket_native_pilot/study/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_minirocket_native_pilot/FINAL_RESULT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Full MiniRocket synthetic cost passed;real pilot not yet launched at registration snapshot;old MC100/ROCKET closed.",
+  "background_training_status_note": "MC100/fullROCKET/fullnativeMiniRocket complete audited/private/scored once and failed exact gates. No active training/audit;newhybrid synthetic profile not yet started in registration snapshot.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Run registered full native MiniRocket9996 source-held1 pilot once after exact remote real-pilot registration.",
-  "last_completed_update_utc": "2026-11-02T11:37:15.788029+00:00",
+  "next_candidate": "Full published native MultiRocketHydraClassifier64x8/53824features;once synthetic full4700 fit resource profile after exact remote preregistration. ActualUWB separate protocol required.",
+  "last_completed_update_utc": "2026-11-02T11:50:21.278683+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_native_MiniRocket9996_real_preregistered",
+    "state": "full_published_HydraMultiRocket_synthetic_cost_preregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,7 +2808,7 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "full_native_MiniRocket9996",
+    "next_method": "full_native_MultiRocketHydraClassifier",
     "next_method_started": false,
     "last_method": "HYDRA",
     "hydra": {
@@ -7516,7 +7516,7 @@
     "estimated_max_RSS_KiB": 4219644
   },
   "minirocket_native_accuracy_pilot_20261102": {
-    "state": "frozen_real_pilot_preregistered_not_started",
+    "state": "complete_audited_privately_verified_scored_once_failed_exact_configuration_closed",
     "workspace": "/workspace/uwb-minirocket-native-pilot-20261102",
     "protocol_sha256": "add6f20bf013d7a7d01641334d5a603c65001a1a7c12e5832d5b9f34c9483126",
     "frozen_sha256": "e6d3676470deb39064d09c30427c6e162f2244547c6c404f5e8d532133bd5e90",
@@ -7537,14 +7537,69 @@
     "diagnostic_user": 1,
     "reference": 0.9866666666666667,
     "minimum_gain": 0.005,
-    "diagnostic_scored": false,
-    "real_fit_started": false,
+    "diagnostic_scored": true,
+    "real_fit_started": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
     "protocol_tests_passed": 4,
     "report_support_check_passed": true,
     "automatic_retry": false,
-    "automatic_resume": false
+    "automatic_resume": false,
+    "registration_commit": "333cadb93f02332be0a30d4697dfe4144b62fd9d",
+    "real_fit_complete": true,
+    "full_audit_complete": true,
+    "complete_private_modelset_verified": true,
+    "producer_exit_code": 0,
+    "producer_wall_seconds": 64.76530340895988,
+    "producer_CPU_seconds": 64.675985,
+    "audit_exit_code": 0,
+    "audit_wall_seconds": 73.73685478582047,
+    "audit_CPU_seconds": 73.671848,
+    "selected_training_alpha": 1000.0,
+    "final_scores": {
+      "validation": 0.885,
+      "diagnostic": 0.9008333333333334
+    },
+    "diagnostic_delta_macro": -0.08583333333333332,
+    "predeclared_gate_passed": false,
+    "source6_confirmation_complete": false,
+    "complete_private_chunks": 1,
+    "complete_private_members": 990,
+    "complete_private_bytes": 3116642,
+    "complete_private_archive_sha256": "1601e2a3409f065f7938e53850c6c81075b9dbf232e83d3b805bf0a4abd89241",
+    "complete_private_index": "results/cloud_20261102_minirocket_native_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "route": "close_exact_MiniRocket_native9996_native_RidgeCV_seed_configuration_no_rescue"
+  },
+  "hydra_multirocket_source_preparation_20261102": {
+    "state": "full_published_native_hybrid_synthetic_passed",
+    "workspace": "/workspace/uwb-hydra-multirocket-source-probe-20261102",
+    "source_commit": "b694b1c03c0a753cc844dcb9ee357d77ca6bda6b",
+    "source_files_exact": 4,
+    "features": 53824,
+    "groups": 64,
+    "kernels_per_group": 8,
+    "seed": 20261029,
+    "independent_Hydra_scalar_counts_checked": 384,
+    "raw_MultiRocket_finite_before_fallback": true,
+    "original_contribution_claim": false,
+    "UWB_values_labels_fit": false
+  },
+  "hydra_multirocket_formal_cost_20261102": {
+    "state": "registered_full4700_synthetic_profile_awaiting_exact_remote_readback",
+    "workspace": "/workspace/uwb-hydra-multirocket-formal-cost-20261102",
+    "cost_hashes_sha256": "0d3126cf5140b042115fe0b67886da7378d1bbc76ad569a20359d34f37d9edb3",
+    "formal_timing_started": false,
+    "real_UWB_values_labels_fit": false,
+    "accuracy_measured": false,
+    "full_native_training_shape": [
+      4700,
+      567,
+      90
+    ],
+    "features": 53824,
+    "threads": 1,
+    "profile_RSS_stop_KiB": 12582912,
+    "budget_seconds": 43200
   }
 }

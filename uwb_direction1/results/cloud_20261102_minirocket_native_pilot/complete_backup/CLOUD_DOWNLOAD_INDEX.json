@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "created_date_utc": "2026-11-02",
+  "purpose": "Audited complete full native MiniRocket9996 RidgeCV source-held1 models/outputs recovery.",
+  "state": "private_readback_verified",
+  "scope": "complete_audited_MiniRocket_native9996_native_RidgeCV_source_held1",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "minirocket_native_complete_20261102.tar.gz",
+  "archive_bytes": 3116642,
+  "archive_sha256": "1601e2a3409f065f7938e53850c6c81075b9dbf232e83d3b805bf0a4abd89241",
+  "members_manifest_sha256": "a25e692589a9c9224ba4c43525d52fe65659fbf3693806c52a1c1704f9cfad55",
+  "chunks": [
+    {
+      "name": "minirocket_native_complete_20261102.part000",
+      "bytes": 3116642,
+      "sha256": "1601e2a3409f065f7938e53850c6c81075b9dbf232e83d3b805bf0a4abd89241",
+      "file_id": "1lidNtV73MXAiPMR9tpJw5MQSq4GoPW83",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 3116642,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "chunks_verified": 1,
+  "archive_members": 990,
+  "complete_modelset_verified": true,
+  "numeric_audit_certified": true,
+  "initial_unfitted_native_fitted_final_models_and_full_predictions_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "receipt_sha256": "13b609cefa3e0f27faf0ac8a337fa39709b9aa83164ff5862f904314f7bb6e09",
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "folder_must_remain_owner_only": true,
+  "complete_native_fit_privately_preserved": true,
+  "raw_maps_runtime_restore_separately": true,
+  "empty_search_is_not_duplicate_absence_proof": true
+}

@@ -1,0 +1,10 @@
+{
+  "reference": "Dempster,Schmidt,Webb (2023),Hydra:Competing convolutional kernels for fast and accurate time series classification,DMKD37:1779\u20131805,DOI10.1007/s10618-023-00939-3; https://arxiv.org/pdf/2203.13652",
+  "read_scope": "Original manuscript methods3.1\u20133.6,pp7\u201312 and combination experiments4.1pp13\u201315;partial original text,not fullpaper.",
+  "support": "Hydra groups64x8 random9tap kernels over raw and differences,softmax-response and hardmin counts;paper explicitly combines with MultiRocket by concatenation. This is existing prior art,not a proposed novel module combination. Native library multivariate channel subsampling/default scalers/current runtime are explicit transfer adaptations,not original univariate experiment replication.",
+  "history": "Bounded exact-name search of latest four records found no MultiRocketHydraClassifier/_mr_hydra/full hybrid run. Separate prior HYDRA64x8 alpha1 and MultiRocket6250/49728 alpha1 balanced exact Cholesky were run and closed;family exposure retained. Native combined RidgeCV10alpha/scalers/full default is different,not an equivalent exact rerun. Native MiniRocket full default has now failed .9008333333333334 vs fixed .9866666666666667;no rescue.",
+  "method_config": "Complete native MultiRocketHydraClassifier(k8,g64,class_weightNone,n_jobs1,seed20261029). Native MultiRocket default6250/4pool raw+diff gives49728features;Hydra4096 for90timepoints;total53824. Native maskedSparseScaler and default StandardScaler for separate blocks,native RidgeCV10alphas.",
+  "UWB_values_labels_fit": false,
+  "accuracy_gain_validated": false,
+  "original_contribution_validated": false
+}
