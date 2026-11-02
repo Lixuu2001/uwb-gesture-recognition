@@ -1,0 +1,64 @@
+{
+  "state": "complete_audited_full_ImageNet_ResNet18_frozen_encoder_LinearSVC_C1_snapshot",
+  "scope": "complete_audited_ResNet18_ImageNetV1_frozen512_LinearSVC_C1_source_held1_IEEE754_pixel_audit",
+  "created_unix": 1793645351.3272502,
+  "original_failed_audit_included": true,
+  "corrected_complete_audit_included": true,
+  "shared_frozen_encoder_included_once": true,
+  "encoder_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "complete_modelset": true,
+  "full_numerical_audit_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Complete shared official frozen encoder weights once, initial/fitted/final heads, exact IDs/features/scores/logs/audit/source retained. Raw arrays/maps and pinned runtime restored separately; not whole OS or historical runtime parity.",
+  "archive_name": "resnet18_imagenet_ieee754_complete_20261102.tar.gz",
+  "archive_bytes": 56239988,
+  "archive_sha256": "806a1a62feaac2194c737cc3d4d8dfd077ba464166b78945f2d2849b02d93c91",
+  "members_manifest_sha256": "224cce73c03737c4c89218fb8c34467a5ec6a83f79b44eeb2acef95b3c9e9f78",
+  "tracked_payload_files": 96,
+  "chunks": [
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "960c731e99f562d408e110f05f9a07500c40ee9ce0cc3911bd1545b7d4aeabfd"
+    },
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part001",
+      "bytes": 7340032,
+      "sha256": "725f9eb28af177b60002cc559850441b1a4cfe89365da1fc0cfcfa2cfda5d76d"
+    },
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part002",
+      "bytes": 7340032,
+      "sha256": "2bf91b86a1b0ea4487561297ac54cb0cef5f155893b54d7540644b4bd2d873fd"
+    },
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part003",
+      "bytes": 7340032,
+      "sha256": "bbde36165d3d9663c8af6747654aab5179565a04240e4312d378b7424ff96221"
+    },
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part004",
+      "bytes": 7340032,
+      "sha256": "c075778922060da9ca49579cbd912c0862acdd6372c7d62a68f06e75067723de"
+    },
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part005",
+      "bytes": 7340032,
+      "sha256": "e07ea1b43eb3b74d2221496a6c90f9b63453823fa988897f4d74213592009395"
+    },
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part006",
+      "bytes": 7340032,
+      "sha256": "8585ec8fa8871db4cf5fa6aec9109c0837a26065c9bbc785421647cfbfcbf20c"
+    },
+    {
+      "name": "resnet18_imagenet_ieee754_complete_20261102.part007",
+      "bytes": 4859764,
+      "sha256": "54d6d2d7fb36b4765b0fb44b0109a8d09e3e9121b1d3ab227986baf9a1e5abbc"
+    }
+  ]
+}

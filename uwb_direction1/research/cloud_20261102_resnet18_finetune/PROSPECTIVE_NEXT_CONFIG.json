@@ -1,0 +1,14 @@
+{
+  "state":"prospective_future_preparation_before_frozen_C1_held_score_not_selected_or_costed",
+  "created_before_current_held_labels_unsealed":true,
+  "condition":"OnlyifcurrentfrozenResNet18C1exactconfigurationfailsmayseparatelyregisterandresource-screenthispublishedfullfinetuningmethod;nochangeorrescorecurrentmodel",
+  "primary":"Cho/Park2022,DOI10.3233/THC-212827,publishersections4.2–4.4read;full-layerfine-tuningversusfreezingdiscussed",
+  "paper_reported":"B15,L2factor1e-4,SGDmomentum,ResNet18constantlr3e-4,reportedbestat40trainingiterations,resize80–120percent/translation±32pixels",
+  "explicit_interpretation":"40full epochsisfixedprojecttrainingbudgetinterpretationofpaper's40iterationsamidsepochdiscussion;momentum.9andnativeTorchSGDallparameterweightdecayareprojectchoicesbecausepaperdoesnotfullyspecifythoseimplementationdetails.NotauthorMATLABcode/updateparity.",
+  "fixed_config":{"backbone":"samefullofficialImageNet1K_V1ResNet18AST[2,2,2,2]","classes":12,"all_layers_trainable":true,"trainable_parameters":11182668,"epochs":40,"batch_size":15,"optimizer":"torch.optim.SGD","lr":0.0003,"momentum":0.9,"weight_decay":0.0001,"dampening":0,"nesterov":false,"loss":"CrossEntropyLoss_no_classweight_no_labelsmoothing","seed":20261029,"CPU_threads":4,"precision":"float32","augmentation":"sharedthreechannelbilinearaffine,scaleU.8to1.2,integerdxdyU-32to32,zerofillbeforeImageNetnormalization;trainingonly","validation_selection":"maxuser2presentclassmacro,earliesttie;all40epochsrequired,noearlystop","diagnostic_user":1,"training_users":[3,4,5,6],"validation_user":2},
+  "no_actual_UWB_values_labels_fit":true,
+  "no_formal_cost_started":true,
+  "no_current_frozen_pipeline_change":true,
+  "users7_8_labels_forbidden":true,
+  "accuracy_or_originality_claim":false
+}

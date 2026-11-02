@@ -1,0 +1,26 @@
+{
+  "state": "passed_future_full_ResNet18_alllayer_SGDM_B15_checkpoint_next2_updates_exact_on_synthetic",
+  "trainable_parameters": 11182668,
+  "batch_size": 15,
+  "full_input_shape": [
+    15,
+    3,
+    90,
+    189
+  ],
+  "classes": 12,
+  "initial_loss": 2.773145914077759,
+  "next2_losses": [
+    2.931432008743286,
+    2.6252784729003906
+  ],
+  "complete_model_BN_optimizer_momentum_and_augmentation_RNG_exact": true,
+  "checkpoint_bytes": 89566987,
+  "checkpoint_IO_in_RAM_only": true,
+  "full40epochs_not_run": true,
+  "no_UWB_values_labels_fit": true,
+  "no_formal_cost_or_actual_training_started": true,
+  "current_frozen_encoder_C1_pipeline_unmodified": true,
+  "not_selected_before_current_study_closure": true,
+  "accuracy_or_originality_claim": false
+}
