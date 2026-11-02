@@ -1,37 +1,23 @@
-# Git 本地练习仓库
+# UWB 手势识别
 
-这是一个真实的 Git 仓库，用来观察 Git 的三个核心区域：
+基于 UWB 雷达的手势识别研究项目，包含原始项目源码、开放集识别与多视角融合相关实验，以及云端迁移和研究记录。
 
-1. **工作区**：你正在编辑、但还没提交的文件。
-2. **暂存区**：通过 `git add` 选中，准备放进下一次提交的内容。
-3. **本地仓库**：通过 `git commit` 保存下来的历史快照。
+## 项目入口
 
-## 先看看这个仓库
+- [原始项目](uwb_direction1/original/project/)：保留上传的源码与研究文档快照。
+- [训练与评估入口](uwb_direction1/original/project/main.py)、[配置](uwb_direction1/original/project/config.py)和[模型代码](uwb_direction1/original/project/uwb_osr/)。
+- [云端研究说明](uwb_direction1/README.md)：迁移说明、实验记录和相关入口。
+- [研究状态](uwb_direction1/STATUS.json)与[实验结果目录](uwb_direction1/results/)：具体实验结论以对应记录为准。
+- [源码来源清单](uwb_direction1/original/SOURCE_MANIFEST.json)：记录原始文件来源。
 
-在 PowerShell 中进入本目录，然后运行：
+## 数据与运行
 
-```powershell
-& '..\.tools\mingit\cmd\git.exe' status
-& '..\.tools\mingit\cmd\git.exe' log --oneline --graph --decorate --all
-& '..\.tools\mingit\cmd\git.exe' branch
+原始雷达数组、模型权重及部分运行产物未纳入普通 Git，运行实验需要按项目配置准备相应数据与环境。迁移操作见[迁移说明](uwb_direction1/MIGRATION.zh-CN.md)。
+
+迁移工具的检查命令（不等同于识别模型效果验证）：
+
+```bash
+python -m unittest discover -s uwb_direction1/tests -v
 ```
 
-这里使用工作区中的便携版 Git，是因为创建 Demo 时系统的 `git` 命令尚未加入 PATH。正常安装 Git 后，可把每条命令前面的 `& '..\.tools\mingit\cmd\git.exe'` 简写成 `git`。
-
-## 自己完成一次 add 和 commit
-
-先在 `app.txt` 最后一行写一点内容，然后依次运行：
-
-```powershell
-& '..\.tools\mingit\cmd\git.exe' status
-& '..\.tools\mingit\cmd\git.exe' diff
-& '..\.tools\mingit\cmd\git.exe' add app.txt
-& '..\.tools\mingit\cmd\git.exe' diff --staged
-& '..\.tools\mingit\cmd\git.exe' commit -m "练习：修改问候语"
-& '..\.tools\mingit\cmd\git.exe' log --oneline --graph --decorate --all
-```
-
-## 上传到 GitHub
-
-详细步骤见 [GITHUB-UPLOAD.md](GITHUB-UPLOAD.md)。
-
+原项目保留在现有目录中，以维持源码、实验记录及相对路径之间的对应关系。
