@@ -1,0 +1,21 @@
+{
+  "state": "GitHub_connector_fresh_private_reads_failed_cloud_runtime_available",
+  "observed_utc": "2026-11-02T08:32:18.235435+00:00",
+  "repo": "Lixuu2001/git-local-demo",
+  "branch": "codex/uwb-direction1-cloud-20260930",
+  "last_verified_head": "784216c5d2c4a7b3f4f8115476e74c6f3f647466",
+  "last_verified_exact_readback_files": 53,
+  "errors": [
+    "fetch_commit(branch): GithubCommit sha None ValidationError; repeated once",
+    "fetch_commit(exact known784216c5): same validation error",
+    "four fetch_file(branch): InvalidInputException path did not return readable file content"
+  ],
+  "cause_not_yet_determined": true,
+  "current_remote_parent_unverified": true,
+  "new_remote_write_attempted": false,
+  "new_MC_UWB_values_labels_fit_started": false,
+  "MC_actual_synthetic_cost_completed_passed": true,
+  "cloud_environment_running_connected": true,
+  "local_data_and_frozen_checkpoints_present": true,
+  "background_real_training_or_inference_started": false
+}

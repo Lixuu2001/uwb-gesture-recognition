@@ -1,0 +1,14 @@
+test_fixed (test_protocol.Protocol.test_fixed) ... ok
+test_missing_registration_before_checkpoint_values (test_protocol.Protocol.test_missing_registration_before_checkpoint_values) ... ok
+test_policy_refusal (test_protocol.Protocol.test_policy_refusal) ... ok
+test_running_inference_refused (test_protocol.Protocol.test_running_inference_refused) ... ok
+test_active_training_refused (test_completion_boundaries.Tests.test_active_training_refused) ... ok
+test_failed_training_refused (test_completion_boundaries.Tests.test_failed_training_refused) ... ok
+test_partial_private_scope_cannot_score (test_completion_boundaries.Tests.test_partial_private_scope_cannot_score) ... ok
+test_ordered_raw_chunks_and_corruption (test_backup_roundtrip.Roundtrip.test_ordered_raw_chunks_and_corruption) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+OK
+{"state": "remote_archive_and_all_members_verified", "scope": "initial_first_only_not_latest_or_complete", "chunks_verified": 2, "archive_members": 2, "tracked_payload_members_verified": 1, "archive_sha256": "5f0006c76e31a30ccff1fa91920e89f1fc3f0ead62e2283581b6d01b0540e572", "complete_modelset_verified": false}

@@ -1,0 +1,15 @@
+# 2026-11-02 — 更名路由故障已修复；MC100实际成本通过；真实随机推理/全量审计预登记
+
+GitHub旧仓库名git-local-demo的file/commit连接器返回sha=None/不可读文件错误，但云端环境、数据和模型均正常，不是迁移丢失。get_repo解析出稳定ID1309576134对应更名仓库Lixuu2001/uwb-gesture-recognition，当前元数据visibility=public（不是本agent修改）；改用新名后四份最新记录与head2ad91ad606a250c2704ca407e9bfc30f0da88b8e读取成功。该用户提交只清理Git练习demo/更新README，本次以最新parent保留，不改根README或789源码快照。后续先canonical名称，旧名失败先get_repo解析，不反复假报权限/云端丢失。Drive文件夹仍owner-only，不改变任何分享/可见性。既有接续6abc995e1620819195fcff77dbd81118仅修正仓库路由及最新已核验数据路径/workspace/uwb-restored-20261020，schedule/title/enabled全部不变，无重复任务。
+
+MC成本在784216c5d2c4a7b3f4f8115476e74c6f3f647466全部53文件逐字节回读/force=false/head核对后仅执行一次：随机初始化完整850973参数TimeMIL/3个原p.2 Dropout/B64/T100/seed20261029/1CPU，8forward/3完整100x2200x12输出保存/3状态保存。74629 exit0，无timeout，wall10.4460941050s/CPU10.412983s，maxforward .7742861020s，RSS595128KiB；保守全producer3535批加独立全回放及margin2合计5596.946729399264s=1.5547074h，12h/14GiB门槛通过。没有加载训练UWB检查点/新UWB值/手势标签/拟合/评分。保留日志/TERM/hash/独立重算证据，不重profile。
+
+新真实单次协议/workspace/uwb-mcdropout-pilot-20261102已实现，135项冻结，协议SHA a0ea474e8486425286fba467da32d8384a4370138a29da28e343cddf050c0e6b，FROZEN SHA18c2f1e6696f023c7539c86d64ea5fbf87ae05213aeb2a0fe15be6a3fb56fbdb。固定已验证原TimeMIL64的validation选中epoch41权重SHA33af44c40fd933629ddc1e97a843943f6e3dc82a5a74bf1c5200db272c53980a；旧MIL-vs-GAP失败配置保持关闭，不重训/改权重/rate救援。此为Gal&Ghahramani2016已发表MC dropout推理估计器，不称新架构/组合或真实贝叶斯校准保证。T100/B64/base seed20261029/3个原p.2 Dropout，其他模块含BN eval，no_grad；保持OvR BCE的mean(sigmoid(logits))逐类float64平均后argmax，不称categorical posterior。原始90x567 signed per-view RMS/3视图189range不变。
+
+复用训练用户3–6、验证2/1000、诊断1/1200；新阶段不读训练标签，推理/auditor根本无手势标签loader。固定规范ID顺序、role seed+101/+102，一整role100pass只初始化一次seed，不每批重置。两组确定性control分别在对应role的100次MC推理之前生成，held1精确ID/logits与原TimeMIL冻结reference逐位核对；全部MC输出与每次Torch RNG/digest留档，完整审计和私有保存后才评分。控制器只单次producer后单次独立auditor，各5700wall/5600soft/5700hardCPU，总上限11400<12h，无auto retry/resume/Drive/Git/评分。
+
+审计独立显式重算每次随机forward（不调用producer infer helper），逐位检查200组logits与RNG、float64均值、两组baseline、初始/首pass/final完整模型/modes/globalRNG/原生选中权重，并独立核对6900source rawRMS/cache/FP64，全程无诊断标签。完整随机模型MC100/toy、真实producer→独立auditor的合成4pass每role/奇数末批、错误sampleID拒绝、8项协议/完整性/私有scope/损坏恢复边界均通过。一次合成审计mean因whole-stack与per-pass CPU sigmoid向量tail差异出现单点7.45e-9偏差，旧engine/log保留；只使新auditor对重放logits按既定whole-stack sigmoid形状计算并独立float64累计，未改冻结source/cost、不放松容差、不改T/rate/seed/门槛、无真实值使用，重验全过。冻结前操作hash helper Path/str错误亦留痕修复，无科学改变。
+
+本提交时新MC真实checkpoint值/源数组/随机推理均尚未读取/启动。全部本次文件latest-parent force=false、逐字节远端回读与head核对之后才写匹配marker/Popen一次。推理/审计成功后须完整owner-only Drive rawchunk size/SHA/顺序整包/全部安全唯一成员回读才可一次固定finalize。初始first-pass保险若保存只属initial-first，不当完整模型集。固定同ID TimeMIL98.6667%+.5pp/1e-12 gate；失败关闭确切MC100/B64/p.2/seed，不按诊断救援；通过只允许另登记source6确认。7–8标签不用新选择，历史八用户开发使一切仍探索性、非独立/八折提升/原创贡献。
+
+DLinear默认10/B32/patience3/RAdam.0001确切配置已完整1470更新/独立审计/6块95成员私有回读后评分16.6667%vs98.6667%，−82pp关闭，无救援。TCN20/B64诊断92.0833%、−6.5833pp已关闭；t-LeNet1000只资源21.40h关闭，无准确率负结论。用户目标未达，准确率与原创证据分开，继续具体实现/真实验证。原数组/模型/实际样本ID值/私有作者代码不入Git，原789快照/用户README不覆盖，Windows未参与。下次先查已有MC进程/检查点，正常运行只本地journal，避免重复下载/启动；完毕后接续完整私有保存和一次gate。

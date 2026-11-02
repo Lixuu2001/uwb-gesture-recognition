@@ -1,0 +1,24 @@
+{
+  "method": "MC_dropout100_frozen_TimeMIL_sigmoid_predictive_mean",
+  "samples": 100,
+  "batch_size": 64,
+  "seed": 20261029,
+  "threads": 1,
+  "parameters": 850973,
+  "dropout": 0.2,
+  "active_dropout_nodes": 3,
+  "input_shape": [
+    90,
+    567
+  ],
+  "validation_count": 1000,
+  "diagnostic_count": 1200,
+  "baseline_forward_batches": 35,
+  "MC_forward_batches": 3500,
+  "budget_seconds": 43200,
+  "memory_limit_KiB": 14680064,
+  "synthetic_fixture_only": true,
+  "trained_UWB_checkpoint_loaded": false,
+  "real_UWB_values_labels_fit_authorized": false,
+  "rate_sample_count_seed_search": false
+}

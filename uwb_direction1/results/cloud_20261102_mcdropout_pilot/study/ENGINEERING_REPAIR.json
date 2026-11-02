@@ -1,0 +1,13 @@
+{
+  "stage": "synthetic_integration_before_real_registration_or_UWB_values",
+  "initial_failure_log": "INTEGRATION_ATTEMPT01.log",
+  "original_engine": "engine_attempt01.py",
+  "failure": "One of48 synthetic mean entries differed7.4505806e-9, after all raw stochastic logits and RNG states had matched exactly.",
+  "cause": "Native CPU sigmoid vector/tail arithmetic differs for a whole contiguous T,N,12 tensor versus separate N,12 pass calls; producer source has always used one whole-stack sigmoid.",
+  "repair": "Independent auditor still explicitly recomputes every stochastic forward/RNG, then applies the existing fixed whole-stack sigmoid shape to replayed logits and independently accumulates pass values in float64.",
+  "fixed_source_estimator_or_cost_code_modified": false,
+  "tolerances_relaxed": false,
+  "real_UWB_values_labels_or_trained_checkpoint_used": false,
+  "architecture_rate_T_seed_or_gate_changed": false,
+  "failed_attempt_preserved": true
+}

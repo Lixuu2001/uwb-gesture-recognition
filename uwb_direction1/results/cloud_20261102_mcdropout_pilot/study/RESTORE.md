@@ -1,0 +1,7 @@
+# Recovery scope
+
+Canonical repository is Lixuu2001/uwb-gesture-recognition, stableID1309576134; old git-local-demo file/commit connector paths no longer work after the rename. Resolve get_repo first if renamed again. Preserve latest user's README/cleanup and repository visibility. Drive folder remains private regardless of Git visibility.
+
+Inspect actual cloud controller/worker/checkpoints before restoring or launching. Raw data /workspace/uwb-restored-20261020, source maps/source-ID manifest and runtime are separately indexed. Automatically restore known private Drive chunks, never ask manual transfer. Complete MC private scope contains immutable reused TimeMIL41 checkpoint, initial/native/first-pass/final states, all MC logits/RNG/digests/IDs, both deterministic controls and complete independent audit. No new training/optimizer state exists in this inference study. Initial-first scope, if saved, is immutable insurance only and does not establish complete outputs or audit. No automatic whole-job/mid-pass resume/retry.
+
+Keep exact frozen code/tests/logs unchanged after start; inspect and preserve execution failures before a separately registered engineering repair. Raw chunk and all safe unique members require verification before recovery claims. Archive before diagnostic score; SUMMARY is separately published afterward, controller STATE remains its pre-finalizer snapshot. Keep original models and a verified archive/MEMBERS/index/proof before pruning only proven duplicate transport copies.

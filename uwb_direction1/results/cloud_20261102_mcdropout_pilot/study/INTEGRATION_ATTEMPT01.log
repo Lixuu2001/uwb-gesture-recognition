@@ -1,0 +1,34 @@
+{"role": "validation", "sample": 1, "sample_count": 4, "records": 3, "ids_sha256": "e47ca068af9315e1eb0ce3854846621fa773da89092fbe78bc2c51788e264da9", "logits_sha256": "b2be9df4de26b3f0ea581ab4541b5be97f68ceb92954a19845ada434e06c4cda", "torch_rng_sha256": "f904c9e3c6c5978c227252e237168116a2a2997018a33e328071027e5d15061b"}
+{"role": "validation", "sample": 2, "sample_count": 4, "records": 3, "ids_sha256": "e47ca068af9315e1eb0ce3854846621fa773da89092fbe78bc2c51788e264da9", "logits_sha256": "3ab7fc6fac62bb5ed2247c602cad21faee658afae68efebb314525dd927638fe", "torch_rng_sha256": "36101a255d4ff1696a70ded76eb3a50c14afd0fa3606e57b8e3a55506f9e46b1"}
+{"role": "validation", "sample": 3, "sample_count": 4, "records": 3, "ids_sha256": "e47ca068af9315e1eb0ce3854846621fa773da89092fbe78bc2c51788e264da9", "logits_sha256": "57d5c67d749b3338581ffb9bf2d0fb3ea961ff022caf155490041e719019f976", "torch_rng_sha256": "2bade4bd6c07234046f0de59a7e7120623362aab290f57603b66c4769d383507"}
+{"role": "validation", "sample": 4, "sample_count": 4, "records": 3, "ids_sha256": "e47ca068af9315e1eb0ce3854846621fa773da89092fbe78bc2c51788e264da9", "logits_sha256": "645a383b00954d05b35771b069b4a0dd90d89b24189e2201a390daa8189927af", "torch_rng_sha256": "bbcf47d167f93f728ccd44911882769ec2ea2e2632bcd8d71a9d874eb6206ce8"}
+{"role": "diagnostic", "sample": 1, "sample_count": 4, "records": 4, "ids_sha256": "f85feb0c9abfe640beb41b08566c91760b5f56aabe42e15999dac3b844a3257f", "logits_sha256": "94739b715bc0a5c2041d2e891a2774fa4d8a01a586b84e5be0ddfd153d241c52", "torch_rng_sha256": "ff5e84176e906574e2334dbeb034f1e270bb812116dee7065800552acfa53eaa"}
+{"role": "diagnostic", "sample": 2, "sample_count": 4, "records": 4, "ids_sha256": "f85feb0c9abfe640beb41b08566c91760b5f56aabe42e15999dac3b844a3257f", "logits_sha256": "6d2619f9f1bbe942090bf9d826759728d1578992286dae370dab403897000a4f", "torch_rng_sha256": "0316a1fd7c6384d38d5e50228f3dbf6fd754ff807b890c52018f71fca97283e2"}
+{"role": "diagnostic", "sample": 3, "sample_count": 4, "records": 4, "ids_sha256": "f85feb0c9abfe640beb41b08566c91760b5f56aabe42e15999dac3b844a3257f", "logits_sha256": "b09858d5e9d97db7235476fc9692215a2df95db0b91ff038224f3b629a31e531", "torch_rng_sha256": "640114a92f0bc562959e2f88731be8fe4ac1fa31f2eaa7d5f602f8a7fde1a089"}
+{"role": "diagnostic", "sample": 4, "sample_count": 4, "records": 4, "ids_sha256": "f85feb0c9abfe640beb41b08566c91760b5f56aabe42e15999dac3b844a3257f", "logits_sha256": "31ac874b66ef69463f35301abeb0f8c55514289df3c3d6c1a3593820c2d731cf", "torch_rng_sha256": "04bfb7275b62a3eebc36bab45b4c5c961ec79b8c954b1b1ed22552f408f0e4c9"}
+Traceback (most recent call last):
+  File "/workspace/uwb-mcdropout-pilot-20261102/test_integration.py", line 16, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-mcdropout-pilot-20261102/test_integration.py", line 10, in main
+    a=replay(c,out,model(c['seed']),ids,ordered,maps,identity,ref);assert a['samples_replayed']==8
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-mcdropout-pilot-20261102/engine.py", line 67, in replay
+    mean=sum_link/c['samples'];np.testing.assert_array_equal(mean,saved['mean_sigmoid']);np.testing.assert_array_equal(saved['predictions'],mean.argmax(1));saved.close();equal(initial,state(m,identity))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1054, in assert_array_equal
+    assert_array_compare(operator.__eq__, actual, desired, err_msg=err_msg,
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 919, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not equal
+
+Mismatched elements: 1 / 48 (2.08%)
+Max absolute difference among violations: 7.4505806e-09
+Max relative difference among violations: 1.98371172e-08
+ ACTUAL: array([[0.283826, 0.042796, 0.387104, 0.711815, 0.689325, 0.442127,
+        0.671376, 0.536604, 0.836307, 0.284264, 0.503422, 0.335463],
+       [0.184265, 0.070688, 0.459847, 0.720537, 0.499538, 0.684586,...
+ DESIRED: array([[0.283826, 0.042796, 0.387104, 0.711815, 0.689325, 0.442127,
+        0.671376, 0.536604, 0.836307, 0.284264, 0.503422, 0.335463],
+       [0.184265, 0.070688, 0.459847, 0.720537, 0.499538, 0.684586,...
