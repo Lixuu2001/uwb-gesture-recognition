@@ -1,0 +1,22 @@
+/workspace/uwb-resnet-keras-screen-20261030/deps/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Traceback (most recent call last):
+  File "/workspace/uwb-xcm-source-probe-20261102/check_source.py", line 44, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-xcm-source-probe-20261102/check_source.py", line 28, in main
+    restore(state,m);m.reset_metrics();second=m.train_on_batch(x,y);equal(first,second);equal(after,capture(m))
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-xcm-source-probe-20261102/native_xcm.py", line 63, in equal
+    for k in a:equal(a[k],b[k])
+               ^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-xcm-source-probe-20261102/native_xcm.py", line 66, in equal
+    for x,y in zip(a,b):equal(x,y)
+                        ^^^^^^^^^^
+  File "/workspace/uwb-xcm-source-probe-20261102/native_xcm.py", line 66, in equal
+    for x,y in zip(a,b):equal(x,y)
+                        ^^^^^^^^^^
+  File "/workspace/uwb-xcm-source-probe-20261102/native_xcm.py", line 67, in equal
+    else:assert a==b
+                ^^^^
+AssertionError

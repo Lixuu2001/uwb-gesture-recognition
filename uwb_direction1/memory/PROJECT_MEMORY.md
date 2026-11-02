@@ -1,3 +1,15 @@
+# 2026-11-02 — 完整ModernTCN资源失败留痕；完整XCM作者实现及100轮成本实验预登记
+
+ModernTCN完整released waveGesture三雷达/CPU4配置431894540参数，按e31e0dd554c484c06f9150b547f7fe8d4dad46bf全部58文件精确回读后首次合成数值screen。Supervisor82461/worker82462在第一个full native Adam warm update尚未完成时观测RSS12661220KiB，超过注册12582912KiB；加2GiB raw/maps余量14758372KiB超过14GiB。监控主动TERM，exit−15，wall18.202997589018196s/CPU43.483256s，cgroup oom_kill增量0，无OOM/timeout。未取得steady吞吐/full100E耗时/checkpointIO，不补估；确切fullwaveCPU4资源配置关闭，无自动retry/缩宽度/改视图/batch/epoch/精度救援。无新UWBvalues/labels/fit、无accuracy测量，明确不是科学负结果。原冻结源码/tests/log/partialSTATE不改，独立VERIFIED_RESOURCE_CLOSURE.json真实结果发布。
+
+继续下一项XCM(Fauvel等2021,Mathematics9(23):3137,DOI10.3390/math9233137)。已读原论文3.1架构/4.2算法/4.3协议及完整作者模型/main/config/README/LICENSE，官方XAIseries/XCM commit3d70a544a8c0ae11d10f71968d5a5cd7e57d5928。完整128filter/parallel2D+1D/reduce/final1D/GAP/softmax作者函数AST不改，发布示例window.2/B32/100E/Adam.001/CE，T90→kernel18/M567/classes12/seed20261029/CPU4迁移。不是作者5foldwindow/batchgrid，不把发表于2021的机制算原创。原Apache2.0文件保留，旧import直接绑定当前Keras3.11.3/Torch2.15.0，不安装TF/不宣称历史TF数值一致。只按最新四主记录XCMtoken查0，不声称全仓无历史。官方仓库/文件首猜404由paper/mainimport解析纠正，非数据丢失。
+
+独立toy手工接线forward/inputgradient/evenpadding与作者AST同权精确；完整nativeAdam/metrics/RNG下一update恢复及原生.keras保存/重载预测/Adam下一update精确通过。完整symbolicshape[N,90,567,1]→[N,12]，2621070参数/2620302trainable。预冻结检查发现首次capture中globalKerasRNG初始化在PythonRNG快照之后消耗一次随机值，attempt01/02失败源码/log保留；已改为先materializeglobalgenerator再取所有RNG快照，权重/Adam/metrics/RNG恢复检查通过。Functionalgraph分支拓扑顺序按namedlayer校验。不是测试后救援，无实际UWB输入。/workspace/uwb-xcm-source-probe-20261102保留全部来源/代码/故障。
+
+下一具体实验/workspace/uwb-xcm-full128-cost-20261102已实现完整合成成本：1fullB32warm+3train/eval/full.keras save/load，3个完整合成checkpoint本地保留。2*(14700maxtrain+3485maxeval+101maxsave+2maxload)+180，CPU保守4*wall，对完整100Eproducer+完整replay；peak+2GiB<=14GiB，8套checkpoint+64MiB<=当前剩余盘，12wallhours/48CPUhours。独立supervisor1200wall/1180soft1200hardCPU/12GiBRSS/.2s/cgroupOOM留痕，4cost边界tests通过，10cost文件/3202依赖SHA冻结，缺remote marker必须阻断。此提交注册快照尚未targetshape完整数值profile，只在全文件远端精确回读/branchhead核验后启动一次；不以costpass直接授权UWBfit。若pass需另完整realrunner/fullreplay/private模型保存/协议注册，若fail关闭确切128/.2/100E/B32/seed/CPU4，不窗口/width/epoch/batch/精度/视图/seed扫参。
+
+保持source3–6train/2valcheckpoint选择/1diag一次、参考.9866666666666667、+.005/tol1e-12，user7–8 labels禁用。原Hydra+MultiRocket完整95.5833%失败/fullprivate991成员/一次评分保持关闭；无新八折提升/独立验证/原创贡献，所有历史八用户探索性，目标未达。最新远端为父force=false，只uwb_direction1路径，用户README清理/789原源码/当前repo可见性/Driveowneronly/自动任务enabled日程保留，不依赖Windows或重迁移。
+
 # 2026-11-02 — 完整已发表Hydra+MultiRocket真实95.5833%失败关闭/私有991成员恢复；下一项完整ModernTCN作者手势配置已实现并预登记资源screen
 
 原完整真实hybrid按7101d153881cc6fa397b4d0388d660974f15fa31精确26文件回读后启动，producer81747exit0/no timeout/RSSstop，wall201.84217228996567s/CPU201.554783s/peak10347192KiB；仅训练内nativeLOO选alpha1000，bestscore-.0254060064046898。Auditor81765exit0/no timeout/RSSstop，wall314.92531985603273s/CPU314.64254s/peak10347872KiB。全4700nativefit/HydraW/idx/dilation/padding/MRraw+diffparams/两个scalers/coef/intercept/classes/alpha/LOOscore精确，2200heldpreds/decisions/featureshash精确；全部6900rawMR在native nan_to_num前finite且等publicAPI，独立FP64训练streamingstats及6900rawRMS/cache/FP64核查通过。冻结科学文件无改/无重跑。

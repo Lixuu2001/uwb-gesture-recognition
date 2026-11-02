@@ -1,0 +1,77 @@
+{
+  "observed_utc": "2026-11-02T12:53:30.147378+00:00",
+  "synthetic_only": true,
+  "real_UWB_training": false,
+  "LAUNCH.json": {
+    "pid": 82461,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/uwb-moderntcn-fullwave-cost-screen-20261102/run_screen.py"
+    ],
+    "registration_commit": "e31e0dd554c484c06f9150b547f7fe8d4dad46bf",
+    "started_utc": "2026-11-02T12:52:20.034756+00:00"
+  },
+  "supervisor01/PID.json": {
+    "pid": 82462,
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-u",
+      "/workspace/uwb-moderntcn-fullwave-cost-screen-20261102/profile_screen.py"
+    ]
+  },
+  "profile01/DECLARATION_BEFORE_TIMING.json": {
+    "policy_sha256": "3ea2e195faa44a841c0e106061b24f6dea9fceff2b37b88986587c093b8d3475",
+    "cost_hashes_sha256": "f90845d1e53514030c113905664d9f6752a4bf7f1f0b3d436daa882f63af597f",
+    "synthetic_only": true,
+    "full_input_shape": [
+      32,
+      90,
+      567
+    ],
+    "UWB_values_labels_fit": false,
+    "checkpoint_IO_not_authorized_by_screen": true
+  },
+  "profile01/STATE.json": {
+    "state": "warming_one_full_native_Adam_update",
+    "parameters": 431894540,
+    "input_shape": [
+      32,
+      90,
+      567
+    ],
+    "UWB_values_labels_fit": false
+  },
+  "supervisor01/TERMINATION.json": {
+    "pid": 82462,
+    "exit_code": -15,
+    "wall_timeout": false,
+    "resource_stop_reason": "RSS_resource_limit",
+    "peak_observed_RSS_KiB": 12661220,
+    "RSS_stop_KiB": 12582912,
+    "cgroup_events_before": {
+      "low": 0,
+      "high": 0,
+      "max": 33755,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_events_after": {
+      "low": 0,
+      "high": 0,
+      "max": 40124,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "cgroup_oom_kill_delta": 0,
+    "supervisor_wall_seconds": 18.202997589018196,
+    "child_cpu_seconds": 43.483256,
+    "cpu_soft_seconds": 1180,
+    "cpu_hard_seconds": 1200,
+    "scientific_negative": false,
+    "accuracy_measured": false,
+    "real_UWB_values_labels_fit": false
+  }
+}

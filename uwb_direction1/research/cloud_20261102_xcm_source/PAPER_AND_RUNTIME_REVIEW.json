@@ -1,0 +1,12 @@
+{
+  "paper": "Fauvel et al.2021 XCM,Mathematics9(23):3137",
+  "DOI": "10.3390/math9233137",
+  "paper_url": "https://arxiv.org/pdf/2009.04796",
+  "reviewed": "Original paper sections3.1architecture/4.2algorithm/4.3hyperparameter protocol,pp6\u201310;official fullmodel/main/config/README/LICENSE",
+  "mechanism": "Parallel pervariable 2D and jointvariable 1D branches plus final1D/GAP",
+  "selection": "One released example configuration window.2/B32/100E/default128;not paper fivefold window/batch grid and not selected on UWB labels",
+  "source_import_repairs": "KevinFauvel/XCM guessed404 resolved paper official XAIseries/XCM;models/XCM.py404 resolved main.py import models/xcm.py;no data restoration implied",
+  "compatibility": "Unchanged function AST and layer defaults bound to native Keras3 imports instead of removed keras.layers.convolutional;Torch backend, no TensorFlow installation/parity claim",
+  "pre_freeze_failure": "First RNG snapshot constructed Keras global generator after capturing Python state;synthetic continuation detected one Python RNG index drift. Attempts01/02 source+failurelogs retained;now generator materialized before all RNG capture,fullweights/Adam/metrics/RNG nextupdate exact. Topological branch order asserted by names,not source ordering.",
+  "actual_UWB_values_labels_fit": false
+}
