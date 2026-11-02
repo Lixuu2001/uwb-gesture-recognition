@@ -1,0 +1,115 @@
+{
+  "state": "private_readback_verified",
+  "scope": "completed_MC100_inference_producer_numeric_audit_pending_not_certified",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "mc100_completed_producer_20261102.tar.gz",
+  "archive_bytes": 23234114,
+  "archive_sha256": "20ad90651f37d5b4d14ba82563401b3c83ad8a818a8708c53b7fb33f547e4f58",
+  "members_manifest_sha256": "f9afb12530df3c4c5348891caa042c29f57cc870cbf81773e8c53c3421c82afe",
+  "chunks": [
+    {
+      "name": "mc100_completed_producer_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "336ab90a05d445e076021cd3483ec127efde45ff9aa2251befa77d8223c8cd6b",
+      "file_id": "1kwIHIkJvGm8yvlrbbpPii-zo0IWFMpaV",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mc100_completed_producer_20261102.part001",
+      "bytes": 7340032,
+      "sha256": "2d70bc87f80b3a25bdd6ca95fe6312a366bc48f28389167b298b8600dc1778a8",
+      "file_id": "1iwJTolv--CcJzJZl_BGmd8kTBihG4BZI",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mc100_completed_producer_20261102.part002",
+      "bytes": 7340032,
+      "sha256": "1d796f1d941ee22fe8fd24e88451456d834e8b5ce50cfccb8cd045732123c99f",
+      "file_id": "11zw9kDwEBNWDkayGCDlZI4v0k73RpaNX",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "mc100_completed_producer_20261102.part003",
+      "bytes": 1214018,
+      "sha256": "63a559039e1b3c365e366898ed958840e74089926eaf5c661ce93729b07ba3ad",
+      "file_id": "1b2OwC9czphJm4Nw8lpAwgdsiO4Cmt1Sr",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1214018,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "chunks_verified": 4,
+  "archive_members": 119,
+  "full_MC_producer_outputs_byte_preserved": true,
+  "all100_MC_logits_and_RNG_per_role_included": true,
+  "all_produced_states_and_selected_weights_included": true,
+  "complete_modelset_verified": false,
+  "numeric_audit_certified": false,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false
+}

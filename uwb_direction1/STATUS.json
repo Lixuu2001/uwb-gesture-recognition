@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MC100_real_stochastic_inference_active_initial_first_private_insurance_verified",
+  "state": "MC100_all_outputs_frozen_full_numeric_audit_active_completed_producer_recovery_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_mcdropout_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
+  "latest_report": "results/cloud_20261102_mcdropout_pilot/PRODUCER_RECOVERY_AUDIT_ACTIVE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Registered known MC100 inference estimator on immutable TimeMIL41; execute once after remote exact preregistration",
-  "last_completed_update_utc": "2026-11-02T08:54:36.005500+00:00",
+  "last_completed_update_utc": "2026-11-02T10:01:05.162320+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
     "observations_current": true,
@@ -1037,7 +1037,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-11-02T08:54:36.005500+00:00",
+  "last_updated_utc": "2026-11-02T10:01:05.162320+00:00",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Known MC100 inference actually active on cloud, no new training; immutable selected weights and first validation pass verified, initial-first2chunks103members private recovery passed. Original controller will run complete independent replay; full private output/audit and one diagnostic gate remain pending.",
+  "latest_task_state": "MC100 both source-role100pass outputs frozen; producer exit0, all output/state bytes privately preserved4chunks119members. Original full auditor75878/controller75249 remain active. Numerical certification, complete audited backup and one diagnostic gate pending; no accuracy result.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -4495,8 +4495,8 @@
       "full_job_resume_snapshot": false
     }
   },
-  "background_audit_running": false,
-  "background_audit_pid": null,
+  "background_audit_running": true,
+  "background_audit_pid": 75878,
   "lightts_library_core_preparation": {
     "state": "full_library_gesture_preset_source_resume_IEBlock_and_CPU_pass_no_real_fit",
     "workspace": "/workspace/uwb-lightts-screen-20261030",
@@ -6423,7 +6423,7 @@
     "eligibility": "Only after current full source6 gate/audit/private preservation and separately registered real protocol/cost/runner/auditor; no current training changes",
     "real_ablation_closed_by_source6_gate_failure": true
   },
-  "background_numeric_audit_running": false,
+  "background_numeric_audit_running": true,
   "background_experiment_queue_running": false,
   "disjoint_cnn_formal_cost_20261101": {
     "state": "actual_synthetic_profile_successfully_completed_full500_B8_resource_closed",
@@ -7306,7 +7306,7 @@
   "repository_observed_visibility": "public",
   "repository_visibility_changed_by_agent": false,
   "mcdropout_accuracy_pilot_20261102": {
-    "state": "active_stochastic_inference_initial_first_private_insurance_verified",
+    "state": "completed_MC100_producer_full_audit_active_producer_recovery_verified",
     "workspace": "/workspace/uwb-mcdropout-pilot-20261102",
     "protocol": "results/cloud_20261102_mcdropout_pilot/study/PROTOCOL.json",
     "protocol_sha256": "a0ea474e8486425286fba467da32d8384a4370138a29da28e343cddf050c0e6b",
@@ -7337,7 +7337,7 @@
     "full_synthetic_producer_independent_replay_passed": true,
     "registration_commit": "9d8b37a25d1933e71bca00b75a4e465e2901f44e",
     "controller_pid": 75249,
-    "inference_worker_pid": 75250,
+    "inference_worker_pid": null,
     "observed_role": "validation",
     "observed_samples_current_role": 14,
     "observed_MC_batches_derived": 224,
@@ -7349,8 +7349,25 @@
     "initial_first_private_bytes": 9730135,
     "initial_first_private_scope": "initial_first_only_not_latest_or_complete",
     "initial_first_private_index": "results/cloud_20261102_mcdropout_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
-    "latest_full_outputs_privately_preserved": false
+    "latest_full_outputs_privately_preserved": true,
+    "producer_complete": true,
+    "producer_exit_code": 0,
+    "producer_wall_seconds": 2751.5320380330086,
+    "producer_CPU_seconds": 2751.099675,
+    "actual_samples_per_role": 100,
+    "deterministic_and_MC_both_roles_frozen": true,
+    "baseline_same_ID_control_exact": true,
+    "audit_worker_pid": 75878,
+    "audit_observed_utc": "2026-11-02T09:59:39.134434+00:00",
+    "producer_recovery_verified": true,
+    "producer_recovery_scope": "completed_MC100_inference_producer_numeric_audit_pending_not_certified",
+    "producer_recovery_numeric_audit_certified": false,
+    "producer_recovery_chunks": 4,
+    "producer_recovery_members": 119,
+    "producer_recovery_bytes": 23234114,
+    "producer_recovery_archive_sha256": "20ad90651f37d5b4d14ba82563401b3c83ad8a818a8708c53b7fb33f547e4f58",
+    "producer_recovery_index": "results/cloud_20261102_mcdropout_pilot/producer_recovery/CLOUD_DOWNLOAD_INDEX.json"
   },
-  "background_inference_running": true,
-  "background_inference_pid": 75250
+  "background_inference_running": false,
+  "background_inference_pid": null
 }

@@ -1,0 +1,45 @@
+{
+  "observed_utc": "2026-11-02T09:59:03.680136+00:00",
+  "controller_state": {
+    "state": "full_numeric_audit",
+    "pid": 75249,
+    "automatic_retry": false,
+    "automatic_resume": false,
+    "Drive_or_Git_capability": false,
+    "diagnostic_labels_read": false,
+    "users7_8_labels_used": false,
+    "new_training": false,
+    "observed_unix": 1793612095.7924407
+  },
+  "producer_termination": {
+    "pid": 75250,
+    "exit_code": 0,
+    "wall_timeout": false,
+    "supervisor_wall_seconds": 2751.5320380330086,
+    "child_cpu_seconds": 2751.099675,
+    "cpu_soft_seconds": 5600,
+    "cpu_hard_seconds": 5700,
+    "scientific_negative": false
+  },
+  "audit_available": false,
+  "audit_termination_available": false,
+  "audit_pids": [
+    75878
+  ],
+  "all135_frozen_bytes_unchanged": true,
+  "all_closed_producer_artifacts_unchanged": true,
+  "producer_recovery_scope": "completed_MC100_inference_producer_numeric_audit_pending_not_certified",
+  "producer_full_outputs_byte_preserved": true,
+  "numeric_audit_certified": false,
+  "complete_private_modelset_verified": false,
+  "diagnostic_scored": false,
+  "no_new_training_or_inference_started": true,
+  "archive_sha256": "20ad90651f37d5b4d14ba82563401b3c83ad8a818a8708c53b7fb33f547e4f58",
+  "archive_members": 119,
+  "archive_bytes": 23234114,
+  "receipt_sha256": "d63d43f4ae185442b4c5f4043c41677647d3516d818470e9289124b916c2fe25",
+  "members_manifest_sha256": "f9afb12530df3c4c5348891caa042c29f57cc870cbf81773e8c53c3421c82afe",
+  "audit_process_liveness_verified": true,
+  "audit_observed_utc": "2026-11-02T09:59:39.134434+00:00",
+  "observer_repair": "Initial substring exclusion python-space-dash incorrectly excluded the normal python -u auditor; replaced with exact final argv path and executable/status check. Original observation retained. No scientific code/tests/config changed."
+}
