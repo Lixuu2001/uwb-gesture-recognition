@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-drcif500-batched-spectrum-source-20261102/check_execution_equivalence.py", line 14, in <module>
+    a,b=models;assert_native(b,True);assert digest(a)==digest(b);pa=predict(a,x,24);pb=predict(b,x,7);np.testing.assert_array_equal(pa['probabilities'],pb['probabilities']);np.testing.assert_array_equal(pa['predictions'],pb['predictions'])
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-drcif500-batched-spectrum-source-20261102/native_drcif_batched.py", line 21, in assert_native
+    original_assert(m,fitted,jobs);assert isinstance(m.series_transformers[2],BatchedNativePeriodogram)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
