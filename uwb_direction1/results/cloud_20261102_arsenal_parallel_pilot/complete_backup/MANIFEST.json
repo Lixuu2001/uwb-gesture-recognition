@@ -1,0 +1,40 @@
+{
+  "state": "complete_audited_Arsenal25x2000_native_classifier_snapshot",
+  "scope": "complete_audited_Arsenal25x2000_native_CVaccuracy_jobs4_source_held1",
+  "created_unix": 1793635292.576458,
+  "complete_modelset": true,
+  "full_numerical_audit_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Native initial and fitted model, exact source IDs/logits/logs/audit/source retained. Raw arrays/maps and pinned runtime restored separately; not whole OS or historical runtime parity.",
+  "archive_name": "arsenal25_jobs4_complete_20261102.tar.gz",
+  "archive_bytes": 28010372,
+  "archive_sha256": "009dd150f8908e4cf403ad6a058a203e97ec9df3fd4d56c10f61c1f940b71b73",
+  "members_manifest_sha256": "b1874339d21530a971a972cbca3a18ea0b43ac8a55fd467a057953044cbb772a",
+  "tracked_payload_files": 991,
+  "chunks": [
+    {
+      "name": "arsenal25_jobs4_complete_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "8823bdf3ed02b3ef69151bd0509dc3112b95b931171c37b9283fbe2ca9ffb477"
+    },
+    {
+      "name": "arsenal25_jobs4_complete_20261102.part001",
+      "bytes": 7340032,
+      "sha256": "aac2aaa9577246fdac3205ab269c55439feb2ed7c49585de860028338d6c6902"
+    },
+    {
+      "name": "arsenal25_jobs4_complete_20261102.part002",
+      "bytes": 7340032,
+      "sha256": "c6a59d01098607ebeebb05a23061dd1a6b301daa1a968154771a5db46a4d6a76"
+    },
+    {
+      "name": "arsenal25_jobs4_complete_20261102.part003",
+      "bytes": 5990276,
+      "sha256": "3d1f04cdf2660abba3e02fd8a43716c18ecae58d2a7547478d5c19cc2c60dfbe"
+    }
+  ]
+}
