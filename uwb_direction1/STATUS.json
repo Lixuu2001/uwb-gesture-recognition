@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_HydraMultiRocket_cost_verified_pass_real_source_held1_preregistered_not_started",
+  "state": "HydraMultiRocket_failed_accuracy_gate_closed_full_ModernTCN_waveGesture_resource_screen_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_hydra_multirocket_pilot/study/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_hydra_multirocket_pilot/FINAL_RESULT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Original synthetic cost completed successfully; no active old training or audit. Real fixed full-native hybrid not yet started in this preregistration snapshot.",
+  "background_training_status_note": "Full real Hydra+MultiRocket audited/private991members/onescore failed closed;no active real training/audit. ModernTCN screen not yet started in registration snapshot.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Run full native Hydra+MultiRocket fixed source-held1 pilot once after exact remote real-study registration;no old closed reruns.",
-  "last_completed_update_utc": "2026-11-02T12:16:30.364347+00:00",
+  "next_candidate": "Complete released ModernTCN waveGesture three-radar model431894540params;first full numerical synthetic CPU4 rejection-only resource screen after exact remote registration. Cannot authorize real fit without full IO/storage gate.",
+  "last_completed_update_utc": "2026-11-02T12:50:59.926266+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_native_HydraMultiRocket_real_pilot_preregistered",
+    "state": "full_ModernTCN_waveGesture_rejection_screen_preregistered",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2808,7 +2808,7 @@
     "audit_checks": 93,
     "checkpoint_hashes_verified": true,
     "torch_cpu_available": true,
-    "next_method": "full_native_MultiRocketHydraClassifier",
+    "next_method": "full_ModernTCN_waveGesture",
     "next_method_started": false,
     "last_method": "HYDRA",
     "hydra": {
@@ -7618,7 +7618,7 @@
     "profile_CPU_seconds": 165.536653
   },
   "hydra_multirocket_accuracy_pilot_20261102": {
-    "state": "frozen_real_pilot_preregistered_not_started",
+    "state": "complete_audited_privately_verified_scored_once_failed_exact_configuration_closed",
     "workspace": "/workspace/uwb-hydra-multirocket-pilot-20261102",
     "protocol_sha256": "5c987d800006332915e72c7c72554774b2c795b45fe12a7b92efcb8ab11c4db5",
     "frozen_sha256": "aa4008fec34a810d2ef12d7c4ac7ffc6c50e9c2397a1ea3d5efcd40d1a5b6764",
@@ -7639,14 +7639,70 @@
     "diagnostic_user": 1,
     "reference": 0.9866666666666667,
     "minimum_gain": 0.005,
-    "real_fit_started": false,
-    "diagnostic_scored": false,
+    "real_fit_started": true,
+    "diagnostic_scored": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
     "protocol_tests_passed": 6,
     "all6900raw_MR_finite_audit_required": true,
     "automatic_retry": false,
-    "automatic_resume": false
+    "automatic_resume": false,
+    "registration_commit": "7101d153881cc6fa397b4d0388d660974f15fa31",
+    "real_fit_complete": true,
+    "full_audit_complete": true,
+    "complete_private_modelset_verified": true,
+    "producer_exit_code": 0,
+    "producer_wall_seconds": 201.84217228996567,
+    "producer_CPU_seconds": 201.554783,
+    "audit_exit_code": 0,
+    "audit_wall_seconds": 314.92531985603273,
+    "audit_CPU_seconds": 314.64254,
+    "selected_training_alpha": 1000.0,
+    "all6900raw_MR_finite_before_fallback_verified": true,
+    "final_scores": {
+      "validation": 0.9260000000000002,
+      "diagnostic": 0.9558333333333332
+    },
+    "diagnostic_delta_macro": -0.03083333333333349,
+    "predeclared_gate_passed": false,
+    "source6_confirmation_complete": false,
+    "complete_private_chunks": 2,
+    "complete_private_members": 991,
+    "complete_private_bytes": 8941780,
+    "complete_private_archive_sha256": "56ed7745aba04564816feea17801b0683369d0d84d6cd95ac9a5c51608e4dd30",
+    "complete_private_index": "results/cloud_20261102_hydra_multirocket_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "route": "close_exact_HydraMultiRocket53824_native_RidgeCV_seed_configuration_no_rescue"
+  },
+  "moderntcn_source_preparation_20261102": {
+    "state": "full_released_waveGesture_meta_shape_and_source_verified_no_numerical_full_model_yet",
+    "workspace": "/workspace/uwb-moderntcn-source-probe-20261102",
+    "source_commit": "56a9a2c018385cd5acef015378cae7f084d1b11c",
+    "upstream_files_verified": 10,
+    "total_parameters": 431894540,
+    "trainable_tensors": 44,
+    "FFN_parameters": 340671744,
+    "variables": 567,
+    "timepoints": 90,
+    "batch_size": 32,
+    "epochs": 100,
+    "seed": 20261029,
+    "threads": 4,
+    "meta_only": true,
+    "full_paper_read": false,
+    "UWB_values_labels_fit": false,
+    "original_contribution_claim": false
+  },
+  "moderntcn_fullwave_cost_screen_20261102": {
+    "state": "rejection_only_full_model_screen_registered_awaiting_exact_remote_readback",
+    "workspace": "/workspace/uwb-moderntcn-fullwave-cost-screen-20261102",
+    "cost_hashes_sha256": "f90845d1e53514030c113905664d9f6752a4bf7f1f0b3d436daa882f63af597f",
+    "formal_timing_started": false,
+    "first_full_model_numerical_forward_started": false,
+    "real_UWB_values_labels_fit": false,
+    "accuracy_measured": false,
+    "threads": 4,
+    "resource_gate_passed": false,
+    "complete_checkpoint_storage_IO_measured": false
   }
 }

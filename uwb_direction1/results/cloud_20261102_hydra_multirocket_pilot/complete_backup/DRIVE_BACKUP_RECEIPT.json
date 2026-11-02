@@ -1,0 +1,67 @@
+{
+  "state": "private_readback_verified",
+  "scope": "complete_audited_HydraMultiRocket53824_native_RidgeCV_source_held1",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "archive_name": "hydra_multirocket_complete_20261102.tar.gz",
+  "archive_bytes": 8941780,
+  "archive_sha256": "56ed7745aba04564816feea17801b0683369d0d84d6cd95ac9a5c51608e4dd30",
+  "members_manifest_sha256": "c4f56554324a89683e8b424cd2ed142af9fee5f31ed37448b1d37471e1e4e3da",
+  "chunks": [
+    {
+      "name": "hydra_multirocket_complete_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "0ed46af8f086c5fd333f636b8f3658289aebf4b6d657b45860a4c3923b01f4f5",
+      "file_id": "132Q4Lh2ZkAfoVRlPSvGYou5f6maP9Dmq",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "hydra_multirocket_complete_20261102.part001",
+      "bytes": 1601748,
+      "sha256": "696bd63c8b5ba06b1e20d8da7361964f5aae606f4107cd40334f7b334931466b",
+      "file_id": "16SEfJp-_6-t0NkQ9VReffgZcB3Wo-dn7",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1601748,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "chunks_verified": 2,
+  "archive_members": 991,
+  "complete_modelset_verified": true,
+  "numeric_audit_certified": true,
+  "initial_unfitted_native_fitted_final_models_and_full_predictions_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false
+}

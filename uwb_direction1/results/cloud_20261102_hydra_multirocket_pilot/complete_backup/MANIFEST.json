@@ -1,0 +1,30 @@
+{
+  "state": "complete_audited_HydraMultiRocket_native_classifier_snapshot",
+  "scope": "complete_audited_HydraMultiRocket53824_native_RidgeCV_source_held1",
+  "created_unix": 1793622593.2553473,
+  "complete_modelset": true,
+  "full_numerical_audit_included": true,
+  "diagnostic_labels_scored": false,
+  "raw_arrays_included": false,
+  "source_maps_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "limitations": "Native initial and fitted model, exact source IDs/logits/logs/audit/source retained. Raw arrays/maps and pinned runtime restored separately; not whole OS or historical runtime parity.",
+  "archive_name": "hydra_multirocket_complete_20261102.tar.gz",
+  "archive_bytes": 8941780,
+  "archive_sha256": "56ed7745aba04564816feea17801b0683369d0d84d6cd95ac9a5c51608e4dd30",
+  "members_manifest_sha256": "c4f56554324a89683e8b424cd2ed142af9fee5f31ed37448b1d37471e1e4e3da",
+  "tracked_payload_files": 990,
+  "chunks": [
+    {
+      "name": "hydra_multirocket_complete_20261102.part000",
+      "bytes": 7340032,
+      "sha256": "0ed46af8f086c5fd333f636b8f3658289aebf4b6d657b45860a4c3923b01f4f5"
+    },
+    {
+      "name": "hydra_multirocket_complete_20261102.part001",
+      "bytes": 1601748,
+      "sha256": "696bd63c8b5ba06b1e20d8da7361964f5aae606f4107cd40334f7b334931466b"
+    }
+  ]
+}

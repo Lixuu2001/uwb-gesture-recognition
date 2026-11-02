@@ -1,0 +1,13 @@
+{
+  "bounded_history_head": "92a70770bcfe531015e3067ac76a5f6203e345c4",
+  "bounded_latest_four_record_ModernTCN_name_hits": 0,
+  "equivalence_note": "Old full causal TCN8blocks25 and reduced axialTCN are distinct from unmodified ModernTCN grouped cross-variable/time FFNs and large-kernel reparameterized stages. No exact ModernTCN execution found within bounded record search;not exhaustive proof.",
+  "citation": "Donghao Luo and Xue Wang (2024). ModernTCN: A Modern Pure Convolution Structure for General Time Series Analysis. ICLR2024 Spotlight. https://openreview.net/forum?id=vpJMJerXHU",
+  "paper_read_scope": "Primary ICLR abstract/metadata and official model/classification script/experiment sources read. PDF access blocked by tool size limit and OpenReview browser challenge;do not claim full-text review.",
+  "implementation": "Complete released waveGesture preset,source untouched. 128/256widths,51/49kernels,oneblock eachstage,patch1/stride1,ffn1,B32,100E/patience10/Adam.001/CE/clip4. Source scheduler instantiated but never stepped;initial lr.00004,lr type1 adjusted only every5epoch. Datasetdims90x567/class12,pred_len0,projectseed20261029,CPU4 are explicit transfer adaptations.",
+  "model_shape_only_verified": true,
+  "full_parameters": 431894540,
+  "UWB_accuracy_gain_evidence": false,
+  "original_contribution_evidence": false,
+  "no_new_real_UWB_values_or_labels_decoded": true
+}

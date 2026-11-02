@@ -1,0 +1,29 @@
+{
+  "state": "pass",
+  "full_native_4700_fit_replayed": true,
+  "Hydra_weights_indices_MR_parameters_scalers_coefficients_alpha_LOO_score_exact": true,
+  "all2200_predictions_decisions_and_feature_batch_hashes_exact": true,
+  "all6900raw_MultiRocket_features_finite_before_native_fallback": true,
+  "raw_MultiRocket_core_public_API_exact": true,
+  "independent_training_SparseScaler_and_standard_scaler_FP64_statistics_verified": true,
+  "all6900source_raw_RMS_cache_FP64_verified": true,
+  "initial_unfitted_and_native_final_models_exact": true,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "auditor_sha256": "47947cde7249ac59493615dd956f62eb17b144f9c9dff1cea29db863dbf74626",
+  "artifact_hashes": {
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/IDENTITY.json": "68dbf1fac5f20be715b43dd9383a1a073be3e316bd2a11eec10475fe8f4eaa3a",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/STATE.json": "690cafdfbccb82abd369e7fe4dfc61b638d3d6dd1607f01d33c4582c1e6e3503",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/TRAIN_SELECTION.json": "eaac629dfec4109ea7af56dc7809cd808bf549c0973cf22a8198ae0fb4d0574d",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/diagnostic_unscored.npz": "e84dae6b9221ee29a07a9b060597b2af065ab5af049057e0a7878fd3c80bf0b6",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/final_fitted.pkl": "9a6dd8d1dea96f5f8a929f1e5cab4392e941ebdd137f69cbc46ed1bf492efa44",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/initial_unfitted.pkl": "e105f3fcf90b3bfa55040acc4e099c1fcfa261c77ec54b0bc3144607e8b03de0",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/native_fitted.pkl": "9a6dd8d1dea96f5f8a929f1e5cab4392e941ebdd137f69cbc46ed1bf492efa44",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/split.npz": "c37cbfcf9994bcb3db79cf7e96a74029357ccbd26fb65493818b9fd75f19baa3",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/validation_unscored.npz": "9a470adfed4c6022616c78ac4360e9fdf276915b0a0178ab98b4560687d07dc0",
+    "/workspace/uwb-hydra-multirocket-pilot-20261102/run01/FILES.json": "bfce89e36a4d1cb4608357e64778bddc21b3cf2fcdd3edd6cae29529cafd1636"
+  },
+  "audit_wall_seconds": 311.1941234099213
+}

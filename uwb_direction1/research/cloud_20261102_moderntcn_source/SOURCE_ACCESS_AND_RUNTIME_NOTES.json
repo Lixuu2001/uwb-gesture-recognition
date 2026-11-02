@@ -1,0 +1,11 @@
+{
+  "paper": "Luo and Wang,ModernTCN,ICLR2024,https://proceedings.iclr.cc/paper_files/paper/2024/hash/86b1437c1e4c3b3c4debff98234a67e7-Abstract-Conference.html",
+  "read_scope": "Primary ICLR abstract/metadata,official README,complete classification model/script/experiment code and needed source modules. Main paper PDF not read: web rejected27985970byte response;OpenReview presented browser challenge. No bypass or full-paper-review claim.",
+  "corrected_read_only_lookup": "Initial guessed layers/ModernTCN_Layer.py not found;model import identifies correct models/ModernTCN_Layer.py,now fetched and git-blob verified. Not a cloud-data loss.",
+  "source_untouched": true,
+  "selected_preset": "Full released scripts/classification.sh waveGesture command:128/256dims,51/49largekernels,1/1blocks,ffn1,patch1/stride1,B32,100E,patience10.",
+  "CPU_quota": "Current cgroup cpu.max400000/100000=4computeCPUs. Meta attempt01 used1thread and was retained;formal first numerical profile uses4threads from outset,not a test-driven rescue.",
+  "runtime": "Current Torch2.15CPU/NumPy2.3.5,not original Python3.7 runtime parity. Upstream EarlyStopping np.Inf requires future NumPy2 compatibility constructor if real training is ever authorized;not used by cost screening. Native scheduler constructor changes lr to.00004 and original loop never scheduler.step;every5epoch type1 updates retained for future faithful training.",
+  "no_actual_full_model_numerical_forward_yet": true,
+  "UWB_values_labels_fit": false
+}
