@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/git-local-demo",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_official_TCN20_B64_real_source_training_active_first_private_insurance_verified",
+  "state": "full_official_TCN20_failed_closed_full_private_verified_next_full_tLeNet_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_tcn_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
+  "latest_report": "results/cloud_20261102_tcn_pilot/FINAL_AND_NEXT_TLENET_COST.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,7 +62,7 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": 71724,
+  "background_training_pid": null,
   "background_training_status_note": "Original cloud TCN controller71723/worker71724 observed running2026-11-02T06:11:24.493447+00:00,epoch9/666updates, fixed full20/B64/seed20261029. Automatic full1480update replay follows training; no diagnostic score. Initial-first1chunk/75members privately verified, not latest/complete.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "full_author_released_TCN_classification20_B64_seed20261029",
-  "last_completed_update_utc": "2026-11-02",
+  "next_candidate": "full review-author t-LeNet1000/B256/seed20261029, cost first",
+  "last_completed_update_utc": "2026-11-02T07:11:28.728091+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-01T18:56:57.730902+00:00",
     "observations_current": true,
@@ -1037,7 +1037,7 @@
   "readout_loss_factorial_primary_gain": -0.00013068181818183533,
   "readout_loss_factorial_primary_wins": 4,
   "readout_loss_factorial_gate_passed": false,
-  "last_updated_utc": "2026-10-26T09:43:25Z",
+  "last_updated_utc": "2026-11-02T07:11:28.728091+00:00",
   "paired_time_alignment_protocol_commit": "51a622cbfe54ea5ef8b2f4f4d90bc69335e243bf",
   "paired_time_alignment_protocol_sha256": "fd2b49645bffd5fcc67d3d37cbda1adcff4b50c1beddeebf3238eacddde5cf33",
   "paired_time_alignment_results_path": "/workspace/uwb-pairwise-time-alignment-20261008",
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Full official TCN released CLI real training active on cloud only; first state and private initial-first bundle verified. Original controller will full replay after20epochs; complete modelset private recovery and fixed diagnostic gate pending. Encoder exact100 failed and closed; goals unresolved.",
+  "latest_task_state": "TCN full20 audited/private preserved and fixed diagnostic gate failed; exact configuration closed. Full t-LeNet source/synthetic passed; one full1000/B256 synthetic cost registered before timing. No active real training or new t-LeNet UWB values/labels/fit.",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -3029,8 +3029,8 @@
     },
     "gate_passed": false
   },
-  "background_continuation_running": true,
-  "background_continuation_pid": 71723,
+  "background_continuation_running": false,
+  "background_continuation_pid": null,
   "timemil_accuracy_preparation": {
     "state": "complete_audited_exact64epoch_timemil_gate_failed_gap_expansion_eligible",
     "path": "/workspace/uwb-timemil-20261029",
@@ -3114,7 +3114,7 @@
       "arm": "gap",
       "epoch": 64,
       "batch": 71,
-      "train_bce": 0.000025465305655590317,
+      "train_bce": 2.5465305655590317e-05,
       "validation_macro": 0.9899999999999999,
       "validation_bce": 0.007310789544135332,
       "epoch_seconds": 37.36026673193555
@@ -3401,7 +3401,7 @@
       "real_protocol_registered": false
     }
   },
-  "latest_completed_report": "results/cloud_20261102_tcn_pilot/ACTUAL_START_AND_FIRST_INSURANCE.md",
+  "latest_completed_report": "results/cloud_20261102_tcn_pilot/FINAL_AND_NEXT_TLENET_COST.md",
   "practical_baseline_source6_confirmed": true,
   "gap_source6_confirmation": {
     "state": "complete_audited_gate_failed_exact64_configuration_closed",
@@ -3472,7 +3472,7 @@
       "epoch": 64,
       "batch": 71,
       "held": 6,
-      "train_bce": 0.000024089224461931734,
+      "train_bce": 2.4089224461931734e-05,
       "validation_macro": 0.9891666666666666,
       "validation_loss": 0.006259538698941469,
       "epoch_seconds": 38.69035201508086
@@ -5078,7 +5078,7 @@
       "observed_unix": 1793409682.7188423,
       "batch": 73,
       "best_epoch": 75,
-      "best_training_loss": 0.00003359471520525403
+      "best_training_loss": 3.359471520525403e-05
     },
     "first_update_verification": {
       "state": "pass",
@@ -7051,7 +7051,7 @@
     "accuracy_measured": false
   },
   "tcn_accuracy_pilot_20261102": {
-    "state": "full_released20_B64_real_training_active_initial_first_insurance_verified",
+    "state": "failed_closed_exact_full20_B64_seed_after_full_audit_and_complete_private",
     "workspace": "/workspace/uwb-tcn-pilot-20261102",
     "protocol": "results/cloud_20261102_tcn_pilot/study/PROTOCOL.json",
     "protocol_sha256": "b9dfe45dbec4d02f9160005c6142cc3ead5fb07810d4a8b3fe1e5c88a6504f53",
@@ -7090,20 +7090,20 @@
     "actual_cost_estimate_seconds": 996.7140554799698,
     "real_training_started": true,
     "real_UWB_values_labels_fit": true,
-    "complete_private_modelset_verified": false,
-    "full_audit_complete": false,
-    "diagnostic_scored": false,
+    "complete_private_modelset_verified": true,
+    "full_audit_complete": true,
+    "diagnostic_scored": true,
     "users7_8_labels_used": false,
     "independent_validation": false,
     "novel_contribution_validated": false,
     "automatic_retry": false,
     "automatic_resume": false,
     "registration_commit": "820150e2a84c750f76f2c4f37de82cb988db5ae7",
-    "controller_pid": 71723,
-    "training_worker_pid": 71724,
-    "observed_epoch": 9,
-    "observed_updates": 666,
-    "observed_utc": "2026-11-02T06:11:24.493447+00:00",
+    "controller_pid": null,
+    "training_worker_pid": null,
+    "observed_epoch": 20,
+    "observed_updates": 1480,
+    "observed_utc": "2026-11-02T07:11:28.728091+00:00",
     "first_update_verified": true,
     "first_batch_size": 64,
     "first_private_insurance_verified": true,
@@ -7111,6 +7111,52 @@
     "first_private_insurance_members": 75,
     "first_private_insurance_scope": "initial_first_only_not_latest_or_complete",
     "first_private_insurance_index": "results/cloud_20261102_tcn_pilot/initial_first_insurance/CLOUD_DOWNLOAD_INDEX.json",
-    "latest_epoch_weights_privately_preserved": false
+    "latest_epoch_weights_privately_preserved": true,
+    "scores": {
+      "validation": 0.9239999999999998,
+      "diagnostic": 0.9208333333333334
+    },
+    "delta_macro": -0.0658333333333333,
+    "predeclared_gate_passed": false,
+    "route": "close_exact_full20_B64_seed_configuration_no_rescue",
+    "complete_private_index": "results/cloud_20261102_tcn_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "complete_private_chunks": 2,
+    "complete_private_members": 95,
+    "complete_private_bytes": 10670831,
+    "complete_private_archive_sha256": "cc61421838ca4139956eec59b32e0c25212a851c5b21250be7b6d651d6811544",
+    "source6_confirmation_complete": false
+  },
+  "tlenet_source_preparation_20261102": {
+    "state": "full_source_synthetic_passed_no_new_UWB_values_labels_fit",
+    "workspace": "/workspace/uwb-tlenet-source-probe-20261102",
+    "source_commit": "e0233efd886df8c6ca18e6f1b545d15aaf423627",
+    "source_blob": "37144afcf12defc012d421bbb192b10fec29133a",
+    "review_doi": "10.1007/s10618-019-00619-1",
+    "original_paper_fulltext_read": false,
+    "parameters": 121212,
+    "source_epochs": 1000,
+    "source_batch_size": 256,
+    "source_metadata_rule_warp1_slice09": true,
+    "windows_per_parent": 10,
+    "synthetic_lazy_vs_source_preprocessing_exact": true,
+    "legacy_TF_numeric_parity": false,
+    "real_UWB_values_labels_fit": false,
+    "novelty_claim": false
+  },
+  "tlenet_formal_cost_20261102": {
+    "state": "preregistered_not_yet_timed",
+    "workspace": "/workspace/uwb-tlenet-formal-cost-20261102",
+    "policy": "research/cloud_20261102_tlenet_formal_cost/POLICY.json",
+    "epochs": 1000,
+    "batch_size": 256,
+    "seed": 20261029,
+    "threads": 1,
+    "budget_seconds": 43200,
+    "training_updates": 184000,
+    "streaming_batch_gather_included": true,
+    "dependent_byte_hashes": 1351,
+    "formal_timing_started": false,
+    "real_UWB_values_labels_fit": false,
+    "no_smaller_epoch_batch_fallback": true
   }
 }
