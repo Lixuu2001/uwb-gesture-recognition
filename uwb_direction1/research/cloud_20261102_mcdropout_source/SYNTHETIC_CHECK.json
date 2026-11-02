@@ -1,0 +1,35 @@
+{
+  "state": "pass_MC100_full_random_TimeMIL_synthetic_only",
+  "samples": 100,
+  "seed": 20261029,
+  "full_model_parameters": 850973,
+  "active_dropout_modules": [
+    {
+      "name": "layer1.attn.to_out.1",
+      "p": 0.2,
+      "inplace": false
+    },
+    {
+      "name": "layer2.attn.to_out.1",
+      "p": 0.2,
+      "inplace": false
+    },
+    {
+      "name": "_fc2.2",
+      "p": 0.2,
+      "inplace": false
+    }
+  ],
+  "all_model_and_BN_buffers_immutable": true,
+  "mixed_modes_and_global_RNG_restored": true,
+  "repeated_run_exact": true,
+  "independent_explicit_stochastic_loop_exact": true,
+  "float64_mean_sigmoid_matches_independent_numpy": true,
+  "three_dropout_nodes_only": true,
+  "exception_mode_restore": true,
+  "BN_training_never_enabled": true,
+  "TimeMIL_trained_checkpoint_loaded": false,
+  "real_UWB_values_labels_fit": false,
+  "formal_cost_run": false,
+  "novelty_claim": false
+}
