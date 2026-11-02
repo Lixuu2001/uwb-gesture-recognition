@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_XCM128_resource_closed_full_native_Arsenal25x2000_cost_preregistered",
+  "state": "Arsenal25x2000_synthetic_cost_executing_real_runner_prepared_sevenchecks_no_real_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261102_arsenal_full25_cost/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261102_arsenal_pilot/PREPARATION_STATUS.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "No real UWB training/audit active;XCMcost completed rejected;Arsenal costprereg snapshot not yettiming",
+  "background_training_status_note": "Only syntheticfull4700Arsenal cost worker mayrun;realproducer/auditor notstarted,norealcheckpoint. ExactlivePIDandtermination snapshot inarsenal_full25_cost_20261102.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Full native Arsenal25x2000 end-to-end4700 synthetic cost afterexactremote readback",
-  "last_completed_update_utc": "2026-11-02T13:13:20.012723+00:00",
+  "next_candidate": "ObserveexistingArsenal full4700synthetic costPID,then verifycostgate;onlypass permitspreparedrealstudyfreeze+separateregistration",
+  "last_completed_update_utc": "2026-11-02T13:36:55.134707+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_native_Arsenal25x2000_cost_preregistered_after_XCMresource_close",
+    "state": "full_native_Arsenal25x2000_cost_executing_realstudy_prepared",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -7770,14 +7770,36 @@
     "novelty_claim": false
   },
   "arsenal_full25_cost_20261102": {
-    "state": "full4700_native_25x2000_synthetic_cost_preregistered",
+    "state": "synthetic_full4700_native_cost_active",
     "workspace": "/workspace/uwb-arsenal-full25-cost-20261102",
     "cost_hashes_sha256": "1e99df2defd6e9979d8b83c8427244f32a3345abd3f818b4d286bfe8c3768d45",
     "cost_files": 10,
     "dependencies": 2606,
-    "formal_timing_started": false,
+    "formal_timing_started": true,
     "actual_UWB_values_labels_fit": false,
     "accuracy_measured": false,
-    "real_fit_authorized": false
+    "real_fit_authorized": false,
+    "registration_commit": "a6de5e2f579fdc06f2c36b1692e4c6425e2c8fa9",
+    "supervisor_pid": 84019,
+    "worker_pid": 84020,
+    "worker_exists_at_snapshot": true,
+    "termination_present_at_snapshot": false,
+    "observed_utc": "2026-11-02T13:36:55.134707+00:00"
+  },
+  "arsenal_full25_accuracy_pilot_20261102": {
+    "state": "concrete_full_runner_auditor_privatebackup_oncefinalizer_prepared_NOTFROZEN_NOTREGISTERED_NOTSTARTED",
+    "workspace": "/workspace/uwb-arsenal-pilot-20261102",
+    "operations_workspace": "/workspace/uwb-arsenal-completion-20261102",
+    "synthetic_tests_passed": 7,
+    "nontrivial72case_LOOaccuracy_reference_passed": true,
+    "nonfinite_fitted_state_rejection_passed": true,
+    "planned_producer_wall_cap_seconds": 7200,
+    "planned_auditor_wall_cap_seconds": 7200,
+    "real_fit_started": false,
+    "full_audit_complete": false,
+    "diagnostic_scored": false,
+    "complete_private_modelset_verified": false,
+    "users7_8_labels_used": false,
+    "next_action": "awaitandverifyexistingfullcost;passonlyprepare_freeze_once_thenlatestparentexactremote_registration_beforePopen"
   }
 }
