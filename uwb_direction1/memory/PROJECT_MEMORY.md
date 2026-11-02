@@ -1,3 +1,13 @@
+# 2026-11-02 — 完整默认MiniRocket9996/nativeRidgeCV合成资源门槛通过；固定真实source-held1协议已实现/预登记，尚未启动
+
+先读canonical仓库15742e1285babb40dd1d19a0a48d670cbf9c5d56最新四记录，旧ROCKET10000真实94.8333%vs98.6667%已完整审计/私有995成员恢复/一次评分失败关闭，不重复救援。新MiniRocket默认9996PPVfeatures/84basekernels/maxdilations32+unweighted nativeStandardScaler(with_meanFalse)/RidgeCV10alphas，seed20261029/CPU1，与旧完整transform但改写balancedLSQR200读出器区分，已发表基线迁移非创新。
+
+新synthetic成本按15742e1285babb40dd1d19a0a48d670cbf9c5d56精确41文件回读后仅运行一次：worker79230exit0/no timeout，supervisor wall30.826660650083795s/CPU30.772178s，full4700x9996nativeRidgeCV25.54389242315665s，max64transform.2905898119788617s。producer+完整独立replay成本估算233.7576974434487s=.06493269373429131h，RSS2122492KiB+2GiB=4219644KiB，12h/14GiB资源门槛通过；公式/冻结依赖/TERM独立复算通过。非真实MiniRocket准确率/实际成本证据。
+
+真实/workspace/uwb-minirocket-native-pilot-20261102已实现并冻结16study文件/2617依赖SHA，4nativepipeline/协议边界tests和独立support-report检查通过。只在本次全部changed文件remote exact回读及forcefalse head验证后才写marker并启动controller，注册快照尚未运行。固定源3–6/4700train、2/1000val、1/1200diag，原signedRMS，C-contiguousfloat32[N,567,90]，不加channelNormalizer；仅训练biasquantiles/scaler/LOOalpha，10alphas为原生算法部分，不是held-label搜索；明确full-train scaler并非nested每LOO重拟合。每stage900wall/880soft900hardCPU，无retry/resume。保存initialunfit/nativefit/finalpipeline/精确IDs/logs/alpha/LOOscore/unscoredoutputs/featuresbatchhash；独立完整4700fit/parameters/scaler/coef/alpha/LOO精确、2200heldoutputs/hash和6900rawRMS/cache/FP64核查后，完整私有raw-chunk/全成员恢复，再一次finalize。已知qualitysupport val0..9、diag0..11在原预登记中正确有限macro，并断言support；不会执行旧ROCKET错误finalizer。
+
+此刻无新真实MiniRocketvalues/labels/fit；只有registered source4/diagnostic1流程允许一次真实实验，refTimeMIL .9866666666666667/min+.005/tol1e-12不降低。失败关闭确切配置无bank/normalization/scaler/weights/alpha-grid/seed救援；pass仅另注册source6确认，不声称八折/独立验证/原创贡献。用户7–8标签始终不用于新方法选择，历史八用户反复开发全部探索性。目标未达继续具体实验。保留canonical仓库稳定ID1309576134/当前visibility、用户README清理/789源码、Driveowner-only，不依赖Windows/重复下载。
+
 # 2026-11-02 — 完整ROCKET10000/nativeRidgeCV真实94.8333%未过门槛关闭；下一项完整默认MiniRocket原生RidgeCV成本已实现/预登记
 
 ROCKET producer/auditor均已完成exit0，全4700nativefit/10000kernels/scaler/coef/alpha/LOOscore、2200helddecisions/preds/featurehash和6900rawRMS/cache/FP64精确或预定容差核查通过。完整私有6954493bytes/1块995安全唯一成员回读通过，archiveSHA cffc2810a1030938a6fd89328dbf8db53c5da45031ad033c98f2c4b4597d237b，receiptSHA6b9792d691866b0eb3269e2d2d03c68e0480b50d7b9bbb9a6aae18cd1eced47a；index results/cloud_20261102_rocket_pilot/complete_backup/CLOUD_DOWNLOAD_INDEX.json，首upload成功无错误/重试。冻结科学代码/日志/配置未编辑或重跑，精确ID/模型/输出不入Git。
