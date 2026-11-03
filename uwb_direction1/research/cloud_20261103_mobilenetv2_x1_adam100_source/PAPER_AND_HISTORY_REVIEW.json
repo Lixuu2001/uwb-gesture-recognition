@@ -1,0 +1,38 @@
+{
+  "doi": "10.3390/s21010259",
+  "title": "On the Effect of Training Convolution Neural Network for Millimeter-Wave Radar-Based Hand Gesture Recognition",
+  "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796334/",
+  "primary_abstract": "https://pubmed.ncbi.nlm.nih.gov/33401744/",
+  "verified_20261103": true,
+  "evidence": "Primary indexed full text Sec4.2 and Table2 explicitly includes MobileNetV2 and Adam .001 zeroDecay B20 100epochs noAug final100. Native original1000head3504872 rounds3.51M Table2. Gesture12head2239244 alltrain, BN train, canonical dropout.2 retained.",
+  "primary_fetch_limitations": "Direct PMC recaptcha, publisher429; primary indexed fulltext and primary PubMed recovered, not inferred from thirdparty summaries.",
+  "ambiguity": "Adam together with Nesterov .9 ambiguous in paper; standard Adam betas(.9,.999)/eps1e-8 explicitly selected interpretation.",
+  "transfer": "UWB3radar90x189 range-time vs77GHzTSV6gestures. Source users3-6 train,2validation,1once-heldgate. Not exact authorcode/data parity; published baseline, no novelty.",
+  "bounded_history": {
+    "STATUS.json": {
+      "hit_count": 1,
+      "first10": [
+        {
+          "line": 9065,
+          "excerpt": "        \"read_support\": \"Primaryindexedabstract/methodexcerpt/Table3:pretrainedShuffleNetV2andMobileNetV2arecomparedfor77GHzgesturecrossvolunteertesting;Table3ShuffleNet93.47percentcross/6gestures/1.37Mparams.\","
+        }
+      ]
+    },
+    "memory/CLOUD_CONTINUATION.md": {
+      "hit_count": 0,
+      "first10": []
+    },
+    "memory/PROJECT_MEMORY.md": {
+      "hit_count": 0,
+      "first10": []
+    },
+    "results/cloud_20260930/RUN_REPORT.md": {
+      "hit_count": 0,
+      "first10": []
+    }
+  },
+  "equivalent_completed_full_MobileNetV2_Adam100_found": false,
+  "history_absence_exhaustive": false,
+  "selected_after_ResNet18_resource_closure": true,
+  "users7_8_labels_used": false
+}

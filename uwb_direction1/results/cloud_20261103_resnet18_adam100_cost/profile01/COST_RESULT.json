@@ -1,0 +1,99 @@
+{
+  "resource_gate_passed": false,
+  "estimated_wall_seconds": 64992.79925749483,
+  "estimated_CPU_seconds": 259971.19702997932,
+  "estimated_RSS_KiB": 3363860,
+  "required_additional_workspace_bytes": 531520527,
+  "stream_archive_upper_bytes": 263177473,
+  "complete_checkpoint_bytes": 134337539,
+  "model_only_checkpoint_bytes": 44811019,
+  "timing_observation_count": 21,
+  "full_training_updates": 23500,
+  "per_run_validation_batches": 5000,
+  "held_batches": 110,
+  "fresh_full_method_no_scale_or_epoch_rescue": true,
+  "new_UWB_fit_started": false,
+  "accuracy_measured": false,
+  "state": "complete_synthetic_full_ResNet18_Adam100_B20_cost",
+  "full_B20_update_seconds": [
+    1.244740271999035,
+    1.2465048160011065,
+    1.138133497999661,
+    1.12576240299677,
+    0.9941109270002926,
+    1.2896822990005603
+  ],
+  "evaluation_B20_seconds": [
+    0.4100598679979157,
+    0.39729775700106984,
+    0.39616488799947547
+  ],
+  "full_checkpoint_save_seconds": [
+    0.06391263099794742,
+    0.05354052199982107,
+    0.04830768300234922
+  ],
+  "full_checkpoint_load_seconds": [
+    0.024893336001696298,
+    0.0270822689999477,
+    0.02457240999865462
+  ],
+  "model_only_save_seconds": [
+    0.016182962997845607,
+    0.017416691000107676,
+    0.017033971002092585
+  ],
+  "model_only_load_seconds": [
+    0.009367627000756329,
+    0.010069882002426311,
+    0.009881165999104269
+  ],
+  "checkpoint_records": [
+    {
+      "kind": "full",
+      "name": "disposable_synthetic_full_0.pt",
+      "bytes": 134337539,
+      "sha256": "e7f290fe831e1b6ac013c5c65ed3d8a3c71f9310fc7a71264bad6590ad0f79ed",
+      "all_saved_state_exact": true
+    },
+    {
+      "kind": "full",
+      "name": "disposable_synthetic_full_1.pt",
+      "bytes": 134337539,
+      "sha256": "0582d8b842ded48405b49279f753f91ea77195c7bcd48fe017de1dd0af1a4514",
+      "all_saved_state_exact": true
+    },
+    {
+      "kind": "full",
+      "name": "disposable_synthetic_full_2.pt",
+      "bytes": 134337539,
+      "sha256": "30c4150244a850b009b731b4f72ce7a6d62f805b6e95a881c9a23878f80ecf1f",
+      "all_saved_state_exact": true
+    },
+    {
+      "kind": "model",
+      "name": "disposable_synthetic_model_0.pt",
+      "bytes": 44811019,
+      "sha256": "9e3b328961975339f746a2734fd5005bcb075ac492e52c6c6a2f6be7931f0665",
+      "all_saved_state_exact": true
+    },
+    {
+      "kind": "model",
+      "name": "disposable_synthetic_model_1.pt",
+      "bytes": 44811019,
+      "sha256": "2fcd067df7d31817a11f2df489e712434d62164a5caedbd4a7c42ce8192993fe",
+      "all_saved_state_exact": true
+    },
+    {
+      "kind": "model",
+      "name": "disposable_synthetic_model_2.pt",
+      "bytes": 44811019,
+      "sha256": "db7d0e32f35ae4c6ae4fd3024c9d1abfbc7529b746d987b4a4fa478b73fc2806",
+      "all_saved_state_exact": true
+    }
+  ],
+  "peak_RSS_KiB": 1266708,
+  "workspace_free_bytes": 24888623104,
+  "actual_100epochs_not_run": true,
+  "new_UWB_values_or_labels_fit": false
+}
