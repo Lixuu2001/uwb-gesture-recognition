@@ -1,0 +1,15 @@
+{
+  "state": "actual_real_controller_Popen_started",
+  "utc": "2026-11-03T02:04:56.580335+00:00",
+  "commit": "7fd8d88d82b1570f90358dca43fc964b9b7eba88",
+  "frozen_sha256": "1616f2fe7c642d721d9e2af984f203aa3f2ddd7889659eb0dbb2dc75ed61129b",
+  "automatic_retry": false,
+  "controller_pid": 98422,
+  "proc_start_ticks": "119431092",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/uwb-shufflenetv2-x1-pilot-20261103/controller.py"
+  ],
+  "real_UWB_producer_pending_initialization": true
+}

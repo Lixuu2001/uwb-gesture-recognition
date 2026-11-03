@@ -1,0 +1,27 @@
+{
+  "state": "full_native_ShuffleNetV2_x1_SGDM40_B15_real_producer_observed_active",
+  "utc": "2026-11-03T02:05:46.140032+00:00",
+  "controller_pid": 98422,
+  "controller_start_ticks": "119431092",
+  "worker_pid": 98423,
+  "worker_start_ticks": "119431337",
+  "process_args_verified": true,
+  "actual_completed_updates": 177,
+  "last_aggregate_step": {
+    "epoch": 1,
+    "offset": 2640,
+    "update": 177,
+    "order_sha256": "908d32d3331ed51f8320283a2fa44aa3a3d8b6a96b71fb575ee0274b987d5652",
+    "augmentation_rng_sha256": "f95216232ef869754d72ddf9fc0af4e7eb42b8c19e04c8d42c91110a2c121f66",
+    "loss": 2.4814608097076416
+  },
+  "initial12_head_checkpoint_bytes": 51101,
+  "initial12_head_checkpoint_sha256": "9fdb16a54ea123349844334928793f91eb4c9b884d04b320c6bf0274e1d51cb3",
+  "source_split_saved": true,
+  "actual_UWB_training_started": true,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_diagnostic_accuracy_measured": false,
+  "registration_commit": "7fd8d88d82b1570f90358dca43fc964b9b7eba88",
+  "workspace_free_bytes": 324464640
+}

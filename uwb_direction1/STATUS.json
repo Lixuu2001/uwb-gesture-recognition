@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_ShuffleNetV2_x1_cost_passed_real22_frozen_preregistered_not_started",
+  "state": "full_ShuffleNetV2_x1_SGDM40_B15_actual_real_producer_active",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_shufflenetv2_x1/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261103_shufflenetv2_x1/ACTIVE_REAL_EXPERIMENT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -62,8 +62,8 @@
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
-  "background_training_pid": null,
-  "background_training_status_note": "NewfullShuffleNetx1costcompleteexit0/verified2.319hestimate;real22filesfrozennotstarted.OldResNet18once96.9167failedclosed/norefitorrescore.",
+  "background_training_pid": 98423,
+  "background_training_status_note": "ActualnewfullShuffleNetx1producer98423/controller98422running;realupdates177;diagnosticuser1sealed;inspectPIDandTERMbeforeanylaunch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "launch_once_full_ShuffleNetV2_x1_SGDM40_B15_real_producer_then_full_replay",
-  "last_completed_update_utc": "2026-11-03T02:02:57.201187+00:00",
+  "next_candidate": "finish_active_full_ShuffleNetV2_x1_40epoch_producer_then_full_replay_private_restore_once_score",
+  "last_completed_update_utc": "2026-11-03T02:05:46.140032+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2788,7 +2788,7 @@
     "disposition": "closed before implementation/fit; standard DMD-on-map feature transfer lacks an algorithmic or physical distinction from prior gesture/radar work"
   },
   "accuracy_loop": {
-    "state": "full_ShuffleNetV2_x1_cost_passed_real_preregistration",
+    "state": "full_official_ShuffleNetV2_x1_40epoch_actual_real_producer_active",
     "protocol": "uwb_direction1/research/minirocket_accuracy_20261029/PROTOCOL.json",
     "report": "uwb_direction1/results/cloud_20261029_minirocket_accuracy/RUN_REPORT.md",
     "run_path": "/workspace/uwb-accuracy-loop-20261029/run01",
@@ -2827,7 +2827,7 @@
       "run_path": "/workspace/uwb-accuracy-loop-20261029/hydra_readout_completion",
       "strong_cnn_improvement_validated": false
     },
-    "next_method_stage": "full40realtrain_then_independent40replay_then_private_stream_restore_once_diagnostic"
+    "next_method_stage": "finish_active_full40_producer_then_full40_replay_no_duplicate_launch"
   },
   "mvglf_source_pilot": {
     "state": "complete_audited_full_gate_failed_local_expansion_eligible",
@@ -8034,8 +8034,8 @@
     "no_old_screen_retry": true,
     "no_method_family_accuracy_rejection": true
   },
-  "background_compute_running": false,
-  "background_compute_pid": null,
+  "background_compute_running": true,
+  "background_compute_pid": 98423,
   "drcif500_full_cost_20261102": {
     "state": "verified_native_fullbatch_RSS_screen_closed_before_complete_fit",
     "workspace": "/workspace/uwb-drcif500-full-cost-20261102",
@@ -8992,7 +8992,7 @@
     }
   },
   "shufflenetv2_x1_20261103": {
-    "state": "full_native_x1_cost_passed_real22_frozen_remote_registration_pending",
+    "state": "actual_full_x1_40epoch_real_producer_running",
     "workspace": "/workspace/uwb-shufflenetv2-x1-source-20261103",
     "cost_workspace": "/workspace/uwb-shufflenetv2-x1-cost-20261103",
     "prospective_configuration_file": "research/cloud_20261103_shufflenetv2_x1/PROSPECTIVE_NEXT_CONFIG.json",
@@ -9086,7 +9086,7 @@
     },
     "cost_frozen_sha256": "e3401c37523879a6d10ae83de359c0c5b86d4b8b1f64caae6abfca968de6c435",
     "formal_CPU_cost_started": true,
-    "actual_UWB_fit_started": false,
+    "actual_UWB_fit_started": true,
     "users7_8_labels_used": false,
     "all_exploratory": true,
     "novel_contribution_claim": false,
@@ -9166,6 +9166,37 @@
     "real_frozen_sha256": "1616f2fe7c642d721d9e2af984f203aa3f2ddd7889659eb0dbb2dc75ed61129b",
     "real_protocol": "research/cloud_20261103_shufflenetv2_x1_pilot/PROTOCOL.json",
     "real_report": "results/cloud_20261103_shufflenetv2_x1/PREREGISTRATION.md",
-    "streaming_private_backup_synthetic_tests_passed": true
+    "streaming_private_backup_synthetic_tests_passed": true,
+    "phase": "producer_active",
+    "actual_real_registration_commit": "7fd8d88d82b1570f90358dca43fc964b9b7eba88",
+    "all38_changed_files_exact_before_Popen": true,
+    "observation": {
+      "state": "full_native_ShuffleNetV2_x1_SGDM40_B15_real_producer_observed_active",
+      "utc": "2026-11-03T02:05:46.140032+00:00",
+      "controller_pid": 98422,
+      "controller_start_ticks": "119431092",
+      "worker_pid": 98423,
+      "worker_start_ticks": "119431337",
+      "process_args_verified": true,
+      "actual_completed_updates": 177,
+      "last_aggregate_step": {
+        "epoch": 1,
+        "offset": 2640,
+        "update": 177,
+        "order_sha256": "908d32d3331ed51f8320283a2fa44aa3a3d8b6a96b71fb575ee0274b987d5652",
+        "augmentation_rng_sha256": "f95216232ef869754d72ddf9fc0af4e7eb42b8c19e04c8d42c91110a2c121f66",
+        "loss": 2.4814608097076416
+      },
+      "initial12_head_checkpoint_bytes": 51101,
+      "initial12_head_checkpoint_sha256": "9fdb16a54ea123349844334928793f91eb4c9b884d04b320c6bf0274e1d51cb3",
+      "source_split_saved": true,
+      "actual_UWB_training_started": true,
+      "diagnostic_labels_read": false,
+      "users7_8_labels_used": false,
+      "new_diagnostic_accuracy_measured": false,
+      "registration_commit": "7fd8d88d82b1570f90358dca43fc964b9b7eba88",
+      "workspace_free_bytes": 324464640
+    },
+    "report": "results/cloud_20261103_shufflenetv2_x1/ACTIVE_REAL_EXPERIMENT.md"
   }
 }
