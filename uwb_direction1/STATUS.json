@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "same_full100_independent_auditor_active_prefix57_privately_verified",
+  "state": "ShuffleNet_Adam100_once_failed_full_audit_private_complete_ResNet18_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -9925,4 +9925,36 @@
     "goal_met": false,
     "automatic_continuation_enabled": true
   }
+,
+  "Adam100_full100_closure_and_ResNet18_cost_20261103": {
+  "observed_utc": "2026-11-03T17:33:09.772879+00:00",
+  "trial_root": "/workspace/uwb-shufflenetv2-x1-adam100-recovery45-20261103",
+  "numeric_full100_replay_passed": true,
+  "updates": 23500,
+  "raw6900_RMS_verified": true,
+  "preprocessed_pixels_verified": 1038643200,
+  "private_archive_sha256": "97bf3e814ac84702915648e12a487d77a07c22cbd1d2d15841f0c77ce4ba281f",
+  "private_archive_bytes": 76585124,
+  "private_chunks": 11,
+  "private_payload_members": 394,
+  "once_summary": {
+    "state": "complete_exploratory_full_ShuffleNetV2_x1_Adam100_B20",
+    "scores": {
+      "validation": 0.9950000000000001,
+      "diagnostic": 0.9858333333333333
+    },
+    "delta_macro": -0.0008333333333333526,
+    "predeclared_gate_passed": false,
+    "route": "close_exact_full_ShuffleNetV2_x1_Adam100_B20_noAug_final100_seed20261029_no_rescue",
+    "complete_private_modelset_verified": true,
+    "source6_confirmation_complete": false,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_validated": false
+  },
+  "next_selected_cost_workspace": "/workspace/uwb-resnet18-adam100-cost-20261103",
+  "next_real_fit_started": false,
+  "background_training_running": false,
+  "goal_achieved": false
+}
 }

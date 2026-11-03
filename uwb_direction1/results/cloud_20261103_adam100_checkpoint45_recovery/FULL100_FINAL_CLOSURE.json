@@ -1,0 +1,31 @@
+{
+  "observed_utc": "2026-11-03T17:33:09.772879+00:00",
+  "trial_root": "/workspace/uwb-shufflenetv2-x1-adam100-recovery45-20261103",
+  "numeric_full100_replay_passed": true,
+  "updates": 23500,
+  "raw6900_RMS_verified": true,
+  "preprocessed_pixels_verified": 1038643200,
+  "private_archive_sha256": "97bf3e814ac84702915648e12a487d77a07c22cbd1d2d15841f0c77ce4ba281f",
+  "private_archive_bytes": 76585124,
+  "private_chunks": 11,
+  "private_payload_members": 394,
+  "once_summary": {
+    "state": "complete_exploratory_full_ShuffleNetV2_x1_Adam100_B20",
+    "scores": {
+      "validation": 0.9950000000000001,
+      "diagnostic": 0.9858333333333333
+    },
+    "delta_macro": -0.0008333333333333526,
+    "predeclared_gate_passed": false,
+    "route": "close_exact_full_ShuffleNetV2_x1_Adam100_B20_noAug_final100_seed20261029_no_rescue",
+    "complete_private_modelset_verified": true,
+    "source6_confirmation_complete": false,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_validated": false
+  },
+  "next_selected_cost_workspace": "/workspace/uwb-resnet18-adam100-cost-20261103",
+  "next_real_fit_started": false,
+  "background_training_running": false,
+  "goal_achieved": false
+}
