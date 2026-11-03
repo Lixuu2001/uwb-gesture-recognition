@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-shufflenetv2-x1-adam100-cost-20261103/bounded_screen.py", line 64, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-shufflenetv2-x1-adam100-cost-20261103/bounded_screen.py", line 9, in main
+    p=ready()
+      ^^^^^^^
+  File "/workspace/uwb-shufflenetv2-x1-adam100-cost-20261103/cost_guard.py", line 50, in ready
+    assert all(str(path) in deps for path in required)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

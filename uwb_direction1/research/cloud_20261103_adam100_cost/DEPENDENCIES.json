@@ -2965,8 +2965,10 @@
     "/workspace/uwb-resnet18-finetune-source-20261102/native_finetune.py": "f41115ea4bd4ea79e493db5ebcf1847a76c0b0e796387de09c35466b9cfc3161",
     "/workspace/uwb-resnet18-imagenet-source-20261102/native_resnet18.py": "dd317f0def8cefae1fd49b0efa284437f3c897bb6cc9120f4544ad9fcc2744a6",
     "/workspace/uwb-shufflenetv2-x1-source-20261103/native_shufflenet.py": "590bd45ff206368045ed7353db35643c58927c5e9487576f420f8256eec57d75",
-    "/workspace/uwb-shufflenetv2-x1-source-20261103/weights/shufflenetv2_x1-5666bf0f80.pth": "5666bf0f80d1e7f8fb61f6a65742b9c27c37f3208c1f087cdcd7c1ec1aa8b848"
+    "/workspace/uwb-shufflenetv2-x1-source-20261103/weights/shufflenetv2_x1-5666bf0f80.pth": "5666bf0f80d1e7f8fb61f6a65742b9c27c37f3208c1f087cdcd7c1ec1aa8b848",
+    "/workspace/uwb-shufflenetv2-x1-source-20261103/local_author_sources/shufflenetv2.py": "2c87bf229ea30b36d86d0e335b8cd8c16bb124df2a4c9a1b1fc48fb0c2efc9d4"
   },
   "new_UWB_data_dependency": false,
-  "source_import_probe": "ADAM_NATIVE_SOURCE_TESTS.log"
+  "source_import_probe": "ADAM_NATIVE_SOURCE_TESTS.log",
+  "correction": "Explicit official source dependency required by guard was missing from observed sys.modules closure; no native profile started."
 }
