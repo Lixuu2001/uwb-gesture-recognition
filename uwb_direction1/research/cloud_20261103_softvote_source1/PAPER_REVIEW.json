@@ -1,0 +1,10 @@
+{
+  "paper": "Lakshminarayanan,Pritzel,Blundell2017 Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+  "primary": "https://arxiv.org/pdf/1612.01474",
+  "method_read": "p5 Algorithm1 and following uniform-mixture equation; classification probabilities averaged. DefaultM5 and optional adversarial training explicitly differ from this reuse-of-two-heterogeneous-checkpoints transfer.",
+  "official_rule": "https://scikit-learn.org/1.8/modules/ensemble.html#voting-classifier",
+  "read_support": "Sec1.11.4.3 equal-probability average, argmax. Not full native VotingClassifier fitting.",
+  "adaptation": "TimeMIL OvR BCE logits require sigmoid not direct softmax; normalized sigmoid explicitly projects to categorical simplex before equal mixing with CE softmax. T1, no calibration or uncertainty-quality claim. Two heterogeneous existing models, not full defaultM5 DeepEnsembles reproduction.",
+  "novelty": "Published combination rule/transfer baseline only; numerical or accuracy success cannot establish originality.",
+  "history": "Four current authority files and bounded research protocol/review search: old seven-subset frozen ridge probabilities and radar-exchange averaging differ; no completed exact TimeMIL64+ShuffleNetAdam100 mixture found; absence not exhaustive. Repeated held1/eight-user development exploratory."
+}

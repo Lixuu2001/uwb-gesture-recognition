@@ -1,0 +1,25 @@
+{
+  "state": "fixed_source1_probability_mixture_preregistered_before_validation",
+  "root": "/workspace/uwb-softvote-source1-20261103",
+  "seed": 20261029,
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "temperature": 1,
+  "minimum_validation_gain": 0.001,
+  "minimum_diagnostic_gain": 0.005,
+  "validation_evaluated": false,
+  "diagnostic_outputs_decoded": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "originality_claim": false,
+  "existing_component_diagnostic_scores_already_known": true,
+  "independent_validation": false,
+  "new_training": false,
+  "background_training_running": false,
+  "frozen_sha256": "390ffa4dfd0401527b22010f74f8860bc9f3c927ad79bdefd59a50a0e66dfb36",
+  "frozen_files": 15,
+  "restored_TimeMIL_archive_sha256": "e305d2c59314f299a174c47a736ec1ec7096dd4a7f623e7c3d331613a793c207",
+  "observed_utc": "2026-11-03T17:58:50.709471+00:00"
+}

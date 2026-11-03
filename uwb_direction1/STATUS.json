@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "ShuffleNet100_accuracy_failed_ResNet18_and_MobileNetV2_full100_resource_closed",
+  "state": "fixed_softvote_source1_implemented_preregistered_before_validation",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_adam100_checkpoint45_recovery/AUDIT57_PRIVATE_AND_CONDITIONAL_COST.md",
+  "latest_report": "results/cloud_20261103_softvote_source1/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793694394.398398,
-  "background_training_pid": 2377,
-  "background_training_status_note": "Same full100auditor2202/startticks1107882 active at64epochs/15040updates. Own audit57checkpoint13395updates privately raw/all146members verified; not full100certification. Producer288member archive intact, diagnostic sealed. Conditional ResNet18cost implementation11tests passed, no formal profiling/selection/fit.",
+  "background_training_observed_unix": 1793728730.7254045,
+  "background_training_pid": null,
+  "background_training_status_note": "No active producer/auditor/profile. Fixed soft-vote baseline registered before validation. No new diagnostic outputs/labels decoded. Exact remote readback is required before bounded inference.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -9992,5 +9992,31 @@
   "goal_achieved": false,
   "continuation_enabled": true,
   "next_action": "Select next literature-supported runnable method using train/validation only; retain exact full ResNet18/MobileNetV2 resource closures and ShuffleNet100 accuracy closure. Candidate cheap fixed probability-averaging baseline needs prior-history check, primary-method review, frozen train/validation-only protocol, model/prediction/ID lineage and remote preregistration before reading diagnostic outputs; no automatic authorization to tune on current held errors, weights or temperatures."
+}
+,
+  "softvote_source1_20261103": {
+  "state": "fixed_source1_probability_mixture_preregistered_before_validation",
+  "root": "/workspace/uwb-softvote-source1-20261103",
+  "seed": 20261029,
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "temperature": 1,
+  "minimum_validation_gain": 0.001,
+  "minimum_diagnostic_gain": 0.005,
+  "validation_evaluated": false,
+  "diagnostic_outputs_decoded": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "originality_claim": false,
+  "existing_component_diagnostic_scores_already_known": true,
+  "independent_validation": false,
+  "new_training": false,
+  "background_training_running": false,
+  "frozen_sha256": "390ffa4dfd0401527b22010f74f8860bc9f3c927ad79bdefd59a50a0e66dfb36",
+  "frozen_files": 15,
+  "restored_TimeMIL_archive_sha256": "e305d2c59314f299a174c47a736ec1ec7096dd4a7f623e7c3d331613a793c207",
+  "observed_utc": "2026-11-03T17:58:50.709471+00:00"
 }
 }

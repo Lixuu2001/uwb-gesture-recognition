@@ -1,0 +1,50 @@
+{
+  "state": "fixed_uniform_two_model_probability_baseline_preregistered_before_validation",
+  "seed": 20261029,
+  "method": "uniform_probability_mixture_TimeMIL64_bestval_and_ShuffleNetV2_x1_Adam100_final100",
+  "members": [
+    "TimeMIL64_best_validation_epoch41",
+    "full_ShuffleNetV2_x1_Adam100_final100"
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "temperature": 1,
+  "TimeMIL_link": "normalized_independent_sigmoid_via_logsigmoid_logsumexp",
+  "ShuffleNet_link": "categorical_softmax",
+  "classes": 12,
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "minimum_validation_gain_over_best_member": 0.001,
+  "minimum_diagnostic_gain": 0.005,
+  "reference_macro": 0.9866666666666667,
+  "tolerance": 1e-12,
+  "fail_route": "close_exact_uniform_TimeMIL64_ShuffleNetV2_Adam100_normalizedSigmoid_softmax_T1_seed20261029_no_rescue",
+  "data": "/workspace/uwb-restored-20261103",
+  "ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "timemil_root": "/workspace/uwb-timemil-20261029",
+  "shuffle_root": "/workspace/uwb-shufflenetv2-x1-adam100-recovery45-20261103",
+  "threads_for_fresh_TimeMIL_inference": 1,
+  "batch64_TimeMIL_inference": true,
+  "wall_seconds": 1200,
+  "CPU_seconds": 4800,
+  "RSS_stop_KiB": 8388608,
+  "users7_8_labels_forbidden": true,
+  "new_training": false,
+  "diagnostic_error_overlap_selection": false,
+  "member_individual_diagnostic_scores_previously_known": true,
+  "independent_validation": false,
+  "novel_contribution_claim": false,
+  "selection_rationale": "Fixed temporal/image published-model diversity; same source training roles, reuse completed frozen models. Neither error overlap nor weights/temperature/member grid inspected. Only validation can authorize one new held1 evaluation.",
+  "private_scope": "complete_fixed_uniform_probability_baseline_source1_before_diagnostic",
+  "chunk_bytes": 7340032,
+  "archive_upper_bytes": 67108864
+}
