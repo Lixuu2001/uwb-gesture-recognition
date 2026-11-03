@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_real_lifecycle_registered_pending_private_initial_insurance_and_launch",
+  "state": "source6_real_confirmation_held2_two_native_trainers_running_after_first_update_audits",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "research/cloud_20261103_softvote_source6_real/README.md",
+  "latest_report": "results/cloud_20261103_softvote_source6_real/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793730519.5485392,
-  "background_training_pid": null,
-  "background_training_status_note": "Recovered workspace and 1293 dependency hashes verified. Real lifecycle and16 tests complete, separately preregistered. Real fitting still blocked until exact remote readback marker and raw owner-only initial model/role-ID insurance; no launch claimed yet.",
+  "background_training_observed_unix": 1793736817.2632525,
+  "background_training_pid": 3406,
+  "background_training_status_note": "Actual controller and two held2 native trainers alive; both successful independent first-update audits released and steps>1 observed. Separate real preregistration exact65file readback and all3 raw owner-only initial archive chunks/200payloads verified before fitting. No new diagnostic score; all5folds sealed/private before once aggregate.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -10195,6 +10195,72 @@
   "path": "/workspace/uwb-softvote-source6-real-20261103",
   "next_step": "exact_remote_real_readback_then_private_initial_insurance_then_real_controller",
   "users7_8_labels_used": false,
+  "novel_contribution_validated": false
+}
+,
+  "softvote_source6_actual_activation_20261103": {
+  "state": "real_held2_two_full_native_trainers_running_after_successful_independent_first_updates",
+  "observed_UTC_unix": 1793736817.2632525,
+  "controller": {
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S",
+    "CPU_seconds": 9.97,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08"
+  },
+  "registration": "a1ca45979e90f25f57e12010b4ed0ea62572fb2c",
+  "initial_private_archive": {
+    "archive_members": 201,
+    "archive_sha256": "7becc935064a205bb9de6db8b9fcd77a430dfc19f13e608117f3725390a331f6",
+    "chunks_verified": 3,
+    "complete_modelset_verified": true,
+    "scope": "source6_fixed_mixture_initial_models_roles_sources_before_new_fits",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 200
+  },
+  "members": {
+    "timemil": {
+      "first_state_sha256": "e868cc46799639b3955f6b2bd9a6d0263e915f30fbdfaa832a9b628b1a848985",
+      "first_audit_exit_code": 0,
+      "first_audit_wall": 8.935453565999978,
+      "first_audit_CPU_lower_bound": 8.59,
+      "observed_complete_step_rows": 22,
+      "last_observed_update": 22,
+      "last_observed_epoch": 1,
+      "committed_progress": {
+        "checkpoint_sha256": "2e3937848f4245f85a7a8a7a841688ae0bd3bf67a58579ff807809bbe7e86a05",
+        "epoch": 0,
+        "journal_sha256": "775548e33f405bb4461b35fa51bc496985de96d038e507e70dfd9bd0bf73d861",
+        "prefix_bytes": 0,
+        "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "slot": "slot0.pt",
+        "updates": 0
+      },
+      "diagnostic_labels_read": false
+    },
+    "shuffle": {
+      "first_state_sha256": "246fe00612d93a0379344a65c1a1915072a421f8c50cb9ef2a33965b45d7e76f",
+      "first_audit_exit_code": 0,
+      "first_audit_wall": 8.047239605000186,
+      "first_audit_CPU_lower_bound": 9.68,
+      "observed_complete_step_rows": 150,
+      "last_observed_update": 150,
+      "last_observed_epoch": 1,
+      "committed_progress": {
+        "checkpoint_sha256": "fcd552bc6c3b472bdc7e506ffdafb03c56f663bf901735832a009f9ff2e7315f",
+        "epoch": 0,
+        "journal_sha256": "5f2151ca7e8c0a1cdb62f8e562d12ece3b94a5d1bbcf68c2f87c70642ea4a0a1",
+        "prefix_bytes": 0,
+        "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "slot": "slot0.pt",
+        "updates": 0
+      },
+      "diagnostic_labels_read": false
+    }
+  },
+  "source1_rescored": false,
+  "users7_8_labels_used": false,
+  "new_accuracy_result": false,
   "novel_contribution_validated": false
 }
 }

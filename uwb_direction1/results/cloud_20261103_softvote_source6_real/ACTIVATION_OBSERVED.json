@@ -1,0 +1,65 @@
+{
+  "controller": {
+    "CPU_seconds": 9.97,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S"
+  },
+  "initial_private_archive": {
+    "archive_members": 201,
+    "archive_sha256": "7becc935064a205bb9de6db8b9fcd77a430dfc19f13e608117f3725390a331f6",
+    "chunks_verified": 3,
+    "complete_modelset_verified": true,
+    "scope": "source6_fixed_mixture_initial_models_roles_sources_before_new_fits",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 200
+  },
+  "members": {
+    "shuffle": {
+      "committed_progress": {
+        "checkpoint_sha256": "fcd552bc6c3b472bdc7e506ffdafb03c56f663bf901735832a009f9ff2e7315f",
+        "epoch": 0,
+        "journal_sha256": "5f2151ca7e8c0a1cdb62f8e562d12ece3b94a5d1bbcf68c2f87c70642ea4a0a1",
+        "prefix_bytes": 0,
+        "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "slot": "slot0.pt",
+        "updates": 0
+      },
+      "diagnostic_labels_read": false,
+      "first_audit_CPU_lower_bound": 9.68,
+      "first_audit_exit_code": 0,
+      "first_audit_wall": 8.047239605000186,
+      "first_state_sha256": "246fe00612d93a0379344a65c1a1915072a421f8c50cb9ef2a33965b45d7e76f",
+      "last_observed_epoch": 1,
+      "last_observed_update": 150,
+      "observed_complete_step_rows": 150
+    },
+    "timemil": {
+      "committed_progress": {
+        "checkpoint_sha256": "2e3937848f4245f85a7a8a7a841688ae0bd3bf67a58579ff807809bbe7e86a05",
+        "epoch": 0,
+        "journal_sha256": "775548e33f405bb4461b35fa51bc496985de96d038e507e70dfd9bd0bf73d861",
+        "prefix_bytes": 0,
+        "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "slot": "slot0.pt",
+        "updates": 0
+      },
+      "diagnostic_labels_read": false,
+      "first_audit_CPU_lower_bound": 8.59,
+      "first_audit_exit_code": 0,
+      "first_audit_wall": 8.935453565999978,
+      "first_state_sha256": "e868cc46799639b3955f6b2bd9a6d0263e915f30fbdfaa832a9b628b1a848985",
+      "last_observed_epoch": 1,
+      "last_observed_update": 22,
+      "observed_complete_step_rows": 22
+    }
+  },
+  "new_accuracy_result": false,
+  "novel_contribution_validated": false,
+  "observed_UTC_unix": 1793736817.2632525,
+  "registration": "a1ca45979e90f25f57e12010b4ed0ea62572fb2c",
+  "source1_rescored": false,
+  "state": "real_held2_two_full_native_trainers_running_after_successful_independent_first_updates",
+  "users7_8_labels_used": false
+}

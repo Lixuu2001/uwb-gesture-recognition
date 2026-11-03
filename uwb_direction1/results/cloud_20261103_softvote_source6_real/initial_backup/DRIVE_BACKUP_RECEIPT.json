@@ -1,0 +1,83 @@
+{
+  "archive_bytes": 21971378,
+  "archive_sha256": "7becc935064a205bb9de6db8b9fcd77a430dfc19f13e608117f3725390a331f6",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1X3fuTukLsNaZbyPpGEXsQCL2dWjSEdxx",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "softvote_source6_initial_20261103.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "85b297b1e92c5488b090b9ca204d31b5ad48b7a0d6fa37d4b1bf9ab16ae5d1ea"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "13dIWi-q7gPFpPdtwmNkYwbyJBuiDmfch",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "softvote_source6_initial_20261103.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "692fac5e2b482fe0042220a39c983611f4071bc3bdfbd10616d00759fd99714d"
+    },
+    {
+      "bytes": 7291314,
+      "download_verified": true,
+      "file_id": "12a4U-YtKv8gw9j0OwhJSDspURorxZ9UB",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7291314
+      },
+      "name": "softvote_source6_initial_20261103.part002",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "a62e16be1ed2565371d9fdf6b206a6c478f61b96b89c753d9350f0e5e92bffcf"
+    }
+  ],
+  "complete_modelset_verified": true,
+  "diagnostic_labels_scored": false,
+  "members_manifest_sha256": "b7c3a3c2584c98a4e84b11cfc0f2937dd85cfa784927706aa35aceb67f299fb2",
+  "scope": "source6_fixed_mixture_initial_models_roles_sources_before_new_fits",
+  "state": "private_raw_all_members_verified"
+}
