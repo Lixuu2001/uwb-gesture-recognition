@@ -1,0 +1,15 @@
+{
+  "state": "source_text_provenance_only_not_new_runtime_validation",
+  "parent_commit": "1486f6314c950a7f9281efe09f2f3cf3ea18ce78",
+  "native_training": "../cloud_20261103_radar_adam100_preparation/native_adam100.py",
+  "preprocessing_source": "uwb_direction1/research/cloud_20261103_shufflenetv2_x1_pilot/audit_preprocessing.py",
+  "preprocessing_original_frozen_SHA256": "379d8b2a0e62c1d5beb4f2412377e1de549e09f2d7c2e3c19b93b2c73a47bd97",
+  "preprocessing_changes": [
+    "Add unexecuted-draft header",
+    "Change engine import to adam_engine; algorithm/bound unchanged"
+  ],
+  "old_study_modified": false,
+  "syntax_tests_executed": false,
+  "replay_executed": false,
+  "new_method_accuracy_validated": false
+}

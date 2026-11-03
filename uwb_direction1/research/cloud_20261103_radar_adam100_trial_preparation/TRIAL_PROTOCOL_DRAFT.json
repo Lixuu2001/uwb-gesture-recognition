@@ -1,0 +1,53 @@
+{
+  "state": "unselected_unregistered_unexecuted_draft",
+  "data": "/workspace/uwb-restored-20261020",
+  "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "source_maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "input_sha256": {
+    "X_clutterremoved.npy": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved.npy": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved.npy": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "source_module_directory": "../cloud_20261103_radar_adam100_preparation",
+  "cost_workspace": null,
+  "seed": 20261029,
+  "threads": 4,
+  "classes": 12,
+  "trainable_parameters": 1265904,
+  "epochs": 100,
+  "batch_size": 20,
+  "updates": 23500,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-8,
+  "weight_decay": 0,
+  "augmentation": false,
+  "checkpoint_selection": "fixed_epoch100",
+  "reference_macro": 0.9866666666666667,
+  "minimum_gain": 0.005,
+  "tolerance": 1e-12,
+  "users7_8_labels_forbidden": true,
+  "diagnostic_labels_read": false,
+  "independent_validation": false,
+  "novel_contribution_claim": false,
+  "new_UWB_fit_started": false
+}

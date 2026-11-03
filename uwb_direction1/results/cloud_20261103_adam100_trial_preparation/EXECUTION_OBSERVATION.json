@@ -1,0 +1,29 @@
+{
+  "initial_utc": "2026-11-03T06:21:46Z",
+  "initial_provider_state": "starting",
+  "initial_connectivity": "offline",
+  "initial_capabilities": [],
+  "wait_result": "failed to start: failed to query executor configuration capabilities",
+  "exec_command_pwd_result": "No usable execution environment is available",
+  "intermediate_provider_state": "starting",
+  "final_observed_utc": "2026-11-03T06:26:22Z",
+  "final_provider_state": "failed",
+  "final_failure_code": "environment_startup_failed",
+  "final_capabilities": [],
+  "observations_current": true,
+  "retained_diagnostics_history_status": "not_found",
+  "retained_records": 0,
+  "underlying_root_cause_established": false,
+  "environment_restart_tool_available": false,
+  "missing_capabilities": [
+    "usable shell/filesystem/Python executor",
+    "process/checkpoint/log/exit/audit inspection",
+    "immediate local Drive materialization and SHA verification"
+  ],
+  "current_trial_running": null,
+  "current_trial_stopped": null,
+  "current_trial_completed": null,
+  "new_training_started": false,
+  "new_raw_download_started": false,
+  "raw_data_loss_established": false
+}

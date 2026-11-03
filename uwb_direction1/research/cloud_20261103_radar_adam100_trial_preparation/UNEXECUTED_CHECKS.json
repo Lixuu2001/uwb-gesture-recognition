@@ -1,0 +1,31 @@
+{
+  "state": "NOT_EXECUTED",
+  "authored_utc": "2026-11-03T06:28:11Z",
+  "Python_syntax_checked": false,
+  "unit_or_integration_tests_executed": false,
+  "new_CPU_profile_executed": false,
+  "new_UWB_fit_started": false,
+  "full_replay_or_preprocessing_audit_executed": false,
+  "activation_files_supplied": false,
+  "required_before_activation": [
+    "Native Adam/BN/moments/steps/RNG next-two-updates exact",
+    "Input role/ID/hash rejection; held1 and users7_8 semantic labels excluded",
+    "Producer100epoch callback/output/atomic rolling save fixtures",
+    "Replay rejects altered step/order/epoch/state/logit/checkpoint",
+    "All6900 preprocessing/RMS/base-pixel boundary checks",
+    "Independent resource-supervisor/controller termination and duplicate refusal",
+    "Owner-only raw streamed all-member recovery and one-time finalizer tests",
+    "Real passing100epoch cost and separately frozen/readback real registration"
+  ],
+  "missing_lifecycle_modules": [
+    "independent_supervisor.py",
+    "controller.py",
+    "stream_archive.py",
+    "backup.py",
+    "finalize_once.py",
+    "test_training_integrity.py",
+    "test_completion_boundary.py",
+    "test_stream_archive.py"
+  ],
+  "no_fabricated_passing_logs": true
+}

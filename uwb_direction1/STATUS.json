@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_adam100_guard_review/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261103_adam100_trial_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Cloud startup failed/environment_startup_failed; executor offline with no capabilities. Current ShuffleNet process/audit unknown. Last local observation 02:36Z epoch24/update7650. No new training launched.",
+  "background_training_status_note": "Cloud startup unavailable: wait failed capability query; final06:26Z provider failed/offline/no capabilities. Existing SGDM40 process/audit unknown since02:36Z epoch24/update7650. No new launch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Recover executor and inspect existing registered ShuffleNet SGDM40 trial first; Adam100 cost implementation is unexecuted and unselected",
-  "last_completed_update_utc": "2026-11-03T05:29:48Z",
+  "last_completed_update_utc": "2026-11-03T06:28:11Z",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -9343,5 +9343,70 @@
     "environment_state": "failed_offline_no_capabilities",
     "next_step": "Recover and inspect existing SGDM40 experiment before selection or launch",
     "automatic_continuation_enabled": true
+  },
+  "adam100_trial_preparation_20261103": {
+    "state": "unselected_unregistered_unexecuted_real_producer_and_full100_replay_source_draft",
+    "authored_utc": "2026-11-03T06:28:11Z",
+    "path": "research/cloud_20261103_radar_adam100_trial_preparation",
+    "report": "results/cloud_20261103_adam100_trial_preparation/RUN_REPORT.md",
+    "syntax_checked": false,
+    "tests_executed": false,
+    "new_profile_started": false,
+    "new_UWB_fit_started": false,
+    "all100_epoch_replay_executed": false,
+    "private_lifecycle_implementation_complete": false,
+    "current_SGDM40_outcome": null,
+    "new_accuracy_evidence": false,
+    "originality_evidence": false,
+    "automatic_continuation_enabled": true,
+    "execution_observation": {
+      "initial_utc": "2026-11-03T06:21:46Z",
+      "initial_provider_state": "starting",
+      "initial_connectivity": "offline",
+      "initial_capabilities": [],
+      "wait_result": "failed to start: failed to query executor configuration capabilities",
+      "exec_command_pwd_result": "No usable execution environment is available",
+      "intermediate_provider_state": "starting",
+      "final_observed_utc": "2026-11-03T06:26:22Z",
+      "final_provider_state": "failed",
+      "final_failure_code": "environment_startup_failed",
+      "final_capabilities": [],
+      "observations_current": true,
+      "retained_diagnostics_history_status": "not_found",
+      "retained_records": 0,
+      "underlying_root_cause_established": false,
+      "environment_restart_tool_available": false,
+      "missing_capabilities": [
+        "usable shell/filesystem/Python executor",
+        "process/checkpoint/log/exit/audit inspection",
+        "immediate local Drive materialization and SHA verification"
+      ],
+      "current_trial_running": null,
+      "current_trial_stopped": null,
+      "current_trial_completed": null,
+      "new_training_started": false,
+      "new_raw_download_started": false,
+      "raw_data_loss_established": false
+    },
+    "author_root_check": {
+      "observed_utc": "2026-11-03T06:28:11Z",
+      "repository": "pantheon5100/MRHGR-dataset",
+      "current_main_commit": "3a860fbca1adbcbd51b6f276f7493fd85ad02ccd",
+      "connector_commit_files": [
+        "TimeFreq9D.7z",
+        "TimeFreq9L.npz"
+      ],
+      "root_page": "https://github.com/pantheon5100/MRHGR-dataset",
+      "root_page_observed_files": [
+        "TimeFreq9D.7z",
+        "TimeFreq9L.npz"
+      ],
+      "root_page_commit_count": 1,
+      "training_script_visible_at_root": false,
+      "archive_content_inspected": false,
+      "raw_binary_downloaded": false,
+      "conclusion": "Current root exposes dataset files, not directly readable training scripts; archive contents and any author training-code absence remain unverified.",
+      "exact_author_width_and_optimizer_code_parity_verified": false
+    }
   }
 }
