@@ -1,0 +1,16 @@
+{
+  "state": "full_MobileNetV2_Adam100_CPU4_float32_resource_closed_without_UWB_fit",
+  "observed_utc": "2026-11-03T17:47:01.098989+00:00",
+  "registration_commit": "37bf2cc2113480ad060395b728df24de4d33f13b",
+  "estimated_wall_seconds": 57110.811487169114,
+  "estimated_CPU_seconds": 228443.24594867646,
+  "predeclared_wall_budget_seconds": 43200,
+  "predeclared_CPU_budget_seconds": 172800,
+  "actual_accuracy_measured": false,
+  "new_UWB_fit_started": false,
+  "background_training_running": false,
+  "users7_8_labels_used": false,
+  "goal_achieved": false,
+  "continuation_enabled": true,
+  "next_action": "Select next literature-supported runnable method using train/validation only; retain exact full ResNet18/MobileNetV2 resource closures and ShuffleNet100 accuracy closure. Candidate cheap fixed probability-averaging baseline needs prior-history check, primary-method review, frozen train/validation-only protocol, model/prediction/ID lineage and remote preregistration before reading diagnostic outputs; no automatic authorization to tune on current held errors, weights or temperatures."
+}
