@@ -1,0 +1,19 @@
+{
+  "state": "independent_scalar_float64_reference_repair_before_diagnostic",
+  "original_root": "/workspace/uwb-softvote-source1-20261103",
+  "original_registration": "7b8fdb35abb51a81eb35bdcb7fc4a46a0ef049ea",
+  "original_failed_audit_exit": 1,
+  "maximum_observed_difference": 5.91574456e-09,
+  "cause": "NumPy2 float32 scalar promotion by max(zb) in scalar CE exponential argument",
+  "fix": "float(max(zb)) forces scalar double subtraction before math.exp",
+  "tolerance_unchanged": 1e-14,
+  "validation_outputs_sha256": "25163e6544ccdc41d5c7fedde80fbf81361ec5bf680e5991ce47a6ad40960b76",
+  "validation_result_sha256": "1ed913f27df32fd2a204ab01503f7f724cc15a3ad285c070118e7c17a39818ad",
+  "no_new_validation_evaluation": true,
+  "diagnostic_outputs_decoded": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "scientific_negative": false,
+  "failed_audit_budget_subtracted_from_new_attempt": true,
+  "utc": "2026-11-03T18:02:39.042323+00:00"
+}

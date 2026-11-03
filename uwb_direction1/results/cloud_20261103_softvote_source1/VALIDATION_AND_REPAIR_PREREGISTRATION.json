@@ -1,0 +1,25 @@
+{
+  "state": "validation99_9_gate_passed_independent_scalar64_auditor_repair_preregistered",
+  "root": "/workspace/uwb-softvote-scalar64-repair-20261103",
+  "original_root": "/workspace/uwb-softvote-source1-20261103",
+  "original_registration": "7b8fdb35abb51a81eb35bdcb7fc4a46a0ef049ea",
+  "validation_scores": {
+    "timemil": 0.9950000000000001,
+    "shuffle": 0.9950000000000001,
+    "mixture": 0.999
+  },
+  "validation_gain": 0.0039999999999998925,
+  "validation_gate_passed": true,
+  "validation_sha256": "25163e6544ccdc41d5c7fedde80fbf81361ec5bf680e5991ce47a6ad40960b76",
+  "original_audit_exit": 1,
+  "original_audit_error": "NumPy2float32scalarpromotion_vs1e-14reference",
+  "reference_fixed_without_tolerance_change": true,
+  "all_scientific_parameters_unchanged": true,
+  "new_diagnostic_scored": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "background_training_running": false,
+  "frozen_sha256": "b68ae51343edc2397a023e8a69be249193c97215fc2b76084a60e391db6b5625",
+  "frozen_files": 18,
+  "observed_utc": "2026-11-03T18:03:32.726127+00:00"
+}
