@@ -1,0 +1,19 @@
+{
+  "state": "all_registered_trial_boundaries_passed",
+  "utc": "2026-11-03T10:50:03.843693+00:00",
+  "full_Adam_checkpoint_next_updates_exact": true,
+  "controller_refuses_duplicate_or_unknown_prior_trial": true,
+  "producer_and_audit_resource_termination_recorded": true,
+  "private_stream_all_members_local_recovery_exact_raw_Drive_required_before_controller": true,
+  "finalizer_requires_full100_audit_private_readback_once_lock": true,
+  "actual_native_B20_checkpoint_tests": 2,
+  "actual_native_allparameter_Adam_equation_tests": 1,
+  "synthetic_realtrial_distinct_tests": 29,
+  "synthetic_full100_loop_and_23500_callbacks": true,
+  "tiny_mock_producer_and_auditor_control_pipeline_passed": true,
+  "synthetic_mock_pipeline_does_not_certify_real_network_RMS_or_pixels": true,
+  "real_UWB_fitting_started": false,
+  "formal_cost_verified_sha256": "f5f4317074777eedbd8236be34c84348f294258158ec8ac59a13719af1c148be",
+  "failure_fixture_record": "FAILED_PIPELINE_FIXTURE_MISSING_PROTOCOL.log",
+  "failure_fixture_fix": "Added absent virtual TRIAL_PROTOCOL.json only inside disposable test; actual producer never ran before real registration."
+}

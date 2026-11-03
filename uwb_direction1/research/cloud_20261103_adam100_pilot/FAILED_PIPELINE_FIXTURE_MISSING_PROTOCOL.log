@@ -1,0 +1,28 @@
+test_coherent_virtual_children_finish_unscored (test_controller.ControllerBoundary.test_coherent_virtual_children_finish_unscored) ... ok
+test_existing_producer_refused_before_child (test_controller.ControllerBoundary.test_existing_producer_refused_before_child) ... ok
+test_failed_producer_never_launches_auditor (test_controller.ControllerBoundary.test_failed_producer_never_launches_auditor) ... ok
+test_launch_exception_is_terminal_evidence (test_controller.ControllerBoundary.test_launch_exception_is_terminal_evidence) ... ok
+test_producer_full100_io_replays_and_mutated_step_refused (test_pipeline_controls.PipelineControls.test_producer_full100_io_replays_and_mutated_step_refused) ... ERROR
+
+======================================================================
+ERROR: test_producer_full100_io_replays_and_mutated_step_refused (test_pipeline_controls.PipelineControls.test_producer_full100_io_replays_and_mutated_step_refused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_radar_adam100_trial_preparation/test_pipeline_controls.py", line 54, in test_producer_full100_io_replays_and_mutated_step_refused
+    with patch('builtins.print'):produce.main()
+                                 ^^^^^^^^^^^^^^
+  File "/workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_radar_adam100_trial_preparation/produce.py", line 11, in main
+    write(out/'IDENTITY.json',dict(protocol_sha256=sha(B/'TRIAL_PROTOCOL.json'),
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_radar_adam100_trial_preparation/trial_common.py", line 7, in sha
+    with Path(path).open('rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpn3qku09a/TRIAL_PROTOCOL.json'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+FAILED (errors=1)

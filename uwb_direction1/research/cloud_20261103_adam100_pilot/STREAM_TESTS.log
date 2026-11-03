@@ -1,0 +1,20 @@
+test_coherent_virtual_full100_completion (test_completion_boundary.Boundaries.test_coherent_virtual_full100_completion) ... ok
+test_each_full_replay_claim_required (test_completion_boundary.Boundaries.test_each_full_replay_claim_required) ... ok
+test_each_resource_or_exit_failure_refused (test_completion_boundary.Boundaries.test_each_resource_or_exit_failure_refused) ... ok
+test_failed_completion_never_reaches_private_or_labels (test_completion_boundary.Boundaries.test_failed_completion_never_reaches_private_or_labels) ... ok
+test_mutated_file_and_escape_path_refused (test_completion_boundary.Boundaries.test_mutated_file_and_escape_path_refused) ... ok
+test_once_lock_blocks_before_any_label_loader (test_completion_boundary.Boundaries.test_once_lock_blocks_before_any_label_loader) ... ok
+test_partial_pixels_or_label_use_refused (test_completion_boundary.Boundaries.test_partial_pixels_or_label_use_refused) ... ok
+test_private_acl_and_raw_flags_refused (test_completion_boundary.Boundaries.test_private_acl_and_raw_flags_refused) ... ok
+test_producer_only_receipt_and_wrong_scope_refused (test_completion_boundary.Boundaries.test_producer_only_receipt_and_wrong_scope_refused) ... ok
+test_stale_model_cannot_match_other_valid_archive (test_completion_boundary.Boundaries.test_stale_model_cannot_match_other_valid_archive) ... ok
+test_truncated_artifacts_or_absent_epoch100_cannot_unlock (test_completion_boundary.Boundaries.test_truncated_artifacts_or_absent_epoch100_cannot_unlock) ... ok
+test_virtual_private_allmember_stream_passes (test_completion_boundary.Boundaries.test_virtual_private_allmember_stream_passes) ... ok
+test_corruption_and_missing_or_reordered_chunks_block (test_stream_archive.Stream.test_corruption_and_missing_or_reordered_chunks_block) ... ok
+test_incomplete_model_manifest_and_path_traversal_block (test_stream_archive.Stream.test_incomplete_model_manifest_and_path_traversal_block) ... ok
+test_multichunk_all_members_and_atomic_download_replacement (test_stream_archive.Stream.test_multichunk_all_members_and_atomic_download_replacement) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.179s
+
+OK

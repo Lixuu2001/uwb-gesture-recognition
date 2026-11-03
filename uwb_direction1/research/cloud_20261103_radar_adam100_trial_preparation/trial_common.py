@@ -28,7 +28,9 @@ def ready():
         'stream_archive.py','backup.py','finalize_once.py',
         'test_training_integrity.py','test_completion_boundary.py',
         'test_stream_archive.py','STREAM_TESTS.log','COMPLETION_TESTS.log',
-        'TRAINING_TESTS.log','PIPELINE_SYNTHETIC_CHECK.json']
+        'TRAINING_TESTS.log','PIPELINE_SYNTHETIC_CHECK.json',
+        'build_initial_insurance.py','test_supervisor.py','test_controller.py',
+        'test_pipeline_controls.py','SUPERVISOR_TESTS.log','CONTROLLER_PIPELINE_TESTS.log']
     assert all(n in frozen for n in required)
     for name,h in frozen.items():
         q=Path(name);assert not q.is_absolute() and '..' not in q.parts
@@ -38,7 +40,7 @@ def ready():
     for key in ['full_Adam_checkpoint_next_updates_exact',
         'controller_refuses_duplicate_or_unknown_prior_trial',
         'producer_and_audit_resource_termination_recorded',
-        'private_stream_all_members_raw_recovery_exact',
+        'private_stream_all_members_local_recovery_exact_raw_Drive_required_before_controller',
         'finalizer_requires_full100_audit_private_readback_once_lock']:
         assert pipeline[key] is True
     deps=read(B/'DEPENDENCIES.json')['files']
@@ -63,7 +65,7 @@ def ready():
     assert m['verified_cost_sha256']==sha(cost/'VERIFIED_COST_RESULT.json')
     sys.path.insert(0,str(native))
     return c
-def load_inputs(c):
+def load_inputs(c, labels=True):
     from native_adam100 import np
     assert sha(c['source_manifest'])==c['source_manifest_sha256']
     assert sha(c['source_maps'])==c['source_maps_sha256']
@@ -82,10 +84,46 @@ def load_inputs(c):
     assert maps.dtype==np.float32 and maps.shape==(6900,90,567)
     subj=np.load(Path(c['data'])/'cache/subj_clutterremoved.npy',mmap_mode='r')
     np.testing.assert_array_equal(subj[ids],users)
-    labels=np.load(Path(c['data'])/'cache/y_clutterremoved.npy',mmap_mode='r')
-    # Hashing sealed file bytes above is integrity checking. Decode only train/val.
-    y=np.array(labels[ids[loc['train']]],copy=True)
-    v=np.array(labels[ids[loc['validation']]],copy=True)
-    assert set(np.unique(y).tolist())==set(range(12))
-    assert set(np.unique(v).tolist())==set(range(10))
+    y=None;v=None
+    if labels:
+        truth=np.load(Path(c['data'])/'cache/y_clutterremoved.npy',mmap_mode='r')
+        # Decode only the approved source train and validation rows.
+        y=np.array(truth[ids[loc['train']]],copy=True)
+        v=np.array(truth[ids[loc['validation']]],copy=True)
+        assert set(np.unique(y).tolist())==set(range(12))
+        assert set(np.unique(v).tolist())==set(range(10))
     return ids,users,loc,maps,y,v
+
+def term_ok(t):
+    return (type(t.get('exit_code')) is int and t['exit_code']==0
+        and t.get('wall_timeout') is False
+        and 'resource_stop_reason' in t and t['resource_stop_reason'] is None
+        and type(t.get('cgroup_oom_kill_delta')) is int
+        and t['cgroup_oom_kill_delta']==0
+        and t.get('cgroup_events_available') is True)
+
+def complete():
+    c=ready()
+    for name in ['supervisor01','audit_supervisor01']:
+        assert term_ok(read(B/name/'TERMINATION.json'))
+    a=read(B/'COMPLETE_AUDIT.json')
+    assert a['state']=='pass' and a['diagnostic_labels_read'] is False
+    assert a['users7_8_labels_used'] is False
+    for key in ['full100_epoch23500_update_replay_exact',
+            'all100_validation_outputs_exact','fixed_final100_endpoint_exact',
+            'full_model_BN_Adam_two_moments_steps_order_and_Torch_RNG_exact',
+            'all2200_final_scores_predictions_exact',
+            'all6900_raw_RMS_cache_FP64_verified']:
+        assert a[key] is True,key
+    assert type(a['pixel_count']) is int and a['pixel_count']==1038643200
+    required=['initial12_head.pt','final_model.pt','final_full.pt','split.npz',
+        'steps.jsonl','TRAIN_ENDPOINT.json','FILES.json','IDENTITY.json',
+        'STATE.json','validation_unscored.npz','diagnostic_unscored.npz']
+    required += ['validation_epoch%03d.npz'%i for i in range(1,101)]
+    required += ['epoch%03d.json'%i for i in range(1,101)]
+    hashes=a['artifact_hashes']
+    assert all(str(B/'run01'/name) in hashes for name in required)
+    for name,digest in hashes.items():
+        assert Path(name).resolve().is_relative_to(B.resolve())
+        assert sha(name)==digest,name
+    return c

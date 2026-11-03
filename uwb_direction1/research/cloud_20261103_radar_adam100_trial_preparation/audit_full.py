@@ -1,7 +1,7 @@
 """UNEXECUTED separate-process all100 replay and raw preprocessing audit.
 
 Call only after the separately registered supervisor has verified producer exit.
-No finalizer or diagnostic label loader is provided by this draft.
+Diagnostic labels remain sealed; completion/private/once gates are separate.
 """
 import time,json
 from trial_common import B,ready,read,write,sha,load_inputs

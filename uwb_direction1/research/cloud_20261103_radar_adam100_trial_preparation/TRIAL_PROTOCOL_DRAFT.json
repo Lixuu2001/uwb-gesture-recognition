@@ -1,6 +1,6 @@
 {
   "state": "unselected_unregistered_unexecuted_draft",
-  "data": "/workspace/uwb-restored-20261020",
+  "data": "/workspace/uwb-restored-20261103",
   "source_manifest": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
   "source_manifest_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
   "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
@@ -24,7 +24,7 @@
   "validation_user": 2,
   "diagnostic_user": 1,
   "source_module_directory": "../cloud_20261103_radar_adam100_preparation",
-  "cost_workspace": null,
+  "cost_workspace": "/workspace/uwb-shufflenetv2-x1-adam100-cost-20261103",
   "seed": 20261029,
   "threads": 4,
   "classes": 12,
@@ -38,7 +38,7 @@
     0.9,
     0.999
   ],
-  "eps": 1e-8,
+  "eps": 1e-08,
   "weight_decay": 0,
   "augmentation": false,
   "checkpoint_selection": "fixed_epoch100",
@@ -49,5 +49,25 @@
   "diagnostic_labels_read": false,
   "independent_validation": false,
   "novel_contribution_claim": false,
-  "new_UWB_fit_started": false
+  "new_UWB_fit_started": false,
+  "weights_sha256": "5666bf0f80d1e7f8fb61f6a65742b9c27c37f3208c1f087cdcd7c1ec1aa8b848",
+  "reference_predictions": "/workspace/uwb-timemil-20261029/run02/timemil/predictions_unscored.npz",
+  "reference_summary": "/workspace/uwb-timemil-20261029/run02/SUMMARY.json",
+  "fail_route": "close_exact_full_ShuffleNetV2_x1_Adam100_B20_noAug_final100_seed20261029_no_rescue",
+  "backup_metadata_upper_bytes": 33554432,
+  "streaming_chunk_bytes": 7340032,
+  "archive_upper_bytes": 65214252,
+  "RSS_stop_KiB": 14680064,
+  "total_wall_seconds": 43200,
+  "total_CPU_seconds": 172800,
+  "producer_limits": {
+    "wall": 21600,
+    "soft_cpu": 86380,
+    "hard_cpu": 86400
+  },
+  "audit_limits": {
+    "wall": 21600,
+    "soft_cpu": 86380,
+    "hard_cpu": 86400
+  }
 }
