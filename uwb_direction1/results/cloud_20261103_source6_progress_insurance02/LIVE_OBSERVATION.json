@@ -1,0 +1,129 @@
+{
+  "controller": {
+    "CPU_seconds": 1212.81,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S"
+  },
+  "controller_state": {
+    "held": 2,
+    "state": "training_fixed_members_unscored",
+    "users7_8_labels_used": false
+  },
+  "diagnostic_labels_read": false,
+  "live_models": {
+    "shuffle": {
+      "checkpoint_sha256": "ec549e957602b30553a701ea305daae968f360932e61f0d3ec252c689a7e1224",
+      "epoch": 97,
+      "producer_completed_unscored": false,
+      "updates": 22795
+    },
+    "timemil": {
+      "checkpoint_sha256": "eac912f0eec1adea192960446ce9361e7d9958033c7d76d1b0f2a96c266e8351",
+      "epoch": 49,
+      "producer_completed_unscored": false,
+      "updates": 3626
+    }
+  },
+  "new_accuracy_result": false,
+  "new_training_process_started": false,
+  "novel_contribution_validated": false,
+  "observed_unix": 1793749174.906371,
+  "private_insurance": {
+    "archive_bytes": 72662069,
+    "archive_sha256": "4520967e964783f307b09b20142aae85439f1718e06c156bc39fa0a018e7e1bb",
+    "chunks": 10,
+    "final_scoring_authority": false,
+    "payloads": 487,
+    "raw_allmember_verified": true
+  },
+  "resource_ledger": {
+    "active_held": 2,
+    "folds": {
+      "2": {
+        "cpu": 49644.54708299999,
+        "wall": 12445.137920859
+      },
+      "3": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 4293592,
+    "last_observed_unix": 1793749170.5896988
+  },
+  "snapshot": {
+    "captured_unix": 1793748838.5220177,
+    "diagnostic_labels_read": false,
+    "held": 2,
+    "independent_full_training_replay_performed": false,
+    "initial_archive_required": true,
+    "members": {
+      "shuffle": {
+        "checkpoint_sha256": "6b4ac87ea0d2a5612085b316b2347220e46fde87d73259a0dd95e85915770234",
+        "progress": {
+          "checkpoint_sha256": "6b4ac87ea0d2a5612085b316b2347220e46fde87d73259a0dd95e85915770234",
+          "epoch": 95,
+          "journal_sha256": "f01123199ebfafa4dd79deac59078a94d8bb6639c1c6c16b8c7f55d2d87165ca",
+          "prefix_bytes": 5472954,
+          "prefix_sha256": "dee6b3882e5f7eca8ef80a700809a5238c84919c03c51bb80c0e60ff607fd616",
+          "slot": "slot1.pt",
+          "updates": 22325
+        },
+        "state": "coherent_running_member_checkpoint_and_exact_log_cut",
+        "step_log": {
+          "captured_bytes": 5476628,
+          "committed_updates": 22325,
+          "complete_rows": 22340,
+          "original_raw_cut_sha256": "f87996dea4245f071a110fb5aa9405ce37b5189aa0a2e08c8b52f9a2331d380b",
+          "partial_tail_bytes": 0,
+          "uncommitted_complete_rows": 15
+        }
+      },
+      "timemil": {
+        "checkpoint_sha256": "1b008bc0456e36e02ef9cbf2ef71328f18f6304cde8c4eb7752d7938d44f043e",
+        "progress": {
+          "checkpoint_sha256": "1b008bc0456e36e02ef9cbf2ef71328f18f6304cde8c4eb7752d7938d44f043e",
+          "epoch": 48,
+          "journal_sha256": "8411efd1ddd9bfa5d499ac0c7045723b7d2aab1f40368b0d9b88e00e5068ebad",
+          "prefix_bytes": 867537,
+          "prefix_sha256": "3482005f98b8133828398631391660cf10d339a95cac8bb4b9d30d1047b73c88",
+          "slot": "slot0.pt",
+          "updates": 3552
+        },
+        "state": "coherent_running_member_checkpoint_and_exact_log_cut",
+        "step_log": {
+          "captured_bytes": 876833,
+          "committed_updates": 3552,
+          "complete_rows": 3590,
+          "original_raw_cut_sha256": "b6a61620541553b4fa966dcdd00a0c191098bd660d7e06a357ab58a5319f2661",
+          "partial_tail_bytes": 0,
+          "uncommitted_complete_rows": 38
+        }
+      }
+    },
+    "new_model_fits_started": false,
+    "private_actual_IDs_included": true,
+    "raw_radar_arrays_included": false,
+    "source": "/workspace/uwb-softvote-source6-real-20261103",
+    "state": "coherent_committed_checkpoint_overlay_captured_without_stopping_live_training",
+    "users7_8_labels_used": false
+  },
+  "source1_rescored": false,
+  "state": "same_registered_source6_controller_live_newer_checkpoint_insurance_verified",
+  "training_configuration_changed": false,
+  "users7_8_labels_used": false
+}

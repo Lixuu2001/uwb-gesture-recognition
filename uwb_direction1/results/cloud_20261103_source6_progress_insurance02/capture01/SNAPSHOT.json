@@ -1,0 +1,57 @@
+{
+  "captured_unix": 1793748838.5220177,
+  "diagnostic_labels_read": false,
+  "held": 2,
+  "independent_full_training_replay_performed": false,
+  "initial_archive_required": true,
+  "members": {
+    "shuffle": {
+      "checkpoint_sha256": "6b4ac87ea0d2a5612085b316b2347220e46fde87d73259a0dd95e85915770234",
+      "progress": {
+        "checkpoint_sha256": "6b4ac87ea0d2a5612085b316b2347220e46fde87d73259a0dd95e85915770234",
+        "epoch": 95,
+        "journal_sha256": "f01123199ebfafa4dd79deac59078a94d8bb6639c1c6c16b8c7f55d2d87165ca",
+        "prefix_bytes": 5472954,
+        "prefix_sha256": "dee6b3882e5f7eca8ef80a700809a5238c84919c03c51bb80c0e60ff607fd616",
+        "slot": "slot1.pt",
+        "updates": 22325
+      },
+      "state": "coherent_running_member_checkpoint_and_exact_log_cut",
+      "step_log": {
+        "captured_bytes": 5476628,
+        "committed_updates": 22325,
+        "complete_rows": 22340,
+        "original_raw_cut_sha256": "f87996dea4245f071a110fb5aa9405ce37b5189aa0a2e08c8b52f9a2331d380b",
+        "partial_tail_bytes": 0,
+        "uncommitted_complete_rows": 15
+      }
+    },
+    "timemil": {
+      "checkpoint_sha256": "1b008bc0456e36e02ef9cbf2ef71328f18f6304cde8c4eb7752d7938d44f043e",
+      "progress": {
+        "checkpoint_sha256": "1b008bc0456e36e02ef9cbf2ef71328f18f6304cde8c4eb7752d7938d44f043e",
+        "epoch": 48,
+        "journal_sha256": "8411efd1ddd9bfa5d499ac0c7045723b7d2aab1f40368b0d9b88e00e5068ebad",
+        "prefix_bytes": 867537,
+        "prefix_sha256": "3482005f98b8133828398631391660cf10d339a95cac8bb4b9d30d1047b73c88",
+        "slot": "slot0.pt",
+        "updates": 3552
+      },
+      "state": "coherent_running_member_checkpoint_and_exact_log_cut",
+      "step_log": {
+        "captured_bytes": 876833,
+        "committed_updates": 3552,
+        "complete_rows": 3590,
+        "original_raw_cut_sha256": "b6a61620541553b4fa966dcdd00a0c191098bd660d7e06a357ab58a5319f2661",
+        "partial_tail_bytes": 0,
+        "uncommitted_complete_rows": 38
+      }
+    }
+  },
+  "new_model_fits_started": false,
+  "private_actual_IDs_included": true,
+  "raw_radar_arrays_included": false,
+  "source": "/workspace/uwb-softvote-source6-real-20261103",
+  "state": "coherent_committed_checkpoint_overlay_captured_without_stopping_live_training",
+  "users7_8_labels_used": false
+}
