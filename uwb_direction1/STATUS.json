@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_Adam100_producer_active_initial_and_learned_epoch1_private_insurance_verified",
+  "state": "Adam100_training_active_epoch25_private_readback_pending_provider_ingress_limit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_adam100_pilot/LATEST_PARTIAL_INSURANCE.md",
+  "latest_report": "results/cloud_20261103_adam100_pilot/CONTINUATION_1130_BACKUP_INGRESS_LIMIT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793694394.398398,
   "background_training_pid": 2377,
-  "background_training_status_note": "Actual controller6216/worker6217 verified, latest retained627updates/epoch2 at2026-11-03T10:58:55.627703+00:00. Initial70member and learned epoch1/235update43member private raw fullmember insurance verified. Frozen30 unchanged; no diagnostic score.",
+  "background_training_status_note": "Controller6216/worker6217 active;8930updates/epoch37 at2026-11-03T11:45:56.566638+00:00. Frozen30 unchanged. Epoch25 all3parts uploaded, raw1/2verified, raw0providerIngress-account-limit/ServerBusy; no wholebackup verification. Originalinitial/epoch1verified indexes retained; diagnostic sealed.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Inspect current Adam100 PID/startticks/checkpoints first; preserve actual complete-epoch partial checkpoint privately, continue all100 producer/full replay, audited full private backup and once frozen held1 gate; no duplicate/resume/retune.",
-  "last_completed_update_utc": "2026-11-03T10:59:27.000300+00:00",
+  "next_candidate": "Inspect same Adam100 worker/checkpoints; continue all100producer/replay. Stop raw retries while ingress-limited; later recover known chunk0ID only and whole91member verification. No reupload/duplicatefit/diagnostic tuning.",
+  "last_completed_update_utc": "2026-11-03T11:45:56.566638+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "full_Adam100_real_producer_active",
+  "latest_task_state": "Adam100_training_active_backup_raw_ingest_blocked",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -9735,5 +9735,64 @@
     "full_audit_claimed": false,
     "diagnostic_scored": false,
     "full_frozen_files_unchanged": true
+  },
+  "Adam100_continuation_1130_20261103": {
+    "utc": "2026-11-03T11:45:56.566638+00:00",
+    "observation": {
+      "state": "real_full_Adam100_B20_producer_actual_updates_verified",
+      "utc": "2026-11-03T11:45:56.566638+00:00",
+      "controller_pid": 6216,
+      "controller_start_ticks": "1335663",
+      "worker_pid": 6217,
+      "worker_start_ticks": "1335941",
+      "process_args_verified": true,
+      "actual_completed_updates": 8930,
+      "last_step": {
+        "epoch": 38,
+        "offset": 4680,
+        "update": 8930,
+        "loss": 0.0005648756050504744,
+        "order_sha256": "2318d877a857cdc5cb3a46441b1609e2c8a6daf7126af899994b0a95d31e44ac"
+      },
+      "last_complete_epoch": 37,
+      "registration_commit": "bc0403cd4e2f7349e49eacfbeb02c35fae4d951b",
+      "frozen_sha256": "cb37edd818b5ce1fe6a357bb8bcaaec06e47c6fecc2841d68d2dc2999e2a7dcc",
+      "initial_private_insurance_verified": true,
+      "diagnostic_labels_read": false,
+      "users7_8_labels_used": false,
+      "epoch1_private_checkpoint_verified": true,
+      "partial_insurance_directory": "/workspace/uwb-shufflenetv2-x1-adam100-pilot-20261103/producer_insurance_epoch001",
+      "partial_archive_sha256": "a68e4df78f46e3489dc26fff2e84ad8bca8aa876bd843af809aa475d830aaf67",
+      "partial_payload_members": 43,
+      "partial_checkpoint_updates": 235,
+      "partial_checkpoint_automatic_resume_authorized": false,
+      "epoch25_archive_uploaded": true,
+      "epoch25_archive_whole_verified": false,
+      "epoch25_raw_verified_chunks": [
+        1,
+        2
+      ],
+      "epoch25_raw_blocked_chunk": 0,
+      "epoch25_partial_backup_directory": "/workspace/uwb-shufflenetv2-x1-adam100-pilot-20261103/producer_insurance_epoch025",
+      "raw_ingest_provider_error": "Ingress is over the account limit / ServerBusy",
+      "current30_frozen_files_exact": true
+    },
+    "epoch25_pending_index": "results/cloud_20261103_adam100_pilot/producer_insurance_epoch025/CLOUD_DOWNLOAD_INDEX_PENDING.json",
+    "checkpoint25_updates": 5875,
+    "partial_archive_bytes": 15694658,
+    "expected_members": 91,
+    "whole_archive_verified": false,
+    "raw_verified_chunks": [
+      1,
+      2
+    ],
+    "blocked_chunk0_known_id": "1T5IpF0sU4tCcmKzgsKHp_j6PjpBsd0Dk",
+    "provider_error": "Ingress is over the account limit / ServerBusy",
+    "raw_retries_paused": true,
+    "new_recovery_handler_tests": 7,
+    "original_verified_epoch1_retained": true,
+    "diagnostic_labels_scored": false,
+    "users7_8_labels_used": false,
+    "goal_met": false
   }
 }

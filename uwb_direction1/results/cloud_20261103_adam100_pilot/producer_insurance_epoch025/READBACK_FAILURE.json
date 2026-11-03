@@ -1,0 +1,33 @@
+{
+  "state": "raw_ingest_account_limit_ServerBusy_no_more_retries",
+  "utc": "2026-11-03T11:45:56.566638+00:00",
+  "file_id": "1T5IpF0sU4tCcmKzgsKHp_j6PjpBsd0Dk",
+  "first_pipeline_failure": "materialize: raw structuredContent.file_uri missing; pipeline reported TypeError",
+  "explicit_raw_fetch_retries": 2,
+  "explicit_retry_provider_error": "MCP -32603 request timed out",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "metadata_only_mime_hint_attempted": true,
+  "mime_after_hint": "application/x-gzip",
+  "mime_hint_effective": false,
+  "file_bytes_reuploaded": false,
+  "sharing_or_parent_changed": false,
+  "parts_1_2_raw_verified": true,
+  "part0_uploaded_metadata_size_verified": true,
+  "whole_archive_verified": false,
+  "full_training_complete": false,
+  "diagnostic_labels_scored": false,
+  "automatic_checkpoint_resume_authorized": false,
+  "existing_epoch1_verified_archive_unchanged": true,
+  "training_process_unaffected": true,
+  "latest_actual_provider_error": "HttpResponseError: Ingress is over the account limit. ErrorCode: ServerBusy",
+  "provider_request_id": "458ef376-301e-007c-3888-6ba2fd000000",
+  "provider_time_utc": "2026-11-03T11:43:02.9848456Z",
+  "additional_recovery_helper_attempts": 1,
+  "recovery_handler_correctly_classifies_provider_failure": true,
+  "recovery_handler_mock_boundary_tests_passed": 7,
+  "all_future_automatic_raw_retries_paused_for_this_ingress_block": true,
+  "original_frozen_upload_helper_unchanged": true
+}

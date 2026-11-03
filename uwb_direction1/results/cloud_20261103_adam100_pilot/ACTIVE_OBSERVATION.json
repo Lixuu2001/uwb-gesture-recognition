@@ -1,20 +1,20 @@
 {
   "state": "real_full_Adam100_B20_producer_actual_updates_verified",
-  "utc": "2026-11-03T10:58:55.627703+00:00",
+  "utc": "2026-11-03T11:45:56.566638+00:00",
   "controller_pid": 6216,
   "controller_start_ticks": "1335663",
   "worker_pid": 6217,
   "worker_start_ticks": "1335941",
   "process_args_verified": true,
-  "actual_completed_updates": 627,
+  "actual_completed_updates": 8930,
   "last_step": {
-    "epoch": 3,
-    "offset": 3120,
-    "update": 627,
-    "loss": 0.08498937636613846,
-    "order_sha256": "b560e2b35005df67e064266ca2b2082b4aed44ac5fb0a7e4d008f73577acd7dc"
+    "epoch": 38,
+    "offset": 4680,
+    "update": 8930,
+    "loss": 0.0005648756050504744,
+    "order_sha256": "2318d877a857cdc5cb3a46441b1609e2c8a6daf7126af899994b0a95d31e44ac"
   },
-  "last_complete_epoch": 2,
+  "last_complete_epoch": 37,
   "registration_commit": "bc0403cd4e2f7349e49eacfbeb02c35fae4d951b",
   "frozen_sha256": "cb37edd818b5ce1fe6a357bb8bcaaec06e47c6fecc2841d68d2dc2999e2a7dcc",
   "initial_private_insurance_verified": true,
@@ -25,5 +25,15 @@
   "partial_archive_sha256": "a68e4df78f46e3489dc26fff2e84ad8bca8aa876bd843af809aa475d830aaf67",
   "partial_payload_members": 43,
   "partial_checkpoint_updates": 235,
-  "partial_checkpoint_automatic_resume_authorized": false
+  "partial_checkpoint_automatic_resume_authorized": false,
+  "epoch25_archive_uploaded": true,
+  "epoch25_archive_whole_verified": false,
+  "epoch25_raw_verified_chunks": [
+    1,
+    2
+  ],
+  "epoch25_raw_blocked_chunk": 0,
+  "epoch25_partial_backup_directory": "/workspace/uwb-shufflenetv2-x1-adam100-pilot-20261103/producer_insurance_epoch025",
+  "raw_ingest_provider_error": "Ingress is over the account limit / ServerBusy",
+  "current30_frozen_files_exact": true
 }

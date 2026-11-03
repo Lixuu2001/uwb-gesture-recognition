@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "state": "uploaded_three_chunks_two_raw_verified_whole_archive_not_verified",
+  "purpose": "Incomplete learned Adam100 checkpoint backup, blocked raw readback0; no audit/score/resume authorization",
+  "scope": "incomplete_producer_checkpoint_ShuffleNetV2_x1_Adam100_epoch025",
+  "archive_sha256": "6e2b42f1203e5c3a960eb4e66bc55d2ba1a496c1ceac299282e8d560c64c4de8",
+  "archive_bytes": 15694658,
+  "members_manifest_sha256": "57be8ce0300826ab777761491b55ae0aa8b65266c7b27bf7d9898ba23d462460",
+  "expected_payload_members": 91,
+  "verified_payload_members": null,
+  "whole_archive_verified": false,
+  "complete_modelset_verified": false,
+  "full_training_complete": false,
+  "full_replay_audit_complete": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "automatic_resume_authorized": false,
+  "checkpoint_epoch": 25,
+  "checkpoint_updates": 5875,
+  "last_logged_update": 5973,
+  "uncommitted_log_suffix_preserved": true,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_must_remain_owner_only": true,
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch025_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "2d2d2d251ec1de0e0c5c93707b7bc8fdb6be74e12939dd50ecc7dbd1fd355115",
+      "file_id": "1T5IpF0sU4tCcmKzgsKHp_j6PjpBsd0Dk",
+      "metadata": {
+        "file_id": "1T5IpF0sU4tCcmKzgsKHp_j6PjpBsd0Dk",
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner"
+          }
+        ],
+        "metadata_only_mime_hint_had_no_effect": true,
+        "bytes_reuploaded": false
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": false,
+      "readback_verified": false,
+      "error": "Raw ingest service ServerBusy/account ingress limit; known ID retained, no upload retry"
+    },
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch025_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "7a3f19ffeed9340ff7d30199e321ad9f2a086e25de2ad07495592a937477a480",
+      "file_id": "1_Ri7fCkCjBTXNyWKdxKRzwLIGcK4S6-R",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "readback_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch025_20261103.part002",
+      "bytes": 1014594,
+      "sha256": "489081a10b26780eb414bec66febdb2378fd9bb86f133fde1cc555668c1dc7bb",
+      "file_id": "1ksXM0saXxb7MGQTTOa8ejua4y3BJTeUV",
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1014594,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "readback_verified": true
+    }
+  ],
+  "frozen_sha256": "cb37edd818b5ce1fe6a357bb8bcaaec06e47c6fecc2841d68d2dc2999e2a7dcc",
+  "registration_commit": "bc0403cd4e2f7349e49eacfbeb02c35fae4d951b",
+  "failure": {
+    "state": "raw_ingest_account_limit_ServerBusy_no_more_retries",
+    "utc": "2026-11-03T11:45:56.566638+00:00",
+    "file_id": "1T5IpF0sU4tCcmKzgsKHp_j6PjpBsd0Dk",
+    "first_pipeline_failure": "materialize: raw structuredContent.file_uri missing; pipeline reported TypeError",
+    "explicit_raw_fetch_retries": 2,
+    "explicit_retry_provider_error": "MCP -32603 request timed out",
+    "raw_fetch_options": {
+      "download_raw_file": true,
+      "include_base64": false
+    },
+    "metadata_only_mime_hint_attempted": true,
+    "mime_after_hint": "application/x-gzip",
+    "mime_hint_effective": false,
+    "file_bytes_reuploaded": false,
+    "sharing_or_parent_changed": false,
+    "parts_1_2_raw_verified": true,
+    "part0_uploaded_metadata_size_verified": true,
+    "whole_archive_verified": false,
+    "full_training_complete": false,
+    "diagnostic_labels_scored": false,
+    "automatic_checkpoint_resume_authorized": false,
+    "existing_epoch1_verified_archive_unchanged": true,
+    "training_process_unaffected": true,
+    "latest_actual_provider_error": "HttpResponseError: Ingress is over the account limit. ErrorCode: ServerBusy",
+    "provider_request_id": "458ef376-301e-007c-3888-6ba2fd000000",
+    "provider_time_utc": "2026-11-03T11:43:02.9848456Z",
+    "additional_recovery_helper_attempts": 1,
+    "recovery_handler_correctly_classifies_provider_failure": true,
+    "recovery_handler_mock_boundary_tests_passed": 7,
+    "all_future_automatic_raw_retries_paused_for_this_ingress_block": true,
+    "original_frozen_upload_helper_unchanged": true
+  }
+}
