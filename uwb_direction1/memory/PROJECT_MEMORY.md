@@ -1,3 +1,12 @@
+## 2026-11-03 epoch20 learned checkpoint privately verified; training continues
+
+The actual recovery model checkpoint at epoch20/6280updates is now durably preserved in owner-only Drive:3parts,16196487bytes,78payload members; archive SHA910d28abb0e9f1b19c78b0ae8c3d10283d7411bf1498142b63a906d51afb317f. Metadata/privacy, rawfetch/base64false immediate materialization/SHA, whole archive and all members verified. Persistent index:producer_insurance_epoch20/CLOUD_DOWNLOAD_INDEX.json. Earlier epoch4 and initial seed indexes remain valid history.
+
+This remains incomplete training. Raw log suffix through6537updates is retained, while the complete saved checkpoint corresponds to6280updates; automatic checkpoint resume stays unauthorized. No diagnostic score, full numeric audit or accuracy improvement is claimed. No users7–8 label use. The same verified producer PID2377/startticks366995 was briefly stopped for stable serialization and resumed in finally (pause0.970102006000161seconds). No state was loaded into the running worker and no second training run was launched. Frozen26 scientific controls remain unchanged; the archive includes the exact executed preservation utility, now also published for operational reproducibility.
+
+Continue the currently active preregistered994727de recovery controller2376 and inspect live PID/STATE/TERM before acting. The full40epoch producer, independent full replay, final all-member private model recovery and once-only diagnostic gate remain mandatory. Active experiment details and resource/preprocessing provenance are in ACTIVE_REAL_EXPERIMENT.md and PREREGISTRATION.md. The research goal is unmet; automatic continuation stays enabled.
+
+
 ## 2026-11-03 real recovery training observed; epoch4 private checkpoint insured
 
 The real controller was launched once at2026-11-03T08:13:39.586492Z only after registration994727de9a04f8029f6a683fe917c587a81d726d and exact readback of all45 changed files. Controller2376/startticks366731 and producer2377/startticks366995 are verified by /proc argv, identity and parent relation. First actual update observation was217; latest retained observation is2806updates, last completed epoch8, RSS1955120KiB. Real seeded head, split IDs, step log and learned best/final checkpoints exist locally. These are actual training updates, not a claim based on Popen alone.

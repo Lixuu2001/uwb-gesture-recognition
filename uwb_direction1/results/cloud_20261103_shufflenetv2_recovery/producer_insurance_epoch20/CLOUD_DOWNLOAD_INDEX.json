@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "state": "incomplete_producer_checkpoint_raw_allmember_private_insurance_verified",
+  "purpose": "Actual latest checkpoint preservation, incomplete producer; no full audit/scoring/automatic resume",
+  "scope": "incomplete_producer_checkpoint_ShuffleNetV2_x1_recovery_epoch20",
+  "archive_sha256": "910d28abb0e9f1b19c78b0ae8c3d10283d7411bf1498142b63a906d51afb317f",
+  "archive_bytes": 16196487,
+  "members_manifest_sha256": "13d5e989569c362d4fba3091951821ca4a99691dbb33447b0302c5a5e556c120",
+  "checkpoint_epoch": 20,
+  "checkpoint_updates": 6280,
+  "last_logged_update": 6537,
+  "uncommitted_log_suffix_preserved": true,
+  "verified_payload_members": 78,
+  "full_training_complete": false,
+  "numeric_audit_certified": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "automatic_resume_authorized": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "folder_must_remain_owner_only": true,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_epoch20_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "edf2ab700ebb647835d4f86cb420340e81de7105f683791a5697e681f2ebefed",
+      "file_id": "1rJz6HarxZAFhHvKXm3c2BcE0rQxcZ62H",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_epoch20_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "74d6b04765ab5c54fad0b173482dcfde69d7c502fe012c780c9f6bff75385506",
+      "file_id": "1Llgoovy0FPOchSeyI3T2YYsxRqwHIBRb",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_epoch20_20261103.part002",
+      "bytes": 1516423,
+      "sha256": "5154caa9f4c82c2c656edb81185abd074711a4f1c33821404c901f5a7beaa2a0",
+      "file_id": "1T-uZcjYOk9mNDSsyKvjLIY2Pd4HthF4e",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1516423,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "frozen_sha256": "22f3772d42371b2994fab86658e53d1dd006a6f75724b29ba11fb23686d5994e",
+  "registration_commit": "994727de9a04f8029f6a683fe917c587a81d726d",
+  "utc": "2026-11-03T08:49:33.106198+00:00"
+}

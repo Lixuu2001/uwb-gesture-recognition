@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_shufflenetv2_recovery/ACTIVE_REAL_EXPERIMENT.md",
+  "latest_report": "results/cloud_20261103_shufflenetv2_recovery/LATEST_PARTIAL_INSURANCE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Inspect current recovery PID/STATE/TERM; finish full40 producer+independent replay, full private all-member backup and one-time frozen diagnostic gate. No duplicate launch or automatic resume. Adam100 remains unselected.",
-  "last_completed_update_utc": "2026-11-03T08:26:34.398398+00:00",
+  "last_completed_update_utc": "2026-11-03T08:49:33.106198+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -9539,6 +9539,21 @@
     "prelaunch_snapshot_commit": "994727de9a04f8029f6a683fe917c587a81d726d",
     "registration_preregistration_utc": "2026-11-03T08:06:22.422129+00:00",
     "prior_generic_background_observed_unix": 1793559417.5430605,
-    "running_frozen_control_files_changed": false
+    "running_frozen_control_files_changed": false,
+    "latest_partial_insurance": {
+      "utc": "2026-11-03T08:49:33.106198+00:00",
+      "checkpoint_epoch": 20,
+      "checkpoint_updates": 6280,
+      "last_logged_update": 6537,
+      "private_payload_members_verified": 78,
+      "archive_bytes": 16196487,
+      "archive_sha256": "910d28abb0e9f1b19c78b0ae8c3d10283d7411bf1498142b63a906d51afb317f",
+      "persistent_index": "results/cloud_20261103_shufflenetv2_recovery/producer_insurance_epoch20/CLOUD_DOWNLOAD_INDEX.json",
+      "full_training_complete": false,
+      "numeric_audit_complete": false,
+      "diagnostic_labels_scored": false,
+      "automatic_resume_authorized": false,
+      "worker_resumed_after_snapshot": true
+    }
   }
 }

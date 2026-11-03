@@ -1,0 +1,32 @@
+{
+  "state": "incomplete_producer_checkpoint_insurance_streamed",
+  "scope": "incomplete_producer_checkpoint_ShuffleNetV2_x1_recovery_epoch20",
+  "complete_modelset": false,
+  "shared_initial_encoder_included_once": true,
+  "tracked_payload_files": 78,
+  "members_manifest_sha256": "13d5e989569c362d4fba3091951821ca4a99691dbb33447b0302c5a5e556c120",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 16196487,
+  "archive_sha256": "910d28abb0e9f1b19c78b0ae8c3d10283d7411bf1498142b63a906d51afb317f",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_epoch20_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "edf2ab700ebb647835d4f86cb420340e81de7105f683791a5697e681f2ebefed"
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_epoch20_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "74d6b04765ab5c54fad0b173482dcfde69d7c502fe012c780c9f6bff75385506"
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_epoch20_20261103.part002",
+      "bytes": 1516423,
+      "sha256": "5154caa9f4c82c2c656edb81185abd074711a4f1c33821404c901f5a7beaa2a0"
+    }
+  ],
+  "full_training_complete": false,
+  "numeric_audit_certified": false
+}
