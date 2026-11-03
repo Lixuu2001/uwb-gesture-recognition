@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "cloud_executor_unavailable_ShuffleNetV2_trial_runtime_unverified",
+  "state": "cloud_runtime_recovered_original_ShuffleNet_attempt_unreachable_recovery_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_adam100_trial_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261103_runtime_recovered/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793559417.5430605,
   "background_training_pid": null,
-  "background_training_status_note": "Cloud startup unavailable: wait failed capability query; final06:26Z provider failed/offline/no capabilities. Existing SGDM40 process/audit unknown since02:36Z epoch24/update7650. No new launch.",
+  "background_training_status_note": "Current new runtime has no old worker/checkpoint directory; old global final state unknown. Raw recovery active; synthetic checks passed; new cost preregistered but not launched.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Recover executor and inspect existing registered ShuffleNet SGDM40 trial first; Adam100 cost implementation is unexecuted and unselected",
-  "last_completed_update_utc": "2026-11-03T06:28:11Z",
+  "next_candidate": "Finish indexed dependency recovery and inspect old artifacts; then separately register identical SGDM40 recovery execution if no checkpoint exists. Adam100 unselected.",
+  "last_completed_update_utc": "2026-11-03T07:38:18.892043+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -9408,5 +9408,46 @@
       "conclusion": "Current root exposes dataset files, not directly readable training scripts; archive contents and any author training-code absence remain unverified.",
       "exact_author_width_and_optimizer_code_parity_verified": false
     }
+  },
+  "runtime_recovery_20261103": {
+    "state": "prospective_same_configuration_operational_recovery_no_scientific_rejection",
+    "utc": "2026-11-03T07:38:18.892043+00:00",
+    "original_registration_commit": "7fd8d88d82b1570f90358dca43fc964b9b7eba88",
+    "original_frozen_sha256": "1616f2fe7c642d721d9e2af984f203aa3f2ddd7889659eb0dbb2dc75ed61129b",
+    "last_actual_old_observation": "2026-11-03T02:36:29.265781Z epoch24/update7650",
+    "old_final_result_known": false,
+    "current_workspace_root_missing": true,
+    "current_training_process_found": false,
+    "bounded_Drive_name_search": "shufflenet in private parent returned no matches",
+    "proof_old_global_process_stopped": false,
+    "scientific_failure": false,
+    "old_configuration_or_seed_changed": false,
+    "recovery_policy": "If no recoverable old checkpoint exists after dependency recovery, separately register a fresh-seed execution of the identical scientific SGDM40/B15 configuration in a new path. Treat original attempt as unreachable/unresolved, not scientific failure. The registered recovery attempt becomes primary; never choose between late old/recovery diagnostic scores.",
+    "candidate_Adam100_selected": false,
+    "formal_cost": {
+      "workspace": "/workspace/uwb-shufflenetv2-x1-recovery-cost-20261103",
+      "frozen_sha256": "f777ec131c9f44e6d372e00992d0e6fd809ecb058d074c9ebba1871359a67715",
+      "started": false,
+      "all40_epoch_full_checkpoint_writes_budgeted": 44,
+      "correction": "Old projection counted8 writes; recovery projection counts40 rolling full writes plus4 overhead writes. Method/seed/split/accuracy gate unchanged."
+    },
+    "raw_restore": {
+      "current_runtime_complete": false,
+      "staging": "/workspace/uwb-transfer-20261103",
+      "planned_target": "/workspace/uwb-restored-20261103",
+      "persistent_index": "migration/20260930/CLOUD_DOWNLOAD_INDEX.json",
+      "maximum_complete_pipelines": 3,
+      "first_check": "Drive folder owner-only; each chunk metadata/size/parent/permission checked before raw fetch, immediately materialized and SHA checked",
+      "exact_original_manifest_SHA_verified": true,
+      "manifest_line_ending_repair": "LF checkout reconstructed CRLF; original10516baf hash verified"
+    },
+    "incident": {
+      "short_lived_authenticated_download_URL_accidentally_printed_once": true,
+      "URL_copied_into_repository": false,
+      "mitigation": "only Sediment file IDs are handled; URL printing disabled and errors sanitized"
+    },
+    "actual_UWB_fit_started": false,
+    "diagnostic_labels_scored": false,
+    "users7_8_labels_used": false
   }
 }

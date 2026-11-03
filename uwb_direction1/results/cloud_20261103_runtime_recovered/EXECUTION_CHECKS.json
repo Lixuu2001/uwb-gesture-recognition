@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-03T07:29:50.847150+00:00",
+  "state": "new_executable_workspace_original_trial_not_recovered",
+  "Python": "3.12.14",
+  "torch": "2.15.0+cpu",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "current_trial_root_exists": false,
+  "original_trial_exit_or_scientific_outcome_known": false,
+  "actual_tests": {
+    "cost_guard": 14,
+    "native_Adam_checkpoint": 2,
+    "recovery_probe": 6
+  },
+  "test_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "syntax_compile_exit_code": 0,
+  "syntax_check_paths": "four existing unexecuted draft directories using absolute paths",
+  "initial_compile_attempt": "wrong relative working directory produced cannot-list messages; not accepted as evidence; repeated using absolute paths",
+  "raw_manifest_issue": "Git checkout LF SHA differed from original; exact CRLF bytes reconstructed and original10516baf SHA verified before restore",
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "new_UWB_fit_started": false,
+  "source_preparation_from_commit": "d80cc94900a1058d44101adf3c1c7d786e5babd6",
+  "logs": {
+    "NATIVE_ADAM_CHECKPOINT_TESTS.log": "f981cc0cf42cada42a82b958d2b92401cf9cfb645abc626dda593c040b2bf5f5",
+    "RECOVERY_PROBE_TESTS.log": "c3d7fd2949c8af569cac7e8cb096b3bd372a02ed8259e691e64e8ad06d45446f",
+    "COST_GUARD_TESTS.log": "1be111e2bc8dc52a920e2c5954dea7ceebab1ea12b1cdf9a7689872c4fddf127"
+  }
+}
