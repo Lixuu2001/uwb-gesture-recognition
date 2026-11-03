@@ -1,6 +1,6 @@
 """UNEXECUTED fail-closed promotion guard. Draft files alone never authorize a run."""
 from pathlib import Path
-import json,hashlib,sys
+import json,hashlib,sys,re
 B=Path(__file__).resolve().parent
 CURRENT_FROZEN='1616f2fe7c642d721d9e2af984f203aa3f2ddd7889659eb0dbb2dc75ed61129b'
 CURRENT_SCOPE='complete_audited_full_ShuffleNetV2_x1_SGDM40_B15_source_held1'
@@ -34,7 +34,7 @@ def ready():
     assert all(n in frozen for n in ['POLICY.json','DEPENDENCIES.json',
         'CURRENT_TRIAL_ACTIVATION.json','NATIVE_SOURCE_TESTS.log',
         'cost_math.py','cost_guard.py','profile_cost.py','bounded_screen.py',
-        'verify_result.py','test_cost_math.py'])
+        'verify_result.py','test_cost_math.py','test_cost_guard.py'])
     for name,digest in frozen.items():
         q=Path(name);assert not q.is_absolute() and '..' not in q.parts
         assert sha(B/q)==digest,name
@@ -57,7 +57,9 @@ def ready():
     root=Path(p['current_trial_root'])
     assert root==Path('/workspace/uwb-shufflenetv2-x1-pilot-20261103')
     assert sha(root/'FROZEN_HASHES.json')==CURRENT_FROZEN==p['current_trial_frozen_sha256']
-    for name,digest in read(root/'FROZEN_HASHES.json').items():
+    prior_frozen=read(root/'FROZEN_HASHES.json')
+    assert len(prior_frozen)==22
+    for name,digest in prior_frozen.items():
         q=Path(name);assert not q.is_absolute() and '..' not in q.parts
         assert sha(root/q)==digest
     assert activation['source_summary_sha256']==sha(root/'run01/SUMMARY.json')
@@ -78,7 +80,14 @@ def ready():
         'all6900_raw_RMS_cache_FP64_verified']:
         assert cert.get(key) is True
     assert cert.get('pixel_count')==1038643200
-    for path,digest in cert['artifact_hashes'].items():
+    artifacts=cert['artifact_hashes']
+    required_artifacts=['initial12_head.pt','best_model.pt','final_full.pt',
+        'split.npz','steps.jsonl','TRAIN_SELECTION.json','FILES.json',
+        'validation_unscored.npz','diagnostic_unscored.npz']
+    required_artifacts += ['validation_epoch%02d.npz'%i for i in range(1,41)]
+    assert all(str(root/'run01'/n) in artifacts for n in required_artifacts)
+    for path,digest in artifacts.items():
+        assert re.fullmatch('[0-9a-f]{64}',digest)
         q=Path(path).resolve();assert q.is_relative_to(root.resolve())
         assert sha(q)==digest
     backup=root/'complete_backup'
@@ -94,4 +103,30 @@ def ready():
     assert receipt['numeric_audit_certified'] is True
     assert receipt['archive_sha256']==verified['archive_sha256']==manifest['archive_sha256']
     assert receipt['diagnostic_labels_scored'] is False
+    archive=manifest['archive_sha256']
+    assert re.fullmatch('[0-9a-f]{64}',archive)
+    members_file=backup/'MEMBERS.json'
+    assert sha(members_file)==manifest['members_manifest_sha256']
+    assert receipt['members_manifest_sha256']==manifest['members_manifest_sha256']
+    rows=read(members_file)['members']
+    assert rows and len(rows)==manifest['tracked_payload_files']
+    members={r['path']:r for r in rows}
+    assert len(members)==len(rows)
+    for name,row in members.items():
+        q=Path(name)
+        assert not q.is_absolute() and '..' not in q.parts
+        assert type(row['bytes']) is int and row['bytes']>=0
+        assert re.fullmatch('[0-9a-f]{64}',row['sha256'])
+    # Match the original finalizer's archived scientific-artifact bindings.
+    bindings={str('run01/'+n):root/'run01'/n for n in [
+        'best_model.pt','final_full.pt','validation_unscored.npz',
+        'diagnostic_unscored.npz']}
+    bindings['study/COMPLETE_AUDIT.json']=root/'COMPLETE_AUDIT.json'
+    bindings['dependencies/source_ids.npz']=Path(
+        '/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz')
+    for name,path in bindings.items():
+        assert name in members and members[name]['sha256']==sha(path)
+    weights='official/weights/shufflenetv2_x1-5666bf0f80.pth'
+    assert members[weights]['sha256']==(
+        '5666bf0f80d1e7f8fb61f6a65742b9c27c37f3208c1f087cdcd7c1ec1aa8b848')
     return p

@@ -1,0 +1,25 @@
+{
+  "state": "static_review_and_unexecuted_fixture_implementation",
+  "observed_utc": "2026-11-03T05:29:48Z",
+  "parent": "6baf9d046d10b8818039d1efad4923d5f6a92751",
+  "applies_only_to": "unselected Adam100 cost draft",
+  "findings": [
+    {
+      "issue": "Prior cert artifact map could be empty and its hash loop pass vacuously.",
+      "repair": "Require initial head/best/final models, IDs/split, steps/selection, FILES, both unscored outputs and all40 validation artifact hashes; require all22 prior frozen files."
+    },
+    {
+      "issue": "Equal receipt/manifest scope and archive SHA alone did not bind prior current scientific artifacts to archived members.",
+      "repair": "Verify MEMBERS SHA/unique count/safe paths/hash shapes; bind current best/final/unscored outputs/audit/source IDs and initial encoder weights."
+    }
+  ],
+  "fixture_count_methods": 10,
+  "fixtures_executed": false,
+  "syntax_checked": false,
+  "hardware_profile_executed": false,
+  "new_UWB_fit_started": false,
+  "old_frozen_study_modified": false,
+  "current_SGDM40_result_known": false,
+  "accuracy_improvement_evidence": false,
+  "originality_evidence": false
+}
