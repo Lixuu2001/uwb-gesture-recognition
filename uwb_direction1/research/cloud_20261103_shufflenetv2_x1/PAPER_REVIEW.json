@@ -1,0 +1,31 @@
+{
+  "primary_radar_paper": {
+    "title": "On the Effect of Training Convolution Neural Network for Millimeter-Wave Radar-Based Hand Gesture Recognition",
+    "authors": "Kang Zhang; Shengchang Lan; Guiyuan Zhang",
+    "year": 2021,
+    "DOI": "10.3390/s21010259",
+    "PMID": 33401744,
+    "PMC": "PMC7796334",
+    "primary": "https://www.mdpi.com/1424-8220/21/1/259",
+    "read_support": "Primaryindexedabstract/methodexcerpt/Table3:pretrainedShuffleNetV2andMobileNetV2arecomparedfor77GHzgesturecrossvolunteertesting;Table3ShuffleNet93.47percentcross/6gestures/1.37Mparams.",
+    "full_text_review_complete": false,
+    "direct_fetch_failures": [
+      "MDPI429",
+      "PMCreCAPTCHA",
+      "EuropePMCXMLnotaccessiblebywebtool",
+      "MDPIpublicPDFnotaccessiblebywebtool"
+    ]
+  },
+  "canonical_architecture": {
+    "paper": "Maetal2018ShuffleNetV2PracticalGuidelinesforEfficientCNNArchitectureDesign",
+    "arxiv": "1807.11164",
+    "full_official_source_commit": "7a9db90e9aadea3e3e1fec35969601167e9efd4f",
+    "original_class_functions_unmodified": true
+  },
+  "limitations": [
+    "Ourcanonicalx1.0fullnetwork2.278604Moriginalparametersdiffersfromradarpapersreported1.37M;noexactauthorradarnetworkortrainingparityclaim.",
+    "Noauthorradarcodeorfulltraininghyperparametersverified;fixed40B15SGDMbudgetisprojecttransferprotocolsupportedbypreviousChoPark2022reviewnotassertedZhangpaperhyperparameters.",
+    "InputissignedUWB_RMSrange-time3radarsnot77GHzTSVspectrogram;inputadapterdisclosed.",
+    "Nooriginalcontributionclaim;publishedstrongbaseline/transferonly."
+  ]
+}

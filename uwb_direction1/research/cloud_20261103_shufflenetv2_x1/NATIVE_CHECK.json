@@ -1,0 +1,37 @@
+{
+  "state": "passed_full_official_ShuffleNetV2_x1_original_logits_and_full_B15_checkpoint_next2updates_exact",
+  "original_parameters": 2278604,
+  "gesture12_trainable_parameters": 1265904,
+  "stages_repeats": [
+    4,
+    8,
+    4
+  ],
+  "stage_channels": [
+    24,
+    116,
+    232,
+    464,
+    1024
+  ],
+  "original1000_logits_manual_channel_index_driver_exact": true,
+  "all_layers_trainable": true,
+  "batch_size": 15,
+  "synthetic_input": [
+    15,
+    3,
+    90,
+    189
+  ],
+  "initial_loss": 2.481389045715332,
+  "next2_losses": [
+    2.483656644821167,
+    2.4851529598236084
+  ],
+  "full_model_BN_optimizer_momentum_and_RNG_exact": true,
+  "checkpoint_bytes": 10351235,
+  "checkpoint_IO_in_RAM_only": true,
+  "actual_UWB_fit_started": false,
+  "formal_CPU_cost_started": false,
+  "accuracy_or_originality_claim": false
+}
