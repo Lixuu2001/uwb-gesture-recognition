@@ -1,0 +1,36 @@
+{
+  "state": "source1_positive_pilot_preserved_source6_method_locked_coupled_preflight_passed_real_runner_not_launched",
+  "source6_root": "/workspace/uwb-softvote-source6-preparation-20261103",
+  "source6_lock_and_cost_registration": "f692711c80deadd316ee0197b73f2830533287ca",
+  "source1_diagnostic_macro": 0.9916666666666667,
+  "source1_delta_over_TimeMIL": 0.0050000000000000044,
+  "source1_private_7chunks_163members_verified": true,
+  "source1_independent_validation": false,
+  "source1_originality_proven": false,
+  "coupled_preflight": {
+    "state": "concurrent_full_B64_TimeMIL_and_B20_Shuffle_synthetic_preflight_verified",
+    "source6_method_lock_sha256": "442006fc513275db9d3cdfa35c92dacda2183ceed54af98dc1cd18c68acb8115",
+    "profile_result_sha256": "45e50478f1d98a1f4f1da08067acc487f3a963d0388cb9d657d41903a6446550",
+    "actual_wall_seconds": 18.301214767998317,
+    "actual_CPU_seconds": 34.176694,
+    "peak_combined_RSS_KiB": 3088840,
+    "each6fullupdates_verified": true,
+    "threads": [
+      1,
+      4
+    ],
+    "new_UWB_fit_started": false,
+    "full_pipeline_projection_recomputed_from_original_real_traces_without_reprofiling": true,
+    "projected_perfold_wall_seconds": 32685.94572297064,
+    "projected_perfold_CPU_seconds": 137847.95585666224,
+    "full_future_training_time_guaranteed": false,
+    "scope": "Synthetic memory/concurrency preflight plus empirical estimate only; full real runner/resume/audit/private preservation and exact remote real preregistration still required."
+  },
+  "source6_new_real_folds_started": false,
+  "source6_confirmation_complete": false,
+  "legacy8fold_improvement_proven": false,
+  "users7_8_labels_used": false,
+  "goal_achieved": false,
+  "background_training_running": false,
+  "observed_utc": "2026-11-03T18:28:39.536680+00:00"
+}

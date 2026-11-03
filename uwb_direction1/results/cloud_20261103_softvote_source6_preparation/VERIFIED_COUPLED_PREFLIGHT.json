@@ -1,0 +1,19 @@
+{
+  "state": "concurrent_full_B64_TimeMIL_and_B20_Shuffle_synthetic_preflight_verified",
+  "source6_method_lock_sha256": "442006fc513275db9d3cdfa35c92dacda2183ceed54af98dc1cd18c68acb8115",
+  "profile_result_sha256": "45e50478f1d98a1f4f1da08067acc487f3a963d0388cb9d657d41903a6446550",
+  "actual_wall_seconds": 18.301214767998317,
+  "actual_CPU_seconds": 34.176694,
+  "peak_combined_RSS_KiB": 3088840,
+  "each6fullupdates_verified": true,
+  "threads": [
+    1,
+    4
+  ],
+  "new_UWB_fit_started": false,
+  "full_pipeline_projection_recomputed_from_original_real_traces_without_reprofiling": true,
+  "projected_perfold_wall_seconds": 32685.94572297064,
+  "projected_perfold_CPU_seconds": 137847.95585666224,
+  "full_future_training_time_guaranteed": false,
+  "scope": "Synthetic memory/concurrency preflight plus empirical estimate only; full real runner/resume/audit/private preservation and exact remote real preregistration still required."
+}
