@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "state": "partial_independent_replay_checkpoint_raw_allmember_verified_full_audit_pending",
+  "purpose": "Own independently replayed57epoch state and journal chain, not producer checkpoint substitute or full100certificate",
+  "scope": "incomplete_independent_Adam100_replay_checkpoint_epoch057",
+  "archive_sha256": "811d7b85410bb416d05903d1e702793896bb409aa63c39aaf926636375ccdc8f",
+  "archive_bytes": 14240035,
+  "members_manifest_sha256": "1e3b7d76f95f10676c10da2d9664db47e4b56835d8d216ed144ce9707a8b3af1",
+  "verified_payload_members": 146,
+  "committed_epoch": 57,
+  "verified_prefix_updates": 13395,
+  "full100_replay_complete": false,
+  "full_RMS_pixels_audit_complete": false,
+  "numeric_audit_certified": false,
+  "complete_modelset_verified": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "automatic_resume_authorized": false,
+  "producer_checkpoint_used_as_audit_state": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_must_remain_owner_only": true,
+  "max_concurrency": 3,
+  "actual_concurrency": 1,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "chunks": [
+    {
+      "name": "adam100_independent_replay_epoch057_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "052e9f7692344ed2ae0c97b5e53c8f3a3b7720ec5488d3232a0c0e8e2191f842",
+      "file_id": "1pX0gBDOfD0NbRC4xzl9b8qbDSn3Fb-8n",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "adam100_independent_replay_epoch057_20261103.part001",
+      "bytes": 6900003,
+      "sha256": "12664224bb664f17aec130a79ed570697d197d772b8b08f8a16de2543cddcaaf",
+      "file_id": "14PjqD9hgCtbWaQPpGmGUZHqQdH6QQa2L",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 6900003,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "frozen_sha256": "fb5d9f587d7aa1b12638c62bacc74704e3c646c5cf1e7338e591f9d69a883b34",
+  "producer_restore_dependency": "Complete verified288member producer archive supplies actual run01 files; producer_epoch_records in this snapshot are hash-matched reference copies",
+  "utc": "2026-11-03T16:24:45.924400+00:00"
+}

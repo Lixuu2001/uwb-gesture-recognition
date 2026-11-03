@@ -1,0 +1,16 @@
+test_complete_100epochs_plus_replay_cannot_fit_one_second_updates (test_cost_math.Boundaries.test_complete_100epochs_plus_replay_cannot_fit_one_second_updates) ... ok
+test_full_checkpoint_and_streaming_workspace_boundary (test_cost_math.Boundaries.test_full_checkpoint_and_streaming_workspace_boundary) ... ok
+test_memory_margin_and_no_epoch_shrinking (test_cost_math.Boundaries.test_memory_margin_and_no_epoch_shrinking) ... ok
+test_no_resource_claim_for_nonfinite_or_incomplete_timings (test_cost_math.Boundaries.test_no_resource_claim_for_nonfinite_or_incomplete_timings) ... ok
+test_changed_members_without_manifest_rehash_refused (test_activation_guard.Promotion.test_changed_members_without_manifest_rehash_refused) ... ok
+test_coherent_virtual_closed_artifacts (test_activation_guard.Promotion.test_coherent_virtual_closed_artifacts) ... ok
+test_partial_replay_or_absent_journal_claim_refused (test_activation_guard.Promotion.test_partial_replay_or_absent_journal_claim_refused) ... ok
+test_pass_unknown_old_SGDM_route_and_forbidden_labels_refused (test_activation_guard.Promotion.test_pass_unknown_old_SGDM_route_and_forbidden_labels_refused) ... ok
+test_preparation_cannot_activate_without_real_policy (test_activation_guard.Promotion.test_preparation_cannot_activate_without_real_policy) ... ok
+test_producer_only_or_unverified_private_receipt_refused (test_activation_guard.Promotion.test_producer_only_or_unverified_private_receipt_refused) ... ok
+test_stale_model_or_audit_journal_binding_refused (test_activation_guard.Promotion.test_stale_model_or_audit_journal_binding_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.066s
+
+OK

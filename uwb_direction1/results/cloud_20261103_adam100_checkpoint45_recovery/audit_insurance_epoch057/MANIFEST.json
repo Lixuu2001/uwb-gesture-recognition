@@ -1,0 +1,27 @@
+{
+  "state": "partial_committed_audit_checkpoint_insurance_streamed",
+  "scope": "incomplete_independent_Adam100_replay_checkpoint_epoch057",
+  "complete_modelset": false,
+  "shared_initial_encoder_included_once": true,
+  "tracked_payload_files": 146,
+  "members_manifest_sha256": "1e3b7d76f95f10676c10da2d9664db47e4b56835d8d216ed144ce9707a8b3af1",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 14240035,
+  "archive_sha256": "811d7b85410bb416d05903d1e702793896bb409aa63c39aaf926636375ccdc8f",
+  "chunks": [
+    {
+      "name": "adam100_independent_replay_epoch057_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "052e9f7692344ed2ae0c97b5e53c8f3a3b7720ec5488d3232a0c0e8e2191f842"
+    },
+    {
+      "name": "adam100_independent_replay_epoch057_20261103.part001",
+      "bytes": 6900003,
+      "sha256": "12664224bb664f17aec130a79ed570697d197d772b8b08f8a16de2543cddcaaf"
+    }
+  ],
+  "full100_replay_complete": false,
+  "numeric_audit_certified": false
+}
