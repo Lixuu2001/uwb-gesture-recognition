@@ -1,0 +1,31 @@
+{
+  "state": "bounded_metadata_and_read_attempts_only",
+  "observed_utc": "2026-11-03T04:33:31Z",
+  "repository": "pantheon5100/MRHGR-dataset",
+  "repository_id": 326107382,
+  "default_branch": "main",
+  "visibility": "public",
+  "pull_permission": true,
+  "push_permission": false,
+  "read_attempts": [
+    {
+      "path": "README.md",
+      "ref": "main",
+      "outcome": "404"
+    },
+    {
+      "path": "readme.md",
+      "ref": "main",
+      "outcome": "404"
+    },
+    {
+      "query": "optimizer",
+      "scope": "repository_default_branch_code_search",
+      "outcome": "no_matches_returned"
+    }
+  ],
+  "conclusions": [
+    "These bounded failures do not establish code absence, repository loss or rename.",
+    "Exact author implementation/width and momentum ambiguity remain unverified."
+  ]
+}
