@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "purpose": "Learned complete-epoch Adam100 checkpoint insurance; incomplete trial, no audit/score/auto-resume",
+  "scope": "incomplete_producer_checkpoint_ShuffleNetV2_x1_Adam100_epoch001",
+  "archive_sha256": "a68e4df78f46e3489dc26fff2e84ad8bca8aa876bd843af809aa475d830aaf67",
+  "archive_bytes": 14246258,
+  "members_manifest_sha256": "eb3991bf9ee9cef19041f0b300939674bbfd37e10b2e49e0b1ed694b3c7b1d20",
+  "verified_payload_members": 43,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "folder_must_remain_owner_only": true,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch001_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "4cd5d27f20bc1f02ac5b34161de8559d7f55f53cec59f93ff5a952a270e5f830",
+      "file_id": "19u-pzXASYQFmJ2uzS70IYPRoY1M8qUJJ",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch001_20261103.part001",
+      "bytes": 6906226,
+      "sha256": "2f42106d16d3c3e83f7ce00c2b33eae2546bec3abcfcf1c361d172663c026c57",
+      "file_id": "1THktxpkUyMXB4_hN6XRA7roS0x6d4jwh",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 6906226,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "checkpoint_epoch": 1,
+  "checkpoint_updates": 235,
+  "last_logged_update": 406,
+  "uncommitted_log_suffix_preserved": true,
+  "automatic_resume_authorized": false,
+  "full_training_complete": false,
+  "full_replay_audit_complete": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "registration_commit": "bc0403cd4e2f7349e49eacfbeb02c35fae4d951b",
+  "frozen_sha256": "cb37edd818b5ce1fe6a357bb8bcaaec06e47c6fecc2841d68d2dc2999e2a7dcc"
+}

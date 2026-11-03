@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "full_published_Adam100_real_UWB_producer_active_initial_private_insurance_verified",
+  "state": "full_Adam100_producer_active_initial_and_learned_epoch1_private_insurance_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_adam100_pilot/ACTIVE_REAL_EXPERIMENT.md",
+  "latest_report": "results/cloud_20261103_adam100_pilot/LATEST_PARTIAL_INSURANCE.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793694394.398398,
   "background_training_pid": 2377,
-  "background_training_status_note": "Actual Adam100 controller6216/worker6217 identity verified, 258updates observed at2026-11-03T10:56:50.743807+00:00. Frozen30 unchanged; initial private70payload archive raw allmember verified. Diagnostic unscored. No duplicate.",
+  "background_training_status_note": "Actual controller6216/worker6217 verified, latest retained627updates/epoch2 at2026-11-03T10:58:55.627703+00:00. Initial70member and learned epoch1/235update43member private raw fullmember insurance verified. Frozen30 unchanged; no diagnostic score.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Inspect current Adam100 PID/startticks/checkpoints first; preserve actual complete-epoch partial checkpoint privately, continue all100 producer/full replay, audited full private backup and once frozen held1 gate; no duplicate/resume/retune.",
-  "last_completed_update_utc": "2026-11-03T10:56:50.743807+00:00",
+  "last_completed_update_utc": "2026-11-03T10:59:27.000300+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "full_published_Adam100_real_UWB_producer_active",
+  "latest_task_state": "full_Adam100_real_producer_active",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -9694,5 +9694,46 @@
     "frozen_control_files_changed": false,
     "checkpoint_partial_helper_executed": false,
     "goal_met": false
+  },
+  "Adam100_epoch1_private_20261103": {
+    "observation": {
+      "state": "real_full_Adam100_B20_producer_actual_updates_verified",
+      "utc": "2026-11-03T10:58:55.627703+00:00",
+      "controller_pid": 6216,
+      "controller_start_ticks": "1335663",
+      "worker_pid": 6217,
+      "worker_start_ticks": "1335941",
+      "process_args_verified": true,
+      "actual_completed_updates": 627,
+      "last_step": {
+        "epoch": 3,
+        "offset": 3120,
+        "update": 627,
+        "loss": 0.08498937636613846,
+        "order_sha256": "b560e2b35005df67e064266ca2b2082b4aed44ac5fb0a7e4d008f73577acd7dc"
+      },
+      "last_complete_epoch": 2,
+      "registration_commit": "bc0403cd4e2f7349e49eacfbeb02c35fae4d951b",
+      "frozen_sha256": "cb37edd818b5ce1fe6a357bb8bcaaec06e47c6fecc2841d68d2dc2999e2a7dcc",
+      "initial_private_insurance_verified": true,
+      "diagnostic_labels_read": false,
+      "users7_8_labels_used": false,
+      "epoch1_private_checkpoint_verified": true,
+      "partial_insurance_directory": "/workspace/uwb-shufflenetv2-x1-adam100-pilot-20261103/producer_insurance_epoch001",
+      "partial_archive_sha256": "a68e4df78f46e3489dc26fff2e84ad8bca8aa876bd843af809aa475d830aaf67",
+      "partial_payload_members": 43,
+      "partial_checkpoint_updates": 235,
+      "partial_checkpoint_automatic_resume_authorized": false
+    },
+    "partial_insurance_index": "results/cloud_20261103_adam100_pilot/producer_insurance_epoch001/CLOUD_DOWNLOAD_INDEX.json",
+    "private_partial_bytes": 14246258,
+    "private_payload_members": 43,
+    "uncommitted_log_suffix_preserved": true,
+    "checkpoint_updates": 235,
+    "raw_log_updates": 406,
+    "automatic_checkpoint_resume_authorized": false,
+    "full_audit_claimed": false,
+    "diagnostic_scored": false,
+    "full_frozen_files_unchanged": true
   }
 }

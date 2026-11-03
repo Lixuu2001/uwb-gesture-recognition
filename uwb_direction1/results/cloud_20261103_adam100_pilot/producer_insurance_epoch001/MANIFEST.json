@@ -1,0 +1,27 @@
+{
+  "state": "incomplete_producer_checkpoint_insurance_streamed",
+  "scope": "incomplete_producer_checkpoint_ShuffleNetV2_x1_Adam100_epoch001",
+  "complete_modelset": false,
+  "shared_initial_encoder_included_once": true,
+  "tracked_payload_files": 43,
+  "members_manifest_sha256": "eb3991bf9ee9cef19041f0b300939674bbfd37e10b2e49e0b1ed694b3c7b1d20",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 14246258,
+  "archive_sha256": "a68e4df78f46e3489dc26fff2e84ad8bca8aa876bd843af809aa475d830aaf67",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch001_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "4cd5d27f20bc1f02ac5b34161de8559d7f55f53cec59f93ff5a952a270e5f830"
+    },
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch001_20261103.part001",
+      "bytes": 6906226,
+      "sha256": "2f42106d16d3c3e83f7ce00c2b33eae2546bec3abcfcf1c361d172663c026c57"
+    }
+  ],
+  "full_training_complete": false,
+  "numeric_audit_certified": false
+}

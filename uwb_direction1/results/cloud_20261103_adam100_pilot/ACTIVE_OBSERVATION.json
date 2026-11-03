@@ -1,23 +1,29 @@
 {
   "state": "real_full_Adam100_B20_producer_actual_updates_verified",
-  "utc": "2026-11-03T10:56:50.743807+00:00",
+  "utc": "2026-11-03T10:58:55.627703+00:00",
   "controller_pid": 6216,
   "controller_start_ticks": "1335663",
   "worker_pid": 6217,
   "worker_start_ticks": "1335941",
   "process_args_verified": true,
-  "actual_completed_updates": 258,
+  "actual_completed_updates": 627,
   "last_step": {
-    "epoch": 2,
-    "offset": 440,
-    "update": 258,
-    "loss": 0.16676801443099976,
-    "order_sha256": "fb8192974c8d4466f16350f6208d302d36d5d5940dfd96442b90bf9d35e452fe"
+    "epoch": 3,
+    "offset": 3120,
+    "update": 627,
+    "loss": 0.08498937636613846,
+    "order_sha256": "b560e2b35005df67e064266ca2b2082b4aed44ac5fb0a7e4d008f73577acd7dc"
   },
-  "last_complete_epoch": 1,
+  "last_complete_epoch": 2,
   "registration_commit": "bc0403cd4e2f7349e49eacfbeb02c35fae4d951b",
   "frozen_sha256": "cb37edd818b5ce1fe6a357bb8bcaaec06e47c6fecc2841d68d2dc2999e2a7dcc",
   "initial_private_insurance_verified": true,
   "diagnostic_labels_read": false,
-  "users7_8_labels_used": false
+  "users7_8_labels_used": false,
+  "epoch1_private_checkpoint_verified": true,
+  "partial_insurance_directory": "/workspace/uwb-shufflenetv2-x1-adam100-pilot-20261103/producer_insurance_epoch001",
+  "partial_archive_sha256": "a68e4df78f46e3489dc26fff2e84ad8bca8aa876bd843af809aa475d830aaf67",
+  "partial_payload_members": 43,
+  "partial_checkpoint_updates": 235,
+  "partial_checkpoint_automatic_resume_authorized": false
 }
