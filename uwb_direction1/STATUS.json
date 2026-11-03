@@ -1,9 +1,9 @@
 {
-  "date_client": "2026-11-02",
+  "date_client": "2026-11-03",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_real_lifecycle_partial_runtime_unavailable_no_real_fitting",
+  "state": "source6_real_lifecycle_registered_pending_private_initial_insurance_and_launch",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-10-29 cloud: Python3.12.14,5 CPUs,NumPy2.3.5,SciPy1.17.0,sklearn1.8.0,Numba0.68.1,CPU PyTorch2.15.0+cpu; no GPU",
+  "compute": "2026-11-03 recovered cloud boot29a75b3c-d071-401f-b05f-fcf3d9937f08; CPU quota4, RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; member threads1+4; no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_source6_runtime_unavailable/RUN_REPORT.md",
+  "latest_report": "research/cloud_20261103_softvote_source6_real/README.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793730519.5485392,
   "background_training_pid": null,
-  "background_training_status_note": "Cloud runtime unavailable/offline. Real lifecycle code and 12 observed synthetic tests advanced; final edits not revalidated. No new source6 fitting, real preregistration or initial private seed archive started.",
+  "background_training_status_note": "Recovered workspace and 1293 dependency hashes verified. Real lifecycle and16 tests complete, separately preregistered. Real fitting still blocked until exact remote readback marker and raw owner-only initial model/role-ID insurance; no launch claimed yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -10146,5 +10146,55 @@
   "source1_score_repeated": false,
   "new_accuracy_result": false,
   "goal_achieved": false
+}
+,
+  "softvote_source6_real_20261103": {
+  "state": "source6_real_lifecycle_registered_pending_private_initial_insurance_and_launch",
+  "runtime_recovered": true,
+  "raw_data_redownloaded": false,
+  "dependencies_verified": 1293,
+  "dependency_mismatches": 0,
+  "real_fit_started": false,
+  "model_and_actual_IDs_public": false,
+  "frozen_sha256": "2b7cd7b4579c036e2db0c5fd69c677cae37b8281ae6c44fcb9e5d0a792a587c8",
+  "tests_passed": 16,
+  "capacity": {
+    "actual": {
+      "cgroup_OOM_kill_delta": 0,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "new_UWB_fit_started": false,
+      "peak_combined_RSS_KiB": 3157220,
+      "resource_gate_passed": true,
+      "resource_stop_reason": null,
+      "state": "complete_concurrent_full_batch_synthetic_preflight",
+      "total_child_CPU_seconds": 32.391931,
+      "wall_seconds": 17.863456762000055
+    },
+    "full_training_time_guaranteed": false,
+    "member_threads_preserved": [
+      1,
+      4
+    ],
+    "new_UWB_fit_started": false,
+    "observed_CPU_quota": 4,
+    "preflight_lock_sha256": "43a44daee0c619626ec01cc057c21bd32d9565dac4f58a45a4016a379a67df03",
+    "previous_empirical_trace_margins": [
+      1.5,
+      1.2
+    ],
+    "profile_result_sha256": "e86548fa6d9decca2076751258e827358fb6422c25d3268f0c6de76f2296f1cc",
+    "projected_perfold_CPU_seconds": 137847.95585666224,
+    "projected_perfold_wall_seconds": 40857.4321537133,
+    "resource_gate_passed": true,
+    "state": "current_CPU4_native_pair_synthetic_12updates_verified",
+    "wall_projection_quota_multiplier": 1.25
+  },
+  "path": "/workspace/uwb-softvote-source6-real-20261103",
+  "next_step": "exact_remote_real_readback_then_private_initial_insurance_then_real_controller",
+  "users7_8_labels_used": false,
+  "novel_contribution_validated": false
 }
 }

@@ -1,0 +1,44 @@
+{
+  "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+  "native_full_trajectory_training_performed": false,
+  "new_UWB_fit_started": false,
+  "rows": [
+    {
+      "log": "NATIVE_TIMEMIL_TESTS_RECOVERED.log",
+      "seconds": 26.639,
+      "sha256": "eddee9b30c2140d281a04b058db5d6380046282e4c0d8bccb8b533707cffa134",
+      "tests": 2
+    },
+    {
+      "log": "NATIVE_SHUFFLE_TESTS_RECOVERED.log",
+      "seconds": 5.76,
+      "sha256": "b3741aa54284f4caa2a3a42ce676dc08fcbcdbd14e9ce1612017f37c04caaec3",
+      "tests": 2
+    },
+    {
+      "log": "JOURNAL_TESTS_RECOVERED.log",
+      "seconds": 0.015,
+      "sha256": "795aad35d5ff75249bb572ec2a30a2ad0392243043fcf019f3e664b72aaa3f67",
+      "tests": 3
+    },
+    {
+      "log": "CONTROL_TESTS_RECOVERED.log",
+      "seconds": 0.002,
+      "sha256": "ff480b6eddc59376ae8b444cf256cf967488c65f57c503f7a9c4a115148d95a5",
+      "tests": 3
+    },
+    {
+      "log": "TOY_LIFECYCLE_TESTS_RECOVERED.log",
+      "seconds": 2.303,
+      "sha256": "5a932bb2c458c6ff0744bc8737b83581a95d255d5a2165800aa0bebf8004c695",
+      "tests": 2
+    },
+    {
+      "log": "SEALING_TESTS.log",
+      "seconds": 0.004,
+      "sha256": "da8ce724f1441793b53a639f881d2e140fbd1854fbfd292bd563f77e9131ca85",
+      "tests": 4
+    }
+  ],
+  "state": "16_tests_passed_current_recovered_boot_before_real_fitting"
+}

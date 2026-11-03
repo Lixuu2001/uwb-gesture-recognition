@@ -1,0 +1,47 @@
+test_Shuffle100_producer_suffix_and_own_audit_recovery (test_toy_lifecycle.Lifecycle.test_Shuffle100_producer_suffix_and_own_audit_recovery) ... ERROR
+test_TimeMIL64_selection_and_committed_recovery (test_toy_lifecycle.Lifecycle.test_TimeMIL64_selection_and_committed_recovery) ... ERROR
+
+======================================================================
+ERROR: test_Shuffle100_producer_suffix_and_own_audit_recovery (test_toy_lifecycle.Lifecycle.test_Shuffle100_producer_suffix_and_own_audit_recovery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/uwb-softvote-source6-real-20261103/test_toy_lifecycle.py", line 82, in test_Shuffle100_producer_suffix_and_own_audit_recovery
+    def test_Shuffle100_producer_suffix_and_own_audit_recovery(self):self.run_case('shuffle',True)
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-softvote-source6-real-20261103/test_toy_lifecycle.py", line 43, in run_case
+    for mod in [common,produce,first_audit,audit_inference,replay_shuffle,checks,controller]:stack.enter_context(patch.object(mod,'B',b))
+                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py", line 526, in enter_context
+    result = _enter(cm)
+             ^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1467, in __enter__
+    original, local = self.get_original()
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1437, in get_original
+    raise AttributeError(
+AttributeError: <module 'replay_shuffle' from '/workspace/uwb-softvote-source6-real-20261103/replay_shuffle.py'> does not have the attribute 'B'
+
+======================================================================
+ERROR: test_TimeMIL64_selection_and_committed_recovery (test_toy_lifecycle.Lifecycle.test_TimeMIL64_selection_and_committed_recovery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/uwb-softvote-source6-real-20261103/test_toy_lifecycle.py", line 81, in test_TimeMIL64_selection_and_committed_recovery
+    def test_TimeMIL64_selection_and_committed_recovery(self):self.run_case('timemil',True)
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-softvote-source6-real-20261103/test_toy_lifecycle.py", line 43, in run_case
+    for mod in [common,produce,first_audit,audit_inference,replay_shuffle,checks,controller]:stack.enter_context(patch.object(mod,'B',b))
+                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/contextlib.py", line 526, in enter_context
+    result = _enter(cm)
+             ^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1467, in __enter__
+    original, local = self.get_original()
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1437, in get_original
+    raise AttributeError(
+AttributeError: <module 'replay_shuffle' from '/workspace/uwb-softvote-source6-real-20261103/replay_shuffle.py'> does not have the attribute 'B'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+FAILED (errors=2)

@@ -1,0 +1,19 @@
+test_toy_lifecycle (unittest.loader._FailedTest.test_toy_lifecycle) ... ERROR
+
+======================================================================
+ERROR: test_toy_lifecycle (unittest.loader._FailedTest.test_toy_lifecycle)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_toy_lifecycle
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-softvote-source6-real-20261103/test_toy_lifecycle.py", line 9, in <module>
+    from unittest.mock import patch,ExitStack
+ImportError: cannot import name 'ExitStack' from 'unittest.mock' (/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

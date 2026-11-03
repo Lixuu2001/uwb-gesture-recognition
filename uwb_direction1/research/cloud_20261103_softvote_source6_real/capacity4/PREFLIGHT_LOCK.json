@@ -1,0 +1,19 @@
+{
+  "synthetic_only": true,
+  "new_UWB_fit_permitted": false,
+  "member_threads": [
+    1,
+    4
+  ],
+  "updates_per_member": 6,
+  "CPU_quota": 4,
+  "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+  "files": {
+    "profile_pair.py": "2d7ead0d47c15b17635246fdf1c7c05074cd60d8175cf9a1a8447ab2c24c6bc9",
+    "profile_worker.py": "a949628780568b50bac0b6ddeca780bc35cb62ec6ee8986c0f986201256c09a7",
+    "SOURCE6_METHOD_LOCK.json": "442006fc513275db9d3cdfa35c92dacda2183ceed54af98dc1cd18c68acb8115",
+    "DEPENDENCIES.json": "10dcac490a999d5279243d98da33f769a907ceb7d6e3b484b503f5d3d58f0ce0",
+    "EMPIRICAL_COST_INPUTS.json": "dc5625da176c334465bbdd1dd98510aecb8e78f3542e4a4662243c8ac6b4a179"
+  },
+  "projection_policy": "prior full traces with fixed 1.5*1.2 margins, wall multiplied by 5/4 for quota change; observed peak memory and two six-step terminal success required; caps unchanged"
+}
