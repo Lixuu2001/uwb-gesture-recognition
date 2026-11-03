@@ -1,0 +1,40 @@
+{
+  "state": "captured_live_tool_observations_before_runtime_disconnected_not_current_filesystem_hash_certificate",
+  "native_TimeMIL": {
+    "tests": 2,
+    "passed": 2,
+    "seconds": 26.356,
+    "scope": "actual full B64 native step/reference and stochastic resume across Lookahead slow-sync/dropout/storage aliases"
+  },
+  "native_ShuffleNet": {
+    "tests": 2,
+    "passed": 2,
+    "seconds": 5.669,
+    "scope": "actual full B20 native step/reference and Adam/BN/sampler/RNG resume"
+  },
+  "journal": {
+    "tests": 3,
+    "passed": 3,
+    "seconds": 0.017,
+    "scope": "slot/orphan checkpoint, exact suffix preservation, prefix/checkpoint tamper rejection"
+  },
+  "controller": {
+    "tests": 3,
+    "passed": 3,
+    "seconds": 0.002,
+    "scope": "active-PID duplicate rejection, first-step release checks and budget caps"
+  },
+  "toy_lifecycle": {
+    "tests": 2,
+    "passed": 2,
+    "seconds": 2.091,
+    "scope": "explicit tiny synthetic backend through full64/100 control loops, producer interruption/suffix replay, own auditor checkpoint recovery; not native100 training"
+  },
+  "prelaunch_fixture_failures_fixed": [
+    "wrong unittest.mock.ExitStack import",
+    "fixture tried to patch nonexistent replay_shuffle.B"
+  ],
+  "latest_cleanup_asset_guard_changes_not_retested": true,
+  "raw_log_bytes_and_source_hashes_currently_unreadable": true,
+  "no_new_UWB_fitting": true
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "softvote_source1_positive_source6_method_locked_coupled_preflight_passed_real_runner_pending",
+  "state": "source6_real_lifecycle_partial_runtime_unavailable_no_real_fitting",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_softvote_source6_preparation/COUPLED_PREFLIGHT_AND_NEXT.md",
+  "latest_report": "results/cloud_20261103_source6_runtime_unavailable/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793730519.5485392,
   "background_training_pid": null,
-  "background_training_status_note": "No active job. Source1 once99.1667vs98.6667/+0.5pp passed. Six-source method and gates locked; fullB64TimeMILCPU1+B20ShuffleCPU4 concurrent synthetic preflight passed. Implement/test/freeze/register full real lifecycle before any new fold fitting.",
+  "background_training_status_note": "Cloud runtime unavailable/offline. Real lifecycle code and 12 observed synthetic tests advanced; final edits not revalidated. No new source6 fitting, real preregistration or initial private seed archive started.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -10110,5 +10110,41 @@
   "goal_achieved": false,
   "background_training_running": false,
   "observed_utc": "2026-11-03T18:28:39.536680+00:00"
+}
+,
+  "source6_runtime_unavailable_20261103": {
+  "state": "source6_real_lifecycle_partial_implementation_blocked_by_unavailable_cloud_runtime",
+  "observed_utc": "2026-11-03 19:49:01 UTC",
+  "environment": {
+    "observed_phase": "starting",
+    "connectivity": "offline",
+    "observations_current": true,
+    "desired_phase": "running",
+    "failure": null,
+    "capabilities": []
+  },
+  "client_environment_status": "unavailable",
+  "exec_error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
+  "file_tool_error": "No usable execution environment is available",
+  "wait_tool_returned_ready_but_actual_status_and_shell_failed": true,
+  "missing_capabilities": [
+    "launch or monitor Linux processes",
+    "read or edit current cloud workspace",
+    "compile or rerun tests",
+    "materialize and verify new private artifacts in the workspace"
+  ],
+  "github_connector_available": true,
+  "last_known_workspace": "/workspace/uwb-softvote-source6-real-20261103",
+  "workspace_current_persistence_unverified": true,
+  "raw_data_loss_inferred": false,
+  "raw_data_redownload_attempted": false,
+  "new_source6_real_fitting_started": false,
+  "remote_real_preregistration_created": false,
+  "initial_private_seed_archive_created": false,
+  "background_training_running": false,
+  "users7_8_labels_used": false,
+  "source1_score_repeated": false,
+  "new_accuracy_result": false,
+  "goal_achieved": false
 }
 }

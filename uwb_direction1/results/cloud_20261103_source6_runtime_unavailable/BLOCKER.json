@@ -1,0 +1,35 @@
+{
+  "state": "source6_real_lifecycle_partial_implementation_blocked_by_unavailable_cloud_runtime",
+  "observed_utc": "2026-11-03 19:49:01 UTC",
+  "environment": {
+    "observed_phase": "starting",
+    "connectivity": "offline",
+    "observations_current": true,
+    "desired_phase": "running",
+    "failure": null,
+    "capabilities": []
+  },
+  "client_environment_status": "unavailable",
+  "exec_error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
+  "file_tool_error": "No usable execution environment is available",
+  "wait_tool_returned_ready_but_actual_status_and_shell_failed": true,
+  "missing_capabilities": [
+    "launch or monitor Linux processes",
+    "read or edit current cloud workspace",
+    "compile or rerun tests",
+    "materialize and verify new private artifacts in the workspace"
+  ],
+  "github_connector_available": true,
+  "last_known_workspace": "/workspace/uwb-softvote-source6-real-20261103",
+  "workspace_current_persistence_unverified": true,
+  "raw_data_loss_inferred": false,
+  "raw_data_redownload_attempted": false,
+  "new_source6_real_fitting_started": false,
+  "remote_real_preregistration_created": false,
+  "initial_private_seed_archive_created": false,
+  "background_training_running": false,
+  "users7_8_labels_used": false,
+  "source1_score_repeated": false,
+  "new_accuracy_result": false,
+  "goal_achieved": false
+}
