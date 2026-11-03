@@ -1,0 +1,71 @@
+{
+  "state": "owner_only_raw_allmember_initial_insurance_verified",
+  "scope": "initial_seed_only_ShuffleNetV2_x1_SGDM40_B15_recovery_20261103",
+  "frozen_sha256": "22f3772d42371b2994fab86658e53d1dd006a6f75724b29ba11fb23686d5994e",
+  "archive_sha256": "53cecc6f4e805e509a197cc9a23e0d9c1411d9a0f6502afa03f98673024bce23",
+  "archive_bytes": 8846697,
+  "members_manifest_sha256": "4adfb7a2e5adc0842172956e294ade705ab1e975b956c2f5c72f939d90a0cf34",
+  "verified_members": 49,
+  "shared": false,
+  "diagnostic_labels_scored": false,
+  "actual_UWB_fit_started": false,
+  "trained_model_set": false,
+  "whole_job_or_OS_resume": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_recovery40_initial_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "fc8e951e73e808b84088700c2257f24452763729b29fd75f9ed6c2431c75a08e",
+      "file_id": "1urjTm9mxEJ0vsLCZNo-CxfIvuQfByCbO",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_initial_20261103.part001",
+      "bytes": 1506665,
+      "sha256": "3aa290b9c885a4a1c284b7944916013804dff07b10cba022081292428ea8775f",
+      "file_id": "16vCY1WaGRKFCAflKH6QialIrzctuyZm4",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1506665,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "maximum_chunk_pipelines": 3,
+  "utc": "2026-11-03T08:03:43.429210+00:00"
+}

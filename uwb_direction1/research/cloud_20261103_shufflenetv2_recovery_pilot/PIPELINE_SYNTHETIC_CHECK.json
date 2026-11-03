@@ -1,0 +1,55 @@
+{
+  "state": "passed_synthetic_upload_stream_boundaries",
+  "cases": [
+    {
+      "case": "ok",
+      "passed": true,
+      "uploads": 1,
+      "raw_fetches": 1,
+      "materializations": 1,
+      "replacements": 1
+    },
+    {
+      "case": "known_ID",
+      "passed": true,
+      "uploads": 0,
+      "raw_fetches": 0,
+      "materializations": 0,
+      "replacements": 0
+    },
+    {
+      "case": "shared",
+      "passed": true,
+      "uploads": 1,
+      "raw_fetches": 0,
+      "materializations": 0,
+      "replacements": 0
+    },
+    {
+      "case": "missing_ID",
+      "passed": true,
+      "uploads": 1,
+      "raw_fetches": 0,
+      "materializations": 0,
+      "replacements": 0
+    },
+    {
+      "case": "wrong_SHA",
+      "passed": true,
+      "uploads": 1,
+      "raw_fetches": 1,
+      "materializations": 1,
+      "replacements": 0
+    },
+    {
+      "case": "download_error",
+      "passed": true,
+      "uploads": 1,
+      "raw_fetches": 1,
+      "materializations": 1,
+      "replacements": 0
+    }
+  ],
+  "actual_Drive_calls": false,
+  "actual_UWB_labels_read": false
+}

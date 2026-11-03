@@ -1,0 +1,26 @@
+{
+  "state": "untrained_seed_and_scientific_source_insurance_streamed",
+  "scope": "initial_seed_only_ShuffleNetV2_x1_SGDM40_B15_recovery_20261103",
+  "complete_modelset": false,
+  "shared_initial_encoder_included_once": true,
+  "tracked_payload_files": 49,
+  "members_manifest_sha256": "4adfb7a2e5adc0842172956e294ade705ab1e975b956c2f5c72f939d90a0cf34",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 8846697,
+  "archive_sha256": "53cecc6f4e805e509a197cc9a23e0d9c1411d9a0f6502afa03f98673024bce23",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_recovery40_initial_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "fc8e951e73e808b84088700c2257f24452763729b29fd75f9ed6c2431c75a08e"
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_initial_20261103.part001",
+      "bytes": 1506665,
+      "sha256": "3aa290b9c885a4a1c284b7944916013804dff07b10cba022081292428ea8775f"
+    }
+  ],
+  "trained_model_or_audit_included": false
+}

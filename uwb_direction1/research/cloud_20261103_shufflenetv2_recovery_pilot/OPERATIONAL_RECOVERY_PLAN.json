@@ -1,0 +1,41 @@
+{
+  "state": "prospective_same_configuration_operational_recovery_no_scientific_rejection",
+  "utc": "2026-11-03T07:38:18.892043+00:00",
+  "original_registration_commit": "7fd8d88d82b1570f90358dca43fc964b9b7eba88",
+  "original_frozen_sha256": "1616f2fe7c642d721d9e2af984f203aa3f2ddd7889659eb0dbb2dc75ed61129b",
+  "last_actual_old_observation": "2026-11-03T02:36:29.265781Z epoch24/update7650",
+  "old_final_result_known": false,
+  "current_workspace_root_missing": true,
+  "current_training_process_found": false,
+  "bounded_Drive_name_search": "shufflenet in private parent returned no matches",
+  "proof_old_global_process_stopped": false,
+  "scientific_failure": false,
+  "old_configuration_or_seed_changed": false,
+  "recovery_policy": "If no recoverable old checkpoint exists after dependency recovery, separately register a fresh-seed execution of the identical scientific SGDM40/B15 configuration in a new path. Treat original attempt as unreachable/unresolved, not scientific failure. The registered recovery attempt becomes primary; never choose between late old/recovery diagnostic scores.",
+  "candidate_Adam100_selected": false,
+  "formal_cost": {
+    "workspace": "/workspace/uwb-shufflenetv2-x1-recovery-cost-20261103",
+    "frozen_sha256": "f777ec131c9f44e6d372e00992d0e6fd809ecb058d074c9ebba1871359a67715",
+    "started": false,
+    "all40_epoch_full_checkpoint_writes_budgeted": 44,
+    "correction": "Old projection counted8 writes; recovery projection counts40 rolling full writes plus4 overhead writes. Method/seed/split/accuracy gate unchanged."
+  },
+  "raw_restore": {
+    "current_runtime_complete": false,
+    "staging": "/workspace/uwb-transfer-20261103",
+    "planned_target": "/workspace/uwb-restored-20261103",
+    "persistent_index": "migration/20260930/CLOUD_DOWNLOAD_INDEX.json",
+    "maximum_complete_pipelines": 3,
+    "first_check": "Drive folder owner-only; each chunk metadata/size/parent/permission checked before raw fetch, immediately materialized and SHA checked",
+    "exact_original_manifest_SHA_verified": true,
+    "manifest_line_ending_repair": "LF checkout reconstructed CRLF; original10516baf hash verified"
+  },
+  "incident": {
+    "short_lived_authenticated_download_URL_accidentally_printed_once": true,
+    "URL_copied_into_repository": false,
+    "mitigation": "only Sediment file IDs are handled; URL printing disabled and errors sanitized"
+  },
+  "actual_UWB_fit_started": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false
+}

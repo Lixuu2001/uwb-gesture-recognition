@@ -1,0 +1,71 @@
+{
+  "resource_gate_passed": true,
+  "estimated_seconds": 16783.653993639033,
+  "estimated_hours": 4.662126109344176,
+  "estimated_CPU_seconds": 67134.61597455613,
+  "estimated_max_RSS_KiB": 2954024,
+  "required_additional_workspace_bytes": 166728044,
+  "workspace_free_bytes": 26870497280,
+  "full_checkpoint_bytes": 10362327,
+  "model_only_upper_bytes": 6229740,
+  "stream_archive_upper_bytes": 61007017,
+  "streaming_backup_implementation_pending": true,
+  "actual_UWB_fit_started": false,
+  "accuracy_measured": false,
+  "state": "independently_verified_full_ShuffleNetV2_x1_SGDM40_B15_cost",
+  "full_B15_update_seconds": [
+    0.6446610870000313,
+    0.30726220699989426,
+    0.27307885300001544,
+    0.2729076939999686,
+    0.27127143899997463,
+    0.2468117789999269
+  ],
+  "last_B5_update_seconds": [
+    0.10383934700007558
+  ],
+  "evaluation_B15_seconds": [
+    0.07232369300004393,
+    0.06345913300015127,
+    0.07126889699998173
+  ],
+  "full_checkpoint_save_seconds": [
+    0.01635358799990172,
+    0.013608043999965957,
+    0.013579883999909725
+  ],
+  "full_checkpoint_load_seconds": [
+    0.02307078800004092,
+    0.03244252600006803,
+    0.027286551000088366
+  ],
+  "peak_RSS_KiB": 856872,
+  "disposable_checkpoint_records": [
+    {
+      "name": "disposable_full_checkpoint_0.pt",
+      "bytes": 10362327,
+      "sha256": "c024ce33ef5a1bc597112f41dca7305871290528412a2e0496ddfadbaa4ad55c",
+      "full_state_exact": true
+    },
+    {
+      "name": "disposable_full_checkpoint_1.pt",
+      "bytes": 10362327,
+      "sha256": "45c11f0711b1cca61107214aaeff14f7d4e960f375a96aaac4a54fc83381de86",
+      "full_state_exact": true
+    },
+    {
+      "name": "disposable_full_checkpoint_2.pt",
+      "bytes": 10362327,
+      "sha256": "b9685a0d99822640847fbf97f394e26556c16066e54f27b057eefbe1c451e3d3",
+      "full_state_exact": true
+    }
+  ],
+  "model_optimizer_momentum_RNG_checkpoint_exact": true,
+  "no_actual_UWB_values_labels_read": true,
+  "full40_epochs_not_run": true,
+  "profile_result_sha256": "7f76485e4f73256a4d135535f77c1310a1c56262676441f79ddb9aeee47f56c8",
+  "supervisor_termination_sha256": "8418ca2e7cfcc4d66a4b01bb71fa150df20ca290aa11cff39c4d894f9b653a0d",
+  "verified_without_reprofiling": true,
+  "scientific_configuration_unchanged": true,
+  "recovery_checkpoint_full_writes_budgeted": 44
+}
