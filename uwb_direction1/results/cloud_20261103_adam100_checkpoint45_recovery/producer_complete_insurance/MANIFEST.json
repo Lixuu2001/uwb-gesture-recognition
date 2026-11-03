@@ -1,0 +1,53 @@
+{
+  "state": "complete_Adam100_producer_unscored_audit_pending_insurance",
+  "scope": "producer_complete_ShuffleNetV2_x1_Adam100_checkpoint45_recovery_without_numeric_audit",
+  "complete_modelset": false,
+  "shared_initial_encoder_included_once": true,
+  "tracked_payload_files": 288,
+  "members_manifest_sha256": "fa40ce81b2451a944f64315ad1f4c8debcf151cbdb63e04d96d7d4180b59f7c7",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 48472115,
+  "archive_sha256": "c439a57b8d65d7b999d62b3d26e0a93eab14682aa50f1ec37bc885d1ae9c8c86",
+  "chunks": [
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "3f95bd0a9b64eec290dd338b442f4603d5d5a5240306677b25ac3d8f7e235cc3"
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "3f1bc7144f48d4f9a02ad5d3604e28ff022f3794a9be0815c8dd91402cc1b253"
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part002",
+      "bytes": 7340032,
+      "sha256": "e3fb545574fbac70bbdb4731220988d673c28768182abac5df5d31c82015024f"
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part003",
+      "bytes": 7340032,
+      "sha256": "d3d10d52c48abed8ace996bb56d28ada9dc6ca3286a886afac4250a2e14c568d"
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part004",
+      "bytes": 7340032,
+      "sha256": "db8fda6c449853a2734419753caa15d3af8bf92f8c577365f1906046fcd95806"
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part005",
+      "bytes": 7340032,
+      "sha256": "bafdb37c80496095a5078ded53618d5e78720c6f19b86e2eef231645e5b73716"
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part006",
+      "bytes": 4431923,
+      "sha256": "e45a3f97a225ac0e1665dada0d5aa21a51a1101e2f619ac03586ba4d3363be0c"
+    }
+  ],
+  "full_training_complete": true,
+  "numeric_audit_certified": false,
+  "diagnostic_labels_scored": false
+}

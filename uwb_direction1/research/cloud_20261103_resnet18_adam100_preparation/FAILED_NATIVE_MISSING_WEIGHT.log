@@ -1,0 +1,28 @@
+test_full_B20_Adam_checkpoint_next_two_updates_exact (__main__.NativeChecks.test_full_B20_Adam_checkpoint_next_two_updates_exact) ... ERROR
+test_unapproved_training_or_validation_user_metadata_blocks (__main__.NativeChecks.test_unapproved_training_or_validation_user_metadata_blocks) ... ok
+
+======================================================================
+ERROR: test_full_B20_Adam_checkpoint_next_two_updates_exact (__main__.NativeChecks.test_full_B20_Adam_checkpoint_next_two_updates_exact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_resnet18_adam100_preparation/test_native.py", line 17, in test_full_B20_Adam_checkpoint_next_two_updates_exact
+    m=make();o=optimizer(m)
+      ^^^^^^
+  File "/workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_resnet18_adam100_preparation/native_resnet18_adam100.py", line 15, in make
+    m=full_native_make()
+      ^^^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-resnet18-finetune-source-20261102/native_finetune.py", line 6, in make
+    m=pretrained(True);torch.manual_seed(20261029);m.fc=nn.Linear(512,12);m.requires_grad_(True);m.train();assert sum(p.numel() for p in m.parameters())==11182668 and all(p.requires_grad for p in m.parameters());return m
+      ^^^^^^^^^^^^^^^^
+  File "/workspace/uwb-resnet18-imagenet-source-20261102/native_resnet18.py", line 32, in make
+    meta=json.loads((B/'WEIGHTS_SOURCE.json').read_bytes());p=B/'weights/resnet18-f37072fd.pth';assert p.stat().st_size==meta['bytes'] and sha(p)==meta['sha256']
+                                                                                                       ^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 840, in stat
+    return os.stat(self, follow_symlinks=follow_symlinks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/uwb-resnet18-imagenet-source-20261102/weights/resnet18-f37072fd.pth'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (errors=1)

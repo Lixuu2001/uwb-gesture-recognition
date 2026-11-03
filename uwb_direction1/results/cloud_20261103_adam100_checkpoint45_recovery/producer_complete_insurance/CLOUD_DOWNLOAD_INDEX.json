@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "state": "full_100epoch_producer_private_raw_allmembers_verified_audit_pending",
+  "scope": "producer_complete_ShuffleNetV2_x1_Adam100_checkpoint45_recovery_without_numeric_audit",
+  "archive_sha256": "c439a57b8d65d7b999d62b3d26e0a93eab14682aa50f1ec37bc885d1ae9c8c86",
+  "archive_bytes": 48472115,
+  "members_manifest_sha256": "fa40ce81b2451a944f64315ad1f4c8debcf151cbdb63e04d96d7d4180b59f7c7",
+  "verified_payload_members": 288,
+  "full_training_complete": true,
+  "numeric_audit_certified": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "complete_modelset_verified": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_must_remain_owner_only": true,
+  "max_concurrency": 3,
+  "actual_concurrency": 1,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "chunks": [
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "3f95bd0a9b64eec290dd338b442f4603d5d5a5240306677b25ac3d8f7e235cc3",
+      "file_id": "18yuHScJKchx6o89qYvYOmTlAvlb3zn6g",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "3f1bc7144f48d4f9a02ad5d3604e28ff022f3794a9be0815c8dd91402cc1b253",
+      "file_id": "1Iw2ULuK3aWj5u0IbS96mkg_a-2UiAsMB",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part002",
+      "bytes": 7340032,
+      "sha256": "e3fb545574fbac70bbdb4731220988d673c28768182abac5df5d31c82015024f",
+      "file_id": "1VU6g_uNKEQb0ho-IuTwk8_RLacsrZY3p",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true,
+      "recovered_known_uploaded_ID_without_reupload": true
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part003",
+      "bytes": 7340032,
+      "sha256": "d3d10d52c48abed8ace996bb56d28ada9dc6ca3286a886afac4250a2e14c568d",
+      "file_id": "1QBgxU_eEi5PvDpGDIWr5amZMHQpGirjJ",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part004",
+      "bytes": 7340032,
+      "sha256": "db8fda6c449853a2734419753caa15d3af8bf92f8c577365f1906046fcd95806",
+      "file_id": "1_h3viX0Dx6rygxxrOE_jANIC7gczPhjx",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part005",
+      "bytes": 7340032,
+      "sha256": "bafdb37c80496095a5078ded53618d5e78720c6f19b86e2eef231645e5b73716",
+      "file_id": "1xYRnQAebFah9XG8TJNfRJP_rGWP2-63Y",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "adam100_recovery45_producer_complete_20261103.part006",
+      "bytes": 4431923,
+      "sha256": "e45a3f97a225ac0e1665dada0d5aa21a51a1101e2f619ac03586ba4d3363be0c",
+      "file_id": "1qwy3apAiBeoeIumygddnIOGxjsV-h67S",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 4431923,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "utc": "2026-11-03T15:12:34.790324+00:00",
+  "part2_initial_upload_Internal_error_retained": true,
+  "part2_retry_after_exact_name_empty_search": true,
+  "part2_retry_known_ID_recorded_before_rawfetch": true
+}

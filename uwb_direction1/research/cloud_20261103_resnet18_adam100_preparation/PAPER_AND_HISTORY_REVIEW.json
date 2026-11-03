@@ -1,0 +1,70 @@
+{
+  "state": "unselected_conditional_published_method_preparation_before_current_diagnostic",
+  "utc": "2026-11-03T15:02:52.540645+00:00",
+  "paper": "https://doi.org/10.3390/s21010259",
+  "primary_open_access": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796334/",
+  "verified_scope": "Indexed primary maintext sections3.1/3.2/4.2 and Table3; not complete PDF/author training script parity",
+  "published_architecture": "ResNet18 explicitly in experiment body and Table3; abstract model list differs",
+  "published_training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0,
+    "batch_size": 20,
+    "epochs": 100,
+    "augmentation": false,
+    "endpoint": "epoch100"
+  },
+  "project_interpretation": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "ambiguous_paper_Nesterov_wording_unresolved": true
+  },
+  "proposed_fixed_config": {
+    "original_full_ResNet18_parameters": 11689512,
+    "gesture12_all_trainable_parameters": 11182668,
+    "pretrained": "ImageNet1K_V1",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "BN_train": true,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "batch_size": 20,
+    "epochs": 100,
+    "augmentation": false,
+    "checkpoint": "fixed_final100",
+    "seed": 20261029,
+    "threads": 4,
+    "precision": "float32",
+    "train_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "users7_8_labels_forbidden": true
+  },
+  "historical_non_equivalence": "Closed image ResNet18 SGDM40/B15/affine/bestval96.9167% and frozenencoder512/SVC76.6667%; 1D KerasResNet834124CPU100 is another architecture. This full-scale Adam100/B20/noAug/final100 draft is not an equivalent rerun.",
+  "adaptation": "UWB3radar90x189 RMS/minmax/224 differs77GHzTSV;12classes differs6. Canonical original11.689512M rounds to reported11.69M; author-code parity unverified",
+  "current_ShuffleNet_trial_unchanged": true,
+  "current_diagnostic_read": false,
+  "candidate_selected": false,
+  "formal_cost_profile_started": false,
+  "new_UWB_fit_started": false,
+  "originality_claim": false,
+  "independent_validation_claim": false,
+  "all_historical_eight_user_development_exploratory": true,
+  "native_source_sha256": "4f27e90ea38f8c54b40122c3a85686e9ffef5529b497c564d5e35248ae1bfe92",
+  "base_source_sha256": "f41115ea4bd4ea79e493db5ebcf1847a76c0b0e796387de09c35466b9cfc3161",
+  "activation": "Only after genuine current full audit/private backup/once failed gate may independently select; separate native tests/cost preregistration/full lifecycle/real preregistration before fitting. No parameter rescue.",
+  "discarded_launch_attempt": "Initial shell cwd referenced not-yet-created preparation directory; exec rejected before running any code. Corrected to existing parent cwd; not a training/scientific failure."
+}

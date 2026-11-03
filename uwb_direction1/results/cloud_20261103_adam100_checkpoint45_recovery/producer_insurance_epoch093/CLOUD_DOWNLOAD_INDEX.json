@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "state": "incomplete_learned_checkpoint_raw_and_allmembers_verified",
+  "purpose": "Adam100 completed epoch93 checkpoint insurance, incomplete100study, no numeric-audit/score authorization",
+  "scope": "incomplete_producer_checkpoint_ShuffleNetV2_x1_Adam100_epoch093",
+  "archive_sha256": "d415f614bc51c9ca568d9bcface54f133f5d15430572234053d70a1cdf83881f",
+  "archive_bytes": 19711092,
+  "members_manifest_sha256": "634c04d9fd7b316ffd52762af0adec730837e906b951c62b1b353e435612eca6",
+  "verified_payload_members": 221,
+  "checkpoint_epoch": 93,
+  "checkpoint_updates": 21855,
+  "last_logged_update": 21959,
+  "uncommitted_log_suffix_preserved": true,
+  "automatic_resume_authorized": false,
+  "full_training_complete": false,
+  "full_replay_audit_complete": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_must_remain_owner_only": true,
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch093_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "c49e07d06a3599bf98d643800e332158d4793b7b8215f739fcd097362399c671",
+      "file_id": "10Aox96yGYIx427zk1g8kE1jGyFZF3wHl",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch093_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "65c349460310933e138bd97729051da96c0284917016415b235531b0aed27cb4",
+      "file_id": "1ex-nnHKiaV2wD4ndbgRykGKzozjUeaGa",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_adam100_producer_epoch093_20261103.part002",
+      "bytes": 5031028,
+      "sha256": "55a3192af8e751f0515f123fff296ef006e00bf90d24c05504168a6fca47bd51",
+      "file_id": "1cZ0bRqPPJe0ra-xUAPZz2mkgX0UPo6Ap",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 5031028,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "registration_commit": "142f3938798fae58a639f4d7b38b4b1eae90a1ec",
+  "frozen_sha256": "fb5d9f587d7aa1b12638c62bacc74704e3c646c5cf1e7338e591f9d69a883b34"
+}
