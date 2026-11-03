@@ -16,7 +16,7 @@
     0.9,
     0.999
   ],
-  "eps": 1e-8,
+  "eps": 1e-08,
   "weight_decay": 0,
   "augmentation": false,
   "checkpoint_selection": "fixed_epoch100",
@@ -40,8 +40,8 @@
   "maximum_chunk_pipelines": 3,
   "workspace_margin_bytes": 67108864,
   "native_module_directory": "../cloud_20261103_radar_adam100_preparation",
-  "current_trial_root": "/workspace/uwb-shufflenetv2-x1-pilot-20261103",
-  "current_trial_frozen_sha256": "1616f2fe7c642d721d9e2af984f203aa3f2ddd7889659eb0dbb2dc75ed61129b",
+  "current_trial_root": "/workspace/uwb-shufflenetv2-x1-recovery-pilot-20261103",
+  "current_trial_frozen_sha256": "22f3772d42371b2994fab86658e53d1dd006a6f75724b29ba11fb23686d5994e",
   "required_activation_state": "previous_exact_trial_privately_verified_once_scored_gate_failed",
   "training_users": [
     3,
@@ -55,5 +55,10 @@
   "source_synthetic_tests_executed": false,
   "formal_cost_started": false,
   "new_UWB_fit_started": false,
-  "activation_while_current_trial_unknown_allowed": false
+  "activation_while_current_trial_unknown_allowed": false,
+  "previous_real_registration_commit": "994727de9a04f8029f6a683fe917c587a81d726d",
+  "previous_expected_frozen_file_count": 26,
+  "native_checkpoint_tests_executed": true,
+  "native_Adam_equation_check_executed": true,
+  "full_trial_lifecycle_tests_executed": false
 }

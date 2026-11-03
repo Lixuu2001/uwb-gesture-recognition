@@ -1,0 +1,12 @@
+test_child_exception_cannot_report_success (test_supervisor.SupervisorBoundary.test_child_exception_cannot_report_success) ... ok
+test_launch_failure_records_evidence (test_supervisor.SupervisorBoundary.test_launch_failure_records_evidence) ... ok
+test_real_cpu_limit_cannot_report_success (test_supervisor.SupervisorBoundary.test_real_cpu_limit_cannot_report_success) ... ok
+test_real_success_records_exit_cpu_rss_cgroup_and_reaps (test_supervisor.SupervisorBoundary.test_real_success_records_exit_cpu_rss_cgroup_and_reaps) ... ok
+test_rss_limit_retains_resource_failure_without_scientific_claim (test_supervisor.SupervisorBoundary.test_rss_limit_retains_resource_failure_without_scientific_claim) ... ok
+test_virtual_cgroup_oom_delta_refuses_zero_exit (test_supervisor.SupervisorBoundary.test_virtual_cgroup_oom_delta_refuses_zero_exit) ... ok
+test_wall_limit_terminates_only_own_child (test_supervisor.SupervisorBoundary.test_wall_limit_terminates_only_own_child) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.922s
+
+OK

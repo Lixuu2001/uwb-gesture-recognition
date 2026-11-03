@@ -1,9 +1,9 @@
-"""UNEXECUTED fail-closed promotion guard. Draft files alone never authorize a run."""
+"""Fail-closed promotion guard; virtual evidence fixtures executed. Draft files alone never authorize a run."""
 from pathlib import Path
 import json,hashlib,sys,re
 B=Path(__file__).resolve().parent
-CURRENT_FROZEN='1616f2fe7c642d721d9e2af984f203aa3f2ddd7889659eb0dbb2dc75ed61129b'
-CURRENT_SCOPE='complete_audited_full_ShuffleNetV2_x1_SGDM40_B15_source_held1'
+CURRENT_FROZEN='22f3772d42371b2994fab86658e53d1dd006a6f75724b29ba11fb23686d5994e'
+CURRENT_SCOPE='complete_audited_full_ShuffleNetV2_x1_SGDM40_B15_recovery_20261103_source_held1'
 def read(path):return json.loads(Path(path).read_bytes())
 def sha(path):
     h=hashlib.sha256()
@@ -55,13 +55,24 @@ def ready():
     assert activation['current_trial_closed_without_rescore'] is True
     assert marker['activation_sha256']==sha(B/'CURRENT_TRIAL_ACTIVATION.json')
     root=Path(p['current_trial_root'])
-    assert root==Path('/workspace/uwb-shufflenetv2-x1-pilot-20261103')
+    assert root==Path('/workspace/uwb-shufflenetv2-x1-recovery-pilot-20261103')
     assert sha(root/'FROZEN_HASHES.json')==CURRENT_FROZEN==p['current_trial_frozen_sha256']
     prior_frozen=read(root/'FROZEN_HASHES.json')
-    assert len(prior_frozen)==22
+    assert len(prior_frozen)==26==p['previous_expected_frozen_file_count']
     for name,digest in prior_frozen.items():
         q=Path(name);assert not q.is_absolute() and '..' not in q.parts
         assert sha(root/q)==digest
+    registration=read(root/'REMOTE_PREREGISTRATION.json')
+    assert registration['state']=='real_pilot_remote_exact_readback_verified'
+    assert registration['branch_head_verified'] is True
+    assert registration['commit']==p['previous_real_registration_commit']==(
+        '994727de9a04f8029f6a683fe917c587a81d726d')
+    assert registration['frozen_sha256']==CURRENT_FROZEN
+    assert registration['all45_changed_files_exact_before_Popen'] is True
+    insurance=read(root/'INITIAL_PRIVATE_INSURANCE.json')
+    assert insurance['state']=='owner_only_raw_allmember_initial_insurance_verified'
+    assert insurance['frozen_sha256']==CURRENT_FROZEN
+    assert insurance['shared'] is False and insurance['diagnostic_labels_scored'] is False
     assert activation['source_summary_sha256']==sha(root/'run01/SUMMARY.json')
     summary=read(root/'run01/SUMMARY.json')
     assert summary.get('predeclared_gate_passed') is False

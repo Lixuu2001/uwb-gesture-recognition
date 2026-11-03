@@ -1,0 +1,38 @@
+{
+  "state": "complete_producer_unscored_not_numeric_audited_insurance_streamed",
+  "scope": "producer_complete_ShuffleNetV2_x1_recovery40_without_numeric_audit",
+  "complete_modelset": false,
+  "shared_initial_encoder_included_once": true,
+  "tracked_payload_files": 151,
+  "members_manifest_sha256": "5034faf986c2ae29c62572efd6a5c9ae26ff89f52311141ba234030ccc45afc2",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 26488894,
+  "archive_sha256": "eebb3cbe8d7ac586b1eacb8e35688219da15dcbe5743a7e3fdc8844b089f9f7d",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "5b38b1c3660f438ea91000026db5cb6d448f47eba771672d1d04febab9c64fb8"
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "eba3c980375a50e7d897646ecb35172f8fe2f8ee11d789a3aee6a00a4eca7d45"
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part002",
+      "bytes": 7340032,
+      "sha256": "531c75b0cbc92b8d79dfd161b1f4538bbd057c2ba7abb97310f8cc898b3445fe"
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part003",
+      "bytes": 4468798,
+      "sha256": "e81447224cb2abda343fe5f837123b6bda902427c2b3c597d68490901c3abba5"
+    }
+  ],
+  "full_training_complete": true,
+  "numeric_audit_certified": false,
+  "diagnostic_labels_scored": false
+}

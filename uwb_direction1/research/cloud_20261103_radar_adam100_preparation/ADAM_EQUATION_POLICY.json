@@ -1,0 +1,15 @@
+{
+  "state": "synthetic_equation_policy_fixed_before_execution",
+  "utc": "2026-11-03T09:24:03.650433+00:00",
+  "test_source_SHA256": "5c74bc66be55b33b7948d466068e17ca32f8179ea522ce99f451360737add8ea",
+  "native_module_SHA256": "5e213e9b08d81506a6279152701935d6333ca19e3addf4d217d794dff6db5c21",
+  "gamma_n": 16,
+  "unit_roundoff": "2^-24",
+  "underflow_allowance": "16*float32_smallest_normal",
+  "reference_scope": "per-step elementwise FP64 from preceding native FP32 state and native gradient; conservative gamma/denominator interval; not independent convolution or global ideal trajectory",
+  "gradients": "two synthetic B20 batches only",
+  "seed": 20261029,
+  "not_formal_cost_or_new_UWB_fit": true,
+  "paper": "https://arxiv.org/pdf/1412.6980 Algorithm1",
+  "official": "https://docs.pytorch.org/docs/2.15/generated/torch.optim.Adam.html"
+}

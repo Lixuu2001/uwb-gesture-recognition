@@ -1,5 +1,5 @@
 {
-  "state": "unselected_prospective_published_recipe_preparation_runtime_unavailable",
+  "state": "unselected_prospective_published_recipe_partial_synthetic_checks_passed",
   "observed_source_date_utc": "2026-11-03",
   "paper": {
     "title": "On the Effect of Training Convolution Neural Network for Millimeter-Wave Radar-Based Hand Gesture Recognition",
@@ -22,7 +22,7 @@
     "Radar paper reports 1.37M parameters, whereas the proposed canonical full x1 original1000head model has 2.278604M. No exact author-width claim.",
     "UWB three-radar range-time inputs and user protocol differ from 77GHz TSV data and the author's split."
   ],
-  "non_equivalence_to_current": "Published Adam100/B20/noAug/final100 recipe is not the ongoing SGDM40/B15/affine/bestValidation trial. Current exact SGDM configuration stays frozen; no inference about its final accuracy while runtime is inaccessible.",
+  "non_equivalence_to_current": "Published Adam100/B20/noAug/final100 differs from current frozen SGDM40/B15/affine/bestValidation recovery. Producer complete; audit active; diagnostic unscored.",
   "activation_condition": "First inspect and complete current registered trial. Only after its exact failed gate is legitimately finalized may separately select/register/cost a fresh ImageNet-initialized trial. Never continue the current checkpoint or use diagnostic labels for tuning.",
   "prospective_fixed_configuration": {
     "architecture": "full_official_ShuffleNetV2_x1_0",
@@ -52,7 +52,7 @@
       0.9,
       0.999
     ],
-    "eps": 1e-8,
+    "eps": 1e-08,
     "weight_decay": 0,
     "amsgrad": false,
     "foreach": false,
@@ -74,7 +74,7 @@
     "minimum_gain": 0.005,
     "tolerance": 1e-12
   },
-  "runtime_validation": "NOT_EXECUTED",
+  "runtime_validation": "Synthetic native checkpoint continuation and all-parameter Adam equation check passed; complete100epoch lifecycle and cost/UWB trial not executed",
   "formal_cost_registered": false,
   "formal_cost_started": false,
   "actual_UWB_fit_started": false,
@@ -82,5 +82,13 @@
   "accuracy_improvement_evidence": false,
   "original_contribution_evidence": false,
   "current_trial_diagnostic_score_observed": false,
-  "authored_utc": "2026-11-03T03:51:54Z"
+  "authored_utc": "2026-11-03T03:51:54Z",
+  "runtime_recovered": true,
+  "source_defaults_review": {
+    "Adam_Algorithm1": "https://arxiv.org/pdf/1412.6980",
+    "PyTorch_2_15_Adam": "https://docs.pytorch.org/docs/2.15/generated/torch.optim.Adam.html",
+    "support": "Standard Adam defaults and equations; does not resolve radar-paper Nesterov wording or exact author-code/width parity."
+  },
+  "equation_check": "ADAM_EQUATION_CHECK.json",
+  "last_validation_utc": "2026-11-03T09:35:25.655124+00:00"
 }

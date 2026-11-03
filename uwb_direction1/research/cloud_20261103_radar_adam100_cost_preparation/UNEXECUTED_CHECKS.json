@@ -1,22 +1,18 @@
 {
-  "state": "NOT_EXECUTED",
+  "state": "PARTIAL_SYNTHETIC_CHECKS_EXECUTED_CANDIDATE_UNSELECTED",
   "authored_utc": "2026-11-03T04:33:31Z",
-  "reason": "cloud failed/offline; no executor",
-  "syntax_checked": false,
-  "unit_tests_executed": false,
-  "checkpoint_tests_executed": false,
-  "guard_supervisor_fixtures_executed": false,
+  "reason": "Executor recovered; primary SGDM40 producer complete with numeric audit active. No candidate activation.",
+  "syntax_checked": true,
+  "unit_tests_executed": true,
+  "checkpoint_tests_executed": true,
+  "guard_supervisor_fixtures_executed": true,
   "CPU_profile_executed": false,
   "new_UWB_fit_started": false,
   "required_before_future_registration": [
-    "Python compile checks",
-    "full Adam model/BN/RNG/optimizer next2updates exact",
-    "arithmetic budget boundaries",
-    "guard missing/mutated prerequisites and current unknown/active/pass refusal",
-    "supervisor launch/RSS/wall/CPU/OOM fixtures",
-    "save/load size+semantic proof",
-    "real import dependency closure and retained logs",
-    "latest-parent remote registration/readback"
+    "Refresh exact source/runtime/import dependency closure including newly added Adam equation and supervisor tests",
+    "Freeze all required sources, actual logs, policy and previous once-failed activation evidence",
+    "Latest-parent remote registration and exact readback before a formal synthetic profile",
+    "After passing the formal cost screen, finish and test whole real100-epoch lifecycle before its own preregistration"
   ],
   "text_review_only": [
     "Original audit/finalizer/backup/stream schemas inspected via GitHub",
@@ -26,5 +22,18 @@
   ],
   "last_text_review_utc": "2026-11-03T05:29:48Z",
   "promotion_guard_fixture_source": "test_cost_guard.py",
-  "promotion_guard_fixtures_executed": false
+  "promotion_guard_fixtures_executed": true,
+  "last_execution_utc": "2026-11-03T09:35:25.655124+00:00",
+  "actual_checks": {
+    "math_and_promotion_guard_tests": 15,
+    "log": "CURRENT_PRIMARY_GUARD_TESTS.log",
+    "native_full_B20_checkpoint_continuation": "full native 2-update restored continuation passed previously; original runtime recovery logs retained",
+    "full_B20_Adam_equations": "../cloud_20261103_radar_adam100_preparation/ADAM_EQUATION_CHECK.json",
+    "isolated_supervisor_boundary_tests": 7,
+    "supervisor_log": "SUPERVISOR_TESTS.log",
+    "virtual_not_actual_OOM": true
+  },
+  "current_primary_root": "/workspace/uwb-shufflenetv2-x1-recovery-pilot-20261103",
+  "current_primary_registration": "994727de9a04f8029f6a683fe917c587a81d726d",
+  "current_primary_frozen_sha256": "22f3772d42371b2994fab86658e53d1dd006a6f75724b29ba11fb23686d5994e"
 }

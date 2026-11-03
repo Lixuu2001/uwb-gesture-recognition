@@ -45,8 +45,15 @@ class Evidence:
             artifact_hashes=artifacts,**{k:True for k in CERT_KEYS})
         self.put(self.root/'COMPLETE_AUDIT.json',self.cert)
         self.put(self.root/'FROZEN_HASHES.json',
-            {'fixture%d.py'%i:self.digest(self.root/('fixture%d.py'%i)) for i in range(22)})
+            {'fixture%d.py'%i:self.digest(self.root/('fixture%d.py'%i)) for i in range(26)})
         self.hashes[str(self.root/'FROZEN_HASHES.json')]=g.CURRENT_FROZEN
+        self.registration=dict(state='real_pilot_remote_exact_readback_verified',
+            branch_head_verified=True,commit=self.p['previous_real_registration_commit'],
+            frozen_sha256=g.CURRENT_FROZEN,all45_changed_files_exact_before_Popen=True)
+        self.put(self.root/'REMOTE_PREREGISTRATION.json',self.registration)
+        self.initial=dict(state='owner_only_raw_allmember_initial_insurance_verified',
+            frozen_sha256=g.CURRENT_FROZEN,shared=False,diagnostic_labels_scored=False)
+        self.put(self.root/'INITIAL_PRIVATE_INSURANCE.json',self.initial)
         self.summary=dict(predeclared_gate_passed=False,
             complete_private_modelset_verified=True,users7_8_labels_used=False,
             route='close_exact_full_ShuffleNetV2_x1_SGDM40_B15_seed20261029_no_rescue')
@@ -158,6 +165,11 @@ class PromotionRefusal(unittest.TestCase):
     def test_truncated_old_freeze_and_unsafe_archive_names_refused(self):
         self.reject(lambda f:f.data[str(f.root/'FROZEN_HASHES.json')].pop('fixture0.py'))
         self.reject(lambda f:f.members[0].update(path='../best_model.pt'))
+    def test_wrong_primary_registration_or_initial_insurance_cannot_activate(self):
+        self.reject(lambda f:f.registration.update(commit='7fd8d88d82b1570f90358dca43fc964b9b7eba88'))
+        self.reject(lambda f:f.registration.update(all45_changed_files_exact_before_Popen=False))
+        self.reject(lambda f:f.initial.update(shared=True))
+        self.reject(lambda f:f.initial.update(frozen_sha256='b'*64))
     def test_real_stdlib_sha_reads_all_bytes(self):
         data=b'guard fixture\x00'*500000
         with tempfile.TemporaryDirectory() as tmp:

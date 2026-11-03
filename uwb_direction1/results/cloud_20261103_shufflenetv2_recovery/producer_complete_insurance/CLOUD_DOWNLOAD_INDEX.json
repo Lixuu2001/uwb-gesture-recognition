@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "state": "full_producer_unscored_private_allmember_insurance_verified_audit_pending",
+  "purpose": "Finished40epoch producer/code/initial encoder/learned models/optimizer/RNG/sample IDs/logs; no final numeric certificate or diagnostic score",
+  "scope": "producer_complete_ShuffleNetV2_x1_recovery40_without_numeric_audit",
+  "archive_sha256": "eebb3cbe8d7ac586b1eacb8e35688219da15dcbe5743a7e3fdc8844b089f9f7d",
+  "archive_bytes": 26488894,
+  "members_manifest_sha256": "5034faf986c2ae29c62572efd6a5c9ae26ff89f52311141ba234030ccc45afc2",
+  "producer_epochs": 40,
+  "producer_updates": 12560,
+  "private_payload_members_verified": 151,
+  "full_training_complete": true,
+  "numeric_audit_certified": false,
+  "diagnostic_labels_scored": false,
+  "users7_8_labels_used": false,
+  "automatic_resume_authorized": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "folder_must_remain_owner_only": true,
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "registration_commit": "994727de9a04f8029f6a683fe917c587a81d726d",
+  "frozen_sha256": "22f3772d42371b2994fab86658e53d1dd006a6f75724b29ba11fb23686d5994e",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "5b38b1c3660f438ea91000026db5cb6d448f47eba771672d1d04febab9c64fb8",
+      "file_id": "1hmMB7zCGBXU0cJ3rj6K043SF_zdFsele",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "eba3c980375a50e7d897646ecb35172f8fe2f8ee11d789a3aee6a00a4eca7d45",
+      "file_id": "17MXVHRsmiFHxLQ77KKpQkTlHDRN09lJr",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part002",
+      "bytes": 7340032,
+      "sha256": "531c75b0cbc92b8d79dfd161b1f4538bbd057c2ba7abb97310f8cc898b3445fe",
+      "file_id": "1E1mV4_UeJEtM8MMnh1vss4fTP200sNU1",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_recovery40_producer_complete_unaudited_20261103.part003",
+      "bytes": 4468798,
+      "sha256": "e81447224cb2abda343fe5f837123b6bda902427c2b3c597d68490901c3abba5",
+      "file_id": "10Y9qpzQ4X2-D67OX971QWzNSUd4RavYu",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 4468798,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "utc": "2026-11-03T09:26:30.166521+00:00"
+}

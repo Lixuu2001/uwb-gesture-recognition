@@ -1,0 +1,7 @@
+test_all1265904_parameters_moments_bias_correction_and_BN_train (__main__.AdamEquations.test_all1265904_parameters_moments_bias_correction_and_BN_train) ... {"state": "pass_synthetic_full_B20_all_parameter_standard_Adam_equations", "seed": 20261029, "updates": [{"update": 1, "parameter_elements_checked": 1265904, "loss": 2.484644889831543, "maximum_parameter_error": 2.342070573035926e-07, "maximum_error_over_predeclared_bound": 0.061869095431791574}, {"update": 2, "parameter_elements_checked": 1265904, "loss": 2.479071617126465, "maximum_parameter_error": 2.3593682829670115e-07, "maximum_error_over_predeclared_bound": 0.06110837894615064}], "batch_size": 20, "all_layers_trainable": true, "BN_train": true, "gamma_n": 16, "unit_roundoff": 5.960464477539063e-08, "underflow_allowance": 1.88079096131566e-37, "tolerance_empirically_fitted": false, "UWB_values_or_labels_read": false, "actual_UWB_fit_started": false, "author_radar_optimizer_code_parity_claim": false, "independent_convolution_or_autograd": false}
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 24.470s
+
+OK
