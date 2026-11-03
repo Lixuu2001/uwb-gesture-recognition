@@ -1,0 +1,13 @@
+test_changed_interrupted_suffix_cannot_be_silently_replaced (test_recovery.Recovery.test_changed_interrupted_suffix_cannot_be_silently_replaced) ... ok
+test_incomplete_prefix_cannot_be_restored (test_recovery.Recovery.test_incomplete_prefix_cannot_be_restored) ... ok
+test_native_B20_Adam_order_and_global_rng_next_two_updates_exact (test_recovery.Recovery.test_native_B20_Adam_order_and_global_rng_next_two_updates_exact) ... ok
+test_prefix_copy_keeps_original_suffix_and_only_committed_new_prefix (test_recovery.Recovery.test_prefix_copy_keeps_original_suffix_and_only_committed_new_prefix) ... ok
+test_wrong_input_epoch_refused_before_any_update (test_recovery.Recovery.test_wrong_input_epoch_refused_before_any_update) ... ok
+test_changed_journal_or_producer_record_refused (test_audit_journal.Journal.test_changed_journal_or_producer_record_refused) ... ok
+test_interruption_before_progress_preserves_previous_slot (test_audit_journal.Journal.test_interruption_before_progress_preserves_previous_slot) ... ok
+test_two_committed_epochs_restore_exact (test_audit_journal.Journal.test_two_committed_epochs_restore_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.244s
+
+OK

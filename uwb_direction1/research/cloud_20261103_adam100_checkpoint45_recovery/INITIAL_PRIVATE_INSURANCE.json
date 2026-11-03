@@ -1,0 +1,67 @@
+{
+  "state": "owner_only_raw_allmember_initial_insurance_verified",
+  "utc": "2026-11-03T10:55:08.874024+00:00",
+  "scope": "initial_seed_only_ShuffleNetV2_x1_Adam100_B20_20261103",
+  "frozen_sha256": "cb37edd818b5ce1fe6a357bb8bcaaec06e47c6fecc2841d68d2dc2999e2a7dcc",
+  "archive_sha256": "c8bfba99fafc0152cb629ce008b6fa62c9ad475d55d7286fb99478355b941edd",
+  "archive_bytes": 9012462,
+  "members_manifest_sha256": "e622994a9e4ffa8b6dca7b16574e39e96c2e0cdfbb0d71b0c0cbf6eb3aa8e0c3",
+  "verified_members": 70,
+  "shared": false,
+  "diagnostic_labels_scored": false,
+  "actual_UWB_fit_started": false,
+  "trained_model_set": false,
+  "whole_job_or_OS_resume": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_adam100_initial_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "0dd100d012ec93f0cd6071f68b6e3ddf8af449908cf22a91fe895eb99965b65e",
+      "file_id": "1hxuXVV2yGZuz_2xr9cggXgDNXl1tfHqu",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_adam100_initial_20261103.part001",
+      "bytes": 1672430,
+      "sha256": "987d8a7942e20f879a414609e4a65e076551c6938f05a6645268152c942f471e",
+      "file_id": "1W_-y1zj0ppIOLzIPmVIJVrt4kdgD7hNP",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 1672430,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "recovery_basis": "Original untrained raw-verified source/seed insurance; does not certify new recovery45 inputs"
+}

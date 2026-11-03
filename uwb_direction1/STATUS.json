@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Adam100_training_active_epoch25_private_readback_pending_provider_ingress_limit",
+  "state": "checkpoint45_recovery_plan_pending_exact_registration_private_input_backup",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_adam100_pilot/CONTINUATION_1130_BACKUP_INGRESS_LIMIT.md",
+  "latest_report": "results/cloud_20261103_adam100_checkpoint45_recovery/PREREGISTRATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793694394.398398,
   "background_training_pid": 2377,
-  "background_training_status_note": "Controller6216/worker6217 active;8930updates/epoch37 at2026-11-03T11:45:56.566638+00:00. Frozen30 unchanged. Epoch25 all3parts uploaded, raw1/2verified, raw0providerIngress-account-limit/ServerBusy; no wholebackup verification. Originalinitial/epoch1verified indexes retained; diagnostic sealed.",
+  "background_training_status_note": "Original6216/6217 absent in new runtime namespace; stale producer state at45epochs/10575committed,10604rawlogs, no termination receipts. All originalguards and checkpoint components verified. New exact45continuation25freeze prepared; no recovery process started. Old25backup raw/all91members now verified.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Inspect same Adam100 worker/checkpoints; continue all100producer/replay. Stop raw retries while ingress-limited; later recover known chunk0ID only and whole91member verification. No reupload/duplicatefit/diagnostic tuning.",
-  "last_completed_update_utc": "2026-11-03T11:45:56.566638+00:00",
+  "next_candidate": "Register/readback pinned checkpoint45 operational continuation; private raw allmember input45 archive; then restore model/Adam/order/Torch RNG and continue55remainingepochs. Full100fresh-seed replay with resumable own audit journals, final audited private backup and once gate required.",
+  "last_completed_update_utc": "2026-11-03T13:41:58.033487+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "Adam100_training_active_backup_raw_ingest_blocked",
+  "latest_task_state": "checkpoint45_recovery_plan_pending_exact_registration_private_input_backup",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -9793,6 +9793,33 @@
     "original_verified_epoch1_retained": true,
     "diagnostic_labels_scored": false,
     "users7_8_labels_used": false,
+    "goal_met": false
+  },
+  "Adam100_checkpoint45_recovery_20261103": {
+    "state": "checkpoint45_recovery_plan_pending_exact_registration_private_input_backup",
+    "utc": "2026-11-03T13:41:58.033487+00:00",
+    "workspace": "/workspace/uwb-shufflenetv2-x1-adam100-recovery45-20261103",
+    "old_workspace": "/workspace/uwb-shufflenetv2-x1-adam100-pilot-20261103",
+    "checkpoint_epoch": 45,
+    "committed_updates": 10575,
+    "old_raw_updates": 10604,
+    "uncommitted_suffix": 29,
+    "remaining_epochs": 55,
+    "remaining_updates": 12925,
+    "frozen_sha256": "fb5d9f587d7aa1b12638c62bacc74704e3c646c5cf1e7338e591f9d69a883b34",
+    "frozen_files": 25,
+    "dependencies": 3106,
+    "recovery_tests_passed": 8,
+    "old_worker_namespace_absent": true,
+    "no_old_terminal_receipt": true,
+    "scientific_negative": false,
+    "real_recovery_started": false,
+    "diagnostic_labels_scored": false,
+    "users7_8_labels_used": false,
+    "all_original_guards_and_checkpoint_components_verified": true,
+    "epoch25_prior_private_backup_now_verified": true,
+    "method_or_seed_or_endpoint_changed": false,
+    "originality_claim": false,
     "goal_met": false
   }
 }
