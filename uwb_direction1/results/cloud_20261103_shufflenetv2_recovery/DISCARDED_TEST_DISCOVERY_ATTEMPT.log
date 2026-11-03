@@ -1,0 +1,56 @@
+STREAM_TESTS.log (wrong cwd; discarded)
+test_stream_archive (unittest.loader._FailedTest.test_stream_archive) ... ERROR
+
+======================================================================
+ERROR: test_stream_archive (unittest.loader._FailedTest.test_stream_archive)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_stream_archive
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'test_stream_archive'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+TRAINING_INTEGRITY_TESTS.log (wrong cwd; discarded)
+test_training_integrity (unittest.loader._FailedTest.test_training_integrity) ... ERROR
+
+======================================================================
+ERROR: test_training_integrity (unittest.loader._FailedTest.test_training_integrity)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_training_integrity
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'test_training_integrity'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+COMPLETION_TESTS.log (wrong cwd; discarded)
+test_completion_boundary (unittest.loader._FailedTest.test_completion_boundary) ... ERROR
+
+======================================================================
+ERROR: test_completion_boundary (unittest.loader._FailedTest.test_completion_boundary)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_completion_boundary
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'test_completion_boundary'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

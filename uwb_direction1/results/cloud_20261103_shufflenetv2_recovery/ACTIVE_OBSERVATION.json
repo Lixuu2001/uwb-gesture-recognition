@@ -1,0 +1,54 @@
+{
+  "state": "full_native_SGDM40_B15_operational_recovery_producer_active",
+  "utc": "2026-11-03T08:26:34.398398+00:00",
+  "controller_pid": 2376,
+  "controller_start_ticks": "366731",
+  "worker_pid": 2377,
+  "worker_start_ticks": "366995",
+  "process_args_verified": true,
+  "completed_updates": 2806,
+  "last_training_step": {
+    "epoch": 9,
+    "offset": 4395,
+    "update": 2806,
+    "order_sha256": "326180edd75e06fd094d0eb802aafcdb43a84c8e4a579b71121b4d249d635c4c",
+    "augmentation_rng_sha256": "84280a2ec71e37ed4f099715490f7528a265c3d0ca6ab1f6c34d30c152e8ccce",
+    "loss": 2.467475652694702
+  },
+  "last_completed_epoch": 8,
+  "worker_RSS_KiB": 1955120,
+  "checkpoints": {
+    "initial12_head.pt": {
+      "bytes": 51101,
+      "sha256": "9fdb16a54ea123349844334928793f91eb4c9b884d04b320c6bf0274e1d51cb3",
+      "mtime_ns": 1793693627910172453
+    },
+    "best_model.pt": {
+      "bytes": 5234219,
+      "sha256": "bf4fc201e6e00faba9686650a95e7d2ba681f4aaead06a6bc2d3ac355734182e",
+      "mtime_ns": 1793694320355557004
+    },
+    "final_full.pt": {
+      "bytes": 10359711,
+      "sha256": "af0b39ed866e51741ec45c76939885771495b3f765d00838a7eb917d427d5a1b",
+      "mtime_ns": 1793694320343556703
+    }
+  },
+  "registration_commit": "994727de9a04f8029f6a683fe917c587a81d726d",
+  "frozen_sha256": "22f3772d42371b2994fab86658e53d1dd006a6f75724b29ba11fb23686d5994e",
+  "initial_private_insurance_verified": true,
+  "partial_epoch4_private_insurance_verified": true,
+  "partial_checkpoint_updates": 1256,
+  "partial_private_archive_sha256": "e2f07de0720d0dd9db2237def917f3804ee403c2629b2abb5858bad0c9e10123",
+  "partial_private_payload_members": 45,
+  "preservation_pause": {
+    "worker_pid": 2377,
+    "worker_start_ticks": "366995",
+    "resumed": true,
+    "pause_seconds": 0.9007871449998675
+  },
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_diagnostic_accuracy_measured": false,
+  "scientific_configuration_unchanged": true
+}
