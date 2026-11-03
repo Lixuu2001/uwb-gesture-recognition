@@ -1,0 +1,121 @@
+{
+  "captured_snapshot": {
+    "captured_unix": 1793740728.6573515,
+    "diagnostic_labels_read": false,
+    "held": 2,
+    "independent_full_training_replay_performed": false,
+    "initial_archive_required": true,
+    "members": {
+      "shuffle": {
+        "checkpoint_sha256": "419dd5f410d287f135b4ac86fdae6efc3de389db85403765776e827be567e148",
+        "progress": {
+          "checkpoint_sha256": "419dd5f410d287f135b4ac86fdae6efc3de389db85403765776e827be567e148",
+          "epoch": 30,
+          "journal_sha256": "118582d513e2886910f1e279c35e782a291ee1db21f2c3f77cff060a66fef8bc",
+          "prefix_bytes": 1719205,
+          "prefix_sha256": "2622b2b84110ce02ba9fe030c2b458404012c2afce540e602c6578195464b7f2",
+          "slot": "slot0.pt",
+          "updates": 7050
+        },
+        "state": "coherent_running_member_checkpoint_and_exact_log_cut",
+        "step_log": {
+          "captured_bytes": 1764498,
+          "committed_updates": 7050,
+          "complete_rows": 7235,
+          "original_raw_cut_sha256": "02d014286599dd620990f0aea81edc934cacfdb4af1b1dad7ef2764c386eadd0",
+          "partial_tail_bytes": 0,
+          "uncommitted_complete_rows": 185
+        }
+      },
+      "timemil": {
+        "checkpoint_sha256": "cfec576364f86f0143e82bb1ec10e39d727e61dcbc97005f35ff56f8f07f9654",
+        "progress": {
+          "checkpoint_sha256": "cfec576364f86f0143e82bb1ec10e39d727e61dcbc97005f35ff56f8f07f9654",
+          "epoch": 15,
+          "journal_sha256": "098315b221c8ef84660b76c3f70327d2093a7e9fe2a816ebf2c1bedbdfc39835",
+          "prefix_bytes": 269372,
+          "prefix_sha256": "6d8222073e8c945e27ea55c896c198d777f21f25da065c9ded9d3ecadc7cca0e",
+          "slot": "slot1.pt",
+          "updates": 1110
+        },
+        "state": "coherent_running_member_checkpoint_and_exact_log_cut",
+        "step_log": {
+          "captured_bytes": 277938,
+          "committed_updates": 1110,
+          "complete_rows": 1145,
+          "original_raw_cut_sha256": "a5ced17e14f34132d9a8507e06c48411b7f4784c7baf4a561ccfb0b2be753407",
+          "partial_tail_bytes": 0,
+          "uncommitted_complete_rows": 35
+        }
+      }
+    },
+    "new_model_fits_started": false,
+    "private_actual_IDs_included": true,
+    "raw_radar_arrays_included": false,
+    "source": "/workspace/uwb-softvote-source6-real-20261103",
+    "state": "coherent_committed_checkpoint_overlay_captured_without_stopping_live_training",
+    "users7_8_labels_used": false
+  },
+  "controller": {
+    "CPU_seconds": 428.62,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "live_progress": {
+    "shuffle": {
+      "checkpoint_sha256": "4671e033f8b0fe7083f85418eead669d194b42e9d50f0d472e898d6a0815fe40",
+      "epoch": 33,
+      "updates": 7755
+    },
+    "timemil": {
+      "checkpoint_sha256": "e55b678061dd573fa133a936ff46c149fea2d4a49bbbe2c792abc6c9e4546fb0",
+      "epoch": 17,
+      "updates": 1258
+    }
+  },
+  "new_accuracy_result": false,
+  "new_training_processes_started": false,
+  "novel_contribution_validated": false,
+  "observed_unix": 1793741137.998013,
+  "private_insurance": {
+    "archive_bytes": 63985291,
+    "archive_sha256": "e0e113c4b5e671f61003d8a29ab1a8f96ebb3dabd6bedf50de17f5f86eb9bf1d",
+    "chunks": 9,
+    "payloads": 190,
+    "raw_allmember_verified": true,
+    "source6_final_modelset_complete": false
+  },
+  "resource_ledger": {
+    "active_held": 2,
+    "folds": {
+      "2": {
+        "cpu": 17552.204826999998,
+        "wall": 4407.972122566
+      },
+      "3": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 4844632,
+    "last_observed_unix": 1793741133.4026983
+  },
+  "state": "same_registered_controller_live_with_private_intermediate_checkpoint_insurance",
+  "training_stopped_or_modified": false,
+  "users7_8_labels_used": false
+}
