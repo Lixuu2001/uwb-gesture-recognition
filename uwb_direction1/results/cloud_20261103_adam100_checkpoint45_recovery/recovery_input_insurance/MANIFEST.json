@@ -1,0 +1,33 @@
+{
+  "state": "interrupted_checkpoint45_input_source_insurance",
+  "scope": "interrupted_Adam100_checkpoint45_and_registered_continuation_sources",
+  "complete_modelset": false,
+  "shared_initial_encoder_included_once": true,
+  "tracked_payload_files": 126,
+  "members_manifest_sha256": "38f8f12266ac745f6a674afd0c51c8a3b4aea031cf09b8dca588fbf08bc739a9",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 16898605,
+  "archive_sha256": "cac4d12ca1ce71f0a742a2579d1960a5f21ce71237247ed374284299b6b59bd9",
+  "chunks": [
+    {
+      "name": "adam100_checkpoint45_recovery_input_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "11c7b50eb6a448ec025e9272f1b636df1f34e992a70030a7579ba5df027c2c47"
+    },
+    {
+      "name": "adam100_checkpoint45_recovery_input_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "7534c938df4c1e02e10b54d7aecf397a69cc410af9acf05f71ce714b24bb33a9"
+    },
+    {
+      "name": "adam100_checkpoint45_recovery_input_20261103.part002",
+      "bytes": 2218541,
+      "sha256": "f2838e1fa1a999cbf32060523b7e9430898f36f95f6cb40f177d2ac35ca528c9"
+    }
+  ],
+  "numeric_audit_certified": false,
+  "full100_training_complete": false,
+  "diagnostic_labels_scored": false
+}

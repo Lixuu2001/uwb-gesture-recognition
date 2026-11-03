@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "checkpoint45_recovery_plan_pending_exact_registration_private_input_backup",
+  "state": "Adam100_checkpoint45_continuation_actual_updates_active_private_input_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_adam100_checkpoint45_recovery/PREREGISTRATION.md",
+  "latest_report": "results/cloud_20261103_adam100_checkpoint45_recovery/ACTIVE_CONTINUATION.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793694394.398398,
   "background_training_pid": 2377,
-  "background_training_status_note": "Original6216/6217 absent in new runtime namespace; stale producer state at45epochs/10575committed,10604rawlogs, no termination receipts. All originalguards and checkpoint components verified. New exact45continuation25freeze prepared; no recovery process started. Old25backup raw/all91members now verified.",
+  "background_training_status_note": "Actual checkpoint45 continuation controller1525/producer1526 identities verified; canonical11038updates, first29interrupted steps exactly reproduced, all originalinput/recoveryfreeze unchanged. Private45input126members verified; held1sealed. Old6216/6217 historicalnamespace absent.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Register/readback pinned checkpoint45 operational continuation; private raw allmember input45 archive; then restore model/Adam/order/Torch RNG and continue55remainingepochs. Full100fresh-seed replay with resumable own audit journals, final audited private backup and once gate required.",
-  "last_completed_update_utc": "2026-11-03T13:41:58.033487+00:00",
+  "next_candidate": "Inspect current /workspace/uwb-shufflenetv2-x1-adam100-recovery45-20261103 PIDs/checkpoints first; continue remaining55epochs tofixed100, all100independent replay with own audit journals, audited finalprivate rawbackup then oncegate. No stalePID or duplicatefresh fit.",
+  "last_completed_update_utc": "2026-11-03T13:51:16.883413+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "checkpoint45_recovery_plan_pending_exact_registration_private_input_backup",
+  "latest_task_state": "Adam100_checkpoint45_continuation_actual_updates_active",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -9821,5 +9821,37 @@
     "method_or_seed_or_endpoint_changed": false,
     "originality_claim": false,
     "goal_met": false
+  },
+  "Adam100_recovery45_active_20261103": {
+    "observation": {
+      "state": "actual_checkpoint45_Adam100_continuation_updates_verified",
+      "utc": "2026-11-03T13:51:16.883413+00:00",
+      "workspace": "/workspace/uwb-shufflenetv2-x1-adam100-recovery45-20261103",
+      "controller_pid": 1525,
+      "controller_start_ticks": "655735",
+      "producer_pid": 1526,
+      "producer_start_ticks": "656404",
+      "boot_id": "df9b85a3-95c7-4d5e-9b6d-be4b15d952b0",
+      "registration_commit": "142f3938798fae58a639f4d7b38b4b1eae90a1ec",
+      "frozen_sha256": "fb5d9f587d7aa1b12638c62bacc74704e3c646c5cf1e7338e591f9d69a883b34",
+      "canonical_completed_updates": 11038,
+      "new_segment_updates": 463,
+      "updates_beyond_old_uncommitted_suffix": 434,
+      "last_complete_epoch": 46,
+      "prefix10575_original_log_bytes_preserved": true,
+      "all29_uncommitted_suffix_records_reproduced_exact": true,
+      "all25_recovery_frozen_files_exact": true,
+      "all_original96_input_files_unchanged": true,
+      "checkpoint45_private_raw_allmember_verified": true,
+      "diagnostic_labels_scored": false,
+      "users7_8_labels_used": false,
+      "scientific_parameters_changed": false
+    },
+    "input45_private_archive_sha256": "cac4d12ca1ce71f0a742a2579d1960a5f21ce71237247ed374284299b6b59bd9",
+    "input45_private_bytes": 16898605,
+    "input45_private_members": 126,
+    "input45_index": "results/cloud_20261103_adam100_checkpoint45_recovery/recovery_input_insurance/CLOUD_DOWNLOAD_INDEX.json",
+    "goal_met": false,
+    "automatic_continuation_enabled": true
   }
 }
