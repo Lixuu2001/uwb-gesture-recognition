@@ -1,0 +1,79 @@
+{
+  "state": "cloud_executor_unavailable_current_trial_state_unverified",
+  "observed_utc": "2026-11-03T03:52:20Z",
+  "context_status": "unavailable",
+  "provider_observation": {
+    "environment_id": "ccarenv_b64_Y2NhcmVudl80NTMxZGFhYWEzZWM4MTkxYTJmYzgwN2I4MWVkMzk2MA",
+    "provider": "cloud",
+    "desired_phase": "running",
+    "observed_phase": "failed",
+    "connectivity": "offline",
+    "observations_current": true,
+    "capabilities": [],
+    "failure": {
+      "code": "environment_startup_failed",
+      "message": "Environment startup failed. Check the configuration, retry, or contact support."
+    },
+    "spec_revision": "1437",
+    "observed_spec_revision": "1437",
+    "network_policy_state": "enforced"
+  },
+  "exec_command_error": "No usable execution environment is available. Wait for an environment to become available before using this tool.",
+  "wait_error": "environment `ccarenv_b64_Y2NhcmVudl80NTMxZGFhYWEzZWM4MTkxYTJmYzgwN2I4MWVkMzk2MA` is neither ready nor starting",
+  "retained_network_diagnostics": {
+    "history_status": "not_found",
+    "records": 0,
+    "root_cause_established": false
+  },
+  "missing_capabilities": [
+    "usable_shell_and_filesystem_executor",
+    "read_proc_and_current_training_audit_exit_status",
+    "read_current_checkpoints_logs_and_COMPLETE_AUDIT",
+    "run_Python_PyTorch_or_any_runtime_tests",
+    "materialize_and_immediately_SHA_verify_raw_Drive_chunks"
+  ],
+  "available_capabilities": [
+    "GitHub_read_write_connectors",
+    "public_literature_search",
+    "Drive_metadata_connectors"
+  ],
+  "last_verified_local_observation": {
+    "utc": "2026-11-03T02:36:29.265781+00:00",
+    "state": "producer_active",
+    "controller_pid": 98422,
+    "worker_pid": 98423,
+    "completed_epochs": 24,
+    "completed_updates": 7650,
+    "worker_args_verified": true,
+    "termination_observed": false
+  },
+  "current_process_running": null,
+  "current_process_stopped": null,
+  "current_full_training_complete": null,
+  "current_audit_complete": null,
+  "new_diagnostic_accuracy_observed": false,
+  "scientific_negative": false,
+  "new_training_started_this_continuation": false,
+  "raw_data_loss_established": false,
+  "duplicate_training_or_download_started": false,
+  "automatic_continuation_enabled": true,
+  "user_goal_reached": false,
+  "configuration_or_visibility_changed": false,
+  "initial_provider_observation": {
+    "environment_id": "ccarenv_b64_Y2NhcmVudl80NTMxZGFhYWEzZWM4MTkxYTJmYzgwN2I4MWVkMzk2MA",
+    "provider": "cloud",
+    "desired_phase": "running",
+    "observed_phase": "starting",
+    "connectivity": "offline",
+    "observations_current": true,
+    "capabilities": [],
+    "failure": null,
+    "spec_revision": "1437",
+    "observed_spec_revision": "1437",
+    "network_policy_state": "enforced",
+    "network_diagnostics_available": false
+  },
+  "initial_provider_observation_utc": "2026-11-03T03:32:10Z",
+  "failure_code": "environment_startup_failed",
+  "underlying_root_cause_established": false
+}

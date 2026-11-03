@@ -1,0 +1,86 @@
+{
+  "state": "unselected_prospective_published_recipe_preparation_runtime_unavailable",
+  "observed_source_date_utc": "2026-11-03",
+  "paper": {
+    "title": "On the Effect of Training Convolution Neural Network for Millimeter-Wave Radar-Based Hand Gesture Recognition",
+    "DOI": "10.3390/s21010259",
+    "primary": "https://www.mdpi.com/1424-8220/21/1/259",
+    "section": "4.2 Training Setup; indexed complete section text retrieved",
+    "pdf_open_succeeded": false
+  },
+  "new_verified_recipe": {
+    "optimizer_named_in_paper": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 20,
+    "epochs": 100,
+    "weight_decay": 0,
+    "data_augmentation": false,
+    "reported_endpoint": "epoch100"
+  },
+  "ambiguities": [
+    "Paper also calls .9 a Nesterov momentum, which is not a PyTorch Adam argument; beta1=.9 beta2=.999 eps1e-8 are explicit project interpretation, not author-code parity.",
+    "Radar paper reports 1.37M parameters, whereas the proposed canonical full x1 original1000head model has 2.278604M. No exact author-width claim.",
+    "UWB three-radar range-time inputs and user protocol differ from 77GHz TSV data and the author's split."
+  ],
+  "non_equivalence_to_current": "Published Adam100/B20/noAug/final100 recipe is not the ongoing SGDM40/B15/affine/bestValidation trial. Current exact SGDM configuration stays frozen; no inference about its final accuracy while runtime is inaccessible.",
+  "activation_condition": "First inspect and complete current registered trial. Only after its exact failed gate is legitimately finalized may separately select/register/cost a fresh ImageNet-initialized trial. Never continue the current checkpoint or use diagnostic labels for tuning.",
+  "prospective_fixed_configuration": {
+    "architecture": "full_official_ShuffleNetV2_x1_0",
+    "stages_repeats": [
+      4,
+      8,
+      4
+    ],
+    "stage_channels": [
+      24,
+      116,
+      232,
+      464,
+      1024
+    ],
+    "original_parameters": 2278604,
+    "gesture12_trainable_parameters": 1265904,
+    "weights_sha256": "5666bf0f80d1e7f8fb61f6a65742b9c27c37f3208c1f087cdcd7c1ec1aa8b848",
+    "all_layers_trainable": true,
+    "BN_train_during_learning": true,
+    "epochs": 100,
+    "batch_size": 20,
+    "updates": 23500,
+    "optimizer": "torch.optim.Adam",
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-8,
+    "weight_decay": 0,
+    "amsgrad": false,
+    "foreach": false,
+    "fused": false,
+    "data_augmentation": false,
+    "checkpoint_selection": "fixed_epoch100; validation monitoring only",
+    "seed": 20261029,
+    "threads": 4,
+    "training_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_user": 2,
+    "diagnostic_user": 1,
+    "users7_8_labels_forbidden": true,
+    "reference_macro": 0.9866666666666667,
+    "minimum_gain": 0.005,
+    "tolerance": 1e-12
+  },
+  "runtime_validation": "NOT_EXECUTED",
+  "formal_cost_registered": false,
+  "formal_cost_started": false,
+  "actual_UWB_fit_started": false,
+  "source6_confirmation": false,
+  "accuracy_improvement_evidence": false,
+  "original_contribution_evidence": false,
+  "current_trial_diagnostic_score_observed": false,
+  "authored_utc": "2026-11-03T03:51:54Z"
+}
