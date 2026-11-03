@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "purpose": "Complete full official ShuffleNetV2 x1 SGDM40 B15 audited model/ID/log/scientific-helper recovery",
+  "receipt_sha256": "b4a74be0308faed726c18a4d9be54f955eb40c2ad828d5515a498bb073a8d63a",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "folder_must_remain_owner_only": true,
+  "state": "private_readback_verified",
+  "scope": "complete_audited_full_ShuffleNetV2_x1_SGDM40_B15_recovery_20261103_source_held1",
+  "archive_bytes": 26636352,
+  "archive_sha256": "c3af2a3844a483c40c1014ab71ebb6200510d4eb21e15958bb922292cc2a8488",
+  "members_manifest_sha256": "e91bc0977ba4fc90cc82467b44a79c3ac6cc2f93a111198d467c19af2358f06b",
+  "chunks": [
+    {
+      "name": "shufflenetv2_x1_sgdm40_b15_recovery_complete_20261103.part000",
+      "bytes": 7340032,
+      "sha256": "ae85a554909770be7b9959325ffddfdb98cbc8b5f0c4d0827a21389f88cb2480",
+      "file_id": "1PuXxBpQPlRf1BPTttLvOFTnUtY_Ysrfj",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/x-gzip",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_sgdm40_b15_recovery_complete_20261103.part001",
+      "bytes": 7340032,
+      "sha256": "e7120dca5cbcb785fc7e046f85ab5b313bc471e3881b6da59409590f9e0ff443",
+      "file_id": "1qaGcpW9K4L90Y7NFZpgqwK6qS8JAs3-V",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_sgdm40_b15_recovery_complete_20261103.part002",
+      "bytes": 7340032,
+      "sha256": "99d1ea6adedc0ecc20f73f997a1fcfbb918988034c8e650ec545f6d7a6e18758",
+      "file_id": "1ChIWaf3_6CFqJ2aVVMhRvebBuVPspV7S",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 7340032,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    },
+    {
+      "name": "shufflenetv2_x1_sgdm40_b15_recovery_complete_20261103.part003",
+      "bytes": 4616256,
+      "sha256": "cf44aed65b984f3aa3b27843fa2c9346deb64dd355ad00b723f5fc1d28c2cff2",
+      "file_id": "10zFL7MxQnxNXYA9NLazG6K_j2KQUuqNo",
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "metadata": {
+        "shared": false,
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "mime_type": "application/octet-stream",
+        "size_bytes": 4616256,
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ]
+      },
+      "raw_fetch": true,
+      "include_base64": false,
+      "download_verified": true
+    }
+  ],
+  "complete_modelset_verified": true,
+  "numeric_audit_certified": true,
+  "shared_initial_encoder_and_initial12_head_best_model_final_model_optimizer_rng_included": true,
+  "diagnostic_labels_scored": false,
+  "whole_job_resume": false,
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false
+}

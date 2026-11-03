@@ -1,0 +1,53 @@
+Actual retained execution output: /workspace/uwb-recovery-20261103/ADAM_NATIVE_SOURCE_TESTS.log
+test_full_B20_Adam_checkpoint_next_two_updates_exact (__main__.NativeChecks.test_full_B20_Adam_checkpoint_next_two_updates_exact) ... ok
+test_unapproved_training_or_validation_user_metadata_blocks (__main__.NativeChecks.test_unapproved_training_or_validation_user_metadata_blocks) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 2.158s
+
+OK
+
+Actual retained execution output: /workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_radar_adam100_preparation/ADAM_EQUATION_TEST.log
+test_all1265904_parameters_moments_bias_correction_and_BN_train (__main__.AdamEquations.test_all1265904_parameters_moments_bias_correction_and_BN_train) ... {"state": "pass_synthetic_full_B20_all_parameter_standard_Adam_equations", "seed": 20261029, "updates": [{"update": 1, "parameter_elements_checked": 1265904, "loss": 2.484644889831543, "maximum_parameter_error": 2.342070573035926e-07, "maximum_error_over_predeclared_bound": 0.061869095431791574}, {"update": 2, "parameter_elements_checked": 1265904, "loss": 2.479071617126465, "maximum_parameter_error": 2.3593682829670115e-07, "maximum_error_over_predeclared_bound": 0.06110837894615064}], "batch_size": 20, "all_layers_trainable": true, "BN_train": true, "gamma_n": 16, "unit_roundoff": 5.960464477539063e-08, "underflow_allowance": 1.88079096131566e-37, "tolerance_empirically_fitted": false, "UWB_values_or_labels_read": false, "actual_UWB_fit_started": false, "author_radar_optimizer_code_parity_claim": false, "independent_convolution_or_autograd": false}
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 24.470s
+
+OK
+
+Actual retained execution output: /workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_radar_adam100_cost_preparation/CURRENT_PRIMARY_GUARD_TESTS.log
+test_complete_100epochs_plus_replay_cannot_fit_one_second_updates (test_cost_math.Boundaries.test_complete_100epochs_plus_replay_cannot_fit_one_second_updates) ... ok
+test_full_checkpoint_and_streaming_workspace_boundary (test_cost_math.Boundaries.test_full_checkpoint_and_streaming_workspace_boundary) ... ok
+test_memory_margin_and_no_epoch_shrinking (test_cost_math.Boundaries.test_memory_margin_and_no_epoch_shrinking) ... ok
+test_no_resource_claim_for_nonfinite_or_incomplete_timings (test_cost_math.Boundaries.test_no_resource_claim_for_nonfinite_or_incomplete_timings) ... ok
+test_archive_membership_must_be_unique_and_hash_bound (test_cost_guard.PromotionRefusal.test_archive_membership_must_be_unique_and_hash_bound) ... ok
+test_coherent_virtual_fixture_reaches_end_only (test_cost_guard.PromotionRefusal.test_coherent_virtual_fixture_reaches_end_only) ... ok
+test_draft_missing_registration_source_mutation_and_label_use_refused (test_cost_guard.PromotionRefusal.test_draft_missing_registration_source_mutation_and_label_use_refused) ... ok
+test_each_complete_replay_claim_is_required (test_cost_guard.PromotionRefusal.test_each_complete_replay_claim_is_required) ... ok
+test_empty_or_missing_models_cannot_pass_an_empty_hash_loop (test_cost_guard.PromotionRefusal.test_empty_or_missing_models_cannot_pass_an_empty_hash_loop) ... ok
+test_private_partial_or_other_scope_refused (test_cost_guard.PromotionRefusal.test_private_partial_or_other_scope_refused) ... ok
+test_real_stdlib_sha_reads_all_bytes (test_cost_guard.PromotionRefusal.test_real_stdlib_sha_reads_all_bytes) ... ok
+test_stale_receipt_with_same_scope_cannot_certify_other_model (test_cost_guard.PromotionRefusal.test_stale_receipt_with_same_scope_cannot_certify_other_model) ... ok
+test_truncated_old_freeze_and_unsafe_archive_names_refused (test_cost_guard.PromotionRefusal.test_truncated_old_freeze_and_unsafe_archive_names_refused) ... ok
+test_unknown_active_or_passed_previous_trial_cannot_activate (test_cost_guard.PromotionRefusal.test_unknown_active_or_passed_previous_trial_cannot_activate) ... ok
+test_wrong_primary_registration_or_initial_insurance_cannot_activate (test_cost_guard.PromotionRefusal.test_wrong_primary_registration_or_initial_insurance_cannot_activate) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.180s
+
+OK
+
+Actual retained execution output: /workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_radar_adam100_cost_preparation/SUPERVISOR_TESTS.log
+test_child_exception_cannot_report_success (test_supervisor.SupervisorBoundary.test_child_exception_cannot_report_success) ... ok
+test_launch_failure_records_evidence (test_supervisor.SupervisorBoundary.test_launch_failure_records_evidence) ... ok
+test_real_cpu_limit_cannot_report_success (test_supervisor.SupervisorBoundary.test_real_cpu_limit_cannot_report_success) ... ok
+test_real_success_records_exit_cpu_rss_cgroup_and_reaps (test_supervisor.SupervisorBoundary.test_real_success_records_exit_cpu_rss_cgroup_and_reaps) ... ok
+test_rss_limit_retains_resource_failure_without_scientific_claim (test_supervisor.SupervisorBoundary.test_rss_limit_retains_resource_failure_without_scientific_claim) ... ok
+test_virtual_cgroup_oom_delta_refuses_zero_exit (test_supervisor.SupervisorBoundary.test_virtual_cgroup_oom_delta_refuses_zero_exit) ... ok
+test_wall_limit_terminates_only_own_child (test_supervisor.SupervisorBoundary.test_wall_limit_terminates_only_own_child) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.922s
+
+OK

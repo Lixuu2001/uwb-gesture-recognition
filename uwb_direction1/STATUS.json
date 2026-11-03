@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "producer40_complete_private_verified_full_numeric_audit_active",
+  "state": "current_SGDM40_exact_gate_failed_Adam100_selected_cost_not_started",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_shufflenetv2_recovery/PRODUCER_COMPLETE_AND_ADAM_IMPLEMENTATION.md",
+  "latest_report": "results/cloud_20261103_shufflenetv2_recovery/FINAL_AND_NEXT_ADAM100_COST.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -63,7 +63,7 @@
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
   "background_training_observed_unix": 1793694394.398398,
   "background_training_pid": 2377,
-  "background_training_status_note": "Full40/12560 producer exited0; full original replay auditor2811/startticks712514 active at2026-11-03T09:37:01.522668+00:00, 17epochs replayed. Complete producer151payload archive privately raw/allmember verified; diagnostic unscored. No duplicate/Adam100 launch.",
+  "background_training_status_note": "SGDM40 recovery full audit and complete audited private recovery passed, once diagnostic49.0833333333%, fixed gate failed; exact config closed. Adam100 selected synthetic cost not yet registered/readback or started. No training/audit worker active.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Finish existing auditor2811 full40 replay/RMS/allpixel verification; then original audited full private backup and once diagnostic finalization. Only exact legitimate failed gate permits independent Adam100 selection.",
-  "last_completed_update_utc": "2026-11-03T09:37:01.522668+00:00",
+  "next_candidate": "Register/readback fixed Adam100 synthetic cost then run bounded resource profile once; verify without reprofiling. If resource pass, finish whole100epoch lifecycle tests and independently preregister actual UWB trial; no SGDM40 rescue.",
+  "last_completed_update_utc": "2026-11-03T10:37:40.323365+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -2277,7 +2277,7 @@
     "scope_choice_user_reaffirmed": "2026-10-25 continuation reiterates method-contribution as the primary goal; no empirical-paper pivot is authorized.",
     "scope_choice_status": "method-first; candidate search may continue in bounded read-only work, but no experiment until a distinct candidate clears gates"
   },
-  "latest_task_state": "producer40_complete_private_verified_full_numeric_audit_active",
+  "latest_task_state": "current_SGDM40_exact_gate_failed_Adam100_selected_cost_not_started",
   "latest_literature_candidate_screen_20261026": {
     "date_utc": "2026-10-26 00:55:36 UTC",
     "report": "uwb_direction1/results/cloud_20261026_motion_primitive_ontology_gate/RUN_REPORT.md",
@@ -6404,7 +6404,7 @@
     "source_sixfold_confirmation_completed": true,
     "eightfold_improvement_established": false
   },
-  "next_action_source_confirmation": "Await current ShuffleNet recovery complete audit/private readback/once frozen source-user diagnostic gate. Pass requires preregistered source6 confirmation; fail exact SGDM40 closes without rescue; Adam100 candidate remains unselected.",
+  "next_action_source_confirmation": "SGDM40 exact fixed gate failed; no confirmation/8fold. Adam100 source-user trial requires its own passed cost and preregistration. Users7\u20138 labels excluded.",
   "hinception_fixed_branch_control_preparation": {
     "state": "pass_synthetic_paired_fixed_response_zero_preparation",
     "workspace": "/workspace/uwb-hinception-fixed-branch-control-20261031",
@@ -9599,5 +9599,36 @@
     "candidate_scientific_configuration_changed": false,
     "goal_met": false,
     "originality_claim": false
+  },
+  "shufflenet_closed_adam100_cost_20261103": {
+    "state": "current_SGDM40_exact_gate_failed_Adam100_selected_cost_not_started",
+    "utc": "2026-11-03T10:37:40.323365+00:00",
+    "SGDM40_summary": {
+      "state": "complete_exploratory_full_alllayer_ShuffleNetV2_x1_SGDM40_B15",
+      "scores": {
+        "validation": 0.49399999999999994,
+        "diagnostic": 0.4908333333333333
+      },
+      "delta_macro": -0.4958333333333334,
+      "predeclared_gate_passed": false,
+      "route": "close_exact_full_ShuffleNetV2_x1_SGDM40_B15_seed20261029_no_rescue",
+      "complete_private_modelset_verified": true,
+      "source6_confirmation_complete": false,
+      "users7_8_labels_used": false,
+      "independent_validation": false,
+      "novel_contribution_validated": false
+    },
+    "complete_archive_sha256": "c3af2a3844a483c40c1014ab71ebb6200510d4eb21e15958bb922292cc2a8488",
+    "complete_private_payload_members": 160,
+    "complete_archive_bytes": 26636352,
+    "complete_private_parts": 4,
+    "cost_root": "/workspace/uwb-shufflenetv2-x1-adam100-cost-20261103",
+    "candidate_method": "full_ShuffleNetV2_x1_ImageNetV1_Adam100_B20_noAug_fixedFinal100",
+    "cost_hashes_sha256": "ec1ad112ec80f26c1467c09a0f5f530a6d57c14f5f7c15ce1ec785e70c734edc",
+    "cost_frozen_files": 13,
+    "cost_dependency_files": 2965,
+    "formal_cost_started": false,
+    "Adam100_real_fit_started": false,
+    "users7_8_labels_used": false
   }
 }

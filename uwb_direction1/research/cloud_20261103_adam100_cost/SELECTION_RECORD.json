@@ -1,0 +1,23 @@
+{
+  "state": "selected_cost_only_not_real_training",
+  "utc": "2026-11-03T10:36:40.069591+00:00",
+  "reference_paper": "https://doi.org/10.3390/s21010259",
+  "section": "4.2",
+  "native_source_sha256": "5e213e9b08d81506a6279152701935d6333ca19e3addf4d217d794dff6db5c21",
+  "method": "full_ShuffleNetV2_x1_ImageNetV1_Adam100_B20_noAug_fixedFinal100",
+  "seed": 20261029,
+  "scientific_parameters_changed_after_diagnostic": false,
+  "source6_or8fold_started": false,
+  "formal_synthetic_cost_started": false,
+  "actual_UWB_fit_started": false,
+  "source_synthetic_tests": {
+    "native_checkpoint": 2,
+    "optimizer_equation": 1,
+    "math_and_promotion_guard": 15,
+    "isolated_supervisor": 7
+  },
+  "author_exact_width_or_code_parity": false,
+  "standard_Adam_interpretation_disclosed": true,
+  "original_contribution_claim": false,
+  "prior_eight_user_development_exploratory": true
+}

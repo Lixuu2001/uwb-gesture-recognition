@@ -1,0 +1,31 @@
+{
+  "state": "current_SGDM40_exact_gate_failed_Adam100_selected_cost_not_started",
+  "utc": "2026-11-03T10:37:40.323365+00:00",
+  "SGDM40_summary": {
+    "state": "complete_exploratory_full_alllayer_ShuffleNetV2_x1_SGDM40_B15",
+    "scores": {
+      "validation": 0.49399999999999994,
+      "diagnostic": 0.4908333333333333
+    },
+    "delta_macro": -0.4958333333333334,
+    "predeclared_gate_passed": false,
+    "route": "close_exact_full_ShuffleNetV2_x1_SGDM40_B15_seed20261029_no_rescue",
+    "complete_private_modelset_verified": true,
+    "source6_confirmation_complete": false,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "novel_contribution_validated": false
+  },
+  "complete_archive_sha256": "c3af2a3844a483c40c1014ab71ebb6200510d4eb21e15958bb922292cc2a8488",
+  "complete_private_payload_members": 160,
+  "complete_archive_bytes": 26636352,
+  "complete_private_parts": 4,
+  "cost_root": "/workspace/uwb-shufflenetv2-x1-adam100-cost-20261103",
+  "candidate_method": "full_ShuffleNetV2_x1_ImageNetV1_Adam100_B20_noAug_fixedFinal100",
+  "cost_hashes_sha256": "ec1ad112ec80f26c1467c09a0f5f530a6d57c14f5f7c15ce1ec785e70c734edc",
+  "cost_frozen_files": 13,
+  "cost_dependency_files": 2965,
+  "formal_cost_started": false,
+  "Adam100_real_fit_started": false,
+  "users7_8_labels_used": false
+}
