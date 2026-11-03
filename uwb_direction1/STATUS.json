@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "softvote_validation_gate_passed_scalar64_auditor_execution_repair_preregistered",
+  "state": "softvote_source1_positive_once_gate_passed_source6_locked_before_fitting",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_softvote_source1/VALIDATION_AND_REPAIR.md",
+  "latest_report": "results/cloud_20261103_softvote_source1/POSITIVE_PILOT_AND_SOURCE6_LOCK.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793729012.7357755,
+  "background_training_observed_unix": 1793729936.7003467,
   "background_training_pid": null,
-  "background_training_status_note": "Validation99.9vs99.5 passed. Audit scalar reference bug isolated before any held outputs/labels; new float64-reference revision awaits exact remote preregistration/readback.",
+  "background_training_status_note": "Fixed mixture source1 once99.1667vs98.6667 passes+0.5pp, private all163members verified. Six-source method locked. Coupled synthetic profile awaits exact remote registration/readback; no new source6 training.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -10044,5 +10044,34 @@
   "frozen_sha256": "b68ae51343edc2397a023e8a69be249193c97215fc2b76084a60e391db6b5625",
   "frozen_files": 18,
   "observed_utc": "2026-11-03T18:03:32.726127+00:00"
+}
+,
+  "softvote_positive_pilot_source6_lock_20261103": {
+  "state": "positive_exploratory_source1_pilot_complete_source6_method_locked_coupled_cost_not_started",
+  "pilot_root": "/workspace/uwb-softvote-scalar64-repair-20261103",
+  "source6_preparation_root": "/workspace/uwb-softvote-source6-preparation-20261103",
+  "pilot_registration": "7b8fdb35abb51a81eb35bdcb7fc4a46a0ef049ea",
+  "auditor_repair_registration": "1687236ef11d849b66650f550d9d8763ce24165a",
+  "validation_macro": 0.999,
+  "validation_gain": 0.0039999999999998925,
+  "diagnostic_macro": 0.9916666666666667,
+  "delta_over_TimeMIL": 0.0050000000000000044,
+  "predeclared_source1_gate_passed": true,
+  "pilot_summary_sha256": "c50df4678c774caab78ae56935962d8241a68aa48beff508e8b2d9147c22dad2",
+  "private_archive_sha256": "047515a6d54741263833bd20ad266ad5cfdaf890ebcdae8eca03511037ff525b",
+  "private_archive_bytes": 51330088,
+  "private_chunks": 7,
+  "private_payload_members": 163,
+  "source6_complete": false,
+  "new_folds_started": false,
+  "source6_coupled_synthetic_profile_started": false,
+  "source6_frozen_sha256": "25a60eb83a6a2f04e95ef036f27f6a848b1c9c2914c7f2bedf01ae559cb9ed39",
+  "source6_frozen_files": 9,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "novel_contribution_validated": false,
+  "goal_achieved": false,
+  "background_training_running": false,
+  "observed_utc": "2026-11-03T18:18:56.690313+00:00"
 }
 }

@@ -1,0 +1,92 @@
+{
+  "state": "source6_method_locked_before_new_component_fits_coupled_synthetic_profile_only",
+  "seed": 20261029,
+  "held_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_rule": "held%6+1",
+  "training_rule": "other_four_source_users",
+  "reused_held1_root": "/workspace/uwb-softvote-scalar64-repair-20261103",
+  "reused_summary_sha256": "c50df4678c774caab78ae56935962d8241a68aa48beff508e8b2d9147c22dad2",
+  "reused_private_receipt_sha256": "0dabd71e8106202f6d7d72dd9b211bcd3c582df9bc1bc6dcd656c82375dfa359",
+  "new_held_users": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "temperature": 1,
+  "TimeMIL": {
+    "epochs": 64,
+    "batch": 64,
+    "threads": 1,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "AdamW_StableLookahead_alpha.5_k6_lazy_slow",
+    "clip": 2,
+    "loss": "unweighted12classOvRBCE",
+    "model": "full567channels_mDim128_wavelet19_landmarks64_dropout.2",
+    "warmup": "epoch<10 literal0.1MIL+.99GAP",
+    "selection": "validation_macro_lowerBCE_earlier_epoch",
+    "source": "/workspace/uwb-timemil-20261029"
+  },
+  "ShuffleNet": {
+    "epochs": 100,
+    "batch": 20,
+    "threads": 4,
+    "lr": 0.001,
+    "weight_decay": 0,
+    "optimizer": "Adam_betas.9_.999_eps1e-8_foreachFalse_fusedFalse",
+    "loss": "unweighted12classCE",
+    "model": "fullV2_x1_1265904gesture_params_BNtrain",
+    "selection": "fixed_epoch100",
+    "source": "/workspace/uwb-cloud-current/uwb_direction1/research/cloud_20261103_radar_adam100_preparation"
+  },
+  "gate": {
+    "member_mean_gain": 0.005,
+    "member_minimum_strict_wins": 4,
+    "member_worst_lower": -0.02,
+    "strong_baseline_mean_gain": 0.01,
+    "strong_baseline_minimum_strict_wins": 4,
+    "strong_baseline_worst_lower": -0.02,
+    "tolerance": 1e-12
+  },
+  "strong_baselines": [
+    "localCNN24",
+    "GAP64"
+  ],
+  "all5_new_folds_3arm_predictions_frozen_and_privately_verified_before_aggregate": true,
+  "held1_scores_reused_immutable_without_rescoring": true,
+  "users7_8_labels_forbidden": true,
+  "independent_validation": false,
+  "novel_contribution_claim": false,
+  "per_fold_wall_seconds": 43200,
+  "per_fold_CPU_seconds": 172800,
+  "total5fold_wall_upper_seconds": 216000,
+  "total5fold_CPU_upper_seconds": 864000,
+  "parallel_member_training_CPU_threads": [
+    1,
+    4
+  ],
+  "inference_audit_after_training": true,
+  "combined_RSS_stop_KiB": 14680064,
+  "profile_wall_seconds": 600,
+  "profile_each_CPU_seconds": 3000,
+  "profile_updates_per_member": 6,
+  "profile_synthetic_only": true,
+  "new_UWB_fitting_allowed_by_this_preparation": false,
+  "real_runner_and_resume_tests_required_before_new_fitting": true,
+  "no_new_fold_skipped_for_validation_or_held_performance": true,
+  "source1_validation_gate_is_pilot_eligibility_only": true,
+  "closed_standalone_members_not_reopened": true
+}
