@@ -1,0 +1,83 @@
+{
+  "ancestor_archive_sha256": "ef0b343b2904657b18207c3bde8922554cbd73a46c0fe9bcad0da6fe7255039e",
+  "archive_bytes": 14101010,
+  "archive_sha256": "f912e6451e8dde730a32a1db0572a0bf6c8e1b454a26a09d116d589593521c76",
+  "base_archive_sha256": "413946b9a0fc2894cc904e998dcfc6bba65f4c0c43d7a799742ba39a50d989a7",
+  "chain_depth": 2,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "177HddLuZ01zqeqvaPmn2Yy-RCPrTubyA",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "softvote_source6_audit_delta05_20261104.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "28e84be6705b0dd51aefe148b7385ab1243f993ed1f33fce3634a99c06aa2871"
+    },
+    {
+      "bytes": 6760978,
+      "download_verified": true,
+      "file_id": "1GSyRla_FSbUbEsHpPQGGdEY72W8EAm6J",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 6760978
+      },
+      "name": "softvote_source6_audit_delta05_20261104.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "3dd80da72ee86f689a525e42fabb017cc2129b332182e4e2a3dedd6cf00cb6ed"
+    }
+  ],
+  "diagnostic_labels_read": false,
+  "final_scoring_authority": false,
+  "members_manifest_sha256": "b42db7f50c35ee08d48eb96832ddf6d965255353a246197c2a63bfa84d1559ce",
+  "new_model_fit": false,
+  "own_audit": {
+    "TimeMIL_full_training_replayed": false,
+    "TimeMIL_selected_state_output_audit_preserved": true,
+    "diagnostic_labels_read": false,
+    "full100Shuffle_replay_complete": false,
+    "new_model_fit": false,
+    "own_replay_epoch": 61,
+    "own_replay_updates": 14335,
+    "state": "captured_own_replay_commits_equal_original_producer_and_retained_TimeMIL_output_audit_bound"
+  },
+  "reconstruction": {
+    "changed_files": 80,
+    "diagnostic_labels_read": false,
+    "files": 676,
+    "new_model_fit": false,
+    "omitted_prior_paths_preserved_in_base": [],
+    "state": "all_current_payloads_reconstructed_exactly_without_mutating_base"
+  },
+  "scope": "source6_held2_own_Shuffle_replay61_delta05_depth2_not_final_scoring_authority",
+  "standalone_recovery": false,
+  "state": "private_raw_verified_audit_delta05_with_real_native_reconstruction",
+  "tracked_payload_files": 113
+}

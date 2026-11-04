@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_held2_independent_replay_active_with_verified_delta04_native_reconstruction",
+  "state": "source6_original_independent_audit_continues_with_verified_own61_delta05",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261104_source6_delta04/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261104_source6_audit_delta05/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793754123.718778,
+  "background_training_observed_unix": 1793756942.0464396,
   "background_training_pid": 3406,
-  "background_training_status_note": "Same controller3406 and registered independent replay active. Complete TimeMIL64/Shuffle100 producers and own audit23 privately preserved via raw-verified delta over insurance03; all600payloads reconstructed/native-verified. Exact current replay progress in observation; no held scoring, new fit/selection/accuracy or novelty claim.",
+  "background_training_status_note": "Same controller/replay active, no duplicate/new fitting or science changes. Own audit61 privately raw-verified/reconstructed, delta depth2; exact live replay in latest observation. Full100 audit and all5newfolds/full final private verification remain before held scoring. No accuracy/novelty claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -10831,6 +10831,100 @@
   "scientific_configuration_changed": false,
   "new_fitting_process_launched": false,
   "source1_rescored": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_accuracy_result": false,
+  "novel_contribution_validated": false
+}
+,
+  "source6_audit_delta05_20261104": {
+  "state": "original_independent_replay_continues_own61_delta_insurance_verified",
+  "observed_unix": 1793756942.0464396,
+  "controller": {
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S",
+    "CPU_seconds": 1508.87,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08"
+  },
+  "replay_process": {
+    "pid": 5050,
+    "startticks": 1624084,
+    "state": "R",
+    "CPU_seconds": 21172.91,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08"
+  },
+  "controller_state": {
+    "held": 2,
+    "state": "auditing_members_unscored"
+  },
+  "live_own_replay": {
+    "checkpoint_sha256": "ad33de756752d5817e6be6ceff68a9c475414c2042e8289de97536cd061b852a",
+    "epoch": 66,
+    "journal_sha256": "44ae82f7c2d157a1073668744380988fcdb64cd6537eabcde5f2a0773f8cfe2f",
+    "prefix_bytes": 3796724,
+    "prefix_sha256": "392597e25b251bc5c679c3b562a7c6818a785de919bfc49362bc58c7d73a5427",
+    "slot": "slot0.pt",
+    "updates": 15510
+  },
+  "resource_ledger": {
+    "active_held": 2,
+    "folds": {
+      "2": {
+        "cpu": 74448.44614,
+        "wall": 20212.837046228
+      },
+      "3": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 1973972,
+    "last_observed_unix": 1793756938.2647123
+  },
+  "insured_own_replay": {
+    "TimeMIL_full_training_replayed": false,
+    "TimeMIL_selected_state_output_audit_preserved": true,
+    "diagnostic_labels_read": false,
+    "full100Shuffle_replay_complete": false,
+    "new_model_fit": false,
+    "own_replay_epoch": 61,
+    "own_replay_updates": 14335,
+    "state": "captured_own_replay_commits_equal_original_producer_and_retained_TimeMIL_output_audit_bound"
+  },
+  "reconstruction": {
+    "changed_files": 80,
+    "diagnostic_labels_read": false,
+    "files": 676,
+    "new_model_fit": false,
+    "omitted_prior_paths_preserved_in_base": [],
+    "state": "all_current_payloads_reconstructed_exactly_without_mutating_base"
+  },
+  "private_delta": {
+    "archive_sha256": "f912e6451e8dde730a32a1db0572a0bf6c8e1b454a26a09d116d589593521c76",
+    "archive_bytes": 14101010,
+    "parts": 2,
+    "archive_payloads": 113,
+    "standalone_recovery": false,
+    "chain_depth": 2,
+    "base_delta04_sha256": "413946b9a0fc2894cc904e998dcfc6bba65f4c0c43d7a799742ba39a50d989a7",
+    "ancestor_insurance03_sha256": "ef0b343b2904657b18207c3bde8922554cbd73a46c0fe9bcad0da6fe7255039e",
+    "final_scoring_authority": false
+  },
+  "new_training_process_launched": false,
+  "scientific_settings_changed": false,
   "diagnostic_labels_read": false,
   "users7_8_labels_used": false,
   "new_accuracy_result": false,

@@ -1,0 +1,93 @@
+{
+  "controller": {
+    "CPU_seconds": 1508.87,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S"
+  },
+  "controller_state": {
+    "held": 2,
+    "state": "auditing_members_unscored"
+  },
+  "diagnostic_labels_read": false,
+  "insured_own_replay": {
+    "TimeMIL_full_training_replayed": false,
+    "TimeMIL_selected_state_output_audit_preserved": true,
+    "diagnostic_labels_read": false,
+    "full100Shuffle_replay_complete": false,
+    "new_model_fit": false,
+    "own_replay_epoch": 61,
+    "own_replay_updates": 14335,
+    "state": "captured_own_replay_commits_equal_original_producer_and_retained_TimeMIL_output_audit_bound"
+  },
+  "live_own_replay": {
+    "checkpoint_sha256": "ad33de756752d5817e6be6ceff68a9c475414c2042e8289de97536cd061b852a",
+    "epoch": 66,
+    "journal_sha256": "44ae82f7c2d157a1073668744380988fcdb64cd6537eabcde5f2a0773f8cfe2f",
+    "prefix_bytes": 3796724,
+    "prefix_sha256": "392597e25b251bc5c679c3b562a7c6818a785de919bfc49362bc58c7d73a5427",
+    "slot": "slot0.pt",
+    "updates": 15510
+  },
+  "new_accuracy_result": false,
+  "new_training_process_launched": false,
+  "novel_contribution_validated": false,
+  "observed_unix": 1793756942.0464396,
+  "private_delta": {
+    "ancestor_insurance03_sha256": "ef0b343b2904657b18207c3bde8922554cbd73a46c0fe9bcad0da6fe7255039e",
+    "archive_bytes": 14101010,
+    "archive_payloads": 113,
+    "archive_sha256": "f912e6451e8dde730a32a1db0572a0bf6c8e1b454a26a09d116d589593521c76",
+    "base_delta04_sha256": "413946b9a0fc2894cc904e998dcfc6bba65f4c0c43d7a799742ba39a50d989a7",
+    "chain_depth": 2,
+    "final_scoring_authority": false,
+    "parts": 2,
+    "standalone_recovery": false
+  },
+  "reconstruction": {
+    "changed_files": 80,
+    "diagnostic_labels_read": false,
+    "files": 676,
+    "new_model_fit": false,
+    "omitted_prior_paths_preserved_in_base": [],
+    "state": "all_current_payloads_reconstructed_exactly_without_mutating_base"
+  },
+  "replay_process": {
+    "CPU_seconds": 21172.91,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 5050,
+    "startticks": 1624084,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "active_held": 2,
+    "folds": {
+      "2": {
+        "cpu": 74448.44614,
+        "wall": 20212.837046228
+      },
+      "3": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 1973972,
+    "last_observed_unix": 1793756938.2647123
+  },
+  "scientific_settings_changed": false,
+  "state": "original_independent_replay_continues_own61_delta_insurance_verified",
+  "users7_8_labels_used": false
+}

@@ -1,0 +1,52 @@
+{
+  "captured_unix": 1793756539.2301338,
+  "diagnostic_labels_read": false,
+  "held": 2,
+  "independent_full_training_replay_performed": false,
+  "initial_archive_required": true,
+  "members": {
+    "shuffle": {
+      "own_replay": {
+        "checkpoint_sha256": "41eb454837499b60682cabf9925980b8d0a2bbbc55eb7a3ebe98007748bd0226",
+        "progress": {
+          "checkpoint_sha256": "41eb454837499b60682cabf9925980b8d0a2bbbc55eb7a3ebe98007748bd0226",
+          "epoch": 61,
+          "journal_sha256": "c336a702d311de0fe9a3f840f070a78b2825ecbc139bd708a28b5c9a87ab930c",
+          "prefix_bytes": 3507553,
+          "prefix_sha256": "11efd83e25c7bb63b7be6570bb733bb0075fcc7db114867ce581105fb3fc07e6",
+          "slot": "slot1.pt",
+          "updates": 14335
+        },
+        "step_log": null
+      },
+      "progress": {
+        "checkpoint_sha256": "318b1790c369a4e104f7f21da090bb442a4c9924bfff5c8202c58e386b1adeab",
+        "epoch": 100,
+        "journal_sha256": "3bfd4ec51c795dd1444afc9e25b729e7dfbe3888fb34cedaded175cc9b4d2d14",
+        "prefix_bytes": 5762379,
+        "prefix_sha256": "b6a87c1d6a25d70c660654ea19be564368421578d5dd0e630046b265f85c7eb4",
+        "slot": "slot0.pt",
+        "updates": 23500
+      },
+      "state": "complete_immutable_member"
+    },
+    "timemil": {
+      "progress": {
+        "checkpoint_sha256": "eca45231a3d1a58803b2e59586ffc054313329d69f7b2704571d9674575a791b",
+        "epoch": 64,
+        "journal_sha256": "60cbfd6f2653990a6701c5a8dff7bf28e084c226e4467c1df569ac989939d30e",
+        "prefix_bytes": 1157709,
+        "prefix_sha256": "769af7cf213e7973a1797457623ee66d4abbb0d947a5aa90a1f4ff48cc454ea5",
+        "slot": "slot0.pt",
+        "updates": 4736
+      },
+      "state": "complete_immutable_member"
+    }
+  },
+  "new_model_fits_started": false,
+  "private_actual_IDs_included": true,
+  "raw_radar_arrays_included": false,
+  "source": "/workspace/uwb-softvote-source6-real-20261103",
+  "state": "coherent_committed_checkpoint_overlay_captured_without_stopping_live_training",
+  "users7_8_labels_used": false
+}

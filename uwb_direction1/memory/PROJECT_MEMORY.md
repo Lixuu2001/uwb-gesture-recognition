@@ -1,3 +1,9 @@
+## 2026-11-04 registered audit ongoing; own checkpoint61 insured (delta depth2)
+
+Same controller3406/boot29a75b3c-d071-401f-b05f-fcf3d9937f08 and replay5050 remain active; live replay epoch66/15510updates at observation. TimeMIL64/Shuffle100 fits and TimeMIL output audit remain complete; full100Shuffle replay is unfinished. No restart, scientific change, diagnostic score or new accuracy/originality claim.
+
+New owner-only raw delta05: 2parts/14101010bytes/113payloads, SHAf912e6451e8dde730a32a1db0572a0bf6c8e1b454a26a09d116d589593521c76. Own61/14335updates and all676current payloads were reconstructed/native-verified. Requires insurance03 -> delta04 -> delta05 (depth2); both dependency indexes/guide are in `results/cloud_20261104_source6_audit_delta05` and matching research folder. Never restore over live/newer state or reset cumulative caps. After full audit, preserve a complete-fold archive to end this delta chain. All5newfolds/full final private verification still required before once aggregate; source1reused/users7–8sealed. See that RUN_REPORT.md/LIVE_OBSERVATION.json for exact evidence and next actions.
+
 ## 2026-11-04 registered independent replay continued; own audit checkpoint and complete producers recovered through tested delta
 
 Same actual controllerPID3406/startticks137886/boot29a75b3c-d071-401f-b05f-fcf3d9937f08 and independent replayPID5050 remain the registered execution, without duplicate/restart or60source/config changes. Both held2 producers completed (TimeMIL64/4736updates, selectedepoch40; Shuffle100/23500updates/fixedfinal100). TimeMIL selected-state/unscored-output audit passed with successful actual termination, not full64trajectory replay. Current Shuffle full100 independent replay is committed through epoch31/7285updates; exact current identity/stage/resources are in results/cloud_20261104_source6_delta04/LIVE_OBSERVATION.json. It is not complete, no diagnostic accuracy or new method selection is claimed.
