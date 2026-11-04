@@ -1,0 +1,103 @@
+{
+  "active_children": [
+    {
+      "CPU_seconds": 4051.65,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 574,
+      "startticks": 34609,
+      "state": "R"
+    }
+  ],
+  "budget_reset": false,
+  "captured_member_epochs": {
+    "shuffle": 100,
+    "timemil": 48
+  },
+  "configuration_seed_protocol_changed": false,
+  "controller": {
+    "CPU_seconds": 487.15,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "controller_state": {
+    "held": 3,
+    "state": "training_fixed_members_unscored",
+    "users7_8_labels_used": false
+  },
+  "core_frozen_files_verified": 60,
+  "current_member_progress": {
+    "shuffle": {
+      "checkpoint_sha256": "4ef812ac4994db352974e747f2416d5cb27faf08e10755511d22da813cbf2bbc",
+      "epoch": 100,
+      "journal_sha256": "cf078de1e6c14daf2529cd4169d5cb02473bd558cbb7eac02ffc0648a8987e19",
+      "prefix_bytes": 5516637,
+      "prefix_sha256": "ef7c8cb3ff9a73fcfbd18270784f1f7b12e437a6ab842117186e0695fbcc253c",
+      "slot": "slot0.pt",
+      "updates": 22500
+    },
+    "timemil": {
+      "checkpoint_sha256": "a0358c77fd7a26e16593caff433ed1d7081a419c49c42c51dbf2296a8b9eacc1",
+      "epoch": 48,
+      "journal_sha256": "a3ee3a4c9c0b5c54adc2a49f1cd1b72d6a52f9a347a5c087a37d677c9200b205",
+      "prefix_bytes": 832401,
+      "prefix_sha256": "53d9956497ec4ce1d739f99b1be578ca34b6548c515244db21e2db944c94b40a",
+      "slot": "slot0.pt",
+      "updates": 3408
+    }
+  },
+  "data_redownloaded": false,
+  "diagnostic_labels_read": false,
+  "full_modelset_or_final_scoring_authority": false,
+  "full_shuffle_replay_complete": false,
+  "full_shuffle_replay_started": false,
+  "held2_completed_unscored_not_retrained": true,
+  "new_accuracy_result": false,
+  "observed_unix": 1793774842.548973,
+  "original_contribution_validated": false,
+  "resource_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 64960.78139785856,
+        "wall": 15285.84131797271
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 2750056,
+    "last_observed_unix": 1793774840.8498724
+  },
+  "resource_stop_reason": null,
+  "shuffle_producer_completion_sha256": "19138cbf2f3e43b8f3ca7ddc2b0d0577f43134dbce22366ba93aab6fe9cb092f",
+  "shuffle_producer_termination": {
+    "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+    "cgroup_OOM_kill_delta": 0,
+    "diagnostic_accuracy_measured": false,
+    "exit_code": 0,
+    "individual_CPU_exact": false,
+    "observed_child_CPU_seconds_lower_bound": 15642.79,
+    "peak_observed_RSS_KiB": 2235344,
+    "pid": 579,
+    "resource_stop_reason": null,
+    "wall_seconds": 5055.342255276,
+    "wall_timeout": false
+  },
+  "state": "same_registered_held3_shuffle_producer_complete_timemil_still_running_unscored",
+  "users7_8_labels_used": false
+}
