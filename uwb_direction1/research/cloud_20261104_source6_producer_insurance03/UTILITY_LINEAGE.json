@@ -1,0 +1,12 @@
+{
+  "base_commit": "fd3e5b65ed35c1332e43e3ba3c51db014b7ae1e8",
+  "unchanged_source": {
+    "snapshot.py": "a07508fd87a046676de3c0a3766aaf39fca2724700c535a9bf7745865f77298b",
+    "test_snapshot.py": "671f9851d147fc16fc699a049435fd7f2d6b635276baa30e5c78bd0f276cc5dc",
+    "verify_native.py": "f12014308347f21176d3682eac8da4a0d11b2e12b235bf497661c69f38058adf"
+  },
+  "synthetic_tests_scope": "Prior four integrity/race tests reused, not newly executed; source byte-identical.",
+  "prior_two_insurance_archives_retained": true,
+  "scientific_configuration_changed": false,
+  "execution_note": "First utility shell launch named the not-yet-created destination as cwd and failed before any command. Corrected by creating it from /workspace; no training process/configuration affected."
+}

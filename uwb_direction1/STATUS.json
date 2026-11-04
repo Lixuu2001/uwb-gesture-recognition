@@ -1,9 +1,9 @@
 {
-  "date_client": "2026-11-03",
+  "date_client": "2026-11-04",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_held2_registered_training_continues_with_verified_epoch48_95_private_insurance",
+  "state": "source6_held2_TimeMIL64_Shuffle100_producers_complete_independent_auditing_active",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261103_source6_progress_insurance02/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261104_source6_producer_insurance03/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793749174.906371,
+  "background_training_observed_unix": 1793751707.69824,
   "background_training_pid": 3406,
-  "background_training_status_note": "Same registered controller3406 alive; exact current epochs/producer completion flags in latest observation. New coherent TimeMIL48/Shuffle95 optimizer/RNG/log-suffix insurance raw-verified10parts/487payloads. No new fit/restart/selection/held scoring, all5folds and full final audits/private recovery remain required.",
+  "background_training_status_note": "Held2 TimeMIL64 and full Shuffle100 producers completed, immutable files/actual exit0 verified; original controller3406 entered selected-state/full100replay audits. Exact TimeMIL/audit/replay stage in latest observation. New completed-Shuffle/TimeMIL62 private insurance raw-allmember verified, no held scoring or new accuracy/novelty claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -10509,6 +10509,202 @@
   },
   "new_training_process_started": false,
   "training_configuration_changed": false,
+  "source1_rescored": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_accuracy_result": false,
+  "novel_contribution_validated": false
+}
+,
+  "source6_producer_insurance03_20261104": {
+  "state": "held2_both_native_producers_complete_original_independent_auditing_underway",
+  "observed_unix": 1793751707.69824,
+  "controller": {
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S",
+    "CPU_seconds": 1494.91,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08"
+  },
+  "controller_state": {
+    "held": 2,
+    "state": "auditing_members_unscored"
+  },
+  "models": {
+    "timemil": {
+      "epoch": 64,
+      "updates": 4736,
+      "producer_complete_unscored": true,
+      "termination": {
+        "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+        "cgroup_OOM_kill_delta": 0,
+        "diagnostic_accuracy_measured": false,
+        "exit_code": 0,
+        "individual_CPU_exact": false,
+        "observed_child_CPU_seconds_lower_bound": 12283.99,
+        "peak_observed_RSS_KiB": 2875624,
+        "pid": 3407,
+        "resource_stop_reason": null,
+        "wall_seconds": 14858.669611824,
+        "wall_timeout": false
+      },
+      "selected_epoch": 40,
+      "selected_model_sha256": "9ce5437e7ececffeaa77387daf38c77907cc886d2fedbb5b426497d1c16c1224",
+      "full_state_sha256": "eca45231a3d1a58803b2e59586ffc054313329d69f7b2704571d9674575a791b",
+      "inference_audit": {
+        "certificate": {
+          "all_validation_and_unscored_diagnostic_logits_replayed_exactly": true,
+          "arm": "timemil",
+          "artifact_hashes": {
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/ARM_COMPLETE.json": "5ee39f5aac52c9a3862f2aba2689dcb9108e6f649341b02e293cdbf1e6a15ed8",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/PROGRESS.json": "a48f148f0d83890947955de7b04d8432a3e2ece140bf76e5a2c903280b583198",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/diagnostic_unscored.npz": "d11b92edd0b19aba46678f89b27f7c769afb4b07a7e71732c4df8e181be4c047",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/final_full.pt": "eca45231a3d1a58803b2e59586ffc054313329d69f7b2704571d9674575a791b",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/first_audit/CERTIFICATE.json": "ae5b11bf321554e2844f3c0135e633ba010ad3775ed7f86ffa71a8328163afc6",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/first_update.pt": "8762d6ca066ff0369c64fb71763c0634cd6501435b77d2f29aa5c386a2f5be64",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/selected.pt": "9ce5437e7ececffeaa77387daf38c77907cc886d2fedbb5b426497d1c16c1224",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/split.npz": "e94c61feae2f1fe32810993fdedfaa103c99c7a697338fdc73eae405a8bc331b",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/steps.jsonl": "769af7cf213e7973a1797457623ee66d4abbb0d947a5aa90a1f4ff48cc454ea5",
+            "/workspace/uwb-softvote-source6-real-20261103/folds/held2/timemil/validation_unscored.npz": "909991798f1cf43d79797fb26ea1c2adbb304f55935f62e85fb8e0bcf2c2922c"
+          },
+          "complete_model_optimizer_rng_journal_and_selection_checked": true,
+          "diagnostic_labels_read": false,
+          "full_training_replayed": false,
+          "held": 2,
+          "state": "pass",
+          "users7_8_labels_used": false
+        },
+        "termination": {
+          "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+          "cgroup_OOM_kill_delta": 0,
+          "diagnostic_accuracy_measured": false,
+          "exit_code": 0,
+          "individual_CPU_exact": false,
+          "observed_child_CPU_seconds_lower_bound": 33.3,
+          "peak_observed_RSS_KiB": 1009060,
+          "pid": 5051,
+          "resource_stop_reason": null,
+          "wall_seconds": 40.34822136999901,
+          "wall_timeout": false
+        }
+      }
+    },
+    "shuffle": {
+      "epoch": 100,
+      "updates": 23500,
+      "producer_complete_unscored": true,
+      "termination": {
+        "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+        "cgroup_OOM_kill_delta": 0,
+        "diagnostic_accuracy_measured": false,
+        "exit_code": 0,
+        "individual_CPU_exact": false,
+        "observed_child_CPU_seconds_lower_bound": 39445.49,
+        "peak_observed_RSS_KiB": 2230532,
+        "pid": 3408,
+        "resource_stop_reason": null,
+        "wall_seconds": 12756.291566300999,
+        "wall_timeout": false
+      },
+      "selected_epoch": 100,
+      "selected_model_sha256": "d2618b2f976e4d1fbc329abf3561775fb88346f2f9bc8aedee5580a18c177624",
+      "full_state_sha256": "318b1790c369a4e104f7f21da090bb442a4c9924bfff5c8202c58e386b1adeab",
+      "independent_replay_progress": {
+        "checkpoint_sha256": "b472a168bdc3ad782b5901375a66772c8cbf1ded4aa927f56dc664a10e067f1a",
+        "epoch": 1,
+        "journal_sha256": "6bb06b20ac930eaddaa0646af0dd9c6271eb281c60008d398c3384e8cd354c63",
+        "prefix_bytes": 56313,
+        "prefix_sha256": "25dc9128501a77fbdbf292fbbac355412674412875e54f6ab7f67d6455ba9bb0",
+        "slot": "slot1.pt",
+        "updates": 235
+      }
+    }
+  },
+  "resource_ledger": {
+    "active_held": 2,
+    "folds": {
+      "2": {
+        "cpu": 53698.065585,
+        "wall": 14979.23033669
+      },
+      "3": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 1973708,
+    "last_observed_unix": 1793751704.6579468
+  },
+  "snapshot": {
+    "captured_unix": 1793751261.369853,
+    "diagnostic_labels_read": false,
+    "held": 2,
+    "independent_full_training_replay_performed": false,
+    "initial_archive_required": true,
+    "members": {
+      "shuffle": {
+        "progress": {
+          "checkpoint_sha256": "318b1790c369a4e104f7f21da090bb442a4c9924bfff5c8202c58e386b1adeab",
+          "epoch": 100,
+          "journal_sha256": "3bfd4ec51c795dd1444afc9e25b729e7dfbe3888fb34cedaded175cc9b4d2d14",
+          "prefix_bytes": 5762379,
+          "prefix_sha256": "b6a87c1d6a25d70c660654ea19be564368421578d5dd0e630046b265f85c7eb4",
+          "slot": "slot0.pt",
+          "updates": 23500
+        },
+        "state": "complete_immutable_member"
+      },
+      "timemil": {
+        "checkpoint_sha256": "13e90549a0aa4622f71a48fddf8c7d2099d27dfdad26c8304e4b78cb5e6f51bc",
+        "progress": {
+          "checkpoint_sha256": "13e90549a0aa4622f71a48fddf8c7d2099d27dfdad26c8304e4b78cb5e6f51bc",
+          "epoch": 62,
+          "journal_sha256": "e5f4019939c6f18aebf2addcee3899ab7b9e58c52916846eecd79b5c70983c5d",
+          "prefix_bytes": 1121433,
+          "prefix_sha256": "ee2e49823422925ee6767a188e7440afaf2302a3a04175104a52617b320d8c47",
+          "slot": "slot0.pt",
+          "updates": 4588
+        },
+        "state": "coherent_running_member_checkpoint_and_exact_log_cut",
+        "step_log": {
+          "captured_bytes": 1123630,
+          "committed_updates": 4588,
+          "complete_rows": 4597,
+          "original_raw_cut_sha256": "068c16b4fedb731e89e2f97a7c64ae6fafb7f5777ae4ad928aaeb630ae7bc89a",
+          "partial_tail_bytes": 0,
+          "uncommitted_complete_rows": 9
+        }
+      }
+    },
+    "new_model_fits_started": false,
+    "private_actual_IDs_included": true,
+    "raw_radar_arrays_included": false,
+    "source": "/workspace/uwb-softvote-source6-real-20261103",
+    "state": "coherent_committed_checkpoint_overlay_captured_without_stopping_live_training",
+    "users7_8_labels_used": false
+  },
+  "private_insurance": {
+    "archive_bytes": 104768800,
+    "archive_sha256": "ef0b343b2904657b18207c3bde8922554cbd73a46c0fe9bcad0da6fe7255039e",
+    "chunks": 15,
+    "payloads": 551,
+    "raw_allmember_verified": true,
+    "final_scoring_authority": false
+  },
+  "new_training_process_launched_by_this_continuation": false,
+  "scientific_configuration_changed": false,
   "source1_rescored": false,
   "diagnostic_labels_read": false,
   "users7_8_labels_used": false,
