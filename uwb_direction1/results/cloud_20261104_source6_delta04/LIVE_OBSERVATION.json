@@ -1,0 +1,124 @@
+{
+  "Shuffle_own_independent_replay": {
+    "checkpoint_sha256": "b6ea7a0642d19630b49732838c109cc0187b49e2708a60d81ec4e717e22e30ef",
+    "epoch": 31,
+    "journal_sha256": "43a70f45f2e6792059078410cb1f9f31f9ffcd18dc6afe790b93f12223ca40d8",
+    "prefix_bytes": 1776752,
+    "prefix_sha256": "e7fae67dab13054f80a9a728fe603e06ff4f52df4bb9769b6e8ac95012d1334c",
+    "slot": "slot1.pt",
+    "updates": 7285
+  },
+  "Shuffle_producer": {
+    "checkpoint_sha256": "318b1790c369a4e104f7f21da090bb442a4c9924bfff5c8202c58e386b1adeab",
+    "epoch": 100,
+    "journal_sha256": "3bfd4ec51c795dd1444afc9e25b729e7dfbe3888fb34cedaded175cc9b4d2d14",
+    "prefix_bytes": 5762379,
+    "prefix_sha256": "b6a87c1d6a25d70c660654ea19be564368421578d5dd0e630046b265f85c7eb4",
+    "slot": "slot0.pt",
+    "updates": 23500
+  },
+  "TimeMIL_full_training_replayed": false,
+  "TimeMIL_producer": {
+    "checkpoint_sha256": "eca45231a3d1a58803b2e59586ffc054313329d69f7b2704571d9674575a791b",
+    "epoch": 64,
+    "journal_sha256": "60cbfd6f2653990a6701c5a8dff7bf28e084c226e4467c1df569ac989939d30e",
+    "prefix_bytes": 1157709,
+    "prefix_sha256": "769af7cf213e7973a1797457623ee66d4abbb0d947a5aa90a1f4ff48cc454ea5",
+    "slot": "slot0.pt",
+    "updates": 4736
+  },
+  "TimeMIL_selected_state_and_output_audit_passed": true,
+  "captured_replay": {
+    "TimeMIL_full_training_replayed": false,
+    "TimeMIL_selected_state_output_audit_preserved": true,
+    "diagnostic_labels_read": false,
+    "full100Shuffle_replay_complete": false,
+    "new_model_fit": false,
+    "own_replay_epoch": 23,
+    "own_replay_updates": 5405,
+    "state": "captured_own_replay_commits_equal_original_producer_and_retained_TimeMIL_output_audit_bound"
+  },
+  "controller": {
+    "CPU_seconds": 1501.3,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "S"
+  },
+  "controller_state": {
+    "held": 2,
+    "state": "auditing_members_unscored"
+  },
+  "diagnostic_labels_read": false,
+  "native_reconstructed": {
+    "TimeMIL_full_training_replayed": false,
+    "TimeMIL_selected_state_output_audit_preserved": true,
+    "diagnostic_labels_read": false,
+    "full100Shuffle_replay_complete": false,
+    "new_model_fit": false,
+    "own_replay_epoch": 23,
+    "own_replay_updates": 5405,
+    "state": "captured_own_replay_commits_equal_original_producer_and_retained_TimeMIL_output_audit_bound"
+  },
+  "new_accuracy_result": false,
+  "new_fitting_process_launched": false,
+  "novel_contribution_validated": false,
+  "observed_unix": 1793754123.718778,
+  "raw_delta": {
+    "archive_bytes": 63040831,
+    "archive_sha256": "413946b9a0fc2894cc904e998dcfc6bba65f4c0c43d7a799742ba39a50d989a7",
+    "base_archive_sha256": "ef0b343b2904657b18207c3bde8922554cbd73a46c0fe9bcad0da6fe7255039e",
+    "chunks": 9,
+    "final_scoring_authority": false,
+    "payloads": 102,
+    "standalone_recovery": false
+  },
+  "reconstruction": {
+    "changed_files": 73,
+    "diagnostic_labels_read": false,
+    "files": 600,
+    "new_model_fit": false,
+    "omitted_prior_paths_preserved_in_base": [
+      "folds/held2/timemil/steps_raw_cut.bin"
+    ],
+    "state": "all_current_payloads_reconstructed_exactly_without_mutating_base"
+  },
+  "replay_process": {
+    "CPU_seconds": 9994.96,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 5050,
+    "startticks": 1624084,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "active_held": 2,
+    "folds": {
+      "2": {
+        "cpu": 63276.659061,
+        "wall": 17397.667193857
+      },
+      "3": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 2056076,
+    "last_observed_unix": 1793754123.094802
+  },
+  "scientific_configuration_changed": false,
+  "source1_rescored": false,
+  "state": "same_source6_controller_independent_replay_active_delta04_and_native_roundtrip_verified",
+  "users7_8_labels_used": false
+}
