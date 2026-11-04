@@ -1,0 +1,39 @@
+{
+  "archive_sha256": "9d745acef80845dfa103e2ad11ed38f1ba2f5297128e3f9e7aff8f240bbda3d9",
+  "boot_unchanged": true,
+  "controller": {
+    "CPU_seconds": 2125.77,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "failure": {
+    "error": "cannot create attachment directory: exec-server transport closed",
+    "file_id": "1ydECQaXAiu87UF-N3kChuQr1GkZUNtbF",
+    "i": 0,
+    "name": "uwb_held4_TimeMIL52_Shuffle100_insurance01_20261104.part000",
+    "stage": "materialize"
+  },
+  "native_training_not_restarted": true,
+  "new_accuracy_result": false,
+  "observed_unix": 1793798757.212192,
+  "post_archive_transport_evidence_not_in_model_payload": true,
+  "recovery": {
+    "bytes": 7340032,
+    "download_and_SHA_verified": true,
+    "file_id": "1ydECQaXAiu87UF-N3kChuQr1GkZUNtbF",
+    "include_base64": false,
+    "metadata_owner_private_verified": true,
+    "part_name": "uwb_held4_TimeMIL52_Shuffle100_insurance01_20261104.part000",
+    "raw_fetch": true,
+    "sha256": "0df317a2f210a05acba923f59de3eaa120e85089a0ec84ca724022240f5713fd",
+    "upload_retried": false
+  },
+  "recovery_helper_repository_path": "uwb_direction1/research/cloud_20261103_runtime_recovery/recover_existing_drive_part.js",
+  "recovery_helper_sha256": "60b82b9e8984584190b14843c910ca066625d2e79f1b0a2d6888f6739d14df98",
+  "scientific_configuration_changed": false,
+  "scientific_negative": false,
+  "state": "post_assembly_transport_failure_recovered_known_uploaded_ID_without_reupload",
+  "whole_archive_raw_allmember_verified": true
+}
