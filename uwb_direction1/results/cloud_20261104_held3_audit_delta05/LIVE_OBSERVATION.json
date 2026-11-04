@@ -1,0 +1,80 @@
+{
+  "TimeMIL_full64_training_replayed": false,
+  "TimeMIL_output_audit_passed": true,
+  "auditor": {
+    "CPU_seconds": 25611.89,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 1754,
+    "startticks": 801143,
+    "state": "R"
+  },
+  "budget_reset": false,
+  "captured_own_replay": {
+    "checkpoint_sha256": "8d06b34cc274a01b33477a2c16ef3918c4914bb521d0adf3b88b129bc51a0d48",
+    "epoch": 75,
+    "journal_sha256": "47f6a98e917be83b41b4e406cfbc195d0065ab13d74adbabfb9c96d3c0c97669",
+    "prefix_bytes": 4132763,
+    "prefix_sha256": "8ee4f8dcbf43c763fe8c873c58086fc65c2376f81d90fea48527851d1aedbe95",
+    "slot": "slot1.pt",
+    "updates": 16875
+  },
+  "complete_producer_epochs": {
+    "shuffle": 100,
+    "timemil": 64
+  },
+  "controller": {
+    "CPU_seconds": 821.31,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "core_frozen_files_verified": 60,
+  "current_own_replay": {
+    "checkpoint_sha256": "0dc0b0298c686d826794e5b07cf6408fb3cb028f96114dde95378f9b488280d6",
+    "epoch": 79,
+    "journal_sha256": "ba07cbdb118d406549e326cdef2cce2c024b04ddb3793d3f5ecd8ecdf39fab4b",
+    "prefix_bytes": 4354231,
+    "prefix_sha256": "ba523dabb847f85fc8b6070214efe290c8de46c56b65d2d0660e95f215e4f110",
+    "slot": "slot1.pt",
+    "updates": 17775
+  },
+  "data_redownloaded": false,
+  "diagnostic_labels_read": false,
+  "full100_shuffle_replay_complete": false,
+  "held2_not_retrained": true,
+  "new_accuracy_result": false,
+  "new_training_process_started": false,
+  "observed_unix": 1793783901.311628,
+  "original_contribution_validated": false,
+  "resource_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 93528.44019985857,
+        "wall": 24342.757286582713
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 2012504,
+    "last_observed_unix": 1793783897.7658439
+  },
+  "scientific_configuration_changed": false,
+  "state": "same_registered_held3_independent_replay_advanced_no_scientific_change",
+  "users7_8_labels_used": false
+}

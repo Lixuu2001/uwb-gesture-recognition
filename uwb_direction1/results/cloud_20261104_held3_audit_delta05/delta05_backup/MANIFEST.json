@@ -1,0 +1,31 @@
+{
+  "ancestor_archive_sha256": "c77fe20741e4e2cdde385c163a30ae44708379f8bc4bd0dd80422c495f6c3906",
+  "archive_bytes": 14147397,
+  "archive_sha256": "3d61aec0916ef38984c1b1eb07668e89f32691ca9b4572920433686af0a70ecd",
+  "base_archive_sha256": "ded25c2be3c18e3f49af9e558392408f7a979f241d1811cb22e75f67e8b6da91",
+  "chain_depth": 2,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "name": "uwb_held3_own75_delta05_20261104.part000",
+      "sha256": "1ab2813e1012f0e4c3c7fca3337812a99382f14a379104bf86e3b5429913f88f"
+    },
+    {
+      "bytes": 6807365,
+      "name": "uwb_held3_own75_delta05_20261104.part001",
+      "sha256": "59e525094de5dba3c17372698f3af1c6bf39166ffb3a1e04e75869abf993b4e2"
+    }
+  ],
+  "complete_modelset": false,
+  "delta_dependency": true,
+  "final_scoring_authority": false,
+  "initial_source_data_runtime_dependencies_required": true,
+  "members_manifest_sha256": "3ad27095bee2a23b291bb774c7b34f400f33699d01ec3518373cb777265d6828",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "scope": "held3_advanced_own_replay_checkpoint_delta_depth2_not_full_audit_or_scoring_authority",
+  "shared_initial_encoder_included_once": true,
+  "state": "held3_advanced_own_audit_checkpoint_delta_streamed",
+  "tracked_payload_files": 163,
+  "whole_job_resume": false
+}
