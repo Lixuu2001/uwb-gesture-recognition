@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_held3_shuffle100_producer_complete_timemil_running_unscored",
+  "state": "source6_held3_both_producers_complete_TimeMIL_output_audit_pass_Shuffle_replay_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-04 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; actual native member processes1+4threads; no GPU",
+  "compute": "2026-11-04 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; both held3 producers complete, actual Shuffle independent replay uses4threads; no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261104_held3_shuffle100_insurance03/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261104_held3_audit_delta04/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793774842.548973,
+  "background_training_observed_unix": 1793778320.5678427,
   "background_training_pid": 573,
-  "background_training_status_note": "Same original PID573/bootad409b48. Held3 Shuffle100/22500updates fixed final100 complete with actual exit0; TimeMIL continues. Native restore/recapture, complete Shuffle selected-state hashes and private raw/allmember checkpoint archive verified. Full independent replay and output audits remain pending; no diagnostic accuracy or originality claim.",
+  "background_training_status_note": "Same controller573/bootad409b48. Both held3 producers complete with actual exit0; TimeMIL selected-output audit passed. Actual independent Shuffle100 replayPID1754 ongoing. Both complete models and own7 checkpoint reconstructed/native-verified through raw private delta04 over producer insurance03, dependency depth1. No new diagnostic accuracy/originality claim or budget/scientific change.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11110,6 +11110,28 @@
   "shuffle_selected_epoch": 100,
   "native_restore_recapture_exact": true,
   "full_independent_training_replay_complete": false,
+  "budget_reset": false,
+  "new_accuracy_result": false,
+  "original_contribution_validated": false
+}
+,
+  "source6_held3_audit_delta04_20261104": {
+  "report": "results/cloud_20261104_held3_audit_delta04/RUN_REPORT.md",
+  "observation": "results/cloud_20261104_held3_audit_delta04/LIVE_OBSERVATION.json",
+  "private_download_index": "results/cloud_20261104_held3_audit_delta04/delta04_backup/CLOUD_DOWNLOAD_INDEX.json",
+  "archive_sha256": "ded25c2be3c18e3f49af9e558392408f7a979f241d1811cb22e75f67e8b6da91",
+  "base_archive_sha256": "c77fe20741e4e2cdde385c163a30ae44708379f8bc4bd0dd80422c495f6c3906",
+  "delta_chain_depth": 1,
+  "current_payloads": 581,
+  "changed_payloads": 86,
+  "completed_producer_epochs": {
+    "timemil": 64,
+    "shuffle": 100
+  },
+  "captured_own_shuffle_replay_epoch": 7,
+  "full100_shuffle_replay_complete": false,
+  "TimeMIL_output_audit_passed": true,
+  "TimeMIL_full64_training_replayed": false,
   "budget_reset": false,
   "new_accuracy_result": false,
   "original_contribution_validated": false

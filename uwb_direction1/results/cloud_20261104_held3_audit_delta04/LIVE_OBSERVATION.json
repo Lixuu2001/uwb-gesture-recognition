@@ -1,0 +1,154 @@
+{
+  "active_children": [
+    {
+      "CPU_seconds": 3444.37,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 1754,
+      "startticks": 801143,
+      "state": "R"
+    }
+  ],
+  "actual_producer_terminations": {
+    "shuffle": {
+      "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+      "cgroup_OOM_kill_delta": 0,
+      "diagnostic_accuracy_measured": false,
+      "exit_code": 0,
+      "individual_CPU_exact": false,
+      "observed_child_CPU_seconds_lower_bound": 15642.79,
+      "peak_observed_RSS_KiB": 2235344,
+      "pid": 579,
+      "resource_stop_reason": null,
+      "wall_seconds": 5055.342255276,
+      "wall_timeout": false
+    },
+    "timemil": {
+      "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+      "cgroup_OOM_kill_delta": 0,
+      "diagnostic_accuracy_measured": false,
+      "exit_code": 0,
+      "individual_CPU_exact": false,
+      "observed_child_CPU_seconds_lower_bound": 6645.47,
+      "peak_observed_RSS_KiB": 2872896,
+      "pid": 574,
+      "resource_stop_reason": null,
+      "wall_seconds": 7664.944508586,
+      "wall_timeout": false
+    }
+  },
+  "budget_reset": false,
+  "captured_own_replay": {
+    "checkpoint_sha256": "139cfce6100edf513b8c48e4502ea5634a654811cdab7f64c0ee276e943af778",
+    "epoch": 7,
+    "journal_sha256": "4435b204e0eb250f281d569875b887be523d81a67848f0d4198ec40973e0d633",
+    "prefix_bytes": 380771,
+    "prefix_sha256": "f418c71c062a70b6d53e0d97597db2dbf4c806f36c9b00af02eba158c7c9cc60",
+    "slot": "slot1.pt",
+    "updates": 1575
+  },
+  "complete_producers": {
+    "shuffle": {
+      "arm": "shuffle",
+      "diagnostic_labels_read": false,
+      "epochs": 100,
+      "held": 3,
+      "selected_epoch": 100,
+      "state": "complete_member_unscored",
+      "updates": 22500,
+      "users7_8_labels_used": false
+    },
+    "timemil": {
+      "arm": "timemil",
+      "diagnostic_labels_read": false,
+      "epochs": 64,
+      "held": 3,
+      "selected_epoch": 50,
+      "state": "complete_member_unscored",
+      "updates": 4544,
+      "users7_8_labels_used": false
+    }
+  },
+  "controller": {
+    "CPU_seconds": 805.8,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "controller_state": {
+    "held": 3,
+    "state": "auditing_members_unscored"
+  },
+  "core_frozen_files_verified": 60,
+  "current_own_replay": {
+    "checkpoint_sha256": "08e073c092ebe9cffd078cb406392290dde8bcae57227df02027ccfab8b124e7",
+    "epoch": 10,
+    "journal_sha256": "7575a283321ff9172a336f10f7ca911a6c5bddd465ccc402f471803b11961449",
+    "prefix_bytes": 545391,
+    "prefix_sha256": "58316635fef97dde3aa3fedfcd6187a66b3a461977d95175051b84fab476af27",
+    "slot": "slot0.pt",
+    "updates": 2250
+  },
+  "data_redownloaded": false,
+  "diagnostic_labels_read": false,
+  "full100_shuffle_replay_complete": false,
+  "held2_completed_unscored_not_retrained": true,
+  "new_accuracy_result": false,
+  "observed_unix": 1793778320.5678427,
+  "original_contribution_validated": false,
+  "resource_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 71348.99267085857,
+        "wall": 18762.26894842171
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 1929844,
+    "last_observed_unix": 1793778317.2775204
+  },
+  "resource_stop_reason": null,
+  "scientific_configuration_changed": false,
+  "seed_changed": false,
+  "state": "same_registered_held3_both_producers_complete_TimeMIL_output_audit_pass_own_Shuffle_replay_running_unscored",
+  "timemil_output_audit": {
+    "all_validation_and_unscored_diagnostic_logits_replayed_exactly": true,
+    "arm": "timemil",
+    "complete_model_optimizer_rng_journal_and_selection_checked": true,
+    "diagnostic_labels_read": false,
+    "full_training_replayed": false,
+    "held": 3,
+    "state": "pass",
+    "users7_8_labels_used": false
+  },
+  "timemil_output_termination": {
+    "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+    "cgroup_OOM_kill_delta": 0,
+    "diagnostic_accuracy_measured": false,
+    "exit_code": 0,
+    "individual_CPU_exact": false,
+    "observed_child_CPU_seconds_lower_bound": 39.39,
+    "peak_observed_RSS_KiB": 1028472,
+    "pid": 1755,
+    "resource_stop_reason": null,
+    "wall_seconds": 47.96018933600044,
+    "wall_timeout": false
+  },
+  "users7_8_labels_used": false
+}
