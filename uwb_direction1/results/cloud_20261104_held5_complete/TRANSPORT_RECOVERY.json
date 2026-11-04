@@ -1,0 +1,378 @@
+{
+  "all_archive_parts_verified": 23,
+  "archive_members_verified": 836,
+  "archive_sha256": "9ecd4a083390ed0d4363c03d417fa382070671a1d368f6d0cafa19a631f920dc",
+  "archived_model_payload_changed": false,
+  "diagnostic_labels_read": false,
+  "failed_parts": [
+    0,
+    1,
+    8
+  ],
+  "failures": [
+    {
+      "absence_checked_before_retry": true,
+      "explicit_upload_retries": 1,
+      "first_upload_response_retained": false,
+      "index": 0,
+      "known_ID_raw_readback_verified": true,
+      "name": "softvote_source6_held5_complete_20261104.part000",
+      "original_source_files": {
+        "ABSENCE_BEFORE_EXPLICIT_RETRY_000.json": {
+          "evidence": {
+            "folder_filter_results": 0,
+            "folder_listing_was_bounded_not_used_to_establish_absence": true,
+            "global_exact_name_results": 0,
+            "name": "softvote_source6_held5_complete_20261104.part000",
+            "observed_at": "2026-11-04T22:53:06.992Z",
+            "prior_error_preserved": true,
+            "provider_reported_no_next_page": true,
+            "state": "two_successful_exact_name_provider_searches_returned_no_file_before_one_explicit_retry",
+            "unlimited_retry_allowed": false
+          },
+          "sha256": "a72f255dbc1e6888cf9302599341019193173236e9864e8ce55e799e9c1eb88b"
+        },
+        "ERROR_000_1793832700386.json": {
+          "evidence": {
+            "error": "Error: No uploadedID; exact-name search required before retry",
+            "file_id": null,
+            "i": 0,
+            "name": "softvote_source6_held5_complete_20261104.part000",
+            "stage": "upload"
+          },
+          "sha256": "3dae72ec68cec0de6dbf6fcaed0f3a43a1604f1e594c624db4c2bc0c6875ce1f"
+        },
+        "EXPLICIT_RETRY_RESPONSE_000.json": {
+          "evidence": {
+            "content": [
+              {
+                "text": "Action completed.",
+                "type": "text"
+              }
+            ],
+            "isError": false,
+            "structuredContent": {
+              "accepted_input": "file_uri",
+              "file_name": "softvote_source6_held5_complete_20261104.part000",
+              "id": "1PYlUIBwQ4c7DfAOxe9B61o2ssB1HSltR",
+              "mime_type": "application/x-gzip",
+              "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+              "structuredContent": {
+                "accepted_input": "file_uri",
+                "file_name": "softvote_source6_held5_complete_20261104.part000",
+                "id": "1PYlUIBwQ4c7DfAOxe9B61o2ssB1HSltR",
+                "mime_type": "application/x-gzip",
+                "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+                "success": true,
+                "title": "softvote_source6_held5_complete_20261104.part000",
+                "url": "[redacted]"
+              },
+              "success": true,
+              "title": "softvote_source6_held5_complete_20261104.part000",
+              "url": "[redacted]"
+            }
+          },
+          "sha256": "af23f9d1fdb44502109730a7400ef1a65c17db7f7fa18786bbbc3390eee92206"
+        },
+        "READBACK_000.json": {
+          "evidence": {
+            "bytes": 7340032,
+            "download_verified": true,
+            "file_id": "1PYlUIBwQ4c7DfAOxe9B61o2ssB1HSltR",
+            "include_base64": false,
+            "metadata": {
+              "mime_type": "application/x-gzip",
+              "parent_ids": [
+                "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+              ],
+              "permissions": [
+                {
+                  "role": "owner",
+                  "type": "user"
+                }
+              ],
+              "shared": false,
+              "size_bytes": 7340032
+            },
+            "name": "softvote_source6_held5_complete_20261104.part000",
+            "path": "/workspace/uwb-source6-held5-complete-20261104/held5_complete_backup/softvote_source6_held5_complete_20261104.part000",
+            "raw_fetch": true,
+            "recovered_known_uploaded_ID_without_reupload": true,
+            "remote_raw_bytes_replaced_identical_transport": true,
+            "sha256": "154506d503b40291ad895464181fa37efe99ec088be57d09e445afb543416ba1"
+          },
+          "sha256": "3fc6b1a666c7a47ec9093f3bc0949393cd521e1c9354ce91036b0bccf85fa25a"
+        },
+        "UPLOAD_000.json": {
+          "evidence": {
+            "bytes": 7340032,
+            "file_id": "1PYlUIBwQ4c7DfAOxe9B61o2ssB1HSltR",
+            "name": "softvote_source6_held5_complete_20261104.part000",
+            "sha256": "154506d503b40291ad895464181fa37efe99ec088be57d09e445afb543416ba1"
+          },
+          "sha256": "6bba9536496afeeef27af9650c8fc765c394c2649cd7e71919fb39ce824a5091"
+        }
+      }
+    },
+    {
+      "absence_checked_before_retry": true,
+      "explicit_upload_retries": 1,
+      "first_upload_response_retained": true,
+      "index": 1,
+      "known_ID_raw_readback_verified": true,
+      "name": "softvote_source6_held5_complete_20261104.part001",
+      "original_source_files": {
+        "ABSENCE_BEFORE_EXPLICIT_RETRY_001.json": {
+          "evidence": {
+            "folder_filter_results": 0,
+            "global_exact_name_results": 0,
+            "name": "softvote_source6_held5_complete_20261104.part001",
+            "observed_at": "2026-11-04T22:57:08.040Z",
+            "prior_error_preserved": true,
+            "provider_error": "MCP -32603 Internal error",
+            "provider_reported_no_next_page": true,
+            "state": "two_successful_exact_name_provider_searches_returned_no_file_before_one_explicit_retry",
+            "unlimited_retry_allowed": false
+          },
+          "sha256": "569d920e3fb0ddfed38b4e17fe68cec441cba7798c9717bb968d7a954ebf8fea"
+        },
+        "ERROR_001_1793832953800.json": {
+          "evidence": {
+            "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry",
+            "file_id": null,
+            "i": 1,
+            "name": "softvote_source6_held5_complete_20261104.part001",
+            "stage": "upload"
+          },
+          "sha256": "ceecbb4945dad22d841b7c967bb43226e3eb97185748bd635e0f56e15c0e322e"
+        },
+        "EXPLICIT_RETRY_RESPONSE_001.json": {
+          "evidence": {
+            "content": [
+              {
+                "text": "Action completed.",
+                "type": "text"
+              }
+            ],
+            "isError": false,
+            "structuredContent": {
+              "accepted_input": "file_uri",
+              "file_name": "softvote_source6_held5_complete_20261104.part001",
+              "id": "1ZgWkoOT54IHVPEKSat1qX6XFJslyvI9t",
+              "mime_type": "application/octet-stream",
+              "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+              "structuredContent": {
+                "accepted_input": "file_uri",
+                "file_name": "softvote_source6_held5_complete_20261104.part001",
+                "id": "1ZgWkoOT54IHVPEKSat1qX6XFJslyvI9t",
+                "mime_type": "application/octet-stream",
+                "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+                "success": true,
+                "title": "softvote_source6_held5_complete_20261104.part001",
+                "url": "[redacted]"
+              },
+              "success": true,
+              "title": "softvote_source6_held5_complete_20261104.part001",
+              "url": "[redacted]"
+            }
+          },
+          "sha256": "c546120b71a9bdbb75411b9d33cd3449b79d79cf0c7d529229df25373214bef0"
+        },
+        "MISSING_ID_RESPONSE_001_1793832952195.json": {
+          "evidence": {
+            "content": [
+              {
+                "text": "tool call error: tool call failed for `codex_apps/google_drive.upload_file`\n\nCaused by:\n    Mcp error: -32603: Internal error",
+                "type": "text"
+              }
+            ],
+            "isError": true
+          },
+          "sha256": "aec0ed4cd8e714e27cebaa862a3f18726cdbd19c565ba52cbf3a3a186a0f4e22"
+        },
+        "READBACK_001.json": {
+          "evidence": {
+            "bytes": 7340032,
+            "download_verified": true,
+            "file_id": "1ZgWkoOT54IHVPEKSat1qX6XFJslyvI9t",
+            "include_base64": false,
+            "metadata": {
+              "mime_type": "application/octet-stream",
+              "parent_ids": [
+                "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+              ],
+              "permissions": [
+                {
+                  "role": "owner",
+                  "type": "user"
+                }
+              ],
+              "shared": false,
+              "size_bytes": 7340032
+            },
+            "name": "softvote_source6_held5_complete_20261104.part001",
+            "path": "/workspace/uwb-source6-held5-complete-20261104/held5_complete_backup/softvote_source6_held5_complete_20261104.part001",
+            "raw_fetch": true,
+            "recovered_known_uploaded_ID_without_reupload": true,
+            "remote_raw_bytes_replaced_identical_transport": true,
+            "sha256": "c38c9c68a5cab4d8fccd338611a14238269641bf271eed20b7083b91b29fd8ba"
+          },
+          "sha256": "45bff16b0283b441d74a9f85c5befcc6aee7bc964868206d0357a4d2e106404b"
+        },
+        "UPLOAD_001.json": {
+          "evidence": {
+            "bytes": 7340032,
+            "file_id": "1ZgWkoOT54IHVPEKSat1qX6XFJslyvI9t",
+            "name": "softvote_source6_held5_complete_20261104.part001",
+            "sha256": "c38c9c68a5cab4d8fccd338611a14238269641bf271eed20b7083b91b29fd8ba"
+          },
+          "sha256": "62c665c79324b5d554d83cd22346ad2d5e10ecf9ad3f20de22439bf299b4e8b4"
+        }
+      }
+    },
+    {
+      "absence_checked_before_retry": true,
+      "explicit_upload_retries": 1,
+      "first_upload_response_retained": true,
+      "index": 8,
+      "known_ID_raw_readback_verified": true,
+      "name": "softvote_source6_held5_complete_20261104.part008",
+      "original_source_files": {
+        "ABSENCE_BEFORE_EXPLICIT_RETRY_008.json": {
+          "evidence": {
+            "folder_filter_results": 0,
+            "global_exact_name_results": 0,
+            "name": "softvote_source6_held5_complete_20261104.part008",
+            "observed_at": "2026-11-04T23:01:04.363Z",
+            "provider_reported_no_next_page": true,
+            "state": "two_successful_exact_name_provider_searches_returned_no_file_before_one_explicit_retry",
+            "unlimited_retry_allowed": false
+          },
+          "sha256": "446b43d36bbb8c80e97710de6555b5eba163f19ab9183c0a19bf0d82318766a5"
+        },
+        "ERROR_008_1793833205540.json": {
+          "evidence": {
+            "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry",
+            "file_id": null,
+            "i": 8,
+            "name": "softvote_source6_held5_complete_20261104.part008",
+            "stage": "upload"
+          },
+          "sha256": "0b50965c4a5b1f3965dac39fb8cbc202deab351a2cf5099b8e9fe7f39647fb95"
+        },
+        "EXPLICIT_RETRY_RECOVERED_008.json": {
+          "evidence": {
+            "file_id": "1ptZFlxywxsAdZjyA0B1tMpvVSEQQRcIB",
+            "index": 8,
+            "known_ID_readback_reuploaded": false,
+            "state": "one_explicit_retry_after_proven_absence_then_known_ID_private_raw_verified",
+            "upload_retries": 1,
+            "verified": true
+          },
+          "sha256": "5b47369fd407eff024d09ad2790f946df0785c3624feb365c794a3819cdcaf6b"
+        },
+        "EXPLICIT_RETRY_RESPONSE_008.json": {
+          "evidence": {
+            "content": [
+              {
+                "text": "Action completed.",
+                "type": "text"
+              }
+            ],
+            "isError": false,
+            "structuredContent": {
+              "accepted_input": "file_uri",
+              "file_name": "softvote_source6_held5_complete_20261104.part008",
+              "id": "1ptZFlxywxsAdZjyA0B1tMpvVSEQQRcIB",
+              "mime_type": "application/octet-stream",
+              "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+              "structuredContent": {
+                "accepted_input": "file_uri",
+                "file_name": "softvote_source6_held5_complete_20261104.part008",
+                "id": "1ptZFlxywxsAdZjyA0B1tMpvVSEQQRcIB",
+                "mime_type": "application/octet-stream",
+                "parent_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+                "success": true,
+                "title": "softvote_source6_held5_complete_20261104.part008",
+                "url": "[redacted]"
+              },
+              "success": true,
+              "title": "softvote_source6_held5_complete_20261104.part008",
+              "url": "[redacted]"
+            }
+          },
+          "sha256": "c480d06e15190f1e8b03c7d6047073ae50674933c78a148039fd77c772e65402"
+        },
+        "EXPLICIT_RETRY_STARTED_008.json": {
+          "evidence": {
+            "index": 8,
+            "maximum_explicit_upload_retries": 1,
+            "name": "softvote_source6_held5_complete_20261104.part008",
+            "observed_at": "2026-11-04T23:01:05.973Z"
+          },
+          "sha256": "82fed1988f416adb5788626a780c360094b441328a516aa1cf39ec845f9af996"
+        },
+        "MISSING_ID_RESPONSE_008_1793833203918.json": {
+          "evidence": {
+            "content": [
+              {
+                "text": "tool call error: tool call failed for `codex_apps/google_drive.upload_file`\n\nCaused by:\n    Mcp error: -32603: Internal error",
+                "type": "text"
+              }
+            ],
+            "isError": true
+          },
+          "sha256": "aec0ed4cd8e714e27cebaa862a3f18726cdbd19c565ba52cbf3a3a186a0f4e22"
+        },
+        "READBACK_008.json": {
+          "evidence": {
+            "bytes": 7340032,
+            "download_verified": true,
+            "file_id": "1ptZFlxywxsAdZjyA0B1tMpvVSEQQRcIB",
+            "include_base64": false,
+            "metadata": {
+              "mime_type": "application/octet-stream",
+              "parent_ids": [
+                "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+              ],
+              "permissions": [
+                {
+                  "role": "owner",
+                  "type": "user"
+                }
+              ],
+              "shared": false,
+              "size_bytes": 7340032
+            },
+            "name": "softvote_source6_held5_complete_20261104.part008",
+            "path": "/workspace/uwb-source6-held5-complete-20261104/held5_complete_backup/softvote_source6_held5_complete_20261104.part008",
+            "raw_fetch": true,
+            "recovered_known_uploaded_ID_without_reupload": true,
+            "remote_raw_bytes_replaced_identical_transport": true,
+            "sha256": "787ea050e91aa92af543f643dbb5831a341d8852401a31cd1513adeecc1baf2b"
+          },
+          "sha256": "bc952e447e60934be583b3285f6370c34874ebd377ac40b0be6e16a92465382a"
+        },
+        "UPLOAD_008.json": {
+          "evidence": {
+            "bytes": 7340032,
+            "file_id": "1ptZFlxywxsAdZjyA0B1tMpvVSEQQRcIB",
+            "name": "softvote_source6_held5_complete_20261104.part008",
+            "sha256": "787ea050e91aa92af543f643dbb5831a341d8852401a31cd1513adeecc1baf2b"
+          },
+          "sha256": "e82b68bea07cf7931f6f5ca1bd7ea3b236899d55a685ca2ee29f307621dfbe3c"
+        }
+      }
+    }
+  ],
+  "first_original_provider_response_unavailable": true,
+  "metadata_and_raw_SHA_recovery_verified": true,
+  "new_fit_started": false,
+  "observed_provider_error": "MCP -32603 Internal error in retained responses; first original response was not retained by the old helper",
+  "provider_root_cause_determined": false,
+  "scientific_configuration_changed": false,
+  "serial_transfer_did_not_eliminate_upstream_error": true,
+  "state": "all_observed_upload_failures_recovered_with_one_absence_checked_retry_per_affected_part",
+  "transport_forensics_added_after_archive_assembly": true,
+  "users7_8_labels_used": false
+}

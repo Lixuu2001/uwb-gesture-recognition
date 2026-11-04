@@ -1,0 +1,29 @@
+{
+  "state": "pass_three_mock_transport_failure_regressions",
+  "cases": [
+    {
+      "case": "missing_ID_response_redacted_before_error",
+      "passed": true,
+      "uploads": 1,
+      "metadata_calls": 0,
+      "raw_fetch_calls": 0
+    },
+    {
+      "case": "oversized_missing_ID_response_bounded",
+      "passed": true,
+      "uploads": 1,
+      "metadata_calls": 0,
+      "raw_fetch_calls": 0
+    },
+    {
+      "case": "known_ID_persisted_before_metadata_failure",
+      "passed": true,
+      "uploads": 1,
+      "metadata_calls": 1,
+      "raw_fetch_calls": 0
+    }
+  ],
+  "mocked_only": true,
+  "actual_Drive_uploads": 0,
+  "new_model_fits": 0
+}

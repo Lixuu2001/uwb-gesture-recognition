@@ -1,0 +1,31 @@
+{
+  "state": "pass_three_missing_ID_recovery_guards",
+  "mocked_only": true,
+  "actual_Drive_uploads": 0,
+  "cases": [
+    {
+      "case": "prior_retry_blocks_another_upload",
+      "passed": true,
+      "uploads": 0,
+      "raw_fetches": 0,
+      "writes": 0,
+      "searches": 0
+    },
+    {
+      "case": "existing_exact_match_blocks_upload",
+      "passed": true,
+      "uploads": 0,
+      "raw_fetches": 0,
+      "writes": 0,
+      "searches": 1
+    },
+    {
+      "case": "failed_search_blocks_upload",
+      "passed": true,
+      "uploads": 0,
+      "raw_fetches": 0,
+      "writes": 0,
+      "searches": 1
+    }
+  ]
+}
