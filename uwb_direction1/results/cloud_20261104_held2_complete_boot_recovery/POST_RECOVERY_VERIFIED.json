@@ -1,0 +1,124 @@
+{
+  "completed_held2_retained_without_retraining": true,
+  "diagnostic_labels_read": false,
+  "members": {
+    "shuffle": {
+      "current_progress": {
+        "checkpoint_sha256": "ef702d33fe5719216ebe21f949c90c89e52ee704900080f0a874199f08b5c2aa",
+        "epoch": 6,
+        "journal_sha256": "619b939b67ab06fd39ea26c4d6b40a7570c3f4398c61ec0ddf852062b94e36f9",
+        "prefix_bytes": 326093,
+        "prefix_sha256": "13eb8f9f3c7d3efaa1951bf7fabb5a645e31588a57a652bfa33926999a8fa7b1",
+        "slot": "slot0.pt",
+        "updates": 1350
+      },
+      "native_restore": {
+        "arm": "shuffle",
+        "checkpoint_sha256": "822b0843614ec58edd5cae81489b0452833f842047d0b9141bfa90bf698bedf2",
+        "committed_epoch": 3,
+        "committed_updates": 675,
+        "diagnostic_labels_read": false,
+        "new_training_update_performed": false,
+        "original_log_rows": 686,
+        "semantic_sha256": "1d65745105d2f51c2a664f072753dec2a92c4584a73cbf57e00962e32b399ed0",
+        "state": "native_model_optimizer_sampler_Torch_Python_Numpy_RNG_restore_exact",
+        "uncommitted_suffix_rows": 11
+      },
+      "suffix_proof": {
+        "original_committed_updates": 675,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 11
+      }
+    },
+    "timemil": {
+      "current_progress": {
+        "checkpoint_sha256": "88742f9c308f2387259154bf88beb379ad3aa28bb9e52119b7b8a9420c1dd1ad",
+        "epoch": 2,
+        "journal_sha256": "53070226baff8cd90e954da379af562bb3dc0714c2aa0d3e4bb04ec80c6f22df",
+        "prefix_bytes": 34105,
+        "prefix_sha256": "d0a2b20c740f14aa92085125e4884b282b1456fa7cd1b70040ced223ea539cfc",
+        "slot": "slot0.pt",
+        "updates": 142
+      },
+      "native_restore": {
+        "arm": "timemil",
+        "checkpoint_sha256": "69fe1dd2faaa10a03649ed1c44fb01e96136b05c3fe6aeb83273456deaf810ab",
+        "committed_epoch": 1,
+        "committed_updates": 71,
+        "diagnostic_labels_read": false,
+        "new_training_update_performed": false,
+        "original_log_rows": 108,
+        "semantic_sha256": "b4b9a153dd0372132b894c2752efcb88c75c69e71a737c6fa04eedc56432ed60",
+        "state": "native_model_optimizer_sampler_Torch_Python_Numpy_RNG_restore_exact",
+        "uncommitted_suffix_rows": 37
+      },
+      "suffix_proof": {
+        "original_committed_updates": 71,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 37
+      }
+    }
+  },
+  "new_controller": {
+    "CPU_seconds": 41.98,
+    "boot_id": "529611fa-f196-4301-8416-61ee6e8f2bc0",
+    "pid": 610,
+    "startticks": 311286,
+    "state": "S"
+  },
+  "observed_unix": 1793763610.6654644,
+  "old_boot": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+  "pre_interruption_fold3": {
+    "cpu": 1319.9863679999933,
+    "wall": 336.09666682699753
+  },
+  "registered_attempt": {
+    "UTC_unix": 1793763189.0783792,
+    "identity": {
+      "CPU_seconds": 2.48,
+      "boot_id": "529611fa-f196-4301-8416-61ee6e8f2bc0",
+      "pid": 610,
+      "startticks": 311286,
+      "state": "R"
+    },
+    "recovery_unknown_CPU_policy": "5CPU per unknown elapsed wall second",
+    "registration": "a1ca45979e90f25f57e12010b4ed0ea62572fb2c",
+    "resume": true,
+    "scientific_configuration_unchanged": true
+  },
+  "resource_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 19444.98913090066,
+        "wall": 4052.3461569351307
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 4778504,
+    "last_observed_unix": 1793763609.709376
+  },
+  "source_state": {
+    "held": 3,
+    "state": "training_fixed_members_unscored",
+    "users7_8_labels_used": false
+  },
+  "state": "actual_same_configuration_resume_after_boot_change_both_original_suffixes_exact",
+  "unknown_charge_policy": "original unmodified controller: elapsed since last durable ledger charged wall+5CPU per second; no cap reset",
+  "users7_8_labels_used": false
+}

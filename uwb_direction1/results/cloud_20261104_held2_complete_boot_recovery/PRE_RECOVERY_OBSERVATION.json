@@ -1,0 +1,72 @@
+{
+  "conservative_unknown_CPU_charge": 15965.286566019058,
+  "current_boot": "529611fa-f196-4301-8416-61ee6e8f2bc0",
+  "diagnostic_labels_read": false,
+  "held2_complete_audits_and_fusion_verified": true,
+  "observed_unix": 1793763088.7644029,
+  "old_controller": {
+    "CPU_seconds": 2.93,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "R"
+  },
+  "original_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 1319.9863679999933,
+        "wall": 336.09666682699753
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 3744100,
+    "last_observed_unix": 1793759895.706749
+  },
+  "projected_existing_budget_after_charge": {
+    "2": {
+      "cpu": 84851.68278,
+      "wall": 22834.174004506
+    },
+    "3": {
+      "cpu": 17285.272934019053,
+      "wall": 3529.153980030809
+    },
+    "4": {
+      "cpu": 0,
+      "wall": 0
+    },
+    "5": {
+      "cpu": 0,
+      "wall": 0
+    },
+    "6": {
+      "cpu": 0,
+      "wall": 0
+    }
+  },
+  "raw_data_redownloaded": false,
+  "scientific_settings_changed": false,
+  "source_state": {
+    "held": 3,
+    "state": "training_fixed_members_unscored",
+    "users7_8_labels_used": false
+  },
+  "state": "boot_changed_original_processes_inactive_workspace_preserved",
+  "unknown_wall_seconds": 3193.0573132038116
+}

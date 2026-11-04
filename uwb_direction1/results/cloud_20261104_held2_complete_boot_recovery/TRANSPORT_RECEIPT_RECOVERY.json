@@ -1,0 +1,23 @@
+{
+  "state": "last2_uploaded_parts_recovered_without_reupload_after_local_receipt_write_failure",
+  "recovered": [
+    {
+      "index": 21,
+      "file_id": "1c3RZ2CxpWUMZo3oSkoxUfXrjysCmtrD_",
+      "raw_sha256": "7f1a8394658110b7f210553126fcf2570389454aa519ce6be0a29a2243c69cf2",
+      "reupload": false,
+      "recovered_via_private_folder_exact_filename_and_metadata_raw_SHA": true
+    },
+    {
+      "index": 22,
+      "file_id": "128KypfSdUFLNiDqG-QPBhSkEjtU3bdjY",
+      "raw_sha256": "b2a31447529f300c4d2e051b198d7861022c07e8aef6d92165f5d35b7039c7e9",
+      "reupload": false,
+      "recovered_via_private_folder_exact_filename_and_metadata_raw_SHA": true
+    }
+  ],
+  "uploader_ordering_fixed": "known upload ID persisted before optional bounded response metadata; retry blocked on unknown-outcome error",
+  "mock_tests": 3,
+  "real_test_uploads_performed": false,
+  "scientific_core_modified": false
+}

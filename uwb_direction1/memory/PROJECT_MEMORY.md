@@ -1,3 +1,11 @@
+## 2026-11-04 held2 protocol complete; boot loss repaired by verified held3 resume
+
+Held2 full100Shuffle replay (23500updates), both selected-state/output audits and fixed3arm fusion passed; all outputs frozen UNScored. Held2 costs22834.174wall/84851.683CPU seconds; no accuracy/novelty claim. Completed-fold private archive23parts/166362391bytes/828payloads raw/allmember verified, SHA1041663882f2cacc38541cafbc30822a782200805b7805fb8f7ca82ec793b28e; no dependency on earlier checkpoint deltas, initial data/runtime/source still required.
+
+Actual boot changed29a75b3c... ->529611fa..., killing old controller3406/children after entering held3. Files/data intact, no redownload. Original controller --resume nowPID610; both native optimizer/model/all RNG states restored exactly and37TimeMIL/11Shuffle uncommitted updates replayed exactly without rewriting old logs. Unknown interval charged original wall+5CPU per second, no cap reset. Held2 reused without retraining; current held3 epochs/identity/ledgers and precise failure/recovery evidence are in `results/cloud_20261104_held2_complete_boot_recovery/LIVE_OBSERVATION.json`/RUN_REPORT.md and private index. Old attempt success is not invented. Final2 upload-receipt persistence failures were repaired by exact existing-ID raw verification without reupload; helper ordering/bounded-response/no-blind-retry fix passed3mock tests.
+
+Next inspect PID610/newboot/attempt001; never relaunch duplicates or overwrite newer state. Continue ALLnewfolds3–6, preserve failures/cumulative caps; only allfive audited/frozen3arm outputs plus FULL final private recovery permit once aggregate. Source1reused/users7–8sealed/exploratory caveat unchanged. No test scoring or model/gate/seed changes.
+
 ## 2026-11-04 registered audit ongoing; own checkpoint61 insured (delta depth2)
 
 Same controller3406/boot29a75b3c-d071-401f-b05f-fcf3d9937f08 and replay5050 remain active; live replay epoch66/15510updates at observation. TimeMIL64/Shuffle100 fits and TimeMIL output audit remain complete; full100Shuffle replay is unfinished. No restart, scientific change, diagnostic score or new accuracy/originality claim.

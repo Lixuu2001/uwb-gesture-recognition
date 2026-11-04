@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_original_independent_audit_continues_with_verified_own61_delta05",
+  "state": "source6_held2_protocol_complete_boot_change_recovered_held3_native_resume",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261104_source6_audit_delta05/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261104_held2_complete_boot_recovery/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793756942.0464396,
-  "background_training_pid": 3406,
-  "background_training_status_note": "Same controller/replay active, no duplicate/new fitting or science changes. Own audit61 privately raw-verified/reconstructed, delta depth2; exact live replay in latest observation. Full100 audit and all5newfolds/full final private verification remain before held scoring. No accuracy/novelty claim.",
+  "background_training_observed_unix": 1793764363.8576176,
+  "background_training_pid": 610,
+  "background_training_status_note": "Old boot/controller3406 lost after held2 audit/fusion complete; actual newboot PID610 original --resume restored held3 native states and replayed37/11suffix updates exactly. Full interrupted interval charged5CPU/wallsecond/no budget reset; held2 not retrained. Completed-fold archive raw-verified, no test scoring or new accuracy/novelty claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -10926,6 +10926,156 @@
   "new_training_process_launched": false,
   "scientific_settings_changed": false,
   "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_accuracy_result": false,
+  "novel_contribution_validated": false
+}
+,
+  "source6_held2_complete_boot_recovery_20261104": {
+  "state": "boot_restart_recovered_native_held3_resume_exact_held2_complete_protocol_unscored",
+  "observed_unix": 1793764363.8576176,
+  "old_controller": {
+    "CPU_seconds": 2.93,
+    "boot_id": "29a75b3c-d071-401f-b05f-fcf3d9937f08",
+    "pid": 3406,
+    "startticks": 137886,
+    "state": "R"
+  },
+  "new_controller": {
+    "pid": 610,
+    "startticks": 311286,
+    "state": "S",
+    "CPU_seconds": 113.62,
+    "boot_id": "529611fa-f196-4301-8416-61ee6e8f2bc0"
+  },
+  "controller_state": {
+    "held": 3,
+    "state": "training_fixed_members_unscored",
+    "users7_8_labels_used": false
+  },
+  "resource_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 22432.75349090066,
+        "wall": 4801.858000660131
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 4266728,
+    "last_observed_unix": 1793764359.2212212
+  },
+  "members": {
+    "timemil": {
+      "native_restore": {
+        "arm": "timemil",
+        "checkpoint_sha256": "69fe1dd2faaa10a03649ed1c44fb01e96136b05c3fe6aeb83273456deaf810ab",
+        "committed_epoch": 1,
+        "committed_updates": 71,
+        "diagnostic_labels_read": false,
+        "new_training_update_performed": false,
+        "original_log_rows": 108,
+        "semantic_sha256": "b4b9a153dd0372132b894c2752efcb88c75c69e71a737c6fa04eedc56432ed60",
+        "state": "native_model_optimizer_sampler_Torch_Python_Numpy_RNG_restore_exact",
+        "uncommitted_suffix_rows": 37
+      },
+      "suffix": {
+        "original_committed_updates": 71,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 37
+      },
+      "live_progress": {
+        "checkpoint_sha256": "c82819879433b214e47cb2743cc83788e7ca84577fc4bade310ea9dd3be1282d",
+        "epoch": 6,
+        "journal_sha256": "ddffafbbd295786aa27964094a3a91128ce55318cbe06d8e40510c1856895fc3",
+        "prefix_bytes": 102867,
+        "prefix_sha256": "ebd62d9bfe64be3fd55589f11e0439bd43bc8f06082a07f67432acecc11834af",
+        "slot": "slot0.pt",
+        "updates": 426
+      }
+    },
+    "shuffle": {
+      "native_restore": {
+        "arm": "shuffle",
+        "checkpoint_sha256": "822b0843614ec58edd5cae81489b0452833f842047d0b9141bfa90bf698bedf2",
+        "committed_epoch": 3,
+        "committed_updates": 675,
+        "diagnostic_labels_read": false,
+        "new_training_update_performed": false,
+        "original_log_rows": 686,
+        "semantic_sha256": "1d65745105d2f51c2a664f072753dec2a92c4584a73cbf57e00962e32b399ed0",
+        "state": "native_model_optimizer_sampler_Torch_Python_Numpy_RNG_restore_exact",
+        "uncommitted_suffix_rows": 11
+      },
+      "suffix": {
+        "original_committed_updates": 675,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 11
+      },
+      "live_progress": {
+        "checkpoint_sha256": "32776c272a0de097bfa23851cea882c3265e4c53659e54d41038a5a5e623982f",
+        "epoch": 13,
+        "journal_sha256": "82bbc62144b4a4a6e01910ce891d519376c76be1e038ca8ccd607b9586db1414",
+        "prefix_bytes": 710318,
+        "prefix_sha256": "db9b26c01f3abb0d188af69c55df6d668c36d4b67c2d777b470d81a464cc78f5",
+        "slot": "slot1.pt",
+        "updates": 2925
+      }
+    }
+  },
+  "held2_full_Shuffle_replay": {
+    "all100epochs_all_updates_replayed_exactly": true,
+    "diagnostic_labels_read": false,
+    "held": 2,
+    "initial_audit_started_from_fresh_seed": true,
+    "own_checkpoint_only_recovery": true,
+    "replay_progress_sha256": "7958192c3b429727966886d77a69509b1b8a7eac21fe9e9c6a12bf8491a13267",
+    "state": "pass",
+    "updates": 23500,
+    "users7_8_labels_used": false
+  },
+  "held2_frozen": {
+    "diagnostic_labels_read": false,
+    "files": {
+      "diagnostic_unscored.npz": "4f93e2f3addd9a15a4b4bbadc88369b7667352a304c859cfa40fb53e8383426f",
+      "validation_unscored.npz": "5887f3bf9f37e241d4fc9dd66dcbd6eb0fb2bfcdc0eea2b29fdbfa36aa7b40f0"
+    },
+    "held": 2,
+    "source_member_manifests": {
+      "shuffle": "dab1de6aa532c9d766f388bfd10fc86d36eb9d53b2329604631108eb3e7c7012",
+      "timemil": "5ee39f5aac52c9a3862f2aba2689dcb9108e6f649341b02e293cdbf1e6a15ed8"
+    },
+    "state": "three_arms_frozen_before_any_new_held_truth",
+    "users7_8_labels_used": false
+  },
+  "held2_complete_archive": {
+    "archive_bytes": 166362391,
+    "archive_sha256": "1041663882f2cacc38541cafbc30822a782200805b7805fb8f7ca82ec793b28e",
+    "parts": 23,
+    "payload_files": 828,
+    "delta_dependency": false,
+    "all5newfolds_complete": false,
+    "final_scoring_authority": false
+  },
+  "completed_fold2_retrained": false,
+  "scientific_settings_changed": false,
+  "budget_reset": false,
+  "diagnostic_labels_scored": false,
   "users7_8_labels_used": false,
   "new_accuracy_result": false,
   "novel_contribution_validated": false
