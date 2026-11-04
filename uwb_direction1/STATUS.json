@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_held4_shuffle100_producer_complete_TimeMIL_running_privately_insured",
+  "state": "source6_held4_both_producers_complete_TimeMIL_output_audit_pass_Shuffle_replay_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-04 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; actual held4 native trainers1+4threads; no GPU",
+  "compute": "2026-11-04 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; actual held4 independent Shuffle replay4threads, both producers complete; no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261104_held4_producer_insurance01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261104_held4_audit_delta02/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793798751.4500463,
+  "background_training_observed_unix": 1793803536.0004134,
   "background_training_pid": 573,
-  "background_training_status_note": "Same controller573/bootad409b48. Held4 Shuffle100/22500updates fixedfinal100 completed with actual exit0; TimeMIL continues. Native restore/recapture and complete selected-state checks plus private raw/allmember intermediate archive verified; full100replay/output audits/three-arm freeze remain pending. Held2/3 reused unscored. No diagnostic accuracy/originality claim or scientific/budget change. One materialization-channel failure was repaired by existing-ID raw verification without reupload; native training was not interrupted.",
+  "background_training_status_note": "Same controller573/bootad409b48; both held4 producers and TimeMIL selected-output audit complete with actual exit0. Independent Shuffle100 replayPID4306 active, unfinished. Complete producers/own34 checkpoint reconstructed/native-verified and privately raw-backed by depth1 delta02 over producer insurance01. No new diagnostic accuracy/originality result or scientific/budget change.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11194,5 +11194,23 @@
   "upload_retried": false,
   "native_training_interrupted": false,
   "transport_recovery_evidence": "results/cloud_20261104_held4_producer_insurance01/TRANSPORT_RECOVERY.json"
+}
+,
+  "source6_held4_audit_delta02_20261104": {
+  "report": "results/cloud_20261104_held4_audit_delta02/RUN_REPORT.md",
+  "observation": "results/cloud_20261104_held4_audit_delta02/POST_BACKUP_LIVE_OBSERVATION.json",
+  "private_download_index": "results/cloud_20261104_held4_audit_delta02/delta02_backup/CLOUD_DOWNLOAD_INDEX.json",
+  "archive_sha256": "a5bc12c6857bb25b38bc719c93cee3e31904b953e9b698158bd236c29b72f7da",
+  "base_archive_sha256": "9d745acef80845dfa103e2ad11ed38f1ba2f5297128e3f9e7aff8f240bbda3d9",
+  "delta_chain_depth": 1,
+  "current_payloads": 632,
+  "changed_payloads": 125,
+  "captured_own_replay_epoch": 34,
+  "TimeMIL_output_audit_passed": true,
+  "TimeMIL_full64_training_replayed": false,
+  "full100_Shuffle_replay_complete": false,
+  "budget_reset": false,
+  "new_accuracy_result": false,
+  "original_contribution_validated": false
 }
 }
