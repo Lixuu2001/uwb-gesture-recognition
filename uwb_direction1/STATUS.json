@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_held4_both_producers_complete_TimeMIL_output_audit_pass_Shuffle_replay_running",
+  "state": "source6_held4_protocol_complete_privately_verified_original_held5_training",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-04 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; actual held4 independent Shuffle replay4threads, both producers complete; no GPU",
+  "compute": "2026-11-04 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; actual held5 native trainers1+4threads; no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261104_held4_audit_delta02/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261104_held4_complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793803536.0004134,
+  "background_training_observed_unix": 1793808918.937679,
   "background_training_pid": 573,
-  "background_training_status_note": "Same controller573/bootad409b48; both held4 producers and TimeMIL selected-output audit complete with actual exit0. Independent Shuffle100 replayPID4306 active, unfinished. Complete producers/own34 checkpoint reconstructed/native-verified and privately raw-backed by depth1 delta02 over producer insurance01. No new diagnostic accuracy/originality result or scientific/budget change.",
+  "background_training_status_note": "Held4 full100Shuffle replay/all22500updates, both output audits and three-arm freeze passed with actual exit0; complete unscored fold privately raw/allmember verified with no checkpoint-delta dependency. Same controller573/bootad409b48 now trains held5. No restart/scientific/gate/seed/budget change, diagnostic accuracy or originality claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11209,6 +11209,28 @@
   "TimeMIL_output_audit_passed": true,
   "TimeMIL_full64_training_replayed": false,
   "full100_Shuffle_replay_complete": false,
+  "budget_reset": false,
+  "new_accuracy_result": false,
+  "original_contribution_validated": false
+}
+,
+  "source6_held4_complete_20261104": {
+  "report": "results/cloud_20261104_held4_complete/RUN_REPORT.md",
+  "observation": "results/cloud_20261104_held4_complete/POST_BACKUP_LIVE_OBSERVATION.json",
+  "private_download_index": "results/cloud_20261104_held4_complete/held4_complete_backup/CLOUD_DOWNLOAD_INDEX.json",
+  "archive_sha256": "8aa938017210ba787b86eb04ffc68d8fe5ef175796728544fd90a66adcffbe39",
+  "checkpoint_delta_dependency": false,
+  "held4_protocol_complete_unscored": true,
+  "Shuffle_full100_training_replayed": true,
+  "Shuffle_exact_updates": 22500,
+  "TimeMIL_full64_training_replayed": false,
+  "completed_newfolds": [
+    2,
+    3,
+    4
+  ],
+  "active_held": 5,
+  "all5newfolds_complete": false,
   "budget_reset": false,
   "new_accuracy_result": false,
   "original_contribution_validated": false
