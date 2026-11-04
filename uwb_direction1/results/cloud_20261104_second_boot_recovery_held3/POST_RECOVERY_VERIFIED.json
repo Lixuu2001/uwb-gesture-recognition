@@ -1,0 +1,86 @@
+{
+  "budget_reset": false,
+  "controller": {
+    "CPU_seconds": 23.7,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "members": {
+    "shuffle": {
+      "complete_old_raw_prefix_identical": true,
+      "current_progress": {
+        "checkpoint_sha256": "1ebdb282a3c5834a0379d9430f8415159c97b1dfe0a19477b1bddb9701c36cc9",
+        "epoch": 58,
+        "journal_sha256": "0e8ec29218dcb3d841708d5098fdb9163a3f91a53256aca4c21b5b9495fcff2c",
+        "prefix_bytes": 3191933,
+        "prefix_sha256": "3c7d555be4a44590b6a2b659e04a65641ed531326874662a1d5f02824f6b9461",
+        "slot": "slot0.pt",
+        "updates": 13050
+      },
+      "old_raw_bytes": 3142130,
+      "old_raw_sha256": "e7c60989569e99d295b8e56789e0ab6200a67046f0e298aa47056c5ea5e9dde7",
+      "receipt": {
+        "original_committed_updates": 12825,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 22
+      }
+    },
+    "timemil": {
+      "complete_old_raw_prefix_identical": true,
+      "current_progress": {
+        "checkpoint_sha256": "183ed97ea4eb19ed4e71eaa15a0790ad47af9c1e151f421d9976ab930a77910f",
+        "epoch": 27,
+        "journal_sha256": "74a77d4052f103c239072d3a76566bbdc18c1a8eb9da8063d7f3592d0cbd585a",
+        "prefix_bytes": 467103,
+        "prefix_sha256": "0694cc2ae03f4d65c5dbed9d003b75cff32499b305714be32071144e220e9ea6",
+        "slot": "slot1.pt",
+        "updates": 1917
+      },
+      "old_raw_bytes": 484460,
+      "old_raw_sha256": "24e7515fda2e08c69243dcda3a7ebe0d7a428dbb8935c834da34597249647471",
+      "receipt": {
+        "original_committed_updates": 1917,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 71
+      }
+    }
+  },
+  "observed_unix": 1793769995.6700726,
+  "resource_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 45643.75478785856,
+        "wall": 10439.445884108713
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 3953080,
+    "last_observed_unix": 1793769994.4592757
+  },
+  "scientific_settings_changed": false,
+  "source_state": {
+    "held": 3,
+    "state": "training_fixed_members_unscored",
+    "users7_8_labels_used": false
+  },
+  "state": "second_native_resume_suffixes_and_entire_old_raw_prefixes_verified"
+}

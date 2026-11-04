@@ -1,0 +1,111 @@
+{
+  "active_children": [
+    {
+      "CPU_seconds": 569.24,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 574,
+      "startticks": 34609,
+      "state": "R"
+    },
+    {
+      "CPU_seconds": 2163.2,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 579,
+      "startticks": 34613,
+      "state": "R"
+    }
+  ],
+  "all_five_new_folds_complete": false,
+  "attempt": "/workspace/uwb-softvote-source6-real-20261103/attempts/attempt002/held3",
+  "budget_reset": false,
+  "controller": {
+    "CPU_seconds": 68.89,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "controller_state": {
+    "held": 3,
+    "state": "training_fixed_members_unscored",
+    "users7_8_labels_used": false
+  },
+  "core_frozen_files_verified": 60,
+  "data_redownloaded": false,
+  "diagnostic_labels_read": false,
+  "held2_completed_unscored_not_retrained": true,
+  "held3_members": {
+    "shuffle": {
+      "complete_old_raw_byte_prefix_verified": true,
+      "current_progress": {
+        "checkpoint_sha256": "f99167bcd5440fe6c536268518f49f9d1bb74237b751e383a6a606209ee865af",
+        "epoch": 62,
+        "journal_sha256": "ee61654a87de821f0fe02a5daf433ef0f733ba5a1c2627f649724e2bfaa97691",
+        "prefix_bytes": 3413282,
+        "prefix_sha256": "cbea1232a8c96729939ef47ca2e14a34392a77806fb4e5157f272d6002a481d9",
+        "slot": "slot0.pt",
+        "updates": 13950
+      },
+      "receipt": {
+        "original_committed_updates": 12825,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 22
+      }
+    },
+    "timemil": {
+      "complete_old_raw_byte_prefix_verified": true,
+      "current_progress": {
+        "checkpoint_sha256": "fb43303ec6bc86b75db7c2c57db54a56064eb3e9ab50a3bdcccbb77b099afa30",
+        "epoch": 30,
+        "journal_sha256": "76da1a2d8b02daadd5585f1cd49f148fabfd4afb4e16e436d3484e1b44410aca",
+        "prefix_bytes": 519255,
+        "prefix_sha256": "a091c2282a374c14b7dbf51f09b21e76a6d5352a08081cbb7065cd5d5810ec8b",
+        "slot": "slot0.pt",
+        "updates": 2130
+      },
+      "receipt": {
+        "original_committed_updates": 1917,
+        "original_raw_log_bytes_preserved": true,
+        "uncommitted_updates_reproduced_exactly": 71
+      }
+    }
+  },
+  "new_accuracy_result": false,
+  "observed_unix": 1793770480.624609,
+  "original_contribution_validated": false,
+  "perfold_CPU_limit": 172800,
+  "perfold_wall_limit": 43200,
+  "private_checkpoint_archive_sha256": "bd9f35c5a15d3ddd12cecab355c94e7458574c9bf5a08c987b8f6431aa96628c",
+  "resource_ledger": {
+    "active_held": 3,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 47564.82126385856,
+        "wall": 10921.200685437712
+      },
+      "4": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "5": {
+        "cpu": 0,
+        "wall": 0
+      },
+      "6": {
+        "cpu": 0,
+        "wall": 0
+      }
+    },
+    "last_observed_combined_RSS_KiB": 4086808,
+    "last_observed_unix": 1793770476.2152493
+  },
+  "resource_stop_reason": null,
+  "scientific_configuration_changed": false,
+  "seed_changed": false,
+  "state": "second_boot_recovery_verified_original_experiment_continues_unscored",
+  "users7_8_labels_used": false
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_held2_protocol_complete_boot_change_recovered_held3_native_resume",
+  "state": "source6_second_boot_recovery_verified_held3_native_resume",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-03 recovered cloud boot29a75b3c-d071-401f-b05f-fcf3d9937f08; CPU quota4, RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; member threads1+4; no GPU",
+  "compute": "2026-11-04 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; actual native member processes1+4threads; no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261104_held2_complete_boot_recovery/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261104_second_boot_recovery_held3/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793764363.8576176,
-  "background_training_pid": 610,
-  "background_training_status_note": "Old boot/controller3406 lost after held2 audit/fusion complete; actual newboot PID610 original --resume restored held3 native states and replayed37/11suffix updates exactly. Full interrupted interval charged5CPU/wallsecond/no budget reset; held2 not retrained. Completed-fold archive raw-verified, no test scoring or new accuracy/novelty claim.",
+  "background_training_observed_unix": 1793770480.624609,
+  "background_training_pid": 573,
+  "background_training_status_note": "Second boot change recovered by original --resume; native states plus71/22suffix steps and entire old raw prefixes exact. PID573/current boot and cumulative ledger verified; held2 not retrained. Private intermediate held3 archive raw/allmember verified. No new diagnostic accuracy or originality claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11079,5 +11079,21 @@
   "users7_8_labels_used": false,
   "new_accuracy_result": false,
   "novel_contribution_validated": false
+}
+,
+  "source6_second_boot_recovery_20261104": {
+  "report": "results/cloud_20261104_second_boot_recovery_held3/RUN_REPORT.md",
+  "observation": "results/cloud_20261104_second_boot_recovery_held3/LIVE_OBSERVATION.json",
+  "private_download_index": "results/cloud_20261104_second_boot_recovery_held3/held3_checkpoint_backup/CLOUD_DOWNLOAD_INDEX.json",
+  "archive_sha256": "bd9f35c5a15d3ddd12cecab355c94e7458574c9bf5a08c987b8f6431aa96628c",
+  "native_suffix_updates_exact": {
+    "timemil": 71,
+    "shuffle": 22
+  },
+  "whole_old_raw_prefixes_identical": true,
+  "budget_reset": false,
+  "held2_not_retrained": true,
+  "new_accuracy_result": false,
+  "original_contribution_validated": false
 }
 }
