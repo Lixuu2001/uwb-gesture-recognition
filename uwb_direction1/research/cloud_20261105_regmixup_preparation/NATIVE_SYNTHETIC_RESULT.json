@@ -1,0 +1,22 @@
+{
+  "state": "pass_full_native_conditional_RegMixup_synthetic_only",
+  "parameters": 617612,
+  "raw_batch": 64,
+  "concatenated_forward_batch": 128,
+  "alpha_beta": [
+    20,
+    20
+  ],
+  "seed": 20261029,
+  "matched_native_noMixup_initial_model_exact": true,
+  "pinned_author_device_only_batch_native_logits_and_BN_buffers_exact": true,
+  "each_native_BN_one_update": true,
+  "native_OvRBCE_gradient_agrees_with_independent_weighted_hard_target_loss": true,
+  "max_gradient_absolute_difference": 7.450580596923828e-09,
+  "full_optimizer_slow_buffer_and_Python_NumPy_Torch_order_RNG_disk_resume_exact": true,
+  "saved_optimizer_fixture_immutable": true,
+  "no_UWB_arrays_or_labels_opened": true,
+  "new_UWB_fit_started": false,
+  "current_Manifold_configuration_untouched": true,
+  "wall_seconds": 12.907723217009334
+}

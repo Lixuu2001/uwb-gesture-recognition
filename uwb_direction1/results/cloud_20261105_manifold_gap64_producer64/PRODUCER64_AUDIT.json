@@ -1,0 +1,42 @@
+{
+  "state": "producer64_complete_native_final_selected_restore_and_partial_own_fresh_replay_verified_unscored",
+  "observed_unix": 1793873260.6865885,
+  "controller": {
+    "pid": 14282,
+    "startticks": 9983676,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 6.43
+  },
+  "producer_epochs": 64,
+  "producer_updates": 4736,
+  "producer_native_final_sha256": "704aa1ea15084c86bcecf35f054429e8f7f417385a697ec4e3354710fb6e6936",
+  "producer_complete_digest_is_canonical_not_selected_alias": true,
+  "selected_epoch": 63,
+  "producer_actual_termination": {
+    "cumulative": {
+      "cpu": 2698.478177,
+      "wall": 2699.801927657012
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "own_fresh_replay_epoch": 30,
+  "own_fresh_replay_updates": 2220,
+  "own_fresh_replay_all_committed_rows_records_equal": true,
+  "native_restore_recapture_exact": true,
+  "scientific_manifest_sha256": "e7c135304cce3a78fa6161d4a6dcb728914e8c90a5bf6f2bd85813c13ce555c6",
+  "resource_ledger": {
+    "RSS_KiB": 1721300,
+    "cpu": 3992.778177,
+    "stage": "replay",
+    "wall": 3994.562370274012
+  },
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_fit_started": false,
+  "full_fresh_replay_complete": false,
+  "new_accuracy_result": false
+}

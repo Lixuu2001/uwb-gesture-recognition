@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Manifold_GAP64_same_fixed_training_with_verified_intermediate_private_checkpoint",
+  "state": "Manifold_GAP64_producer64_complete_own_fresh_replay_underway_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_manifold_gap64_checkpoint_insurance01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_manifold_gap64_producer64/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793870941.515649,
+  "background_training_observed_unix": 1793873260.6865885,
   "background_training_pid": 14282,
-  "background_training_status_note": "Original Manifold alpha2/random012/GAP64 controller14282/producer14284 healthy at observed39/2886updates; intermediate29/2146updates+63suffix privately allmember verified; no complete pilot/replay/diagnostic score. Conditional RegMixup arithmetic only, no second fit.",
+  "background_training_status_note": "Manifold fixed producer64/4736 completed actual exit0; canonical final/native restore/selected63 verified; same controller OWN fresh replay audited30/2220 exact. Full replay/output/private final modelset and once diagnostic pending. Conditional RegMixup full-native synthetic/profile pass only, no second real fit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/cloud_20261105_regmixup_preparation/README.md",
+  "latest_literature_note": "research/cloud_20261105_regmixup_preparation/NATIVE_REVIEW.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -11635,5 +11635,28 @@
   "transfer_errors": 0,
   "new_fit_started": false,
   "conditional_RegMixup": "research/cloud_20261105_regmixup_preparation/README.md"
+}
+,
+  "manifold_gap64_producer64_20261105": {
+  "report": "results/cloud_20261105_manifold_gap64_producer64/RUN_REPORT.md",
+  "method": "Manifold_Mixup_alpha2_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "producer_updates": 4736,
+  "producer_actual_exit_code": 0,
+  "producer_native_final_sha256": "704aa1ea15084c86bcecf35f054429e8f7f417385a697ec4e3354710fb6e6936",
+  "canonical_complete_digest_verified": true,
+  "selected_epoch": 63,
+  "own_fresh_replay_observed_epoch": 30,
+  "own_fresh_replay_observed_updates": 2220,
+  "full_fresh_replay_complete": false,
+  "diagnostic_labels_read": false,
+  "final_private_modelset_complete": false,
+  "new_accuracy_result": false,
+  "conditional_RegMixup_native_probe_passed": true,
+  "conditional_RegMixup_resource_gate_passed": true,
+  "RegMixup_real_fit_started": false
 }
 }
