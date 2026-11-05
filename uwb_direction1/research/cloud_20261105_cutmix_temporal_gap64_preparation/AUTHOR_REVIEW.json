@@ -1,0 +1,68 @@
+{
+  "state": "bounded_author_source_and_literature_review_conditional_preparation",
+  "original_commit": "2d8eb68faff7fe4962776ad51d175c3b01a25734",
+  "radar_commit": "ab9c4c959ca07d7ba422a052b342431a8bc8574d",
+  "licenses": "both author sources MIT",
+  "files": [
+    {
+      "local": "author/original/README.md",
+      "blob_sha1": "957eb8baf36b95ccc99751c0b15a75c9183798f8",
+      "url": "https://github.com/clovaai/CutMix-PyTorch/blob/2d8eb68faff7fe4962776ad51d175c3b01a25734/README.md",
+      "sha256": "e0b4302fefb15ce8ba444b4032d639c37e9de04c05579b1db21372bd32a59870"
+    },
+    {
+      "local": "author/original/train.py",
+      "blob_sha1": "56f6c52b1ad14489939c6820aa140992d3059045",
+      "url": "https://github.com/clovaai/CutMix-PyTorch/blob/2d8eb68faff7fe4962776ad51d175c3b01a25734/train.py",
+      "sha256": "049026c020052932ac15a998eee027ae9eb7910fbb7934c8daa22fa3cb37189c"
+    },
+    {
+      "local": "author/original/LICENSE",
+      "blob_sha1": "7dbe60afb44cd200e5b0073bbe8f19ef23ef4756",
+      "url": "https://github.com/clovaai/CutMix-PyTorch/blob/2d8eb68faff7fe4962776ad51d175c3b01a25734/LICENSE",
+      "sha256": "3605511138ad9cb49718384c790846d2d18a55f07f0e238d944e99c3b2f05fcb"
+    },
+    {
+      "local": "author/radar/README.md",
+      "blob_sha1": "e726b0b8961dd466752c07679ba01271d99907b2",
+      "url": "https://github.com/CristianLazoQuispe/CVPR-SignEval2026/blob/ab9c4c959ca07d7ba422a052b342431a8bc8574d/README.md",
+      "sha256": "e30a0654e736920c8ae12cf9641f2b1f5a1b967c627dda02512ddb9344db45db"
+    },
+    {
+      "local": "author/radar/train.py",
+      "blob_sha1": "2e83fb7f7d799ae2b398ab1c699d56b09507b78e",
+      "url": "https://github.com/CristianLazoQuispe/CVPR-SignEval2026/blob/ab9c4c959ca07d7ba422a052b342431a8bc8574d/codes/final/train.py",
+      "sha256": "369f7bd36622672348765abeca902f33490c3978524bdb2bdfe837bd4631cf44"
+    },
+    {
+      "local": "author/radar/r9_cutmix_p08.yaml",
+      "blob_sha1": "d8246e933853bba83417670560818d2c3419d1df",
+      "url": "https://github.com/CristianLazoQuispe/CVPR-SignEval2026/blob/ab9c4c959ca07d7ba422a052b342431a8bc8574d/configs/round9/r9_final/r9_cutmix_p08.yaml",
+      "sha256": "ae00bd6ecc7fd09d59f55b15f3227bde60c05e711bd1086b76bc3886cd08e2ba"
+    },
+    {
+      "local": "author/radar/LICENSE",
+      "blob_sha1": "1edcac0378162f4c38ea406fa3311d5d0a3a97be",
+      "url": "https://github.com/CristianLazoQuispe/CVPR-SignEval2026/blob/ab9c4c959ca07d7ba422a052b342431a8bc8574d/LICENSE",
+      "sha256": "e22ba76151d49a4cbf2a373ac8794d22f186e21c207f6ed28ca5b2ec9f3eb31b"
+    }
+  ],
+  "original_paper_review": "abstract/method section3/part of section4, not full14pages",
+  "radar_paper_review": "publisher search excerpts only; direct PDF fetch403; author README/config and targeted helper/gating/loss code reviewed, not complete paper or full training script",
+  "radar_publisher_PDF": "https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Quispe_AI4Good_at_SignEval_2026_Mix_Measure_Merge_with_Spectro-Temporal_Augmentation_CVPRW_2026_paper.pdf",
+  "observed_implementation_difference": "paper search excerpt rectangle versus pinned released temporal-only helper; follow code without claiming identical paper ablation reproduction",
+  "native_layout_source": "/workspace/uwb-timemil-20261029/run_pilot.py lines45-49",
+  "history_scope": {
+    "parent": "3f26dd31e86a96b1ffde51893a79d36151616ade",
+    "named_CutMix_research_results_hits": "prior PRE_AGGREGATE_HISTORY_SCREEN only; no documented equivalent real native fit found",
+    "prior_temporal_protocol_splice_search_matches": 0,
+    "bounded_not_exhaustive": true,
+    "worldwide_novelty_claim": false
+  },
+  "new_real_UWB_protocol_registered": false,
+  "new_UWB_fit_started": false,
+  "current_RegMixup_diagnostic_read": false,
+  "users7_8_labels_used": false,
+  "native_layout_source_sha256": "7846822bb4e20fed467fb41830acf567371cfd8aaecf628c0f92824541f52622",
+  "verbatim_author_transport_note": "author/original/.gitattributes is our narrow Git transport metadata, not an upstream author source; preserves original README CRLF against inherited *.md text eol=lf."
+}

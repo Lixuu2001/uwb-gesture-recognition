@@ -1,0 +1,26 @@
+{
+  "state": "conditional_production_registered_before_any_RegMixup_diagnostic_or_CutMix_fit",
+  "scientific_files": 20,
+  "frozen_manifest_sha256": "c2f4d58fe08bb868a708abcf5dfd21d5f4bba4bdc302610049a488dd57398b4e",
+  "alpha": 1.0,
+  "probability": 0.8,
+  "seed": 20261029,
+  "epochs": 64,
+  "parameters": 617612,
+  "raw_and_forward_batch": 64,
+  "train_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "once_diagnostic_user": 1,
+  "activation_only_after_exact_prior_RegMixup_once_gate_fail": true,
+  "prior_RegMixup_diagnostic_read": false,
+  "synthetic_checks_pending_on_this_production_source": true,
+  "new_UWB_fit_started": false,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "novel_contribution_claim": false
+}
