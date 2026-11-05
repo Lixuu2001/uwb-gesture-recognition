@@ -1,0 +1,147 @@
+{
+  "TimeMIL_output_certificate": {
+    "all_validation_and_unscored_diagnostic_logits_replayed_exactly": true,
+    "arm": "timemil",
+    "complete_model_optimizer_rng_journal_and_selection_checked": true,
+    "diagnostic_labels_read": false,
+    "full_training_replayed": false,
+    "held": 6,
+    "state": "pass",
+    "users7_8_labels_used": false
+  },
+  "TimeMIL_output_termination": {
+    "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+    "cgroup_OOM_kill_delta": 0,
+    "diagnostic_accuracy_measured": false,
+    "exit_code": 0,
+    "individual_CPU_exact": false,
+    "observed_child_CPU_seconds_lower_bound": 39.18,
+    "peak_observed_RSS_KiB": 1018784,
+    "pid": 8356,
+    "resource_stop_reason": null,
+    "wall_seconds": 47.36024024800281,
+    "wall_timeout": false
+  },
+  "active_auditor": {
+    "CPU_seconds": 10818.7,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 8355,
+    "startticks": 7734762,
+    "state": "R"
+  },
+  "actual_producer_terminations": {
+    "shuffle": {
+      "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+      "cgroup_OOM_kill_delta": 0,
+      "diagnostic_accuracy_measured": false,
+      "exit_code": 0,
+      "individual_CPU_exact": false,
+      "observed_child_CPU_seconds_lower_bound": 38529.61,
+      "peak_observed_RSS_KiB": 2225100,
+      "pid": 6836,
+      "resource_stop_reason": null,
+      "wall_seconds": 12450.001938925001,
+      "wall_timeout": false
+    },
+    "timemil": {
+      "CPU_exact_scope": "fold/global RESOURCE_LEDGER uses summed RUSAGE plus live-process CPU; per-child last observation can be below final CPU",
+      "cgroup_OOM_kill_delta": 0,
+      "diagnostic_accuracy_measured": false,
+      "exit_code": 0,
+      "individual_CPU_exact": false,
+      "observed_child_CPU_seconds_lower_bound": 12525.4,
+      "peak_observed_RSS_KiB": 2864340,
+      "pid": 6835,
+      "resource_stop_reason": null,
+      "wall_seconds": 15051.492614965005,
+      "wall_timeout": false
+    }
+  },
+  "budget_reset": false,
+  "captured_own_replay": {
+    "checkpoint_sha256": "6d872167fbe35ea3f78052130a1a9488bc894249f690809a336d06b65528ad75",
+    "epoch": 27,
+    "journal_sha256": "bf69003db848a3bf102792657694415330425fba3c674c3553871df8eeca9a37",
+    "prefix_bytes": 1513468,
+    "prefix_sha256": "3c0687f8743922f08a09d6d531caa9e52341374ee53f6dd5071995cff00da878",
+    "slot": "slot1.pt",
+    "updates": 6210
+  },
+  "complete_producers": {
+    "shuffle": {
+      "arm": "shuffle",
+      "diagnostic_labels_read": false,
+      "epochs": 100,
+      "held": 6,
+      "selected_epoch": 100,
+      "state": "complete_member_unscored",
+      "updates": 23000,
+      "users7_8_labels_used": false
+    },
+    "timemil": {
+      "arm": "timemil",
+      "diagnostic_labels_read": false,
+      "epochs": 64,
+      "held": 6,
+      "selected_epoch": 63,
+      "state": "complete_member_unscored",
+      "updates": 4608,
+      "users7_8_labels_used": false
+    }
+  },
+  "completed_folds2_3_4_5_reused_unscored": true,
+  "controller": {
+    "CPU_seconds": 5399.93,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "core_frozen_files_verified": 60,
+  "current_own_replay": {
+    "checkpoint_sha256": "2e7dfcf8a9957319ae11f1553b4a95a1d6b42e0571cb6cca3b60beac640ea12a",
+    "epoch": 33,
+    "journal_sha256": "4512b02f54b99c97a3e484418b5fda6de3ab689c742bc4c82bd89d245d22e594",
+    "prefix_bytes": 1851140,
+    "prefix_sha256": "cc1813cf5297f955385f25ca9b88a7ff1d4c31b6dae14eb1938424bfbe84cb8d",
+    "slot": "slot1.pt",
+    "updates": 7590
+  },
+  "data_redownloaded": false,
+  "diagnostic_labels_read": false,
+  "full100_Shuffle_replay_complete": false,
+  "new_accuracy_result": false,
+  "new_training_or_trajectory_audit_started_by_preservation": false,
+  "observed_unix": 1793849518.9142194,
+  "original_contribution_validated": false,
+  "resource_ledger": {
+    "active_held": 6,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 100021.76343385856,
+        "wall": 25984.039045241712
+      },
+      "4": {
+        "cpu": 83070.146821,
+        "wall": 22593.303525181997
+      },
+      "5": {
+        "cpu": 87193.339813,
+        "wall": 23589.402822912998
+      },
+      "6": {
+        "cpu": 63439.651354999965,
+        "wall": 17794.131094683005
+      }
+    },
+    "last_observed_combined_RSS_KiB": 2018384,
+    "last_observed_unix": 1793849515.8944304
+  },
+  "scientific_configuration_changed": false,
+  "state": "same_registered_held6_both_producers_complete_TimeMIL_output_audit_pass_own_Shuffle_replay_running_unscored",
+  "users7_8_labels_used": false
+}
