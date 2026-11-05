@@ -1,0 +1,17 @@
+{
+  "state": "failed_snapshot_metadata_finalization_repaired_using_exact_original_captured_prefix",
+  "capture_exit_code": 1,
+  "native_dependent_exit_code_before_repair": 1,
+  "archive_dependent_exit_code_before_repair": 1,
+  "error": "KeyError: prior_EFDMix_summary; subsequent stages missing unfinished manifest",
+  "cause": "broad method-name replacement also renamed actual prior_DSU field",
+  "before_snapshot_source_sha256": "3fbab15242523821d23c6157cccf28c31f0bea6b151029b88536b93c17a905ee",
+  "after_snapshot_source_sha256": "645abb94222d91bbc30fe981d3635c20e52754908e9ed1ac51c8530b5960a122",
+  "captured_native_weights_logs_and_uncommitted_suffix_preserved": true,
+  "archive_rebuilt": false,
+  "model_refit_or_restart": false,
+  "EFDMix18_changed": false,
+  "SD20_changed": false,
+  "diagnostic_read": false,
+  "recovery": "correct only prior_DSU field then finish missing lineage/ID/reference copies and manifest for original coherent capture, no new snapshot"
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "EFDMix_original_producer_active_unscored_SD20_conditional_native_single_cost_verified",
+  "state": "EFDMix_producer64_complete_SAME_OWNfresh_replay_active_unscored_private_insurance_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_sd_gap64_verification/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_efdmix_gap64_producer64_replay_insurance01/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793910099.4626305,
-  "background_training_pid": 30323,
-  "background_training_status_note": "SAMEEFDMix30323/controller30321 activeobserved44/64, readonlyobserver30324; originaldiagnosticunscored. Privatecheckpoint30/2220+71suffix5parts193payload verified. FixedSDsdreg.1/noanneal/full617612/B64/64/seed20261029 production20/nativeexactness/ONE MAXfloorcost pass; noSDrealfit or activation.",
+  "background_training_observed_unix": 1793912217.3221738,
+  "background_training_pid": 32297,
+  "background_training_status_note": "EFDMix originalproducer64/4736 doneexit0; SAMEfreshreplay32297 observed31/64, controller30321/observer30324 healthy, originalonceunconsumed. Completeproducer+OWN19 private11parts316payloads verified. Capturemetadatafault fixed withoutresnapshot/refit/restart. SD20/nativecostpass/lifecyclecompile only; noSDactivation or realfit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue SAMEEFDMix30323/controller30321/observer30324. After64/OWNfresh64/all65records/4736steps/selectedoutputs/FULLprivate invoke ORIGINALonce80fb464af2cefea453b34e0905cfee800963a491f53d8096eb8bd3bfcde7eb59. Pass separatelyregistersameprotocolsource6; exactfail closesnorescue thenalreadyregistered SDsdreg.1/noanneal/fullnative617612/B64/64/seed20261029 onlyafterownprivateinitial/exactrelease. SD20native/singleMAXfloorcostpass; notactivated/unfitted. Users7–8labels forbidden; repeateddevelopmentexploratory. Checkpoint30 index results/cloud_20261105_sd_gap64_preparation/primary_EFDMix_checkpoint02/private_backup/CLOUD_DOWNLOAD_INDEX.json.",
-  "last_completed_update_utc": "2026-11-05T20:20:57.835275+00:00",
+  "next_candidate": "Continue SAMEEFDMix freshreplay32297/controller30321/readonlyobserver30324 on bootad409b48; originalproducer30323 complete64 and MUST NOT be refit/relaunched. Once OWN64/all65records/4736steps/selectedoutputaudit/FULLprivate raw/everymember pass and exactremoteproof, invoke ORIGINALonce80fb464af2cefea453b34e0905cfee800963a491f53d8096eb8bd3bfcde7eb59. Pass separatelyregistersource6; exactfail closes withoutrescue thenalreadyfixed SD20/nativecostpass requires conditionalactivation/privateinitial/exactREAL_RELEASE before ONEcontroller. Newlifecyclehelpers compileonly/unexecuted. Latestproducer64+OWN19 privateindex results/cloud_20261105_efdmix_gap64_producer64_replay_insurance01/private_backup/CLOUD_DOWNLOAD_INDEX.json. Users7–8labels forbidden; repeateddevelopmentexploratory.",
+  "last_completed_update_utc": "2026-11-05T20:56:57.255732+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -13255,5 +13255,43 @@
     "diagnostic_labels_read": false,
     "failed_attempt_created_commit": false
   }
+}
+,
+  "efdmix_gap64_producer64_replay_insurance01_20261105": {
+  "report": "results/cloud_20261105_efdmix_gap64_producer64_replay_insurance01/RUN_REPORT.md",
+  "method": "published_EFDMix_alpha.1_p.5_random_early0_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "producer_actual_exit_code": 0,
+  "producer_native_terminal_sha256": "986c68eed9256a5017b8e627f8ba2c24e8278fa53d267142708654c6535b376f",
+  "selected_epoch": 6,
+  "replay_observed_epoch": 31,
+  "active_replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1268.22,
+    "pid": 32297,
+    "startticks": 14142850,
+    "state": "R"
+  },
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 5.89,
+    "pid": 30321,
+    "startticks": 13881518,
+    "state": "S"
+  },
+  "private_archive_parts": 11,
+  "private_archive_bytes": 75548921,
+  "private_archive_payloads": 316,
+  "private_archive_sha256": "b02497d3e3602da4b6f13d42b54e6b36ae94261ef50613c7711352f80008371b",
+  "complete_modelset_verified": false,
+  "capture_fault_repaired": true,
+  "scientific18_changed": false,
+  "SD20_changed": false,
+  "SD_lifecycle_compiled_not_executed": true,
+  "diagnostic_labels_read": false,
+  "new_accuracy_result": false
 }
 }

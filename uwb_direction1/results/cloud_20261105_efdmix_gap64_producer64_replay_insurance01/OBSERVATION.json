@@ -1,0 +1,64 @@
+{
+  "state": "complete_EFDMix_producer64_and_coherent_OWN_fresh_replay_native_prefix_captured_unscored",
+  "observed_unix": 1793911744.693209,
+  "controller": {
+    "pid": 30321,
+    "startticks": 13881518,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 5.54
+  },
+  "replay_worker": {
+    "pid": 32297,
+    "startticks": 14142850,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "cpu": 889.88
+  },
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "03eef80589a89653db974dbef7ad8c54192ebda4f1dcd5ce17191e52f8a866b8",
+    "epochs": 64,
+    "final_state_sha256": "986c68eed9256a5017b8e627f8ba2c24e8278fa53d267142708654c6535b376f",
+    "selected_epoch": 6,
+    "selected_sha256": "531de1677263990c5bdfc3c78d133028ce5240c8b735439169a8803a0d7d9693",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "ad3a39feff5abf085dd3307c068bf31bf8bbdece2c2d3e4f1dc8f3f972ef01a2"
+  },
+  "producer_actual_termination": {
+    "cumulative": {
+      "cpu": 2610.2936449999997,
+      "wall": 2611.034437196009
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "replay_progress": {
+    "checkpoint_sha256": "6c5c94f4563882d319609a294e7fc51416d705a025847564eb417b89193d9be7",
+    "epoch": 19,
+    "journal_sha256": "924f784f7a18316d7c0b4198142eae3f3fe6fa90180972028a0bac792fae8160",
+    "prefix_bytes": 527775,
+    "prefix_sha256": "112faf6ff1736a8ddfc9398321add695c287809729a63ed75bd5a185cd871219",
+    "slot": "slot1.pt",
+    "updates": 1406
+  },
+  "replay_captured_log_rows": 1460,
+  "replay_uncommitted_rows": 54,
+  "replay_suffix_bytes": 20384,
+  "resource_ledger": {
+    "RSS_KiB": 1734772,
+    "cpu": 3400.503645,
+    "stage": "replay",
+    "wall": 3401.484016773
+  },
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_experiment_or_duplicate_fit_started": false,
+  "scientific18_changed": false,
+  "budget_reset": false,
+  "capture_metadata_completed_after_failure_without_resnapshot": true
+}
