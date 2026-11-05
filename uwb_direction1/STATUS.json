@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "RegMixup_GAP64_same_registered_training_with_verified_trained_native_private_checkpoint",
+  "state": "RegMixup_GAP64_same_real_training_native43_checkpoint_verified_CutMix_preparation_synthetic_only",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_regmixup_gap64_checkpoint_insurance01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_regmixup_gap64_checkpoint_insurance02/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793876876.5315228,
+  "background_training_observed_unix": 1793880677.7222326,
   "background_training_pid": 16664,
-  "background_training_status_note": "Original fixed RegMixup controller16664/worker16665 healthy at observed7/518; trained4/296+47suffix non-delta private5part/132payload insurance owner-only raw verified. Full64/OWN64/output/final backup/once gate pending, no new score/rescue/reset.",
+  "background_training_status_note": "Original fixed RegMixup controller16664/worker16665 healthy at observed55/4070; trained43/3182+38suffix private5part/210payload raw/allmember verified. Conditional published temporalCutMix native probes passed, no real second fit. Full64/OWN64/finalbackup/oncegate pending, no new accuracy.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/cloud_20261105_regmixup_preparation/NATIVE_REVIEW.md",
+  "latest_literature_note": "research/cloud_20261105_cutmix_temporal_preparation/README.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Verify THIS fixed RegMixup production source natively; fixed full2B synthetic resource gate with prospective floor and unchanged caps, private raw/allmember initial model/roles then exact real release before actual64/OWN64 fitting. Single source1 gate only after full audits/full private archive; no rescue, users7–8 selection or novelty claim.",
+  "next_candidate": "Continue SAME fixed RegMixup64 producer/OWN64 fresh replay/output/full private backup before original once gate. Conditional released temporalCutMix alpha1/prob.8 native fullGAP preparation passed synthetic probes only; reconcile history and separately preregister/test/private-release actual production source only if current registered route warrants it. No duplicate fits, rescue or users7–8 label selection.",
   "last_completed_update_utc": "2026-11-05T10:41:09.223415+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -11927,5 +11927,55 @@
   "diagnostic_labels_read": false,
   "new_accuracy_result": false,
   "scientific16source_changed": false
+}
+,
+  "regmixup_gap64_checkpoint_insurance02_20261105": {
+  "report": "results/cloud_20261105_regmixup_gap64_checkpoint_insurance02/RUN_REPORT.md",
+  "method": "RegMixup_alpha20_clean_plus_mixed_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "capture_epoch": 43,
+  "capture_updates": 3182,
+  "captured_uncommitted_rows": 38,
+  "post_backup_progress": {
+    "checkpoint_sha256": "05011feca753b157389aeeb95e098cc431c2daa3eed7b53085bbee18366d3136",
+    "epoch": 55,
+    "journal_sha256": "0c9081d3b4e40571023de64e7993b8bedd1e1093e4634dc54d9cc689fc01502c",
+    "prefix_bytes": 1963853,
+    "prefix_sha256": "c3d0ee462bfaeaa359476d03674ebc6d9a43f4cfc9382af85cb0456ee372fef8",
+    "slot": "slot1.pt",
+    "updates": 4070
+  },
+  "original_controller": {
+    "pid": 16664,
+    "startticks": 10682568,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 7.04
+  },
+  "original_worker": {
+    "pid": 16665,
+    "startticks": 10682823,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "cpu": 4416.64
+  },
+  "archive_parts": 5,
+  "archive_bytes": 36247776,
+  "archive_sha256": "eb5fce9ad97fca5c5b8e7813d3f2f5634fc36bb5d13f8e5a04acd50d63aad5c7",
+  "archive_payloads": 210,
+  "initial_guard_raw_chunks_bundled": true,
+  "owner_only_raw_every_member_verified": true,
+  "complete_pilot_modelset": false,
+  "final_scoring_authority": false,
+  "transfer_errors": 0,
+  "diagnostic_labels_read": false,
+  "new_accuracy_result": false,
+  "scientific16source_changed": false,
+  "conditional_temporal_CutMix_native_synthetic_passed": true,
+  "conditional_temporal_CutMix_resource_gate_passed": true,
+  "CutMix_real_protocol_or_fit_started": false,
+  "publication_CRLF_reader_fixed_without_source_normalization": true
 }
 }

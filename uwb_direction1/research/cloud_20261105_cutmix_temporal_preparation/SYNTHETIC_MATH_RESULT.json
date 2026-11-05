@@ -1,0 +1,21 @@
+{
+  "state": "pass_conditional_temporal_CutMix_arithmetic_not_UWB_experiment",
+  "actual_unmodified_radar_author_batch_targets_lambda_and_Torch_RNG_exact": true,
+  "native_three_radar_layout_exact": true,
+  "source_input_immutable": true,
+  "mixed_and_skip_branches": {
+    "mixed": 7,
+    "skipped": 1
+  },
+  "zero_full_partial_splice_and_cross_sample_Jacobian_exact": true,
+  "author_CE_label_smoothing_value_gradient_verified": true,
+  "proposed_native_OvR_BCE_value_gradient_verified": true,
+  "geometry": "single_full_range_temporal_span_shared_across_all_three_radars_not_rectangular_2D_patch",
+  "alpha": 1.0,
+  "probability": 0.8,
+  "no_UWB_arrays_or_labels_opened": true,
+  "no_real_UWB_protocol_registered": true,
+  "no_new_background_training_started": true,
+  "current_RegMixup_configuration_untouched": true,
+  "wall_seconds": 0.525804146003793
+}

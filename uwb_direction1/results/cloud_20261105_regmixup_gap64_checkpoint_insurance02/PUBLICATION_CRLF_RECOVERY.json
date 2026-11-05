@@ -1,0 +1,14 @@
+{
+  "state": "pre_commit_independent_blob_guard_caught_CRLF_normalization_and_reader_repaired",
+  "affected_path": "uwb_direction1/research/cloud_20261105_cutmix_temporal_preparation/author/original/README.md",
+  "root_cause": "Path.read_text universal-newline conversion changed CRLF to LF in publisher local reader",
+  "source_CRLF_pairs": 178,
+  "correct_original_blob_sha1": "957eb8baf36b95ccc99751c0b15a75c9183798f8",
+  "derived_normalized_wrong_blob_sha1": "11900a82ea134d5cf5d5b719f1e828ec96802899",
+  "source_bytes_unchanged": true,
+  "repair": "read_bytes().decode(utf-8) preserves exact UTF8 bytes/newlines before create_blob",
+  "publisher_before_sha256": "b098bf857cbb9fab64e325f47b6347f4fe8ad30b1e0821ab675054437c3ea6e7",
+  "publisher_after_sha256": "4790ebffdd5740da29e4d28a6912ddadd48ba20ae15b1640a6934719f0ff32d9",
+  "no_commit_or_ref_moved_by_failed_attempt": true,
+  "active_RegMixup_science_model_RNG_unchanged": true
+}

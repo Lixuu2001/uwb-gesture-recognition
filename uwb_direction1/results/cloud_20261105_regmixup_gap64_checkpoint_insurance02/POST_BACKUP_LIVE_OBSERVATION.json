@@ -1,0 +1,41 @@
+{
+  "state": "same_original_RegMixup_processes_continue_after_checkpoint43_backup_and_conditional_CutMix_synthetic_probes",
+  "observed_unix": 1793880677.7222326,
+  "controller": {
+    "pid": 16664,
+    "startticks": 10682568,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 7.04
+  },
+  "worker": {
+    "pid": 16665,
+    "startticks": 10682823,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "cpu": 4416.64
+  },
+  "progress": {
+    "checkpoint_sha256": "05011feca753b157389aeeb95e098cc431c2daa3eed7b53085bbee18366d3136",
+    "epoch": 55,
+    "journal_sha256": "0c9081d3b4e40571023de64e7993b8bedd1e1093e4634dc54d9cc689fc01502c",
+    "prefix_bytes": 1963853,
+    "prefix_sha256": "c3d0ee462bfaeaa359476d03674ebc6d9a43f4cfc9382af85cb0456ee372fef8",
+    "slot": "slot1.pt",
+    "updates": 4070
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1878464,
+    "cpu": 4422.236537,
+    "stage": "train",
+    "wall": 4422.642928900008
+  },
+  "native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "scientific16source_verified_unchanged": true,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "full64_training_complete": false,
+  "own_fresh64_replay_complete": false,
+  "new_fit_started": false,
+  "new_accuracy_result": false
+}
