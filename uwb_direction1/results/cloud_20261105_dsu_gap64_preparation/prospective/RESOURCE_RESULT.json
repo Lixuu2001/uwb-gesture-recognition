@@ -1,0 +1,160 @@
+{
+  "state": "conditional_full_native_DSU_synthetic_capacity_complete",
+  "gate_passed": true,
+  "updates": [
+    {
+      "wall": 0.554803153994726,
+      "cpu": 0.5546713030000001,
+      "loss": 0.6854106783866882,
+      "dsu_applied": [
+        false,
+        false
+      ],
+      "feature_output_sha256": [
+        "2d9cb7bb59cb3e6d47b6bfd2d31dc8149a079a6f33466010453ccd14ba4795ec",
+        "0f8066382cade402c10c892979be523dd2d6145f12e8cc8b8ff0086d7f13aebe"
+      ],
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.47307115299918223,
+      "cpu": 0.47301376699999986,
+      "loss": 0.5688896179199219,
+      "dsu_applied": [
+        false,
+        true
+      ],
+      "feature_output_sha256": [
+        "0fcc7b2d6a762056744666cc27235f0b8348896fb980c52fa3182c8f60e12eee",
+        "40487f40387dc7fe43d5aaf1c9d56fc2934e544b49667984bb2906bac5799db9"
+      ],
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.46973472900572233,
+      "cpu": 0.46965894200000013,
+      "loss": 0.47268202900886536,
+      "dsu_applied": [
+        false,
+        false
+      ],
+      "feature_output_sha256": [
+        "69e81a70efb23e5411864f2d09e35845985d46b0c6ff24ba2f757c70abf8bf0b",
+        "c400c5b76da9fc888d5bcd32022074b8c2a73e85a345d2270082e7b6dee05485"
+      ],
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.4583095779962605,
+      "cpu": 0.4581518600000001,
+      "loss": 0.38981303572654724,
+      "dsu_applied": [
+        false,
+        false
+      ],
+      "feature_output_sha256": [
+        "3594b22ac7371ca01eb11c7450ac6f47150225aea16483971aedb9682864650a",
+        "e63f965a8060e01a1d3a6faa3ef39845f4af4192666936dedafe490b4f82252e"
+      ],
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.45883707200118806,
+      "cpu": 0.45875586499999965,
+      "loss": 0.33288004994392395,
+      "dsu_applied": [
+        false,
+        false
+      ],
+      "feature_output_sha256": [
+        "d1b1951864b6941301778a5a980fb2892e0e618e2a82b6ee384e6e961a5a788f",
+        "e3a63f4d6873d5c31765e562b5846c6b1739ccda94312e9d2012f0b0f40e319d"
+      ],
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5204541820130544,
+      "cpu": 0.5203415370000002,
+      "loss": 0.30256158113479614,
+      "dsu_applied": [
+        false,
+        true
+      ],
+      "feature_output_sha256": [
+        "ce48ab623cb2538ba6d58b155c81bf33d7b9f424c4d4fb7d137aa147cea6345c",
+        "d8d8aed79fcd65e548f780c055bbea8c58e1d99ac7da65cd7a4ebe722e253e8b"
+      ],
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.4820439159957459,
+      "cpu": 0.4819513959999995,
+      "loss": 0.25397858023643494,
+      "dsu_applied": [
+        true,
+        false
+      ],
+      "feature_output_sha256": [
+        "6fdeec6b8e96f6297a150eb9174cce4b9a54c8e401a6173a2c2489a77f51e408",
+        "431e10ece299ce6fce6cf037b9f68efe92ab127ccab4bfba328d08c86c218834"
+      ],
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5032004779932322,
+      "cpu": 0.5031028730000005,
+      "loss": 0.21637098491191864,
+      "dsu_applied": [
+        false,
+        true
+      ],
+      "feature_output_sha256": [
+        "a9c70a7114766c385e4588232342ebde92716631e72c299d2911500e34af7ad2",
+        "669f85f6a3c93e3f5c847ea02bb90a5a54c6669d264ca6a5284b88c205858e93"
+      ],
+      "forward_batch": 64
+    }
+  ],
+  "validation": [
+    {
+      "wall": 0.12229212699458003,
+      "cpu": 0.12225372800000045
+    },
+    {
+      "wall": 0.12433802100713365,
+      "cpu": 0.12434329800000032
+    },
+    {
+      "wall": 0.12131160699937027,
+      "cpu": 0.12126486100000022
+    }
+  ],
+  "checkpoint": {
+    "wall": 0.013110197993228212,
+    "cpu": 0.013115376000000012
+  },
+  "projected_full64_producer_and_own_fresh64_replay_seconds": {
+    "wall": 11042.514670356526,
+    "cpu": 11040.040057332004
+  },
+  "safety_factor": 2.0,
+  "maxRSS_KiB": 581252,
+  "caps": {
+    "wall": 43200,
+    "CPU": 43200,
+    "RSS_KiB": 12582912
+  },
+  "parameters": 617612,
+  "raw_forward_batch": 64,
+  "insertion": [
+    0,
+    1
+  ],
+  "probability": 0.5,
+  "factor": 1.0,
+  "seed": 20261029,
+  "wall_seconds": 4.355912616010755,
+  "CPU_seconds": 4.354989756,
+  "no_UWB_arrays_or_labels_opened": true,
+  "new_UWB_fit_started": false
+}

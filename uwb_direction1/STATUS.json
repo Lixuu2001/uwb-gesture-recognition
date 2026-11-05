@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MixStyle_original_GAP64_producer_running_monitor_recovered_no_model_restart_private_checkpoint_verified",
+  "state": "MixStyle_original_producer_active_DSU_conditional_production_fixed_unfitted",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixstyle_gap64_launch_recovery/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_dsu_gap64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793895457.782311,
+  "background_training_observed_unix": 1793897624.4043887,
   "background_training_pid": 24147,
-  "background_training_status_note": "Fixed MixStyle original producer24147 active epoch8, recovery monitor24195 after original monitor VmRSS race; no producer restart/budget reset. Native first/current/5part154payload private checkpoint verified. Conservative unknown-audit600CPU charged; full64/OWN64/once gate pending.",
+  "background_training_status_note": "Original MixStyle producer24147 healthy under recovered monitor24195; no restart/diagnostic. DSU defaultp.5/factor1/both nativeblocks fullGAP64 production16 files fixed; prospective native/author/Jacobian/RNG/recovery and one cost gate pass. No DSU UWB fitting; requires original prior exact failed gate then production/private release.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Continue the SAME live MixStyle producer24147 under recovered supervision24195; never restart healthy original jobs. After full64/OWNfresh64/output audits and FULL private raw/every-member proof, consume ORIGINAL once gate only. On exact failure close without rescue; on positive separately preregister source6. Users7–8 excluded.",
-  "last_completed_update_utc": "2026-11-05T16:17:37.348498+00:00",
+  "last_completed_update_utc": "2026-11-05T16:53:43.814084+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -12556,5 +12556,32 @@
   "own_fresh64_complete": false,
   "diagnostic_labels_read": false,
   "new_accuracy_result": false
+}
+,
+  "dsu_gap64_preparation_20261105": {
+  "report": "results/cloud_20261105_dsu_gap64_preparation/RUN_REPORT.md",
+  "method": "published_DSU_p.5_factor1_allnative01_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "7f80d8e15a4aca9e872957715653eb0c54b6fd8e4af1f415f859c7cc26ea1e6e",
+  "scientific_source_files": 16,
+  "probability": 0.5,
+  "factor": 1.0,
+  "insertion": [
+    0,
+    1
+  ],
+  "seed": 20261029,
+  "epochs": 64,
+  "parameters": 617612,
+  "raw_forward_batch": 64,
+  "new_UWB_fit_started": false,
+  "prospective_actual_author_full_native_tests_passed": true,
+  "prospective_resource_gate_passed": true,
+  "production_source_tests_pending": true,
+  "initial_private_model_released": false,
+  "prior_MixStyle_diagnostic_read": false,
+  "diagnostic_labels_read": false
 }
 }

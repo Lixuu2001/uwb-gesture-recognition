@@ -1,0 +1,41 @@
+{
+  "state": "targeted_primary_paper_and_official_code_review",
+  "paper": "Li et al., Uncertainty Modeling for Out-of-Distribution Generalization, ICLR2022",
+  "paper_url": "https://arxiv.org/html/2202.03958",
+  "paper_version": "2202.03958v2",
+  "author_repository": "lixiaotong97/DSU",
+  "author_commit": "82a1de036351b72620abef1a9c4cc561751264a2",
+  "sections_checked": [
+    "3.2",
+    "4.1 implementation",
+    "5 placement and probability",
+    "A.1 algorithm"
+  ],
+  "method_review": "DSU samples Gaussian perturbations around instance means and spreads; batch dispersion supplies channel uncertainty. Default probability.5 and scale1. Statistics remain differentiable. Author experiments insert at six ResNet sites including the last stage. This proposal inserts after both complete native Inception residual blocks, preserving all617612 native parameters but not reproducing the full pretrained ResNet/PACS recipe.",
+  "code_conventions": "NumPy whole-batch gate; Torch unbiased spatial and batch variance with eps1e-6; independent Torch Gaussian draws for mean then spread; factor1; no mean/std detachment, no donor/class mixing, no positivity clamp, eval identity.",
+  "scope_deviations": [
+    "native two complete residual blocks not author six Conv/Pool/ResNet positions",
+    "native3radarRMS1D maps viewed B,C,T,1 not image2D",
+    "native hard OvRBCE/AdamW-Lookahead64epochs/seed20261029 not author pretrained ResNet18/SGD50/seed11",
+    "independent equation-level component validated against actual author class; author full source not publicly republished"
+  ],
+  "history_screen": {
+    "command": "rg exact word DSU/DistributionUncertainty/full paper title in tracked PROTOCOL/SUMMARY/PREREGISTRATION/RUN_REPORT/memory",
+    "exit_code": 1,
+    "matches": 0,
+    "equivalent_prior_experiment_found": false,
+    "related_current_MixStyle_still_unscored": true
+  },
+  "source_notes": {
+    "root_UResNet_passes_unsupported_dim_to_root_class": true,
+    "multi_domain_uresnet_class_accepts_dim_but_unused": true,
+    "comparison_uses_standalone_root_class_only": true,
+    "root_license_absent": true,
+    "author_files_local_reference_only": true
+  },
+  "no_new_UWB_fit": true,
+  "prior_MixStyle_diagnostic_read": false,
+  "users7_8_labels_used": false,
+  "original_contribution_claim": false,
+  "independent_validation": false
+}
