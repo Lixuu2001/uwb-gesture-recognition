@@ -1,0 +1,12 @@
+# Fixed Manifold Mixup transfer: full_archive
+
+## 2026-11-05: Manifold full64/fresh64 audited and private raw/allmember modelset verified, diagnostic still unscored
+
+Full fixed Manifold alpha2/random012/GAP617612/B64/64epochs/seed20261029 producer AND OWN independent fresh64replay completed with actual successful train/replay/output terminations. All65records and4736updates per trajectory, native final state704aa1ea15084c86bcecf35f054429e8f7f417385a697ec4e3354710fb6e6936, full optimizer/allRNG restore/recapture, inner-validation selected epoch63 and selected-output audit verified. Original frozen14scientific files unchanged. FULL private archive13parts/94280833bytes/397payloads SHA5650dc0dbd0ade1e61c60b075aefb7f930d6032a64cbf489feefbb3c388020f8: owner-only metadata/raw/size/SHA/whole/every-member verified before diagnostic. Models/IDs/logs private; raw radar/maps/runtime external, original initial-insurance2rawchunks separately needed for cold ready(True) guard, with persistent index and optional bundled checkpoint source documented. Generic included-once initial-state description corrected operationally while preserving as-built manifest and ALL payload bytes/hashes; three identical initial-state lineage copies explicitly inventoried. No original789source change or raw arrays/actual IDs/models inGit. Users7–8 labels excluded; repeatedly developed source/eight-user evidence exploratory, not independent validation or original contribution.
+
+Actual cumulative controller/model/audit cost 5403.502584wall/5400.273867CPU seconds, within original43200/43200/12GiB caps, no budget reset or duplicate fitting.
+
+One part009 upload returned no ID because exec-server transport closed. Successful exact folder AND global name searches both returned zero/no next page before ONE explicit retry; returned ID saved then fresh metadata/raw/size/SHA verified. All13 parts pass; no known ID reuploaded, scientific change or extra diagnostic. Evidence: TRANSFER_RECOVERY.json.
+
+Next: invoke ORIGINAL digest-bound once scorer exactly once after this record is verified; apply unchanged .9841666666666667+.005/tolerance1e-12 source1 gate. Failure closes exact alpha2/random012 config without rescue; positive permits separate source6 registration. Conditional RegMixup native preparation/draft remains unfitted and requires separate production-source preregistration/tests/private initial release. Preserve newer post-score SUMMARY/consumed lock/STATE when recovering this PRE-SCORE archive; never rescore.
+
