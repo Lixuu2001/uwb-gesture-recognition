@@ -1,0 +1,86 @@
+{
+  "state": "complete_audited_modelset_streamed_to_chunks",
+  "scope": "fixed_RegMixup_GAP64_full_pilot_models_audits_outputs_before_once_gate",
+  "complete_modelset": true,
+  "shared_initial_encoder_included_once": false,
+  "tracked_payload_files": 399,
+  "members_manifest_sha256": "ac6ab74b7b439eaf089a1741af5293e39a6c99615edd516c67216dcd2774141f",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 94376954,
+  "archive_sha256": "377307f68db32249341e2862796cf02fa8440241cac9bdcf38ba9ba5b9d56b48",
+  "chunks": [
+    {
+      "name": "regmixup_gap64_full_20261105.part000",
+      "bytes": 7340032,
+      "sha256": "5c228f8b5ffb041c1ce7814907aea4900bba96664365ce37d34206d2632768e9"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part001",
+      "bytes": 7340032,
+      "sha256": "efc86cca133afd803296cf4b869bb1fe04d5a17623648c93314180d96c7d92b6"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part002",
+      "bytes": 7340032,
+      "sha256": "265341df21548ef0391e1a0c5a960f4db02f3dd6a8bf8bdde27c2656d52f3acc"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part003",
+      "bytes": 7340032,
+      "sha256": "8117b088d80b16b12ee72622ade34163e9f0257d728d0a8e47bee48a40aac6be"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part004",
+      "bytes": 7340032,
+      "sha256": "6e60cdd385df649687b7cdeee68e3dce9e5969f3b4abbc848aa2c8bb9726fff2"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part005",
+      "bytes": 7340032,
+      "sha256": "626263aebe75fd97c4634c9bef98bfc5e3f85417d4daf7d14da318bf7fd582ae"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part006",
+      "bytes": 7340032,
+      "sha256": "68dc684e517203fe84568987c3208feb05972e83a2e7cf0cfd27fe967ed776a9"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part007",
+      "bytes": 7340032,
+      "sha256": "92a61d9d6090598f5ff74a6fe70ce821956c787be3bcbf370c75d394d82f1a42"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part008",
+      "bytes": 7340032,
+      "sha256": "a64ac64ef4a18e4ff3e26759db7909e0cc5ca0ad2b4f6a227b9b97c96c831c74"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part009",
+      "bytes": 7340032,
+      "sha256": "a08b4385ccfd7fed9ee571857c3630d678b51759f66cb800c3e1137f01f967c9"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part010",
+      "bytes": 7340032,
+      "sha256": "51f52ad42a64d6b9f11e2f34f1cc801f9421e2782b915c97b613cdae86833eaa"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part011",
+      "bytes": 7340032,
+      "sha256": "fb84bae740ec50b4f02377da5dd8f231e2132d81c8c14fa86a28823ddefbe179"
+    },
+    {
+      "name": "regmixup_gap64_full_20261105.part012",
+      "bytes": 6296570,
+      "sha256": "f0109d2aee7121b349e58cd4c1cbeba6224cdb8b2d31856fac6c7fb2bd927bd8"
+    }
+  ],
+  "initial_state_lineage_copies": [
+    "study/initial.pt",
+    "run/train/initial.pt",
+    "run/replay/initial.pt"
+  ],
+  "description_repair": "inapplicable_generic_shared_initial_encoder_flag_only_no_payload_change"
+}

@@ -1,0 +1,32 @@
+{
+  "state": "conditional_source6_reference_dependency_review_no_confirmation_registered_or_started",
+  "baseline": "full617612parameter nativeGAP64 source6 held1..6",
+  "reference_files": {
+    "SUMMARY.json": {
+      "path": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/SUMMARY.json",
+      "sha256": "b6d5b233f91344560042e3b027d9dcd62db8f6d569e2320f1702b05c1bde9253"
+    },
+    "COMPLETE_AUDIT.json": {
+      "path": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/COMPLETE_AUDIT.json",
+      "sha256": "fe0df1ca3039e61bd0d0c9724e4b20e6a598e79da2ae70459b8e5706bfb8cb2b"
+    },
+    "FINAL_DRIVE_BACKUP_RECEIPT.json": {
+      "path": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/FINAL_DRIVE_BACKUP_RECEIPT.json",
+      "sha256": "1e72ac6c5fdcd8efef52da206ac81feab1cffcf50b4d7de0c44619a69e3c5bca"
+    }
+  },
+  "validation_rule": "held%6+1",
+  "source1_reference_summary": "/workspace/uwb-timemil-20261029/run02/SUMMARY.json",
+  "old_original_execution_source_path_present": false,
+  "repository_source_copy_present": true,
+  "repository_source_copy_sha256": "121ce6fc4e62f9eca0e7228e51223115f6a363d74d915bf0d5d7ceb5fcfe0f7a",
+  "baseline_evidence_scope": "initial/first optimizer+RNG+BN and selected output/native checks; do not silently relabel as full64 fresh trajectory replay",
+  "new_confirmation_fit_started": false,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "current_RegMixup_diagnostic_still_unread": true,
+  "conditional_method": "RegMixup_alpha20_eta1_full_nativeGAP64_only_if_original_once_gate_positive",
+  "source6_confirmation_not_registered": true,
+  "observed_before_original_RegMixup_once_gate": true,
+  "observed_unix": 1793886522.6535192
+}
