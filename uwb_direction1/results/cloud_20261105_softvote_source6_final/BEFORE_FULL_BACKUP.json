@@ -1,0 +1,54 @@
+{
+  "all_predictions_frozen": {
+    "diagnostic_labels_read": false,
+    "folds": {
+      "2": "402a410887050c7ed3aa322d9073f46d35ffcd454888e49311010885677982c2",
+      "3": "1a5c147053144506fd7bc875168636487b9d6d7ad78d59f44810c56a0154fc19",
+      "4": "2e1b304b6b3d6762c96a5a776528a70730ada7b1387146a9fe7d16c27fd1bbd2",
+      "5": "1cc71d60ad8e2ff381e998a913914b797c3d42267ba7703a34a8d97de3294553",
+      "6": "47bbd0b75a1f9674ab1283a668bf556658bcbb0330eef432b4b2dfc312818aee"
+    },
+    "method_lock_sha256": "442006fc513275db9d3cdfa35c92dacda2183ceed54af98dc1cd18c68acb8115",
+    "state": "all5newfolds_3arms_frozen_unscored",
+    "users7_8_labels_used": false
+  },
+  "all_predictions_frozen_sha256": "3d88e31bc963b9674923bde3ea345d05e08894f0d7013335968924c642806f75",
+  "all_recorded_controller_and_worker_identities_inactive": true,
+  "core_frozen_files_verified": 60,
+  "diagnostic_labels_read": false,
+  "method_lock_sha256": "442006fc513275db9d3cdfa35c92dacda2183ceed54af98dc1cd18c68acb8115",
+  "new_model_fits_started": false,
+  "no_finalizer_lock_or_summary": true,
+  "observed_unix": 1793855970.6948173,
+  "private_full_archive_upper_bytes": 2147483648,
+  "remote_parent": "577e013a04b2b9b6d1c5519e1f648881b8c9eda9",
+  "resource_ledger": {
+    "active_held": null,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 100021.76343385856,
+        "wall": 25984.039045241712
+      },
+      "4": {
+        "cpu": 83070.146821,
+        "wall": 22593.303525181997
+      },
+      "5": {
+        "cpu": 87193.339813,
+        "wall": 23589.402822912998
+      },
+      "6": {
+        "cpu": 84737.13729099996,
+        "wall": 23157.621025660002
+      }
+    },
+    "last_observed_combined_RSS_KiB": 0,
+    "last_observed_unix": 1793854879.385303
+  },
+  "state": "all5_newfolds_audited_three_arms_frozen_before_private_full_backup_and_any_aggregate",
+  "users7_8_labels_used": false
+}

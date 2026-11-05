@@ -1,9 +1,9 @@
 {
-  "date_client": "2026-11-04",
+  "date_client": "2026-11-05",
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "source6_held6_both_producers_complete_TimeMIL_output_audit_pass_Shuffle_replay_running",
+  "state": "close_exact_source6_uniform_TimeMIL64_Shuffle100_T1_seed20261029_no_rescue",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-05 bootad409b48-89ce-4704-beee-3658103d5856; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; actual held6 independent Shuffle replay4threads, both producers complete; no GPU",
+  "compute": "2026-11-05 cloud bootad409b48; CPU quota4/RAM16GiB; Python3.12.14 NumPy2.3.5 Torch2.15.0+cpu; no GPU; no active training",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_held6_exec_transport_recovery/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_softvote_source6_final/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793852366.2734454,
-  "background_training_pid": 573,
-  "background_training_status_note": "Same controller573/bootad409b48 and original auditor8355/startticks7734762; held6 independent Shuffle replay69/100 active, unfinished. One read-only CreateProcess attempt was rejected by exec-server transport disconnection; channel probe and full identity/journal/checkpoint/producer/source/cap verification recovered without restarting or reconfiguring anything. Private OWN27 delta02/base recovery unchanged. No accuracy/originality result or scientific/gate/seed/budget change.",
+  "background_training_observed_unix": 1793859315.9093525,
+  "background_training_pid": null,
+  "background_training_status_note": "All5 folds and independent Shuffle100 audits completed, private full archive verified, original once-only source6 scorer exit0. Exact mixture failed locked gates and is closed; no active fitting/audit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11343,5 +11343,52 @@
   "budget_reset": false,
   "new_accuracy_result": false,
   "original_contribution_validated": false
+}
+,
+  "source6_fixed_mixture_final_closed_20261105": {
+  "report": "results/cloud_20261105_softvote_source6_final/RUN_REPORT.md",
+  "summary": "results/cloud_20261105_softvote_source6_final/SUMMARY.json",
+  "private_download_index": "results/cloud_20261105_softvote_source6_final/full_backup/CLOUD_DOWNLOAD_INDEX.json",
+  "means": {
+    "mixture": 0.9462904040404041,
+    "shuffle": 0.9441767676767677,
+    "timemil": 0.9234444444444444
+  },
+  "comparisons": {
+    "GAP64": {
+      "gate_passed": false,
+      "mean_difference": 0.009618686868686924,
+      "wins": 5,
+      "worst": -0.00545454545454549
+    },
+    "localCNN24": {
+      "gate_passed": false,
+      "mean_difference": 0.010345959595959575,
+      "wins": 5,
+      "worst": -0.049090909090909185
+    },
+    "shuffle": {
+      "gate_passed": false,
+      "mean_difference": 0.0021136363636363362,
+      "wins": 4,
+      "worst": -0.006666666666666821
+    },
+    "timemil": {
+      "gate_passed": true,
+      "mean_difference": 0.02284595959595966,
+      "wins": 6,
+      "worst": 0.0050000000000000044
+    }
+  },
+  "all_locked_gates_passed": false,
+  "exact_configuration_closed": true,
+  "source1_reused_without_rescoring": true,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "original_contribution_validated": false,
+  "legacy8fold_improvement_proven": false,
+  "finalizer_invocations": 1,
+  "full_archive_sha256": "b23a32eef9ad36291214a2eb58d464181e1a5ff15960dec257510ad1478aa7db",
+  "restore_new_directory_preserve_consumed_finalization": true
 }
 }

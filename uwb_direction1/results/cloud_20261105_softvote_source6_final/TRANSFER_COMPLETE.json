@@ -1,0 +1,26 @@
+{
+  "archive_bytes": 860598351,
+  "archive_sha256": "b23a32eef9ad36291214a2eb58d464181e1a5ff15960dec257510ad1478aa7db",
+  "diagnostic_labels_read": false,
+  "errors": [
+    {
+      "error": "cannot write attachment: exec-server transport closed",
+      "file_id": "1H3SaCin746ch2zB6YybYsLuxTovI0nPm",
+      "i": 24,
+      "name": "softvote_source6_full_20261103.part024",
+      "stage": "materialize"
+    },
+    {
+      "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry",
+      "file_id": null,
+      "i": 27,
+      "name": "softvote_source6_full_20261103.part027",
+      "stage": "upload"
+    }
+  ],
+  "finalizer_not_started": true,
+  "observed_unix": 1793858879.6745083,
+  "parts": 118,
+  "private_folder_unchanged": true,
+  "state": "all_full_archive_parts_private_metadata_raw_size_SHA_verified_pending_whole_archive"
+}

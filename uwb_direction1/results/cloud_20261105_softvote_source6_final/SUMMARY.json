@@ -1,0 +1,85 @@
+{
+  "all_locked_gates_passed": false,
+  "comparisons": {
+    "GAP64": {
+      "gate_passed": false,
+      "mean_difference": 0.009618686868686924,
+      "wins": 5,
+      "worst": -0.00545454545454549
+    },
+    "localCNN24": {
+      "gate_passed": false,
+      "mean_difference": 0.010345959595959575,
+      "wins": 5,
+      "worst": -0.049090909090909185
+    },
+    "shuffle": {
+      "gate_passed": false,
+      "mean_difference": 0.0021136363636363362,
+      "wins": 4,
+      "worst": -0.006666666666666821
+    },
+    "timemil": {
+      "gate_passed": true,
+      "mean_difference": 0.02284595959595966,
+      "wins": 6,
+      "worst": 0.0050000000000000044
+    }
+  },
+  "independent_validation": false,
+  "legacy8fold_improvement_proven": false,
+  "means": {
+    "mixture": 0.9462904040404041,
+    "shuffle": 0.9441767676767677,
+    "timemil": 0.9234444444444444
+  },
+  "novel_contribution_validated": false,
+  "route": "close_exact_source6_uniform_TimeMIL64_Shuffle100_T1_seed20261029_no_rescue",
+  "rows": [
+    {
+      "held": 1,
+      "mixture": 0.9916666666666667,
+      "reused_without_rescoring": true,
+      "shuffle": 0.9858333333333333,
+      "timemil": 0.9866666666666667
+    },
+    {
+      "held": 2,
+      "mixture": 0.9960000000000001,
+      "reused_without_rescoring": false,
+      "shuffle": 0.9940000000000001,
+      "timemil": 0.9789999999999999
+    },
+    {
+      "held": 3,
+      "mixture": 0.9066666666666666,
+      "reused_without_rescoring": false,
+      "shuffle": 0.9133333333333334,
+      "timemil": 0.8966666666666666
+    },
+    {
+      "held": 4,
+      "mixture": 0.9608333333333333,
+      "reused_without_rescoring": false,
+      "shuffle": 0.9566666666666667,
+      "timemil": 0.8874999999999998
+    },
+    {
+      "held": 5,
+      "mixture": 0.9816666666666668,
+      "reused_without_rescoring": false,
+      "shuffle": 0.9825,
+      "timemil": 0.9608333333333334
+    },
+    {
+      "held": 6,
+      "mixture": 0.8409090909090909,
+      "reused_without_rescoring": false,
+      "shuffle": 0.8327272727272729,
+      "timemil": 0.8300000000000001
+    }
+  ],
+  "source1_scores_reused_without_rescoring": true,
+  "state": "complete_exploratory_source6_mixture_and_component_controls",
+  "users7_8_labels_used": false
+}

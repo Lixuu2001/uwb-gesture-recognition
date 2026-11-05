@@ -1,0 +1,24 @@
+{
+  "failures": [
+    {
+      "i": 24,
+      "name": "softvote_source6_full_20261103.part024",
+      "file_id": "1H3SaCin746ch2zB6YybYsLuxTovI0nPm",
+      "stage": "materialize",
+      "error": "cannot write attachment: exec-server transport closed"
+    },
+    {
+      "i": 27,
+      "name": "softvote_source6_full_20261103.part027",
+      "file_id": null,
+      "stage": "upload",
+      "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+    }
+  ],
+  "known_ID_24_reused_without_reupload": true,
+  "missing_ID_27_folder_and_global_exact_name_searches_zero": true,
+  "missing_ID_27_explicit_upload_retries": 1,
+  "all118_private_metadata_raw_size_SHA_verified": true,
+  "provider_root_cause_determined": false,
+  "scientific_configuration_changed": false
+}
