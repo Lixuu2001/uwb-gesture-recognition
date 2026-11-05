@@ -1,0 +1,34 @@
+{
+  "state": "complete_original_producer_and_OWN_fresh_replay_models_unscored_before_once",
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "updates_each": 4736,
+  "selected_epoch": 36,
+  "canonical_native_terminal_sha256": "9fb8efe920d23379e17eb222a9f25965ed2efc407461c4fbe45420f508cfb877",
+  "initial_state_copies": [
+    {
+      "path": "run/replay/initial.pt",
+      "bytes": 2542912,
+      "sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20"
+    },
+    {
+      "path": "run/train/initial.pt",
+      "bytes": 2542912,
+      "sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20"
+    },
+    {
+      "path": "study/initial.pt",
+      "bytes": 2542912,
+      "sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20"
+    }
+  ],
+  "initial_raw_guard_chunks_included": [
+    "initial_backup/mixstyle_gap64_initial_20261105.part000",
+    "initial_backup/mixstyle_gap64_initial_20261105.part001"
+  ],
+  "readonly_observer_fault_and_repair_included": true,
+  "original_monitor_fault_and_recovery_included": true,
+  "tracked_payloads": 431,
+  "raw_radar_and_RMS_maps_external": true,
+  "diagnostic_labels_read": false
+}

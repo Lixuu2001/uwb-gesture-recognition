@@ -1,0 +1,77 @@
+{
+  "state": "full64_producer_own_fresh64_replay_native_states_all65records_all4736steps_selected_output_audit_verified_unscored",
+  "observed_unix": 1793900191.0971274,
+  "supervising_recovery_controller": {
+    "RSS_KiB": 17348,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.25,
+    "pid": 24195,
+    "startticks": 12573231,
+    "state": "R",
+    "wait_status": 0
+  },
+  "original_failed_controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.42,
+    "pid": 24146,
+    "startticks": 12559141,
+    "state": "R"
+  },
+  "controller_inactive": true,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "updates_per_trajectory": 4736,
+  "epoch_records_exact": 65,
+  "native_final_sha256": "9fb8efe920d23379e17eb222a9f25965ed2efc407461c4fbe45420f508cfb877",
+  "canonical_terminal_digest_verified": true,
+  "full_optimizer_all_RNG_restore_recapture_exact": true,
+  "selected_epoch": 36,
+  "actual_terminations": {
+    "train": {
+      "actual_wait_status": 0,
+      "budget_reset": false,
+      "cumulative": {
+        "RSS_KiB": 0,
+        "cpu": 3179.554867,
+        "wall": 2576.750620698993
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "exit_observed_via_same_identity_proc_stat_wait_status": true,
+      "original_producer_CPU_seconds": 2567.18,
+      "producer_restarted": false,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "budget_reset": false,
+      "cumulative": {
+        "RSS_KiB": 0,
+        "cpu": 5760.765726,
+        "wall": 5154.654239234995
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "output": {
+      "budget_reset": false,
+      "cumulative": {
+        "RSS_KiB": 0,
+        "cpu": 5771.851318999999,
+        "wall": 5166.205207011997
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "scientific_manifest_sha256": "b6ef1547f8ac9ce0d8d8cc07027a4c7a240d409f853346659de5e78903a29dbb",
+  "original_once_scorer_sha256": "2fba1d84bae43a4f8ed893e43b8eb776b944a56830737998c2a6c426a6571324",
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_model_fit_started_by_observer": false,
+  "full_private_modelset_not_yet_uploaded": true
+}

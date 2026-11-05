@@ -1,0 +1,53 @@
+"""Stage actual full-private or original once result, preserving authoritative JSON."""
+from pathlib import Path
+from datetime import datetime,timezone
+import sys,json,hashlib,shutil
+B=Path('/workspace/uwb-mixstyle-gap64-20261105');M=Path(__file__).resolve().parent
+def read(p):return json.loads(Path(p).read_text())
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def write(p,q):Path(p).write_text(json.dumps(q,indent=2)+'\n')
+def main():
+ mode,parent=sys.argv[1:];assert mode in ['full_archive','final']
+ a=read(M/'PILOT_AUDIT.json');d=B/'full_backup';manifest=read(d/'MANIFEST.json');v=read(d/'READBACK_VERIFIED.json');assert v['complete_modelset_verified'] and v['archive_sha256']==manifest['archive_sha256']
+ assert sha(B/'operator/finalize_once.py')==a['original_once_scorer_sha256']=='2fba1d84bae43a4f8ed893e43b8eb776b944a56830737998c2a6c426a6571324'
+ assert all(sha(B/n)==h for n,h in read(B/'FROZEN_HASHES.json').items())
+ members=read(d/'MEMBERS.json')['members'];initial=[r for r in members if r['path'].endswith('/initial.pt')]
+ inventory=dict(state='complete_original_producer_and_OWN_fresh_replay_models_unscored_before_once',producer_epochs=64,replay_epochs=64,updates_each=4736,selected_epoch=a['selected_epoch'],canonical_native_terminal_sha256=a['native_final_sha256'],initial_state_copies=initial,initial_raw_guard_chunks_included=[r['path'] for r in members if r['path'].startswith('initial_backup/') and '.part' in r['path']],readonly_observer_fault_and_repair_included=True,original_monitor_fault_and_recovery_included=True,tracked_payloads=manifest['tracked_payload_files'],raw_radar_and_RMS_maps_external=True,diagnostic_labels_read=False)
+ write(M/'MODELSET_INVENTORY.json',inventory)
+ for n in ['MANIFEST.json','READBACK_VERIFIED.json','DRIVE_BACKUP_RECEIPT.json','CLOUD_DOWNLOAD_INDEX.json']:
+  p=M/'full_backup'/n;p.parent.mkdir(exist_ok=True);shutil.copyfile(d/n,p)
+ shutil.copyfile(B/'STATE.json',M/('POST_SCORE_STATE.json' if mode=='final' else 'PRE_SCORE_STATE.json'))
+ guide='''# Complete MixStyle pilot recovery
+
+This FULL archive preserves original64producer and OWN independently fresh64 replay, every4736 update log/65 epoch records, full native model/optimizer/Python-NumPy-Torch-order RNG, selected36 model and frozen unscored outputs. Both actual original initial guard transport chunks and their proof JSON are bundled. Native/reference/source/layout and actual process-monitor/readonly-observer faults and repairs are included. Raw radar migration, frozen RMS maps and runtime binaries remain external. Use latest Git authorities and SOURCE_LAYOUT before restoring; never overwrite a live or newer state.
+
+Owner-only metadata before raw(download_raw_file=true,include_base64=false), immediate size/SHA, whole and every-member verification, max3complete pipelines. Reuse known IDs without reupload. Unknown IDs require successful exact-folder and global exact-name absence/no-morepage proof and a durable marker before at most one explicit retry. No authenticated URL output. Only remap documented local READBACK_INPUT transport paths, retaining all IDs/bytes/SHA/permissions and a remapping receipt.
+
+FULL is PRE-SCORE. Preserve newest SUMMARY/post-scoreSTATE/FINALIZE_ONCE.lock before restoration and NEVER rescore a consumed gate. Original scorer digest2fba1d84bae43a4f8ed893e43b8eb776b944a56830737998c2a6c426a6571324 is immutable. Fixed alpha.1/p.5/random/early0/fullGAP64/B64/64epochs/seed20261029: once gate .9841666666666667+.005/tol1e-12. Exact failure closes without rescue and conditionally activates separately registered DSU only after its own private initial/exact release. Positive prioritizes separately registered source6 confirmation. Users7–8 excluded from new-method selection; repeated source/eight-user development exploratory, accuracy and originality separate.
+'''
+ (M/'FULL_RESTORE_GUIDE.md').write_text(guide)
+ common=f'''Original fixed MixStyle alpha.1/p.5/random/early0/full617612parameter nativeGAP/raw-forwardB64/64epochs/seed20261029 producer AND OWN independently fresh64replay completed. All4736updates/65native epoch records per trajectory, model/optimizer/allRNG, canonical terminal{a['native_final_sha256']} and validation-selected epoch{a['selected_epoch']} outputs are exact. Actual train/replay/output exit0; original producer/replay never restarted. Original controller VmRSS race and readonly-observer missing-progress race are preserved with actual repairs/identities. Resource totals5166.207431wall/5771.852188CPU include conservative600s unknown original-first-audit charge, below43200wall/CPU/12GiB; no budget reset. All18frozen science unchanged at{a['scientific_manifest_sha256']}.
+
+FULL owner-only private modelset{len(manifest['chunks'])}parts/{manifest['archive_bytes']}bytes/{manifest['tracked_payload_files']}payloads SHA{manifest['archive_sha256']}, membersSHA{manifest['members_manifest_sha256']}: metadata/raw(download_raw_file=true,include_base64=false)/immediate size-SHA/whole/every-member verified. Max3complete pipelines. Actual initial raw guard chunks and proofs are bundled; raw radar/RMS/runtime external. Fault/recovery source and prior consumed CutMix lineage retained; no raw arrays/models/actual sampleID values in Git. Archive is PRE-SCORE: retain newer summary/state/consumed lock on restore and never rescore. Public persistent index results/cloud_20261105_mixstyle_gap64_{mode}/full_backup/CLOUD_DOWNLOAD_INDEX.json.
+
+'''
+ files=['PILOT_AUDIT.json','OBSERVER_TERMINATION.json','FULL_ARCHIVE_BUILD_TERMINATION.json','MODELSET_INVENTORY.json','FULL_RESTORE_GUIDE.md']+['full_backup/'+n for n in ['MANIFEST.json','READBACK_VERIFIED.json','DRIVE_BACKUP_RECEIPT.json','CLOUD_DOWNLOAD_INDEX.json']]
+ insert=dict(producer_epochs=64,replay_epochs=64,epoch_records_exact=65,updates_per_trajectory=4736,selected_epoch=a['selected_epoch'],native_final_sha256=a['native_final_sha256'],actual_terminations=a['actual_terminations'],archive_parts=len(manifest['chunks']),archive_bytes=manifest['archive_bytes'],archive_sha256=manifest['archive_sha256'],archive_payloads=manifest['tracked_payload_files'],complete_private_modelset_owner_only_raw_every_member_verified=True,original_once_scorer_sha256=a['original_once_scorer_sha256'],scientific18_changed=False,original789_changed=False)
+ scalar=dict(last_completed_update_utc=datetime.now(timezone.utc).isoformat())
+ if mode=='full_archive':
+  assert not (B/'SUMMARY.json').exists() and not (B/'FINALIZE_ONCE.lock').exists();files+=['PRE_SCORE_STATE.json']
+  note='## 2026-11-05: MixStyle full64/OWN fresh64 and FULL private archive verified before original once gate\n\n'+common+'Diagnostic remains unscored; no active fitting. Next invoke the ORIGINAL release-bound once gate exactly once, no configuration/seed change. Fixed DSU production16 sources/tests/cost remain conditionally ready and UNFITTED; activation only after actual original MixStyle exact failed consumed gate/all inactivity, then DSU private initial/exact release. Positive MixStyle prioritizes separate source6 registration. Users7–8 labels excluded; repeated source/eight-user work exploratory. No original-contribution, independent-validation or legacy8fold improvement conclusion. Goal unresolved/automatic continuation continues.\n\n'
+  state='MixStyle_full64_OWNfresh64_FULL_private_modelset_verified_ready_for_original_once_gate'
+  status_note='MixStyle original64/OWNfresh64/output all exited0 and exact; FULL private14part431payload owner-only raw/everymember pass. Diagnostic unscored, no active fit; immutable ORIGINAL once gate pending. DSU conditional/unfitted.'
+  insert.update(diagnostic_labels_read=False,once_gate_consumed=False,new_accuracy_result=False)
+ else:
+  q=read(B/'SUMMARY.json');st=read(B/'STATE.json');assert q['finalizer_invocations']==1 and st['finalizer_consumed'] and (B/'FINALIZE_ONCE.lock').exists() and st['summary_sha256']==sha(B/'SUMMARY.json')
+  shutil.copyfile(B/'SUMMARY.json',M/'SUMMARY.json');write(M/'ONCE_GATE_CONSUMED.json',dict(state='original_once_gate_consumed_preserve_before_pre_score_restore',summary_sha256=sha(B/'SUMMARY.json'),original_once_scorer_sha256=a['original_once_scorer_sha256'],finalizer_invocations=1,empty_exclusive_lock_exists=True))
+  files+=['SUMMARY.json','POST_SCORE_STATE.json','ONCE_GATE_CONSUMED.json','SCORING_TERMINATION.json']
+  next_text='Separately preregister SAME fixed MixStyle same-protocol source6 confirmation; no new DSU fitting while choosing between diagnostics.' if q['predeclared_gate_passed'] else 'Activate already registered DSU p.5/factor1/both native01/fullGAP64/B64/64epochs/seed20261029 only after actual prior-failure activation/private initial/exact REAL_RELEASE. No parameter/seed rescue or diagnostic sweep.'
+  note='## 2026-11-05: Original MixStyle once diagnostic complete; exact registered route retained\n\n'+common+f"ORIGINAL release-bound scorer executed exactly once after FULL private proof, actual exit0. Exploratory source1 macro{q['diagnostic_macro']*100:.9f}% vs matched noMixupGAP{q['reference_noMixup_GAP64_macro']*100:.9f}%, delta{q['difference']*100:+.9f}percentage points. Predeclared+.5point/tol1e-12 gate={q['predeclared_gate_passed']}; selected36 uses validation only. Route={q['route']}. Preserve summary/post-scoreSTATE/consumed lock; never repeat this diagnostic or select parameters/layers/seed with it. {next_text}\n\nUsers7–8 labels excluded; repeated source/eight-user development exploratory. Accuracy evidence and original contribution separate; no independent-validation, original-contribution or legacy8fold conclusion. Original789source/repository visibility/Drive privacy unchanged; data reused without Windows dependency. Goal unresolved and automatic continuation continues.\n\n"
+  state=q['route'];status_note=f"MixStyle original64/OWN64/audits/FULL private/original once complete: source1{q['diagnostic_macro']*100:.6f}% vs98.416667%, delta{q['difference']*100:+.6f}pp, gate={q['predeclared_gate_passed']}. Scorer consumed, no active model."
+  scalar.update(next_candidate=next_text,latest_source_diagnostic='results/cloud_20261105_mixstyle_gap64_final/SUMMARY.json');insert.update(diagnostic_labels_read=True,once_gate_consumed=True,summary=q,new_accuracy_result=True)
+ spec=dict(parent=parent,stage=mode,note=note,include_source=False,metadata_files=files,state=state,running=False,pid=None,status_note=status_note,scalar_updates=scalar,status_insert=insert)
+ write(M/(mode+'_SPEC.json'),spec);print(json.dumps(dict(stage=mode,metadata_files=len(files),archive_parts=len(manifest['chunks']),archive_sha256=manifest['archive_sha256'])))
+if __name__=='__main__':main()

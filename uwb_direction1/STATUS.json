@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MixStyle_original64_complete_OWN_fresh_replay_running_private_insurance_verified_DSU_conditional_checks_passed",
+  "state": "MixStyle_full64_OWNfresh64_FULL_private_modelset_verified_ready_for_original_once_gate",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_dsu_gap64_verification/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixstyle_gap64_full_archive/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793898045.5497572,
-  "background_training_pid": 24914,
-  "background_training_status_note": "Original MixStyle64/4736 exited0; OWN fresh replay24914 observed9 under monitor24195; no restart/scoring. Complete producer64+partialOWN private11part287payload raw/everymember verified. Readonly observer race fixed/25414 active. Fixed DSU16 native/cost checks pass; activation closed, no DSU real fit.",
+  "background_training_observed_unix": 1793901941.4298763,
+  "background_training_pid": null,
+  "background_training_status_note": "MixStyle original64/OWNfresh64/output all exited0 and exact; FULL private14part431payload owner-only raw/everymember pass. Diagnostic unscored, no active fit; immutable ORIGINAL once gate pending. DSU conditional/unfitted.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Continue SAME MixStyle OWN independently fresh replay24914 under recovery monitor24195 and repaired readonly completion observer25414. After full64 replay/output/all audits/FULL private proof, invoke ORIGINAL consumed-once gate only. On failed exact gate activate already registered DSU p.5/factor1/allnative01/fullGAP64 only after private initial/exact REAL_RELEASE; positive MixStyle prioritizes separate source6 confirmation. No users7–8 selection or parameter rescue.",
-  "last_completed_update_utc": "2026-11-05T17:00:44.945424+00:00",
+  "last_completed_update_utc": "2026-11-05T18:05:40.847600+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -12607,5 +12607,72 @@
   "prior_MixStyle_private_producer64_sha256": "dff9ba7ed24013e4bee7424e2c329f8c019010bb7bc49912fd8c4e68f6e176fb",
   "prior_MixStyle_producer_restarted": false,
   "readonly_observer_repaired_pid": 25414
+}
+,
+  "mixstyle_gap64_full_archive_20261105": {
+  "report": "results/cloud_20261105_mixstyle_gap64_full_archive/RUN_REPORT.md",
+  "method": "author_MixStyle_alpha.1_p.5_random_early0_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "epoch_records_exact": 65,
+  "updates_per_trajectory": 4736,
+  "selected_epoch": 36,
+  "native_final_sha256": "9fb8efe920d23379e17eb222a9f25965ed2efc407461c4fbe45420f508cfb877",
+  "actual_terminations": {
+    "train": {
+      "actual_wait_status": 0,
+      "budget_reset": false,
+      "cumulative": {
+        "RSS_KiB": 0,
+        "cpu": 3179.554867,
+        "wall": 2576.750620698993
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "exit_observed_via_same_identity_proc_stat_wait_status": true,
+      "original_producer_CPU_seconds": 2567.18,
+      "producer_restarted": false,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "budget_reset": false,
+      "cumulative": {
+        "RSS_KiB": 0,
+        "cpu": 5760.765726,
+        "wall": 5154.654239234995
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "output": {
+      "budget_reset": false,
+      "cumulative": {
+        "RSS_KiB": 0,
+        "cpu": 5771.851318999999,
+        "wall": 5166.205207011997
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "archive_parts": 14,
+  "archive_bytes": 101437077,
+  "archive_sha256": "10f8a3d06b0dabb8f7288e78c54337ce9c86b6ad22cf30ac9bc1f81c2d86891d",
+  "archive_payloads": 431,
+  "complete_private_modelset_owner_only_raw_every_member_verified": true,
+  "original_once_scorer_sha256": "2fba1d84bae43a4f8ed893e43b8eb776b944a56830737998c2a6c426a6571324",
+  "scientific18_changed": false,
+  "original789_changed": false,
+  "diagnostic_labels_read": false,
+  "once_gate_consumed": false,
+  "new_accuracy_result": false
 }
 }
