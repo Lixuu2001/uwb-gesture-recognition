@@ -1,0 +1,83 @@
+{
+  "TimeMIL_full_training_replayed": false,
+  "TimeMIL_selected_output_audit_verified": true,
+  "active_auditor": {
+    "CPU_seconds": 22134.78,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 8355,
+    "startticks": 7734762,
+    "state": "R"
+  },
+  "budget_reset": false,
+  "completed_newfolds_verified_unscored": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "controller": {
+    "CPU_seconds": 5407.6,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 573,
+    "startticks": 34322,
+    "state": "S"
+  },
+  "controller_or_auditor_restarted": false,
+  "core_frozen_files_verified": 60,
+  "current_state": {
+    "held": 6,
+    "state": "auditing_members_unscored"
+  },
+  "diagnostic_labels_read": false,
+  "environment_reconfigured": false,
+  "full100_Shuffle_replay_complete": false,
+  "new_accuracy_result": false,
+  "new_fit_or_audit_started": false,
+  "observed_unix": 1793852366.2734454,
+  "own_epoch_records_exact": 70,
+  "own_journal_chain_and_slot_SHA_verified": true,
+  "own_prefix_of_original_training_steps_verified": true,
+  "producer_manifests_and_selected_epochs_verified": true,
+  "provider_root_cause_determined": false,
+  "read_only_channel_probe_succeeded": true,
+  "remote_parent": "ca52bf7bb8df444f93c47b528a3df77db7d88fd5",
+  "replay_progress": {
+    "checkpoint_sha256": "99c0ed38869f086684dc1b068936f7fbc28fcb081cc9865afd3a4abb2e5ccb7f",
+    "epoch": 69,
+    "journal_sha256": "c0d7185e85690e648e67c2b88e4bd2485d543b4cba5a9f2b161b8e93fb1d294b",
+    "prefix_bytes": 3884631,
+    "prefix_sha256": "5face7d6c1bab64f70960bccb2ae486aa60d97cfb93921edad75cf7995db7cef",
+    "slot": "slot1.pt",
+    "updates": 15870
+  },
+  "resource_ledger": {
+    "active_held": 6,
+    "folds": {
+      "2": {
+        "cpu": 84851.68278,
+        "wall": 22834.174004506
+      },
+      "3": {
+        "cpu": 100021.76343385856,
+        "wall": 25984.039045241712
+      },
+      "4": {
+        "cpu": 83070.146821,
+        "wall": 22593.303525181997
+      },
+      "5": {
+        "cpu": 87193.339813,
+        "wall": 23589.402822912998
+      },
+      "6": {
+        "cpu": 74773.05035399996,
+        "wall": 20644.040326759
+      }
+    },
+    "last_observed_combined_RSS_KiB": 2016640,
+    "last_observed_unix": 1793852365.8036711
+  },
+  "scientific_configuration_changed": false,
+  "state": "exec_transport_recovered_same_original_controller_and_auditor",
+  "users7_8_labels_used": false
+}
