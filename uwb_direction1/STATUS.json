@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "EFDMix_real_fullGAP64_original_producer_active_firstnative_privatecheckpoint_verified_unscored",
+  "state": "EFDMix_original_producer_active_unscored_checkpoint30_private_verified_SD20_conditional_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_efdmix_gap64_launch/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_sd_gap64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793908476.987462,
+  "background_training_observed_unix": 1793909855.3588405,
   "background_training_pid": 30323,
-  "background_training_status_note": "EFDMix actualproducer30323/controller30321 activeepoch5, firstnativeauditexit0/currentnativeallRNG exact. Privateinsurance5parts raw/everymember pass, notFULL/scoring; readonlyobserver30324 active. Diagnosticunscored.",
+  "background_training_status_note": "SAMEEFDMix producer30323/controller30321 active observed37/64; readonlyobserver30324, diagnosticunscored. Privatecheckpoint30/2220+71suffix 5parts193payloads verified. SDsdreg.1/noanneal/full617612/B64/64/seed20261029 production20 fixed before EFDMixdiagnostic; prototype exactness/ONEcost pass, productionchecks pending; noSDfit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue SAME EFDMix originalproducer30323/controller30321 on bootad409b48 and readonlycompletionobserver30324; no duplicate launch. After original64/OWNindependentlyfresh64/all65records/all4736steps/selectedoutput audits/FULLprivate owner-only raw/everymember proof, invoke ORIGINAL release-bound once scorer80fb464af2cefea453b34e0905cfee800963a491f53d8096eb8bd3bfcde7eb59 once only. Fail closes exactalpha.1/p.5/random/early0/fullGAP64/B64/64epochs/seed20261029 without rescue; pass separatelyregisterssource6. DSUexactconfig closed98.166667% vs98.416667%, originalscorer consumed. Users7–8labels forbidden; repeateddevelopment exploratory. Latestauthorities emptyGitHubcontents with validSHA require latesthead exactcloudGitpack read/hash, not datarestore.",
+  "next_candidate": "Continue SAMEEFDMix producer30323/controller30321/readonlyobserver30324; no duplicate launch. After64/OWNfresh64/all65records/4736steps/output/FULLprivate invoke ORIGINALEFDMix once80fb464af2cefea453b34e0905cfee800963a491f53d8096eb8bd3bfcde7eb59. Ifpasses separatelyregistersource6; ifexactfails closes no rescue and only then activates alreadyfixed SDsdreg.1/noanneal/fullnative617612/B64/64/seed20261029 after its productionchecks/privateinitial/exactrelease. Users7–8labels forbidden, repeateddevelopment exploratory. Latestprivatecheckpoint30 index results/cloud_20261105_sd_gap64_preparation/primary_EFDMix_checkpoint02/private_backup/CLOUD_DOWNLOAD_INDEX.json.",
   "last_completed_update_utc": "2026-11-05T19:55:15.458631+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -13092,5 +13092,72 @@
   },
   "own_fresh64_complete": false,
   "scientific18_unchanged": true
+}
+,
+  "sd_gap64_preparation_20261105": {
+  "report": "results/cloud_20261105_sd_gap64_preparation/RUN_REPORT.md",
+  "method": "published_DomainBed_SD_sdreg.1_noanneal_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "4f9e8d7c0d71139656d6edd001e7f36dfa5b953d8799d7fa9011b900b878b697",
+  "scientific_files": 20,
+  "new_SD_real_fit_started": false,
+  "prior_EFDMix_diagnostic_read": false,
+  "prototype_native_and_single_cost_pass": true,
+  "production_checks_pending": true,
+  "primary_EFDMix_live_observation": {
+    "committed_native_model_optimizer_all_RNG_restore_recapture_exact": true,
+    "committed_step_prefix_verified": true,
+    "controller": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 3.73,
+      "pid": 30321,
+      "startticks": 13881518,
+      "state": "S"
+    },
+    "diagnostic_labels_read": false,
+    "first_actual_update_file_sha256": "d18dc55df0ec70d1d3501c266a2bf53cfece4509db05331c009258199277b488",
+    "first_actual_update_native_exact": true,
+    "first_actual_update_native_state_sha256": "2058d0134abff721a1440e52ce261439f48ff830e0760f17f5b9b7ae94f92068",
+    "first_audit_actual_exit_code": 0,
+    "frozen_sha256": "a28f88db72350875087b564512476caa4bd29308f447d2073ceb9d0107e2ee2f",
+    "full64_complete": false,
+    "new_accuracy_result": false,
+    "observed_unix": 1793909787.3918047,
+    "own_fresh64_replay_complete": false,
+    "prior_DSU_exact_failed_config_closed": true,
+    "progress": {
+      "checkpoint_sha256": "6d0f8d1817c6ffe5af82fb13071e3a58231504cc03e1a906dffbb460467f93ee",
+      "epoch": 37,
+      "journal_sha256": "562f3c6e16787817834d17bcf177f078c9c5a9849b740f59f63af50a840fb682",
+      "prefix_bytes": 1030486,
+      "prefix_sha256": "11cd3d8d41fd9ed8dc45c0a9cc69aba6ffcdf3f8cc48297fee005cff2555cbe3",
+      "slot": "slot1.pt",
+      "updates": 2738
+    },
+    "resource_ledger": {
+      "RSS_KiB": 1674556,
+      "cpu": 1543.132656,
+      "stage": "train",
+      "wall": 1543.1384813520126
+    },
+    "scientific18_unchanged": true,
+    "state": "actual_preregistered_EFDMix_training_started_first_update_and_native_committed_state_verified_unscored",
+    "trained_checkpoint_private_verified": true,
+    "users7_8_labels_used": false,
+    "worker": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 1538.78,
+      "pid": 30323,
+      "startticks": 13881747,
+      "state": "R"
+    }
+  },
+  "primary_EFDMix_checkpoint_private_sha256": "56f19e3f9eb6e5fea3e245b2c47643674defb2fda5b7a2cd92993fa15a0053c8",
+  "primary_EFDMix_checkpoint_parts": 5,
+  "primary_EFDMix_checkpoint_payloads": 193,
+  "primary_EFDMix_checkpoint_complete_modelset": false,
+  "new_accuracy_result": false
 }
 }
