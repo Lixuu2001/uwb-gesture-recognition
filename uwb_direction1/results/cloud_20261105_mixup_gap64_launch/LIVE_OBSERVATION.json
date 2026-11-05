@@ -1,0 +1,47 @@
+{
+  "accuracy_result_available": false,
+  "code_frozen_sha256": "139eff19ae7a579f83503d4acf8692b544dbd6558adce46f28d386b24ef3896c",
+  "committed_progress": {
+    "checkpoint_sha256": "209472ce46926a7cdcfc3f66ea2a8537bce453cc3ae98d5a19d8f8f307197d85",
+    "epoch": 2,
+    "journal_sha256": "c5037d93b21f624c04d87e348f7002d10653e4411eb0dc85b3af61664c34c317",
+    "prefix_bytes": 65239,
+    "prefix_sha256": "baee0611f52a0f43b5e069d69c59374bc16d0283750e284b6582dc4b6f2642df",
+    "slot": "slot0.pt",
+    "updates": 148
+  },
+  "committed_step_prefix_verified": true,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.47,
+    "pid": 12536,
+    "startticks": 9136657,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "first_audit_exit_code": 0,
+  "first_update_independently_exact": true,
+  "full64_fresh_replay_complete": false,
+  "full64_training_complete": false,
+  "logged_steps_observed": 222,
+  "native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "observed_unix": 1793860930.3322206,
+  "original_contribution_validated": false,
+  "release_commit": "a11b764d192bc51e57c52030fd2f1fec28fd8f09",
+  "resource_ledger": {
+    "RSS_KiB": 1716408,
+    "cpu": 135.247889,
+    "stage": "train",
+    "wall": 135.30200507800328
+  },
+  "state": "actual_registered_Mixup_GAP64_training_first_update_and_committed_native_checkpoint_verified",
+  "state_sha256": "7446b23a991aaf4c30bd16f48627c781f48a9014b30bb5afca08ab6bd73d2e4a",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 129.38,
+    "pid": 12537,
+    "startticks": 9136892,
+    "state": "R"
+  }
+}
