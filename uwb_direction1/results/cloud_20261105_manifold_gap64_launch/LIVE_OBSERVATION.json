@@ -1,0 +1,46 @@
+{
+  "committed_step_prefix_verified": true,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.58,
+    "pid": 14282,
+    "startticks": 9983676,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "first_audit_exit_code": 0,
+  "first_real_update_independently_exact": true,
+  "frozen_scientific_sha256": "e7c135304cce3a78fa6161d4a6dcb728914e8c90a5bf6f2bd85813c13ce555c6",
+  "full64_fresh_replay_complete": false,
+  "full64_training_complete": false,
+  "native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "new_accuracy_result": false,
+  "observed_unix": 1793869481.9280815,
+  "original_contribution_validated": false,
+  "prior_input_Mixup_closed": true,
+  "progress": {
+    "checkpoint_sha256": "22f0e69003d87d92da15924f919070272901d9bbacd56818515ccf299252a276",
+    "epoch": 4,
+    "journal_sha256": "4dd579b43ca76bc4d1709448421172e653f9ae1acd856454e87dfcc6b6d7e07b",
+    "prefix_bytes": 144228,
+    "prefix_sha256": "20e122eea428fc3543c2c8e0d0e81f75684073da2d862f061ce16c091c8b8231",
+    "slot": "slot0.pt",
+    "updates": 296
+  },
+  "release_commit": "d06add54aabd89e452b5520e0c41d8a8677e02c6",
+  "resource_ledger": {
+    "RSS_KiB": 1678828,
+    "cpu": 216.90534599999998,
+    "stage": "train",
+    "wall": 216.4407176579989
+  },
+  "state": "actual_Manifold_Mixup_GAP64_training_first_update_and_native_committed_state_verified",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 209.35,
+    "pid": 14284,
+    "startticks": 9983914,
+    "state": "R"
+  }
+}
