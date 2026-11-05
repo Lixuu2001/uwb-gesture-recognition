@@ -1,0 +1,101 @@
+{
+  "remote_parent": "59f8f0608380607abae8402dcbd90f128d12da0a",
+  "bounded_scope": true,
+  "evidence": [
+    {
+      "path": "research/PAIRING_DEPENDENCE_REVIEW.md",
+      "sha256": "38f32699b1a09e8e937970b24f81431b3488bd441a53a2a0254bac9e2302144e",
+      "mixup_lines": [
+        {
+          "line": 17,
+          "text": "1. **Geodesic Multi-Modal Mixup for Robust Fine-Tuning**，作者仓库标注NeurIPS2023：[changdaeoh/multimodal-mixup](https://github.com/changdaeoh/multimodal-mixup)。本次实际读README、完整loss.py及main.py的sph_inter/do_train部分（约109–228行），未读论文全文，也未运行作者实验。"
+        },
+        {
+          "line": 22,
+          "text": "2. [RH-Lin/m3ixup](https://github.com/RH-Lin/m3ixup)：只读README（blob `ae9e510814aab8816a3374501c8f68fabeaf15b5`）和完整递归文件列表。README自称“Adapt and Explore: Multimodal Mixup for Representation Learning”的官方实现，但本次树只见README、图示、数据下载脚本与依赖文件，没有训练代码；README注释还留有GMC引用。不能据此声称已复现算法、确定发表信息或阅读该论文全文。"
+        }
+      ]
+    },
+    {
+      "path": "original/project/uwb_osr/losses.py",
+      "sha256": "112debf797bdeb4d2349e590c6099b598f30672ab59b59a08387ec4dccb2bbab",
+      "mixup_lines": [
+        {
+          "line": 38,
+          "text": "def ood_mixup_loss(evid_head, f_views, labels, n_classes,"
+        },
+        {
+          "line": 40,
+          "text": "    \"\"\"Manifold-mixup synthetic negatives (Eom Eq.12)."
+        }
+      ]
+    },
+    {
+      "path": "original/project/uwb_osr/engine.py",
+      "sha256": "f2ef5de0d0c0a14648987fc6fc02a82a3bb77cb9478677cae9e99f10e6e42a04",
+      "mixup_lines": [
+        {
+          "line": 9,
+          "text": "from .losses import tmc_loss, supcon_loss, ood_mixup_loss, pos_jitter_loss"
+        },
+        {
+          "line": 138,
+          "text": "                    loss = loss + cfg.lambda_ood * ood_mixup_loss("
+        }
+      ]
+    },
+    {
+      "path": "original/project/docs/RESULTS.md",
+      "sha256": "077a3781983411017ca7bdb634519e2153b7da5ba71b226f7a101f01523efa2e",
+      "mixup_lines": [
+        {
+          "line": 1230,
+          "text": "--normalize abs_std --paper-neg-mixup --d-key 32 --data-type Raw`,加 `--loso`,"
+        },
+        {
+          "line": 1261,
+          "text": "- **§20 的胜出因素到跨人下失效**:随机切分让 Raw(+10.5)、D_key、mixup 涨分的因素,"
+        },
+        {
+          "line": 1329,
+          "text": "高维特征下,训练 inspector + 重增广(5 个真样本 → 4000 合成正样本 + mixup 负样本)的"
+        },
+        {
+          "line": 2021,
+          "text": "**动机**:G1a 证伪(§41)后切换 G1b。原 G1b = 校准侧伪注册:留出 base 类 g,冻结编码器重训其余检查器(g 从真实负样本/mixup/all_real 三处删除),伪新头 subject-balanced 支持(`tools/p4_g1b_pseudo.py`,~8.5s/头,计时门 16 min/折通过)。"
+        },
+        {
+          "line": 2285,
+          "text": "| 旧基线(ClutterRemoved,默认 mixup,per-head D_key=8) | 94.67 | 73.18 | 76.49 | — |"
+        },
+        {
+          "line": 2286,
+          "text": "| + 论文式 Eq.12 负样本 mixup(`--paper-neg-mixup`) | 95.17 | 75.38 | 78.94 | +2.20 |"
+        },
+        {
+          "line": 2306,
+          "text": "| **论文式 Eq.12 mixup** | +2.20 | 次因。混合\"目标类×其它类\"产生近边界 hard negative |"
+        },
+        {
+          "line": 2309,
+          "text": "> ⚠️ **重要更正**:§6.1(\"b16 恶化 −11 分\")和 config 注释(\"paper mixup 无效\")的旧结论,都是在 **abs_std 之前的 per_view_std 时代**做的,且 b16=63.36 用的是修 mixup 前的代码。`abs_std × paper-mixup × b16` 这个真正 paper-faithful 组合当时从未跑过。本节修正了这两条过期结论。"
+        },
+        {
+          "line": 2311,
+          "text": "### 20.4 胜出配置 5-case 全扫(Raw + paper-mixup + D_key32 + flatten + abs_std)"
+        },
+        {
+          "line": 2342,
+          "text": "- **复现声明**:\"With the dataset's raw ADC cubes, the paper-faithful per-head key width (D_key=32) and the Eq.12 manifold-mixup negatives, our single-view reproduction reaches OSCR 86.74 ± 1.29, within 1.7 points (< 1 std) of the reported 88.42.\" → 这是规范的 baseline 复现,站得住。"
+        },
+        {
+          "line": 2350,
+          "text": "- [ ] 把胜出配置回测三视角,看 Raw + D_key32 + paper-mixup 是否把 95.14 再推高。"
+        }
+      ]
+    }
+  ],
+  "equivalent_full_TimeMIL_input_mixup_run_found": false,
+  "not_original_contribution": true,
+  "new_UWB_fit_started": false
+}

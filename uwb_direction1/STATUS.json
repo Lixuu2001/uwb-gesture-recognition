@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "close_exact_source6_uniform_TimeMIL64_Shuffle100_T1_seed20261029_no_rescue",
+  "state": "mixup_TimeMIL64_fixed_before_synthetic_capacity_and_new_UWB_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_softvote_source6_final/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixup_timemil64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793859315.9093525,
+  "background_training_observed_unix": 1793859797.8545184,
   "background_training_pid": null,
-  "background_training_status_note": "All5 folds and independent Shuffle100 audits completed, private full archive verified, original once-only source6 scorer exit0. Exact mixture failed locked gates and is closed; no active fitting/audit.",
+  "background_training_status_note": "Distinct plain input Mixup alpha1/full TimeMIL64 fixed and implemented before any new UWB fit. Author paper/code and historical differences checked; exact synthetic validation/resource gates pending. No active model job.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11390,5 +11390,16 @@
   "finalizer_invocations": 1,
   "full_archive_sha256": "b23a32eef9ad36291214a2eb58d464181e1a5ff15960dec257510ad1478aa7db",
   "restore_new_directory_preserve_consumed_finalization": true
+}
+,
+  "mixup_timemil64_preparation_20261105": {
+  "report": "results/cloud_20261105_mixup_timemil64_preparation/RUN_REPORT.md",
+  "method": "input_Mixup_alpha1_full_TimeMIL64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "new_UWB_fit_started": false,
+  "resource_gate_pending": true,
+  "synthetic_checks_pending": true
 }
 }
