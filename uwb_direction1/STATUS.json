@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "temporalCutMix_GAP64_exact_alpha1_p08_configuration_failed_gate_closed",
+  "state": "CutMix_exact_config_failed_closed_fixed_MixStyle_production_registered_unfitted",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_cutmix_temporal_gap64_final/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixstyle_gap64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793894127.3240051,
+  "background_training_observed_unix": 1793894648.2605088,
   "background_training_pid": null,
-  "background_training_status_note": "temporalCutMix full64/OWN64/audits/FULL private backup/original once gate complete: source1 98.500000% vs98.416667%, delta+0.083333pp, gate=False. Preserve consumed scorer, no active fit/new independent or originality claim.",
+  "background_training_status_note": "CutMix exact once gate failed98.5% vs98.416667%, +.083333point below+.5. Fixed published MixStyle alpha.1/p.5/random/early0 fullGAP64 production18 files; no new fitting; production checks and private initial release pending.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -12483,5 +12483,27 @@
     "users7_8_labels_used": false
   },
   "new_accuracy_result": true
+}
+,
+  "mixstyle_gap64_preparation_20261105": {
+  "report": "results/cloud_20261105_mixstyle_gap64_preparation/RUN_REPORT.md",
+  "method": "author_MixStyle_alpha.1_p.5_random_early0_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "b6ef1547f8ac9ce0d8d8cc07027a4c7a240d409f853346659de5e78903a29dbb",
+  "scientific_source_files": 18,
+  "alpha": 0.1,
+  "probability": 0.5,
+  "mix": "random",
+  "insertion": "first_complete_block0",
+  "seed": 20261029,
+  "epochs": 64,
+  "parameters": 617612,
+  "raw_forward_batch": 64,
+  "new_UWB_fit_started": false,
+  "production_native_tests_complete": false,
+  "initial_private_model_released": false,
+  "diagnostic_labels_read": false
 }
 }
