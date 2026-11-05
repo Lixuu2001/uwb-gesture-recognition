@@ -1,0 +1,19 @@
+{
+  "state": "part010_provider_internal_error_without_uploaded_ID_repaired_after_proven_absence",
+  "failed_chunk_index": 10,
+  "failed_stage": "upload",
+  "error_evidence": "private_backup/ERROR_010_1793882118310.json",
+  "provider_response": "private_backup/MISSING_ID_RESPONSE_010_1793882103637.json",
+  "exact_folder_and_global_name_searches_succeeded_zero_results_no_next_page": true,
+  "absence_receipt": "private_backup/ABSENCE_BEFORE_EXPLICIT_RETRY_010.json",
+  "single_retry_marker": "private_backup/EXPLICIT_RETRY_STARTED_010.json",
+  "single_retry_receipt": "private_backup/EXPLICIT_RETRY_RECOVERED_010.json",
+  "initial_error_automatically_retried": false,
+  "explicit_upload_retries": 1,
+  "reuploaded_known_ID": false,
+  "all11_raw_chunks_and275_payload_members_verified": true,
+  "scientific_source_or_model_or_RNG_changed": false,
+  "training_or_replay_restarted": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false
+}

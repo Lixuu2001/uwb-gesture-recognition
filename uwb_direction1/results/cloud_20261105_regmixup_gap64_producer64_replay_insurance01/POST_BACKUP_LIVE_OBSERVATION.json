@@ -1,0 +1,66 @@
+{
+  "all_committed_replay_records_and_steps_equal_producer": true,
+  "budget_reset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 8.54,
+    "pid": 16664,
+    "startticks": 10682568,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "duplicate_fit_or_new_configuration_started": false,
+  "full64_producer_complete": true,
+  "full_final_pilot_private_backup_complete": false,
+  "native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "new_accuracy_result": false,
+  "observed_unix": 1793882232.9739115,
+  "own_fresh64_replay_complete": false,
+  "producer_actual_termination": {
+    "cumulative": {
+      "cpu": 5104.3616,
+      "wall": 5105.128580873003
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "6af4c1f860e933006415f2f0fe968e1d219467f560b1ec94d4f41d32e43da16d",
+    "epochs": 64,
+    "final_state_sha256": "9105d54f7effed0aa242d1b675741628e4fa57f1e77504948bbefa5292bd1c83",
+    "selected_epoch": 37,
+    "selected_sha256": "b914a0cef32b9a6cb4086128f1927933a2920fc0ddca3b47ef6beea7e7b9d482",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "4fbf1ac134a1f0069e8f0a26bd1f8a6177a0f2d2c79ab13bc8297dcc1015a4ab"
+  },
+  "replay_progress": {
+    "checkpoint_sha256": "f4e088435d2f95152c14e3a5585428fcc82e82761dbca799143c6c95b9c4ab21",
+    "epoch": 11,
+    "journal_sha256": "241dde2363dcfadaa235217e9c0e045d70668daa369180de80c00a8a25cb02eb",
+    "prefix_bytes": 391300,
+    "prefix_sha256": "b1cbe3fb139789b493a22ed0ceea5859fdba1b40af2c5670a9cca93797f55235",
+    "slot": "slot1.pt",
+    "updates": 814
+  },
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 873.31,
+    "pid": 17948,
+    "startticks": 11193335,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1878352,
+    "cpu": 5976.801600000001,
+    "stage": "replay",
+    "wall": 5977.858164723002
+  },
+  "scientific16source_verified_unchanged": true,
+  "state": "same_original_controller_OWN_fresh_replay_healthy_after_complete_producer64_private_backup",
+  "users7_8_labels_used": false
+}
