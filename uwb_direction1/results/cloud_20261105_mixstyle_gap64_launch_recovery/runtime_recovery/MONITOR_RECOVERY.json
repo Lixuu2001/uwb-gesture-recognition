@@ -1,0 +1,41 @@
+{
+  "budget_reset": false,
+  "frozen_sha256": "b6ef1547f8ac9ce0d8d8cc07027a4c7a240d409f853346659de5e78903a29dbb",
+  "original_controller": {
+    "RSS_KiB": 0,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.44,
+    "pid": 24146,
+    "startticks": 12559141,
+    "state": "Z",
+    "wait_status": 256
+  },
+  "original_first_audit": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 24154,
+    "startticks": 12559985,
+    "state": "R"
+  },
+  "original_first_audit_exit_not_persisted": true,
+  "original_ledger": {
+    "RSS_KiB": 1119276,
+    "cpu": 10.08,
+    "stage": "train",
+    "wall": 11.023041600987199
+  },
+  "original_wall_origin_monotonic": 125591.41,
+  "producer": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 24147,
+    "startticks": 12559383,
+    "state": "R"
+  },
+  "producer_restarted": false,
+  "recovery_source_sha256": "89ac916ae88c9cc48c91087d156b55cc97f8637cbffbfc0ef200e6d747bdf4fc",
+  "scientific18_unchanged": true,
+  "source_configuration_or_seed_changed": false,
+  "state": "reattached_to_original_live_producer_no_model_restart",
+  "unknown_first_audit_conservative_CPU_charge_seconds": 600.0
+}

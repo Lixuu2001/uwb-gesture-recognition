@@ -1,0 +1,54 @@
+{
+  "committed_native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "committed_step_prefix_verified": true,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.46,
+    "pid": 24195,
+    "startticks": 12573231,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "first_actual_update_file_sha256": "d18dc55df0ec70d1d3501c266a2bf53cfece4509db05331c009258199277b488",
+  "first_actual_update_native_exact": true,
+  "first_actual_update_native_state_sha256": "2058d0134abff721a1440e52ce261439f48ff830e0760f17f5b9b7ae94f92068",
+  "first_audit_actual_exit_code": 0,
+  "frozen_sha256": "b6ef1547f8ac9ce0d8d8cc07027a4c7a240d409f853346659de5e78903a29dbb",
+  "full64_complete": false,
+  "monitor_recovered_original_producer_not_restarted": true,
+  "new_accuracy_result": false,
+  "observed_unix": 1793895389.549106,
+  "original_first_audit_exit_not_persisted": true,
+  "own_fresh64_replay_complete": false,
+  "prior_CutMix_exact_failed_config_closed": true,
+  "progress": {
+    "checkpoint_sha256": "22643de604524f67471e99d73d0f439e254f4fc5e1b6eefdc981a1dc3e46badb",
+    "epoch": 8,
+    "journal_sha256": "d414ae5814accf35bdbfbf5ead132c0411626661aaae47fe38d2c668f6e05ca2",
+    "prefix_bytes": 222458,
+    "prefix_sha256": "9e6f6b553acf16664cbd2118288e4276baaefe20a15939ca158468a4d3c9b4a7",
+    "slot": "slot0.pt",
+    "updates": 592
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1658052,
+    "budget_reset": false,
+    "cpu": 973.348863,
+    "recovery_monitor": true,
+    "stage": "train",
+    "unknown_original_first_audit_CPU_charge_seconds": 600.0,
+    "wall": 371.64345935299934
+  },
+  "scientific18_unchanged": true,
+  "state": "actual_preregistered_MixStyle_training_started_first_update_and_native_committed_state_verified_unscored",
+  "successful_independent_first_reverification_recorded": true,
+  "trained_checkpoint_private_verified": true,
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 363.35,
+    "pid": 24147,
+    "startticks": 12559383,
+    "state": "R"
+  }
+}
