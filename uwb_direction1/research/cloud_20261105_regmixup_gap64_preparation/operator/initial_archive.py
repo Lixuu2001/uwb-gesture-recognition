@@ -30,4 +30,6 @@ def verify():
     receipt=dict(state='initial_model_roles_sources_owner_only_raw_allmember_verified',archive_sha256=m['archive_sha256'],archive_bytes=m['archive_bytes'],scope=m['scope'],members_manifest_sha256=m['members_manifest_sha256'],complete_initial_seed_not_trained_modelset=True,diagnostic_labels_read=False,chunks=[{k:v for k,v in r.items() if k!='path'} for r in rows])
     write(d/'DRIVE_BACKUP_RECEIPT.json',receipt);write(d/'CLOUD_DOWNLOAD_INDEX.json',dict(folder_id='12AGMwT99yXCTYBQocQaX901Br-IelmOf',max_concurrency=3,raw_fetch_options=dict(download_raw_file=True,include_base64=False),**receipt));return v
 if __name__=='__main__':
-    out=build() if sys.argv[1]=='build' else verify();print(json.dumps({k:v for k,v in out.items() if k!='chunks'}|dict(parts=len(out.get('chunks',[])))))
+    out=build() if sys.argv[1]=='build' else verify()
+    parts=len(out['chunks']) if 'chunks' in out else int(out.get('chunks_verified',0))
+    print(json.dumps({k:v for k,v in out.items() if k!='chunks'}|dict(parts=parts)))

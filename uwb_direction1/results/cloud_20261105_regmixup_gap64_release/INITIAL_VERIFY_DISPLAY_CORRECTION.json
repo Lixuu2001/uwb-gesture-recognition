@@ -1,0 +1,11 @@
+{
+  "state": "initial_verify_CLI_display_fixed_no_payload_or_verification_change",
+  "observed_display_parts": 0,
+  "authoritative_chunks_verified": 2,
+  "cause": "verify() returns chunks_verified rather than chunks, CLI defaulted absent chunks to empty",
+  "repair": "CLI displays chunks_verified for verify result and actual chunks length for build result",
+  "before_source_sha256": "978d0cd90bfb50f493aa10e706efd86ec52357a09f471f83e5b6f225a03321c1",
+  "after_source_sha256": "3727f20dfe840bb992719cdb56aecbfa36807513e7a5b83e79d3fc96c32600f6",
+  "scientific16source_or_models_RNG_payloads_changed": false,
+  "full_initial_raw_allmember_verification_already_passed": true
+}
