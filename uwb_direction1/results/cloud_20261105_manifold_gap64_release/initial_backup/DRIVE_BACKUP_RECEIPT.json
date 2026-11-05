@@ -1,0 +1,59 @@
+{
+  "archive_bytes": 7473760,
+  "archive_sha256": "9dc94214f68de7c83c626f107e9d37deabcf62bc4fa68e157d0348935f7ff7c1",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1bwbTpPGq9RVneLLBwZfR9jlZfusEUvxH",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "manifold_gap64_initial_20261105.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "26d7811887c4c3db8a1d2d06f294b24d4ad10bb10d513f15bb4daea3ea179ce7"
+    },
+    {
+      "bytes": 133728,
+      "download_verified": true,
+      "file_id": "1biopxzjJXcRgUu9E0_tzgTN2bUZyAPPs",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 133728
+      },
+      "name": "manifold_gap64_initial_20261105.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "4f8f01509d50d5917ddd7d428b0aa011019a19f7404d78361c14b59d10368fb5"
+    }
+  ],
+  "complete_initial_seed_not_trained_modelset": true,
+  "diagnostic_labels_read": false,
+  "members_manifest_sha256": "b0a200d55fe7ea8757ef99c0aaa3ecb75738916557768af2169e34b06d6299ef",
+  "scope": "fixed_Manifold_Mixup_GAP64_initial_model_roles_and_sources_before_UWB_fit",
+  "state": "initial_model_roles_sources_owner_only_raw_allmember_verified"
+}

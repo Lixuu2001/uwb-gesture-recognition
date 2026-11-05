@@ -1,0 +1,147 @@
+{
+  "CPU_seconds": 4.928196231,
+  "checkpoint": {
+    "cpu": 0.01360436099999962,
+    "wall": 0.013601476006442681
+  },
+  "full_parameters": 617612,
+  "gate_passed": true,
+  "maxRSS_KiB": 572440,
+  "new_UWB_fit_started": false,
+  "no_UWB_arrays_or_labels_opened": true,
+  "projected_full_producer_and_fresh64_replay_seconds": {
+    "cpu": 13142.521931568008,
+    "wall": 13142.727127437945
+  },
+  "safety_factor": 2.0,
+  "state": "synthetic_capacity_complete",
+  "updates": [
+    {
+      "cpu": 0.6649062580000002,
+      "lam": 0.5043511390686035,
+      "layer": 2,
+      "loss": 0.6871347427368164,
+      "mixed_feature_sha256": "9b34b72f43a07d63f54d3dfe8f679bfb1c900fa76d060b475ae71916fb9c97f1",
+      "mixed_feature_shape": [
+        64,
+        128,
+        90
+      ],
+      "permutation_sha256": "92594dc4a10fae9638d9538b33c02eedb76c94c97aa97aff322d5a29660cf938",
+      "wall": 0.6649176280043321
+    },
+    {
+      "cpu": 0.5538814670000001,
+      "lam": 0.19413970410823822,
+      "layer": 1,
+      "loss": 0.5789201855659485,
+      "mixed_feature_sha256": "ebb3a577f89931b85916c3eacf6201a87b4a24681015f9d55aa2572d90ac127c",
+      "mixed_feature_shape": [
+        64,
+        128,
+        90
+      ],
+      "permutation_sha256": "8d3b9d208ec84f1c5d0304c3b1d14372f9030e58fbc22cf36ab20372d97ced2f",
+      "wall": 0.5538879520026967
+    },
+    {
+      "cpu": 0.517915087,
+      "lam": 0.39912962913513184,
+      "layer": 0,
+      "loss": 0.5197434425354004,
+      "mixed_feature_sha256": "e0caea5b46678c574a5101e933b0dfd96afdd00228c38bab567ec1d76beafc02",
+      "mixed_feature_shape": [
+        64,
+        567,
+        90
+      ],
+      "permutation_sha256": "f0ce151a23215f25bfe1c6a8fb106fd4c80b604acbd446d7932a5fd33a4b6318",
+      "wall": 0.5179241489968263
+    },
+    {
+      "cpu": 0.4975792389999998,
+      "lam": 0.6884564757347107,
+      "layer": 2,
+      "loss": 0.44132566452026367,
+      "mixed_feature_sha256": "cf37c0a316656feecf53e72c68b3663cb805cd8cbe24d6459ae861df5debb4fd",
+      "mixed_feature_shape": [
+        64,
+        128,
+        90
+      ],
+      "permutation_sha256": "2db38292e7c6d18870c76f9601c9466affa38289f0d821e5ca033200f18ed677",
+      "wall": 0.4975864099978935
+    },
+    {
+      "cpu": 0.48289801000000043,
+      "lam": 0.496567040681839,
+      "layer": 1,
+      "loss": 0.3921394348144531,
+      "mixed_feature_sha256": "9202e65210f72125eccf9365f0db3680dd375625cf65d57e0735d140cac001ab",
+      "mixed_feature_shape": [
+        64,
+        128,
+        90
+      ],
+      "permutation_sha256": "f4b890132a509246a6315f6c8d34652eb3220c03f62de04ce67594e6c84a1279",
+      "wall": 0.4829049960098928
+    },
+    {
+      "cpu": 0.5971723529999995,
+      "lam": 0.8255988359451294,
+      "layer": 1,
+      "loss": 0.33265039324760437,
+      "mixed_feature_sha256": "562278db381bf108bfa6f96d93ee81a8b6847e600e3ad784c12c796f9f8785ae",
+      "mixed_feature_shape": [
+        64,
+        128,
+        90
+      ],
+      "permutation_sha256": "1e7705de04a4b7ba32dc1628334ffa8938bdfe282a6a3803e3c6648d4d24d356",
+      "wall": 0.5972769689979032
+    },
+    {
+      "cpu": 0.5710699200000002,
+      "lam": 0.8574102520942688,
+      "layer": 1,
+      "loss": 0.2855357229709625,
+      "mixed_feature_sha256": "8155de5087643de1705b69602580e5880dabf0ff79c3b055e3f7bee04ebc0306",
+      "mixed_feature_shape": [
+        64,
+        128,
+        90
+      ],
+      "permutation_sha256": "b1fd03db0f66de16abb05a857ed1f65418173fd664f76bcf21a0c50da4bb0863",
+      "wall": 0.5710864520078758
+    },
+    {
+      "cpu": 0.5809918339999998,
+      "lam": 0.472893089056015,
+      "layer": 0,
+      "loss": 0.30148205161094666,
+      "mixed_feature_sha256": "fbd62a58758be8e2abbd0c99f1c23859a36484ec35955280a5b8bbf7f6d07ae9",
+      "mixed_feature_shape": [
+        64,
+        567,
+        90
+      ],
+      "permutation_sha256": "b910f340aea23d494ca6ae29b7952c9c9c0933815291c6951bcf7b4d9750353b",
+      "wall": 0.5809917449951172
+    }
+  ],
+  "validation": [
+    {
+      "cpu": 0.12755925900000076,
+      "wall": 0.1275570180005161
+    },
+    {
+      "cpu": 0.12501313100000022,
+      "wall": 0.12502553100057412
+    },
+    {
+      "cpu": 0.12666834799999993,
+      "wall": 0.12666663400887046
+    }
+  ],
+  "wall_seconds": 4.928409223997733
+}
