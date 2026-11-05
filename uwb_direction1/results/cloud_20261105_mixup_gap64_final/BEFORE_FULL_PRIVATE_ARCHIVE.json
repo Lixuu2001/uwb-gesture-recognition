@@ -1,0 +1,28 @@
+{
+  "actual_final_native_state_sha256": "d09bb31aad6afca0d81b1ac306111fb5f2619959ccb8dc47591f7832ad4448bf",
+  "actual_terminal_cost": {
+    "completed": [
+      "train",
+      "replay",
+      "output"
+    ],
+    "cpu": 5635.349566,
+    "diagnostic_labels_read": false,
+    "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+    "users7_8_labels_used": false,
+    "wall": 5638.780988839004
+  },
+  "all4736_update_rows_equal": true,
+  "all65_epoch_records_equal": true,
+  "diagnostic_labels_read": false,
+  "finalizer_lock_absent": true,
+  "frozen_outputs_sha256": "80d84f45fb03b18b4db4a66089d4bd1eaf4d118f8d2b2152c1750ba62bf93c17",
+  "observed_unix": 1793867521.897974,
+  "once_scorer_sha256": "fb617ce99700d0d35fee1cc946d2a0aaa5de5cede10acce9d53cebdc4af81145",
+  "own_epochs": 64,
+  "producer_epochs": 64,
+  "state": "all_training_replay_outputs_and_native_corrections_verified_before_full_private_archive",
+  "summary_absent": true,
+  "updates_each": 4736,
+  "users7_8_labels_used": false
+}

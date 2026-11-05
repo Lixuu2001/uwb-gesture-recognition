@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "mixup_GAP64_complete_producer_and_own16_privately_insured_full_replay_running",
+  "state": "close_exact_input_Mixup_alpha1_GAP64_B64_seed20261029_no_rescue",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-05 bootad409b48; CPU quota4/RAM16GiB; completed GAP64+Mixup producer; original controller12536 independent fresh replay12890 1thread; Torch2.15.0+cpu NumPy2.3.5 Python3.12.14; no GPU",
+  "compute": "2026-11-05 cloud CPU quota4/RAM16GiB; completed GAP64+input Mixup pilot and full64 fresh replay/output audit; Torch2.15.0+cpu NumPy2.3.5 Python3.12.14; no active fitting/no GPU",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixup_gap64_producer_complete_replay_insurance01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixup_gap64_final/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793864809.5154471,
-  "background_training_pid": 12536,
-  "background_training_status_note": "Actual complete producer64/4736 exit0 and own replay16/1184+71row checkpoint privately10part raw/allmember verified. Same controller12536/fresh replay12890 now observed epoch25; full64/selected-output audit and full pilot private recovery before original once diagnostics. Completion alias corrected in separate preserved native receipt. No score/reset/science change.",
+  "background_training_observed_unix": 1793868000.0310621,
+  "background_training_pid": null,
+  "background_training_status_note": "Original once-only post-full-private-backup source1 gate exit0: Mixup96.583333% vs matched GAP98.416667%, −1.833333pp; exact alpha1/GAP64/B64/64epochs/seed configuration closed. Full64 fresh replay/output audits passed; no active fit or new accuracy improvement/novelty.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11537,5 +11537,25 @@
   "new_accuracy_result": false,
   "scientific_code_modified": false,
   "budget_reset": false
+}
+,
+  "mixup_gap64_final_20261105": {
+  "report": "results/cloud_20261105_mixup_gap64_final/RUN_REPORT.md",
+  "method": "input_Mixup_alpha1_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "diagnostic_macro": 0.9658333333333334,
+  "reference_macro": 0.9841666666666667,
+  "difference": -0.018333333333333313,
+  "predeclared_gate_passed": false,
+  "exact_configuration_closed": true,
+  "finalizer_invocations": 1,
+  "private_full_archive_sha256": "637f54621090502246fa2ba6c5054fe4abce97810a5c11022b12780217c0e7d4",
+  "private_full_archive_parts": 13,
+  "full64_fresh_replay_complete": true,
+  "diagnostic_labels_read": true,
+  "accuracy_improvement_proven": false,
+  "legacy8fold_improvement_proven": false
 }
 }

@@ -1,0 +1,32 @@
+{
+  "actual_checkpoint_file_sha256": "5424e46a61567daf41ef0193d5eed807f729c8f442de53aafff444e21555276e",
+  "actual_final_matches_epoch64_journal_record": true,
+  "actual_final_native_state_sha256": "d09bb31aad6afca0d81b1ac306111fb5f2619959ccb8dc47591f7832ad4448bf",
+  "actual_termination": {
+    "cumulative": {
+      "cpu": 5624.240267,
+      "wall": 5626.7533402789995
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "diagnostic_labels_read": false,
+  "epochs": 64,
+  "inner_validation_best_model_verified": true,
+  "models_or_scientific_code_modified": false,
+  "native_model_optimizer_all_RNG_recapture_exact": true,
+  "new_forward_or_optimizer_update": false,
+  "observed_unix": 1793867422.0220475,
+  "original_completion_record_modified": false,
+  "original_completion_record_sha256": "46e3c52298e54611f5f96b8361edbf1392ae6aa7b14cb0339acaa0506a428fc3",
+  "original_misnamed_final_state_sha256": "05d6f0346e7ee97382004707bac8c1b19ab572bf92e9e63971d42171be7435d8",
+  "reconstructed_selected_weight_alias_sha256": "05d6f0346e7ee97382004707bac8c1b19ab572bf92e9e63971d42171be7435d8",
+  "selected_epoch": 39,
+  "selected_outputs_original_hashes_verified": true,
+  "stage": "replay",
+  "state": "pass_actual_native_final_state_and_selected_alias_metadata_explained",
+  "updates": 4736,
+  "users7_8_labels_used": false
+}
