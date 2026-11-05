@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "DSU_real_GAP64_original_producer_active_first_native_update_and_private_checkpoint_verified",
+  "state": "DSU_producer64_complete_OWNfresh64_replay_active_unscored_EFDMix_conditional_synthetic_pass",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_dsu_gap64_launch/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_dsu_gap64_producer64_replay_insurance01/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793902898.31757,
-  "background_training_pid": 26890,
-  "background_training_status_note": "DSU original producer26890/controller26889 active epoch9; first actual native audit exited0 and current full native state/RNG exact. Private5part136payload checkpoint raw/everymember pass. Science16 unchanged; no DSU diagnostic score. Readonly completion observer26913 active.",
+  "background_training_observed_unix": 1793906951.990541,
+  "background_training_pid": 27435,
+  "background_training_status_note": "DSU originalproducer64 exit0/4736; OWNfreshreplay PID27435 observed49/64. Completeproducer+OWN33 privateinsurance11parts verified; notFULL/scoring. EFDMix conditional alpha.1/p.5/early0 fullnative checks/onecost pass, no realfit/diagnostic.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -12807,5 +12807,49 @@
   "diagnostic_labels_read": false,
   "new_accuracy_result": false,
   "large_authority_empty_connector_text_Git_pack_fallback": true
+}
+,
+  "dsu_gap64_producer64_replay_insurance01_20261105": {
+  "report": "results/cloud_20261105_dsu_gap64_producer64_replay_insurance01/RUN_REPORT.md",
+  "method": "published_DSU_p.5_factor1_allnative01_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "replay_observed_epoch": 49,
+  "active_worker": {
+    "pid": 27435,
+    "startticks": 13556288,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "cpu": 1962.42
+  },
+  "archive_parts": 11,
+  "archive_bytes": 76076308,
+  "archive_sha256": "f11e7bc8b85e2e35f3905bd3eae0a28692d5fbf7c202ef6465d64a8ba6c88741",
+  "archive_payloads": 343,
+  "complete_modelset_verified": false,
+  "diagnostic_labels_read": false,
+  "new_accuracy_result": false,
+  "EFDMix_conditional_preparation": {
+    "state": "published_EFDMix_random_fixed_full_native_component_synthetic_checks_and_one_capacity_pass_before_DSU_diagnostic",
+    "frozen_files": 11,
+    "frozen_manifest_sha256": "505b8eb6c4f095c6da80217b4f00680efe42a5edc102da377aea9f3d66c16165",
+    "synthetic_result_sha256": "bf6f6e3a94c4c81e9176a0cd8ec290ee2f0e620607987ea56b191c1454cbcfc9",
+    "resource_result_sha256": "fccfe38cd704a5d48f466699310c66b3b165754edd2715e0a03abd13d5c061e7",
+    "synthetic_actual_exit_code": 0,
+    "profile_actual_exit_code": 0,
+    "projected_seconds": {
+      "wall": 12644.965335096931,
+      "cpu": 12641.604022172001
+    },
+    "maxRSS_KiB": 594596,
+    "configuration_fixed_before_DSU_diagnostic": true,
+    "DSU_diagnostic_read": false,
+    "new_UWB_fit_started": false,
+    "users7_8_labels_used": false,
+    "original_contribution_claim": false,
+    "independent_validation": false
+  }
 }
 }

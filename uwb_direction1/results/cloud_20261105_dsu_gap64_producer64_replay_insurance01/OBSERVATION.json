@@ -1,0 +1,63 @@
+{
+  "budget_reset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 5.91,
+    "pid": 26889,
+    "startticks": 13304582,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "new_experiment_or_duplicate_fit_started": false,
+  "observed_unix": 1793906334.6260138,
+  "producer_actual_termination": {
+    "cumulative": {
+      "cpu": 2514.157497,
+      "wall": 2514.6736794770113
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "13ed4bb8a0980b0d7e0e626c3300284454b54751e15b568bf1ca4aea4cf45c5b",
+    "epochs": 64,
+    "final_state_sha256": "0a1ff80dacbdbb5c02622720ae65750a489bed29d98e40f6a03f7a8cd0cdf329",
+    "selected_epoch": 26,
+    "selected_sha256": "ce814c6846413fbeee6c7a405cb9d9861ff17ef72615b0887cf544dd3ee75bab",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "109c64fb97ebf57339fad5eb930656f6de7a3d58274ab4fe04e307aac34ceb65"
+  },
+  "replay_captured_log_rows": 2487,
+  "replay_progress": {
+    "checkpoint_sha256": "e5cca78cbea8414001cb66eccdb8da8d4cceca188f1388b4134c614e9b5c9690",
+    "epoch": 33,
+    "journal_sha256": "4ea435d3d3689fd963fdeea302755eeacb5025b22a59cbf77aa815d75b008167",
+    "prefix_bytes": 1098045,
+    "prefix_sha256": "46fa78278177a36ed594c000567843ef96ed5e028b4181f898a3273860f11f6a",
+    "slot": "slot1.pt",
+    "updates": 2442
+  },
+  "replay_suffix_bytes": 20280,
+  "replay_uncommitted_rows": 45,
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1345.32,
+    "pid": 27435,
+    "startticks": 13556288,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1751368,
+    "cpu": 3859.2474970000003,
+    "stage": "replay",
+    "wall": 3860.1762235850038
+  },
+  "scientific16_changed": false,
+  "state": "complete_DSU_producer64_and_coherent_OWN_fresh_replay_native_prefix_captured_unscored",
+  "users7_8_labels_used": false
+}
