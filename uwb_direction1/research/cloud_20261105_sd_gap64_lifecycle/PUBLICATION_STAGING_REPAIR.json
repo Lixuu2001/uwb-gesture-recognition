@@ -1,0 +1,17 @@
+{
+  "state": "pre_commit_metadata_reserved_field_duplicate_fixed_without_reexecution",
+  "actual_exit_code": 1,
+  "error": "TypeError: dict() got multiple values for keyword argument independent_validation",
+  "cause": "generic publication helper expanded equal reserved defaults as duplicate constructor keywords",
+  "before_helper_sha256": "a8e893d9bed139d67073767828736ba6e22099de194dbba5012634dba04174e3",
+  "after_helper_sha256": "bcdca752a300d230d985bddd5c77f12063999d9fbc516be86bbc469fcaf77d03",
+  "partial_untracked_stage_preserved": "FAILED_PUBLICATION_STAGING01",
+  "repair": "assert overlapping reserved metadata equals defaults then explicit dictionary update",
+  "original_parent_unchanged": "ef2024624ebdd6b974d4f7836a5fa138e29fffad",
+  "scientific20_changed": false,
+  "EFDMix_producer_restarted": false,
+  "SD_native_test_or_profile_reexecuted": false,
+  "new_SD_UWB_fit_started": false,
+  "diagnostic_labels_read": false,
+  "failed_attempt_created_commit": false
+}

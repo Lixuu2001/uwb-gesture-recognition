@@ -1,0 +1,21 @@
+{
+  "state": "pass",
+  "parameters": 617612,
+  "sd_reg": 0.1,
+  "seed": 20261029,
+  "raw_forward_batch": 64,
+  "original_pinned_DomainBed_update_categorical_CE_fixture_exact": true,
+  "full_native_pinned_update_with_explicit_BCE_clip_optimizer_adapters_all_BN_gradients_optimizer_RNG_exact": true,
+  "independent_logit_penalty_gradient_and_finite_differences_pass": true,
+  "uncentered_mean_B_times12_reduction_verified": true,
+  "zero_coefficient_native_baseline_exact": true,
+  "penalty_changes_full_native_update": true,
+  "native_Lookahead_slow6_disk7_allRNG_recovery_exact": true,
+  "evaluation_clean_native_exact_no_RNG": true,
+  "tail28_passed": true,
+  "no_UWB_arrays_or_labels_opened": true,
+  "new_UWB_fit_started": false,
+  "EFDMix_diagnostic_read": false,
+  "users7_8_labels_used": false,
+  "wall_seconds": 8.598290872992948
+}
