@@ -1,0 +1,59 @@
+{
+  "archive_bytes": 7482720,
+  "archive_sha256": "e6da79b2d1caa0a224029f8a6d5ee880002cc20ad4316053e21bcb22a595daf1",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1fGm102YmwnBEm_KannScLLKrdQogow2u",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "dsu_gap64_initial_20261105.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "33bc8f5a417268e4adb9d34fa9a33c5e286674c23abd66585d33dd25e729b141"
+    },
+    {
+      "bytes": 142688,
+      "download_verified": true,
+      "file_id": "1_g3O_vx-lpSfo7di7vfqUPpKjCyXCPVB",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 142688
+      },
+      "name": "dsu_gap64_initial_20261105.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "904c81a0a019cc3d50aea235beee74a23be4f5d33df3be28bc1f99c94d939549"
+    }
+  ],
+  "complete_initial_seed_not_trained_modelset": true,
+  "diagnostic_labels_read": false,
+  "members_manifest_sha256": "01a35662c5fd706d4a8771a807d970de173bceab3bfdcf85a194d106e16da956",
+  "scope": "fixed_DSU_GAP64_initial_model_roles_and_sources_before_UWB_fit",
+  "state": "initial_model_roles_sources_owner_only_raw_allmember_verified"
+}

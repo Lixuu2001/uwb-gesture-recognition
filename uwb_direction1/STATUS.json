@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "close_exact_MixStyle_alpha.1_p.5_random_early0_GAP64_B64_seed20261029_no_rescue",
+  "state": "DSU_conditional_activation_and_initial_private_seed_verified_requires_exact_release_then_single_real_launch",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixstyle_gap64_final/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_dsu_gap64_release/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793902003.2442138,
+  "background_training_observed_unix": 1793902369.6250343,
   "background_training_pid": null,
-  "background_training_status_note": "MixStyle original64/OWN64/audits/FULL private/original once complete: source197.416667% vs98.416667%, delta-1.000000pp, gate=False. Scorer consumed, no active model.",
+  "background_training_status_note": "Original MixStyle97.416667% vs98.416667%, gate failed/exact config closed/scorer consumed. Already registered DSU16/native/cost pass; actual prior failure activation and private initial2part89payload verified. No DSU real fit yet; exact release then ONE launch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Activate already registered DSU p.5/factor1/both native01/fullGAP64/B64/64epochs/seed20261029 only after actual prior-failure activation/private initial/exact REAL_RELEASE. No parameter/seed rescue or diagnostic sweep.",
-  "last_completed_update_utc": "2026-11-05T18:06:42.644534+00:00",
+  "last_completed_update_utc": "2026-11-05T18:12:00.699170+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -12755,5 +12755,26 @@
     "users7_8_labels_used": false
   },
   "new_accuracy_result": true
+}
+,
+  "dsu_gap64_release_20261105": {
+  "report": "results/cloud_20261105_dsu_gap64_release/RUN_REPORT.md",
+  "method": "published_DSU_p.5_factor1_allnative01_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "activation_complete": true,
+  "complete_trained_modelset": false,
+  "diagnostic_labels_read": false,
+  "frozen_sha256": "7f80d8e15a4aca9e872957715653eb0c54b6fd8e4af1f415f859c7cc26ea1e6e",
+  "initial_private_archive_sha256": "e6da79b2d1caa0a224029f8a6d5ee880002cc20ad4316053e21bcb22a595daf1",
+  "initial_private_bytes": 7482720,
+  "initial_private_parts": 2,
+  "initial_private_payloads": 89,
+  "initial_private_raw_every_member_verified": true,
+  "new_UWB_fit_started": false,
+  "once_scorer_sha256": "8d21402f39de0040058e8b6b0d28444d4374e3595fbcd669f68fada97664ecf7",
+  "prior_MixStyle_exact_gate_failed_closed": true,
+  "prior_MixStyle_summary_sha256": "d82f98f121db4f228f17e1e1b504fa6d301b0c6fd9f07a9bb304e6c8d1479af0"
 }
 }
