@@ -1,0 +1,33 @@
+{
+  "state": "all_complete_modelset_private_raw_chunks_verified_after_evidence_preserving_transfer",
+  "initial_transfer_errors": [
+    {
+      "i": 5,
+      "name": "temporal_cutmix_gap64_full_20261105.part005",
+      "file_id": null,
+      "stage": "upload",
+      "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+    }
+  ],
+  "one_retry_recovery_receipts": [
+    {
+      "state": "one_explicit_retry_after_proven_absence_then_known_ID_private_raw_verified",
+      "index": 5,
+      "file_id": "1gm7Vxo_IcuxROrKA8pIj6TukXwqvajoz",
+      "upload_retries": 1,
+      "known_ID_readback_reuploaded": false,
+      "verified": true
+    }
+  ],
+  "known_ID_raw_recovery_parts": [
+    5
+  ],
+  "all_chunks_verified": 13,
+  "known_ID_reuploaded": false,
+  "raw_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "max_complete_pipelines": 3,
+  "diagnostic_labels_read": false
+}
