@@ -1,0 +1,36 @@
+{
+  "state": "intermediate_native_checkpoint_streamed_not_complete_pilot",
+  "scope": "intermediate_Mixup_GAP64_producer_native_checkpoint_not_complete_pilot_or_scoring_authority",
+  "complete_modelset": false,
+  "tracked_payload_files": 221,
+  "members_manifest_sha256": "623a267ccf43b95c657fdfde47c3397a083a9ebbfbf54935c61bb00b96255a09",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 28947106,
+  "archive_sha256": "6f070fdd42b92ffd6887cdfa99c22ea7ed1eb6b1c6740d447cc615aca5a7ad8f",
+  "chunks": [
+    {
+      "name": "mixup_gap64_checkpoint_insurance01_20261105.part000",
+      "bytes": 7340032,
+      "sha256": "82222d4574b317e1b14df482bf0b168ea3b5d3235f7b69de74ff44d8b36d16bf"
+    },
+    {
+      "name": "mixup_gap64_checkpoint_insurance01_20261105.part001",
+      "bytes": 7340032,
+      "sha256": "4a1a2959fec2bb3992fe822a930fb276a71026cfc6dd79b1f2e2247a847dbe1d"
+    },
+    {
+      "name": "mixup_gap64_checkpoint_insurance01_20261105.part002",
+      "bytes": 7340032,
+      "sha256": "c1eb324cf2faef814dd7a2a698165cea25b5ec05a4342ddedf358a592423e277"
+    },
+    {
+      "name": "mixup_gap64_checkpoint_insurance01_20261105.part003",
+      "bytes": 6927010,
+      "sha256": "3e9a15f0ebb44eb8769b5c1d3f1636ac7bf1e5d6078c2cae67a1b4960ae31414"
+    }
+  ],
+  "final_scoring_authority": false,
+  "full64_training_complete": false
+}

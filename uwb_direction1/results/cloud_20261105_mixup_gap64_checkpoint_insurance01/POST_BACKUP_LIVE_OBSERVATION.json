@@ -1,0 +1,41 @@
+{
+  "budget_reset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 5.18,
+    "pid": 12536,
+    "startticks": 9136657,
+    "state": "S"
+  },
+  "current_stage": "train",
+  "diagnostic_labels_read": false,
+  "full64_replay_complete": false,
+  "new_fitting_started_by_observation": false,
+  "observed_unix": 1793863543.9140687,
+  "producer_complete": false,
+  "producer_progress": {
+    "checkpoint_sha256": "5424e46a61567daf41ef0193d5eed807f729c8f442de53aafff444e21555276e",
+    "epoch": 64,
+    "journal_sha256": "6f6aa3c166396fb7235486ae648b44490e00ebceb3c84635534c248835294f7a",
+    "prefix_bytes": 2100554,
+    "prefix_sha256": "2f3ce4660cf637c131044a8a93f61e0abadeb901995bdccf149fb597ea00a083",
+    "slot": "slot0.pt",
+    "updates": 4736
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1697964,
+    "cpu": 2747.507889,
+    "stage": "train",
+    "wall": 2748.5211536770075
+  },
+  "scientific_configuration_changed": false,
+  "state": "same_original_registered_controller_healthy_no_scoring",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2742.14,
+    "pid": 12537,
+    "startticks": 9136892,
+    "state": "R"
+  }
+}

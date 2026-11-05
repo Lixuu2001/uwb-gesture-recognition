@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "mixup_GAP64_real_training_first_update_and_native_checkpoint_verified",
+  "state": "mixup_GAP64_real_training_native_checkpoint_privately_insured",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixup_gap64_launch/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixup_gap64_checkpoint_insurance01/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793861003.9260547,
+  "background_training_observed_unix": 1793863698.314039,
   "background_training_pid": 12536,
-  "background_training_status_note": "Actual Mixup alpha1/full GAP64/B64/seed20261029 controller12536 worker12537 running. First actual update independently exact/audit exit0; observed native committed epoch2/148updates and full RNG/state/prefix verified. No new diagnostic truth/accuracy; full64 and fresh replay pending. Initial private seed archive verified; no reset/duplicate.",
+  "background_training_status_note": "Same original fixed Mixup/GAP64 controller12536; observed stagetrain, producer_complete=False. Producer57/4218+29log-row native checkpoint fully private4part raw/allmember verified. Full64 own replay/output audit and full private modelset before once diagnostics; no score or reset.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11471,5 +11471,25 @@
   "new_accuracy_result": false,
   "initial_private_archive_sha256": "7dbfb56c2ec1c61a91af9b8ae03c796ed5cecb1bcff240bb8d765118d96189bd",
   "Git_ref_transport_recovered_nonforce": true
+}
+,
+  "mixup_gap64_checkpoint_insurance01_20261105": {
+  "report": "results/cloud_20261105_mixup_gap64_checkpoint_insurance01/RUN_REPORT.md",
+  "method": "input_Mixup_alpha1_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "captured_committed_epoch": 57,
+  "captured_updates": 4218,
+  "captured_uncommitted_rows": 29,
+  "checkpoint_archive_sha256": "6f070fdd42b92ffd6887cdfa99c22ea7ed1eb6b1c6740d447cc615aca5a7ad8f",
+  "checkpoint_complete_pilot_modelset": false,
+  "producer_complete": false,
+  "own_replay_progress": null,
+  "full64_replay_complete": false,
+  "diagnostic_labels_read": false,
+  "new_accuracy_result": false,
+  "scientific_configuration_changed": false,
+  "budget_reset": false
 }
 }
