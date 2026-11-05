@@ -1,0 +1,14 @@
+{
+  "state": "local_sync_pre_reset_false_positive_repaired_with_all30_physical_bytes_verified_against_published_commit",
+  "failure": "pre-reset git diff EXPECTED included26 D entries for newly published files still untracked in parent index despite physically exact files; assertion stopped before local reset",
+  "no_remote_publication_or_payload_error": true,
+  "published_commit": "7f7812c064aab3cb7ad70f8fb20547ae7c1d4b61",
+  "parent": "0f98ebc8de729e10222aa6910f0c992896330d3e",
+  "repair": "verified FETCH_HEAD and sole parent, all physical30files vs exact published blobs and changed-path whitelist; then mixed index/HEAD reset to SAME verified commit; final clean check passed",
+  "all30_physical_files_equal_published_blobs": true,
+  "worktree_clean_after_sync": true,
+  "original789_unchanged": true,
+  "scientific16_or_model_RNG_changed": false,
+  "force": false,
+  "new_fit_or_diagnostic_score": false
+}
