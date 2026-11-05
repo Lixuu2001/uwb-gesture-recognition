@@ -1,0 +1,63 @@
+{
+  "budget_reset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 7.28,
+    "pid": 21233,
+    "startticks": 11836898,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "new_experiment_or_duplicate_fit_started": false,
+  "observed_unix": 1793892459.8944228,
+  "producer_actual_termination": {
+    "cumulative": {
+      "cpu": 2730.4679929999998,
+      "wall": 2731.3372940389963
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "857e0d2b350cc0f6e4f9454f6ecbeb125641bda014db0d95432cab226a11d807",
+    "epochs": 64,
+    "final_state_sha256": "51f5bf9a76ef63859bd2edf27af39692ea2391d956fbf4c169cd88bfed05dc01",
+    "selected_epoch": 48,
+    "selected_sha256": "ec905439e6b928a181b91ef747f73f9ae040cd95ea555006eae6deca6fcd1307",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "ec34501d1836e5d204355550005cbfb3cebae10aa38807b5ffd401f04d881c8d"
+  },
+  "replay_captured_log_rows": 3452,
+  "replay_progress": {
+    "checkpoint_sha256": "27c9d4308ce69d86377e01149b8df4de7fe5c6de815f980edd4f5f3e53cdea85",
+    "epoch": 46,
+    "journal_sha256": "2cd75d3e22bb486d96220fd45a8b3990362f31251147decc7493d3468bf4e70d",
+    "prefix_bytes": 1975128,
+    "prefix_sha256": "04580abe28dbe3d22c228259a485ad929e4de88c7ee0903fbb34716ea855719b",
+    "slot": "slot0.pt",
+    "updates": 3404
+  },
+  "replay_suffix_bytes": 27709,
+  "replay_uncommitted_rows": 48,
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1930.35,
+    "pid": 21915,
+    "startticks": 12110284,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1688688,
+    "cpu": 4660.457993,
+    "stage": "replay",
+    "wall": 4662.019265354
+  },
+  "scientific20_changed": false,
+  "state": "complete_temporal_CutMix_producer64_and_coherent_OWN_fresh_replay_native_prefix_captured_unscored",
+  "users7_8_labels_used": false
+}

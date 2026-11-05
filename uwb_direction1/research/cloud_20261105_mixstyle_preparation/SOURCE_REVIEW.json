@@ -1,0 +1,28 @@
+{
+  "paper": "Zhou,Yang,Qiao,Xiang,Domain Generalization with MixStyle,ICLR2021",
+  "paper_url": "https://openreview.net/forum?id=6xHJ37MVxxp",
+  "author_source_commits": {
+    "KaiyangZhou/mixstyle-release": "16f7cf1fe2c7b1b3c660c72b32817ebb0545397a",
+    "KaiyangZhou/Dassl.pytorch": "c61a1b570ac6333bd50fb5ae06aea59002fb20bb"
+  },
+  "evidence_scope": "full official README/source class/license; targeted ResNet placement code; full paper not read this turn",
+  "official_defaults": {
+    "p": 0.5,
+    "alpha": 0.1,
+    "eps": 1e-06,
+    "mix": "random"
+  },
+  "adaptation": "unmodified 4D author class on B,C,T,1; one early complete native block because final block is closest to prediction; not full author ResNet training/placement recipe",
+  "old_exact_configuration": "Right-only dual-branch projected features, per-record p.25/fixed10percent donor/sameclass_crossuser/NumPy_rng/population_variance/seed2026/40epochs",
+  "old_history_paths": [
+    "original/project/experiments/p1_20260905/mild_style_augmentation/COMPLETION.md",
+    "original/project/docs/superpowers/specs/2026-09-09-mild-style-augmentation-design.md"
+  ],
+  "equivalent_rerun": false,
+  "source_scientific_claims": "full617612native model remains full width/two complete blocks; author image CNN experiment not reproduced, no original method claim",
+  "activation": "only_if_current_CutMix_original_once_gate_fails_then_separate_full_production_preregistration_tests_private_initial_release",
+  "current_CutMix_diagnostic_read": false,
+  "users7_8_labels_used": false,
+  "old_result_user_equal_accuracy": 0.706646,
+  "old_control_user_equal_accuracy": 0.712913
+}

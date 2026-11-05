@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-mixstyle-gap-preparation-20261105/native_checks.py", line 32, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-mixstyle-gap-preparation-20261105/native_checks.py", line 22, in main
+    a=e.torch.from_numpy(rng.normal(size=(7,3,9,1))).requires_grad_();w=e.torch.from_numpy(rng.normal(size=(7,3,9,1)));unit=author()(p=1.,alpha=.1,eps=1e-6);random.seed(8);e.torch.manual_seed(8);pr=random.getstate();tr=e.torch.get_rng_state().clone();v=unit(a);post=(random.getstate(),e.torch.get_rng_state().clone());random.setstate(pr);e.torch.set_rng_state(tr);random.random();mu=a.mean((2,3),keepdim=True).detach();sig=(a.var((2,3),keepdim=True)+1e-6).sqrt().detach();lam=e.torch.distributions.Beta(.1,.1).sample((7,1,1,1));perm=e.torch.randperm(7);sm=sig*lam+sig[perm]*(1-lam);expected=(a-mu)/sig*sm+mu*lam+mu[perm]*(1-lam);e.torch.testing.assert_close(v,expected,rtol=0,atol=0);e.torch.testing.assert_close(e.torch.autograd.grad((v*w).sum(),a)[0],w*sm/sig,rtol=1e-14,atol=1e-14);assert random.getstate()==post[0] and e.torch.equal(e.torch.get_rng_state(),post[1])
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/agent/.local/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1689, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not equal!
+
+Mismatched elements: 50 / 189 (26.5%)
+Greatest absolute difference: 2.220446049250313e-16 at index (1, 1, 0, 0)
+Greatest relative difference: 2.9096954022197512e-15 at index (6, 2, 6, 0)

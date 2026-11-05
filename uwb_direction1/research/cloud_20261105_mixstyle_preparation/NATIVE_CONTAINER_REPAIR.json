@@ -1,0 +1,16 @@
+{
+  "state": "pre_fit_native_container_API_fault_fixed_with_original_failure_preserved",
+  "failure": "TypeError len(InceptionTimeFeatureExtractor): wrapper is not Sequential; actual two-block sequence is instance_encoder",
+  "repair": "same intended first complete InceptionBlock now accessed through feature_extractor.instance_encoder[0]; reference uses that same documented native sequence",
+  "failed_actual_exit": 1,
+  "failed_profile_started": false,
+  "old_sources_and_termination_log": "attempt01",
+  "before_sha256": {
+    "engine.py": "9844a29b7ee66a4dfe3bd5bb3658c4d355e63e3bbba1d0a9d7f72e27e28ede79",
+    "native_checks.py": "75fa04f14165e68547f0f33a904bc3be50893deb8ac20b2c58b518607dc6ff70",
+    "PROBE_HASHES.json": "4ff5a5adfed160f191bc47b357c31adf0a83a89efdf9e67e1b73e7880d1e3be2"
+  },
+  "new_UWB_fit_or_labels": false,
+  "current_CutMix_modified": false,
+  "hyperparameters_seed_insertion_changed": false
+}

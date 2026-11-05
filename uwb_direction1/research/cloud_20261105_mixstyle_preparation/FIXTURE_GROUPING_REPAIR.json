@@ -1,0 +1,12 @@
+{
+  "state": "independent_fixture_floating_addition_grouping_fixed_no_algorithm_change",
+  "failed_actual_exit": 1,
+  "observed_max_absolute_difference": 2.220446049250313e-16,
+  "cause": "independent algebraic expansion used left-associated three-term addition while author precomputes mu_mix then adds it once",
+  "repair": "match author arithmetic grouping for bit-exact output comparison; retain independent gradient check tolerance1e-14; did not relax exact native-model comparisons",
+  "previous_native_logits_BN_gradients_eval_RNG_checks_already_passed": true,
+  "profile_ever_started": false,
+  "author_or_engine_or_config_seed_changed": false,
+  "prior_failure_preserved": "attempt02",
+  "new_UWB_fit_or_labels_read": false
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-mixstyle-gap-preparation-20261105/native_checks.py", line 32, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-mixstyle-gap-preparation-20261105/native_checks.py", line 10, in main
+    m,o,g=e.make();initial=copy.deepcopy(e.capture(m,o,g,0,0));assert e.semantic(initial['model'])==e.c['matched_initial_model_state_sha256']
+          ^^^^^^^^
+  File "/workspace/uwb-mixstyle-gap-preparation-20261105/engine.py", line 21, in make
+    assert len(m.feature_extractor)==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'InceptionTimeFeatureExtractor' has no len()
