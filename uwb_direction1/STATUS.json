@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "RegMixup_GAP64_producer64_OWN_replay45_privately_verified_live52_exact_unscored",
+  "state": "RegMixup_GAP64_full64_OWNfresh64_audited_unscored_full_private_upload_in_progress",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_regmixup_gap64_producer64_replay_insurance02/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_regmixup_gap64_audited/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793885756.518576,
-  "background_training_pid": 16664,
-  "background_training_status_note": "Original RegMixup complete64 producer frozen, OWN fresh replay observed52/3848 exact and native-restorable. Complete producer+own45/3330+11suffix private11part/359payload raw/allmember verified, two missing-ID upload errors repaired by proven absence+one retry each. Original observer waits/audits/builds only. Full64replay/output/finalprivate/oncegate pending; conditional CutMix production tested but unfitted.",
+  "background_training_observed_unix": 1793886725.2673938,
+  "background_training_pid": null,
+  "background_training_status_note": "Original RegMixup64/OWNfresh64/output all exited0;65records/4736updates/native states/selected outputs exact, controller inactive. Actual FULL13part/399payload archive built and private raw upload in progress, not yet fully certified. Diagnostic unscored; original once blocked until complete private proof; conditional CutMix unfitted.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -12096,5 +12096,29 @@
   "diagnostic_labels_read": false,
   "new_UWB_fit_started": false,
   "new_accuracy_result": false
+}
+,
+  "regmixup_gap64_audited_20261105": {
+  "report": "results/cloud_20261105_regmixup_gap64_audited/RUN_REPORT.md",
+  "method": "RegMixup_alpha20_clean_plus_mixed_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "epoch_records_exact": 65,
+  "updates_per_trajectory": 4736,
+  "selected_epoch": 37,
+  "native_final_sha256": "9105d54f7effed0aa242d1b675741628e4fa57f1e77504948bbefa5292bd1c83",
+  "all_actual_model_exits_zero": true,
+  "full_archive_parts": 13,
+  "full_archive_bytes": 94376954,
+  "full_archive_payloads": 399,
+  "full_archive_sha256": "377307f68db32249341e2862796cf02fa8440241cac9bdcf38ba9ba5b9d56b48",
+  "complete_private_modelset_verified": false,
+  "diagnostic_labels_read": false,
+  "once_gate_consumed": false,
+  "new_accuracy_result": false,
+  "scientific16_changed": false
 }
 }
