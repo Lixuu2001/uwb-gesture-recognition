@@ -1,0 +1,86 @@
+{
+  "state": "complete_audited_modelset_streamed_to_chunks",
+  "scope": "fixed_temporal_CutMix_GAP64_full_pilot_models_audits_outputs_before_once_gate",
+  "complete_modelset": true,
+  "shared_initial_encoder_included_once": false,
+  "tracked_payload_files": 412,
+  "members_manifest_sha256": "eeb2a2d532f4ee8086eb9eb81a4af03b5b29c8d4e5103825bdc57bde9d65fe4f",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "whole_job_resume": false,
+  "archive_bytes": 94432693,
+  "archive_sha256": "149299d2aca4813575362cc26d7b5e0c963175ae67b9d7611e2b3a4f4d0dc5c0",
+  "chunks": [
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part000",
+      "bytes": 7340032,
+      "sha256": "e84f589db9b05ac7a516b5c7bfb969b6d234000c4cf829830616d2e3e7d9f33e"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part001",
+      "bytes": 7340032,
+      "sha256": "13042e9caaaff41b07268b332749bc2b2a8ae3c710b1c19946f2fce4029f4f04"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part002",
+      "bytes": 7340032,
+      "sha256": "7093cb156ef09efd6a2f6974638c4859de3244e93fab9ef6c6a9b007762ca0c5"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part003",
+      "bytes": 7340032,
+      "sha256": "444bea339932dbb4cef4e95a1ed9f9c5f31073f341b4da981e4d3f6ec8e6e9b9"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part004",
+      "bytes": 7340032,
+      "sha256": "acca844b4c055467c9c5586fc6eed70eae8f2a91f81bf28b7ed71f0044866e6a"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part005",
+      "bytes": 7340032,
+      "sha256": "0e931b24d1ec8d3d648e0ff3e131393336d856027b0b319a7755e36082bfbb86"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part006",
+      "bytes": 7340032,
+      "sha256": "6f313064f27485a55f0f58d699e09901dff98e929cfaef93635a9ba1d2186d3d"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part007",
+      "bytes": 7340032,
+      "sha256": "8b256a00cfba65cf7b27b24ad3eb956cf8a88959dc57984dfcb6c5f3543b865d"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part008",
+      "bytes": 7340032,
+      "sha256": "1abe1dc36355b6b6686a0a2b0832b5868b281ac0b2e46b5344271b3a8aad07ad"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part009",
+      "bytes": 7340032,
+      "sha256": "c44e714978e7024219309d40a89ac6fca680bf94a1cbbf3bbb73c4f50aa49600"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part010",
+      "bytes": 7340032,
+      "sha256": "d5a8640a6da1e15e240ab3fb2ede20ee3bc1502ecfa7af219149e24cf5249e76"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part011",
+      "bytes": 7340032,
+      "sha256": "9112ce62605206a3fad056eded4ff4398632881c7b4157beda114b50333f56f5"
+    },
+    {
+      "name": "temporal_cutmix_gap64_full_20261105.part012",
+      "bytes": 6352309,
+      "sha256": "fbe7aa734aed259610de056ccd0c2a91b4e916143718fa0cc620cf08345974fd"
+    }
+  ],
+  "initial_state_lineage_copies": [
+    "study/initial.pt",
+    "run/train/initial.pt",
+    "run/replay/initial.pt"
+  ],
+  "description_repair": "inapplicable_generic_shared_initial_encoder_flag_only_no_payload_change"
+}

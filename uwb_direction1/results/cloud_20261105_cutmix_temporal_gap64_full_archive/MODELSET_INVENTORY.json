@@ -1,0 +1,21 @@
+{
+  "state": "archive_description_corrected_payload_unchanged",
+  "reason": "single full pilot retains three exact initial-state lineage copies; generic included-once flag inapplicable",
+  "as_built_manifest_sha256": "cb4fa88d2c0b1793691f8a5a44622c4bb583bbc2e426840f2bc9553d24933520",
+  "corrected_manifest_sha256": "94c9a2761690e94e3affa18deac75a287b03d5c040634402d59d10a2de7e54cd",
+  "archive_sha256": "149299d2aca4813575362cc26d7b5e0c963175ae67b9d7611e2b3a4f4d0dc5c0",
+  "members_manifest_sha256": "eeb2a2d532f4ee8086eb9eb81a4af03b5b29c8d4e5103825bdc57bde9d65fe4f",
+  "initial_state_lineage_paths": [
+    "study/initial.pt",
+    "run/train/initial.pt",
+    "run/replay/initial.pt"
+  ],
+  "initial_state_file_sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20",
+  "initial_state_file_bytes": 2542912,
+  "complete_native_initial_model_included": true,
+  "original_initial_guard_raw_chunks_external": true,
+  "initial_guard_persistent_index": "results/cloud_20261105_cutmix_temporal_gap64_release/initial_backup/CLOUD_DOWNLOAD_INDEX.json",
+  "chunk_or_member_bytes_changed": false,
+  "scientific_source_or_gate_changed": false,
+  "diagnostic_labels_read": false
+}

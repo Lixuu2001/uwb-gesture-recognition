@@ -1,0 +1,58 @@
+{
+  "state": "full64_producer_own_fresh64_replay_native_states_all65records_all4736steps_selected_output_audit_verified_unscored",
+  "observed_unix": 1793893198.0252042,
+  "original_controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.52,
+    "pid": 21233,
+    "startticks": 11836898,
+    "state": "R"
+  },
+  "controller_inactive": true,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "updates_per_trajectory": 4736,
+  "epoch_records_exact": 65,
+  "native_final_sha256": "51f5bf9a76ef63859bd2edf27af39692ea2391d956fbf4c169cd88bfed05dc01",
+  "canonical_terminal_digest_verified": true,
+  "full_optimizer_all_RNG_restore_recapture_exact": true,
+  "selected_epoch": 48,
+  "actual_terminations": {
+    "train": {
+      "cumulative": {
+        "cpu": 2730.4679929999998,
+        "wall": 2731.3372940389963
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5380.262508,
+        "wall": 5382.447938548998
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "output": {
+      "cumulative": {
+        "cpu": 5391.0742119999995,
+        "wall": 5393.468661516003
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "scientific_manifest_sha256": "c2f4d58fe08bb868a708abcf5dfd21d5f4bba4bdc302610049a488dd57398b4e",
+  "original_once_scorer_sha256": "1ea32dfb8808b9b0b0e941c9ed2fd9f69446b1c6261c99cd0830fe7c047d335d",
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "new_model_fit_started_by_observer": false,
+  "full_private_modelset_not_yet_uploaded": true
+}

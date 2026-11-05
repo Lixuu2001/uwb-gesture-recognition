@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "temporal_CutMix_GAP64_full64_OWN64_audited_unscored_full_private_pending_MixStyle_prepared",
+  "state": "temporalCutMix_GAP64_full64_OWNfresh64_private_modelset_verified_ready_for_original_once_gate",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-05 bootad409b48; actual ONE temporalCutMix controller21233/worker21234 running full617612parameter nativeGAP64, B64,1thread/CPU quota4/RAM16GiB/noGPU; RegMixup prior completed/closed.",
+  "compute": "2026-11-05 bootad409b48; original temporalCutMix64/OWN64/output completed, no active temporalCutMix model; CPU quota4/RAM16GiB/noGPU/1thread model",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_cutmix_temporal_gap64_audited/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_cutmix_temporal_gap64_full_archive/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793893375.1149728,
+  "background_training_observed_unix": 1793893882.4988213,
   "background_training_pid": null,
-  "background_training_status_note": "CutMix64/OWNfresh64/output actually exited0, all65records/4736updates/native/selected outputs exact, selected48. Full13part412payload private transfer in progress; partial producer64/OWN46 insurance11parts374payload allverified. Original once diagnostic UNREAD. Conditional default MixStyle full-native synthetic/recovery/resource checks passed, two prefit faults repaired/logged, no next real fit.",
+  "background_training_status_note": "Original temporalCutMix full64/OWNfresh64/output exited0 and exact, FULL private raw/allmember modelset verified. Diagnostic unscored; no active fit; original once gate pending; conditional MixStyle remains unfitted.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Exact RegMixup closed. Activate the already preregistered released temporalCutMix alpha1/p.8/fullGAP64/B64/64epochs/seed20261029 only after actual prior-failure proof, private initial raw/allmember release and exact REAL_RELEASE; no users7–8 selection, parameter rescue or diagnostic sweep.",
-  "last_completed_update_utc": "2026-11-05T13:59:24.396672+00:00",
+  "last_completed_update_utc": "2026-11-05T15:51:22.449317+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -12355,5 +12355,62 @@
   "conditional_MixStyle_one_fixed_capacity_gate_passed": true,
   "MixStyle_UWB_fit_started": false,
   "scientific20_changed": false
+}
+,
+  "cutmix_temporal_gap64_full_archive_20261105": {
+  "report": "results/cloud_20261105_cutmix_temporal_gap64_full_archive/RUN_REPORT.md",
+  "method": "released_temporal_CutMix_alpha1_p.8_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "epoch_records_exact": 65,
+  "updates_per_trajectory": 4736,
+  "selected_epoch": 48,
+  "native_final_sha256": "51f5bf9a76ef63859bd2edf27af39692ea2391d956fbf4c169cd88bfed05dc01",
+  "actual_terminations": {
+    "train": {
+      "cumulative": {
+        "cpu": 2730.4679929999998,
+        "wall": 2731.3372940389963
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5380.262508,
+        "wall": 5382.447938548998
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "output": {
+      "cumulative": {
+        "cpu": 5391.0742119999995,
+        "wall": 5393.468661516003
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "archive_parts": 13,
+  "archive_bytes": 94432693,
+  "archive_sha256": "149299d2aca4813575362cc26d7b5e0c963175ae67b9d7611e2b3a4f4d0dc5c0",
+  "archive_payloads": 412,
+  "complete_private_modelset_owner_only_raw_every_member_verified": true,
+  "original_once_scorer_sha256": "1ea32dfb8808b9b0b0e941c9ed2fd9f69446b1c6261c99cd0830fe7c047d335d",
+  "scientific20_changed": false,
+  "original789_changed": false,
+  "diagnostic_labels_read": false,
+  "once_gate_consumed": false,
+  "new_accuracy_result": false
 }
 }
