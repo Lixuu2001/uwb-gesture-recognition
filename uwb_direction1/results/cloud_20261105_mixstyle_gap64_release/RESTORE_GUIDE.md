@@ -1,0 +1,11 @@
+# Fixed MixStyle recovery
+
+Use current Git authorities and boot/PID/startticks before restoring or starting any model. This release initially contains untrained insurance, not an accuracy result. The frozen18 sources/configuration and author class reconstruct the early-block hook; preserve all Python/NumPy/Torch/order RNG and native Lookahead state.
+
+Private archive verification uses metadata before raw(download_raw_file=true,include_base64=false), immediate size/SHA and every member, max3 complete pipelines. Known IDs are reused without uploading; unknown IDs require exact-folder and global exact-name absence checks and a durable marker before at most one explicit retry. Keep owner-only permissions. Do not print authenticated URLs.
+
+Initial insurance maps study/ to the study root, operator/ to its operator folder, native_source/ to PROTOCOL.native_source, private_IDs/source_ids.npz to PROTOCOL.ids. Its actual CutMix summary/state/consumed lock map to PROTOCOL.prior_CutMix_summary parent. That gate is consumed and exact configuration closed: never rescore it. The subsequent FULL builder includes original initial raw transport chunks as well as proofs, making that guard recoverable from FULL; raw radar data, RMS maps and runtime remain external dependencies.
+
+For restored READBACK_INPUT change only local verified transport paths, retaining original IDs, metadata and bytes/SHA; preserve a path-remapping receipt. Full producer64 and independently fresh replay64 must each retain4736 updates/65 records and identical full native state and selected outputs. Existing controller refuses restart: recover only after proving inactivity and preserving interrupted costs/uncommitted rows, with cumulative43200wall/CPU/12GiB caps. Never replace replay with producer terminal weights.
+
+Full private modelset precedes the ORIGINAL release-bound once scorer. Preserve any newer SUMMARY/post-scoreSTATE/FINALIZE_ONCE.lock before restoring a pre-score archive. Exact alpha.1/p.5/random/early0/fullGAP64/B64/64/seed20261029 gate uses immutable noMixupGAP .9841666666666667+.005/tol1e-12. Failure closes exact configuration without rescue; positive only separately registered source6 confirmation. Users7–8 labels excluded; repeated user development exploratory; accuracy evidence and originality remain separate.

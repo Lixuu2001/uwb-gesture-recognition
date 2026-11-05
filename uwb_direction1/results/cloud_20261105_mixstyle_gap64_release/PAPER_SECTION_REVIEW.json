@@ -1,0 +1,19 @@
+{
+  "arxiv_HTML_and_PDF_accessible": true,
+  "findings": "Paper uses alpha.1 and p.5, detached per-instance statistics, random shuffling when domains are unused, disabled at evaluation. Original PACS experiment inserts after residual stages1,2,3; person retrieval favors stages1,2. Mixing final-stage statistics harms classification. Appendix code uses Torch variance. Our preregistered one-early-block 1D native-GAP transfer is distinct from both full ResNet recipes and the earlier class-conditional mild-style experiment.",
+  "openreview_browser_challenge": true,
+  "paper": "Zhou,Yang,Qiao,Xiang,Domain Generalization with MixStyle,ICLR2021",
+  "scope": "Targeted sections, not an assertion of line-by-line whole-paper reading.",
+  "sections_read": [
+    "2.2",
+    "3.1 implementation",
+    "3.4 placement analysis",
+    "A.1 algorithm",
+    "A.2 random vs domain labels"
+  ],
+  "settings_changed": false,
+  "source1_new_diagnostic_labels_read": false,
+  "state": "primary_paper_targeted_method_placement_appendix_read_after_configuration_fixed",
+  "url": "https://arxiv.org/html/2104.02008",
+  "version": "2104.02008v1"
+}

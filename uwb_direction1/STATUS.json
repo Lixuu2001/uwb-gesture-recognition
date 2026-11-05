@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "CutMix_exact_config_failed_closed_fixed_MixStyle_production_registered_unfitted",
+  "state": "MixStyle_GAP64_initial_private_seed_verified_requires_exact_real_release_then_single_launch",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixstyle_gap64_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixstyle_gap64_release/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793894648.2605088,
+  "background_training_observed_unix": 1793894982.5030534,
   "background_training_pid": null,
-  "background_training_status_note": "CutMix exact once gate failed98.5% vs98.416667%, +.083333point below+.5. Fixed published MixStyle alpha.1/p.5/random/early0 fullGAP64 production18 files; no new fitting; production checks and private initial release pending.",
+  "background_training_status_note": "Fixed MixStyle production18/native checks/one bounded capacity profile/prior exact failure activation and initial2part89payload owner-only raw/everymember pass. No real fit yet; exact release then one launch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -12505,5 +12505,26 @@
   "production_native_tests_complete": false,
   "initial_private_model_released": false,
   "diagnostic_labels_read": false
+}
+,
+  "mixstyle_gap64_release_20261105": {
+  "report": "results/cloud_20261105_mixstyle_gap64_release/RUN_REPORT.md",
+  "method": "author_MixStyle_alpha.1_p.5_random_early0_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "activation_complete": true,
+  "complete_trained_modelset": false,
+  "diagnostic_labels_read": false,
+  "frozen_sha256": "b6ef1547f8ac9ce0d8d8cc07027a4c7a240d409f853346659de5e78903a29dbb",
+  "initial_archive_sha256": "60dc8d573bbcc1ec91aaee685d55045aa828a688270ab97d03395024b687b486",
+  "initial_private_bytes": 7487635,
+  "initial_private_parts": 2,
+  "initial_private_payloads": 89,
+  "initial_private_raw_every_member_verified": true,
+  "new_UWB_fit_started": false,
+  "once_scorer_sha256": "2fba1d84bae43a4f8ed893e43b8eb776b944a56830737998c2a6c426a6571324",
+  "production_native_tests_passed": true,
+  "resource_gate_passed": true
 }
 }
