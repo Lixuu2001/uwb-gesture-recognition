@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Manifold_GAP64_exact_alpha2_random012_configuration_failed_gate_closed",
+  "state": "RegMixup_GAP64_fixed_preregistration_before_production_tests_or_real_UWB_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-05 bootad409b48; no active Manifold training: full64 producer/own64replay/output completed; CPU quota4/RAM16GiB, 1thread/model, no GPU",
+  "compute": "2026-11-05 bootad409b48; CPU quota4/RAM16GiB/noGPU; no active real model fit; fixed RegMixup production registration pending tests/private initial release",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_manifold_gap64_final/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_regmixup_gap64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793875269.223406,
+  "background_training_observed_unix": 1793875532.152545,
   "background_training_pid": null,
-  "background_training_status_note": "Manifold64/own64/audits/private raw backup and original once gate complete; exploratory source1 98.500000% vs 98.416667%, delta+0.083333pp, gate=False; no active fit. Preserve consumed scorer; no users7–8 selection or novelty claim.",
+  "background_training_status_note": "Next fixed published RegMixup alpha20/eta1/clean+mixed/GAP617612/rawB64/effective128/64epochs/seed20261029 preregistration; production tests/resource/private initial release pending, no real fit. Manifold exact config closed98.5% (+.083333pp), scorer consumed.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Exact Manifold alpha2/random012/GAP64 configuration closed. Reconcile latest history then separately register prospective RegMixup alpha20/GAP64/B64/effective128/seed20261029; validate THIS production source, unchanged bounded cost gate and private initial release before actual fit. Never rescue closed input-Mixup or Manifold configs or use users7–8 labels.",
+  "next_candidate": "Verify THIS fixed RegMixup production source natively; fixed full2B synthetic resource gate with prospective floor and unchanged caps, private raw/allmember initial model/roles then exact real release before actual64/OWN64 fitting. Single source1 gate only after full audits/full private archive; no rescue, users7–8 selection or novelty claim.",
   "last_completed_update_utc": "2026-11-05T10:41:09.223415+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -11786,5 +11786,31 @@
     "users7_8_labels_used": false
   },
   "new_accuracy_result": true
+}
+,
+  "regmixup_gap64_preparation_20261105": {
+  "report": "results/cloud_20261105_regmixup_gap64_preparation/RUN_REPORT.md",
+  "method": "RegMixup_alpha20_clean_plus_mixed_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "6a7563fc013b365a1bb9814f13ed64b29922be1bf2094b52d5a4af73c6cc3b12",
+  "scientific_source_files": 16,
+  "alpha_beta": [
+    20,
+    20
+  ],
+  "eta": 1.0,
+  "raw_batch": 64,
+  "effective_forward_batch": 128,
+  "parameters": 617612,
+  "epochs": 64,
+  "seed": 20261029,
+  "previous_Manifold_closed_summary_sha256": "41753a291b77caae4d587a4bad3080fc9cb2afdf4c67cde6ece4e6ca7909a8b3",
+  "candidate_fixed_before_prior_diagnostic_commit": "3f2086896239c6cbc4556602d7e9b9d6056d9e1f",
+  "new_UWB_fit_started": false,
+  "production_native_tests_complete": false,
+  "initial_private_model_released": false,
+  "diagnostic_labels_read": false
 }
 }
