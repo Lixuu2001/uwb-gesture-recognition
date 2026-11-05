@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "DSU_full64_OWNfresh64_FULL_private_modelset_verified_ready_for_original_once_gate",
+  "state": "close_exact_DSU_p.5_factor1_allnative01_GAP64_B64_seed20261029_no_rescue",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_dsu_gap64_full_archive/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_dsu_gap64_final/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793907945.139394,
+  "background_training_observed_unix": 1793908056.0581272,
   "background_training_pid": null,
-  "background_training_status_note": "DSU original64/OWNfresh64/output exit0 exact; FULL private owner-only raw/everymember pass. Diagnosticunscored/noactiveDSUfit; immutable originalonce pending. EFDMix conditional/unfitted. Final3transportfaults repaired:2knownIDs reused/1absence-proven one retry; all14/412 pass; no refit.",
+  "background_training_status_note": "DSU original64/OWN64/audits/FULLprivate/originalonce complete: source198.166667% vs98.416667%, delta-0.250000pp, gate=False. Scorerconsumed/noactiveDSUmodel.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -107,7 +107,7 @@
   "signal_private_backup_file_id": "1aWIw5HiXcrqOyNBqzd79J5jQNhWPBRjC",
   "signal_private_backup_verified": true,
   "signal_private_backup_sha256": "f2ea2bf0aad1a56487d440c08446a2f28122d5935b84196f29944d27ed5837d1",
-  "latest_source_diagnostic": "results/cloud_20261105_mixstyle_gap64_final/SUMMARY.json",
+  "latest_source_diagnostic": "results/cloud_20261105_dsu_gap64_final/SUMMARY.json",
   "moment_guided_protocol_commit": "213cd840871d32dbdd611f03937f16b9c60ed310",
   "moment_guided_results_path": "/workspace/uwb-moment-guided-runs-20261002",
   "moment_guided_completed_runs": 16,
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue SAME DSU original producer26890/controller26889 and readonly completion observer26913; no duplicate launch. After original64/OWNfresh64/output/all audits/FULL private owner-only raw/everymember proof, invoke ORIGINAL once scorer only. Fail closes exact config without rescue; pass separately preregisters source6. For empty large GitHub authority text first resolve latest head, then cloud Git fetch/read/hash that exact commit; never infer data loss.",
-  "last_completed_update_utc": "2026-11-05T19:45:45.086536+00:00",
+  "next_candidate": "Close exact DSU p.5/factor1/both01/GAP64/B64/64epochs/seed20261029 without rescue. Activate already fixed/preregistered EFDMix alpha.1/p.5/random/early0/fullGAP64/B64/64epochs/seed20261029 only after actual consumed failure/fullprivate/allinactivity, then its privateinitial/exactREAL_RELEASE before ONEcontroller.",
+  "last_completed_update_utc": "2026-11-05T19:47:36.006353+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -12963,5 +12963,76 @@
     "budget_reset": false,
     "once_gate_still_unconsumed": true
   }
+}
+,
+  "dsu_gap64_final_20261105": {
+  "report": "results/cloud_20261105_dsu_gap64_final/RUN_REPORT.md",
+  "method": "published_DSU_p.5_factor1_allnative01_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "epoch_records_exact": 65,
+  "updates_per_trajectory": 4736,
+  "selected_epoch": 26,
+  "native_final_sha256": "0a1ff80dacbdbb5c02622720ae65750a489bed29d98e40f6a03f7a8cd0cdf329",
+  "actual_terminations": {
+    "train": {
+      "cumulative": {
+        "cpu": 2514.157497,
+        "wall": 2514.6736794770113
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5060.472012,
+        "wall": 5062.288339786988
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "output": {
+      "cumulative": {
+        "cpu": 5070.368458000001,
+        "wall": 5072.305934022996
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "archive_parts": 14,
+  "archive_bytes": 101821311,
+  "archive_sha256": "c947d4eeecf02b9f2c56fcda1951ed3e158ae1524bdc0519052aa7c43fa6d992",
+  "archive_payloads": 412,
+  "complete_private_modelset_owner_only_raw_every_member_verified": true,
+  "original_once_scorer_sha256": "8d21402f39de0040058e8b6b0d28444d4374e3595fbcd669f68fada97664ecf7",
+  "scientific16_changed": false,
+  "original789_changed": false,
+  "diagnostic_labels_read": true,
+  "once_gate_consumed": true,
+  "summary": {
+    "diagnostic_macro": 0.9816666666666668,
+    "difference": -0.0024999999999999467,
+    "finalizer_invocations": 1,
+    "independent_validation": false,
+    "legacy8fold_improvement_proven": false,
+    "novel_contribution_validated": false,
+    "predeclared_gate_passed": false,
+    "reference_noMixup_GAP64_macro": 0.9841666666666667,
+    "route": "close_exact_DSU_p.5_factor1_allnative01_GAP64_B64_seed20261029_no_rescue",
+    "selected_epoch": 26,
+    "state": "complete_exploratory_DSU_GAP64_source1_pilot",
+    "users7_8_labels_used": false
+  },
+  "new_accuracy_result": true
 }
 }
