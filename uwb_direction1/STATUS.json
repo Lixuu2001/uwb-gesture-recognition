@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "mixup_GAP64_real_training_native_checkpoint_privately_insured",
+  "state": "mixup_GAP64_producer_complete_metadata_alias_corrected_independent_replay_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixup_gap64_checkpoint_insurance01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixup_gap64_completion_digest_repair/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793863698.314039,
+  "background_training_observed_unix": 1793864128.9646049,
   "background_training_pid": 12536,
-  "background_training_status_note": "Same original fixed Mixup/GAP64 controller12536; observed stagetrain, producer_complete=False. Producer57/4218+29log-row native checkpoint fully private4part raw/allmember verified. Full64 own replay/output audit and full private modelset before once diagnostics; no score or reset.",
+  "background_training_status_note": "Actual producer64/4736 exit0; native journal/checkpoint correct. Original completion digest represents selected-weight alias, independently reconstructed and corrected in NEW receipt without changing science/models/COMPLETE. Original own fresh replay12890 observed epoch10; full64/output/private archive before diagnostics. No new score/reset.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11490,6 +11490,27 @@
   "diagnostic_labels_read": false,
   "new_accuracy_result": false,
   "scientific_configuration_changed": false,
+  "budget_reset": false
+}
+,
+  "mixup_gap64_completion_digest_repair_20261105": {
+  "report": "results/cloud_20261105_mixup_gap64_completion_digest_repair/RUN_REPORT.md",
+  "method": "input_Mixup_alpha1_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "producer_updates": 4736,
+  "producer_actual_exit_code": 0,
+  "selected_epoch": 39,
+  "completion_metadata_alias_independently_reconstructed": true,
+  "actual_final_native_state_sha256": "d09bb31aad6afca0d81b1ac306111fb5f2619959ccb8dc47591f7832ad4448bf",
+  "original_complete_file_preserved": true,
+  "models_or_scientific_code_modified": false,
+  "own_replay_observed_epoch": 10,
+  "full64_replay_complete": false,
+  "diagnostic_labels_read": false,
+  "new_accuracy_result": false,
   "budget_reset": false
 }
 }

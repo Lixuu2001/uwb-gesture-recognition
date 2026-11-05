@@ -1,0 +1,12 @@
+{
+  "state": "read_only_completion_metadata_assertion_failed",
+  "exit_code": 1,
+  "failed_script": "checkpoint_insurance01/observe.py",
+  "error": "AssertionError: original COMPLETE.final_state_sha256 differs from actual native checkpoint state",
+  "failed_observation_did_not_replace_prior_successful_timestamped_observation": true,
+  "preceding_checkpoint_publication_used_prior_timestamped_observation": true,
+  "training_or_replay_failed": false,
+  "original_models_modified": false,
+  "new_fit_or_restart": false,
+  "diagnostic_labels_read": false
+}
