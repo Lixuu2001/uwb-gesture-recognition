@@ -1,0 +1,16 @@
+{
+  "state": "author_batch_size_prose_erratum_no_executable_configuration_change",
+  "error": "Our conditional PROTOCOL.transfer_deviations prose and PREREGISTRATION.md incorrectly describe the pinned radar author's batch as B128.",
+  "correction": "The pinned r9_cutmix_p08.yaml explicitly sets batch_size64. Our raw/forward batch64 matches that one author setting. Native GAP/64epochs/OvRBCE/no-smoothing/optimizer/normalization/augmentation/folds/system scope still differ substantially from the author's full released recipe.",
+  "author_config": "author/radar/r9_cutmix_p08.yaml",
+  "author_config_sha256": "ae00bd6ecc7fd09d59f55b15f3227bde60c05e711bd1086b76bc3886cd08e2ba",
+  "author_batch": 64,
+  "native_actual_raw_and_forward_batch": 64,
+  "original_frozen20_historical_bytes_preserved": true,
+  "executable_code_or_hyperparameters_or_seed_changed": false,
+  "timing_or_synthetic_probes_rerun": false,
+  "new_UWB_fit_started": false,
+  "RegMixup_diagnostic_read": false,
+  "users7_8_labels_used": false,
+  "read_with_original_registration": true
+}
