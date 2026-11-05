@@ -1,0 +1,133 @@
+{
+  "archive_bytes": 35716013,
+  "archive_sha256": "fdc905da249c436fc004b3b40eda6947dc4f383164a7cba7825224b9f4f2d01b",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1svak7KOi75RvYL9YBT0HErLlz2_GwHPI",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "843195d8605c990cbeb864e12cf001537ab94925fb5444d595177d082a87dcc6"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1lbH97V3Vpg1pQ_1Jn3QqoLL6IrEof7E3",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "132635aacd3fef916cefaddbb1cb3b9c97de9f42fc5257cd54fd4551a72b13c9"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1N4GSCwP2sfCMhMyEd-QLRNA6aMXgWEOa",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part002",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "0db125ddef70e47cd4954e5be14ac99dbdbdd818cbaa1e0870562e3a1af27c56"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1Rk6_jpBDDGzhWQMIdka5GPd-aXycszqG",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part003",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "afe02b99433ae9eaa131539512dd16c1dff65f339f7ef9f83776555338a93719"
+    },
+    {
+      "bytes": 6355885,
+      "download_verified": true,
+      "file_id": "1GufJdsEp0MImUnyqDjNG5XuUmBRgXhgt",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 6355885
+      },
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part004",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "aacaef6808c11ede774b9fd509011830eca077c1a724dd0bc78ec9706799afe9"
+    }
+  ],
+  "complete_pilot_modelset": false,
+  "diagnostic_labels_read": false,
+  "final_scoring_authority": false,
+  "members_manifest_sha256": "19f59cfb18f4a60d2273137aed395301999ae2cacda27e582d81f8132a742215",
+  "raw_data_maps_runtime_external": true,
+  "scope": "intermediate_temporal_CutMix_GAP64_producer_native_checkpoint_not_complete_pilot_or_scoring_authority",
+  "state": "intermediate_native_checkpoint_owner_only_raw_allmember_verified"
+}

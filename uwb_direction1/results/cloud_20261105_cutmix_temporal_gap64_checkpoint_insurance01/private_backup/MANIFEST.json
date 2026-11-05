@@ -1,0 +1,42 @@
+{
+  "archive_bytes": 35716013,
+  "archive_sha256": "fdc905da249c436fc004b3b40eda6947dc4f383164a7cba7825224b9f4f2d01b",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part000",
+      "sha256": "843195d8605c990cbeb864e12cf001537ab94925fb5444d595177d082a87dcc6"
+    },
+    {
+      "bytes": 7340032,
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part001",
+      "sha256": "132635aacd3fef916cefaddbb1cb3b9c97de9f42fc5257cd54fd4551a72b13c9"
+    },
+    {
+      "bytes": 7340032,
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part002",
+      "sha256": "0db125ddef70e47cd4954e5be14ac99dbdbdd818cbaa1e0870562e3a1af27c56"
+    },
+    {
+      "bytes": 7340032,
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part003",
+      "sha256": "afe02b99433ae9eaa131539512dd16c1dff65f339f7ef9f83776555338a93719"
+    },
+    {
+      "bytes": 6355885,
+      "name": "temporal_cutmix_gap64_checkpoint_insurance01_20261105.part004",
+      "sha256": "aacaef6808c11ede774b9fd509011830eca077c1a724dd0bc78ec9706799afe9"
+    }
+  ],
+  "complete_modelset": false,
+  "final_scoring_authority": false,
+  "full64_training_complete": false,
+  "initial_private_guard_chunks_included": true,
+  "members_manifest_sha256": "19f59cfb18f4a60d2273137aed395301999ae2cacda27e582d81f8132a742215",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "scope": "intermediate_temporal_CutMix_GAP64_producer_native_checkpoint_not_complete_pilot_or_scoring_authority",
+  "state": "intermediate_temporal_CutMix_native_checkpoint_and_initial_insurance_streamed",
+  "tracked_payload_files": 145,
+  "whole_job_resume": false
+}

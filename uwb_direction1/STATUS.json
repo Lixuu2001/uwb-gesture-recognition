@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "temporal_CutMix_GAP64_actual_cloud_training_first_update_and_native_state_verified_unscored",
+  "state": "temporal_CutMix_GAP64_same_real_pilot_native_checkpoint4_private_verified_observed14_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_cutmix_temporal_gap64_launch/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_cutmix_temporal_gap64_checkpoint_insurance01/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793888094.0860105,
+  "background_training_observed_unix": 1793888525.256593,
   "background_training_pid": 21233,
-  "background_training_status_note": "Actual registered temporalCutMix controller21233/worker21234 on original cloud boot, first REAL update independently reproduced/audit exit0, observed2/148 native optimizer/allRNG/prefix exact, science20 unchanged. Initial private2part94payload verified; full64/OWN64/finalbackup/oncegate pending and diagnostic unscored. Prior RegMixup exact configuration closed96.75% vs98.416667%, scorer consumed.",
+  "background_training_status_note": "Actual original temporalCutMix controller21233/worker21234 healthy, observed14/1036 native/optimizer/allRNG/prefix exact,20science unchanged. Trained4/296+16suffix private5part145payload raw/everymember verified, initial guard raw2 bundled, no errors. Full64/OWN64/finalbackup/original once gate pending, diagnostic unscored. RegMixup exact config closed96.75% vs98.416667%; never rescore.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -12297,5 +12297,35 @@
   "new_accuracy_result": false,
   "initial_archive_sha256": "3cc4b141f9e6e5cc1d6054a1388b560e10d15f6fd92beafcf0c5ea0749c38acd",
   "prior_RegMixup_config_failed_closed": true
+}
+,
+  "cutmix_temporal_gap64_checkpoint_insurance01_20261105": {
+  "report": "results/cloud_20261105_cutmix_temporal_gap64_checkpoint_insurance01/RUN_REPORT.md",
+  "method": "released_temporal_CutMix_alpha1_p.8_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "captured_trained_epoch": 4,
+  "captured_committed_updates": 296,
+  "captured_selected_validation_epoch": 3,
+  "captured_uncommitted_rows": 16,
+  "post_backup_observed_epoch": 14,
+  "post_backup_observed_updates": 1036,
+  "private_archive_parts": 5,
+  "private_archive_bytes": 35716013,
+  "private_archive_payloads": 145,
+  "private_archive_sha256": "fdc905da249c436fc004b3b40eda6947dc4f383164a7cba7825224b9f4f2d01b",
+  "owner_only_raw_every_member_verified": true,
+  "initial_guard_raw_chunks_bundled": true,
+  "prior_consumed_RegMixup_lineage_bundled": true,
+  "complete_pilot_modelset": false,
+  "final_scoring_authority": false,
+  "transfer_errors": 0,
+  "scientific20_changed": false,
+  "diagnostic_labels_read": false,
+  "full64_training_complete": false,
+  "own_fresh64_replay_complete": false,
+  "new_accuracy_result": false,
+  "new_fit_started_by_checkpointing": false
 }
 }
