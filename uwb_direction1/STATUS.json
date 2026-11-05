@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "RegMixup_OWN_fresh64_replay_running_CutMix_production_native_tests_and_capacity_passed_unfitted",
+  "state": "RegMixup_GAP64_producer64_OWN_replay45_privately_verified_live52_exact_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_cutmix_temporal_gap64_verification/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_regmixup_gap64_producer64_replay_insurance02/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793885496.7318175,
+  "background_training_observed_unix": 1793885756.518576,
   "background_training_pid": 16664,
-  "background_training_status_note": "Original RegMixup producer64 frozen/unscored and OWN replay continue; observer only audits/builds. Conditional temporalCutMix20sources unchanged, actual native/optimizer/RNG/journal probes and one fixed capacity gate passed; author B128 prose erratum corrected by preserved sidecar(actual author/native B64). No activation/private initial/new UWB fit.",
+  "background_training_status_note": "Original RegMixup complete64 producer frozen, OWN fresh replay observed52/3848 exact and native-restorable. Complete producer+own45/3330+11suffix private11part/359payload raw/allmember verified, two missing-ID upload errors repaired by proven absence+one retry each. Original observer waits/audits/builds only. Full64replay/output/finalprivate/oncegate pending; conditional CutMix production tested but unfitted.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -12066,5 +12066,35 @@
   "initial_private_model_released": false,
   "new_UWB_fit_started": false,
   "diagnostic_labels_read": false
+}
+,
+  "regmixup_gap64_producer64_replay_insurance02_20261105": {
+  "report": "results/cloud_20261105_regmixup_gap64_producer64_replay_insurance02/RUN_REPORT.md",
+  "method": "RegMixup_alpha20_clean_plus_mixed_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "producer_updates": 4736,
+  "selected_epoch": 37,
+  "private_own_replay_epoch": 45,
+  "private_own_replay_committed_updates": 3330,
+  "captured_uncommitted_rows": 11,
+  "post_backup_live_replay_epoch": 52,
+  "post_backup_live_replay_updates": 3848,
+  "private_parts": 11,
+  "private_bytes": 76280413,
+  "private_payloads": 359,
+  "archive_sha256": "ce5cc3b6b030088f8a5c0e7c03e5b8f1425ed6fb4d95b289686e62b4ed127309",
+  "initial_guard_raw_chunks_bundled": true,
+  "complete_pilot_modelset": false,
+  "final_scoring_authority": false,
+  "full64_fresh_replay_complete": false,
+  "transfer_errors_repaired": 2,
+  "explicit_upload_retries_per_failed_part": 1,
+  "scientific16_changed": false,
+  "diagnostic_labels_read": false,
+  "new_UWB_fit_started": false,
+  "new_accuracy_result": false
 }
 }

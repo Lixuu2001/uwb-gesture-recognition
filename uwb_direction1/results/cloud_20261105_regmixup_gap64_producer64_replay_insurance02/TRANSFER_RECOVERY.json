@@ -1,0 +1,55 @@
+{
+  "state": "two_missing_upload_ID_provider_internal_errors_repaired_after_exact_proven_absence",
+  "initial_failed_parts": [
+    5,
+    9
+  ],
+  "initial_errors": [
+    {
+      "i": 5,
+      "name": "regmixup_gap64_producer64_replay_insurance02_20261105.part005",
+      "file_id": null,
+      "stage": "upload",
+      "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+    },
+    {
+      "i": 9,
+      "name": "regmixup_gap64_producer64_replay_insurance02_20261105.part009",
+      "file_id": null,
+      "stage": "upload",
+      "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+    }
+  ],
+  "successful_single_retry_receipts": [
+    {
+      "state": "one_explicit_retry_after_proven_absence_then_known_ID_private_raw_verified",
+      "index": 5,
+      "file_id": "179vDrqgT514qFAaoJvln37dnTiKcSxN5",
+      "upload_retries": 1,
+      "known_ID_readback_reuploaded": false,
+      "verified": true
+    },
+    {
+      "state": "one_explicit_retry_after_proven_absence_then_known_ID_private_raw_verified",
+      "index": 9,
+      "file_id": "1YsFQxBGNKRoXGntW1N2jlv1U9uBaxyvH",
+      "upload_retries": 1,
+      "known_ID_readback_reuploaded": false,
+      "verified": true
+    }
+  ],
+  "known_ID_reuploaded": false,
+  "explicit_upload_retries_per_failed_part": 1,
+  "whole11part_and359payload_raw_verification": {
+    "archive_members": 360,
+    "archive_sha256": "ce5cc3b6b030088f8a5c0e7c03e5b8f1425ed6fb4d95b289686e62b4ed127309",
+    "chunks_verified": 11,
+    "complete_modelset_verified": false,
+    "scope": "complete_RegMixup_producer64_plus_OWN_partial_fresh_replay_not_final_pilot_or_scoring_authority",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 359
+  },
+  "new_fit_or_scientific16_or_RNG_changed": false,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false
+}

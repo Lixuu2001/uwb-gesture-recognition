@@ -1,0 +1,63 @@
+{
+  "budget_reset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 11.42,
+    "pid": 16664,
+    "startticks": 10682568,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "new_experiment_or_duplicate_fit_started": false,
+  "observed_unix": 1793885053.9088547,
+  "producer_actual_termination": {
+    "cumulative": {
+      "cpu": 5104.3616,
+      "wall": 5105.128580873003
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "6af4c1f860e933006415f2f0fe968e1d219467f560b1ec94d4f41d32e43da16d",
+    "epochs": 64,
+    "final_state_sha256": "9105d54f7effed0aa242d1b675741628e4fa57f1e77504948bbefa5292bd1c83",
+    "selected_epoch": 37,
+    "selected_sha256": "b914a0cef32b9a6cb4086128f1927933a2920fc0ddca3b47ef6beea7e7b9d482",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "4fbf1ac134a1f0069e8f0a26bd1f8a6177a0f2d2c79ab13bc8297dcc1015a4ab"
+  },
+  "replay_captured_log_rows": 3341,
+  "replay_progress": {
+    "checkpoint_sha256": "d14876ca5a10c70fcb86a763796bd8e1eb6c0512364fd1dd09eb1fedbc02f94f",
+    "epoch": 45,
+    "journal_sha256": "eab1ce3f32707c66e46b6c020c4e2a0e5abf95d819916a9c154aee07a8a2fe1d",
+    "prefix_bytes": 1606367,
+    "prefix_sha256": "cc5881795234831211352b23290c19c5719765e7f305a6199a29d86e8c9d97a3",
+    "slot": "slot1.pt",
+    "updates": 3330
+  },
+  "replay_suffix_bytes": 5303,
+  "replay_uncommitted_rows": 11,
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 3693.53,
+    "pid": 17948,
+    "startticks": 11193335,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1878408,
+    "cpu": 8797.6816,
+    "stage": "replay",
+    "wall": 8799.457192240006
+  },
+  "scientific16_changed": false,
+  "state": "complete_RegMixup_producer64_and_coherent_OWN_fresh_replay_native_prefix_captured_unscored",
+  "users7_8_labels_used": false
+}
