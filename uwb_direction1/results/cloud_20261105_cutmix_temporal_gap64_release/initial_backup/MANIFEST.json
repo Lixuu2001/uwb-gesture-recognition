@@ -1,0 +1,26 @@
+{
+  "archive_bytes": 7508348,
+  "archive_sha256": "3cc4b141f9e6e5cc1d6054a1388b560e10d15f6fd92beafcf0c5ea0749c38acd",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "name": "temporal_cutmix_gap64_initial_20261105.part000",
+      "sha256": "d8403a75df07f6eaa18ce5d22ef5886f165b4b30496d0a7119fb94a45885a023"
+    },
+    {
+      "bytes": 168316,
+      "name": "temporal_cutmix_gap64_initial_20261105.part001",
+      "sha256": "5a540da9e951bd9068598d79772c8904aa5388b2cb2c241c3ed5042850bf2932"
+    }
+  ],
+  "complete_initial_model": true,
+  "complete_modelset": false,
+  "complete_training_modelset": false,
+  "members_manifest_sha256": "9ebc6c48cbcd49fef6eaee5c9bae7718bf9f75106fde378d5b3b37f116a231a5",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "scope": "fixed_temporal_CutMix_GAP64_initial_model_roles_and_sources_before_UWB_fit",
+  "state": "initial_seed_roles_sources_streamed_before_new_fits",
+  "tracked_payload_files": 94,
+  "whole_job_resume": false
+}

@@ -14,7 +14,7 @@ def create():
         t=read(root/'execution'/a/'TERMINATION.json');assert t['exit_code']==0 and t['resource_stop_reason'] is None
     f=read(root/'PREDICTIONS_FROZEN.json');assert f['full_training_replayed'] and not f['diagnostic_labels_read']
     for n,h in f['files'].items():assert sha(root/n)==h
-    files={'study/'+n:B/n for n in [*read(B/'FROZEN_HASHES.json'),'FROZEN_HASHES.json','REMOTE_PREREGISTRATION.json','REAL_RELEASE.json','SYNTHETIC_RESULT.json','RESOURCE_RESULT.json','initial.pt','roles.npz','INITIAL_ASSET.json','STATE.json','RESOURCE_LEDGER.json','CONTROLLER_IDENTITY.json']}
+    files={'study/'+n:B/n for n in ['ACTIVATION.json','AUTHOR_SCOPE_CORRECTION.json','OPERATIONAL_ARCHIVE_REPAIR.json',*read(B/'FROZEN_HASHES.json'),'FROZEN_HASHES.json','REMOTE_PREREGISTRATION.json','REAL_RELEASE.json','SYNTHETIC_RESULT.json','RESOURCE_RESULT.json','initial.pt','roles.npz','INITIAL_ASSET.json','STATE.json','RESOURCE_LEDGER.json','CONTROLLER_IDENTITY.json']}
     for d in ['run','operator','initial_backup']:
         for p in (B/d).rglob('*'):
             if p.is_file() and '__pycache__' not in p.parts and not p.name.endswith(('.lock','.tmp')) and (d!='initial_backup' or p.suffix=='.json'):
@@ -23,6 +23,8 @@ def create():
     for n in read(B/'DEPENDENCIES.json')['files']:files['native_source/'+str(Path(n).relative_to(c['native_source']))]=Path(n)
     for ref in c['author_reference_files']:files['author_review/'+Path(ref).name]=Path(ref)
     files['lineage/noMixup_reference_SUMMARY.json']=Path(c['source1_reference_summary'])
+    prior=Path(c['prior_RegMixup_summary']).parent
+    for src,dst in [('SUMMARY.json','prior_RegMixup_SUMMARY.json'),('STATE.json','prior_RegMixup_POST_SCORE_STATE.json'),('FINALIZE_ONCE.lock','prior_RegMixup_FINALIZE_ONCE.lock')]:files['lineage/'+dst]=prior/src
     layout=B/'FULL_SOURCE_LAYOUT.json';write(layout,dict(archive_to_expected_path={k:str(v) for k,v in files.items()},raw_data_and_maps_external=True,runtime_binaries_external=True,matched_noMixup_baseline_archives_external=True))
     files['SOURCE_LAYOUT.json']=layout
     return build(B/'full_backup','temporal_cutmix_gap64_full_20261105',files,'fixed_temporal_CutMix_GAP64_full_pilot_models_audits_outputs_before_once_gate',chunk_size=7340032,limit=536870912)

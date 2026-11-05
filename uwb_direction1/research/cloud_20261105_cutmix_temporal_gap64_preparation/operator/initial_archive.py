@@ -15,11 +15,15 @@ def build():
     ids,u,loc,maps,_,_=load(False)
     e.np.savez_compressed(B/'roles.npz',**{k:ids[v] for k,v in loc.items()})
     write(B/'INITIAL_ASSET.json',dict(initial_model_file_sha256=sha(B/'initial.pt'),initial_native_state_sha256=e.semantic(state),roles_sha256=sha(B/'roles.npz'),source_ids_sha256=sha(c['ids']),maps_sha256=sha(c['maps']),diagnostic_labels_read=False,new_UWB_fit_started=False))
-    files={'study/'+n:B/n for n in [*read(B/'FROZEN_HASHES.json'),'FROZEN_HASHES.json','REMOTE_PREREGISTRATION.json','SYNTHETIC_RESULT.json','RESOURCE_RESULT.json','initial.pt','roles.npz','INITIAL_ASSET.json']}
+    files={'study/'+n:B/n for n in ['ACTIVATION.json','AUTHOR_SCOPE_CORRECTION.json','OPERATIONAL_ARCHIVE_REPAIR.json',*read(B/'FROZEN_HASHES.json'),'FROZEN_HASHES.json','REMOTE_PREREGISTRATION.json','SYNTHETIC_RESULT.json','RESOURCE_RESULT.json','initial.pt','roles.npz','INITIAL_ASSET.json']}
     files['private_IDs/source_ids.npz']=Path(c['ids'])
     for n in read(B/'DEPENDENCIES.json')['files']:files['native_source/'+str(Path(n).relative_to(Path(c['native_source'])))]=Path(n)
     for ref in c['author_reference_files']:files['author_review/'+Path(ref).name]=Path(ref)
     files['lineage/noMixup_reference_SUMMARY.json']=Path(c['source1_reference_summary'])
+    prior=Path(c['prior_RegMixup_summary']).parent
+    for src,dst in [('SUMMARY.json','prior_RegMixup_SUMMARY.json'),('STATE.json','prior_RegMixup_POST_SCORE_STATE.json'),('FINALIZE_ONCE.lock','prior_RegMixup_FINALIZE_ONCE.lock')]:files['lineage/'+dst]=prior/src
+    for ref in (B/'operator').glob('*'):
+        if ref.is_file() and ref.suffix in ['.py','.json']:files['operator/'+ref.name]=ref
     m=ar.build(B/'initial_backup','temporal_cutmix_gap64_initial_20261105',files,'fixed_temporal_CutMix_GAP64_initial_model_roles_and_sources_before_UWB_fit',chunk_size=7340032,limit=67108864)
     m.update(state='initial_seed_roles_sources_streamed_before_new_fits',complete_modelset=False,complete_initial_model=True,complete_training_modelset=False);m.pop('shared_initial_encoder_included_once');write(B/'initial_backup/MANIFEST.json',m)
     return m

@@ -1,0 +1,17 @@
+{
+  "state": "pre_fit_cold_restore_dependency_defect_repaired_operationally",
+  "defect": "ready(True) needs ACTIVATION and prior consumed RegMixup summary/lock, but copied initial/full builders did not bundle these new conditional dependencies",
+  "repair": "bundle actual ACTIVATION, scope erratum, this repair receipt, prior summary/post-scoreSTATE/consumed lock; initial also includes operator sources. Full SOURCE_LAYOUT captures exact paths. No old model archive or prior scorer rerun is needed as a model delta.",
+  "before_operator_sha256": {
+    "initial_archive.py": "e906512833c98619384b3c8eb274bade4d28c2bed511abd786ea2b83dacb0b92",
+    "full_archive.py": "b2658cc6002679ea25ec4e4b688f68b864a870249c082af94052bab5d1303ab6"
+  },
+  "after_operator_sha256": {
+    "initial_archive.py": "85b8550e275812ac041f14f601e485a297af38ef40d6eea2f4bddb379e8dd3e2",
+    "full_archive.py": "bfef94d1f38a074e05bb43136b79ba080299430939114568662d081d2fde1236"
+  },
+  "scientific20_or_hyperparameters_or_seed_or_once_scorer_changed": false,
+  "fitting_or_initial_archive_build_had_started": false,
+  "prior_summary_kept_as_consumed_history_not_new_method_selection_parameters": true,
+  "users7_8_labels_used": false
+}
