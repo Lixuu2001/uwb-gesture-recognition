@@ -1,3 +1,7 @@
+## 2026-11-05: Exact author text preserved in Git worktrees; RegMixup science/process unchanged
+
+All44previous publication files were independently hash/readback verified at ac69d9a13faaa5532de41d396587073e98bac55c, including all178original author README CRLF pairs. Final local clean-check then exposed inherited uwb_direction1/.gitattributes *.md text eol=lf marking that byte-identical file modified. Scoped new author/original/.gitattributes sets ONLY README.md -text -eol, preserving upstream exact bytes in this/future worktrees without altering root attributes, original789source,16frozen scientific files/models/RNG, hyperparameters or training. No payload corruption or new fit. Worktree recovery evidence/source SHA retained beside checkpoint02; original first publisher newline guard/fix also retained. Current SAME RegMixup controller16664/worker16665 continues fixed64/OWN64/audits/full-private-before-once route, diagnostic unscored. Checkpoint43 private5part/210payload model/optimizer/allRNG/suffix insurance is verified; conditional released temporalCutMix alpha1/p.8 remains synthetic-only, no UWB registration/fitting or accuracy/novelty claim. Repeated source/eight-user results exploratory and users7–8 labels excluded from new-method selection.
+
 # Fixed RegMixup transfer: checkpoint_insurance02
 
 ## 2026-11-05: RegMixup native checkpoint43 privately verified; conditional published temporal CutMix implemented/tested

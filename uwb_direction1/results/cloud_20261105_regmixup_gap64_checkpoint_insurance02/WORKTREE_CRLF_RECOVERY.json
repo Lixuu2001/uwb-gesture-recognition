@@ -1,0 +1,11 @@
+{
+  "state": "scoped_Git_attributes_preserve_exact_author_CRLF_in_current_and_future_worktrees",
+  "failure": "final clean-check assertion caught README marked modified by inherited *.md text eol=lf, despite exact equality of physical worktree and published Git bytes",
+  "physical_worktree_equal_published_blob_before_fix": true,
+  "CRLF_pairs": 178,
+  "source_SHA256": "e0b4302fefb15ce8ba444b4032d639c37e9de04c05579b1db21372bd32a59870",
+  "repair": "new author/original/.gitattributes contains README.md -text -eol only; no global/root attribute change or source normalization",
+  "README_no_longer_marked_modified": true,
+  "source_bytes_or_scientific16_or_models_RNG_changed": false,
+  "original789_snapshot_changed": false
+}
