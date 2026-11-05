@@ -1,0 +1,37 @@
+{
+  "state": "one_missing_ID_upload_transport_fault_repaired_under_existing_bounded_rule",
+  "actual_provider_error": "failed to open OpenAI file upload contents: exec-server transport closed",
+  "failed_part": 9,
+  "errors": [
+    {
+      "i": 9,
+      "name": "manifold_gap64_full_20261105.part009",
+      "file_id": null,
+      "stage": "upload",
+      "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+    }
+  ],
+  "absence_checks": {
+    "state": "two_successful_exact_name_provider_searches_returned_no_file_before_one_explicit_retry",
+    "name": "manifold_gap64_full_20261105.part009",
+    "observed_at": "2026-11-05T10:37:33.376Z",
+    "folder_filter_results": 0,
+    "global_exact_name_results": 0,
+    "provider_reported_no_next_page": true,
+    "unlimited_retry_allowed": false
+  },
+  "recovery": {
+    "state": "one_explicit_retry_after_proven_absence_then_known_ID_private_raw_verified",
+    "index": 9,
+    "file_id": "1ZBekFS-1xusn-X2OIZ9lyOPFpxMuYZlW",
+    "upload_retries": 1,
+    "known_ID_readback_reuploaded": false,
+    "verified": true
+  },
+  "verified_parts": 13,
+  "maximum_complete_pipeline_concurrency": 3,
+  "no_known_ID_reuploaded": true,
+  "authenticated_URLs_disclosed": false,
+  "scientific_code_models_logs_RNG_or_configuration_changed": false,
+  "diagnostic_labels_read": false
+}

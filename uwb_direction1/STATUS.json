@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Manifold_GAP64_full64_fresh64_private_modelset_verified_ready_for_registered_once_gate",
+  "state": "Manifold_GAP64_exact_alpha2_random012_configuration_failed_gate_closed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_manifold_gap64_full_archive/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_manifold_gap64_final/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793875165.4255693,
+  "background_training_observed_unix": 1793875269.223406,
   "background_training_pid": null,
-  "background_training_status_note": "Full Manifold64/own64/output complete actual exits0, all native records/updates/selected outputs exact; complete private modelset raw/allmember verified. Original once diagnostic still unscored; no active training.",
+  "background_training_status_note": "Manifold64/own64/audits/private raw backup and original once gate complete; exploratory source1 98.500000% vs 98.416667%, delta+0.083333pp, gate=False; no active fit. Preserve consumed scorer; no users7–8 selection or novelty claim.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -107,7 +107,7 @@
   "signal_private_backup_file_id": "1aWIw5HiXcrqOyNBqzd79J5jQNhWPBRjC",
   "signal_private_backup_verified": true,
   "signal_private_backup_sha256": "f2ea2bf0aad1a56487d440c08446a2f28122d5935b84196f29944d27ed5837d1",
-  "latest_source_diagnostic": "results/cloud_20261007_temporal_scattering/SUMMARY.json",
+  "latest_source_diagnostic": "results/cloud_20261105_manifold_gap64_final/SUMMARY.json",
   "moment_guided_protocol_commit": "213cd840871d32dbdd611f03937f16b9c60ed310",
   "moment_guided_results_path": "/workspace/uwb-moment-guided-runs-20261002",
   "moment_guided_completed_runs": 16,
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue same fixed Manifold64 producer, OWN64 fresh replay, output audit and full private raw/allmember backup before exactly one registered source1 gate. Conditional RegMixup math preparation is unfitted; reconcile history, finish review, preregister and resource-validate only if current route later warrants it. No rescue, duplicate, users7–8 label selection or novelty claim.",
-  "last_completed_update_utc": "2026-11-05T10:39:25.425580+00:00",
+  "next_candidate": "Exact Manifold alpha2/random012/GAP64 configuration closed. Reconcile latest history then separately register prospective RegMixup alpha20/GAP64/B64/effective128/seed20261029; validate THIS production source, unchanged bounded cost gate and private initial release before actual fit. Never rescue closed input-Mixup or Manifold configs or use users7–8 labels.",
+  "last_completed_update_utc": "2026-11-05T10:41:09.223415+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -11715,5 +11715,76 @@
   "diagnostic_labels_read": false,
   "once_gate_consumed": false,
   "new_accuracy_result": false
+}
+,
+  "manifold_gap64_final_20261105": {
+  "report": "results/cloud_20261105_manifold_gap64_final/RUN_REPORT.md",
+  "method": "Manifold_Mixup_alpha2_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "epoch_records_exact": 65,
+  "updates_per_trajectory": 4736,
+  "selected_epoch": 63,
+  "native_final_sha256": "704aa1ea15084c86bcecf35f054429e8f7f417385a697ec4e3354710fb6e6936",
+  "actual_terminations": {
+    "train": {
+      "cumulative": {
+        "cpu": 2698.478177,
+        "wall": 2699.801927657012
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5390.497165,
+        "wall": 5393.483888376999
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "output": {
+      "cumulative": {
+        "cpu": 5400.273867,
+        "wall": 5403.502583900001
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "archive_parts": 13,
+  "archive_bytes": 94280833,
+  "archive_sha256": "5650dc0dbd0ade1e61c60b075aefb7f930d6032a64cbf489feefbb3c388020f8",
+  "archive_payloads": 397,
+  "complete_private_modelset_owner_only_raw_every_member_verified": true,
+  "original_once_scorer_sha256": "d2e1729f2d3aaae5c05e2dd7c249c3cc407f885d9055199662b1474b7fadbd09",
+  "scientific_source_changed": false,
+  "original789_snapshot_changed": false,
+  "diagnostic_labels_read": true,
+  "once_gate_consumed": true,
+  "summary": {
+    "diagnostic_macro": 0.985,
+    "difference": 0.0008333333333332416,
+    "finalizer_invocations": 1,
+    "independent_validation": false,
+    "legacy8fold_improvement_proven": false,
+    "novel_contribution_validated": false,
+    "predeclared_gate_passed": false,
+    "reference_noMixup_GAP64_macro": 0.9841666666666667,
+    "route": "close_exact_Manifold_Mixup_alpha2_random012_GAP64_B64_seed20261029_no_rescue",
+    "selected_epoch": 63,
+    "state": "complete_exploratory_Manifold_Mixup_GAP64_source1_pilot",
+    "users7_8_labels_used": false
+  },
+  "new_accuracy_result": true
 }
 }
