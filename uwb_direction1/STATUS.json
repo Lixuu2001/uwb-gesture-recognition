@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "mixup_TimeMIL_resource_closed_GAP64_fixed_before_fit",
+  "state": "mixup_GAP64_native_checks_resource_private_initial_verified_real_release_ready",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixup_gap64_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixup_gap64_release/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793860325.1979373,
+  "background_training_observed_unix": 1793860618.7394571,
   "background_training_pid": null,
-  "background_training_status_note": "TimeMIL64 input Mixup synthetic tests pass but unchanged resource gate failed13.49h>12h; no UWB fit. Distinct full-width GAP64+Mixup alpha1 fixed before its own synthetic tests/cost; no active model job.",
+  "background_training_status_note": "Full617612param GAP64+input Mixup alpha1 tests/resource gate passed and initial2part private raw/allmember backup verified. Exact remote release precedes ONE fixed real pilot; no model fitting active at release preparation.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11438,5 +11438,19 @@
   "prior_TimeMIL64_exact_resource_configuration_closed": true,
   "new_backbone_parameters": 617612,
   "synthetic_resource_gate_pending": true
+}
+,
+  "mixup_gap64_release_20261105": {
+  "report": "results/cloud_20261105_mixup_gap64_release/RUN_REPORT.md",
+  "method": "input_Mixup_alpha1_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "new_UWB_fit_started": false,
+  "resource_gate_passed": true,
+  "synthetic_checks_passed": true,
+  "initial_archive_sha256": "7dbfb56c2ec1c61a91af9b8ae03c796ed5cecb1bcff240bb8d765118d96189bd",
+  "projected_wall_seconds": 11857.076046139759,
+  "once_scorer_sha256": "fb617ce99700d0d35fee1cc946d2a0aaa5de5cede10acce9d53cebdc4af81145"
 }
 }
