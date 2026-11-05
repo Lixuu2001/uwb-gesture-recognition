@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "DSU_producer64_complete_OWNfresh64_replay_active_unscored_EFDMix_conditional_synthetic_pass",
+  "state": "DSU_OWNfresh_replay_active_unscored_EFDMix_fixed_conditional_production_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_dsu_gap64_producer64_replay_insurance01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_efdmix_gap64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793906951.990541,
+  "background_training_observed_unix": 1793907096.5560179,
   "background_training_pid": 27435,
-  "background_training_status_note": "DSU originalproducer64 exit0/4736; OWNfreshreplay PID27435 observed49/64. Completeproducer+OWN33 privateinsurance11parts verified; notFULL/scoring. EFDMix conditional alpha.1/p.5/early0 fullnative checks/onecost pass, no realfit/diagnostic.",
+  "background_training_status_note": "DSU original64 done; OWNfresh64 replay PID27435 observed52/64, diagnosticunscored. EFDMix alpha.1/p.5/random/early0/full617612/B64/64/seed20261029 production18 fixed; synthetic prototype/cost pass, productionchecks pending, no EFDMixrealfit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -12851,5 +12851,20 @@
     "original_contribution_claim": false,
     "independent_validation": false
   }
+}
+,
+  "efdmix_gap64_preparation_20261105": {
+  "report": "results/cloud_20261105_efdmix_gap64_preparation/RUN_REPORT.md",
+  "method": "published_EFDMix_alpha.1_p.5_random_early0_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "a28f88db72350875087b564512476caa4bd29308f447d2073ceb9d0107e2ee2f",
+  "scientific_files": 18,
+  "EFDMix_real_fit_started": false,
+  "production_checks_pending": true,
+  "prior_DSU_diagnostic_read": false,
+  "prototype_pass": true,
+  "new_accuracy_result": false
 }
 }
