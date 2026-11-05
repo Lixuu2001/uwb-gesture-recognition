@@ -1,0 +1,12 @@
+{
+  "state": "profile_module_shadowing_repaired_before_UWB",
+  "prior_commit": "34e1b1e85198a60e7dcb5c836d367c877e03dff3",
+  "failed_action": "synthetic full model import",
+  "error": "AttributeError: module profile has no attribute run",
+  "cause": "task profile.py shadowed stdlib profile used by cProfile/TorchDynamo",
+  "fix": "rename to capacity_profile.py and update synthetic controller target; separate execution_repair01 directory retains failed logs",
+  "failed_wall_seconds": 2.001909323997097,
+  "scientific_configuration_changed": false,
+  "new_UWB_fit_started": false,
+  "diagnostic_labels_read": false
+}

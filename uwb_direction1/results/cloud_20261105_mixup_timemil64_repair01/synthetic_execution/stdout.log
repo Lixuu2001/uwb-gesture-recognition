@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-mixup-timemil64-20261105/synthetic.py", line 5, in <module>
+    import engine as e
+  File "/workspace/uwb-mixup-timemil64-20261105/engine.py", line 8, in <module>
+    torch.set_num_threads(1);torch.set_num_interop_threads(1);torch.use_deterministic_algorithms(True)
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/agent/.local/lib/python3.12/site-packages/torch/__init__.py", line 1921, in use_deterministic_algorithms
+    import torch._inductor.config as inductor_config
+  File "/home/agent/.local/lib/python3.12/site-packages/torch/_inductor/__init__.py", line 12, in <module>
+    from .standalone_compile import (
+  File "/home/agent/.local/lib/python3.12/site-packages/torch/_inductor/standalone_compile.py", line 18, in <module>
+    from torch._dynamo.aot_compile_types import BundledAOTAutogradSerializableCallable
+  File "/home/agent/.local/lib/python3.12/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    from . import (
+  File "/home/agent/.local/lib/python3.12/site-packages/torch/_dynamo/aot_compile.py", line 22, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/home/agent/.local/lib/python3.12/site-packages/torch/_dynamo/convert_frame.py", line 28, in <module>
+    import cProfile
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/cProfile.py", line 24, in <module>
+    run.__doc__ = _pyprofile.run.__doc__
+                  ^^^^^^^^^^^^^^
+AttributeError: module 'profile' has no attribute 'run'
