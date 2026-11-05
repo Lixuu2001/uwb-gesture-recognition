@@ -1,0 +1,41 @@
+{
+  "state": "same_registered_RegMixup_controller_and_worker_continue_after_private_native_snapshot",
+  "observed_unix": 1793876876.5315228,
+  "controller": {
+    "pid": 16664,
+    "startticks": 10682568,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 3.16
+  },
+  "worker": {
+    "pid": 16665,
+    "startticks": 10682823,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "cpu": 616.38
+  },
+  "progress": {
+    "checkpoint_sha256": "75c2aaa278ddb39d2d1edb9a5d8277b937d4a238e8f11b810abc019af43a06b2",
+    "epoch": 7,
+    "journal_sha256": "504eeba0d3fa98235ae090182d5a4aea172bc74473ff8eb44b9b12cd7e8a7095",
+    "prefix_bytes": 248861,
+    "prefix_sha256": "11ac992dac76522f415ca2bd70cd9cb66238ec3cf0ac5ac8dc72a45e55a25bf2",
+    "slot": "slot1.pt",
+    "updates": 518
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1901404,
+    "cpu": 621.9065370000001,
+    "stage": "train",
+    "wall": 621.383544508004
+  },
+  "native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "scientific16source_verified_unchanged": true,
+  "diagnostic_labels_read": false,
+  "users7_8_labels_used": false,
+  "full64_training_complete": false,
+  "full64_own_fresh_replay_complete": false,
+  "new_fit_started": false,
+  "new_accuracy_result": false
+}
