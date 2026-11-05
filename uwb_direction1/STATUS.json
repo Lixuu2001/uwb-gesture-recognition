@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "close_exact_DSU_p.5_factor1_allnative01_GAP64_B64_seed20261029_no_rescue",
+  "state": "EFDMix_actual_prior_failure_activation_initial_private_verified_requires_exact_release_then_single_launch",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_dsu_gap64_final/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_efdmix_gap64_release/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793908056.0581272,
+  "background_training_observed_unix": 1793908174.8142755,
   "background_training_pid": null,
-  "background_training_status_note": "DSU original64/OWN64/audits/FULLprivate/originalonce complete: source198.166667% vs98.416667%, delta-0.250000pp, gate=False. Scorerconsumed/noactiveDSUmodel.",
+  "background_training_status_note": "OriginalDSU consumed gatefailed/exactconfigclosed. PreregisteredEFDMix18 science/native/cost pass; actualpriorfailure/allinactivity and privateinitial verified. No realEFDMixfit yet; exactrelease thenONEcontroller.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -13034,5 +13034,25 @@
     "users7_8_labels_used": false
   },
   "new_accuracy_result": true
+}
+,
+  "efdmix_gap64_release_20261105": {
+  "report": "results/cloud_20261105_efdmix_gap64_release/RUN_REPORT.md",
+  "method": "published_EFDMix_alpha.1_p.5_random_early0_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "complete_trained_modelset": false,
+  "diagnostic_labels_read": false,
+  "frozen_sha256": "a28f88db72350875087b564512476caa4bd29308f447d2073ceb9d0107e2ee2f",
+  "initial_private_archive_sha256": "fc019c1f791b0b7b7ed7ce58289af4b7cfe773699c66f10eab586456a66cbdc3",
+  "initial_private_bytes": 7481408,
+  "initial_private_parts": 2,
+  "initial_private_payloads": 90,
+  "initial_private_raw_every_member_verified": true,
+  "new_UWB_fit_started": false,
+  "once_scorer_sha256": "80fb464af2cefea453b34e0905cfee800963a491f53d8096eb8bd3bfcde7eb59",
+  "prior_DSU_exact_gate_failed_closed": true,
+  "prior_DSU_summary_sha256": "ab27efffe0b18b42db7b58c9d55d5b3f01faffb67d52281b78af60e9c33c1237"
 }
 }
