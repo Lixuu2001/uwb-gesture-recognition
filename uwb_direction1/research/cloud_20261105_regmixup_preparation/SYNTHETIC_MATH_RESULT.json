@@ -1,0 +1,22 @@
+{
+  "state": "pass_conditional_RegMixup_arithmetic_not_real_experiment",
+  "author_input_mix_and_cat_targets_exact": true,
+  "author_CE_value_and_gradient_exact": true,
+  "code_loss_mean_is_half_sum_of_equal_sized_real_and_mixed_batches": true,
+  "BN_single_concatenated_forward_one_update": true,
+  "class_default_and_CIFAR10_recipe_alpha_beta": [
+    20,
+    20
+  ],
+  "CIFAR100_recipe_differs": [
+    10,
+    10
+  ],
+  "sampling_fixed_points_follow_author_code": true,
+  "no_UWB_arrays_or_labels_opened": true,
+  "no_real_UWB_protocol_registered": true,
+  "no_new_background_training_started": true,
+  "current_Manifold_process_untouched": true,
+  "wall_seconds": 0.47300090300268494,
+  "proposed_native_OvR_BCE_value_and_gradient_checked": true
+}

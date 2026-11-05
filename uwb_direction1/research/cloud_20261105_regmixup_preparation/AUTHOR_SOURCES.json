@@ -1,0 +1,51 @@
+{
+  "repo": "FrancescoPinto/RegMixup",
+  "commit": "fd7846532990da67bf56ae71f78517270252f5f5",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "README.md",
+      "blob_sha1": "af1be94a897831dbf8d8ebedd3928f6232981219",
+      "url": "https://github.com/FrancescoPinto/RegMixup/blob/fd7846532990da67bf56ae71f78517270252f5f5/README.md"
+    },
+    {
+      "path": "models/regmixup.py",
+      "blob_sha1": "9563686c7e991bae5f8de4fb10bbac083d94b111",
+      "url": "https://github.com/FrancescoPinto/RegMixup/blob/fd7846532990da67bf56ae71f78517270252f5f5/models/regmixup.py"
+    },
+    {
+      "path": "models/regularizers/mixup.py",
+      "blob_sha1": "715665d3ec517959ecfb926ab8dbf7d58f262d56",
+      "url": "https://github.com/FrancescoPinto/RegMixup/blob/fd7846532990da67bf56ae71f78517270252f5f5/models/regularizers/mixup.py"
+    },
+    {
+      "path": "models/vanilla.py",
+      "blob_sha1": "e7632fe331b8251ae2055308f1602f548a77d7c5",
+      "url": "https://github.com/FrancescoPinto/RegMixup/blob/fd7846532990da67bf56ae71f78517270252f5f5/models/vanilla.py"
+    },
+    {
+      "path": "utils/experiment_setup.py",
+      "blob_sha1": "bb99baebb90d8dad009870bb0bd25463689d4820",
+      "url": "https://github.com/FrancescoPinto/RegMixup/blob/fd7846532990da67bf56ae71f78517270252f5f5/utils/experiment_setup.py"
+    },
+    {
+      "path": "LICENSE",
+      "blob_sha1": "4c555655e0a5b1a77a9f4ed6146769cced09d883",
+      "url": "https://github.com/FrancescoPinto/RegMixup/blob/fd7846532990da67bf56ae71f78517270252f5f5/LICENSE"
+    },
+    {
+      "path": "commands.sh",
+      "blob_sha1": "e21c0d18e37942bf7532cffed1433a7decfbb90e",
+      "url": "https://github.com/FrancescoPinto/RegMixup/blob/fd7846532990da67bf56ae71f78517270252f5f5/commands.sh"
+    }
+  ],
+  "review_scope": "Complete listed author files read; publisher abstract and paper lines0-321 reviewed, plus supplementary Algorithm1 excerpt; full paper and supplement not yet fully reviewed.",
+  "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/5ddcfaad1cb72ce6f1a365e8f1ecf791-Paper-Conference.pdf",
+  "scoped_history": {
+    "parent": "9e96a1759db270faca69b0c4c5f45e7345ffffe1",
+    "command": "rg -n -i 'regmixup|using mixup as a regularizer' uwb_direction1/research uwb_direction1/results",
+    "exit_code": 1,
+    "matches": 0,
+    "interpretation": "No named equivalent in this scoped history; not worldwide novelty evidence."
+  }
+}

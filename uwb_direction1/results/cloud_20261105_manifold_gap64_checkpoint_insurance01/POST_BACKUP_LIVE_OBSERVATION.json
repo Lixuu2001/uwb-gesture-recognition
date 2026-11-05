@@ -1,0 +1,42 @@
+{
+  "committed_update_prefix_verified": true,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 4.16,
+    "pid": 14282,
+    "startticks": 9983676,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "full64_fresh_replay_complete": false,
+  "full64_training_complete": false,
+  "native_model_optimizer_all_RNG_recapture_exact": true,
+  "new_accuracy_result": false,
+  "new_fit_started": false,
+  "observed_unix": 1793870941.515649,
+  "progress": {
+    "checkpoint_sha256": "68ac7d180ba2ee61868241aa0062912b6a99e5c77e207b981a6e5ee3ac09ae5c",
+    "epoch": 39,
+    "journal_sha256": "68ecd52fd35ec04c48ba6c75c54e6a4e3b93998e1e9562d85589b8c71fd01655",
+    "prefix_bytes": 1411670,
+    "prefix_sha256": "fb63f9b9a54d01bd333d39335846e1e087eda609144ac1e0308f0990bd8fc0d9",
+    "slot": "slot1.pt",
+    "updates": 2886
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1678932,
+    "cpu": 1675.4653460000002,
+    "stage": "train",
+    "wall": 1675.4377619230072
+  },
+  "scientific_code_modified": false,
+  "state": "same_registered_Manifold_controller_and_producer_continue_after_private_native_snapshot",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1668.08,
+    "pid": 14284,
+    "startticks": 9983914,
+    "state": "R"
+  }
+}
