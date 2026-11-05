@@ -1,0 +1,15 @@
+{
+  "state": "phase_observation_correction_superseding_prior_current_process_prose",
+  "affected_commit": "9629f7f302096fc1b4e7ceec42051b68a64c181e",
+  "prior_prose": "original MixStyle producer24147 remains active, epoch64",
+  "actual_original_producer_exit_code": 0,
+  "actual_original_producer64_complete": true,
+  "actual_current_lane": "OWN independently fresh replay",
+  "actual_current_replay_pid": 24914,
+  "recovery_monitor_pid": 24195,
+  "producer_restarted": false,
+  "replay_restarted": false,
+  "diagnostic_labels_read": false,
+  "source_or_seed_changed": false,
+  "reason": "status staging used train PROGRESS at64 without resolving process role after producer termination; actual completed producer and replay receipts now supersede that prose"
+}

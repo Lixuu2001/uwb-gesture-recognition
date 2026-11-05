@@ -1,0 +1,72 @@
+{
+  "budget_reset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 4.44,
+    "pid": 24195,
+    "startticks": 12573231,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "new_experiment_or_duplicate_fit_started": false,
+  "observed_unix": 1793897641.4939852,
+  "producer_actual_termination": {
+    "actual_wait_status": 0,
+    "budget_reset": false,
+    "cumulative": {
+      "RSS_KiB": 0,
+      "cpu": 3179.554867,
+      "wall": 2576.750620698993
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "exit_observed_via_same_identity_proc_stat_wait_status": true,
+    "original_producer_CPU_seconds": 2567.18,
+    "producer_restarted": false,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "b8422f2dad5ef03507dfd0e026356415ccac1edad27bbed72efb234444089b7d",
+    "epochs": 64,
+    "final_state_sha256": "9fb8efe920d23379e17eb222a9f25965ed2efc407461c4fbe45420f508cfb877",
+    "selected_epoch": 36,
+    "selected_sha256": "d6b1f2a5ff23a9e18544e19ef8290e456009149d571acd6a864d0e6ce3f76914",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "412ca5a17c33e87717dde3b10b745aa67a0263a376eb51da95c2c75329fb7773"
+  },
+  "replay_captured_log_rows": 81,
+  "replay_progress": {
+    "checkpoint_sha256": "b91fe08d95ef67d4253e55ffb8348f20b9700eaa75a556e8f3257d924cdf52ee",
+    "epoch": 1,
+    "journal_sha256": "98fc8bb15681d3ab9bf27bffbe84d37edcaedb7416c5ef1ba49cd40b04336a76",
+    "prefix_bytes": 27654,
+    "prefix_sha256": "00b0386fca37d939e49b76038de9b1defe16e6a67a731183391d28ad5d60d596",
+    "slot": "slot1.pt",
+    "updates": 74
+  },
+  "replay_suffix_bytes": 2611,
+  "replay_uncommitted_rows": 7,
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 47.25,
+    "pid": 24914,
+    "startticks": 12816819,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1730524,
+    "budget_reset": false,
+    "cpu": 3226.7722339999996,
+    "recovery_monitor": true,
+    "stage": "replay",
+    "unknown_original_first_audit_CPU_charge_seconds": 600.0,
+    "wall": 2623.954397480993
+  },
+  "scientific18_changed": false,
+  "state": "complete_MixStyle_producer64_and_coherent_OWN_fresh_replay_native_prefix_captured_unscored",
+  "users7_8_labels_used": false
+}

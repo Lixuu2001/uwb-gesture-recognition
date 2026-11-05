@@ -1,0 +1,22 @@
+{
+  "state": "completed_readonly_observer_dependency_race_repaired_before_single_reattach",
+  "old_observer": {
+    "pid": 24288,
+    "startticks": 12592418,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "cpu": 4.9
+  },
+  "old_actual_exit_code": 1,
+  "error": "FileNotFoundError run/replay/PROGRESS.json before first replay journal commit",
+  "old_source_sha256": "4e25d37bacd6f71bc5797fb9327d5d22505051fc1ab756d15e83023926f290b2",
+  "new_source_sha256": "919b41053fbbe0f66048ee2455a6ba4b57f144eec47da04cc4e973cd5d2b06a3",
+  "missing_progress_dependency_test_passed": true,
+  "terminal_state_inactive_supervisor_rechecked": true,
+  "audit_identity_field_names_clarified": true,
+  "model_or_replay_restarted": false,
+  "source_configuration_or_seed_changed": false,
+  "scientific18_unchanged": true,
+  "diagnostic_labels_read": false,
+  "new_model_fit_started": false
+}

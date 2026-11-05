@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-mixstyle-gap-final-meta-20261105/observe_and_build.py", line 63, in <module>
+    try:main();save('OBSERVER_TERMINATION.json',dict(exit_code=0,new_fit_started=False,diagnostic_labels_read=False))
+        ^^^^^^
+  File "/workspace/uwb-mixstyle-gap-final-meta-20261105/observe_and_build.py", line 19, in main
+    save('OBSERVER_PROGRESS.json',dict(observed_unix=time.time(),stage=ledger['stage'],progress=read(p),resource_ledger=ledger,new_fit_started=False,diagnostic_labels_read=False))
+                                                                                                ^^^^^^^
+  File "/workspace/uwb-mixstyle-gap64-20261105/common.py", line 4, in read
+    def read(p):return json.loads(Path(p).read_text())
+                                  ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/uwb-mixstyle-gap64-20261105/run/replay/PROGRESS.json'

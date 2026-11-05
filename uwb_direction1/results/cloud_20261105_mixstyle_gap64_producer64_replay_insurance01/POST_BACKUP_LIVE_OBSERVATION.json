@@ -1,0 +1,81 @@
+{
+  "all_committed_replay_rows_and_epoch_state_match_original_producer": true,
+  "budget_reset": false,
+  "diagnostic_labels_read": false,
+  "new_accuracy_result": false,
+  "observed_unix": 1793897978.9331484,
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "b8422f2dad5ef03507dfd0e026356415ccac1edad27bbed72efb234444089b7d",
+    "epochs": 64,
+    "final_state_sha256": "9fb8efe920d23379e17eb222a9f25965ed2efc407461c4fbe45420f508cfb877",
+    "selected_epoch": 36,
+    "selected_sha256": "d6b1f2a5ff23a9e18544e19ef8290e456009149d571acd6a864d0e6ce3f76914",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "412ca5a17c33e87717dde3b10b745aa67a0263a376eb51da95c2c75329fb7773"
+  },
+  "producer_restarted": false,
+  "producer_termination": {
+    "actual_wait_status": 0,
+    "budget_reset": false,
+    "cumulative": {
+      "RSS_KiB": 0,
+      "cpu": 3179.554867,
+      "wall": 2576.750620698993
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "exit_observed_via_same_identity_proc_stat_wait_status": true,
+    "original_producer_CPU_seconds": 2567.18,
+    "producer_restarted": false,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "readonly_completion_observer": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 4.36,
+    "pid": 25414,
+    "startticks": 12842179,
+    "state": "S"
+  },
+  "recovery_monitor": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 5.02,
+    "pid": 24195,
+    "startticks": 12573231,
+    "state": "S"
+  },
+  "replay_own_native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "replay_progress": {
+    "checkpoint_sha256": "5291061a456299d04072aa83ff287f5fc85e030303bd485fa597096a844d4a54",
+    "epoch": 9,
+    "journal_sha256": "a304242e595d2427037f6fe0f0bc8870a6a032a36a67e777d7197bef4205821d",
+    "prefix_bytes": 250325,
+    "prefix_sha256": "e02b30d8e0d83958bdea62326778aa417f9d3ebb01914bbe10c9d0170aa1cdbf",
+    "slot": "slot1.pt",
+    "updates": 666
+  },
+  "replay_restarted": false,
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 384.43,
+    "pid": 24914,
+    "startticks": 12816819,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1739328,
+    "budget_reset": false,
+    "cpu": 3564.279223,
+    "recovery_monitor": true,
+    "stage": "replay",
+    "unknown_original_first_audit_CPU_charge_seconds": 600.0,
+    "wall": 2961.1421243380028
+  },
+  "scientific18_unchanged": true,
+  "state": "original_producer64_exited0_own_fresh_replay_running_native_prefix_verified_diagnostic_unscored",
+  "trained_insurance_private_verified": true,
+  "users7_8_labels_used": false
+}
