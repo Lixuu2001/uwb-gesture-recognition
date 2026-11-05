@@ -1,0 +1,40 @@
+{
+  "state": "transient_exec_server_transport_failure_during_final_three_private_archive_pipelines_evidence_preserved",
+  "errors": [
+    {
+      "i": 11,
+      "name": "dsu_gap64_full_20261105.part011",
+      "file_id": "1KcVZm4wFRlazyLAIHPbAL8pPbzGyOppN",
+      "stage": "SHA",
+      "error": "Exit code: 1\nWall time: 34.1 seconds\nOutput:\nFailed to write file /workspace/uwb-dsu-gap64-20261105/full_backup/TRANSPORT_REPLACE_011.json\n"
+    },
+    {
+      "i": 12,
+      "name": "dsu_gap64_full_20261105.part012",
+      "file_id": "19n30lxRmoau099rwzoIEmJKiizI7TTGd",
+      "stage": "materialize",
+      "error": "cannot write attachment: exec-server transport closed"
+    },
+    {
+      "i": 13,
+      "name": "dsu_gap64_full_20261105.part013",
+      "file_id": null,
+      "stage": "upload",
+      "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+    }
+  ],
+  "known_uploaded_ID_parts_reuse_without_reupload": [
+    11,
+    12
+  ],
+  "unknown_ID_part_requires_two_successful_exact_name_absence_checks_before_one_retry": 13,
+  "cloud_shell_available": true,
+  "same_boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+  "cloud_environment_observed_running_connected_no_failure": true,
+  "disk_not_full": true,
+  "verified_parts_at_failure": 11,
+  "archive_rebuilt": false,
+  "model_refit_or_restart": false,
+  "diagnostic_gate_unconsumed": true,
+  "recovery_in_progress": true
+}

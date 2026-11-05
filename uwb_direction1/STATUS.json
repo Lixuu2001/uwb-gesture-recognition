@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "DSU_OWNfresh_replay_active_unscored_EFDMix_conditional_production18_native_cost_pass",
+  "state": "DSU_full64_OWNfresh64_FULL_private_modelset_verified_ready_for_original_once_gate",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_efdmix_gap64_verification/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_dsu_gap64_full_archive/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793907251.5227907,
-  "background_training_pid": 27435,
-  "background_training_status_note": "DSU original64 done/OWNfreshreplay PID27435 observed56/64; originaldiagnosticunscored. EFDMix production18 fixed/native checks+ONE MAXfloorcost pass, no activation/realfit; actual priorfailure+privateinitial+exactrelease required.",
+  "background_training_observed_unix": 1793907945.139394,
+  "background_training_pid": null,
+  "background_training_status_note": "DSU original64/OWNfresh64/output exit0 exact; FULL private owner-only raw/everymember pass. Diagnosticunscored/noactiveDSUfit; immutable originalonce pending. EFDMix conditional/unfitted. Final3transportfaults repaired:2knownIDs reused/1absence-proven one retry; all14/412 pass; no refit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Continue SAME DSU original producer26890/controller26889 and readonly completion observer26913; no duplicate launch. After original64/OWNfresh64/output/all audits/FULL private owner-only raw/everymember proof, invoke ORIGINAL once scorer only. Fail closes exact config without rescue; pass separately preregisters source6. For empty large GitHub authority text first resolve latest head, then cloud Git fetch/read/hash that exact commit; never infer data loss.",
-  "last_completed_update_utc": "2026-11-05T18:21:37.703767+00:00",
+  "last_completed_update_utc": "2026-11-05T19:45:45.086536+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -12890,5 +12890,78 @@
   "new_UWB_fit_started": false,
   "prior_DSU_diagnostic_unscored": true,
   "new_accuracy_result": false
+}
+,
+  "dsu_gap64_full_archive_20261105": {
+  "report": "results/cloud_20261105_dsu_gap64_full_archive/RUN_REPORT.md",
+  "method": "published_DSU_p.5_factor1_allnative01_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "epoch_records_exact": 65,
+  "updates_per_trajectory": 4736,
+  "selected_epoch": 26,
+  "native_final_sha256": "0a1ff80dacbdbb5c02622720ae65750a489bed29d98e40f6a03f7a8cd0cdf329",
+  "actual_terminations": {
+    "train": {
+      "cumulative": {
+        "cpu": 2514.157497,
+        "wall": 2514.6736794770113
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5060.472012,
+        "wall": 5062.288339786988
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "output": {
+      "cumulative": {
+        "cpu": 5070.368458000001,
+        "wall": 5072.305934022996
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "archive_parts": 14,
+  "archive_bytes": 101821311,
+  "archive_sha256": "c947d4eeecf02b9f2c56fcda1951ed3e158ae1524bdc0519052aa7c43fa6d992",
+  "archive_payloads": 412,
+  "complete_private_modelset_owner_only_raw_every_member_verified": true,
+  "original_once_scorer_sha256": "8d21402f39de0040058e8b6b0d28444d4374e3595fbcd669f68fada97664ecf7",
+  "scientific16_changed": false,
+  "original789_changed": false,
+  "diagnostic_labels_read": false,
+  "once_gate_consumed": false,
+  "new_accuracy_result": false,
+  "transport_recovery": {
+    "state": "all_final_three_transport_faults_recovered_full_private_archive_verified",
+    "known_ID_parts_recovered_without_reupload": [
+      11,
+      12
+    ],
+    "one_missing_ID_part": 13,
+    "missing_ID_exact_folder_and_global_absence_before_one_retry": true,
+    "explicit_upload_retries": 1,
+    "all_14_parts_raw_size_SHA_and_412_payloads_verified": true,
+    "whole_archive_sha256": "c947d4eeecf02b9f2c56fcda1951ed3e158ae1524bdc0519052aa7c43fa6d992",
+    "archive_rebuilt": false,
+    "model_refit_or_restart": false,
+    "budget_reset": false,
+    "once_gate_still_unconsumed": true
+  }
 }
 }
