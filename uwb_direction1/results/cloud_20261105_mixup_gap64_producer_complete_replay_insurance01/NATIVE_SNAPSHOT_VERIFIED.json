@@ -1,0 +1,30 @@
+{
+  "diagnostic_labels_read": false,
+  "full64_own_replay_complete": false,
+  "new_forward_or_optimizer_update": false,
+  "original_completion_metadata_alias_and_canonical_correction_preserved": true,
+  "own_full_log_prefix_exact": true,
+  "own_records_exact": 17,
+  "payload_files_verified": 282,
+  "producer_full64_and_actual_termination_preserved": true,
+  "stages": {
+    "replay": {
+      "checkpoint_sha256": "cc15b375f76a1f798f962f886efbdc65ad50709119eb808d168965137410ce4f",
+      "epoch": 16,
+      "native_model_optimizer_all_RNG_restore_recapture_exact": true,
+      "selected_epoch": 8,
+      "state_sha256": "9e767274314b7cdd1220e2e75f1c8514436ef45038fecd94d22befed18b6da9d",
+      "updates": 1184
+    },
+    "train": {
+      "checkpoint_sha256": "5424e46a61567daf41ef0193d5eed807f729c8f442de53aafff444e21555276e",
+      "epoch": 64,
+      "native_model_optimizer_all_RNG_restore_recapture_exact": true,
+      "selected_epoch": 39,
+      "state_sha256": "d09bb31aad6afca0d81b1ac306111fb5f2619959ccb8dc47591f7832ad4448bf",
+      "updates": 4736
+    }
+  },
+  "state": "pass_complete_producer_and_own_fresh_replay_native_checkpoint",
+  "users7_8_labels_used": false
+}

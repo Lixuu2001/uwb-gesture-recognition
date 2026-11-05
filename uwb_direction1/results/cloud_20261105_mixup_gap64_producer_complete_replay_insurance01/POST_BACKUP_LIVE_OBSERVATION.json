@@ -1,0 +1,99 @@
+{
+  "budget_reset": false,
+  "completion_state_metadata_correction": {
+    "actual_checkpoint_file_sha256": "5424e46a61567daf41ef0193d5eed807f729c8f442de53aafff444e21555276e",
+    "actual_final_matches_epoch64_journal_record": true,
+    "actual_final_native_state_sha256": "d09bb31aad6afca0d81b1ac306111fb5f2619959ccb8dc47591f7832ad4448bf",
+    "actual_termination": {
+      "cumulative": {
+        "cpu": 2752.1787320000003,
+        "wall": 2753.5335760770104
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "diagnostic_labels_read": false,
+    "epochs": 64,
+    "inner_validation_best_model_verified": true,
+    "models_or_scientific_code_modified": false,
+    "native_model_optimizer_all_RNG_recapture_exact": true,
+    "new_forward_or_optimizer_update": false,
+    "observed_unix": 1793863944.6212285,
+    "original_completion_record_modified": false,
+    "original_completion_record_sha256": "c7355d4324fb54ed1f3aa9a1ba294be67744e6cfefd6a0764647b8e8e3aec28b",
+    "original_misnamed_final_state_sha256": "05d6f0346e7ee97382004707bac8c1b19ab572bf92e9e63971d42171be7435d8",
+    "reconstructed_selected_weight_alias_sha256": "05d6f0346e7ee97382004707bac8c1b19ab572bf92e9e63971d42171be7435d8",
+    "selected_epoch": 39,
+    "selected_outputs_original_hashes_verified": true,
+    "stage": "train",
+    "state": "pass_actual_native_final_state_and_selected_alias_metadata_explained",
+    "updates": 4736,
+    "users7_8_labels_used": false
+  },
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 6.39,
+    "pid": 12536,
+    "startticks": 9136657,
+    "state": "S"
+  },
+  "current_stage": "replay",
+  "diagnostic_labels_read": false,
+  "full64_replay_complete": false,
+  "new_fitting_started_by_observation": false,
+  "observed_unix": 1793864725.154738,
+  "own_complete_records_equal_producer": 26,
+  "own_native_model_optimizer_rng_verified": true,
+  "own_replay_progress": {
+    "checkpoint_sha256": "8f9387764e5701c897e17cebecdb3f8e6e230e9a37e2f3c3967619ac10d90f69",
+    "epoch": 25,
+    "journal_sha256": "e1492a838737ced3c35f7fc696a8c2c3941501f99bd3a9377e1308a0c14230a1",
+    "prefix_bytes": 819324,
+    "prefix_sha256": "8f39eaa6d93b822595f0118f51fad69cc20c6095659353fe1eea3989e3cfba96",
+    "slot": "slot1.pt",
+    "updates": 1850
+  },
+  "own_update_prefix_equal_producer": true,
+  "producer_actual_termination": {
+    "cumulative": {
+      "cpu": 2752.1787320000003,
+      "wall": 2753.5335760770104
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "producer_complete": true,
+  "producer_final_native_model_optimizer_rng_verified": true,
+  "producer_summary": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "36e22ca97d65b963d8d82eb24983c0b1ffdce6b4248c2b2107d63bea17646b4b",
+    "epochs": 64,
+    "final_state_sha256": "05d6f0346e7ee97382004707bac8c1b19ab572bf92e9e63971d42171be7435d8",
+    "selected_epoch": 39,
+    "selected_sha256": "2a2ba2a50bd61ff899f36e3bb55773db0da39eb1690f56237b80bac503595b72",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "0a9b33692a248bc3e32d73aa9151e8d73140f48212f585934e2669dd2aa0a90f"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1744500,
+    "cpu": 3928.1187320000004,
+    "stage": "replay",
+    "wall": 3929.8842332750064
+  },
+  "scientific_configuration_changed": false,
+  "state": "same_original_registered_controller_healthy_no_scoring",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1176.27,
+    "pid": 12890,
+    "startticks": 9412245,
+    "state": "R"
+  }
+}
