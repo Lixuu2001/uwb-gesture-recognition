@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-mixup-timemil64-20261105/synthetic.py", line 48, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-mixup-timemil64-20261105/synthetic.py", line 34, in main
+    assert left==actual and e.semantic(after)==e.semantic(e.capture(right,ro,rg,epoch,after['updates']))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

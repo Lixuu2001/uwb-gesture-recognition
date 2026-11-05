@@ -1,0 +1,11 @@
+{
+  "state": "native_optimizer_restore_alias_repaired_before_UWB",
+  "prior_commit": "07c4821ebbb2d326891312f6ec3d8f91bb81ba82",
+  "failed_synthetic_wall_seconds": 19.018123775007552,
+  "error": "full native checkpoint/RNG state equality assertion failed",
+  "diagnosis": "Torch optimizer.load_state_dict retains tensor references; left branch updates mutated shared in-memory saved optimizer fixture before right restore",
+  "fix": "deepcopy optimizer state on restore; assert saved fixture digest unchanged by resumed update",
+  "augmentation_loss_and_Beta_permutation_were_identical": true,
+  "scientific_configuration_changed": false,
+  "new_UWB_fit_started": false
+}

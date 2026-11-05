@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "mixup_synthetic_import_defect_repaired_pending_execution",
+  "state": "mixup_native_optimizer_restore_alias_repaired_pending_verification",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261105_mixup_timemil64_repair01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261105_mixup_timemil64_repair02/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793859903.000529,
+  "background_training_observed_unix": 1793860050.450336,
   "background_training_pid": null,
-  "background_training_status_note": "Synthetic import failed before any UWB read/update due to local profile.py shadowing stdlib; renamed capacity_profile.py. Scientific config unchanged, failed logs retained, corrected exact snapshot registered before retry. No active fit.",
+  "background_training_status_note": "Synthetic native resume test exposed shared optimizer-state fixture alias; causal hash evidence preserved, restore deep-copy repair registered before retry. Scientific configuration unchanged; no UWB arrays/fit or active model job.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -11413,5 +11413,17 @@
   "scientific_configuration_changed": false,
   "synthetic_execution_failure": true,
   "repair": "rename_profile_module"
+}
+,
+  "mixup_timemil64_repair02_20261105": {
+  "report": "results/cloud_20261105_mixup_timemil64_repair02/RUN_REPORT.md",
+  "method": "input_Mixup_alpha1_full_TimeMIL64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "new_UWB_fit_started": false,
+  "scientific_configuration_changed": false,
+  "synthetic_resume_failure": true,
+  "repair": "copy_optimizer_state_before_restore"
 }
 }
