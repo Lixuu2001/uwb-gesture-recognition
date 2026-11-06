@@ -1,0 +1,190 @@
+{
+  "VREx_activated": false,
+  "active_replay": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 183.82,
+    "pid": 60014,
+    "startticks": 20530226,
+    "state": "R"
+  },
+  "complete_fold_audits": false,
+  "complete_sixfold_cohort": false,
+  "held1_original_unchanged_unscored": true,
+  "independent_validation": false,
+  "inference_not_executed": true,
+  "inference_registration": {
+    "actual_inference_executed": false,
+    "branch_head_verified": true,
+    "cohort_scientific_frozen_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+    "commit": "4548997ee8fb5bd8f25faf4a65959a73c043746a",
+    "force": false,
+    "inference_frozen_sha256": "5f05da91f9b930226788f5fb06b217a1f9d856c4d2c858b2c282a9385080b4b2",
+    "scope": "Only label-free fixed timing after original phase inactive/all6 frozen/fullprivate release; no fitting or test scoring"
+  },
+  "new_diagnostic_scores_computed": false,
+  "new_fits_or_replays_launched_this_continuation": false,
+  "novel_contribution_validated": false,
+  "observed_unix": 1793974912.1669958,
+  "old_singlefold_once_invoked": false,
+  "original_phase_not_restarted": true,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 24.5,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "S"
+  },
+  "previous_complete_fold_private_proofs": {
+    "2": {
+      "archive_members": 401,
+      "archive_sha256": "8075136c376743531528ad90d002da4b79568a5dacdba4d601ba997500b82c45",
+      "chunks_verified": 13,
+      "complete_modelset_verified": true,
+      "scope": "complete_native_unscored_MMD_held2_only_not_complete_sixfold_cohort",
+      "state": "remote_archive_and_all_members_verified",
+      "tracked_payload_members_verified": 400
+    },
+    "3": {
+      "archive_members": 401,
+      "archive_sha256": "1988cb105dd4dcbadb5611430edc5adbd367d4370af5d6976e1da5cce885f7d5",
+      "chunks_verified": 13,
+      "complete_modelset_verified": true,
+      "scope": "complete_native_unscored_MMD_held3_only_not_complete_sixfold_cohort",
+      "state": "remote_archive_and_all_members_verified",
+      "tracked_payload_members_verified": 400
+    },
+    "4": {
+      "archive_members": 401,
+      "archive_sha256": "57e3f4710f02660d5094770b4bf023825954c8227d52cd54645ed3fa09ec5e8b",
+      "chunks_verified": 13,
+      "complete_modelset_verified": true,
+      "scope": "complete_native_unscored_MMD_held4_only_not_complete_sixfold_cohort",
+      "state": "remote_archive_and_all_members_verified",
+      "tracked_payload_members_verified": 400
+    },
+    "5": {
+      "archive_members": 401,
+      "archive_sha256": "cfe39ef23c4f97a3d58fad27406511603c8cf7f04f66cc1b8e93249a87cb591d",
+      "chunks_verified": 13,
+      "complete_modelset_verified": true,
+      "scope": "complete_native_unscored_MMD_held5_only_not_complete_sixfold_cohort",
+      "state": "remote_archive_and_all_members_verified",
+      "tracked_payload_members_verified": 400
+    }
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "producer": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "4daf4b4685da455c46ac361d272ec8b4f9dfe7164df23511fed5078ec40b23b8",
+    "epochs": 64,
+    "final_state_sha256": "67b8b41441a401f1bd4fd51415da1c70c6095729ed58ea88d4250083138aa4de",
+    "selected_epoch": 1,
+    "selected_sha256": "9f3b6e3dac082d39fdf2807f7845ffdee1eba5a1ba57cfdbde0a4f9d2f4afe26",
+    "state": "full64_training_complete_unscored",
+    "updates": 4608,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "94f21d8da7fff29302a5a520feee5f53e3727e43894db9ae423401483ff810f5"
+  },
+  "producer_backup_audit": {
+    "complete_fold_audits": false,
+    "complete_independent_replay": false,
+    "complete_sixfold_cohort": false,
+    "complete_training_producer": true,
+    "diagnostic_labels_read": false,
+    "epochs": 64,
+    "final_native_state_sha256": "67b8b41441a401f1bd4fd51415da1c70c6095729ed58ea88d4250083138aa4de",
+    "held": 6,
+    "journal_chain_and_step_prefix_verified": true,
+    "native_first_update_exact": true,
+    "new_model_updates_or_inference_executed": false,
+    "original_phase_not_restarted": true,
+    "phase": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 24.4,
+      "pid": 50654,
+      "startticks": 18218982,
+      "state": "S"
+    },
+    "producer_termination": {
+      "cumulative": {
+        "cpu": 2592.8002380000003,
+        "wall": 2593.870455507975
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay_ledger": {
+      "RSS_KiB": 1739500,
+      "active_held": 6,
+      "completed_folds": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "cpu": 23226.880779314,
+      "fold_stage": "replay",
+      "prior_reused_fold1_cpu": 5019.332418999999,
+      "prior_reused_fold1_wall": 5022.569200421014,
+      "wall": 23201.57569724301
+    },
+    "selected_epoch": 1,
+    "state": "completed64_producer_native_state_selected_model_journal_and_committed_prefix_verified_before_private_protection",
+    "updates": 4608,
+    "users7_8_labels_used": false
+  },
+  "producer_first_release": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "63ed7f4ff7e00aed8852c2755e3314fc6d54680fd7602e6c2545f369013c1836",
+    "native_first_update_exact": true,
+    "state_sha256": "b579ffb1b8f3b8530d77f69f82b1c5c696f6042fa583f42ac80dc6955f188175"
+  },
+  "producer_state": {
+    "diagnostic_labels_read": false,
+    "epoch": 64,
+    "selected_epoch": 1,
+    "state": "training",
+    "updates": 4608,
+    "users7_8_labels_used": false
+  },
+  "producer_termination": {
+    "cumulative": {
+      "cpu": 2592.8002380000003,
+      "wall": 2593.870455507975
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "replay_state": {
+    "diagnostic_labels_read": false,
+    "epoch": 4,
+    "selected_epoch": 1,
+    "state": "full_replay",
+    "updates": 288,
+    "users7_8_labels_used": false
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1739540,
+    "active_held": 6,
+    "completed_folds": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "cpu": 23321.227263129003,
+    "fold_stage": "replay",
+    "prior_reused_fold1_cpu": 5019.332418999999,
+    "prior_reused_fold1_wall": 5022.569200421014,
+    "wall": 23295.780421845993
+  },
+  "state": "final_held6_producer64_complete_original_fresh_replay_active_all_cohort_unscored",
+  "users7_8_labels_used": false
+}
