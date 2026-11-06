@@ -1,0 +1,146 @@
+{
+  "state": "conditional_full_native_DomainBed_CORAL_synthetic_capacity_complete",
+  "gate_passed": true,
+  "updates": [
+    {
+      "wall": 0.6306928390113171,
+      "cpu": 0.6299700260000001,
+      "loss": 0.6871431469917297,
+      "classification_loss": 0.6854106783866882,
+      "penalty": 0.0017324485816061497,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "57dce3be2eeb1c8d6eeed8461b847309474163514b4bce189f2f4daff42166ce",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5591629889968317,
+      "cpu": 0.5586949520000002,
+      "loss": 0.563753068447113,
+      "classification_loss": 0.5621692538261414,
+      "penalty": 0.0015838234685361385,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "d78d250eedfe787a36b32308ad38b96ed01d41dc96daa9910e5e3a9dc39cef01",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.4724620190099813,
+      "cpu": 0.47196181800000003,
+      "loss": 0.46656304597854614,
+      "classification_loss": 0.46484556794166565,
+      "penalty": 0.0017174649983644485,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "90a513418252a74163a87b9ac5229d68b6be06ca50392c592d3a710ceaa30c53",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.466706786013674,
+      "cpu": 0.4664127259999997,
+      "loss": 0.3935125470161438,
+      "classification_loss": 0.3916381597518921,
+      "penalty": 0.0018743866821750998,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "132cc90b19a671ea0b30eeedc4dc28704e72cce035244f78b238bc137645a6a1",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.4647584860213101,
+      "cpu": 0.464759012,
+      "loss": 0.329284131526947,
+      "classification_loss": 0.32690179347991943,
+      "penalty": 0.0023823368828743696,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "3f24c7ecd3248e27d4b881d58155a1c802a30ff7dada62416fd6b2f4c1ca17f6",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5212394349800888,
+      "cpu": 0.5205997399999998,
+      "loss": 0.2839500904083252,
+      "classification_loss": 0.2812703251838684,
+      "penalty": 0.0026797710452228785,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "f53bfdc80f02b0f41737dae46b39f3fef4d79ee47422e8410e6f66157805a845",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5102046150132082,
+      "cpu": 0.5099051550000002,
+      "loss": 0.23807662725448608,
+      "classification_loss": 0.23517535626888275,
+      "penalty": 0.0029012670274823904,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "36a53830758977045f8532e910aab5c8b27b2d6d168b2957f324011249466513",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5392472309758887,
+      "cpu": 0.5388155509999999,
+      "loss": 0.215302973985672,
+      "classification_loss": 0.21202677488327026,
+      "penalty": 0.0032762016635388136,
+      "coral_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "78989effa182282df5db8403850f6a7f1d556386ccac77afe4b30b0cc5bf7861",
+      "forward_batch": 64
+    }
+  ],
+  "validation": [
+    {
+      "wall": 0.12953210997511633,
+      "cpu": 0.12953619199999977
+    },
+    {
+      "wall": 0.12788941597682424,
+      "cpu": 0.12789249300000005
+    },
+    {
+      "wall": 0.12632882400066592,
+      "cpu": 0.12633120699999978
+    }
+  ],
+  "checkpoint": {
+    "wall": 0.014404574001673609,
+    "cpu": 0.014406580999999363
+  },
+  "projected_full64_producer_and_own_fresh64_replay_seconds": {
+    "wall": 12502.811120681465,
+    "cpu": 12489.13307302
+  },
+  "measured_projection_seconds": {
+    "wall": 12502.811120681465,
+    "cpu": 12489.13307302
+  },
+  "prior_prototype_floor_applied": false,
+  "safety_factor": 2.0,
+  "maxRSS_KiB": 574736,
+  "caps": {
+    "wall": 43200,
+    "CPU": 43200,
+    "RSS_KiB": 12582912
+  },
+  "parameters": 617612,
+  "raw_forward_batch": 64,
+  "coral_gamma": 1.0,
+  "feature_dim": 128,
+  "penalty": "valid_source_user_pairs_mean_and_unbiased_covariance_squared_mean",
+  "seed": 20261029,
+  "wall_seconds": 4.62048081800458,
+  "CPU_seconds": 4.617103453,
+  "no_UWB_arrays_or_labels_opened": true,
+  "new_UWB_fit_started": false
+}

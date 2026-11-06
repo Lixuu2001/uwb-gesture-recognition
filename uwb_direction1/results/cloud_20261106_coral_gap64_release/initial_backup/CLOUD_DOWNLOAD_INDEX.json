@@ -1,0 +1,65 @@
+{
+  "archive_bytes": 7529369,
+  "archive_sha256": "b80149b5bd4dc3ec256725a320fe70613f92dd785a2caf73301c400fbc29ef9f",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1G0pauyHVH-j7yaCqBFH9MhVNhcx3JQkb",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "coral_gap64_initial_20261106.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "b0e49f7f259e57596586913477cacd526321d7d2c9c3ef1ca92d0346b42bf0de"
+    },
+    {
+      "bytes": 189337,
+      "download_verified": true,
+      "file_id": "1yBW02sHqIZyDKjHov6vS66GK-j0p_oxe",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 189337
+      },
+      "name": "coral_gap64_initial_20261106.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "d6d662c80250ca1baa5367743e0e97eb177a36cbe272acb2adf933d705a378e1"
+    }
+  ],
+  "complete_initial_seed_not_trained_modelset": true,
+  "diagnostic_labels_read": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "members_manifest_sha256": "7c7dc675a580f72c9a49307ca8e00b8c96b28a89665434da4e7e3bc4846561e9",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "scope": "fixed_CORAL_GAP64_initial_model_roles_and_sources_before_UWB_fit",
+  "state": "initial_model_roles_sources_owner_only_raw_allmember_verified"
+}
