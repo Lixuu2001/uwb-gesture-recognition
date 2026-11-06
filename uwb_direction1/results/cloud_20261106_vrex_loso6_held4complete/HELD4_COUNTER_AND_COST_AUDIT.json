@@ -1,0 +1,44 @@
+{
+  "state": "completed_held4_external_schedule_counter_and_cost_audit_no_fit_or_score",
+  "observed_unix": 1794005486.906223,
+  "arms": {
+    "train": {
+      "updates": 4544,
+      "counter_contiguous": true,
+      "full_reset_exactly_before_update501": true,
+      "weight1_updates": 500,
+      "weight10_updates": 4044,
+      "reset_events_exact": true
+    },
+    "replay": {
+      "updates": 4544,
+      "counter_contiguous": true,
+      "full_reset_exactly_before_update501": true,
+      "weight1_updates": 500,
+      "weight10_updates": 4044,
+      "reset_events_exact": true
+    }
+  },
+  "incremental_stage_seconds": {
+    "train": {
+      "wall": 2514.8906729349983,
+      "cpu": 2513.490708
+    },
+    "replay": {
+      "cpu": 2484.443971,
+      "wall": 2486.116407054011
+    },
+    "output": {
+      "cpu": 11.193540999999641,
+      "wall": 12.02142552100122
+    }
+  },
+  "final_cumulative": {
+    "cpu": 5009.12822,
+    "wall": 5013.02850551001
+  },
+  "complete_single_fold": true,
+  "complete_sixfold_cohort": false,
+  "new_optimizer_updates": false,
+  "test_labels_paired": false
+}

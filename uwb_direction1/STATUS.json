@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_first3_full_folds_private_verified_held4_production64_private248_original64529_replay_unscored",
+  "state": "LOSO6_VREx_first4_full64_ownfresh64_native_private_complete_original64529_held5_active_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_held4producer/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_held4complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794001903.3939128,
+  "background_training_observed_unix": 1794005728.9814785,
   "background_training_pid": 64529,
-  "background_training_status_note": "Original64529 active held4/replay epoch13; first3 complete64+64/native/private frozen, held4 producer64 private8parts248 verified; replay incomplete, no scores/duplicates.",
+  "background_training_status_note": "Original64529 active held5/train epoch47; first4 full64+ownfresh64/native/private frozen. Fullheld4 13parts406 allmember verified, roles/selection independently checked; no scores or duplicates.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -15957,5 +15957,141 @@
   "new_testscores_computed": false,
   "prior_costs_retained": true,
   "next": "Reuse64529 held4 ownfresh64 then held5/6 under frozenfull6. Freeze all6 native/private/exactrelease before cohortonce; no held1 gate/testfeedback."
+}
+,
+  "vrex_loso6_held4complete_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_held4complete/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "completed_full_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "held4_full64_ownfresh64_native_complete": true,
+  "held4_complete_private_parts": 13,
+  "held4_complete_private_payloads": 406,
+  "held4_complete_single_fold": true,
+  "held4_complete_modelset_verified": true,
+  "complete_sixfold_cohort": false,
+  "completed_roles_and_ID_firewall_independently_checked": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "validation_selection_intent_independently_recomputed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "actual_phase_observation": {
+    "all6_declared_phase_not_sixfold_completed": true,
+    "committed_progress": {
+      "checkpoint_sha256": "3d08fd4dc8a8c45900fc2e78ae26be62359a1da159c3ee14a87db67a727dd4de",
+      "epoch": 47,
+      "journal_sha256": "51c8912111877b598e93f69c76318d07daa6bc4b32fb23a3f81a026d0d9ab480",
+      "prefix_bytes": 2523611,
+      "prefix_sha256": "b7be5def3dfa6f74d8bc6e57e61dd1cf66c638519c357d36acad88f06b6d2526",
+      "slot": "slot1.pt",
+      "updates": 3384
+    },
+    "controller": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 4.07,
+        "pid": 73346,
+        "startticks": 23439536,
+        "state": "S"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.27,
+        "pid": 73346,
+        "startticks": 23439536,
+        "state": "R"
+      }
+    },
+    "current_held": 5,
+    "diagnostic_labels_read": false,
+    "first_partial_backup_is_not_complete_modelset": true,
+    "native_first_release": {
+      "diagnostic_labels_read": false,
+      "first_sha256": "6e2ca56882e72056cfd6a8ca8e264fe8eb4bd17cd9dd5dd3fb417ce8f7db17e4",
+      "native_first_update_exact": true,
+      "state_sha256": "f2bfa51793fbbe102aac070cd3ba70ddef7588b24b5170db7816d80a4a3c4ae7"
+    },
+    "new_real_release": {
+      "branch_head_verified": true,
+      "commit": "eaa1653059b44882a1dcd1014a622396d81b671b",
+      "configuration_fixed_before_complete_MMD_score": true,
+      "force": false,
+      "frozen_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+      "initial_archive_sha256": "5cab4eb2ee2fafa400ecf37381d7e7fe138e2d5a7f5c5f2e794212c3bd9bfa9a",
+      "initial_model_file_sha256": "b2e5e8cc4edda7a20f05b03a47291bc5774ed456de3cfa5c0715dd1dc8513156",
+      "main_all_six_wall_CPU_cap_seconds": 43200
+    },
+    "new_training_actually_started": true,
+    "observed_unix": 1794005673.9334252,
+    "old_MMD_source1_once_invoked": false,
+    "old_VREx_singlefold_activated": false,
+    "phase_actual_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 24.33,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "S"
+    },
+    "phase_original_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.57,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "R"
+    },
+    "resource_ledger": {
+      "RSS_KiB": 1676536,
+      "active_held": 5,
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cpu": 22955.601728792,
+      "fold_stage": "train",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "wall": 22931.468520942988
+    },
+    "scientific_sources_unchanged": true,
+    "stage": "train",
+    "state": "one_actual_full_sixfold_VREx_phase_running_unscored",
+    "users7_8_labels_used": false,
+    "worker": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 1843.42,
+        "pid": 73347,
+        "startticks": 23439764,
+        "state": "R"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 0.0,
+        "pid": 73347,
+        "startticks": 23439764,
+        "state": "R"
+      }
+    }
+  },
+  "new_test_scores_computed": false,
+  "original_phase_not_restarted": true,
+  "prior_costs_retained": true,
+  "next": "Reuse64529 held5 then held6 without refitting1..4. Finish all6 native/fullprivate/exactrelease before registered inference and cohortonce. If effective, planned same-reset/equal-domain/no-variance joint control precedes attribution."
 }
 }
