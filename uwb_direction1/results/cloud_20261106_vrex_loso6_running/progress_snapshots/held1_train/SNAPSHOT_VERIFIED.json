@@ -1,0 +1,37 @@
+{
+  "all_step_indices_verified": true,
+  "automatic_resume_authorized": false,
+  "checkpoint_sha256": "848c781d8832bc912142aa38af239103a0eacf99fccc4e52c0e838cefa3724e4",
+  "complete_fold_training": false,
+  "complete_sixfold_cohort": false,
+  "diagnostic_labels_read": false,
+  "epoch": 1,
+  "frozen_scientific_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+  "held": 1,
+  "journal_chain_verified": true,
+  "native_first_update_exact": true,
+  "native_state_sha256": "86c9e55c9301379446eda2b0e8c9f4a86ac8e6a24eb371f67f76b44e9a558e8c",
+  "new_fitting_or_inference_started": false,
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.64,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "S"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1694740,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 80.09639983199999,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "wall": 81.04942371699144
+  },
+  "stage": "train",
+  "state": "immutable_committed_native_state_full_optimizer_allRNG_journal_and_step_prefix_verified_while_original_worker_runs",
+  "step_prefix_sha256": "01d92542af60a652b713e1073c0d5a6b8e532521ea549f956ff6a4b86bb3c044",
+  "updates": 74,
+  "users7_8_labels_used": false
+}

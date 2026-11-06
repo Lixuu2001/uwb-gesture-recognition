@@ -1,3 +1,17 @@
+## 2026-11-06：新VREx完整六折阶段实际启动，首批native精确通过，已保护epoch1/74更新私有前缀
+
+先以最新eaa1653059b44882a1dcd1014a622396d81b671b逐文件精确回读/force=false实际release，将commit/源manifest5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8/新的VREx未训练fileSHA/初始私有archive绑定REAL_RELEASE。核验原MMD等既有模型进程inactive、无新VREx已有身份/状态后，仅启动一次新phase。真实phasePID64529/startticks21331595、boot ad409b48-89ce-4704-beee-3658103d5856；本次观察状态S且身份一致，实际held1/train已提交epoch4、296次更新，phasewall222.453758/CPU221.665708秒。完整各子进程实际身份/资源账见ACTIVE_OBSERVATION，不能把原release前“未启动”记录当作当前状态。唯一完整六折阶段正在云端运行，不依赖Windows；未启动第二组训练或新自动任务。
+
+第一批完整native独立审计已精确通过：model/BN/优化器/全部RNG和每步日志状态语义512e4eed82a07659237a408a42ba8ff510bfc09a6234e08555d2f95ac5228813，firstfile957ac9929178c0cd8555e9f34cea66099e9ca5c43bb73957965106de557d6bf3，然后才放行生产继续。checkpoint按两原子槽/纯epochrecord/hashchain/steps前缀提交。保护时只读复制held1train已提交epoch1/74更新，完整nativecheckpoint SHA848c781d8832bc912142aa38af239103a0eacf99fccc4e52c0e838cefa3724e4及完整优化器/RNG/验证选中模型、首步state、私有split/ID、所有74步前缀/日志hashchain验证精确；不暂停或改动生产，不用有变动的slot直接异步上传。
+
+此immutable前缀恢复包4块25854328字节106载荷，archive62d272a075f3793964c2bb89081c4f4ee59a670dac0d23a6dbb7583813012fd1、MEMBERS755da8459d98db5dd1b45a97ee4f1026dc84af8501b369c945361777e0e02676，私有owner-only元数据/rawfetch(true,false)/立即物化/SHA/整档和每载荷均通过，最多3并发，没有追加重传或失败。只保护已提交的epoch1前缀，不宣称held1已64轮完成、独立64复现通过、全六折完成或完整trainedmodelset已备份；complete_modelset=false、automatic_resume_authorized=false准确保留。初始2块117载荷也保留；snapshot/build约3.848067wall/3.827721CPU秒及回读成本另列，实际样本ID/权重/日志原始数组不进入Git。新只读committed_prefix和真实进程观测操作源码随本次精确发布，不改37科学文件/正在运行的代码。
+
+下一次续接必须先核对实际phasePID/boot/startticks和当前STATE/RESOURCE_LEDGER/checkpoint，保护正在进行的同一新VREx阶段，不再启动第二个controller/训练，不重跑旧MMD或旧held1once，不调用旧VRExsinglefold包。该新完整六折框架按h1..6全部64生产+各自fresh64精确重放/全部native审计串行执行，期间无单人测试分数/单折继续门槛。累计wall/CPU各43200秒、RSS12GiB固定，由真实资源监督停止ownedchildren并保留失败证据，生产无自动重试；原MMD全部8.58h与nativechecks/归档成本完整另计。若阶段仍活跃，只做有必要的checkpoint保护/真实进程检查，不反复通知“仍在跑”。完成后先用operator/full_archive.py构建并raw/allmember核验全部6模型/优化器/RNG/完整日志/预测私有恢复、精确冻结release，然后已注册无标签推断一次及唯一完整6cohort评分，不能提前单折truthpairing。
+
+固定VRExdefaultlambda10/anneal500/等域BCE均值+总体variance/全原生optimizerreset500，完整617612/3radars/RMS/B64/64/seed20261029/训练验证人角色不变。GAP93.6672%强基线精确复用不重训；若主6>=+0.5pp/>=4胜/最差配对>=-2pp冻结花费门槛通过，先执行评分前固定等域BCE+同reset/no-variance联合六折对照，方能归因variance/另规划8外层，非新颖模块组合宣称。全部accuracy/presentmacro/supportnull/用户等权mean/worst/paired/pooled/成本如实另名。
+
+MMD完整六折均值40.6258%对GAP93.6672%、-53.0414pp/0胜负结果保持失败关闭，原21/30科学文件、旧单折once未消费/VREx22包未激活、此前失败与历史混合94.6290%不同预算旧门槛失败结论均不改。用户7–8不用于选择，全部历史八人反复开发探索性，非独立新用户或已验证原创贡献。保持现有自动任务频率/启用、云环境、Drive私有、仓库可见性及原789快照；目标未达，新VREx尚无完整六折准确率证据。
+
 ## 2026-11-06：VREx六折native/资源门槛通过，117载荷未训练初始化已私有回读，待本次精确release
 
 以990154da94367b6648be5b4db746f95e015a1027实际预登记的修复后37源manifest执行原生检查，全6角色均exit0、无资源stop；实际pinnedclass默认10/500与reset、独立解析梯度/gradcheck、真正小optimizer501次/边界500恢复、完整617612梯度/BN/优化器/全部RNG、slow6/disk7/尾28全部通过；角色/不平衡accuracy-vs-macro/缺类null及ownedPID独立session停止玩具测试通过。六组native检查及固定计时总体wall46.675557秒，检查非UWB拟合。只有既定一遍生成B64九步/臂，VREx/native总wall/CPU较大比1.014077892；按评分前冻结公式1.25*30891.040083423*max(1,ratio)+600的保守reserve=39757.400995秒（约11.0437小时），低于新完整6阶段wall/CPU各43200秒、RSS12GiB，gate通过，不用真实pilot/反复测时或缩骨干救预算。原MMD完整8.58h成本继续另计不清零。

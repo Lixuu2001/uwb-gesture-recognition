@@ -1,0 +1,28 @@
+{
+  "checkpoint_sha256": "957ac9929178c0cd8555e9f34cea66099e9ca5c43bb73957965106de557d6bf3",
+  "step": {
+    "classification_loss": 0.6910355687141418,
+    "completed_updates_after": 1,
+    "completed_updates_before": 0,
+    "domain_risks": [
+      0.6976552605628967,
+      0.7018241882324219,
+      0.6660072207450867,
+      0.6986556053161621
+    ],
+    "epoch": 1,
+    "forward_batch": 64,
+    "global_BCE": 0.6903143525123596,
+    "logits_sha256": "21879986547b836ed3aa892d9fcd9ba783e49b0267819b56450dacc86454b240",
+    "loss": 0.691246747970581,
+    "offset": 0,
+    "optimizer_reset_events": [],
+    "optimizer_reset_this_update": false,
+    "penalty": 0.00021117445430718362,
+    "positions_sha256": "879411bf34271a0bb910050cd38cfcafbe22a3fad4895dea360ddfe485f38dd2",
+    "training_ids_sha256": "d1f6dff2c2c13fe0dff6220fe0f4c89055f259460cde3bae9b8bf491b64acf47",
+    "update": 1,
+    "valid_training_domains": 4,
+    "vrex_penalty_weight": 1.0
+  }
+}

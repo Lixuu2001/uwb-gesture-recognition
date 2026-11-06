@@ -1,0 +1,119 @@
+{
+  "archive_bytes": 25854328,
+  "archive_sha256": "62d272a075f3793964c2bb89081c4f4ee59a670dac0d23a6dbb7583813012fd1",
+  "automatic_resume_authorized": false,
+  "checkpoint_epoch": 1,
+  "checkpoint_updates": 74,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1KDw_RCMqV_Vy925RoLA8CBpdvy6tO1ZE",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "vrex_loso6_progress_held1_train_20261106.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "299bceaeea0b950b54cb7e114c2a6b9dc333af6f8d1b56332fc6db27cd74ae4b"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1UyPi6c8U8r7t4z7k23AmeqcGrOJcCmT7",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "vrex_loso6_progress_held1_train_20261106.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "78338d07f8196fe57af0126c46b54d4e8ccf642742cdecd2b6392e3d809bb34c"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1gX8pn2WdpStDPtLlnuZypTn8akSAWaSU",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "vrex_loso6_progress_held1_train_20261106.part002",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "734a54baf03d1f95241dd6e38a6a5d5f5f6e8bb35912a2e7cfc7e7644f0c7379"
+    },
+    {
+      "bytes": 3834232,
+      "download_verified": true,
+      "file_id": "17huhtnUlyYOpA7Yi32m7-QRKAjtBcvII",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 3834232
+      },
+      "name": "vrex_loso6_progress_held1_train_20261106.part003",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "d465dd3249608b4f8ec4feb9b0cbb2e7343647b5b5c33091e2ec9870f352fba9"
+    }
+  ],
+  "complete_fold_training": false,
+  "complete_modelset": false,
+  "complete_sixfold_cohort": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "held": 1,
+  "max_concurrency": 3,
+  "members_manifest_sha256": "755da8459d98db5dd1b45a97ee4f1026dc84af8501b369c945361777e0e02676",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "stage": "train",
+  "state": "partial_committed_native_checkpoint_private_owner_only_raw_whole_and_allmembers_verified",
+  "tracked_payload_files": 106
+}

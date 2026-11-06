@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_all_native_checks_pass_resource39_757s_private_initial117_verified_pending_actual_release_then_one_phase",
+  "state": "LOSO6_VREx_full6_actual_phase64529_running_unscored_firstnative_exact_private_epoch1_prefix106_verified",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Latest user direction prioritizes complete subject-disjoint LOSO cross-person means/worst/paired results under matched training conditions. Single held1 .9841667 is one fold, not the cohort baseline .9366717. Select methods on six-user exploratory development then separately plan matched full eight-person outer LOSO; users7–8 not for new-method choice; no independent validation claim.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_release/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_running/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793982649.6461463,
-  "background_training_pid": null,
-  "background_training_status_note": "Full6 native/schedule/RNG/safety checks pass; fixed reserve39757.401s<43200. Private117initialpayloads2parts rawallmember verified, realphase not yet launched; bind actual exactrelease first.",
+  "background_training_observed_unix": 1793983048.6152563,
+  "background_training_pid": 64529,
+  "background_training_status_note": "Actual new full6 phase64529/start21331595 sameboot active; held1/train epoch4/296updates observed. Firstnative exact; privateepoch1/74 prefix4parts106payloads verified, incomplete scope. No newscore/duplicates.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14875,5 +14875,120 @@
   "old_singlefold_VREx_activated": false,
   "prior_MMD_cost_retained": true,
   "next": "Bind real actual verified commit/source/init/archive SHA release, inspect process identity, launch only one full6 native phase with firstaudit/64fresh replay and12h cumulative stop; protect actual checkpoint then record true running identity."
+}
+,
+  "vrex_loso6_running_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_running/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "phase_actually_launched": true,
+  "phase_pid": 64529,
+  "phase_startticks": 21331595,
+  "phase_boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+  "phase_observation": {
+    "all6_declared_phase_not_sixfold_completed": true,
+    "committed_progress": {
+      "checkpoint_sha256": "2df35e3d230fac7a6aaf1166aacb69a6cda486037830f594bcd24e5dc6791852",
+      "epoch": 4,
+      "journal_sha256": "8410b2bd45382365ffa6499e3e9b94170542affb694e886f16fe22582191001c",
+      "prefix_bytes": 215575,
+      "prefix_sha256": "fd1e5d684e252b459a4d0b7e964ba225a1bff24541b8fbe35cc7b7027e8d16c6",
+      "slot": "slot0.pt",
+      "updates": 296
+    },
+    "controller": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.66,
+        "pid": 64530,
+        "startticks": 21331853,
+        "state": "S"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.46,
+        "pid": 64530,
+        "startticks": 21331853,
+        "state": "R"
+      }
+    },
+    "current_held": 1,
+    "diagnostic_labels_read": false,
+    "first_partial_backup_is_not_complete_modelset": true,
+    "native_first_release": {
+      "diagnostic_labels_read": false,
+      "first_sha256": "957ac9929178c0cd8555e9f34cea66099e9ca5c43bb73957965106de557d6bf3",
+      "native_first_update_exact": true,
+      "state_sha256": "512e4eed82a07659237a408a42ba8ff510bfc09a6234e08555d2f95ac5228813"
+    },
+    "new_real_release": {
+      "branch_head_verified": true,
+      "commit": "eaa1653059b44882a1dcd1014a622396d81b671b",
+      "configuration_fixed_before_complete_MMD_score": true,
+      "force": false,
+      "frozen_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+      "initial_archive_sha256": "5cab4eb2ee2fafa400ecf37381d7e7fe138e2d5a7f5c5f2e794212c3bd9bfa9a",
+      "initial_model_file_sha256": "b2e5e8cc4edda7a20f05b03a47291bc5774ed456de3cfa5c0715dd1dc8513156",
+      "main_all_six_wall_CPU_cap_seconds": 43200
+    },
+    "new_training_actually_started": true,
+    "observed_unix": 1793982964.861553,
+    "old_MMD_source1_once_invoked": false,
+    "old_VREx_singlefold_activated": false,
+    "phase_actual_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.78,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "S"
+    },
+    "phase_original_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.57,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "R"
+    },
+    "resource_ledger": {
+      "RSS_KiB": 1717160,
+      "active_held": 1,
+      "completed_folds": [],
+      "cpu": 221.665707785,
+      "fold_stage": "train",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "wall": 222.45375806599623
+    },
+    "scientific_sources_unchanged": true,
+    "stage": "train",
+    "state": "one_actual_full_sixfold_VREx_phase_running_unscored",
+    "users7_8_labels_used": false,
+    "worker": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 211.31,
+        "pid": 64531,
+        "startticks": 21332100,
+        "state": "R"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 0.0,
+        "pid": 64531,
+        "startticks": 21332100,
+        "state": "R"
+      }
+    }
+  },
+  "complete_sixfold_results_available": false,
+  "partial_prefix_private_parts": 4,
+  "partial_prefix_private_payloads": 106,
+  "complete_modelset_verified": false,
+  "original_singlefold_once_invoked": false,
+  "old_singlefold_VREx_activated": false,
+  "prior_MMD_cost_not_reset": true,
+  "next": "Observe/reuse actual64529 phase; no duplicate train/restart. Finish all6 production64+ownfresh64+nativeaudits then complete private models/outputs archive allmember verified/exactrelease before registered inference and one cohort score. No singlefold gate/test feedback."
 }
 }
