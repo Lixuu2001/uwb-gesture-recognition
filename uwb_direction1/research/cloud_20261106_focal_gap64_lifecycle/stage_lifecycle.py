@@ -1,0 +1,58 @@
+"""Stage actual fixed Focal private release/live checkpoint facts, never train or score."""
+from pathlib import Path
+from datetime import datetime,timezone
+import sys,json,shutil
+S=Path('/workspace/uwb-focal-gap64-20261106');M=Path(__file__).resolve().parent
+D=Path('/workspace/uwb-focal-gap-checkpoint-insurance01-20261106');F=Path('/workspace/uwb-focal-gap-final-meta-20261106')
+sys.path.insert(0,str(S))
+from common import read,write,ready,sha
+from controller import identity
+from stream_archive import verify
+def active(old):
+ now=identity(old['pid']);assert now and now['state']!='Z' and all(now[k]==old[k] for k in ['pid','startticks','boot_id']);return now
+def main():
+ stage,parent=sys.argv[1:];assert stage in ['release','launch'];c=ready()
+ assert len(read(S/'FROZEN_HASHES.json'))==25
+ assert read(S/'SYNTHETIC_RESULT.json')['state']=='pass' and read(S/'RESOURCE_RESULT.json')['gate_passed']
+ assert read(S/'synthetic_execution/TERMINATION.json')['exit_code']==read(S/'profile_execution/TERMINATION.json')['exit_code']==0
+ assert not(S/'SUMMARY.json').exists() and not(S/'FINALIZE_ONCE.lock').exists()
+ a=read(S/'ACTIVATION.json');assert a['prior_all_model_processes_inactive'] and a['prior_summary_sha256']==sha(c['prior_SD_summary'])
+ prior=read(c['prior_SD_summary']);assert not prior['predeclared_gate_passed'] and prior['finalizer_invocations']==1
+ meta=['REMOTE_PREREGISTRATION.json','SYNTHETIC_RESULT.json','RESOURCE_RESULT.json','INVOCATION_CORRECTION.json','ACTIVATION.json']
+ projection=read(S/'RESOURCE_RESULT.json')['projected_full64_producer_and_own_fresh64_replay_seconds']
+ common=f"Fixed alpha.25/gamma2/meanBx12 sigmoid Focal component/nativehardonehot12/full617612GAP/matchedinitial/rawforwardB64/64epochs/seed20261029/AdamW.001_decay.0001_Lookahead.5_k6/clip2 preregistered{read(S/'REMOTE_PREREGISTRATION.json')['commit']} BEFORE FocalUWBfit. All25science unchanged{sha(S/'FROZEN_HASHES.json')}. Pinned torchvision function and FAIRfvcore float32 equivalent, Detectron defaultAST, fullnative allBN/allgradients/optimizer/allRNG, independent scalar derivative/finite differences, gamma0alpha-1 BCEcontrol, slow6/disk7/eval/tail28 passed. SINGLE8updateCPU synthetic profile safety2 projected{projection['wall']:.6f}wall/{projection['cpu']:.6f}CPU seconds under43200wall/CPU/12GiB. CLI '--synthetic' invocation initially rejected before any supervisor/model/profile; correct documented 'synthetic' invocation passed, source/config/budget unchanged, correction retained.\n\nPublished component transfer, not complete RetinaNet normalization/biasprior.01/detector benchmark or novelty; original fvcore defaultalpha-1 explicitly overridden. Primary paper full text not reviewed in bounded source audit, no full-paper review claim. OriginalSD exactconfiguration closed after diagnostic98.166666667% vs98.416666667%(-.25point), full64/OWN64/allaudits/FULLprivate/ORIGINALonce consumed; never rescore or rescue. Actual prior consumedfailure/FULLprivate/allmodelinactivity reverified.\n\n"
+ ins=dict(frozen_sha256=sha(S/'FROZEN_HASHES.json'),scientific_files=25,focal_alpha=.25,focal_gamma=2.,focal_reduction='mean_B_times12',prior_SD_summary_sha256=a['prior_summary_sha256'],users7_8_labels_used=False,primary_paper_full_text_reviewed=False)
+ if stage=='release':
+  assert not(S/'run').exists() and not(S/'REAL_RELEASE.json').exists()
+  import engine as e
+  st=e.torch.load(S/'initial.pt',map_location='cpu',weights_only=True);model,opt,g=e.make();e.restore(st,model,opt,g)
+  assert e.semantic(st['model'])==c['matched_initial_model_state_sha256'] and e.semantic(st)==e.semantic(e.capture(model,opt,g,0,0))
+  d=S/'initial_backup';ar=read(d/'MANIFEST.json');v=read(d/'READBACK_VERIFIED.json');assert verify(ar,read(d/'READBACK_INPUT.json'))==v
+  members={r['path']:r for r in read(d/'MEMBERS.json')['members']}
+  for key in ['study/ACTIVATION.json','lineage/prior_SD_SUMMARY.json','lineage/prior_SD_POST_SCORE_STATE.json','lineage/prior_SD_FINALIZE_ONCE.lock','operator/finalize_once.py']:assert key in members,key
+  for path,h in c['author_reference_files'].items():assert members['author_review/'+str(Path(path).relative_to(S/'author_reference'))]['sha256']==h
+  native=dict(state='pass_initial_native_allRNG_prior_consumed_SD_and_nine_reference_namespaces_verified',initial_model_native_sha256=e.semantic(st['model']),initial_full_native_state_sha256=e.semantic(st),reference_paths_verified=9,scientific25_unchanged=True,new_UWB_fit_started=False)
+  write(S/'INITIAL_NATIVE_AND_DEPENDENCY_VERIFIED.json',native)
+  intent=dict(state='intent_only_pending_actual_exact_release',frozen_sha256=sha(S/'FROZEN_HASHES.json'),initial_archive_raw_allmember_verified=True,initial_archive_sha256=ar['archive_sha256'],initial_model_file_sha256=sha(S/'initial.pt'),once_scorer_sha256=sha(S/'operator/finalize_once.py'),activation_prior_summary_sha256=a['prior_summary_sha256']);write(S/'RELEASE_INTENT.json',intent)
+  meta+=['INITIAL_ASSET.json','INITIAL_NATIVE_AND_DEPENDENCY_VERIFIED.json','RELEASE_INTENT.json','RESTORE_GUIDE.md']+['initial_backup/'+n for n in ['MANIFEST.json','READBACK_VERIFIED.json','DRIVE_BACKUP_RECEIPT.json','CLOUD_DOWNLOAD_INDEX.json']]
+  action='Exactrelease verification then ONE Focalcontroller; no real Focalfit yet.'
+  note=common+f"Own initial UNTRAINED native model/optimizer/allRNG/roles/privateIDs/native49/nine namespaced authorrefs/licenses/frozen25/operators/consumedpriorSDlineage owner-only raw/whole/everymember verified: {len(ar['chunks'])}parts/{ar['archive_bytes']}bytes/{ar['tracked_payload_files']}payloads SHA{ar['archive_sha256']}. Initial model{native['initial_model_native_sha256']}/fullnative{native['initial_full_native_state_sha256']}. No accuracy or trainedmodelset evidence. Persistentindex results/cloud_20261106_focal_gap64_release/initial_backup/CLOUD_DOWNLOAD_INDEX.json. "+action+'\n\n'
+  ins.update(initial_private_parts=len(ar['chunks']),initial_private_bytes=ar['archive_bytes'],initial_private_payloads=ar['tracked_payload_files'],initial_private_sha256=ar['archive_sha256'],initial_private_raw_every_member_verified=True,once_scorer_sha256=intent['once_scorer_sha256'],new_UWB_fit_started=False,diagnostic_labels_read=False)
+  state='Focal_native_singlecost_priorfailure_privateinitial_verified_requires_exactrelease_then_ONEcontroller';running=False;pid=None
+ else:
+  ready(True);live=read(D/'POST_BACKUP_LIVE_OBSERVATION.json');snap=read(D/'OBSERVATION.json');ar=read(D/'private_backup/MANIFEST.json');v=read(D/'private_backup/READBACK_VERIFIED.json')
+  assert live['trained_checkpoint_private_verified'] and v['tracked_payload_members_verified']==ar['tracked_payload_files']
+  controller=active(live['controller']);worker=active(live['worker']);observer=active(read(F/'OBSERVER_IDENTITY.json'));progress=live['progress']
+  meta+=['REAL_RELEASE.json','LAUNCH_STARTED.json','LAUNCH_OBSERVATION.json','run/execution/train/IDENTITY.json','run/execution/train/FIRST_AUDIT_IDENTITY.json','run/execution/train/FIRST_AUDIT_TERMINATION.json']
+  for n in ['snapshot.py','OBSERVATION.json','NATIVE_SNAPSHOT_VERIFIED.json','POST_BACKUP_LIVE_OBSERVATION.json','RESTORE_GUIDE.md','private_backup/MANIFEST.json','private_backup/READBACK_VERIFIED.json','private_backup/DRIVE_BACKUP_RECEIPT.json','private_backup/CLOUD_DOWNLOAD_INDEX.json']:
+   p=S/'checkpoint_insurance01'/n;p.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(D/n,p);meta.append('checkpoint_insurance01/'+n)
+  for n in ['OBSERVER_LAUNCH.json','OBSERVER_IDENTITY.json']:
+   p=S/'completion_observer'/n;p.parent.mkdir(exist_ok=True);shutil.copyfile(F/n,p);meta.append('completion_observer/'+n)
+  write(S/'LAUNCH_OPERATIONAL_SOURCE_HASHES.json',{str(p):sha(p) for p in [M/'stage_lifecycle.py',M/'launch_after_verified_release.py',M/'observe_launch.py',D/'snapshot.py',D/'observe_after_backup.py',F/'observe_and_build.py']});meta.append('LAUNCH_OPERATIONAL_SOURCE_HASHES.json')
+  action=f'Continue SAME Focal originalproducer{worker["pid"]}/controller{controller["pid"]}/readonlycompletionobserver{observer["pid"]}; no duplicate/restart. After original64/OWNfresh64/all65records/4736steps/selectedoutputs/FULLprivate owner-only raw/everymember proof invoke ORIGINALonce{sha(S/"operator/finalize_once.py")} once. SD scorer consumed, never rescore.'
+  note=common+f"Actual exactrelease{read(S/'REAL_RELEASE.json')['commit']} and privateinitial preceded ONE controller{controller['pid']}/startticks{controller['startticks']}, ORIGINALproducer{worker['pid']}/startticks{worker['startticks']}/boot{worker['boot_id']}, observed epoch{progress['epoch']}/{progress['updates']}updates. Firstactual nativeupdate file{live['first_actual_update_file_sha256']}/native{live['first_actual_update_native_state_sha256']} reproduced exact, actualfirstauditexit0; currentnative model/optimizer/allRNG restoration and committedprefix exact. No Focal diagnostic labels read or accuracyresult yet.\n\nIntermediate privateinsurance captured epoch{snap['progress']['epoch']}/{snap['progress']['updates']}committed plus{snap['uncommitted_log_rows']}uncommittedrows/{snap['suffix_bytes']}bytes; owner-only metadata/raw/whole/everymember verified {len(ar['chunks'])}parts/{ar['archive_bytes']}bytes/{ar['tracked_payload_files']}payloads SHA{ar['archive_sha256']}. Actualinitial guardrawchunks/native49/allnine refs/licenses/privateIDs/roles/consumedpriorSDlineage retained. Partialinsurance, not64/OWN64/FULL/scoringauthority. Persistentindex results/cloud_20261106_focal_gap64_launch/checkpoint_insurance01/private_backup/CLOUD_DOWNLOAD_INDEX.json. Readonlyobserver{observer['pid']} waits SAMEoriginal64/OWNfresh64/output/allaudits and buildsFULL only, never fits/uploads/scores. Study /workspace/uwb-focal-gap64-20261106, lifecycle /workspace/uwb-focal-gap-meta-20261106, completion /workspace/uwb-focal-gap-final-meta-20261106. "+action+'\n\n'
+  ins.update(controller=controller,original_producer=worker,observed_epoch=progress['epoch'],observed_updates=progress['updates'],first_actual_update_native_exact=True,first_actual_audit_exit_code=0,checkpoint_private_parts=len(ar['chunks']),checkpoint_private_bytes=ar['archive_bytes'],checkpoint_private_payloads=ar['tracked_payload_files'],checkpoint_private_sha256=ar['archive_sha256'],checkpoint_raw_every_member_verified=True,complete_trained_modelset=False,full64_complete=False,own_fresh64_complete=False,diagnostic_labels_read=False,new_accuracy_result=False)
+  state='Focal_real_fullGAP64_original_producer_active_firstnative_privatecheckpoint_verified_unscored';running=True;pid=worker['pid']
+ note='## 2026-11-06: Fixed published Focal '+stage+' verified\n\n'+note+'Train3–6/val2/once diagnostic1 fixedbaseline.9841666666666667+.005/tol1e-12 only after full64/OWNfresh64/all65records/4736steps/FULLprivate. Exactfailure closes alpha.25/gamma2/meanBx12/fullGAP64/B64/64epochs/seed20261029 with no alpha/gamma/reduction/bias/layer/epoch/seed rescue; positive separatelyregisters same-protocol source6. Users7–8 labels forbidden; repeated development exploratory. Accuracy and originality separate/unresolved; no independent/original/legacy8fold improvement claim. No raw arrays/models/actualIDs inGit; original789/visibility/Driveprivacy unchanged, data reused cloud-only. Goal unresolved/automaticcontinuation continues.\n\n'
+ write(M/(stage+'_SPEC.json'),dict(parent=parent,stage=stage,note=note,include_source=False,metadata_files=meta,state=state,running=running,pid=pid,status_note=action,scalar_updates=dict(next_candidate=action,last_completed_update_utc=datetime.now(timezone.utc).isoformat()),status_insert=ins));print(json.dumps(dict(stage=stage,metadata_files=len(meta),new_fit_started_by_staging=False)))
+if __name__=='__main__':main()
