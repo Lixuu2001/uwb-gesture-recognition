@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Focal_producer64_complete_original_OWN_replay_active_CORAL20_conditionally_preregistered_no_newfit",
+  "state": "Focal_producer64_complete_SAME_OWNfresh_replay_active_complete_producer_private_verified_CORAL20_conditional",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_coral_gap64_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_focal_gap64_producer64_replay_insurance01/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793928569.426422,
+  "background_training_observed_unix": 1793928712.7278428,
   "background_training_pid": 37997,
-  "background_training_status_note": "Continue SAMEFocalcontroller37560/OWNfreshreplay37997/readonlyobserver37567; producer64complete/noFocaldiagnostic. CORAL20 fixed conditionally, no CORALfit.",
+  "background_training_status_note": "Focaloriginal64complete, SAMEOWNfreshreplay37997/controller37560/observer37567 continue. Completeproducer+partialreplay private11parts/301payload raw/everymember verified, notFULL/scoring. CORAL20conditionallyregistered, notfit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue SAME Focal originalOWNfreshreplay37997/controller37560/observer37567; never refit completed producer37561. Full64/OWNfresh64/allaudits/FULLprivate before ORIGINALFocalonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0. CORALgamma1/last128/pooledB64/GAP64 seed20261029 may activate ONLY after exact consumed Focalfailure/allinactivity and own native/singlecost/privateinitial/exactrelease; positive Focal prioritizes separatelyregistered SAMEsource6 confirmation.",
-  "last_completed_update_utc": "2026-11-06T01:29:29.371580+00:00",
+  "next_candidate": "Continue SAMEFocalOWNfreshreplay37997/controller37560/observer37567; never refit completed37561. Complete64/OWNfresh64/all65records/4736steps/selectedoutputs/FULLprivate raw/everymember before ORIGINALonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0. ExactFocalfailure+consumed/allinactivity may enable preregisteredCORALgamma1/last128/pooledB64/GAP64/seed20261029 only after its native/ONEcost/privateinitial/exactrelease; positive Focal prioritizes separatelyregistered SAMEsource6 confirmation. Users7–8excluded, exploratory.",
+  "last_completed_update_utc": "2026-11-06T01:31:52.636616+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -13710,5 +13710,44 @@
   "new_CORAL_fit_started": false,
   "native_tests_or_profile_complete": false,
   "primary_paper_full_text_reviewed": false
+}
+,
+  "focal_gap64_producer64_replay_insurance01_20261106": {
+  "report": "results/cloud_20261106_focal_gap64_producer64_replay_insurance01/RUN_REPORT.md",
+  "method": "published_sigmoid_Focal_alpha.25_gamma2_meanB12_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "complete_scoring_modelset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 5.19,
+    "pid": 37560,
+    "startticks": 15590697,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "full64_OWN_replay_complete": false,
+  "new_accuracy_result": false,
+  "original_once_scorer_sha256": "16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0",
+  "private_bytes": 75613979,
+  "private_parts": 11,
+  "private_payloads": 301,
+  "private_sha256": "f053debdc81610c0d0691a913751b9f5d9bb404a607fc3e55ae60542eec73622",
+  "producer_canonical_final_sha256": "c8a1f1162812e04ace6717517f88fec8b31c0c87780b424e777199c906fce0b7",
+  "producer_epochs": 64,
+  "producer_updates": 4736,
+  "raw_every_member_verified": true,
+  "replay_observed_epoch": 14,
+  "replay_observed_updates": 1036,
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 568.64,
+    "pid": 37997,
+    "startticks": 15842931,
+    "state": "R"
+  },
+  "scientific25_unchanged": true,
+  "selected_epoch": 33
 }
 }
