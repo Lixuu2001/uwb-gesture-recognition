@@ -1,0 +1,47 @@
+{
+  "committed_native_model_optimizer_all_RNG_restore_recapture_exact": true,
+  "committed_step_prefix_verified": true,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.41,
+    "pid": 42076,
+    "startticks": 16341386,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "first_actual_update_file_sha256": "a0e61c5178bb35addb042f5f24a85b4c22a776c03462356cffd1c561e356f7f8",
+  "first_actual_update_native_exact": true,
+  "first_actual_update_native_state_sha256": "c20b6ef2e5720384542ec50db70ea9bac584ecc327cb8309a20c8eaf4b69837c",
+  "first_audit_actual_exit_code": 0,
+  "frozen_sha256": "f011df610a2354da2a64fdde074b7246a0a52d3dff8595b30056270ebcf4c57f",
+  "full64_complete": false,
+  "new_accuracy_result": false,
+  "observed_unix": 1793932893.5953555,
+  "own_fresh64_replay_complete": false,
+  "prior_Focal_exact_failed_config_closed": true,
+  "progress": {
+    "checkpoint_sha256": "04a20f6a04ed76fe0781afc4af2f6b74cf84e58d8e9fe5fcf5e2e379512af49f",
+    "epoch": 1,
+    "journal_sha256": "0bc3fe16890d86145d3a4bb77db4c081c8b061d6dc1ebbbc9b781ac45cbf6a42",
+    "prefix_bytes": 35621,
+    "prefix_sha256": "e9c3d509fa90b6e647779dee6ee85c11d118151075ab1ffdf55341b4d4f5feb1",
+    "slot": "slot1.pt",
+    "updates": 74
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1713376,
+    "cpu": 51.571915,
+    "stage": "train",
+    "wall": 51.0971232180018
+  },
+  "scientific20_unchanged": true,
+  "state": "actual_preregistered_CORAL_training_started_first_update_and_native_committed_state_verified_unscored",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 46.29,
+    "pid": 42101,
+    "startticks": 16341623,
+    "state": "R"
+  }
+}
