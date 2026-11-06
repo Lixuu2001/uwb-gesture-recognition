@@ -1,0 +1,32 @@
+{
+  "canonical_native_terminal_sha256": "c8a1f1162812e04ace6717517f88fec8b31c0c87780b424e777199c906fce0b7",
+  "full_private_allmember_verified": true,
+  "initial_native_state_copies": [
+    {
+      "bytes": 2542912,
+      "path": "run/replay/initial.pt",
+      "sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20"
+    },
+    {
+      "bytes": 2542912,
+      "path": "run/train/initial.pt",
+      "sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20"
+    },
+    {
+      "bytes": 2542912,
+      "path": "study/initial.pt",
+      "sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20"
+    }
+  ],
+  "initial_raw_guard_chunks": [
+    "initial_backup/focal_gap64_initial_20261106.part000",
+    "initial_backup/focal_gap64_initial_20261106.part001"
+  ],
+  "producer_epochs": 64,
+  "raw_radar_RMS_runtime_external": true,
+  "replay_epochs": 64,
+  "selected_epoch": 33,
+  "state": "full_producer64_OWNfresh64_native_all_RNG_all4736steps_all65records_selected_outputs_verified",
+  "tracked_payloads": 424,
+  "updates_each": 4736
+}
