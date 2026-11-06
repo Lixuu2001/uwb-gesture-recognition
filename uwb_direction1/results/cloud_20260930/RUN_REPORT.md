@@ -1,3 +1,19 @@
+## 2026-11-06：VREx held1完整64生产完成，248载荷私有原始回读通过，独立重放继续且无评分
+
+先核对最新7cb8f710d28593f987ef78cd539238fc32f0d913已精确发布的MMD闭环退化诊断；没有改MMD配置/旧失败或运行中的VREx37科学文件，原MMD未重训/未重新测试评分。原唯一VRExphase64529/start21331595、boot ad409b48-89ce-4704-beee-3658103d5856保持活跃，当前观察held1/replay已提交epoch12、888更新，phasewall3255.012684/CPU3257.437273秒。没有重复启动训练/controller/自动任务或更改频率/启用/环境。
+
+held1生产已完整64轮/4736更新，生产终止exit0、无资源stop，wall2713.173101/CPU2710.812051秒（包含首批独立native审计/验证选模），只依验证用户2选epoch41；未查看或计算测试用户1分数，不将此折作为继续其他折的门槛。inactive生产worker后只读核验全部65纯epochrecord/journalhashchain/全部4736步前缀、最终完整model/optimizer/算法计数/resetEvents/全部RNG、所选best模型语义/输出SHA及首批审计。finalstate语义64e17e24180e9173620d4b99de23118eb47a2322109ca93f2e8ddf0742489d27，finalfilea1fb966a4b7a89a908cc7993a9be9c4f77ce84c7ce9df3f6ba770b5c960cfbed。
+
+此不可变生产恢复包8块52379133字节248载荷，archivea453f6269f0e54a0db5837b9d43fea787a5d4b6ce9ab4cd8cea63b18378cd4d4、MEMBERS6b8028b6e1f1467baf76d8a057084dac005a312e322ce26ea988e0227a01703e，原Drivefolder owner-only元数据核验/rawfetch(true,false)/立即物化/SHA/整档/全部载荷均通过，最多3并发，无错误/重传。构建含审计wall4.942298/CPU4.939837秒，原始回读校验成本另列。不包含原始大数组/运行时binary；实际训练ID/模型/全部原始日志只在私有档案，不进Git。
+
+当前仍是producer-only：complete_modelset=false、complete_independent_replay=false、complete_fold_audits=false、complete_sixfold_cohort=false/automatic_resume_authorized=false，绝不宣称完整折或六折结果已出。原生产未重启，原phase自动进入既定独立fresh64重放；额外只读已提交prefix核验至epoch9/666更新，所有对应步骤/epoch记录逐位一致，这只是prefix证据，尚非完整64轮重放。原worker继续执行每一步/全state/RNG的精确比较，完成后native selected-output再审计。新producer保护helper源码单独发布，不改正在执行科学代码。
+
+下一次接续必须检查真实64529 boot/startticks/当前foldstage/checkpoint/STATE/RESOURCE_LEDGER，不重新启动/重算完整生产，不触发旧held1once/旧VRExsinglefold路线。固定默认lambda10/anneal500/等域BCE+总体risk variance/完整native reset500，GAP617612/三雷达/RMS/B64/64/seed20261029/h1..6-valnext-other4，主6阶段wall/CPU各43200秒/RSS12GiB不改；原MMD完整8.58h及诊断/备份成本完整另计。保留日志/模型和失败证据，生产无自动重启。仅在完整6生产64+ownfresh64/native审计/全部模型私有rawallmember/精确release冻结后，才固定无标签推断一遍和唯一完整cohort评分；任何单人分数不决定其余折是否做。
+
+MMD固定配置40.6258% vsGAP93.6672%、-53.0414pp/0胜继续失败关闭。只读诊断报告/results/cloud_20261106_mmd_failure_diagnostic_v1/RUN_REPORT.md中，训练/验证退化、先验BCE/采样特征趋常量、5.9–11.2倍选中模型骨干梯度norm支持尺度/塌缩解释；明确浮点差异/缺类先验/BCE迁移是未因果归因因素，精确重放不能单独排除共同bug，独立公式核验只是缩小部分错误范围，18采样未触发clip并不推及所有历史更新。不改变任何候选参数或测试人选模；若VREx完整6有效，必须先执行早已固定等域BCE+reset/no-variance匹配联合对照，再分析variance归因/另规划8外层。
+
+用户7–8未用于新方法选择，历史八人反复开发仍探索性，不能称独立新用户/已验证原创贡献；原旧失败/历史混合94.6290%不同预算结论不改。Drive私有、仓库可见性、原789快照/现有自动任务均不变；目标未达，VREx未有测试准确率结果。
+
 ## 2026-11-06：已关闭MMD固定六折退化诊断完成；无重训/调参，VREx唯一原阶段继续
 
 按用户新要求先核对最新d8c39573efb8bef0d4e3c3df11770b91cee3e726、原始日志/检查点及真实进程：原VRExphase64529/start21331595、boot ad409b48-89ce-4704-beee-3658103d5856仍活跃，此处观察held1/train epoch63/4662updates，累计wall2699.166323/CPU2701.175721秒，12h/RSS12GiB固定不改。此次诊断没有启动训练、重复controller、测试配对或新自动任务。MMD完整6均值40.6258% vs原GAP93.6672%、-53.0414pp/0胜的固定配置仍失败关闭，原单折once未调用、旧失败不追改。

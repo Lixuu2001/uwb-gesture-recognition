@@ -1,0 +1,29 @@
+{
+  "observed_unix": 1793985866.62016,
+  "actual_phase": {
+    "pid": 64529,
+    "startticks": 21331595,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 5.45
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1676332,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 3126.866258032,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "wall": 3124.625785773009
+  },
+  "committed_replay_epoch": 9,
+  "committed_replay_updates": 666,
+  "all_committed_prefix_steps_bitwise_equal": true,
+  "all_committed_epoch_records_equal": true,
+  "replay_prefix_sha256": "7dc3c0b8f07082c175feb9ab4a1b34caeb7e4cf1d2711aa3e69907bf7955eec5",
+  "full64_replay_completed": false,
+  "whole_cohort_complete": false,
+  "test_labels_paired": false,
+  "new_model_updates_performed_by_audit": false
+}
