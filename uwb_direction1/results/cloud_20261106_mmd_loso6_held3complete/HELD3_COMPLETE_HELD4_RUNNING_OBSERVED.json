@@ -1,0 +1,164 @@
+{
+  "VREx_activated": false,
+  "active_model": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1400.27,
+    "pid": 53781,
+    "startticks": 19246575,
+    "state": "R"
+  },
+  "all49_native_dependencies_sha_verified": true,
+  "complete_sixfold_cohort": false,
+  "frozen_scientific_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+  "held1_original_unchanged_unscored": true,
+  "held2_complete_private_proof": {
+    "archive_members": 401,
+    "archive_sha256": "8075136c376743531528ad90d002da4b79568a5dacdba4d601ba997500b82c45",
+    "chunks_verified": 13,
+    "complete_modelset_verified": true,
+    "scope": "complete_native_unscored_MMD_held2_only_not_complete_sixfold_cohort",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 400
+  },
+  "held3_output_freeze": {
+    "diagnostic_labels_read": false,
+    "epochs": 64,
+    "files": {
+      "replay/COMPLETE.json": "370916b0038438a4e5faadba81f5183ebb00d27c6aa743382ece620a9d1b413a",
+      "train/diagnostic_unscored.npz": "9fe8dfcb3afefac3889385bf63ff691488ad681ae1f6315eef007e0d944ca1a3",
+      "train/final_full.pt": "8877c24e113762ee20c5d149ca74a729f734574bbf013a31dbcd473c40df83d1",
+      "train/selected.pt": "2050d2700e3914b2b67d2d090bd5407880cd5d0db6cf9a44fd7f5517f660c84f",
+      "train/validation_unscored.npz": "8d9f9a23ebcee64db48d21f02d57a86d05493f73c8ff68af7929657b054ac5a3"
+    },
+    "full_training_replayed": true,
+    "selected_epoch": 2,
+    "state": "full64_training_replay_and_selected_outputs_verified_frozen_unscored",
+    "updates": 4544,
+    "users7_8_labels_used": false
+  },
+  "held3_phase_termination": {
+    "cumulative_remaining_phase": {
+      "cpu": 10284.048521688,
+      "wall": 10273.566971437016
+    },
+    "exit_code": 0,
+    "new_diagnostic_metrics_computed": false
+  },
+  "held3_producer": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "9fe8dfcb3afefac3889385bf63ff691488ad681ae1f6315eef007e0d944ca1a3",
+    "epochs": 64,
+    "final_state_sha256": "be05f9edbe410ea252d9b7704592faf6e11160c4b4dd81bd6ce4fdb9f425fea7",
+    "selected_epoch": 2,
+    "selected_sha256": "2050d2700e3914b2b67d2d090bd5407880cd5d0db6cf9a44fd7f5517f660c84f",
+    "state": "full64_training_complete_unscored",
+    "updates": 4544,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "8d9f9a23ebcee64db48d21f02d57a86d05493f73c8ff68af7929657b054ac5a3"
+  },
+  "held3_replay": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "9fe8dfcb3afefac3889385bf63ff691488ad681ae1f6315eef007e0d944ca1a3",
+    "epochs": 64,
+    "final_state_sha256": "be05f9edbe410ea252d9b7704592faf6e11160c4b4dd81bd6ce4fdb9f425fea7",
+    "selected_epoch": 2,
+    "selected_sha256": "2050d2700e3914b2b67d2d090bd5407880cd5d0db6cf9a44fd7f5517f660c84f",
+    "state": "full64_fresh_training_replay_exact_unscored",
+    "updates": 4544,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "8d9f9a23ebcee64db48d21f02d57a86d05493f73c8ff68af7929657b054ac5a3"
+  },
+  "held3_stage_cumulative": {
+    "output": {
+      "cumulative": {
+        "cpu": 4996.774188,
+        "wall": 4999.153814297984
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 4986.0107419999995,
+        "wall": 4988.130829523987
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "train": {
+      "cumulative": {
+        "cpu": 2508.751999,
+        "wall": 2509.904524233978
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "held3_stage_incremental_costs": {
+    "output": {
+      "cpu": 10.76344600000084,
+      "wall": 11.02298477399745
+    },
+    "replay": {
+      "cpu": 2477.2587429999994,
+      "wall": 2478.226305290009
+    },
+    "train": {
+      "cpu": 2508.751999,
+      "wall": 2509.904524233978
+    }
+  },
+  "held4_first_native_exact": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "51808b31f97f8ad2a740026b169598b17e230dfa9e877b9dc71361d1ae379e5c",
+    "native_first_update_exact": true,
+    "state_sha256": "3f8224de9b44edc1d719d9b282cf61f4bab1723b72728006171867033c974abf"
+  },
+  "held4_train_state": {
+    "diagnostic_labels_read": false,
+    "epoch": 35,
+    "selected_epoch": 2,
+    "state": "training",
+    "updates": 2485,
+    "users7_8_labels_used": false
+  },
+  "independent_validation": false,
+  "new_diagnostic_scores_computed": false,
+  "new_fit_or_replay_started_by_this_continuation": false,
+  "novel_contribution_validated": false,
+  "observed_unix": 1793963298.6974485,
+  "old_singlefold_once_invoked": false,
+  "original_phase_not_restarted": true,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 13.6,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "S"
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1719912,
+    "active_held": 4,
+    "completed_folds": [
+      2,
+      3
+    ],
+    "cpu": 11693.680748092,
+    "fold_stage": "train",
+    "prior_reused_fold1_cpu": 5019.332418999999,
+    "prior_reused_fold1_wall": 5022.569200421014,
+    "wall": 11682.139578489994
+  },
+  "state": "held3_full64_fresh64_allnative_audits_complete_unscored_original_phase_now_held4",
+  "users7_8_labels_used": false
+}

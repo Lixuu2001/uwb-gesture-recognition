@@ -1,0 +1,30 @@
+{
+  "state": "Drive_internal_upload_error_without_ID_recovered_after_exact_absence_by_one_bounded_retry_and_raw_SHA_readback",
+  "index": 4,
+  "original_failure_stage": "upload",
+  "original_provider_error": "Mcp -32603 Internal error; no file ID returned",
+  "exact_filename": "mmd_loso6_completed_held3_20261106.part004",
+  "two_round_parent_and_global_exactname_searches_without_results": true,
+  "provider_continuation_absent": true,
+  "maximum_additional_upload_attempts": 1,
+  "actual_additional_attempts": 1,
+  "returned_ID_now_persisted_and_readback_verified": "1ktH6zd5yxrHF4m1c6M77qRtijqUvFnCb",
+  "old_errors_retained": true,
+  "raw_download_verified_sha256": "c0608bf502da795db26ef7149bd7456c31c0e81f832d70fc535f08ade706e4ff",
+  "no_training_restart_or_config_change": true,
+  "scientific_negative": false,
+  "prior_verified_parts_not_reuploaded": true,
+  "guard_sha256": "24de0fdce344d51a25e2b1f34ed0ecce1db66e22a8fcac15caadf9dc69ae77f9",
+  "recovery_uploader_sha256": "2a488c36321b8b2ec40ebf5c39b5786855fc969b62349f0b9b65e7a7edf39803",
+  "evidence_sha256": {
+    "completed_fold_backups/held3/ERROR_004_1793963427537.json": "2c26f9207f8c3846128845a52c05aaed83f3bed92af43140d432f863f5c751b0",
+    "completed_fold_backups/held3/MISSING_ID_RESPONSE_004_1793963425790.json": "aec0ed4cd8e714e27cebaa862a3f18726cdbd19c565ba52cbf3a3a186a0f4e22",
+    "completed_fold_backups/held3/MISSING_ID_SEARCH_004_global_exact_name.json": "5a0f8f5d86b71d285bf48528e9578916e4b3918ff46e9ba5c4c82d021c3c4710",
+    "completed_fold_backups/held3/MISSING_ID_SEARCH_004_private_parent_exact_name.json": "9a31be3a1a53361c4f514e13e137615520166f7ecc5016285659f6465cdfd889",
+    "completed_fold_backups/held3/MISSING_ID_ABSENCE_004_global.json": "e0bf8a5d505c319207a8ab54973c8bbc54dd55a513b57bfca242450e299a641c",
+    "completed_fold_backups/held3/MISSING_ID_ABSENCE_004_parent.json": "b04248b9fab89722e131cc8d1bdf1f266368b08799ff6f732a4f42c69f3b193a",
+    "completed_fold_backups/held3/MISSING_ID_RETRY_004_INVOKED.json": "b7ce48da8f619446074751024dea511ceaf057daf138a298fdd2b5ed60b3e216",
+    "completed_fold_backups/held3/UPLOAD_004.json": "a9e9dcad383436404db250cfcc198def198b025574f596135d684e24ed0fc3aa",
+    "completed_fold_backups/held3/READBACK_004.json": "bbf6afcda06d98e9b13e067990098e96a20761b9264cae02b02b2b2ac7d76c38"
+  }
+}

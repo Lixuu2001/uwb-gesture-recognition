@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_held3_training_original_phase_live_epoch52_native_prefix_private_verified_all_cohort_unscored",
+  "state": "LOSO6_MMD_held3_full64_replay_native_complete_private_verified_phase_continues_held4_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_held3prefix/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_held3complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793959179.340076,
+  "background_training_observed_unix": 1793963918.183844,
   "background_training_pid": 50654,
-  "background_training_status_note": "Original phase50654/model51888 continues held3, observed57/64; native epoch52/3692update checkpoint/journal/step prefix protected private4parts201payload; no new fit/replay/scoring, all frozen sources unchanged.",
+  "background_training_status_note": "Original MMD phase50654 continues held4/model53781 after complete held3 full64+ownfresh64/allnative exact and private13part400payload backup; held1 reused untouched/allcohort unscored; no new launch/restart.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14455,5 +14455,64 @@
   "snapshot_build_cost_CPU": 3.2565995930000002,
   "operational_wrapper_preexecution_syntax_fault_fixed": true,
   "next": "Monitor existing phase, no duplicate. Finish all6 and fullprivate composite before ONLY cohort once. Partial backup does not authorize standalone resume."
+}
+,
+  "mmd_loso6_held3complete_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_held3complete/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "completed_new_folds": [
+    2,
+    3
+  ],
+  "reused_held1_unscored": true,
+  "held3_updates": 4544,
+  "held3_full_fresh_replay": true,
+  "held3_all65_epoch_and4544_step_records_exact": true,
+  "held3_private_complete_parts": 13,
+  "held3_private_complete_payloads": 400,
+  "held3_private_complete_archive_sha256": "1988cb105dd4dcbadb5611430edc5adbd367d4370af5d6976e1da5cce885f7d5",
+  "complete_sixfold_cohort": false,
+  "actual_phase_pid": 50654,
+  "active_held": 4,
+  "active_model_pid": 53781,
+  "held4_native_first_exact": true,
+  "held3_fold_cost": {
+    "wall": 4999.157410918997,
+    "cpu": 4996.774188
+  },
+  "held3_incremental_stage_costs": {
+    "output": {
+      "cpu": 10.76344600000084,
+      "wall": 11.02298477399745
+    },
+    "replay": {
+      "cpu": 2477.2587429999994,
+      "wall": 2478.226305290009
+    },
+    "train": {
+      "cpu": 2508.751999,
+      "wall": 2509.904524233978
+    }
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "new_diagnostic_scores_computed": false,
+  "old_singlefold_once_invoked": false,
+  "VREx_activated": false,
+  "generic_existing_backup_operator_reused_unchanged": true,
+  "all49_native_dependencies_sha_verified": true,
+  "next": "Continue original fixed serial held4..6; all6 frozen/fullprivate composite before ONLY cohort once; no test feedback or relaunch.",
+  "private_transfer_internal_error_recovered_by_one_absence_guarded_retry": true,
+  "backup_allmember_verification_cost": {
+    "scope": "whole_archive_decompression_and_all400members_hash_verification_after_all13_remote_raw_downloads",
+    "wall_seconds": 0.7781126649933867,
+    "CPU_seconds": 0.775350446,
+    "not_included_in_model_training_or_fresh_replay_cost": true
+  }
 }
 }
