@@ -1,0 +1,43 @@
+{
+  "observed_unix": 1793991506.9486825,
+  "held": 2,
+  "original_phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.57,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "R"
+  },
+  "actual_phase": {
+    "pid": 64529,
+    "startticks": 21331595,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 10.96
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1762112,
+    "active_held": 2,
+    "completed_folds": [
+      1
+    ],
+    "cpu": 8773.624551357,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "wall": 8764.304807751992
+  },
+  "producer_complete64": true,
+  "producer_updates": 4736,
+  "producer_algorithm_counter_contiguous": true,
+  "producer_single_reset_before_update501": true,
+  "producer_schedule_weight1_first500_then10": true,
+  "committed_replay_epoch": 11,
+  "committed_replay_updates": 814,
+  "all_committed_replay_steps_bitwise_equal": true,
+  "all_committed_epoch_records_equal": true,
+  "full64_replay_completed": false,
+  "whole_cohort_complete": false,
+  "test_labels_paired": false,
+  "new_model_updates_performed_by_audit": false
+}
