@@ -1,3 +1,23 @@
+## 2026-11-06：VREx前两折完整生产/重放/原生审计及私有恢复完成；第三折生产64已保护，原阶段继续fresh重放，未评分
+
+先核对GitHub最新5628cd56f09277996eed919b68b17cbab709f0f9四份权威记录及LOSO纠正协议/报告；大型memory按同commit Gitblob对远端SHA精确核验。原phasePID64529/start21331595、boot ad409b48-89ce-4704-beee-3658103d5856身份一致活跃，当前held3/replay已提交epoch13/923更新，phasewall14081.778130/CPU14097.374895秒（小于各43200秒），completed_folds=[1,2]。原phase自然推进，未重启模型/重复controller/新建自动任务或再次下载原始数据。
+
+held2现已完整64生产＋自己的独立fresh64重放/全部原生selected-output审计，均4736更新、65条纯epoch记录和全部step日志精确一致，完整model/BN/原生优化器/算法counter/resetEvents/全部RNG与输出通过，所有stage exit0/无资源stop。仅验证用户3选epoch55，训练1/4/5/6、测试2及样本ID严格隔离；nativefinalstate28e8ef706551c85318af1d85567d12bb9b2ac423735ed6cf9fbf61986fa6aa65，所选file2d83ddd3e963ea4dfef040ede71509e9706dc555c8bd15f463a2cee70b5eb2bf。独立按意图查生产/重放实际日志counter before0..4735/after1..4736连续，恰好在update501前完整reset一次，前500次weight1/后4236次weight10、resetEvents正确；并非仅以确定性重放排除所有共同实现错误。
+
+新完整held2包13块94880774字节406载荷，archive d253f273198955b0ad086979296c123f8bb8d52d0d0bfc9908056d65672b89aa、MEMBERS3631f2b2bb09c2be1e8248f4a8c2266f1ad6d0127b6adb48d89726f2ffbdcd83，owner-only metadata/rawfetch(true,false)/立即物化/SHA/整档和全部成员通过。complete_modelset=true严格限定held2，complete_single_fold=true、complete_sixfold_cohort=false。与held1完整包408载荷相差的2项经文件集合核验，恰为仅held1执行的固定合成profile的stdout/TERMINATION日志，无模型/重放缺失；held1完整13块408及此前producer/prefix索引原范围保留。完整held2构建wall4.857832/CPU4.854524秒，整档/全成员回读wall0.857957/CPU0.855899另列；13个上传响应/ID/回读对应13块，无错误/重传。
+
+held2各阶段增量wall/CPU秒：生产2816.982572/2815.852959，fresh64重放2732.663247/2731.284121，输出审计12.021144/11.017900，最终stage累计5561.666963/5558.154980秒，约1.54h；当前phase累计已包含held1/held2费用，不能再相加重复计费。原MMD全部wall30865.434969/CPU30891.040083秒、已做只读诊断/合成检查/归档成本完整保留，不抹去。
+
+归档期间held3自然完成64生产/4544更新，生产exit0/无资源stop、首批独立native精确通过；仅验证用户4选epoch19，训练用户1/2/5/6、测试3及ID隔离，未测试配对。生产wall2538.920363/CPU2538.148378秒含首步审计/验证选模，完整state语义e1594146dad1a4d9a69a4a228cfc2f2b5215dacdd4aff7c0bf3f9e42ec26cdef；inactive生产worker后检查全部journalhashchain/committedprefix及模型/优化器/counter/reset/RNG/selected/输出SHA。额外只读按意图核对生产4544计数/单次reset501前/weight切换正确，重放已提交prefix至epoch5/355全部对应step/epoch精确一致；此为prefix证据，非完整64。
+
+新held3 producer-only包8块52316657字节248载荷，archive68c5d59dedbd9471bfdb1a03c0426a0efd1b0f6c782e9f05e4dd98954c60a4d4、MEMBERSb17252ef1cb47fc71c5d24666bb0978b06bb4c6ab7bb7d91abc4ab95b17d8973，全8块原始回读/整档/全部成员通过。complete_training_producer=true、complete_modelset=false、complete_independent_replay=false、complete_fold_audits=false、complete_sixfold_cohort=false/automatic_resume_authorized=false；不宣称完整第三折或六折。构建wall4.766423/CPU4.750078秒、回读校验wall0.438485/CPU0.437440另计。实际ID/模型/原始step日志仅私有，大数组/runtimebinary不入Git/档案；最多3条完整传输流水线。
+
+具体存储故障与恢复：held3 part007初次upload返回MCP -32603 Internal error、无fileID，原ERROR/MISSING_ID_RESPONSE保留，其他0..6块从未重传。先两轮完整精确名称查询（原parent和global各一次，轮次间等待20秒，topn100且无分页/截断），四个结果均为空；新producer专用guard校验manifest/本地size+SHA/无knownID或既有retry、原错误唯一、两轮各scope间隔>=15秒，然后原子落盘最大一次额外上传marker，才补传一次该块。实际新ID持久化后owner/parent/size/MIME/rawfetch(true,false)/立即物化/SHA通过，整档未重建且最终hash不变。正常8个ID/回读，1次初始无ID错误＋1次有界额外上传；不包装成零故障或盲重试。恢复helper首次模板适配assert在任何operator文件/上传前阻止不匹配，改为显式producer guard后执行，留STORAGE_RECOVERY_OPERATOR_REPAIR；未改科学代码/重启训练。错误、四查询、marker、恢复receipt和两个通用只读/有界恢复helper随本次保存。
+
+下一续接检查原64529 boot/startticks/实际foldstage/STATE/RESOURCE_LEDGER/checkpoint，沿用当前held3重放，不重训已完成前两折/第三折生产，不触发旧held1once/旧VRExsinglefold。固定defaultVRExlambda10/anneal500/等域BCE+总体riskvariance/native全optimizerreset500，完整GAP617612/全部三雷达/RMS/B64/64/seed20261029、h1..6test/valnext/other4、只用训练验证选模保持；主阶段wall/CPU43200秒/RSS12GiB、ownedPIDstop/保留故障证据/无生产自动retry不变。所有6生产64+各自fresh64/native审计、全部模型/预测私有rawallmember及精确release冻结后，才固定无标签推断一遍和唯一完整cohort评分，不能单人测试门槛决定其余折继续。
+
+MMD40.6258% vs原GAP93.6672%、-53.0414pp/0胜确切配置仍失败关闭，旧科学文件/旧once/全部历史失败和混合94.6290%不同预算结论不改；只读退化诊断非因果/共同bug限定保留。VREx如完整6有效，按已在MMD评分前固定的等域BCE+同reset/no-variance匹配六折联合对照分析归因，再另规划8外层，不能直接称创新。用户7–8不用于新方法选择，历史八人反复开发探索性，非独立新用户/已验证原创贡献。Drive私有、仓库可见性、原789快照、现有自动任务频率/启用/云环境不变。目标未达，VREx仍无新测试准确率。
+
 ## 2026-11-06：VREx held2完整64生产已完成，248载荷私有回读通过，原阶段继续独立重放，未评分
 
 先核对GitHub最新17f4e5adbdb6c0a5bed985894eae81ff238fbfc9的四份权威记录及LOSO协议/报告；大型memory按同commit原始Gitblob对远端SHA精确核验。原云端phase64529/start21331595、boot ad409b48-89ce-4704-beee-3658103d5856活跃不变，当前held2/replay已提交epoch13/962更新，phasewall8827.442455/CPU8836.848224秒。没有重启已有任务、重复训练或原始数据下载；现有自动任务频率/启用/云环境不改。

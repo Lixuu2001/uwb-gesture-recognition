@@ -1,0 +1,37 @@
+{
+  "observed_unix": 1793996515.6371465,
+  "held": 3,
+  "producer_complete64": true,
+  "producer_updates": 4544,
+  "producer_counter_contiguous": true,
+  "producer_reset_before_update501_exactly_once": true,
+  "producer_weight1_first500_then10": true,
+  "committed_replay_epoch": 5,
+  "committed_replay_updates": 355,
+  "all_committed_replay_steps_bitwise_equal": true,
+  "all_committed_epoch_records_equal": true,
+  "complete_independent_replay": false,
+  "actual_phase": {
+    "pid": 64529,
+    "startticks": 21331595,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 15.84
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1713540,
+    "active_held": 3,
+    "completed_folds": [
+      1,
+      2
+    ],
+    "cpu": 13788.996518431999,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "wall": 13773.422468319011
+  },
+  "new_optimizer_updates_performed_by_audit": false,
+  "test_labels_paired": false,
+  "full_cohort_complete": false
+}

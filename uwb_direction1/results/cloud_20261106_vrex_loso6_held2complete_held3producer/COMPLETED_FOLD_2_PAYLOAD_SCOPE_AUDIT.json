@@ -1,0 +1,12 @@
+{
+  "state": "full_fold_payload_count_difference_explained",
+  "held1_payloads": 408,
+  "held2_payloads": 406,
+  "extra_held1_files": [
+    "profile_execution/TERMINATION.json",
+    "profile_execution/stdout.log"
+  ],
+  "extra_held2_files": [],
+  "reason": "One fixed synthetic capacity profile was registered/executed only under held1; its stdout/termination add two payloads. Both full folds include all model, optimizer,RNG, role,64producer/64replay and selected-output artifacts.",
+  "no_missing_training_or_replay_modelset_detected": true
+}

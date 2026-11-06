@@ -1,0 +1,90 @@
+{
+  "chunks_verified": 8,
+  "upload_ID_records": 8,
+  "normal_upload_responses": 8,
+  "initial_missing_ID_error_responses": 1,
+  "additional_uploads": 1,
+  "maximum_additional_uploads": 1,
+  "recovery": {
+    "index": 7,
+    "type": "one_missing_ID_upload_retry_after_two_complete_exactname_absence_rounds",
+    "upload_retries": 1,
+    "original_error": null,
+    "raw_readback_verified": true,
+    "original_error_and_search_evidence_retained": true
+  },
+  "absence_proofs": [
+    {
+      "round": 1,
+      "scope": "global",
+      "query": "name = 'vrex_loso6_producer_held3_20261106.part007' and trashed = false",
+      "exact_name": "vrex_loso6_producer_held3_20261106.part007",
+      "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+      "results": [],
+      "provider_keys": [
+        "results"
+      ],
+      "provider_continuation_absent": true,
+      "provider_truncation_absent": true,
+      "requested_topn": 100,
+      "is_error": false,
+      "observed_unix": 1793996737.574
+    },
+    {
+      "round": 1,
+      "scope": "parent",
+      "query": "name = 'vrex_loso6_producer_held3_20261106.part007' and trashed = false and '12AGMwT99yXCTYBQocQaX901Br-IelmOf' in parents",
+      "exact_name": "vrex_loso6_producer_held3_20261106.part007",
+      "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+      "results": [],
+      "provider_keys": [
+        "results"
+      ],
+      "provider_continuation_absent": true,
+      "provider_truncation_absent": true,
+      "requested_topn": 100,
+      "is_error": false,
+      "observed_unix": 1793996735.788
+    },
+    {
+      "round": 2,
+      "scope": "global",
+      "query": "name = 'vrex_loso6_producer_held3_20261106.part007' and trashed = false",
+      "exact_name": "vrex_loso6_producer_held3_20261106.part007",
+      "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+      "results": [],
+      "provider_keys": [
+        "results"
+      ],
+      "provider_continuation_absent": true,
+      "provider_truncation_absent": true,
+      "requested_topn": 100,
+      "is_error": false,
+      "observed_unix": 1793996761.092
+    },
+    {
+      "round": 2,
+      "scope": "parent",
+      "query": "name = 'vrex_loso6_producer_held3_20261106.part007' and trashed = false and '12AGMwT99yXCTYBQocQaX901Br-IelmOf' in parents",
+      "exact_name": "vrex_loso6_producer_held3_20261106.part007",
+      "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+      "results": [],
+      "provider_keys": [
+        "results"
+      ],
+      "provider_continuation_absent": true,
+      "provider_truncation_absent": true,
+      "requested_topn": 100,
+      "is_error": false,
+      "observed_unix": 1793996759.282
+    }
+  ],
+  "original_error_evidence_preserved": true,
+  "max_complete_pipeline_concurrency": 3,
+  "all_owner_only_metadata_and_raw_materialized_SHA_verified": true,
+  "source_archive_unchanged": true,
+  "no_new_training_or_restart": true,
+  "complete_training_producer": true,
+  "complete_independent_replay": false,
+  "complete_sixfold_cohort": false
+}
