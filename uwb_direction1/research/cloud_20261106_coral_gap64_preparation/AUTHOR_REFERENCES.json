@@ -1,0 +1,58 @@
+{
+  "references": [
+    {
+      "repo": "facebookresearch/DomainBed",
+      "path": "domainbed/algorithms.py",
+      "local_path": "author_reference/domainbed/algorithms.py",
+      "git_blob_sha1": "17a7a67bae773f97391d5507429840dd3c49fd4a",
+      "commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+      "public_copy": true,
+      "sha256": "1e4a0353e2c6e42460a43d9cba0bc97e49fec0f5163a39c2c13cadc2ac50eaac"
+    },
+    {
+      "repo": "facebookresearch/DomainBed",
+      "path": "domainbed/hparams_registry.py",
+      "local_path": "author_reference/domainbed/hparams_registry.py",
+      "git_blob_sha1": "b7b6a2bc8c9b5506d7e1edb9d37e008cea6b8cea",
+      "commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+      "public_copy": true,
+      "sha256": "6deec4fceaa98ceab95e89a18358868b1653e3382ca8444ba14eacb2d21b56ea"
+    },
+    {
+      "repo": "facebookresearch/DomainBed",
+      "path": "LICENSE",
+      "local_path": "author_reference/domainbed/LICENSE",
+      "git_blob_sha1": "4410777247b588260c5d283228fd96bfec7a4f79",
+      "commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+      "public_copy": true,
+      "sha256": "a74dc7c7d1650b2ef611962794f33e5432ff60227ad11fe8ff599eb892713fcb"
+    },
+    {
+      "repo": "facebookresearch/DomainBed",
+      "path": "README.md",
+      "local_path": "author_reference/domainbed/README.md",
+      "git_blob_sha1": "ae27f8cfca63c2ab8152a846bf9aba1f8602d637",
+      "commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+      "public_copy": true,
+      "sha256": "09b61daa2f976dcdbbafc4ca08172400b63834f67c2a3fba4ef9f8d97f6338a1"
+    },
+    {
+      "repo": "VisionLearningGroup/CORAL",
+      "path": "README.md",
+      "local_path": "author_reference/original_author/README.md",
+      "git_blob_sha1": "03525d8fdf15e18c2d221f95bb464ef5dfb20ec1",
+      "commit": "339844fa3336b74a51a170b6c2848056931c0311",
+      "public_copy": false,
+      "sha256": "27940f881af21c0082cd98034c58e417ed051860701b9ccc966cc4500f8a6344"
+    }
+  ],
+  "public_copy_selection": [
+    "author_reference/domainbed/algorithms.py",
+    "author_reference/domainbed/hparams_registry.py",
+    "author_reference/domainbed/LICENSE",
+    "author_reference/domainbed/README.md"
+  ],
+  "primary_sources": "DomainBed MIT default mmd_gamma1 and exact mean_cov kernel; author CORAL README ECCV2016 Workshops bibliography/method scope read; original README retained privately and hash-pinned, not republished",
+  "primary_paper_full_text_reviewed": false,
+  "original_benchmark_reproduced": false
+}

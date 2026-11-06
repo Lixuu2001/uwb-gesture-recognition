@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Focal_real_fullGAP64_original_producer_active_firstnative_privatecheckpoint_verified_unscored",
+  "state": "Focal_producer64_complete_original_OWN_replay_active_CORAL20_conditionally_preregistered_no_newfit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_focal_gap64_launch/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_coral_gap64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793925548.2788377,
-  "background_training_pid": 37561,
-  "background_training_status_note": "Continue SAME Focal originalproducer37561/controller37560/readonlycompletionobserver37567; no duplicate/restart. After original64/OWNfresh64/all65records/4736steps/selectedoutputs/FULLprivate owner-only raw/everymember proof invoke ORIGINALonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0 once. SD scorer consumed, never rescore.",
+  "background_training_observed_unix": 1793928569.426422,
+  "background_training_pid": 37997,
+  "background_training_status_note": "Continue SAMEFocalcontroller37560/OWNfreshreplay37997/readonlyobserver37567; producer64complete/noFocaldiagnostic. CORAL20 fixed conditionally, no CORALfit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue SAME Focal originalproducer37561/controller37560/readonlycompletionobserver37567; no duplicate/restart. After original64/OWNfresh64/all65records/4736steps/selectedoutputs/FULLprivate owner-only raw/everymember proof invoke ORIGINALonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0 once. SD scorer consumed, never rescore.",
-  "last_completed_update_utc": "2026-11-06T00:39:08.216342+00:00",
+  "next_candidate": "Continue SAME Focal originalOWNfreshreplay37997/controller37560/observer37567; never refit completed producer37561. Full64/OWNfresh64/allaudits/FULLprivate before ORIGINALFocalonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0. CORALgamma1/last128/pooledB64/GAP64 seed20261029 may activate ONLY after exact consumed Focalfailure/allinactivity and own native/singlecost/privateinitial/exactrelease; positive Focal prioritizes separatelyregistered SAMEsource6 confirmation.",
+  "last_completed_update_utc": "2026-11-06T01:29:29.371580+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -13691,5 +13691,24 @@
   "primary_paper_full_text_reviewed": false,
   "prior_SD_summary_sha256": "c52456188b6cecedaec3f140fc9a7cfd8e44fa22fecaef46aafbade4c9205a22",
   "scientific_files": 25
+}
+,
+  "coral_gap64_preparation_20261106": {
+  "report": "results/cloud_20261106_coral_gap64_preparation/RUN_REPORT.md",
+  "method": "published_DomainBed_CORAL_gamma1_last128_pooledB64_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "f011df610a2354da2a64fdde074b7246a0a52d3dff8595b30056270ebcf4c57f",
+  "scientific_files": 20,
+  "coral_gamma": 1.0,
+  "feature_dim": 128,
+  "raw_batch": 64,
+  "seed": 20261029,
+  "conditional_config_fixed_before_Focal_diagnostic": true,
+  "Focal_diagnostic_read": false,
+  "new_CORAL_fit_started": false,
+  "native_tests_or_profile_complete": false,
+  "primary_paper_full_text_reviewed": false
 }
 }
