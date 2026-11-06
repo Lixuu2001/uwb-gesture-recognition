@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "CORAL_original64_OWNfresh64_FULL_private_modelset_verified_ready_for_original_once",
+  "state": "close_exact_CORAL_gamma1_last128_pooledB64_GAP64_seed20261029_no_rescue",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_coral_gap64_full_archive/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_coral_gap64_final/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793938922.1378536,
+  "background_training_observed_unix": 1793939075.1282353,
   "background_training_pid": null,
-  "background_training_status_note": "Invoke original immutable release-bound CORAL once scorer exactly once after this exactFULLprivateproof publication. Exactfailure closes gamma1/last128/pooledB64/GAP64/64/seed20261029 without rescue then proceed next separately fixed literature-backed method; positive separatelyregister SAMEprotocolsource6 confirmation.",
+  "background_training_status_note": "Close exact CORALgamma1/last128/pooledB64/fullGAP64/B64/64epochs/seed20261029 without coefficient/layer/domainbatch/grouprule/epoch/seed rescue; proceed next separately fixed literature-backed method, no diagnostic sweep.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -107,7 +107,7 @@
   "signal_private_backup_file_id": "1aWIw5HiXcrqOyNBqzd79J5jQNhWPBRjC",
   "signal_private_backup_verified": true,
   "signal_private_backup_sha256": "f2ea2bf0aad1a56487d440c08446a2f28122d5935b84196f29944d27ed5837d1",
-  "latest_source_diagnostic": "results/cloud_20261106_focal_gap64_final/SUMMARY.json",
+  "latest_source_diagnostic": "results/cloud_20261106_coral_gap64_final/SUMMARY.json",
   "moment_guided_protocol_commit": "213cd840871d32dbdd611f03937f16b9c60ed310",
   "moment_guided_results_path": "/workspace/uwb-moment-guided-runs-20261002",
   "moment_guided_completed_runs": 16,
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Invoke original immutable release-bound CORAL once scorer exactly once after this exactFULLprivateproof publication. Exactfailure closes gamma1/last128/pooledB64/GAP64/64/seed20261029 without rescue then proceed next separately fixed literature-backed method; positive separatelyregister SAMEprotocolsource6 confirmation.",
-  "last_completed_update_utc": "2026-11-06T04:22:02.080737+00:00",
+  "next_candidate": "Next conditional published DomainBedGaussianMMD gamma1/allseven authorRBFsum/biasedselfterms/last128/pooledB64/fullGAP64/B64/64/seed20261029 config and implementation21 were fixed before this CORALdiagnostic, anchored by pre-score507283c049c0b451010f3fc8ea986c58aa8c57be NEXT_CONDITIONAL_MMD_CONFIG and scientificmanifest c008bed1eb56838fef0a1dd5b0d402dc46996ddef659cdc159fbfb2543317628. No MMDrealfit yet; own preregistered native/ONEcost/privateinitial/exactrelease required before ONEcontroller. Published nonlinearGaussianMMD baseline is distinct from CORALfirsttwo moments and not a coefficient/layer/domainbatch/grouprule/epoch/seed rescue or originalkernelinnovation claim.",
+  "last_completed_update_utc": "2026-11-06T04:24:35.057271+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -14035,5 +14035,78 @@
   "scientific20_unchanged": true,
   "selected_epoch": 64,
   "updates_per_trajectory": 4736
+}
+,
+  "coral_gap64_final_20261106": {
+  "report": "results/cloud_20261106_coral_gap64_final/RUN_REPORT.md",
+  "method": "published_DomainBed_CORAL_gamma1_last128_pooledB64_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "actual_terminations": {
+    "output": {
+      "cumulative": {
+        "cpu": 5016.180273,
+        "wall": 5018.162382410024
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5005.451908,
+        "wall": 5007.1377571180055
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "train": {
+      "cumulative": {
+        "cpu": 2513.368375,
+        "wall": 2513.848608748027
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "archive_bytes": 101675555,
+  "archive_parts": 14,
+  "archive_payloads": 415,
+  "archive_sha256": "602dbbbfba5f7470266631c3fe26bedb4065c4bdf4372f4309c7f666e61dd8dd",
+  "complete_private_owner_only_raw_every_member_verified": true,
+  "diagnostic_labels_read": true,
+  "epoch_records_exact": 65,
+  "native_final_sha256": "cd15969bef4be994f91a1f2d98c95feacaa41527e259e19c70f6c224e41ecaa9",
+  "new_accuracy_result": true,
+  "once_gate_consumed": true,
+  "original_once_scorer_sha256": "085f666b3561488b281e172fde504a8a6b762fe46c2fcb81fd956f850e14d697",
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "scientific20_unchanged": true,
+  "selected_epoch": 64,
+  "summary": {
+    "diagnostic_macro": 0.9783333333333334,
+    "difference": -0.005833333333333357,
+    "finalizer_invocations": 1,
+    "independent_validation": false,
+    "legacy8fold_improvement_proven": false,
+    "novel_contribution_validated": false,
+    "predeclared_gate_passed": false,
+    "reference_noMixup_GAP64_macro": 0.9841666666666667,
+    "route": "close_exact_CORAL_gamma1_last128_pooledB64_GAP64_seed20261029_no_rescue",
+    "selected_epoch": 64,
+    "state": "complete_exploratory_CORAL_GAP64_source1_pilot",
+    "users7_8_labels_used": false
+  },
+  "updates_per_trajectory": 4736,
+  "next_MMD_scientific_manifest_sha256": "c008bed1eb56838fef0a1dd5b0d402dc46996ddef659cdc159fbfb2543317628",
+  "next_MMD_fixed_before_CORAL_diagnostic": true,
+  "new_MMD_fit_started": false
 }
 }
