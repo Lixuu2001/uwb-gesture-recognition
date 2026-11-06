@@ -1,0 +1,42 @@
+{
+  "budget_reset": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.6,
+    "pid": 45290,
+    "startticks": 17064304,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "live_source_modified": false,
+  "new_fit_started_by_capture": false,
+  "observed_unix": 1793940140.1375973,
+  "progress": {
+    "checkpoint_sha256": "e1a21e215ebfd54e8e245e12717c2c19241888bd774bdafc6d42c9f4dbe2fa28",
+    "epoch": 1,
+    "journal_sha256": "927c1a15c6a5e113a3989dc29d22c4db8ce2613804f53ea0ed31956ed8d9aaa9",
+    "prefix_bytes": 35271,
+    "prefix_sha256": "b77686676437d21f991eb13f2e77f11214e1dd1beaf632340eb50e80514807a4",
+    "slot": "slot1.pt",
+    "updates": 74
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1682240,
+    "cpu": 67.681304,
+    "stage": "train",
+    "wall": 68.13598414300941
+  },
+  "scientific_configuration_changed": false,
+  "state": "coherent_committed_MMD_GAP_native_checkpoint_and_uncommitted_suffix_captured",
+  "suffix_bytes": 16217,
+  "total_log_rows": 108,
+  "uncommitted_log_rows": 34,
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 62.27,
+    "pid": 45291,
+    "startticks": 17064559,
+    "state": "R"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "state": "fixed_completion_metadata_dependency_copied_from_prior_CORAL_only_repair_not_applicable_to_MMD",
+  "failed_prepare_exit_code": 1,
+  "missing_file": "PRE_REGISTRATION_REPAIR.json",
+  "reason": "MMD implementation compiled and native tests passed directly; prior CORAL pre-registration indentation receipt was never an MMD artifact",
+  "partial_unpublished_metadata_preserved_at": "/workspace/uwb-mmd-gap-meta-20261106/failed_staging_release_metadata",
+  "partial_file_sha256": {
+    "RESOURCE_RESULT.json": "455eadc012d2b9543334be6c6fe1342bd414f132db03214adbefcd4642048f33",
+    "SYNTHETIC_RESULT.json": "ea86506f11337daee7bd1e562243bc5f65efee5a9ad3c5a6636e2bbd2cbec45d",
+    "REMOTE_PREREGISTRATION.json": "04d7545ae6d9ba50aab8adfdad3ec739c5bdfecf55f9e8742dee7490ea536420",
+    "PRODUCTION_VERIFIED.json": "50a05bf73b01327eee6b18f77586fe94a7b63e08e91c4bfa97ba0439d32ad48d",
+    "DOMAIN_BATCH_AUDIT.json": "151704588ffd9e4f49aeb2daa531872dfc7a515ffabd845801089cead5acc391"
+  },
+  "source_before_sha256": "92efe1378b258401aae284157c9e1cf5d3c4dbd5aeda99224cf402f42ec29e9d",
+  "source_after_sha256": "54ef30190cb933d417df37fcc116d23d026081b073d5bf2b138bee6dba4c7efe",
+  "science21_config_seed_models_archives_original_once_scorer_unchanged": true,
+  "no_new_fit_or_scoring_or_profile_retry": true,
+  "no_remote_release_commit_created": true
+}
