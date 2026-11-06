@@ -1,0 +1,12 @@
+# Fixed published DomainBed CORAL component transfer: full_archive
+
+## 2026-11-06: CORAL original64/OWNfresh64 and complete private modelset verified before ORIGINALonce
+
+Fixed published CORALgamma1/lastfull128dim/pooledB64sourceusers3–6/pairmean+unbiasedcovariance_squaredmean/validgroups>=2/full617612GAP/64epochs/seed20261029/nativehard12OvRBCE/AdamW.001_decay.0001_Lookahead.5_k6/clip2 completed original64 AND OWNindependentlyfresh64, all4736steps/65epochrecords/native model-optimizer-allRNG-BN/validation-selected epoch64 outputs exact. Actualtrain/replay/outputexit0, canonical terminalcd15969bef4be994f91a1f2d98c95feacaa41527e259e19c70f6c224e41ecaa9, all20science unchangedf011df610a2354da2a64fdde074b7246a0a52d3dff8595b30056270ebcf4c57f. Cumulative5018.162382wall/5016.180273CPU seconds under43200wall/CPU/12GiB, no duplicate/restart/budgetreset. Published DomainBed component transfer, nativepooledforward/BN/globalBCE/order vs authorper-domain protocol; not full imagebenchmark or originalUDA/cov-only scaling/novelalignment/fullprimarypaperreview claim.
+
+FULL owner-only private modelset14parts/101675555bytes/415payloads SHA602dbbbfba5f7470266631c3fe26bedb4065c4bdf4372f4309c7f666e61dd8dd, membersSHA0ea2649ed8a3d2f4a67c537ee020d6dab37f13413603fff9866301457eb4b278: metadata/raw(download_raw_file=true,include_base64=false)/immediate sizeSHA/whole/everymember verified,max3completepipelines. Actualinitialrawguards/native49/allfive namespacedrefs/licenses/privateIDs/roles/operators/consumedpriorFocal lineage included; rawradar/RMS/runtime external. No private arrays/models/actualIDs inGit. Persistentindex results/cloud_20261106_coral_gap64_full_archive/full_backup/CLOUD_DOWNLOAD_INDEX.json. PRE-SCORE archive: preserve newestsummary/STATE/consumedlock before recovery, NEVER rescore.
+
+Invoke original immutable release-bound CORAL once scorer exactly once after this exactFULLprivateproof publication. Exactfailure closes gamma1/last128/pooledB64/GAP64/64/seed20261029 without rescue then proceed next separately fixed literature-backed method; positive separatelyregister SAMEprotocolsource6 confirmation.
+
+Diagnostic remains UNSCORED; no active CORALmodel. Users7–8excluded, repeated development exploratory, accuracy/originality separate/unresolved. No newaccuracyresult or independent/original/legacy8fold claim. Goal unresolved/automaticcontinuation continues, cloud-only/original789/privacy unchanged.
+
