@@ -1,0 +1,29 @@
+{
+  "state": "fixed_stale_SD_display_label_in_Focal_readonly_post_backup_observer_before_launch_publication",
+  "cause": "Copied operational state string retained SD label; actual Focal study path/PIDs/native digests/scientific25/private archive facts were already correct",
+  "source_before_sha256": "648e37cc5f5250cfa9d548bce47705aad506d597e2da15a4d083b56123466d54",
+  "source_after_sha256": "95026f3eb9dcca30af2d978bebb76868f8536ecc08318eabfa372318e30cf24a",
+  "receipt_history": [
+    {
+      "path": "/workspace/uwb-focal-gap-checkpoint-insurance01-20261106/POST_BACKUP_LIVE_OBSERVATION.json",
+      "before_sha256": "a4195ba4f4f336d321aa2a41e85f629cb5069298eb8af973c35a92d28f4a247c",
+      "before_state": "actual_preregistered_SD_training_started_first_update_and_native_committed_state_verified_unscored",
+      "after_sha256": "0c50c24e2abbe93c3592c012a2be30979c19fa245046d0905782e29973b29396"
+    },
+    {
+      "path": "/workspace/uwb-focal-gap64-20261106/checkpoint_insurance01/POST_BACKUP_LIVE_OBSERVATION.json",
+      "before_sha256": "a4195ba4f4f336d321aa2a41e85f629cb5069298eb8af973c35a92d28f4a247c",
+      "before_state": "actual_preregistered_SD_training_started_first_update_and_native_committed_state_verified_unscored",
+      "after_sha256": "0c50c24e2abbe93c3592c012a2be30979c19fa245046d0905782e29973b29396"
+    },
+    {
+      "path": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261106_focal_gap64_launch/checkpoint_insurance01/POST_BACKUP_LIVE_OBSERVATION.json",
+      "before_sha256": "a4195ba4f4f336d321aa2a41e85f629cb5069298eb8af973c35a92d28f4a247c",
+      "before_state": "actual_preregistered_SD_training_started_first_update_and_native_committed_state_verified_unscored",
+      "after_sha256": "0c50c24e2abbe93c3592c012a2be30979c19fa245046d0905782e29973b29396"
+    }
+  ],
+  "no_model_fit_or_forward_or_optimizer_step_for_repair": true,
+  "scientific25_unchanged": true,
+  "configuration_seed_resources_or_private_archive_bytes_unchanged": true
+}
