@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "MMD21_original_real_training_active_VREx22_conditional_implementation_frozen_unscored",
+  "state": "MMD21_original_real_active_VREx22_conditional_native_and_single_capacity_passed_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-05 bootad409b48; original temporalCutMix64/OWN64/output completed, no active temporalCutMix model; CPU quota4/RAM16GiB/noGPU/1thread model",
+  "compute": "2026-11-06 bootad409b48; CPUquota4/RAM16GiB/noGPU; original MMD fullnative617612/GAP/B64/64 active; conditional VREx synthetic/native/capacity only",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_gap64_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_gap64_validation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793941615.4898412,
+  "background_training_observed_unix": 1793942069.04827,
   "background_training_pid": 45291,
-  "background_training_status_note": "Continue SAME MMD original producer/controller/readonlyobserver; complete64/OWN64/FULLprivate/originalonce. VREx22 fixed conditionally before MMD score; no VREx UWB fit; first run synthetic/native/reset tests and one capacity profile. Never duplicate MMD or activate VREx unless consumed MMD failed gate.",
+  "background_training_status_note": "Continue SAME MMD producer45291/controller45290/readonlyobserver45304:64/OWNfresh64/FULLprivate/originalonce only. Conditional VREx22 prereg/native/singlecapacity passed, no VREx UWBfit; activate only after actual consumed failed MMD gate and allpriorinactivity/privateinitial/exactrelease.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -74,7 +74,7 @@
   "signal_log": "/workspace/uwb-circular-train-20260930.log",
   "signal_completed_runs_independently_audited": 24,
   "signal_latest_partial_audit": "results/cloud_20260930_circular/PARTIAL_AUDIT_0853.json",
-  "latest_literature_note": "research/cloud_20261105_cutmix_temporal_preparation/README.md",
+  "latest_literature_note": "research/cloud_20261106_vrex_gap64_preparation/SOURCE_REVIEW.md",
   "public_iruwb_hgr_dataset_review": {
     "independent_public_dynamic_gesture_cohort_identified": false,
     "search_scope": "bounded targeted search; not exhaustive",
@@ -134,7 +134,7 @@
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
   "next_candidate": "Fixed conditional published VREx lambda10/anneal500/domainmean/fullnative optimizer reset; only after actual consumed MMD failure. MMD positive prioritizes separately registered source6 confirmation.",
-  "last_completed_update_utc": "2026-11-06T04:45:08.443576+00:00",
+  "last_completed_update_utc": "2026-11-06T05:14:15.105711+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -14225,5 +14225,44 @@
   "synthetic_executed": false,
   "capacity_executed": false,
   "primary_paper_full_text_reviewed": false
+}
+,
+  "vrex_gap64_validation_20261106": {
+  "report": "results/cloud_20261106_vrex_gap64_validation/RUN_REPORT.md",
+  "method": "conditional_published_DomainBed_VREx_lambda10_anneal500_domainmean_resetNativeAdamWLookahead_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "scientific_files": 22,
+  "frozen_sha256": "5bfc6cac6ff226ea6fd38ce2f2e4f8a464fd0b34bbe5f90515ce350896060ec3",
+  "vrex_lambda": 10.0,
+  "anneal_completed_updates": 500,
+  "warmup_penalty_weight": 1.0,
+  "new_VREx_UWB_fit_started": false,
+  "MMD_still_only_active_real_experiment": true,
+  "prior_MMD_unscored_at_configuration_choice": true,
+  "synthetic_executed": true,
+  "capacity_executed": true,
+  "primary_paper_full_text_reviewed": false,
+  "synthetic_passed": true,
+  "capacity_passed": true,
+  "synthetic_actual_exit_code": 0,
+  "capacity_actual_exit_code": 0,
+  "capacity_projection": {
+    "wall": 12667.557376950048,
+    "cpu": 12663.040594844
+  },
+  "capacity_RSS_KiB": 574904,
+  "prior_MMD_progress": {
+    "checkpoint_sha256": "9e5895b0f244b295cbb48deadcc10e938c2009c46663b6c9ce04e5e3d91f5b84",
+    "epoch": 50,
+    "journal_sha256": "321a194c6915d0c8e23d3e2d90a32d5fe3032a747fd9620a8e7c0c2250c346d1",
+    "prefix_bytes": 1778416,
+    "prefix_sha256": "e5418c617dc3118e267be8534e7acabb800a3af1545c82435bc3c9d205c16611",
+    "slot": "slot0.pt",
+    "updates": 3700
+  },
+  "VREx_activation_or_realrelease_present": false,
+  "new_accuracy_result": false
 }
 }

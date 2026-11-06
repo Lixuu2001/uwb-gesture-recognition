@@ -1,0 +1,55 @@
+{
+  "state": "VREx22_native_and_single_capacity_verified_conditional_only_original_MMD_unchanged_active_unscored",
+  "observed_unix": 1793942055.105208,
+  "MMD_processes": {
+    "controller": {
+      "pid": 45290,
+      "startticks": 17064304,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "state": "S",
+      "cpu": 4.45
+    },
+    "producer": {
+      "pid": 45291,
+      "startticks": 17064559,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "state": "R",
+      "cpu": 1976.12
+    },
+    "observer": {
+      "pid": 45304,
+      "startticks": 17065870,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "state": "S",
+      "cpu": 4.98
+    }
+  },
+  "MMD_progress": {
+    "checkpoint_sha256": "9e5895b0f244b295cbb48deadcc10e938c2009c46663b6c9ce04e5e3d91f5b84",
+    "epoch": 50,
+    "journal_sha256": "321a194c6915d0c8e23d3e2d90a32d5fe3032a747fd9620a8e7c0c2250c346d1",
+    "prefix_bytes": 1778416,
+    "prefix_sha256": "e5418c617dc3118e267be8534e7acabb800a3af1545c82435bc3c9d205c16611",
+    "slot": "slot0.pt",
+    "updates": 3700
+  },
+  "MMD_resource_ledger": {
+    "RSS_KiB": 1676772,
+    "cpu": 1981.591304,
+    "stage": "train",
+    "wall": 1983.1750732370128
+  },
+  "MMD_scientific_manifest_sha256": "c008bed1eb56838fef0a1dd5b0d402dc46996ddef659cdc159fbfb2543317628",
+  "MMD_summary_or_once_lock_exists": false,
+  "VREx_scientific_files": 22,
+  "VREx_frozen_sha256": "5bfc6cac6ff226ea6fd38ce2f2e4f8a464fd0b34bbe5f90515ce350896060ec3",
+  "VREx_scientific_files_unchanged_since_preregistration": true,
+  "VREx_synthetic_exit_code": 0,
+  "VREx_capacity_exit_code": 0,
+  "VREx_synthetic_only": true,
+  "VREx_new_UWB_fit_started": false,
+  "VREx_activation_present": false,
+  "VREx_full_model_real_release_present": false,
+  "no_new_accuracy_result": true,
+  "users7_8_labels_used": false
+}
