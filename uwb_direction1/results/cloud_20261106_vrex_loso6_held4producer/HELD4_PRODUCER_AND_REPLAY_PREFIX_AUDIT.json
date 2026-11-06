@@ -1,0 +1,45 @@
+{
+  "actual_phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 20.89,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "S"
+  },
+  "all_committed_epoch_records_equal": true,
+  "all_committed_replay_steps_bitwise_equal": true,
+  "committed_replay_epoch": 12,
+  "committed_replay_updates": 852,
+  "full64_replay_completed": false,
+  "held": 4,
+  "new_model_updates_performed_by_audit": false,
+  "observed_unix": 1794001801.37557,
+  "original_phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.57,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "R"
+  },
+  "producer_algorithm_counter_contiguous": true,
+  "producer_complete64": true,
+  "producer_schedule_weight1_first500_then10": true,
+  "producer_single_reset_before_update501": true,
+  "producer_updates": 4544,
+  "resource_ledger": {
+    "RSS_KiB": 1690832,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 19079.101100207998,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "wall": 19058.736655493994
+  },
+  "test_labels_paired": false,
+  "whole_cohort_complete": false
+}
