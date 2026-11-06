@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Focal_original64_complete_OWNfresh_replay_active_CORAL20_native_singlecost_passed_conditional_unfitted",
+  "state": "Focal_full64_OWNfresh64_FULL_private_modelset_verified_ready_for_original_once_gate",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Accuracy improvement and original-contribution evidence remain separate and unresolved. Continue the currently frozen real published-method accuracy pilot, then use its registered source-user gate; published prior art does not block practical baseline experiments. Any positive source result remains exploratory due to repeated development on eight users. Do not use users7–8 labels for new-method selection or claim independent validation.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_coral_gap64_native_cost/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_focal_gap64_full_archive/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793929029.4706686,
-  "background_training_pid": 37997,
-  "background_training_status_note": "SAMEFocalOWNreplay37997/controller37560/observer37567 active; original64 complete/unscored. CORAL20 native/ONEcost/defaultgamma1/metadata domain schedule pass, no CORALfit or activation.",
+  "background_training_observed_unix": 1793932363.9423864,
+  "background_training_pid": null,
+  "background_training_status_note": "Execute ORIGINAL immutable release-bound Focal once scorer once after this exact FULL private proof publication. No active Focal fitting. Fixed +.005 source1 gate; failure closes exact alpha.25/gamma2/meanBx12/GAP64/B64/64/seed20261029 without rescue then activate only preregistered/native/ONEcostpassed CORALgamma1/last128/pooledB64/GAP64 after allpriorinactivity, its ownprivateinitial/exactrelease before ONEcontroller; positive separately register same-protocol source6 confirmation.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue SAMEFocal37997/37560/37567, no completedproducer refit. Full64/OWNfresh64/allaudits/FULLprivate raw/everymember before ORIGINALFocalonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0. ExactFocalFAILED consumed gate/allpriorinactivity permits alreadyregistered/native/ONEcostpassed CORALgamma1/last128/pooledB64/GAP64 seed20261029 activation then ownprivateinitial/exactrelease/ONEcontroller; positive prioritizes separatelyregistered SAMEsource6. Users7–8 excluded, exploratory, never rescore consumed gates.",
-  "last_completed_update_utc": "2026-11-06T01:35:56.126740+00:00",
+  "next_candidate": "Execute ORIGINAL immutable release-bound Focal once scorer once after this exact FULL private proof publication. No active Focal fitting. Fixed +.005 source1 gate; failure closes exact alpha.25/gamma2/meanBx12/GAP64/B64/64/seed20261029 without rescue then activate only preregistered/native/ONEcostpassed CORALgamma1/last128/pooledB64/GAP64 after allpriorinactivity, its ownprivateinitial/exactrelease before ONEcontroller; positive separately register same-protocol source6 confirmation.",
+  "last_completed_update_utc": "2026-11-06T02:32:43.860004+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -13783,5 +13783,62 @@
   "CORAL_REAL_RELEASE_exists": false,
   "primary_Focal_replay_observed_epoch": 24,
   "new_accuracy_result": false
+}
+,
+  "focal_gap64_full_archive_20261106": {
+  "report": "results/cloud_20261106_focal_gap64_full_archive/RUN_REPORT.md",
+  "method": "published_sigmoid_Focal_alpha.25_gamma2_meanB12_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "actual_terminations": {
+    "output": {
+      "cumulative": {
+        "cpu": 5069.330296,
+        "wall": 5072.08679803001
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5058.990745,
+        "wall": 5061.060698615998
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "train": {
+      "cumulative": {
+        "cpu": 2519.82705,
+        "wall": 2520.081765729992
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "archive_bytes": 101611545,
+  "archive_parts": 14,
+  "archive_payloads": 424,
+  "archive_sha256": "2da83e2576d753f1a0bef20900b9686f8b72aef1b3b4c17450e13da35362e697",
+  "complete_private_modelset_owner_only_raw_every_member_verified": true,
+  "diagnostic_labels_read": false,
+  "epoch_records_exact": 65,
+  "native_final_sha256": "c8a1f1162812e04ace6717517f88fec8b31c0c87780b424e777199c906fce0b7",
+  "new_accuracy_result": false,
+  "once_gate_consumed": false,
+  "original789_changed": false,
+  "original_once_scorer_sha256": "16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0",
+  "producer_epochs": 64,
+  "replay_epochs": 64,
+  "scientific25_changed": false,
+  "selected_epoch": 33,
+  "updates_per_trajectory": 4736
 }
 }
