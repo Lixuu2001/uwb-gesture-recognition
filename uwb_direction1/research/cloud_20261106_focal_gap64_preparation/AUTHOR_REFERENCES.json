@@ -1,0 +1,80 @@
+{
+  "references": [
+    {
+      "repo": "pytorch/vision",
+      "source_path": "torchvision/ops/focal_loss.py",
+      "local_path": "author_reference/torchvision/focal_loss.py",
+      "commit": "4260301135e34180d865426765487113f84e7707",
+      "git_blob_sha1": "5cd781eaab54b3eec755c341f2678a58068e84eb",
+      "sha256": "9966fcf7f8635a9380c822b9af2930d0a98e8e6ff4b10e2e91fa798af8650427"
+    },
+    {
+      "repo": "pytorch/vision",
+      "source_path": "LICENSE",
+      "local_path": "author_reference/torchvision/LICENSE",
+      "commit": "4260301135e34180d865426765487113f84e7707",
+      "git_blob_sha1": "1edcf92c3317b90fedd187e2eaad101bd1c1efc5",
+      "sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d"
+    },
+    {
+      "repo": "facebookresearch/fvcore",
+      "source_path": "fvcore/nn/focal_loss.py",
+      "local_path": "author_reference/fvcore/focal_loss.py",
+      "commit": "8363d8d9e048e04a528112a15a50696fe125f97f",
+      "git_blob_sha1": "3f0f583b3353985b7b51b47669134ee97ad017b7",
+      "sha256": "9b81c37ee06de824ce5d2c9dd4cb1a31cad187308ffb97415e7054ae76667041"
+    },
+    {
+      "repo": "facebookresearch/fvcore",
+      "source_path": "LICENSE",
+      "local_path": "author_reference/fvcore/LICENSE",
+      "commit": "8363d8d9e048e04a528112a15a50696fe125f97f",
+      "git_blob_sha1": "5a90478a33957a01c8b1c16fb4d9bf8d0687affd",
+      "sha256": "eb2e7c520ac305e46ca8345c4efa1f77669a77779fd6f53acd3a9616f2144518"
+    },
+    {
+      "repo": "facebookresearch/fvcore",
+      "source_path": "README.md",
+      "local_path": "author_reference/fvcore/README.md",
+      "commit": "8363d8d9e048e04a528112a15a50696fe125f97f",
+      "git_blob_sha1": "2cf446eb0b2ab6167c90ed7d940b5d6a2c00bb3c",
+      "sha256": "4a88a3064d7e6876e83b328f1bd2531ca9c2567d122241e9728588acc098f3a3"
+    },
+    {
+      "repo": "facebookresearch/Detectron",
+      "source_path": "README.md",
+      "local_path": "author_reference/detectron/README.md",
+      "commit": "04155a01a6ea68f22ac27c79a822066457941ece",
+      "git_blob_sha1": "10c3793d2d038315dbbbb84547cca1c3a761fb00",
+      "sha256": "4454fb33f9a7193a2a3805fa41c2a97350942355ef9915ef61f58b0438eae68e"
+    },
+    {
+      "repo": "facebookresearch/Detectron",
+      "source_path": "detectron/core/config.py",
+      "local_path": "author_reference/detectron/config.py",
+      "commit": "04155a01a6ea68f22ac27c79a822066457941ece",
+      "git_blob_sha1": "7c07ec137c271058ba38ba359aeef1a5a9342c60",
+      "sha256": "d80fa2f838e720c0794ab9edd09585713db6076296436a255f62fb61556e4b17"
+    },
+    {
+      "repo": "facebookresearch/Detectron",
+      "source_path": "LICENSE",
+      "local_path": "author_reference/detectron/LICENSE",
+      "commit": "04155a01a6ea68f22ac27c79a822066457941ece",
+      "git_blob_sha1": "cd482d89761c2eb60d1fc8c72c1708b7f47b8c82",
+      "sha256": "4d10fe5f3aa176b05b229a248866bad70b834c173f1252a814ff4748d8a13837"
+    },
+    {
+      "repo": "facebookresearch/Detectron",
+      "source_path": "NOTICE",
+      "local_path": "author_reference/detectron/NOTICE",
+      "commit": "04155a01a6ea68f22ac27c79a822066457941ece",
+      "git_blob_sha1": "5fcc013a09a9df06eed031ef2ef3770c7bdaf848",
+      "sha256": "ab32e78d1a15b83d269361a317c6e0cb17918319c50da4ba6b9e75f9a5e6b579"
+    }
+  ],
+  "full_paper_text_reviewed": false,
+  "primary_paper": "Lin,Goyal,Girshick,He,Dollar; Focal Loss for Dense Object Detection; ICCV2017; arXiv1708.02002",
+  "evidence": "Pinned FAIR Detectron author README bibliography and RetinaNet config; pinned torchvision functional exact reference and fvcore original implementation; no assertion of full RetinaNet reproduction",
+  "licenses": "torchvision BSD3; FAIR fvcore and Detectron Apache2 with retained notices"
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "close_exact_SD_sdreg.1_noanneal_GAP64_B64_seed20261029_no_rescue",
+  "state": "Focal_fixed25_preregistration_pending_native_tests_singlecost_privateinitial_release_no_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_sd_gap64_final/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_focal_gap64_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793924706.3100178,
+  "background_training_observed_unix": 1793924990.7868357,
   "background_training_pid": null,
-  "background_training_status_note": "Exact SD sdreg.1/noanneal/full617612GAP/B64/64epochs/seed20261029 closed without coefficient/anneal/decay/layer/epoch/seed rescue. Continue next separately fixed, literature-backed method; no diagnostic sweep.",
+  "background_training_status_note": "FixedFocalalpha.25/gamma2/nativefull617612; code frozen25; no Focalfit. Next nativechecks ONEcost then privateinitial/exactrelease before ONEcontroller.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Exact SD sdreg.1/noanneal/full617612GAP/B64/64epochs/seed20261029 closed without coefficient/anneal/decay/layer/epoch/seed rescue. Continue next separately fixed, literature-backed method; no diagnostic sweep.",
-  "last_completed_update_utc": "2026-11-06T00:25:06.252567+00:00",
+  "next_candidate": "Continue SAME frozen Focalalpha.25/gamma2/meanBx12/GAP64/B64/64/seed20261029. Complete native/pinned tests and ONE resource profile before own privateinitial/exactrelease/ONEcontroller. Prior SD closed/original scorer consumed, never rescore.",
+  "last_completed_update_utc": "2026-11-06T00:00:00+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -13606,5 +13606,24 @@
     "users7_8_labels_used": false
   },
   "updates_per_trajectory": 4736
+}
+,
+  "focal_gap64_preparation_20261106": {
+  "report": "results/cloud_20261106_focal_gap64_preparation/RUN_REPORT.md",
+  "method": "published_sigmoid_Focal_alpha.25_gamma2_meanB12_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "b26a10c9dff73ac475f6dea4241ab6a490757532d7e9bba81930dd6e8c3e6266",
+  "scientific_files": 25,
+  "focal_alpha": 0.25,
+  "focal_gamma": 2.0,
+  "focal_reduction": "mean_B_times12",
+  "seed": 20261029,
+  "prior_SD_exact_failed_gate_consumed": true,
+  "prior_SD_summary_sha256": "c52456188b6cecedaec3f140fc9a7cfd8e44fa22fecaef46aafbade4c9205a22",
+  "new_UWB_fit_started": false,
+  "diagnostic_labels_read": false,
+  "primary_paper_full_text_reviewed": false
 }
 }
