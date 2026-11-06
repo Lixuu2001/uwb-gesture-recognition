@@ -48,13 +48,12 @@
       "prediction_sha256": "ff226e39fed0bb4f5ad91ce02eda2427fbda65f3a5b59f15d037d9035735e075"
     }
   },
-  "cohort_method_frozen_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
   "parameters": 617612,
   "batch": 64,
   "threads": 1,
   "one_timed_pass_per_arm_and_user": true,
   "warmup": "exactly one forward on first min(64,n) fixed cached held maps, eval mode, no labels or adaptation; record warmup separately",
-  "arm_order": "odd held: baseline then MMD; even held: MMD then baseline; no timing-based selection",
+  "arm_order": "odd held: baseline then VREx; even held: VREx then baseline; no timing-based selection",
   "timed_scope": "cached already prepared signed/RMS maps, memorymap batch row copy, tensor conversion, fixed native forward, CPU output copy and concatenation; excludes model init/load/import/hash/warmup/reference comparison/raw radar preprocessing",
   "wall_CPU_cap_seconds": 300,
   "RSS_cap_KiB": 12582912,
@@ -75,5 +74,6 @@
   "no_automatic_retry": true,
   "timing_not_a_method_selection_gate": true,
   "aggregate_report": "per held and arm CPU/wall and ms/sample; actual worker total, warmup, RSS and paired differences separately; no fastest-repeat selection or speed-novelty claim",
-  "method": "VREx"
+  "method": "VREx",
+  "scientific_binding": "FROZEN_HASHES.json binds this config/code; actual REMOTE_PREREGISTRATION commit binds that manifest, avoiding a circular self-hash"
 }

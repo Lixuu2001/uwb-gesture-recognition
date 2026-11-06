@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_default10_500_implemented_preregistered_pending_native_checks_private_initial_release_no_fit",
+  "state": "LOSO6_VREx_pre_execution_metadata_amended_pending_native_checks_private_initial_release_no_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_metadata_amend/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793982264.8865547,
+  "background_training_observed_unix": 1793982401.1059704,
   "background_training_pid": null,
-  "background_training_status_note": "MMD sixfold failed closed; new full6 VREx native implementation frozen before checks, no UWB fitting or legacy singlefold activation.",
+  "background_training_status_note": "Before any checks/UWB fit: corrected copied inference arm labels and stale MMD manifest binding; method/seed/roles/budgets/gates unchanged. No fitting.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14830,5 +14830,29 @@
   "prior_MMD6_cost_not_reset": true,
   "confound_control_plan_fixed_before_any_fit": true,
   "next": "Exact preregistration then all6 native synthetic/schedule/RNG/role/stop checks and fixed generated capacity ratio; if passed, private untrained all6 roles rawallmember and actual exactrelease before one full6 main phase."
+}
+,
+  "vrex_loso6_metadata_amend_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_metadata_amend/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "pre_execution_metadata_repair": {
+    "state": "pre_execution_inference_metadata_copy_repair",
+    "prior_commit": "ed2956a6f1b1415897105aefad61fcad9abba7a5",
+    "old_inference_config_sha256": "c9ea0c49f0d3aef1b32942506f40828ee7c1f6e0efa7ab0f913d73c42356e53a",
+    "new_inference_config_sha256": "e15efa9e607d288af824a21644cb4c4e376780079e8b6bab86c0c3e16aa06789",
+    "old_manifest_sha256": "5ef07ee5a455b4eebfd956cba63799b04feabd0ebbf2ab3b68bf0af6c95c78d9",
+    "new_manifest_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+    "reason": "Copied prospective inference metadata retained MMD arm labels and MMD source manifest SHA; replaced with VREx labels and non-circular manifest registration binding before any checks or UWB fitting.",
+    "no_method_hyperparameter_metric_gate_budget_role_change": true,
+    "new_UWB_fit_started": false,
+    "previous_scientific_sources_unchanged": true
+  },
+  "native_checks_not_started": true,
+  "new_UWB_fit_started": false,
+  "old_singlefold_once_invoked": false,
+  "next": "Bind new exact amended manifest registration and run fixed all6 native tests plus single capacity ratio; no real fit until private initial and exact release."
 }
 }

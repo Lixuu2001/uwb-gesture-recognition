@@ -1,0 +1,12 @@
+{
+  "state": "pre_execution_inference_metadata_copy_repair",
+  "prior_commit": "ed2956a6f1b1415897105aefad61fcad9abba7a5",
+  "old_inference_config_sha256": "c9ea0c49f0d3aef1b32942506f40828ee7c1f6e0efa7ab0f913d73c42356e53a",
+  "new_inference_config_sha256": "e15efa9e607d288af824a21644cb4c4e376780079e8b6bab86c0c3e16aa06789",
+  "old_manifest_sha256": "5ef07ee5a455b4eebfd956cba63799b04feabd0ebbf2ab3b68bf0af6c95c78d9",
+  "new_manifest_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+  "reason": "Copied prospective inference metadata retained MMD arm labels and MMD source manifest SHA; replaced with VREx labels and non-circular manifest registration binding before any checks or UWB fitting.",
+  "no_method_hyperparameter_metric_gate_budget_role_change": true,
+  "new_UWB_fit_started": false,
+  "previous_scientific_sources_unchanged": true
+}
