@@ -1,0 +1,139 @@
+{
+  "state": "recovered_existing_GAP_held2_6_native_output_role_initialization_selection_compatibility_pass",
+  "folds": [
+    {
+      "held": 2,
+      "validation_user": 3,
+      "training_users": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "counts": {
+        "train": 4700,
+        "validation": 1200,
+        "diagnostic": 1000
+      },
+      "epochs": 64,
+      "selected_epoch": 43,
+      "checkpoint_sha256": "6b200b3fbdb0a5f5097f2f23681757fc2a25ae0c73b735821561d8f780a63966",
+      "prediction_sha256": "e513d56f657155038aa30e682b295441e74fe77ed86837605748f4daaa728440",
+      "initial_model_exact": true,
+      "role_IDs_exact": true,
+      "validation_only_selection_exact": true,
+      "logits_bitwise_equal": true,
+      "all_argmax_exact": true,
+      "max_logit_absolute_difference": 0.0,
+      "original_runtime": "2.15.0+cpu"
+    },
+    {
+      "held": 3,
+      "validation_user": 4,
+      "training_users": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "counts": {
+        "train": 4500,
+        "validation": 1200,
+        "diagnostic": 1200
+      },
+      "epochs": 64,
+      "selected_epoch": 14,
+      "checkpoint_sha256": "e50b9830440d082c9c79edd4d98cb048eff9259e1f01c0633dfc43de1598c801",
+      "prediction_sha256": "fe564c8bdd3a9a7a41feb3bf96f22e9db4afb1394d9dcdbb2aad372757a40df1",
+      "initial_model_exact": true,
+      "role_IDs_exact": true,
+      "validation_only_selection_exact": true,
+      "logits_bitwise_equal": true,
+      "all_argmax_exact": true,
+      "max_logit_absolute_difference": 0.0,
+      "original_runtime": "2.15.0+cpu"
+    },
+    {
+      "held": 4,
+      "validation_user": 5,
+      "training_users": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "counts": {
+        "train": 4500,
+        "validation": 1200,
+        "diagnostic": 1200
+      },
+      "epochs": 64,
+      "selected_epoch": 26,
+      "checkpoint_sha256": "fd075925063e20b6cb3dc31c74ef13b575de9264508299a007bfa28a30e2a90f",
+      "prediction_sha256": "f41b62ce2c19e9eb5b2770d2d5a7a8901c15ffbe6931c0c06c2e4ad92e5c93ba",
+      "initial_model_exact": true,
+      "role_IDs_exact": true,
+      "validation_only_selection_exact": true,
+      "logits_bitwise_equal": true,
+      "all_argmax_exact": true,
+      "max_logit_absolute_difference": 0.0,
+      "original_runtime": "2.15.0+cpu"
+    },
+    {
+      "held": 5,
+      "validation_user": 6,
+      "training_users": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "counts": {
+        "train": 4600,
+        "validation": 1100,
+        "diagnostic": 1200
+      },
+      "epochs": 64,
+      "selected_epoch": 46,
+      "checkpoint_sha256": "4aa9657592cc07594ce7419b72fb8077573b0e9f4fbc6f87c4e695d8262f37c5",
+      "prediction_sha256": "9fa5d7f8174ad7a98839cc8a5c4003bc18d019506573bdd82a12af747236fa72",
+      "initial_model_exact": true,
+      "role_IDs_exact": true,
+      "validation_only_selection_exact": true,
+      "logits_bitwise_equal": true,
+      "all_argmax_exact": true,
+      "max_logit_absolute_difference": 0.0,
+      "original_runtime": "2.15.0+cpu"
+    },
+    {
+      "held": 6,
+      "validation_user": 1,
+      "training_users": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "counts": {
+        "train": 4600,
+        "validation": 1200,
+        "diagnostic": 1100
+      },
+      "epochs": 64,
+      "selected_epoch": 38,
+      "checkpoint_sha256": "ab47f66f41972b905ddf6d73954a26e340184984da260ab2d7969cfbd5aed22d",
+      "prediction_sha256": "ff226e39fed0bb4f5ad91ce02eda2427fbda65f3a5b59f15d037d9035735e075",
+      "initial_model_exact": true,
+      "role_IDs_exact": true,
+      "validation_only_selection_exact": true,
+      "logits_bitwise_equal": true,
+      "all_argmax_exact": true,
+      "max_logit_absolute_difference": 0.0,
+      "original_runtime": "2.15.0+cpu"
+    }
+  ],
+  "current_torch": "2.15.0+cpu",
+  "no_held_truth_or_new_accuracy_computed": true,
+  "no_new_training_or_optimizer_updates": true,
+  "wall_seconds": 14.80180082298466
+}

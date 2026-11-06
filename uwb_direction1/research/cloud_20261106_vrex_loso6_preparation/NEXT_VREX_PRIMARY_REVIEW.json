@@ -1,0 +1,38 @@
+{
+  "state": "primary_REx_method_and_experiment_sections_reviewed_before_MMD_cohort_truth_pairing_no_VREx_activation",
+  "observed_unix": 1793980454.2527263,
+  "paper": {
+    "title": "Out-of-Distribution Generalization via Risk Extrapolation (REx)",
+    "authors": "Krueger et al.",
+    "venue": "ICML 2021, PMLR139:5815-5826",
+    "publication": "https://proceedings.mlr.press/v139/krueger21a.html",
+    "primary_pdf": "https://proceedings.mlr.press/v139/krueger21a/krueger21a.pdf",
+    "inspected_sections": [
+      "3.1 equation8 and beta interpretation on PDFpage5",
+      "3.2 limits of theory on page6",
+      "4.2 heteroskedasticity limitation and 4.3 DomainBed table3 on page8"
+    ]
+  },
+  "own_short_summary": "V-REx penalizes disagreement in source-domain predictive risks. The paper reports comparable ERM performance on DomainBed and sensitivity to irreducible risk differences; neither universal gains nor a causal guarantee for finite-domain deep networks follows. This motivates an empirical fixed transfer, not abstract rejection or an innovation claim.",
+  "executable_reference": {
+    "repository": "facebookresearch/DomainBed",
+    "commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+    "algorithms_sha256": "1e4a0353e2c6e42460a43d9cba0bc97e49fec0f5163a39c2c13cadc2ac50eaac",
+    "hparams_sha256": "6deec4fceaa98ceab95e89a18358868b1653e3382ca8444ba14eacb2d21b56ea",
+    "lambda_default": 10,
+    "penalty_weight_first500_completed_updates": 1,
+    "anneal_iters": 500,
+    "population_variance": true,
+    "equal_domain_risk_mean": true,
+    "optimizer_reset_exactly_once_at_completed_update500": true
+  },
+  "transfer_difference": "Primary paper equation8 displays a risk sum; pinned DomainBed implements a domain mean. Native UWB uses onehot12 BCE and AdamWLookahead, not a literal reproduction of the original image recipe. Equal-domain weighting and a full optimizer reset need registered controls before attributing a gain to variance.",
+  "historical_singlefold_package_preserved": true,
+  "old_singlefold_activation_not_invoked": true,
+  "new_UWB_fit_started": false,
+  "old_VREx_real_run_absent": true,
+  "MMD_cohort_accuracy_still_unknown": true,
+  "users7_8_labels_used": false,
+  "originality_claim": false,
+  "next_if_MMD_closed": "Create separate frozen complete six-user LOSO protocol and generic implementation, keeping published lambda10/500 and full617612 backbone; preregister domainmean/reset ablation and full sixfold costs/gates. Never use old held1 once/activation, never reject only because published."
+}

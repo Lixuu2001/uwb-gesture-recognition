@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_complete_once_scored_failed_closed_all6_decline_40_6258_vs_93_6672_pending_new_VREx6_implementation",
+  "state": "LOSO6_VREx_default10_500_implemented_preregistered_pending_native_checks_private_initial_release_no_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_result/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793981868.516235,
+  "background_training_observed_unix": 1793982264.8865547,
   "background_training_pid": null,
-  "background_training_status_note": "MMD all6 once evaluated after complete private freeze; mean40.6258% vsGAP93.6672%, -53.0414pp,0wins/6, fixedconfig closed. No real model process or new VREx fit yet.",
+  "background_training_status_note": "MMD sixfold failed closed; new full6 VREx native implementation frozen before checks, no UWB fitting or legacy singlefold activation.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14808,5 +14808,27 @@
     "pooled_sample_accuracy": 0.40753623188405796,
     "worst_user_macro_recall": 0.3145454545454545
   }
+}
+,
+  "vrex_loso6_preparation_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_preparation/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "configuration_fixed_before_MMD_cohort_score": true,
+  "scientific_files": 37,
+  "all_six_folds_planned": true,
+  "full64_plus_ownfresh64_each": true,
+  "baseline_reused_without_refit": true,
+  "old_singlefold_once_invoked": false,
+  "old_singlefold_VREx_activated": false,
+  "new_UWB_fit_started": false,
+  "native_checks_pending": true,
+  "private_initial_and_real_release_pending": true,
+  "main_wall_CPU_cap_seconds": 43200,
+  "prior_MMD6_cost_not_reset": true,
+  "confound_control_plan_fixed_before_any_fit": true,
+  "next": "Exact preregistration then all6 native synthetic/schedule/RNG/role/stop checks and fixed generated capacity ratio; if passed, private untrained all6 roles rawallmember and actual exactrelease before one full6 main phase."
 }
 }

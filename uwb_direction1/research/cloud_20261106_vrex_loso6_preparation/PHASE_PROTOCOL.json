@@ -1,0 +1,61 @@
+{
+  "state": "new_full_sixfold_frozen_VREx_defaults_before_real_fit",
+  "new_held_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "fold_configs": {
+    "1": "folds/held1/PROTOCOL.json",
+    "2": "folds/held2/PROTOCOL.json",
+    "3": "folds/held3/PROTOCOL.json",
+    "4": "folds/held4/PROTOCOL.json",
+    "5": "folds/held5/PROTOCOL.json",
+    "6": "folds/held6/PROTOCOL.json"
+  },
+  "all6_producer64_plus_fresh64": true,
+  "model_initialization_matched_to_GAP": true,
+  "engine_identical_to_pinned_previous_VREx_component": true,
+  "engine_sha256": "17be97571844dd032907d9f9760a621c098793c8994c3aa4167fc60c881b3d28",
+  "singlefold_entry_gate": false,
+  "source1_old_once_must_not_run": true,
+  "old_VREx_singlefold_package_must_not_run": true,
+  "wall_CPU_cap_seconds": 43200,
+  "RSS_KiB_cap": 12582912,
+  "prior_MMD_full_cost_retained": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "prior_MMD_new5_cost_retained": {
+    "completed_folds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 25871.707664422996,
+    "diagnostic_labels_read": false,
+    "reused_fold": 1,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 25842.86576866801
+  },
+  "resource_gate_formula": "Before fitting: 1.25 * measured MMD6 cost * max(1, fixed VREx/native synthetic cost ratio) +600 <=43200; otherwise record concrete execution budget limitation, no real start",
+  "production_auto_retry": false,
+  "stop_policy": "Verified PID/boot/startticks; stop all owned separate-session descendants; preserve all failed-state evidence and charge unknown CPU conservatively",
+  "all6_private_models_outputs_and_audits_before_one_joint_score": true,
+  "joint_domainmean_reset_zero_variance_control": {
+    "name": "equal_domain_BCE_with_identical_full_native_optimizer_reset500_and_no_variance",
+    "variance_weight_before_and_after_anneal": 0.0,
+    "same_initialization_roles_optimizer_reset_batch_epochs_seed": true,
+    "all6_production64_and_native_first_last_selected_output_audits": true,
+    "plan_fixed_before_any_method_or_control_fit": true,
+    "execute_if": "Only if complete VREx primary6 clears its frozen spending gate against GAP; before attributing any gain to variance or planning8confirmation",
+    "interpretation": "VREx versus GAP can include domain weighting/reset effects; variance attribution additionally requires mean VREx strictly greater than this matched joint control. No separate weighting/reset attribution or novelty claim.",
+    "separate_control_phase_wall_CPU_cap_seconds": 36000,
+    "control_cost_always_added_to_total": true
+  }
+}
