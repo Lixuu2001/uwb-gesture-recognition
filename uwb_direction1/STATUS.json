@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_GAP_baseline_all6_reusable_remaining_MMD_fivefold30_implemented_pending_native_private_release",
+  "state": "LOSO6_remaining_MMD30_all5_native_safety_passed_pending_private_initial_exactrelease",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_validation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793950744.636902,
+  "background_training_observed_unix": 1793951158.9923246,
   "background_training_pid": null,
-  "background_training_status_note": "Existing GAP held2..6 recovered/raw/allmember/nativeblind BITWISE exact; no refit. Remaining MMD fivefold30 code preregister then native tests/privateinitial/exactrelease before ONEcontroller. Reuse unscored complete held1; no old once/singlefold gate/VREx.",
+  "background_training_status_note": "All5 generic MMD native/pinned/recovery tests and toy stop pass; only initial archive scope bookkeeping repaired before build or fit. Bind repaired freeze, privateinitial/all5roles/raw/everymember, exactrelease then ONEremaining-fivefold controller. No new training yet; held1 reused unscored.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14308,5 +14308,26 @@
   "original_MMD_singlefold_once_not_invoked": true,
   "synthetic_executed": false,
   "private_initial_verified": false
+}
+,
+  "mmd_loso6_validation_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_validation/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "scientific_files": 30,
+  "frozen_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+  "baseline_five_model_archives_raw_allmember_recovered": true,
+  "baseline_all5_native_logits_bitwise_exact": true,
+  "baseline_new_fit": false,
+  "new_remaining_MMD_training_started": false,
+  "held1_reused_unscored": true,
+  "original_MMD_singlefold_once_not_invoked": true,
+  "synthetic_executed": true,
+  "private_initial_verified": false,
+  "all5_synthetic_passed": true,
+  "safety_stop_passed": true,
+  "initial_archive_scope_repaired": true
 }
 }

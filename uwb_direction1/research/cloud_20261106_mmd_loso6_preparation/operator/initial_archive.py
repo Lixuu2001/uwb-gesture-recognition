@@ -31,6 +31,8 @@ def create():
     write(P/'INITIAL_ASSET.json',q);files['phase/INITIAL_ASSET.json']=P/'INITIAL_ASSET.json'
     for src in (P/'operator').glob('*.py'):files['operator/'+src.name]=src
     result=build(P/'initial_backup','mmd_loso6_initial_20261106',files,'fixed_remaining_five_MMD_LOSO_initial_state_and_all_roles_before_any_new_fit',chunk_size=7340032,limit=67108864)
+    result.update(state='untrained_initial_native_state_roles_sources_streamed',complete_modelset=False,complete_initial_model=True,complete_training_modelset=False)
+    write(P/'initial_backup/MANIFEST.json',result)
     return result
 def check():
     d=P/'initial_backup';m=read(d/'MANIFEST.json');rows=[read(d/f'READBACK_{i:03}.json') for i in range(len(m['chunks']))]

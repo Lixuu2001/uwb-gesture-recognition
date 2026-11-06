@@ -1,0 +1,16 @@
+{
+  "state": "pre_fit_initial_archive_scope_bookkeeping_repaired_before_archive_build_or_upload",
+  "cause": "shared stream_archive.build defaults complete_modelset=true; initial helper must explicitly mark untrained state, not complete trained modelset",
+  "only_changed_source": "operator/initial_archive.py",
+  "before_source_sha256": "ad4e06b93c96eca0817cd4fdbc014f3166e10fbed1c9e416ba8fe80e02556c4c",
+  "after_source_sha256": "6b716b020cdcba0fc7a5ebf7b938e3e5407883dc91a25717cca623ac6b527d73",
+  "before_manifest_sha256": "f042280502902f489442336e385d6d146999dcefa8c8b37f43f2dfdd81a77ab8",
+  "after_manifest_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+  "original_preregistration": "bf8e07e473fc8267230a695edb62da64bdbb26b6",
+  "all_other29_files_unchanged": true,
+  "engine_configuration_seed_roles_budget_gate_unchanged": true,
+  "all5_native_synthetic_tests_already_passed": true,
+  "initial_archive_not_previously_built": true,
+  "no_new_UWB_fits": true,
+  "no_new_accuracy_computed": true
+}
