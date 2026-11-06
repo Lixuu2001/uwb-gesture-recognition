@@ -1,0 +1,15 @@
+{
+  "state": "fixed_metadata_publication_payload_root_before_any_remote_write",
+  "fault": "Copied launch publisher referenced study root but completion payloads live in completion metadata directory; first missing PILOT_AUDIT.json failed before authorities/staged files changed",
+  "first_prepare_exit_code": 1,
+  "dependent_append_exit_code": 1,
+  "no_remote_commit_created": true,
+  "no_scientific_or_model_source_changed": true,
+  "no_fit_restart_or_rescore": true,
+  "source_before_sha256": "621e4625ff7cd66f73aeec549adaa5564526d03a80a7b45726d8fa22d257408f",
+  "source_after_sha256": "87a758a99343bddc8f31f026c669d7594da4af2ab62ac7808a413ace4f4079da",
+  "source_root": "/workspace/uwb-sd-gap-final-meta-20261105",
+  "second_prepare_exit_code": 1,
+  "second_fault": "Empty result directory retained by first pre-copy mkdir; removed only after explicit emptiness assertion",
+  "empty_directory_removed_only": true
+}
