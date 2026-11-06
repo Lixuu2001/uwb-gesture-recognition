@@ -1,0 +1,158 @@
+{
+  "RSS_KiB_cap": 12582912,
+  "VREx_native_ratio": 1.0140778915546569,
+  "batch": 64,
+  "epochs": 64,
+  "formula": "1.25*30891.040083422995*max(1,ratio)+600 <=43200",
+  "gate_passed": true,
+  "maxRSS_KiB": 583088,
+  "model_wall_and_CPU_cap_seconds": 43200,
+  "new_UWB_fit_started": false,
+  "no_UWB_arrays_or_labels_opened": true,
+  "no_resource_rescue_grid": true,
+  "parameters": 617612,
+  "profile_CPU": 10.020246343,
+  "profile_wall": 10.020627474994399,
+  "reserve_seconds": 39757.400994659976,
+  "rows": [
+    {
+      "arm": "native",
+      "cpu": 0.7058378330000004,
+      "step": 0,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.7058558800199535
+    },
+    {
+      "arm": "native",
+      "cpu": 0.539050376,
+      "step": 1,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5390812650148291
+    },
+    {
+      "arm": "native",
+      "cpu": 0.5316437330000001,
+      "step": 2,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.531643858004827
+    },
+    {
+      "arm": "native",
+      "cpu": 0.5385184810000001,
+      "step": 3,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5385352210141718
+    },
+    {
+      "arm": "native",
+      "cpu": 0.568248123,
+      "step": 4,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5682803250092547
+    },
+    {
+      "arm": "native",
+      "cpu": 0.5151573960000002,
+      "step": 5,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5151754469843581
+    },
+    {
+      "arm": "native",
+      "cpu": 0.5281008570000001,
+      "step": 6,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5281073359947186
+    },
+    {
+      "arm": "native",
+      "cpu": 0.5153261960000002,
+      "step": 7,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.515333963005105
+    },
+    {
+      "arm": "native",
+      "cpu": 0.5219900729999996,
+      "step": 8,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5219987290038262
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.5333621519999996,
+      "step": 0,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5333718490146566
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.6504321109999998,
+      "step": 1,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.6504486729972996
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.5616938810000001,
+      "step": 2,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5616928149829619
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.5770009690000002,
+      "step": 3,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5770335179986432
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.6013008769999999,
+      "step": 4,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.6012999310041778
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.5437082540000002,
+      "step": 5,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5437752720026765
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.5059480250000004,
+      "step": 6,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5059470669948496
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.5063850940000005,
+      "step": 7,
+      "synthetic_counter_fixture500": false,
+      "wall": 0.5064503860194236
+    },
+    {
+      "arm": "VREx",
+      "cpu": 0.5538759290000002,
+      "step": 8,
+      "synthetic_counter_fixture500": true,
+      "wall": 0.5538753359869588
+    }
+  ],
+  "seed": 20261029,
+  "state": "fixed_synthetic_native_ratio_plus_actual_whole_MMD6_cost_gate",
+  "sums": {
+    "VREx": {
+      "cpu": 5.033707292000001,
+      "wall": 5.033894847001648
+    },
+    "native": {
+      "cpu": 4.963873068000001,
+      "wall": 4.964012024051044
+    }
+  },
+  "synthetic_fixture_is_not_500_real_updates": true
+}

@@ -1,0 +1,156 @@
+{
+  "all_passed": true,
+  "new_UWB_fit_started": false,
+  "no_UWB_arrays_or_labels_opened": true,
+  "perfold": [
+    {
+      "held": 1,
+      "result": {
+        "checks": {
+          "actual_small_optimizer_501_updates_restore_500_boundary": true,
+          "full617612_native_BN_optimizer_allRNG_slow6_disk7_eval_tail28": true,
+          "independent_analytic_gradient_gradcheck_singletons_domainmean": true,
+          "pinned_class_defaults_schedule_and_Adam_reset": true
+        },
+        "new_UWB_fit_started": false,
+        "no_UWB_arrays_or_labels_opened": true,
+        "state": "pass",
+        "users7_8_labels_used": false,
+        "wall_seconds": 2.088855453999713
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.505202527012443
+      }
+    },
+    {
+      "held": 2,
+      "result": {
+        "checks": {
+          "actual_small_optimizer_501_updates_restore_500_boundary": true,
+          "full617612_native_BN_optimizer_allRNG_slow6_disk7_eval_tail28": true,
+          "independent_analytic_gradient_gradcheck_singletons_domainmean": true,
+          "pinned_class_defaults_schedule_and_Adam_reset": true
+        },
+        "new_UWB_fit_started": false,
+        "no_UWB_arrays_or_labels_opened": true,
+        "state": "pass",
+        "users7_8_labels_used": false,
+        "wall_seconds": 2.0519144329882693
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.50813901697984
+      }
+    },
+    {
+      "held": 3,
+      "result": {
+        "checks": {
+          "actual_small_optimizer_501_updates_restore_500_boundary": true,
+          "full617612_native_BN_optimizer_allRNG_slow6_disk7_eval_tail28": true,
+          "independent_analytic_gradient_gradcheck_singletons_domainmean": true,
+          "pinned_class_defaults_schedule_and_Adam_reset": true
+        },
+        "new_UWB_fit_started": false,
+        "no_UWB_arrays_or_labels_opened": true,
+        "state": "pass",
+        "users7_8_labels_used": false,
+        "wall_seconds": 1.7776126719836611
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.00605418899795
+      }
+    },
+    {
+      "held": 4,
+      "result": {
+        "checks": {
+          "actual_small_optimizer_501_updates_restore_500_boundary": true,
+          "full617612_native_BN_optimizer_allRNG_slow6_disk7_eval_tail28": true,
+          "independent_analytic_gradient_gradcheck_singletons_domainmean": true,
+          "pinned_class_defaults_schedule_and_Adam_reset": true
+        },
+        "new_UWB_fit_started": false,
+        "no_UWB_arrays_or_labels_opened": true,
+        "state": "pass",
+        "users7_8_labels_used": false,
+        "wall_seconds": 1.9979311639908701
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.50928325401037
+      }
+    },
+    {
+      "held": 5,
+      "result": {
+        "checks": {
+          "actual_small_optimizer_501_updates_restore_500_boundary": true,
+          "full617612_native_BN_optimizer_allRNG_slow6_disk7_eval_tail28": true,
+          "independent_analytic_gradient_gradcheck_singletons_domainmean": true,
+          "pinned_class_defaults_schedule_and_Adam_reset": true
+        },
+        "new_UWB_fit_started": false,
+        "no_UWB_arrays_or_labels_opened": true,
+        "state": "pass",
+        "users7_8_labels_used": false,
+        "wall_seconds": 2.180740201001754
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.50676976700197
+      }
+    },
+    {
+      "held": 6,
+      "result": {
+        "checks": {
+          "actual_small_optimizer_501_updates_restore_500_boundary": true,
+          "full617612_native_BN_optimizer_allRNG_slow6_disk7_eval_tail28": true,
+          "independent_analytic_gradient_gradcheck_singletons_domainmean": true,
+          "pinned_class_defaults_schedule_and_Adam_reset": true
+        },
+        "new_UWB_fit_started": false,
+        "no_UWB_arrays_or_labels_opened": true,
+        "state": "pass",
+        "users7_8_labels_used": false,
+        "wall_seconds": 2.22776511599659
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.51396601300803
+      }
+    }
+  ],
+  "resource_gate_passed": true,
+  "role_metric_checks": {
+    "absent_class_prediction_counted_wrong": true,
+    "equal_user_mean_vs_sample_weighted_pool_distinguished": true,
+    "missing_class_recall_null": true,
+    "new_fit_started": false,
+    "paired_subject_count_and_class_support_equal": true,
+    "state": "pass",
+    "synthetic_role_disjointness_all6": true,
+    "unbalanced_accuracy_vs_macro_distinguished": true
+  },
+  "safety": {
+    "no_UWB_arrays_or_training": true,
+    "state": "pass",
+    "toy_controller_worker_first_auditor_separate_sessions_all_stopped": true
+  },
+  "wall": 46.67555708097643
+}
