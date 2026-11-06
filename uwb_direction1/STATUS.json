@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_held3_full64_replay_native_complete_private_verified_phase_continues_held4_unscored",
+  "state": "LOSO6_MMD_held4_full64_replay_native_complete_private_verified_phase_continues_held5_unscored_inference_cost_preregistered",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_held3complete/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_held4complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793963918.183844,
+  "background_training_observed_unix": 1793968329.8463988,
   "background_training_pid": 50654,
-  "background_training_status_note": "Original MMD phase50654 continues held4/model53781 after complete held3 full64+ownfresh64/allnative exact and private13part400payload backup; held1 reused untouched/allcohort unscored; no new launch/restart.",
+  "background_training_status_note": "Original phase50654/model55441 continues held5 after complete held4 full64+ownfresh64/allnative exact and private13part400payload backup; auxiliary label-free inference cost protocol frozen/active-phase guard passed only, no timing/score/new fit.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14512,6 +14512,69 @@
     "scope": "whole_archive_decompression_and_all400members_hash_verification_after_all13_remote_raw_downloads",
     "wall_seconds": 0.7781126649933867,
     "CPU_seconds": 0.775350446,
+    "not_included_in_model_training_or_fresh_replay_cost": true
+  }
+}
+,
+  "mmd_loso6_held4complete_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_held4complete/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "completed_new_folds": [
+    2,
+    3,
+    4
+  ],
+  "reused_held1_unscored": true,
+  "held4_updates": 4544,
+  "held4_full_fresh_replay": true,
+  "held4_all65_epoch_and4544_step_records_exact": true,
+  "held4_private_complete_parts": 13,
+  "held4_private_complete_payloads": 400,
+  "held4_private_complete_archive_sha256": "57e3f4710f02660d5094770b4bf023825954c8227d52cd54645ed3fa09ec5e8b",
+  "complete_sixfold_cohort": false,
+  "actual_phase_pid": 50654,
+  "active_held": 5,
+  "active_model_pid": 55441,
+  "held5_native_first_exact": true,
+  "held4_fold_cost": {
+    "wall": 5039.722969830997,
+    "cpu": 5036.409323999999
+  },
+  "held4_incremental_stage_costs": {
+    "output": {
+      "cpu": 11.229415999999219,
+      "wall": 12.0334055480198
+    },
+    "replay": {
+      "cpu": 2513.228968,
+      "wall": 2514.102925382991
+    },
+    "train": {
+      "cpu": 2511.95094,
+      "wall": 2513.5853957709915
+    }
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "new_diagnostic_scores_computed": false,
+  "old_singlefold_once_invoked": false,
+  "VREx_activated": false,
+  "private_transfer_internal_error_recovered_by_one_absence_guarded_retry": true,
+  "all_frozen_scientific30_and_native49_unchanged": true,
+  "auxiliary_inference_cost_protocol_implemented_and_guard_passed_only": true,
+  "inference_frozen_sha256": "5f05da91f9b930226788f5fb06b217a1f9d856c4d2c858b2c282a9385080b4b2",
+  "inference_not_executed": true,
+  "inference_cost_limit_seconds": 300,
+  "next": "Continue original held5..6; all6 frozen/fullprivate composite/exact FULL_PRIVATE_RELEASE before label-free registered inference costs and ONLY cohort once. No test feedback/relaunch/old singlefold scorer.",
+  "backup_allmember_verification_cost": {
+    "scope": "whole_archive_decompression_and_all400members_hash_verification_after_all13_remote_raw_downloads",
+    "wall_seconds": 0.8073483110056259,
+    "CPU_seconds": 0.804668922,
     "not_included_in_model_training_or_fresh_replay_cost": true
   }
 }
