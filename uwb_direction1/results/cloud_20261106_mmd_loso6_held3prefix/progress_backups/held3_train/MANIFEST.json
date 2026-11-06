@@ -1,0 +1,42 @@
+{
+  "archive_bytes": 26384206,
+  "archive_sha256": "81e0e76491721bf525b0bfd33a0167ba166670339aef1ae1f4d67b97d446c59c",
+  "checkpoint_epoch": 52,
+  "checkpoint_updates": 3692,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "name": "mmd_loso6_progress_held3_train_20261106.part000",
+      "sha256": "e42d71279080ac33c7c251e86e290c8a0c87ed2e4550ff328f0190640d285db2"
+    },
+    {
+      "bytes": 7340032,
+      "name": "mmd_loso6_progress_held3_train_20261106.part001",
+      "sha256": "d551442ca89c6eadd2bdfdb0bd03e02953a34b8b046883438922187118151771"
+    },
+    {
+      "bytes": 7340032,
+      "name": "mmd_loso6_progress_held3_train_20261106.part002",
+      "sha256": "a2b51d23b9a2b955df24889f4ac15f8fcbdea7a6b23d124c8757f74e1be96aa7"
+    },
+    {
+      "bytes": 4364110,
+      "name": "mmd_loso6_progress_held3_train_20261106.part003",
+      "sha256": "e2f4aa3aecb8c26ccefd4b4c6dfc2489d0466907933ab64f61a03f2bc20e9b66"
+    }
+  ],
+  "complete_fold_training": false,
+  "complete_modelset": false,
+  "complete_sixfold_cohort": false,
+  "held": 3,
+  "members_manifest_sha256": "407a66fd8a8c31debc808dcfb91f1dc0b188e7dd0790cac2cfaa20e45b37a9b7",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "scope": "incomplete_committed_training_prefix_only_no_complete_fold_or_sixfold_cohort",
+  "snapshot_and_build_CPU": 3.2565995930000002,
+  "snapshot_and_build_wall": 3.2587684619938955,
+  "stage": "train",
+  "state": "partial_committed_native_checkpoint_and_exact_prefix_streamed",
+  "tracked_payload_files": 201,
+  "whole_job_resume": false
+}

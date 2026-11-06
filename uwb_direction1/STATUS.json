@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_held2_full64_replay_native_complete_private_verified_phase_continues_held3_unscored",
+  "state": "LOSO6_MMD_held3_training_original_phase_live_epoch52_native_prefix_private_verified_all_cohort_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_held2complete/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_held3prefix/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793957248.9110262,
+  "background_training_observed_unix": 1793959179.340076,
   "background_training_pid": 50654,
-  "background_training_status_note": "Original MMD phase50654 continues held3/model51888 after full held2 64+64/allnative exact and private13part400payload backup; held1 and full cohort unscored, no duplicate/restart.",
+  "background_training_status_note": "Original phase50654/model51888 continues held3, observed57/64; native epoch52/3692update checkpoint/journal/step prefix protected private4parts201payload; no new fit/replay/scoring, all frozen sources unchanged.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14426,5 +14426,34 @@
     "CPU_seconds": 0.776321963,
     "not_included_in_model_training_or_fresh_replay_cost": true
   }
+}
+,
+  "mmd_loso6_held3prefix_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_held3prefix/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "actual_phase_pid": 50654,
+  "actual_model_pid": 51888,
+  "active_held": 3,
+  "observed_train_epoch": 57,
+  "observed_train_updates": 4047,
+  "private_committed_epoch": 52,
+  "private_committed_updates": 3692,
+  "private_partial_checkpoint_parts": 4,
+  "private_partial_checkpoint_payloads": 201,
+  "partial_checkpoint_archive_sha256": "81e0e76491721bf525b0bfd33a0167ba166670339aef1ae1f4d67b97d446c59c",
+  "complete_fold_or_sixfold_modelset": false,
+  "new_fit_or_replay_started_this_continuation": false,
+  "old_singlefold_once_invoked": false,
+  "VREx_activated": false,
+  "all_frozen_scientific_files_unchanged": true,
+  "no_new_diagnostic_score": true,
+  "native_checkpoint_and_all_committed_journal_prefix_verified": true,
+  "snapshot_build_cost_wall": 3.2587684619938955,
+  "snapshot_build_cost_CPU": 3.2565995930000002,
+  "operational_wrapper_preexecution_syntax_fault_fixed": true,
+  "next": "Monitor existing phase, no duplicate. Finish all6 and fullprivate composite before ONLY cohort once. Partial backup does not authorize standalone resume."
 }
 }

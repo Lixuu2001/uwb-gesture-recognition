@@ -1,0 +1,39 @@
+{
+  "all_step_indices_verified": true,
+  "automatic_resume_authorized": false,
+  "checkpoint_sha256": "b320e2ea22b3bc0fb4fa989a03611fd2b54f25b23c667a7a655897179f28d4d1",
+  "complete_fold_training": false,
+  "complete_sixfold_cohort": false,
+  "diagnostic_labels_read": false,
+  "epoch": 52,
+  "frozen_scientific_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+  "held": 3,
+  "journal_chain_verified": true,
+  "native_first_update_exact": true,
+  "native_state_sha256": "447f89f17161267e2efeee59f4bd517b298f6f0cc024b646c15ef81f13593777",
+  "new_fitting_or_inference_started": false,
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 9.72,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "S"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1714792,
+    "active_held": 3,
+    "completed_folds": [
+      2
+    ],
+    "cpu": 7354.939854016,
+    "fold_stage": "train",
+    "prior_reused_fold1_cpu": 5019.332418999999,
+    "prior_reused_fold1_wall": 5022.569200421014,
+    "wall": 7347.068344877014
+  },
+  "stage": "train",
+  "state": "immutable_committed_native_state_full_optimizer_allRNG_journal_and_step_prefix_verified_while_original_worker_runs",
+  "step_prefix_sha256": "08bb77c85e7da281e33897b2fab555d0f7a9df4a95fb94d7c781c0af5148a278",
+  "updates": 3692,
+  "users7_8_labels_used": false
+}

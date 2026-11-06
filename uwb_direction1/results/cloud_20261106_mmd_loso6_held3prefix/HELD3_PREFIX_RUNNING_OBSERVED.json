@@ -1,0 +1,93 @@
+{
+  "VREx_activated": false,
+  "full_cohort_unscored": true,
+  "held1_original_unscored_unchanged": true,
+  "held2_remains_complete_private": {
+    "archive_members": 401,
+    "archive_sha256": "8075136c376743531528ad90d002da4b79568a5dacdba4d601ba997500b82c45",
+    "chunks_verified": 13,
+    "complete_modelset_verified": true,
+    "scope": "complete_native_unscored_MMD_held2_only_not_complete_sixfold_cohort",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 400
+  },
+  "live_train_state": {
+    "diagnostic_labels_read": false,
+    "epoch": 57,
+    "selected_epoch": 2,
+    "state": "training",
+    "updates": 4047,
+    "users7_8_labels_used": false
+  },
+  "model": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2234.7,
+    "pid": 51888,
+    "startticks": 18746327,
+    "state": "R"
+  },
+  "new_fit_or_replay_launched_this_continuation": false,
+  "observed_unix": 1793959129.912386,
+  "old_singlefold_once_invoked": false,
+  "original_scientific_manifest_unchanged": true,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 9.88,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "S"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1679636,
+    "active_held": 3,
+    "completed_folds": [
+      2
+    ],
+    "cpu": 7521.486402193,
+    "fold_stage": "train",
+    "prior_reused_fold1_cpu": 5019.332418999999,
+    "prior_reused_fold1_wall": 5022.569200421014,
+    "wall": 7513.410457841004
+  },
+  "snapshot_proof": {
+    "all_step_indices_verified": true,
+    "automatic_resume_authorized": false,
+    "checkpoint_sha256": "b320e2ea22b3bc0fb4fa989a03611fd2b54f25b23c667a7a655897179f28d4d1",
+    "complete_fold_training": false,
+    "complete_sixfold_cohort": false,
+    "diagnostic_labels_read": false,
+    "epoch": 52,
+    "frozen_scientific_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+    "held": 3,
+    "journal_chain_verified": true,
+    "native_first_update_exact": true,
+    "native_state_sha256": "447f89f17161267e2efeee59f4bd517b298f6f0cc024b646c15ef81f13593777",
+    "new_fitting_or_inference_started": false,
+    "phase_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 9.72,
+      "pid": 50654,
+      "startticks": 18218982,
+      "state": "S"
+    },
+    "resource_ledger": {
+      "RSS_KiB": 1714792,
+      "active_held": 3,
+      "completed_folds": [
+        2
+      ],
+      "cpu": 7354.939854016,
+      "fold_stage": "train",
+      "prior_reused_fold1_cpu": 5019.332418999999,
+      "prior_reused_fold1_wall": 5022.569200421014,
+      "wall": 7347.068344877014
+    },
+    "stage": "train",
+    "state": "immutable_committed_native_state_full_optimizer_allRNG_journal_and_step_prefix_verified_while_original_worker_runs",
+    "step_prefix_sha256": "08bb77c85e7da281e33897b2fab555d0f7a9df4a95fb94d7c781c0af5148a278",
+    "updates": 3692,
+    "users7_8_labels_used": false
+  },
+  "state": "original_phase_continues_held3_with_new_readonly_committed_prefix_private_protection_no_new_fit_or_score",
+  "users7_8_labels_used": false
+}

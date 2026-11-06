@@ -1,0 +1,10 @@
+{
+  "state": "new_operational_checkpoint_wrapper_syntax_fixed_before_any_execution_or_archive",
+  "cause": "Unmatched trailing parenthesis in CLI entry point caught at compile, no code executed",
+  "fix": "Remove one trailing parenthesis and compile before actual read-only snapshot",
+  "before_sha256": "592254ae742e8ce500bc00dffc541f5eecba1483fb6c192422313c98d341c1b4",
+  "after_sha256": "ee90b68052482414c361e8dba38b1d1d86fc4b48d02ae6aeb1a9e210ac360644",
+  "training_interrupted": false,
+  "new_fit_or_replay": false,
+  "frozen_scientific_source_changed": false
+}
