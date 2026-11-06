@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_held1_2_full_replay_private_complete_held3_producer248_rawverified_original64529_replay_unscored",
+  "state": "LOSO6_VREx_held1_2_3_full64_ownfresh64_native_private_complete_original64529_held4_active_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_held2complete_held3producer/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_held3complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793996917.7105558,
+  "background_training_observed_unix": 1794001361.9837613,
   "background_training_pid": 64529,
-  "background_training_status_note": "Original64529 active held3/replay epoch13; held2full64+fresh64+native/private13parts406 verified, held3producer64/private8parts248 verified after one guarded transport recovery. No scores/duplicates.",
+  "background_training_status_note": "Original64529 active held4/train epoch63; fullheld3 64+ownfresh64/native/private13parts406 verified. Completedroles1..3 and validation-selection rule independently checked without heldtruth; no scores or duplicates.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -15655,5 +15655,137 @@
   "new_test_scores_computed": false,
   "prior_costs_retained": true,
   "next": "Observe/reuse64529 currentheld3 ownfresh64; no duplicate producers/controllers. Complete all6 native/fullprivate/exactrelease then one cohort score; joint confound control if effective."
+}
+,
+  "vrex_loso6_held3complete_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_held3complete/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "completed_full_folds": [
+    1,
+    2,
+    3
+  ],
+  "held3_full64_ownfresh64_native_complete": true,
+  "held3_complete_private_parts": 13,
+  "held3_complete_private_payloads": 406,
+  "held3_complete_single_fold": true,
+  "held3_complete_modelset_verified": true,
+  "complete_sixfold_cohort": false,
+  "completed_roles_and_ID_firewall_independently_checked": [
+    1,
+    2,
+    3
+  ],
+  "validation_selection_intent_independently_recomputed": [
+    1,
+    2,
+    3
+  ],
+  "actual_phase_observation": {
+    "all6_declared_phase_not_sixfold_completed": true,
+    "committed_progress": {
+      "checkpoint_sha256": "6daa6065221c6c29f81202063f427d9f47e13a53bd46b3c6c6bb15e4cc54fdf2",
+      "epoch": 63,
+      "journal_sha256": "5ff9cf9e999a2cc366d7bf67dc246438fded1c0c34e86b36df96edd3e3244c39",
+      "prefix_bytes": 3337903,
+      "prefix_sha256": "f1646f62ebd952d4c6a5ecddb432a1b3ade16ef5ad21adbe590a539eda3f4b09",
+      "slot": "slot1.pt",
+      "updates": 4473
+    },
+    "controller": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 4.92,
+        "pid": 71604,
+        "startticks": 22937893,
+        "state": "S"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.39,
+        "pid": 71604,
+        "startticks": 22937893,
+        "state": "R"
+      }
+    },
+    "current_held": 4,
+    "diagnostic_labels_read": false,
+    "first_partial_backup_is_not_complete_modelset": true,
+    "native_first_release": {
+      "diagnostic_labels_read": false,
+      "first_sha256": "113fbc2f922182b056605c098a2d8d75ca58a9b9323c4582b5a89b51394b0271",
+      "native_first_update_exact": true,
+      "state_sha256": "1cb88b94fdc8080a669217681411b16f34915092a213ad30e5ae42737a7578b0"
+    },
+    "new_real_release": {
+      "branch_head_verified": true,
+      "commit": "eaa1653059b44882a1dcd1014a622396d81b671b",
+      "configuration_fixed_before_complete_MMD_score": true,
+      "force": false,
+      "frozen_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+      "initial_archive_sha256": "5cab4eb2ee2fafa400ecf37381d7e7fe138e2d5a7f5c5f2e794212c3bd9bfa9a",
+      "initial_model_file_sha256": "b2e5e8cc4edda7a20f05b03a47291bc5774ed456de3cfa5c0715dd1dc8513156",
+      "main_all_six_wall_CPU_cap_seconds": 43200
+    },
+    "new_training_actually_started": true,
+    "observed_unix": 1794001282.6364791,
+    "old_MMD_source1_once_invoked": false,
+    "old_VREx_singlefold_activated": false,
+    "phase_actual_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 20.42,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "S"
+    },
+    "phase_original_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.57,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "R"
+    },
+    "resource_ledger": {
+      "RSS_KiB": 1731068,
+      "active_held": 4,
+      "completed_folds": [
+        1,
+        2,
+        3
+      ],
+      "cpu": 18561.346996801,
+      "fold_stage": "train",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "wall": 18540.439116614987
+    },
+    "scientific_sources_unchanged": true,
+    "stage": "train",
+    "state": "one_actual_full_sixfold_VREx_phase_running_unscored",
+    "users7_8_labels_used": false,
+    "worker": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2467.51,
+        "pid": 71605,
+        "startticks": 22938133,
+        "state": "R"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 0.0,
+        "pid": 71605,
+        "startticks": 22938133,
+        "state": "R"
+      }
+    }
+  },
+  "new_test_scores_computed": false,
+  "original_phase_not_restarted": true,
+  "prior_costs_retained": true,
+  "next": "Observe/reuse64529 currentheld4; never refit completed1..3 or use singlefold gate. Complete all6 native/fullprivate/exactrelease then registered inference+cohortonce, with planned matched confound controls if effective."
 }
 }
