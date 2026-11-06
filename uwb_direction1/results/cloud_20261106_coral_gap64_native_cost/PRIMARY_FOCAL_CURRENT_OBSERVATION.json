@@ -1,0 +1,64 @@
+{
+  "budget_reset": false,
+  "complete_modelset_verified": false,
+  "controller": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 5.54,
+    "pid": 37560,
+    "startticks": 15590697,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "new_model_started_or_prior_restart": false,
+  "observed_unix": 1793928821.961519,
+  "private_insurance_verified_payloads": 301,
+  "producer_actual_exit": {
+    "cumulative": {
+      "cpu": 2519.82705,
+      "wall": 2520.081765729992
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "producer_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "d1fe4ee04cc24c7633e0cfaeae2a08bda1622ea6fad905273ca541ee7c525eb4",
+    "epochs": 64,
+    "final_state_sha256": "c8a1f1162812e04ace6717517f88fec8b31c0c87780b424e777199c906fce0b7",
+    "selected_epoch": 33,
+    "selected_sha256": "13f557244388458ec39b37fe7e9fb2bcec5180a3f5a14b67f3a002d01fa53869",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "8cfb7d030fe4817246ab63e45e1432a870099b2bf26b687a107208c9d9daf0e6"
+  },
+  "replay_committed_epoch_and_steps_equal_producer": true,
+  "replay_native_optimizer_allRNG_restore_recapture_exact": true,
+  "replay_progress": {
+    "checkpoint_sha256": "b79e1abe0861d9d7b65c47287187188950178e65f55b1d206d21c33a000a5511",
+    "epoch": 24,
+    "journal_sha256": "392ecd088ef6e1d3c5e8084aad6bc950d3dd367a4fb1fc3c7d405a1b29153fc3",
+    "prefix_bytes": 755772,
+    "prefix_sha256": "b348651eb390c5c87fb527714d5aabdff9e2a3d22a1cbb42f8f9a5c3359caeeb",
+    "slot": "slot0.pt",
+    "updates": 1776
+  },
+  "replay_worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 966.31,
+    "pid": 37997,
+    "startticks": 15842931,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1719588,
+    "cpu": 3485.36705,
+    "stage": "replay",
+    "wall": 3485.9591371169954
+  },
+  "scientific25_unchanged": true,
+  "state": "original_producer64_complete_SAME_OWN_fresh_replay_active_native_exact_private_partial_insurance_verified_unscored",
+  "users7_8_labels_used": false
+}

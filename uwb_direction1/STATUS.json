@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Focal_producer64_complete_SAME_OWNfresh_replay_active_complete_producer_private_verified_CORAL20_conditional",
+  "state": "Focal_original64_complete_OWNfresh_replay_active_CORAL20_native_singlecost_passed_conditional_unfitted",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_focal_gap64_producer64_replay_insurance01/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_coral_gap64_native_cost/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793928712.7278428,
+  "background_training_observed_unix": 1793929029.4706686,
   "background_training_pid": 37997,
-  "background_training_status_note": "Focaloriginal64complete, SAMEOWNfreshreplay37997/controller37560/observer37567 continue. Completeproducer+partialreplay private11parts/301payload raw/everymember verified, notFULL/scoring. CORAL20conditionallyregistered, notfit.",
+  "background_training_status_note": "SAMEFocalOWNreplay37997/controller37560/observer37567 active; original64 complete/unscored. CORAL20 native/ONEcost/defaultgamma1/metadata domain schedule pass, no CORALfit or activation.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue SAMEFocalOWNfreshreplay37997/controller37560/observer37567; never refit completed37561. Complete64/OWNfresh64/all65records/4736steps/selectedoutputs/FULLprivate raw/everymember before ORIGINALonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0. ExactFocalfailure+consumed/allinactivity may enable preregisteredCORALgamma1/last128/pooledB64/GAP64/seed20261029 only after its native/ONEcost/privateinitial/exactrelease; positive Focal prioritizes separatelyregistered SAMEsource6 confirmation. Users7–8excluded, exploratory.",
-  "last_completed_update_utc": "2026-11-06T01:31:52.636616+00:00",
+  "next_candidate": "Continue SAMEFocal37997/37560/37567, no completedproducer refit. Full64/OWNfresh64/allaudits/FULLprivate raw/everymember before ORIGINALFocalonce16631e76f3e2806bd4039b030c9724b43bcbe922fc6022f30acbbc96ac4e1ad0. ExactFocalFAILED consumed gate/allpriorinactivity permits alreadyregistered/native/ONEcostpassed CORALgamma1/last128/pooledB64/GAP64 seed20261029 activation then ownprivateinitial/exactrelease/ONEcontroller; positive prioritizes separatelyregistered SAMEsource6. Users7–8 excluded, exploratory, never rescore consumed gates.",
+  "last_completed_update_utc": "2026-11-06T01:35:56.126740+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -13749,5 +13749,39 @@
   },
   "scientific25_unchanged": true,
   "selected_epoch": 33
+}
+,
+  "coral_gap64_native_cost_20261106": {
+  "report": "results/cloud_20261106_coral_gap64_native_cost/RUN_REPORT.md",
+  "method": "published_DomainBed_CORAL_gamma1_last128_pooledB64_full_GAP64_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "f011df610a2354da2a64fdde074b7246a0a52d3dff8595b30056270ebcf4c57f",
+  "scientific_files": 20,
+  "coral_gamma": 1.0,
+  "feature_dim": 128,
+  "parameters": 617612,
+  "raw_batch": 64,
+  "seed": 20261029,
+  "native_checks_passed": true,
+  "synthetic_actual_exit_code": 0,
+  "single_profile_actual_exit_code": 0,
+  "single_profile_updates": 8,
+  "resource_gate_passed": true,
+  "resource_projection": {
+    "wall": 12502.811120681465,
+    "cpu": 12489.13307302
+  },
+  "domain_batch_metadata_audit_passed": true,
+  "training_domain_zero_valid_pair_batches": 0,
+  "Focal_original_producer_complete": true,
+  "Focal_diagnostic_read": false,
+  "CORAL_real_fit_started": false,
+  "CORAL_activation_exists": false,
+  "CORAL_initial_asset_exists": false,
+  "CORAL_REAL_RELEASE_exists": false,
+  "primary_Focal_replay_observed_epoch": 24,
+  "new_accuracy_result": false
 }
 }
