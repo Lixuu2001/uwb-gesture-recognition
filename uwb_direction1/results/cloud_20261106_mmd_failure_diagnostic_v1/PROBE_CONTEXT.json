@@ -1,0 +1,9 @@
+{
+  "probe_rng_policy": "Each fresh native.make_model(gap,seed20261029) resets the torch seed and constructs the native model, then loads saved model weights. Thus all states use a fixed post-initialization RNG/dropout realization. Only initial probes reproduce the exact actual original first-update RNG/logits/losses. Selected/final probes are controlled post-hoc probes, not the next historical training update.",
+  "native_head_has_training_dropout_probability": 0.2,
+  "pooled_feature_variance_measured_before_head_dropout": true,
+  "training_probe_prediction_counts_can_vary_even_if_pooled_features_constant_due_to_head_dropout": true,
+  "first_batch_is_not_full_training_accuracy": true,
+  "readonly_tensor_gradient_computation_is_not_optimizer_training": true,
+  "original_checkpoint_files_and_live_worker_never_changed": true
+}

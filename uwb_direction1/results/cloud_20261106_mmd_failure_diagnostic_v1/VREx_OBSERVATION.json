@@ -1,0 +1,44 @@
+{
+  "observed_unix": 1793985441.9891107,
+  "actual_phase": {
+    "pid": 64529,
+    "startticks": 21331595,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 5.03
+  },
+  "original_phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.57,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "R"
+  },
+  "ledger": {
+    "RSS_KiB": 1722320,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 2701.175720683,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "wall": 2699.166323229001
+  },
+  "progress": {
+    "checkpoint_sha256": "3f7aae993b665c947ef3496a32aa62b03c11e5dba17aff0247dbb47299f1b5b6",
+    "epoch": 63,
+    "journal_sha256": "e4f19fdc39a0505e58f385517451216db0ecb92659b16afdd555f003c706adb0",
+    "prefix_bytes": 3480014,
+    "prefix_sha256": "4fe80bb8489b22b5a0447f1835f468669f6585778088d13ac025a04b5745d9ab",
+    "slot": "slot1.pt",
+    "updates": 4662
+  },
+  "current_held": 1,
+  "current_stage": "train",
+  "producer_complete": null,
+  "new_fit_started_by_diagnostic": false,
+  "live_VREx_code_unchanged": true,
+  "VREx_cohort_score_exists": false,
+  "legacy_MMD_once_invoked": false,
+  "old_VREx_singlefold_activated": false
+}

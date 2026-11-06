@@ -1,0 +1,86 @@
+"""Read-only logs and fixed actual-training gradient probes of a closed MMD transfer."""
+from pathlib import Path
+import sys,json,hashlib,time,ast,copy,itertools,resource
+D=Path(__file__).resolve().parent;P=Path('/workspace/uwb-mmd-loso6-20261106');S=Path('/workspace/uwb-mmd-gap64-20261106')
+sys.path.insert(0,str(P/'shared'))
+import engine as e
+T=e.torch;N=e.np
+read=lambda p:json.loads(Path(p).read_text())
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def write(n,v):(D/n).write_text(json.dumps(v,indent=2,allow_nan=False)+'\n')
+def distribution(a):
+ a=N.asarray(a,float);return dict(n=len(a),min=float(a.min()),median=float(N.median(a)),mean=float(a.mean()),p90=float(N.quantile(a,.9)),max=float(a.max()))
+def stat_norm(gs):return float(T.sqrt(sum((g.detach().double().square().sum() for g in gs if g is not None),T.tensor(0.,dtype=T.float64))))
+def geometry(gc,gp,ix):
+ c=[gc[i] for i in ix];p=[gp[i] for i in ix];nc=stat_norm(c);np=stat_norm(p);dot=float(sum((a.detach().double()*b.detach().double()).sum() for a,b in zip(c,p) if a is not None and b is not None))
+ combined=[a if b is None else b if a is None else a+b for a,b in zip(c,p)];nt=stat_norm(combined)
+ return dict(classification_norm=nc,MMD_norm=np,MMD_to_classification_norm_ratio=np/nc if nc else None,cosine_classification_MMD=dot/(nc*np) if nc*np else None,total_norm=nt,cosine_total_classification=(nc*nc+dot)/(nt*nc) if nt*nc else None)
+def reference():
+ p=P/'shared/author_reference/domainbed/algorithms.py';node=next(n for n in ast.parse(p.read_text()).body if isinstance(n,ast.ClassDef) and n.name=='AbstractMMD');ns=dict(ERM=object,torch=T)
+ exec(compile(ast.fix_missing_locations(ast.Module(body=[node],type_ignores=[])),str(p),'exec'),ns);o=object.__new__(ns['AbstractMMD']);o.kernel_type='gaussian';return o
+GAMMAS=(.001,.01,.1,1.,10.,100.,1000.)
+def direct64(features,domains,users):
+ z=features.detach().double().requires_grad_();groups=[N.flatnonzero(domains==u) for u in users if (domains==u).any()];values=[];analytic=T.zeros_like(z)
+ for ix,iy in itertools.combinations(groups,2):
+  x=z[ix];y=z[iy];nx=len(ix);ny=len(iy)
+  def kernel(a,b):
+   diff=a[:,None,:]-b[None,:,:];dist=diff.square().sum(-1);k=sum(T.exp(-g*dist) for g in GAMMAS);w=sum(g*T.exp(-g*dist) for g in GAMMAS);return k,w,diff
+  kxx,wxx,dxx=kernel(x,x);kyy,wyy,dyy=kernel(y,y);kxy,wxy,dxy=kernel(x,y);values.append(kxx.mean()+kyy.mean()-2*kxy.mean())
+  analytic[ix]+= -4*(wxx[:,:,None]*dxx).sum(1)/(nx*nx)+4*(wxy[:,:,None]*dxy).sum(1)/(nx*ny)
+  analytic[iy]+= -4*(wyy[:,:,None]*dyy).sum(1)/(ny*ny)-4*(wxy[:,:,None]*dxy).sum(0)/(nx*ny)
+ loss=sum(values)/len(values);analytic/=len(values);grad=T.autograd.grad(loss,z)[0]
+ T.testing.assert_close(grad,analytic,rtol=1e-10,atol=1e-11)
+ return float(loss.detach()),grad
+
+def main():
+ start=time.monotonic();cpu=time.process_time();plan=read(D/'PLAN.json');assert not(D/'RESULT.json').exists()
+ # Sources are never modified; all evidence hashes are rechecked after the probes.
+ immutable={};rows=[];probes=[];ref=reference();src=read(P/'DEVELOPMENT_PROTOCOL.json')
+ with N.load(src['source_ids']) as z:ids=z['ids'];users=z['users']
+ assert sha(src['source_ids'])==src['source_ids_sha256']
+ maps=N.load(src['source_maps'],mmap_mode='r');truth=N.load(Path(src['data'])/'cache/y_clutterremoved.npy',mmap_mode='r')
+ for h in range(1,7):
+  cfg=read(S/'PROTOCOL.json') if h==1 else read(P/f'folds/held{h}/PROTOCOL.json');root=S/'run/train' if h==1 else P/f'folds/held{h}/run/train'
+  train=N.flatnonzero(N.isin(users,cfg['train_users']));assert not set(users[train])&{h,h%6+1}
+  y=N.array(truth[ids[train]],copy=True).astype('int64');u=users[train];assert len(y)==src['counts'][str(h)][0]
+  support={str(v):N.bincount(y[u==v],minlength=12).tolist() for v in cfg['train_users']};assert all(set(N.unique(y[u==v]))<=set(range(12)) for v in cfg['train_users'])
+  probabilities={v:N.asarray(support[str(v)])/sum(support[str(v)]) for v in cfg['train_users']};tv=[dict(users=[int(a),int(b)],class_marginal_total_variation=float(abs(probabilities[a]-probabilities[b]).sum()/2)) for a,b in itertools.combinations(cfg['train_users'],2)]
+  steps=[json.loads(line) for line in (root/'steps.jsonl').read_text().splitlines()];assert len(steps)==src['matched_controls']['epochs']*((len(train)+63)//64)
+  assert all(s['mmd_gamma']==1. for s in steps)
+  epochrows=[]
+  for epoch in range(1,65):
+   q=[s for s in steps if s['epoch']==epoch];v=read(root/f'epoch{epoch:03}.json');immutable[str(root/f'epoch{epoch:03}.json')]=sha(root/f'epoch{epoch:03}.json')
+   epochrows.append(dict(epoch=epoch,n_updates=len(q),train_classification_loss_sample_weighted=sum(s['classification_loss']*s['forward_batch'] for s in q)/sum(s['forward_batch'] for s in q),MMD_loss_update_mean=float(N.mean([s['penalty'] for s in q])),total_loss_update_mean=float(N.mean([s['loss'] for s in q])),validation_macro=v['validation_macro'],validation_BCE=v['validation_loss']))
+  bdir=Path(read(P/'BASELINE_ARTIFACTS.json')['held1'] if h==1 else read(P/'BASELINE_ARTIFACTS.json')['restored_folds'][str(h)])
+  blog=[json.loads(line) for line in (bdir/'epochs.jsonl').read_text().splitlines()];assert len(blog)==64
+  immutable[str(bdir/'epochs.jsonl')]=sha(bdir/'epochs.jsonl');immutable[str(root/'steps.jsonl')]=sha(root/'steps.jsonl')
+  ratio=[s['penalty']/s['classification_loss'] for s in steps]
+  counts=read(root/'COMPLETE.json');selected=counts['selected_epoch']
+  rows.append(dict(held=h,train_users=cfg['train_users'],validation_user=cfg['validation_user'],training_class_support=support,source_class_distribution_pairwise=tv,all64_epochs=epochrows,baseline_all64_validation_curves=blog,selected_epoch=selected,step_classification_loss=distribution([s['classification_loss'] for s in steps]),step_MMD_loss=distribution([s['penalty'] for s in steps]),step_MMD_to_classification_loss_ratio=distribution(ratio),original_logs_separate_component_gradient_norms_recorded=False))
+  positions=e.order(len(y),1)[:64];actual=ids[train[positions]];first=steps[0]
+  assert hashlib.sha256(positions.tobytes()).hexdigest()==first['positions_sha256'] and hashlib.sha256(actual.tobytes()).hexdigest()==first['training_ids_sha256']
+  x=N.array(maps[train[positions]],copy=True);labels=T.as_tensor(y[positions]);dom=u[positions];group_ix=[N.flatnonzero(dom==v) for v in cfg['train_users'] if (dom==v).any()]
+  for name,file in [('initial','initial.pt'),('selected','selected.pt'),('final64','final_full.pt')]:
+   path=root/file;immutable[str(path)]=sha(path);state=T.load(path,map_location='cpu',weights_only=True)
+   m=e.native.make_model('gap',cfg['seed']);m.load_state_dict(state['model'],strict=True);m.train();box={}
+   handle=m.head.register_forward_pre_hook(lambda module,args:box.update(features=args[0]));logits=m(T.from_numpy(x));handle.remove();f=box['features'];assert f.shape==(64,128)
+   c=e.native_bce(logits,labels);manual=(T.nn.functional.softplus(logits)-T.nn.functional.one_hot(labels,12)*logits).mean()
+   p=sum(e.pair_mmd(f[ix],f[iy]) for ix,iy in itertools.combinations(group_ix,2))/6
+   pinned=sum(ref.mmd(f[ix],f[iy]) for ix,iy in itertools.combinations(group_ix,2))/6;T.testing.assert_close(p,pinned,rtol=0,atol=0)
+   assert abs(float(c.detach()-manual.detach()))<2e-7
+   if name=='initial':assert float(c.detach())==first['classification_loss'] and float(p.detach())==first['penalty'] and e.semantic(logits)==first['logits_sha256']
+   pf=T.autograd.grad(p,f,retain_graph=True)[0];independent_value,independent_gradient=direct64(f,dom,cfg['train_users']);diff=pf.detach().double()-independent_gradient
+   params=list(m.named_parameters());gc=T.autograd.grad(c,[v for k,v in params],retain_graph=True,allow_unused=True);gp=T.autograd.grad(p,[v for k,v in params],allow_unused=True)
+   ix_all=list(range(len(params)));backbone=[i for i,(k,v) in enumerate(params) if not k.startswith('head.')];head=[i for i,(k,v) in enumerate(params) if k.startswith('head.')]
+   geo=geometry(gc,gp,ix_all);clip=min(1.,2./max(geo['total_norm'],1e-30));clipc=min(1.,2./max(geo['classification_norm'],1e-30))
+   diagonal_constant=float(N.mean([7/len(ix)+7/len(iy) for ix,iy in itertools.combinations(group_ix,2)]))
+   result=dict(held=h,state=name,checkpoint=str(path),checkpoint_sha256=immutable[str(path)],checkpoint_epoch=int(state.get('epoch',state.get('selected_epoch',0))),probe_batch='original_epoch1_first64_training_only',classification_BCE=float(c.detach()),MMD=float(p.detach()),MMD_to_BCE_loss_ratio=float(p.detach()/c.detach()),gradient_geometry=geo,backbone_gradient_geometry=geometry(gc,gp,backbone),head_gradient_geometry=geometry(gc,gp,head),joint_global_clip2_coefficient=clip,classification_only_clip2_coefficient=clipc,raw_head_BCE_gradient_clip_ratio=clip/clipc,biased_MMD_diagonal_constant=diagonal_constant,diagonal_is_constant_not_gradient_scale_evidence=True,native_full_forward_matches_original_first_step=(name=='initial'),pinned_component_value_exact=True,independent_double_value=independent_value,independent_value_abs_error=abs(float(p.detach())-independent_value),independent_feature_gradient_relative_L2_error=float(diff.norm()/max(float(independent_gradient.norm()),1e-30)),independent_feature_gradient_max_abs_error=float(diff.abs().max()),independent_direct_gradient_matches_analytic=True,source_batch_counts={str(v):int((dom==v).sum()) for v in cfg['train_users']},source_batch_class_support={str(v):N.bincount(y[positions][dom==v],minlength=12).tolist() for v in cfg['train_users']},training_batch_accuracy=float((logits.argmax(1)==labels).float().mean()),training_batch_prediction_counts=T.bincount(logits.argmax(1),minlength=12).tolist(),features_mean_per_coordinate_variance=float(f.detach().double().var(dim=0,unbiased=False).mean()),optimizer_updates_executed=0,held_labels_or_predictions_loaded=False)
+   probes.append(result);write('PROBE_PROGRESS.json',dict(probes=probes,method_or_configuration_changes=False))
+   print(json.dumps(dict(held=h,state=name,loss_ratio=result['MMD_to_BCE_loss_ratio'],gradient_ratio=geo['MMD_to_classification_norm_ratio'],cosine=geo['cosine_classification_MMD'],independent_gradient_error=result['independent_feature_gradient_relative_L2_error'])),flush=True)
+   del state,m,logits,f,c,p,pinned,gc,gp,pf
+ for path,h in immutable.items():assert sha(path)==h,path
+ for base in [P,S]:
+  for n,h in read(base/'FROZEN_HASHES.json').items():assert sha(base/n)==h,n
+ result=dict(scope=plan,plan_sha256=sha(D/'PLAN.json'),source_script_sha256=sha(__file__),folds=rows,gradient_probes=probes,source_evidence_sha256=immutable,all_original_checkpoints_logs_scientific_sources_unchanged=True,optimizer_updates_executed=0,held_labels_or_predictions_loaded=False,VREx_live_code_unchanged=True,posthoc_diagnostic_not_a_causal_ablation=True,wall=time.monotonic()-start,CPU=time.process_time()-cpu,maxRSS_KiB=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+ write('RESULT.json',result)
+if __name__=='__main__':main()

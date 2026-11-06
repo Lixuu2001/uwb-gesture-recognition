@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_full6_actual_phase64529_running_unscored_firstnative_exact_private_epoch1_prefix106_verified",
+  "state": "LOSO6_VREx_phase64529_running_unchanged_closed_MMD_readonly_failure_diagnostic_completed_no_new_scores",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-06 bootad409b48;4CPUquota/16GiB/noGPU; MMDheld1 original64/OWN64/output all exited0. No new fivefold training started; remaining expected7h plus verification reserve, prior completed costs retained.",
+  "compute": "2026-11-06 sameboot ad409b48;4CPUquota/16GiB/noGPU; MMD complete6 closed40.6258% vsGAP93.6672%, prior8.58h retained. Sole new full6 VREx phase64529 active under12h wall/CPU, no duplicates; readonly MMD diagnosis only.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_running/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_failure_diagnostic_v1/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793983048.6152563,
+  "background_training_observed_unix": 1793985442.6530278,
   "background_training_pid": 64529,
-  "background_training_status_note": "Actual new full6 phase64529/start21331595 sameboot active; held1/train epoch4/296updates observed. Firstnative exact; privateepoch1/74 prefix4parts106payloads verified, incomplete scope. No newscore/duplicates.",
+  "background_training_status_note": "Same VREx64529 identity active held1/train epoch63/4662updates; no duplicate fit. ClosedMMD read-only18trainingprobes/log analysis complete, sampled featurecollapse/gradient scales observed; no causal claim or newtestscore.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14990,5 +14990,72 @@
   "old_singlefold_VREx_activated": false,
   "prior_MMD_cost_not_reset": true,
   "next": "Observe/reuse actual64529 phase; no duplicate train/restart. Finish all6 production64+ownfresh64+nativeaudits then complete private models/outputs archive allmember verified/exactrelease before registered inference and one cohort score. No singlefold gate/test feedback."
+}
+,
+  "mmd_failure_diagnostic_v1_20261106": {
+  "report": "results/cloud_20261106_mmd_failure_diagnostic_v1/RUN_REPORT.md",
+  "method": "read_only_posthoc_closed_MMD_gamma1_diagnostic_active_frozen_VREx_LOSO6_unchanged",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "read_only_MMD_diagnostic_complete": true,
+  "new_optimizer_updates": 0,
+  "held_labels_or_predictions_paired": false,
+  "all_six_folds_uniform_18_probes": true,
+  "original_component_gradients_not_logged": true,
+  "posthoc_sampled_gradients_not_full_trajectory": true,
+  "all18_sampled_clip2_inactive": true,
+  "independent_objective_feature_gradient_checked": true,
+  "shared_implementation_error_fully_excluded": false,
+  "causal_mechanism_proven": false,
+  "exact_MMD_configuration_remains_closed": true,
+  "VREx_phase_unchanged": true,
+  "VREx_phase_observation": {
+    "observed_unix": 1793985441.9891107,
+    "actual_phase": {
+      "pid": 64529,
+      "startticks": 21331595,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "state": "S",
+      "cpu": 5.03
+    },
+    "original_phase": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.57,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "R"
+    },
+    "ledger": {
+      "RSS_KiB": 1722320,
+      "active_held": 1,
+      "completed_folds": [],
+      "cpu": 2701.175720683,
+      "fold_stage": "train",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "wall": 2699.166323229001
+    },
+    "progress": {
+      "checkpoint_sha256": "3f7aae993b665c947ef3496a32aa62b03c11e5dba17aff0247dbb47299f1b5b6",
+      "epoch": 63,
+      "journal_sha256": "e4f19fdc39a0505e58f385517451216db0ecb92659b16afdd555f003c706adb0",
+      "prefix_bytes": 3480014,
+      "prefix_sha256": "4fe80bb8489b22b5a0447f1835f468669f6585778088d13ac025a04b5745d9ab",
+      "slot": "slot1.pt",
+      "updates": 4662
+    },
+    "current_held": 1,
+    "current_stage": "train",
+    "producer_complete": null,
+    "new_fit_started_by_diagnostic": false,
+    "live_VREx_code_unchanged": true,
+    "VREx_cohort_score_exists": false,
+    "legacy_MMD_once_invoked": false,
+    "old_VREx_singlefold_activated": false
+  },
+  "all_original_scientific_files_unchanged": true,
+  "independent_gradient_relative_L2_error_max": 0.0006921963840463802,
+  "next": "Continue existing64529 full6 VREx without duplicate launch/retuning; full private sixfold freeze then cohort_once; if effective use preregistered domainmean+reset/no-variance control for attribution."
 }
 }

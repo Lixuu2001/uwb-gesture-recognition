@@ -1,3 +1,21 @@
+## 2026-11-06：已关闭MMD固定六折退化诊断完成；无重训/调参，VREx唯一原阶段继续
+
+按用户新要求先核对最新d8c39573efb8bef0d4e3c3df11770b91cee3e726、原始日志/检查点及真实进程：原VRExphase64529/start21331595、boot ad409b48-89ce-4704-beee-3658103d5856仍活跃，此处观察held1/train epoch63/4662updates，累计wall2699.166323/CPU2701.175721秒，12h/RSS12GiB固定不改。此次诊断没有启动训练、重复controller、测试配对或新自动任务。MMD完整6均值40.6258% vs原GAP93.6672%、-53.0414pp/0胜的固定配置仍失败关闭，原单折once未调用、旧失败不追改。
+
+分析既有全部producer步骤损失、64轮验证曲线、原GAP同折曲线和严格训练角色的源用户/类别支持。六折末轮训练BCE均0.28748–0.28778，接近仅训练类别先验的常量预测BCE理论最优0.28620–0.28659；末轮对应验证present-macro降至8.3333%/9.0909%/10%，全部只在前1/2轮选中验证最优。分类学习退化在训练/验证即已出现，不是根据测试分数选出解释。报告明确末轮差模型不是替换已选中模型重新算测试分数。
+
+原日志未存分项梯度norm，不能假装恢复了64轮梯度轨迹。另作均匀覆盖全部6折initial/validation-selected/final64共18个只读探针，每次固定该折epoch1原首批64个训练样本，native完整forward/preheadhook，绝无optimizer.step、held标签/预测载入或参数选择。新鲜native初始化seed固定dropout实现，仅initial探针精确重现原首步loss/logits/ID顺序；selected/final探针是同mask的事后采样，不是假称历史下一个batch。选中模型MMD/BCE骨干梯度norm比5.907–11.231，cosine -0.0137至-0.0962，多为不同方向/轻微负向；支持项间尺度失衡的解释，不证明每步都被MMD支配，也不把rawgradient等同AdamWLookahead真实参数更新。MMD无直接headgradient，18探针总norm均未触发clip2，故没有证据把这些点归因“裁剪压制分类头”。
+
+同一固定训练批次的pool特征坐标平均方差，从initial约0.0166–0.0178降为final64的0–1.16e-8（多折约1e-12），与MMD接近零、分类BCE接近先验、验证召回率接近单类输出一致，构成晚期表征趋常量的直接采样证据。常量表征可令MMD归零；这支持边缘对齐趋退化解的可能机制，尚未全训练集特征检查/因果消融，不能直接宣称唯一原因。nativehead含dropout0.2，训练态预测计数可在pool常量时因dropout变化，探针小批准确率不冒充全训练/验证/测试准确率。
+
+源训练类别先验确有差异：u2缺0-based10/11、u6缺3，不同fold训练源分布最大TV为0.0833、0.1667或0.1818；无条件MMD可混入类别先验/小batch采样差异，原生全局BCE按B×12二元输出平均，与作者CE分类槽尺度也不同。这些是有依据的潜在因素，不是已验证的因果归因或调gamma/带宽的理由。七核biasedselfterms数学对角项7(1/n_a+1/n_b)在本批约0.886–1.007是零梯度常量（float32近似），loss值大不能单独证明梯度大；分项梯度另测，不混淆。
+
+独立实现核查不只精确重放：18个BCE与稳定softplus/onehot公式差<2e-7；真实固定DomainBed作者AST核项与生产float32逐位一致；独立float64显式向量差Gaussian值/导数，并与另一解析导数核对，生产特征梯度相对L2误差最大0.0006922（0.06922%），值差最大0.0013721，非bitwise相等。原日志近零负MMD最低约-1.43e-6，与浮点抵消现象一致，但浮点差异对64轮轨迹影响未做因果检验，不因数值小就排除。此举缩小采样BCE/MMD代数/分组/feature提取错误范围，不能排除全部共同实现/预处理/协议错误；freshreplay只证明确定性与恢复，绝不能单独作为无共同bug的证明。
+
+新诊断RESULT/COMPACT/PROBE_CONTEXT保留全部训练/验证曲线、类别supports、18个梯度几何/独立误差、原模型/日志hash；标准matplotlib生成可独立导出SVG/PDF曲线，图不含测试分数。成功只读诊断wall19.236876/CPU19.234915秒、RSS703992KiB。首次只读实现因MMDhead梯度全None的空sum整数触发sqrt类型错误，原源码/错误日志留存，修为显式float64零累加器后有界重跑一次；该中断尝试CPU未记录，不抹去，非额外训练/科学方法bug。原MMD30/原held1的21/运行VREx37/旧VREx22科学文件逐一SHA不变，原检查点和日志复核未变。
+
+继续唯一已冻结VREx完整6生产64+各自独立fresh64/native审计，主12h资源约束不变；全6模型/预测/审计完整私有raw回读及精确release后再唯一cohort评分。若有效，按已在MMD评分前固定的等域BCE+同reset/no-variance联合六折对照分析归因，不能直接把任何提升归给variance或创新。此次解释不改VREx超参/角色/输入/seed/验证选模，用户7–8未用于选择，全部历史8人开发仍探索性，非独立新用户/已验证原创。自动任务频率/启用、云环境/私有Drive/仓库可见性与原789不变，目标未达，VREx当前无新测试分数。
+
 ## 2026-11-06：新VREx完整六折阶段实际启动，首批native精确通过，已保护epoch1/74更新私有前缀
 
 先以最新eaa1653059b44882a1dcd1014a622396d81b671b逐文件精确回读/force=false实际release，将commit/源manifest5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8/新的VREx未训练fileSHA/初始私有archive绑定REAL_RELEASE。核验原MMD等既有模型进程inactive、无新VREx已有身份/状态后，仅启动一次新phase。真实phasePID64529/startticks21331595、boot ad409b48-89ce-4704-beee-3658103d5856；本次观察状态S且身份一致，实际held1/train已提交epoch4、296次更新，phasewall222.453758/CPU221.665708秒。完整各子进程实际身份/资源账见ACTIVE_OBSERVATION，不能把原release前“未启动”记录当作当前状态。唯一完整六折阶段正在云端运行，不依赖Windows；未启动第二组训练或新自动任务。

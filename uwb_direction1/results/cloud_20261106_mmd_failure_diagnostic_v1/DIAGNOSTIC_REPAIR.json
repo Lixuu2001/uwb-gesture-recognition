@@ -1,0 +1,13 @@
+{
+  "state": "read_only_diagnostic_failure_fixed_before_any_result",
+  "attempt1_error": "MMD has no classifier-head gradient; empty gradient group summed to integer0, which torch.sqrt rejects",
+  "repair": "Explicit float64 zero tensor accumulator for empty/unused component gradients; report true MMD head gradient norm zero",
+  "prior_source_sha256": "0aedc920be137b796c1668f32f7b1c0e5d66a734169ebaaecce893623d2ef4e1",
+  "repaired_source_sha256": "f8c86fd17efa57167d8352bd3b7b2ef889ad310ca4cf45c6c315bcd31c92e675",
+  "native_scientific_files_or_live_VREx_changed": false,
+  "optimizer_updates_executed": 0,
+  "held_labels_or_predictions_loaded": false,
+  "original_failure_STDOUT": "ATTEMPT1_STDOUT.log",
+  "incomplete_attempt_cost_not_recorded": true,
+  "bounded_readonly_diagnostic_rerun": 1
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Post-hoc explanation of already closed fixed MMD sixfold failure; no new fit or method selection",
+  "models": "All six folds, each initial, validation-selected and final epoch64 saved model; no fold picked from test performance",
+  "batch": "Exactly each fold's original epoch1 first shuffled training batch64 (seed20261029+1); training IDs and labels only",
+  "existing_evidence": "All producer step losses, all64 validation curves, original GAP validation curves, training-user/class support and per-source class proportions",
+  "gradient_evidence_limit": "Original producer logs do not record separate classification/MMD gradients. New read-only offline gradient probes are explicitly post-hoc sampled state probes, not historical per-step gradients or a causal ablation",
+  "independent_checks": "Native full model forward/head prehook; manual stable BCE; actual pinned DomainBed class AST MMD; independent direct-difference float64 RBF values and analytical gradient; verify original first-step logits/losses/IDs exactly",
+  "measure": "Component gradient norms overall/backbone/head, gradient cosines, joint clip2 coefficient, diagonal biased-MMD constant, first-batch source/class composition, feature dispersion; no optimizer step or checkpoint writes",
+  "immutable": "All original scientific files/checkpoints/logs remain byte-identical; live VREx process and frozen protocol untouched",
+  "forbidden": "No held labels or held predictions loaded, no test score recomputation, no coefficient/kernel/epoch/seed search, no retraining or changing the closed result",
+  "interpretation": "Reproduction verifies determinism only. Agreement with an independent sampled objective/gradient check narrows particular implementation errors but cannot rule out every shared implementation/protocol error or establish mechanism causally"
+}
