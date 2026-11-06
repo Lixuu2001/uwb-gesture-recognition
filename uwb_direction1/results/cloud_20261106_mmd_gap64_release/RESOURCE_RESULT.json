@@ -1,0 +1,146 @@
+{
+  "state": "conditional_full_native_DomainBed_MMD_synthetic_capacity_complete",
+  "gate_passed": true,
+  "updates": [
+    {
+      "wall": 0.6087697339826263,
+      "cpu": 0.6087664319999999,
+      "loss": 1.221992015838623,
+      "classification_loss": 0.6854106783866882,
+      "penalty": 0.53658127784729,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "57dce3be2eeb1c8d6eeed8461b847309474163514b4bce189f2f4daff42166ce",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5026922849938273,
+      "cpu": 0.5024495849999999,
+      "loss": 1.3812830448150635,
+      "classification_loss": 0.5962335467338562,
+      "penalty": 0.7850494384765625,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "39caf956a17726182d683ea68a900eee56d5fa8bbcd67a67c169d27d16f80525",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.49733187098172493,
+      "cpu": 0.4972126450000003,
+      "loss": 1.1266634464263916,
+      "classification_loss": 0.5199580788612366,
+      "penalty": 0.606705367565155,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "d56d0bed268c18cd3eede9de61603888a4b7d92cf20339a5c3f6570ee6bcd3b4",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5042791010055225,
+      "cpu": 0.504263651,
+      "loss": 1.0067662000656128,
+      "classification_loss": 0.45786425471305847,
+      "penalty": 0.5489019751548767,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "bc20939c8113f4ae77c34147484a735ca65d694f6f5b838e1f5d84d089643c2e",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5283177370147314,
+      "cpu": 0.528318069,
+      "loss": 0.9547795653343201,
+      "classification_loss": 0.4029456377029419,
+      "penalty": 0.5518339276313782,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "6fbae96a63897045f95d53aa8179b4105abfcf94f7ade76c9fc145ddc173ef96",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5032134049979504,
+      "cpu": 0.5031499570000006,
+      "loss": 0.9095704555511475,
+      "classification_loss": 0.3632575571537018,
+      "penalty": 0.5463128685951233,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "3f52f10488aaa3cee927b7e11774a9ef5ed87b6700542dae367400fefefdb63b",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.47813057599705644,
+      "cpu": 0.47809041899999993,
+      "loss": 0.8628592491149902,
+      "classification_loss": 0.32108113169670105,
+      "penalty": 0.5417781472206116,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "5e892606041d88396fa70a659f05c08831410e5dff6c8f8fe925249209b56f66",
+      "forward_batch": 64
+    },
+    {
+      "wall": 0.5287562480079941,
+      "cpu": 0.5287394290000007,
+      "loss": 0.8378876447677612,
+      "classification_loss": 0.300686240196228,
+      "penalty": 0.5372014045715332,
+      "mmd_gamma": 1.0,
+      "valid_training_domains": 4,
+      "valid_domain_pairs": 6,
+      "logits_sha256": "e5fb41b255313b4f3b91fdc71dd0ea5787b1fc62e3ac1ef625561044ace97202",
+      "forward_batch": 64
+    }
+  ],
+  "validation": [
+    {
+      "wall": 0.13852758501889184,
+      "cpu": 0.1385312860000001
+    },
+    {
+      "wall": 0.1331895730108954,
+      "cpu": 0.1331849949999997
+    },
+    {
+      "wall": 0.14595033301156946,
+      "cpu": 0.14595249
+    }
+  ],
+  "checkpoint": {
+    "wall": 0.01602963701589033,
+    "cpu": 0.016032132999999504
+  },
+  "projected_full64_producer_and_own_fresh64_replay_seconds": {
+    "wall": 12157.382235763944,
+    "cpu": 12157.329455755998
+  },
+  "measured_projection_seconds": {
+    "wall": 12157.382235763944,
+    "cpu": 12157.329455755998
+  },
+  "prior_prototype_floor_applied": false,
+  "safety_factor": 2.0,
+  "maxRSS_KiB": 572252,
+  "caps": {
+    "wall": 43200,
+    "CPU": 43200,
+    "RSS_KiB": 12582912
+  },
+  "parameters": 617612,
+  "raw_forward_batch": 64,
+  "mmd_gamma": 1.0,
+  "feature_dim": 128,
+  "penalty": "seven_Gaussian_RBF_sum_biased_MMD_valid_nonempty_sourcepairs",
+  "seed": 20261029,
+  "wall_seconds": 4.639682215987705,
+  "CPU_seconds": 4.639140896000001,
+  "no_UWB_arrays_or_labels_opened": true,
+  "new_UWB_fit_started": false
+}

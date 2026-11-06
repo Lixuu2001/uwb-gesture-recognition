@@ -1,0 +1,29 @@
+{
+  "author_protocol_reproduced": false,
+  "batch": 64,
+  "config_and_implementation_anchored_before_CORAL_diagnostic": true,
+  "feature_dim": 128,
+  "frozen_sha256": "c008bed1eb56838fef0a1dd5b0d402dc46996ddef659cdc159fbfb2543317628",
+  "independent_validation": false,
+  "kernel_gammas": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "mmd_gamma": 1.0,
+  "new_UWB_fit_started": false,
+  "original_contribution_claim": false,
+  "parameters": 617612,
+  "preregistration_commit": "2fe5ae99ebae89c2c50ad676c684497f1572d00d",
+  "profile_actual_exit_code": 0,
+  "science_files": 21,
+  "seed": 20261029,
+  "single_profile_updates": 8,
+  "state": "MMD21_registered_pinned_kernel_full_native_and_ONE_cost_checks_verified_no_realfit",
+  "synthetic_actual_exit_code": 0,
+  "users7_8_labels_used": false
+}
