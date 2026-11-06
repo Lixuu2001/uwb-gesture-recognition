@@ -1,0 +1,92 @@
+{
+  "archive_bytes": 18281192,
+  "archive_sha256": "08f92393327a9a6f8c1d4f5c7ea581b13436919329093bb58cbed2b9c7d442c1",
+  "checkpoint_epoch": 1,
+  "checkpoint_updates": 74,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1ODE9dkAqG1B3msjGnLY8nHwoCKLV_RkH",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "mmd_loso6_running_held2_20261106.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "4b0ecd9da430be51f41091ded0298d8f68d1e37b2f8cb506fa9635f2f56636b9"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1BqC6J2DW6rdie5YYawF_NHpOK3DLyGD5",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "mmd_loso6_running_held2_20261106.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "fb2d761ade7add05264496919528b52120a4045c7d7d5c1e7441f6d241dadc87"
+    },
+    {
+      "bytes": 3601128,
+      "download_verified": true,
+      "file_id": "1Ky-HinWvT8RdSABr1L5lN8qziRI133Bl",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 3601128
+      },
+      "name": "mmd_loso6_running_held2_20261106.part002",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "486897b849e413da0b95e76b2e349d0990d6368829bf0d6e934cbbfc9ad1873c"
+    }
+  ],
+  "complete_training_modelset": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "members_manifest_sha256": "cf0565234af096c94c6fe52102cc8e56d0bbfa5518708fcbf3abfb93b5aa806d",
+  "needs_exact_initial_and_full_source_private_index": true,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "standalone_auto_resume_permitted": false,
+  "state": "partial_held2_committed_epoch1_native_training_checkpoint_private_raw_allmember_verified",
+  "tracked_payload_files": 16
+}

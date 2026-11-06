@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_remaining_five_private_initial_verified_exact_release_pending_actual_launch",
+  "state": "LOSO6_MMD_remaining_five_running_held2_first_native_exact_and_private_epoch1_verified_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Latest user direction prioritizes complete subject-disjoint LOSO cross-person means/worst/paired results under matched training conditions. Single held1 .9841667 is one fold, not the cohort baseline .9366717. Select methods on six-user exploratory development then separately plan matched full eight-person outer LOSO; users7–8 not for new-method choice; no independent validation claim.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_release/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_running/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793951569.9191942,
-  "background_training_pid": null,
-  "background_training_status_note": "Private two-part shared untrained initialization/all5roles/all115payloads raw verified; exact release before one actual serial launch, no new fit yet.",
+  "background_training_observed_unix": 1793951829.027711,
+  "background_training_pid": 50654,
+  "background_training_status_note": "One actual MMD LOSO phase PID50654/model50656 active; held2 first native audit exit0, observed epoch3; epoch1 native optimizer/allRNG/privateIDs checkpoint protected in private3parts, all6 unscored.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14348,5 +14348,27 @@
   "next": "Bind actual exact release commit and launch once, verify first native update and actual checkpoint. Never old singlefold once.",
   "private_initial_verified": true,
   "new_remaining_training_started": false
+}
+,
+  "mmd_loso6_running_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_running/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "actual_training_started": true,
+  "actual_phase_pid": 50654,
+  "actual_model_pid": 50656,
+  "observed_held": 2,
+  "observed_epoch": 3,
+  "native_first_update_exact": true,
+  "private_running_checkpoint_epoch": 1,
+  "private_running_checkpoint_parts": 3,
+  "partial_checkpoint_not_complete_modelset": true,
+  "held1_reused_unscored": true,
+  "old_singlefold_once_invoked": false,
+  "VREx_activated": false,
+  "remaining_phase_cap_seconds": 43200,
+  "next": "Monitor owned existing phase; all6 frozen and full private composite/raw readback before one cohort score; no duplicate launch or individual score."
 }
 }

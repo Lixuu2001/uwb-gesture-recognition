@@ -1,0 +1,33 @@
+{
+  "archive_bytes": 18281192,
+  "archive_sha256": "08f92393327a9a6f8c1d4f5c7ea581b13436919329093bb58cbed2b9c7d442c1",
+  "checkpoint_epoch": 1,
+  "checkpoint_updates": 74,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "name": "mmd_loso6_running_held2_20261106.part000",
+      "sha256": "4b0ecd9da430be51f41091ded0298d8f68d1e37b2f8cb506fa9635f2f56636b9"
+    },
+    {
+      "bytes": 7340032,
+      "name": "mmd_loso6_running_held2_20261106.part001",
+      "sha256": "fb2d761ade7add05264496919528b52120a4045c7d7d5c1e7441f6d241dadc87"
+    },
+    {
+      "bytes": 3601128,
+      "name": "mmd_loso6_running_held2_20261106.part002",
+      "sha256": "486897b849e413da0b95e76b2e349d0990d6368829bf0d6e934cbbfc9ad1873c"
+    }
+  ],
+  "complete_modelset": false,
+  "complete_training_modelset": false,
+  "members_manifest_sha256": "cf0565234af096c94c6fe52102cc8e56d0bbfa5518708fcbf3abfb93b5aa806d",
+  "partial_training_checkpoint": true,
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "scope": "first_observed_committed_held2_training_prefix_incomplete_private_checkpoint",
+  "state": "partial_committed_training_checkpoint_streamed",
+  "tracked_payload_files": 16,
+  "whole_job_resume": false
+}

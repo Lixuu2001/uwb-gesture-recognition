@@ -1,0 +1,90 @@
+{
+  "VREx_activated": false,
+  "all_five_new_held_users": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "committed_checkpoint_proof": {
+    "checkpoint_sha256": "005d730dd5bc991eec566bde1a1538592159ac76709df98b9d6818ab98048097",
+    "complete_training_modelset": false,
+    "diagnostic_labels_read": false,
+    "epoch": 1,
+    "first_native_update_exact": true,
+    "held": 2,
+    "initial_semantic_keys": [
+      "best_epoch",
+      "best_key",
+      "best_model",
+      "epoch",
+      "model",
+      "model_training",
+      "numpy_rng",
+      "optimizer",
+      "order_rng",
+      "python_rng",
+      "torch_rng",
+      "updates"
+    ],
+    "native_state_sha256": "6d8c0b005bbf370bfda677d7eec958f610a01a6216ff66ed1fcba16f484e3723",
+    "standalone_auto_resume_permitted": false,
+    "state": "actual_committed_native_model_optimizer_allRNG_and_exact_step_prefix_copied_while_training_runs",
+    "step_prefix_sha256": "8340373f25690371f4a527c1090e574d0dc0a680bce734608f78301664d836d0",
+    "updates": 74
+  },
+  "concurrent_model_workers": 1,
+  "diagnostic_labels_read": false,
+  "epoch": 3,
+  "exact_release": {
+    "all5_native_tests_passed": true,
+    "branch_head_verified": true,
+    "commit": "216800ef5bb10b88fcca3f8503cab1bf9bfb5582",
+    "force": false,
+    "frozen_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+    "initial_archive_sha256": "3f009b1fe6403cbf9ea51ea6707e0e5406de0bfeeab4beb1a19c5b2dcef59cea",
+    "initial_model_file_sha256": "11369b50e651b570268a69c79777426fbd978e3280f02f3bd805162336b22f20",
+    "private_initial_raw_allmember_verified": true,
+    "scope": "only remaining held2..6 fixed complete LOSO; old held1 reused unscored; no singlefold gate"
+  },
+  "old_singlefold_once_invoked": false,
+  "prior_held1_reused_unscored": true,
+  "processes": {
+    "PHASE_IDENTITY.json": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 3.46,
+      "pid": 50654,
+      "startticks": 18218982,
+      "state": "S"
+    },
+    "folds/held2/CONTROLLER_IDENTITY.json": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 3.4,
+      "pid": 50655,
+      "startticks": 18219315,
+      "state": "S"
+    },
+    "folds/held2/run/execution/train/IDENTITY.json": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 139.0,
+      "pid": 50656,
+      "startticks": 18219644,
+      "state": "R"
+    }
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1713492,
+    "active_held": 2,
+    "completed_folds": [],
+    "cpu": 150.497378904,
+    "fold_stage": "train",
+    "prior_reused_fold1_cpu": 5019.332418999999,
+    "prior_reused_fold1_wall": 5022.569200421014,
+    "wall": 151.04294933201163
+  },
+  "state": "actual_phase_and_held2_model_training_observed_first_native_update_exact_committed_epoch_exists",
+  "unix": 1793951767.7524145,
+  "updates": 222,
+  "users7_8_labels_used": false
+}
