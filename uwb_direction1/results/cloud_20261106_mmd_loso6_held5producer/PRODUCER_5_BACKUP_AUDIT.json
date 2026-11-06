@@ -1,0 +1,49 @@
+{
+  "complete_fold_audits": false,
+  "complete_independent_replay": false,
+  "complete_sixfold_cohort": false,
+  "complete_training_producer": true,
+  "diagnostic_labels_read": false,
+  "epochs": 64,
+  "final_native_state_sha256": "060dd883a0ac13572d989f8e41c8ebda3edd1f734b50488eccf52d3ddc832310",
+  "held": 5,
+  "journal_chain_and_step_prefix_verified": true,
+  "native_first_update_exact": true,
+  "new_model_updates_or_inference_executed": false,
+  "original_phase_not_restarted": true,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 19.5,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "S"
+  },
+  "producer_termination": {
+    "cumulative": {
+      "cpu": 2586.213378,
+      "wall": 2587.3853220570018
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "replay_ledger": {
+    "RSS_KiB": 1719796,
+    "active_held": 5,
+    "completed_folds": [
+      2,
+      3,
+      4
+    ],
+    "cpu": 18216.335930374,
+    "fold_stage": "replay",
+    "prior_reused_fold1_cpu": 5019.332418999999,
+    "prior_reused_fold1_wall": 5022.569200421014,
+    "wall": 18197.29829539702
+  },
+  "selected_epoch": 2,
+  "state": "completed64_producer_native_state_selected_model_journal_and_committed_prefix_verified_before_private_protection",
+  "updates": 4608,
+  "users7_8_labels_used": false
+}
