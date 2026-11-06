@@ -1,0 +1,184 @@
+{
+  "state": "roles_metrics_and_frozen_reference_preflight_pass",
+  "observed_unix": 1793946327.8307033,
+  "synthetic_tests": {
+    "state": "pass",
+    "synthetic_role_disjointness_all6": true,
+    "unbalanced_accuracy_vs_macro_distinguished": true,
+    "missing_class_recall_null": true,
+    "absent_class_prediction_counted_wrong": true,
+    "equal_user_mean_vs_sample_weighted_pool_distinguished": true,
+    "paired_subject_count_and_class_support_equal": true,
+    "new_fit_started": false
+  },
+  "folds": [
+    {
+      "held": 1,
+      "validation_user": 2,
+      "training_users": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "counts": {
+        "train": 4700,
+        "validation": 1000,
+        "diagnostic": 1200
+      },
+      "role_ID_hashes": {
+        "train": "47582683c2414be202f13a84b820eb768e23134a6bb022372a89ac5953f99d8f",
+        "validation": "c9a08fdde2eb3ef4872bfd3fb294a2959c8cd9393d665294f2e3dddf3afaab23",
+        "diagnostic": "eee4fa262108190a0efc943b4d57a769cfaebb76f48cfc5f5a4cd43ec2c9fe91"
+      },
+      "epochs": 64,
+      "optimizer_updates": 4736
+    },
+    {
+      "held": 2,
+      "validation_user": 3,
+      "training_users": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "counts": {
+        "train": 4700,
+        "validation": 1200,
+        "diagnostic": 1000
+      },
+      "role_ID_hashes": {
+        "train": "3adf86a254190a60393a29f9dbce55c9f07f92d2e10c66f500811135a1828fd8",
+        "validation": "3cc485df9fb53818653fb9f5f237d8abef78a317ebb875f0a88d88f53589b959",
+        "diagnostic": "c9a08fdde2eb3ef4872bfd3fb294a2959c8cd9393d665294f2e3dddf3afaab23"
+      },
+      "epochs": 64,
+      "optimizer_updates": 4736
+    },
+    {
+      "held": 3,
+      "validation_user": 4,
+      "training_users": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "counts": {
+        "train": 4500,
+        "validation": 1200,
+        "diagnostic": 1200
+      },
+      "role_ID_hashes": {
+        "train": "19773522076eb2e079e21a8c8dbdbb4f6f3146ac8baa0ff4c3025802f9437348",
+        "validation": "388b68fa225924ed3a8da7b60bd8ad46c87931756c98fe67786b523810f276fe",
+        "diagnostic": "3cc485df9fb53818653fb9f5f237d8abef78a317ebb875f0a88d88f53589b959"
+      },
+      "epochs": 64,
+      "optimizer_updates": 4544
+    },
+    {
+      "held": 4,
+      "validation_user": 5,
+      "training_users": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "counts": {
+        "train": 4500,
+        "validation": 1200,
+        "diagnostic": 1200
+      },
+      "role_ID_hashes": {
+        "train": "012ee7b20ca67e23a0f4d338062476ec6fe6bdfb1fbb95e24d589f63c8b31bde",
+        "validation": "d48ad9666261213c43732e146398eedc2577f05fd2dd2648e2f9a125331eb71f",
+        "diagnostic": "388b68fa225924ed3a8da7b60bd8ad46c87931756c98fe67786b523810f276fe"
+      },
+      "epochs": 64,
+      "optimizer_updates": 4544
+    },
+    {
+      "held": 5,
+      "validation_user": 6,
+      "training_users": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "counts": {
+        "train": 4600,
+        "validation": 1100,
+        "diagnostic": 1200
+      },
+      "role_ID_hashes": {
+        "train": "7e2447f7043b76ef7d67c61ae9f26d7f064b76c5835503fe981f4624ded4a983",
+        "validation": "3414920a7814d1fa4977f4e272b2d5cd1b0aa8e1283a2391b8755e377e343351",
+        "diagnostic": "d48ad9666261213c43732e146398eedc2577f05fd2dd2648e2f9a125331eb71f"
+      },
+      "epochs": 64,
+      "optimizer_updates": 4608
+    },
+    {
+      "held": 6,
+      "validation_user": 1,
+      "training_users": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "counts": {
+        "train": 4600,
+        "validation": 1200,
+        "diagnostic": 1100
+      },
+      "role_ID_hashes": {
+        "train": "52d2cc702027777b824f5eb80fbf733be64fe275f1494c129f2b2bc6d991a7b7",
+        "validation": "eee4fa262108190a0efc943b4d57a769cfaebb76f48cfc5f5a4cd43ec2c9fe91",
+        "diagnostic": "3414920a7814d1fa4977f4e272b2d5cd1b0aa8e1283a2391b8755e377e343351"
+      },
+      "epochs": 64,
+      "optimizer_updates": 4608
+    }
+  ],
+  "private_roles_sha256": "b0accc7bd00ec95ba0ca91a5313e887859ed4737b84c11dea174090f12934b52",
+  "actual_sample_ID_values_in_public_report": false,
+  "MMD_fold1_IDs_exact": true,
+  "MMD_fold1_unscored": true,
+  "MMD_old_single_fold_gate_not_invoked": true,
+  "baseline_fold2_6_inventory": {
+    "2": {
+      "selected_model_present": false,
+      "prediction_present": false,
+      "persistent_receipt": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/HELD2_DRIVE_BACKUP_RECEIPT.json"
+    },
+    "3": {
+      "selected_model_present": false,
+      "prediction_present": false,
+      "persistent_receipt": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/HELD3_DRIVE_BACKUP_RECEIPT.json"
+    },
+    "4": {
+      "selected_model_present": false,
+      "prediction_present": false,
+      "persistent_receipt": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/HELD4_DRIVE_BACKUP_RECEIPT.json"
+    },
+    "5": {
+      "selected_model_present": false,
+      "prediction_present": false,
+      "persistent_receipt": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/HELD5_DRIVE_BACKUP_RECEIPT.json"
+    },
+    "6": {
+      "selected_model_present": false,
+      "prediction_present": false,
+      "persistent_receipt": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/FINAL_DRIVE_BACKUP_RECEIPT.json"
+    }
+  },
+  "baseline_recovery_required": true,
+  "no_baseline_refit_needed_unless_recovery_or_native_compatibility_audit_fails": true,
+  "new_training_started": false,
+  "users7_8_labels_used": false
+}

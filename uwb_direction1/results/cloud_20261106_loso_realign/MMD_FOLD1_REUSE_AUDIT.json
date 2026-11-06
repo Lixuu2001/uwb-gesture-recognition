@@ -1,0 +1,45 @@
+{
+  "state": "MMD_held1_eligible_for_exact_source6_role_input_initialization_and_training_budget_reuse",
+  "role_ID_equality": {
+    "train": true,
+    "validation": true,
+    "diagnostic": true
+  },
+  "counts": {
+    "train": 4700,
+    "validation": 1000,
+    "diagnostic": 1200
+  },
+  "held": 1,
+  "validation_user": 2,
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "baseline_initial_native_model_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+  "candidate_initial_native_model_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+  "architecture_parameters": 617612,
+  "seed": 20261029,
+  "epochs": 64,
+  "batch": 64,
+  "baseline_selected_epoch": 60,
+  "MMD_validation_selected_epoch": 1,
+  "MMD_selected_checkpoint_sha256": "047bca005786ff39d2b47ffa67f6b9c62787e6a40e4522e62eafde8c6a0dee40",
+  "MMD_unscored_outputs_sha256": "226391ef234f1a605406e390f03a46acb99b250ec452cd59667fab8ff6a12de0",
+  "output_IDs_equal": true,
+  "logit_shape": [
+    1200,
+    12
+  ],
+  "same_source_ID_and_map_hash": true,
+  "same_native_AdamWLookahead_clip2_and_globalBCE_base": true,
+  "extra_method_component": "fixed gamma1 sevenGaussian source_feature_MMD",
+  "full_MMD64_own64_replay_verified": true,
+  "all4736_updates_per_MMD_trajectory": 4736,
+  "baseline_previous_full_audit_valid_but_not_full64_replay": true,
+  "baseline_old_training_runtime": "historical runtime must be recorded/rechecked upon restoring held2..6; no forced re-training if exact outputs and native audits pass",
+  "diagnostic_labels_or_metrics_not_compared": true,
+  "new_fit_started": false
+}

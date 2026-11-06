@@ -1,0 +1,65 @@
+{
+  "scope": "existing exploratory source-user sixfold results, not new evaluation",
+  "rows": [
+    {
+      "held": 1,
+      "gap64_present_class_macro_recall": 0.9841666666666667,
+      "uniform_mixture_present_class_macro_recall": 0.9916666666666667,
+      "shuffle100_present_class_macro_recall": 0.9858333333333333,
+      "timemil64_present_class_macro_recall": 0.9866666666666667
+    },
+    {
+      "held": 2,
+      "gap64_present_class_macro_recall": 0.9869999999999999,
+      "uniform_mixture_present_class_macro_recall": 0.9960000000000001,
+      "shuffle100_present_class_macro_recall": 0.9940000000000001,
+      "timemil64_present_class_macro_recall": 0.9789999999999999
+    },
+    {
+      "held": 3,
+      "gap64_present_class_macro_recall": 0.8999999999999999,
+      "uniform_mixture_present_class_macro_recall": 0.9066666666666666,
+      "shuffle100_present_class_macro_recall": 0.9133333333333334,
+      "timemil64_present_class_macro_recall": 0.8966666666666666
+    },
+    {
+      "held": 4,
+      "gap64_present_class_macro_recall": 0.9425,
+      "uniform_mixture_present_class_macro_recall": 0.9608333333333333,
+      "shuffle100_present_class_macro_recall": 0.9566666666666667,
+      "timemil64_present_class_macro_recall": 0.8874999999999998
+    },
+    {
+      "held": 5,
+      "gap64_present_class_macro_recall": 0.96,
+      "uniform_mixture_present_class_macro_recall": 0.9816666666666668,
+      "shuffle100_present_class_macro_recall": 0.9825,
+      "timemil64_present_class_macro_recall": 0.9608333333333334
+    },
+    {
+      "held": 6,
+      "gap64_present_class_macro_recall": 0.8463636363636364,
+      "uniform_mixture_present_class_macro_recall": 0.8409090909090909,
+      "shuffle100_present_class_macro_recall": 0.8327272727272729,
+      "timemil64_present_class_macro_recall": 0.8300000000000001
+    }
+  ],
+  "mean": {
+    "gap64_present_class_macro_recall": 0.9366717171717172,
+    "uniform_mixture_present_class_macro_recall": 0.9462904040404041,
+    "shuffle100_present_class_macro_recall": 0.9441767676767677,
+    "timemil64_present_class_macro_recall": 0.9234444444444444
+  },
+  "worst_user": {
+    "gap64_present_class_macro_recall": 0.8463636363636364,
+    "uniform_mixture_present_class_macro_recall": 0.8409090909090909,
+    "shuffle100_present_class_macro_recall": 0.8327272727272729,
+    "timemil64_present_class_macro_recall": 0.8300000000000001
+  },
+  "mixture_original_all_locked_gates_passed": false,
+  "mixture_original_route": "close_exact_source6_uniform_TimeMIL64_Shuffle100_T1_seed20261029_no_rescue",
+  "mixture_original_mean_gain_vs_GAP": 0.009618686868686924,
+  "mixture_original_wins_vs_GAP": 5,
+  "mixture_heterogeneous_training_budget_not_matched_ablation": true,
+  "old_GAP_vs_localCNN_gate_failed_does_not_invalidate_GAP_as_strong_reference": true
+}

@@ -1,0 +1,214 @@
+{
+  "scope": "class_support_audit_only_no_predictions_or_model_selection",
+  "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "rows": [
+    {
+      "user": 1,
+      "n": 1200,
+      "class_counts": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "present_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "missing_classes": [],
+      "present_classes_balanced": true
+    },
+    {
+      "user": 2,
+      "n": 1000,
+      "class_counts": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        0,
+        0
+      ],
+      "present_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "missing_classes": [
+        10,
+        11
+      ],
+      "present_classes_balanced": true
+    },
+    {
+      "user": 3,
+      "n": 1200,
+      "class_counts": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "present_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "missing_classes": [],
+      "present_classes_balanced": true
+    },
+    {
+      "user": 4,
+      "n": 1200,
+      "class_counts": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "present_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "missing_classes": [],
+      "present_classes_balanced": true
+    },
+    {
+      "user": 5,
+      "n": 1200,
+      "class_counts": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "present_classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "missing_classes": [],
+      "present_classes_balanced": true
+    },
+    {
+      "user": 6,
+      "n": 1100,
+      "class_counts": [
+        100,
+        100,
+        100,
+        0,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "present_classes": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "missing_classes": [
+        3
+      ],
+      "present_classes_balanced": true
+    }
+  ],
+  "labels7_8_read": false,
+  "accuracy_equals_present_macro_recall_for_every_possible_prediction_when_all_present_classes_balanced": true
+}
