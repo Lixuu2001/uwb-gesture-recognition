@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_remaining_five_running_held2_first_native_exact_and_private_epoch1_verified_unscored",
+  "state": "LOSO6_MMD_held2_full64_replay_native_complete_private_verified_phase_continues_held3_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_running/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_held2complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793951829.027711,
+  "background_training_observed_unix": 1793957248.9110262,
   "background_training_pid": 50654,
-  "background_training_status_note": "One actual MMD LOSO phase PID50654/model50656 active; held2 first native audit exit0, observed epoch3; epoch1 native optimizer/allRNG/privateIDs checkpoint protected in private3parts, all6 unscored.",
+  "background_training_status_note": "Original MMD phase50654 continues held3/model51888 after full held2 64+64/allnative exact and private13part400payload backup; held1 and full cohort unscored, no duplicate/restart.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14370,5 +14370,61 @@
   "VREx_activated": false,
   "remaining_phase_cap_seconds": 43200,
   "next": "Monitor owned existing phase; all6 frozen and full private composite/raw readback before one cohort score; no duplicate launch or individual score."
+}
+,
+  "mmd_loso6_held2complete_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_held2complete/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "completed_new_folds": [
+    2
+  ],
+  "reused_held1_unscored": true,
+  "held2_updates": 4736,
+  "held2_full_fresh_replay": true,
+  "held2_all65_epoch_and4736_step_records_exact": true,
+  "held2_private_complete_parts": 13,
+  "held2_private_complete_payloads": 400,
+  "held2_private_complete_archive_sha256": "8075136c376743531528ad90d002da4b79568a5dacdba4d601ba997500b82c45",
+  "complete_sixfold_cohort": false,
+  "actual_phase_pid": 50654,
+  "active_held": 3,
+  "active_model_pid": 51888,
+  "held3_native_first_exact": true,
+  "held2_fold_cost": {
+    "wall": 5263.489249912993,
+    "cpu": 5260.291655
+  },
+  "held2_incremental_stage_costs": {
+    "output": {
+      "cpu": 11.548400000000584,
+      "wall": 12.023423831997206
+    },
+    "replay": {
+      "cpu": 2609.638811,
+      "wall": 2610.9740004419873
+    },
+    "train": {
+      "cpu": 2639.1044439999996,
+      "wall": 2640.490846638015
+    }
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "new_diagnostic_scores_computed": false,
+  "old_singlefold_once_invoked": false,
+  "VREx_activated": false,
+  "operational_archive_directory_fault_fixed_training_unaffected": true,
+  "next": "Continue original fixed serial held3..6; all6 frozen/fullprivate composite before ONLY cohort once. No test feedback or relaunch.",
+  "backup_allmember_verification_cost": {
+    "scope": "whole_archive_decompression_and_all400members_hash_verification_after_all13_remote_raw_downloads",
+    "wall_seconds": 0.7789390360121615,
+    "CPU_seconds": 0.776321963,
+    "not_included_in_model_training_or_fresh_replay_cost": true
+  }
 }
 }

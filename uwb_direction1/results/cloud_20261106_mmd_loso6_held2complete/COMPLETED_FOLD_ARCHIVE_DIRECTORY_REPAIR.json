@@ -1,0 +1,25 @@
+{
+  "state": "operational_archive_parent_directory_missing_fixed_before_any_archive_or_upload",
+  "failure": "FileNotFoundError: completed_fold_backups/held2 parent directory absent",
+  "fix": "Create archive parent only; retain original scientific30 and all native run files byte-identical",
+  "before_operator_sha256": "787cf99e4c82f22f2a1ba2b5728a3c15bcc2a9885a204d23656c7df5400341b6",
+  "after_operator_sha256": "e84220f40d550dcf0fa291f7725a23aa006b2ff1c4b14a62c2fe42361ef502f0",
+  "training_interrupted": false,
+  "new_model_fits_or_replays_started": false,
+  "scientific_negative": false,
+  "prior_preparation_cost_preserved": {
+    "all65_epoch_records_equal": true,
+    "all_steps_bitwise_equal": true,
+    "archive_preparation_CPU": 0.030815234999999996,
+    "archive_preparation_wall": 0.031472061993554235,
+    "diagnostic_labels_read": false,
+    "epochs": 64,
+    "held": 2,
+    "native_final_state_sha256": "7e8b738d40e86a8abf7f5ac5fc39a6e045e17cd0e0481cd34156aaf8d00705bd",
+    "selected_epoch": 1,
+    "state": "one_completed_fold_all64_epochs_all_updates_and_native_outputs_reaudited_blind_before_private_backup",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "whole_cohort_complete": false
+  }
+}

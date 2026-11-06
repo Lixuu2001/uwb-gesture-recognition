@@ -1,0 +1,150 @@
+{
+  "active_model": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 170.43,
+    "pid": 51888,
+    "startticks": 18746327,
+    "state": "R"
+  },
+  "frozen_scientific_sha256": "cbb0bd81836c7c5268720d9c59f78052850ff9b457ffa5a9725f17b1c681ba07",
+  "full_cohort_complete": false,
+  "held1_unchanged_unscored": true,
+  "held2_output_freeze": {
+    "diagnostic_labels_read": false,
+    "epochs": 64,
+    "files": {
+      "replay/COMPLETE.json": "3e6e991838f40858bd814fbdf1f2a9c2309c036bb52a02ca9aaddfcb6009b482",
+      "train/diagnostic_unscored.npz": "b0ee3b994b03cc04db8bc76077ebbd6727091ff6abb2b508780e519cd43e092a",
+      "train/final_full.pt": "560299804baaf24911ec5fa17805c95f52247f45c7b076738546e369d0909c88",
+      "train/selected.pt": "d33165fae45a16edfbec4bbcce48476bf54282c90275c1473e0001d69de92ba4",
+      "train/validation_unscored.npz": "9b82657ca99d1ea1848f671129c26bca004be77cafa4ce5e506b686142100af1"
+    },
+    "full_training_replayed": true,
+    "selected_epoch": 1,
+    "state": "full64_training_replay_and_selected_outputs_verified_frozen_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false
+  },
+  "held2_phase_termination": {
+    "cumulative_remaining_phase": {
+      "cpu": 5275.716402125,
+      "wall": 5271.069765249995
+    },
+    "exit_code": 0,
+    "new_diagnostic_metrics_computed": false
+  },
+  "held2_producer": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "b0ee3b994b03cc04db8bc76077ebbd6727091ff6abb2b508780e519cd43e092a",
+    "epochs": 64,
+    "final_state_sha256": "7e8b738d40e86a8abf7f5ac5fc39a6e045e17cd0e0481cd34156aaf8d00705bd",
+    "selected_epoch": 1,
+    "selected_sha256": "d33165fae45a16edfbec4bbcce48476bf54282c90275c1473e0001d69de92ba4",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "9b82657ca99d1ea1848f671129c26bca004be77cafa4ce5e506b686142100af1"
+  },
+  "held2_replay": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "b0ee3b994b03cc04db8bc76077ebbd6727091ff6abb2b508780e519cd43e092a",
+    "epochs": 64,
+    "final_state_sha256": "7e8b738d40e86a8abf7f5ac5fc39a6e045e17cd0e0481cd34156aaf8d00705bd",
+    "selected_epoch": 1,
+    "selected_sha256": "d33165fae45a16edfbec4bbcce48476bf54282c90275c1473e0001d69de92ba4",
+    "state": "full64_fresh_training_replay_exact_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "9b82657ca99d1ea1848f671129c26bca004be77cafa4ce5e506b686142100af1"
+  },
+  "held2_stage_cumulative": {
+    "output": {
+      "cumulative": {
+        "cpu": 5260.291655,
+        "wall": 5263.488270911999
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "replay": {
+      "cumulative": {
+        "cpu": 5248.743254999999,
+        "wall": 5251.464847080002
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    },
+    "train": {
+      "cumulative": {
+        "cpu": 2639.1044439999996,
+        "wall": 2640.490846638015
+      },
+      "diagnostic_labels_read": false,
+      "exit_code": 0,
+      "resource_stop_reason": null,
+      "users7_8_labels_used": false
+    }
+  },
+  "held2_stage_incremental_costs": {
+    "output": {
+      "cpu": 11.548400000000584,
+      "wall": 12.023423831997206
+    },
+    "replay": {
+      "cpu": 2609.638811,
+      "wall": 2610.9740004419873
+    },
+    "train": {
+      "cpu": 2639.1044439999996,
+      "wall": 2640.490846638015
+    }
+  },
+  "held3_first_native_exact": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "435cf8ca26023fd6e6519b1eb4f4a02a4b85d831e41b6e196858a2e2b3572615",
+    "native_first_update_exact": true,
+    "state_sha256": "47e8594e6d49e806bde5308b21565f8616a2dee57fb4dee4219e4f981b498335"
+  },
+  "held3_train_state": {
+    "diagnostic_labels_read": false,
+    "epoch": 4,
+    "selected_epoch": 2,
+    "state": "training",
+    "updates": 284,
+    "users7_8_labels_used": false
+  },
+  "independent_validation": false,
+  "new_diagnostic_scores_computed": false,
+  "novel_contribution_validated": false,
+  "observed_unix": 1793957065.0032566,
+  "original_phase_not_restarted": true,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 7.95,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "S"
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1679492,
+    "active_held": 3,
+    "completed_folds": [
+      2
+    ],
+    "cpu": 5453.180514509,
+    "fold_stage": "train",
+    "prior_reused_fold1_cpu": 5019.332418999999,
+    "prior_reused_fold1_wall": 5022.569200421014,
+    "wall": 5448.459205919993
+  },
+  "state": "held2_full64_fresh64_allnative_audits_complete_unscored_original_phase_now_held3",
+  "users7_8_labels_used": false
+}
