@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_held1_production64_private248_verified_originalphase64529_fresh_replay_unscored",
+  "state": "LOSO6_VREx_held1_full64_ownfresh64_native_complete_private408_verified_original64529_held2_active_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_held1producer/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_held1complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793985998.1089926,
+  "background_training_observed_unix": 1793990742.0636637,
   "background_training_pid": 64529,
-  "background_training_status_note": "Original64529 active held1/replay epoch12; held1producer64 complete/private8parts248payloads verified. Freshreplay incomplete, no fullfold/cohort results or testscores; no duplicates.",
+  "background_training_status_note": "Held1full64+ownfresh64+native audits complete, private13parts408payloads verified singlefold only. Original64529 active held2/train epoch56; no scores/duplicates.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -15202,5 +15202,170 @@
   "new_test_scores_computed": false,
   "readonly_MMD_diagnostic_preserved": true,
   "next": "Continue existing64529 ownfresh64 and nativeaudit for all6, protect completed states; only complete private cohort/exactrelease then once score. No producer restart or held1 test gate."
+}
+,
+  "vrex_loso6_held1complete_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_held1complete/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "held1_complete64_and_ownfresh64": true,
+  "held1_all65_epoch_records_and_all4736_updates_exact": true,
+  "held1_schedule_intent_counter_audit": {
+    "state": "completed_held1_external_log_counter_and_schedule_intent_checked_no_refit_or_score",
+    "observed_unix": 1793990461.2294075,
+    "arms": {
+      "train": {
+        "updates": 4736,
+        "algorithm_counter_contiguous": true,
+        "full_reset_exactly_before_updates": [
+          501
+        ],
+        "weight1_updates": 500,
+        "weight10_updates": 4236,
+        "reset_events_exact": true
+      },
+      "replay": {
+        "updates": 4736,
+        "algorithm_counter_contiguous": true,
+        "full_reset_exactly_before_updates": [
+          501
+        ],
+        "weight1_updates": 500,
+        "weight10_updates": 4236,
+        "reset_events_exact": true
+      }
+    },
+    "incremental_stage_seconds": {
+      "train": {
+        "wall": 2713.1731009320065,
+        "cpu": 2710.812051
+      },
+      "replay": {
+        "wall": 2703.4535751100047,
+        "cpu": 2701.8466320000007
+      },
+      "output": {
+        "wall": 12.031932609999785,
+        "cpu": 11.59834199999932
+      }
+    },
+    "final_cumulative": {
+      "cpu": 5424.257025,
+      "wall": 5428.658608652011
+    },
+    "single_fold_only": true,
+    "full_sixfold_complete": false,
+    "labels_paired": false,
+    "new_optimizer_updates": false
+  },
+  "held1_complete_single_fold": true,
+  "held1_complete_modelset_verified": true,
+  "held1_private_parts": 13,
+  "held1_private_payloads": 408,
+  "complete_sixfold_cohort": false,
+  "actual_phase_observation": {
+    "all6_declared_phase_not_sixfold_completed": true,
+    "committed_progress": {
+      "checkpoint_sha256": "2ee19ccafb40390f306ae42697e2157613a6899a621ad63435218d8f60ebe38b",
+      "epoch": 56,
+      "journal_sha256": "88494bfc765757ceb5331ab11408fcd6d90fa45367cd9eb547f8b1abb5cbd343",
+      "prefix_bytes": 3093288,
+      "prefix_sha256": "6ded34bba69a06c686ec6b3bd7d2313a2651695ee26c703d0ed69822205b6673",
+      "slot": "slot0.pt",
+      "updates": 4144
+    },
+    "controller": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 5.26,
+        "pid": 67451,
+        "startticks": 21875067,
+        "state": "S"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.54,
+        "pid": 67451,
+        "startticks": 21875067,
+        "state": "R"
+      }
+    },
+    "current_held": 2,
+    "diagnostic_labels_read": false,
+    "first_partial_backup_is_not_complete_modelset": true,
+    "native_first_release": {
+      "diagnostic_labels_read": false,
+      "first_sha256": "5382c1e06fb47fef252dfb0133faf736b8fe96a412fe8a4b81b3f7519498e4d0",
+      "native_first_update_exact": true,
+      "state_sha256": "005b05581d81059618cb633f12be853cc6cfe848d0df77916ee827d1ea93634b"
+    },
+    "new_real_release": {
+      "branch_head_verified": true,
+      "commit": "eaa1653059b44882a1dcd1014a622396d81b671b",
+      "configuration_fixed_before_complete_MMD_score": true,
+      "force": false,
+      "frozen_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+      "initial_archive_sha256": "5cab4eb2ee2fafa400ecf37381d7e7fe138e2d5a7f5c5f2e794212c3bd9bfa9a",
+      "initial_model_file_sha256": "b2e5e8cc4edda7a20f05b03a47291bc5774ed456de3cfa5c0715dd1dc8513156",
+      "main_all_six_wall_CPU_cap_seconds": 43200
+    },
+    "new_training_actually_started": true,
+    "observed_unix": 1793990662.1911676,
+    "old_MMD_source1_once_invoked": false,
+    "old_VREx_singlefold_activated": false,
+    "phase_actual_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 10.03,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "S"
+    },
+    "phase_original_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.57,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "R"
+    },
+    "resource_ledger": {
+      "RSS_KiB": 1756392,
+      "active_held": 2,
+      "completed_folds": [
+        1
+      ],
+      "cpu": 7927.831209207,
+      "fold_stage": "train",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "wall": 7919.394890224998
+    },
+    "scientific_sources_unchanged": true,
+    "stage": "train",
+    "state": "one_actual_full_sixfold_VREx_phase_running_unscored",
+    "users7_8_labels_used": false,
+    "worker": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2475.12,
+        "pid": 67452,
+        "startticks": 21875322,
+        "state": "R"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 0.0,
+        "pid": 67452,
+        "startticks": 21875322,
+        "state": "R"
+      }
+    }
+  },
+  "no_new_test_scores_computed": true,
+  "original_phase_not_restarted": true,
+  "old_singlefold_once_not_invoked": true,
+  "prior_costs_retained": true,
+  "next": "Continue existing64529 phase at actualheld2. Never refit completedheld1/currentfold or score held1 alone. Complete all6 production+ownfresh64/native/full private freeze/exactrelease then one cohort score, with planned confound controls if effective."
 }
 }

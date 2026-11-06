@@ -1,0 +1,48 @@
+{
+  "state": "completed_held1_external_log_counter_and_schedule_intent_checked_no_refit_or_score",
+  "observed_unix": 1793990461.2294075,
+  "arms": {
+    "train": {
+      "updates": 4736,
+      "algorithm_counter_contiguous": true,
+      "full_reset_exactly_before_updates": [
+        501
+      ],
+      "weight1_updates": 500,
+      "weight10_updates": 4236,
+      "reset_events_exact": true
+    },
+    "replay": {
+      "updates": 4736,
+      "algorithm_counter_contiguous": true,
+      "full_reset_exactly_before_updates": [
+        501
+      ],
+      "weight1_updates": 500,
+      "weight10_updates": 4236,
+      "reset_events_exact": true
+    }
+  },
+  "incremental_stage_seconds": {
+    "train": {
+      "wall": 2713.1731009320065,
+      "cpu": 2710.812051
+    },
+    "replay": {
+      "wall": 2703.4535751100047,
+      "cpu": 2701.8466320000007
+    },
+    "output": {
+      "wall": 12.031932609999785,
+      "cpu": 11.59834199999932
+    }
+  },
+  "final_cumulative": {
+    "cpu": 5424.257025,
+    "wall": 5428.658608652011
+  },
+  "single_fold_only": true,
+  "full_sixfold_complete": false,
+  "labels_paired": false,
+  "new_optimizer_updates": false
+}
