@@ -1,0 +1,33 @@
+{
+  "state": "fixed_remaining_five_MMD_LOSO_implementation_before_new_real_fits",
+  "cohort_protocol": "DEVELOPMENT_PROTOCOL.json",
+  "source1_reused_unscored": "/workspace/uwb-mmd-gap64-20261106",
+  "new_held_users": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "fold_configs": {
+    "2": "folds/held2/PROTOCOL.json",
+    "3": "folds/held3/PROTOCOL.json",
+    "4": "folds/held4/PROTOCOL.json",
+    "5": "folds/held5/PROTOCOL.json",
+    "6": "folds/held6/PROTOCOL.json"
+  },
+  "engine_identical_to_original_MMD": true,
+  "engine_sha256": "0c88bae9ec32b71ca1fe355298113cb36737a4c36b6be5654a2dbdf40047218a",
+  "singlefold_entry_gate": false,
+  "all_six_predictions_freeze_before_cohort_once": true,
+  "users7_8_labels_used": false,
+  "source1_old_once_must_not_run": true,
+  "baseline_recovered_native_blind_output_bitwise_exact": true,
+  "method_configuration_or_seed_not_changed": true,
+  "own_full_fresh_training_replay_each_remaining_fold": true,
+  "remaining_wall_CPU_cap_seconds": 43200,
+  "completed_held1_cost_retained": true,
+  "production_auto_retry": false,
+  "stop_policy": "verify PID boot/startticks and stop all independently sessioned owned workers/auditors; retain checkpoints/logs and +5seconds unknown CPU charge on failure",
+  "archive_and_once_operators_cannot_score_before_all6private_and_frozen": true
+}

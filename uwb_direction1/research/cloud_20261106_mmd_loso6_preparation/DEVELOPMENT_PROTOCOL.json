@@ -1,0 +1,397 @@
+{
+  "state": "user_directed_strict_six_user_LOSO_development_protocol_fixed_before_any_MMD_diagnostic_score",
+  "date_utc": "2026-11-06T06:21:41.886406+00:00",
+  "user_directive": "不是你基线选择错误了，我们尽量往loso上面靠这样有提高空间",
+  "user_followup": "保留原实验结论，不将单个 held-user-1 的高分作为所有候选进入多折评估的必要门槛；方法选择后再规划完整八人外层逐人留出。",
+  "source_ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "source_maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "data": "/workspace/uwb-restored-20261103",
+  "input_sha256": {
+    "X_clutterremoved": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "y_clutterremoved": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd",
+    "subj_clutterremoved": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480"
+  },
+  "cohort": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "outer_test_rule": "heldH1..6; no samples or labels from heldH in its training or validation; validation H%6+1; other4 users train",
+  "counts": {
+    "1": [
+      4700,
+      1000,
+      1200
+    ],
+    "2": [
+      4700,
+      1200,
+      1000
+    ],
+    "3": [
+      4500,
+      1200,
+      1200
+    ],
+    "4": [
+      4500,
+      1200,
+      1200
+    ],
+    "5": [
+      4600,
+      1100,
+      1200
+    ],
+    "6": [
+      4600,
+      1200,
+      1100
+    ]
+  },
+  "baseline": "exact existing native GAP64 strong baseline, user-equal mean .9366717171717172, not singlefold .9841666666666667 or legacy eightfold",
+  "method": "same fixed seven-Gaussian MMD gamma1 on native GAP; only outer held/validation/train roles change",
+  "MMD_pilot_scientific_manifest_sha256": "c008bed1eb56838fef0a1dd5b0d402dc46996ddef659cdc159fbfb2543317628",
+  "MMD_fold1_reuse_audit_sha256": "8d89bf9cfe30b85cf4c1ab5dd1da79666d4a6f432b0d5c8c38d7ff190c585338",
+  "MMD_hyperparameters": {
+    "gamma": 1.0,
+    "kernel_gammas": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "selfterms_included": true,
+    "clamp_min": 1e-30,
+    "features": "last native full128 globalpool",
+    "source_groups": "each fold training users only; all nonempty including singleton; average pairs; fewer2 connectedzero"
+  },
+  "matched_controls": {
+    "parameters": 617612,
+    "architecture": "full native GAP/Inception backbone",
+    "input": "all3radars x90time x189range signed unclipped maps; per-record per-view RMS floor1e-8; no fitted inter-record stats or resize",
+    "optimizer": "AdamW .001 weight_decay.0001 native lazy StableLookahead alpha.5 k6 gradient_clip2",
+    "loss_base": "unweighted globalmean onehot12 BCEWithLogits; only method adds fixed MMD",
+    "seed": 20261029,
+    "batch": 64,
+    "epochs": 64,
+    "threads": 1,
+    "selection": "highest held-disjoint validation user present-class macro recall, lower native BCE, earlier epoch",
+    "no_warm_start_from_another_held_model": true,
+    "matched_initial_model_semantic_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3"
+  },
+  "reuse": {
+    "MMD_held1": true,
+    "baseline_all6_if_artifact_hash_role_native_output_checks_pass": true,
+    "baseline_models_held2_6_currently_need_persistent_Drive_recovery": true,
+    "no_repeat_training_just_for_recovery": true,
+    "baseline_original_audit": "initial/first/selected native and output audited; not full64 trajectory replay",
+    "MMD_held1_full64_and_own_fresh64_audited": true,
+    "additional_MMD_folds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "metric": {
+    "primary": "equal subject mean of present-class macro recall; all6 folds reported",
+    "secondary": [
+      "per-subject accuracy",
+      "per-class support and recall including null for absent true classes",
+      "worst subject macro recall",
+      "paired per-subject differences and strict wins",
+      "sample-weighted pooled accuracy separately named",
+      "training/inference/replay/archive costs separately"
+    ],
+    "absent_class_rule": "true support0 yields null per-class recall; exclude only undefined true-class recall from present macro; a prediction of absent class for any true example is still wrong",
+    "class_support": [
+      {
+        "user": 1,
+        "n": 1200,
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "missing_classes": [],
+        "present_classes_balanced": true
+      },
+      {
+        "user": 2,
+        "n": 1000,
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "missing_classes": [
+          10,
+          11
+        ],
+        "present_classes_balanced": true
+      },
+      {
+        "user": 3,
+        "n": 1200,
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "missing_classes": [],
+        "present_classes_balanced": true
+      },
+      {
+        "user": 4,
+        "n": 1200,
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "missing_classes": [],
+        "present_classes_balanced": true
+      },
+      {
+        "user": 5,
+        "n": 1200,
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "missing_classes": [],
+        "present_classes_balanced": true
+      },
+      {
+        "user": 6,
+        "n": 1100,
+        "class_counts": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "present_classes": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "missing_classes": [
+          3
+        ],
+        "present_classes_balanced": true
+      }
+    ],
+    "class_support_audit_only_no_prediction_pairing": true,
+    "accuracy_equals_macro_on_this_balanced_present_support": true
+  },
+  "selection_firewall": {
+    "no_individual_test_fold_entry_gate": true,
+    "no_MMD_source1_original_once_gate_invocation": true,
+    "do_not_auto_activate_VREx_on_source1": true,
+    "all5_new_folds_and_reused_fold1_predictions_fixed_before_single_joint_diagnostic": true,
+    "all_models_native_audits_and_private_full_backups_before_joint_score": true,
+    "checkpoint_and_hyperparameter_selection_use_only_training_validation": true,
+    "no_difficult_fold_omission": true,
+    "users7_8_labels_for_selection": false,
+    "all_repeated_eight_user_development_exploratory": true,
+    "original_MMD_pilot_files_preserved_immutable": true,
+    "previously_closed_configurations_not_reopened": true
+  },
+  "bounded_LOSO_continuation_gate": {
+    "applies_only_to_new_unscored_MMD_sixfold_not_retroactive_to_prior_closed_methods": true,
+    "mean_paired_macro_recall_gain_min": 0.005,
+    "strict_wins_min": 4,
+    "worst_paired_macro_recall_delta_min": -0.02,
+    "tolerance": 1e-12,
+    "report_any_measured_positive_or_negative_result_even_if_spending_gate_fails": true,
+    "no_post_score_coefficient_kernel_epoch_seed_or_fold_grid": true
+  },
+  "budget": {
+    "prior_held1_wall_seconds": 5022.569200421014,
+    "prior_held1_CPU_seconds": 5019.332418999999,
+    "remaining5_estimated_train_plus_fresh_replay_seconds": 25112.84600210507,
+    "remaining_conservative_reserve_seconds": 39469.269003157606,
+    "new5_phase_wall_cap_seconds": 43200,
+    "new5_phase_CPU_cap_seconds": 43200,
+    "prior_completed_cost_always_reported_and_not_reset": true,
+    "whole_reported_cost_includes_prior_and_new_phase": true,
+    "new5_execution": "sequential one native thread; same64epochs and paired step count per fold; replay cost not called extra training-budget advantage",
+    "RSS_KiB_cap": 12582912,
+    "production_auto_retry": false
+  },
+  "next_actions": [
+    "Finish owner-only/raw/everymember backup of already completed MMD fold1 without invoking its superseded singlefold scorer",
+    "Recover and hash-check existing GAP held2..6 from persistent private composite indices; check native compatibility and roles, do not blindly refit",
+    "Implement and pre-register generalized per-fold MMD loader/worker count and first-update/full-trajectory replay guards; no new fivefold training started in this amendment",
+    "Run fixed MMD held2..6 only after implementation/cost/privateinitial/release guards; no source1 gate or sequential individual test feedback",
+    "Freeze all6 method outputs and complete private backups, then one cohort aggregate evaluation",
+    "Only after method selection design separate matched full eight-person outer LOSO; no new eightfold job now and no independent-new-user claim"
+  ],
+  "full_eight_outer_LOSO": {
+    "not_executed_in_this_plan": true,
+    "later_fold_rule": "test h; validation h%8+1; other6 users train; fresh models and matched baseline for every held user",
+    "not_comparable_by_subtracting_six_user_mean": true,
+    "historical_eight_user_exposure_disclosed": true,
+    "users7_8_not_for_method_selection": true
+  },
+  "frozen_reference_files": {
+    "/workspace/uwb-cloud-current/uwb_direction1/research/gap_source6_20261030/PROTOCOL.json": "9195ac6d69ec54fe285cacd840765305f7013626667ab734ac34eefcf4bfd7c8",
+    "/workspace/uwb-cloud-current/uwb_direction1/research/gap_source6_20261030/train.py": "121ce6fc4e62f9eca0e7228e51223115f6a363d74d915bf0d5d7ceb5fcfe0f7a",
+    "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/SUMMARY.json": "b6d5b233f91344560042e3b027d9dcd62db8f6d569e2320f1702b05c1bde9253",
+    "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/COMPLETE_AUDIT.json": "fe0df1ca3039e61bd0d0c9724e4b20e6a598e79da2ae70459b8e5706bfb8cb2b",
+    "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261030_gap_source6/FINAL_DRIVE_BACKUP_RECEIPT.json": "1e72ac6c5fdcd8efef52da206ac81feab1cffcf50b4d7de0c44619a69e3c5bca",
+    "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261105_softvote_source6_final/SUMMARY.json": "b6fd9c590bf3ed43a588281476061ef37e5e92a625a971a85dd354bb6f858325",
+    "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261105_softvote_source6_final/COMPLETE_AUDIT.json": "1a187f9b31c2fbfcaf719e4e7b7a75ae6ecb4aca681c5d39f16a299829476e86",
+    "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261105_softvote_source6_final/full_backup/CLOUD_DOWNLOAD_INDEX.json": "e36ab39678dcfa5509dc6a792d731dc6b9d663f29b6029ce7c4ae2cfd0734e7d",
+    "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20260930_circular/SUMMARY.json": "082d0c22ec8ac35b35d9c1e7ea7fa06d99ef24fd1b55dbf09e6cae090448c137",
+    "/workspace/uwb-cloud-current/uwb_direction1/research/CIRCULAR_SIGNAL_PROTOCOL.json": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
+    "/workspace/uwb-mmd-gap64-20261106/PROTOCOL.json": "64aae7910506fb4c4320749a9208ee5e546b54a71962084ddec94ed3a8ee7bb4",
+    "/workspace/uwb-mmd-gap64-20261106/FROZEN_HASHES.json": "c008bed1eb56838fef0a1dd5b0d402dc46996ddef659cdc159fbfb2543317628",
+    "/workspace/uwb-mmd-gap-final-meta-20261106/PILOT_AUDIT.json": "f79014554bd9b4f279ac875bb9b7f5ac1f68534280e630503e489e768f6e3593",
+    "/workspace/uwb-mmd-gap64-20261106/STATE.json": "4bf136f3dd2ec7e34df4dfcdfe72f669bd2d4fbe560c648ed9b89e1063d947d2"
+  },
+  "new_training_started": false,
+  "new_MMD_test_accuracy_computed": false,
+  "novel_contribution_claim": false
+}

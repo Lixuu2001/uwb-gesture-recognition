@@ -1,0 +1,333 @@
+{
+  "parent": "83705f62565d23a27d364c4c13a1ae26ca68fbdb",
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "manifests": {
+    "2": {
+      "state": "immutable_completed_fold_snapshot",
+      "held": 2,
+      "epochs": 64,
+      "observed_unix": 1793346583.9099228,
+      "diagnostic_values_decoded": false,
+      "real_sample_or_label_values_read": false,
+      "real_fitting_or_forward": false,
+      "raw_arrays_included": false,
+      "source_maps_included": false,
+      "live_incomplete_fold_included": false,
+      "full_job_resume_snapshot": false,
+      "current_archive_models": [
+        2
+      ],
+      "held1_models_require_prior_backup": true,
+      "limitations": "Only immutable completed fold and code/IDs/reference prerequisites. Upstream complete private receipt recovers reused held1 tensors; original input migration index restores raw data and exact saved RMS/reshape regenerates maps. Current live fold and remaining folds absent; never restart/duplicate the alive worker from this bundle.",
+      "archive_name": "gap_source6_held2.tar.gz",
+      "archive_bytes": 21110355,
+      "archive_sha256": "a72be5a59c4a38240e3a334756a00291912ddee1ca704cf0e07e587bb66f889f",
+      "tracked_payload_files": 82,
+      "members_manifest_sha256": "31883bda340dd7634308f45562f7393064f7b3f81ac1bb84d68f14bb71e35eae",
+      "chunks": [
+        {
+          "name": "gap_source6_held2.part000",
+          "bytes": 7340032,
+          "sha256": "13336a575b8a92aab302276a2d7377335c1eb36f59a9f108fcd866e26b2755a6"
+        },
+        {
+          "name": "gap_source6_held2.part001",
+          "bytes": 7340032,
+          "sha256": "cf4546c3b493092118a5e5c5027799833cd589be962789caf9d0784fd6821a07"
+        },
+        {
+          "name": "gap_source6_held2.part002",
+          "bytes": 6430291,
+          "sha256": "7757b48e34e0eced4f1f4a0ff4c5d316a3eb50931454bff17c30fd060dfb5f6f"
+        }
+      ]
+    },
+    "3": {
+      "state": "immutable_completed_fold_snapshot",
+      "held": 3,
+      "epochs": 64,
+      "observed_unix": 1793350264.298219,
+      "diagnostic_values_decoded": false,
+      "real_sample_or_label_values_read": false,
+      "real_fitting_or_forward": false,
+      "raw_arrays_included": false,
+      "source_maps_included": false,
+      "live_incomplete_fold_included": false,
+      "full_job_resume_snapshot": false,
+      "current_archive_models": [
+        3
+      ],
+      "held1_models_require_prior_backup": true,
+      "limitations": "Only immutable completed fold and code/IDs/reference prerequisites. Upstream complete private receipt recovers reused held1 tensors; original input migration index restores raw data and exact saved RMS/reshape regenerates maps. Current live fold and remaining folds absent; never restart/duplicate the alive worker from this bundle.",
+      "archive_name": "gap_source6_held3.tar.gz",
+      "archive_bytes": 21135832,
+      "archive_sha256": "0781286d693ea66ee37078c933733a13e6e4dc79c460aa80343b6bfb74d57938",
+      "tracked_payload_files": 82,
+      "members_manifest_sha256": "b44599124d445459eb2bd9fabd6169363d9e37dc3464c752ec5ea78414c34961",
+      "chunks": [
+        {
+          "name": "gap_source6_held3.part000",
+          "bytes": 7340032,
+          "sha256": "37ed795609f4bd1a92c721c8cb047d2d9d6707a13bfb09b2764457cd09e837b7"
+        },
+        {
+          "name": "gap_source6_held3.part001",
+          "bytes": 7340032,
+          "sha256": "9ca6993ad129844b7cc2b6fb867e01cd59999c86c8d3d36a683005fe5c5a2d59"
+        },
+        {
+          "name": "gap_source6_held3.part002",
+          "bytes": 6455768,
+          "sha256": "1e08f24573fa52e2a1be058878102202482f15587bab2bee75c815c3c7ffdd44"
+        }
+      ]
+    },
+    "4": {
+      "state": "immutable_completed_fold_snapshot",
+      "held": 4,
+      "epochs": 64,
+      "observed_unix": 1793350265.3530216,
+      "diagnostic_values_decoded": false,
+      "real_sample_or_label_values_read": false,
+      "real_fitting_or_forward": false,
+      "raw_arrays_included": false,
+      "source_maps_included": false,
+      "live_incomplete_fold_included": false,
+      "full_job_resume_snapshot": false,
+      "current_archive_models": [
+        4
+      ],
+      "held1_models_require_prior_backup": true,
+      "limitations": "Only immutable completed fold and code/IDs/reference prerequisites. Upstream complete private receipt recovers reused held1 tensors; original input migration index restores raw data and exact saved RMS/reshape regenerates maps. Current live fold and remaining folds absent; never restart/duplicate the alive worker from this bundle.",
+      "archive_name": "gap_source6_held4.tar.gz",
+      "archive_bytes": 21136140,
+      "archive_sha256": "a1b9653b8b0320c264dd41e1086409292c330ca8d566ed580a26782ecd3fcf5d",
+      "tracked_payload_files": 82,
+      "members_manifest_sha256": "9a9ed31d5d78588ffad9a0127c869412cda887cf60b784d239478931c596f806",
+      "chunks": [
+        {
+          "name": "gap_source6_held4.part000",
+          "bytes": 7340032,
+          "sha256": "e44a3cb191fcca1053de470ac1067e35f600ab7438dd18f7190eafe35d99e9c6"
+        },
+        {
+          "name": "gap_source6_held4.part001",
+          "bytes": 7340032,
+          "sha256": "ae94fa9cdda9561d900a14dcd90dd5bb6b3dc5de6accc6f6192bf7c4a2505a67"
+        },
+        {
+          "name": "gap_source6_held4.part002",
+          "bytes": 6456076,
+          "sha256": "70c0c81c4a7f1184da8a2ea09ece789a6bf4d257fabf26df36023e213305b639"
+        }
+      ]
+    },
+    "5": {
+      "state": "immutable_completed_fold_snapshot",
+      "held": 5,
+      "epochs": 64,
+      "observed_unix": 1793353858.868734,
+      "diagnostic_values_decoded": false,
+      "real_sample_or_label_values_read": false,
+      "real_fitting_or_forward": false,
+      "raw_arrays_included": false,
+      "source_maps_included": false,
+      "live_incomplete_fold_included": false,
+      "full_job_resume_snapshot": false,
+      "current_archive_models": [
+        5
+      ],
+      "held1_models_require_prior_backup": true,
+      "limitations": "Only immutable completed fold and code/IDs/reference prerequisites. Upstream complete private receipt recovers reused held1 tensors; original input migration index restores raw data and exact saved RMS/reshape regenerates maps. Current live fold and remaining folds absent; never restart/duplicate the alive worker from this bundle.",
+      "archive_name": "gap_source6_held5.tar.gz",
+      "archive_bytes": 21129357,
+      "archive_sha256": "d69ef03ee7f6a7290e7eb1469de83330fcd220187005a6250becdd9b3f6b0d17",
+      "tracked_payload_files": 83,
+      "members_manifest_sha256": "395f7c2adc74abd4b433faf6661f2a7b5ac30a1a88ec60ae7bac4d90042e9b4d",
+      "chunks": [
+        {
+          "name": "gap_source6_held5.part000",
+          "bytes": 7340032,
+          "sha256": "8814672eef3ad66406cc237e19dd231a2e78e8106b6042bfd355607a131a0903"
+        },
+        {
+          "name": "gap_source6_held5.part001",
+          "bytes": 7340032,
+          "sha256": "ea0af23887fa72cbb4f45704113b017bf6f70f5ee594672808f83f70f50c6ab7"
+        },
+        {
+          "name": "gap_source6_held5.part002",
+          "bytes": 6449293,
+          "sha256": "537f41cf0c4266be480a7d4f2c9de3f64a440ab9043ee8f99416ef1056841a6c"
+        }
+      ]
+    },
+    "6": {
+      "state": "completed_gap_source6_recoverable_composite",
+      "observed_unix": 1793355054.3403149,
+      "current_archive_models": [
+        6
+      ],
+      "prior_model_indices": {
+        "2": "prior_backups/held2.json",
+        "3": "prior_backups/held3.json",
+        "4": "prior_backups/held4.json",
+        "5": "prior_backups/held5.json"
+      },
+      "held1": "prior_backups/upstream_held1_author_core.json",
+      "full_set_requires_prior_archives": true,
+      "raw_radar_arrays_included": false,
+      "source_maps_included": false,
+      "scope": "All trajectories finished; current archive contains held6 tensors/final metadata and references earlier private model bundles. Never claim this archive alone contains every model. Original input migration index and exact source IDs regenerate signed-map per-record/view RMS/reshape cache.",
+      "archive_name": "gap_source6_final.tar.gz",
+      "archive_bytes": 21360257,
+      "archive_sha256": "44ca6b1612c24ea3f35635b108a0a356fa8b3e6a81a2706fee1b6851748839ee",
+      "tracked_payload_files": 76,
+      "members_manifest_sha256": "e3d919fd5a8df2dc6589e6abb2c2be1ae4de6a0619fed92780f5748e6e82d55f",
+      "chunks": [
+        {
+          "name": "gap_source6_final.part000",
+          "bytes": 7340032,
+          "sha256": "a231a978789930d133472584f923e0fa9b16bf6fc852ece0f830e1e8d9591e18"
+        },
+        {
+          "name": "gap_source6_final.part001",
+          "bytes": 7340032,
+          "sha256": "1dcf9e3ac8c5e2d498e18057fa9aeabc79a56d761b07179a8dc680a1cbc7fff7"
+        },
+        {
+          "name": "gap_source6_final.part002",
+          "bytes": 6680193,
+          "sha256": "a26bf373d6d1d7d3a5289b4f2943ffb95393a4919bc28c4d0657943f44bcc8fb"
+        }
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "index": 0,
+      "held": 2,
+      "name": "gap_source6_held2.part000",
+      "bytes": 7340032,
+      "sha256": "13336a575b8a92aab302276a2d7377335c1eb36f59a9f108fcd866e26b2755a6",
+      "file_id": "1ByrDncdPDGFJEq_4N0o6VQVpcIgXILuA"
+    },
+    {
+      "index": 1,
+      "held": 2,
+      "name": "gap_source6_held2.part001",
+      "bytes": 7340032,
+      "sha256": "cf4546c3b493092118a5e5c5027799833cd589be962789caf9d0784fd6821a07",
+      "file_id": "1l9qrCbNomEyaEjZIfZz6foNmao7jogSx"
+    },
+    {
+      "index": 2,
+      "held": 2,
+      "name": "gap_source6_held2.part002",
+      "bytes": 6430291,
+      "sha256": "7757b48e34e0eced4f1f4a0ff4c5d316a3eb50931454bff17c30fd060dfb5f6f",
+      "file_id": "1cYBu30WO2tg2lgKiP5QQ25ksSLtciqtQ"
+    },
+    {
+      "index": 3,
+      "held": 3,
+      "name": "gap_source6_held3.part000",
+      "bytes": 7340032,
+      "sha256": "37ed795609f4bd1a92c721c8cb047d2d9d6707a13bfb09b2764457cd09e837b7",
+      "file_id": "14Zok2OX71wRHWscU4FRgGXMIHTjc8UER"
+    },
+    {
+      "index": 4,
+      "held": 3,
+      "name": "gap_source6_held3.part001",
+      "bytes": 7340032,
+      "sha256": "9ca6993ad129844b7cc2b6fb867e01cd59999c86c8d3d36a683005fe5c5a2d59",
+      "file_id": "1cky3TVzniGSRoqFA3XchbAQnzbzS4-IJ"
+    },
+    {
+      "index": 5,
+      "held": 3,
+      "name": "gap_source6_held3.part002",
+      "bytes": 6455768,
+      "sha256": "1e08f24573fa52e2a1be058878102202482f15587bab2bee75c815c3c7ffdd44",
+      "file_id": "1XyJ06iS3X9xvSDm7e_3k5Ot8bB1xjwGM"
+    },
+    {
+      "index": 6,
+      "held": 4,
+      "name": "gap_source6_held4.part000",
+      "bytes": 7340032,
+      "sha256": "e44a3cb191fcca1053de470ac1067e35f600ab7438dd18f7190eafe35d99e9c6",
+      "file_id": "1TMFUvhY5c0B85Z72hXnNIZUau3fy15VZ"
+    },
+    {
+      "index": 7,
+      "held": 4,
+      "name": "gap_source6_held4.part001",
+      "bytes": 7340032,
+      "sha256": "ae94fa9cdda9561d900a14dcd90dd5bb6b3dc5de6accc6f6192bf7c4a2505a67",
+      "file_id": "1PN1zwKy-fFnxcu4qOfwVBYsKm2urmM3O"
+    },
+    {
+      "index": 8,
+      "held": 4,
+      "name": "gap_source6_held4.part002",
+      "bytes": 6456076,
+      "sha256": "70c0c81c4a7f1184da8a2ea09ece789a6bf4d257fabf26df36023e213305b639",
+      "file_id": "1wlEuXj2JGNpeOWWnIGgKZNFL_ziUDWVE"
+    },
+    {
+      "index": 9,
+      "held": 5,
+      "name": "gap_source6_held5.part000",
+      "bytes": 7340032,
+      "sha256": "8814672eef3ad66406cc237e19dd231a2e78e8106b6042bfd355607a131a0903",
+      "file_id": "1yIikr-GqKT6QuX9d1myPwKB8QaESvy0u"
+    },
+    {
+      "index": 10,
+      "held": 5,
+      "name": "gap_source6_held5.part001",
+      "bytes": 7340032,
+      "sha256": "ea0af23887fa72cbb4f45704113b017bf6f70f5ee594672808f83f70f50c6ab7",
+      "file_id": "1DDXw9AoldsKrmld7xMZnUoKPCHJT6Qjo"
+    },
+    {
+      "index": 11,
+      "held": 5,
+      "name": "gap_source6_held5.part002",
+      "bytes": 6449293,
+      "sha256": "537f41cf0c4266be480a7d4f2c9de3f64a440ab9043ee8f99416ef1056841a6c",
+      "file_id": "1wDpvgHUYWPbw7d7NuyN_EH9Fd9Wl_ZrM"
+    },
+    {
+      "index": 12,
+      "held": 6,
+      "name": "gap_source6_final.part000",
+      "bytes": 7340032,
+      "sha256": "a231a978789930d133472584f923e0fa9b16bf6fc852ece0f830e1e8d9591e18",
+      "file_id": "1GqDC4hfJMfcBjY5LrxCOka-hXHwgKGlk"
+    },
+    {
+      "index": 13,
+      "held": 6,
+      "name": "gap_source6_final.part001",
+      "bytes": 7340032,
+      "sha256": "1dcf9e3ac8c5e2d498e18057fa9aeabc79a56d761b07179a8dc680a1cbc7fff7",
+      "file_id": "1fE93h4d4Dwv1qD1NcBwKuHzkQzsk6Aej"
+    },
+    {
+      "index": 14,
+      "held": 6,
+      "name": "gap_source6_final.part002",
+      "bytes": 6680193,
+      "sha256": "a26bf373d6d1d7d3a5289b4f2943ffb95393a4919bc28c4d0657943f44bcc8fb",
+      "file_id": "1Jwx_XCSHqyO95UBcM081NT-_bxt0_WGs"
+    }
+  ],
+  "max_concurrency": 3,
+  "raw_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  }
+}
