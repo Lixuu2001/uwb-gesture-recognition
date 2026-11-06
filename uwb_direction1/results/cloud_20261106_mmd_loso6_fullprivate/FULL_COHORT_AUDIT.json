@@ -1,0 +1,107 @@
+{
+  "VREx_activated": false,
+  "all_test_predictions_frozen": true,
+  "diagnostic_labels_read": false,
+  "full_private_backup_not_yet_built": true,
+  "no_new_model_fits_or_replays_this_continuation": true,
+  "observed_unix": 1793979480.0496254,
+  "original_held1_unscored_unchanged": true,
+  "original_scientific30_and_native49_unchanged": true,
+  "original_singlefold_once_invoked": false,
+  "phase_actual": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 27.24,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "Z"
+  },
+  "phase_inactive": true,
+  "phase_original": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 3.32,
+    "pid": 50654,
+    "startticks": 18218982,
+    "state": "R"
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "remaining_five": [
+    {
+      "all65_epoch_records_equal": true,
+      "all_native_stage_exit0": true,
+      "all_steps_bitwise_equal": true,
+      "diagnostic_labels_read": false,
+      "epochs": 64,
+      "final_native_state_sha256": "7e8b738d40e86a8abf7f5ac5fc39a6e045e17cd0e0481cd34156aaf8d00705bd",
+      "held": 2,
+      "selected_epoch": 1,
+      "updates": 4736
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_native_stage_exit0": true,
+      "all_steps_bitwise_equal": true,
+      "diagnostic_labels_read": false,
+      "epochs": 64,
+      "final_native_state_sha256": "be05f9edbe410ea252d9b7704592faf6e11160c4b4dd81bd6ce4fdb9f425fea7",
+      "held": 3,
+      "selected_epoch": 2,
+      "updates": 4544
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_native_stage_exit0": true,
+      "all_steps_bitwise_equal": true,
+      "diagnostic_labels_read": false,
+      "epochs": 64,
+      "final_native_state_sha256": "8c4a3f5d54366dd1972ac59b035875a05cdb68d4f005310ecdb10c69b27d6b99",
+      "held": 4,
+      "selected_epoch": 2,
+      "updates": 4544
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_native_stage_exit0": true,
+      "all_steps_bitwise_equal": true,
+      "diagnostic_labels_read": false,
+      "epochs": 64,
+      "final_native_state_sha256": "060dd883a0ac13572d989f8e41c8ebda3edd1f734b50488eccf52d3ddc832310",
+      "held": 5,
+      "selected_epoch": 2,
+      "updates": 4608
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_native_stage_exit0": true,
+      "all_steps_bitwise_equal": true,
+      "diagnostic_labels_read": false,
+      "epochs": 64,
+      "final_native_state_sha256": "67b8b41441a401f1bd4fd51415da1c70c6095729ed58ea88d4250083138aa4de",
+      "held": 6,
+      "selected_epoch": 1,
+      "updates": 4608
+    }
+  ],
+  "remaining_phase_cost": {
+    "completed_folds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 25871.707664422996,
+    "diagnostic_labels_read": false,
+    "reused_fold": 1,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 25842.86576866801
+  },
+  "state": "all_six_frozen_unscored_native_completed_original_held1_reused_and_remaining5_full_fresh_replay_audited",
+  "total_model_and_replay_cost_including_held1": {
+    "cpu": 30891.040083422995,
+    "wall": 30865.434969089023
+  },
+  "users7_8_labels_used": false
+}

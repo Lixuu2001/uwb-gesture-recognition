@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_all6_production64_complete_final_held6_original_fresh_replay_active_producer_private_verified_unscored",
+  "state": "LOSO6_MMD_all6_native_frozen_complete_private_composite_verified_pending_exact_release_inference_cohort_once",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Latest user direction prioritizes complete subject-disjoint LOSO cross-person means/worst/paired results under matched training conditions. Single held1 .9841667 is one fold, not the cohort baseline .9366717. Select methods on six-user exploratory development then separately plan matched full eight-person outer LOSO; users7–8 not for new-method choice; no independent validation claim.",
   "original_source_files_in_cloud": 789,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_held6producer/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_fullprivate/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793975025.2844775,
-  "background_training_pid": 50654,
-  "background_training_status_note": "All6 production complete; final held6 original fresh replay60014 active, producer-only private8parts241payload protected; held1 plus held2..5 fullprivate preserved, cohort freeze/fullprivate/finalaudit pending; no new fit/score/timing.",
+  "background_training_observed_unix": 1793981626.4633777,
+  "background_training_pid": null,
+  "background_training_status_note": "All6 full64+ownfresh64/native audits complete, original phase inactive; remaining5 private62parts1672payload + reusedheld1 private14parts415payload composite verified. No new training, no held truth pairing, inference/cohort once pending exact release.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14726,5 +14726,51 @@
   "VREx_activated": false,
   "inference_not_executed": true,
   "next": "Continue original final held6 fresh64/output audit; no duplicate producer backup. After inactive/all6 frozen do fullprivate composite/exact FULL_PRIVATE_RELEASE, registered inference timing, then ONLY cohort once."
+}
+,
+  "mmd_loso6_fullprivate_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_fullprivate/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "all_six_native_training_replay_and_output_audits_passed": true,
+  "original_phase_inactive": true,
+  "new_training_or_replays_started": false,
+  "remaining5_complete_private_parts": 62,
+  "remaining5_complete_private_payloads": 1672,
+  "remaining5_archive_sha256": "1da2ef9a8ee7e7222223c5d16cddf8b44a5fb5d6c9d49286ebfd571cc7cdc884",
+  "held1_reused_private_parts": 14,
+  "held1_reused_private_payloads": 415,
+  "sixfold_restore_requires_composite_indices": true,
+  "all_test_predictions_frozen_before_any_score": true,
+  "new_diagnostic_scores_computed": false,
+  "old_singlefold_once_invoked": false,
+  "VREx_activated": false,
+  "inference_not_executed_yet": true,
+  "new5_model_replay_cost": {
+    "completed_folds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 25871.707664422996,
+    "diagnostic_labels_read": false,
+    "reused_fold": 1,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 25842.86576866801
+  },
+  "prior_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "total_model_replay_cost_including_held1": {
+    "cpu": 30891.040083422995,
+    "wall": 30865.434969089023
+  },
+  "gate_unchanged": true,
+  "next": "Bind FULL_PRIVATE_RELEASE to actual exact verified commit/scorer SHA/archive SHA, run registered label-free inference_cost once, then ONLY registered full6 cohort finalize_once. If exact MMD closes, implement separately frozen VREx sixfold with registered confound controls, never old singlefold route."
 }
 }

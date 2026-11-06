@@ -1,0 +1,25 @@
+{
+  "additional_uploads": 0,
+  "all_raw_materialized_sha_verified": true,
+  "authentication_URLs_disclosed": false,
+  "diagnostic_labels_read": false,
+  "maximum_complete_pipeline_concurrency": 3,
+  "owner_only": true,
+  "parts": 62,
+  "recoveries": [
+    {
+      "index": 9,
+      "original_error": "Error: {\"i\":9,\"name\":\"mmd_loso6_remaining5_full_20261106.part009\",\"file_id\":\"1Su1zoNu8DloD4K5-qBcYrYi88NUyRZfp\",\"stage\":\"materialize\",\"error\":\"cannot write attachment: exec-server transport closed\"}",
+      "type": "known_ID_raw_readback_without_upload",
+      "upload_retries": 0
+    },
+    {
+      "index": 40,
+      "original_error": "Error: {\"i\":40,\"name\":\"mmd_loso6_remaining5_full_20261106.part040\",\"file_id\":\"1m0PGo760hBBFAGAv4WyqeLO5R8JCrJok\",\"stage\":\"raw_fetch\",\"error\":\"Error: Raw provider failure: tool call error: tool call failed for `codex_apps/google_drive.fetch`\\n\\nCaused by:\\n    Mcp error: -32603: MCP request timed out\"}",
+      "type": "known_ID_raw_readback_without_upload",
+      "upload_retries": 0
+    }
+  ],
+  "upload_ID_records": 62,
+  "original_upload_responses": 62
+}

@@ -1,0 +1,129 @@
+{
+  "no_y_array_open_or_new_metrics": true,
+  "once_markers_unchanged": true,
+  "rows": [
+    {
+      "accuracy_or_macro_computed": false,
+      "baseline_pinned_model_and_prediction_SHA_verified": true,
+      "counts": {
+        "diagnostic": 1200,
+        "train": 4700,
+        "validation": 1000
+      },
+      "held": 1,
+      "held_labels_opened": false,
+      "method_frozen_prediction_SHA_verified": true,
+      "prediction_schema_and_ID_order_verified": true,
+      "training_users": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "validation_user": 2
+    },
+    {
+      "accuracy_or_macro_computed": false,
+      "baseline_pinned_model_and_prediction_SHA_verified": true,
+      "counts": {
+        "diagnostic": 1000,
+        "train": 4700,
+        "validation": 1200
+      },
+      "held": 2,
+      "held_labels_opened": false,
+      "method_frozen_prediction_SHA_verified": true,
+      "prediction_schema_and_ID_order_verified": true,
+      "training_users": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "validation_user": 3
+    },
+    {
+      "accuracy_or_macro_computed": false,
+      "baseline_pinned_model_and_prediction_SHA_verified": true,
+      "counts": {
+        "diagnostic": 1200,
+        "train": 4500,
+        "validation": 1200
+      },
+      "held": 3,
+      "held_labels_opened": false,
+      "method_frozen_prediction_SHA_verified": true,
+      "prediction_schema_and_ID_order_verified": true,
+      "training_users": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "validation_user": 4
+    },
+    {
+      "accuracy_or_macro_computed": false,
+      "baseline_pinned_model_and_prediction_SHA_verified": true,
+      "counts": {
+        "diagnostic": 1200,
+        "train": 4500,
+        "validation": 1200
+      },
+      "held": 4,
+      "held_labels_opened": false,
+      "method_frozen_prediction_SHA_verified": true,
+      "prediction_schema_and_ID_order_verified": true,
+      "training_users": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "validation_user": 5
+    },
+    {
+      "accuracy_or_macro_computed": false,
+      "baseline_pinned_model_and_prediction_SHA_verified": true,
+      "counts": {
+        "diagnostic": 1200,
+        "train": 4600,
+        "validation": 1100
+      },
+      "held": 5,
+      "held_labels_opened": false,
+      "method_frozen_prediction_SHA_verified": true,
+      "prediction_schema_and_ID_order_verified": true,
+      "training_users": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "validation_user": 6
+    },
+    {
+      "accuracy_or_macro_computed": false,
+      "baseline_pinned_model_and_prediction_SHA_verified": true,
+      "counts": {
+        "diagnostic": 1100,
+        "train": 4600,
+        "validation": 1200
+      },
+      "held": 6,
+      "held_labels_opened": false,
+      "method_frozen_prediction_SHA_verified": true,
+      "prediction_schema_and_ID_order_verified": true,
+      "training_users": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "validation_user": 1
+    }
+  ],
+  "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "state": "all6_prediction_schema_ID_order_and_held_disjoint_roles_verified_without_opening_truth",
+  "users7_8_labels_used": false
+}
