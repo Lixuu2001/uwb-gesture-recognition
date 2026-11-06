@@ -1,0 +1,42 @@
+{
+  "controller": {
+    "pid": 45290,
+    "startticks": 17064304,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 3.97
+  },
+  "producer": {
+    "pid": 45291,
+    "startticks": 17064559,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "cpu": 1486.2
+  },
+  "observer": {
+    "pid": 45304,
+    "startticks": 17065870,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 4.9
+  },
+  "progress": {
+    "checkpoint_sha256": "943efc2af2a9c8254cac0e5d5b0adaca4de3aedbd5ff6f2b7c134bf6b3107f8d",
+    "epoch": 37,
+    "journal_sha256": "7a140e4c95090c1ba0750ac3c30d24788fee06a6cc97931271da5d4807351b1b",
+    "prefix_bytes": 1317038,
+    "prefix_sha256": "e8205ed0868712850757b00000f925039609c09e88bf16c2679cd39fda99f450",
+    "slot": "slot1.pt",
+    "updates": 2738
+  },
+  "resource": {
+    "RSS_KiB": 1714804,
+    "cpu": 1491.881304,
+    "stage": "train",
+    "wall": 1493.2911356880213
+  },
+  "MMD_unscored": true,
+  "VREx_UWB_fit_started": false,
+  "VREx_scientific_files": 22,
+  "VREx_frozen_sha256": "5bfc6cac6ff226ea6fd38ce2f2e4f8a464fd0b34bbe5f90515ce350896060ec3"
+}

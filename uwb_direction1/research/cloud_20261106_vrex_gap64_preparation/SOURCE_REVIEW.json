@@ -1,0 +1,30 @@
+{
+  "state": "bounded_deduplicated_published_VREx_component_selected_before_MMD_once_gate",
+  "observed_unix": 1793941517.8313296,
+  "history_head": "6d0b6e2598decf633556489e1e6939ea267545e7",
+  "history_search": "VREx|risk extrapolation over all four authorities, research and results; matches only references/bibliographies/old no-match statements, no prior implemented/fitted VREx trial",
+  "published_implementation": "DomainBed VREx class at pinned b93c22a1",
+  "defaults": {
+    "vrex_lambda": 10.0,
+    "anneal_iters": 500,
+    "warmup_weight": 1.0,
+    "population_variance": true,
+    "reset_optimizer_at_completed_updates": 500
+  },
+  "original_author_readme_official_code_release": true,
+  "original_author_DG_runner": {
+    "batch": 384,
+    "epochs": 30,
+    "rex_weight_class": 0.1,
+    "network": "caffenet"
+  },
+  "primary_author_formula": "compute_rex_penalty mean of squared deviations over risks",
+  "primary_author_legacy_callsite_scope": "legacy train_jigsaw.py contains class_loss_2 twice in a compute_rex_penalty call; this file is documentation only, not imported/copied or used as executable reference; own equation pinned to DomainBed all domain risks",
+  "primary_full_paper_read": false,
+  "semantic_change_vs_MMD": "variance of supervised scalar source risks, not Gaussian kernel feature-distribution MMD; equal domainmean and one optimizer reset explicitly part of this fixed variant",
+  "novelty_claim": false,
+  "independent_validation": false,
+  "no_MMD_hyperparameter_or_kernel_rescue": true,
+  "no_UWB_arrays_or_labels_read_by_review": true,
+  "users7_8_labels_used": false
+}

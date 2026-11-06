@@ -1,0 +1,13 @@
+{
+  "state": "pre_registration_compile_failure_fixed_before_any_execution",
+  "observed_unix": 1793941463.2452896,
+  "failure": "builder used first def step occurrence and replaced optimizer method instead of module function; IndentationError",
+  "repair": "rebuild from exact unchanged MMD base; explicitly anchor module step(m,opt signature and keep optimizer method separately",
+  "engine_before_sha256": "0015fd0e4d24abbb1ad8ddd26b226d041ff5be68a8e753a24310dc092ec57fb9",
+  "engine_after_sha256": "17be97571844dd032907d9f9760a621c098793c8994c3aa4167fc60c881b3d28",
+  "all_own_sources_compile_pass": true,
+  "scientific_manifest_not_yet_frozen": true,
+  "no_unit_or_capacity_execution_yet": true,
+  "no_UWB_fit_or_diagnostic_read": true,
+  "existing_MMD_science_or_processes_modified": false
+}

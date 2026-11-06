@@ -1,0 +1,29 @@
+{
+  "observed_unix": 1793941260.086313,
+  "method": "published_DomainBed_VREx_lambda10_anneal500_domainmean_reset_nativeAdamWLookahead_GAP64",
+  "seed": 20261029,
+  "epochs": 64,
+  "batch": 64,
+  "parameters": 617612,
+  "vrex_lambda": 10.0,
+  "anneal_completed_updates": 500,
+  "warmup_weight": 1.0,
+  "variance": "population",
+  "classification": "equal_domain_mean_native_hard12OvRBCE",
+  "reset": "entire_matched_AdamWLookahead_once_at500",
+  "training_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_user": 2,
+  "diagnostic_user": 1,
+  "diagnostic_reference": 0.9841666666666667,
+  "minimum_gain": 0.005,
+  "tolerance": 1e-12,
+  "prior_MMD_summary_present": false,
+  "prior_MMD_once_lock_present": false,
+  "new_UWB_fit_allowed": false,
+  "source7_8_labels_forbidden": true
+}

@@ -1,0 +1,12 @@
+{
+  "state": "pre_commit_parent_cache_prefix_repaired_after_hash_guard_rejection",
+  "observed_unix": 1793941798.1591783,
+  "failure": "publisher caught independent blob SHA mismatch before create_tree/create_commit/ref move; memory cache was hydrated from staged working tree after new note prepended",
+  "repair": "remove exactly one known prepared note from the two memory caches; exact staged bytes equal note plus independently verified immutable Git pack authority snapshots",
+  "parent": "6d0b6e2598decf633556489e1e6939ea267545e7",
+  "remote_ref_still_parent": true,
+  "scientific22_unchanged": true,
+  "new_UWB_fit_started": false,
+  "existing_MMD_processes_untouched": true,
+  "force": false
+}
