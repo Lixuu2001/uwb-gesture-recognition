@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_MMD_all6_native_frozen_complete_private_composite_verified_pending_exact_release_inference_cohort_once",
+  "state": "LOSO6_MMD_complete_once_scored_failed_closed_all6_decline_40_6258_vs_93_6672_pending_new_VREx6_implementation",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_fullprivate/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_result/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793981626.4633777,
+  "background_training_observed_unix": 1793981868.516235,
   "background_training_pid": null,
-  "background_training_status_note": "All6 full64+ownfresh64/native audits complete, original phase inactive; remaining5 private62parts1672payload + reusedheld1 private14parts415payload composite verified. No new training, no held truth pairing, inference/cohort once pending exact release.",
+  "background_training_status_note": "MMD all6 once evaluated after complete private freeze; mean40.6258% vsGAP93.6672%, -53.0414pp,0wins/6, fixedconfig closed. No real model process or new VREx fit yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14772,5 +14772,41 @@
   },
   "gate_unchanged": true,
   "next": "Bind FULL_PRIVATE_RELEASE to actual exact verified commit/scorer SHA/archive SHA, run registered label-free inference_cost once, then ONLY registered full6 cohort finalize_once. If exact MMD closes, implement separately frozen VREx sixfold with registered confound controls, never old singlefold route."
+}
+,
+  "mmd_loso6_result_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_result/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "all_six_once_scored": true,
+  "original_singlefold_once_invoked": false,
+  "baseline": {
+    "equal_user_mean_accuracy": 0.9366717171717172,
+    "equal_user_mean_macro_recall": 0.9366717171717172,
+    "pooled_sample_accuracy": 0.9365217391304348,
+    "worst_user_macro_recall": 0.8463636363636364
+  },
+  "mean_paired_delta": -0.5304141414141413,
+  "strict_wins": 0,
+  "worst_paired_delta": -0.5789999999999998,
+  "spending_gate_passed": false,
+  "exact_configuration_closed": true,
+  "no_rescue_or_test_feedback_tuning": true,
+  "total_model_replay_cost": {
+    "wall": 30865.434969089023,
+    "cpu": 30891.040083422995
+  },
+  "VREx_old_singlefold_not_activated": true,
+  "new_VREx_sixfold_implementation_pending": true,
+  "new_VREx_UWB_fit_started": false,
+  "next": "Implement preregistered full6 DomainBed VREx defaults with native schedule+RNG+resource audits, exact publication/private untrained release before real run; preserve all old science and negative outcomes.",
+  "method_metrics": {
+    "equal_user_mean_accuracy": 0.4062575757575757,
+    "equal_user_mean_macro_recall": 0.40625757575757576,
+    "pooled_sample_accuracy": 0.40753623188405796,
+    "worst_user_macro_recall": 0.3145454545454545
+  }
 }
 }

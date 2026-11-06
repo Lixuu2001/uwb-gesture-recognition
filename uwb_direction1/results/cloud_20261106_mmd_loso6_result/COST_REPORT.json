@@ -1,0 +1,225 @@
+{
+  "perfold": [
+    {
+      "held": 1,
+      "incremental_stage_seconds": {
+        "train": {
+          "wall": 2520.170642270008,
+          "cpu": 2517.871824
+        },
+        "replay": {
+          "wall": 2492.3795319359924,
+          "cpu": 2491.536083
+        },
+        "output": {
+          "wall": 10.017807813012041,
+          "cpu": 9.924511999999595
+        }
+      },
+      "final_fold_cumulative": {
+        "cpu": 5019.332418999999,
+        "wall": 5022.567982019013
+      },
+      "train_includes_val_selection_and_first_update_audit": true,
+      "replay_is_full_fresh64_not_method_budget_advantage": true
+    },
+    {
+      "held": 2,
+      "incremental_stage_seconds": {
+        "train": {
+          "wall": 2640.490846638015,
+          "cpu": 2639.1044439999996
+        },
+        "replay": {
+          "wall": 2610.9740004419873,
+          "cpu": 2609.638811
+        },
+        "output": {
+          "wall": 12.023423831997206,
+          "cpu": 11.548400000000584
+        }
+      },
+      "final_fold_cumulative": {
+        "cpu": 5260.291655,
+        "wall": 5263.488270911999
+      },
+      "train_includes_val_selection_and_first_update_audit": true,
+      "replay_is_full_fresh64_not_method_budget_advantage": true
+    },
+    {
+      "held": 3,
+      "incremental_stage_seconds": {
+        "train": {
+          "wall": 2509.904524233978,
+          "cpu": 2508.751999
+        },
+        "replay": {
+          "wall": 2478.226305290009,
+          "cpu": 2477.2587429999994
+        },
+        "output": {
+          "wall": 11.02298477399745,
+          "cpu": 10.76344600000084
+        }
+      },
+      "final_fold_cumulative": {
+        "cpu": 4996.774188,
+        "wall": 4999.153814297984
+      },
+      "train_includes_val_selection_and_first_update_audit": true,
+      "replay_is_full_fresh64_not_method_budget_advantage": true
+    },
+    {
+      "held": 4,
+      "incremental_stage_seconds": {
+        "train": {
+          "wall": 2513.5853957709915,
+          "cpu": 2511.95094
+        },
+        "replay": {
+          "wall": 2514.102925382991,
+          "cpu": 2513.228968
+        },
+        "output": {
+          "wall": 12.0334055480198,
+          "cpu": 11.229415999999219
+        }
+      },
+      "final_fold_cumulative": {
+        "cpu": 5036.409323999999,
+        "wall": 5039.721726702002
+      },
+      "train_includes_val_selection_and_first_update_audit": true,
+      "replay_is_full_fresh64_not_method_budget_advantage": true
+    },
+    {
+      "held": 5,
+      "incremental_stage_seconds": {
+        "train": {
+          "wall": 2587.3853220570018,
+          "cpu": 2586.213378
+        },
+        "replay": {
+          "wall": 2597.1934576460044,
+          "cpu": 2596.298929
+        },
+        "output": {
+          "wall": 12.036497786990367,
+          "cpu": 11.436738999999761
+        }
+      },
+      "final_fold_cumulative": {
+        "cpu": 5193.949046,
+        "wall": 5196.6152774899965
+      },
+      "train_includes_val_selection_and_first_update_audit": true,
+      "replay_is_full_fresh64_not_method_budget_advantage": true
+    },
+    {
+      "held": 6,
+      "incremental_stage_seconds": {
+        "train": {
+          "wall": 2593.870455507975,
+          "cpu": 2592.8002380000003
+        },
+        "replay": {
+          "wall": 2717.253853199014,
+          "cpu": 2716.256067
+        },
+        "output": {
+          "wall": 12.030505898990668,
+          "cpu": 11.243993000000046
+        }
+      },
+      "final_fold_cumulative": {
+        "cpu": 5320.300298,
+        "wall": 5323.1548146059795
+      },
+      "train_includes_val_selection_and_first_update_audit": true,
+      "replay_is_full_fresh64_not_method_budget_advantage": true
+    }
+  ],
+  "training_and_first_audit": {
+    "wall": 15365.407186477969,
+    "cpu": 15356.692823
+  },
+  "fresh64_replay": {
+    "wall": 15410.130073895998,
+    "cpu": 15404.217600999998
+  },
+  "selected_output_audit": {
+    "wall": 69.16462565300753,
+    "cpu": 66.14650600000004
+  },
+  "original_held1_cost": {
+    "cpu": 5019.332418999999,
+    "wall": 5022.569200421014
+  },
+  "additional_five_phase_cost": {
+    "completed_folds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 25871.707664422996,
+    "diagnostic_labels_read": false,
+    "reused_fold": 1,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 25842.86576866801
+  },
+  "total_model_and_replay_including_prior_held1": {
+    "wall": 30865.434969089023,
+    "cpu": 30891.040083422995
+  },
+  "paired_inference_sum_6900_samples_per_arm": {
+    "baseline": {
+      "wall_seconds": 17.160716902988497,
+      "CPU_seconds": 17.162974229,
+      "warmup_wall_seconds": 0.9602539189800154,
+      "warmup_CPU_seconds": 0.955941766000004
+    },
+    "method": {
+      "wall_seconds": 17.04736950204824,
+      "CPU_seconds": 17.051167847,
+      "warmup_wall_seconds": 0.9877414600341581,
+      "warmup_CPU_seconds": 0.9921261659999931
+    }
+  },
+  "paired_inference_worker": {
+    "wall": 41.406772454007296,
+    "CPU": 41.394716071,
+    "RSS_KiB": 1778584
+  },
+  "private_remaining5_allmember_reverification": {
+    "cpu": 4.039912164,
+    "verification": {
+      "archive_members": 1673,
+      "archive_sha256": "1da2ef9a8ee7e7222223c5d16cddf8b44a5fb5d6c9d49286ebfd571cc7cdc884",
+      "chunks_verified": 62,
+      "complete_modelset_verified": true,
+      "scope": "MMD_LOSO_remaining5_complete_models_audits_outputs_before_single_cohort_score",
+      "state": "remote_archive_and_all_members_verified",
+      "tracked_payload_members_verified": 1672
+    },
+    "wall": 4.042408105015056
+  },
+  "private_held1_readonly_reverification": {
+    "cpu": 1.1801745750000006,
+    "read_only_original": true,
+    "source": "/workspace/uwb-mmd-gap64-20261106/full_backup",
+    "verification": {
+      "archive_members": 416,
+      "archive_sha256": "2355b58d31e511dbfdeea3afc4a5cf05b7cd9a06e380899f894ac6136c98875c",
+      "chunks_verified": 14,
+      "complete_modelset_verified": true,
+      "scope": "fixed_MMD_GAP64_full_pilot_models_audits_outputs_before_once_gate",
+      "state": "remote_archive_and_all_members_verified",
+      "tracked_payload_members_verified": 415
+    },
+    "wall": 1.1802942480135243
+  },
+  "baseline_historical_cost_note": "Existing GAP models reused without any refit. Historical source6 summary wall12416.14960697398/CPU12416.359542216 is combined GAP+localCNN held2..6 cost, not GAP-only timing; held1 summary11533.669827201986/11534.088267264 combines several arms. A precise GAP-only training-cost ratio is not recoverable from these aggregate receipts and is not invented. Baseline had initial/first/selected native audits, not fresh64 full-trajectory replay.",
+  "cohort_once_evaluation_wall_seconds": 4.744329219975043
+}
