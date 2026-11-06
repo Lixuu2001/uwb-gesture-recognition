@@ -1,0 +1,65 @@
+{
+  "archive_bytes": 7522088,
+  "archive_sha256": "3f009b1fe6403cbf9ea51ea6707e0e5406de0bfeeab4beb1a19c5b2dcef59cea",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "10EXqu42oKqP-CbBNN2389rtY5pEF8h8E",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "mmd_loso6_initial_20261106.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "2cf11a8fdc17abe06e0be85376f093edc5efe907bb9f72f7390798c09d9be199"
+    },
+    {
+      "bytes": 182056,
+      "download_verified": true,
+      "file_id": "1YdpUDhKY8ltNlq7rxaPGt-hcS9YZVbou",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 182056
+      },
+      "name": "mmd_loso6_initial_20261106.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "1f37b5d15759656652f8e495f2dd09187bc0dd2a376c3c386d8bf4ae66b05f6c"
+    }
+  ],
+  "complete_trained_modelset": false,
+  "complete_untrained_initial_state": true,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "members_manifest_sha256": "564bb0740e85a2150b14a407569660261e044d44a0fcabb332d111378a129943",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "scope": "fixed_remaining_five_MMD_LOSO_initial_state_and_all_roles_before_any_new_fit",
+  "state": "remaining_five_initial_native_roles_sources_owner_only_raw_allmember_verified"
+}

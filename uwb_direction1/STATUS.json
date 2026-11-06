@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_remaining_MMD30_all5_native_safety_passed_pending_private_initial_exactrelease",
+  "state": "LOSO6_MMD_remaining_five_private_initial_verified_exact_release_pending_actual_launch",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_mmd_loso6_validation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_mmd_loso6_release/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1793951158.9923246,
+  "background_training_observed_unix": 1793951569.9191942,
   "background_training_pid": null,
-  "background_training_status_note": "All5 generic MMD native/pinned/recovery tests and toy stop pass; only initial archive scope bookkeeping repaired before build or fit. Bind repaired freeze, privateinitial/all5roles/raw/everymember, exactrelease then ONEremaining-fivefold controller. No new training yet; held1 reused unscored.",
+  "background_training_status_note": "Private two-part shared untrained initialization/all5roles/all115payloads raw verified; exact release before one actual serial launch, no new fit yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -14329,5 +14329,24 @@
   "all5_synthetic_passed": true,
   "safety_stop_passed": true,
   "initial_archive_scope_repaired": true
+}
+,
+  "mmd_loso6_release_20261106": {
+  "report": "results/cloud_20261106_mmd_loso6_release/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_MMD_gamma1_sevenGaussian_GAP64_matched_LOSO6_remaining_fivefold_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "private_initial_payloads": 115,
+  "private_initial_chunks": 2,
+  "private_initial_archive_sha256": "3f009b1fe6403cbf9ea51ea6707e0e5406de0bfeeab4beb1a19c5b2dcef59cea",
+  "all5_native_tests_pass": true,
+  "new_fitting_started_at_publication": false,
+  "phase_cap_wall_CPU_seconds": 43200,
+  "held1_reused_unscored": true,
+  "no_singlefold_test_entry_gate": true,
+  "next": "Bind actual exact release commit and launch once, verify first native update and actual checkpoint. Never old singlefold once.",
+  "private_initial_verified": true,
+  "new_remaining_training_started": false
 }
 }

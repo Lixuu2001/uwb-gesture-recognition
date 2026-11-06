@@ -1,0 +1,8 @@
+{
+  "state": "publication_prepare_failed_before_remote_mutation_or_new_fit_and_fixed",
+  "cause": "Generic publisher updater accepts existing scalar keys only; new metadata keys belong in new stage status object",
+  "fix": "Moved new fields into new release status object; preserved failed spec and partial untracked stage outside worktree; no scientific file changed",
+  "training_started": false,
+  "new_remote_commit_created_by_failed_prepare": false,
+  "no_failed_action_retry_side_effect": true
+}
