@@ -1,0 +1,99 @@
+{
+  "all_prior_costs_retained": true,
+  "backup_does_not_pause_or_gate_original_controller": true,
+  "complete_sixfold_cohort": false,
+  "complete_sixfold_private": false,
+  "completed_full_native_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "completed_full_private_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "current_held": 5,
+  "diagnostic_labels_read": false,
+  "held4_private_archive_sha256": "4b9d74a25a4e49a56f2b6b0846d6495057216006a43af6dc55e50ff2ee4b51e8",
+  "held4_private_bytes": 96592439,
+  "held4_private_parts": 14,
+  "held4_private_payloads": 410,
+  "held4_private_unique_file_IDs": 14,
+  "held5_controller_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.38,
+    "pid": 85870,
+    "startticks": 27657174,
+    "state": "R"
+  },
+  "held5_native_first_release": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "d196d73297615581aa0c6b706f3aa9be5ce66811a9a432138af5ce8c3ae8dff2",
+    "native_first_update_exact": true,
+    "state_sha256": "9129c4b3cdd6fbe2e4783b93458a4b486f932bfe8d5e5d96c8a5754ddd7b4c48"
+  },
+  "held5_progress": {
+    "checkpoint_sha256": "7034cbf1e77b60d372c1df99a5f622ded9a08ff7446c57835e6d4c6a33bc0f82",
+    "epoch": 34,
+    "journal_sha256": "14b8aa4c277f6dd59e3b5a85e2c1bdcdeea6164f21059533758ecdb7008607d4",
+    "prefix_bytes": 2082999,
+    "prefix_sha256": "6ea1bd13f785acf766ed2c481179f759f201be129f4ffc3770ceeb575816027e",
+    "slot": "slot0.pt",
+    "updates": 2448
+  },
+  "held5_worker_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 85871,
+    "startticks": 27657413,
+    "state": "R"
+  },
+  "new_known_ID_reuploads": 0,
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "new_transfer_errors": 0,
+  "observed_unix": 1794047308.7383938,
+  "original_phase_not_restarted": true,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 21.08,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "resource_observation": {
+    "RSS_KiB": 1742772,
+    "active_held": 5,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cpu": 21132.454066031,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 21102.60789581499
+  },
+  "root_phase_state_snapshot": {
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cpu": 19819.3399493,
+    "diagnostic_labels_read": false,
+    "state": "full_sixfold_in_progress_unscored",
+    "wall": 19792.189127729973
+  },
+  "scientific_sources_unchanged": true,
+  "state": "Fishr_four_complete_native64_fresh64_audits_and_private_folds_original_held5_training_unscored",
+  "users7_8_labels_used": false
+}

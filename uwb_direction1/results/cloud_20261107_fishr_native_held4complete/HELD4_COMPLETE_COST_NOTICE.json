@@ -1,0 +1,76 @@
+{
+  "all_prior_costs_retained": true,
+  "archive_build": {
+    "archive_total_build_CPU": 4.655955283,
+    "archive_total_build_wall": 4.658085017988924
+  },
+  "backup_and_training_wall_overlap": true,
+  "cumulative_stages_must_not_be_summed": true,
+  "held4_controller_total": {
+    "completed": [
+      "train",
+      "replay",
+      "output"
+    ],
+    "cpu": 4843.590139999999,
+    "diagnostic_labels_read": false,
+    "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+    "users7_8_labels_used": false,
+    "wall": 4844.65832845401
+  },
+  "held4_stage_cumulative": {
+    "output": {
+      "cpu": 4843.590139999999,
+      "wall": 4844.655163786025
+    },
+    "replay": {
+      "cpu": 4832.502361,
+      "wall": 4833.632199726009
+    },
+    "train": {
+      "cpu": 2443.104611,
+      "wall": 2443.2672766339965
+    }
+  },
+  "phase_observation": {
+    "RSS_KiB": 1742772,
+    "active_held": 5,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cpu": 21132.454066031,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 21102.60789581499
+  },
+  "raw_allmember_verification": {
+    "CPU": 0.7183784449999999,
+    "scope": "complete_held4_whole_archive_allmember_raw_verification",
+    "wall": 0.7213397370069288
+  },
+  "readonly_counter_cost_audit": {
+    "audit_CPU": 0.269740488,
+    "audit_wall": 0.26980127196293324,
+    "output_audit_CPU_sum": 43.8940339999981,
+    "output_audit_wall_sum": 44.09057302805013,
+    "replay_CPU_sum": 9839.285167999999,
+    "replay_wall_sum": 9842.947087157023,
+    "train_CPU_sum": 9888.779161,
+    "train_wall_sum": 9889.59304912694
+  },
+  "root_after_four_folds": {
+    "cumulative_remaining_phase": {
+      "cpu": 19819.339240468,
+      "wall": 19792.187772364006
+    },
+    "exit_code": 0,
+    "new_diagnostic_metrics_computed": false
+  },
+  "transfer_materialization_and_role_audit_total_CPU_unmeasured_not_zero": true
+}

@@ -1,0 +1,27 @@
+{
+  "actual_audited_held": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "all_private_initial_assets_match": true,
+  "author_reference_source": "existing read-only VREx operational audit adapted to frozen Fishr schedule0/1000/reset1500/globalBCE and 18060-gradient logging, not a scientific method change",
+  "complete_six_mode_executed": false,
+  "complete_sixfold_cohort": false,
+  "full_six_invocation_after_phase_ends": [
+    "python operations/audit_completed_roles_selection.py 1 2 3 4 5 6",
+    "python operations/audit_all_six_freeze.py"
+  ],
+  "optimizer_updates": 0,
+  "partial_audit_is_not_permission_to_score": true,
+  "real_UWB_map_or_gesture_label_values_read": false,
+  "scientific_code_unchanged": true,
+  "selection_rule_check_recomputes_logged_intent_not_validation_metrics": true,
+  "source_files": {
+    "audit_all_six_freeze.py": "b8ee41726115b945f65d538bd291a455748df389d83b45eee5d6f75936e11445",
+    "audit_completed_roles_selection.py": "45fc57a13b895d8baef6f8292c7e1672e160b89a9759fdeba99f1ca0646a5952"
+  },
+  "state": "readonly_complete_subset1to4_actual_audits_passed_fullsix_entry_implemented_not_run",
+  "working_directory": "/workspace/uwb-fishr-native-loso6-20261107"
+}
