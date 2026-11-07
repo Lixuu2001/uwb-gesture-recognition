@@ -1,0 +1,61 @@
+{
+  "active_held": 3,
+  "active_progress": {
+    "checkpoint_sha256": "2fb2f1cf3f6c829f8775d0e81416496126cc68287e0ef7481f76eada186c2377",
+    "epoch": 26,
+    "journal_sha256": "3f49b8560e41f607b101ca87c7c017a1bb05460f298e0ec5f5c647c663fc06a6",
+    "prefix_bytes": 1357713,
+    "prefix_sha256": "8fd66ececeb9a6523bb261df815240c1ffd700b6a88a1f3acb9d6421c2db9acd",
+    "slot": "slot0.pt",
+    "updates": 1846
+  },
+  "active_stage": "train",
+  "all45_scientific_frozen_files_unchanged": true,
+  "automatic_task_or_cloud_changed": false,
+  "complete_all_six": false,
+  "completed_folds": [
+    1,
+    2
+  ],
+  "frozen_manifest_sha256": "857e06d91fd2da1ac1428a2716e1df541db8198245dc1d8041922f8d75ad8b6d",
+  "insured_complete_folds": [
+    1,
+    2
+  ],
+  "new_accuracy_available": false,
+  "new_fit_inference_or_scoring_by_insurance_operation": false,
+  "observed_unix": 1794075733.4197268,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 12.44,
+    "pid": 92152,
+    "startticks": 29520187,
+    "state": "S"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1691728,
+    "active_held": 3,
+    "completed_folds": [
+      1,
+      2
+    ],
+    "cpu": 11121.789266186,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 11105.475991009036
+  },
+  "state": "original_IRM_phase_active_partial_completed_native_folds_privately_insured_unscored",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1004.83,
+    "pid": 93526,
+    "startticks": 30529662,
+    "state": "R"
+  }
+}
