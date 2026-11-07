@@ -1,0 +1,296 @@
+{
+  "actual_original_phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 31.73,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "Z"
+  },
+  "all_six_completed": {
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 31189.589142517,
+    "diagnostic_labels_read": false,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 31157.163366941997
+  },
+  "all_six_predictions_frozen_sha256": "405072169a34f9e803c6ef19dd3a3e5e150e920c5e1fdc67c26337a5c73c2d96",
+  "audit_CPU": 0.38697459199999995,
+  "audit_wall": 0.38703628999064676,
+  "deterministic_replay_does_not_exclude_all_shared_implementation_errors": true,
+  "folds": [
+    {
+      "all65_epoch_records_equal": true,
+      "all_step_logs_bitwise_equal": true,
+      "counter_reset_weight_intent_validated": true,
+      "counts": [
+        4700,
+        1000,
+        1200
+      ],
+      "final_fold_stage_cumulative": {
+        "cpu": 5424.257025,
+        "wall": 5428.658608652011
+      },
+      "held": 1,
+      "incremental_stage_seconds": {
+        "output": {
+          "cpu": 11.59834199999932,
+          "wall": 12.031932609999785
+        },
+        "replay": {
+          "cpu": 2701.8466320000007,
+          "wall": 2703.4535751100047
+        },
+        "train": {
+          "cpu": 2710.812051,
+          "wall": 2713.1731009320065
+        }
+      },
+      "native_final_state_sha256": "64e17e24180e9173620d4b99de23118eb47a2322109ca93f2e8ddf0742489d27",
+      "selected_epoch_validation_only": 41,
+      "steps_sha256": "b533097e953862e33559b514218db53bc44aba850b158d41f737b9c53cca3abe",
+      "test_user": 1,
+      "train_users": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "updates_per_trajectory": 4736,
+      "validation_user": 2
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_step_logs_bitwise_equal": true,
+      "counter_reset_weight_intent_validated": true,
+      "counts": [
+        4700,
+        1200,
+        1000
+      ],
+      "final_fold_stage_cumulative": {
+        "cpu": 5558.15498,
+        "wall": 5561.666962627001
+      },
+      "held": 2,
+      "incremental_stage_seconds": {
+        "output": {
+          "cpu": 11.017899999999827,
+          "wall": 12.021143994003069
+        },
+        "replay": {
+          "cpu": 2731.2841210000006,
+          "wall": 2732.663246521988
+        },
+        "train": {
+          "cpu": 2815.852959,
+          "wall": 2816.98257211101
+        }
+      },
+      "native_final_state_sha256": "28e8ef706551c85318af1d85567d12bb9b2ac423735ed6cf9fbf61986fa6aa65",
+      "selected_epoch_validation_only": 55,
+      "steps_sha256": "c6ef0d53c85b2fbfbdbdf315f1c9b8397dd8d2697d53b6439a4a51e87eeaeb98",
+      "test_user": 2,
+      "train_users": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "updates_per_trajectory": 4736,
+      "validation_user": 3
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_step_logs_bitwise_equal": true,
+      "counter_reset_weight_intent_validated": true,
+      "counts": [
+        4500,
+        1200,
+        1200
+      ],
+      "final_fold_stage_cumulative": {
+        "cpu": 5056.417743,
+        "wall": 5059.4066946390085
+      },
+      "held": 3,
+      "incremental_stage_seconds": {
+        "output": {
+          "cpu": 11.303907999999865,
+          "wall": 12.027789265004685
+        },
+        "replay": {
+          "cpu": 2506.9654570000002,
+          "wall": 2508.4585423360113
+        },
+        "train": {
+          "cpu": 2538.148378,
+          "wall": 2538.9203630379925
+        }
+      },
+      "native_final_state_sha256": "e1594146dad1a4d9a69a4a228cfc2f2b5215dacdd4aff7c0bf3f9e42ec26cdef",
+      "selected_epoch_validation_only": 19,
+      "steps_sha256": "f8f8f12cb454bf2185ac379647a95e1abe869e545cfd95b627538bf9cec74cc6",
+      "test_user": 3,
+      "train_users": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "updates_per_trajectory": 4544,
+      "validation_user": 4
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_step_logs_bitwise_equal": true,
+      "counter_reset_weight_intent_validated": true,
+      "counts": [
+        4500,
+        1200,
+        1200
+      ],
+      "final_fold_stage_cumulative": {
+        "cpu": 5009.12822,
+        "wall": 5013.02850551001
+      },
+      "held": 4,
+      "incremental_stage_seconds": {
+        "output": {
+          "cpu": 11.193540999999641,
+          "wall": 12.02142552100122
+        },
+        "replay": {
+          "cpu": 2484.443971,
+          "wall": 2486.116407054011
+        },
+        "train": {
+          "cpu": 2513.490708,
+          "wall": 2514.8906729349983
+        }
+      },
+      "native_final_state_sha256": "0356ad27f0933dc134b19902511e412cdf0e2e2e7f111bb26e21d3f4200fd692",
+      "selected_epoch_validation_only": 31,
+      "steps_sha256": "451054fed3d6cd0f1129f9a4809732657f30847ce0e86cdd69f6719949fa7960",
+      "test_user": 4,
+      "train_users": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "updates_per_trajectory": 4544,
+      "validation_user": 5
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_step_logs_bitwise_equal": true,
+      "counter_reset_weight_intent_validated": true,
+      "counts": [
+        4600,
+        1100,
+        1200
+      ],
+      "final_fold_stage_cumulative": {
+        "cpu": 5032.586286,
+        "wall": 5035.931707504991
+      },
+      "held": 5,
+      "incremental_stage_seconds": {
+        "output": {
+          "cpu": 11.176526999999624,
+          "wall": 12.026395114982734
+        },
+        "replay": {
+          "cpu": 2517.281204,
+          "wall": 2518.6343603790156
+        },
+        "train": {
+          "cpu": 2504.1285550000002,
+          "wall": 2505.270952010993
+        }
+      },
+      "native_final_state_sha256": "ec4c0ee82cff354bf2aea8754c5c02f52d451eea98949882a94e7979583a0d55",
+      "selected_epoch_validation_only": 5,
+      "steps_sha256": "e55890b9f81e70f0449a91ab6a0bd0f7aeb1503bec215283127f7298356415e1",
+      "test_user": 5,
+      "train_users": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "updates_per_trajectory": 4608,
+      "validation_user": 6
+    },
+    {
+      "all65_epoch_records_equal": true,
+      "all_step_logs_bitwise_equal": true,
+      "counter_reset_weight_intent_validated": true,
+      "counts": [
+        4600,
+        1200,
+        1100
+      ],
+      "final_fold_stage_cumulative": {
+        "cpu": 5033.159904,
+        "wall": 5035.419568979996
+      },
+      "held": 6,
+      "incremental_stage_seconds": {
+        "output": {
+          "cpu": 10.532156000000214,
+          "wall": 11.022522662009578
+        },
+        "replay": {
+          "cpu": 2491.2741399999995,
+          "wall": 2492.4978704999958
+        },
+        "train": {
+          "cpu": 2531.3536080000003,
+          "wall": 2531.899175817991
+        }
+      },
+      "native_final_state_sha256": "3730921209df000e611ca28ef3b9ad972504f71f9fcfa8e97ec5de0632c2a246",
+      "selected_epoch_validation_only": 11,
+      "steps_sha256": "a1ebbba823048afef54826ccc504b37d86e9bdec2c383b639a439691fe81e0ae",
+      "test_user": 6,
+      "train_users": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "updates_per_trajectory": 4608,
+      "validation_user": 1
+    }
+  ],
+  "frozen_scientific_manifest_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+  "new_optimizer_updates": false,
+  "observed_unix": 1794019248.3577034,
+  "original_phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.57,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "R"
+  },
+  "output_audit_CPU_sum": 66.82237399999849,
+  "output_audit_wall_sum": 71.15120916700107,
+  "replay_CPU_sum": 15433.095525,
+  "replay_wall_sum": 15441.824001901026,
+  "resource_ledger_is_last_periodic_observation_not_final_sixfold_total": true,
+  "source_script_sha256": "a34465d551deb803c40f35365e79ffbb3ac28865ee7513193cd72d84a99328fa",
+  "state": "all6_native_frozen_and_independent_schedule_intent_cost_audited_before_test_pairing",
+  "test_truth_or_predictions_paired": false,
+  "train_CPU_sum": 15613.786259,
+  "train_wall_sum": 15621.136836844991,
+  "users7_8_labels_used": false
+}

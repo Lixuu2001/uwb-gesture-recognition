@@ -1,0 +1,15 @@
+{
+  "state": "readonly_auxiliary_audit_operator_assertion_repaired_no_scientific_rerun",
+  "observed_unix": 1794019247.9414506,
+  "original_failure": "AssertionError at inline audit line13: assert producer_COMPLETE == replay_COMPLETE",
+  "verified_difference_all6": {
+    "producer_state": "full64_training_complete_unscored",
+    "replay_state": "full64_fresh_training_replay_exact_unscored"
+  },
+  "all_other_complete_fields_equal": true,
+  "repair": "Assert each expected state label independently and compare all remaining fields; retain full trajectory/counter/cost/native SHA checks",
+  "new_model_updates": 0,
+  "test_labels_paired": false,
+  "scientific_sources_changed": false,
+  "bounded_readonly_retry": 1
+}
