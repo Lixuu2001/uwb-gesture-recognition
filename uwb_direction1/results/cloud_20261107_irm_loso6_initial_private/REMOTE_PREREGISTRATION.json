@@ -1,0 +1,41 @@
+{
+  "parent": "286098ba0027a6fe085f1eb2d91feca47fa09a22",
+  "commit": "9c149bc773ebffd9abb01cd07638eaadea43eedf",
+  "files": 70,
+  "exact_readback_verified": 70,
+  "branch_head_verified": true,
+  "force": false,
+  "ref_transport_recovery": {
+    "state": "same_exact_commit_post_update_head_independently_verified_no_repeat_write",
+    "original_error": "Moved head not verified immediately after successful nonforce ref API return",
+    "observed_later_GitHub_head": "9c149bc773ebffd9abb01cd07638eaadea43eedf",
+    "observed_independent_git_ls_remote_head": "9c149bc773ebffd9abb01cd07638eaadea43eedf",
+    "cause_not_established": true,
+    "new_commit_created_for_retry": false,
+    "reference_updated_again": false,
+    "force": false
+  },
+  "readback_transport_recovery": {
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move",
+    "connector_readback_failures": [
+      {
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "expected_blob_sha1": "1a7642b4bb69bb49b2eb365e35bd74d7d0f35d8b",
+        "expected_bytes": 1324183,
+        "returned_characters": 0
+      },
+      {
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "expected_blob_sha1": "060c6d24ed0e0616a84b4c67263d99d9aa549e8f",
+        "expected_bytes": 1388158,
+        "returned_characters": 0
+      }
+    ],
+    "proof": "/workspace/uwb-irm-loso6-20261107/preregistered_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "new_commit_created_for_retry": false,
+    "force": false
+  },
+  "frozen_sha256": "857e06d91fd2da1ac1428a2716e1df541db8198245dc1d8041922f8d75ad8b6d",
+  "complete_fitting_config_preregistered": true,
+  "no_UWB_fit_started": true
+}

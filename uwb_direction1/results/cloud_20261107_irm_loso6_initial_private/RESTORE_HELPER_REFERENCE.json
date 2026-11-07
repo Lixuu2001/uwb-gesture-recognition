@@ -1,0 +1,11 @@
+{
+  "state": "deterministic_missing_map_cache_restore_helper_preserves_original_formula",
+  "helper_sha256": "4495dbe2586c6758eb875ec843492df26c6f861b798e471adca89e72b7639046",
+  "original_formula_source": "/workspace/uwb-timemil-20261029/run_pilot.py",
+  "original_source_sha256": "7846822bb4e20fed467fb41830acf567371cfd8aaecf628c0f92824541f52622",
+  "formula": "Torch float32 chunks64 per-view RMS x/x.square().mean((2,3),keepdim=True).sqrt().clamp_min(1e-8); permute0,2,1,3 then reshapeN90x567",
+  "target_SHA256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "helper_compiled_only_missing_branch_not_run": true,
+  "existing_target_actual_SHA_verified_by_initial_native_audit": true,
+  "full_scientific_package_unchanged": true
+}
