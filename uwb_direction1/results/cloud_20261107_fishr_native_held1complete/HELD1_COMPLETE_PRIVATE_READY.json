@@ -1,0 +1,94 @@
+{
+  "complete_sixfold_cohort": false,
+  "complete_sixfold_private": false,
+  "completed_full_native_folds": [
+    1
+  ],
+  "completed_private_folds": [
+    1
+  ],
+  "current_held": 2,
+  "diagnostic_labels_read": false,
+  "held2_controller_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.24,
+    "pid": 83074,
+    "startticks": 26181776,
+    "state": "R"
+  },
+  "held2_first_release": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "73ef91738d251f7d8ace52ecb7e0ba6b4437edd94072e7fa1319f9b4525673d8",
+    "native_first_update_exact": true,
+    "state_sha256": "66f09c89ee442a0ae8413e05dce092127b2e64d5a57523ebaf65f79085652036"
+  },
+  "held2_progress": {
+    "checkpoint_sha256": "5836ce553d652a100679be92cf158bed37aa0195ac0c292e9c572694037c24f0",
+    "epoch": 20,
+    "journal_sha256": "ba28f13a22d4d342de64113406d20bb761a7fda277a8a287df849c25e1f410c5",
+    "prefix_bytes": 1250597,
+    "prefix_sha256": "d0e7657587967509ea622314d7a1fbeccccb2e2c1f4590e2b3e0aea7e87b14a2",
+    "slot": "slot0.pt",
+    "updates": 1480
+  },
+  "held2_worker_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 83075,
+    "startticks": 26182002,
+    "state": "R"
+  },
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "observed_unix": 1794032056.2325003,
+  "original_phase_not_restarted": true,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 7.54,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "phase_original_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.37,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "R"
+  },
+  "prior_costs_retained": true,
+  "private_archive_sha256": "5ce98d65284928838b162afa41e87f6fa0f504f142c94d871c86cedb8eb98b0d",
+  "private_bytes": 96690320,
+  "private_complete_modelset_scope": "held1 only; complete_modelset_verified true does not mean complete6",
+  "private_complete_single_fold": true,
+  "private_parts": 14,
+  "private_payloads": 412,
+  "private_unique_file_IDs": 14,
+  "resource_observation": {
+    "RSS_KiB": 1774308,
+    "active_held": 2,
+    "completed_folds": [
+      1
+    ],
+    "cpu": 5859.53286601,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 5850.639637187996
+  },
+  "root_state_snapshot": {
+    "completed_folds": [
+      1
+    ],
+    "cpu": 5045.279307379,
+    "diagnostic_labels_read": false,
+    "state": "full_sixfold_in_progress_unscored",
+    "wall": 5038.211268429004
+  },
+  "scientific_sources_unchanged": true,
+  "state": "held1_full64_production_and_fresh64_and_native_audits_private_verified_held2_original_training_unscored",
+  "transfer_errors": 0,
+  "users7_8_labels_used": false
+}

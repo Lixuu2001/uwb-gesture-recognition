@@ -1,0 +1,98 @@
+{
+  "archive_build": {
+    "CPU": 4.762411124,
+    "wall": 4.764158872014377
+  },
+  "held1_controller_total": {
+    "completed": [
+      "train",
+      "replay",
+      "output"
+    ],
+    "cpu": 5031.3349849999995,
+    "diagnostic_labels_read": false,
+    "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+    "users7_8_labels_used": false,
+    "wall": 5032.326164220984
+  },
+  "held1_stage_cumulative": {
+    "output": {
+      "cpu": 5031.3349849999995,
+      "wall": 5032.325191743992
+    },
+    "replay": {
+      "cpu": 5021.197184,
+      "wall": 5022.304500141996
+    },
+    "train": {
+      "cpu": 2509.378302,
+      "wall": 2509.5645313689893
+    }
+  },
+  "observed_full_phase": {
+    "RSS_KiB": 1774308,
+    "active_held": 2,
+    "completed_folds": [
+      1
+    ],
+    "cpu": 5859.53286601,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 5850.639637187996
+  },
+  "overlapping_backup_and_training_wall_not_serial_sum": true,
+  "prior_all_MMD_VREx_generation_and_initial_costs_retained": true,
+  "prior_producer_protection_costs": {
+    "all_prior_MMD_VREx_and_generation_costs_retained": true,
+    "main_phase_observation": {
+      "RSS_KiB": 1746320,
+      "active_held": 1,
+      "completed_folds": [],
+      "cpu": 3679.325427975,
+      "fold_stage": "replay",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "prior_VREx6_cpu": 31189.589142517,
+      "prior_VREx6_wall": 31157.163366941997,
+      "wall": 3673.4881385519984
+    },
+    "overlapping_wall_is_not_summed_as_serial_work": true,
+    "private_archive_build": {
+      "CPU": 4.971704636999999,
+      "wall": 4.665837452979758
+    },
+    "producer_training_cumulative": {
+      "cpu": 2509.378302,
+      "wall": 2509.5645313689893
+    },
+    "readonly_audit": {
+      "CPU": 2.405535335,
+      "wall": 2.168209002004005
+    },
+    "transfer_network_and_materializer_CPU_not_measured_not_assumed_zero": true,
+    "whole_archive_raw_allmember_verification": {
+      "CPU": 0.43964193100000004,
+      "scope": "whole_archive_decompression_and_allmember_hash_verification",
+      "wall": 0.4413471239968203
+    }
+  },
+  "root_after_held1": {
+    "cumulative_remaining_phase": {
+      "cpu": 5045.278615793,
+      "wall": 5038.209853173001
+    },
+    "exit_code": 0,
+    "new_diagnostic_metrics_computed": false
+  },
+  "stage_cumulative_values_must_not_be_summed": true,
+  "transfer_and_materializer_CPU_not_measured_not_zero": true,
+  "whole_raw_allmember_verification": {
+    "CPU": 0.768382459,
+    "overlaps_original_training": true,
+    "scope": "single_completed_fold_whole_raw_archive_and_allmember_verification_including_operator_import",
+    "wall": 0.7711621160269715
+  }
+}

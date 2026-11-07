@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Fishr_held1_producer64_privateverified_original82223_fresh_replay_active_unscored",
+  "state": "Fishr_held1_full64_fresh64_native_private_complete_original82223_held2_train_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-07 samecloud4CPU16GiB/Torch2.15CPU/noGPU; original82223 Fishr6 held1 producer64/4736 complete and private8parts252payload verified, ownfresh64 replay29 ongoing; phase cap12h wallCPU, previous MMD/VREx costs retained.",
+  "compute": "2026-11-07 samecloud4CPU16GiB/Torch2.15CPU/noGPU; original82223 Fishr6 completedheld1 native64+fresh64/private14parts412; held2 train20/1480 original83075 ongoing, fixed12h wallCPU, all prior costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_fishr_native_held1producer/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_fishr_native_held1complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794029966.6312382,
+  "background_training_observed_unix": 1794032119.0798643,
   "background_training_pid": 82223,
-  "background_training_status_note": "Original Fishr6 phase82223 active: held1 full64 producer complete4736 updates/selectedvalepoch28, producer8parts252payload privateallmember verified; ownfresh64 replay at29, no held truth/score/duplicate.",
+  "background_training_status_note": "Original82223 Fishr6: held1 full64+fresh64+native audits and14parts412payload rawprivate complete; held2 original worker83075 active, snapshotepoch20/1480 and firstaudit exact. No testscore/no repeat/full6 incomplete.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -16607,5 +16607,37 @@
   "replay_progress_observation_epoch": 29,
   "scientific_sources_unchanged": true,
   "selected_epoch_validation_only": 28
+}
+,
+  "fishr_native_held1complete_20261107": {
+  "report": "results/cloud_20261107_fishr_native_held1complete/RUN_REPORT.md",
+  "method": "published_DomainBed_Fishr1000_ema0p95_anneal1500_fullnative617612_LOSO6_globalBCE64",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "complete_sixfold_cohort": false,
+  "complete_sixfold_private": false,
+  "completed_native_full_folds": [
+    1
+  ],
+  "completed_private_folds": [
+    1
+  ],
+  "current_held": 2,
+  "held1_private_allmember_verified": true,
+  "held1_private_bytes": 96690320,
+  "held1_private_parts": 14,
+  "held1_private_payloads": 412,
+  "held1_production64_and_ownfresh64_and_native_audits": true,
+  "held1_updates_per_trajectory": 4736,
+  "held2_first_independent_update_audit_passed": true,
+  "held2_progress_snapshot_epoch": 20,
+  "held2_worker_pid": 83075,
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "next": "Reuse original82223; complete2..6 native64+fresh64/audits and stableprivate protection; whole6 private/exactrelease before inference/unique cohortscore. No singlefoldgate/oldonce/duplicate; automation unchanged.",
+  "original_phase_not_restarted": true,
+  "original_phase_pid": 82223,
+  "scientific_sources_unchanged": true
 }
 }
