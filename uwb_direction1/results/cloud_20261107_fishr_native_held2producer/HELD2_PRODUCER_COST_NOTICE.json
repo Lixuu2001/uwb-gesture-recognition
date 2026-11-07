@@ -1,0 +1,37 @@
+{
+  "all_prior_costs_retained": true,
+  "archive_build": {
+    "CPU": 5.0436864880000005,
+    "wall": 4.742742825997993
+  },
+  "failed_readonly_operator_attempt_cost_not_measured_not_zero": true,
+  "main_phase_observation": {
+    "RSS_KiB": 1765580,
+    "active_held": 2,
+    "completed_folds": [
+      1
+    ],
+    "cpu": 8092.564641778,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 8080.673014507978
+  },
+  "overlapping_training_backup_wall_not_serial_sum": true,
+  "producer_training_cumulative": {
+    "cpu": 2497.218856,
+    "wall": 2497.4355948399752
+  },
+  "readonly_audit": {
+    "CPU": 2.411515234,
+    "wall": 2.0742750780191272
+  },
+  "transfer_network_and_materializer_CPU_not_measured_not_zero": true,
+  "whole_raw_allmember_verification": {
+    "CPU": 0.40287803699999997,
+    "scope": "whole_archive_decompression_and_allmember_hash_verification",
+    "wall": 0.4046826570411213
+  }
+}
