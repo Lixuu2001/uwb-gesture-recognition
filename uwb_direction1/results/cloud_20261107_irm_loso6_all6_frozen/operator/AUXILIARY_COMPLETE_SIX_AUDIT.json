@@ -1,0 +1,233 @@
+{
+  "check_CPU": 2.87646879,
+  "check_wall": 2.8860604310175404,
+  "classification_metrics_computed": false,
+  "complete_all_six": true,
+  "complete_stage_cost": {
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 29548.175221702,
+    "diagnostic_labels_read": false,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 29509.953316993022
+  },
+  "gesture_truth_decoded": false,
+  "held_labels_read": false,
+  "new_training_replay_or_inference_run": false,
+  "prior_costs_preserved": true,
+  "rows": [
+    {
+      "all65_epoch_records_and_all_steps_exact": true,
+      "cost": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 5006.993069,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 5009.0532007429865
+      },
+      "epochs_each": 64,
+      "final_native_sha256": "41e9978e4f08561786e9ac03d01fdd834237b82303b77bc3586e995ade50b9da",
+      "first_independent_gradient_maxabs": 7.450580596923828e-09,
+      "held": 1,
+      "role_counts": [
+        4700,
+        1000,
+        1200
+      ],
+      "selected_epoch_validation_only": 46,
+      "selected_sha256": "01909edb2bd9d409c1d4a3d908d7e031d80550ad3c5ced7e3f06593ff42f0181",
+      "train_users": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "updates_each": 4736,
+      "validation_user": 2
+    },
+    {
+      "all65_epoch_records_and_all_steps_exact": true,
+      "cost": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 5074.000514,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 5075.099713447969
+      },
+      "epochs_each": 64,
+      "final_native_sha256": "4394a2fba387e4ab538e4695e77b039dec1ac6068018dbca99bd535a21cae928",
+      "first_independent_gradient_maxabs": 7.450580596923828e-09,
+      "held": 2,
+      "role_counts": [
+        4700,
+        1200,
+        1000
+      ],
+      "selected_epoch_validation_only": 62,
+      "selected_sha256": "7dbd2eb37bf37b26d332a2c4cb4646b57f1ef0862004a431a0668ab158bf438d",
+      "train_users": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "updates_each": 4736,
+      "validation_user": 3
+    },
+    {
+      "all65_epoch_records_and_all_steps_exact": true,
+      "cost": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 4801.370099,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 4802.394630316005
+      },
+      "epochs_each": 64,
+      "final_native_sha256": "4b438c63befbd49a089f041b492c55705c2f89a35b5d79f048ab1ff71a2dcb9c",
+      "first_independent_gradient_maxabs": 7.450580596923828e-09,
+      "held": 3,
+      "role_counts": [
+        4500,
+        1200,
+        1200
+      ],
+      "selected_epoch_validation_only": 5,
+      "selected_sha256": "6800600f006280c1487d40a801e4d0d5ba73a04f970fbc91ec85ad145bd760c5",
+      "train_users": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "updates_each": 4544,
+      "validation_user": 4
+    },
+    {
+      "all65_epoch_records_and_all_steps_exact": true,
+      "cost": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 4813.218616,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 4815.576577325992
+      },
+      "epochs_each": 64,
+      "final_native_sha256": "12f625bf4cf45cfcc5213d85f3418d2de85679d08b7b99e3d2ff85a07fc69702",
+      "first_independent_gradient_maxabs": 3.725290298461914e-09,
+      "held": 4,
+      "role_counts": [
+        4500,
+        1200,
+        1200
+      ],
+      "selected_epoch_validation_only": 62,
+      "selected_sha256": "6cc9d50cd44fcb1b475972f5dee7ec09162d76cc1bb8f9aa1907ba169a66fc47",
+      "train_users": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "updates_each": 4544,
+      "validation_user": 5
+    },
+    {
+      "all65_epoch_records_and_all_steps_exact": true,
+      "cost": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 4873.409575,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 4874.568011244992
+      },
+      "epochs_each": 64,
+      "final_native_sha256": "1a2ef859efc90484b8e93fe3680cfb6a266c35354b5a8abec459c1a39d9df1cb",
+      "first_independent_gradient_maxabs": 7.450580596923828e-09,
+      "held": 5,
+      "role_counts": [
+        4600,
+        1100,
+        1200
+      ],
+      "selected_epoch_validation_only": 47,
+      "selected_sha256": "1ff9ad1abe4516254ca8a2c937d29e3b7de387fdaccface5d48f17daf3175010",
+      "train_users": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "updates_each": 4608,
+      "validation_user": 6
+    },
+    {
+      "all65_epoch_records_and_all_steps_exact": true,
+      "cost": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 4911.36238,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 4912.335181712988
+      },
+      "epochs_each": 64,
+      "final_native_sha256": "05b10d0820a3709905e4926ded13145112ca85f2455a3d4bb8cd5adc3a49ebdc",
+      "first_independent_gradient_maxabs": 7.450580596923828e-09,
+      "held": 6,
+      "role_counts": [
+        4600,
+        1200,
+        1100
+      ],
+      "selected_epoch_validation_only": 6,
+      "selected_sha256": "4ae45afbfc7460da57ac75292ce9acbaa4fb94f18a3f294edba679b79e13ac0b",
+      "train_users": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "updates_each": 4608,
+      "validation_user": 1
+    }
+  ],
+  "scientific_frozen_manifest_sha256": "857e06d91fd2da1ac1428a2716e1df541db8198245dc1d8041922f8d75ad8b6d",
+  "state": "all_six_complete_native_trajectories_roles_and_unscored_outputs_readonly_verified",
+  "users7_8_labels_used": false
+}
