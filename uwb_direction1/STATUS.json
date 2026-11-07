@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "IRM_held1_to_2_native64_fresh64_private_verified_original_remaining_LOSO6_running_unscored",
+  "state": "IRM_held1_to_3_native64_fresh64_private_verified_original_remaining_LOSO6_running_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Original IRM phase active held3/train, cumulative wall11105.476/CPU11121.789seconds observed, whole6 12h wallCPU/12GiB unchanged. Full native insured folds[1, 2]; prior methods and overlap-aware operations costs separately retained.",
+  "compute": "Original IRM phase active held4/train, cumulative wall15393.119/CPU15412.955seconds observed, whole6 12h wallCPU/12GiB unchanged. Full native insured folds[1, 2, 3]; prior methods and overlap-aware operations costs separately retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_irm_loso6_held2_insured/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_irm_loso6_held3_insured/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794075733.4937963,
+  "background_training_observed_unix": 1794080021.4658818,
   "background_training_pid": 92152,
-  "background_training_status_note": "Original92152 sameboot/startticks active held3/train; complete insured folds[1, 2], new held2 13parts/415payload raw-allmember verified. Partial cohort, no test scores; do not relaunch.",
+  "background_training_status_note": "Original92152 sameboot/startticks active held4/train; complete insured folds[1, 2, 3], new held3 13parts/415payload raw-allmember verified. Partial cohort, no test scores; do not relaunch.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -17110,6 +17110,39 @@
   "private_complete_method_folds": [
     1,
     2
+  ]
+}
+,
+  "irm_loso6_held3_insured_20261107": {
+  "report": "results/cloud_20261107_irm_loso6_held3_insured/RUN_REPORT.md",
+  "method": "published_DomainBed_IRM100_anneal500_nativeGAP617612_globalBCE64_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "active_held": 4,
+  "active_stage": "train",
+  "cohort_scoring_activated": false,
+  "complete_all_six": false,
+  "complete_native_method_folds": [
+    1,
+    2,
+    3
+  ],
+  "duplicate_phase_started": false,
+  "full_frozen_scientific_files_unchanged": 45,
+  "new_accuracy_available": false,
+  "new_fold_archive_bytes": 94519751,
+  "new_fold_archive_parts": 13,
+  "new_fold_archive_payloads": 415,
+  "new_fold_archive_sha256": "3db3235c8971e519f391490218effb75d0227ee0ebfbd54de6f0554a50cb51ec",
+  "new_fold_epochs": 64,
+  "new_fold_selected_epoch_validation_only": 5,
+  "new_fold_updates": 4544,
+  "newly_insured_held": 3,
+  "private_complete_method_folds": [
+    1,
+    2,
+    3
   ]
 }
 }
