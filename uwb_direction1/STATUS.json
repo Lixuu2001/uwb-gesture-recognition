@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Fishr_native_classifier_core_checked_no_fitting_registration_VREx_full6_closed_negative",
+  "state": "Fishr_fullnative_LOSO6_preregistered_synthetic_and_budget_pass_no_real_fit_before_private_initial_release",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-07 samecloud4CPU/16GiB/noGPU/Torch2.15CPU; VREx complete6 closed92.8444% vsGAP93.6672%, MMD40.6258% closed; all prior costs retained. Fishr mathematical core only, fullnative integration/cost/fitting registration pending; no training alive.",
+  "compute": "2026-11-07 samecloud4CPU16GiB/noGPU/Torch2.15CPU; fullnativeFishr all6 generated audits/budget pass, main cap12h wallCPU; before privateinitial/exactrelease no real trainer. Preserve MMD/VREx closed costs.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_fishr_native_core_ready/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_fishr_native_native_preregistered/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794022287.1285295,
+  "background_training_observed_unix": 1794025964.4067779,
   "background_training_pid": null,
-  "background_training_status_note": "VREx complete6 closed92.8444% vs93.6672%; Fishr published default mathematical core synthetic first/second derivative and author EMA checks pass, no fullnative worker, cost gate or fitting preregistration, no new training.",
+  "background_training_status_note": "Complete native Fishr worker/audits and all6 generated checks pass; fixed39586.9864sec budget below43200, no real UWB training yet, privateinitial/exactrelease next.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -16524,5 +16524,25 @@
   "prior_VREx_result_commit": "cabd7e115924374e0cb349f95769708e239570fc",
   "prior_VREx_exact_config_closed": true,
   "next": "Integrate actual full native617612/strict6-role loader and worker, complete EMA/RNG/optimizer checkpoints/ownedPID cap/fresh64 audits; generated fullnative CPU timing then freeze complete fitting protocol/config/seed and private initial exactrelease before training; no legacy once/no held1 gate/no test tuning."
+}
+,
+  "fishr_native_native_preregistered_20261107": {
+  "report": "results/cloud_20261107_fishr_native_native_preregistered/RUN_REPORT.md",
+  "method": "published_DomainBed_Fishr1000_ema0p95_anneal1500_fullnative617612_LOSO6_globalBCE64",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "native_worker_implemented": true,
+  "full_native_generated_audits_all6_pass": true,
+  "fitting_configuration_preregistered": true,
+  "private_initial_verified": false,
+  "new_background_training_started": false,
+  "real_UWB_samples_or_labels_read": false,
+  "resource_gate_passed": true,
+  "budget_seconds": 39586.98642814625,
+  "main_wall_CPU_cap_seconds": 43200,
+  "parameters": 617612,
+  "classifier_gradient_coordinates": 18060,
+  "next": "Private untrained initial+all6roles raw/allmember and exact release, then one full6 phase; no prior rerun/no held1gate/no test tuning."
 }
 }

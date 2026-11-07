@@ -1,0 +1,52 @@
+{
+  "RSS_KiB": 12582912,
+  "all6_generated_checks_passed": true,
+  "configuration": {
+    "EMA": 0.95,
+    "anneal_completed_updates": 1500,
+    "batch": 64,
+    "classifier_gradient_coordinates": 18060,
+    "epochs": 64,
+    "folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "globalBCE": true,
+    "lambda_": 1000,
+    "method": "published DomainBed Fishr",
+    "native_parameters": 617612,
+    "reset_before_update1501": true,
+    "seed": 20261029
+  },
+  "conservative_main_seconds": 39586.98642814625,
+  "created_unix": 1794025964.338437,
+  "fixed_resource_gate_passed": true,
+  "frozen_manifest_sha256": "c43e0566f8dc1b0f8e976dbe5f014d289be82ac4df160852eb45ad048747b99c",
+  "generated_checks_summary_sha256": "12c249db4d974b712637fae66423355304e23d668215dcfb983bd7e85d40233d",
+  "generation_faults_preserved": [
+    "BUILD_REPAIR.json",
+    "PREFLIGHT_REPAIR_LOG.json"
+  ],
+  "independent_validation": false,
+  "main_wall_CPU_cap_seconds": 43200,
+  "new_training_started": false,
+  "original_contribution_claim": false,
+  "post_checks_guard_addition": {
+    "file": "operator/initial_archive.py",
+    "meaning": "Enforce actual remote preregistration before building initial state; no math/model/optimizer/profile change",
+    "old_sha256": "6bc033ee3493963d1e0a53b392b357edd61369db2c640a0773cfadd15c547ceb"
+  },
+  "profile_not_speedup_evidence": true,
+  "real_UWB_data_or_labels_opened": false,
+  "remaining_prerequisites": [
+    "exact fullsource Git preregistration readback",
+    "untrained fullnative initial plus private sample IDs and all6roles raw allmember Drive readback",
+    "exact private initial Git release then one whole6 phase"
+  ],
+  "resource_gate_sha256": "fa5527059d6dc47303693e934d8ffdfcf6b82bb569db5de2169247a00db97d36",
+  "state": "full_native_Fishr_fitting_registration_before_any_UWB_fit"
+}

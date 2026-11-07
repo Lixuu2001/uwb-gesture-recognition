@@ -1,0 +1,320 @@
+{
+  "activation": "Only after preserved closed MMD and VREx cohorts; generated fullnative checks and fixed CPUgate, formal exact preregistration and private initial raw readback before any fit",
+  "author_protocol_reproduced": false,
+  "bounded_LOSO_continuation_gate": {
+    "applies_only_to_new_unscored_MMD_sixfold_not_retroactive_to_prior_closed_methods": false,
+    "applies_to_new_Fishr_complete6_only": true,
+    "mean_paired_macro_recall_gain_min": 0.005,
+    "no_post_score_coefficient_kernel_epoch_seed_or_fold_grid": true,
+    "report_any_measured_positive_or_negative_result_even_if_spending_gate_fails": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_macro_recall_delta_min": -0.02
+  },
+  "candidate": "published DomainBed Fishr default component on full native GAP; no original contribution claim",
+  "class_support_and_metric_definitions": {
+    "absent_class_rule": "true support0 yields null per-class recall; exclude only undefined true-class recall from present macro; a prediction of absent class for any true example is still wrong",
+    "accuracy_equals_macro_on_this_balanced_present_support": true,
+    "class_support": [
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 1
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "present_classes_balanced": true,
+        "user": 2
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 3
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 4
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 5
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_classes": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 6
+      }
+    ],
+    "class_support_audit_only_no_prediction_pairing": true,
+    "primary": "equal subject mean of present-class macro recall; all6 folds reported",
+    "secondary": [
+      "per-subject accuracy",
+      "per-class support and recall including null for absent true classes",
+      "worst subject macro recall",
+      "paired per-subject differences and strict wins",
+      "sample-weighted pooled accuracy separately named",
+      "training/inference/replay/archive costs separately"
+    ]
+  },
+  "component_source": {
+    "author_commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+    "core_v1_manifest_sha256": "85fe2bb16e7e2f35ad30ae0aec231248645d0f748e04c10c6f4f6354e4665b21",
+    "original_core_unchanged": true
+  },
+  "created_unix": 1794025566.2336814,
+  "current_MMD_accuracy_unknown": false,
+  "data": "/workspace/uwb-restored-20261103",
+  "fixed_method": {
+    "EMA_retained_at_reset": true,
+    "all3radars": true,
+    "anneal_completed_updates": 1500,
+    "batch": 64,
+    "classifier_gradient_parameters": 18060,
+    "ema_default": 0.95,
+    "epochs": 64,
+    "full_native_optimizer_reset_before_update1501": true,
+    "full_production64_and_own_fresh64_each_held": true,
+    "lambda_default": 1000.0,
+    "loss": "native globalmean hard12BCE + scheduled Fishr penalty",
+    "no_grid_or_rescue": true,
+    "parameters": 617612,
+    "per_record_view_RMS": true,
+    "seed": 20261029,
+    "threads": 1,
+    "warmup_weight": 0.0
+  },
+  "implementation_pending": false,
+  "main_budget": {
+    "RSS_KiB": 12582912,
+    "calibration": "single fixed generated fullnative Fishr/native ratio; three warmup plus six active updates per nine-step arm; active starts synthetic completed1500 fixture, not actual1500 steps",
+    "formula": "1.25*31189.589142517*max(1,max(Fishr_wall/native_wall,Fishr_CPU/native_CPU))+600<=43200",
+    "no_automatic_production_retry": true,
+    "prior_all_method_costs_retained": true,
+    "profile_wall_CPU_cap_seconds": 600,
+    "ratio_not_tuned": true,
+    "reference_VREx6_whole_CPU_seconds": 31189.589142517,
+    "single_active_model": true,
+    "wall_CPU_cap_seconds": 43200
+  },
+  "new_UWB_fit_started": false,
+  "no_legacy_singlefold_once_or_gate": true,
+  "originality_validated": false,
+  "preregistered_confound_control": {
+    "cost_added": true,
+    "execute_if": "Only if complete primary6 passes fixed gate; before variance attribution or outer8 planning",
+    "name": "globalBCE_identical_native_optimizerreset1500_no_gradient_variance",
+    "same_initialization_roles_sampler_globalBCE_optimizer_reset_batch_epochs_seed": true,
+    "separate_wall_CPU_cap_seconds": 36000
+  },
+  "primary_control": "Reuse exact original GAP64 sixfold native outputs/initialization/roles, mean .9366717171717172; no refit or weaker baseline.",
+  "primary_reference": "https://proceedings.mlr.press/v162/rame22a.html",
+  "prior_closed_MMD_result": "/workspace/uwb-mmd-loso6-20261106/SUMMARY.json",
+  "prior_closed_VREx_result": "/workspace/uwb-vrex-loso6-20261106/SUMMARY.json",
+  "protocol": {
+    "all6_outputs_and_private_models_frozen_before_one_joint_score": true,
+    "checkpoint_selection": "validation presentclass macro, lower global native BCE, earlier epoch",
+    "exploratory_historical8": true,
+    "held": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "no_singlefold_test_entry_gate": true,
+    "strict_subject_and_sample_ID_disjoint": true,
+    "training": "other4",
+    "users7_8_for_selection": false,
+    "validation": "h%6+1"
+  },
+  "source_ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "spending_gate": {
+    "equal_user_mean_gain_min": 0.005,
+    "not_retroactive_to_closed_configs": true,
+    "report_any_positive_or_negative_evidence_even_on_failure": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_delta_min": -0.02
+  },
+  "state": "complete_Fishr_implementation_locally_frozen_pending_generated_checks_and_budget_no_fit_registration"
+}

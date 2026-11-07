@@ -1,0 +1,12 @@
+{
+  "RSS_KiB": 12582912,
+  "calibration": "single fixed generated fullnative Fishr/native ratio; three warmup plus six active updates per nine-step arm; active starts synthetic completed1500 fixture, not actual1500 steps",
+  "formula": "1.25*31189.589142517*max(1,max(Fishr_wall/native_wall,Fishr_CPU/native_CPU))+600<=43200",
+  "no_automatic_production_retry": true,
+  "prior_all_method_costs_retained": true,
+  "profile_wall_CPU_cap_seconds": 600,
+  "ratio_not_tuned": true,
+  "reference_VREx6_whole_CPU_seconds": 31189.589142517,
+  "single_active_model": true,
+  "wall_CPU_cap_seconds": 43200
+}

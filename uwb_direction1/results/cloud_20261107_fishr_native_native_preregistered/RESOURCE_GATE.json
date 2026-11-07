@@ -1,0 +1,177 @@
+{
+  "Fishr_native_ratio": 0.8605250206040668,
+  "RSS_KiB_cap": 12582912,
+  "active_steps_six_of_nine": true,
+  "batch": 64,
+  "epochs": 64,
+  "formula": "1.25*31189.589142517*max(1,max(Fishr_wall/native_wall,Fishr_CPU/native_CPU))+600<=43200",
+  "gate_passed": true,
+  "maxRSS_KiB": 593152,
+  "model_wall_and_CPU_cap_seconds": 43200,
+  "new_UWB_fit_started": false,
+  "no_UWB_arrays_or_labels_opened": true,
+  "no_resource_rescue_grid": true,
+  "parameters": 617612,
+  "profile_CPU": 9.902511758,
+  "profile_wall": 9.905262898013461,
+  "reserve_seconds": 39586.98642814625,
+  "rows": [
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 1.167690673,
+      "step": 0,
+      "synthetic_counter_fixture1500": false,
+      "wall": 1.1683552419999614
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.5319052719999995,
+      "step": 1,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5328696530195884
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.5233771999999997,
+      "step": 2,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5234305470075924
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.6096482190000003,
+      "step": 3,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.6097870859957766
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.5169986670000002,
+      "step": 4,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5170230719959363
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.5025343040000001,
+      "step": 5,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5026605160092004
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.5092067289999997,
+      "step": 6,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5092124209913891
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.4736625400000003,
+      "step": 7,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.47367767299874686
+    },
+    {
+      "active_penalty": false,
+      "arm": "native",
+      "cpu": 0.47518543999999974,
+      "step": 8,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.4752030319941696
+    },
+    {
+      "active_penalty": false,
+      "arm": "Fishr",
+      "cpu": 0.4820559209999997,
+      "step": 0,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.4820566769922152
+    },
+    {
+      "active_penalty": false,
+      "arm": "Fishr",
+      "cpu": 0.4960294360000006,
+      "step": 1,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.4960759489913471
+    },
+    {
+      "active_penalty": false,
+      "arm": "Fishr",
+      "cpu": 0.5226678790000001,
+      "step": 2,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5226915680104867
+    },
+    {
+      "active_penalty": true,
+      "arm": "Fishr",
+      "cpu": 0.522894539000001,
+      "step": 3,
+      "synthetic_counter_fixture1500": true,
+      "wall": 0.5229262530046981
+    },
+    {
+      "active_penalty": true,
+      "arm": "Fishr",
+      "cpu": 0.5158209899999999,
+      "step": 4,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.515839475003304
+    },
+    {
+      "active_penalty": true,
+      "arm": "Fishr",
+      "cpu": 0.5310623000000003,
+      "step": 5,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5311050770105794
+    },
+    {
+      "active_penalty": true,
+      "arm": "Fishr",
+      "cpu": 0.475837155999999,
+      "step": 6,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.4758370019844733
+    },
+    {
+      "active_penalty": true,
+      "arm": "Fishr",
+      "cpu": 0.4975383740000012,
+      "step": 7,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.4975571810209658
+    },
+    {
+      "active_penalty": true,
+      "arm": "Fishr",
+      "cpu": 0.5256611519999996,
+      "step": 8,
+      "synthetic_counter_fixture1500": false,
+      "wall": 0.5261694809887558
+    }
+  ],
+  "seed": 20261029,
+  "state": "single_fixed_generated_fullnative_Fishr_resource_gate",
+  "sums": {
+    "Fishr": {
+      "cpu": 4.569567747000002,
+      "wall": 4.570258663006825
+    },
+    "native": {
+      "cpu": 5.310209044,
+      "wall": 5.312219242012361
+    }
+  },
+  "synthetic_counter_fixture_is_not_1500_actual_updates": true
+}

@@ -1,0 +1,64 @@
+{
+  "state": "candidate_core_only_not_preregistered_for_fitting",
+  "candidate": "published_DomainBed_Fishr_defaults_native_GAP64_transfer",
+  "seed": 20261029,
+  "cohort": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "outer_test": "h1..6",
+  "validation": "h%6+1",
+  "train": "other four subjects",
+  "parameters_target": 617612,
+  "classifier_gradient_parameters": 18060,
+  "input": "same all3radars90x567 signed maps, per-record per-view RMS, no fit preprocessing",
+  "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "epochs_target": 64,
+  "batch": 64,
+  "threads": 1,
+  "optimizer_target": "same native AdamW.001_decay.0001_Lookahead.5_k6_clip2",
+  "classification_loss_target": "same globalmean hard onehot12 BCE",
+  "per_example_statistic_loss": "mean over12 BCE classes per sample; not divided by batch size",
+  "Fishr_defaults": {
+    "penalty_lambda": 1000.0,
+    "ema": 0.95,
+    "anneal_completed_updates": 1500,
+    "warmup_weight": 0.0
+  },
+  "EMA_history": "detach past; fixed author1/(1-.95), not time bias correction",
+  "optimizer_reset_target": "full native optimizer before update1501, retain EMA; not yet integrated",
+  "deviations": [
+    "native BCE replaces author multiclass CE",
+    "same native two-linear128/ReLU/dropout.2/12 classifier; compute gradients for all four tensors, not only last linear",
+    "native randomB64 single-forward mixed-source sampler replaces separate domain loaders",
+    "absent current training group skips EMA update and current penalty; other histories unchanged; finite population variance for singleton"
+  ],
+  "same_complete_6_protocol_no_held1_gate": true,
+  "users7_8_labels_forbidden": true,
+  "proposed_main_wall_CPU_cap_seconds": 43200,
+  "independent_fresh64_replay_all6_required": true,
+  "complete_private_raw_allmember_before_cohort_once_required": true,
+  "proposed_spending_gate": {
+    "mean_gain_min": 0.005,
+    "strict_wins_min": 4,
+    "worst_paired_delta_min": -0.02
+  },
+  "if_positive_matched_control": "same global BCE and optimizerreset1500, zero variance penalty, same6/native/64/seed before attributing gain; prior VREx domainmean/reset500 control is different",
+  "remaining": [
+    "integrate full native backbone, training/validation-only loader, complete checkpoint/EMA/RNG state",
+    "implement owned-PID resource supervision and independent full64 replay/native audits",
+    "measure actual full native synthetic CPU projection before fitting approval by fixed budget",
+    "freeze complete fitting protocol/code/config/seed and verify private initial asset and exact Git release before any real training"
+  ],
+  "fitting_preregistered": false,
+  "real_UWB_fit_started": false,
+  "background_training_started": false,
+  "native_worker_implemented": false,
+  "independent_validation": false,
+  "original_contribution_claim": false
+}

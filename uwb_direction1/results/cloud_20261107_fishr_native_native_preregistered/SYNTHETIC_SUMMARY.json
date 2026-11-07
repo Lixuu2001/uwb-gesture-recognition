@@ -1,0 +1,276 @@
+{
+  "all_held_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "all_passed": true,
+  "controller_wall_seconds": {
+    "1": 6.007348777988227,
+    "2": 5.507671881001443,
+    "3": 5.505135280021932,
+    "4": 5.507785962021444,
+    "5": 5.504595145001076,
+    "6": 5.507381676987279
+  },
+  "new_UWB_fit_started": false,
+  "prior_failed_attempt_retained": true,
+  "real_UWB_arrays_or_labels_opened": false,
+  "results": {
+    "1": {
+      "CPU_seconds": 2.951948482,
+      "all_passed": true,
+      "checks": {
+        "all6_firewall_metric_supervisor": {
+          "accuracy_and_presentmacro_distinct_and_missingnull": true,
+          "generated_all6_roles_counts_disjoint": true,
+          "loader_train_val_truth_slices_only": true,
+          "no_real_ids_or_arrays_or_labels_opened": true,
+          "owned_child_identity_and_group_stop": true
+        },
+        "fullnative_independent_reference": {
+          "active_model_semantic_bitwise_same": true,
+          "full_native_active_independent_classifier_autograd_and_pinned_author_EMA": true,
+          "max_clipped_gradient_abs_difference": 0.0,
+          "penalty": 1.2341288879724743e-08,
+          "penalty_reaches_backbone": true,
+          "reference_is_tolerance_check_not_claim_entire_author_protocol_reproduced": true,
+          "warmup_native_bitwise": true
+        },
+        "pinned_defaults": {
+          "ema": 0.95,
+          "lambda": 1000.0,
+          "penalty_anneal_iters": 1500
+        },
+        "real_optimizer_boundary_and_fullnative_journal_resume": {
+          "EMA_preserved_at_reset": true,
+          "active_boundary_fullnative_resume_exact": true,
+          "actual_scalar_optimizer_updates": 1501,
+          "fullnative_disk_EMA_BN_allRNG_recovery_bitwise": true,
+          "inference_model_buffers_unchanged": true,
+          "reset_entire_fast_and_slow_once": true,
+          "tail20_and_singleton_missing_groups": true,
+          "two_slot_journal_prefix_and_uncommitted_suffix_checked": true
+        }
+      },
+      "new_UWB_fit_started": false,
+      "no_UWB_arrays_or_labels_opened": true,
+      "state": "pass",
+      "users7_8_labels_used": false,
+      "wall_seconds": 2.9541702560090926
+    },
+    "2": {
+      "CPU_seconds": 2.62262979,
+      "all_passed": true,
+      "checks": {
+        "all6_firewall_metric_supervisor": {
+          "accuracy_and_presentmacro_distinct_and_missingnull": true,
+          "generated_all6_roles_counts_disjoint": true,
+          "loader_train_val_truth_slices_only": true,
+          "no_real_ids_or_arrays_or_labels_opened": true,
+          "owned_child_identity_and_group_stop": true
+        },
+        "fullnative_independent_reference": {
+          "active_model_semantic_bitwise_same": true,
+          "full_native_active_independent_classifier_autograd_and_pinned_author_EMA": true,
+          "max_clipped_gradient_abs_difference": 0.0,
+          "penalty": 1.2341288879724743e-08,
+          "penalty_reaches_backbone": true,
+          "reference_is_tolerance_check_not_claim_entire_author_protocol_reproduced": true,
+          "warmup_native_bitwise": true
+        },
+        "pinned_defaults": {
+          "ema": 0.95,
+          "lambda": 1000.0,
+          "penalty_anneal_iters": 1500
+        },
+        "real_optimizer_boundary_and_fullnative_journal_resume": {
+          "EMA_preserved_at_reset": true,
+          "active_boundary_fullnative_resume_exact": true,
+          "actual_scalar_optimizer_updates": 1501,
+          "fullnative_disk_EMA_BN_allRNG_recovery_bitwise": true,
+          "inference_model_buffers_unchanged": true,
+          "reset_entire_fast_and_slow_once": true,
+          "tail20_and_singleton_missing_groups": true,
+          "two_slot_journal_prefix_and_uncommitted_suffix_checked": true
+        }
+      },
+      "new_UWB_fit_started": false,
+      "no_UWB_arrays_or_labels_opened": true,
+      "state": "pass",
+      "users7_8_labels_used": false,
+      "wall_seconds": 2.626216065022163
+    },
+    "3": {
+      "CPU_seconds": 2.6253199499999997,
+      "all_passed": true,
+      "checks": {
+        "all6_firewall_metric_supervisor": {
+          "accuracy_and_presentmacro_distinct_and_missingnull": true,
+          "generated_all6_roles_counts_disjoint": true,
+          "loader_train_val_truth_slices_only": true,
+          "no_real_ids_or_arrays_or_labels_opened": true,
+          "owned_child_identity_and_group_stop": true
+        },
+        "fullnative_independent_reference": {
+          "active_model_semantic_bitwise_same": true,
+          "full_native_active_independent_classifier_autograd_and_pinned_author_EMA": true,
+          "max_clipped_gradient_abs_difference": 0.0,
+          "penalty": 1.2341288879724743e-08,
+          "penalty_reaches_backbone": true,
+          "reference_is_tolerance_check_not_claim_entire_author_protocol_reproduced": true,
+          "warmup_native_bitwise": true
+        },
+        "pinned_defaults": {
+          "ema": 0.95,
+          "lambda": 1000.0,
+          "penalty_anneal_iters": 1500
+        },
+        "real_optimizer_boundary_and_fullnative_journal_resume": {
+          "EMA_preserved_at_reset": true,
+          "active_boundary_fullnative_resume_exact": true,
+          "actual_scalar_optimizer_updates": 1501,
+          "fullnative_disk_EMA_BN_allRNG_recovery_bitwise": true,
+          "inference_model_buffers_unchanged": true,
+          "reset_entire_fast_and_slow_once": true,
+          "tail20_and_singleton_missing_groups": true,
+          "two_slot_journal_prefix_and_uncommitted_suffix_checked": true
+        }
+      },
+      "new_UWB_fit_started": false,
+      "no_UWB_arrays_or_labels_opened": true,
+      "state": "pass",
+      "users7_8_labels_used": false,
+      "wall_seconds": 2.626949132012669
+    },
+    "4": {
+      "CPU_seconds": 2.500198118,
+      "all_passed": true,
+      "checks": {
+        "all6_firewall_metric_supervisor": {
+          "accuracy_and_presentmacro_distinct_and_missingnull": true,
+          "generated_all6_roles_counts_disjoint": true,
+          "loader_train_val_truth_slices_only": true,
+          "no_real_ids_or_arrays_or_labels_opened": true,
+          "owned_child_identity_and_group_stop": true
+        },
+        "fullnative_independent_reference": {
+          "active_model_semantic_bitwise_same": true,
+          "full_native_active_independent_classifier_autograd_and_pinned_author_EMA": true,
+          "max_clipped_gradient_abs_difference": 0.0,
+          "penalty": 1.2341288879724743e-08,
+          "penalty_reaches_backbone": true,
+          "reference_is_tolerance_check_not_claim_entire_author_protocol_reproduced": true,
+          "warmup_native_bitwise": true
+        },
+        "pinned_defaults": {
+          "ema": 0.95,
+          "lambda": 1000.0,
+          "penalty_anneal_iters": 1500
+        },
+        "real_optimizer_boundary_and_fullnative_journal_resume": {
+          "EMA_preserved_at_reset": true,
+          "active_boundary_fullnative_resume_exact": true,
+          "actual_scalar_optimizer_updates": 1501,
+          "fullnative_disk_EMA_BN_allRNG_recovery_bitwise": true,
+          "inference_model_buffers_unchanged": true,
+          "reset_entire_fast_and_slow_once": true,
+          "tail20_and_singleton_missing_groups": true,
+          "two_slot_journal_prefix_and_uncommitted_suffix_checked": true
+        }
+      },
+      "new_UWB_fit_started": false,
+      "no_UWB_arrays_or_labels_opened": true,
+      "state": "pass",
+      "users7_8_labels_used": false,
+      "wall_seconds": 2.5030744719842914
+    },
+    "5": {
+      "CPU_seconds": 2.5682803469999995,
+      "all_passed": true,
+      "checks": {
+        "all6_firewall_metric_supervisor": {
+          "accuracy_and_presentmacro_distinct_and_missingnull": true,
+          "generated_all6_roles_counts_disjoint": true,
+          "loader_train_val_truth_slices_only": true,
+          "no_real_ids_or_arrays_or_labels_opened": true,
+          "owned_child_identity_and_group_stop": true
+        },
+        "fullnative_independent_reference": {
+          "active_model_semantic_bitwise_same": true,
+          "full_native_active_independent_classifier_autograd_and_pinned_author_EMA": true,
+          "max_clipped_gradient_abs_difference": 0.0,
+          "penalty": 1.2341288879724743e-08,
+          "penalty_reaches_backbone": true,
+          "reference_is_tolerance_check_not_claim_entire_author_protocol_reproduced": true,
+          "warmup_native_bitwise": true
+        },
+        "pinned_defaults": {
+          "ema": 0.95,
+          "lambda": 1000.0,
+          "penalty_anneal_iters": 1500
+        },
+        "real_optimizer_boundary_and_fullnative_journal_resume": {
+          "EMA_preserved_at_reset": true,
+          "active_boundary_fullnative_resume_exact": true,
+          "actual_scalar_optimizer_updates": 1501,
+          "fullnative_disk_EMA_BN_allRNG_recovery_bitwise": true,
+          "inference_model_buffers_unchanged": true,
+          "reset_entire_fast_and_slow_once": true,
+          "tail20_and_singleton_missing_groups": true,
+          "two_slot_journal_prefix_and_uncommitted_suffix_checked": true
+        }
+      },
+      "new_UWB_fit_started": false,
+      "no_UWB_arrays_or_labels_opened": true,
+      "state": "pass",
+      "users7_8_labels_used": false,
+      "wall_seconds": 2.5695699880016036
+    },
+    "6": {
+      "CPU_seconds": 2.61480303,
+      "all_passed": true,
+      "checks": {
+        "all6_firewall_metric_supervisor": {
+          "accuracy_and_presentmacro_distinct_and_missingnull": true,
+          "generated_all6_roles_counts_disjoint": true,
+          "loader_train_val_truth_slices_only": true,
+          "no_real_ids_or_arrays_or_labels_opened": true,
+          "owned_child_identity_and_group_stop": true
+        },
+        "fullnative_independent_reference": {
+          "active_model_semantic_bitwise_same": true,
+          "full_native_active_independent_classifier_autograd_and_pinned_author_EMA": true,
+          "max_clipped_gradient_abs_difference": 0.0,
+          "penalty": 1.2341288879724743e-08,
+          "penalty_reaches_backbone": true,
+          "reference_is_tolerance_check_not_claim_entire_author_protocol_reproduced": true,
+          "warmup_native_bitwise": true
+        },
+        "pinned_defaults": {
+          "ema": 0.95,
+          "lambda": 1000.0,
+          "penalty_anneal_iters": 1500
+        },
+        "real_optimizer_boundary_and_fullnative_journal_resume": {
+          "EMA_preserved_at_reset": true,
+          "active_boundary_fullnative_resume_exact": true,
+          "actual_scalar_optimizer_updates": 1501,
+          "fullnative_disk_EMA_BN_allRNG_recovery_bitwise": true,
+          "inference_model_buffers_unchanged": true,
+          "reset_entire_fast_and_slow_once": true,
+          "tail20_and_singleton_missing_groups": true,
+          "two_slot_journal_prefix_and_uncommitted_suffix_checked": true
+        }
+      },
+      "new_UWB_fit_started": false,
+      "no_UWB_arrays_or_labels_opened": true,
+      "state": "pass",
+      "users7_8_labels_used": false,
+      "wall_seconds": 2.617794051999226
+    }
+  }
+}
