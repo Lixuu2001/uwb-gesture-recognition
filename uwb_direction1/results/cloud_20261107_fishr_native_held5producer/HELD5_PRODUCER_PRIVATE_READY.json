@@ -1,0 +1,89 @@
+{
+  "all_prior_costs_retained": true,
+  "complete_fold_audits": false,
+  "complete_independent_replay": false,
+  "complete_producer_private_verified": true,
+  "complete_sixfold_cohort": false,
+  "complete_sixfold_private": false,
+  "completed_full_native_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "completed_full_private_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "current_held": 5,
+  "diagnostic_labels_read": false,
+  "new_known_ID_reuploads": 0,
+  "new_report_artifacts_generated": false,
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "new_transfer_errors": 0,
+  "new_unique_private_file_IDs": 8,
+  "observed_unix": 1794050337.9497242,
+  "original_phase_not_restarted": true,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 23.58,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "private_archive_sha256": "c0a8a4dc8f0668d799ae4c9d9a8939e90e1a45448b1379d62fa54287d8c79210",
+  "private_bytes": 53307479,
+  "private_parts": 8,
+  "private_payloads": 252,
+  "producer_epochs": 64,
+  "producer_updates": 4608,
+  "replay_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1896.55,
+    "pid": 86512,
+    "startticks": 27901516,
+    "state": "R"
+  },
+  "replay_original_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 86512,
+    "startticks": 27901516,
+    "state": "R"
+  },
+  "replay_prefix_explicitly_reaudited_epoch": 41,
+  "replay_progress_observation": {
+    "checkpoint_sha256": "75162378e51e2eac43991efcceb92e7ebcf54c6fef171624191a70c0cb08a543",
+    "epoch": 50,
+    "journal_sha256": "1d7482d7db38f55720d69b7a023c44a8d53e906506b1d0ad1da935a9beeb18c3",
+    "prefix_bytes": 3074244,
+    "prefix_sha256": "7e4a01f248cade9cda1f26dbac5351a0807e746d109f042b17f2abc61762b06b",
+    "slot": "slot0.pt",
+    "updates": 3600
+  },
+  "report_renderer_implemented_syntax_checked_not_executed": true,
+  "resource_observation": {
+    "RSS_KiB": 1738180,
+    "active_held": 5,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cpu": 24164.751556393,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 24131.497600953968
+  },
+  "scientific_sources_unchanged": true,
+  "selected_epoch_validation_only": 58,
+  "state": "held5_complete64_producer_private_verified_original_fresh64_replay_continues_unscored",
+  "users7_8_labels_used": false
+}

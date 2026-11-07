@@ -1,0 +1,39 @@
+{
+  "all_prior_costs_retained": true,
+  "main_phase_observation": {
+    "RSS_KiB": 1738180,
+    "active_held": 5,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cpu": 24164.751556393,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 24131.497600953968
+  },
+  "overlapping_backup_and_training_wall_not_serial_sum": true,
+  "private_archive_build": {
+    "archive_total_build_CPU": 4.909613265,
+    "archive_total_build_wall": 4.604074287984986
+  },
+  "producer_training_cumulative": {
+    "cpu": 2440.944093,
+    "wall": 2441.029109526018
+  },
+  "readonly_audit": {
+    "audit_CPU": 2.94797968,
+    "audit_wall": 2.6435251840157434
+  },
+  "transfer_materializer_and_renderer_preparation_CPU_unmeasured_not_zero": true,
+  "whole_raw_archive_allmember_verification": {
+    "CPU": 0.386120466,
+    "scope": "whole_archive_decompression_and_allmember_hash_verification",
+    "wall": 0.387010691978503
+  }
+}
