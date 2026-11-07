@@ -1,0 +1,49 @@
+{
+  "all_frozen_scientific_files_unchanged": true,
+  "complete_fold_audits": false,
+  "complete_independent_replay": false,
+  "complete_producer_private_verified": true,
+  "complete_sixfold_cohort": false,
+  "diagnostic_labels_read": false,
+  "new_training_started": false,
+  "original_phase_not_restarted": true,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 5.64,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "prior_costs_retained": true,
+  "private_archive_sha256": "356c4997a03f05420b22480506306931916aaf48030d93a098a13501c51f04d8",
+  "private_bytes": 53348309,
+  "private_parts": 8,
+  "private_payloads": 252,
+  "producer_epochs": 64,
+  "producer_updates": 4736,
+  "replay_progress_observation": {
+    "checkpoint_sha256": "a6ee35c11db3fe0dfe2ecc542c800a4f83991593891d23b76780cf5ad686b09e",
+    "epoch": 29,
+    "journal_sha256": "df76d9bbc770462fe1994fd6233e1da69dd2dc8e89a49605b7ca63d93acc4101",
+    "prefix_bytes": 1822451,
+    "prefix_sha256": "bbf02bb90d3cb74f8b9e0c1247faaba4baa02e4455267395157189c919666010",
+    "slot": "slot1.pt",
+    "updates": 2146
+  },
+  "resource_observation": {
+    "RSS_KiB": 1746320,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 3679.325427975,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 3673.4881385519984
+  },
+  "state": "held1_complete64_producer_private_verified_original_fresh_replay_continues_unscored",
+  "transfer_errors": 0,
+  "unique_private_file_IDs": 8,
+  "users7_8_labels_used": false
+}
