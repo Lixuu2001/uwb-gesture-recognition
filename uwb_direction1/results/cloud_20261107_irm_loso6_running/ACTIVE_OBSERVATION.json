@@ -1,0 +1,93 @@
+{
+  "active_held": 1,
+  "all45_frozen_source_bytes_unchanged": true,
+  "all6_production_and_replay_complete": false,
+  "automatic_task_frequency_enablement_or_cloud_changed": false,
+  "committed_progress": {
+    "checkpoint_sha256": "ab5a09c26ddceeae98b6e4c7bcae5557dcd80cf107d338030cec9d73212a37a6",
+    "epoch": 26,
+    "journal_sha256": "2f7f2b42297eaac8397367e6cb290d25678d9437ba8741002e20ac3a043388de",
+    "prefix_bytes": 1415397,
+    "prefix_sha256": "0cd8e9b131398d6458e51ca4ad9e7c72c94ad09431303202b8ea3c74dc7184e2",
+    "slot": "slot0.pt",
+    "updates": 1924
+  },
+  "diagnostic_labels_read": false,
+  "duplicate_phase_started": false,
+  "first_independent_reference": {
+    "diagnostic_labels_read": false,
+    "independent_reference_gradient_tolerance": {
+      "atol": 2e-06,
+      "rtol": 0.0002
+    },
+    "max_gradient_absolute_difference": 7.450580596923828e-09,
+    "parameters": 617612,
+    "reference_loss": 0.6924279928207397,
+    "reference_penalty": 0.0021136156283318996,
+    "same_implementation_native_state_replay_bitwise": true,
+    "state": "all617612_native_first_clipped_gradients_match_independent_dummy_scale_autograd",
+    "training_labels_only": true
+  },
+  "first_native_state_exact": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "cb9490d28580067e0fb9d0dd5a8813f25cdbe1085fc053f137ea96887a609bf1",
+    "native_first_update_exact": true,
+    "state_sha256": "48d83d7eead325fbf2c20fa8cc023c9ee455d9bd840f03cd0e385640c871c6e5"
+  },
+  "frozen_manifest_sha256": "857e06d91fd2da1ac1428a2716e1df541db8198245dc1d8041922f8d75ad8b6d",
+  "limits": {
+    "CPU_seconds": 43200,
+    "RSS_KiB": 12582912,
+    "wall_seconds": 43200
+  },
+  "new_test_accuracy_available": false,
+  "observed_unix": 1794065664.5571983,
+  "original789_changed": false,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 3.29,
+    "pid": 92152,
+    "startticks": 29520187,
+    "state": "S"
+  },
+  "private_initial_commit": "4a9ca2a37f1680b9f6ac445a840318ca1b79eaf5",
+  "private_snapshot": {
+    "actual_optimizer_steps": 610,
+    "archive_sha256": "ed4aae79ef6d78894ba9c6eed2c88824820bc23b4e794682103f3e902e1c295d",
+    "automatic_restart_authorized": false,
+    "bytes": 20942074,
+    "complete_cohort": false,
+    "complete_trajectory": false,
+    "epoch": 15,
+    "parts": 3,
+    "payloads": 93,
+    "reset_events": [
+      500
+    ],
+    "updates": 1110
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1701616,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 1037.807739131,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 1036.1451460940298
+  },
+  "source_commit": "9c149bc773ebffd9abb01cd07638eaadea43eedf",
+  "state": "one_original_real_IRM_LOSO6_phase_active_first_fold_training_unscored",
+  "users7_8_labels_used": false,
+  "worker": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 1024.05,
+    "pid": 92154,
+    "startticks": 29520670,
+    "state": "R"
+  }
+}

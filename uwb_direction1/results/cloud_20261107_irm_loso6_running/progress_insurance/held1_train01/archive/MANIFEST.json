@@ -1,0 +1,35 @@
+{
+  "archive_bytes": 20942074,
+  "archive_sha256": "ed4aae79ef6d78894ba9c6eed2c88824820bc23b4e794682103f3e902e1c295d",
+  "checkpoint_epoch": 15,
+  "checkpoint_updates": 1110,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "name": "irm_loso6_held1_train_prefix01_20261107.part000",
+      "sha256": "c8a03104e3a815faa1c4e679a7a26ec5fd6089dd22523d1b5966f7ef7efd14e9"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_loso6_held1_train_prefix01_20261107.part001",
+      "sha256": "98d91e8e9b7cc1892db6d635395b1f27dc84ac800c286c531f18d9c197cb85bb"
+    },
+    {
+      "bytes": 6262010,
+      "name": "irm_loso6_held1_train_prefix01_20261107.part002",
+      "sha256": "6cbb1ad1342f1afd57d6ff4852a2f79371e9898feecf3a58b0a6f9304c880218"
+    }
+  ],
+  "complete_modelset": false,
+  "complete_sixfold_cohort": false,
+  "complete_training_trajectory": false,
+  "members_manifest_sha256": "1ca9d35725965eadb90263af1263c2e2d35926125fdae46f4c37431de2a63a44",
+  "raw_arrays_included": false,
+  "restorable_single_native_checkpoint": true,
+  "runtime_binaries_included": false,
+  "scope": "IRM_held1_training_committed_native_checkpoint_only_not_complete_fold_or_cohort",
+  "scope_costs_not_reset_on_restore": true,
+  "state": "complete_audited_modelset_streamed_to_chunks",
+  "tracked_payload_files": 93,
+  "whole_job_resume": false
+}

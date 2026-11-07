@@ -1,0 +1,52 @@
+{
+  "actual_native_optimizer_steps": 610,
+  "actual_original_phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.91,
+    "pid": 92152,
+    "startticks": 29520187,
+    "state": "S"
+  },
+  "actual_reset_events": [
+    500
+  ],
+  "all_captured_step_schedule_loss_and_counter_checks_passed": true,
+  "automatic_restart_authorized": false,
+  "captured_complete_step_records": 1115,
+  "checkpoint_sha256": "0d043b2c00b91f94c99c152e6310fc5b2eb27a8ce67922589a80e490e28153c3",
+  "committed_updates": 1110,
+  "complete_sixfold_modelset": false,
+  "complete_trajectory": false,
+  "cost_observation_after_capture": {
+    "RSS_KiB": 1714560,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 601.363016981,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 600.4233414300252
+  },
+  "epoch": 15,
+  "held": 1,
+  "labels_or_UWB_maps_opened_by_snapshot": false,
+  "native_state_sha256": "c604ca9cb9db7ce3e40dab84d6208afdf375deb9938fba3bede949cfb04fe877",
+  "new_models_trained_or_inference_run_by_snapshot": false,
+  "original_phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.39,
+    "pid": 92152,
+    "startticks": 29520187,
+    "state": "R"
+  },
+  "prior_and_unknown_interruption_costs_must_be_preserved": true,
+  "selected_epoch_validation_only": 5,
+  "snapshot_capture_CPU": 0.09560246399999972,
+  "snapshot_capture_wall": 0.09563337900908664,
+  "state": "stable_native_training_checkpoint_and_entire_committed_journal_prefix_audited_without_pausing_live_job",
+  "uncommitted_suffix_records": 5
+}

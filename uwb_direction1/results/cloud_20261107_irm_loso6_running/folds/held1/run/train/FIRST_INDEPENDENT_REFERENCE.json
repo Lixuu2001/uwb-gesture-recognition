@@ -1,0 +1,14 @@
+{
+  "diagnostic_labels_read": false,
+  "independent_reference_gradient_tolerance": {
+    "atol": 2e-06,
+    "rtol": 0.0002
+  },
+  "max_gradient_absolute_difference": 7.450580596923828e-09,
+  "parameters": 617612,
+  "reference_loss": 0.6924279928207397,
+  "reference_penalty": 0.0021136156283318996,
+  "same_implementation_native_state_replay_bitwise": true,
+  "state": "all617612_native_first_clipped_gradients_match_independent_dummy_scale_autograd",
+  "training_labels_only": true
+}

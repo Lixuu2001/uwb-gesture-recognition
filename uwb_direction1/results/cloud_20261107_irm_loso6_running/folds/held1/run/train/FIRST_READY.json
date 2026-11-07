@@ -1,0 +1,35 @@
+{
+  "checkpoint_sha256": "cb9490d28580067e0fb9d0dd5a8813f25cdbe1085fc053f137ea96887a609bf1",
+  "step": {
+    "classification_loss": 0.6903143525123596,
+    "completed_updates_after": 1,
+    "completed_updates_before": 0,
+    "domain_counts": {
+      "3": 20,
+      "4": 13,
+      "5": 17,
+      "6": 14
+    },
+    "epoch": 1,
+    "forward_batch": 64,
+    "global_BCE": 0.6903143525123596,
+    "irm_penalty_weight": 1.0,
+    "logits_sha256": "21879986547b836ed3aa892d9fcd9ba783e49b0267819b56450dacc86454b240",
+    "loss": 0.6924279928207397,
+    "offset": 0,
+    "omitted_penalty_domains": [],
+    "optimizer_reset_events": [],
+    "optimizer_reset_this_update": false,
+    "penalty": 0.0021136156283318996,
+    "positions_sha256": "879411bf34271a0bb910050cd38cfcafbe22a3fad4895dea360ddfe485f38dd2",
+    "training_ids_sha256": "d1f6dff2c2c13fe0dff6220fe0f4c89055f259460cde3bae9b8bf491b64acf47",
+    "update": 1,
+    "valid_domain_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "valid_training_domains": 4
+  }
+}

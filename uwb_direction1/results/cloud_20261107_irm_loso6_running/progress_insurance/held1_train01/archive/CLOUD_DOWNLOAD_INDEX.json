@@ -1,0 +1,93 @@
+{
+  "archive_bytes": 20942074,
+  "archive_sha256": "ed4aae79ef6d78894ba9c6eed2c88824820bc23b4e794682103f3e902e1c295d",
+  "automatic_restart_authorized": false,
+  "checkpoint_epoch": 15,
+  "checkpoint_updates": 1110,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1vdk7Lavy3cuaazHuvM3yhwzk80QHfzjv",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "irm_loso6_held1_train_prefix01_20261107.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "c8a03104e3a815faa1c4e679a7a26ec5fd6089dd22523d1b5966f7ef7efd14e9"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1--6LQJf9fWK2fSoya9YSEJ4qkbz90tfs",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "irm_loso6_held1_train_prefix01_20261107.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "98d91e8e9b7cc1892db6d635395b1f27dc84ac800c286c531f18d9c197cb85bb"
+    },
+    {
+      "bytes": 6262010,
+      "download_verified": true,
+      "file_id": "1mXDRdB86W82YXK7O_OAzN8FfOLTY5gDZ",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 6262010
+      },
+      "name": "irm_loso6_held1_train_prefix01_20261107.part002",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "6cbb1ad1342f1afd57d6ff4852a2f79371e9898feecf3a58b0a6f9304c880218"
+    }
+  ],
+  "complete_sixfold_cohort": false,
+  "complete_training_trajectory": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "members_manifest_sha256": "1ca9d35725965eadb90263af1263c2e2d35926125fdae46f4c37431de2a63a44",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "restorable_single_native_checkpoint": true,
+  "scope": "IRM_held1_training_committed_native_checkpoint_only_not_complete_fold_or_cohort",
+  "state": "single_current_native_checkpoint_private_raw_allmember_verified_not_completed_training"
+}
