@@ -1,0 +1,18 @@
+# Full LOSO6 fixed DomainBed VREx: held5complete
+
+## 2026-11-07：VREx前五折完整64生产＋独立64重放/原生审计已完成；held5完整13块406载荷私有原始回读通过，原进程继续held6，未评分
+
+先按GitHub最新a6d32aad3e961ee53de1fa0beb01abaddac4a6e9核对四份权威记录与LOSO协议/报告；大型memory空正文用同commit Gitblob按远端SHA精确核验、读取，未误判数据丢失。原phase64529/start21331595/boot ad409b48-89ce-4704-beee-3658103d5856保持同一真实进程，当前held6/train已提交epoch29/2088更新，主累计wall27293.862299/CPU27321.498303秒，completed_folds=[1,2,3,4,5]，各低于43200秒上限。未重启已有模型、重复controller/训练/下载原始数据或修改现有自动任务/云环境。
+
+held5完整64生产与自己的fresh64独立重放均4608更新，65条epoch记录和全部step日志精确一致，完整model/BN/原生AdamWLookahead/算法counter/resetEvents/全部RNG及所选模型输出原生审计通过；train/replay/output均exit0，无资源stop。训练用户1/2/3/4共4600，验证用户6共1100，测试用户5共1200；仅验证用户6选epoch5。nativefinalstate语义ec4c0ee82cff354bf2aea8754c5c02f52d451eea98949882a94e7979583a0d55，selected文件afe5eb4fd404bdf2e9a3ac2aa7f56108aafcecde60efd9278eff1af2eabf9a1f，未评分heldNPZf25ec8ae7b085fb8ba1a5ee1ad1e71cc464b73771e9b01fac408e2816f725db1。独立按意图核验生产和重放before0..4607/after1..4608连续，完整原生optimizerreset恰在update501前一次，前500次weight1/后4108次weight10及resetEvents正确；不把确定性重放单独当作排除共同实现错误。
+
+已完成held5controller inactive/exit0后，重新核所有记录/journalchain/committedprefix/frozenSHA，完整单折恢复包13块94849425字节406载荷，archive ade748ffe28e3903285116c41b742b88c6583de0bd509c757ad197327d5b1ab1，MEMBERS2d3bbfc7937d8ad07d4a8f12dcff8f6fbbd7256a47c91510f5d0b81507b61501。原Drivefolder metadata先确认owner-only，所有上传响应/ID先持久，rawfetch(download_raw_file=true,include_base64=false)/立即物化/SHA后，再核整档407成员含MEMBERS/406载荷全部hash；最多3条完整传输流水线，13个响应/ID/回读，无错误/额外上传/已知ID重传。complete_modelset_verified=true只限完整held5；complete_single_fold=true、complete_sixfold_cohort=false。前四折完整私有索引及原producer/prefix范围保持，不追改不重传。实际样本ID/模型/原始step日志仅私有，大数组/runtimebinaries不入档案/Git。
+
+held5各阶段增量wall/CPU秒：生产2505.270952/2504.128555、fresh重放2518.634360/2517.281204、输出12.026395/11.176527；完整子阶段5035.931708/5032.586286秒约1.40小时。外phase完成第五折点wall26118.597722/CPU26144.497300秒。主ledger已包含五折成本，不与子阶段重复相加。完整包构建wall4.631506/CPU4.607668秒，整档解包/allmember回读wall0.833430/CPU0.831710秒另列。原MMD完整六折wall30865.434969/CPU30891.040083秒及本VREx既有训练/检查/诊断/存储故障成本全部保留。
+
+额外复用已发布通用只读audit_completed_roles_selection核验held5：6900源ID唯一/仅users1..6，按冻结规则独立生成三个角色、subjects和IDs两两不交/覆盖6900；roles.npz和生产/重放split.npz三个副本均与源ID顺序完全一致、人数匹配。仅按保存64条验证macro/较低globalBCE/较早epoch独立重算选epoch5，与两套COMPLETE一致；未读取测试真值/预测、未更新模型，不冒称独立重算验证指标。只发布人数/用户集合和样本IDhash，原ID数组私有；37科学文件、已有worker及旧科学结论未变。
+
+后续核对原64529身份/STATE/RESOURCE_LEDGER/checkpoint后沿用held6原流程，不重训完成1..5/启动第二controller。固定完整LOSO6默认VREx lambda10/anneal500、等域BCE均值+总体riskvariance、完整原生optimizerreset500，同完整GAP617612/全部三雷达/RMS/B64/64/seed20261029/testh1..6-valnext-other4训练和仅训练验证选模不改。主阶段wall/CPU各43200秒、RSS12GiB/ownedPIDstop/失败留痕/无生产自动retry不变。全部六折完整64+各自fresh64/native审计、全部模型/预测私有rawallmember及精确release冻结后，才按已登记脚本固定无标签推断成本及唯一完整cohort评分。当前SUMMARY与FINALIZE_ONCE锁均未创建，未完成六折不冒称完成；任何单个测试人的分数不得决定其他折是否继续，无新测试准确率。
+
+原MMD六折40.6258% vsGAP93.6672%/-53.0414pp/0胜固定失败关闭与只读退化诊断的非因果/共同实现问题限定，历史混合94.6290%不同预算/旧失败全部保留；旧held1once/旧VRExsinglefold不调用。VREx完整6固定花费门槛仍mean+0.5pp/至少4严格胜/最差配对不退超2pp；如有效，先按MMD评分前冻结计划做等域BCE+同reset/无variance同条件六折联合匹配对照，再分析variance归因，不能直接称原创或跳8确认。用户7–8不用于新方法选择，历史全八人反复开发仍探索性、非独立新用户验证。原789源码/旧科学结论/仓库可见性/Drive私有/现有自动频率启用和云环境均保持。目标未达，继续原真实六折实验。
+

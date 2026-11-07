@@ -1,0 +1,101 @@
+{
+  "all6_declared_phase_not_sixfold_completed": true,
+  "committed_progress": {
+    "checkpoint_sha256": "c38775fff5ea919ab7ab4eb5e16699cec2c7f316ed8d7485efe8b5933c1f2421",
+    "epoch": 29,
+    "journal_sha256": "68fa704b43639f71005fcd70347c9c2641bb8ff32d8823a69d334b13d5a73c8e",
+    "prefix_bytes": 1551908,
+    "prefix_sha256": "6879912218741e7e81090d55265ebdfb5b9d27d698856d354f342100ccf5ad3f",
+    "slot": "slot1.pt",
+    "updates": 2088
+  },
+  "controller": {
+    "actual": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 3.5,
+      "pid": 74804,
+      "startticks": 23943457,
+      "state": "S"
+    },
+    "original": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.38,
+      "pid": 74804,
+      "startticks": 23943457,
+      "state": "R"
+    }
+  },
+  "current_held": 6,
+  "diagnostic_labels_read": false,
+  "first_partial_backup_is_not_complete_modelset": true,
+  "native_first_release": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "57cc2daf632fa1bcf02999d809f0a835bcaf9bf4ceaddd35527b2e6326a5789d",
+    "native_first_update_exact": true,
+    "state_sha256": "6e4fbdf166d97b31c2d9f269d27c93629d777c54b5f353d1fd34e4ebaf9eecea"
+  },
+  "new_real_release": {
+    "branch_head_verified": true,
+    "commit": "eaa1653059b44882a1dcd1014a622396d81b671b",
+    "configuration_fixed_before_complete_MMD_score": true,
+    "force": false,
+    "frozen_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+    "initial_archive_sha256": "5cab4eb2ee2fafa400ecf37381d7e7fe138e2d5a7f5c5f2e794212c3bd9bfa9a",
+    "initial_model_file_sha256": "b2e5e8cc4edda7a20f05b03a47291bc5774ed456de3cfa5c0715dd1dc8513156",
+    "main_all_six_wall_CPU_cap_seconds": 43200
+  },
+  "new_training_actually_started": true,
+  "observed_unix": 1794010036.0527205,
+  "old_MMD_source1_once_invoked": false,
+  "old_VREx_singlefold_activated": false,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 27.97,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "S"
+  },
+  "phase_original_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.57,
+    "pid": 64529,
+    "startticks": 21331595,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1740128,
+    "active_held": 6,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cpu": 27321.498303208,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "wall": 27293.862298791006
+  },
+  "scientific_sources_unchanged": true,
+  "stage": "train",
+  "state": "one_actual_full_sixfold_VREx_phase_running_unscored",
+  "users7_8_labels_used": false,
+  "worker": {
+    "actual": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 1167.26,
+      "pid": 74805,
+      "startticks": 23943696,
+      "state": "R"
+    },
+    "original": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 0.0,
+      "pid": 74805,
+      "startticks": 23943696,
+      "state": "R"
+    }
+  }
+}
