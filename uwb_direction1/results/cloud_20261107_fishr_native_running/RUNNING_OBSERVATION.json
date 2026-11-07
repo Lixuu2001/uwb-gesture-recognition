@@ -1,0 +1,106 @@
+{
+  "all_six_completed": false,
+  "automation_frequency_enable_cloud_unchanged": true,
+  "committed_progress": {
+    "checkpoint_sha256": "c3c706bc10954ffb72fa342e06503a2ea4ffc2b94bd264f1ec7b020512db715b",
+    "epoch": 1,
+    "journal_sha256": "17336e660b8eec1e54644884f00496dd92338549bbf79b543939c6898d03b871",
+    "prefix_bytes": 61228,
+    "prefix_sha256": "e344293a2db0680f306d9ac8ee887dadd43cf6cfb6833706db1cbf736a530103",
+    "slot": "slot1.pt",
+    "updates": 74
+  },
+  "current_held": 1,
+  "diagnostic_labels_read": false,
+  "full_native_scientific_manifest_sha256": "c43e0566f8dc1b0f8e976dbe5f014d289be82ac4df160852eb45ad048747b99c",
+  "initial_model_bitwise_match_with_GAP_verified": true,
+  "models_or_predictions_scored": false,
+  "native_first_release": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "57967db6cbcda64c7aca6ff44ee431cbab18f5e1fd09769328d157f7b6d5e8ad",
+    "native_first_update_exact": true,
+    "state_sha256": "e0fc167871cc22c71d8f9b4d99fde1e25175db1070b402faa772d779d88f7de0"
+  },
+  "new_real_release": {
+    "branch_head_verified": true,
+    "commit": "5648c17f6ddfddec15f9d58586f74870e7afe459",
+    "exact_readback_verified": 12,
+    "files": 12,
+    "force": false,
+    "frozen_sha256": "c43e0566f8dc1b0f8e976dbe5f014d289be82ac4df160852eb45ad048747b99c",
+    "initial_archive_sha256": "c77f52ee388ed1da5d76c7486d50904dcf3a67fa4ca8bf86e32dccfe13284889",
+    "initial_model_file_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+    "main_all_six_wall_CPU_cap_seconds": 43200,
+    "new_training_started_at_release": false,
+    "parent": "c5a9a9c92a0da67fc74d38ae793a5656ea06cca1",
+    "readback_transport_recovery": {
+      "connector_readback_failures": [
+        {
+          "expected_blob_sha1": "b42e866391c99282ed6af161db82e6963a1c5413",
+          "expected_bytes": 1255155,
+          "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+          "returned_characters": 0
+        },
+        {
+          "expected_blob_sha1": "4d9f15d8648d06cea431279921ab22be148799b9",
+          "expected_bytes": 1319130,
+          "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+          "returned_characters": 0
+        }
+      ],
+      "force": false,
+      "new_commit_created_for_retry": false,
+      "proof": "/workspace/uwb-fishr-native-loso6-20261107/initial_private_PUBLICATION_GIT_READBACK_VERIFIED.json",
+      "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+    },
+    "ref_transport_recovery": null
+  },
+  "new_training_actually_started": true,
+  "no_duplicate_task_created": true,
+  "observed_unix": 1794026262.1946714,
+  "old_MMD_or_VREx_restarted": false,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.42,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "phase_original_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.37,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "R"
+  },
+  "resource_ledger": {
+    "RSS_KiB": 1722724,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 56.85110379299999,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 56.44671815098263
+  },
+  "scientific_sources_unchanged": true,
+  "stage": "train",
+  "state": "one_actual_full_sixfold_native_Fishr_phase_running_unscored",
+  "users7_8_labels_used": false,
+  "worker_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 44.61,
+    "pid": 82225,
+    "startticks": 25678443,
+    "state": "R"
+  },
+  "worker_original_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 82225,
+    "startticks": 25678443,
+    "state": "R"
+  }
+}

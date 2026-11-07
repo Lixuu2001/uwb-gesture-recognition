@@ -1,0 +1,47 @@
+{
+  "actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "R"
+  },
+  "autotask_unchanged": true,
+  "new_automation_created": false,
+  "one_full6phase": true,
+  "release": {
+    "branch_head_verified": true,
+    "commit": "5648c17f6ddfddec15f9d58586f74870e7afe459",
+    "exact_readback_verified": 12,
+    "files": 12,
+    "force": false,
+    "frozen_sha256": "c43e0566f8dc1b0f8e976dbe5f014d289be82ac4df160852eb45ad048747b99c",
+    "initial_archive_sha256": "c77f52ee388ed1da5d76c7486d50904dcf3a67fa4ca8bf86e32dccfe13284889",
+    "initial_model_file_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+    "main_all_six_wall_CPU_cap_seconds": 43200,
+    "new_training_started_at_release": false,
+    "parent": "c5a9a9c92a0da67fc74d38ae793a5656ea06cca1",
+    "readback_transport_recovery": {
+      "connector_readback_failures": [
+        {
+          "expected_blob_sha1": "b42e866391c99282ed6af161db82e6963a1c5413",
+          "expected_bytes": 1255155,
+          "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+          "returned_characters": 0
+        },
+        {
+          "expected_blob_sha1": "4d9f15d8648d06cea431279921ab22be148799b9",
+          "expected_bytes": 1319130,
+          "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+          "returned_characters": 0
+        }
+      ],
+      "force": false,
+      "new_commit_created_for_retry": false,
+      "proof": "/workspace/uwb-fishr-native-loso6-20261107/initial_private_PUBLICATION_GIT_READBACK_VERIFIED.json",
+      "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+    },
+    "ref_transport_recovery": null
+  },
+  "requested_unix": 1794026205.5360444
+}
