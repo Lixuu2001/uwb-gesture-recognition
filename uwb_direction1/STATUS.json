@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "IRM_actual_original_LOSO6_phase_held1_training_native_first_audited_partial_private_insured_unscored",
+  "state": "IRM_held1_complete_fullnative64_fresh64_private_verified_original_remaining_LOSO6_running_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Samecloud actual IRM original phase active with12h whole-six wallCPU/12GiB caps; current committed checkpoint insured, estimated11.64h not measured completion. Separate prior methods and overlap-aware operations costs retained.",
+  "compute": "Original IRM whole6 cumulative wall7634.877/CPU7646.327seconds at observation,12h hardcaps/12GiB. Held1 full64+fresh64/native/archive insured; active held2/replay; operation costs overlap wall and are separate CPU. Prior method costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_irm_loso6_running/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_irm_loso6_held1_insured/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794065664.6418877,
+  "background_training_observed_unix": 1794072263.3875008,
   "background_training_pid": 92152,
-  "background_training_status_note": "Original IRM phase PID92152 active sameboot/startticks; observed held1 committed epoch26/64 update1924; real first native/independent617612grad passed; private epoch15/update1110 reset500 checkpoint3parts93payload raw-allmember verified. No whole-fold/cohort scores. Never restart active job.",
+  "background_training_status_note": "Original PID92152 sameboot/startticks active held2/replay; held1 full64+fresh64/native/output frozen,13parts94585150bytes417payload raw-allmember verified. Whole6 not complete; no held score. Never restart or call oldonce.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Continue ONLY original IRM PID92152: all6 production64+fresh64/native+fullprivate/exactrelease before ONE cohort score; no oldonce or singlefold gate. Preserve prior closed MMD/VREx/Fishr. Positive needs matched reset500/globalBCE/no-IRM6 before attribution.",
+  "next_candidate": "Continue original IRM phase92152 remaining folds only; all6 full production/replay/native/private/exactrelease before ONE cohort score; positive needs matched globalBCE/reset500/no-IRM6 control. No partial scoring/test rescue/duplicate worker.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17051,5 +17051,34 @@
   "partial_private_parts": 3,
   "partial_private_payloads": 93,
   "partial_private_updates": 1110
+}
+,
+  "irm_loso6_held1_insured_20261107": {
+  "report": "results/cloud_20261107_irm_loso6_held1_insured/RUN_REPORT.md",
+  "method": "published_DomainBed_IRM100_anneal500_nativeGAP617612_globalBCE64_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "active_held": 2,
+  "active_stage": "replay",
+  "cohort_scoring_activated": false,
+  "complete_all_six": false,
+  "complete_native_method_folds": [
+    1
+  ],
+  "duplicate_phase_started": false,
+  "full_frozen_scientific_files_unchanged": 45,
+  "held1_archive_bytes": 94585150,
+  "held1_archive_parts": 13,
+  "held1_archive_payloads": 417,
+  "held1_archive_sha256": "458e24eeed49c0eb72094585120ae60a134456dd6c9dcf0d6bf426642569c0d9",
+  "held1_epochs": 64,
+  "held1_fresh_replay_updates": 4736,
+  "held1_selected_epoch_validation_only": 46,
+  "held1_updates": 4736,
+  "new_accuracy_available": false,
+  "private_complete_method_folds": [
+    1
+  ]
 }
 }
