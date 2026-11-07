@@ -1,0 +1,13 @@
+{
+  "state": "one_resource_preserving_execution_optimization_planned_before_measurement",
+  "implementation": "torch.jit.script of the same native feature_extractor and MLP head; no trace or inference-only rewrite",
+  "requirement": "617612 parameters, same state keys, bitwise generated train/eval logits, all parameter gradients, BN buffers and dropout RNG before any optimized timing",
+  "unchanged": "B64/90x567/all3radar/RMS/globalBCE/IRM100/warmup1/anneal500/reset500/nativeAdamWLookahead/64epochs/seed20261029/strictLOSO6",
+  "budget_formula": "1.5*(55552*max(optimized_IRM_mean_wall,optimized_IRM_mean_CPU)+1800)+measured_compile_cost<=43200",
+  "compile_cost_included": true,
+  "unoptimized_capacity_failure_preserved": true,
+  "no_test_labels_or_UWB_arrays": true,
+  "no_architecture_precision_batch_epoch_or_gate_reduction": true,
+  "one_optimization_no_backend_search": true,
+  "fitting_not_registered_or_started": true
+}

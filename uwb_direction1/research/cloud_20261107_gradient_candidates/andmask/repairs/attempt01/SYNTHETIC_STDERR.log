@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-andmask-native-loso6-20261107/synthetic_check.py", line 62, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/uwb-andmask-native-loso6-20261107/synthetic_check.py", line 24, in main
+    ns['mask_grads'](None,1.,list(zip(*groups)),params)
+  File "pinned_MIT_DomainBed_mask_grads", line 1365, in mask_grads
+AttributeError: 'NoneType' object has no attribute 'tau'

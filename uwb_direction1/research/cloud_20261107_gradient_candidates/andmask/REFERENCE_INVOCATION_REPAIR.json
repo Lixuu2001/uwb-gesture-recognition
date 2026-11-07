@@ -1,0 +1,8 @@
+{
+  "state": "generated_reference_harness_repaired_and_rerun_passed",
+  "original_failure": "DomainBed mask_grads ignores its tau argument and accesses self.tau; None fixture raised AttributeError before any native model or UWB read",
+  "fix": "Use SimpleNamespace(tau=1.) for pinned reference; correct generated BN comparison optimizer binding",
+  "original_trace_and_source": "repairs/attempt01/",
+  "core_algorithm_changed_by_fix": false,
+  "real_training_started_or_restarted": false
+}

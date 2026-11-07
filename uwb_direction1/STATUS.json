@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Fishr_LOSO6_scored935737pct_vs_GAP936672pct_exact_config_closed",
+  "state": "fullnative_ANDmask_IRM_cores_audited_IRM_cost_calibrated_full_lifecycle_not_registered_no_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Fishr6 production+fresh64 complete wall29559.943319/CPU29599.386026sec; all77part/1984payload privateverified; one label-free inference36.042132sec external then one cohortscore. No active training.",
+  "compute": "Same4CPU16GiB cloud noGPU; generated core/reference/schedule/RNG audits and bounded fixed CPU profiles only. No new UWB fitting or accuracy evaluation, original closed-method costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_fishr_native_all6result/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_gradient_candidates/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794057861.293706,
+  "background_training_observed_unix": 1794061764.782672,
   "background_training_pid": null,
-  "background_training_status_note": "All6/native/private frozen; unique cohortscore consumed: Fishr93.573737% vsGAP93.667172%, -0.093434pp,1win/1tie/4losses,worstpaired-2.666667pp. Fixed gate all3 fail; closed exact1000/.95/1500, no matching control or next training active.",
+  "background_training_status_note": "Generated fullnative AND/IRM kernels audited; AND cost fails, eagerIRM absolute13.68h/script12.76h failures retained; explicit Fishr-style cost calibration11.64h permits implementing full lifecycle, not training. No real worker/insurance/release yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Fishr exact config CLOSED after full LOSO6 gate failure. Next distinct literature-supported full runnable method and fixed same-LOSO6 preregistration; no Fishr rescue or users7_8 selection.",
+  "next_candidate": "Implement/register strict full6role IRM100/500/globalBCE worker/supervisor/native firststep+fresh64 audits and private all6initial exactrelease, then one actual phase. Preserve original failed capacity receipts; actual12h cap unchanged. No oldonce/repeat closed fits or unchanged profiling.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -16948,5 +16948,36 @@
   "full_private_payloads": 1984,
   "full_private_parts": 77,
   "next": "Distinct prior-art review and full runnable implementation preregistered in same LOSO6; no test rescue."
+}
+,
+  "gradient_candidates_native_preparation_20261107": {
+  "state": "two_fullnative_gradient_components_implemented_generated_audited_no_new_UWB_fit",
+  "ANDmask": {
+    "original_estimated_hours": 34.712856037514285,
+    "vectorized_estimated_hours": 36.16267419224889,
+    "resource_gate_passed": false,
+    "generated_checks_passed": true,
+    "scientific_accuracy_negative": false
+  },
+  "IRM": {
+    "original_absolute_estimated_hours": 13.681023877596276,
+    "script_absolute_estimated_hours": 12.756066244686242,
+    "both_absolute_gates_still_failed": true,
+    "script_bitwise_seven_update_equivalence": true,
+    "explicit_reference_calibration_estimated_hours": 11.6378157414164,
+    "calibrated_resource_gate_passed": true,
+    "production_implementation_design": "eager native100/500, not scripted",
+    "generated_checks_passed": true,
+    "real_lifecycle_registered": false,
+    "new_fit_started": false
+  },
+  "new_accuracy_result": false,
+  "users7_8_labels_used": false,
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "auto_task_or_environment_settings_changed": false,
+  "next_concrete_work": "Implement/register strict full6role IRM loader/worker/ownedPID12h supervisor/native firststep and fresh64 audits, preserve current100/500/globalBCE/seed, then exact remote/privateinitial release before one real phase; never repeat old once, closed fits, unchanged capacity profiles or literature-only denial loop.",
+  "report": "results/cloud_20261107_gradient_candidates/RUN_REPORT.md",
+  "method": "published_ANDmask_and_IRM_native617612_generated_component_implementation_only"
 }
 }

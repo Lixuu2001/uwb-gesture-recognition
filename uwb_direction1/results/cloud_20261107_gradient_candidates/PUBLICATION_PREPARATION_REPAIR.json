@@ -1,0 +1,11 @@
+{
+  "state": "publication_preparation_duplicate_dict_keyword_fixed_before_any_authority_mutation_or_remote_write",
+  "original_error": "TypeError: dict() got multiple values for keyword argument users7_8_labels_used",
+  "original_source_retained": "repairs/attempt01/prepare_publication.py",
+  "scope": "only exact two newly created untracked task directories allowed on rerun; tracked diff must remain empty before authoritative transformation",
+  "scientific_codes_or_results_changed": false,
+  "real_training_started": false,
+  "second_pre_authority_failure": "FileExistsError on the already created task report directory during repaired rerun",
+  "second_fix": "Make only the exact task-created report directory idempotent, keep HEAD/clean-tracked/exact-untracked-directory guards",
+  "both_failures_before_authority_mutation_or_remote_write": true
+}

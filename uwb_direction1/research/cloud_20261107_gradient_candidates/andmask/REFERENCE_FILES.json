@@ -1,0 +1,14 @@
+{
+  "pinned_DomainBed_commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+  "MIT_reference_repository_directory": "uwb_direction1/research/cloud_20261106_vrex_loso6_preparation/shared/author_reference/domainbed",
+  "reference_files": {
+    "algorithms.py": "1e4a0353e2c6e42460a43d9cba0bc97e49fec0f5163a39c2c13cadc2ac50eaac",
+    "hparams_registry.py": "6deec4fceaa98ceab95e89a18358868b1653e3382ca8444ba14eacb2d21b56ea",
+    "README.md": "09b61daa2f976dcdbbafc4ca08172400b63834f67c2a3fba4ef9f8d97f6338a1",
+    "LICENSE": "a74dc7c7d1650b2ef611962794f33e5432ff60227ad11fe8ff599eb892713fcb"
+  },
+  "reproduction": "Before synthetic_check.py, copy those exact four reference files into this package author_reference/ and verify these SHA256s. Use native49 files from NATIVE_DEPENDENCIES in the existing /workspace/uwb-timemil-20261029 runtime; no UWB arrays needed for any current check/profile. Full native dependency private restore chain is already in the verified Fishr FULL_COMPOSITE_RECOVERY_INDEX at commit139a73a427140c21b1d8d8b6550395778c7b56c8.",
+  "Python": "3.12.14",
+  "torch": "2.15.0+cpu",
+  "threads": 1
+}

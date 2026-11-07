@@ -1,0 +1,29 @@
+{
+  "parent": "9338cd6fa7c18c84097db055c631a17d3cb27f14",
+  "query": [
+    "rg",
+    "-l",
+    "-i",
+    "\\bANDMask\\b|AND.mask|\\bIRM\\b|IRMv1|Invariant Risk Minimization",
+    "uwb_direction1/research",
+    "uwb_direction1/results",
+    "--glob",
+    "*.json",
+    "--glob",
+    "*.md",
+    "-g",
+    "!**/author_reference/**",
+    "-g",
+    "!**/sources/**"
+  ],
+  "matched_files": [
+    "uwb_direction1/research/ts2vec_author_screen_20261030/REVIEW_AND_IMPLEMENTATION.md",
+    "uwb_direction1/results/cloud_20261029_tslanet_screen/REVIEW_AND_IMPLEMENTATION.md",
+    "uwb_direction1/research/GRADIENT_VARIANCE_REVIEW.md",
+    "uwb_direction1/research/MECHANISM_GAP_MAP_20261008.md",
+    "uwb_direction1/results/cloud_20261030_ts2vec_screen/REVIEW_AND_IMPLEMENTATION.md"
+  ],
+  "conclusion": "Existing vendor implementations and gradient-review prior-art mentions found; no equivalent fitted AND-mask or IRM native617612 full-LOSO6 configuration found within this bounded metadata search. Not an exhaustive novelty claim. Old PCGrad view-path diagnostics are not per-training-user gradient losses.",
+  "closed_MMD_VREx_Fishr_results_unchanged": true,
+  "actual_IDs_maps_and_gesture_truth_not_read": true
+}
