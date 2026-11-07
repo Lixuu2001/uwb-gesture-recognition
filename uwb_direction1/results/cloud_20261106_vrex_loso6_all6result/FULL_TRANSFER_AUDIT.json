@@ -1,0 +1,27 @@
+{
+  "held": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "upload_receipts": 76,
+  "raw_readback_receipts": 76,
+  "errors": 0,
+  "additional_uploads": 0,
+  "known_ID_reuploads": 0,
+  "max_complete_chunk_pipeline_concurrency": 3,
+  "owner_only_metadata_verified": true,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "whole_archive_and_allmembers_verified": true,
+  "complete_all_six": true,
+  "complete_modelset_verified": true,
+  "receipt_span_wall_seconds": 1630.766131401062,
+  "receipt_span_definition": "first upload response persistence to final raw part SHA receipt; excludes earlier initial upload latency, overlaps Git publication and independent readonly audit, not pure network benchmark",
+  "test_labels_paired": false
+}
