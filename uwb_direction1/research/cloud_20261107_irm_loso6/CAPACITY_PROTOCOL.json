@@ -1,0 +1,34 @@
+{
+  "state": "fixed_generated_native_capacity_protocol_before_any_profile_or_real_fit",
+  "method": "IRM_DomainBed_lambda100_anneal500_warmup1_globalBCE_native617612",
+  "seed": 20261029,
+  "parameters": 617612,
+  "shape": [
+    64,
+    90,
+    567
+  ],
+  "threads": 1,
+  "warmup_updates_per_arm": 3,
+  "timed_updates_per_arm": 6,
+  "arm_order": [
+    "native",
+    "irm"
+  ],
+  "four_generated_domains": "16 rows each, fixed cyclic labels; no UWB samples or gesture labels",
+  "estimated_production_plus_independent_replay_updates": 55552,
+  "budget_formula": "1.5*(55552*max(irm_timed_mean_wall,irm_timed_mean_CPU)+1800)<=43200",
+  "other_train_validation_checkpoint_overhead_allowance_seconds": 1800,
+  "main_wall_CPU_cap_seconds": 43200,
+  "profile_wall_CPU_cap_seconds": 600,
+  "RSS_KiB_cap": 12582912,
+  "same_pooled_forward_preserves_native_BN_and_dropout": true,
+  "missing_domain_rule": "omit absent current domain, record count; no resampling",
+  "no_hyperparameter_profile_or_accuracy_grid": true,
+  "real_fitting_registered": false,
+  "new_training_started": false,
+  "created_unix": 1794060205.6968305,
+  "singleton_rule": "omit current-source groups with fewer than2 records from even/odd product penalty; if no validgroup penalty zero; never omit their globalBCE terms",
+  "objective": "global_native_BCE + weight*mean(valid-source even-odd dummy-scale-gradient products); no clamp or loss renormalization",
+  "optimizer_reset": "once immediately before update501; recreate full nativeAdamWLookahead and preserve algorithm_updates500"
+}

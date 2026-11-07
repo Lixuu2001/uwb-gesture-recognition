@@ -1,0 +1,338 @@
+{
+  "activation": "Only preserved closed MMD/VREx/Fishr; exact full package registration/generated checks/private initial raw release before fit",
+  "author_protocol_reproduced": false,
+  "bounded_LOSO_continuation_gate": {
+    "applies_only_to_new_unscored_MMD_sixfold_not_retroactive_to_prior_closed_methods": false,
+    "mean_paired_macro_recall_gain_min": 0.005,
+    "no_post_score_coefficient_kernel_epoch_seed_or_fold_grid": true,
+    "report_any_measured_positive_or_negative_result_even_if_spending_gate_fails": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_macro_recall_delta_min": -0.02,
+    "applies_to_new_IRM_complete6_only": true
+  },
+  "candidate": "published DomainBed IRM100/500 default component on full native GAP",
+  "class_support_and_metric_definitions": {
+    "absent_class_rule": "true support0 yields null per-class recall; exclude only undefined true-class recall from present macro; a prediction of absent class for any true example is still wrong",
+    "accuracy_equals_macro_on_this_balanced_present_support": true,
+    "class_support": [
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 1
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "present_classes_balanced": true,
+        "user": 2
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 3
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 4
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 5
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_classes": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 6
+      }
+    ],
+    "class_support_audit_only_no_prediction_pairing": true,
+    "primary": "equal subject mean of present-class macro recall; all6 folds reported",
+    "secondary": [
+      "per-subject accuracy",
+      "per-class support and recall including null for absent true classes",
+      "worst subject macro recall",
+      "paired per-subject differences and strict wins",
+      "sample-weighted pooled accuracy separately named",
+      "training/inference/replay/archive costs separately"
+    ]
+  },
+  "component_source": {
+    "core_source_commit": "286098ba0027a6fe085f1eb2d91feca47fa09a22",
+    "core_source_sha256": "570d4770af8702f0508ff3555491d56ad05c6e55dbdf6364da4b61c7e5f7615a",
+    "core_source_unchanged": true
+  },
+  "created_unix": 1794062703.4398677,
+  "current_MMD_accuracy_unknown": false,
+  "data": "/workspace/uwb-restored-20261103",
+  "fixed_method": {
+    "parameters": 617612,
+    "all3radars": true,
+    "batch": 64,
+    "epochs": 64,
+    "seed": 20261029,
+    "threads": 1,
+    "lambda_default": 100.0,
+    "anneal_completed_updates": 500,
+    "warmup_weight": 1.0,
+    "full_native_optimizer_reset_before_update501": true,
+    "loss": "native_globalBCE+weight*mean_valid_source_evenodd_scalegrad_products; no clamp/no divide",
+    "full_production64_and_own_fresh64_each_held": true,
+    "no_grid_or_rescue": true
+  },
+  "implementation_pending": false,
+  "main_budget": {
+    "wall_CPU_cap_seconds": 43200,
+    "RSS_KiB": 12582912,
+    "no_automatic_production_retry": true,
+    "single_active_model": true,
+    "explicit_cost_estimator_amendment": {
+      "state": "explicit_post_generated_profile_cost_estimator_calibration_before_any_real_fitting",
+      "observed_unix": 1794061557.9838514,
+      "reason": "The original uncalibrated absolute estimate with50percent margin also estimates the unmodified native control above12h in the same measurements; do not misclassify this as IRM scientific failure. Use the same historical whole-six native-family cost calibration already registered for the completed Fishr job; preserve original failed absolute estimates.",
+      "original_absolute_resource_gate_passed": false,
+      "absolute_eager_estimated_hours": 13.681023877596276,
+      "absolute_script_estimated_hours": 12.756066244686242,
+      "hard_main_wall_CPU_cap_seconds_unchanged": 43200,
+      "fitting_epochs_batch_seed_architecture_loss_unchanged": true,
+      "cost_only_engineering_amendment_after_timing_not_an_accuracy_rule_change": true,
+      "actual_prior_VREx6_CPU_reference": 31189.589142517,
+      "prior_cost_receipt": "/workspace/uwb-vrex-loso6-20261106/STATE.json",
+      "prior_cost_receipt_sha256": "39b976a8f5916fd0748317bd33492bf31f86868dda7784041ad765b62a9e1c07",
+      "historical_Fishr_cost_formula_source": "/workspace/uwb-fishr-native-loso6-20261107/shared/capacity_profile.py",
+      "historical_formula_source_sha256": "8085f8020941d692d42bb389db1fb9d4577174ff717ade55bf1f8fcaca5fce83",
+      "fixed_formula": "1.25*31189.589142517*max(1,measured_IRM/native_wall_ratio,measured_IRM/native_CPU_ratio)+600<=43200",
+      "relative_ratio": 1.0592287440633197,
+      "new_estimate_seconds": 41896.13666909904,
+      "new_estimate_hours": 11.6378157414164,
+      "calibrated_resource_gate_passed": true,
+      "production_implementation_selected": "original eager native, no JIT change; script proof/cost preserved as unused engineering experiment",
+      "new_timing_or_test_accuracy_measurements": false,
+      "actual_supervisor_must_still_stop_at_43200_wall_or_CPU": true,
+      "no_automatic_retry_or_budget_reset": true,
+      "fitting_currently_registered": false,
+      "fitting_currently_started": false
+    }
+  },
+  "new_UWB_fit_started": false,
+  "no_legacy_singlefold_once_or_gate": true,
+  "originality_validated": false,
+  "preregistered_confound_control": {
+    "execute_if": "Only complete primary6 gate passes; before attribution or outer8",
+    "name": "same_globalBCE_fullnative_reset500_no_IRM_penalty_LOSO6",
+    "same_initialization_roles_sampler_globalBCE_optimizer_reset_batch_epochs_seed": true,
+    "cost_added": true,
+    "separate_wall_CPU_cap_seconds": 36000
+  },
+  "primary_control": "Reuse exact original GAP64 sixfold native outputs/initialization/roles, mean .9366717171717172; no refit or weaker baseline.",
+  "primary_reference": "https://arxiv.org/abs/1907.02893",
+  "prior_closed_MMD_result": "/workspace/uwb-mmd-loso6-20261106/SUMMARY.json",
+  "prior_closed_VREx_result": "/workspace/uwb-vrex-loso6-20261106/SUMMARY.json",
+  "protocol": {
+    "all6_outputs_and_private_models_frozen_before_one_joint_score": true,
+    "checkpoint_selection": "validation presentclass macro, lower global native BCE, earlier epoch",
+    "exploratory_historical8": true,
+    "held": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "no_singlefold_test_entry_gate": true,
+    "strict_subject_and_sample_ID_disjoint": true,
+    "training": "other4",
+    "users7_8_for_selection": false,
+    "validation": "h%6+1"
+  },
+  "source_ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "spending_gate": {
+    "equal_user_mean_gain_min": 0.005,
+    "not_retroactive_to_closed_configs": true,
+    "report_any_positive_or_negative_evidence_even_on_failure": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_delta_min": -0.02
+  },
+  "state": "complete_IRM_implementation_pre_execution_generated_audits_pending",
+  "prior_closed_Fishr_result": "/workspace/uwb-fishr-native-loso6-20261107/SUMMARY.json"
+}

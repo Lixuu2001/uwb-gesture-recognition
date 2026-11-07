@@ -1,0 +1,61 @@
+{
+  "state": "one_fixed_fullnative_script_IRM_capacity_measurement",
+  "implementation": "torch.jit.script; zero architecture or precision changes",
+  "rows": [
+    {
+      "arm": "native",
+      "mean_wall": 0.5016503588315876,
+      "mean_CPU": 0.5019207516666665,
+      "last_generated_step": {
+        "loss": 0.17054063081741333,
+        "global_BCE": 0.17054063081741333,
+        "penalty": -0.0,
+        "irm_penalty_weight": 1.0,
+        "optimizer_reset_this_update": false,
+        "algorithm_updates": 9,
+        "reset_events": [],
+        "preclip_gradient_norm": 0.33426186442375183
+      }
+    },
+    {
+      "arm": "irm",
+      "mean_wall": 0.5186817195014252,
+      "mean_CPU": 0.5186545500000003,
+      "last_generated_step": {
+        "loss": -35.04302978515625,
+        "global_BCE": 1.182472825050354,
+        "penalty": -0.3622550368309021,
+        "irm_penalty_weight": 100.0,
+        "optimizer_reset_this_update": false,
+        "algorithm_updates": 509,
+        "reset_events": [
+          500
+        ],
+        "preclip_gradient_norm": 84.15750122070312,
+        "valid_training_domains": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "omitted_penalty_domains": [],
+        "domain_counts": {
+          "0": 16,
+          "1": 16,
+          "2": 16,
+          "3": 16
+        }
+      }
+    }
+  ],
+  "estimated_main_production_plus_fresh_replay_seconds": 45921.83848087047,
+  "estimated_hours": 12.756066244686242,
+  "compile12_worker_allowance_seconds": 1.1281582557130605,
+  "main_wall_CPU_cap_seconds": 43200,
+  "resource_gate_passed": false,
+  "max_RSS_KiB": 766308,
+  "real_UWB_samples_labels_or_IDs_read": false,
+  "new_UWB_fit_started": false,
+  "fitting_preregistered": false,
+  "unoptimized_estimate_preserved": true
+}

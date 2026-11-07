@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "fullnative_ANDmask_IRM_cores_audited_IRM_cost_calibrated_full_lifecycle_not_registered_no_fit",
+  "state": "IRM_complete_LOSO6_lifecycle_generated_audits_passed_preregistered_pending_private_initial_no_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Same4CPU16GiB cloud noGPU; generated core/reference/schedule/RNG audits and bounded fixed CPU profiles only. No new UWB fitting or accuracy evaluation, original closed-method costs retained.",
+  "compute": "Samecloud4CPU16GiB/noGPU; generated6-role and actual worker mini64+fresh64 pipeline pass in73.47sec total; no real UWB updates. Mainestimated11.64h hard12h CPU/wall/RSS12GiB unchanged.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_gradient_candidates/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_irm_loso6_preregistered/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794061764.782672,
+  "background_training_observed_unix": 1794063520.4879885,
   "background_training_pid": null,
-  "background_training_status_note": "Generated fullnative AND/IRM kernels audited; AND cost fails, eagerIRM absolute13.68h/script12.76h failures retained; explicit Fishr-style cost calibration11.64h permits implementing full lifecycle, not training. No real worker/insurance/release yet.",
+  "background_training_status_note": "NewIRM full6 loader/worker/first-independent-reference/ownedPID12h/fresh64/native audits implemented; all6 generated checks and64+fresh64 mini lifecycle pass, not UWB training. Initial private insurance and REAL_RELEASE pending.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Implement/register strict full6role IRM100/500/globalBCE worker/supervisor/native firststep+fresh64 audits and private all6initial exactrelease, then one actual phase. Preserve original failed capacity receipts; actual12h cap unchanged. No oldonce/repeat closed fits or unchanged profiling.",
+  "next_candidate": "IRM100/500 full6 lifecycle ready: exact preregistered code then private initial all6roles/native model/RNG raw-allmember/exactrelease; only then ONE real phase. No old once/closed rerun/reprofiling.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -16979,5 +16979,27 @@
   "next_concrete_work": "Implement/register strict full6role IRM loader/worker/ownedPID12h supervisor/native firststep and fresh64 audits, preserve current100/500/globalBCE/seed, then exact remote/privateinitial release before one real phase; never repeat old once, closed fits, unchanged capacity profiles or literature-only denial loop.",
   "report": "results/cloud_20261107_gradient_candidates/RUN_REPORT.md",
   "method": "published_ANDmask_and_IRM_native617612_generated_component_implementation_only"
+}
+,
+  "irm_loso6_preregistered_20261107": {
+  "report": "results/cloud_20261107_irm_loso6_preregistered/RUN_REPORT.md",
+  "method": "published_DomainBed_IRM100_anneal500_nativeGAP617612_globalBCE64_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "all6_generated_native_checks_passed": true,
+  "actual_production_source_generated_mini64_and_fresh64_passed": true,
+  "strict_loader_firewall_all6_synthetic_IDs_passed": true,
+  "ownedPID_stop_tests_passed": true,
+  "scientific_frozen_files": 45,
+  "full_implementation_ready": true,
+  "fitting_configuration_preregistered": true,
+  "private_initial_verified": false,
+  "new_background_training_started": false,
+  "real_UWB_samples_labels_or_actual_IDs_read": false,
+  "resource_gate_passed": true,
+  "estimated_hours": 11.6378157414164,
+  "actual_main_wall_CPU_cap_seconds": 43200,
+  "next": "Only after exact source remote proof create owner-only private untrained model+all6roles; verify raw/allmember and exact insurance release, bindREAL_RELEASE then one actual controller. No duplicate/oldonce/test tuning."
 }
 }
