@@ -1,0 +1,54 @@
+{
+  "EMA_history_coordinates_per_domain": 18060,
+  "EMA_updates_by_training_user": {
+    "1": 4544,
+    "2": 4543,
+    "5": 4544,
+    "6": 4543
+  },
+  "audit_CPU": 2.577367538,
+  "audit_wall": 2.2486150140175596,
+  "committed_replay_all_steps_and_epochs_bitwise_equal": true,
+  "committed_replay_epoch": 51,
+  "committed_replay_updates": 3621,
+  "complete_replay_at_snapshot": false,
+  "final_inner_native_optimizer_steps": 3044,
+  "full_replay_alone_not_proof_no_shared_implementation_error": true,
+  "held": 3,
+  "no_models_trained_or_inference_run_by_audit": true,
+  "observed_unix": 1794040666.85603,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 15.39,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "producer_all65_records_present": true,
+  "producer_all_sample_ID_role_order_hashes_verified": true,
+  "producer_complete64": true,
+  "producer_global_BCE_and_Fishr_schedule_verified": true,
+  "producer_native_state_semantic_sha256": "e39d3b77b3dc35958c5b75d5d397296936d72c137965b909aadbcf850f564805",
+  "producer_reset_actual_update": 1501,
+  "producer_updates": 4544,
+  "real_UWB_map_or_gesture_label_values_read": false,
+  "resource_observation": {
+    "RSS_KiB": 1742416,
+    "active_held": 3,
+    "completed_folds": [
+      1,
+      2
+    ],
+    "cpu": 14482.635291954,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 14461.27445239498
+  },
+  "selected_epoch_validation_only": 14,
+  "state": "completed64_producer_and_committed_fresh_replay_prefix_readonly_audited",
+  "users7_8_labels_used": false,
+  "whole_cohort_complete": false
+}

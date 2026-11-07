@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Fishr_held2_producer64_privateverified_original82223_fresh_replay_active_held1complete_unscored",
+  "state": "Fishr_three_full_native64_fresh64_and_private_folds_complete_original82223_held4_training_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-07 samecloud4CPU16GiB/Torch2.15CPU/noGPU; original82223 Fishr6 held1 full/private complete, held2 producer64/4736/private8parts252 verified, ownfresh64 replay13 ongoing; main cap12h wallCPU and all prior costs retained.",
+  "compute": "2026-11-07 samecloud4CPU16GiB/Torch2.15CPU/noGPU; original82223 Fishr6 fullnative64+fresh64/private[1,2,3] complete, originalheld4 train11/781 ongoing; fixed12h wallCPU and all prior costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_fishr_native_held2producer/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_fishr_native_held2and3complete/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794034353.9131033,
+  "background_training_observed_unix": 1794041687.1314664,
   "background_training_pid": 82223,
-  "background_training_status_note": "Original82223 Fishr6: complete/private fullfolds[1]; held2 producer64/4736 and8parts252payload rawprivate verified, fresh64 replay snapshot13/962 ongoing. Generic readonly operator shadowing fixed/retained, science unchanged; no scores/duplicate.",
+  "background_training_status_note": "Original82223 Fishr6 complete native/private folds[1,2,3]; new full2 and3 each14parts410payload rawallmember verified, producer3 retained; originalheld4 worker84601 active snapshot11/781 and firstaudit exact. Whole6 incomplete/no testscore/no duplicate.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -16672,6 +16672,49 @@
   "original_phase_not_restarted": true,
   "original_phase_pid": 82223,
   "readonly_operator_fault_repaired_and_retained": true,
+  "scientific_sources_unchanged": true
+}
+,
+  "fishr_native_held2and3complete_20261107": {
+  "report": "results/cloud_20261107_fishr_native_held2and3complete/RUN_REPORT.md",
+  "method": "published_DomainBed_Fishr1000_ema0p95_anneal1500_fullnative617612_LOSO6_globalBCE64",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "backup_does_not_pause_or_gate_original_controller": true,
+  "complete_sixfold_cohort": false,
+  "complete_sixfold_private": false,
+  "completed_full_native_folds": [
+    1,
+    2,
+    3
+  ],
+  "completed_full_private_folds": [
+    1,
+    2,
+    3
+  ],
+  "current_held": 4,
+  "held2_full64_fresh64_native_audits_complete": true,
+  "held2_private_parts": 14,
+  "held2_private_payloads": 410,
+  "held2_updates_per_trajectory": 4736,
+  "held3_full64_fresh64_native_audits_complete": true,
+  "held3_private_parts": 14,
+  "held3_private_payloads": 410,
+  "held3_producer_history_private_parts": 8,
+  "held3_updates_per_trajectory": 4544,
+  "held4_native_first_update_exact": true,
+  "held4_progress_snapshot_epoch": 11,
+  "held4_worker_pid": 84601,
+  "new_private_total_parts": 36,
+  "new_private_transfer_errors": 0,
+  "new_private_unique_file_IDs": 36,
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "next": "Reuse82223/active4; finish4..6 native64+fresh64/audits and parallel stableprivate. All6 fullprivate/exactrelease before fixed inference/unique cohortscore; no held1gate/test tuning/oldonce/duplicates.",
+  "original_phase_not_restarted": true,
+  "original_phase_pid": 82223,
   "scientific_sources_unchanged": true
 }
 }

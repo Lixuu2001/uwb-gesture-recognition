@@ -1,0 +1,340 @@
+{
+  "all_prior_costs_retained": true,
+  "backup_does_not_pause_or_gate_original_controller": true,
+  "complete_sixfold_cohort": false,
+  "complete_sixfold_private": false,
+  "completed_full_native_folds": [
+    1,
+    2,
+    3
+  ],
+  "completed_full_private_folds": [
+    1,
+    2,
+    3
+  ],
+  "current_held": 4,
+  "diagnostic_labels_read": false,
+  "held4_controller_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.35,
+    "pid": 84600,
+    "startticks": 27172371,
+    "state": "R"
+  },
+  "held4_native_first_release": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "f6956becf1e5b3d770bac6538a913674b3ffa61a9dd4db93817e149b90161a42",
+    "native_first_update_exact": true,
+    "state_sha256": "78b223c5b65fa44500ba74ae9622dfb662b67b95d459a825815453cd3208bee2"
+  },
+  "held4_progress": {
+    "checkpoint_sha256": "fe89ac3b1ad852d6a73bab3b4760fd3f6a700867e073eada3390f486977ac66d",
+    "epoch": 11,
+    "journal_sha256": "1810a1d80f9d9fc69910d65cff857746e172f6edfd5c515d1bceffe94258a6dd",
+    "prefix_bytes": 656165,
+    "prefix_sha256": "7ae4e6774fa65769b3d63f840a5f53653e584ae1ce594a48a3f200e86adc29e7",
+    "slot": "slot1.pt",
+    "updates": 781
+  },
+  "held4_worker_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 84601,
+    "startticks": 27172608,
+    "state": "R"
+  },
+  "new_additional_reuploads_of_known_IDs": 0,
+  "new_complete_private_modelsets": {
+    "2": {
+      "archive_bytes": 96607269,
+      "archive_sha256": "6cb3a12fcfadc932fb1d9a4c0d72a057146f857ebaee01ed317d8360b494e2e9",
+      "archive_total_build_CPU": 4.742826492,
+      "archive_total_build_wall": 4.751569176034536,
+      "chunks": [
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part000",
+          "sha256": "84cddcef64079c88e898dfa25a974397a126c90d831bb19b6c0cd7295e49b97c"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part001",
+          "sha256": "dc6c1ad47d35b13e11f757027772adae8945b4624cb790fc74c26108fa7f630a"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part002",
+          "sha256": "4829d5d215d3fcdf4d39d23c0b36dd15902a98a583403c09aed4a83c3a1f3996"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part003",
+          "sha256": "fab7c258ad343b8cc6dc6c77cb9c553408b85ad68a498399547f49f49978dacc"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part004",
+          "sha256": "b73b0f68ac25686abde9935dbf431622afc56b379eefd5d3796d714921049179"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part005",
+          "sha256": "0b56846d798f4196e7d843126057e2e96af95f6a0149202f3382e98eaf7c6ab0"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part006",
+          "sha256": "11783153835acc4384c3717e1345a82f245afefc8e82080335d1b15896590cda"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part007",
+          "sha256": "b4eab9237b9323a502f69522e1cf74e6a6e120cdf9846d7437938e1da7752838"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part008",
+          "sha256": "523a8e9362d8232ca062954f4f5cfcb16debc5b785c4cfddcd7da49bfaf99f89"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part009",
+          "sha256": "d2b9e3ba55399cdc10041753673df4b8a1f5e78d1bc64ee41ef07c79c57f58d4"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part010",
+          "sha256": "5e9f68236d27238f0633b6a3a4d0984af4df8db3c36c92c7fb5a2718b2fbe9b5"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part011",
+          "sha256": "a8f59a2b4686ae8573acda23ed68a513f2d21383cc0bede91fa0bc361dfed677"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held2_20261107.part012",
+          "sha256": "505a679c8173d15eacc62f907b39c00a6d09f80c0629960a2c56c2c0e7738a7c"
+        },
+        {
+          "bytes": 1186853,
+          "name": "fishr_native_loso6_completed_held2_20261107.part013",
+          "sha256": "59de03da5145eb7d4baeb5496ec62452295f352f3d966bf3145136de738135e4"
+        }
+      ],
+      "complete_modelset": true,
+      "complete_single_fold": true,
+      "complete_sixfold_cohort": false,
+      "held": 2,
+      "members_manifest_sha256": "5c70e2f6c62d8121b2db54470529a0d92bac8429b750e2539e3c9180c4debb0c",
+      "raw_arrays_included": false,
+      "runtime_binaries_included": false,
+      "scope": "complete_native_unscored_Fishr_held2_only_not_complete_sixfold_cohort",
+      "state": "single_completed_fold_native_modelset_streamed_unscored",
+      "tracked_payload_files": 410,
+      "whole_job_resume": false
+    },
+    "3": {
+      "archive_bytes": 96597003,
+      "archive_sha256": "fdc6899fc6e44efa44078a09b166e02c9cd34e4a3eb2bae9df3878e28d638d95",
+      "archive_total_build_CPU": 4.650041294,
+      "archive_total_build_wall": 4.656193787988741,
+      "chunks": [
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part000",
+          "sha256": "2880d78c3cc4757fc0cbd5b191b1cd097c764fbdeb84eaaeab1dc11af6db5f17"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part001",
+          "sha256": "89f4d11b4ef03ebe0577411d8418cfb5ceed1f91a8503dcf465f50f591345122"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part002",
+          "sha256": "5398f2f8b838d162d3355682e0e3ddec21c77b39bae41be66274374453694702"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part003",
+          "sha256": "9e29e63e999971fc953e203c3eb6acd3c65988dda1082912faa53e07e5a22383"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part004",
+          "sha256": "2f81b35d5d1bc1e88cd040d79152410c08289c7265c48fa702f4fd4ab28fe3b6"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part005",
+          "sha256": "3ddae56357ee4366251ec1f30e54029520333a42a65cc49a5839deeabd6b0871"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part006",
+          "sha256": "85cc00d8f5d60ec7079dc82ab2d0a92ec10f4830a146d4b1bbbf9b6994c52359"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part007",
+          "sha256": "9301d5550ec69f590820555784c16bf6aa351438523cbeaff5f80322a52a7652"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part008",
+          "sha256": "30fa1a4ac5704712388961dd4240d6b1f8b92652187d5ed5b8ecad14827619f6"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part009",
+          "sha256": "298555a6820d445dc167964c75f7750260de8e67afb7a365d323143396ff984f"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part010",
+          "sha256": "aef3ea8a8240738d653c095da5cdbc036f61949181f3e23d97690feb0faaacb2"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part011",
+          "sha256": "128d71d0e87ebb58111419bcbfcb94b3c86de91b0938810fb5772bcf001cc4a5"
+        },
+        {
+          "bytes": 7340032,
+          "name": "fishr_native_loso6_completed_held3_20261107.part012",
+          "sha256": "2bf5851d6649ad945b9534bcef430b9ad9ebebcbd8d6aef3c8cab980325db4b1"
+        },
+        {
+          "bytes": 1176587,
+          "name": "fishr_native_loso6_completed_held3_20261107.part013",
+          "sha256": "699e8632ada9d0aebd65cf6cd4238d1471b0f38f0a533e59875bb21b2293f7e6"
+        }
+      ],
+      "complete_modelset": true,
+      "complete_single_fold": true,
+      "complete_sixfold_cohort": false,
+      "held": 3,
+      "members_manifest_sha256": "5bd8f54312e4595fa498df0dc047ca68442367f65cf61fbee824309870bd3f84",
+      "raw_arrays_included": false,
+      "runtime_binaries_included": false,
+      "scope": "complete_native_unscored_Fishr_held3_only_not_complete_sixfold_cohort",
+      "state": "single_completed_fold_native_modelset_streamed_unscored",
+      "tracked_payload_files": 410,
+      "whole_job_resume": false
+    }
+  },
+  "new_partial_producer": {
+    "archive_bytes": 53304206,
+    "archive_sha256": "67e2fe0fac826ee922d0da9b7f37994fbb37e750a513f7b177ac331cfe78e4af",
+    "archive_total_build_CPU": 5.065174205,
+    "archive_total_build_wall": 4.75200928299455,
+    "chunks": [
+      {
+        "bytes": 7340032,
+        "name": "fishr_native_loso6_producer_held3_20261107.part000",
+        "sha256": "cfda1464d3e57c9e5ff719fd42b03e4578e327e681f004c113c29919aa89867e"
+      },
+      {
+        "bytes": 7340032,
+        "name": "fishr_native_loso6_producer_held3_20261107.part001",
+        "sha256": "58eb0a67d334fdbb20340f3984b5a0b2d02e0c8e4484132a46fbb822b7f5d286"
+      },
+      {
+        "bytes": 7340032,
+        "name": "fishr_native_loso6_producer_held3_20261107.part002",
+        "sha256": "fe49b0350eb34656f5f2dd45703c70c6d95d723417308e4337641ba0ba8a67d9"
+      },
+      {
+        "bytes": 7340032,
+        "name": "fishr_native_loso6_producer_held3_20261107.part003",
+        "sha256": "fd7ff873082317746467b61bfba8f14930baaca6308e20e7c2730ccb76ce7d4e"
+      },
+      {
+        "bytes": 7340032,
+        "name": "fishr_native_loso6_producer_held3_20261107.part004",
+        "sha256": "d4ad3e25550d50d172bc3a565388d455e0be10e34f4f08c4f56f7bb051d57234"
+      },
+      {
+        "bytes": 7340032,
+        "name": "fishr_native_loso6_producer_held3_20261107.part005",
+        "sha256": "3abb39da6ffe757b44c395a49c029293df07376fa39427b34efe1bb36c952cb2"
+      },
+      {
+        "bytes": 7340032,
+        "name": "fishr_native_loso6_producer_held3_20261107.part006",
+        "sha256": "a87fe6482b5a9c9a8c55b166a181aca8bf017e1e72711506c55889b4fb1885f9"
+      },
+      {
+        "bytes": 1923982,
+        "name": "fishr_native_loso6_producer_held3_20261107.part007",
+        "sha256": "abbc787fd3cdf2bdf86cfa5b896bf8d7f3f74533f6c9028f10577307edb00c48"
+      }
+    ],
+    "complete_fold_audits": false,
+    "complete_independent_replay": false,
+    "complete_modelset": false,
+    "complete_sixfold_cohort": false,
+    "complete_training_producer": true,
+    "held": 3,
+    "members_manifest_sha256": "06cc38d528237e96e4274e16a5efc0bc587d80de502ab82e9f14e9106a0949b3",
+    "raw_arrays_included": false,
+    "runtime_binaries_included": false,
+    "scope": "completed64_producer_only_fresh_replay_and_full_fold_audit_pending_unscored",
+    "state": "complete_producer_only_streamed_independent_replay_pending_unscored",
+    "tracked_payload_files": 252,
+    "whole_job_resume": false
+  },
+  "new_private_parts": 36,
+  "new_private_unique_IDs": 36,
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "new_transfer_errors": 0,
+  "observed_unix": 1794041602.3411813,
+  "original_phase_not_restarted": true,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 16.26,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "phase_original_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.37,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "R"
+  },
+  "resource_observation": {
+    "RSS_KiB": 1683584,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 15417.975280931001,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 15395.987933263998
+  },
+  "root_state_snapshot": {
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 14965.348517165,
+    "diagnostic_labels_read": false,
+    "state": "full_sixfold_in_progress_unscored",
+    "wall": 14944.166157243017
+  },
+  "scientific_sources_unchanged": true,
+  "state": "Fishr_held1_2_3_complete_native64_fresh64_audits_and_private_modelsets_original_held4_training_unscored",
+  "users7_8_labels_used": false
+}

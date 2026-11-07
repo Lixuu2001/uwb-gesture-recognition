@@ -1,0 +1,70 @@
+{
+  "combined_unique_private_file_IDs": 22,
+  "complete_private_folds": [
+    1,
+    2
+  ],
+  "complete_sixfold_cohort": false,
+  "diagnostic_labels_read": false,
+  "held2_private_bytes": 96607269,
+  "held2_private_complete_single_fold": true,
+  "held2_private_parts": 14,
+  "held2_private_payloads": 410,
+  "held3_local_complete": true,
+  "held3_private_bytes": 53304206,
+  "held3_private_parts": 8,
+  "held3_private_payloads": 252,
+  "held3_private_producer_only": true,
+  "held3_replay_progress": {
+    "checkpoint_sha256": "a8613bbce6ebfb26d92372f468a16100d0dea736810679a7dc9acda2a3b3c9dd",
+    "epoch": 64,
+    "journal_sha256": "3d3eb74d802882a8215bdd711ccfd9713655ff436e64ea317fab6a9752814b0f",
+    "prefix_bytes": 3886536,
+    "prefix_sha256": "08b0fe6c4224dddd866bf7e15c1cd7bfae8407078f19e4f04d4bf3cd24be0805",
+    "slot": "slot0.pt",
+    "updates": 4544
+  },
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "observed_unix": 1794041228.823069,
+  "original_phase_not_restarted": true,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 15.92,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "prior_costs_retained": true,
+  "resource_observation": {
+    "RSS_KiB": 1683420,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 15043.733326298001,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 15022.336040255963
+  },
+  "root_state": {
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 14965.348517165,
+    "diagnostic_labels_read": false,
+    "state": "full_sixfold_in_progress_unscored",
+    "wall": 14944.166157243017
+  },
+  "scientific_sources_unchanged": true,
+  "state": "held2_complete_private_and_held3_producer_private_verified_original_phase_continues_unscored",
+  "transfer_errors": 0,
+  "users7_8_labels_used": false
+}

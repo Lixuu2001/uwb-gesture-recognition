@@ -1,0 +1,127 @@
+{
+  "all_prior_costs_retained": true,
+  "cumulative_stages_not_added_as_independent_times": true,
+  "held3_producer_archive_build": {
+    "archive_total_build_CPU": 5.065174205,
+    "archive_total_build_wall": 4.75200928299455
+  },
+  "held3_producer_raw_allmember_verification": {
+    "CPU": 0.417671216,
+    "scope": "whole_archive_decompression_and_allmember_hash_verification",
+    "wall": 0.4193343629594892
+  },
+  "held3_readonly_audit": {
+    "audit_CPU": 2.577367538,
+    "audit_wall": 2.2486150140175596
+  },
+  "new_complete_folds": {
+    "2": {
+      "controller": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 5031.022282999999,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 5032.145292202011
+      },
+      "private_archive_build": {
+        "archive_total_build_CPU": 4.742826492,
+        "archive_total_build_wall": 4.751569176034536
+      },
+      "raw_allmember_verification": {
+        "CPU": 0.78533303,
+        "scope": "complete_held2_whole_archive_allmember_raw_verification",
+        "wall": 0.7902701540151611
+      },
+      "root_at_fold_completion": {
+        "cumulative_remaining_phase": {
+          "cpu": 10087.824468441,
+          "wall": 10073.354538795014
+        },
+        "exit_code": 0,
+        "new_diagnostic_metrics_computed": false
+      },
+      "stage_cumulative": {
+        "output": {
+          "cpu": 5031.022282999999,
+          "wall": 5032.143953119987
+        },
+        "replay": {
+          "cpu": 5019.42108,
+          "wall": 5020.116489566979
+        },
+        "train": {
+          "cpu": 2497.218856,
+          "wall": 2497.4355948399752
+        }
+      }
+    },
+    "3": {
+      "controller": {
+        "completed": [
+          "train",
+          "replay",
+          "output"
+        ],
+        "cpu": 4866.010955,
+        "diagnostic_labels_read": false,
+        "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+        "users7_8_labels_used": false,
+        "wall": 4867.507521779975
+      },
+      "private_archive_build": {
+        "archive_total_build_CPU": 4.650041294,
+        "archive_total_build_wall": 4.656193787988741
+      },
+      "raw_allmember_verification": {
+        "CPU": 0.781545677,
+        "scope": "complete_held3_whole_archive_allmember_raw_verification",
+        "wall": 0.7851046190480702
+      },
+      "root_at_fold_completion": {
+        "cumulative_remaining_phase": {
+          "cpu": 14965.347855834001,
+          "wall": 14944.164823898987
+        },
+        "exit_code": 0,
+        "new_diagnostic_metrics_computed": false
+      },
+      "stage_cumulative": {
+        "output": {
+          "cpu": 4866.010955,
+          "wall": 4867.506400662009
+        },
+        "replay": {
+          "cpu": 4854.943704,
+          "wall": 4856.486946848978
+        },
+        "train": {
+          "cpu": 2439.077392,
+          "wall": 2439.325646283978
+        }
+      }
+    }
+  },
+  "overlapping_backup_and_training_wall_not_serial_sum": true,
+  "root_phase_current": {
+    "RSS_KiB": 1683584,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 15417.975280931001,
+    "fold_stage": "train",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 15395.987933263998
+  },
+  "transfer_and_materializer_CPU_unmeasured_not_zero": true
+}
