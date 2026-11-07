@@ -1,0 +1,32 @@
+{
+  "branch_head_verified": true,
+  "commit": "c5a9a9c92a0da67fc74d38ae793a5656ea06cca1",
+  "complete_fitting_config_preregistered": true,
+  "exact_readback_verified": 55,
+  "files": 55,
+  "force": false,
+  "frozen_sha256": "c43e0566f8dc1b0f8e976dbe5f014d289be82ac4df160852eb45ad048747b99c",
+  "no_UWB_training_started": true,
+  "parent": "27c3b3efeeee3f0f47e42911ca0b7019cb2d651d",
+  "readback_transport_recovery": {
+    "connector_readback_failures": [
+      {
+        "expected_blob_sha1": "b524f32154c67b8505ba2bc826d2254c41242a90",
+        "expected_bytes": 1252565,
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "2cde7130a79b346bf8f6475f6cec11f2bee22aa8",
+        "expected_bytes": 1316540,
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "returned_characters": 0
+      }
+    ],
+    "force": false,
+    "new_commit_created_for_retry": false,
+    "proof": "/workspace/uwb-fishr-native-loso6-20261107/native_preregistered_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+  },
+  "ref_transport_recovery": null
+}
