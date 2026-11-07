@@ -1,0 +1,16 @@
+# Full LOSO6 fixed DomainBed VREx: held6producer
+
+## 2026-11-07：VREx前五折完整冻结；held6生产64完成并通过8块248载荷私有原始回读，原进程继续独立重放，未评分
+
+先读取GitHub最新4a2413bf5bab1144f62476be5d51614f236ab37b四份权威记录与LOSO协议/报告；大型memory空正文通过同commit Gitblob对远端SHA精确核验并读取，不把空正文误判数据丢失。原phase64529/start21331595/boot ad409b48-89ce-4704-beee-3658103d5856保持同一真实进程，当前held6/replay epoch21/1512更新，主累计wall29507.047808/CPU29537.890492秒、completed_folds=[1,2,3,4,5]，各低于43200秒。前五折完整64生产+各自fresh64/native审计与完整私有allmember恢复保持；不重传、不重训，不重复controller/下载原始数据/新建或修改自动任务/云环境。
+
+held6生产完整64轮/4608更新，训练用户2/3/4/5共4600、验证用户1共1200、测试用户6共1100；仅验证用户1选择epoch11。原生首批审计exit0，生产exit0且无资源stop；生产含首批审计/选模wall2531.899176/CPU2531.353608秒。最终完整原生状态语义3730921209df000e611ca28ef3b9ad972504f71f9fcfa8e97ec5de0632c2a246，selected模型60253106d33dea1e3f5748b72ea7e40037df0fb5e373864fbef42fee41af13ea，未评分heldNPZ1e7a4c8a6c06e27d1c6a1dd2727a9954e89303c542cf8606cba393ee14f81740。inactive生产worker后，独立核65条epoch records、完整journalchain/4608步committedprefix、完整model/原生optimizer/counter/resetEvents/RNG、selected与输出SHA。额外只读按意图核计数0..4607/1..4608连续、reset恰在update501之前一次、前500次weight1/后4108次weight10。重放已提交前19轮/1368更新的全部step和epoch记录与生产精确一致；仅prefix、非完整fresh64，也不能单凭确定性重放排除共同实现问题。未额外更新模型或读取测试真值。
+
+新held6 producer-only档案8块52370283字节248载荷，archive42e70d49578a5e77cd6bcf2b7374eb5b0b098f92c575757eec1174e9e14a0b76，MEMBERS744bdeef4170540b92b0f93474580b022144eb651725a5e1628f9c2ffc957c40。原Drivefolder先核metadata owner-only；全部8块上传响应/ID先持久、metadata后rawfetch(download_raw_file=true,include_base64=false)/立即物化/SHA，随后整档249成员含MEMBERS/248载荷hash全部通过。最多3条完整流水线，8个响应/ID/回读，无错误/额外上传/已知ID重传。构建含审计wall4.775903/CPU4.773922秒，整档解包/全成员回读wall0.427784/CPU0.426455另计。实际模型/step原始日志/样本ID仅私有，原始大数组/runtimebinaries不入档案/Git。
+
+明确scope：complete_training_producer=true，但complete_modelset/independent_replay/fold_audits/sixfold_cohort均false/automaticresume不授权；这是第六折生产保护，不是完整第六折或六折评估。原进程继续held6自己的fresh64，无新增fold或测试分数。下一续接先核64529 boot/startticks/STATE/ledger/checkpoint，复用当前重放，不重训完成1..5及held6生产。待真实主phase inactive且all6 native audits/PREDICTIONS_FROZEN完成，按已冻结operator/full_archive.py构建全六折全部模型/重放/日志/代码/实际ID的完整私有恢复档案，全部raw/allmember核验后精确发布，再运行已登记无标签推断成本与唯一cohort评分。当前SUMMARY与FINALIZE_ONCE锁均不存在，不提前评分，不用单个测试人的分数决定其他折是否继续。
+
+固定完整LOSO6默认VREx lambda10/anneal500、等域BCE均值+总体riskvariance、完整原生optimizerreset500及GAP617612/全部三雷达/RMS/B64/64/seed20261029/testh1..6-valnext-other4训练/仅训练验证选模均不改。主阶段wall/CPU各43200秒、RSS12GiB/ownedPIDstop/失败留痕/无生产自动retry保持；主ledger含前五折，不能与子阶段重复相加。原MMD完整六折wall30865.434969/CPU30891.040083秒及全部既有检查/归档成本继续完整另计，不能抹去。
+
+原MMD完整六折40.6258% vsGAP93.6672%/-53.0414pp/0胜固定失败及只读退化诊断的非因果/共同实现限定、历史混合94.6290%不同预算/旧失败均保留，不调用旧held1once/旧VRExsinglefold。新VREx完整6固定花费门槛仍mean+0.5pp/至少4严格胜/最差配对不退超2pp；若有效，先做MMD评分前冻结的等域BCE+同reset/no-variance同条件六折联合匹配对照再分析variance归因，不直接称原创或跳8确认。用户7–8不用于新方法选择，历史全八人反复开发探索性、非独立新用户验证。原789源码/旧科学结论/仓库可见性/Drive私有/现有自动频率启用及云环境均不变。目标未达，继续原真实实验，目前无新测试准确率。
+

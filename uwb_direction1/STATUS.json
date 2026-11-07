@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_first5_full64_ownfresh64_native_private_complete_original64529_held6_active_unscored",
+  "state": "LOSO6_VREx_first5_full_folds_private_verified_held6_production64_private248_original64529_replay_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_held5complete/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_held6producer/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794010087.0204837,
+  "background_training_observed_unix": 1794012299.3800528,
   "background_training_pid": 64529,
-  "background_training_status_note": "Original64529 active held6/train epoch29; first5 full64+ownfresh64/native/private frozen. Fullheld5 13parts406 allmember verified, roles/selection independently checked; no scores or duplicates.",
+  "background_training_status_note": "Original64529 active held6/replay epoch21; first5 complete64+64/native/private frozen, held6 producer64 private8parts248 verified; replay incomplete, no scores/duplicates.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -16233,5 +16233,181 @@
   "original_phase_not_restarted": true,
   "prior_costs_retained": true,
   "next": "Reuse64529 held6 without refitting1..5. Complete all6 native/fullprivate/exactrelease before registered inference and cohortonce. If effective, planned equal-domain/same-reset/no-variance joint control precedes attribution."
+}
+,
+  "vrex_loso6_held6producer_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_held6producer/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "held6_producer_complete64": true,
+  "producer_updates": 4608,
+  "selected_epoch_validation_only": 11,
+  "producer_private_parts": 8,
+  "producer_private_payloads": 248,
+  "complete_training_producer": true,
+  "complete_independent_replay": false,
+  "complete_fold_audits": false,
+  "complete_sixfold_cohort": false,
+  "completed_full_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "actual_phase_observation": {
+    "all6_declared_phase_not_sixfold_completed": true,
+    "committed_progress": {
+      "checkpoint_sha256": "e645f865ecf694249c4fb3134a0141edb3d9118946168270e3b95c9098662af1",
+      "epoch": 21,
+      "journal_sha256": "d7a8d5f5359ab906b13da81852bddda3017e2755fa1f5e31f5ad07d4697221b9",
+      "prefix_bytes": 1120998,
+      "prefix_sha256": "1a72589f156212dbbf61b451ad4543cd2184c23ded543332510b31b51797e578",
+      "slot": "slot1.pt",
+      "updates": 1512
+    },
+    "controller": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 5.63,
+        "pid": 74804,
+        "startticks": 23943457,
+        "state": "S"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.38,
+        "pid": 74804,
+        "startticks": 23943457,
+        "state": "R"
+      }
+    },
+    "current_held": 6,
+    "diagnostic_labels_read": false,
+    "first_partial_backup_is_not_complete_modelset": true,
+    "native_first_release": {
+      "diagnostic_labels_read": false,
+      "first_sha256": "57cc2daf632fa1bcf02999d809f0a835bcaf9bf4ceaddd35527b2e6326a5789d",
+      "native_first_update_exact": true,
+      "state_sha256": "6e4fbdf166d97b31c2d9f269d27c93629d777c54b5f353d1fd34e4ebaf9eecea"
+    },
+    "new_real_release": {
+      "branch_head_verified": true,
+      "commit": "eaa1653059b44882a1dcd1014a622396d81b671b",
+      "configuration_fixed_before_complete_MMD_score": true,
+      "force": false,
+      "frozen_sha256": "5bf850ab5b0af127f91e6ef311d80cc6392afc55c304119ec9fcb492e51d2cd8",
+      "initial_archive_sha256": "5cab4eb2ee2fafa400ecf37381d7e7fe138e2d5a7f5c5f2e794212c3bd9bfa9a",
+      "initial_model_file_sha256": "b2e5e8cc4edda7a20f05b03a47291bc5774ed456de3cfa5c0715dd1dc8513156",
+      "main_all_six_wall_CPU_cap_seconds": 43200
+    },
+    "new_training_actually_started": true,
+    "observed_unix": 1794012249.8907506,
+    "old_MMD_source1_once_invoked": false,
+    "old_VREx_singlefold_activated": false,
+    "phase_actual_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 30.03,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "S"
+    },
+    "phase_original_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.57,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "R"
+    },
+    "resource_ledger": {
+      "RSS_KiB": 1715048,
+      "active_held": 6,
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cpu": 29537.890492479,
+      "fold_stage": "replay",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "wall": 29507.047808258998
+    },
+    "scientific_sources_unchanged": true,
+    "stage": "replay",
+    "state": "one_actual_full_sixfold_VREx_phase_running_unscored",
+    "users7_8_labels_used": false,
+    "worker": {
+      "actual": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 854.72,
+        "pid": 76229,
+        "startticks": 24196886,
+        "state": "R"
+      },
+      "original": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 0.0,
+        "pid": 76229,
+        "startticks": 24196886,
+        "state": "R"
+      }
+    }
+  },
+  "replay_prefix_audit": {
+    "actual_phase": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 29.97,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "S"
+    },
+    "all_committed_epoch_records_equal": true,
+    "all_committed_replay_steps_bitwise_equal": true,
+    "committed_replay_epoch": 19,
+    "committed_replay_updates": 1368,
+    "full64_replay_completed": false,
+    "held": 6,
+    "new_model_updates_performed_by_audit": false,
+    "observed_unix": 1794012172.5207253,
+    "original_phase": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.57,
+      "pid": 64529,
+      "startticks": 21331595,
+      "state": "R"
+    },
+    "producer_algorithm_counter_contiguous": true,
+    "producer_complete64": true,
+    "producer_schedule_weight1_first500_then10": true,
+    "producer_single_reset_before_update501": true,
+    "producer_updates": 4608,
+    "resource_ledger": {
+      "RSS_KiB": 1694884,
+      "active_held": 6,
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cpu": 29460.653061421002,
+      "fold_stage": "replay",
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "wall": 29429.899466903007
+    },
+    "test_labels_paired": false,
+    "whole_cohort_complete": false
+  },
+  "original_phase_not_restarted": true,
+  "new_testscores_computed": false,
+  "prior_costs_retained": true,
+  "next": "Reuse64529 held6 ownfresh64; no refit/restart completed1..5 or held6 producer. On true all6inactive/audited, build preregistered full all6 archive, owner-only raw allmember verification and exact release, registered inference cost then one cohort score; no singlefold gate/testfeedback."
 }
 }
