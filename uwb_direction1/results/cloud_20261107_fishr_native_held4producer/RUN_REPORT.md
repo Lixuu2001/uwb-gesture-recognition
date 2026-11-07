@@ -1,0 +1,16 @@
+# Published Fishr native full implementation: held4producer
+
+## 2026-11-07：Fishr held4完整64轮生产/4544更新结束，8块/252载荷私有raw回读通过；原82223的fresh64重放继续，前三折完整保护保留，未评分
+
+已通过GitHub读取最新父2c70be7555e9d4b874d22d8afd5a6c494a3bf74d四份权威记录及LOSO纠正PROTOCOL/RUN_REPORT，六个同提交blob SHA与本地逐项一致；超大memory连接器正文为空时，按同提交Git blob验证读取。实际同cloud/current/running/network enforced、boot ad409b48-89ce-4704-beee-3658103d5856、原phase82223/startticks25677952活跃，未新建训练/任务或改自动频率/启用/环境。原held1..3的64生产+各自fresh64/native审计和完整私有模型档案保持已完成，不重复执行。重复prompt的旧MMD状态不覆盖最新记录，MMD40.6258%、VREx92.8444%和旧缩小SOURCE_FISHR原固定失败/once/源文件/全部成本保留，不再触发旧评分或重训。
+
+原held4生产worker84601已正常exit0/resource_stop=None，64epochs/4544updates（4500训练记录、B64、每epoch71次、末批20）；selected epoch36仅由原验证用户5的固定macro/globalBCE/earlierkey选择，测试4、源1/2/3/6。复用未改通用只读auditor，核验全部角色/样本ID/确定性order和batchSHA、逐步counter/native globalBCE/Fishr0→1000时间表、update1501前唯一全nativeoptimizerreset、最终inner3044次、全部18060维classifier梯度统计finite/detach与实际sourcegroup出现情况、65records/journal/最终语义SHA5693be7ff79a33f7c168969cd0ef09700ee3b76e32b918b33559bf06abe964e7、selected及val/held未评分输出SHA/原验证key；通过。训练用户1/3 EMA各4544次、用户2/6各4543次，与实际批次逐一匹配，缺组历史按已冻结规则保留。审计时原fresh64重放epoch7/497updates全部已提交step和8个epoch记录与生产逐位一致，后续快照epoch13/923继续；没有宣称全64重放或整折审计完成。审计未读真实maps或gesture truth，无新增模型更新/推断。精确重放不能单独证明不存在共同实现错误，先前独立fullnative生成autograd/作者EMA核验保留，不作无误证明。
+
+调用未改producer_archive.py仅一次保护已停止的完整生产：模型/首步/两slot/final/selected、4544step/65epoch/journals、未评分预测、冻结科学配置/native源码、角色ID及原privateinitial索引，共252载荷/53299537字节/8块，archiveSHA4f4eeee5d00b8510c0d085189bb4ac103c2a4f6e89903b8aa34e016298b63870，membersSHAef14cf78354827a660f4f7b1bffbeb79befb30f65a04f75b33d61046fb0258a4。先核验原Drive目录shared=false/唯一owner，全局最多3条upload→metadata→rawfetch(download_raw_file=true/include_base64=false)→即时物化→SHA完整pipeline；8个唯一ID、0错误、0已知ID重传，全部原始块/整档/252成员SHA回读通过。HELD4_PRODUCER_COMPOSITE_RECOVERY_INDEX串起完整held1..3、各旧partial、新held4生产、原initial/GAP/原始数据持久链，无大数组/实际样本ID/模型权重入Git，无认证URL输出，权限与仓库可见性不改。
+
+范围明确：held4 complete_training_producer=true，但complete_modelset=false、complete_independent_replay=false、complete_fold_audits=false；completed_full_native_folds及completed_full_private_folds仍[1,2,3]，不是已完成四折或全六折。原82223继续held4 fresh64，重放worker85297/startticks27416935/同boot实际活跃，快照epoch13/923updates；scientific manifest c43e0566f8dc1b0f8e976dbe5f014d289be82ac4df160852eb45ad048747b99c逐项未变。原native617612/GAP/三radar signedRMS/globalBCE/AdamWLookahead/B64/64/seed20261029、Fishr1000/EMA.95/anneal1500/全optimizerreset1500保留EMA、train-validation-only选模均不变。SUMMARY与FINALIZE_ONCE仍不存在，没有test scores或用户7–8选择标签。
+
+成本保留：held4生产wall2443.267277/CPU2443.104611秒，额外只读审计2.141541/2.486363秒，生产归档4.515870/4.786553秒，wholearchive/allmember回读0.400572/0.399001秒；网络/物化CPU未测不记零，备份与重放重叠，wall不机械相加。phase快照wall17909.886163/CPU17935.205375秒/RSS1736952KiB，原全6main wall/CPU各43200秒/RSS12GiB上限及ownedPID监督不变，所有先前MMD/VREx/生成核验/工具故障/initial/producer/fullfold成本保留。
+
+下一接续先核验原82223和activefold实际boot/startticks/RESOURCE_LEDGER/PROGRESS，复用已完成生产及当前held4 ownfresh64，不重新启动；该fold完成64重放/native输出审计后再做完整私有保护，原controller会自行进入5..6，备份并行且不暂停或作为controller转折gate。必须全部6模型/预测/审计与完整全6私有raw/allmember/exactrelease后，才固定无标签inference与唯一cohort统一评分；不按单个held分数决定其他折、不救参数/seed。逐用户accuracy/presentmacro/classsupport/缺类/用户等权mean/worst/paired/wins及训练推断复现成本都报，+.5pp/4胜/最差配对>=-2pp花费门槛不改。正才执行同globalBCE/reset1500/no-variance匹配对照归因，不能用VREx等域/reset500代替；已发表Fishr迁移的准确率与原创证据分开，历史全部八人探索性非独立验证，用户7–8不用于方法选择。
+

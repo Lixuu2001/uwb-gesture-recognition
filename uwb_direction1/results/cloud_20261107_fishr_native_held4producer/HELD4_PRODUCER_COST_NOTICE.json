@@ -1,0 +1,38 @@
+{
+  "all_prior_MMD_VREx_generation_initial_producer_and_full_fold_costs_retained": true,
+  "main_phase_observation": {
+    "RSS_KiB": 1736952,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 17935.205374775,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 17909.88616285997
+  },
+  "overlapping_backup_and_training_wall_not_serial_sum": true,
+  "private_archive_build": {
+    "archive_total_build_CPU": 4.786553398,
+    "archive_total_build_wall": 4.515870204020757
+  },
+  "producer_training_cumulative": {
+    "cpu": 2443.104611,
+    "wall": 2443.2672766339965
+  },
+  "readonly_audit": {
+    "audit_CPU": 2.486363274,
+    "audit_wall": 2.1415414409711957
+  },
+  "transfer_network_and_materializer_CPU_unmeasured_not_zero": true,
+  "whole_raw_archive_allmember_verification": {
+    "CPU": 0.399000951,
+    "scope": "whole_archive_decompression_and_allmember_hash_verification",
+    "wall": 0.40057179500581697
+  }
+}

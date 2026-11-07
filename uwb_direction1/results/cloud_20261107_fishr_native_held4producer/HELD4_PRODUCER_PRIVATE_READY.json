@@ -1,0 +1,84 @@
+{
+  "all_prior_costs_retained": true,
+  "complete_fold_audits": false,
+  "complete_independent_replay": false,
+  "complete_producer_private_verified": true,
+  "complete_sixfold_cohort": false,
+  "complete_sixfold_private": false,
+  "completed_full_native_folds": [
+    1,
+    2,
+    3
+  ],
+  "completed_full_private_folds": [
+    1,
+    2,
+    3
+  ],
+  "current_held": 4,
+  "diagnostic_labels_read": false,
+  "new_known_ID_reuploads": 0,
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "new_transfer_errors": 0,
+  "new_unique_private_file_IDs": 8,
+  "observed_unix": 1794044115.9234235,
+  "original_phase_not_restarted": true,
+  "phase_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 18.46,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "private_archive_sha256": "4f4eeee5d00b8510c0d085189bb4ac103c2a4f6e89903b8aa34e016298b63870",
+  "private_bytes": 53299537,
+  "private_parts": 8,
+  "private_payloads": 252,
+  "producer_epochs": 64,
+  "producer_updates": 4544,
+  "replay_actual_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 520.73,
+    "pid": 85297,
+    "startticks": 27416935,
+    "state": "R"
+  },
+  "replay_original_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 0.0,
+    "pid": 85297,
+    "startticks": 27416935,
+    "state": "R"
+  },
+  "replay_prefix_explicitly_reaudited_epoch": 7,
+  "replay_progress_observation": {
+    "checkpoint_sha256": "c50990d0ed85e8ffcc9e870c305bb404b9e084a1f42d3a500bbccf3632623e6c",
+    "epoch": 13,
+    "journal_sha256": "5cff14060c9e6d0cd54d7a917b3d61fa7b031b30364aa9e946488f7f45870f6c",
+    "prefix_bytes": 776290,
+    "prefix_sha256": "90f45635629f79e58d754ccadeaffe4946d10b7602fab4ebc8f298e7d6ffffbf",
+    "slot": "slot1.pt",
+    "updates": 923
+  },
+  "resource_observation": {
+    "RSS_KiB": 1736952,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 17935.205374775,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 17909.88616285997
+  },
+  "scientific_sources_unchanged": true,
+  "selected_epoch_validation_only": 36,
+  "state": "held4_complete64_producer_private_verified_original_fresh64_replay_continues_unscored",
+  "users7_8_labels_used": false
+}

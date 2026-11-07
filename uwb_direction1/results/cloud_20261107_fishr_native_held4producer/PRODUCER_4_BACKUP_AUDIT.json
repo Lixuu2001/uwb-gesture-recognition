@@ -1,0 +1,51 @@
+{
+  "complete_fold_audits": false,
+  "complete_independent_replay": false,
+  "complete_sixfold_cohort": false,
+  "complete_training_producer": true,
+  "diagnostic_labels_read": false,
+  "epochs": 64,
+  "final_native_state_sha256": "5693be7ff79a33f7c168969cd0ef09700ee3b76e32b918b33559bf06abe964e7",
+  "held": 4,
+  "journal_chain_and_step_prefix_verified": true,
+  "native_first_update_exact": true,
+  "new_model_updates_or_inference_executed": false,
+  "original_phase_not_restarted": true,
+  "phase": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 18.23,
+    "pid": 82223,
+    "startticks": 25677952,
+    "state": "S"
+  },
+  "producer_termination": {
+    "cumulative": {
+      "cpu": 2443.104611,
+      "wall": 2443.2672766339965
+    },
+    "diagnostic_labels_read": false,
+    "exit_code": 0,
+    "resource_stop_reason": null,
+    "users7_8_labels_used": false
+  },
+  "replay_ledger": {
+    "RSS_KiB": 1729192,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 17678.372368063003,
+    "fold_stage": "replay",
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 17653.399399761984
+  },
+  "selected_epoch": 36,
+  "state": "completed64_producer_native_state_selected_model_journal_and_committed_prefix_verified_before_private_protection",
+  "updates": 4544,
+  "users7_8_labels_used": false
+}
