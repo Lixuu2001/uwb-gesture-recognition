@@ -1,0 +1,21 @@
+{
+  "state": "restore_at_most_three_chunk_pipelines_after_two_original_workers_stopped_on_provider_errors",
+  "original_provider_error_indices": [
+    4,
+    10
+  ],
+  "already_recovered": [
+    4
+  ],
+  "supplemental_exclusive_indices": [
+    39,
+    76
+  ],
+  "supplemental_parallel_pipelines": 2,
+  "original_live_pipelines": 1,
+  "global_max": 3,
+  "original_uploader_known_ID_preflight_must_stop_before_any_duplicate_tail_upload": true,
+  "expected_original_guard_stop_is_not_a_new_provider_upload_failure": true,
+  "all_known_IDs_preserved": true,
+  "no_training_or_science_changes": true
+}

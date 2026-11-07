@@ -1,0 +1,39 @@
+{
+  "state": "all77_owner_only_raw_chunks_whole_archive_and1984_payloads_verified",
+  "parts": 77,
+  "archive_bytes": 561095162,
+  "archive_sha256": "772d7e55bb78b52913cf7c411d186c64f66e85a64f981428a9e44d8e9bb1fed6",
+  "tracked_payload_files": 1984,
+  "unique_remote_file_IDs": 77,
+  "all_raw_SHA_verified": true,
+  "all_payload_SHA_verified": true,
+  "global_chunk_pipeline_cap": 3,
+  "started_unix": 1794055877.345,
+  "last_receipt_unix": 1794057565.5499134,
+  "elapsed_span_seconds": 1688.2049133777618,
+  "span_overlaps_publication_and_other_operator_work": true,
+  "CPU_not_measured": true,
+  "CPU_seconds": null,
+  "provider_upload_internal_errors_without_ID": [
+    4,
+    10,
+    67
+  ],
+  "explicit_missing_ID_recoveries": [
+    4,
+    10,
+    67
+  ],
+  "exact_parent_and_name_searches_found_zero_before_reupload": true,
+  "expected_known_ID_guard_stop_after_disjoint_handoff": [
+    39
+  ],
+  "known_ID_reuploads": 0,
+  "earlier_partial_archive_provider_errors": [
+    6,
+    9
+  ],
+  "all_error_and_repair_evidence_preserved": true,
+  "new_fits": 0,
+  "test_labels_paired": false
+}

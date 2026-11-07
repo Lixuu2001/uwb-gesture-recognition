@@ -1,0 +1,306 @@
+{
+  "state": "completed_fold_subject_ID_firewall_and_validation_selection_intent_audited_without_fitting_or_test_pairing",
+  "folds": [
+    {
+      "held": 1,
+      "validation_user": 2,
+      "train_users": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "roles": {
+        "train": {
+          "n": 4700,
+          "users": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "sample_ID_sha256": "47582683c2414be202f13a84b820eb768e23134a6bb022372a89ac5953f99d8f",
+          "dtype": "int64"
+        },
+        "validation": {
+          "n": 1000,
+          "users": [
+            2
+          ],
+          "sample_ID_sha256": "c9a08fdde2eb3ef4872bfd3fb294a2959c8cd9393d665294f2e3dddf3afaab23",
+          "dtype": "int64"
+        },
+        "diagnostic": {
+          "n": 1200,
+          "users": [
+            1
+          ],
+          "sample_ID_sha256": "eee4fa262108190a0efc943b4d57a769cfaebb76f48cfc5f5a4cd43ec2c9fe91",
+          "dtype": "int64"
+        }
+      },
+      "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+      "private_roles_and_both_splits_exact": true,
+      "all_roles_subject_and_ID_disjoint": true,
+      "selected_epoch": 28,
+      "selection": "max logged validation present-macro, then lower logged native global BCE, then earlier epoch",
+      "logged_rule_independently_recomputed": true,
+      "initial_asset_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+      "all64_epochs_retained": true,
+      "test_labels_or_predictions_opened": false
+    },
+    {
+      "held": 2,
+      "validation_user": 3,
+      "train_users": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "roles": {
+        "train": {
+          "n": 4700,
+          "users": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "sample_ID_sha256": "3adf86a254190a60393a29f9dbce55c9f07f92d2e10c66f500811135a1828fd8",
+          "dtype": "int64"
+        },
+        "validation": {
+          "n": 1200,
+          "users": [
+            3
+          ],
+          "sample_ID_sha256": "3cc485df9fb53818653fb9f5f237d8abef78a317ebb875f0a88d88f53589b959",
+          "dtype": "int64"
+        },
+        "diagnostic": {
+          "n": 1000,
+          "users": [
+            2
+          ],
+          "sample_ID_sha256": "c9a08fdde2eb3ef4872bfd3fb294a2959c8cd9393d665294f2e3dddf3afaab23",
+          "dtype": "int64"
+        }
+      },
+      "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+      "private_roles_and_both_splits_exact": true,
+      "all_roles_subject_and_ID_disjoint": true,
+      "selected_epoch": 18,
+      "selection": "max logged validation present-macro, then lower logged native global BCE, then earlier epoch",
+      "logged_rule_independently_recomputed": true,
+      "initial_asset_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+      "all64_epochs_retained": true,
+      "test_labels_or_predictions_opened": false
+    },
+    {
+      "held": 3,
+      "validation_user": 4,
+      "train_users": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "roles": {
+        "train": {
+          "n": 4500,
+          "users": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "sample_ID_sha256": "19773522076eb2e079e21a8c8dbdbb4f6f3146ac8baa0ff4c3025802f9437348",
+          "dtype": "int64"
+        },
+        "validation": {
+          "n": 1200,
+          "users": [
+            4
+          ],
+          "sample_ID_sha256": "388b68fa225924ed3a8da7b60bd8ad46c87931756c98fe67786b523810f276fe",
+          "dtype": "int64"
+        },
+        "diagnostic": {
+          "n": 1200,
+          "users": [
+            3
+          ],
+          "sample_ID_sha256": "3cc485df9fb53818653fb9f5f237d8abef78a317ebb875f0a88d88f53589b959",
+          "dtype": "int64"
+        }
+      },
+      "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+      "private_roles_and_both_splits_exact": true,
+      "all_roles_subject_and_ID_disjoint": true,
+      "selected_epoch": 14,
+      "selection": "max logged validation present-macro, then lower logged native global BCE, then earlier epoch",
+      "logged_rule_independently_recomputed": true,
+      "initial_asset_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+      "all64_epochs_retained": true,
+      "test_labels_or_predictions_opened": false
+    },
+    {
+      "held": 4,
+      "validation_user": 5,
+      "train_users": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "roles": {
+        "train": {
+          "n": 4500,
+          "users": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "sample_ID_sha256": "012ee7b20ca67e23a0f4d338062476ec6fe6bdfb1fbb95e24d589f63c8b31bde",
+          "dtype": "int64"
+        },
+        "validation": {
+          "n": 1200,
+          "users": [
+            5
+          ],
+          "sample_ID_sha256": "d48ad9666261213c43732e146398eedc2577f05fd2dd2648e2f9a125331eb71f",
+          "dtype": "int64"
+        },
+        "diagnostic": {
+          "n": 1200,
+          "users": [
+            4
+          ],
+          "sample_ID_sha256": "388b68fa225924ed3a8da7b60bd8ad46c87931756c98fe67786b523810f276fe",
+          "dtype": "int64"
+        }
+      },
+      "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+      "private_roles_and_both_splits_exact": true,
+      "all_roles_subject_and_ID_disjoint": true,
+      "selected_epoch": 36,
+      "selection": "max logged validation present-macro, then lower logged native global BCE, then earlier epoch",
+      "logged_rule_independently_recomputed": true,
+      "initial_asset_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+      "all64_epochs_retained": true,
+      "test_labels_or_predictions_opened": false
+    },
+    {
+      "held": 5,
+      "validation_user": 6,
+      "train_users": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "roles": {
+        "train": {
+          "n": 4600,
+          "users": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "sample_ID_sha256": "7e2447f7043b76ef7d67c61ae9f26d7f064b76c5835503fe981f4624ded4a983",
+          "dtype": "int64"
+        },
+        "validation": {
+          "n": 1100,
+          "users": [
+            6
+          ],
+          "sample_ID_sha256": "3414920a7814d1fa4977f4e272b2d5cd1b0aa8e1283a2391b8755e377e343351",
+          "dtype": "int64"
+        },
+        "diagnostic": {
+          "n": 1200,
+          "users": [
+            5
+          ],
+          "sample_ID_sha256": "d48ad9666261213c43732e146398eedc2577f05fd2dd2648e2f9a125331eb71f",
+          "dtype": "int64"
+        }
+      },
+      "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+      "private_roles_and_both_splits_exact": true,
+      "all_roles_subject_and_ID_disjoint": true,
+      "selected_epoch": 58,
+      "selection": "max logged validation present-macro, then lower logged native global BCE, then earlier epoch",
+      "logged_rule_independently_recomputed": true,
+      "initial_asset_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+      "all64_epochs_retained": true,
+      "test_labels_or_predictions_opened": false
+    },
+    {
+      "held": 6,
+      "validation_user": 1,
+      "train_users": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "roles": {
+        "train": {
+          "n": 4600,
+          "users": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "sample_ID_sha256": "52d2cc702027777b824f5eb80fbf733be64fe275f1494c129f2b2bc6d991a7b7",
+          "dtype": "int64"
+        },
+        "validation": {
+          "n": 1200,
+          "users": [
+            1
+          ],
+          "sample_ID_sha256": "eee4fa262108190a0efc943b4d57a769cfaebb76f48cfc5f5a4cd43ec2c9fe91",
+          "dtype": "int64"
+        },
+        "diagnostic": {
+          "n": 1100,
+          "users": [
+            6
+          ],
+          "sample_ID_sha256": "3414920a7814d1fa4977f4e272b2d5cd1b0aa8e1283a2391b8755e377e343351",
+          "dtype": "int64"
+        }
+      },
+      "source_ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+      "private_roles_and_both_splits_exact": true,
+      "all_roles_subject_and_ID_disjoint": true,
+      "selected_epoch": 39,
+      "selection": "max logged validation present-macro, then lower logged native global BCE, then earlier epoch",
+      "logged_rule_independently_recomputed": true,
+      "initial_asset_sha256": "60684e952d961f6ce3311a9d75bf7a23795c3edfd4134faccfaadfbe3071ee52",
+      "all64_epochs_retained": true,
+      "test_labels_or_predictions_opened": false
+    }
+  ],
+  "scope": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "scientific_source_sha256": "c43e0566f8dc1b0f8e976dbe5f014d289be82ac4df160852eb45ad048747b99c",
+  "source_script_sha256": "45fc57a13b895d8baef6f8292c7e1672e160b89a9759fdeba99f1ca0646a5952",
+  "optimizer_updates": 0,
+  "test_labels_or_predictions_opened": false,
+  "selection_rule_audit_does_not_independently_recompute_logged_validation_metrics": true
+}

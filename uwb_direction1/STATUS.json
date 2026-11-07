@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Fishr_all6_native64_fresh64_audited_frozen_full_private77parts_in_progress_unscored",
+  "state": "Fishr_all6_native_and_full_private77parts1984payloads_verified_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Same cloud, original Fishr all6 main complete wall29559.943319/CPU29599.386026 sec within12h; full archive561095162bytes77parts1984payloads raw transfer pending, no active training.",
+  "compute": "Original Fishr all6 wall29559.943319/CPU29599.386026 sec; complete77-part561095162-byte1984-payload private raw recovery verified. Transfer span1688.204913 sec overlaps operator work; CPU unmeasured.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_fishr_native_all6native/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_fishr_native_all6private/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794055972.5532968,
+  "background_training_observed_unix": 1794057634.7522552,
   "background_training_pid": null,
-  "background_training_status_note": "Original82223 completed all6 native64+fresh64/native audits normally; final77part/1984payload full private transfer active, not training. No inference or cohortscore yet.",
+  "background_training_status_note": "All6 native64+fresh64/audits complete and final77 parts/1984 payloads raw/allmember verified; no active training, cohortscore not consumed.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Complete fixed Fishr all6 final private77 raw/allmember exact release, then registered inference and one whole cohort score; no new fits or held1 gate.",
+  "next_candidate": "Bind verified full private release, execute frozen label-free inference once and unique whole6 Fishr cohort score. No fits/test rescue/held1 gate.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -16883,5 +16883,42 @@
   "explicit_missing_ID_recoveries": 2,
   "known_ID_reuploads": 0,
   "scientific_sources_unchanged": true
+}
+,
+  "fishr_native_all6private_20261107": {
+  "report": "results/cloud_20261107_fishr_native_all6private/RUN_REPORT.md",
+  "method": "published_DomainBed_Fishr1000_ema0p95_anneal1500_fullnative617612_LOSO6_globalBCE64",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "complete_sixfold_cohort": true,
+  "complete_sixfold_private": true,
+  "completed_full_native_folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "completed_full_private_folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "full_archive_parts": 77,
+  "full_archive_bytes": 561095162,
+  "full_archive_payloads": 1984,
+  "all77_unique_private_IDs": true,
+  "all_raw_SHA_and_allmember_verified": true,
+  "new_training_started": false,
+  "new_test_scores_computed": false,
+  "main_phase_wall_seconds": 29559.94331930898,
+  "main_phase_CPU_seconds": 29599.386025808,
+  "known_ID_reuploads": 0,
+  "next": "Exact release then fixed label-free inference and one whole cohort scorer; report all positive/negative evidence; fixed gate and conditional reset1500 no-variance control preserved."
 }
 }
