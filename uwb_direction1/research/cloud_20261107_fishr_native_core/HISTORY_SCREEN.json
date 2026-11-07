@@ -1,0 +1,38 @@
+{
+  "state": "located_historical_protocols_not_equivalent_to_proposed_published_default_native_component",
+  "historical_protocol": "uwb_direction1/research/SOURCE_FISHR_PROTOCOL.json",
+  "historical_protocol_sha256": "49bbf677db2312372335c67311fb54d8bd910aba2b9dba621bd523d1ca7d7eb2",
+  "historical": {
+    "parameters": 265836,
+    "epochs": 24,
+    "seed": 2026,
+    "statistic": "last-linear CE gradient variance",
+    "EMA": "time-bias correction raw/(1-beta**step)",
+    "calibration": "source gradient norm ratio .1, clipped lambda",
+    "optimizer_reset": false,
+    "primary_selection": "fixed dense parameter average over actual optimizer updates epochs13-24"
+  },
+  "proposed": {
+    "parameters_target": 617612,
+    "epochs_target": 64,
+    "seed_target": 20261029,
+    "classifier_gradient_parameters": 18060,
+    "EMA": "author fixed raw/(1-beta)",
+    "calibration": "none; published fixed lambda1000",
+    "anneal_completed_updates": 1500,
+    "reset": "entire matched native AdamWLookahead once before update1501; integration pending",
+    "cohort": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "selection": "held-disjoint validation next user macro/BCE/earlier epoch"
+  },
+  "old_negative_conclusion_not_modified": true,
+  "old_users7_8_scores_not_used_for_new_choice": true,
+  "scope": "protocol and implementation comparison, not exhaustive proof no alias exists",
+  "new_fits": false
+}

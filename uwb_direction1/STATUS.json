@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_complete_single_cohort_scored_92p8444_vs_GAP93p6672_failed_fixed_gate_closed_no_rescue",
+  "state": "Fishr_native_classifier_core_checked_no_fitting_registration_VREx_full6_closed_negative",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "2026-11-06 sameboot ad409b48;4CPUquota/16GiB/noGPU; MMD complete6 closed40.6258% vsGAP93.6672%, prior8.58h retained. Sole new full6 VREx phase64529 active under12h wall/CPU, no duplicates; readonly MMD diagnosis only.",
+  "compute": "2026-11-07 samecloud4CPU/16GiB/noGPU/Torch2.15CPU; VREx complete6 closed92.8444% vsGAP93.6672%, MMD40.6258% closed; all prior costs retained. Fishr mathematical core only, fullnative integration/cost/fitting registration pending; no training alive.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_all6result/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_fishr_native_core_ready/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794021580.7736027,
+  "background_training_observed_unix": 1794022287.1285295,
   "background_training_pid": null,
-  "background_training_status_note": "All6 native64+ownfresh64/native and private76part1980payload freeze complete; one label-free inference and unique cohortonce passed. VREx92.8444% vsGAP93.6672%, -0.8227pp,3/6wins,worstpaired-3.6364pp; fixedconfigclosed, no new training.",
+  "background_training_status_note": "VREx complete6 closed92.8444% vs93.6672%; Fishr published default mathematical core synthetic first/second derivative and author EMA checks pass, no fullnative worker, cost gate or fitting preregistration, no new training.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -16503,5 +16503,26 @@
   "positive_and_negative_per_user_results_retained": true,
   "prior_costs_retained": true,
   "next": "Do not rerun old phase/once/inference or rescue lambda/anneal/seed. Continue literature-backed next exact method with history screening, concrete implementation and train/validation-only preregistration; published baseline utility separate from originality. Keep existing automation and cloud unchanged."
+}
+,
+  "fishr_native_core_ready_20261107": {
+  "report": "results/cloud_20261107_fishr_native_core_ready/RUN_REPORT.md",
+  "method": "published_DomainBed_Fishr_defaults1000_ema0p95_anneal1500_native_classifier_core_not_fitting_registered",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "candidate": "Fishr_native_default_component_1000_0p95_1500",
+  "mathematical_core_implemented": true,
+  "native_worker_implemented": false,
+  "fitting_preregistered": false,
+  "new_background_training_started": false,
+  "real_UWB_data_or_labels_read": false,
+  "optimizer_steps": 0,
+  "core_checks_passed": true,
+  "native_classifier_gradient_parameters": 18060,
+  "native_parameters_target": 617612,
+  "prior_VREx_result_commit": "cabd7e115924374e0cb349f95769708e239570fc",
+  "prior_VREx_exact_config_closed": true,
+  "next": "Integrate actual full native617612/strict6-role loader and worker, complete EMA/RNG/optimizer checkpoints/ownedPID cap/fresh64 audits; generated fullnative CPU timing then freeze complete fitting protocol/config/seed and private initial exactrelease before training; no legacy once/no held1 gate/no test tuning."
 }
 }

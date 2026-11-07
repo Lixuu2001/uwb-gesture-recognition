@@ -1,0 +1,17 @@
+{
+  "state": "Fishr_native_classifier_math_core_passed_full_native_integration_CPU_gate_and_fitting_registration_pending",
+  "prior_VREx_result_commit": "cabd7e115924374e0cb349f95769708e239570fc",
+  "prior_VREx_exact_config_closed": true,
+  "mathematical_core_implemented": true,
+  "native_worker_implemented": false,
+  "fitting_preregistered": false,
+  "new_background_training_started": false,
+  "real_UWB_data_read_this_preparation": false,
+  "optimizer_steps": 0,
+  "next": [
+    "integrate full native backbone, training/validation-only loader, complete checkpoint/EMA/RNG state",
+    "implement owned-PID resource supervision and independent full64 replay/native audits",
+    "measure actual full native synthetic CPU projection before fitting approval by fixed budget",
+    "freeze complete fitting protocol/code/config/seed and verify private initial asset and exact Git release before any real training"
+  ]
+}

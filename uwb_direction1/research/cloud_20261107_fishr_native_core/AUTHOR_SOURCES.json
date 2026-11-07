@@ -1,0 +1,57 @@
+{
+  "repository": "facebookresearch/DomainBed",
+  "commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+  "files": {
+    "author_reference/domainbed/LICENSE": {
+      "sha256": "a74dc7c7d1650b2ef611962794f33e5432ff60227ad11fe8ff599eb892713fcb",
+      "git_blob_sha1": "4410777247b588260c5d283228fd96bfec7a4f79",
+      "repository_path": "LICENSE",
+      "immutable_url": "https://github.com/facebookresearch/DomainBed/blob/b93c22a1cfc3b2428398272c1a116c8de1f4139e/LICENSE"
+    },
+    "author_reference/domainbed/README.md": {
+      "sha256": "09b61daa2f976dcdbbafc4ca08172400b63834f67c2a3fba4ef9f8d97f6338a1",
+      "git_blob_sha1": "ae27f8cfca63c2ab8152a846bf9aba1f8602d637",
+      "repository_path": "README.md",
+      "immutable_url": "https://github.com/facebookresearch/DomainBed/blob/b93c22a1cfc3b2428398272c1a116c8de1f4139e/README.md"
+    },
+    "author_reference/domainbed/algorithms.py": {
+      "sha256": "1e4a0353e2c6e42460a43d9cba0bc97e49fec0f5163a39c2c13cadc2ac50eaac",
+      "git_blob_sha1": "17a7a67bae773f97391d5507429840dd3c49fd4a",
+      "repository_path": "domainbed/algorithms.py",
+      "immutable_url": "https://github.com/facebookresearch/DomainBed/blob/b93c22a1cfc3b2428398272c1a116c8de1f4139e/domainbed/algorithms.py"
+    },
+    "author_reference/domainbed/hparams_registry.py": {
+      "sha256": "6deec4fceaa98ceab95e89a18358868b1653e3382ca8444ba14eacb2d21b56ea",
+      "git_blob_sha1": "b7b6a2bc8c9b5506d7e1edb9d37e008cea6b8cea",
+      "repository_path": "domainbed/hparams_registry.py",
+      "immutable_url": "https://github.com/facebookresearch/DomainBed/blob/b93c22a1cfc3b2428398272c1a116c8de1f4139e/domainbed/hparams_registry.py"
+    },
+    "author_reference/domainbed/lib/misc.py": {
+      "sha256": "3e739134fda74fffcfdb608c2c58291394054092fab244d0be580a9e3057a626",
+      "git_blob_sha1": "f9e6497a82fed9a4e1d70346ad708c2c9df2ad9f",
+      "repository_path": "domainbed/lib/misc.py",
+      "immutable_url": "https://github.com/facebookresearch/DomainBed/blob/b93c22a1cfc3b2428398272c1a116c8de1f4139e/domainbed/lib/misc.py"
+    }
+  },
+  "defaults": {
+    "penalty_lambda": 1000.0,
+    "ema": 0.95,
+    "anneal_completed_updates": 1500,
+    "warmup_weight": 0.0
+  },
+  "paper": {
+    "title": "Fishr: Invariant Gradient Variances for Out-of-Distribution Generalization",
+    "authors": "Rame, Dancette, Cord",
+    "venue": "ICML2022/PMLR162",
+    "url": "https://proceedings.mlr.press/v162/rame22a.html",
+    "existing_fulltext_review": "uwb_direction1/research/FISHR_PUBLISHED_REVIEW.md",
+    "existing_review_sha256": "4fcd6402a496d1cc0976054269a23305b0931aa1205f1ed01ab4fb835e628d40"
+  },
+  "this_turn_read_and_verified": [
+    "Fishr class",
+    "default hparams registry",
+    "MovingAverage",
+    "l2_between_dicts"
+  ],
+  "whole_author_benchmark_reproduced": false
+}

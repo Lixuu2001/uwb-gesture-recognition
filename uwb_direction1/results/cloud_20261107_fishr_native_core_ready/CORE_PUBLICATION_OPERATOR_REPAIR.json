@@ -1,0 +1,12 @@
+{
+  "state": "publication_only_explicit_MIT_license_whitelist_and_exact_existing_bytes_repair",
+  "observed_unix": 1794022360.2653155,
+  "original_error": "append-public-source suffix guard rejected author_reference/domainbed/LICENSE",
+  "remote_writes_before_repair": false,
+  "nine_source_files_already_copied_exactly_verified": true,
+  "original_helper_guard_unchanged": true,
+  "repair": "enumerate fixed10 public source paths including original MIT LICENSE; add missing manifest records only after byte equality and recompute all independent blob hashes",
+  "science_source_or_model_changes": false,
+  "new_model_updates": 0,
+  "new_test_label_access": false
+}
