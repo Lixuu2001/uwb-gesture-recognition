@@ -1,0 +1,56 @@
+{
+  "state": "all6_method_native_full_modelset_private_raw_allmember_verified_with_separate_persistent_baseline_and_raw_data_chains",
+  "method": {
+    "index": "full_backup/CLOUD_DOWNLOAD_INDEX.json",
+    "archive_sha256": "bea0d657323adf3cd984551303bbb08a796be76978eaab03fc225fb5be48d25c",
+    "archive_bytes": 550659116,
+    "chunks": 76,
+    "payloads": 1980,
+    "all_six_models_and_own_replays_included": true
+  },
+  "baseline": {
+    "repository": "Lixuu2001/uwb-gesture-recognition",
+    "immutable_reference_commit": "b9b8c251e25dc22df7b402d0f1071f7931bfc089",
+    "index": "uwb_direction1/results/cloud_20261106_mmd_loso6_preparation/BASELINE_RECOVERY_INDEX.json",
+    "index_sha256": "efb36847eb6593aa6ae2ab83cf4719632e631967cb514fc3dc088694b768e5ae",
+    "held2_6_five_archives_recovered_bytes": 105871941,
+    "held2_6_parts": 15,
+    "held2_6_payloads": 405,
+    "held1_chain": "Follow held6 archive prior_backups/upstream_held1_author_core.json; held1 native model is separate earlier private author-core chain",
+    "baseline_retrained_for_restore": false
+  },
+  "raw_dataset": {
+    "repository": "Lixuu2001/uwb-gesture-recognition",
+    "immutable_reference_commit": "b9b8c251e25dc22df7b402d0f1071f7931bfc089",
+    "index": "uwb_direction1/migration/20260930/CLOUD_DOWNLOAD_INDEX.json",
+    "index_sha256": "a958649f7cfda519c2149acceb7f31a312a36a8ddada67168cab683ff1e33672",
+    "raw_files": 86,
+    "chunks": 163,
+    "original_bytes": 2141981100,
+    "raw_arrays_in_method_archive": false
+  },
+  "reconstruction": {
+    "source_IDs_in_private_archive": true,
+    "maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+    "shape": [
+      6900,
+      90,
+      567
+    ],
+    "signed_maps": true,
+    "per_record_per_radar_RMS": true,
+    "runtime_binaries_external": true,
+    "phase_preprocessing_and_native_adapter_code_retained": true,
+    "original_raw_cache_pipeline_repository_path": "uwb_direction1/original/project",
+    "raw_cache_and_maps_must_match_frozen_protocol_SHA_before_reuse": true,
+    "whole_raw_cache_regeneration_not_reexecuted_in_this_transfer": true
+  },
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "max_concurrency": 3,
+  "automatic_resume_authorized": false,
+  "test_labels_paired": false,
+  "users7_8_labels_used": false
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "LOSO6_VREx_all6_full64_ownfresh64_native_frozen_training_ended_full_private_transfer_in_progress_unscored",
+  "state": "LOSO6_VREx_all6_native_and_complete_private_raw1980_verified_frozen_before_once_cohort_score",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261106_vrex_loso6_all6native/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261106_vrex_loso6_all6private/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794019501.2534933,
+  "background_training_observed_unix": 1794020910.4849894,
   "background_training_pid": null,
-  "background_training_status_note": "Original64529 ended/Z; all6 native64+ownfresh64 complete, finalwall31157.163367/CPU31189.589143. Fullprivate76parts1980payloads transfer in progress, rawverified15; no scoring/new fits.",
+  "background_training_status_note": "Training ended; all6 native64+ownfresh64 and all76part550659116byte1980payload private raw/allmember freeze passed. No truth pairing yet; exact release then fixed inference and one complete cohort score.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -16452,5 +16452,30 @@
   ],
   "prior_costs_retained": true,
   "next": "Finish sole76part private raw pipelines, verify whole archive/all1980payloads, exact fullprivate release. Then fixed label-free inference cost and unique complete6 cohort scoring; never restart64529 or call legacy held1once."
+}
+,
+  "vrex_loso6_all6private_20261106": {
+  "report": "results/cloud_20261106_vrex_loso6_all6private/RUN_REPORT.md",
+  "method": "fixed_published_DomainBed_VREx_lambda10_anneal500_GAP64_full_LOSO6_seed20261029",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "complete_native_all6": true,
+  "complete_private_all6": true,
+  "complete_modelset_verified": true,
+  "full_private_parts": 76,
+  "full_private_bytes": 550659116,
+  "full_private_payloads": 1980,
+  "full_private_archive_sha256": "bea0d657323adf3cd984551303bbb08a796be76978eaab03fc225fb5be48d25c",
+  "full_private_allmember_verified": true,
+  "unique_Drive_file_IDs": 76,
+  "transfer_errors": 0,
+  "additional_uploads": 0,
+  "complete_sixfold_score": false,
+  "new_test_scores_computed": false,
+  "new_training_started": false,
+  "original_phase_not_restarted": true,
+  "prior_costs_retained": true,
+  "next": "Bind FULL_PRIVATE_RELEASE to exact verified current publication; registered label-free inference cost once, then unique complete sixfold cohort scoring. Never legacy held1once, no model/seed/gate change."
 }
 }
