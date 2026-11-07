@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "Fishr_all6_native_and_full_private77parts1984payloads_verified_unscored",
+  "state": "Fishr_LOSO6_scored935737pct_vs_GAP936672pct_exact_config_closed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Original Fishr all6 wall29559.943319/CPU29599.386026 sec; complete77-part561095162-byte1984-payload private raw recovery verified. Transfer span1688.204913 sec overlaps operator work; CPU unmeasured.",
+  "compute": "Fishr6 production+fresh64 complete wall29559.943319/CPU29599.386026sec; all77part/1984payload privateverified; one label-free inference36.042132sec external then one cohortscore. No active training.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_fishr_native_all6private/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_fishr_native_all6result/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794057634.7522552,
+  "background_training_observed_unix": 1794057861.293706,
   "background_training_pid": null,
-  "background_training_status_note": "All6 native64+fresh64/audits complete and final77 parts/1984 payloads raw/allmember verified; no active training, cohortscore not consumed.",
+  "background_training_status_note": "All6/native/private frozen; unique cohortscore consumed: Fishr93.573737% vsGAP93.667172%, -0.093434pp,1win/1tie/4losses,worstpaired-2.666667pp. Fixed gate all3 fail; closed exact1000/.95/1500, no matching control or next training active.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Bind verified full private release, execute frozen label-free inference once and unique whole6 Fishr cohort score. No fits/test rescue/held1 gate.",
+  "next_candidate": "Fishr exact config CLOSED after full LOSO6 gate failure. Next distinct literature-supported full runnable method and fixed same-LOSO6 preregistration; no Fishr rescue or users7_8 selection.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -16920,5 +16920,33 @@
   "main_phase_CPU_seconds": 29599.386025808,
   "known_ID_reuploads": 0,
   "next": "Exact release then fixed label-free inference and one whole cohort scorer; report all positive/negative evidence; fixed gate and conditional reset1500 no-variance control preserved."
+}
+,
+  "fishr_native_all6result_20261107": {
+  "report": "results/cloud_20261107_fishr_native_all6result/RUN_REPORT.md",
+  "method": "published_DomainBed_Fishr1000_ema0p95_anneal1500_fullnative617612_LOSO6_globalBCE64",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "complete_sixfold_cohort": true,
+  "complete_sixfold_private": true,
+  "single_cohort_score_invocations": 1,
+  "baseline_equal_user_mean_macro_recall": 0.9366717171717172,
+  "method_equal_user_mean_macro_recall": 0.9357373737373736,
+  "mean_paired_delta_pp": -0.09343434343434173,
+  "strict_wins": 1,
+  "ties": 1,
+  "losses": 4,
+  "method_worst_user_macro_recall": 0.889090909090909,
+  "worst_paired_delta_pp": -2.6666666666666616,
+  "gate_passed": false,
+  "exact_configuration_closed": true,
+  "matching_control_activated": false,
+  "new_training_started": false,
+  "new_test_scores_computed": true,
+  "all41_scientific_files_unchanged": true,
+  "full_private_payloads": 1984,
+  "full_private_parts": 77,
+  "next": "Distinct prior-art review and full runnable implementation preregistered in same LOSO6; no test rescue."
 }
 }

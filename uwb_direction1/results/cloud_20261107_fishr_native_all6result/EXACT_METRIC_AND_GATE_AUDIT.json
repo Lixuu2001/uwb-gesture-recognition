@@ -1,0 +1,421 @@
+{
+  "state": "already_aggregated_metric_counts_and_gate_independently_reconstructed_with_rational_arithmetic",
+  "summary_sha256": "d7e4a3778ff49160c0b577c284e5047938c44667c676b4866ab7ac2819f7313c",
+  "rows": [
+    {
+      "held": 1,
+      "baseline": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          99,
+          94,
+          100,
+          100,
+          100,
+          100,
+          92,
+          97,
+          99,
+          100
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "1181/1200",
+        "macro_fraction": "1181/1200"
+      },
+      "method": {
+        "integer_correct_by_class": [
+          100,
+          98,
+          99,
+          94,
+          100,
+          100,
+          100,
+          100,
+          94,
+          88,
+          100,
+          100
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "391/400",
+        "macro_fraction": "391/400"
+      }
+    },
+    {
+      "held": 2,
+      "baseline": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          100,
+          100,
+          98,
+          94,
+          100,
+          100,
+          100,
+          95,
+          null,
+          null
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "accuracy_fraction": "987/1000",
+        "macro_fraction": "987/1000"
+      },
+      "method": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          100,
+          100,
+          98,
+          94,
+          99,
+          100,
+          99,
+          92,
+          null,
+          null
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "accuracy_fraction": "491/500",
+        "macro_fraction": "491/500"
+      }
+    },
+    {
+      "held": 3,
+      "baseline": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          98,
+          99,
+          100,
+          97,
+          100,
+          87,
+          100,
+          0,
+          100,
+          99
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "9/10",
+        "macro_fraction": "9/10"
+      },
+      "method": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          98,
+          99,
+          100,
+          97,
+          100,
+          87,
+          100,
+          0,
+          100,
+          99
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "9/10",
+        "macro_fraction": "9/10"
+      }
+    },
+    {
+      "held": 4,
+      "baseline": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          93,
+          99,
+          94,
+          100,
+          100,
+          98,
+          80,
+          100,
+          67,
+          100
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "377/400",
+        "macro_fraction": "377/400"
+      },
+      "method": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          98,
+          100,
+          49,
+          100,
+          100,
+          95,
+          91,
+          99,
+          67,
+          100
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "1099/1200",
+        "macro_fraction": "1099/1200"
+      }
+    },
+    {
+      "held": 5,
+      "baseline": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          100,
+          98,
+          98,
+          96,
+          94,
+          100,
+          69,
+          98,
+          100,
+          99
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "24/25",
+        "macro_fraction": "24/25"
+      },
+      "method": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          100,
+          95,
+          99,
+          93,
+          94,
+          100,
+          83,
+          77,
+          100,
+          99
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "19/20",
+        "macro_fraction": "19/20"
+      }
+    },
+    {
+      "held": 6,
+      "baseline": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          81,
+          null,
+          93,
+          90,
+          70,
+          94,
+          45,
+          60,
+          99,
+          99
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "931/1100",
+        "macro_fraction": "931/1100"
+      },
+      "method": {
+        "integer_correct_by_class": [
+          100,
+          100,
+          97,
+          null,
+          87,
+          66,
+          75,
+          91,
+          86,
+          76,
+          100,
+          100
+        ],
+        "support": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "accuracy_fraction": "489/550",
+        "macro_fraction": "489/550"
+      }
+    }
+  ],
+  "mean_delta_fraction": "-37/39600",
+  "worst_delta_fraction": "-2/75",
+  "strict_wins": 1,
+  "gate_components": {
+    "mean": false,
+    "wins": false,
+    "worst_paired": false
+  },
+  "gate_passed": false,
+  "raw_truth_or_predictions_opened": false,
+  "new_inference_or_fits": false,
+  "scorer_invocations_added": 0,
+  "source_sha256": "b737cf3b99ad6b9780f986aaef76604e1705dbbe1fc5d76177dacd2b9001a669"
+}
