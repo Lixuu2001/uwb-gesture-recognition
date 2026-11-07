@@ -1,0 +1,22 @@
+{
+  "state": "recovered_upload_followed_by_all13_chunks_archive_and415_members_raw_verification",
+  "original_failure_evidence": [
+    "ERROR_011_1794085039834.json",
+    "MISSING_ID_RESPONSE_011_1794085038461.json"
+  ],
+  "recovery_search": "RECOVERY_SEARCH_011.json",
+  "explicit_part11_reupload_attempts": 1,
+  "known_ID_blind_reuploads": 0,
+  "final_verified": {
+    "archive_members": 416,
+    "archive_sha256": "794f0f6fa7e9f14800c912cae3629b5d0eb661e5cd54811edbc9915631f96128",
+    "chunks_verified": 13,
+    "complete_modelset_verified": true,
+    "scope": "IRM_LOSO6_held4_complete_native_production_and_fresh_replay_unscored_single_fold_only",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 415
+  },
+  "initial_progress_count_bug_not_used_as_scientific_or_insurance_proof": true,
+  "queue_counter_fix_and_generated_max3_test": "operations/UPLOAD_QUEUE_V2_AUDIT.json",
+  "full_sixfold_complete": false
+}

@@ -1,0 +1,84 @@
+{
+  "archive_bytes": 94341816,
+  "archive_sha256": "794f0f6fa7e9f14800c912cae3629b5d0eb661e5cd54811edbc9915631f96128",
+  "automatic_restart_authorized": false,
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part000",
+      "sha256": "88fb07a08c0e41e46b022eb491c13a8ff066a244f724391ca0f1b00a1945e602"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part001",
+      "sha256": "178d140badf3e78910acc9aea0d48eb2f4c3be6d98cc35d44d213990df3bbd96"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part002",
+      "sha256": "0016d5538f20f718036b956cb7a200cb64825eba05e03db46cfca989c4668237"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part003",
+      "sha256": "a9db0e1c5e90f1954ade556503039d4b6ceec452eb132808bd1ce200d0026bc1"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part004",
+      "sha256": "ab9d337155c04e5913b9338cd0cce48714ba811279d9739322355778144efa38"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part005",
+      "sha256": "007f053066af102a4e07008b8623e2afb19ea7a9cf277e208df85a0c4e96615e"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part006",
+      "sha256": "4ba3cc25c773756b48040ebbd93b7dd53c976bd5d44b756924fc1f241e8734bf"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part007",
+      "sha256": "e6523123cdc662ca502c5c579fbac8f3d8b9ff36ea19674020a9de8d668c5964"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part008",
+      "sha256": "69f46d36d27b48289006617512c6aede99214efe3f3326a69cd81b215ed192cb"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part009",
+      "sha256": "9a46523df10e8fb96905bbf0728b81c411a828100a1a464f3e3aec15dc5b97c3"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part010",
+      "sha256": "1b552d451164fe2d2a640b9a18b6ff00f8ded6750e1b30855055394d9cb11daa"
+    },
+    {
+      "bytes": 7340032,
+      "name": "irm_native_loso6_held4_complete_20261107.part011",
+      "sha256": "24a1859ec418785e6c47192e6bda05b6490e2f73278bc6782211af53145a0e1c"
+    },
+    {
+      "bytes": 6261432,
+      "name": "irm_native_loso6_held4_complete_20261107.part012",
+      "sha256": "ae763e8ed758dcee032149dc4deece6973f16b2ba679891dbe136a398d013db1"
+    }
+  ],
+  "complete_all_six": false,
+  "complete_modelset": true,
+  "complete_trajectory": true,
+  "held": 4,
+  "members_manifest_sha256": "a9183bef5d0656c1e7dcdebf882a6a8e0f51a93e8e4411da62899b50f641fc6b",
+  "modelset_scope": "held4 only; not all six",
+  "raw_arrays_included": false,
+  "runtime_binaries_included": false,
+  "scope": "IRM_LOSO6_held4_complete_native_production_and_fresh_replay_unscored_single_fold_only",
+  "state": "one_complete_fold_streamed_not_complete_sixfold_modelset",
+  "tracked_payload_files": 415,
+  "whole_job_resume": false
+}

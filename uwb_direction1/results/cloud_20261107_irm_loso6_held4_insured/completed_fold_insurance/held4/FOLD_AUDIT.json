@@ -1,0 +1,67 @@
+{
+  "all_step_records_compared": 4544,
+  "audit_CPU": 0.4366482190000003,
+  "audit_wall": 0.4379193490021862,
+  "complete_all_six": false,
+  "complete_trajectory_for_this_fold": true,
+  "diagnostic_labels_read": false,
+  "epoch_records_compared": 65,
+  "epochs_per_trajectory": 64,
+  "final_native_sha256": "12f625bf4cf45cfcc5213d85f3418d2de85679d08b7b99e3d2ff85a07fc69702",
+  "first_independent_reference": {
+    "diagnostic_labels_read": false,
+    "independent_reference_gradient_tolerance": {
+      "atol": 2e-06,
+      "rtol": 0.0002
+    },
+    "max_gradient_absolute_difference": 3.725290298461914e-09,
+    "parameters": 617612,
+    "reference_loss": 0.6808761358261108,
+    "reference_penalty": 0.0008670048555359244,
+    "same_implementation_native_state_replay_bitwise": true,
+    "state": "all617612_native_first_clipped_gradients_match_independent_dummy_scale_autograd",
+    "training_labels_only": true
+  },
+  "fold_original_cost": {
+    "completed": [
+      "train",
+      "replay",
+      "output"
+    ],
+    "cpu": 4813.218616,
+    "diagnostic_labels_read": false,
+    "state": "pilot_audited_frozen_unscored_requires_complete_private_backup_before_once_gate",
+    "users7_8_labels_used": false,
+    "wall": 4815.576577325992
+  },
+  "held": 4,
+  "new_training_inference_or_scoring_by_this_operation": false,
+  "phase_current_cost_observation": {
+    "RSS_KiB": 1713740,
+    "active_held": 5,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cpu": 20143.024912326997,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 20117.586877472
+  },
+  "reset_events": [
+    500
+  ],
+  "selected_epoch_validation_only": 62,
+  "selected_sha256": "6cc9d50cd44fcb1b475972f5dee7ec09162d76cc1bb8f9aa1907ba169a66fc47",
+  "state": "one_complete_fold_full64_fresh64_native_journals_and_unscored_outputs_verified",
+  "training_and_replay_native_optimizer_steps": 4044,
+  "updates_per_trajectory": 4544,
+  "users7_8_labels_used": false
+}
