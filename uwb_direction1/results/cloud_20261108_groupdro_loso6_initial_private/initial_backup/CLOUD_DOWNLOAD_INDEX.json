@@ -1,0 +1,89 @@
+{
+  "archive_bytes": 19007180,
+  "archive_sha256": "4098a5022918741d71da4f3fbcc3fcfd5021c880be40d3b8e2ea54e0d87764a4",
+  "chunks": [
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1NtV8bCX_BcTeqNrShPaMsIrNMP2Sf9pr",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "groupdro_native_loso6_initial_20261108.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "86ffa3a67e7de6ce6dc18bc66c9e0f76e1ea56f87aa16ead3a6c15fb3d5528f0"
+    },
+    {
+      "bytes": 7340032,
+      "download_verified": true,
+      "file_id": "1DkTxMyRiRHkaNSBDn-ePbxc24HpkNseF",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 7340032
+      },
+      "name": "groupdro_native_loso6_initial_20261108.part001",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "6f93a43d580e5d072b752797b1e666bcfe60d25f54b07a3dad824c76046ae40d"
+    },
+    {
+      "bytes": 4327116,
+      "download_verified": true,
+      "file_id": "1W1FCMY0omMD_PQxyhHahp0KtnmQYRdIP",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/octet-stream",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 4327116
+      },
+      "name": "groupdro_native_loso6_initial_20261108.part002",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "8b3e51a5dcf93fba0227ada4877d83ca2a39d8d20cb5c336f322282744e47774"
+    }
+  ],
+  "complete_trained_modelset": false,
+  "complete_untrained_initial_state": true,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "max_concurrency": 3,
+  "members_manifest_sha256": "84e47000f8639c7c52a1bef9242a6354d5e5ad9e035e182baadd92cc9a8b2fb0",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "scope": "fixed_fullsix_GroupDRO_untrained_native_q_states_all_private_roles_before_fit",
+  "state": "all6_initial_native_q_roles_sources_owneronly_raw_allmember_verified"
+}

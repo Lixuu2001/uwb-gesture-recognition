@@ -1,0 +1,140 @@
+{
+  "all_six_full_states_identical": false,
+  "all_six_initial_models_identical": true,
+  "initial_model_file_sha256_by_held": {
+    "1": "8416c069b5384a1b66612ed84be6fd28ec3ed3f0614e12696f93500834bbf0bb",
+    "2": "819502fc376de361ee99c703e9fa10ee901c85a794a78789819779c13ba437e5",
+    "3": "dfc13c39cbedfe3574be2dbd1d109e9f3961990c49b8b3c4d890e7b5152a7ad1",
+    "4": "dbcee9f7c9696be468614ae9d21a5f8ff22f1bd41ac14b831b72bde525f9763e",
+    "5": "21822d9801f5db3a5bafbb13f210db83d04839e4de8a4df0b0930fee5a7bb355",
+    "6": "66a19b8f5424eb571385edaac2538bfd548ae2137a8a78765c60575cffb76f0c"
+  },
+  "initial_model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+  "initial_native_state_sha256_by_held": {
+    "1": "13b36c577a20773e1e27baaced7c544cd0609a40a1232c1a2476fd2694565f0f",
+    "2": "751f22ed348494cf601c3456e9590260177f95810425864ea952773ec4d53dd8",
+    "3": "44e9152dfe3805d94a2121069e5910cebda4fe82bb2d340d91f5c50db7327e6a",
+    "4": "9ccc25d5b2c0275606fe4b526df17e76a683cdd21af16dd7d3e76fb25970de82",
+    "5": "f04332e185568708dd03bc34341ccbc5e187abdf981337c098b145d96e6ef7d8",
+    "6": "076afe44f7fe5d56b6c2da371a5eca320ce1add4403ef3ea1275ddf599e6d8d2"
+  },
+  "new_UWB_fit_started": false,
+  "private_roles_for_all_six_folds": true,
+  "reason": "q has distinct ordered training-domain tuple per fold",
+  "states": {
+    "1": {
+      "file_sha256": "8416c069b5384a1b66612ed84be6fd28ec3ed3f0614e12696f93500834bbf0bb",
+      "full_native_sha256": "13b36c577a20773e1e27baaced7c544cd0609a40a1232c1a2476fd2694565f0f",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "q": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "training_domain_users": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "updates": 0
+    },
+    "2": {
+      "file_sha256": "819502fc376de361ee99c703e9fa10ee901c85a794a78789819779c13ba437e5",
+      "full_native_sha256": "751f22ed348494cf601c3456e9590260177f95810425864ea952773ec4d53dd8",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "q": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "training_domain_users": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "updates": 0
+    },
+    "3": {
+      "file_sha256": "dfc13c39cbedfe3574be2dbd1d109e9f3961990c49b8b3c4d890e7b5152a7ad1",
+      "full_native_sha256": "44e9152dfe3805d94a2121069e5910cebda4fe82bb2d340d91f5c50db7327e6a",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "q": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "training_domain_users": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "updates": 0
+    },
+    "4": {
+      "file_sha256": "dbcee9f7c9696be468614ae9d21a5f8ff22f1bd41ac14b831b72bde525f9763e",
+      "full_native_sha256": "9ccc25d5b2c0275606fe4b526df17e76a683cdd21af16dd7d3e76fb25970de82",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "q": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "training_domain_users": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "updates": 0
+    },
+    "5": {
+      "file_sha256": "21822d9801f5db3a5bafbb13f210db83d04839e4de8a4df0b0930fee5a7bb355",
+      "full_native_sha256": "f04332e185568708dd03bc34341ccbc5e187abdf981337c098b145d96e6ef7d8",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "q": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "training_domain_users": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "updates": 0
+    },
+    "6": {
+      "file_sha256": "66a19b8f5424eb571385edaac2538bfd548ae2137a8a78765c60575cffb76f0c",
+      "full_native_sha256": "076afe44f7fe5d56b6c2da371a5eca320ce1add4403ef3ea1275ddf599e6d8d2",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "q": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "training_domain_users": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "updates": 0
+    }
+  }
+}

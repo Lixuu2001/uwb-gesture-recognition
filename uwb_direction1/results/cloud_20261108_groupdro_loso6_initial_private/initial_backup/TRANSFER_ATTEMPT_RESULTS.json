@@ -1,0 +1,45 @@
+{
+  "attempts_completed": 3,
+  "verified_parts": 3,
+  "failed_parts": 0,
+  "total": 3,
+  "attempts": [
+    {
+      "i": 2,
+      "status": "fulfilled",
+      "value": {
+        "i": 2,
+        "verified": true
+      }
+    },
+    {
+      "i": 0,
+      "status": "fulfilled",
+      "value": {
+        "i": 0,
+        "verified": true
+      }
+    },
+    {
+      "i": 1,
+      "status": "fulfilled",
+      "value": {
+        "i": 1,
+        "verified": true
+      }
+    }
+  ],
+  "unattempted": [],
+  "workers": [
+    {
+      "status": "fulfilled"
+    },
+    {
+      "status": "fulfilled"
+    },
+    {
+      "status": "fulfilled"
+    }
+  ],
+  "complete": true
+}
