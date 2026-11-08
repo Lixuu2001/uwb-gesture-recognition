@@ -1,0 +1,45 @@
+{
+  "initial_failed_upload_attempts": 2,
+  "initial_unknown_ID_parts": [
+    8,
+    11
+  ],
+  "initial_exact_name_parent_search_results_each": 0,
+  "explicit_single_part_reuploads": 2,
+  "explicit_each_part_attempt_limit": 1,
+  "sequential_recovery": true,
+  "automatic_retries": 0,
+  "initial_transfer_tool_window_wall_seconds": 263.207,
+  "explicit_recovery_tool_windows": {
+    "8": {
+      "state": "explicit_one_part_reupload_raw_pipeline_verified",
+      "i": 8,
+      "verified": true,
+      "wall": 29.649,
+      "automatic_retries": 0,
+      "initial_unknown_ID_failure_preserved": true,
+      "held_labels_read": false
+    },
+    "11": {
+      "state": "explicit_one_part_reupload_raw_pipeline_verified",
+      "i": 11,
+      "verified": true,
+      "wall": 20.252,
+      "automatic_retries": 0,
+      "initial_unknown_ID_failure_preserved": true,
+      "held_labels_read": false
+    }
+  },
+  "sum_all_measured_transfer_tool_windows_wall_seconds": 313.108,
+  "CPU_unmeasured": true,
+  "initial_attempts_file": "held5_completed_backup/INITIAL_TRANSFER_ATTEMPT_RESULTS.json",
+  "initial_attempts_sha256": "6a8f8a3ba734ab90e76ed23a123e93a5217a0c700f7811450e5357001271be72",
+  "recovery_plan_paths": [
+    "held5_completed_backup/EXPLICIT_PART008_RECOVERY_PLAN.json",
+    "held5_completed_backup/EXPLICIT_PART011_RECOVERY_PLAN.json"
+  ],
+  "transfer_failed_parts_field_scope": "Final verified required part set only; two initial failed upload attempts preserved separately",
+  "original_all_failed_tool_responses_preserved": true,
+  "no_duplicate_known_ID_uploaded": true,
+  "active_training_phase_unmodified": true
+}

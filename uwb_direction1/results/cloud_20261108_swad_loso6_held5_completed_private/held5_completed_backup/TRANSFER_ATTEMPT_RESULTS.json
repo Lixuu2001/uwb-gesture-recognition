@@ -1,0 +1,155 @@
+{
+  "total": 14,
+  "verified_parts": 14,
+  "failed_parts": 0,
+  "complete": true,
+  "unattempted": [],
+  "attempts": [
+    {
+      "i": 0,
+      "status": "fulfilled",
+      "value": {
+        "i": 0,
+        "verified": true
+      }
+    },
+    {
+      "i": 1,
+      "status": "fulfilled",
+      "value": {
+        "i": 1,
+        "verified": true
+      }
+    },
+    {
+      "i": 2,
+      "status": "fulfilled",
+      "value": {
+        "i": 2,
+        "verified": true
+      }
+    },
+    {
+      "i": 3,
+      "status": "fulfilled",
+      "value": {
+        "i": 3,
+        "verified": true
+      }
+    },
+    {
+      "i": 4,
+      "status": "fulfilled",
+      "value": {
+        "i": 4,
+        "verified": true
+      }
+    },
+    {
+      "i": 5,
+      "status": "fulfilled",
+      "value": {
+        "i": 5,
+        "verified": true
+      }
+    },
+    {
+      "i": 6,
+      "status": "fulfilled",
+      "value": {
+        "i": 6,
+        "verified": true
+      }
+    },
+    {
+      "i": 7,
+      "status": "fulfilled",
+      "value": {
+        "i": 7,
+        "verified": true
+      }
+    },
+    {
+      "i": 8,
+      "status": "fulfilled",
+      "value": {
+        "i": 8,
+        "verified": true
+      }
+    },
+    {
+      "i": 9,
+      "status": "fulfilled",
+      "value": {
+        "i": 9,
+        "verified": true
+      }
+    },
+    {
+      "i": 10,
+      "status": "fulfilled",
+      "value": {
+        "i": 10,
+        "verified": true
+      }
+    },
+    {
+      "i": 11,
+      "status": "fulfilled",
+      "value": {
+        "i": 11,
+        "verified": true
+      }
+    },
+    {
+      "i": 12,
+      "status": "fulfilled",
+      "value": {
+        "i": 12,
+        "verified": true
+      }
+    },
+    {
+      "i": 13,
+      "status": "fulfilled",
+      "value": {
+        "i": 13,
+        "verified": true
+      }
+    }
+  ],
+  "initial_transfer_attempts_preserved_file": "INITIAL_TRANSFER_ATTEMPT_RESULTS.json",
+  "initial_transfer_attempts_sha256": "6a8f8a3ba734ab90e76ed23a123e93a5217a0c700f7811450e5357001271be72",
+  "initial_failed_attempts": 2,
+  "initial_unknown_ID_parts": [
+    8,
+    11
+  ],
+  "explicit_single_part_reuploads": 2,
+  "explicit_each_part_attempt_limit": 1,
+  "explicit_recovery_windows": {
+    "8": {
+      "state": "explicit_one_part_reupload_raw_pipeline_verified",
+      "i": 8,
+      "verified": true,
+      "wall": 29.649,
+      "automatic_retries": 0,
+      "initial_unknown_ID_failure_preserved": true,
+      "held_labels_read": false
+    },
+    "11": {
+      "state": "explicit_one_part_reupload_raw_pipeline_verified",
+      "i": 11,
+      "verified": true,
+      "wall": 20.252,
+      "automatic_retries": 0,
+      "initial_unknown_ID_failure_preserved": true,
+      "held_labels_read": false
+    }
+  },
+  "automatic_retries": 0,
+  "transfer_tool_window_wall_seconds": 263.207,
+  "sum_all_measured_transfer_tool_windows_wall_seconds": 313.108,
+  "transfer_tool_window_note": "Initial14-partwindow and two individually recorded sequential recovery windows; none pure network; CPU unmeasured",
+  "transfer_CPU_unmeasured": true
+}

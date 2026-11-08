@@ -1,0 +1,50 @@
+{
+  "all6_complete": false,
+  "duplicate_model_started": false,
+  "frozen_scientific_sources_unchanged": true,
+  "held5_native64_fresh64_all4_audit_and_physical_recovery_complete": true,
+  "held6_all_committed_native_curves_exact": true,
+  "held6_production_committed_epochs": 35,
+  "held6_production_committed_updates": 2520,
+  "held6_replay_started": false,
+  "held_labels_read": false,
+  "ledger": {
+    "RSS_KiB": 1787500,
+    "active_held": 6,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cpu": 29096.062331736997,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_GroupDRO6_cpu": 29595.509859692,
+    "prior_GroupDRO6_wall": 29556.896173048997,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 29061.824048798007
+  },
+  "observed_utc": "2026-11-08T20:22:48.370691+00:00",
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 29.05,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "private_completed_verified_held": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

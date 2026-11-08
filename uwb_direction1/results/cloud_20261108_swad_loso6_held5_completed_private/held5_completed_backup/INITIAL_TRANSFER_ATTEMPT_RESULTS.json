@@ -1,0 +1,131 @@
+{
+  "attempts_completed": 14,
+  "verified_parts": 12,
+  "failed_parts": 2,
+  "total": 14,
+  "attempts": [
+    {
+      "i": 1,
+      "status": "fulfilled",
+      "value": {
+        "i": 1,
+        "verified": true
+      }
+    },
+    {
+      "i": 2,
+      "status": "fulfilled",
+      "value": {
+        "i": 2,
+        "verified": true
+      }
+    },
+    {
+      "i": 0,
+      "status": "fulfilled",
+      "value": {
+        "i": 0,
+        "verified": true
+      }
+    },
+    {
+      "i": 3,
+      "status": "fulfilled",
+      "value": {
+        "i": 3,
+        "verified": true
+      }
+    },
+    {
+      "i": 5,
+      "status": "fulfilled",
+      "value": {
+        "i": 5,
+        "verified": true
+      }
+    },
+    {
+      "i": 4,
+      "status": "fulfilled",
+      "value": {
+        "i": 4,
+        "verified": true
+      }
+    },
+    {
+      "i": 8,
+      "status": "rejected",
+      "error": "Error: {\"i\":8,\"name\":\"swad_native_loso6_held5_completed_objects_20261108.part008\",\"file_id\":null,\"stage\":\"upload\",\"error\":\"Error: No uploadedID; response evidence preserved; exact-name search required before retry\"}"
+    },
+    {
+      "i": 6,
+      "status": "fulfilled",
+      "value": {
+        "i": 6,
+        "verified": true
+      }
+    },
+    {
+      "i": 7,
+      "status": "fulfilled",
+      "value": {
+        "i": 7,
+        "verified": true
+      }
+    },
+    {
+      "i": 10,
+      "status": "fulfilled",
+      "value": {
+        "i": 10,
+        "verified": true
+      }
+    },
+    {
+      "i": 9,
+      "status": "fulfilled",
+      "value": {
+        "i": 9,
+        "verified": true
+      }
+    },
+    {
+      "i": 11,
+      "status": "rejected",
+      "error": "Error: {\"i\":11,\"name\":\"swad_native_loso6_held5_completed_objects_20261108.part011\",\"file_id\":null,\"stage\":\"upload\",\"error\":\"Error: No uploadedID; response evidence preserved; exact-name search required before retry\"}"
+    },
+    {
+      "i": 12,
+      "status": "fulfilled",
+      "value": {
+        "i": 12,
+        "verified": true
+      }
+    },
+    {
+      "i": 13,
+      "status": "fulfilled",
+      "value": {
+        "i": 13,
+        "verified": true
+      }
+    }
+  ],
+  "unattempted": [],
+  "workers": [
+    {
+      "status": "fulfilled"
+    },
+    {
+      "status": "fulfilled"
+    },
+    {
+      "status": "fulfilled"
+    }
+  ],
+  "complete": false,
+  "transfer_tool_window_wall_seconds": 263.207,
+  "measurement_scope": "complete connector upload metadata raw fetch materialization SHA and orchestration tool window, not pure network",
+  "transfer_CPU_unmeasured": true,
+  "automatic_retries": 0
+}

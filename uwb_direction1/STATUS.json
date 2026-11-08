@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "SWAD_native_LOSO6_first4_complete_private_physical_recovery_verified_held5_production64_audited_replay_running_unscored",
+  "state": "SWAD_native_LOSO6_first5_complete_private_physical_recovery_verified_held6_production_running_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Samecloud CPU1thread617612SWAD3/6/.3+sourceBN105224;first4 native64/fresh64/audits/privatephysicalverified,cumulativeregistry4;held5production64/4608 audited/freshreplay35/64; original43200wallCPU cap/priorcosts retained.",
+  "compute": "Samecloud CPU1thread native617612 SWAD3/6/.3+sourceBN105224;first5 native64/fresh64/all4audits/privatephysicalverified/cumulativeregistry5;held6production35/64 nativeprefixexact;original43200wallCPU cap and allpriorcosts retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_swad_loso6_held4_completed_private/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_swad_loso6_held5_completed_private/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794166628.7212045,
+  "background_training_observed_unix": 1794169446.1392488,
   "background_training_pid": 105224,
-  "background_training_status_note": "SameSWAD105224/start37087993 active;folds1..4 native64/fresh64/all4audits/privatephysicalverified/cumulativeindex;held5production64 audited/freshreplay35/64;onepart011 uploadfault explicitlyrecovered/evidence preserved; no heldscore.",
+  "background_training_status_note": "SameSWAD105224/start37087993 active;folds1..5 native64/fresh64/all4audits/privatephysicalverified/cumulativeregistry5;held6production35/64 nativecurves exact;parts008/011 internaluploadfaults explicitly recovered with originalfailures preserved;unscored.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Monitor originalSWAD105224/start37087993/sameboot;held5finishfresh64/all4outputaudit then private archive/verify+cumulativeregistry5, continueheld6. First4privatecomplete;part011unknownIDinternalerror recovered afteremptyexactsearch/oneexplicitreupload, originalfailure preserved. Final6canonicalprivate/exactrelease then blind24arm/onejointscore. No duplicate/retrain/testtuning.",
+  "next_candidate": "Monitor originalSWAD105224/start37087993/sameboot;finishheld6native64/fresh64/all4outputaudit then existinggenericcompletefoldarchive/verify+cumulativeregistry6. First5privatecomplete;two held5unknownIDinternaluploaderrors recovered afteremptyexactsearches/oneexplicitsequentialreuploadeach, failurespreserved. Finalcanonicalall6private/exactrelease then blind24arm/onejointscore. No duplicate/retrain/testtuning.",
   "last_completed_update_utc": "2026-11-08T10:46:50.203664+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17729,5 +17729,39 @@
     "startticks": 37087993,
     "state": "S"
   }
+}
+,
+  "swad_loso6_held5_completed_private_20261108": {
+  "report": "results/cloud_20261108_swad_loso6_held5_completed_private/RUN_REPORT.md",
+  "method": "published_SWAD_LossValley3_6_0p3_fullnative_LOSO6_sourceBN",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "completed_and_private_recovery_verified_held": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "held5_archive_parts": 14,
+  "held5_archive_bytes": 100748974,
+  "held5_payload_members": 190,
+  "held5_physically_restored_files": 350,
+  "held5_physically_restored_bytes": 326039889,
+  "held5_initial_failed_upload_attempts": 2,
+  "held5_explicit_reviewed_part_reuploads": 2,
+  "automatic_retries": 0,
+  "cumulative_private_registry": "VERIFIED_COMPLETED_HELD1_TO_HELD5_RECOVERY_INDEX.json",
+  "observed_held6_production_epochs": 35,
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 29.05,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "cohort_complete": false,
+  "diagnostic_scored": false
 }
 }

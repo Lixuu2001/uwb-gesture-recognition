@@ -1,0 +1,97 @@
+{
+  "active_phase_untouched": true,
+  "archive_bytes": 100748974,
+  "archive_sha256": "1c4908aeead95e750426ee2ae4ae23d04c6dbd71a0b36829943f4780d0479494",
+  "automatic_retries": 0,
+  "cohort_score_authorized": false,
+  "complete_all_six": false,
+  "extra_model_forward_or_optimizer_updates": 0,
+  "held": 5,
+  "new_unique_bytes": 112968605,
+  "new_unique_objects": 185,
+  "parts": 14,
+  "payload_members": 190,
+  "physical_recovery": {
+    "all_files_rechecked_against_original_independent_audit_SHA_and_current_immutable_files": true,
+    "base_payload_members": 277,
+    "base_prior_raw_readback_reused_plus_current_physical_archive_reverification": true,
+    "complete_all_six": false,
+    "held": 5,
+    "models_loaded_or_training_invoked": false,
+    "new_archive_raw_allmember_verified": true,
+    "new_payload_members": 190,
+    "original_active_phase_touched": false,
+    "physical_byte_copy_not_symlink_or_refit": true,
+    "raw_UWB_arrays_or_gesture_labels_opened": false,
+    "restored_bytes": 326039889,
+    "restored_files": 350,
+    "state": "base_and_new_raw_archives_physically_extracted_exact_fullfold_copies_verified",
+    "temporary_recovery_copy_removed_after_verification": true,
+    "whole_job_resume_authorized": false
+  },
+  "prior_base_files_reused": 10,
+  "prior_base_logical_bytes_reused": 22778186,
+  "raw_allmember_verification": {
+    "archive_members": 191,
+    "archive_sha256": "1c4908aeead95e750426ee2ae4ae23d04c6dbd71a0b36829943f4780d0479494",
+    "chunks_verified": 14,
+    "complete_modelset_verified": false,
+    "scope": "complete_SWAD_held5_native64_fresh64_all4_audits_lossless_objects_requires_prior_held1production22_NOT_all6",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 190
+  },
+  "source_bytes": 326039889,
+  "source_files": 350,
+  "state": "complete_saved_SWAD_fold_native64_independent64_all4_audits_private_raw_allmember_and_physical_restore_verified_unscored",
+  "transfer_CPU_unmeasured": true,
+  "transfer_attempt_history": {
+    "CPU_unmeasured": true,
+    "active_training_phase_unmodified": true,
+    "automatic_retries": 0,
+    "explicit_each_part_attempt_limit": 1,
+    "explicit_recovery_tool_windows": {
+      "11": {
+        "automatic_retries": 0,
+        "held_labels_read": false,
+        "i": 11,
+        "initial_unknown_ID_failure_preserved": true,
+        "state": "explicit_one_part_reupload_raw_pipeline_verified",
+        "verified": true,
+        "wall": 20.252
+      },
+      "8": {
+        "automatic_retries": 0,
+        "held_labels_read": false,
+        "i": 8,
+        "initial_unknown_ID_failure_preserved": true,
+        "state": "explicit_one_part_reupload_raw_pipeline_verified",
+        "verified": true,
+        "wall": 29.649
+      }
+    },
+    "explicit_single_part_reuploads": 2,
+    "initial_attempts_file": "held5_completed_backup/INITIAL_TRANSFER_ATTEMPT_RESULTS.json",
+    "initial_attempts_sha256": "6a8f8a3ba734ab90e76ed23a123e93a5217a0c700f7811450e5357001271be72",
+    "initial_exact_name_parent_search_results_each": 0,
+    "initial_failed_upload_attempts": 2,
+    "initial_transfer_tool_window_wall_seconds": 263.207,
+    "initial_unknown_ID_parts": [
+      8,
+      11
+    ],
+    "no_duplicate_known_ID_uploaded": true,
+    "original_all_failed_tool_responses_preserved": true,
+    "recovery_plan_paths": [
+      "held5_completed_backup/EXPLICIT_PART008_RECOVERY_PLAN.json",
+      "held5_completed_backup/EXPLICIT_PART011_RECOVERY_PLAN.json"
+    ],
+    "sequential_recovery": true,
+    "sum_all_measured_transfer_tool_windows_wall_seconds": 313.108,
+    "transfer_failed_parts_field_scope": "Final verified required part set only; two initial failed upload attempts preserved separately"
+  },
+  "transfer_failed_parts": 0,
+  "transfer_tool_window_wall_seconds": 263.207,
+  "verification_restore_CPU": 4.904836355,
+  "verification_restore_wall": 4.913056889025029,
+  "within_archive_duplicate_targets": 155
+}

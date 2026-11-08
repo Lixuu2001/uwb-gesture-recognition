@@ -1,0 +1,40 @@
+{
+  "CPU": 0.076013833,
+  "all_committed_step_counts_global_BCE_native": true,
+  "all_committed_training_BCE_validation_macro_BCE_exact_original_GAP": true,
+  "baseline_curve_sha256": "e73f6f0c6aececcebd9974aec7320cfc52bc8fa7289aacc9a2bf0fea29589698",
+  "committed_epochs": 35,
+  "committed_updates": 2520,
+  "expected_updates_each64": 4608,
+  "first_independent_reference": {
+    "diagnostic_labels_read": false,
+    "does_not_exclude_all_shared_implementation_errors": true,
+    "max_gradient_absolute_difference": 7.450580596923828e-09,
+    "method_state_native_replay_bitwise": true,
+    "native_reference": {
+      "legacy_TorchVersion_only_compatibility": true,
+      "original_file_sha256": "80b76c66239cb026f40477bec02b7f033e0b55ae601b5b066499f76c9e5497f9",
+      "state": "original_GAP_first_model_optimizer_and_source_IDs_exact"
+    },
+    "parameters": 617612,
+    "reference_loss": 0.6956350401190617,
+    "segment_first_parameters_equal_native_post_update": true,
+    "state": "full617612_native_globalBCE_first_gradient_NumPy_reference_and_original_GAP_first_state_verified"
+  },
+  "full64_or_fresh_replay_or_final_output_audits_complete": false,
+  "held6_private_complete": false,
+  "method_sources_unchanged": true,
+  "no_extra_model_forward_or_updates": true,
+  "observed_utc": "2026-11-08T20:22:48.366707+00:00",
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 29.05,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "raw_UWB_values_or_gesture_labels_opened": false,
+  "source_frozen_manifest_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "state": "active_held6_committed_native_training_validation_prefix_matches_original_GAP_no_new_forward_or_truth_decode",
+  "wall": 0.07775095500983298
+}
