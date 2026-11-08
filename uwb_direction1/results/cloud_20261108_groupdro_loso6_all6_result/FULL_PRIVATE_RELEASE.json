@@ -1,0 +1,37 @@
+{
+  "branch_head_verified": true,
+  "commit": "c8cebdc830a5f4406791818ddd84e5dfef1099fd",
+  "complete_all6_private_raw_allmember_verified": true,
+  "complete_six_archive_sha256": "5459865e09bc4ce393d810273b0e738c337e25e3aa29bc1e7e9e699df140e7e1",
+  "exact_readback_verified": 18,
+  "files": 18,
+  "force": false,
+  "frozen_sha256": "eb7bd75aaf2b9951c9545a8e3afbf2c3be41ec27c7da09c2962880c2fc3df00b",
+  "full_composite_recovery_index_sha256": "246b39cb3b4c7d37bbf0b1814280d283c9ddcc3e0ff076896f8c63863cedb926",
+  "held_scores_not_computed_at_binding": true,
+  "once_scorer_sha256": "5fa31a293d2dbbd1bd74816bf06235c2aa5b4b06a90a1cb875f1b960a8c5d31d",
+  "parent": "c87d6af0b77f13081fdfcf3d4497f1d66e535877",
+  "pre_score_freeze_sha256": "8593bbdb7c5e9329d1075ddc50653c4863a7489e4454975d50946cb209b78464",
+  "private_release_published_before_any_held_truth_pairing": true,
+  "readback_transport_recovery": {
+    "connector_readback_failures": [
+      {
+        "expected_blob_sha1": "660d9b9f35ecef9a0dde0d96a973fa9733f1d2a7",
+        "expected_bytes": 1445423,
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "856c6062fced27c0d6f90788203743624b629473",
+        "expected_bytes": 1381448,
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "returned_characters": 0
+      }
+    ],
+    "force": false,
+    "new_commit_created_for_retry": false,
+    "proof": "/workspace/uwb-groupdro-loso6-20261108/all6_private_verified_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+  },
+  "ref_transport_recovery": null
+}

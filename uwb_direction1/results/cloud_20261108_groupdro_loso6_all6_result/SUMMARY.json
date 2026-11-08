@@ -1,0 +1,623 @@
+{
+  "baseline": {
+    "equal_user_mean_accuracy": 0.9366717171717172,
+    "equal_user_mean_macro_recall": 0.9366717171717172,
+    "pooled_sample_accuracy": 0.9365217391304348,
+    "worst_user_macro_recall": 0.8463636363636364
+  },
+  "cohort_spending_gate_passed": false,
+  "evaluation_wall_seconds": 3.847657045989763,
+  "finalizer_invocations": 1,
+  "fold_stage_costs": {
+    "1": {
+      "output": {
+        "cpu": 4975.595005,
+        "wall": 4978.801143869001
+      },
+      "replay": {
+        "cpu": 4965.125852,
+        "wall": 4967.782644514984
+      },
+      "train": {
+        "cpu": 2509.408265,
+        "wall": 2510.685363815981
+      }
+    },
+    "2": {
+      "output": {
+        "cpu": 5054.774203999999,
+        "wall": 5055.076276345004
+      },
+      "replay": {
+        "cpu": 5044.066567,
+        "wall": 5044.04960403702
+      },
+      "train": {
+        "cpu": 2540.6852010000002,
+        "wall": 2540.353013878048
+      }
+    },
+    "3": {
+      "output": {
+        "cpu": 4809.348249,
+        "wall": 4810.520803248044
+      },
+      "replay": {
+        "cpu": 4798.416,
+        "wall": 4799.499295282003
+      },
+      "train": {
+        "cpu": 2417.630438,
+        "wall": 2417.403985534038
+      }
+    },
+    "4": {
+      "output": {
+        "cpu": 4846.026242,
+        "wall": 4846.570117917028
+      },
+      "replay": {
+        "cpu": 4834.980901,
+        "wall": 4835.551834670012
+      },
+      "train": {
+        "cpu": 2421.606877,
+        "wall": 2421.421244732046
+      }
+    },
+    "5": {
+      "output": {
+        "cpu": 4905.054789,
+        "wall": 4906.212800192006
+      },
+      "replay": {
+        "cpu": 4893.940349,
+        "wall": 4895.188684599008
+      },
+      "train": {
+        "cpu": 2452.358028,
+        "wall": 2452.8737534419633
+      }
+    },
+    "6": {
+      "output": {
+        "cpu": 4936.6210169999995,
+        "wall": 4937.193432743021
+      },
+      "replay": {
+        "cpu": 4925.360259,
+        "wall": 4926.171784074977
+      },
+      "train": {
+        "cpu": 2476.0411010000003,
+        "wall": 2475.6887245610124
+      }
+    }
+  },
+  "gate_is_not_definition_of_any_positive_effect": true,
+  "independent_validation": false,
+  "last_resource_observation": {
+    "RSS_KiB": 857936,
+    "active_held": 6,
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cpu": 29594.451030356002,
+    "fold_stage": "output",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 29555.72021379904
+  },
+  "legacy_singlefold_once_invocations": 0,
+  "mean_paired_macro_recall_delta": -0.0010176767676767229,
+  "method": {
+    "equal_user_mean_accuracy": 0.9356540404040402,
+    "equal_user_mean_macro_recall": 0.9356540404040405,
+    "pooled_sample_accuracy": 0.9359420289855073,
+    "worst_user_macro_recall": 0.8490909090909091
+  },
+  "novel_contribution_validated": false,
+  "paired_macro_recall_deltas": [
+    0.0016666666666665941,
+    -0.017999999999999794,
+    -0.0033333333333332993,
+    -0.0025000000000000577,
+    0.01333333333333353,
+    0.0027272727272726893
+  ],
+  "prior_Fishr6_cost": {
+    "cpu": 29599.386025808,
+    "wall": 29559.94331930898
+  },
+  "prior_IRM6_cost": {
+    "cpu": 29548.175221702,
+    "wall": 29509.953316993022
+  },
+  "prior_MMD6_cost": {
+    "cpu": 30891.040083422995,
+    "wall": 30865.434969089023
+  },
+  "prior_VREx6_cost": {
+    "cpu": 31189.589142517,
+    "wall": 31157.163366941997
+  },
+  "remaining_phase_cost": {
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 29595.509859692,
+    "diagnostic_labels_read": false,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 29556.896173048997
+  },
+  "route": "close_exact_GroupDRO_LOSO6_eta0p01_nativeGAP64_seed20261029_no_rescue",
+  "rows": [
+    {
+      "baseline": {
+        "accuracy": 0.9841666666666666,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.99,
+          0.94,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.92,
+          0.97,
+          0.99,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9841666666666667
+      },
+      "held": 1,
+      "method": {
+        "accuracy": 0.9858333333333333,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.99,
+          0.96,
+          0.99,
+          1.0,
+          1.0,
+          1.0,
+          0.9,
+          0.99,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9858333333333333
+      }
+    },
+    {
+      "baseline": {
+        "accuracy": 0.987,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.98,
+          0.94,
+          1.0,
+          1.0,
+          1.0,
+          0.95,
+          null,
+          null
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_class_macro_recall": 0.9869999999999999
+      },
+      "held": 2,
+      "method": {
+        "accuracy": 0.969,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.96,
+          0.94,
+          1.0,
+          1.0,
+          0.98,
+          0.81,
+          null,
+          null
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_class_macro_recall": 0.9690000000000001
+      }
+    },
+    {
+      "baseline": {
+        "accuracy": 0.9,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.98,
+          0.99,
+          1.0,
+          0.97,
+          1.0,
+          0.87,
+          1.0,
+          0.0,
+          1.0,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.8999999999999999
+      },
+      "held": 3,
+      "method": {
+        "accuracy": 0.8966666666666666,
+        "class_recall": [
+          0.99,
+          1.0,
+          0.99,
+          0.98,
+          1.0,
+          0.99,
+          1.0,
+          0.83,
+          0.99,
+          0.0,
+          1.0,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.8966666666666666
+      }
+    },
+    {
+      "baseline": {
+        "accuracy": 0.9425,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.93,
+          0.99,
+          0.94,
+          1.0,
+          1.0,
+          0.98,
+          0.8,
+          1.0,
+          0.67,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9425
+      },
+      "held": 4,
+      "method": {
+        "accuracy": 0.94,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.94,
+          1.0,
+          0.98,
+          1.0,
+          1.0,
+          0.91,
+          0.77,
+          0.99,
+          0.69,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.94
+      }
+    },
+    {
+      "baseline": {
+        "accuracy": 0.96,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          0.98,
+          0.98,
+          0.96,
+          0.94,
+          1.0,
+          0.69,
+          0.98,
+          1.0,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.96
+      },
+      "held": 5,
+      "method": {
+        "accuracy": 0.9733333333333334,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          0.99,
+          0.99,
+          1.0,
+          0.98,
+          1.0,
+          0.75,
+          0.98,
+          1.0,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9733333333333335
+      }
+    },
+    {
+      "baseline": {
+        "accuracy": 0.8463636363636363,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.81,
+          null,
+          0.93,
+          0.9,
+          0.7,
+          0.94,
+          0.45,
+          0.6,
+          0.99,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_class_macro_recall": 0.8463636363636364
+      },
+      "held": 6,
+      "method": {
+        "accuracy": 0.8490909090909091,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.96,
+          null,
+          0.96,
+          0.94,
+          0.92,
+          0.85,
+          0.25,
+          0.46,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_class_macro_recall": 0.8490909090909091
+      }
+    }
+  ],
+  "state": "complete_exploratory_GroupDRO_LOSO6_same_native_budget_with_declared_adaptive_q_source_meanBCE_differences",
+  "strict_user_wins": 3,
+  "users7_8_labels_used": false,
+  "worst_paired_macro_recall_delta": -0.017999999999999794
+}
