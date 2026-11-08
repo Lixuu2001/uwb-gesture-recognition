@@ -1,0 +1,43 @@
+{
+  "branch_head_verified": true,
+  "commit": "c3f86e7b459f46d1d80ab7e821c659be1a95aade",
+  "complete_six_archive_sha256": "3436cbcc7bb738e30e5279acc9c998c3468a10954e66aa68ad9b08440494cf10",
+  "complete_six_parts": 75,
+  "complete_six_payloads": 1995,
+  "exact_readback_verified": 25,
+  "files": 25,
+  "force": false,
+  "frozen_sha256": "857e06d91fd2da1ac1428a2716e1df541db8198245dc1d8041922f8d75ad8b6d",
+  "held_labels_read": false,
+  "inference_operator_sha256": "676c3a840b47094689ea820a694c1fafc1c78216a9f34515572493bd23ae805b",
+  "initial_private_release": "4a9ca2a37f1680b9f6ac445a840318ca1b79eaf5",
+  "native_audit_sha256": "e2efaad8fd73788322173746f22cd77a6299f3c76f13e9be5a4ad57f6bdfdafa",
+  "new_fit_authorized_by_this_release": false,
+  "once_scorer_sha256": "1c533d3237aa78c0ddf31ca43b1aeef223af1b541426b0341a4d53c3bc163dd6",
+  "original_training_finished": true,
+  "parent": "97a33372007509242692180d4c955d3f4d53863b",
+  "readback_transport_recovery": {
+    "connector_readback_failures": [
+      {
+        "expected_blob_sha1": "97b2ded77d81e58a9f256a2e6ec2076858baf63a",
+        "expected_bytes": 1424004,
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "db9970c410e799aa78c5fdc7cc72e36c4cb25b8a",
+        "expected_bytes": 1360029,
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "returned_characters": 0
+      }
+    ],
+    "force": false,
+    "new_commit_created_for_retry": false,
+    "proof": "/workspace/uwb-irm-loso6-20261107/all6_private_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+  },
+  "ref_transport_recovery": null,
+  "source_registration": "9c149bc773ebffd9abb01cd07638eaadea43eedf",
+  "state": "exact_complete_IRM_all6_private_raw_modelset_release_before_fixed_blind_inference_and_one_cohort_score",
+  "users7_8_labels_used": false
+}
