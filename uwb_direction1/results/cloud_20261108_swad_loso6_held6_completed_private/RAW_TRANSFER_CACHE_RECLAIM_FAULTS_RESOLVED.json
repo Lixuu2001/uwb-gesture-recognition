@@ -1,0 +1,15 @@
+{
+  "corrected_chunk_scope": "filter persistent index to the exact163manifest chunk paths; retain complete index and manifest",
+  "first_fault": "Persistent recovery index includes163compressedparts plus TRANSFER_MANIFEST.json; original assert incorrectly counted164entries as163chunks. Assertion failed before plan or deletion.",
+  "first_fault_execution": "operations/cache_reclaim_preflight_fault/RAW_TRANSFER_CACHE_RECLAIM_EXECUTION.json",
+  "first_fault_source": "operations/cache_reclaim_preflight_fault/reclaim_verified_raw_transfer_cache.py",
+  "first_fault_stderr": "operations/cache_reclaim_preflight_fault/raw_transfer_cache_reclaim.stderr.log",
+  "no_method_retry_or_new_fit": true,
+  "original86_rechecked_before_and_after_only_duplicate_gzipcache_eviction": true,
+  "repaired_execution": "RAW_TRANSFER_CACHE_RECLAIM_REPAIRED_EXECUTION.json",
+  "repaired_receipt": "RAW_TRANSFER_CACHE_RECLAIM_VERIFIED.json",
+  "second_fault": "Execution wrapper refuses reusing an existing measurement receipt path; blocked before invoking cleanup. Retained current raw_transfer_cache_reclaim.stderr.log. No second cleanup action occurred.",
+  "second_fault_wall_CPU_unmeasured": true,
+  "source_scientific_models_data_protocol_and_negative_conclusions_unchanged": true,
+  "state": "administrative_disk_cache_cleanup_preflight_faults_preserved_repaired_before_deletion"
+}

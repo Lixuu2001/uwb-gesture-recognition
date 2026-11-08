@@ -1,0 +1,44 @@
+{
+  "all6_frozen_manifest_sha256": "54f416ed58c4d61674da29b3c59a84640f2aa367b9a7e36bda76d639c8debe4f",
+  "all6_perfold_private_registry_sha256": "bc61e6b1d50f61f266eb1b05b7ee4c271b7d96d6d004068c06292253595f9cdb",
+  "background_training_running": false,
+  "canonical_archive_build_started": true,
+  "canonical_private_complete": false,
+  "frozen_files": 240,
+  "held6_private_receipt_sha256": "28dfb58ac20c8768bef1346dd6604859d7526bcde9762262dad9a25486a17897",
+  "held_scores_computed": false,
+  "main_phase_cost": {
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "cpu": 33121.968106183005,
+    "diagnostic_labels_read": false,
+    "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+    "wall": 33083.825232948
+  },
+  "new_training_or_automation_started": false,
+  "observed_utc": "2026-11-08T21:38:27.664024+00:00",
+  "original_phase_current": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 33.43,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "Z"
+  },
+  "original_phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.86,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "R"
+  },
+  "source_frozen_manifest_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "state": "all6_native64_fresh64_all4_audits_and_perfold_private_physical_recovery_complete_still_requires_canonical_private_release",
+  "training_phase_complete": true,
+  "users7_8_labels_used": false
+}

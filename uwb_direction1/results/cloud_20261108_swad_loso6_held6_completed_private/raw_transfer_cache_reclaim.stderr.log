@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/uwb-swad-loso6-20261108/operator/measure_execution.py", line 4, in <module>
+    output=Path(sys.argv[1]);assert not output.exists();command=sys.argv[2:];assert command
+                                    ^^^^^^^^^^^^^^^^^^^
+AssertionError
