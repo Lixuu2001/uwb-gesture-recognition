@@ -1,0 +1,79 @@
+{
+  "state": "real_array_and_ID_open_firewall_native_generated_full_update_and_all6_group_roles_passed",
+  "actual_UWB_array_or_ID_open_events": 0,
+  "real_UWB_fit_started": false,
+  "parameters": 617612,
+  "rows": [
+    {
+      "held": 1,
+      "validation": 2,
+      "training_groups": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "held_rejection_without_q_mutation": true
+    },
+    {
+      "held": 2,
+      "validation": 3,
+      "training_groups": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "held_rejection_without_q_mutation": true
+    },
+    {
+      "held": 3,
+      "validation": 4,
+      "training_groups": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "held_rejection_without_q_mutation": true
+    },
+    {
+      "held": 4,
+      "validation": 5,
+      "training_groups": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "held_rejection_without_q_mutation": true
+    },
+    {
+      "held": 5,
+      "validation": 6,
+      "training_groups": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "held_rejection_without_q_mutation": true
+    },
+    {
+      "held": 6,
+      "validation": 1,
+      "training_groups": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "held_rejection_without_q_mutation": true
+    }
+  ],
+  "single_present_group_equals_globalBCE_value_and_gradient": true,
+  "nonfinite_risk_rejected_without_q_mutation": true,
+  "cost_profile_repeated": false,
+  "wall": 0.7783144349814393,
+  "CPU": 0.778111198
+}

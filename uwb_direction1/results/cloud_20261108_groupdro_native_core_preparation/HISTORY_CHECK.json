@@ -1,0 +1,46 @@
+{
+  "state": "old_groupDRO_not_equivalent_to_prospective_full_native_default_component",
+  "old_protocol": "/workspace/uwb-cloud-current/uwb_direction1/research/REGULARIZED_GROUP_PROTOCOL.json",
+  "old_protocol_sha256": "29e4a15b2eb5829782cb4cd7486da35d4501ae6d17b3fda2388f8854dfceeb91",
+  "old_result": "/workspace/uwb-cloud-current/uwb_direction1/results/cloud_20261003_regularized_groups/SUMMARY.json",
+  "old_result_sha256": "d1f90f49bcec2d1d6458a0546c81b371a612c280b760bd71191ce38002aa2eae",
+  "old_scope": {
+    "parameters": 265836,
+    "epochs": 24,
+    "seed": 2026,
+    "users": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sampler": "16per_source_cyclic75batches",
+    "loss": "groupmeanCE",
+    "optimizer": "AdamWwithWD.01NoNativeLookahead",
+    "eta": 0.01,
+    "failed": true
+  },
+  "new_scope": {
+    "parameters": 617612,
+    "epochs": 64,
+    "seed": 20261029,
+    "users": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "sampler": "unchanged_native_mixed_B64_all_records_no_cycling",
+    "loss": "native12class_globalBCE_base_with_source_meanBCE_weighted_by_detached_q",
+    "optimizer": "samebaselineAdamW.001wd.0001StableLookahead.5k6",
+    "eta": 0.01
+  },
+  "old_failed_conclusion_preserved": true,
+  "no_existing_equal_full_native6_fit_identified_in_bounded_history": true,
+  "not_an_originality_claim": true,
+  "IRM_failed_exact_config_not_reopened": true
+}

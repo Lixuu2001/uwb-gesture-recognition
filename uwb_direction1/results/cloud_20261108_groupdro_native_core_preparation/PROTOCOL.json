@@ -1,0 +1,43 @@
+{
+  "state": "generated_core_preparation_only_not_complete_training_runner_and_not_UWB_fit_authorized",
+  "method": "published_DomainBed_GroupDRO_eta0p01_fullnative_GAP617612_globalBCE64_LOSO6",
+  "parameters": 617612,
+  "input": "all3signed_per_record_RMS_Nx90x567",
+  "batch": 64,
+  "epochs": 64,
+  "seed": 20261029,
+  "train_rule": "testh1..6_valh%6+1_other4train",
+  "optimizer": "nativeAdamW.001wd.0001StableLookahead.5k6_clip2",
+  "eta": 0.01,
+  "q_initial": "float32ones4_beforefirstupdate_then_native_multiplicative_exp_normalize",
+  "objective": "weighted_source_mean_per_record12classBCE;native_globalBCE_logged_separately",
+  "group_order": "sorted_four_training_subjects_only",
+  "missing_group_rule": "A group absent from a current native tail batch receives no multiplicative update; all q normalized; objective conditions q over present groups only in this case; all-present objective stays literal source dot(q,risks)",
+  "selection": "validation_present_macro_then_lower_globalBCE_then_earlier_epoch",
+  "no_single_fold_gate": true,
+  "users7_8_labels_used": false,
+  "independent_validation": false,
+  "new_UWB_fit_started": false,
+  "scientific_gate": {
+    "mean_gain_min": 0.005,
+    "strict_wins_min": 4,
+    "worst_paired_min": -0.02,
+    "tolerance": 1e-12
+  },
+  "positive_only_attribution_control": "same_native_sampler_BN_globalbudget_eta0_fixed_equal_source_meanBCE_full6_before_attributing_q_or_outer8",
+  "no_post_test_eta_decay_sampler_epoch_seed_grid": true,
+  "main_phase_wall_CPU_cap_seconds": 43200,
+  "RSS_KiB_cap": 12582912,
+  "profile_fixed_before_measure": {
+    "updates_per_arm": 8,
+    "warmup_steps": 3,
+    "measured_steps": 5,
+    "order": "native_then_GroupDRO_on_odd_steps_reverse_on_even",
+    "projection": "1.25*31189.589142517*max(1,GroupDRO/native_max_wall_ratio,GroupDRO/native_maxCPUratio)+600",
+    "reference_phase": "completeVREx6samecloud",
+    "reserve_limit_seconds": 43200
+  },
+  "activation": "Only after complete loader/worker/journal/native first+independent/reference+generatedall6/capacity/supervisor audits and exact full-source+privateinitial release. This core package alone never launches real training.",
+  "author_component_default_transfer_not_author_protocol_reproduction": true,
+  "novel_contribution_claim": false
+}

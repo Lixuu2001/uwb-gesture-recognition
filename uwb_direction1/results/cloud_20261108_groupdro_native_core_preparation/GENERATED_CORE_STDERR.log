@@ -1,0 +1,3 @@
+/workspace/uwb-groupdro-native-prep-20261108/test_generated_core.py:41: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  z=torch.randn(n,12,dtype=torch.float64,requires_grad=True);y=torch.arange(n)%12;d=torch.as_tensor(DOM)[torch.arange(n)%present];before=q.q.numpy().copy();r,rq,rg=reference(z,y,d,before);loss,base,_=q.objective(z,y,d);grad=torch.autograd.grad(loss,z)[0];max_equation=max(max_equation,float(abs(loss-r)));np.testing.assert_allclose(q.q.numpy(),rq,rtol=0,atol=2e-15);np.testing.assert_allclose(grad.numpy(),rg,rtol=2e-13,atol=2e-15)
