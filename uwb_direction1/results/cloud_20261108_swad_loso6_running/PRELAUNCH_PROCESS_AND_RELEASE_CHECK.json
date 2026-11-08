@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 27.24,
+        "pid": 50654,
+        "startticks": 18218982,
+        "state": "Z"
+      },
+      "identity_file": "PHASE_IDENTITY.json",
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 3.32,
+        "pid": 50654,
+        "startticks": 18218982,
+        "state": "R"
+      },
+      "owned_old_process_inactive": true,
+      "root": "/workspace/uwb-mmd-loso6-20261106"
+    },
+    {
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 7.17,
+        "pid": 45290,
+        "startticks": 17064304,
+        "state": "Z"
+      },
+      "identity_file": "CONTROLLER_IDENTITY.json",
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.54,
+        "pid": 45290,
+        "startticks": 17064304,
+        "state": "R"
+      },
+      "owned_old_process_inactive": true,
+      "root": "/workspace/uwb-mmd-gap64-20261106"
+    },
+    {
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 31.73,
+        "pid": 64529,
+        "startticks": 21331595,
+        "state": "Z"
+      },
+      "identity_file": "PHASE_IDENTITY.json",
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.57,
+        "pid": 64529,
+        "startticks": 21331595,
+        "state": "R"
+      },
+      "owned_old_process_inactive": true,
+      "root": "/workspace/uwb-vrex-loso6-20261106"
+    },
+    {
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 28.35,
+        "pid": 82223,
+        "startticks": 25677952,
+        "state": "Z"
+      },
+      "identity_file": "PHASE_IDENTITY.json",
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.37,
+        "pid": 82223,
+        "startticks": 25677952,
+        "state": "R"
+      },
+      "owned_old_process_inactive": true,
+      "root": "/workspace/uwb-fishr-native-loso6-20261107"
+    },
+    {
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 28.12,
+        "pid": 92152,
+        "startticks": 29520187,
+        "state": "Z"
+      },
+      "identity_file": "PHASE_IDENTITY.json",
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.39,
+        "pid": 92152,
+        "startticks": 29520187,
+        "state": "R"
+      },
+      "owned_old_process_inactive": true,
+      "root": "/workspace/uwb-irm-loso6-20261107"
+    },
+    {
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 27.84,
+        "pid": 99353,
+        "startticks": 33123032,
+        "state": "Z"
+      },
+      "identity_file": "PHASE_IDENTITY.json",
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.39,
+        "pid": 99353,
+        "startticks": 33123032,
+        "state": "R"
+      },
+      "owned_old_process_inactive": true,
+      "root": "/workspace/uwb-groupdro-loso6-20261108"
+    }
+  ],
+  "new_phase_fit_started": false,
+  "observed_unix": 1794140305.9431248,
+  "real_release_commit": "0b6c84b7b6a022d5b64a1cea9e127f3369a01728",
+  "state": "all5_prior_phases_inactive_new_phase_locks_absent_release_raw_allmember_source_verified"
+}

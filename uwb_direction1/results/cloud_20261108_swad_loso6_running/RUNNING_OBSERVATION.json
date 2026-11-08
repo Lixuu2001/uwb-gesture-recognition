@@ -1,0 +1,63 @@
+{
+  "actual_full_cohort_completed": false,
+  "all_held_metrics_unknown": true,
+  "first_audit_termination": {
+    "exit_code": 0,
+    "native_first_release_exists": true
+  },
+  "first_independent_reference": {
+    "diagnostic_labels_read": false,
+    "does_not_exclude_all_shared_implementation_errors": true,
+    "max_gradient_absolute_difference": 7.450580596923828e-09,
+    "method_state_native_replay_bitwise": true,
+    "native_reference": {
+      "legacy_TorchVersion_only_compatibility": true,
+      "original_file_sha256": "91c92836f8c9cb876608f13c655abbad83b6206654a890e711fbedec5576a5de",
+      "state": "original_GAP_first_model_optimizer_and_source_IDs_exact"
+    },
+    "parameters": 617612,
+    "reference_loss": 0.6903143895440867,
+    "segment_first_parameters_equal_native_post_update": true,
+    "state": "full617612_native_globalBCE_first_gradient_NumPy_reference_and_original_GAP_first_state_verified"
+  },
+  "frozen_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "held_labels_read": false,
+  "identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.91,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "observed_unix": 1794140370.560942,
+  "resource": {
+    "RSS_KiB": 1679704,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 65.142662222,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_GroupDRO6_cpu": 29595.509859692,
+    "prior_GroupDRO6_wall": 29556.896173048997,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 63.949836116982624
+  },
+  "state": "real_SWAD_phase_active_first_native_and_independent_gradient_audits_passed",
+  "training_state": {
+    "diagnostic_labels_read": false,
+    "epoch": 1,
+    "native_reference_selected_epoch": 1,
+    "state": "training",
+    "swad_converge_step": null,
+    "swad_dead_valley": false,
+    "updates": 74,
+    "users7_8_labels_used": false
+  },
+  "users7_8_labels_used": false
+}

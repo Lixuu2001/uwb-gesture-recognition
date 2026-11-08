@@ -1,0 +1,40 @@
+{
+  "branch_head_verified": true,
+  "commit": "0b6c84b7b6a022d5b64a1cea9e127f3369a01728",
+  "exact_readback_verified": 17,
+  "files": 17,
+  "force": false,
+  "frozen_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "initial_archive_sha256": "a29bf8396efdd1d591cd80c3bc2c844e54e0510b3d1d43030fbe14e62b2783f8",
+  "initial_model_file_sha256_by_held": {
+    "1": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "2": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "3": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "4": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "5": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "6": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097"
+  },
+  "parent": "7a00911e3de20f2fd5b3997939a7a4caa8e36aab",
+  "private_initial_allmember_verified": true,
+  "readback_transport_recovery": {
+    "connector_readback_failures": [
+      {
+        "expected_blob_sha1": "ed588df2078dadc3a65a5b8dd0c491124c542f96",
+        "expected_bytes": 1457444,
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "00803bb3c6bd9b9dba684f04fc9610117d475492",
+        "expected_bytes": 1393469,
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "returned_characters": 0
+      }
+    ],
+    "force": false,
+    "new_commit_created_for_retry": false,
+    "proof": "/workspace/uwb-swad-loso6-20261108/initial_private_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+  },
+  "ref_transport_recovery": null
+}
