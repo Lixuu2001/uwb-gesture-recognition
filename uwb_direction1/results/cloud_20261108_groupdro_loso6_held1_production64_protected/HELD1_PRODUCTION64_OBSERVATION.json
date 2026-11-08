@@ -1,0 +1,66 @@
+{
+  "completed_folds": [],
+  "current_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 6.12,
+    "pid": 99353,
+    "startticks": 33123032,
+    "state": "S"
+  },
+  "frozen46_unchanged": true,
+  "full64_replay_not_yet_complete": true,
+  "full_sixfold_modelset_not_yet_complete": true,
+  "held1_production_complete": {
+    "diagnostic_labels_read": false,
+    "diagnostic_outputs_sha256": "99fb7a3c7d64b97a8d8c6a4588f9d6a39001a439453f5ce628d48bd3738a6b06",
+    "epochs": 64,
+    "final_state_sha256": "7a3d0a2e29592c6c4eab68c76831776de1d729ba364239c669797be306648370",
+    "selected_epoch": 63,
+    "selected_sha256": "36a68f438e59713ce24c69add28719af004bfa25275d17805c19420fb00437af",
+    "state": "full64_training_complete_unscored",
+    "updates": 4736,
+    "users7_8_labels_used": false,
+    "validation_outputs_sha256": "30195700d5d41042d1b21f7dbddcc8e7b8021bcd7743fab5a7929e6246b65775"
+  },
+  "held1_replay_all_committed_epoch_records_and_step_prefix_bitwise_equal": true,
+  "held1_replay_committed_epoch": 43,
+  "held1_replay_committed_updates": 3182,
+  "independent_validation": false,
+  "new_training_or_scoring_called": false,
+  "observed_utc": "2026-11-08T02:27:20.681557+00:00",
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.39,
+    "pid": 99353,
+    "startticks": 33123032,
+    "state": "R"
+  },
+  "prefix_audit_CPU": 0.011792392999999998,
+  "prefix_audit_wall": 0.011793236015364528,
+  "private_production64_archive": {
+    "archive_sha256": "a14ad4a4b4e4b5c1efcca633d3482cdc0bcd7fbd479a7df09a7c286a34b25096",
+    "bytes": 54715657,
+    "chunks": 8,
+    "payload_members": 252,
+    "raw_allmember_verified": true
+  },
+  "replay_moving_slot_checkpoint_not_reloaded": true,
+  "resource_observation": {
+    "RSS_KiB": 1725800,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 4189.631470492,
+    "fold_stage": "replay",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 4183.75935779803
+  },
+  "state": "held1_production64_protected_replay_committed_prefix_exact_existing_phase_running_unscored",
+  "users7_8_labels_used": false
+}

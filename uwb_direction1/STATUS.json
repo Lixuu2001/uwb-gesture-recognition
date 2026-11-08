@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "GroupDRO_full_native_LOSO6_actual_single_phase_running_held1_first_native_and_independent_q_gradient_audit_passed_unscored",
+  "state": "GroupDRO_existing_single_full6_phase_running_held1_production64_raw_private_protected_independent_replay_in_progress_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_groupdro_loso6_running/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_groupdro_loso6_held1_production64_protected/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794100730.8443196,
+  "background_training_observed_unix": 1794104840.7611454,
   "background_training_pid": 99353,
-  "background_training_status_note": "Actual GroupDRO full6 phase PID99353/bootad409b48/start33123032 running; held1 real first exactnative+independentNumPy617612grad/q audit passed and released. No fold score/held1 gate. Do not duplicate/restart/retune. All6 64+fresh64/privatefinal before oncecohortscore.",
+  "background_training_status_note": "ExistingGroupDRO PID99353 still running, held1production64/4736 complete and8privateparts252payload rawallmember protected. Independentreplay inprogress, prefix exact; no heldscore/full6completion/newfit. No duplicate/retrain/budgetreset.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Monitor existing GroupDRO full6 PID99353 and saved journals; no second launch. Complete6 native64+fresh64/alloutputs/fullprivate rawallmember/exactrelease then onejointscore; conditional eta0 equal-source control only after frozen primarygate. Retain all old negatives.",
+  "next_candidate": "Monitor existing GroupDRO PID99353 and original cumulative12h budget; held1production protected8parts. Finish currentfresh64 andremaining5folds; all6 native/output/private final release before oncecohortscore. No test-driven adjustments or duplicate startup.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17331,5 +17331,86 @@
   },
   "phase_pid": 99353,
   "real_UWB_fit_started": true
+}
+,
+  "groupdro_loso6_held1_production64_protected_20261108": {
+  "report": "results/cloud_20261108_groupdro_loso6_held1_production64_protected/RUN_REPORT.md",
+  "method": "published_DomainBed_GroupDRO_eta0p01_nativeGAP617612_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "all6_complete": false,
+  "held1_production64_complete": true,
+  "held1_production64_private_raw_allmember_verified": true,
+  "held_scores_computed": false,
+  "new_training_launches": 0,
+  "observation": {
+    "completed_folds": [],
+    "current_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 6.12,
+      "pid": 99353,
+      "startticks": 33123032,
+      "state": "S"
+    },
+    "frozen46_unchanged": true,
+    "full64_replay_not_yet_complete": true,
+    "full_sixfold_modelset_not_yet_complete": true,
+    "held1_production_complete": {
+      "diagnostic_labels_read": false,
+      "diagnostic_outputs_sha256": "99fb7a3c7d64b97a8d8c6a4588f9d6a39001a439453f5ce628d48bd3738a6b06",
+      "epochs": 64,
+      "final_state_sha256": "7a3d0a2e29592c6c4eab68c76831776de1d729ba364239c669797be306648370",
+      "selected_epoch": 63,
+      "selected_sha256": "36a68f438e59713ce24c69add28719af004bfa25275d17805c19420fb00437af",
+      "state": "full64_training_complete_unscored",
+      "updates": 4736,
+      "users7_8_labels_used": false,
+      "validation_outputs_sha256": "30195700d5d41042d1b21f7dbddcc8e7b8021bcd7743fab5a7929e6246b65775"
+    },
+    "held1_replay_all_committed_epoch_records_and_step_prefix_bitwise_equal": true,
+    "held1_replay_committed_epoch": 43,
+    "held1_replay_committed_updates": 3182,
+    "independent_validation": false,
+    "new_training_or_scoring_called": false,
+    "observed_utc": "2026-11-08T02:27:20.681557+00:00",
+    "phase_identity": {
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "cpu": 2.39,
+      "pid": 99353,
+      "startticks": 33123032,
+      "state": "R"
+    },
+    "prefix_audit_CPU": 0.011792392999999998,
+    "prefix_audit_wall": 0.011793236015364528,
+    "private_production64_archive": {
+      "archive_sha256": "a14ad4a4b4e4b5c1efcca633d3482cdc0bcd7fbd479a7df09a7c286a34b25096",
+      "bytes": 54715657,
+      "chunks": 8,
+      "payload_members": 252,
+      "raw_allmember_verified": true
+    },
+    "replay_moving_slot_checkpoint_not_reloaded": true,
+    "resource_observation": {
+      "RSS_KiB": 1725800,
+      "active_held": 1,
+      "completed_folds": [],
+      "cpu": 4189.631470492,
+      "fold_stage": "replay",
+      "prior_Fishr6_cpu": 29599.386025808,
+      "prior_Fishr6_wall": 29559.94331930898,
+      "prior_IRM6_cpu": 29548.175221702,
+      "prior_IRM6_wall": 29509.953316993022,
+      "prior_MMD6_cpu": 30891.040083422995,
+      "prior_MMD6_wall": 30865.434969089023,
+      "prior_VREx6_cpu": 31189.589142517,
+      "prior_VREx6_wall": 31157.163366941997,
+      "wall": 4183.75935779803
+    },
+    "state": "held1_production64_protected_replay_committed_prefix_exact_existing_phase_running_unscored",
+    "users7_8_labels_used": false
+  },
+  "private_chunks": 8,
+  "private_payload": 252
 }
 }
