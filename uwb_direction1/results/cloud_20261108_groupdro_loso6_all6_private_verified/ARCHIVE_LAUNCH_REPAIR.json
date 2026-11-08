@@ -1,0 +1,10 @@
+{
+  "state": "archive_launch_failed_missing_external_time_utility_before_archive_script_execution",
+  "observed_utc": "2026-11-08T09:45:17.403465+00:00",
+  "command_exit_code": 127,
+  "missing_path": "/usr/bin/time",
+  "archive_script_or_new_training_started": false,
+  "full_backup_directory_existed": false,
+  "scientific_files_changed": false,
+  "repair": "Use Python stdlib subprocess/time/resource wrapper, retaining original stdout/stderr; no package install or config change"
+}

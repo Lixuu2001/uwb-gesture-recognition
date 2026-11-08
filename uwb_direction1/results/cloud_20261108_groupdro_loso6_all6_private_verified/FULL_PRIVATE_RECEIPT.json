@@ -1,0 +1,66 @@
+{
+  "all6_complete": true,
+  "all_original_frozen46_and_1886_fold_artifact_SHA_unchanged": true,
+  "allmember_verification": {
+    "archive_members": 2011,
+    "archive_sha256": "5459865e09bc4ce393d810273b0e738c337e25e3aa29bc1e7e9e699df140e7e1",
+    "chunks_verified": 77,
+    "complete_modelset_verified": true,
+    "scope": "GroupDRO_LOSO_all6_complete_models_audits_outputs_before_single_cohort_score",
+    "state": "remote_archive_and_all_members_verified",
+    "tracked_payload_members_verified": 2010
+  },
+  "archive_build_execution": {
+    "automatic_retries": 0,
+    "command": [
+      "python",
+      "/workspace/uwb-groupdro-loso6-20261108/operator/full_archive.py",
+      "build"
+    ],
+    "exit_code": 0,
+    "max_RSS_KiB": 23004,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "observed_utc": "2026-11-08T09:45:46.598115+00:00",
+    "parent_CPU_seconds": 0.002947301999999999,
+    "system_CPU_seconds": 1.023902,
+    "user_CPU_seconds": 28.136121,
+    "wall_seconds": 29.168754895043094
+  },
+  "archive_bytes": 562618273,
+  "archive_launch_repair": {
+    "archive_script_or_new_training_started": false,
+    "command_exit_code": 127,
+    "full_backup_directory_existed": false,
+    "missing_path": "/usr/bin/time",
+    "observed_utc": "2026-11-08T09:45:17.403465+00:00",
+    "repair": "Use Python stdlib subprocess/time/resource wrapper, retaining original stdout/stderr; no package install or config change",
+    "scientific_files_changed": false,
+    "state": "archive_launch_failed_missing_external_time_utility_before_archive_script_execution"
+  },
+  "archive_members": 2011,
+  "archive_sha256": "5459865e09bc4ce393d810273b0e738c337e25e3aa29bc1e7e9e699df140e7e1",
+  "automatic_upload_retries": 0,
+  "chunks": 77,
+  "full_environment_extraction_and_end_to_end_resume_not_separately_exercised": true,
+  "max_concurrency": 3,
+  "method_gate_fixed_before_any_held_score": {
+    "applies_only_to_new_unscored_MMD_sixfold_not_retroactive_to_prior_closed_methods": false,
+    "applies_to_new_GroupDRO_complete6_only": true,
+    "mean_paired_macro_recall_gain_min": 0.005,
+    "no_post_score_coefficient_kernel_epoch_seed_or_fold_grid": true,
+    "report_any_measured_positive_or_negative_result_even_if_spending_gate_fails": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_macro_recall_delta_min": -0.02
+  },
+  "once_scorer_sha256": "5fa31a293d2dbbd1bd74816bf06235c2aa5b4b06a90a1cb875f1b960a8c5d31d",
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "scores_computed": false,
+  "state": "all6_GroupDRO_native_models_optimizer_q_RNG_logs_outputs_owneronly_raw_allmember_verified_before_joint_score",
+  "tracked_payload_files": 2010,
+  "transfer_failed_parts": 0,
+  "transfer_tool_window_wall_seconds": 1612.91
+}

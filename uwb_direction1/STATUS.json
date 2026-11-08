@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "GroupDRO_complete_all6_native64_and_independentfresh64_outputs_frozen_unscored_waiting_final_private_raw_allmember_release",
+  "state": "GroupDRO_all6_final_private77parts_raw_allmember_verified_unscored_waiting_exact_release_blind_inference_and_once_score",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_groupdro_loso6_all6_frozen_unscored/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_groupdro_loso6_all6_private_verified/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794131035.8209786,
+  "background_training_observed_unix": 1794132975.703545,
   "background_training_pid": null,
-  "background_training_status_note": "OriginalGroupDRO phase completed all6 64+fresh64/output/firstaudits exit0; wall29556.896/CPU29595.510sec<12h, no active training. All1886 artifacts/nativeq/roles/validation selections frozen. Must complete final private allmember exactrelease before blindinference and ONE cohortscore; no metrics yet.",
+  "background_training_status_note": "All6 GroupDRO native64+fresh64 finished; final77parts2010payload rawallmember owneronly verified0failure/0retry, frozen46/1886 artifacts unchanged. No training active/no heldscores. Bind exactprivate release then original12blindarms and ONE jointcohortscore.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Build/upload/rawverify complete GroupDRO all6 modelset at max3 complete pipelines; exact private release then preregistered blind12arm inference and ONE jointcohortscore. No duplicate training, no held1 gate or users7-8 selection.",
+  "next_candidate": "Bind exact GroupDRO full-private release; run preregistered12 blind inference pairs then ONE whole6 score. No retraining/retuning/legacy singlefold once. Preserve allpositive or negative evidence and frozen gate; conditional eta0 control only if primarywhole6 passes.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17438,5 +17438,20 @@
     "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
     "wall": 29556.896173048997
   }
+}
+,
+  "groupdro_loso6_all6_private_verified_20261108": {
+  "report": "results/cloud_20261108_groupdro_loso6_all6_private_verified/RUN_REPORT.md",
+  "method": "published_DomainBed_GroupDRO_eta0p01_nativeGAP617612_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "all6_complete": true,
+  "archive_sha256": "5459865e09bc4ce393d810273b0e738c337e25e3aa29bc1e7e9e699df140e7e1",
+  "archive_utility_failure_repaired": true,
+  "held_scores_computed": false,
+  "private_chunks": 77,
+  "private_complete_all6_raw_allmember_verified": true,
+  "private_payload": 2010
 }
 }

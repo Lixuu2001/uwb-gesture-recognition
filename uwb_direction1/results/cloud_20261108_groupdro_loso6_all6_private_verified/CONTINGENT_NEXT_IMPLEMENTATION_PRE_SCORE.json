@@ -1,0 +1,89 @@
+{
+  "state": "contingent_next_implementation_route_before_any_GroupDRO_held_score_not_a_new_fit_admission",
+  "created_utc": "2026-11-08T10:12:38.854428+00:00",
+  "GroupDRO_positive_primary_gate_route": "Only implement already-preregistered same-native-sampler_BN_budget_eta0_equal_source_meanBCE_complete6 attribution control; no outer8 or adaptiveq claim until that result",
+  "GroupDRO_failed_primary_gate_route": {
+    "candidate": "SWAD LossValley full-native GAP component transfer",
+    "paper": "Cha et al., SWAD: Domain Generalization by Seeking Flat Minima, NeurIPS2021/arXiv2102.08604",
+    "official_source_repository": "khanrc/swad",
+    "review_scope": "existing official snapshots/defaultconfig/whole LossValley+AveragedModel read; full paper not yet reviewed; immutable current commit resolution and trainer/BN wiring audit still required before admission",
+    "fixed_defaults": {
+      "n_converge": 3,
+      "n_tolerance": 6,
+      "tolerance_ratio": 0.3
+    },
+    "proposed_fixed_native_training": {
+      "parameters": 617612,
+      "all3_signed_RMS": true,
+      "batch": 64,
+      "epochs": 64,
+      "seed": 20261029,
+      "threads": 1,
+      "optimizer": "same nativeAdamWLookahead clip2",
+      "loss": "same nativeglobal onehot12BCE"
+    },
+    "protocol": "same strict h1..6 test/valh%6+1/other4train; no held1 entry gate; no users7-8 for method choice",
+    "dense_trajectory_required": "original GAP saved checkpoints do not contain every optimizer-step model, so cannot pretend dense SWAD can be reconstructed from best/final alone",
+    "before_admission_required": [
+      "official immutable source/trainer/BN calibration review",
+      "full-native component implementation and independent official/default/serialization/native generated tests",
+      "all6 full loader/worker/64fresh64 source-role resource supervision and cap",
+      "fixed compute gate and exact preregistration",
+      "all6 initial native/averager/RNG roles private raw-allmember release"
+    ],
+    "control_to_collect_without_extra_training": "same native trajectory fixed dense tail33..64 average as predeclared timing-matched diagnostic reference; do not choose tail window from test data",
+    "BN_policy_needs_exact_implementation": "source-only native batchnorm calibration on frozen training IDs, no held/validation samples; calibration code and RNG/mode restore must be fixed before admission",
+    "not_yet_implemented_or_started": true,
+    "not_author_benchmark_reproduction_or_new_algorithm_claim": true
+  },
+  "historical_SWAD_scope": {
+    "study": "Existing SWAD training control source-user pilot; no novelty claim",
+    "seed": 2026,
+    "threads": 1,
+    "users": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "validation": "next user cyclically within users3..8; other four train; held user diagnostic only after all selection",
+    "excluded_users": [
+      1,
+      2
+    ],
+    "input": "audited legacy SignalNet with fixed prepared legacy channels; no moment branch or augmentation",
+    "batch": 64,
+    "epochs": 24,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "min_lr": 1e-05,
+    "scheduler": "cosine over24 epochs; no early stopping of trajectory",
+    "n_converge": 3,
+    "n_tolerance": 6,
+    "tolerance_ratio": 0.3,
+    "checkpoint_interval": "one epoch; segment average of every optimizer step, equal weight per epoch in SWAD",
+    "controls": [
+      "erm_earliest_min_validation_ce_including_epoch0",
+      "fixed_tail_dense_average_epochs13..24"
+    ],
+    "tail_start_epoch": 13,
+    "gate": {
+      "swad_minus_erm": 0.005,
+      "swad_minus_tail": 0.0025,
+      "wins_each": 4,
+      "worst_vs_erm_margin": -0.01
+    },
+    "max_estimated_hours": 3.0,
+    "stop_on_failed_gate": "no full eight-fold SWAD grid or seed expansion; keep negative pilot",
+    "limitations": "source-only relative to outer fold1; six diagnostic users already have research history. Passing is a development screen, not untouched generalization or new algorithm. Official image data/protocol/learning-rate schedule are not reproduced."
+  },
+  "historical_protocol_sha256": "9a4792bd7fd5a758abfc3c9a644a36238c897991979fa3eaee57d3c7eb2b36ce",
+  "old_SWAD_failure_conclusion_preserved": true,
+  "not_an_equivalent_old_24epoch_GN_small_model_rerun_claim": true,
+  "GroupDRO_current_config_or_gate_modified": false,
+  "GroupDRO_scores_computed": false,
+  "new_training_started": false,
+  "automations_or_environment_changed": false
+}
