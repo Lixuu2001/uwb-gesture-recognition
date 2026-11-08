@@ -1,0 +1,330 @@
+{
+  "activation": "Only after all prior closed cohorts, exact full source registration, generated lifecycle/native/role/resource audits and private all6 initial release",
+  "author_protocol_reproduced": false,
+  "bounded_LOSO_continuation_gate": {
+    "applies_only_to_new_unscored_MMD_sixfold_not_retroactive_to_prior_closed_methods": false,
+    "mean_paired_macro_recall_gain_min": 0.005,
+    "no_post_score_coefficient_kernel_epoch_seed_or_fold_grid": true,
+    "report_any_measured_positive_or_negative_result_even_if_spending_gate_fails": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_macro_recall_delta_min": -0.02,
+    "applies_to_new_GroupDRO_complete6_only": true
+  },
+  "candidate": "published DomainBed GroupDRO defaulteta.01 component on full native GAP",
+  "class_support_and_metric_definitions": {
+    "absent_class_rule": "true support0 yields null per-class recall; exclude only undefined true-class recall from present macro; a prediction of absent class for any true example is still wrong",
+    "accuracy_equals_macro_on_this_balanced_present_support": true,
+    "class_support": [
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 1
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "present_classes_balanced": true,
+        "user": 2
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 3
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 4
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 5
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_classes": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 6
+      }
+    ],
+    "class_support_audit_only_no_prediction_pairing": true,
+    "primary": "equal subject mean of present-class macro recall; all6 folds reported",
+    "secondary": [
+      "per-subject accuracy",
+      "per-class support and recall including null for absent true classes",
+      "worst subject macro recall",
+      "paired per-subject differences and strict wins",
+      "sample-weighted pooled accuracy separately named",
+      "training/inference/replay/archive costs separately"
+    ]
+  },
+  "component_source": {
+    "core_source_commit": "13e134d8d37f318c0f59dd520f547d0ba29f28dc",
+    "core_source_sha256": "d64db480f6c564a7e3265f2c4745335f1f72944a145f14494a662bd4afd45a91",
+    "core_source_unchanged": true
+  },
+  "created_unix": 1794100104.4557302,
+  "current_MMD_accuracy_unknown": false,
+  "data": "/workspace/uwb-restored-20261103",
+  "fixed_method": {
+    "method": "published_DomainBed_GroupDRO_eta0p01_fullnative_GAP617612_globalBCE64_LOSO6",
+    "parameters": 617612,
+    "input": "all3signed_per_record_RMS_Nx90x567",
+    "batch": 64,
+    "epochs": 64,
+    "seed": 20261029,
+    "train_rule": "testh1..6_valh%6+1_other4train",
+    "optimizer": "nativeAdamW.001wd.0001StableLookahead.5k6_clip2",
+    "eta": 0.01,
+    "q_initial": "float32ones4_beforefirstupdate_then_native_multiplicative_exp_normalize",
+    "objective": "weighted_source_mean_per_record12classBCE;native_globalBCE_logged_separately",
+    "group_order": "sorted_four_training_subjects_only",
+    "missing_group_rule": "A group absent from a current native tail batch receives no multiplicative update; all q normalized; objective conditions q over present groups only in this case; all-present objective stays literal source dot(q,risks)",
+    "selection": "validation_present_macro_then_lower_globalBCE_then_earlier_epoch",
+    "no_single_fold_gate": true,
+    "users7_8_labels_used": false,
+    "independent_validation": false,
+    "new_UWB_fit_started": false,
+    "scientific_gate": {
+      "mean_gain_min": 0.005,
+      "strict_wins_min": 4,
+      "worst_paired_min": -0.02,
+      "tolerance": 1e-12
+    },
+    "no_post_test_eta_decay_sampler_epoch_seed_grid": true,
+    "main_phase_wall_CPU_cap_seconds": 43200,
+    "RSS_KiB_cap": 12582912,
+    "author_component_default_transfer_not_author_protocol_reproduction": true,
+    "novel_contribution_claim": false
+  },
+  "implementation_pending": false,
+  "main_budget": {
+    "wall_CPU_cap_seconds": 43200,
+    "RSS_KiB": 12582912,
+    "no_automatic_production_retry": true,
+    "single_active_model": true,
+    "fixed_profile_reused": true,
+    "projected_reserve_seconds": 42065.182194165376
+  },
+  "new_UWB_fit_started": false,
+  "no_legacy_singlefold_once_or_gate": true,
+  "originality_validated": false,
+  "preregistered_confound_control": {
+    "execute_if": "Only complete primary6 gate passes; before attributing adaptiveq or outer8",
+    "name": "same_native_sampler_BN_budget_eta0_fixed_equal_source_meanBCE_LOSO6",
+    "separate_wall_CPU_cap_seconds": 43200,
+    "cost_added": true,
+    "not_implemented_or_activated": true
+  },
+  "primary_control": "Reuse exact original GAP64 sixfold native outputs/initialization/roles, mean .9366717171717172; no refit or weaker baseline.",
+  "primary_reference": "https://arxiv.org/abs/1911.08731",
+  "prior_closed_MMD_result": "/workspace/uwb-mmd-loso6-20261106/SUMMARY.json",
+  "prior_closed_VREx_result": "/workspace/uwb-vrex-loso6-20261106/SUMMARY.json",
+  "protocol": {
+    "all6_outputs_and_private_models_frozen_before_one_joint_score": true,
+    "checkpoint_selection": "validation presentclass macro, lower global native BCE, earlier epoch",
+    "exploratory_historical8": true,
+    "held": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "no_singlefold_test_entry_gate": true,
+    "strict_subject_and_sample_ID_disjoint": true,
+    "training": "other4",
+    "users7_8_for_selection": false,
+    "validation": "h%6+1"
+  },
+  "source_ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "spending_gate": {
+    "equal_user_mean_gain_min": 0.005,
+    "not_retroactive_to_closed_configs": true,
+    "report_any_positive_or_negative_evidence_even_on_failure": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_delta_min": -0.02
+  },
+  "state": "complete_GroupDRO_implementation_pre_execution_generated_audits_pending",
+  "prior_closed_Fishr_result": "/workspace/uwb-fishr-native-loso6-20261107/SUMMARY.json",
+  "prior_closed_IRM_result": "/workspace/uwb-irm-loso6-20261107/SUMMARY.json"
+}

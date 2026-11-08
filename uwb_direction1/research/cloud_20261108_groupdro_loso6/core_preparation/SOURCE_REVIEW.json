@@ -1,0 +1,28 @@
+{
+  "paper": "Sagawa,Koh,Hashimoto,Liang;Distributionally Robust Neural Networks for Group Shifts:On the Importance of Regularization for Worst-Case Generalization;ICLR2020;arXiv1911.08731",
+  "pinned_DomainBed_commit": "b93c22a1cfc3b2428398272c1a116c8de1f4139e",
+  "source_class": "GroupDRO(ERM)",
+  "source_defaults": {
+    "groupdro_eta": 0.01
+  },
+  "source_equation": "q[g]*=exp(.01*detach(group_mean_loss));q/=sum(q);objective=dot(q,group_mean_loss)",
+  "source_files": {
+    "algorithms.py": "1e4a0353e2c6e42460a43d9cba0bc97e49fec0f5163a39c2c13cadc2ac50eaac",
+    "hparams_registry.py": "6deec4fceaa98ceab95e89a18358868b1653e3382ca8444ba14eacb2d21b56ea",
+    "README.md": "09b61daa2f976dcdbbafc4ca08172400b63834f67c2a3fba4ef9f8d97f6338a1",
+    "LICENSE": "a74dc7c7d1650b2ef611962794f33e5432ff60227ad11fe8ff599eb892713fcb"
+  },
+  "literature_read_scope": "Pinned DomainBed GroupDRO implementation/defaults plus previous author README/full loss.py/Appendix C.1 review preserved; main paper full text not reviewed",
+  "author_benchmark_reproduced": false,
+  "transfer_deviations": [
+    "Native12output BCE replaces multiclassCE",
+    "One original mixed-sourceB64 forward preserves native pooledBN/dropout; original DomainBed has per-environment forwards",
+    "Exactly4 training subject groups in fixed role order; no held/validation groups in q",
+    "A group absent from a current native tail batch receives no multiplicative update; all q normalized; objective conditions q over present groups only in this case; all-present objective stays literal source dot(q,risks)",
+    "NativeAdamWLookahead/clip2/64epoch and nativeWD.0001 match GAP; no extra reset or anneal",
+    "No resampling/cycling/class reweight/test environment statistics"
+  ],
+  "mechanism_claim": false,
+  "novel_contribution_claim": false,
+  "source_robustness_analogy_not_guarantee_of_UWB_gain": true
+}

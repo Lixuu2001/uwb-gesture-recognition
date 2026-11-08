@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "IRM_closed_negative_GroupDRO_full_native_default_core_generated_audits_capacity_passed_no_complete_runner_no_UWB_fit",
+  "state": "GroupDRO_complete_LOSO6_runner_generated_all6_native_lifecycle_audits_passed_preregistered_no_real_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Samecloud1CPU native617612/B64 generated fixed profile reserve42065.182194165376sec(11.6848h)<12h; complete6 real run not launched. IRM completed29509.953316993022wall/29548.175221702CPU; all prior and operation limitations retained.",
+  "compute": "Same cloud CPU full617612 B64 64+fresh64 each6; original fixed generated reserve11.6848h<12h, no retiming. ActualGroupDRO phase not launched. Prior four full6 costs preserved.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_groupdro_native_core_preparation/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_groupdro_loso6_preregistered/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794097196.3208656,
+  "background_training_observed_unix": 1794100377.4562845,
   "background_training_pid": null,
-  "background_training_status_note": "IRM full6 negative fixed100/500 closed and consumed once. Next published GroupDRO defaulteta.01/full617612 native core, independent gradients/q/RNG/disk/role-firewall and fixed CPU reserve11.6848h passed on GENERATED data only. Complete6 runner/privateinitial/release missing; no UWB/background training.",
+  "background_training_status_note": "Full GroupDRO617612 sixfold runner generated checks passed incl actual64+fresh64 fixture/q/allRNG/all6roles/safety. Exact source preregistration then all6 separate initialq states/private raw release required; no UWB fit yet.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Complete GroupDRO fullnative6 loader/worker/q-native journal/first reference/64fresh64 lifecycle/ownedPID12h supervision; generatedall6/full-source prereg/realroles+initial private exactrelease before ONE new fit. No train now, no oldonce/rescue or test-informed eta grid.",
+  "next_candidate": "After exact GroupDRO full-source prereg, create6 role-specific untrainedq/model/native/RNG states, raw private allmember backup and exactREAL_RELEASE, start one supervised6fold phase; no duplicate or test-label tuning.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17285,5 +17285,18 @@
   "users7_8_actual_labels_used": false,
   "old_groupDRO_scope_not_equivalent_and_old_fail_preserved": true,
   "IRM_positive_only_control_activated": false
+}
+,
+  "groupdro_loso6_preregistered_20261108": {
+  "report": "results/cloud_20261108_groupdro_loso6_preregistered/RUN_REPORT.md",
+  "method": "published_DomainBed_GroupDRO_eta0p01_nativeGAP617612_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "frozen_sha256": "eb7bd75aaf2b9951c9545a8e3afbf2c3be41ec27c7da09c2962880c2fc3df00b",
+  "generated_all6_checks_passed": true,
+  "real_UWB_fit_started": false,
+  "fixed_eta": 0.01,
+  "complete_runner_implemented": true
 }
 }

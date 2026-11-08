@@ -1,0 +1,100 @@
+{
+  "state": "generated_core_fullnative_independent_q_gradient_and_complete_state_restore_passed",
+  "real_UWB_values_or_gesture_labels_or_IDs_read": false,
+  "new_real_fit_started": false,
+  "parameters": 617612,
+  "shape": [
+    64,
+    90,
+    567
+  ],
+  "default_eta": 0.01,
+  "allpresent_literal_pinned_equation_passed": true,
+  "missing_group_cases": [
+    2,
+    3,
+    4
+  ],
+  "max_float64_equation_abs_difference": 1.1102230246251565e-16,
+  "full617612_parameter_reference_gradients_passed": true,
+  "max_native_gradient_abs_difference": 1.4901161193847656e-08,
+  "native_AdamWLookahead_slow6_disk7_exact8_q_allRNG_mode_restored": true,
+  "profile_protocol_fixed_before_measure": true,
+  "timings": {
+    "native": [
+      {
+        "wall": 0.5189376089838333,
+        "CPU": 0.5188812400000007
+      },
+      {
+        "wall": 0.5194933110033162,
+        "CPU": 0.5194569280000003
+      },
+      {
+        "wall": 0.5231384969665669,
+        "CPU": 0.5231040450000002
+      },
+      {
+        "wall": 0.5483369799912907,
+        "CPU": 0.5483308430000005
+      },
+      {
+        "wall": 0.546230859006755,
+        "CPU": 0.5462064570000003
+      },
+      {
+        "wall": 0.5314844139502384,
+        "CPU": 0.531350582
+      },
+      {
+        "wall": 0.5331471149693243,
+        "CPU": 0.5331449199999998
+      },
+      {
+        "wall": 0.547924482030794,
+        "CPU": 0.5478979949999996
+      }
+    ],
+    "GroupDRO": [
+      {
+        "wall": 0.5029833290027454,
+        "CPU": 0.502975846
+      },
+      {
+        "wall": 0.5389651000150479,
+        "CPU": 0.5388912930000007
+      },
+      {
+        "wall": 0.5371632820460945,
+        "CPU": 0.5371054449999999
+      },
+      {
+        "wall": 0.5078367660171352,
+        "CPU": 0.5078244639999987
+      },
+      {
+        "wall": 0.533020825998392,
+        "CPU": 0.5329937460000007
+      },
+      {
+        "wall": 0.5038201869465411,
+        "CPU": 0.5038173990000008
+      },
+      {
+        "wall": 0.5831918509793468,
+        "CPU": 0.5830816639999981
+      },
+      {
+        "wall": 0.5590342960203998,
+        "CPU": 0.5590227480000003
+      }
+    ]
+  },
+  "conservative_ratio": 1.0635646915307622,
+  "projected_full6_train_replay_reserve_seconds": 42065.182194165376,
+  "capacity_gate_passed": true,
+  "remaining_complete_loader_worker_supervisor_role_all6_audits_needed": true,
+  "complete_runner_implemented": false,
+  "wall": 15.06026463501621,
+  "CPU": 15.05432966
+}
