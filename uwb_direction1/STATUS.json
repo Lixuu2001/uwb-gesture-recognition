@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "SWAD_native_LOSO6_all6_native64_fresh64_audits_and_perfold_private_physical_verified_canonical_final_archive_pending_unscored",
+  "state": "SWAD_native_LOSO6_all6_frozen_canonical247_private2249_payload_verified_prerelease_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "SWADoriginal6fold phase finished:33083.825wall/33121.968CPU seconds;all6native64/fresh64/all4audits/perfoldprivatephysicalverified. Canonical2GiBcap fullarchive build started once; no training active/testscore. Priorcosts retained.",
+  "compute": "SWAD6 production/replay/audits complete33083.825wall/33121.968CPU; fullcanonical1,811,485,836bytes/247owner-onlyparts/2249payload verified. Transferelapsed4624.659s includes contextinterruption/reconciliation; CPUunmeasured; distinctbuild/verifycosts retained. No training active.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_swad_loso6_held6_completed_private/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_swad_loso6_canonical_private/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794173982.0381465,
+  "background_training_observed_unix": 1794178991.6857636,
   "background_training_pid": null,
-  "background_training_status_note": "OriginalSWAD105224 finished normally all6native64/fresh64/all4audits. All6perfold privatephysicalrecoveries/cumulativeregistry verified; canonicalfull6archive build started once/pending privateverification/release; no testscore/newtraining.",
+  "background_training_status_note": "All6native64/fresh64/audits and fullcanonical247privateparts/2249payload verified; sourcebaseline hashes rechecked; exactpublication required before release/blind24arminference/onejointscore. One orchestration interruption reconciled without duplicateknownIDs. No training active.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Finish existing SWADfull_backup canonicalarchive build/transfer/check without duplicate build/training. All6perfoldprivate verified. Preserve knownIDs; max3completepipelines; unknownIDfailure exactname+parent search then boundedexplicitrecovery. Finalcompositeindex/exactnonforceGitpublication then FULL_PRIVATE_RELEASE, blind24arm inference and onecohortscore. No oldonce/config/testtuning/automation change.",
+  "next_candidate": "After this exact nonforce canonical-private publication/readback, create FULL_PRIVATE_RELEASE binding verifiedcommit/archive/frozenonceSHA. Run frozen label-free24arm inference once under300wallCPU, then existing frozen cohortonce scorer exactlyonce; publish every result/support/cost. No retrain/configchange/oldonce/controlpromotion. Gatesfixed; users7,8 excluded from new-method choice.",
   "last_completed_update_utc": "2026-11-08T10:46:50.203664+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17791,5 +17791,32 @@
   "raw_original86_retained_rechecked": true,
   "redundant_raw_cache_evicted_bytes": 2006404772,
   "scientific_source_unchanged": true
+}
+,
+  "swad_loso6_canonical_private_20261108": {
+  "report": "results/cloud_20261108_swad_loso6_canonical_private/RUN_REPORT.md",
+  "method": "published_SWAD_LossValley3_6_0p3_fullnative_LOSO6_sourceBN",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "all6_frozen": true,
+  "canonical_private_complete": true,
+  "canonical_parts": 247,
+  "canonical_archive_bytes": 1811485836,
+  "canonical_archive_sha256": "99453112a56ece88f5d7dca37e6a110978c5202c97d6113012f9aa0526187408",
+  "canonical_payload_verified": 2249,
+  "all_canonical_parts_owner_only": true,
+  "context_interruption_count": 1,
+  "known_IDs_reused": [
+    82,
+    83
+  ],
+  "explicit_uncertain_part84_upload_after_empty_search": true,
+  "resume_new_first_attempts": 162,
+  "resume_failed_parts": 0,
+  "automatic_retries": 0,
+  "full_composite_index_sha256": "a75d197a08cafe7a1e807c54008b8bde177f43e94d070fcd7109d9afcfea9aa6",
+  "score_release_created": false,
+  "cohort_scored": false
 }
 }

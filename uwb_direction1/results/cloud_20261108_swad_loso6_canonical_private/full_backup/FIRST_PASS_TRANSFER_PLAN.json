@@ -1,0 +1,17 @@
+{
+  "state": "canonical_all6_first_attempt_transfer_registered_before_upload",
+  "archive_sha256": "99453112a56ece88f5d7dca37e6a110978c5202c97d6113012f9aa0526187408",
+  "archive_bytes": 1811485836,
+  "total_parts": 247,
+  "payload_members": 2249,
+  "max_complete_pipelines": 3,
+  "each_part_one_first_attempt": true,
+  "continue_other_untouched_parts_after_a_failure": true,
+  "failed_parts_deferred_for_explicit_inspection_and_recovery": true,
+  "automatic_retries": 0,
+  "known_IDs_must_be_reused": true,
+  "unknown_ID_failure_requires_exact_filename_parent_search_before_one_explicit_reupload": true,
+  "canonical_archive_and_frozen_science_unchanged": true,
+  "held_scores_computed": false,
+  "lease_file": "CANONICAL_FIRST_PASS_LEASE.json"
+}

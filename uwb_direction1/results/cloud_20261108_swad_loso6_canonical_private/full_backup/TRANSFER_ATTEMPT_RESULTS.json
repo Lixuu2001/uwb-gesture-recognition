@@ -1,0 +1,30 @@
+{
+  "state": "all247canonical_raw_chunks_verified_after_one_context_interruption_reconciled_explicit_resume_unscored",
+  "total": 247,
+  "verified_parts": 247,
+  "failed_parts": 0,
+  "complete": true,
+  "archive_sha256": "99453112a56ece88f5d7dca37e6a110978c5202c97d6113012f9aa0526187408",
+  "archive_bytes": 1811485836,
+  "unique_uploaded_IDs": 247,
+  "known_IDs_reused_without_upload": [
+    82,
+    83
+  ],
+  "uncertain_part84_exact_name_parent_search_empty_then_one_explicit_upload": true,
+  "automatic_retries": 0,
+  "context_interruption_count": 1,
+  "preserved_firstpass_prefix_raw_verified": 82,
+  "firstpass_exact_end_wall_CPU_unmeasured": true,
+  "firstpass_start_to_last_durable_readback_seconds": 1422.5055885314941,
+  "firstpass_start_to_reconciliation_observation_seconds": 1597.7886273860931,
+  "explicit_interrupted_pipeline_recovery_tool_window_seconds": 30.817,
+  "resumed_untouched_suffix_tool_window_seconds": 2841.194,
+  "end_to_end_transfer_elapsed_including_interruption_and_reconciliation_seconds": 4624.658612,
+  "transfer_CPU_unmeasured": true,
+  "not_pure_network_time": true,
+  "complete_chunk_pipelines_max": 3,
+  "initial_and_resume_leases_closed": true,
+  "held_scores_computed": false,
+  "finished_utc": "2026-11-08T23:00:29.023612+00:00"
+}

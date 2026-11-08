@@ -1,0 +1,37 @@
+{
+  "state": "interrupted_raw_pipelines_explicit_recovery_results",
+  "results": [
+    {
+      "part": 82,
+      "status": "fulfilled",
+      "value": {
+        "i": 82,
+        "verified": true
+      }
+    },
+    {
+      "part": 83,
+      "status": "fulfilled",
+      "value": {
+        "i": 83,
+        "verified": true
+      }
+    },
+    {
+      "part": 84,
+      "status": "fulfilled",
+      "value": {
+        "i": 84,
+        "verified": true
+      }
+    }
+  ],
+  "wall": 30.817,
+  "CPU_unmeasured": true,
+  "automatic_retries": 0,
+  "known_uploaded_IDs_reused_without_new_upload": [
+    82,
+    83
+  ],
+  "explicit_uncertain_part84_upload_after_empty_search": 1
+}
