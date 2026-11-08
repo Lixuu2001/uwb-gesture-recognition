@@ -1,0 +1,14 @@
+{
+  "state": "generated_native_weights_only_checkpoint_failure_repaired_before_profile_or_UWB_fit",
+  "observed_utc": "2026-11-08T10:38:15.739255+00:00",
+  "error": "Unsupported numpy._core.multiarray.scalar in serialized LossValley threshold",
+  "cause": "official np.mean creates numpy.float64; plain checkpoint state had not converted it",
+  "fix": "serialize threshold as Python float (same IEEE64 numeric value); keep weights_only=True; do not whitelist arbitrary numpy globals or disable safety",
+  "original_source_sha256": "f63bf4f9de7f671f8d8b9900fcc5ee2e11aea7cd41b441e5f61375eb829d2bf1",
+  "repaired_source_sha256": "b2648445742d3fd49aaf49d2020b2d3f70a60fe618c6b46b1c36d8a0a317de96",
+  "test_sha256": "51f5df6e91d109a04a2c59e1aabc0e6dc0ebda02d23199f865ba4e751e031b23",
+  "profile_executed_by_failed_attempt": false,
+  "real_UWB_values_or_labels_or_IDs_opened": false,
+  "failed_attempt_generated_native_optimizer_updates": 8,
+  "source_algorithm_and_defaults_changed": false
+}

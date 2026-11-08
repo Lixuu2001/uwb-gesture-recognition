@@ -1,0 +1,51 @@
+{
+  "old_SWAD_protocol": {
+    "study": "Existing SWAD training control source-user pilot; no novelty claim",
+    "seed": 2026,
+    "threads": 1,
+    "users": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "validation": "next user cyclically within users3..8; other four train; held user diagnostic only after all selection",
+    "excluded_users": [
+      1,
+      2
+    ],
+    "input": "audited legacy SignalNet with fixed prepared legacy channels; no moment branch or augmentation",
+    "batch": 64,
+    "epochs": 24,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "min_lr": 1e-05,
+    "scheduler": "cosine over24 epochs; no early stopping of trajectory",
+    "n_converge": 3,
+    "n_tolerance": 6,
+    "tolerance_ratio": 0.3,
+    "checkpoint_interval": "one epoch; segment average of every optimizer step, equal weight per epoch in SWAD",
+    "controls": [
+      "erm_earliest_min_validation_ce_including_epoch0",
+      "fixed_tail_dense_average_epochs13..24"
+    ],
+    "tail_start_epoch": 13,
+    "gate": {
+      "swad_minus_erm": 0.005,
+      "swad_minus_tail": 0.0025,
+      "wins_each": 4,
+      "worst_vs_erm_margin": -0.01
+    },
+    "max_estimated_hours": 3.0,
+    "stop_on_failed_gate": "no full eight-fold SWAD grid or seed expansion; keep negative pilot",
+    "limitations": "source-only relative to outer fold1; six diagnostic users already have research history. Passing is a development screen, not untouched generalization or new algorithm. Official image data/protocol/learning-rate schedule are not reproduced."
+  },
+  "old_failed_result_repository": "uwb_direction1/results/cloud_20261003_swad/SUMMARY.json",
+  "old_protocol_sha256": "9a4792bd7fd5a758abfc3c9a644a36238c897991979fa3eaee57d3c7eb2b36ce",
+  "scope": "old24/seed2026/users3..8/legacyGN+cosine+decay.001 vs fullnative617612/BN64/seed20261029/users1..6/nativeconstantAdamWLookaheadwd.0001; preserve old failure, not authorbenchmark or novelty",
+  "prior_GroupDRO_gate_false": true,
+  "eta0_control_not_activated": true,
+  "no_test_user_specific_tuning": true
+}

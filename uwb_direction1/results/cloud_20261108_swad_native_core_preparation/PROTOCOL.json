@@ -1,0 +1,54 @@
+{
+  "state": "generated_core_preparation_only_no_complete_LOSO6_runner_BN_calibration_or_fit_release",
+  "created_utc": "2026-11-08T10:32:30.747687+00:00",
+  "method": "published_SWAD_LossValley_default3_6_0p3_component_on_full_native_GAP",
+  "parameters": 617612,
+  "input": "all3signed_RMS_Nx90x567",
+  "batch": 64,
+  "epochs": 64,
+  "seed": 20261029,
+  "threads": 1,
+  "native_loss": "same_global_onehot12BCE",
+  "native_optimizer": "AdamW.001wd.0001StableLookahead.5k6lazy_clip2",
+  "default_windows": {
+    "n_converge": 3,
+    "n_tolerance": 6,
+    "tolerance_ratio": 0.3
+  },
+  "dense_segments": "each post-native-update model, one full-epoch checkpoint",
+  "fixed_tail_control": "same trajectory dense epochs33..64; no test-selected window",
+  "strong_baseline": "original GAP64 sixfold, no refit to lower conditions",
+  "BN_required_before_admission": "source-only seeded shuffled full-training-ID B64 calibration, same for SWAD/tail; separately selected-GAP BN-only control; validation and held forbidden; RNG/mode restoration required",
+  "author_deviations": [
+    "Native617612 BCE/AdamWLookahead/all3RMS replaces pretrainedResNet/CE/Adam/images",
+    "Author default freeze_bn=True; keep native trainingBN and explicitly adapt source-only calibration, not yet implemented",
+    "Author stops at valley death; complete fixed64 native trajectory/tail while valley stays frozen",
+    "One-full-epoch checkpoints replace author dataset-specific steps including step0",
+    "Independent validation user replaces train_out/oracle reporting; no held-selected window",
+    "CPU-only final cuda redirect; no author arithmetic changes"
+  ],
+  "author_full_paper_reviewed": false,
+  "author_benchmark_reproduced": false,
+  "original_contribution_claim": false,
+  "gate": {
+    "equal_user_mean_gain_min": 0.005,
+    "strict_wins_min": 4,
+    "worst_paired_min": -0.02,
+    "tolerance": 1e-12
+  },
+  "profile_before_measure": {
+    "updates_per_arm": 8,
+    "warmup": 3,
+    "measured": 5,
+    "order": "native_then_SWAD_odd_reverse_even",
+    "formula": "1.25*31189.589142517*max(1,SWAD/native_wall_ratio,SWAD/native_CPU_ratio)+1200<=43200",
+    "fixed_additive_reserve_for_BN_and_dense_journal_seconds": 1200,
+    "hard_main_wall_CPU_seconds": 43200,
+    "RSS_KiB": 12582912,
+    "single_attempt_no_retiming": true
+  },
+  "admission": "complete6 loader/worker/BN/averager journal/fullfresh64/native reference/role/resource audits + exact source and privateinitial release all required",
+  "new_UWB_fit_started": false,
+  "prior_GroupDRO_exact_closed_summary_sha256": "bfbde8b812c1eb01bad4d7686d222146d37af7ddcd2f1bd52de4c38b5f2a16e4",
+  "pre_GroupDRO_score_route_sha256": "0966c75ccfc0abf87235e3ccd6911ca2c2771823ea8bbca62e1e00562b4d4a69"
+}

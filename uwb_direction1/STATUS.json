@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "GroupDRO_full6_real_result_negative_closed_eta0p01_no_rescue_next_fullnative_SWAD_implementation_pending_no_new_fit",
+  "state": "GroupDRO_closed_negative_SWAD_fullnative_core_generated_averaging_state_restore_and_partial_cost_passed_no_complete_runner_no_UWB_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "GroupDRO complete6 wall29556.896173048997/CPU29595.509859692s,77parts2010payload raw verified,12blindpairs and onecohortscore completed. Fixedconfiguration negative closed; no training active. Prior costs retained.",
+  "compute": "Samecloud CPU1thread fullnative617612/B64 generatedSWAD core profile only: reserve42087.66081777077s(11.691h)<12h, completeBN/journalrunner admission pending; noSWADfit. GroupDRO complete6 negative, all prior and failedoperation costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_groupdro_loso6_all6_result/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_swad_native_core_preparation/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794133419.809573,
+  "background_training_observed_unix": 1794134810.314794,
   "background_training_pid": null,
-  "background_training_status_note": "Complete GroupDRO6 scored ONCE after77parts2010payload private/raw and12blind inference;93.565404% vsGAP93.667172%,-.101768pp,3wins3loss,worstpaired-1.8pp,fixedgatefalse. Exacteta.01 closed; do not call once/retrain/retune or eta0conditionalcontrol. Nextpre-score-chosen SWAD default3/6/.3 fullnative implementation audit, noSWADfit.",
+  "background_training_status_note": "GroupDRO full6 negative closed93.565404 vs93.667172. Next publishedSWAD default3/6/.3 full617612 core+generated native8/RNG/disk7exact8/float64means/firewall and fixed partialreserve11.691h passed; NumPy-scalar weights_only issue fixed/evidence preserved. BN/all6runner/privateinitial/release missing; noSWAD/background UWB training.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Implement/audit full-native SWAD LossValley default3/6/.3 on fullGAP617612/nativeBCE64/seed20261029, per pre-GroupDRO-score route. First official immutable trainer/BN/source review and historical non-equivalence, generated native/reference/restore/cost tests, complete6 runner/exactsource/privateinitial before newfit; no currentfit.",
-  "last_completed_update_utc": "2026-11-08T10:23:39.696706+00:00",
+  "next_candidate": "Complete SWAD fullnative6 source-onlyBN+BN-only/tail matchedoutputs/strict roles/worker/averager journal/full64fresh64 generated lifecycle/native first reference/ownedPID12h audits; exactfullsource and private6initial release before ONE newfit. No oldGroupDROonce/retrain/eta0control or test-informedSWADwindow grid.",
+  "last_completed_update_utc": "2026-11-08T10:46:50.203664+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -17470,5 +17470,20 @@
   "strict_wins": 3,
   "summary_sha256": "bfbde8b812c1eb01bad4d7686d222146d37af7ddcd2f1bd52de4c38b5f2a16e4",
   "whole6_result_complete": true
+}
+,
+  "swad_native_core_preparation_20261108": {
+  "report": "results/cloud_20261108_swad_native_core_preparation/RUN_REPORT.md",
+  "method": "published_SWAD_LossValley3_6_0p3_fullnative_GAP617612_component_core_preparation",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "author_commit": "252190eb881169e736beccf51af5caaa5c5cf666",
+  "generated_native_parameter_count": 617612,
+  "generated_core_passed": true,
+  "partial_core_reserve_seconds": 42087.66081777077,
+  "complete_runner_implemented": false,
+  "BN_calibration_implemented": false,
+  "real_UWB_fit_started": false
 }
 }

@@ -1,0 +1,32 @@
+{
+  "state": "generated_core_source_hashes_after_actual_successful_run_with_failed_source_preserved",
+  "sources": {
+    "swad_core.py": "b2648445742d3fd49aaf49d2020b2d3f70a60fe618c6b46b1c36d8a0a317de96",
+    "test_generated_core.py": "51f5df6e91d109a04a2c59e1aabc0e6dc0ebda02d23199f865ba4e751e031b23",
+    "PROTOCOL.json": "518430938852c156ae6edb66853244afedb8a638f3a08d34c3c06e9f004ac14f",
+    "AUTHOR_SOURCE_RECEIPT.json": "8145d58672754e3b245ca24512007552570eb7a061839d6b4bac6285df55861c",
+    "HISTORY_CHECK.json": "9d89acd64fa4932654ebf3b8c96778ae832d88b610068607df244f233f283a89",
+    "NATIVE_DEPENDENCIES.json": "20ebad7639ccbbac184bf02bb8e24f74af631c69f8b11e884765e95dceebaa1d"
+  },
+  "result_sha256": "99f693a63f113dee03ed380359fd5a5775e21e79f9a163bd5dc680134cb90a40",
+  "profile_fixed_before_measure": true,
+  "one_profile_attempt": true,
+  "checkpoint_threshold_numpy_scalar_repair": {
+    "state": "generated_native_weights_only_checkpoint_failure_repaired_before_profile_or_UWB_fit",
+    "observed_utc": "2026-11-08T10:38:15.739255+00:00",
+    "error": "Unsupported numpy._core.multiarray.scalar in serialized LossValley threshold",
+    "cause": "official np.mean creates numpy.float64; plain checkpoint state had not converted it",
+    "fix": "serialize threshold as Python float (same IEEE64 numeric value); keep weights_only=True; do not whitelist arbitrary numpy globals or disable safety",
+    "original_source_sha256": "f63bf4f9de7f671f8d8b9900fcc5ee2e11aea7cd41b441e5f61375eb829d2bf1",
+    "repaired_source_sha256": "b2648445742d3fd49aaf49d2020b2d3f70a60fe618c6b46b1c36d8a0a317de96",
+    "test_sha256": "51f5df6e91d109a04a2c59e1aabc0e6dc0ebda02d23199f865ba4e751e031b23",
+    "profile_executed_by_failed_attempt": false,
+    "real_UWB_values_or_labels_or_IDs_opened": false,
+    "failed_attempt_generated_native_optimizer_updates": 8,
+    "source_algorithm_and_defaults_changed": false
+  },
+  "failed_generated_attempt_CPU_wall_not_measured": true,
+  "successful_generated_wall": 11.507317244017031,
+  "successful_generated_CPU": 11.503240485000001,
+  "no_real_UWB_fit_release": true
+}
