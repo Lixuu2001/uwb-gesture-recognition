@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "/workspace/uwb-outer8-loader-20261108/check_swa_reference.py",
+    "SWA_EXACT_COMPONENT_CHECK.json"
+  ],
+  "observed_utc": "2026-11-08T23:46:42.948525+00:00",
+  "wall_seconds": 2.0823028400191106,
+  "user_CPU_seconds": 2.2491549999999996,
+  "system_CPU_seconds": 0.167704,
+  "parent_CPU_seconds": 0.0003387619999999994,
+  "max_RSS_KiB": 269944,
+  "exit_code": 0,
+  "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+  "automatic_retries": 0
+}

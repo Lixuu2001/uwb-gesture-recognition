@@ -1,0 +1,29 @@
+{
+  "scope": "label-free outer8 loader preparation only; no method or training admission",
+  "state": "inputs_and_roles_verified_worker_resource_and_method_preregistration_pending",
+  "seed_for_generated_checks": 20261029,
+  "n_users": 8,
+  "test_user": "h in1..8",
+  "validation_user": "h%8+1",
+  "train_users": "remaining6; disjoint by subject and sample ID",
+  "cohort": "frozen6900 development IDs for users1..6 plus all2400 raw user7/8 IDs; sorted9300 unique sample IDs",
+  "quality_rule": "reuse frozen contradiction exclusions only users2 G11/G12 and user6 class3; no extra feature/quality filter; do not read new labels to derive IDs",
+  "input": "raw9593x3x90x189 float32; signed per-sample per-radar RMS over time/range; clamp denominator1e-8; permute N,T,radar,range -> N,90,567",
+  "input_loading": "memory-mapped raw; copied batches1..64; no fit statistics, extra cache or learned preprocessing",
+  "preparation_labels": "no gesture truth array opened; legacy source-ID NPZ labels key never accessed; explicit labels API always rejects",
+  "no_fit_no_score": true,
+  "preparation_caps": {"wall_seconds":180,"CPU_seconds":180,"RSS_GiB":6,"full8_map_cache_allowed":false},
+  "current_training_process_started": false,
+  "future_requirements_before_training": [
+    "freeze one method/config/seed from development evidence and literature before any user7/8 gesture label access; keep SWAD/tail primary-control identities",
+    "preregister matched full8 baseline and method; old sixfold weights trained on4users cannot replace full8 baseline trained on6",
+    "implement role-limited train/validation label capability and sealed held-user prediction journal; no per-held score-based continuation",
+    "freeze all8 models/predictions/prod64/fresh64/native audits/private allmember recovery before one joint score",
+    "use accuracy and present-class macro recall separately; class supports/absent nulls; equal-user mean/worst/paired/wins/pooled; measured train/replay/inference and full historical costs",
+    "complete worker/supervisor/failure-journal and small bounded train-only cost probe, including lazy-loader overhead and checkpoint/private backup disk lifecycle",
+    "preregister a new explicit full8 wall/CPU/RSS/disk budget; do not reuse or erase the closed MMD twelve-hour stage accounting",
+    "publish source/protocol hashes and private initial recovery before first fit; reuse existing hourly enabled automation and samecloud"
+  ],
+  "claims": "historically all8 exposed, exploratory; no independent new-user validation, originality, accuracy gain or original-SWA benchmark claim from input audit",
+  "next_action": "implement prospective method-specific full8 worker/resource admission using verified lazy input interface; no re-run of closed sixfold cohorts or once scorers"
+}

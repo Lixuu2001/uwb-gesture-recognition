@@ -1,0 +1,9 @@
+# SWA source and equivalence review
+
+Primary source: [Izmailov et al., UAI2018, arXiv1803.05407v3](https://arxiv.org/abs/1803.05407v3). Methods3.1–3.6, experiments4.1–4.4 and appendixA were inspected on2026-11-08. SWA averages SGD trajectory weights with constant/cyclic learning rates and refreshes BN. The local ensemble approximation assumes smooth predictions and nearby weights; convex/Gaussian arguments do not guarantee nonconvex UWB generalization. Paper architecture budgets and learning rates differ from this project's64-epoch AdamWLookahead experiment.
+
+[Pinned author code](https://github.com/timgaripov/swa/tree/411b2fcad59bec60c6c9eb1eb19ab906540e5ea2), BSD2: train.py defaults SGD momentum.9, B128,200epochs, start161, interval1; its default40 snapshots are epoch ends. utils.py averages parameters only and refreshes sample-weighted training BN. Generated CPU checks extract those components; obsolete async syntax is translated for parsing. This is not an author benchmark reproduction.
+
+History: existing SWA_CONTROL_REVIEW.md describes the old24-epoch/seed2026/legacyGroupNorm/dense13–24/cosine control. The closed20261108 cohort uses fullnative617612/BN/AdamWLookahead64/seed20261029/dense33–64/sourceBN. Neither equals original SGD/epoch-end SWA. Original-scale author implementation is therefore not rejected as an equivalent rerun or for lacking originality; any future comparison requires a separately fixed, matched protocol and measured resource admission. No new averaging start/window/LR/seed was selected here. Existing SWAD failure and descriptive positive tail control remain unchanged; no retrospective promotion, rescue or rescore.
+
+Only bibliographic/research interpretation and BSD author code are retained; no paper text/PDF is redistributed. No UWB landscape or causal mechanism was measured. All8 historically exposed users imply exploratory evaluation, never independent new-user validation.

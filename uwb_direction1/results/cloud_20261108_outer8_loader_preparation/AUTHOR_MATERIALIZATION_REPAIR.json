@@ -1,0 +1,25 @@
+{
+  "state": "terminal_newline_transport_mismatch_detected_and_exact_pinned_bytes_restored",
+  "rows": [
+    {
+      "file": "train.py",
+      "prior_blob": "4c00f636a9f92261fdfc32ccfc8339898e5a97b0",
+      "expected_blob": "f3636bd4238b18e6970c6eec5042725b9ca796c6",
+      "repair": "remove one terminal blank newline introduced by patch materialization; no code logic edit"
+    },
+    {
+      "file": "utils.py",
+      "prior_blob": "c77f8178d954bd1acaf3483220ce43ce5f412f06",
+      "expected_blob": "d35516473b6ffc5b73867e86dd2705b6040c2bf8",
+      "repair": "remove one terminal blank newline introduced by patch materialization; no code logic edit"
+    },
+    {
+      "file": "LICENSE",
+      "prior_blob": "3a94e247f8d1179c8fd5847b748312c26b054f43",
+      "expected_blob": "b6c5d461ccbba56f78c546526d82da2d8bfd0c91",
+      "repair": "remove one terminal blank newline introduced by patch materialization; no code logic edit"
+    }
+  ],
+  "prior_generated_check_retained": true,
+  "semantic_logic_changed": false
+}

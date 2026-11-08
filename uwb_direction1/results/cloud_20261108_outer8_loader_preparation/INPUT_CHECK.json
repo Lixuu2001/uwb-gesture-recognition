@@ -1,0 +1,253 @@
+{
+  "state": "label_free_real_outer8_inputs_verified_no_fit_no_score",
+  "files_sha256": {
+    "raw": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "subjects": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "development_ids": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+    "development_maps": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57"
+  },
+  "private_ids_archive_sha256": "ff9a28c769b357c184019d854672d4cbb998481079bdee48147eef4194342e4e",
+  "users": 8,
+  "samples": 9300,
+  "subject_counts": {
+    "1": 1200,
+    "2": 1000,
+    "3": 1200,
+    "4": 1200,
+    "5": 1200,
+    "6": 1100,
+    "7": 1200,
+    "8": 1200
+  },
+  "folds": [
+    {
+      "held": 1,
+      "validation_user": 2,
+      "users": {
+        "train": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "validation": [
+          2
+        ],
+        "test": [
+          1
+        ]
+      },
+      "counts": {
+        "train": 7100,
+        "validation": 1000,
+        "test": 1200
+      }
+    },
+    {
+      "held": 2,
+      "validation_user": 3,
+      "users": {
+        "train": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "validation": [
+          3
+        ],
+        "test": [
+          2
+        ]
+      },
+      "counts": {
+        "train": 7100,
+        "validation": 1200,
+        "test": 1000
+      }
+    },
+    {
+      "held": 3,
+      "validation_user": 4,
+      "users": {
+        "train": [
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ],
+        "validation": [
+          4
+        ],
+        "test": [
+          3
+        ]
+      },
+      "counts": {
+        "train": 6900,
+        "validation": 1200,
+        "test": 1200
+      }
+    },
+    {
+      "held": 4,
+      "validation_user": 5,
+      "users": {
+        "train": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        "validation": [
+          5
+        ],
+        "test": [
+          4
+        ]
+      },
+      "counts": {
+        "train": 6900,
+        "validation": 1200,
+        "test": 1200
+      }
+    },
+    {
+      "held": 5,
+      "validation_user": 6,
+      "users": {
+        "train": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        ],
+        "validation": [
+          6
+        ],
+        "test": [
+          5
+        ]
+      },
+      "counts": {
+        "train": 7000,
+        "validation": 1100,
+        "test": 1200
+      }
+    },
+    {
+      "held": 6,
+      "validation_user": 7,
+      "users": {
+        "train": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8
+        ],
+        "validation": [
+          7
+        ],
+        "test": [
+          6
+        ]
+      },
+      "counts": {
+        "train": 7000,
+        "validation": 1200,
+        "test": 1100
+      }
+    },
+    {
+      "held": 7,
+      "validation_user": 8,
+      "users": {
+        "train": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "validation": [
+          8
+        ],
+        "test": [
+          7
+        ]
+      },
+      "counts": {
+        "train": 6900,
+        "validation": 1200,
+        "test": 1200
+      }
+    },
+    {
+      "held": 8,
+      "validation_user": 1,
+      "users": {
+        "train": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "validation": [
+          1
+        ],
+        "test": [
+          8
+        ]
+      },
+      "counts": {
+        "train": 6900,
+        "validation": 1200,
+        "test": 1200
+      }
+    }
+  ],
+  "full8_RMS_bytes_sha256": "247ddc5ddcaebed1d60e4b764458da58679b3f04290787c81f5265080a51084f",
+  "full8_inputs_finite": true,
+  "signed_RMS": true,
+  "development6900_maps_elementwise_bitwise_equal": true,
+  "all8_test_ID_coverage_exactly_once": true,
+  "generated_numpy_RMS_tolerance": 5e-07,
+  "generated_zero_and_signed_input_pass": true,
+  "blocked": [
+    "cross_role",
+    "unknown_role",
+    "negative_id",
+    "float_id",
+    "gesture_labels",
+    "duplicate_id",
+    "oversized_batch"
+  ],
+  "gesture_label_arrays_loaded": false,
+  "legacy_NPZ_labels_key_accessed": false,
+  "new_model_fits": 0,
+  "test_scores_computed": 0,
+  "no_full_map_cache_created": true,
+  "full_map_cache_would_require_bytes": 1898316128,
+  "free_disk_bytes": 1582530560,
+  "input_pass_wall_seconds": 3.0181004783371463,
+  "batch64_median_wall_seconds": 0.020217389974277467,
+  "wall_seconds": 10.303425690974109,
+  "CPU_seconds": 10.300027846999999,
+  "max_RSS_KiB": 3586956,
+  "interpretation": "Input/metadata audit only. No gesture-label supports/missing classes inferred for users7/8; no model training/inference cost estimate from loader time alone."
+}

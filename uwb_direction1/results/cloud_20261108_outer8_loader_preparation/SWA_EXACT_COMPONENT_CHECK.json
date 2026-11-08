@@ -1,0 +1,22 @@
+{
+  "state": "pinned_SWA_author_components_generated_checks_pass",
+  "author_commit": "411b2fcad59bec60c6c9eb1eb19ab906540e5ea2",
+  "source_sha256": {
+    "LICENSE": "16920a0d290b516ac3fa1b12c6186918f41e98f30dc9bbd72d12c975dd3b1be4",
+    "train.py": "314f861d0314f9513ce571c8ef6248376e9f93b373b626cfa36c0e66680facc7",
+    "utils.py": "c165207aa8a37855e49462c2bff25682a4c7473f01bb700c717dd51506627b98"
+  },
+  "author_parameters_only_equal_weight_average_verified": true,
+  "author_sample_weighted_BN_refresh_verified": true,
+  "default_200_epoch_start161_end200_collection_count": 40,
+  "source_schedule_AST_extracted": true,
+  "adaptations": [
+    "reserved async keyword replaced only for parsing",
+    "generated CPU tensor cuda stub; no author CUDA benchmark executed"
+  ],
+  "original_SWA_benchmark_reproduced": false,
+  "real_data_read": false,
+  "models_fit": 0,
+  "held_labels_read": false,
+  "native_AdamW_dense_tail_not_equivalent_to_original_SGD_epoch_end_SWA": true
+}
