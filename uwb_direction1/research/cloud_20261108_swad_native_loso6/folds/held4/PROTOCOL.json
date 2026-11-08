@@ -1,0 +1,133 @@
+{
+  "architecture": "TimeMIL_native_feature_extractor567_mDim128_GlobalAveragePool12_617612params",
+  "author_commit": "252190eb881169e736beccf51af5caaa5c5cf666",
+  "author_full_paper_text_reviewed": false,
+  "author_paper": "Cha et al., SWAD NeurIPS2021/arXiv2102.08604; component transfer",
+  "author_protocol_reproduced": false,
+  "author_reference_files": {
+    "/workspace/uwb-swad-loso6-20261108/author_reference/domainbed/swad.py": "26eacdcbe9eca598c01de896b4ffd0059fd47b4e63cd1293c9dd273431c34669",
+    "/workspace/uwb-swad-loso6-20261108/author_reference/domainbed/lib/swa_utils.py": "bcbac5b4be1026aba8fda35560d8527ada8344ce5dbea02492d37f58c555ddb3",
+    "/workspace/uwb-swad-loso6-20261108/author_reference/domainbed/trainer.py": "a2d52dfead05a823096bf8b82d3359f55bbb2791c700e0bf57d95757268e8f4c",
+    "/workspace/uwb-swad-loso6-20261108/author_reference/domainbed/hparams_registry.py": "5ace6882d680dc49bee0e8b44d6e566917708f83d1b525576c42c12dc95567d5",
+    "/workspace/uwb-swad-loso6-20261108/author_reference/config.yaml": "9a985db1ba3c5a9b5e3454009328d09ecf0f5cfccca81b58fba5881918548290",
+    "/workspace/uwb-swad-loso6-20261108/author_reference/README.md": "dd18520f978f7ec74a721d0871f536b53abe66a8ada8b5a7da15c64c174f09f4",
+    "/workspace/uwb-swad-loso6-20261108/author_reference/LICENSE": "c8182e8413fdcacd34a4c913d2053c3248e4237fc5fda2bc4e1eaf4490dfce15"
+  },
+  "batch": 64,
+  "clip": 2.0,
+  "closed_prior_mixture_not_reopened": true,
+  "configuration_chosen_after_closed_MMD_and_VREx_cohorts": true,
+  "counts": [
+    4500,
+    1200,
+    1200
+  ],
+  "data": "/workspace/uwb-restored-20261103",
+  "diagnostic_scoring_once": true,
+  "diagnostic_user": 4,
+  "epochs": 64,
+  "expected_unused": [],
+  "expected_updates": 4544,
+  "fitting_requires_exact_private_phase_release": true,
+  "full_trajectory_replay_required": true,
+  "held": 4,
+  "ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "ids_sha256": "d932f8910326ebf9c114c36e90026e5bf1cf8fdc71233816c9b389dabe3bdc50",
+  "independent_validation": false,
+  "input_sha256": {
+    "X_clutterremoved": "3004e7a2aa44cb4ffd763a6ef3bf30c85d2b7dc0499140c195c48fa3ed6ce519",
+    "subj_clutterremoved": "5ab32ab59e5b41c05d301b76949f159ddb1e9423a749deb760585a5f19cf9480",
+    "y_clutterremoved": "d77b10f0fbda231246e71dfcf0b2f852863af48f80f159aed90f5f9b7c61a8bd"
+  },
+  "loss": "native_global_onehot12_BCE_unchanged",
+  "maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "maps_sha256": "ad38801896b65e676569c379eb03750ed61ecbf920557e3e78de351216683a57",
+  "matched_initial_model_state_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+  "method": "published_SWAD_LossValley3_6_0p3_fullnativeGAP64",
+  "native_source": "/workspace/uwb-timemil-20261029",
+  "no_single_fold_diagnostic_gate": true,
+  "normalization": "frozen_per_record_RMS_no_feature_augmentation",
+  "novel_contribution_claim": false,
+  "optimizer": "nativeAdamW.001wd.0001StableLookahead.5k6lazy_clip2_no_reset",
+  "original_contribution_claim": false,
+  "parameters": 617612,
+  "phase_root": "/workspace/uwb-swad-loso6-20261108",
+  "private_before_diagnostic_scoring": true,
+  "raw_training_batch": 64,
+  "real_CPU_cap": 43200,
+  "real_RSS_KiB": 12582912,
+  "real_wall_cap": 43200,
+  "seed": 20261029,
+  "selection": "SWAD official LossValley3/6/.3 on independent validation native globalBCE; native GAP reference retains macro,-BCE,-epoch",
+  "state": "fixed_complete_SWAD_LOSO6_fullnative_dense_epoch_segments_sourceBN_controls",
+  "threads": 1,
+  "train_users": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "training_forward_batch": 64,
+  "transfer_deviations": [
+    "Native617612 BCE/AdamWLookahead/all3RMS replaces pretrainedResNet/CE/Adam/images",
+    "Author default freeze_bn=True; keep native trainingBN and explicitly adapt source-only calibration, implemented as explicit source-only adaptation",
+    "Author stops at valley death; complete fixed64 native trajectory/tail while valley stays frozen",
+    "One-full-epoch checkpoints replace author dataset-specific steps including step0",
+    "Independent validation user replaces train_out/oracle reporting; no held-selected window",
+    "CPU-only final cuda redirect; no author arithmetic changes"
+  ],
+  "users7_8_labels_forbidden": true,
+  "validation_user": 5,
+  "warmup": "native_GAP_has_no_MIL_warmup_branch",
+  "profile_wall_cap": 600,
+  "profile_CPU_cap": 600,
+  "profile_RSS_KiB": 12582912,
+  "bn_seed": 21161030,
+  "bn_passes": 1,
+  "bn_batch": 64,
+  "arms": [
+    "swad",
+    "tail",
+    "bn_only",
+    "native_reference"
+  ],
+  "primary_arm": "swad",
+  "native_reference_selected_epoch_not_SWAD_range": true,
+  "baseline_first": {
+    "held": 4,
+    "path": "/workspace/uwb-gap6-restored-20261106/held4_payload/held4/first_update.pt",
+    "sha256": "d7c58ed32ba846e3fa39b646e47d765a5a52f9fbafd080a8e520bb06a6915d21",
+    "explicit_legacy_globals": [
+      "torch.torch_version.TorchVersion"
+    ],
+    "keys": [
+      "model",
+      "optimizer",
+      "training_ids",
+      "held",
+      "identity"
+    ],
+    "training_ids_present": true
+  },
+  "baseline_artifacts": {
+    "model": "/workspace/uwb-gap6-restored-20261106/held4_payload/held4/best.pt",
+    "model_sha256": "fd075925063e20b6cb3dc31c74ef13b575de9264508299a007bfa28a30e2a90f",
+    "prediction": "/workspace/uwb-gap6-restored-20261106/held4_payload/held4/predictions_unscored.npz",
+    "prediction_sha256": "f41b62ce2c19e9eb5b2770d2d5a7a8901c15ffbe6931c0c06c2e4ad92e5c93ba"
+  },
+  "native_reference_must_match_original_GAP": true,
+  "baseline_curve": {
+    "path": "/workspace/uwb-gap6-restored-20261106/held4_payload/held4/epochs.jsonl",
+    "sha256": "6204e302182bd84e35cd3a9bbe78caef6f47fef14cb0b13cf8eb401658b898d7",
+    "rows": 64,
+    "keys": [
+      "held",
+      "epoch",
+      "train_bce",
+      "validation_macro",
+      "validation_loss",
+      "epoch_seconds"
+    ]
+  },
+  "generated_fixture": false
+}

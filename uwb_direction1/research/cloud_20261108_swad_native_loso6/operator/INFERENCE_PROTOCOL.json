@@ -1,0 +1,86 @@
+{
+  "RSS_cap_KiB": 12582912,
+  "aggregate_report": "per held and arm CPU/wall and ms/sample; actual worker total, warmup, RSS and paired differences separately; no fastest-repeat selection or speed-novelty claim",
+  "all6_frozen_and_complete_private_release_required": true,
+  "arm_order": "rotate fixed [baseline,swad,tail,bn_only] left by (held-1)%4; one pass each; native_reference already exact original GAP",
+  "baseline_artifacts": {
+    "1": {
+      "model": "/workspace/uwb-timemil-20261029/run02/gap/best.pt",
+      "model_sha256": "2fdb64b3348a6f9e774bf0212b2704e82acf4848bbf8cd077d7721d2dca77ff8",
+      "prediction": "/workspace/uwb-timemil-20261029/run02/gap/predictions_unscored.npz",
+      "prediction_sha256": "05527830339d410e43eef2c85c24c6b15674dc9ae56226dddac47c6a64797f58"
+    },
+    "2": {
+      "model": "/workspace/uwb-gap6-restored-20261106/held2_payload/held2/best.pt",
+      "model_sha256": "6b200b3fbdb0a5f5097f2f23681757fc2a25ae0c73b735821561d8f780a63966",
+      "prediction": "/workspace/uwb-gap6-restored-20261106/held2_payload/held2/predictions_unscored.npz",
+      "prediction_sha256": "e513d56f657155038aa30e682b295441e74fe77ed86837605748f4daaa728440"
+    },
+    "3": {
+      "model": "/workspace/uwb-gap6-restored-20261106/held3_payload/held3/best.pt",
+      "model_sha256": "e50b9830440d082c9c79edd4d98cb048eff9259e1f01c0633dfc43de1598c801",
+      "prediction": "/workspace/uwb-gap6-restored-20261106/held3_payload/held3/predictions_unscored.npz",
+      "prediction_sha256": "fe564c8bdd3a9a7a41feb3bf96f22e9db4afb1394d9dcdbb2aad372757a40df1"
+    },
+    "4": {
+      "model": "/workspace/uwb-gap6-restored-20261106/held4_payload/held4/best.pt",
+      "model_sha256": "fd075925063e20b6cb3dc31c74ef13b575de9264508299a007bfa28a30e2a90f",
+      "prediction": "/workspace/uwb-gap6-restored-20261106/held4_payload/held4/predictions_unscored.npz",
+      "prediction_sha256": "f41b62ce2c19e9eb5b2770d2d5a7a8901c15ffbe6931c0c06c2e4ad92e5c93ba"
+    },
+    "5": {
+      "model": "/workspace/uwb-gap6-restored-20261106/held5_payload/held5/best.pt",
+      "model_sha256": "4aa9657592cc07594ce7419b72fb8077573b0e9f4fbc6f87c4e695d8262f37c5",
+      "prediction": "/workspace/uwb-gap6-restored-20261106/held5_payload/held5/predictions_unscored.npz",
+      "prediction_sha256": "9fa5d7f8174ad7a98839cc8a5c4003bc18d019506573bdd82a12af747236fa72"
+    },
+    "6": {
+      "model": "/workspace/uwb-gap6-restored-20261106/held6_payload/held6/best.pt",
+      "model_sha256": "ab47f66f41972b905ddf6d73954a26e340184984da260ab2d7969cfbd5aed22d",
+      "prediction": "/workspace/uwb-gap6-restored-20261106/held6_payload/held6/predictions_unscored.npz",
+      "prediction_sha256": "ff226e39fed0bb4f5ad91ce02eda2427fbda65f3a5b59f15d037d9035735e075"
+    }
+  },
+  "batch": 64,
+  "counts": {
+    "1": 1200,
+    "2": 1000,
+    "3": 1200,
+    "4": 1200,
+    "5": 1200,
+    "6": 1100
+  },
+  "held_truth_read": false,
+  "maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "method": "published_SWAD_dense_default3_6_0p3_native_component",
+  "metric_fitting_or_test_scoring": false,
+  "no_additional_training_or_optimizer_updates": true,
+  "no_automatic_retry": true,
+  "one_timed_pass_per_arm_and_user": true,
+  "original_phase_must_be_inactive": true,
+  "parameters": 617612,
+  "phase": "/workspace/uwb-swad-loso6-20261108",
+  "scientific_binding": "FROZEN_HASHES.json binds this config/code; actual REMOTE_PREREGISTRATION commit binds that manifest, avoiding a circular self-hash",
+  "source_ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "state": "fixed_label_free_24arm_inference_after_all6_fullprivate_before_one_cohort_score",
+  "threads": 1,
+  "timed_scope": "cached already prepared signed/RMS maps, memorymap batch row copy, tensor conversion, fixed native forward, CPU output copy and concatenation; excludes model init/load/import/hash/warmup/reference comparison/raw radar preprocessing",
+  "timing_not_a_method_selection_gate": true,
+  "users7_8_labels_used": false,
+  "wall_CPU_cap_seconds": 300,
+  "warmup": "exactly one forward on first min(64,n) fixed cached held maps, eval mode, no labels or adaptation; record warmup separately",
+  "arms": [
+    "baseline",
+    "swad",
+    "tail",
+    "bn_only"
+  ]
+}

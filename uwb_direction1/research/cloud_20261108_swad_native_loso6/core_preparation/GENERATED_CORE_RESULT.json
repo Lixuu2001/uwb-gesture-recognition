@@ -1,0 +1,129 @@
+{
+  "state": "generated_fullnative_SWAD_dense_average_official_corner_state_restore_and_fixed_profile_complete",
+  "toy_independent_cases": [
+    {
+      "losses": [
+        3.0,
+        2.0,
+        1.0
+      ],
+      "value": 31.0,
+      "constructor_buffer": 13.0,
+      "final_n_averaged": 2
+    },
+    {
+      "losses": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "value": 21.0,
+      "constructor_buffer": 9.0,
+      "final_n_averaged": 1
+    },
+    {
+      "losses": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "value": 26.0,
+      "constructor_buffer": 9.0,
+      "final_n_averaged": 4
+    }
+  ],
+  "native": {
+    "parameters": 617612,
+    "independent_float64_dense_parameter_mean_maxdiff": 1.6391277313232422e-07,
+    "native_trajectory_optimizer_all8_RNG_bitwise_unchanged_by_collecting_average": true,
+    "slow6_disk7_exact8_full_queues_average_RNG_mode": true,
+    "finalize_restoration_exact": true,
+    "buffers_not_averaged_constructor_retained": true
+  },
+  "profile": {
+    "times": {
+      "native": [
+        {
+          "wall": 0.801331473980099,
+          "CPU": 0.8005632020000002
+        },
+        {
+          "wall": 0.5326094580232166,
+          "CPU": 0.532544637
+        },
+        {
+          "wall": 0.5556324409553781,
+          "CPU": 0.5556248989999997
+        },
+        {
+          "wall": 0.5292583729606122,
+          "CPU": 0.5292221500000007
+        },
+        {
+          "wall": 0.5100854570046067,
+          "CPU": 0.5100763389999994
+        },
+        {
+          "wall": 0.5080148470005952,
+          "CPU": 0.5080091219999989
+        },
+        {
+          "wall": 0.5199586459784769,
+          "CPU": 0.5199165160000003
+        },
+        {
+          "wall": 0.523111307004001,
+          "CPU": 0.5229547930000003
+        }
+      ],
+      "SWAD": [
+        {
+          "wall": 0.5416027080500498,
+          "CPU": 0.5397459830000004
+        },
+        {
+          "wall": 0.5608001500368118,
+          "CPU": 0.5607930750000003
+        },
+        {
+          "wall": 0.5383832179941237,
+          "CPU": 0.5383443830000001
+        },
+        {
+          "wall": 0.5383468740037642,
+          "CPU": 0.5383022710000009
+        },
+        {
+          "wall": 0.5033597010187805,
+          "CPU": 0.5033247129999996
+        },
+        {
+          "wall": 0.5120461650076322,
+          "CPU": 0.5120112490000004
+        },
+        {
+          "wall": 0.51248894399032,
+          "CPU": 0.512480085
+        },
+        {
+          "wall": 0.5550580910057761,
+          "CPU": 0.5550225280000003
+        }
+      ]
+    },
+    "ratio_definition": "max measured SWAD arm / max measured native arm, discard first3; conservative max over wall/CPU and1",
+    "ratios": {
+      "wall": 1.0487469246841445,
+      "CPU": 1.0487515082276877
+    },
+    "conservative_ratio": 1.0487515082276877,
+    "projected_core_based_full6_reserve_seconds": 42087.66081777077,
+    "gate_passed": true,
+    "partial_core_profile_not_complete_BN_journal_runner_admission": true
+  },
+  "real_UWB_arrays_labels_or_IDs_opened": false,
+  "new_real_fit_started": false,
+  "complete_LOSO6_runner_or_BN_calibration_implemented": false,
+  "wall": 11.507317244017031,
+  "CPU": 11.503240485000001
+}

@@ -1,0 +1,104 @@
+{
+  "state": "legacy_GAP_first_checkpoint_readonly_static_global_inspection_and_specific_TorchVersion_compatibility",
+  "initial_weights_only_without_scope_failed_on_TorchVersion": true,
+  "all_new_SWAD_states_remain_plain_tensor_basic_types": true,
+  "old_checkpoints_modified": false,
+  "real_fitting_or_UWB_label_values_read": false,
+  "rows": [
+    {
+      "held": 1,
+      "path": "/workspace/uwb-timemil-20261029/run02/gap/first_update.pt",
+      "sha256": "91c92836f8c9cb876608f13c655abbad83b6206654a890e711fbedec5576a5de",
+      "explicit_legacy_globals": [
+        "torch.torch_version.TorchVersion"
+      ],
+      "keys": [
+        "model",
+        "optimizer",
+        "training_ids",
+        "identity"
+      ],
+      "training_ids_present": true
+    },
+    {
+      "held": 2,
+      "path": "/workspace/uwb-gap6-restored-20261106/held2_payload/held2/first_update.pt",
+      "sha256": "4a5b77f649fe4cbd205005314d4e1976eb25f97fb813a03bc3bfc06e308b2042",
+      "explicit_legacy_globals": [
+        "torch.torch_version.TorchVersion"
+      ],
+      "keys": [
+        "model",
+        "optimizer",
+        "training_ids",
+        "held",
+        "identity"
+      ],
+      "training_ids_present": true
+    },
+    {
+      "held": 3,
+      "path": "/workspace/uwb-gap6-restored-20261106/held3_payload/held3/first_update.pt",
+      "sha256": "56c2f6a2501376cb5df3be1abd4f6a94f0bcba7e0368e6374e45e7025c8325ea",
+      "explicit_legacy_globals": [
+        "torch.torch_version.TorchVersion"
+      ],
+      "keys": [
+        "model",
+        "optimizer",
+        "training_ids",
+        "held",
+        "identity"
+      ],
+      "training_ids_present": true
+    },
+    {
+      "held": 4,
+      "path": "/workspace/uwb-gap6-restored-20261106/held4_payload/held4/first_update.pt",
+      "sha256": "d7c58ed32ba846e3fa39b646e47d765a5a52f9fbafd080a8e520bb06a6915d21",
+      "explicit_legacy_globals": [
+        "torch.torch_version.TorchVersion"
+      ],
+      "keys": [
+        "model",
+        "optimizer",
+        "training_ids",
+        "held",
+        "identity"
+      ],
+      "training_ids_present": true
+    },
+    {
+      "held": 5,
+      "path": "/workspace/uwb-gap6-restored-20261106/held5_payload/held5/first_update.pt",
+      "sha256": "066471038475d66d25cdec18ba0dbae7c68b74646f273e2965aa41b6fe7a54a2",
+      "explicit_legacy_globals": [
+        "torch.torch_version.TorchVersion"
+      ],
+      "keys": [
+        "model",
+        "optimizer",
+        "training_ids",
+        "held",
+        "identity"
+      ],
+      "training_ids_present": true
+    },
+    {
+      "held": 6,
+      "path": "/workspace/uwb-gap6-restored-20261106/held6_payload/held6/first_update.pt",
+      "sha256": "80b76c66239cb026f40477bec02b7f033e0b55ae601b5b066499f76c9e5497f9",
+      "explicit_legacy_globals": [
+        "torch.torch_version.TorchVersion"
+      ],
+      "keys": [
+        "model",
+        "optimizer",
+        "training_ids",
+        "held",
+        "identity"
+      ],
+      "training_ids_present": true
+    }
+  ]
+}

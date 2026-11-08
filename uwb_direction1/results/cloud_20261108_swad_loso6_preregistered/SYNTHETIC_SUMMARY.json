@@ -1,0 +1,1397 @@
+{
+  "all_passed": true,
+  "core_or_integrated_measurements_repeated": false,
+  "full_production_lifecycle_fixture": {
+    "actual_generated_production64_and_independentfresh64_updates_each": 64,
+    "all65_epoch_records_and_all_steps_equal": true,
+    "first_auditor_additional_generated_update": 1,
+    "generated_fixture_counts": [
+      12,
+      3,
+      3
+    ],
+    "generated_log_files": [
+      "generated_lifecycle_logs/STATE.json",
+      "generated_lifecycle_logs/RESOURCE_LEDGER.json",
+      "generated_lifecycle_logs/CONTROLLER_IDENTITY.json",
+      "generated_lifecycle_logs/run/PREDICTIONS_FROZEN.json",
+      "generated_lifecycle_logs/run/OUTPUT_AUDIT_EVAL_COST.json",
+      "generated_lifecycle_logs/run/OUTPUT_AUDIT_CALIBRATION_COST.json",
+      "generated_lifecycle_logs/run/replay/COMPLETE.json",
+      "generated_lifecycle_logs/run/replay/STEP_DIGEST_COST.json",
+      "generated_lifecycle_logs/run/replay/CHECKPOINT_COST.json",
+      "generated_lifecycle_logs/run/replay/EVALUATION_BATCH_COST.json",
+      "generated_lifecycle_logs/run/replay/CALIBRATION_COST.json",
+      "generated_lifecycle_logs/run/replay/OUTPUT_SELECTION.json",
+      "generated_lifecycle_logs/run/replay/STATE.json",
+      "generated_lifecycle_logs/run/replay/PROGRESS.json",
+      "generated_lifecycle_logs/run/replay/journal064.json",
+      "generated_lifecycle_logs/run/replay/epoch064.json",
+      "generated_lifecycle_logs/run/replay/journal063.json",
+      "generated_lifecycle_logs/run/replay/epoch063.json",
+      "generated_lifecycle_logs/run/replay/journal062.json",
+      "generated_lifecycle_logs/run/replay/epoch062.json",
+      "generated_lifecycle_logs/run/replay/journal061.json",
+      "generated_lifecycle_logs/run/replay/epoch061.json",
+      "generated_lifecycle_logs/run/replay/journal060.json",
+      "generated_lifecycle_logs/run/replay/epoch060.json",
+      "generated_lifecycle_logs/run/replay/journal059.json",
+      "generated_lifecycle_logs/run/replay/epoch059.json",
+      "generated_lifecycle_logs/run/replay/journal058.json",
+      "generated_lifecycle_logs/run/replay/epoch058.json",
+      "generated_lifecycle_logs/run/replay/journal057.json",
+      "generated_lifecycle_logs/run/replay/epoch057.json",
+      "generated_lifecycle_logs/run/replay/journal056.json",
+      "generated_lifecycle_logs/run/replay/epoch056.json",
+      "generated_lifecycle_logs/run/replay/journal055.json",
+      "generated_lifecycle_logs/run/replay/epoch055.json",
+      "generated_lifecycle_logs/run/replay/journal054.json",
+      "generated_lifecycle_logs/run/replay/epoch054.json",
+      "generated_lifecycle_logs/run/replay/journal053.json",
+      "generated_lifecycle_logs/run/replay/epoch053.json",
+      "generated_lifecycle_logs/run/replay/journal052.json",
+      "generated_lifecycle_logs/run/replay/epoch052.json",
+      "generated_lifecycle_logs/run/replay/journal051.json",
+      "generated_lifecycle_logs/run/replay/epoch051.json",
+      "generated_lifecycle_logs/run/replay/journal050.json",
+      "generated_lifecycle_logs/run/replay/epoch050.json",
+      "generated_lifecycle_logs/run/replay/journal049.json",
+      "generated_lifecycle_logs/run/replay/epoch049.json",
+      "generated_lifecycle_logs/run/replay/journal048.json",
+      "generated_lifecycle_logs/run/replay/epoch048.json",
+      "generated_lifecycle_logs/run/replay/journal047.json",
+      "generated_lifecycle_logs/run/replay/epoch047.json",
+      "generated_lifecycle_logs/run/replay/journal046.json",
+      "generated_lifecycle_logs/run/replay/epoch046.json",
+      "generated_lifecycle_logs/run/replay/journal045.json",
+      "generated_lifecycle_logs/run/replay/epoch045.json",
+      "generated_lifecycle_logs/run/replay/journal044.json",
+      "generated_lifecycle_logs/run/replay/epoch044.json",
+      "generated_lifecycle_logs/run/replay/journal043.json",
+      "generated_lifecycle_logs/run/replay/epoch043.json",
+      "generated_lifecycle_logs/run/replay/journal042.json",
+      "generated_lifecycle_logs/run/replay/epoch042.json",
+      "generated_lifecycle_logs/run/replay/journal041.json",
+      "generated_lifecycle_logs/run/replay/epoch041.json",
+      "generated_lifecycle_logs/run/replay/journal040.json",
+      "generated_lifecycle_logs/run/replay/epoch040.json",
+      "generated_lifecycle_logs/run/replay/journal039.json",
+      "generated_lifecycle_logs/run/replay/epoch039.json",
+      "generated_lifecycle_logs/run/replay/journal038.json",
+      "generated_lifecycle_logs/run/replay/epoch038.json",
+      "generated_lifecycle_logs/run/replay/journal037.json",
+      "generated_lifecycle_logs/run/replay/epoch037.json",
+      "generated_lifecycle_logs/run/replay/journal036.json",
+      "generated_lifecycle_logs/run/replay/epoch036.json",
+      "generated_lifecycle_logs/run/replay/journal035.json",
+      "generated_lifecycle_logs/run/replay/epoch035.json",
+      "generated_lifecycle_logs/run/replay/journal034.json",
+      "generated_lifecycle_logs/run/replay/epoch034.json",
+      "generated_lifecycle_logs/run/replay/journal033.json",
+      "generated_lifecycle_logs/run/replay/epoch033.json",
+      "generated_lifecycle_logs/run/replay/journal032.json",
+      "generated_lifecycle_logs/run/replay/epoch032.json",
+      "generated_lifecycle_logs/run/replay/journal031.json",
+      "generated_lifecycle_logs/run/replay/epoch031.json",
+      "generated_lifecycle_logs/run/replay/journal030.json",
+      "generated_lifecycle_logs/run/replay/epoch030.json",
+      "generated_lifecycle_logs/run/replay/journal029.json",
+      "generated_lifecycle_logs/run/replay/epoch029.json",
+      "generated_lifecycle_logs/run/replay/journal028.json",
+      "generated_lifecycle_logs/run/replay/epoch028.json",
+      "generated_lifecycle_logs/run/replay/journal027.json",
+      "generated_lifecycle_logs/run/replay/epoch027.json",
+      "generated_lifecycle_logs/run/replay/journal026.json",
+      "generated_lifecycle_logs/run/replay/epoch026.json",
+      "generated_lifecycle_logs/run/replay/journal025.json",
+      "generated_lifecycle_logs/run/replay/epoch025.json",
+      "generated_lifecycle_logs/run/replay/journal024.json",
+      "generated_lifecycle_logs/run/replay/epoch024.json",
+      "generated_lifecycle_logs/run/replay/journal023.json",
+      "generated_lifecycle_logs/run/replay/epoch023.json",
+      "generated_lifecycle_logs/run/replay/journal022.json",
+      "generated_lifecycle_logs/run/replay/epoch022.json",
+      "generated_lifecycle_logs/run/replay/journal021.json",
+      "generated_lifecycle_logs/run/replay/epoch021.json",
+      "generated_lifecycle_logs/run/replay/journal020.json",
+      "generated_lifecycle_logs/run/replay/epoch020.json",
+      "generated_lifecycle_logs/run/replay/journal019.json",
+      "generated_lifecycle_logs/run/replay/epoch019.json",
+      "generated_lifecycle_logs/run/replay/journal018.json",
+      "generated_lifecycle_logs/run/replay/epoch018.json",
+      "generated_lifecycle_logs/run/replay/journal017.json",
+      "generated_lifecycle_logs/run/replay/epoch017.json",
+      "generated_lifecycle_logs/run/replay/journal016.json",
+      "generated_lifecycle_logs/run/replay/epoch016.json",
+      "generated_lifecycle_logs/run/replay/journal015.json",
+      "generated_lifecycle_logs/run/replay/epoch015.json",
+      "generated_lifecycle_logs/run/replay/journal014.json",
+      "generated_lifecycle_logs/run/replay/epoch014.json",
+      "generated_lifecycle_logs/run/replay/journal013.json",
+      "generated_lifecycle_logs/run/replay/epoch013.json",
+      "generated_lifecycle_logs/run/replay/journal012.json",
+      "generated_lifecycle_logs/run/replay/epoch012.json",
+      "generated_lifecycle_logs/run/replay/journal011.json",
+      "generated_lifecycle_logs/run/replay/epoch011.json",
+      "generated_lifecycle_logs/run/replay/journal010.json",
+      "generated_lifecycle_logs/run/replay/epoch010.json",
+      "generated_lifecycle_logs/run/replay/journal009.json",
+      "generated_lifecycle_logs/run/replay/epoch009.json",
+      "generated_lifecycle_logs/run/replay/journal008.json",
+      "generated_lifecycle_logs/run/replay/epoch008.json",
+      "generated_lifecycle_logs/run/replay/journal007.json",
+      "generated_lifecycle_logs/run/replay/epoch007.json",
+      "generated_lifecycle_logs/run/replay/journal006.json",
+      "generated_lifecycle_logs/run/replay/epoch006.json",
+      "generated_lifecycle_logs/run/replay/journal005.json",
+      "generated_lifecycle_logs/run/replay/epoch005.json",
+      "generated_lifecycle_logs/run/replay/journal004.json",
+      "generated_lifecycle_logs/run/replay/epoch004.json",
+      "generated_lifecycle_logs/run/replay/journal003.json",
+      "generated_lifecycle_logs/run/replay/epoch003.json",
+      "generated_lifecycle_logs/run/replay/journal002.json",
+      "generated_lifecycle_logs/run/replay/epoch002.json",
+      "generated_lifecycle_logs/run/replay/journal001.json",
+      "generated_lifecycle_logs/run/replay/epoch001.json",
+      "generated_lifecycle_logs/run/replay/journal000.json",
+      "generated_lifecycle_logs/run/replay/epoch000.json",
+      "generated_lifecycle_logs/run/train/COMPLETE.json",
+      "generated_lifecycle_logs/run/train/STEP_DIGEST_COST.json",
+      "generated_lifecycle_logs/run/train/CHECKPOINT_COST.json",
+      "generated_lifecycle_logs/run/train/EVALUATION_BATCH_COST.json",
+      "generated_lifecycle_logs/run/train/CALIBRATION_COST.json",
+      "generated_lifecycle_logs/run/train/OUTPUT_SELECTION.json",
+      "generated_lifecycle_logs/run/train/STATE.json",
+      "generated_lifecycle_logs/run/train/PROGRESS.json",
+      "generated_lifecycle_logs/run/train/journal064.json",
+      "generated_lifecycle_logs/run/train/epoch064.json",
+      "generated_lifecycle_logs/run/train/journal063.json",
+      "generated_lifecycle_logs/run/train/epoch063.json",
+      "generated_lifecycle_logs/run/train/journal062.json",
+      "generated_lifecycle_logs/run/train/epoch062.json",
+      "generated_lifecycle_logs/run/train/journal061.json",
+      "generated_lifecycle_logs/run/train/epoch061.json",
+      "generated_lifecycle_logs/run/train/journal060.json",
+      "generated_lifecycle_logs/run/train/epoch060.json",
+      "generated_lifecycle_logs/run/train/journal059.json",
+      "generated_lifecycle_logs/run/train/epoch059.json",
+      "generated_lifecycle_logs/run/train/journal058.json",
+      "generated_lifecycle_logs/run/train/epoch058.json",
+      "generated_lifecycle_logs/run/train/journal057.json",
+      "generated_lifecycle_logs/run/train/epoch057.json",
+      "generated_lifecycle_logs/run/train/journal056.json",
+      "generated_lifecycle_logs/run/train/epoch056.json",
+      "generated_lifecycle_logs/run/train/journal055.json",
+      "generated_lifecycle_logs/run/train/epoch055.json",
+      "generated_lifecycle_logs/run/train/journal054.json",
+      "generated_lifecycle_logs/run/train/epoch054.json",
+      "generated_lifecycle_logs/run/train/journal053.json",
+      "generated_lifecycle_logs/run/train/epoch053.json",
+      "generated_lifecycle_logs/run/train/journal052.json",
+      "generated_lifecycle_logs/run/train/epoch052.json",
+      "generated_lifecycle_logs/run/train/journal051.json",
+      "generated_lifecycle_logs/run/train/epoch051.json",
+      "generated_lifecycle_logs/run/train/journal050.json",
+      "generated_lifecycle_logs/run/train/epoch050.json",
+      "generated_lifecycle_logs/run/train/journal049.json",
+      "generated_lifecycle_logs/run/train/epoch049.json",
+      "generated_lifecycle_logs/run/train/journal048.json",
+      "generated_lifecycle_logs/run/train/epoch048.json",
+      "generated_lifecycle_logs/run/train/journal047.json",
+      "generated_lifecycle_logs/run/train/epoch047.json",
+      "generated_lifecycle_logs/run/train/journal046.json",
+      "generated_lifecycle_logs/run/train/epoch046.json",
+      "generated_lifecycle_logs/run/train/journal045.json",
+      "generated_lifecycle_logs/run/train/epoch045.json",
+      "generated_lifecycle_logs/run/train/journal044.json",
+      "generated_lifecycle_logs/run/train/epoch044.json",
+      "generated_lifecycle_logs/run/train/journal043.json",
+      "generated_lifecycle_logs/run/train/epoch043.json",
+      "generated_lifecycle_logs/run/train/journal042.json",
+      "generated_lifecycle_logs/run/train/epoch042.json",
+      "generated_lifecycle_logs/run/train/journal041.json",
+      "generated_lifecycle_logs/run/train/epoch041.json",
+      "generated_lifecycle_logs/run/train/journal040.json",
+      "generated_lifecycle_logs/run/train/epoch040.json",
+      "generated_lifecycle_logs/run/train/journal039.json",
+      "generated_lifecycle_logs/run/train/epoch039.json",
+      "generated_lifecycle_logs/run/train/journal038.json",
+      "generated_lifecycle_logs/run/train/epoch038.json",
+      "generated_lifecycle_logs/run/train/journal037.json",
+      "generated_lifecycle_logs/run/train/epoch037.json",
+      "generated_lifecycle_logs/run/train/journal036.json",
+      "generated_lifecycle_logs/run/train/epoch036.json",
+      "generated_lifecycle_logs/run/train/journal035.json",
+      "generated_lifecycle_logs/run/train/epoch035.json",
+      "generated_lifecycle_logs/run/train/journal034.json",
+      "generated_lifecycle_logs/run/train/epoch034.json",
+      "generated_lifecycle_logs/run/train/journal033.json",
+      "generated_lifecycle_logs/run/train/epoch033.json",
+      "generated_lifecycle_logs/run/train/journal032.json",
+      "generated_lifecycle_logs/run/train/epoch032.json",
+      "generated_lifecycle_logs/run/train/journal031.json",
+      "generated_lifecycle_logs/run/train/epoch031.json",
+      "generated_lifecycle_logs/run/train/journal030.json",
+      "generated_lifecycle_logs/run/train/epoch030.json",
+      "generated_lifecycle_logs/run/train/journal029.json",
+      "generated_lifecycle_logs/run/train/epoch029.json",
+      "generated_lifecycle_logs/run/train/journal028.json",
+      "generated_lifecycle_logs/run/train/epoch028.json",
+      "generated_lifecycle_logs/run/train/journal027.json",
+      "generated_lifecycle_logs/run/train/epoch027.json",
+      "generated_lifecycle_logs/run/train/journal026.json",
+      "generated_lifecycle_logs/run/train/epoch026.json",
+      "generated_lifecycle_logs/run/train/journal025.json",
+      "generated_lifecycle_logs/run/train/epoch025.json",
+      "generated_lifecycle_logs/run/train/journal024.json",
+      "generated_lifecycle_logs/run/train/epoch024.json",
+      "generated_lifecycle_logs/run/train/journal023.json",
+      "generated_lifecycle_logs/run/train/epoch023.json",
+      "generated_lifecycle_logs/run/train/journal022.json",
+      "generated_lifecycle_logs/run/train/epoch022.json",
+      "generated_lifecycle_logs/run/train/journal021.json",
+      "generated_lifecycle_logs/run/train/epoch021.json",
+      "generated_lifecycle_logs/run/train/journal020.json",
+      "generated_lifecycle_logs/run/train/epoch020.json",
+      "generated_lifecycle_logs/run/train/journal019.json",
+      "generated_lifecycle_logs/run/train/epoch019.json",
+      "generated_lifecycle_logs/run/train/journal018.json",
+      "generated_lifecycle_logs/run/train/epoch018.json",
+      "generated_lifecycle_logs/run/train/journal017.json",
+      "generated_lifecycle_logs/run/train/epoch017.json",
+      "generated_lifecycle_logs/run/train/journal016.json",
+      "generated_lifecycle_logs/run/train/epoch016.json",
+      "generated_lifecycle_logs/run/train/journal015.json",
+      "generated_lifecycle_logs/run/train/epoch015.json",
+      "generated_lifecycle_logs/run/train/journal014.json",
+      "generated_lifecycle_logs/run/train/epoch014.json",
+      "generated_lifecycle_logs/run/train/journal013.json",
+      "generated_lifecycle_logs/run/train/epoch013.json",
+      "generated_lifecycle_logs/run/train/journal012.json",
+      "generated_lifecycle_logs/run/train/epoch012.json",
+      "generated_lifecycle_logs/run/train/journal011.json",
+      "generated_lifecycle_logs/run/train/epoch011.json",
+      "generated_lifecycle_logs/run/train/journal010.json",
+      "generated_lifecycle_logs/run/train/epoch010.json",
+      "generated_lifecycle_logs/run/train/journal009.json",
+      "generated_lifecycle_logs/run/train/epoch009.json",
+      "generated_lifecycle_logs/run/train/journal008.json",
+      "generated_lifecycle_logs/run/train/epoch008.json",
+      "generated_lifecycle_logs/run/train/journal007.json",
+      "generated_lifecycle_logs/run/train/epoch007.json",
+      "generated_lifecycle_logs/run/train/journal006.json",
+      "generated_lifecycle_logs/run/train/epoch006.json",
+      "generated_lifecycle_logs/run/train/journal005.json",
+      "generated_lifecycle_logs/run/train/epoch005.json",
+      "generated_lifecycle_logs/run/train/journal004.json",
+      "generated_lifecycle_logs/run/train/epoch004.json",
+      "generated_lifecycle_logs/run/train/journal003.json",
+      "generated_lifecycle_logs/run/train/epoch003.json",
+      "generated_lifecycle_logs/run/train/journal002.json",
+      "generated_lifecycle_logs/run/train/epoch002.json",
+      "generated_lifecycle_logs/run/train/journal001.json",
+      "generated_lifecycle_logs/run/train/epoch001.json",
+      "generated_lifecycle_logs/run/train/FIRST_RELEASE.json",
+      "generated_lifecycle_logs/run/train/FIRST_INDEPENDENT_REFERENCE.json",
+      "generated_lifecycle_logs/run/train/FIRST_READY.json",
+      "generated_lifecycle_logs/run/train/journal000.json",
+      "generated_lifecycle_logs/run/train/epoch000.json",
+      "generated_lifecycle_logs/run/execution/output/TERMINATION.json",
+      "generated_lifecycle_logs/run/execution/output/IDENTITY.json",
+      "generated_lifecycle_logs/run/execution/output/stdout.log",
+      "generated_lifecycle_logs/run/execution/replay/TERMINATION.json",
+      "generated_lifecycle_logs/run/execution/replay/IDENTITY.json",
+      "generated_lifecycle_logs/run/execution/replay/stdout.log",
+      "generated_lifecycle_logs/run/execution/train/TERMINATION.json",
+      "generated_lifecycle_logs/run/execution/train/FIRST_AUDIT_TERMINATION.json",
+      "generated_lifecycle_logs/run/execution/train/FIRST_AUDIT_IDENTITY.json",
+      "generated_lifecycle_logs/run/execution/train/first_audit.log",
+      "generated_lifecycle_logs/run/execution/train/IDENTITY.json",
+      "generated_lifecycle_logs/run/execution/train/stdout.log"
+    ],
+    "independent_first_reference": {
+      "diagnostic_labels_read": false,
+      "does_not_exclude_all_shared_implementation_errors": true,
+      "max_gradient_absolute_difference": 1.4901161193847656e-08,
+      "method_state_native_replay_bitwise": true,
+      "native_reference": {
+        "state": "generated_fixture_no_real_GAP_checkpoint_read"
+      },
+      "parameters": 617612,
+      "reference_loss": 0.7051878469458228,
+      "segment_first_parameters_equal_native_post_update": true,
+      "state": "full617612_native_globalBCE_first_gradient_NumPy_reference_and_original_GAP_first_state_verified"
+    },
+    "new_UWB_fit_started": false,
+    "production_source_SHA256": {
+      "shared/controller.py": "d8d8a631a2a5318a5b39c27e11cfefe9862126f5686f2e7bfbe9333740e19135",
+      "shared/data.py": "05ca75f86993f306166413808828c98d837f2099612842abfb5597aba0ffdbaf",
+      "shared/engine.py": "294007c8ee14888f0f9da8a76fbe10501bce583ea693786220922ea4259d1752",
+      "shared/journal.py": "44700e8b040ad26afc78762ec0806732805869364d3374e9260f5669ad562ad5",
+      "shared/worker.py": "9efe4007353ee8e679b5a35c40aebcc7ab090da329b42163b21526ade066cea0"
+    },
+    "real_UWB_samples_labels_or_actual_IDs_read": false,
+    "real_data_firewall_exercised_with_synthetic_IDs_for_all6": [
+      {
+        "held": 1,
+        "held_truth_read_count": 0,
+        "train_count": 4700,
+        "validation_count": 1000
+      },
+      {
+        "held": 2,
+        "held_truth_read_count": 0,
+        "train_count": 4700,
+        "validation_count": 1200
+      },
+      {
+        "held": 3,
+        "held_truth_read_count": 0,
+        "train_count": 4500,
+        "validation_count": 1200
+      },
+      {
+        "held": 4,
+        "held_truth_read_count": 0,
+        "train_count": 4500,
+        "validation_count": 1200
+      },
+      {
+        "held": 5,
+        "held_truth_read_count": 0,
+        "train_count": 4600,
+        "validation_count": 1100
+      },
+      {
+        "held": 6,
+        "held_truth_read_count": 0,
+        "train_count": 4600,
+        "validation_count": 1200
+      }
+    ],
+    "state": "pass_actual_production_worker_controller_journal_on_generated_fixture",
+    "terminations": {
+      "output": {
+        "cumulative": {
+          "cpu": 68.829688,
+          "wall": 70.07225453300634
+        },
+        "diagnostic_labels_read": false,
+        "exit_code": 0,
+        "resource_stop_reason": null,
+        "users7_8_labels_used": false
+      },
+      "replay": {
+        "cumulative": {
+          "cpu": 65.08115600000001,
+          "wall": 66.06873349001398
+        },
+        "diagnostic_labels_read": false,
+        "exit_code": 0,
+        "resource_stop_reason": null,
+        "users7_8_labels_used": false
+      },
+      "train": {
+        "cumulative": {
+          "cpu": 34.478798000000005,
+          "wall": 35.045618012023624
+        },
+        "diagnostic_labels_read": false,
+        "exit_code": 0,
+        "resource_stop_reason": null,
+        "users7_8_labels_used": false
+      }
+    },
+    "wall": 70.32115045300452
+  },
+  "missing_release_blocks_fitting": true,
+  "new_UWB_fit_started": false,
+  "no_actual_UWB_arrays_labels_or_IDs_opened": true,
+  "perfold": [
+    {
+      "held": 1,
+      "result": {
+        "checks": {
+          "all8_dense_steps": true,
+          "all_RNG_and_modes_restored": true,
+          "finalize_exact": true,
+          "full_native617612": true,
+          "generated_only_no_real_IDs_maps_or_labels": true,
+          "native_slow_step6_and_SWAD_full_queues_disk7_to_exact8": true,
+          "source_roles_disjoint": true
+        },
+        "held": 1,
+        "new_UWB_fit_started": false,
+        "source_sha256": {
+          "engine.py": "294007c8ee14888f0f9da8a76fbe10501bce583ea693786220922ea4259d1752",
+          "synthetic.py": "e2c1d457da8df2c1c07ff1a9e8503baae759ca4e8085bd9e68ab58a0cd4e1fdf"
+        },
+        "state": "pass"
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.505038810020778
+      }
+    },
+    {
+      "held": 2,
+      "result": {
+        "checks": {
+          "all8_dense_steps": true,
+          "all_RNG_and_modes_restored": true,
+          "finalize_exact": true,
+          "full_native617612": true,
+          "generated_only_no_real_IDs_maps_or_labels": true,
+          "native_slow_step6_and_SWAD_full_queues_disk7_to_exact8": true,
+          "source_roles_disjoint": true
+        },
+        "held": 2,
+        "new_UWB_fit_started": false,
+        "source_sha256": {
+          "engine.py": "294007c8ee14888f0f9da8a76fbe10501bce583ea693786220922ea4259d1752",
+          "synthetic.py": "e2c1d457da8df2c1c07ff1a9e8503baae759ca4e8085bd9e68ab58a0cd4e1fdf"
+        },
+        "state": "pass"
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.004716727009509
+      }
+    },
+    {
+      "held": 3,
+      "result": {
+        "checks": {
+          "all8_dense_steps": true,
+          "all_RNG_and_modes_restored": true,
+          "finalize_exact": true,
+          "full_native617612": true,
+          "generated_only_no_real_IDs_maps_or_labels": true,
+          "native_slow_step6_and_SWAD_full_queues_disk7_to_exact8": true,
+          "source_roles_disjoint": true
+        },
+        "held": 3,
+        "new_UWB_fit_started": false,
+        "source_sha256": {
+          "engine.py": "294007c8ee14888f0f9da8a76fbe10501bce583ea693786220922ea4259d1752",
+          "synthetic.py": "e2c1d457da8df2c1c07ff1a9e8503baae759ca4e8085bd9e68ab58a0cd4e1fdf"
+        },
+        "state": "pass"
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.0059726139879785
+      }
+    },
+    {
+      "held": 4,
+      "result": {
+        "checks": {
+          "all8_dense_steps": true,
+          "all_RNG_and_modes_restored": true,
+          "finalize_exact": true,
+          "full_native617612": true,
+          "generated_only_no_real_IDs_maps_or_labels": true,
+          "native_slow_step6_and_SWAD_full_queues_disk7_to_exact8": true,
+          "source_roles_disjoint": true
+        },
+        "held": 4,
+        "new_UWB_fit_started": false,
+        "source_sha256": {
+          "engine.py": "294007c8ee14888f0f9da8a76fbe10501bce583ea693786220922ea4259d1752",
+          "synthetic.py": "e2c1d457da8df2c1c07ff1a9e8503baae759ca4e8085bd9e68ab58a0cd4e1fdf"
+        },
+        "state": "pass"
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.504765841993503
+      }
+    },
+    {
+      "held": 5,
+      "result": {
+        "checks": {
+          "all8_dense_steps": true,
+          "all_RNG_and_modes_restored": true,
+          "finalize_exact": true,
+          "full_native617612": true,
+          "generated_only_no_real_IDs_maps_or_labels": true,
+          "native_slow_step6_and_SWAD_full_queues_disk7_to_exact8": true,
+          "source_roles_disjoint": true
+        },
+        "held": 5,
+        "new_UWB_fit_started": false,
+        "source_sha256": {
+          "engine.py": "294007c8ee14888f0f9da8a76fbe10501bce583ea693786220922ea4259d1752",
+          "synthetic.py": "e2c1d457da8df2c1c07ff1a9e8503baae759ca4e8085bd9e68ab58a0cd4e1fdf"
+        },
+        "state": "pass"
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.5078271349775605
+      }
+    },
+    {
+      "held": 6,
+      "result": {
+        "checks": {
+          "all8_dense_steps": true,
+          "all_RNG_and_modes_restored": true,
+          "finalize_exact": true,
+          "full_native617612": true,
+          "generated_only_no_real_IDs_maps_or_labels": true,
+          "native_slow_step6_and_SWAD_full_queues_disk7_to_exact8": true,
+          "source_roles_disjoint": true
+        },
+        "held": 6,
+        "new_UWB_fit_started": false,
+        "source_sha256": {
+          "engine.py": "294007c8ee14888f0f9da8a76fbe10501bce583ea693786220922ea4259d1752",
+          "synthetic.py": "e2c1d457da8df2c1c07ff1a9e8503baae759ca4e8085bd9e68ab58a0cd4e1fdf"
+        },
+        "state": "pass"
+      },
+      "termination": {
+        "exit_code": 0,
+        "new_UWB_fit_started": false,
+        "resource_stop_reason": null,
+        "wall": 5.50649166299263
+      }
+    }
+  ],
+  "resource_estimate_seconds": 43176.37008657762,
+  "resource_gate_passed": true,
+  "role_metric_checks": {
+    "absent_class_prediction_counted_wrong": true,
+    "equal_user_mean_vs_sample_weighted_pool_distinguished": true,
+    "missing_class_recall_null": true,
+    "new_fit_started": false,
+    "paired_subject_count_and_class_support_equal": true,
+    "state": "pass",
+    "synthetic_role_disjointness_all6": true,
+    "unbalanced_accuracy_vs_macro_distinguished": true
+  },
+  "safety": {
+    "no_UWB_arrays_or_training": true,
+    "state": "pass",
+    "toy_controller_worker_first_auditor_separate_sessions_all_stopped": true
+  },
+  "source_BN": {
+    "BN_tolerance": {
+      "atol": 3e-06,
+      "rtol": 3e-05
+    },
+    "CPU": 11.95494184,
+    "actual_UWB_arrays_labels_or_IDs_read": false,
+    "max_mean_absolute_difference": 2.3593623010853548e-07,
+    "max_variance_absolute_difference": 5.777548983676439e-08,
+    "newfit_started": false,
+    "production_full_B64_BN_batch_timings": [
+      {
+        "CPU": 0.15467594600000023,
+        "n": 64,
+        "wall": 0.1546773129957728
+      },
+      {
+        "CPU": 0.1415467989999999,
+        "n": 64,
+        "wall": 0.14154658699408174
+      },
+      {
+        "CPU": 0.15047678699999967,
+        "n": 64,
+        "wall": 0.15048693801509216
+      },
+      {
+        "CPU": 0.14127475600000006,
+        "n": 64,
+        "wall": 0.1412769960006699
+      },
+      {
+        "CPU": 0.1557822369999995,
+        "n": 64,
+        "wall": 0.15579134097788483
+      },
+      {
+        "CPU": 0.14524848100000032,
+        "n": 64,
+        "wall": 0.14526019198819995
+      },
+      {
+        "CPU": 0.16371206100000002,
+        "n": 64,
+        "wall": 0.16371266497299075
+      },
+      {
+        "CPU": 0.14363478699999987,
+        "n": 64,
+        "wall": 0.14363592601148412
+      },
+      {
+        "CPU": 0.159671887,
+        "n": 64,
+        "wall": 0.15967231697868556
+      },
+      {
+        "CPU": 0.14340223199999969,
+        "n": 64,
+        "wall": 0.14340371399885044
+      },
+      {
+        "CPU": 0.15414518799999932,
+        "n": 64,
+        "wall": 0.1541457650018856
+      },
+      {
+        "CPU": 0.1449489660000003,
+        "n": 64,
+        "wall": 0.14495127502596006
+      },
+      {
+        "CPU": 0.15398068399999865,
+        "n": 64,
+        "wall": 0.15398150199325755
+      },
+      {
+        "CPU": 0.13896651099999957,
+        "n": 64,
+        "wall": 0.13896757597103715
+      },
+      {
+        "CPU": 0.1562339570000013,
+        "n": 64,
+        "wall": 0.1562340140226297
+      },
+      {
+        "CPU": 0.15693038999999942,
+        "n": 64,
+        "wall": 0.15693363500759006
+      },
+      {
+        "CPU": 0.16363475499999858,
+        "n": 64,
+        "wall": 0.16364152496680617
+      },
+      {
+        "CPU": 0.14300117600000029,
+        "n": 64,
+        "wall": 0.14300125697627664
+      },
+      {
+        "CPU": 0.15270633399999944,
+        "n": 64,
+        "wall": 0.1527065560221672
+      },
+      {
+        "CPU": 0.13846076199999935,
+        "n": 64,
+        "wall": 0.13934305403381586
+      },
+      {
+        "CPU": 0.1533725419999996,
+        "n": 64,
+        "wall": 0.15338134596822783
+      },
+      {
+        "CPU": 0.14506850399999927,
+        "n": 64,
+        "wall": 0.14506925002206117
+      },
+      {
+        "CPU": 0.15825588699999926,
+        "n": 64,
+        "wall": 0.15825628995662555
+      },
+      {
+        "CPU": 0.13726298499999956,
+        "n": 64,
+        "wall": 0.13726467901142314
+      }
+    ],
+    "production_full_B64_eval_batch_timings": [
+      {
+        "CPU": 0.1400302990000002,
+        "n": 64,
+        "wall": 0.14002977998461574
+      },
+      {
+        "CPU": 0.14581936699999964,
+        "n": 64,
+        "wall": 0.14582750701811165
+      },
+      {
+        "CPU": 0.1494581859999986,
+        "n": 64,
+        "wall": 0.14945994602749124
+      },
+      {
+        "CPU": 0.14300824700000092,
+        "n": 64,
+        "wall": 0.1430164300254546
+      },
+      {
+        "CPU": 0.15210071599999964,
+        "n": 64,
+        "wall": 0.15210198797285557
+      },
+      {
+        "CPU": 0.1448856119999995,
+        "n": 64,
+        "wall": 0.14490105101140216
+      }
+    ],
+    "rows": [
+      {
+        "BN_modules": 8,
+        "all_training_IDs_exactly_once": true,
+        "calibration_metadata": {
+          "BN_batches": {
+            "feature_extractor.instance_encoder.0.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.0.residual.1": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.1.residual.1": 5
+          },
+          "BN_buffer_sha256": "98509e1cf93378447d1cc4e3bc76e4962167202bfd20111e9a4780c9d58f8282",
+          "all_main_RNG_and_modes_and_momenta_restored": true,
+          "batch": 64,
+          "forward_batches": 5,
+          "n": 276,
+          "only_BN_stat_buffers_changed": true,
+          "ordered_source_ids_sha256": "3b188fc8cdcdd34d9afe22862a342d2bb418ba1ff4dfcf8a7608bdb59fcf8491",
+          "parameters_sha256": "49f1f0b94d0d2d38b3719fc3ae0cbc3506e57b9825df0aaf25a478fa69c08886",
+          "parameters_unchanged": true,
+          "passes": 1,
+          "seed": 21161030,
+          "source_ids_sha256": "ceb33e425ca6ce5185385e772e0cf10e5370245e875e0e5880939c5e037e3f67",
+          "source_users": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "state": "source_only_BN_fullpass_complete_no_labels_no_parameter_update",
+          "validation_or_held_inputs_used": false
+        },
+        "held": 1,
+        "held_or_validation_inputs_calibrated": false,
+        "independent_NumPy_batch_mean_and_unbiased_variance": true,
+        "parameters_and_RNG_modes_momenta_unchanged": true,
+        "production_unhooked_cost": {
+          "CPU": 0.6553987889999999,
+          "forward_batches": [
+            {
+              "CPU": 0.15467594600000023,
+              "n": 64,
+              "wall": 0.1546773129957728
+            },
+            {
+              "CPU": 0.1415467989999999,
+              "n": 64,
+              "wall": 0.14154658699408174
+            },
+            {
+              "CPU": 0.15047678699999967,
+              "n": 64,
+              "wall": 0.15048693801509216
+            },
+            {
+              "CPU": 0.14127475600000006,
+              "n": 64,
+              "wall": 0.1412769960006699
+            },
+            {
+              "CPU": 0.04781773599999983,
+              "n": 20,
+              "wall": 0.04781658004503697
+            }
+          ],
+          "wall": 0.6554105440154672
+        },
+        "reference_hook_cost": {
+          "CPU": 0.769106399,
+          "forward_batches": [
+            {
+              "CPU": 0.20524061699999985,
+              "n": 64,
+              "wall": 0.20533190498827025
+            },
+            {
+              "CPU": 0.16415165300000023,
+              "n": 64,
+              "wall": 0.16415221901843324
+            },
+            {
+              "CPU": 0.1510318199999996,
+              "n": 64,
+              "wall": 0.15103173902025446
+            },
+            {
+              "CPU": 0.15977781500000043,
+              "n": 64,
+              "wall": 0.1597882059868425
+            },
+            {
+              "CPU": 0.06598749000000037,
+              "n": 20,
+              "wall": 0.06598519999533892
+            }
+          ],
+          "wall": 0.7692093279911205
+        },
+        "repeat_bitwise_exact": true,
+        "source_only_input_firewall": true,
+        "tail": 20,
+        "train_source_count": 276
+      },
+      {
+        "BN_modules": 8,
+        "all_training_IDs_exactly_once": true,
+        "calibration_metadata": {
+          "BN_batches": {
+            "feature_extractor.instance_encoder.0.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.0.residual.1": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.1.residual.1": 5
+          },
+          "BN_buffer_sha256": "159e0d28e19db62efd03f086c659cc14c2c0636b964b96f2d6b13b6f06e80cae",
+          "all_main_RNG_and_modes_and_momenta_restored": true,
+          "batch": 64,
+          "forward_batches": 5,
+          "n": 284,
+          "only_BN_stat_buffers_changed": true,
+          "ordered_source_ids_sha256": "baf3f78fa50dff058e064fa1c6ce77d2fd60ac4dcf0335dce063ebb05c0471f5",
+          "parameters_sha256": "49f1f0b94d0d2d38b3719fc3ae0cbc3506e57b9825df0aaf25a478fa69c08886",
+          "parameters_unchanged": true,
+          "passes": 1,
+          "seed": 21161030,
+          "source_ids_sha256": "e85cda03dad4da9a898c8107e9bf60c28d319275301ea150994091c6ea19d4a6",
+          "source_users": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "state": "source_only_BN_fullpass_complete_no_labels_no_parameter_update",
+          "validation_or_held_inputs_used": false
+        },
+        "held": 2,
+        "held_or_validation_inputs_calibrated": false,
+        "independent_NumPy_batch_mean_and_unbiased_variance": true,
+        "parameters_and_RNG_modes_momenta_unchanged": true,
+        "production_unhooked_cost": {
+          "CPU": 0.691115173,
+          "forward_batches": [
+            {
+              "CPU": 0.1557822369999995,
+              "n": 64,
+              "wall": 0.15579134097788483
+            },
+            {
+              "CPU": 0.14524848100000032,
+              "n": 64,
+              "wall": 0.14526019198819995
+            },
+            {
+              "CPU": 0.16371206100000002,
+              "n": 64,
+              "wall": 0.16371266497299075
+            },
+            {
+              "CPU": 0.14363478699999987,
+              "n": 64,
+              "wall": 0.14363592601148412
+            },
+            {
+              "CPU": 0.06340829399999937,
+              "n": 28,
+              "wall": 0.06341547699412331
+            }
+          ],
+          "wall": 0.6911431350163184
+        },
+        "reference_hook_cost": {
+          "CPU": 0.7351270030000006,
+          "forward_batches": [
+            {
+              "CPU": 0.1709954250000001,
+              "n": 64,
+              "wall": 0.17099678301019594
+            },
+            {
+              "CPU": 0.15000471699999984,
+              "n": 64,
+              "wall": 0.1500076850061305
+            },
+            {
+              "CPU": 0.1623369409999995,
+              "n": 64,
+              "wall": 0.16234652197454125
+            },
+            {
+              "CPU": 0.15695928299999995,
+              "n": 64,
+              "wall": 0.15697873599128798
+            },
+            {
+              "CPU": 0.07502934299999975,
+              "n": 28,
+              "wall": 0.07502786401892081
+            }
+          ],
+          "wall": 0.7351580890244804
+        },
+        "repeat_bitwise_exact": true,
+        "source_only_input_firewall": true,
+        "tail": 28,
+        "train_source_count": 284
+      },
+      {
+        "BN_modules": 8,
+        "all_training_IDs_exactly_once": true,
+        "calibration_metadata": {
+          "BN_batches": {
+            "feature_extractor.instance_encoder.0.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.0.residual.1": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.1.residual.1": 5
+          },
+          "BN_buffer_sha256": "2ea05195ce90fb9c3663dad8d59f4718913410408c6736e709d10956dc505f6b",
+          "all_main_RNG_and_modes_and_momenta_restored": true,
+          "batch": 64,
+          "forward_batches": 5,
+          "n": 312,
+          "only_BN_stat_buffers_changed": true,
+          "ordered_source_ids_sha256": "0f204ddbefcf319a0c05c53cb417d23f2ca9281de9874665ca9f8894546fcb3e",
+          "parameters_sha256": "49f1f0b94d0d2d38b3719fc3ae0cbc3506e57b9825df0aaf25a478fa69c08886",
+          "parameters_unchanged": true,
+          "passes": 1,
+          "seed": 21161030,
+          "source_ids_sha256": "d6327a52eda7e1c408d6418890705eb6587427d207b2096ad798ce823f2e576a",
+          "source_users": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "state": "source_only_BN_fullpass_complete_no_labels_no_parameter_update",
+          "validation_or_held_inputs_used": false
+        },
+        "held": 3,
+        "held_or_validation_inputs_calibrated": false,
+        "independent_NumPy_batch_mean_and_unbiased_variance": true,
+        "parameters_and_RNG_modes_momenta_unchanged": true,
+        "production_unhooked_cost": {
+          "CPU": 0.7646422269999995,
+          "forward_batches": [
+            {
+              "CPU": 0.159671887,
+              "n": 64,
+              "wall": 0.15967231697868556
+            },
+            {
+              "CPU": 0.14340223199999969,
+              "n": 64,
+              "wall": 0.14340371399885044
+            },
+            {
+              "CPU": 0.15414518799999932,
+              "n": 64,
+              "wall": 0.1541457650018856
+            },
+            {
+              "CPU": 0.1449489660000003,
+              "n": 64,
+              "wall": 0.14495127502596006
+            },
+            {
+              "CPU": 0.14007178099999962,
+              "n": 56,
+              "wall": 0.13999261800199747
+            }
+          ],
+          "wall": 0.764657219988294
+        },
+        "reference_hook_cost": {
+          "CPU": 0.8423241859999999,
+          "forward_batches": [
+            {
+              "CPU": 0.1680069529999999,
+              "n": 64,
+              "wall": 0.16815532697364688
+            },
+            {
+              "CPU": 0.1576795820000001,
+              "n": 64,
+              "wall": 0.15768109395867214
+            },
+            {
+              "CPU": 0.16827724299999947,
+              "n": 64,
+              "wall": 0.1682886469643563
+            },
+            {
+              "CPU": 0.16599754099999942,
+              "n": 64,
+              "wall": 0.16599990095710382
+            },
+            {
+              "CPU": 0.16076847399999927,
+              "n": 56,
+              "wall": 0.16077877295902
+            }
+          ],
+          "wall": 0.8424974990193732
+        },
+        "repeat_bitwise_exact": true,
+        "source_only_input_firewall": true,
+        "tail": 56,
+        "train_source_count": 312
+      },
+      {
+        "BN_modules": 8,
+        "all_training_IDs_exactly_once": true,
+        "calibration_metadata": {
+          "BN_batches": {
+            "feature_extractor.instance_encoder.0.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.0.residual.1": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.1.residual.1": 5
+          },
+          "BN_buffer_sha256": "6630af710cec8ddc2dc8ed7629f33ad7479d0a50834e7bb13654d0d52776f8ae",
+          "all_main_RNG_and_modes_and_momenta_restored": true,
+          "batch": 64,
+          "forward_batches": 5,
+          "n": 276,
+          "only_BN_stat_buffers_changed": true,
+          "ordered_source_ids_sha256": "3b188fc8cdcdd34d9afe22862a342d2bb418ba1ff4dfcf8a7608bdb59fcf8491",
+          "parameters_sha256": "49f1f0b94d0d2d38b3719fc3ae0cbc3506e57b9825df0aaf25a478fa69c08886",
+          "parameters_unchanged": true,
+          "passes": 1,
+          "seed": 21161030,
+          "source_ids_sha256": "ceb33e425ca6ce5185385e772e0cf10e5370245e875e0e5880939c5e037e3f67",
+          "source_users": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "state": "source_only_BN_fullpass_complete_no_labels_no_parameter_update",
+          "validation_or_held_inputs_used": false
+        },
+        "held": 4,
+        "held_or_validation_inputs_calibrated": false,
+        "independent_NumPy_batch_mean_and_unbiased_variance": true,
+        "parameters_and_RNG_modes_momenta_unchanged": true,
+        "production_unhooked_cost": {
+          "CPU": 0.6740818040000001,
+          "forward_batches": [
+            {
+              "CPU": 0.15398068399999865,
+              "n": 64,
+              "wall": 0.15398150199325755
+            },
+            {
+              "CPU": 0.13896651099999957,
+              "n": 64,
+              "wall": 0.13896757597103715
+            },
+            {
+              "CPU": 0.1562339570000013,
+              "n": 64,
+              "wall": 0.1562340140226297
+            },
+            {
+              "CPU": 0.15693038999999942,
+              "n": 64,
+              "wall": 0.15693363500759006
+            },
+            {
+              "CPU": 0.045703960000000876,
+              "n": 20,
+              "wall": 0.045703634968958795
+            }
+          ],
+          "wall": 0.6740850859787315
+        },
+        "reference_hook_cost": {
+          "CPU": 0.7547909780000008,
+          "forward_batches": [
+            {
+              "CPU": 0.19396220600000014,
+              "n": 64,
+              "wall": 0.19396096200216562
+            },
+            {
+              "CPU": 0.16125672300000105,
+              "n": 64,
+              "wall": 0.16125656198710203
+            },
+            {
+              "CPU": 0.1673225459999994,
+              "n": 64,
+              "wall": 0.16733282600762323
+            },
+            {
+              "CPU": 0.15612932199999996,
+              "n": 64,
+              "wall": 0.15612883697031066
+            },
+            {
+              "CPU": 0.05479809099999855,
+              "n": 20,
+              "wall": 0.0548583340132609
+            }
+          ],
+          "wall": 0.7548650100361556
+        },
+        "repeat_bitwise_exact": true,
+        "source_only_input_firewall": true,
+        "tail": 20,
+        "train_source_count": 276
+      },
+      {
+        "BN_modules": 8,
+        "all_training_IDs_exactly_once": true,
+        "calibration_metadata": {
+          "BN_batches": {
+            "feature_extractor.instance_encoder.0.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.0.residual.1": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.1.residual.1": 5
+          },
+          "BN_buffer_sha256": "fe4ee935ee97130e6820853eee3f523291e9fcc7986a5e36de7cd45a46f861bb",
+          "all_main_RNG_and_modes_and_momenta_restored": true,
+          "batch": 64,
+          "forward_batches": 5,
+          "n": 284,
+          "only_BN_stat_buffers_changed": true,
+          "ordered_source_ids_sha256": "baf3f78fa50dff058e064fa1c6ce77d2fd60ac4dcf0335dce063ebb05c0471f5",
+          "parameters_sha256": "49f1f0b94d0d2d38b3719fc3ae0cbc3506e57b9825df0aaf25a478fa69c08886",
+          "parameters_unchanged": true,
+          "passes": 1,
+          "seed": 21161030,
+          "source_ids_sha256": "e85cda03dad4da9a898c8107e9bf60c28d319275301ea150994091c6ea19d4a6",
+          "source_users": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "state": "source_only_BN_fullpass_complete_no_labels_no_parameter_update",
+          "validation_or_held_inputs_used": false
+        },
+        "held": 5,
+        "held_or_validation_inputs_calibrated": false,
+        "independent_NumPy_batch_mean_and_unbiased_variance": true,
+        "parameters_and_RNG_modes_momenta_unchanged": true,
+        "production_unhooked_cost": {
+          "CPU": 0.6959311579999987,
+          "forward_batches": [
+            {
+              "CPU": 0.16363475499999858,
+              "n": 64,
+              "wall": 0.16364152496680617
+            },
+            {
+              "CPU": 0.14300117600000029,
+              "n": 64,
+              "wall": 0.14300125697627664
+            },
+            {
+              "CPU": 0.15270633399999944,
+              "n": 64,
+              "wall": 0.1527065560221672
+            },
+            {
+              "CPU": 0.13846076199999935,
+              "n": 64,
+              "wall": 0.13934305403381586
+            },
+            {
+              "CPU": 0.07818964199999989,
+              "n": 28,
+              "wall": 0.07818945497274399
+            }
+          ],
+          "wall": 0.6968273610109463
+        },
+        "reference_hook_cost": {
+          "CPU": 0.7452283180000006,
+          "forward_batches": [
+            {
+              "CPU": 0.1630949349999984,
+              "n": 64,
+              "wall": 0.16309455101145431
+            },
+            {
+              "CPU": 0.16249172000000023,
+              "n": 64,
+              "wall": 0.16249104304006323
+            },
+            {
+              "CPU": 0.16846774499999917,
+              "n": 64,
+              "wall": 0.16846883698599413
+            },
+            {
+              "CPU": 0.15923698299999955,
+              "n": 64,
+              "wall": 0.15924808796262369
+            },
+            {
+              "CPU": 0.07170099499999871,
+              "n": 28,
+              "wall": 0.07170027098618448
+            }
+          ],
+          "wall": 0.7452409570105374
+        },
+        "repeat_bitwise_exact": true,
+        "source_only_input_firewall": true,
+        "tail": 28,
+        "train_source_count": 284
+      },
+      {
+        "BN_modules": 8,
+        "all_training_IDs_exactly_once": true,
+        "calibration_metadata": {
+          "BN_batches": {
+            "feature_extractor.instance_encoder.0.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.0.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.0.residual.1": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.0.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.1.activation.0": 5,
+            "feature_extractor.instance_encoder.1.inception_modules.2.activation.0": 5,
+            "feature_extractor.instance_encoder.1.residual.1": 5
+          },
+          "BN_buffer_sha256": "069da7f3c4b49aaadced08e8aba7b71fd9e48ff626f67a81491180f4bfe12783",
+          "all_main_RNG_and_modes_and_momenta_restored": true,
+          "batch": 64,
+          "forward_batches": 5,
+          "n": 312,
+          "only_BN_stat_buffers_changed": true,
+          "ordered_source_ids_sha256": "0f204ddbefcf319a0c05c53cb417d23f2ca9281de9874665ca9f8894546fcb3e",
+          "parameters_sha256": "49f1f0b94d0d2d38b3719fc3ae0cbc3506e57b9825df0aaf25a478fa69c08886",
+          "parameters_unchanged": true,
+          "passes": 1,
+          "seed": 21161030,
+          "source_ids_sha256": "d6327a52eda7e1c408d6418890705eb6587427d207b2096ad798ce823f2e576a",
+          "source_users": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "state": "source_only_BN_fullpass_complete_no_labels_no_parameter_update",
+          "validation_or_held_inputs_used": false
+        },
+        "held": 6,
+        "held_or_validation_inputs_calibrated": false,
+        "independent_NumPy_batch_mean_and_unbiased_variance": true,
+        "parameters_and_RNG_modes_momenta_unchanged": true,
+        "production_unhooked_cost": {
+          "CPU": 0.7504375539999995,
+          "forward_batches": [
+            {
+              "CPU": 0.1533725419999996,
+              "n": 64,
+              "wall": 0.15338134596822783
+            },
+            {
+              "CPU": 0.14506850399999927,
+              "n": 64,
+              "wall": 0.14506925002206117
+            },
+            {
+              "CPU": 0.15825588699999926,
+              "n": 64,
+              "wall": 0.15825628995662555
+            },
+            {
+              "CPU": 0.13726298499999956,
+              "n": 64,
+              "wall": 0.13726467901142314
+            },
+            {
+              "CPU": 0.135192172,
+              "n": 56,
+              "wall": 0.1351922649773769
+            }
+          ],
+          "wall": 0.7504514619940892
+        },
+        "reference_hook_cost": {
+          "CPU": 0.8384546339999996,
+          "forward_batches": [
+            {
+              "CPU": 0.16983903000000034,
+              "n": 64,
+              "wall": 0.1698380610323511
+            },
+            {
+              "CPU": 0.1635340259999989,
+              "n": 64,
+              "wall": 0.16353538300609216
+            },
+            {
+              "CPU": 0.17234350499999884,
+              "n": 64,
+              "wall": 0.1723437590408139
+            },
+            {
+              "CPU": 0.15906680900000048,
+              "n": 64,
+              "wall": 0.1590676759951748
+            },
+            {
+              "CPU": 0.15130169000000038,
+              "n": 56,
+              "wall": 0.15130999503890052
+            }
+          ],
+          "wall": 0.8386201279936358
+        },
+        "repeat_bitwise_exact": true,
+        "source_only_input_firewall": true,
+        "tail": 56,
+        "train_source_count": 312
+      }
+    ],
+    "state": "pass_all6_generated_fullnative_BN_roles_independent_stats_repeat_RNG_modes",
+    "wall": 11.958357287978288
+  },
+  "wall": 32.80458920903038
+}

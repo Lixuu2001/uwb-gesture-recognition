@@ -1,0 +1,29 @@
+{
+  "SWAD_native_ratio": 1.0487515082276877,
+  "actual_UWB_values_or_labels_or_IDs_opened": false,
+  "actual_phase_wall_and_CPU_supervision_remains_43200": true,
+  "core_measurement_repeated": false,
+  "estimate_is_not_a_runtime_guarantee": true,
+  "formula": "core_estimate-1200+max(1200,1.25*(max_checkpoint_wall_orCPU*780+max_step_digest_wall_orCPU*55552+max_BN_forward_batch_wall_orCPU*3906+max_eval_forward_batch_wall_orCPU*2880))<=43200",
+  "gate_passed": true,
+  "inputs": {
+    "BN_SYNTHETIC_RESULT.json": "f39cbff397abd6a79318354e91fefc3c60eabe7f48f735f4ff28a9fa44f1ecc3",
+    "generated_lifecycle_logs/run/replay/CHECKPOINT_COST.json": "24b573083a8569321a5d1f8d7502dac9650b7b96d097e033150f3139e13ef2c5",
+    "generated_lifecycle_logs/run/replay/STEP_DIGEST_COST.json": "4b00e8cba8eb2919ffb46a9cac76ff414e76afed1f6ce995ec715bfdcb6c9a1b",
+    "generated_lifecycle_logs/run/train/CHECKPOINT_COST.json": "14533f9f2a805e5cbe302bf92f28d8a85050f0f14c7d7f95e39435943b478b64",
+    "generated_lifecycle_logs/run/train/STEP_DIGEST_COST.json": "d00009dbb81f0cff02ab1c702af4c14470b28181789a21b2738a964adef37358"
+  },
+  "maxima_seconds": {
+    "BN": 0.16371266497299075,
+    "checkpoint": 0.4403018340235576,
+    "eval": 0.15210198797285557,
+    "step_digest": 0.007380770985037088
+  },
+  "measurement_inputs_sha256": "67176b457ed823c5dfea8daf41e2995e9571dec6804edb75705bf4df954f8227",
+  "new_UWB_fit_started": false,
+  "remaining_seconds_to_fixed_cap": 23.629913422380923,
+  "reserve_seconds": 43176.37008657762,
+  "resource_protocol_sha256": "0a87ecd50314e8633a3c5c5bf5156491d918a04a1331ea66421d16a7dd197cf6",
+  "state": "single_fixed_core_reuse_plus_measured_integrated_overhead_gate",
+  "unmultiplied_integrated_overhead_seconds": 1830.9674150454812
+}

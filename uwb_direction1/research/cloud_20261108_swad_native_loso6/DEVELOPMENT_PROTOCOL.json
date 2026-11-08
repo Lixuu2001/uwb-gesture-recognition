@@ -1,0 +1,366 @@
+{
+  "activation": "All prior5 exact negative cohorts closed; complete6 generated native/roles/BN/journal/supervisor/resource tests, exactsource and private6initial before onefit",
+  "author_protocol_reproduced": false,
+  "bounded_LOSO_continuation_gate": {
+    "applies_only_to_new_unscored_MMD_sixfold_not_retroactive_to_prior_closed_methods": false,
+    "mean_paired_macro_recall_gain_min": 0.005,
+    "no_post_score_coefficient_kernel_epoch_seed_or_fold_grid": true,
+    "report_any_measured_positive_or_negative_result_even_if_spending_gate_fails": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_macro_recall_delta_min": -0.02,
+    "applies_to_new_SWAD_complete6_only": true
+  },
+  "candidate": "published SWAD LossValley3/6/.3 dense fullnative component with sourceBN and same-trajectory controls",
+  "class_support_and_metric_definitions": {
+    "absent_class_rule": "true support0 yields null per-class recall; exclude only undefined true-class recall from present macro; a prediction of absent class for any true example is still wrong",
+    "accuracy_equals_macro_on_this_balanced_present_support": true,
+    "class_support": [
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 1
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "present_classes_balanced": true,
+        "user": 2
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 3
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 4
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [],
+        "n": 1200,
+        "present_classes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 5
+      },
+      {
+        "class_counts": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_classes": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "present_classes_balanced": true,
+        "user": 6
+      }
+    ],
+    "class_support_audit_only_no_prediction_pairing": true,
+    "primary": "equal subject mean of present-class macro recall; all6 folds reported",
+    "secondary": [
+      "per-subject accuracy",
+      "per-class support and recall including null for absent true classes",
+      "worst subject macro recall",
+      "paired per-subject differences and strict wins",
+      "sample-weighted pooled accuracy separately named",
+      "training/inference/replay/archive costs separately"
+    ]
+  },
+  "component_source": {
+    "core_source_commit": "9c740a5a1130e86cfa9af7d63f7b1a0a3918a8f1",
+    "core_source_sha256": "b2648445742d3fd49aaf49d2020b2d3f70a60fe618c6b46b1c36d8a0a317de96",
+    "core_source_unchanged": true
+  },
+  "created_unix": 1794138272.87311,
+  "current_MMD_accuracy_unknown": false,
+  "data": "/workspace/uwb-restored-20261103",
+  "fixed_method": {
+    "state": "fixed_prospective_fullrunner_integration",
+    "created_utc": "2026-11-08T10:32:30.747687+00:00",
+    "method": "published_SWAD_LossValley_default3_6_0p3_component_on_full_native_GAP",
+    "parameters": 617612,
+    "input": "all3signed_RMS_Nx90x567",
+    "batch": 64,
+    "epochs": 64,
+    "seed": 20261029,
+    "threads": 1,
+    "native_loss": "same_global_onehot12BCE",
+    "native_optimizer": "AdamW.001wd.0001StableLookahead.5k6lazy_clip2",
+    "default_windows": {
+      "n_converge": 3,
+      "n_tolerance": 6,
+      "tolerance_ratio": 0.3
+    },
+    "dense_segments": "each post-native-update model, one full-epoch checkpoint",
+    "fixed_tail_control": "same trajectory dense epochs33..64; no test-selected window",
+    "strong_baseline": "original GAP64 sixfold, no refit to lower conditions",
+    "BN_required_before_admission": "source-only seeded shuffled full-training-ID B64 calibration, same for SWAD/tail; separately selected-GAP BN-only control; validation and held forbidden; RNG/mode restoration required",
+    "author_deviations": [
+      "Native617612 BCE/AdamWLookahead/all3RMS replaces pretrainedResNet/CE/Adam/images",
+      "Author default freeze_bn=True; keep native trainingBN and explicitly adapt source-only calibration, explicit source-only adaptation",
+      "Author stops at valley death; complete fixed64 native trajectory/tail while valley stays frozen",
+      "One-full-epoch checkpoints replace author dataset-specific steps including step0",
+      "Independent validation user replaces train_out/oracle reporting; no held-selected window",
+      "CPU-only final cuda redirect; no author arithmetic changes"
+    ],
+    "author_full_paper_reviewed": false,
+    "author_benchmark_reproduced": false,
+    "original_contribution_claim": false,
+    "gate": {
+      "equal_user_mean_gain_min": 0.005,
+      "strict_wins_min": 4,
+      "worst_paired_min": -0.02,
+      "tolerance": 1e-12
+    },
+    "profile_before_measure": {
+      "updates_per_arm": 8,
+      "warmup": 3,
+      "measured": 5,
+      "order": "native_then_SWAD_odd_reverse_even",
+      "formula": "1.25*31189.589142517*max(1,SWAD/native_wall_ratio,SWAD/native_CPU_ratio)+1200<=43200",
+      "fixed_additive_reserve_for_BN_and_dense_journal_seconds": 1200,
+      "hard_main_wall_CPU_seconds": 43200,
+      "RSS_KiB": 12582912,
+      "single_attempt_no_retiming": true
+    },
+    "admission": "complete6 loader/worker/BN/averager journal/fullfresh64/native reference/role/resource audits + exact source and privateinitial release all required",
+    "new_UWB_fit_started": false,
+    "prior_GroupDRO_exact_closed_summary_sha256": "bfbde8b812c1eb01bad4d7686d222146d37af7ddcd2f1bd52de4c38b5f2a16e4",
+    "pre_GroupDRO_score_route_sha256": "0966c75ccfc0abf87235e3ccd6911ca2c2771823ea8bbca62e1e00562b4d4a69"
+  },
+  "implementation_pending": false,
+  "main_budget": {
+    "wall_CPU_cap_seconds": 43200,
+    "RSS_KiB": 12582912,
+    "no_automatic_production_retry": true,
+    "single_active_model": true,
+    "core_fixed_profile_reused": true,
+    "core_projected_reserve_seconds": 42087.66081777077
+  },
+  "new_UWB_fit_started": false,
+  "no_legacy_singlefold_once_or_gate": true,
+  "originality_validated": false,
+  "preregistered_confound_control": {
+    "arms": [
+      "same_trajectory_fixed_dense_tail33to64_then_same_sourceBN",
+      "same_native_validation_selected_GAP_sourceBN_only"
+    ],
+    "same_training_budget_no_extra_training": true,
+    "descriptive_attribution_no_post_test_window_selection": true,
+    "no_relabel_control_as_primary_after_test": true,
+    "report": "Simultaneously score SWAD primary, fixed tail and BN-only on same once cohort; report all and pair SWAD with each. Controls descriptive, no causal or novel-contribution claim from a single seed; never replace the primary or tune after held results."
+  },
+  "primary_control": "Reuse exact original GAP64 sixfold native outputs/initialization/roles, mean .9366717171717172; no refit or weaker baseline.",
+  "primary_reference": "https://arxiv.org/abs/2102.08604",
+  "prior_closed_MMD_result": "/workspace/uwb-mmd-loso6-20261106/SUMMARY.json",
+  "prior_closed_VREx_result": "/workspace/uwb-vrex-loso6-20261106/SUMMARY.json",
+  "protocol": {
+    "all6_outputs_and_private_models_frozen_before_one_joint_score": true,
+    "checkpoint_selection": "Primary SWAD dense range from validation BCE LossValley3/6/.3; native-reference/BN-only use original validation presentmacro, lower globalBCE, earlier epoch. Fixed dense tail33..64.",
+    "exploratory_historical8": true,
+    "held": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "no_singlefold_test_entry_gate": true,
+    "strict_subject_and_sample_ID_disjoint": true,
+    "training": "other4",
+    "users7_8_for_selection": false,
+    "validation": "h%6+1"
+  },
+  "source_ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz",
+  "source_maps": "/workspace/uwb-timemil-20261029/run02/source_maps.npy",
+  "spending_gate": {
+    "equal_user_mean_gain_min": 0.005,
+    "not_retroactive_to_closed_configs": true,
+    "report_any_positive_or_negative_evidence_even_on_failure": true,
+    "strict_wins_min": 4,
+    "tolerance": 1e-12,
+    "worst_paired_delta_min": -0.02
+  },
+  "state": "full_SWAD_implementation_pre_execution_generated_audits_pending",
+  "prior_closed_Fishr_result": "/workspace/uwb-fishr-native-loso6-20261107/SUMMARY.json",
+  "prior_closed_IRM_result": "/workspace/uwb-irm-loso6-20261107/SUMMARY.json",
+  "prior_closed_GroupDRO_result": "/workspace/uwb-groupdro-loso6-20261108/SUMMARY.json",
+  "source_BN": {
+    "seed": 21161030,
+    "passes": 1,
+    "batch": 64,
+    "shuffle": "one local torchGenerator manual_seed21161030 over canonical training positions",
+    "dropout": "same native model.train during source passes; common random masks across calibrated arms",
+    "validation_and_held_forbidden": true,
+    "all_main_RNG_and_module_modes_and_BN_momenta_restored": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "state": "fixed_before_integrated_measurement_no_core_reprofile",
+  "core_profile_reused_from_commit": "9c740a5a1130e86cfa9af7d63f7b1a0a3918a8f1",
+  "core_estimate_seconds": 42087.66081777077,
+  "core_reserved_extra_seconds": 1200,
+  "core_ratio_must_not_be_retimed": true,
+  "actual_main_updates": 55552,
+  "full_state_checkpoint_count": 780,
+  "BN_source_batches_all6": 3906,
+  "output_inference_batches_upper": 2880,
+  "formula": "core_estimate-1200+max(1200,1.25*(max_checkpoint_wall_orCPU*780+max_step_digest_wall_orCPU*55552+max_BN_forward_batch_wall_orCPU*3906+max_eval_forward_batch_wall_orCPU*2880))<=43200",
+  "measurements": "maximum of actual generated lifecycle checkpoint/digest and generated all-role BN/eval batch timings, no minimum selection",
+  "main_cap": 43200,
+  "RSS_KiB": 12582912,
+  "BN_calibration_output_runs_per_fold": 3,
+  "calibrated_arms": 3,
+  "output_arms": 4,
+  "generated_fixture_caps": {
+    "wall": 600,
+    "CPU": 600,
+    "RSS_KiB": 12582912
+  },
+  "BN_forward_timing_source": "one fixed unhooked repeat calibration per role; first hooked run is for independent NumPy-stat reference only, not production timing",
+  "eval_forward_timing_source": "one generated full-B64 eval per role"
+}
