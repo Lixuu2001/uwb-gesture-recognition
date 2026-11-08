@@ -1,0 +1,31 @@
+{
+  "parent": "9c740a5a1130e86cfa9af7d63f7b1a0a3918a8f1",
+  "commit": "7a00911e3de20f2fd5b3997939a7a4caa8e36aab",
+  "files": 84,
+  "exact_readback_verified": 84,
+  "branch_head_verified": true,
+  "force": false,
+  "ref_transport_recovery": null,
+  "readback_transport_recovery": {
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move",
+    "connector_readback_failures": [
+      {
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "expected_blob_sha1": "20ff365a02466627f21563f1b0b7c6a9dd8fa746",
+        "expected_bytes": 1455507,
+        "returned_characters": 0
+      },
+      {
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "expected_blob_sha1": "7fd059bd5bb17ad06088c9e541becb66c339b6f6",
+        "expected_bytes": 1391532,
+        "returned_characters": 0
+      }
+    ],
+    "proof": "/workspace/uwb-swad-loso6-20261108/preregistered_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "new_commit_created_for_retry": false,
+    "force": false
+  },
+  "frozen_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "source_registered_before_any_actual_UWB_training": true
+}

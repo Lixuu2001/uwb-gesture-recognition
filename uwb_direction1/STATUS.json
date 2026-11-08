@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "SWAD_fullnative_LOSO6_generated_admission_complete_actual_fit_not_started",
+  "state": "SWAD_native_LOSO6_initial_private_allmember_verified_waiting_exact_release_no_actual_fit",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -32,7 +32,7 @@
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_swad_loso6_preregistered/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_swad_loso6_initial_private/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794139850.5112367,
+  "background_training_observed_unix": 1794140212.859993,
   "background_training_pid": null,
-  "background_training_status_note": "SWAD full implementation/generated64+fresh64/all6BN/native audits passed; fixed integrated reserve43176.37<43200; actualfit0 pending exactsource/privateinitial/release",
+  "background_training_status_note": "SWAD source7a00911e registered,7parts145payload46303824bytes owner-only rawallmember verified; actualfit0 until exactREAL_RELEASE, then one supervised6phase.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Complete SWAD fullnative6 source-onlyBN+BN-only/tail matchedoutputs/strict roles/worker/averager journal/full64fresh64 generated lifecycle/native first reference/ownedPID12h audits; exactfullsource and private6initial release before ONE newfit. No oldGroupDROonce/retrain/eta0control or test-informedSWADwindow grid.",
+  "next_candidate": "Bind exact SWAD all6 initial private-index REAL_RELEASE; recheck PIDs/locks, launch one supervised native64+fresh64 LOSO6. All6 finalprivate freeze before onecohort score; no held1 gate/test tuning.",
   "last_completed_update_utc": "2026-11-08T10:46:50.203664+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17500,5 +17500,18 @@
   "resource_estimate_seconds": 43176.37008657762,
   "actual_epochs_completed": 0,
   "new_training_or_automation_created": false
+}
+,
+  "swad_loso6_initial_private_20261108": {
+  "report": "results/cloud_20261108_swad_loso6_initial_private/RUN_REPORT.md",
+  "method": "published_SWAD_LossValley3_6_0p3_fullnative_LOSO6_sourceBN",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "initial_private_verified": true,
+  "archive_sha256": "a29bf8396efdd1d591cd80c3bc2c844e54e0510b3d1d43030fbe14e62b2783f8",
+  "chunks": 7,
+  "payload_members": 145,
+  "real_UWB_fit_started": false
 }
 }

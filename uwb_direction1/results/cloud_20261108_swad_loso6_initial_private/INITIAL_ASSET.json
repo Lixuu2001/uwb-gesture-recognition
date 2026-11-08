@@ -1,0 +1,80 @@
+{
+  "all_six_full_states_identical": true,
+  "all_six_initial_models_identical": true,
+  "initial_model_file_sha256_by_held": {
+    "1": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "2": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "3": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "4": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "5": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+    "6": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097"
+  },
+  "initial_model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+  "initial_native_state_sha256_by_held": {
+    "1": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+    "2": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+    "3": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+    "4": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+    "5": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+    "6": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430"
+  },
+  "new_UWB_fit_started": false,
+  "private_roles_for_all_six_folds": true,
+  "reason": "Native and SWAD initial tensors, optimizer and RNG are identical; roles are separate private files",
+  "states": {
+    "1": {
+      "SWAD_all_queues_empty": true,
+      "SWAD_average_counts_zero": true,
+      "file_sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "full_native_sha256": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "updates": 0
+    },
+    "2": {
+      "SWAD_all_queues_empty": true,
+      "SWAD_average_counts_zero": true,
+      "file_sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "full_native_sha256": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "updates": 0
+    },
+    "3": {
+      "SWAD_all_queues_empty": true,
+      "SWAD_average_counts_zero": true,
+      "file_sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "full_native_sha256": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "updates": 0
+    },
+    "4": {
+      "SWAD_all_queues_empty": true,
+      "SWAD_average_counts_zero": true,
+      "file_sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "full_native_sha256": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "updates": 0
+    },
+    "5": {
+      "SWAD_all_queues_empty": true,
+      "SWAD_average_counts_zero": true,
+      "file_sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "full_native_sha256": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "updates": 0
+    },
+    "6": {
+      "SWAD_all_queues_empty": true,
+      "SWAD_average_counts_zero": true,
+      "file_sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "full_native_sha256": "fd2efb8d3417ac44fbb1973adfa7a2c0b660b164ca71b7dcd793a7a51b6af430",
+      "model_native_sha256": "2aae73c58e38ca324027e888955b130a82fbaece7167df3465522ec51986d2d3",
+      "native_optimizer_empty": true,
+      "updates": 0
+    }
+  }
+}
