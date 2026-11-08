@@ -1,0 +1,13 @@
+# Final SWAD private recovery administration
+
+This metadata helper does not alter the 54 frozen method/config/operator inputs. Only its incomplete-cohort rejection path has been exercised; the real all-six build path remains pending. No final canonical archive, full-private release, inference timing or score has been created. Existing per-fold private proofs remain valid and are retained in the cumulative verified recovery registry.
+
+After the original supervisor finishes all six 64-epoch production/fresh-replay/output audits successfully:
+
+1. Measure the existing frozen `operator/full_archive.py build` with `operator/measure_execution.py`. Preserve its 2 GiB archive cap, complete six-fold model set and existing initial/raw/GAP recovery chains. Do not restart training or change frozen sources.
+2. Use the established private Drive uploader: observe owner-only metadata, at most three complete upload/raw-fetch/materialize/SHA pipelines, `download_raw_file=true`, `include_base64=false`. Preserve known IDs, failures and transfer costs.
+3. Measure frozen `operator/full_archive.py check` for every chunk and every payload. Then measure `operations/prepare_final_private_index.py --build-index`. The helper rechecks all-six freezes, source hashes, original-process termination, all production/replay/stage completions, baseline hashes and canonical raw-allmember proof, and joins the canonical index to the initial raw/GAP/all-six-initial index. It never loads model tensors, predictions or gesture truth.
+4. Publish the complete index/proofs and all-six unscored freeze against the latest remote parent, verify exact remote bytes, then move the ref with `force=false`. Only after successful publication create `FULL_PRIVATE_RELEASE.json` binding the verified commit, `branch_head_verified=true`, `force=false`, `complete_six_archive_sha256` and the unchanged frozen `once_scorer_sha256`. Retain the all-six frozen manifest hash. The helper does not create this release.
+5. Run the pre-registered frozen `operator/inference_cost.py --run` exactly once under its 300-second wall/CPU and 12 GiB limits, measuring all 24 arms without labels. Then run frozen `operator/finalize_cohort_once.py` for the one joint six-user score, with the original gate and descriptive controls unchanged. Preserve failures and do not retry an already consumed lock.
+
+The canonical all-member raw verification is separate from full extraction or a fresh-environment restore. The helper explicitly does not claim those unperformed checks. Per-fold physical restore proofs, when present, retain their narrower scope. No intermediate held-user score may choose continuation, parameters, windows or a replacement primary arm.

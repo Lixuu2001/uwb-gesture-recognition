@@ -1,0 +1,69 @@
+{
+  "all_committed_step_rows_bitwise_exact": true,
+  "all_replay_committed_epoch_records_exact": true,
+  "diagnostic_labels_read": false,
+  "extra_forward_or_updates": 0,
+  "final_gates_absent": [
+    "FULL_COMPOSITE_RECOVERY_INDEX.json",
+    "FULL_PRIVATE_PREPARATION_RECEIPT.json",
+    "FULL_PRIVATE_RELEASE.json",
+    "SUMMARY.json",
+    "FINALIZE_ONCE.lock",
+    "INFERENCE_ONCE.lock",
+    "INFERENCE_COST.json"
+  ],
+  "frozen_method_sources_rechecked_unchanged": true,
+  "held4_full_fresh_replay_and_output_audit_complete": false,
+  "held4_production_epochs": 64,
+  "held4_production_updates": 4544,
+  "held4_replay_committed_epochs": 28,
+  "held4_replay_committed_updates": 1988,
+  "held5_or_held6_started": false,
+  "ledger": {
+    "RSS_KiB": 1716932,
+    "active_held": 4,
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 20509.041049137,
+    "fold_stage": "replay",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_GroupDRO6_cpu": 29595.509859692,
+    "prior_GroupDRO6_wall": 29556.896173048997,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 20484.772145225958
+  },
+  "observed_utc": "2026-11-08T17:59:50.939130+00:00",
+  "original_phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 21.48,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "production_artifact_hashes_rechecked_unchanged": true,
+  "state": {
+    "completed_folds": [
+      1,
+      2,
+      3
+    ],
+    "cpu": 16646.468485952002,
+    "diagnostic_labels_read": false,
+    "state": "full_sixfold_in_progress_unscored",
+    "wall": 16627.191684813995
+  },
+  "verified_private_completed_folds": [
+    1,
+    2,
+    3
+  ]
+}

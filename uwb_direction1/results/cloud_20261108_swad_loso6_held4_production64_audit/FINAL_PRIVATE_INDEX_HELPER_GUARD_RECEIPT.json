@@ -1,0 +1,40 @@
+{
+  "absent_gates": [
+    "FULL_COMPOSITE_RECOVERY_INDEX.json",
+    "FULL_PRIVATE_PREPARATION_RECEIPT.json",
+    "FULL_PRIVATE_RELEASE.json",
+    "SUMMARY.json",
+    "FINALIZE_ONCE.lock",
+    "INFERENCE_ONCE.lock",
+    "INFERENCE_COST.json"
+  ],
+  "all6_private_complete": false,
+  "completed_all6_build_branch_not_executed": true,
+  "execution_receipt": {
+    "automatic_retries": 0,
+    "command": [
+      "python",
+      "/workspace/uwb-swad-loso6-20261108/operations/prepare_final_private_index.py",
+      "--check-preconditions"
+    ],
+    "exit_code": 0,
+    "max_RSS_KiB": 18852,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "observed_utc": "2026-11-08T17:54:07.993747+00:00",
+    "parent_CPU_seconds": 0.0008186039999999971,
+    "system_CPU_seconds": 0.041243999999999996,
+    "user_CPU_seconds": 0.056074,
+    "wall_seconds": 0.09922795696184039
+  },
+  "final_full_archive_not_built": true,
+  "frozen_method_manifest_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "guard_result": {
+    "final_index_created": false,
+    "score_or_release_created": false,
+    "state": "blocked_incomplete_all6_before_backup_or_any_truth_loading"
+  },
+  "helper_sha256": "5a3752ddfc07b823309eb201c9172703994a8d526c02e3aff430ed40e9ea2bfd",
+  "no_new_models_or_training_started": true,
+  "production_code_or_configs_changed": false,
+  "state": "administrative_index_helper_incomplete_cohort_guard_checked_only_no_final_index_release_or_score"
+}
