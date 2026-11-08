@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "IRM_all6_native64_fresh64_frozen_unscored_full_private_transfer_pending_no_training",
+  "state": "IRM_all6_native_models_trajectories_private_raw_verified_unscored_exact_release_before_once",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Original IRM full6 finished wall29509.953316993022/CPU29548.175221702sec (8.20h) within12h; full model archive75parts underway. No training now; all prior and separate operation cost limitations retained.",
+  "compute": "IRM full6 finished wall29509.953316993022/CPU29548.175221702sec within12h; complete75part private native modelset raw verified. Blind inference300sec caps next; prior and uncertain operation costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261107_irm_loso6_all6_frozen/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261107_irm_loso6_all6_private/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794094682.0844817,
+  "background_training_observed_unix": 1794096001.1544378,
   "background_training_pid": null,
-  "background_training_status_note": "Original phase92152 normal complete/Z; all6 production64/fresh64/native/roles/output audits passed. Full archive75parts548348323bytes1995payload built, private raw transfer underway; not all raw-verified, no score, no new training.",
+  "background_training_status_note": "Original phase normal terminal; full native6 audit and complete75parts/1995payload private raw-allmember verified. No training/new accuracy; exact private release then frozen label-free inference and ONE cohort score.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Finish current original full6 archive transfer WITHOUT duplicate uploads; all75/raw-allmember/exactremote release before fixed label-free inference ONCE then cohort scorer ONCE. Positive matched reset500/no-IRM6; negative close exact config. No oldonce/retrain/test rescue.",
+  "next_candidate": "Bind exact all6 private release after this verified commit; fixed label-free inference ONCE then cohort scorer ONCE. Positive preregistered reset500/globalBCE/no-IRM6 control; negative close exact100/500 no rescue. No oldonce/new fit/partial score.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17214,5 +17214,32 @@
   "new_accuracy_available": false,
   "new_training_started": false,
   "production_updates_total": 27776
+}
+,
+  "irm_loso6_all6_private_20261107": {
+  "report": "results/cloud_20261107_irm_loso6_all6_private/RUN_REPORT.md",
+  "method": "published_DomainBed_IRM100_anneal500_nativeGAP617612_globalBCE64_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "cohort_scoring_activated": false,
+  "complete_all_six_private_raw_verified": true,
+  "complete_models_and_trajectories_private": true,
+  "complete_native_method_folds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "full_archive_bytes": 548348323,
+  "full_archive_parts": 75,
+  "full_archive_payloads": 1995,
+  "full_archive_sha256": "3436cbcc7bb738e30e5279acc9c998c3468a10954e66aa68ad9b08440494cf10",
+  "full_frozen_scientific_files_unchanged": 45,
+  "initial_transfer_failures": 0,
+  "new_accuracy_available": false,
+  "new_training_started": false
 }
 }

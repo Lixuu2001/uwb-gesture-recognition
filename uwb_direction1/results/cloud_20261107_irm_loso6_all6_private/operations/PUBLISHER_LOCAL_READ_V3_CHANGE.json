@@ -1,0 +1,13 @@
+{
+  "state": "operational_local_text_transport_chunk_size_only_no_remote_commit_or_ref_change",
+  "old_source_sha256": "ec5bcaa2cb194209db387dff0d1633d43c4f9ec85e3e9e1d500746baf1244018",
+  "new_source_sha256": "2d32c977e2122b374c0fb9476301c865dd46f32861577037d278edee0da2e2a0",
+  "old_text_characters_per_local_read": 4000,
+  "new_text_characters_per_local_read": 32000,
+  "new_local_read_output_token_budget": 100000,
+  "reason": "Large metadata-only SOURCE_LAYOUT requires63 sequential local reads under the original helper; increase bounded read size for subsequent publications",
+  "same_blob_SHA_checks_and_exact_allfile_readback_and_expected_parent_forcefalse": true,
+  "current_pending_publication_source_not_modified": true,
+  "scientific_frozen45_unchanged": true,
+  "new_training_or_test_scoring": false
+}
