@@ -1,0 +1,31 @@
+{
+  "attempts_completed": 1,
+  "verified_parts": 1,
+  "failed_parts": 0,
+  "total": 1,
+  "attempts": [
+    {
+      "i": 0,
+      "status": "fulfilled",
+      "value": {
+        "i": 0,
+        "verified": true
+      }
+    }
+  ],
+  "unattempted": [],
+  "workers": [
+    {
+      "status": "fulfilled"
+    },
+    {
+      "status": "fulfilled"
+    },
+    {
+      "status": "fulfilled"
+    }
+  ],
+  "complete": true,
+  "transfer_tool_window_wall_seconds": 17.123,
+  "wall_scope": "tool queue upload/metadata/raw/immediate_materialization/SHA; not pure network; CPU unmeasured"
+}

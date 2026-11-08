@@ -1,0 +1,2474 @@
+{
+  "actual_source_files_preserved": true,
+  "all_new_training_updates": 0,
+  "base_archive_sha256": "91a5f56076aa0380f60a5a9da82340730fd7655d111ad0c7f90377f6ef1cd63e",
+  "base_members_manifest_sha256": "eca4cfe9c2569d0ae5e6a72e85e318eeb7fa4b848317e28644a62ae0d422c123",
+  "base_private_index_sha256": "588487d05b7b6ef04cbb2fae27e453d17421d9bfd9db84b30e8f7645d7cb2c99",
+  "bytes": 326155850,
+  "complete_all_six": false,
+  "copy_after_sha_and_size_verification": true,
+  "files": 350,
+  "locks_and_uncommitted_tmp_files_excluded": true,
+  "restore_only_under_empty_isolated_destination": true,
+  "rows": [
+    {
+      "archive_member": "new/folds/held1/CONTROLLER_IDENTITY.json",
+      "bytes": 130,
+      "phase_relative_path": "folds/held1/CONTROLLER_IDENTITY.json",
+      "sha256": "283bfa01fa28c8a2399fc31054829d5655d7ab5e7c94b4ed0926359c6335aa7e",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/INITIAL_STATE_METADATA.json",
+      "bytes": 392,
+      "phase_relative_path": "folds/held1/INITIAL_STATE_METADATA.json",
+      "sha256": "f94236bdd221285dcd01953747c0a1b559c0f88a5c72bf12f851f24b49e4e55a",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/LAUNCH_IDENTITY.json",
+      "bytes": 129,
+      "phase_relative_path": "folds/held1/LAUNCH_IDENTITY.json",
+      "sha256": "1c9f9657728e00436da06a35ced3a1e5706e298577d1c038b1f2da8bbcac150f",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/PHASE_TERMINATION.json",
+      "bytes": 164,
+      "phase_relative_path": "folds/held1/PHASE_TERMINATION.json",
+      "sha256": "9ac880dd680b741556ccfd40c491d89c9d4dfdab428e0a6eb662e1a7ae3abc8c",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "phase/folds/held1/PROTOCOL.json",
+      "bytes": 5852,
+      "phase_relative_path": "folds/held1/PROTOCOL.json",
+      "sha256": "42a5f4eef915aa6aca14dbac9a91dfbb794cdb56735f7e28f9a868b0edfa024c",
+      "source": "base"
+    },
+    {
+      "archive_member": "new/folds/held1/RESOURCE_LEDGER.json",
+      "bytes": 102,
+      "phase_relative_path": "folds/held1/RESOURCE_LEDGER.json",
+      "sha256": "c55b925789946edf1f71a4257ca9ced578ea1c2ef30563524bca4b490b48a522",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/STATE.json",
+      "bytes": 284,
+      "phase_relative_path": "folds/held1/STATE.json",
+      "sha256": "0ad782a79728bda96adaea79f455cde45701125eaa1475bb77521db6a9238bc9",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/SYNTHETIC_RESULT.json",
+      "bytes": 570,
+      "phase_relative_path": "folds/held1/SYNTHETIC_RESULT.json",
+      "sha256": "999de1a5e69ba6f2ab3de8bf4588b5110fbe1c00a40224e401e4578e491cc507",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "native_source/vendor/site-packages/einops/py.typed",
+      "bytes": 0,
+      "phase_relative_path": "folds/held1/controller.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/initial.pt",
+      "bytes": 7590106,
+      "phase_relative_path": "folds/held1/initial.pt",
+      "sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/split.npz",
+      "bytes": 11179,
+      "phase_relative_path": "folds/held1/roles.npz",
+      "sha256": "bb50e0dbd3de67abeaf68b2388b29287af26fd1a0714f1f0a501d4f380446bbc",
+      "source": "base"
+    },
+    {
+      "archive_member": "new/folds/held1/run/OUTPUT_AUDIT_CALIBRATION_COST.json",
+      "bytes": 23718,
+      "phase_relative_path": "folds/held1/run/OUTPUT_AUDIT_CALIBRATION_COST.json",
+      "sha256": "e98e9eb86691cf6ad638f00d2998e91befbf84fb21256815315d2c0ee372042e",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/OUTPUT_AUDIT_EVAL_COST.json",
+      "bytes": 11968,
+      "phase_relative_path": "folds/held1/run/OUTPUT_AUDIT_EVAL_COST.json",
+      "sha256": "98a19bd1a059d63649c0dba8c4a751c62b28d9b34876745aa0558c8ff438c632",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/PREDICTIONS_FROZEN.json",
+      "bytes": 3613,
+      "phase_relative_path": "folds/held1/run/PREDICTIONS_FROZEN.json",
+      "sha256": "f4fa64893914708911c337a2521278969316d895f53429caf45cf94bb4e811a5",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/output/IDENTITY.json",
+      "bytes": 129,
+      "phase_relative_path": "folds/held1/run/execution/output/IDENTITY.json",
+      "sha256": "65c3903148f9aee62a9de1f6eab849aa85e868748dd11d6fcb1d81e2b93e0b84",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/output/TERMINATION.json",
+      "bytes": 204,
+      "phase_relative_path": "folds/held1/run/execution/output/TERMINATION.json",
+      "sha256": "ae278bb04e016f46b432f662cf67be06d6043149b0458307339330ca9182f016",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/output/stdout.log",
+      "bytes": 3447,
+      "phase_relative_path": "folds/held1/run/execution/output/stdout.log",
+      "sha256": "d46e5c7ae5c6a460b956bc128215832df80b40502bae769a29f0a9b27071785c",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/replay/IDENTITY.json",
+      "bytes": 129,
+      "phase_relative_path": "folds/held1/run/execution/replay/IDENTITY.json",
+      "sha256": "da84a7428b0b4fdbe4e8b29216f028386033fc5d8e89d93ad8b6250dac5834f5",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/replay/TERMINATION.json",
+      "bytes": 205,
+      "phase_relative_path": "folds/held1/run/execution/replay/TERMINATION.json",
+      "sha256": "41570ef2aeb59376970e329197d4158f5613a05248fcb0982f1f51b55a1a042a",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/replay/stdout.log",
+      "bytes": 5408,
+      "phase_relative_path": "folds/held1/run/execution/replay/stdout.log",
+      "sha256": "f319b5f7f05c894723200e657c6df8e31bec6e399e95a821dd8bad3ac2af9656",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/train/FIRST_AUDIT_IDENTITY.json",
+      "bytes": 129,
+      "phase_relative_path": "folds/held1/run/execution/train/FIRST_AUDIT_IDENTITY.json",
+      "sha256": "441590504ea0377719c5171b3b3aedeffa6c089475183a3ade88470eaa03b684",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/train/FIRST_AUDIT_TERMINATION.json",
+      "bytes": 60,
+      "phase_relative_path": "folds/held1/run/execution/train/FIRST_AUDIT_TERMINATION.json",
+      "sha256": "f6ab2803a3bea31a365ed86467c8d9686777b0d39715496aed71616337af1697",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/train/IDENTITY.json",
+      "bytes": 129,
+      "phase_relative_path": "folds/held1/run/execution/train/IDENTITY.json",
+      "sha256": "c752294541b62f378e5abaf4c9d97cfc52362ef4632601fc3504712c355f3b85",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/train/TERMINATION.json",
+      "bytes": 198,
+      "phase_relative_path": "folds/held1/run/execution/train/TERMINATION.json",
+      "sha256": "3ecebeac39b62c0f4421c1f9841d18d0eddadac9cd752f5be436d0dc85723f8e",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "native_source/vendor/site-packages/einops/py.typed",
+      "bytes": 0,
+      "phase_relative_path": "folds/held1/run/execution/train/first_audit.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "base"
+    },
+    {
+      "archive_member": "new/folds/held1/run/execution/train/stdout.log",
+      "bytes": 5344,
+      "phase_relative_path": "folds/held1/run/execution/train/stdout.log",
+      "sha256": "62076915cc666a792cd85f74b3aad75be0ad46a1f8e1a23a0b6401f900595a75",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/replay/CALIBRATION_COST.json",
+      "bytes": 23733,
+      "phase_relative_path": "folds/held1/run/replay/CALIBRATION_COST.json",
+      "sha256": "96661b789e7ffb1e166a7aa2c287be4794f8d4a134f8494b7f10108d3564a763",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/replay/CHECKPOINT_COST.json",
+      "bytes": 5771,
+      "phase_relative_path": "folds/held1/run/replay/CHECKPOINT_COST.json",
+      "sha256": "e2eddd87b7a80146f86eb5b44aa55f910f92ce34b63caeef19301736dcd5bced",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/replay/COMPLETE.json",
+      "bytes": 873,
+      "phase_relative_path": "folds/held1/run/replay/COMPLETE.json",
+      "sha256": "ad713b129a3c37e755d08c0be907d6327b3a1c9a65d93c615a03e98c802d622f",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/replay/EVALUATION_BATCH_COST.json",
+      "bytes": 99623,
+      "phase_relative_path": "folds/held1/run/replay/EVALUATION_BATCH_COST.json",
+      "sha256": "0105d42d0f69954929006a5cde210ecec2f3e199fb2f660beb6b1d3b4de955a4",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/OUTPUT_SELECTION.json",
+      "bytes": 5318,
+      "phase_relative_path": "folds/held1/run/replay/OUTPUT_SELECTION.json",
+      "sha256": "d501755afd588c98fc82ea3bbe19be58ece2ee9b9f975ac2e2e1a1a3c8a9ee8f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/PROGRESS.json",
+      "bytes": 352,
+      "phase_relative_path": "folds/held1/run/replay/PROGRESS.json",
+      "sha256": "caeaba94a4b0356b2a7d52d644a27a80581665a0c8ec429bca8f7214d18a0ad9",
+      "source": "base"
+    },
+    {
+      "archive_member": "new/folds/held1/run/replay/STATE.json",
+      "bytes": 230,
+      "phase_relative_path": "folds/held1/run/replay/STATE.json",
+      "sha256": "63e04447bcda933dfd252743d1d4e2cdbe1e430c5e16af15f77b3d9f77cd714f",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/run/replay/STEP_DIGEST_COST.json",
+      "bytes": 357771,
+      "phase_relative_path": "folds/held1/run/replay/STEP_DIGEST_COST.json",
+      "sha256": "12c7ad8b5afb440527bc46660de6b2e98458c4084b56691137b1e777446b501e",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/bn_only_diagnostic_unscored.npz",
+      "bytes": 52248,
+      "phase_relative_path": "folds/held1/run/replay/bn_only_diagnostic_unscored.npz",
+      "sha256": "473043c5664da6e53d5ddff7a245c980fbfe1fa4b6893f7c0f4293842eb99566",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/bn_only_validation_unscored.npz",
+      "bytes": 43764,
+      "phase_relative_path": "folds/held1/run/replay/bn_only_validation_unscored.npz",
+      "sha256": "04269325a902fa4613985dfaf64304509996579460b0c9412a2b3e1b1e2a16c7",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/swad_diagnostic_unscored.npz",
+      "bytes": 52446,
+      "phase_relative_path": "folds/held1/run/replay/diagnostic_unscored.npz",
+      "sha256": "dcb473c169c236a91263869666d95ee8b7b8994c4d51fce5ec5a68f0f3b4c514",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch000.json",
+      "bytes": 494,
+      "phase_relative_path": "folds/held1/run/replay/epoch000.json",
+      "sha256": "acd25a5caef78c54c868af4a584919edfb06cf0423e87a04f8d69c688b2cc7c7",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch001.json",
+      "bytes": 618,
+      "phase_relative_path": "folds/held1/run/replay/epoch001.json",
+      "sha256": "621fc2d7447f772663285a31fa80549a42a9cdbc486f54f2636256ba23d910a8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch002.json",
+      "bytes": 619,
+      "phase_relative_path": "folds/held1/run/replay/epoch002.json",
+      "sha256": "b3a1499c5c15d22a2f6bc169435059a8a7229d3c0a319e3477f5c50c9904997f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch003.json",
+      "bytes": 619,
+      "phase_relative_path": "folds/held1/run/replay/epoch003.json",
+      "sha256": "6a52cb7d4d6c489e6fb003d148529675efb043f341313c2d4f47361dc5eed09b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch004.json",
+      "bytes": 617,
+      "phase_relative_path": "folds/held1/run/replay/epoch004.json",
+      "sha256": "4447808a532e7f9f9a9ca693dcdd1cf5e0e60551a7c75083e7d22c2ee8d069ef",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch005.json",
+      "bytes": 647,
+      "phase_relative_path": "folds/held1/run/replay/epoch005.json",
+      "sha256": "60bc404aeed13af26516cdc34b74865d03d4fcbda4bbcb4079e98e0ed8d2fbef",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch006.json",
+      "bytes": 634,
+      "phase_relative_path": "folds/held1/run/replay/epoch006.json",
+      "sha256": "082a37a45d3e6eeff9710c032ce7762ebba332a820a4ce2ea08433113312b213",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch007.json",
+      "bytes": 647,
+      "phase_relative_path": "folds/held1/run/replay/epoch007.json",
+      "sha256": "bf3a83104e6f144575d36e7529ef95cca2b299fb68be494b8a92117a0c2b8075",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch008.json",
+      "bytes": 633,
+      "phase_relative_path": "folds/held1/run/replay/epoch008.json",
+      "sha256": "8a7b7eb3a5f39f483c96326d74eae75140c3991500b290782b7bc45801ade930",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch009.json",
+      "bytes": 645,
+      "phase_relative_path": "folds/held1/run/replay/epoch009.json",
+      "sha256": "e8a764e8e5a4bcf9130b867382ac9ca18b5d7a9e7dc834cac7597ad3756d32f5",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch010.json",
+      "bytes": 633,
+      "phase_relative_path": "folds/held1/run/replay/epoch010.json",
+      "sha256": "bbb3e2db223b3b4454cd40479c71d73578e152ba064ac205fddb5c69fd091093",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch011.json",
+      "bytes": 634,
+      "phase_relative_path": "folds/held1/run/replay/epoch011.json",
+      "sha256": "d793826641831578b67dfd5a898554fdf5847f3b111a828860f2beb783d032ed",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch012.json",
+      "bytes": 634,
+      "phase_relative_path": "folds/held1/run/replay/epoch012.json",
+      "sha256": "83ab91fbb03a7d11424d07b6f7a2511e1b2453e0f32bdaa5156de44d5f5e7a2c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch013.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/replay/epoch013.json",
+      "sha256": "8063e91ad6a92b92d8ff994a8d0678ef4f4c2c7bff3a5ac6c6cb0d71ec8cebe9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch014.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch014.json",
+      "sha256": "4c734bbdda86770a6caa377c0d9747cd5330c2011cac039466148134d8bc971c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch015.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch015.json",
+      "sha256": "5a76144243527110e02429a11f9984835863b0c2349d5e3a5b94708039439fec",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch016.json",
+      "bytes": 622,
+      "phase_relative_path": "folds/held1/run/replay/epoch016.json",
+      "sha256": "4c2642776f3d98b16bb139fcb61579caebbcc6de5221c20b218233f936587c75",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch017.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch017.json",
+      "sha256": "a36af44bd4e18d354670aba1ad9250f687ea1bdd10b150f8e65bf4915a74c84b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch018.json",
+      "bytes": 623,
+      "phase_relative_path": "folds/held1/run/replay/epoch018.json",
+      "sha256": "e71c5eeba38f198ded5344b6c268761ae45ed4f57ab87a2f7a05b07331044c0c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch019.json",
+      "bytes": 622,
+      "phase_relative_path": "folds/held1/run/replay/epoch019.json",
+      "sha256": "fb33b1e15c7387ac5b98ef7a95827d94523fb45d71c989fc65a11ccdb059aa04",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch020.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch020.json",
+      "sha256": "a4d5d8aa2e03d75a2be545277a7e5f310c38f1554140c5c24820eff56e3277dd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch021.json",
+      "bytes": 623,
+      "phase_relative_path": "folds/held1/run/replay/epoch021.json",
+      "sha256": "4ed908618b97a95cc65d743ff520db936158179cf8ae162f2ce08a5071f1d73b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch022.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch022.json",
+      "sha256": "cd80d17e50a420eb9b8cbca669fee99bb7a875bc638161df6e4dbcca414ea052",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch023.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch023.json",
+      "sha256": "f1628c61b78c084296b8a21a8a78096ef627080c668c99263a334079c2cf0fa9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch024.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch024.json",
+      "sha256": "b4972ab9d3109511a6db8eb939e5da809a42f9fcb2ef7b3b4787a2b324339247",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch025.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch025.json",
+      "sha256": "4f0efe74c6dcb57e7a8217c40c92d4c520b0bfde13cf2aa5c572b8dd41ca9439",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch026.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch026.json",
+      "sha256": "bfa1e2899b97f38907e292746db5e02aa7d95b5c34e37c58eec97bb7a6d61c73",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch027.json",
+      "bytes": 648,
+      "phase_relative_path": "folds/held1/run/replay/epoch027.json",
+      "sha256": "d1a8ce99d6f10dda9ee46348b53a913254dddb7a03aaa84674d303ee262148c2",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch028.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch028.json",
+      "sha256": "c28bd857ddf47a9ee34e05a8abeb5713fdffbf1197a618f81da1e323a64456ca",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch029.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch029.json",
+      "sha256": "e317cd49332017c1977fa9fbb9a9075cdefecdc74408a649d469b7f15a62f0b8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch030.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch030.json",
+      "sha256": "6974f81c6160347272176449a1c529d636ee69c2a56207321deea34dad790de0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch031.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch031.json",
+      "sha256": "45bf88585744541071c549afa65d1270fc4c52a989975add72134521de3776a1",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch032.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/replay/epoch032.json",
+      "sha256": "c7a2e07980f74905e9a228e1250fecc56ce6fd2780fe632367a467d33501df16",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch033.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch033.json",
+      "sha256": "5e16fc717264db8323148cab1a22185d55947a9c46b12a48aa35a589ef0b1fc4",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch034.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch034.json",
+      "sha256": "dbf94edbeac17b6649ed5387a933122310ba981849fc8b70a74ac9c8828ad59a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch035.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/replay/epoch035.json",
+      "sha256": "055f611a85a79a4e006aee49a88931773ccb9eb00c0560751b13ba9ce10bfe49",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch036.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/replay/epoch036.json",
+      "sha256": "cad320fd82465c8209e09de8364c1da3652f1ad7d59f3934f309a9ac8fc0fd70",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch037.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/replay/epoch037.json",
+      "sha256": "b557f9f11f76546db4b5c14f1d94283c0b329dc717daf1420448d7d162edbe82",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch038.json",
+      "bytes": 635,
+      "phase_relative_path": "folds/held1/run/replay/epoch038.json",
+      "sha256": "ed214a6f110093d933975233459c3a625045d1c2114f7ee4631bb8f7cac9cf7e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch039.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch039.json",
+      "sha256": "5f29735dc36dd8f35351ad4abb95f3ab61b0c6f7b9ef1e99ad50fb2dbf8a09ed",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch040.json",
+      "bytes": 648,
+      "phase_relative_path": "folds/held1/run/replay/epoch040.json",
+      "sha256": "08b18fe9b4f49543e8d48703530f5482c5b364f0c3562224dd1efc6b52e9c55c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch041.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch041.json",
+      "sha256": "697221acb781bb0fb9eabb3bcf90a73927a3ad986e003e0ea9562c5543cea7b3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch042.json",
+      "bytes": 647,
+      "phase_relative_path": "folds/held1/run/replay/epoch042.json",
+      "sha256": "9c73f379dc8dadfe59afc70fe127670b459fb6a2201e4ef8742fa317c60792cf",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch043.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch043.json",
+      "sha256": "7684f1c7b3b0cb7bcbf3ec7b0749bcf171a8a3a4be4c024b24729dae566f0ed0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch044.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch044.json",
+      "sha256": "bfc0bf3119b0886a0f791103f96b2db64b433805ab5e20ec7960b50d93130779",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch045.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch045.json",
+      "sha256": "575a61c2ee62d14f6141ae32e6093631eb01e0db21279faafafd495adc0086c3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch046.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch046.json",
+      "sha256": "60225c56b3b3d6bd4a56be2bb5aa59ee0a0bb8f8c60495a0d95b57109b282e47",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch047.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch047.json",
+      "sha256": "fa35d64552352db6b1e9ba2c17b2793dec8380037335a31b4acadacb3af40ed9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch048.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/replay/epoch048.json",
+      "sha256": "382873d49216b7024da984f88ab135593f2c66d0c37743b18bdcbd8289d245f1",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch049.json",
+      "bytes": 648,
+      "phase_relative_path": "folds/held1/run/replay/epoch049.json",
+      "sha256": "1be42c6a2fe2709c340f651f899c11ac34c81cbee3172f9e6ee9c4911197bbb2",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch050.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch050.json",
+      "sha256": "c62090b26ee0d6df051c619263212fcdc33b5bcf16b5bcf57f17cb784ce647b9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch051.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/replay/epoch051.json",
+      "sha256": "cfbe5f19bb4d15e605708f713edffb2e0a6947078c558c15703266fb5dd2509e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch052.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch052.json",
+      "sha256": "ca14740efcb4367e402ff2bd71b507cc8e463621038870ebf3475075fdbe6865",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch053.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch053.json",
+      "sha256": "21ccf181af342af8b519a65ab1dad988c811b34b5264db19e82f4d852cfe4984",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch054.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/replay/epoch054.json",
+      "sha256": "521d9382c997c55d8f204fdf0b6feb8206695d711125b05c83005e55f9776ecd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch055.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch055.json",
+      "sha256": "08a26da0ee51077e6fb810d3500bc641394b3525cdc5153e3546aa8ec1245d78",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch056.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch056.json",
+      "sha256": "8b516c5a3c5f67ca3a7d2ffb7d38c8a62911494be13a9e017434b2a9de4514bb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch057.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch057.json",
+      "sha256": "f7b9178bb3860971862204b27d6b7525a493fbfd2d74301355c920354c73a82f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch058.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch058.json",
+      "sha256": "2835e15badc63d9a542193c9251ff2452e72a59e4b94ca8a1f8d3877f9072d94",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch059.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/replay/epoch059.json",
+      "sha256": "babe952110e965b91d0b0c2b6449e762f9bb91f70baf5305baabdb02e2d01a47",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch060.json",
+      "bytes": 624,
+      "phase_relative_path": "folds/held1/run/replay/epoch060.json",
+      "sha256": "cfbf029b535b5d9d51686493a8404774471d83c8b85d32d6aa065da35a475479",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch061.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/replay/epoch061.json",
+      "sha256": "1200c50520d680d6dd6065a90c8f78b9269bc42cab76c307433ff5756ac9189a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch062.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/replay/epoch062.json",
+      "sha256": "201cfd116c2dbf9cb711e6eacc3cf83020c9de89fee50fe0a6c878131b25890b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch063.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/replay/epoch063.json",
+      "sha256": "85474a07deac1582faedad64d0385998e30d4381fe7f74c64297f0fe8fc3d8bd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch064.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/replay/epoch064.json",
+      "sha256": "96814053737169b1bdf1150b4d0ff3f42878caed34cdeddd5231fd547c2ce9de",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/slot0.pt",
+      "bytes": 42848477,
+      "phase_relative_path": "folds/held1/run/replay/final_full.pt",
+      "sha256": "5a46ead72b35e69f0243277074dc288b8fc7955fcac2f5653b5df37d321a69c0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/initial.pt",
+      "bytes": 7590106,
+      "phase_relative_path": "folds/held1/run/replay/initial.pt",
+      "sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal000.json",
+      "bytes": 474,
+      "phase_relative_path": "folds/held1/run/replay/journal000.json",
+      "sha256": "9253144739cd235864b729c7122c22bc3a2ca9cc6718ae299187b0fe38eefe29",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal001.json",
+      "bytes": 541,
+      "phase_relative_path": "folds/held1/run/replay/journal001.json",
+      "sha256": "b5890a682ccfc9c777c4f72acfe044c9f1842947df9825ffd6317eff4ad44734",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal002.json",
+      "bytes": 542,
+      "phase_relative_path": "folds/held1/run/replay/journal002.json",
+      "sha256": "5982e568327dd22059f6ae5a160f0fe91fc039edc33e18cd63dfd41c67c56001",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal003.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/replay/journal003.json",
+      "sha256": "2a5c960b3324580efaca53cb461fb5866bf89857334f129f35fb4b4a6b9eb68e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal004.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/replay/journal004.json",
+      "sha256": "5a34e6dc0a9441297b2fa8483e37f394ef8a3bd4310f7c8120c9e12b1b069b56",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal005.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/replay/journal005.json",
+      "sha256": "41795f274255edf40637eb4895c1c5be48a60825173e6ac26fa888a8553d2e51",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal006.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/replay/journal006.json",
+      "sha256": "c6c36172449c63b13eccda59c583d7bef27fea96e398738792c3cd3f42a411a3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal007.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/replay/journal007.json",
+      "sha256": "06a6744cd7c5e6ceecc01ce26a546977095671119e10197b403d6f65a0644d49",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal008.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/replay/journal008.json",
+      "sha256": "6ba73635eeab28912808694d20756c8bcc79a2741c7d3ac9df898fccbd7488a9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal009.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/replay/journal009.json",
+      "sha256": "401aa462f69638f700d49d9694814f1e413022b0218db6a9f4c697ff831947f8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal010.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/replay/journal010.json",
+      "sha256": "74d6f6758c29869b9b60c42bf553fd874720a788d957a583713d3604db085b3c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal011.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/replay/journal011.json",
+      "sha256": "e1acd8c894640291553250c7ab31023bb70b2019dd23442bcd2497f50b4e8c3f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal012.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/replay/journal012.json",
+      "sha256": "ff645885c17a2c93813667e687875db30ae3a7bb74c00bcb565b103d069f7996",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal013.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/replay/journal013.json",
+      "sha256": "0791468072ace84b174b566c074b94fda1f01dfe46c22678247bc3d9168f04dd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal014.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal014.json",
+      "sha256": "a37fa4b84b9bd59d1bde4855dcfc74fd5c3599139953e29a5015e26a03520d2b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal015.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal015.json",
+      "sha256": "989941a9b500fb1a1716126bfdbfdd8f6c0d439d2981a82d4f1ac2b1aa10bd49",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal016.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal016.json",
+      "sha256": "e0440609c1c8985dbe6065645da7ebb52d3d36957fba3d12822109fd88de438f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal017.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal017.json",
+      "sha256": "6cbeacb4d12f6940d44026a166345db70126843194fcb0ca2113aaf5d6208ab6",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal018.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal018.json",
+      "sha256": "aac834262a07542a391b52eaf6c3bc553dc3b648cd3c0b06be29edb9ab1d56a0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal019.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal019.json",
+      "sha256": "045357946882a5bff23b5a129bffcd3d14c9d2eb90232b6c9d76b5fe2f1bbfd8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal020.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal020.json",
+      "sha256": "7d2325883bd34d9ddea82e9f5baf3a66573936b7bab191a1a9f92c5b4da2c61c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal021.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/replay/journal021.json",
+      "sha256": "65cf984f08783918fd59aedd9dd40fb68c9bbf94795cda5364696d612376536f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal022.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal022.json",
+      "sha256": "aac034eba5937a7ca5405ee9bf2d17e7512cb19245cc7f5c8e4daf8cacb3b996",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal023.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal023.json",
+      "sha256": "b83a52ff2647e1375a3c0934e891e52d79ac108f9de6e32dec0566d1b12de654",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal024.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal024.json",
+      "sha256": "813f2c296f5bafdc94f662b773927eea0419c9d3d04ee3009558b2c098eadb74",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal025.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal025.json",
+      "sha256": "d613580319af7ca189287483d0f6bb17e96a5dc56df3b8218bc1d3e3966d974b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal026.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal026.json",
+      "sha256": "dedade83065a73ea0a376e237d40ccc38d22b8f4a05d6f71d396887810d8b82b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal027.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal027.json",
+      "sha256": "876c3e2d0c90cef25c5d14055a67c1ce14b5df69e0d0a6aec023dfedfc16b34d",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal028.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal028.json",
+      "sha256": "b5722ffe04836da43c4ebab01f970ecb3d7d82d6439f072528f4093cbc262aeb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal029.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal029.json",
+      "sha256": "ce2539f2531b987f1c467e272cefcdbd544623f5d8fe7304a73d2a7572eff475",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal030.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal030.json",
+      "sha256": "b14c0e957c0f3e9b7bc6d0fa0b34cd8dd1e2f9b32e9d2d3024bcc33a18501727",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal031.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal031.json",
+      "sha256": "8d775ea0345c471a0057208c2426f42c4b3f3a2dec47b05e13b7747fda7c1b4a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal032.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal032.json",
+      "sha256": "f82c8b9da274fb200795d396e5470000ca396835368a42a8e89896f37f1ccadb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal033.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal033.json",
+      "sha256": "45ff63a34fe9c2d8391fc7035a0e641aa06d78394937daa29a1088ce8c94768b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal034.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal034.json",
+      "sha256": "9f3b360eee6e74da24d3ea1b78724644329c915352de45cc4542aa2cb21d7324",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal035.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal035.json",
+      "sha256": "a0069cb13a21d25c3a4f33653674eaa9fe570379513a2712d987e3797e27a18c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal036.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal036.json",
+      "sha256": "14c73f7930554adfb389c724c39dde208db31edc5d47d7cc9011e62daabade28",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal037.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal037.json",
+      "sha256": "c7ab36b19482862e32eeb3ce53d7767d972820b55a05b861676106cb4f47471a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal038.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal038.json",
+      "sha256": "3abf1e1df76306ec2977ed1ea843ab5017f6e5d930be9a184e26644e33df3b0c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal039.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal039.json",
+      "sha256": "e20fc9952d82676a0151ed81746d6639d7a08be6594fbc8ec210746079a4d918",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal040.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal040.json",
+      "sha256": "8d55a903d1dc6e17ffa0714fa64988fe54118f539ab8a23329c65fb03b163414",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal041.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal041.json",
+      "sha256": "beffb38a999885ec64a02c363d964d5dcb4d8a3df60c2a82a3e76f520f8ecb7b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal042.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal042.json",
+      "sha256": "502d715253abd54bd5a98f57286b033afb3bb56bd8f86f789420468508a3e720",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal043.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal043.json",
+      "sha256": "456aa88d98219640cb2835562310a7ec89f93c9c2b0036043ccd40545b9e50a0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal044.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal044.json",
+      "sha256": "8aa7ee4fd8d6debc7e8a43a5bc9a0a17ffc44314c89d44d1aad5083f53a6a8fb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal045.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal045.json",
+      "sha256": "98af331ae986335bd8ff3bed2421831fb36b7972ae8e8a553bdd41e7f97b7d65",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal046.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal046.json",
+      "sha256": "b2a5a1c57a2300754ea3ca115fbb1ac1ff5c9c39650be4d7f724910d8fb5e8fa",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal047.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal047.json",
+      "sha256": "9907843532c6366a3d5ddc7d67855b8d1e16f6945d84d4a811cbce642bb69691",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal048.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal048.json",
+      "sha256": "7b72cf11795437578fc0b20461562eb73a6db658685db3161b9453cafa28fb2e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal049.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal049.json",
+      "sha256": "723ef9db36d4d7d653eb7942c05fd2918ecf7de4bd0029dcaee310fae5477a3f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal050.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal050.json",
+      "sha256": "530049559f05b5dc60e8774a67292692a543b9215f280982472fb066ba39c991",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal051.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal051.json",
+      "sha256": "362a57162d1a4dadcdfcf8f5728da24b46bab201d4699db12302e4b26407722b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal052.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal052.json",
+      "sha256": "c27e254876753e04861620c6b78a4e6feae3bcd23c4ad3c68f0f8a905a212d21",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal053.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal053.json",
+      "sha256": "1a12dfbfd7332b95bfc59d134abfe391b1d5b3442f3ad1e589bfa65a80de57f8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal054.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal054.json",
+      "sha256": "60c65a19703a748a8a892c0df4521911665afc35e5c2ced8bbc879f33ed60656",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal055.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal055.json",
+      "sha256": "02a5d213084487d4bc7005999a7bb07ddff33227e0d1f851d827a945d395d5bf",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal056.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal056.json",
+      "sha256": "75e4d72cf2a727894241368bf41894f2ea06fbfe2e11df1f499d2a1ebfda9f9d",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal057.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal057.json",
+      "sha256": "e7810925440a81868e23fdab5dab6a3d4b833b699ec96c06b402321b69851391",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal058.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal058.json",
+      "sha256": "380995f0bb18a4d7be2fa982a4f92b83b5c46313e81845491da7bb084033dfbd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal059.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal059.json",
+      "sha256": "a0f4ed50b16ff3b726d64d534c5559631cdd4ae404f32481d2a8982c6a5098e0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal060.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal060.json",
+      "sha256": "bd68bbc33336b3adc7519f725802978f946ed32f825a97a68f41fadce674ef2f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal061.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal061.json",
+      "sha256": "00e4d108c7b5eedc58bd71b0b3c2aceb00c04507b9f121177af685ad4110a441",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal062.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal062.json",
+      "sha256": "4d49874117f94657ca3c4760e4a96010963211615853fbd89bb592a9ac00b917",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal063.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal063.json",
+      "sha256": "3207bd47c4fcf6e1f48ebbf447e77534ce53c8e7fa46b2baf0b2dfade0c40544",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal064.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/replay/journal064.json",
+      "sha256": "d437bbb240c5cedd8c0e229ee4bf18d1c79d6c99a1383cb6f2794b392f0b7f40",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/native_reference_diagnostic_unscored.npz",
+      "bytes": 52266,
+      "phase_relative_path": "folds/held1/run/replay/native_reference_diagnostic_unscored.npz",
+      "sha256": "e047de58571d1dd9a0d5e50f2f35ee3da393ce7e76aeec56a76f24b0221a7312",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/native_reference_validation_unscored.npz",
+      "bytes": 43759,
+      "phase_relative_path": "folds/held1/run/replay/native_reference_validation_unscored.npz",
+      "sha256": "50de32423b289b2943e6e412c5af6532c3226cd5af856b86483bb65fae3dccf0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_swad.pt",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held1/run/replay/selected.pt",
+      "sha256": "1351bfe38372464d90239cd6e405a5e0745a03a86719fa90235582c2bfeff526",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_bn_only.pt",
+      "bytes": 2527359,
+      "phase_relative_path": "folds/held1/run/replay/selected_bn_only.pt",
+      "sha256": "ecbfd52125c5a4317d857f79306977f69ef4ffb7f650bc4418eaab571dfee075",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_native_reference.pt",
+      "bytes": 2527105,
+      "phase_relative_path": "folds/held1/run/replay/selected_native_reference.pt",
+      "sha256": "14c76e5c8d25a752354ad962046bcbf105f1ff8fd286e3eb8df74df4134d77b0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_swad.pt",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held1/run/replay/selected_swad.pt",
+      "sha256": "1351bfe38372464d90239cd6e405a5e0745a03a86719fa90235582c2bfeff526",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_tail.pt",
+      "bytes": 2527017,
+      "phase_relative_path": "folds/held1/run/replay/selected_tail.pt",
+      "sha256": "a565a538d5717ac7465ef311ce75eb78d4fffacfc42ca833d2411053b275b167",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/slot0.pt",
+      "bytes": 42848477,
+      "phase_relative_path": "folds/held1/run/replay/slot0.pt",
+      "sha256": "5a46ead72b35e69f0243277074dc288b8fc7955fcac2f5653b5df37d321a69c0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/slot1.pt",
+      "bytes": 42848477,
+      "phase_relative_path": "folds/held1/run/replay/slot1.pt",
+      "sha256": "a2a9ebe429ab1e99f04c3037d0a94b1472fb8ba17f3c957f7699e4ec443a6181",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/split.npz",
+      "bytes": 11179,
+      "phase_relative_path": "folds/held1/run/replay/split.npz",
+      "sha256": "bb50e0dbd3de67abeaf68b2388b29287af26fd1a0714f1f0a501d4f380446bbc",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/steps.jsonl",
+      "bytes": 3110074,
+      "phase_relative_path": "folds/held1/run/replay/steps.jsonl",
+      "sha256": "7105db655aa41292dfd7b3e46f1768e5813505a1a6098cd98b4a53adc22f680f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/swad_diagnostic_unscored.npz",
+      "bytes": 52446,
+      "phase_relative_path": "folds/held1/run/replay/swad_diagnostic_unscored.npz",
+      "sha256": "dcb473c169c236a91263869666d95ee8b7b8994c4d51fce5ec5a68f0f3b4c514",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/validation_unscored.npz",
+      "bytes": 43877,
+      "phase_relative_path": "folds/held1/run/replay/swad_validation_unscored.npz",
+      "sha256": "7239dd8a2e390ada17dcd153842d4dd453a172223a63879830e7afdd25ede837",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/tail_diagnostic_unscored.npz",
+      "bytes": 52325,
+      "phase_relative_path": "folds/held1/run/replay/tail_diagnostic_unscored.npz",
+      "sha256": "d4889031b335338969dece036a7060aae365ffd4af30f84f58fb510066c1729a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/tail_validation_unscored.npz",
+      "bytes": 43819,
+      "phase_relative_path": "folds/held1/run/replay/tail_validation_unscored.npz",
+      "sha256": "49fa54c2d4bcf9f69bd15fe79e07a9aa9e5e6e6be1c26d4079922d17bc4975b3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/validation_unscored.npz",
+      "bytes": 43877,
+      "phase_relative_path": "folds/held1/run/replay/validation_unscored.npz",
+      "sha256": "7239dd8a2e390ada17dcd153842d4dd453a172223a63879830e7afdd25ede837",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/CALIBRATION_COST.json",
+      "bytes": 23699,
+      "phase_relative_path": "folds/held1/run/train/CALIBRATION_COST.json",
+      "sha256": "9c20968b775838b8d104148155b22c6106f840629ccd36abe19b3b70b0a551a8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/CHECKPOINT_COST.json",
+      "bytes": 5764,
+      "phase_relative_path": "folds/held1/run/train/CHECKPOINT_COST.json",
+      "sha256": "a6de9ea23b77280e2bb58ca51f58016e683c116ae853bd7ac0c56219d8c5091c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/COMPLETE.json",
+      "bytes": 889,
+      "phase_relative_path": "folds/held1/run/train/COMPLETE.json",
+      "sha256": "9e304817037d9762800d8556923b8845bfb4166c5c2a00e5816f7d765d65d91c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/EVALUATION_BATCH_COST.json",
+      "bytes": 99632,
+      "phase_relative_path": "folds/held1/run/train/EVALUATION_BATCH_COST.json",
+      "sha256": "a3fdbe7706fabd2bd4169c9b0ce49537d89e27f4b8cc7e43f9e0fbd9316089ab",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/FIRST_INDEPENDENT_REFERENCE.json",
+      "bytes": 690,
+      "phase_relative_path": "folds/held1/run/train/FIRST_INDEPENDENT_REFERENCE.json",
+      "sha256": "4f63ecddbbbc528a92da1c51fd1a9696d748e123b74d9aea35f72631ccc545ef",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/FIRST_READY.json",
+      "bytes": 810,
+      "phase_relative_path": "folds/held1/run/train/FIRST_READY.json",
+      "sha256": "02e215a56e550a8d953abeae90adaff64c79e7c471cea2c1fda2e097f6785e40",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/FIRST_RELEASE.json",
+      "bytes": 247,
+      "phase_relative_path": "folds/held1/run/train/FIRST_RELEASE.json",
+      "sha256": "90ff1a12ed1e394c74a5e857fcbafcdcc865025e0b999f0b10cf21a8895d518a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/OUTPUT_SELECTION.json",
+      "bytes": 5318,
+      "phase_relative_path": "folds/held1/run/train/OUTPUT_SELECTION.json",
+      "sha256": "d501755afd588c98fc82ea3bbe19be58ece2ee9b9f975ac2e2e1a1a3c8a9ee8f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/PROGRESS.json",
+      "bytes": 352,
+      "phase_relative_path": "folds/held1/run/train/PROGRESS.json",
+      "sha256": "caeaba94a4b0356b2a7d52d644a27a80581665a0c8ec429bca8f7214d18a0ad9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/STATE.json",
+      "bytes": 227,
+      "phase_relative_path": "folds/held1/run/train/STATE.json",
+      "sha256": "81c43e7287f0d7d49ec894b9aa4d7831b2d838df05519cdc627196728ded15bb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/STEP_DIGEST_COST.json",
+      "bytes": 357891,
+      "phase_relative_path": "folds/held1/run/train/STEP_DIGEST_COST.json",
+      "sha256": "bdef7c81dcf98c769256b3bf13aa4ecaec73ded63fe90a021e9360d210a02f88",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/bn_only_diagnostic_unscored.npz",
+      "bytes": 52248,
+      "phase_relative_path": "folds/held1/run/train/bn_only_diagnostic_unscored.npz",
+      "sha256": "473043c5664da6e53d5ddff7a245c980fbfe1fa4b6893f7c0f4293842eb99566",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/bn_only_validation_unscored.npz",
+      "bytes": 43764,
+      "phase_relative_path": "folds/held1/run/train/bn_only_validation_unscored.npz",
+      "sha256": "04269325a902fa4613985dfaf64304509996579460b0c9412a2b3e1b1e2a16c7",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/swad_diagnostic_unscored.npz",
+      "bytes": 52446,
+      "phase_relative_path": "folds/held1/run/train/diagnostic_unscored.npz",
+      "sha256": "dcb473c169c236a91263869666d95ee8b7b8994c4d51fce5ec5a68f0f3b4c514",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch000.json",
+      "bytes": 494,
+      "phase_relative_path": "folds/held1/run/train/epoch000.json",
+      "sha256": "acd25a5caef78c54c868af4a584919edfb06cf0423e87a04f8d69c688b2cc7c7",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch001.json",
+      "bytes": 618,
+      "phase_relative_path": "folds/held1/run/train/epoch001.json",
+      "sha256": "621fc2d7447f772663285a31fa80549a42a9cdbc486f54f2636256ba23d910a8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch002.json",
+      "bytes": 619,
+      "phase_relative_path": "folds/held1/run/train/epoch002.json",
+      "sha256": "b3a1499c5c15d22a2f6bc169435059a8a7229d3c0a319e3477f5c50c9904997f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch003.json",
+      "bytes": 619,
+      "phase_relative_path": "folds/held1/run/train/epoch003.json",
+      "sha256": "6a52cb7d4d6c489e6fb003d148529675efb043f341313c2d4f47361dc5eed09b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch004.json",
+      "bytes": 617,
+      "phase_relative_path": "folds/held1/run/train/epoch004.json",
+      "sha256": "4447808a532e7f9f9a9ca693dcdd1cf5e0e60551a7c75083e7d22c2ee8d069ef",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch005.json",
+      "bytes": 647,
+      "phase_relative_path": "folds/held1/run/train/epoch005.json",
+      "sha256": "60bc404aeed13af26516cdc34b74865d03d4fcbda4bbcb4079e98e0ed8d2fbef",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch006.json",
+      "bytes": 634,
+      "phase_relative_path": "folds/held1/run/train/epoch006.json",
+      "sha256": "082a37a45d3e6eeff9710c032ce7762ebba332a820a4ce2ea08433113312b213",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch007.json",
+      "bytes": 647,
+      "phase_relative_path": "folds/held1/run/train/epoch007.json",
+      "sha256": "bf3a83104e6f144575d36e7529ef95cca2b299fb68be494b8a92117a0c2b8075",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch008.json",
+      "bytes": 633,
+      "phase_relative_path": "folds/held1/run/train/epoch008.json",
+      "sha256": "8a7b7eb3a5f39f483c96326d74eae75140c3991500b290782b7bc45801ade930",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch009.json",
+      "bytes": 645,
+      "phase_relative_path": "folds/held1/run/train/epoch009.json",
+      "sha256": "e8a764e8e5a4bcf9130b867382ac9ca18b5d7a9e7dc834cac7597ad3756d32f5",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch010.json",
+      "bytes": 633,
+      "phase_relative_path": "folds/held1/run/train/epoch010.json",
+      "sha256": "bbb3e2db223b3b4454cd40479c71d73578e152ba064ac205fddb5c69fd091093",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch011.json",
+      "bytes": 634,
+      "phase_relative_path": "folds/held1/run/train/epoch011.json",
+      "sha256": "d793826641831578b67dfd5a898554fdf5847f3b111a828860f2beb783d032ed",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch012.json",
+      "bytes": 634,
+      "phase_relative_path": "folds/held1/run/train/epoch012.json",
+      "sha256": "83ab91fbb03a7d11424d07b6f7a2511e1b2453e0f32bdaa5156de44d5f5e7a2c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch013.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/train/epoch013.json",
+      "sha256": "8063e91ad6a92b92d8ff994a8d0678ef4f4c2c7bff3a5ac6c6cb0d71ec8cebe9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch014.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch014.json",
+      "sha256": "4c734bbdda86770a6caa377c0d9747cd5330c2011cac039466148134d8bc971c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch015.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch015.json",
+      "sha256": "5a76144243527110e02429a11f9984835863b0c2349d5e3a5b94708039439fec",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch016.json",
+      "bytes": 622,
+      "phase_relative_path": "folds/held1/run/train/epoch016.json",
+      "sha256": "4c2642776f3d98b16bb139fcb61579caebbcc6de5221c20b218233f936587c75",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch017.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch017.json",
+      "sha256": "a36af44bd4e18d354670aba1ad9250f687ea1bdd10b150f8e65bf4915a74c84b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch018.json",
+      "bytes": 623,
+      "phase_relative_path": "folds/held1/run/train/epoch018.json",
+      "sha256": "e71c5eeba38f198ded5344b6c268761ae45ed4f57ab87a2f7a05b07331044c0c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch019.json",
+      "bytes": 622,
+      "phase_relative_path": "folds/held1/run/train/epoch019.json",
+      "sha256": "fb33b1e15c7387ac5b98ef7a95827d94523fb45d71c989fc65a11ccdb059aa04",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch020.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch020.json",
+      "sha256": "a4d5d8aa2e03d75a2be545277a7e5f310c38f1554140c5c24820eff56e3277dd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch021.json",
+      "bytes": 623,
+      "phase_relative_path": "folds/held1/run/train/epoch021.json",
+      "sha256": "4ed908618b97a95cc65d743ff520db936158179cf8ae162f2ce08a5071f1d73b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch022.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch022.json",
+      "sha256": "cd80d17e50a420eb9b8cbca669fee99bb7a875bc638161df6e4dbcca414ea052",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch023.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch023.json",
+      "sha256": "f1628c61b78c084296b8a21a8a78096ef627080c668c99263a334079c2cf0fa9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch024.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch024.json",
+      "sha256": "b4972ab9d3109511a6db8eb939e5da809a42f9fcb2ef7b3b4787a2b324339247",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch025.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch025.json",
+      "sha256": "4f0efe74c6dcb57e7a8217c40c92d4c520b0bfde13cf2aa5c572b8dd41ca9439",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch026.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch026.json",
+      "sha256": "bfa1e2899b97f38907e292746db5e02aa7d95b5c34e37c58eec97bb7a6d61c73",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch027.json",
+      "bytes": 648,
+      "phase_relative_path": "folds/held1/run/train/epoch027.json",
+      "sha256": "d1a8ce99d6f10dda9ee46348b53a913254dddb7a03aaa84674d303ee262148c2",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch028.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch028.json",
+      "sha256": "c28bd857ddf47a9ee34e05a8abeb5713fdffbf1197a618f81da1e323a64456ca",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch029.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch029.json",
+      "sha256": "e317cd49332017c1977fa9fbb9a9075cdefecdc74408a649d469b7f15a62f0b8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch030.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch030.json",
+      "sha256": "6974f81c6160347272176449a1c529d636ee69c2a56207321deea34dad790de0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch031.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch031.json",
+      "sha256": "45bf88585744541071c549afa65d1270fc4c52a989975add72134521de3776a1",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch032.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/train/epoch032.json",
+      "sha256": "c7a2e07980f74905e9a228e1250fecc56ce6fd2780fe632367a467d33501df16",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch033.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch033.json",
+      "sha256": "5e16fc717264db8323148cab1a22185d55947a9c46b12a48aa35a589ef0b1fc4",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch034.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch034.json",
+      "sha256": "dbf94edbeac17b6649ed5387a933122310ba981849fc8b70a74ac9c8828ad59a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch035.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/train/epoch035.json",
+      "sha256": "055f611a85a79a4e006aee49a88931773ccb9eb00c0560751b13ba9ce10bfe49",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch036.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/train/epoch036.json",
+      "sha256": "cad320fd82465c8209e09de8364c1da3652f1ad7d59f3934f309a9ac8fc0fd70",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch037.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/train/epoch037.json",
+      "sha256": "b557f9f11f76546db4b5c14f1d94283c0b329dc717daf1420448d7d162edbe82",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch038.json",
+      "bytes": 635,
+      "phase_relative_path": "folds/held1/run/train/epoch038.json",
+      "sha256": "ed214a6f110093d933975233459c3a625045d1c2114f7ee4631bb8f7cac9cf7e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch039.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch039.json",
+      "sha256": "5f29735dc36dd8f35351ad4abb95f3ab61b0c6f7b9ef1e99ad50fb2dbf8a09ed",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch040.json",
+      "bytes": 648,
+      "phase_relative_path": "folds/held1/run/train/epoch040.json",
+      "sha256": "08b18fe9b4f49543e8d48703530f5482c5b364f0c3562224dd1efc6b52e9c55c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch041.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch041.json",
+      "sha256": "697221acb781bb0fb9eabb3bcf90a73927a3ad986e003e0ea9562c5543cea7b3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch042.json",
+      "bytes": 647,
+      "phase_relative_path": "folds/held1/run/train/epoch042.json",
+      "sha256": "9c73f379dc8dadfe59afc70fe127670b459fb6a2201e4ef8742fa317c60792cf",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch043.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch043.json",
+      "sha256": "7684f1c7b3b0cb7bcbf3ec7b0749bcf171a8a3a4be4c024b24729dae566f0ed0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch044.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch044.json",
+      "sha256": "bfc0bf3119b0886a0f791103f96b2db64b433805ab5e20ec7960b50d93130779",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch045.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch045.json",
+      "sha256": "575a61c2ee62d14f6141ae32e6093631eb01e0db21279faafafd495adc0086c3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch046.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch046.json",
+      "sha256": "60225c56b3b3d6bd4a56be2bb5aa59ee0a0bb8f8c60495a0d95b57109b282e47",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch047.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch047.json",
+      "sha256": "fa35d64552352db6b1e9ba2c17b2793dec8380037335a31b4acadacb3af40ed9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch048.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/train/epoch048.json",
+      "sha256": "382873d49216b7024da984f88ab135593f2c66d0c37743b18bdcbd8289d245f1",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch049.json",
+      "bytes": 648,
+      "phase_relative_path": "folds/held1/run/train/epoch049.json",
+      "sha256": "1be42c6a2fe2709c340f651f899c11ac34c81cbee3172f9e6ee9c4911197bbb2",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch050.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch050.json",
+      "sha256": "c62090b26ee0d6df051c619263212fcdc33b5bcf16b5bcf57f17cb784ce647b9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch051.json",
+      "bytes": 649,
+      "phase_relative_path": "folds/held1/run/train/epoch051.json",
+      "sha256": "cfbe5f19bb4d15e605708f713edffb2e0a6947078c558c15703266fb5dd2509e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch052.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch052.json",
+      "sha256": "ca14740efcb4367e402ff2bd71b507cc8e463621038870ebf3475075fdbe6865",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch053.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch053.json",
+      "sha256": "21ccf181af342af8b519a65ab1dad988c811b34b5264db19e82f4d852cfe4984",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch054.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/train/epoch054.json",
+      "sha256": "521d9382c997c55d8f204fdf0b6feb8206695d711125b05c83005e55f9776ecd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch055.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch055.json",
+      "sha256": "08a26da0ee51077e6fb810d3500bc641394b3525cdc5153e3546aa8ec1245d78",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch056.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch056.json",
+      "sha256": "8b516c5a3c5f67ca3a7d2ffb7d38c8a62911494be13a9e017434b2a9de4514bb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch057.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch057.json",
+      "sha256": "f7b9178bb3860971862204b27d6b7525a493fbfd2d74301355c920354c73a82f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch058.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch058.json",
+      "sha256": "2835e15badc63d9a542193c9251ff2452e72a59e4b94ca8a1f8d3877f9072d94",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch059.json",
+      "bytes": 650,
+      "phase_relative_path": "folds/held1/run/train/epoch059.json",
+      "sha256": "babe952110e965b91d0b0c2b6449e762f9bb91f70baf5305baabdb02e2d01a47",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch060.json",
+      "bytes": 624,
+      "phase_relative_path": "folds/held1/run/train/epoch060.json",
+      "sha256": "cfbf029b535b5d9d51686493a8404774471d83c8b85d32d6aa065da35a475479",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch061.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/train/epoch061.json",
+      "sha256": "1200c50520d680d6dd6065a90c8f78b9269bc42cab76c307433ff5756ac9189a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch062.json",
+      "bytes": 636,
+      "phase_relative_path": "folds/held1/run/train/epoch062.json",
+      "sha256": "201cfd116c2dbf9cb711e6eacc3cf83020c9de89fee50fe0a6c878131b25890b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch063.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/train/epoch063.json",
+      "sha256": "85474a07deac1582faedad64d0385998e30d4381fe7f74c64297f0fe8fc3d8bd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch064.json",
+      "bytes": 637,
+      "phase_relative_path": "folds/held1/run/train/epoch064.json",
+      "sha256": "96814053737169b1bdf1150b4d0ff3f42878caed34cdeddd5231fd547c2ce9de",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/slot0.pt",
+      "bytes": 42848477,
+      "phase_relative_path": "folds/held1/run/train/final_full.pt",
+      "sha256": "5a46ead72b35e69f0243277074dc288b8fc7955fcac2f5653b5df37d321a69c0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/first_update.pt",
+      "bytes": 12602253,
+      "phase_relative_path": "folds/held1/run/train/first_update.pt",
+      "sha256": "6c0c15353054ea2225ca3b2c57236ae8b23043d7208f841a6c8e884544dd57e3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/initial.pt",
+      "bytes": 7590106,
+      "phase_relative_path": "folds/held1/run/train/initial.pt",
+      "sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal000.json",
+      "bytes": 474,
+      "phase_relative_path": "folds/held1/run/train/journal000.json",
+      "sha256": "9253144739cd235864b729c7122c22bc3a2ca9cc6718ae299187b0fe38eefe29",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal001.json",
+      "bytes": 541,
+      "phase_relative_path": "folds/held1/run/train/journal001.json",
+      "sha256": "b5890a682ccfc9c777c4f72acfe044c9f1842947df9825ffd6317eff4ad44734",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal002.json",
+      "bytes": 542,
+      "phase_relative_path": "folds/held1/run/train/journal002.json",
+      "sha256": "5982e568327dd22059f6ae5a160f0fe91fc039edc33e18cd63dfd41c67c56001",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal003.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/train/journal003.json",
+      "sha256": "2a5c960b3324580efaca53cb461fb5866bf89857334f129f35fb4b4a6b9eb68e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal004.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/train/journal004.json",
+      "sha256": "5a34e6dc0a9441297b2fa8483e37f394ef8a3bd4310f7c8120c9e12b1b069b56",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal005.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/train/journal005.json",
+      "sha256": "41795f274255edf40637eb4895c1c5be48a60825173e6ac26fa888a8553d2e51",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal006.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/train/journal006.json",
+      "sha256": "c6c36172449c63b13eccda59c583d7bef27fea96e398738792c3cd3f42a411a3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal007.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/train/journal007.json",
+      "sha256": "06a6744cd7c5e6ceecc01ce26a546977095671119e10197b403d6f65a0644d49",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal008.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/train/journal008.json",
+      "sha256": "6ba73635eeab28912808694d20756c8bcc79a2741c7d3ac9df898fccbd7488a9",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal009.json",
+      "bytes": 543,
+      "phase_relative_path": "folds/held1/run/train/journal009.json",
+      "sha256": "401aa462f69638f700d49d9694814f1e413022b0218db6a9f4c697ff831947f8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal010.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/train/journal010.json",
+      "sha256": "74d6f6758c29869b9b60c42bf553fd874720a788d957a583713d3604db085b3c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal011.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/train/journal011.json",
+      "sha256": "e1acd8c894640291553250c7ab31023bb70b2019dd23442bcd2497f50b4e8c3f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal012.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/train/journal012.json",
+      "sha256": "ff645885c17a2c93813667e687875db30ae3a7bb74c00bcb565b103d069f7996",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal013.json",
+      "bytes": 544,
+      "phase_relative_path": "folds/held1/run/train/journal013.json",
+      "sha256": "0791468072ace84b174b566c074b94fda1f01dfe46c22678247bc3d9168f04dd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal014.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal014.json",
+      "sha256": "a37fa4b84b9bd59d1bde4855dcfc74fd5c3599139953e29a5015e26a03520d2b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal015.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal015.json",
+      "sha256": "989941a9b500fb1a1716126bfdbfdd8f6c0d439d2981a82d4f1ac2b1aa10bd49",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal016.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal016.json",
+      "sha256": "e0440609c1c8985dbe6065645da7ebb52d3d36957fba3d12822109fd88de438f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal017.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal017.json",
+      "sha256": "6cbeacb4d12f6940d44026a166345db70126843194fcb0ca2113aaf5d6208ab6",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal018.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal018.json",
+      "sha256": "aac834262a07542a391b52eaf6c3bc553dc3b648cd3c0b06be29edb9ab1d56a0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal019.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal019.json",
+      "sha256": "045357946882a5bff23b5a129bffcd3d14c9d2eb90232b6c9d76b5fe2f1bbfd8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal020.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal020.json",
+      "sha256": "7d2325883bd34d9ddea82e9f5baf3a66573936b7bab191a1a9f92c5b4da2c61c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal021.json",
+      "bytes": 545,
+      "phase_relative_path": "folds/held1/run/train/journal021.json",
+      "sha256": "65cf984f08783918fd59aedd9dd40fb68c9bbf94795cda5364696d612376536f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal022.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal022.json",
+      "sha256": "aac034eba5937a7ca5405ee9bf2d17e7512cb19245cc7f5c8e4daf8cacb3b996",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal023.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal023.json",
+      "sha256": "b83a52ff2647e1375a3c0934e891e52d79ac108f9de6e32dec0566d1b12de654",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal024.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal024.json",
+      "sha256": "813f2c296f5bafdc94f662b773927eea0419c9d3d04ee3009558b2c098eadb74",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal025.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal025.json",
+      "sha256": "d613580319af7ca189287483d0f6bb17e96a5dc56df3b8218bc1d3e3966d974b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal026.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal026.json",
+      "sha256": "dedade83065a73ea0a376e237d40ccc38d22b8f4a05d6f71d396887810d8b82b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal027.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal027.json",
+      "sha256": "876c3e2d0c90cef25c5d14055a67c1ce14b5df69e0d0a6aec023dfedfc16b34d",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal028.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal028.json",
+      "sha256": "b5722ffe04836da43c4ebab01f970ecb3d7d82d6439f072528f4093cbc262aeb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal029.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal029.json",
+      "sha256": "ce2539f2531b987f1c467e272cefcdbd544623f5d8fe7304a73d2a7572eff475",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal030.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal030.json",
+      "sha256": "b14c0e957c0f3e9b7bc6d0fa0b34cd8dd1e2f9b32e9d2d3024bcc33a18501727",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal031.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal031.json",
+      "sha256": "8d775ea0345c471a0057208c2426f42c4b3f3a2dec47b05e13b7747fda7c1b4a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal032.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal032.json",
+      "sha256": "f82c8b9da274fb200795d396e5470000ca396835368a42a8e89896f37f1ccadb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal033.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal033.json",
+      "sha256": "45ff63a34fe9c2d8391fc7035a0e641aa06d78394937daa29a1088ce8c94768b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal034.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal034.json",
+      "sha256": "9f3b360eee6e74da24d3ea1b78724644329c915352de45cc4542aa2cb21d7324",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal035.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal035.json",
+      "sha256": "a0069cb13a21d25c3a4f33653674eaa9fe570379513a2712d987e3797e27a18c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal036.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal036.json",
+      "sha256": "14c73f7930554adfb389c724c39dde208db31edc5d47d7cc9011e62daabade28",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal037.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal037.json",
+      "sha256": "c7ab36b19482862e32eeb3ce53d7767d972820b55a05b861676106cb4f47471a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal038.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal038.json",
+      "sha256": "3abf1e1df76306ec2977ed1ea843ab5017f6e5d930be9a184e26644e33df3b0c",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal039.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal039.json",
+      "sha256": "e20fc9952d82676a0151ed81746d6639d7a08be6594fbc8ec210746079a4d918",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal040.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal040.json",
+      "sha256": "8d55a903d1dc6e17ffa0714fa64988fe54118f539ab8a23329c65fb03b163414",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal041.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal041.json",
+      "sha256": "beffb38a999885ec64a02c363d964d5dcb4d8a3df60c2a82a3e76f520f8ecb7b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal042.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal042.json",
+      "sha256": "502d715253abd54bd5a98f57286b033afb3bb56bd8f86f789420468508a3e720",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal043.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal043.json",
+      "sha256": "456aa88d98219640cb2835562310a7ec89f93c9c2b0036043ccd40545b9e50a0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal044.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal044.json",
+      "sha256": "8aa7ee4fd8d6debc7e8a43a5bc9a0a17ffc44314c89d44d1aad5083f53a6a8fb",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal045.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal045.json",
+      "sha256": "98af331ae986335bd8ff3bed2421831fb36b7972ae8e8a553bdd41e7f97b7d65",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal046.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal046.json",
+      "sha256": "b2a5a1c57a2300754ea3ca115fbb1ac1ff5c9c39650be4d7f724910d8fb5e8fa",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal047.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal047.json",
+      "sha256": "9907843532c6366a3d5ddc7d67855b8d1e16f6945d84d4a811cbce642bb69691",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal048.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal048.json",
+      "sha256": "7b72cf11795437578fc0b20461562eb73a6db658685db3161b9453cafa28fb2e",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal049.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal049.json",
+      "sha256": "723ef9db36d4d7d653eb7942c05fd2918ecf7de4bd0029dcaee310fae5477a3f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal050.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal050.json",
+      "sha256": "530049559f05b5dc60e8774a67292692a543b9215f280982472fb066ba39c991",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal051.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal051.json",
+      "sha256": "362a57162d1a4dadcdfcf8f5728da24b46bab201d4699db12302e4b26407722b",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal052.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal052.json",
+      "sha256": "c27e254876753e04861620c6b78a4e6feae3bcd23c4ad3c68f0f8a905a212d21",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal053.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal053.json",
+      "sha256": "1a12dfbfd7332b95bfc59d134abfe391b1d5b3442f3ad1e589bfa65a80de57f8",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal054.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal054.json",
+      "sha256": "60c65a19703a748a8a892c0df4521911665afc35e5c2ced8bbc879f33ed60656",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal055.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal055.json",
+      "sha256": "02a5d213084487d4bc7005999a7bb07ddff33227e0d1f851d827a945d395d5bf",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal056.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal056.json",
+      "sha256": "75e4d72cf2a727894241368bf41894f2ea06fbfe2e11df1f499d2a1ebfda9f9d",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal057.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal057.json",
+      "sha256": "e7810925440a81868e23fdab5dab6a3d4b833b699ec96c06b402321b69851391",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal058.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal058.json",
+      "sha256": "380995f0bb18a4d7be2fa982a4f92b83b5c46313e81845491da7bb084033dfbd",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal059.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal059.json",
+      "sha256": "a0f4ed50b16ff3b726d64d534c5559631cdd4ae404f32481d2a8982c6a5098e0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal060.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal060.json",
+      "sha256": "bd68bbc33336b3adc7519f725802978f946ed32f825a97a68f41fadce674ef2f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal061.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal061.json",
+      "sha256": "00e4d108c7b5eedc58bd71b0b3c2aceb00c04507b9f121177af685ad4110a441",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal062.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal062.json",
+      "sha256": "4d49874117f94657ca3c4760e4a96010963211615853fbd89bb592a9ac00b917",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal063.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal063.json",
+      "sha256": "3207bd47c4fcf6e1f48ebbf447e77534ce53c8e7fa46b2baf0b2dfade0c40544",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal064.json",
+      "bytes": 546,
+      "phase_relative_path": "folds/held1/run/train/journal064.json",
+      "sha256": "d437bbb240c5cedd8c0e229ee4bf18d1c79d6c99a1383cb6f2794b392f0b7f40",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/native_reference_diagnostic_unscored.npz",
+      "bytes": 52266,
+      "phase_relative_path": "folds/held1/run/train/native_reference_diagnostic_unscored.npz",
+      "sha256": "e047de58571d1dd9a0d5e50f2f35ee3da393ce7e76aeec56a76f24b0221a7312",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/native_reference_validation_unscored.npz",
+      "bytes": 43759,
+      "phase_relative_path": "folds/held1/run/train/native_reference_validation_unscored.npz",
+      "sha256": "50de32423b289b2943e6e412c5af6532c3226cd5af856b86483bb65fae3dccf0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_swad.pt",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held1/run/train/selected.pt",
+      "sha256": "1351bfe38372464d90239cd6e405a5e0745a03a86719fa90235582c2bfeff526",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_bn_only.pt",
+      "bytes": 2527359,
+      "phase_relative_path": "folds/held1/run/train/selected_bn_only.pt",
+      "sha256": "ecbfd52125c5a4317d857f79306977f69ef4ffb7f650bc4418eaab571dfee075",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_native_reference.pt",
+      "bytes": 2527105,
+      "phase_relative_path": "folds/held1/run/train/selected_native_reference.pt",
+      "sha256": "14c76e5c8d25a752354ad962046bcbf105f1ff8fd286e3eb8df74df4134d77b0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_swad.pt",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held1/run/train/selected_swad.pt",
+      "sha256": "1351bfe38372464d90239cd6e405a5e0745a03a86719fa90235582c2bfeff526",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/selected_tail.pt",
+      "bytes": 2527017,
+      "phase_relative_path": "folds/held1/run/train/selected_tail.pt",
+      "sha256": "a565a538d5717ac7465ef311ce75eb78d4fffacfc42ca833d2411053b275b167",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/slot0.pt",
+      "bytes": 42848477,
+      "phase_relative_path": "folds/held1/run/train/slot0.pt",
+      "sha256": "5a46ead72b35e69f0243277074dc288b8fc7955fcac2f5653b5df37d321a69c0",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/slot1.pt",
+      "bytes": 42848477,
+      "phase_relative_path": "folds/held1/run/train/slot1.pt",
+      "sha256": "a2a9ebe429ab1e99f04c3037d0a94b1472fb8ba17f3c957f7699e4ec443a6181",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/split.npz",
+      "bytes": 11179,
+      "phase_relative_path": "folds/held1/run/train/split.npz",
+      "sha256": "bb50e0dbd3de67abeaf68b2388b29287af26fd1a0714f1f0a501d4f380446bbc",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/steps.jsonl",
+      "bytes": 3110074,
+      "phase_relative_path": "folds/held1/run/train/steps.jsonl",
+      "sha256": "7105db655aa41292dfd7b3e46f1768e5813505a1a6098cd98b4a53adc22f680f",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/swad_diagnostic_unscored.npz",
+      "bytes": 52446,
+      "phase_relative_path": "folds/held1/run/train/swad_diagnostic_unscored.npz",
+      "sha256": "dcb473c169c236a91263869666d95ee8b7b8994c4d51fce5ec5a68f0f3b4c514",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/validation_unscored.npz",
+      "bytes": 43877,
+      "phase_relative_path": "folds/held1/run/train/swad_validation_unscored.npz",
+      "sha256": "7239dd8a2e390ada17dcd153842d4dd453a172223a63879830e7afdd25ede837",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/tail_diagnostic_unscored.npz",
+      "bytes": 52325,
+      "phase_relative_path": "folds/held1/run/train/tail_diagnostic_unscored.npz",
+      "sha256": "d4889031b335338969dece036a7060aae365ffd4af30f84f58fb510066c1729a",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/tail_validation_unscored.npz",
+      "bytes": 43819,
+      "phase_relative_path": "folds/held1/run/train/tail_validation_unscored.npz",
+      "sha256": "49fa54c2d4bcf9f69bd15fe79e07a9aa9e5e6e6be1c26d4079922d17bc4975b3",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/validation_unscored.npz",
+      "bytes": 43877,
+      "phase_relative_path": "folds/held1/run/train/validation_unscored.npz",
+      "sha256": "7239dd8a2e390ada17dcd153842d4dd453a172223a63879830e7afdd25ede837",
+      "source": "base"
+    },
+    {
+      "archive_member": "new/folds/held1/synthetic_execution/TERMINATION.json",
+      "bytes": 114,
+      "phase_relative_path": "folds/held1/synthetic_execution/TERMINATION.json",
+      "sha256": "042720f1994661fb440f24997d0e0353b4f8ed79ba4f9f72616c114e88c92a86",
+      "source": "supplement"
+    },
+    {
+      "archive_member": "new/folds/held1/synthetic_execution/stdout.log",
+      "bytes": 514,
+      "phase_relative_path": "folds/held1/synthetic_execution/stdout.log",
+      "sha256": "28d34ec2cf32f9df7cbfcd45412d45b7c014abea8fea916e2fa6ff1429a58ef6",
+      "source": "supplement"
+    }
+  ],
+  "state": "lossless_full_completed_fold_exact_byte_dedup_recipe",
+  "storage_counts": {
+    "base_bytes": 325610769,
+    "base_files": 321,
+    "supplement_bytes": 545081,
+    "supplement_files": 29
+  },
+  "weights_must_not_be_retrained_or_approximated": true,
+  "whole_job_resume_authorized": false
+}

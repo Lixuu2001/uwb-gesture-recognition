@@ -1,0 +1,86 @@
+{
+  "completed_folds": [
+    1
+  ],
+  "held1_frozen_sha256": "f4fa64893914708911c337a2521278969316d895f53429caf45cf94bb4e811a5",
+  "held1_physical_recovery": {
+    "actual_recovery_target_isolated_and_removed_after_verification": true,
+    "all350_source_files_independently_rechecked_against_original_audit": true,
+    "base_existing_raw_readback_chain_reused_and_archive_bytes_physically_reverified": true,
+    "base_payload": 277,
+    "complete_all_six": false,
+    "models_loaded_or_training_invoked": false,
+    "new_archive_raw_readback_all_members_verified": true,
+    "original_active_phase_touched": false,
+    "physical_byte_copy_not_symlink_or_weight_refit": true,
+    "raw_arrays_or_gesture_labels_read": false,
+    "restore_recipe_sha256": "a062f12e7145069bb175992f3f965ed94b16163024c51dba145a68df3ed50ab6",
+    "restored_bytes": 326155850,
+    "restored_files": 350,
+    "state": "both_raw_archives_extracted_full_completed_fold_physically_reconstructed_all_files_SHA_exact",
+    "supplement_payload": 33,
+    "whole_job_resume_authorized": false
+  },
+  "held1_private_receipt_sha256": "63f6f8e9203c49c1e45417a5dc1c5365368246865c9e008bbd41238cbd3e5851",
+  "held2_first_reference": {
+    "diagnostic_labels_read": false,
+    "does_not_exclude_all_shared_implementation_errors": true,
+    "max_gradient_absolute_difference": 7.450580596923828e-09,
+    "method_state_native_replay_bitwise": true,
+    "native_reference": {
+      "legacy_TorchVersion_only_compatibility": true,
+      "original_file_sha256": "4a5b77f649fe4cbd205005314d4e1976eb25f97fb813a03bc3bfc06e308b2042",
+      "state": "original_GAP_first_model_optimizer_and_source_IDs_exact"
+    },
+    "parameters": 617612,
+    "reference_loss": 0.6909794771942429,
+    "segment_first_parameters_equal_native_post_update": true,
+    "state": "full617612_native_globalBCE_first_gradient_NumPy_reference_and_original_GAP_first_state_verified"
+  },
+  "held2_original_GAP_training_BCE_validation_macro_and_BCE_prefix_exact_epochs": 41,
+  "held2_production": {
+    "diagnostic_labels_read": false,
+    "epoch": 41,
+    "native_reference_selected_epoch": 38,
+    "state": "training",
+    "swad_converge_step": 222,
+    "swad_dead_valley": true,
+    "updates": 3034,
+    "users7_8_labels_used": false
+  },
+  "identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 9.27,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "initial_exec_gateway_starting_resolved_via_wait_same_environment_boot_and_PID_preserved": true,
+  "new_duplicate_training_or_automation_or_environment_change": false,
+  "observed_unix": 1794147551.2085922,
+  "resource": {
+    "RSS_KiB": 1833512,
+    "active_held": 2,
+    "completed_folds": [
+      1
+    ],
+    "cpu": 7252.773961952001,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_GroupDRO6_cpu": 29595.509859692,
+    "prior_GroupDRO6_wall": 29556.896173048997,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 7244.332600741996
+  },
+  "singlefold_or_cohort_score_computed": false,
+  "source_frozen_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "source_frozen_unchanged": true,
+  "state": "same_unique_SWAD_phase_held1_complete_private_physical_recovery_verified_held2_native_originalGAP_prefix_exact_unscored",
+  "users7_8_labels_used": false
+}

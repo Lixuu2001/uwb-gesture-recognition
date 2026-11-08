@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "SWAD_native_LOSO6_original_phase_running_held1_production64_private_verified_replay_in_progress_unscored",
+  "state": "SWAD_native_LOSO6_held1_complete64_fresh64_audits_private_physical_recovery_verified_held2_running_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Samecloud CPU1thread fullnative617612/B64 SWAD3/6/.3+sourceBN all6 phase active PID105224. Held1production64 complete, freshreplay62/64 at observation. Original integrated estimate43176.37s<43200cap without retiming; hardwall/CPU12h, all prior5 fullcosts retained.",
+  "compute": "Samecloud CPU1thread native617612 SWAD3/6/.3+sourceBN phase105224;held1 native64+fresh64/all4audit done and350file private physical recovery verified, held2production41/64 atobservation;fixed43200wall/CPU unchanged, allpriorcosts retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_swad_loso6_held1_production64_private/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_swad_loso6_held1_completed_private/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794145598.3546062,
+  "background_training_observed_unix": 1794147551.3279064,
   "background_training_pid": 105224,
-  "background_training_status_note": "Same SWAD PID105224/start37087993 active;held1production64/4736 exact originalGAP curves and22parts277payload privateallmember verified;freshreplay62/64 exactprefix;all6/testscores unfinished.",
+  "background_training_status_note": "Same SWAD105224/start37087993 active;held1 full64/fresh64/fourarm audits and350file private physical recovery verified (production22+supplement1);held2production41/64 nativecurves exact;all6/testscores unfinished.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Monitor existing SWAD105224/start37087993/bootad409b48-89ce-4704-beee-3658103d5856; no duplicate. Held1production64 private22parts protected; finish all6 native64+fresh64/audits/finalprivate/exactrelease before singlecohortscore. No held1 entrygate or testtuning.",
+  "next_candidate": "Monitor original SWAD PID105224/start37087993/bootad409b48-89ce-4704-beee-3658103d5856. Held1 complete private recovery verified; complete held2..6 native64/fresh64/all4audits/final6private/exactrelease before onejointscore. No duplicate/retrain/held1 entrygate/testtuning.",
   "last_completed_update_utc": "2026-11-08T10:46:50.203664+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17556,6 +17556,31 @@
     "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
     "state": "S",
     "cpu": 7.44
+  },
+  "cohort_complete": false,
+  "diagnostic_scored": false
+}
+,
+  "swad_loso6_held1_completed_private_20261108": {
+  "report": "results/cloud_20261108_swad_loso6_held1_completed_private/RUN_REPORT.md",
+  "method": "published_SWAD_LossValley3_6_0p3_fullnative_LOSO6_sourceBN",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "held1_production64_replay64_all4_audits_complete": true,
+  "held1_complete_private_chain_verified": true,
+  "isolated_physical_recovery_verified_files": 350,
+  "isolated_physical_recovery_bytes": 326155850,
+  "supplement_parts": 1,
+  "supplement_bytes": 160407,
+  "base_production_parts_reused": 22,
+  "observed_held2_production_epochs": 41,
+  "phase_identity": {
+    "pid": 105224,
+    "startticks": 37087993,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "cpu": 9.27
   },
   "cohort_complete": false,
   "diagnostic_scored": false
