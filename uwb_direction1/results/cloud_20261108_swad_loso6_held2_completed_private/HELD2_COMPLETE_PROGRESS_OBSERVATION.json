@@ -1,0 +1,85 @@
+{
+  "completed_folds": [
+    1,
+    2
+  ],
+  "frozen_manifest_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "frozen_sources_unchanged": true,
+  "held2_physical_recovery": {
+    "all_files_rechecked_against_original_independent_audit_SHA_and_current_immutable_files": true,
+    "base_payload_members": 277,
+    "base_prior_raw_readback_reused_plus_current_physical_archive_reverification": true,
+    "complete_all_six": false,
+    "held": 2,
+    "models_loaded_or_training_invoked": false,
+    "new_archive_raw_allmember_verified": true,
+    "new_payload_members": 190,
+    "original_active_phase_touched": false,
+    "physical_byte_copy_not_symlink_or_refit": true,
+    "raw_UWB_arrays_or_gesture_labels_opened": false,
+    "restored_bytes": 326192893,
+    "restored_files": 350,
+    "state": "base_and_new_raw_archives_physically_extracted_exact_fullfold_copies_verified",
+    "temporary_recovery_copy_removed_after_verification": true,
+    "whole_job_resume_authorized": false
+  },
+  "held3_first_independent_gradient_reference": {
+    "diagnostic_labels_read": false,
+    "does_not_exclude_all_shared_implementation_errors": true,
+    "max_gradient_absolute_difference": 7.450580596923828e-09,
+    "method_state_native_replay_bitwise": true,
+    "native_reference": {
+      "legacy_TorchVersion_only_compatibility": true,
+      "original_file_sha256": "56c2f6a2501376cb5df3be1abd4f6a94f0bcba7e0368e6374e45e7025c8325ea",
+      "state": "original_GAP_first_model_optimizer_and_source_IDs_exact"
+    },
+    "parameters": 617612,
+    "reference_loss": 0.6790807749667737,
+    "segment_first_parameters_equal_native_post_update": true,
+    "state": "full617612_native_globalBCE_first_gradient_NumPy_reference_and_original_GAP_first_state_verified"
+  },
+  "held3_native_originalGAP_train_BCE_and_validation_macro_BCE_exact_prefix_epochs": 14,
+  "held3_production": {
+    "diagnostic_labels_read": false,
+    "epoch": 14,
+    "native_reference_selected_epoch": 14,
+    "state": "training",
+    "swad_converge_step": 284,
+    "swad_dead_valley": false,
+    "updates": 994,
+    "users7_8_labels_used": false
+  },
+  "identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 13.23,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "new_duplicate_training_or_automation_or_environment_changes": false,
+  "observed_unix": 1794152102.8297424,
+  "resource": {
+    "RSS_KiB": 1739728,
+    "active_held": 3,
+    "completed_folds": [
+      1,
+      2
+    ],
+    "cpu": 11811.166576630998,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_GroupDRO6_cpu": 29595.509859692,
+    "prior_GroupDRO6_wall": 29556.896173048997,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 11796.717272684968
+  },
+  "singlefold_or_cohort_scores_computed": false,
+  "state": "same_original_SWAD_phase_held1_and_held2_complete_private_recovery_verified_held3_running_unscored",
+  "users7_8_labels_used": false
+}

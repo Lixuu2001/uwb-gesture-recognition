@@ -1,0 +1,2471 @@
+{
+  "base_archive_sha256": "91a5f56076aa0380f60a5a9da82340730fd7655d111ad0c7f90377f6ef1cd63e",
+  "base_files": 10,
+  "base_logical_bytes": 22778186,
+  "base_members_manifest_sha256": "eca4cfe9c2569d0ae5e6a72e85e318eeb7fa4b848317e28644a62ae0d422c123",
+  "bytes": 326192893,
+  "complete_all_six": false,
+  "files": 350,
+  "held": 2,
+  "isolated_empty_restore_destination_required": true,
+  "new_unique_bytes": 113063541,
+  "new_unique_objects": 185,
+  "original_local_files_unchanged": true,
+  "rows": [
+    {
+      "archive_member": "objects/d17fe51732dbe2a9c55edabcb560e841dbb926e34ede8570ad350fc76bf5512f",
+      "bytes": 130,
+      "phase_relative_path": "folds/held2/CONTROLLER_IDENTITY.json",
+      "sha256": "d17fe51732dbe2a9c55edabcb560e841dbb926e34ede8570ad350fc76bf5512f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/f94236bdd221285dcd01953747c0a1b559c0f88a5c72bf12f851f24b49e4e55a",
+      "bytes": 392,
+      "phase_relative_path": "folds/held2/INITIAL_STATE_METADATA.json",
+      "sha256": "f94236bdd221285dcd01953747c0a1b559c0f88a5c72bf12f851f24b49e4e55a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/baf5b598d2693778314ba12ff5cd82ae27669941be346ee0def0028f3d4ac9f4",
+      "bytes": 129,
+      "phase_relative_path": "folds/held2/LAUNCH_IDENTITY.json",
+      "sha256": "baf5b598d2693778314ba12ff5cd82ae27669941be346ee0def0028f3d4ac9f4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/204733e5cae7aa9b57c8df703e49bde156a88dd5c3ed287af158eae779d29889",
+      "bytes": 162,
+      "phase_relative_path": "folds/held2/PHASE_TERMINATION.json",
+      "sha256": "204733e5cae7aa9b57c8df703e49bde156a88dd5c3ed287af158eae779d29889",
+      "source": "new"
+    },
+    {
+      "archive_member": "phase/folds/held2/PROTOCOL.json",
+      "bytes": 5932,
+      "phase_relative_path": "folds/held2/PROTOCOL.json",
+      "sha256": "2da44c1f46ebe80cf2262f40e7c4e2bd1f62efd5b50bfe2afef1bb9e1990146d",
+      "source": "base"
+    },
+    {
+      "archive_member": "objects/82140827b8307d9381db8ea1adef3320ddf972d7c6d793b4035b65944dacf0db",
+      "bytes": 97,
+      "phase_relative_path": "folds/held2/RESOURCE_LEDGER.json",
+      "sha256": "82140827b8307d9381db8ea1adef3320ddf972d7c6d793b4035b65944dacf0db",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4294a0419807c60fcd93058dca7656c1477c31a9dbff7e0f639dd17374a0205d",
+      "bytes": 278,
+      "phase_relative_path": "folds/held2/STATE.json",
+      "sha256": "4294a0419807c60fcd93058dca7656c1477c31a9dbff7e0f639dd17374a0205d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c4a0d95ae06f1ec3f31d30bd5ea43df87e722f1beaba26a81ba98abf5ad1d09c",
+      "bytes": 570,
+      "phase_relative_path": "folds/held2/SYNTHETIC_RESULT.json",
+      "sha256": "c4a0d95ae06f1ec3f31d30bd5ea43df87e722f1beaba26a81ba98abf5ad1d09c",
+      "source": "new"
+    },
+    {
+      "archive_member": "native_source/vendor/site-packages/einops/py.typed",
+      "bytes": 0,
+      "phase_relative_path": "folds/held2/controller.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/initial.pt",
+      "bytes": 7590106,
+      "phase_relative_path": "folds/held2/initial.pt",
+      "sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "source": "base"
+    },
+    {
+      "archive_member": "objects/e94c61feae2f1fe32810993fdedfaa103c99c7a697338fdc73eae405a8bc331b",
+      "bytes": 11178,
+      "phase_relative_path": "folds/held2/roles.npz",
+      "sha256": "e94c61feae2f1fe32810993fdedfaa103c99c7a697338fdc73eae405a8bc331b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cf4933672f88dece71f6ba353c4104c4f334ea90cea2774f5c0f1906bd144ef3",
+      "bytes": 23726,
+      "phase_relative_path": "folds/held2/run/OUTPUT_AUDIT_CALIBRATION_COST.json",
+      "sha256": "cf4933672f88dece71f6ba353c4104c4f334ea90cea2774f5c0f1906bd144ef3",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/074e7b124be737b160c22fa8373de6f92a263fc8e1a4e8a8aca1d2c395a90900",
+      "bytes": 11959,
+      "phase_relative_path": "folds/held2/run/OUTPUT_AUDIT_EVAL_COST.json",
+      "sha256": "074e7b124be737b160c22fa8373de6f92a263fc8e1a4e8a8aca1d2c395a90900",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/6c01c3c66179ccb18e7725edfcf1834b87d142ff4ed07f95524853b92d78bf8b",
+      "bytes": 3611,
+      "phase_relative_path": "folds/held2/run/PREDICTIONS_FROZEN.json",
+      "sha256": "6c01c3c66179ccb18e7725edfcf1834b87d142ff4ed07f95524853b92d78bf8b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/23b734d243a0510e46084fd4d4de2e3cdd452aa4c2746c3b92f32b1e50eaa0dd",
+      "bytes": 129,
+      "phase_relative_path": "folds/held2/run/execution/output/IDENTITY.json",
+      "sha256": "23b734d243a0510e46084fd4d4de2e3cdd452aa4c2746c3b92f32b1e50eaa0dd",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7a5f23a8f7706b043c2dae8ed7ae39f4fc7f7f08650a2d6db1878d255892ba0a",
+      "bytes": 198,
+      "phase_relative_path": "folds/held2/run/execution/output/TERMINATION.json",
+      "sha256": "7a5f23a8f7706b043c2dae8ed7ae39f4fc7f7f08650a2d6db1878d255892ba0a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/171016a9fd9cd1e915671fea5ab4e920ee3abd025d5269161ae3ba1035496c27",
+      "bytes": 3445,
+      "phase_relative_path": "folds/held2/run/execution/output/stdout.log",
+      "sha256": "171016a9fd9cd1e915671fea5ab4e920ee3abd025d5269161ae3ba1035496c27",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/68c198cca290e5f9f4418ea6e9a4467ff39c79f7b99168e5df803b0b01860f0a",
+      "bytes": 129,
+      "phase_relative_path": "folds/held2/run/execution/replay/IDENTITY.json",
+      "sha256": "68c198cca290e5f9f4418ea6e9a4467ff39c79f7b99168e5df803b0b01860f0a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1b50e4a6e8b5675cee85eed5c2c97cf1a6020a49aefb59850cea59cce103a934",
+      "bytes": 198,
+      "phase_relative_path": "folds/held2/run/execution/replay/TERMINATION.json",
+      "sha256": "1b50e4a6e8b5675cee85eed5c2c97cf1a6020a49aefb59850cea59cce103a934",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/917223d09795a0ab218321b645aa79f8f87c47bfe5c0f0cd2de67beec9813e9d",
+      "bytes": 5600,
+      "phase_relative_path": "folds/held2/run/execution/replay/stdout.log",
+      "sha256": "917223d09795a0ab218321b645aa79f8f87c47bfe5c0f0cd2de67beec9813e9d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3a3cad0caaaa427529430eb355e1e7efaeefbc11a7f08cb27b8be4d1750b1e13",
+      "bytes": 129,
+      "phase_relative_path": "folds/held2/run/execution/train/FIRST_AUDIT_IDENTITY.json",
+      "sha256": "3a3cad0caaaa427529430eb355e1e7efaeefbc11a7f08cb27b8be4d1750b1e13",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/f6ab2803a3bea31a365ed86467c8d9686777b0d39715496aed71616337af1697",
+      "bytes": 60,
+      "phase_relative_path": "folds/held2/run/execution/train/FIRST_AUDIT_TERMINATION.json",
+      "sha256": "f6ab2803a3bea31a365ed86467c8d9686777b0d39715496aed71616337af1697",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d0f89a5b9cbc05858c1762eb9b162c8298adaa8525c610449851a96dca2b02ea",
+      "bytes": 129,
+      "phase_relative_path": "folds/held2/run/execution/train/IDENTITY.json",
+      "sha256": "d0f89a5b9cbc05858c1762eb9b162c8298adaa8525c610449851a96dca2b02ea",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3f9d9890b9acce86703f7db3f9cf58b8aab4cc01e9bb00506dfca6fb66fbdf61",
+      "bytes": 199,
+      "phase_relative_path": "folds/held2/run/execution/train/TERMINATION.json",
+      "sha256": "3f9d9890b9acce86703f7db3f9cf58b8aab4cc01e9bb00506dfca6fb66fbdf61",
+      "source": "new"
+    },
+    {
+      "archive_member": "native_source/vendor/site-packages/einops/py.typed",
+      "bytes": 0,
+      "phase_relative_path": "folds/held2/run/execution/train/first_audit.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "base"
+    },
+    {
+      "archive_member": "objects/5630f2089bcd96ce24fc15dd12918fc4a6fbf9f7cd59b5b036188396fb7f0b0f",
+      "bytes": 5536,
+      "phase_relative_path": "folds/held2/run/execution/train/stdout.log",
+      "sha256": "5630f2089bcd96ce24fc15dd12918fc4a6fbf9f7cd59b5b036188396fb7f0b0f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c33f1af6e020ec03cf869a474adfec31153215b08557f1d14daf70ab18551eae",
+      "bytes": 23750,
+      "phase_relative_path": "folds/held2/run/replay/CALIBRATION_COST.json",
+      "sha256": "c33f1af6e020ec03cf869a474adfec31153215b08557f1d14daf70ab18551eae",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/05cb529a0524c6c7d86f84aeed42f4fea68920261c4a02674d99a9f72f4dbfd2",
+      "bytes": 5769,
+      "phase_relative_path": "folds/held2/run/replay/CHECKPOINT_COST.json",
+      "sha256": "05cb529a0524c6c7d86f84aeed42f4fea68920261c4a02674d99a9f72f4dbfd2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/853ca3c80c65d5782b25e149589a07c80484c91757b76c14bd3248b317bb107c",
+      "bytes": 871,
+      "phase_relative_path": "folds/held2/run/replay/COMPLETE.json",
+      "sha256": "853ca3c80c65d5782b25e149589a07c80484c91757b76c14bd3248b317bb107c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cb3ea3b0dcae901f40fe8bedc1356b5de729c24d1c6d081419b952bcf20d9ae2",
+      "bytes": 115938,
+      "phase_relative_path": "folds/held2/run/replay/EVALUATION_BATCH_COST.json",
+      "sha256": "cb3ea3b0dcae901f40fe8bedc1356b5de729c24d1c6d081419b952bcf20d9ae2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9c875330adc2c9180b620830291e57dda5b37554bf1668e0742e6dbb2c82643f",
+      "bytes": 5316,
+      "phase_relative_path": "folds/held2/run/replay/OUTPUT_SELECTION.json",
+      "sha256": "9c875330adc2c9180b620830291e57dda5b37554bf1668e0742e6dbb2c82643f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a48367ded8fc2829d08ba6f8b2047fb4d2a6cf84a048594b63a2e71b99ea1d9f",
+      "bytes": 352,
+      "phase_relative_path": "folds/held2/run/replay/PROGRESS.json",
+      "sha256": "a48367ded8fc2829d08ba6f8b2047fb4d2a6cf84a048594b63a2e71b99ea1d9f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c2daa00d9f56e255c404a5c4cf14283c07f7a29fd0e4e704f57865e2aacce32c",
+      "bytes": 229,
+      "phase_relative_path": "folds/held2/run/replay/STATE.json",
+      "sha256": "c2daa00d9f56e255c404a5c4cf14283c07f7a29fd0e4e704f57865e2aacce32c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cf9f795eec048ef49a87ab72ad51da8ede4e8dc656dc23d98a23704a5373d7af",
+      "bytes": 357738,
+      "phase_relative_path": "folds/held2/run/replay/STEP_DIGEST_COST.json",
+      "sha256": "cf9f795eec048ef49a87ab72ad51da8ede4e8dc656dc23d98a23704a5373d7af",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0ee2ea1fd2da71b8287de3f723856814f2f3774a7c008e80dd39c23904dbe247",
+      "bytes": 43538,
+      "phase_relative_path": "folds/held2/run/replay/bn_only_diagnostic_unscored.npz",
+      "sha256": "0ee2ea1fd2da71b8287de3f723856814f2f3774a7c008e80dd39c23904dbe247",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1d7e93c7fa121f20a7df88d8e0a86ec8e0ebbf40b6294b6e1e0fd275d96d75ba",
+      "bytes": 52051,
+      "phase_relative_path": "folds/held2/run/replay/bn_only_validation_unscored.npz",
+      "sha256": "1d7e93c7fa121f20a7df88d8e0a86ec8e0ebbf40b6294b6e1e0fd275d96d75ba",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "bytes": 44409,
+      "phase_relative_path": "folds/held2/run/replay/diagnostic_unscored.npz",
+      "sha256": "021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "source": "new"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch000.json",
+      "bytes": 494,
+      "phase_relative_path": "folds/held2/run/replay/epoch000.json",
+      "sha256": "acd25a5caef78c54c868af4a584919edfb06cf0423e87a04f8d69c688b2cc7c7",
+      "source": "base"
+    },
+    {
+      "archive_member": "objects/326c6eb0438cea7388728dea4456b69325f333c1ed28fa002c3a6b2ea747f0bc",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/replay/epoch001.json",
+      "sha256": "326c6eb0438cea7388728dea4456b69325f333c1ed28fa002c3a6b2ea747f0bc",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8055256b3774e5f24df2c689fbe401c21cf917e9d24137605ff93c7a76b12cbd",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/replay/epoch002.json",
+      "sha256": "8055256b3774e5f24df2c689fbe401c21cf917e9d24137605ff93c7a76b12cbd",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/501040c546556671febff5a7db9795446ab5f7a6e2e7856c8fb31d4b57c37350",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/replay/epoch003.json",
+      "sha256": "501040c546556671febff5a7db9795446ab5f7a6e2e7856c8fb31d4b57c37350",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ceb0c7aacc8ee5d2a691bf285dc6377cddafc0b815dd63c529ff8c8b73e49791",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/replay/epoch004.json",
+      "sha256": "ceb0c7aacc8ee5d2a691bf285dc6377cddafc0b815dd63c529ff8c8b73e49791",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8b7718a0b4badf754b4a7d3b7c3193d89d4221aeb77fcd820a24f2c2c3c8cece",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/replay/epoch005.json",
+      "sha256": "8b7718a0b4badf754b4a7d3b7c3193d89d4221aeb77fcd820a24f2c2c3c8cece",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/49351e73f59cd4ce9f22718a0e1b4c70204051fe2545329099f53eb48268ae93",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/replay/epoch006.json",
+      "sha256": "49351e73f59cd4ce9f22718a0e1b4c70204051fe2545329099f53eb48268ae93",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/2a4fbd54faac145b9235c2ad0404d3da11e156bd457896d5810f7af38a4a995f",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/replay/epoch007.json",
+      "sha256": "2a4fbd54faac145b9235c2ad0404d3da11e156bd457896d5810f7af38a4a995f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/dd8022d4e20731199bd9fb738b75b46e10abdc7ef41b931620053f89332cd749",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch008.json",
+      "sha256": "dd8022d4e20731199bd9fb738b75b46e10abdc7ef41b931620053f89332cd749",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b629b11f595e274a23e64b5181094bc7685c6f53956550cb1ba3d0bc1f72ec68",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/replay/epoch009.json",
+      "sha256": "b629b11f595e274a23e64b5181094bc7685c6f53956550cb1ba3d0bc1f72ec68",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b7cf38fc41beea16737e23d7e333a4a90a65925fd841bbad927279ea24cfb3eb",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch010.json",
+      "sha256": "b7cf38fc41beea16737e23d7e333a4a90a65925fd841bbad927279ea24cfb3eb",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/beab2e455fef6d1eb2c2e5ffeba3c657aa9659e366814f6cb3495fd522a11bc6",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch011.json",
+      "sha256": "beab2e455fef6d1eb2c2e5ffeba3c657aa9659e366814f6cb3495fd522a11bc6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7124df43a7af979058602b4e70901c35a9d95709bfaf5b2b1e823593e57cf6f9",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch012.json",
+      "sha256": "7124df43a7af979058602b4e70901c35a9d95709bfaf5b2b1e823593e57cf6f9",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d6fd85339171a5e66c02a3e5ce9bbe7d4d470ca6c36f32b887e7a0a18089287e",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch013.json",
+      "sha256": "d6fd85339171a5e66c02a3e5ce9bbe7d4d470ca6c36f32b887e7a0a18089287e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/13df44bcbb5f80e5395bda85562789b7aabb273027bb79a933e68f4f25a30d5c",
+      "bytes": 636,
+      "phase_relative_path": "folds/held2/run/replay/epoch014.json",
+      "sha256": "13df44bcbb5f80e5395bda85562789b7aabb273027bb79a933e68f4f25a30d5c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/249dd345da31438ab9839b5e7148a41fe4830a83aeec4126a821bb719593542a",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/replay/epoch015.json",
+      "sha256": "249dd345da31438ab9839b5e7148a41fe4830a83aeec4126a821bb719593542a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/81f4ba0ef8c20a9d850fb31a5b24e9b9c159ede9d82c4468dc035b2b93bdc317",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/replay/epoch016.json",
+      "sha256": "81f4ba0ef8c20a9d850fb31a5b24e9b9c159ede9d82c4468dc035b2b93bdc317",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3eb62ccedc7a8d6bd0ce5a62aed777622401b1fd244c8b9ba8ccc54280c7b1a6",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/replay/epoch017.json",
+      "sha256": "3eb62ccedc7a8d6bd0ce5a62aed777622401b1fd244c8b9ba8ccc54280c7b1a6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ad1acd8a54b698f7d2fb476cc5d06624e574e5fe7519df055be8c2978544b43b",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/replay/epoch018.json",
+      "sha256": "ad1acd8a54b698f7d2fb476cc5d06624e574e5fe7519df055be8c2978544b43b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1e10f38cdc671aa93307418455c2a3d6437334994611cb0fd459c81847eec603",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch019.json",
+      "sha256": "1e10f38cdc671aa93307418455c2a3d6437334994611cb0fd459c81847eec603",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c16a5ce7950f0dbdbf20d8684c8aa762f75727f9ba31b9b784a7c6819608cc04",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch020.json",
+      "sha256": "c16a5ce7950f0dbdbf20d8684c8aa762f75727f9ba31b9b784a7c6819608cc04",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/68e82ef56dd91b7c8a02e0b832cf9a3309e770f1efb3a2c2973979c8d296af56",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch021.json",
+      "sha256": "68e82ef56dd91b7c8a02e0b832cf9a3309e770f1efb3a2c2973979c8d296af56",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1e12fb9f957bd464fab21edb2475525dbeee771f5395a55533aad1cb7ed269da",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/replay/epoch022.json",
+      "sha256": "1e12fb9f957bd464fab21edb2475525dbeee771f5395a55533aad1cb7ed269da",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/032fde6be7966ae06db987d9ff5b1a482bd52392f15d33f086ed87dbfedd3d4c",
+      "bytes": 623,
+      "phase_relative_path": "folds/held2/run/replay/epoch023.json",
+      "sha256": "032fde6be7966ae06db987d9ff5b1a482bd52392f15d33f086ed87dbfedd3d4c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/67aeda6fb1c70aa771a71aed4cc543fbfaa3d2235518c84a231d8ea4c1990f46",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/replay/epoch024.json",
+      "sha256": "67aeda6fb1c70aa771a71aed4cc543fbfaa3d2235518c84a231d8ea4c1990f46",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4382f70b3c8ea0888924c32b4010396679ead3422d19b527b2aef729d4569716",
+      "bytes": 635,
+      "phase_relative_path": "folds/held2/run/replay/epoch025.json",
+      "sha256": "4382f70b3c8ea0888924c32b4010396679ead3422d19b527b2aef729d4569716",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/555f689e7bba758e5d67465251e7fb359481e72342752d264568e0bba4915094",
+      "bytes": 623,
+      "phase_relative_path": "folds/held2/run/replay/epoch026.json",
+      "sha256": "555f689e7bba758e5d67465251e7fb359481e72342752d264568e0bba4915094",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c4907ad3b637120bf0ebb5d5fa7607dfde63197d70a4a0e0f6808b8a5c5e6edd",
+      "bytes": 635,
+      "phase_relative_path": "folds/held2/run/replay/epoch027.json",
+      "sha256": "c4907ad3b637120bf0ebb5d5fa7607dfde63197d70a4a0e0f6808b8a5c5e6edd",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ade8d5d97a0bbe8aa2825b331071cd4b818cf63702f93a890d6e88c3ad187465",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch028.json",
+      "sha256": "ade8d5d97a0bbe8aa2825b331071cd4b818cf63702f93a890d6e88c3ad187465",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7009c821bc0499f1036e4f7e07ed19c1c64908f66c94760f8dbb5437d0c98217",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/replay/epoch029.json",
+      "sha256": "7009c821bc0499f1036e4f7e07ed19c1c64908f66c94760f8dbb5437d0c98217",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/64d92e1744c6834cbc5f5a575f6ff4135fa6b2ec0c89dce9f26598988b768890",
+      "bytes": 635,
+      "phase_relative_path": "folds/held2/run/replay/epoch030.json",
+      "sha256": "64d92e1744c6834cbc5f5a575f6ff4135fa6b2ec0c89dce9f26598988b768890",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5be29516e072cb844f8d246789d318dd486fa20335da6fc41b881d73fdaad96f",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch031.json",
+      "sha256": "5be29516e072cb844f8d246789d318dd486fa20335da6fc41b881d73fdaad96f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/09f0fa36b44dd7c12e649ba473b25b6dd7ea21f9b75a79869e26ff472703192b",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch032.json",
+      "sha256": "09f0fa36b44dd7c12e649ba473b25b6dd7ea21f9b75a79869e26ff472703192b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1af3413f7b942c99f0d3aacbabcd15ee6eb1e03c5d07b57b76db0ed0b1c1aa32",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/replay/epoch033.json",
+      "sha256": "1af3413f7b942c99f0d3aacbabcd15ee6eb1e03c5d07b57b76db0ed0b1c1aa32",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1799d3ffc226f824e33350ac0fe786b4913b20146720c0a1d12034e462058aae",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/replay/epoch034.json",
+      "sha256": "1799d3ffc226f824e33350ac0fe786b4913b20146720c0a1d12034e462058aae",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4d771615c32398a3139c8fd322e966e182daad4bfd4d9ddd5c75c5e91a8705c3",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/replay/epoch035.json",
+      "sha256": "4d771615c32398a3139c8fd322e966e182daad4bfd4d9ddd5c75c5e91a8705c3",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1402504ca8f7b165907ede91ddb93e9bc9385efdea6b6acf80579fbe7f4b9ae5",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/replay/epoch036.json",
+      "sha256": "1402504ca8f7b165907ede91ddb93e9bc9385efdea6b6acf80579fbe7f4b9ae5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/f3a2fe6573f58da46ee2f017ede3133481cf4a2edd4a87fe53e2a1200bca2899",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch037.json",
+      "sha256": "f3a2fe6573f58da46ee2f017ede3133481cf4a2edd4a87fe53e2a1200bca2899",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/810816a9d85f2557f8c0d18ab91d87c9ca6a06a04ebee7d4b8ab25fa7776197a",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/replay/epoch038.json",
+      "sha256": "810816a9d85f2557f8c0d18ab91d87c9ca6a06a04ebee7d4b8ab25fa7776197a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c2f3c5bf1ce97f18ceb058530296f4e8d41ac68c7d0daae95fa10f5176bcd919",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/replay/epoch039.json",
+      "sha256": "c2f3c5bf1ce97f18ceb058530296f4e8d41ac68c7d0daae95fa10f5176bcd919",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/797a66dca511bb653b9eac5acebbef1fdea89b97c08dcf99e99d8f871e3e3220",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch040.json",
+      "sha256": "797a66dca511bb653b9eac5acebbef1fdea89b97c08dcf99e99d8f871e3e3220",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/59367d2eccd1632db33a754b1fcea4e5caa3a8938d513da43c0c49f0a12bea63",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/replay/epoch041.json",
+      "sha256": "59367d2eccd1632db33a754b1fcea4e5caa3a8938d513da43c0c49f0a12bea63",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/35c659f98a6ad0738fc81b16f8a78beb441b3cd4671c08edc44cd846e0b2e881",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/replay/epoch042.json",
+      "sha256": "35c659f98a6ad0738fc81b16f8a78beb441b3cd4671c08edc44cd846e0b2e881",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/fdf721d5f450a680ff3fb4506fe1d49db45894d902ff6964bbc9853eda2eec3e",
+      "bytes": 619,
+      "phase_relative_path": "folds/held2/run/replay/epoch043.json",
+      "sha256": "fdf721d5f450a680ff3fb4506fe1d49db45894d902ff6964bbc9853eda2eec3e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7a3e32f8a08917716b2e629574a2318aeda09644b00760a6107c44050726a429",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch044.json",
+      "sha256": "7a3e32f8a08917716b2e629574a2318aeda09644b00760a6107c44050726a429",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9f1ab113e23797a88992d7c48cb3a1dbf1972214e9493a98adac7321899131b7",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch045.json",
+      "sha256": "9f1ab113e23797a88992d7c48cb3a1dbf1972214e9493a98adac7321899131b7",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/38116087d0bee341c5b2242c32df76b4f62f3dbffa441735aec381808b9cb458",
+      "bytes": 621,
+      "phase_relative_path": "folds/held2/run/replay/epoch046.json",
+      "sha256": "38116087d0bee341c5b2242c32df76b4f62f3dbffa441735aec381808b9cb458",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/080ba64edec7ee6b349bc767abf119aad302c7450f9208b40dd0db11d2442931",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch047.json",
+      "sha256": "080ba64edec7ee6b349bc767abf119aad302c7450f9208b40dd0db11d2442931",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b180b85d71c22ce5eb10245ddf2fd31010b6912f32ee1dc9d3009dee1ad49796",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch048.json",
+      "sha256": "b180b85d71c22ce5eb10245ddf2fd31010b6912f32ee1dc9d3009dee1ad49796",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/21dd365a34b222ffe5a873d4f7b54bb7bdf99d1d486e91653fd5c57108242bcc",
+      "bytes": 619,
+      "phase_relative_path": "folds/held2/run/replay/epoch049.json",
+      "sha256": "21dd365a34b222ffe5a873d4f7b54bb7bdf99d1d486e91653fd5c57108242bcc",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/57575f7973fab2946e46ca0ae33911e8dcb858c98226b002404a340a99a8acaa",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch050.json",
+      "sha256": "57575f7973fab2946e46ca0ae33911e8dcb858c98226b002404a340a99a8acaa",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b40d1ee55fd7e15b91a66b8076b4b580b079811256a59f2aa16ff9217fd6ddd1",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch051.json",
+      "sha256": "b40d1ee55fd7e15b91a66b8076b4b580b079811256a59f2aa16ff9217fd6ddd1",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0dd3556c80ab1fbe0ac0830006f007c74321878df5242115a90b5d948526bff0",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch052.json",
+      "sha256": "0dd3556c80ab1fbe0ac0830006f007c74321878df5242115a90b5d948526bff0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/fde6e35b45d6eb8b0ee821bd323b64bb7e02c1a927e9f3f21ff0f15f8b862b1e",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch053.json",
+      "sha256": "fde6e35b45d6eb8b0ee821bd323b64bb7e02c1a927e9f3f21ff0f15f8b862b1e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1128d9a0839506ae8300b6d3cbaa03e103a85c81b00e042270c91766a2c8e216",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch054.json",
+      "sha256": "1128d9a0839506ae8300b6d3cbaa03e103a85c81b00e042270c91766a2c8e216",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cf8e54aaa1c68efce5c89e2f9374a55b61cb4a1b08938464a9c5ddc85478b836",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch055.json",
+      "sha256": "cf8e54aaa1c68efce5c89e2f9374a55b61cb4a1b08938464a9c5ddc85478b836",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5e312f70383409e05bf95317a29c391b7578366fed789bb6d53d97dab5d3ccf2",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch056.json",
+      "sha256": "5e312f70383409e05bf95317a29c391b7578366fed789bb6d53d97dab5d3ccf2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/dc780b79cd1f5519aa0abcd1f2964daa926fc7c843b19206551d41bc566ed081",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch057.json",
+      "sha256": "dc780b79cd1f5519aa0abcd1f2964daa926fc7c843b19206551d41bc566ed081",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3e2907409072bf690df8e66deabeab4c022b7b2da75e78126c1bdfee3c3a921d",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/replay/epoch058.json",
+      "sha256": "3e2907409072bf690df8e66deabeab4c022b7b2da75e78126c1bdfee3c3a921d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b2bec958f17337f0bcf9b671c7bccb9d6171f3536cbcebc78fa1ca04fb1ab7ee",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch059.json",
+      "sha256": "b2bec958f17337f0bcf9b671c7bccb9d6171f3536cbcebc78fa1ca04fb1ab7ee",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/23e4d079a25d422ed632d2a0e99bba1eadfc4779c20412cbcdea67cc614078b0",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch060.json",
+      "sha256": "23e4d079a25d422ed632d2a0e99bba1eadfc4779c20412cbcdea67cc614078b0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8aa74a88954038e71db930c70fb09813d4d9e055aa9bc169ebef8a2bc9876fe0",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch061.json",
+      "sha256": "8aa74a88954038e71db930c70fb09813d4d9e055aa9bc169ebef8a2bc9876fe0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/405761d9531ecba05daac57f5d884eb9839cd043546c5c2bccd04c15ab3612f2",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch062.json",
+      "sha256": "405761d9531ecba05daac57f5d884eb9839cd043546c5c2bccd04c15ab3612f2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/60452d910e40d51b14db761434ebfb569e105a5cd8d7ffd06095ab6de80d86c9",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch063.json",
+      "sha256": "60452d910e40d51b14db761434ebfb569e105a5cd8d7ffd06095ab6de80d86c9",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d17e88580c8066cdd2190d95dda29f438bb21b66ed404d49748c17386c3589be",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/replay/epoch064.json",
+      "sha256": "d17e88580c8066cdd2190d95dda29f438bb21b66ed404d49748c17386c3589be",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "bytes": 42848541,
+      "phase_relative_path": "folds/held2/run/replay/final_full.pt",
+      "sha256": "3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "source": "new"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/initial.pt",
+      "bytes": 7590106,
+      "phase_relative_path": "folds/held2/run/replay/initial.pt",
+      "sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal000.json",
+      "bytes": 474,
+      "phase_relative_path": "folds/held2/run/replay/journal000.json",
+      "sha256": "9253144739cd235864b729c7122c22bc3a2ca9cc6718ae299187b0fe38eefe29",
+      "source": "base"
+    },
+    {
+      "archive_member": "objects/9d30c70888ea8bae4f91e7dfc4db553e0e4bce7db62e64bd47ecd155d2d3f178",
+      "bytes": 541,
+      "phase_relative_path": "folds/held2/run/replay/journal001.json",
+      "sha256": "9d30c70888ea8bae4f91e7dfc4db553e0e4bce7db62e64bd47ecd155d2d3f178",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/6c4be163fabfd1b57920fb61917dc3b1de9e1d147de1947e26c9680e59929987",
+      "bytes": 542,
+      "phase_relative_path": "folds/held2/run/replay/journal002.json",
+      "sha256": "6c4be163fabfd1b57920fb61917dc3b1de9e1d147de1947e26c9680e59929987",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1168a6f4bfc7ff7eb2914c4899a48083fd52902aedb5fd41f7d42d1756f594b0",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/replay/journal003.json",
+      "sha256": "1168a6f4bfc7ff7eb2914c4899a48083fd52902aedb5fd41f7d42d1756f594b0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/771ca4493506f1c06068c946dcaabeeb58249f8f0631accb3f8420d257399727",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/replay/journal004.json",
+      "sha256": "771ca4493506f1c06068c946dcaabeeb58249f8f0631accb3f8420d257399727",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1b1b826f73b6212e128b10123b8c41fef96f97727ca6fbf798cf1ac2dd744ffe",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/replay/journal005.json",
+      "sha256": "1b1b826f73b6212e128b10123b8c41fef96f97727ca6fbf798cf1ac2dd744ffe",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/075e2fc1d6377921fc292dc69ca2bf98b8ed61481c275b5a97fdba99215b35b0",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/replay/journal006.json",
+      "sha256": "075e2fc1d6377921fc292dc69ca2bf98b8ed61481c275b5a97fdba99215b35b0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7489bb09347c29b5877637aa82074c86b00c085fc7e2a4fb3006775593d3cde2",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/replay/journal007.json",
+      "sha256": "7489bb09347c29b5877637aa82074c86b00c085fc7e2a4fb3006775593d3cde2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/638d6dce13e7af881e4d700511466188ffc846984e36d89c98b4a945c6e84cb3",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/replay/journal008.json",
+      "sha256": "638d6dce13e7af881e4d700511466188ffc846984e36d89c98b4a945c6e84cb3",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5359837818fccea61a5d21a77e729349dbd74476063811b759028aec12c554ed",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/replay/journal009.json",
+      "sha256": "5359837818fccea61a5d21a77e729349dbd74476063811b759028aec12c554ed",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3c3478c3a7157a769d5f5fe312c5f49c328f6aca01b14331acf4e8718fd04a4e",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/replay/journal010.json",
+      "sha256": "3c3478c3a7157a769d5f5fe312c5f49c328f6aca01b14331acf4e8718fd04a4e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3db670765cd435c6cd2ec40a5acb6cf61fd069f5bf26d2a42b9917b0537c247d",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/replay/journal011.json",
+      "sha256": "3db670765cd435c6cd2ec40a5acb6cf61fd069f5bf26d2a42b9917b0537c247d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7d94de98d7242acf3979c1af32fd4a3bfdbced2c059ecdce2ea9a596e8aeaae4",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/replay/journal012.json",
+      "sha256": "7d94de98d7242acf3979c1af32fd4a3bfdbced2c059ecdce2ea9a596e8aeaae4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/17509cbf3951cb5166964387f170f03fc238be396ba24b9b3cec44d5ec5af112",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/replay/journal013.json",
+      "sha256": "17509cbf3951cb5166964387f170f03fc238be396ba24b9b3cec44d5ec5af112",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/638e6e71d65ec612b198a32659f12c6655a6b74199b8fd1cb9e4e73fd3f73aa5",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal014.json",
+      "sha256": "638e6e71d65ec612b198a32659f12c6655a6b74199b8fd1cb9e4e73fd3f73aa5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/11aa5202a9ec4387355a3a8350ecdd16afff366ffc4f1a089a3ceaba4c589785",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal015.json",
+      "sha256": "11aa5202a9ec4387355a3a8350ecdd16afff366ffc4f1a089a3ceaba4c589785",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cf42d1f0159453cc64037412391b65545d45a0b83a2d6be08c18ddaf945c6923",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal016.json",
+      "sha256": "cf42d1f0159453cc64037412391b65545d45a0b83a2d6be08c18ddaf945c6923",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1210d19a370d4164fa4c87d5dceeec925bb67435364f395ef55a4790bc645e9b",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal017.json",
+      "sha256": "1210d19a370d4164fa4c87d5dceeec925bb67435364f395ef55a4790bc645e9b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cace298fcc34b4bec3c6afe9926ca2852e3f71b546a5a4bfc9cb16b635a33163",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal018.json",
+      "sha256": "cace298fcc34b4bec3c6afe9926ca2852e3f71b546a5a4bfc9cb16b635a33163",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8fd2d1988c2f21e485aa6efbc7965966978e432f3287193d6495f263710531fa",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal019.json",
+      "sha256": "8fd2d1988c2f21e485aa6efbc7965966978e432f3287193d6495f263710531fa",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3e427f9a5c87e59b809c56ecdde33e7216ff68641cb6722dd0a4a110ca15e2e9",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal020.json",
+      "sha256": "3e427f9a5c87e59b809c56ecdde33e7216ff68641cb6722dd0a4a110ca15e2e9",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a94b69a272eff3d07d242661bcc598015fb6204ca4edca8d691773576a90ec02",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/replay/journal021.json",
+      "sha256": "a94b69a272eff3d07d242661bcc598015fb6204ca4edca8d691773576a90ec02",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e7a81e5a5fe9fbed88f175d9eb210d73947efc6a8a68a82b208641d864c99b4f",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal022.json",
+      "sha256": "e7a81e5a5fe9fbed88f175d9eb210d73947efc6a8a68a82b208641d864c99b4f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/72a6f0d0c9e08edcd962962b49f4ca74a03c04e95ebc7a4563f8a3fbe4bd3961",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal023.json",
+      "sha256": "72a6f0d0c9e08edcd962962b49f4ca74a03c04e95ebc7a4563f8a3fbe4bd3961",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b0518ac388d284520cf6bfe233b405bede573d7d5c753f53776a6513755e7b9d",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal024.json",
+      "sha256": "b0518ac388d284520cf6bfe233b405bede573d7d5c753f53776a6513755e7b9d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e09d6b0bca3b7cf74f829cfd87824fe1e1a532a112d7f5c7e62217739088a8ed",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal025.json",
+      "sha256": "e09d6b0bca3b7cf74f829cfd87824fe1e1a532a112d7f5c7e62217739088a8ed",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/870de3c25859add6386bfea57421d5bfb8830923971d69e7494473763bfb46f5",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal026.json",
+      "sha256": "870de3c25859add6386bfea57421d5bfb8830923971d69e7494473763bfb46f5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b4281237f5e76964f9f17b738ec73c4b7e3576b24537b971ecf9a78f28eb2c67",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal027.json",
+      "sha256": "b4281237f5e76964f9f17b738ec73c4b7e3576b24537b971ecf9a78f28eb2c67",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7ab5ee17f85ba379fbfbe14635667782ef89be7b86eff20ff171b1a049b68a76",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal028.json",
+      "sha256": "7ab5ee17f85ba379fbfbe14635667782ef89be7b86eff20ff171b1a049b68a76",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/26b7c6fa45dc50e717833abee1fbfdccd29ea328b0ad12d60c7bcecb79199829",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal029.json",
+      "sha256": "26b7c6fa45dc50e717833abee1fbfdccd29ea328b0ad12d60c7bcecb79199829",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b815de1e8be9a6e2f90b54c29c8bcb49a629e74378ea53b6054a5e420ebb9d0e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal030.json",
+      "sha256": "b815de1e8be9a6e2f90b54c29c8bcb49a629e74378ea53b6054a5e420ebb9d0e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/29daa6df0682039cafbc44e7c718661490340562750f8f92b419aa7ce16dc9f5",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal031.json",
+      "sha256": "29daa6df0682039cafbc44e7c718661490340562750f8f92b419aa7ce16dc9f5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9ef81534978713c44284fc55535a7b181cd4e4a701191fee7e5085399c5d6f1c",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal032.json",
+      "sha256": "9ef81534978713c44284fc55535a7b181cd4e4a701191fee7e5085399c5d6f1c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3c80509e369618fcf125a8294b7545701bee067f5ba418f76522a39e1d29e353",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal033.json",
+      "sha256": "3c80509e369618fcf125a8294b7545701bee067f5ba418f76522a39e1d29e353",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/78f2efc1b6ed87006ff872ed118526051d72bc071fa4ce6dbb38908f9ceeb85a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal034.json",
+      "sha256": "78f2efc1b6ed87006ff872ed118526051d72bc071fa4ce6dbb38908f9ceeb85a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5573492a00c4479aae71e9c67bcedabb9f5a30d0016046fb63f1ceefb14775b8",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal035.json",
+      "sha256": "5573492a00c4479aae71e9c67bcedabb9f5a30d0016046fb63f1ceefb14775b8",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1a7815cc593011b710e04c4d3cca5ef8e18a09c8d10b1376894d2ee2c0708e3a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal036.json",
+      "sha256": "1a7815cc593011b710e04c4d3cca5ef8e18a09c8d10b1376894d2ee2c0708e3a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/39f8a178126db9545b3e085d04d3729af952cbd363edf2f8a0e6f133658a6c98",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal037.json",
+      "sha256": "39f8a178126db9545b3e085d04d3729af952cbd363edf2f8a0e6f133658a6c98",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7b16d41dbc59d8c45eb7487e1ba5df207392dc05b7ac3ae7aa102963d166bcb4",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal038.json",
+      "sha256": "7b16d41dbc59d8c45eb7487e1ba5df207392dc05b7ac3ae7aa102963d166bcb4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0980fc4b4a8ae85991d128776c194087ebabcc17f49ea7e59b226ecdeddeb8fa",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal039.json",
+      "sha256": "0980fc4b4a8ae85991d128776c194087ebabcc17f49ea7e59b226ecdeddeb8fa",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a91f5586fd4e707ba1b0c05f3f28ce64c13aea80ff1255b0e9f1df9ab1ebe41b",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal040.json",
+      "sha256": "a91f5586fd4e707ba1b0c05f3f28ce64c13aea80ff1255b0e9f1df9ab1ebe41b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/59e96a8707062030e70663fcc8723fec690d399f9269b1ca6366fc9f79e9e21e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal041.json",
+      "sha256": "59e96a8707062030e70663fcc8723fec690d399f9269b1ca6366fc9f79e9e21e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b0f0f9c4b10c271939931054b24db2e9fa68b64204b5417b547efd702491439a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal042.json",
+      "sha256": "b0f0f9c4b10c271939931054b24db2e9fa68b64204b5417b547efd702491439a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8630453b00ac3e1c8f41e68d189e11579486ca42f3788d5f5ae24d9ba68b704e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal043.json",
+      "sha256": "8630453b00ac3e1c8f41e68d189e11579486ca42f3788d5f5ae24d9ba68b704e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/2b49e1c834815fad2aef5b5bb0e3485078aa5b4ffbbc71e99d925b86cf67b04e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal044.json",
+      "sha256": "2b49e1c834815fad2aef5b5bb0e3485078aa5b4ffbbc71e99d925b86cf67b04e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/2c2e09f7d21b25834022281013a1bdb1ace2fe68647cc1aec455b2f19fe0c591",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal045.json",
+      "sha256": "2c2e09f7d21b25834022281013a1bdb1ace2fe68647cc1aec455b2f19fe0c591",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3d4cb860c7618ea9c7da0411a6fc0716738fcb57d552920a4566fb77df1c7cd3",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal046.json",
+      "sha256": "3d4cb860c7618ea9c7da0411a6fc0716738fcb57d552920a4566fb77df1c7cd3",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9585b59569e186302287d9fb34ab7abc36f1c771f8fabcff4ea1fd8fc4916493",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal047.json",
+      "sha256": "9585b59569e186302287d9fb34ab7abc36f1c771f8fabcff4ea1fd8fc4916493",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ce98496382021a358b09659762f209147803a39198b5815700f8b4047c31b7d7",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal048.json",
+      "sha256": "ce98496382021a358b09659762f209147803a39198b5815700f8b4047c31b7d7",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/630f9894abb77905330fca87718d6a10b532096b170e2dae244cf0c41c6ecc8e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal049.json",
+      "sha256": "630f9894abb77905330fca87718d6a10b532096b170e2dae244cf0c41c6ecc8e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/af075fc5632850312430ca1a44a882133a69d3889c39ff7b9d94c8a22033b0d1",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal050.json",
+      "sha256": "af075fc5632850312430ca1a44a882133a69d3889c39ff7b9d94c8a22033b0d1",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1923e1d3e167bf514f73fe8b0115ad893735f35f95935708e9fcaf20cd394fd1",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal051.json",
+      "sha256": "1923e1d3e167bf514f73fe8b0115ad893735f35f95935708e9fcaf20cd394fd1",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/21157314b45a4f2da2c16d8b415279f80e8effc79349e52edcc2d40f929e3d19",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal052.json",
+      "sha256": "21157314b45a4f2da2c16d8b415279f80e8effc79349e52edcc2d40f929e3d19",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8dfad53f9e70c54c06ff68c5e6a08866371366b96a7e79cebd6b27b68b7a7459",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal053.json",
+      "sha256": "8dfad53f9e70c54c06ff68c5e6a08866371366b96a7e79cebd6b27b68b7a7459",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ea3b4cd4867e9090e1d57866e82533c8944d41b7a42d878d5efb5173884f3076",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal054.json",
+      "sha256": "ea3b4cd4867e9090e1d57866e82533c8944d41b7a42d878d5efb5173884f3076",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/24bf6ebc9992aa9ff9a965a29f55cb383f5033512eb9ac8468552811ba6a6ca6",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal055.json",
+      "sha256": "24bf6ebc9992aa9ff9a965a29f55cb383f5033512eb9ac8468552811ba6a6ca6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3fc07605a7dfa311314300a965edbf485165326a4623822cb5aafc199c8fbcc8",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal056.json",
+      "sha256": "3fc07605a7dfa311314300a965edbf485165326a4623822cb5aafc199c8fbcc8",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9d098636d6e96f151d49bc2ce7013a4f2bcba06f14fd75979e5e4a29b5e96cf5",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal057.json",
+      "sha256": "9d098636d6e96f151d49bc2ce7013a4f2bcba06f14fd75979e5e4a29b5e96cf5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d104cd09e2e9854253808ea59e45454bb3ba4851decd36389e1fbad096236b91",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal058.json",
+      "sha256": "d104cd09e2e9854253808ea59e45454bb3ba4851decd36389e1fbad096236b91",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0444aa9a61129f1030de7fb207012e72dcdcb455f1aa7a19836e1b726032643e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal059.json",
+      "sha256": "0444aa9a61129f1030de7fb207012e72dcdcb455f1aa7a19836e1b726032643e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4a43e5278dafcc39934ab23878a75daee9be6ccc5a274ab4cce1a643b81b7e5a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal060.json",
+      "sha256": "4a43e5278dafcc39934ab23878a75daee9be6ccc5a274ab4cce1a643b81b7e5a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5a6353b467d53d1a16e90c2cf31593c7e7a6837b31d3367bda88aee8ba4e560f",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal061.json",
+      "sha256": "5a6353b467d53d1a16e90c2cf31593c7e7a6837b31d3367bda88aee8ba4e560f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0b245f22aa077afc5d595cc9e9a7b50ce7cd1604b323ba23152b2c01a0daeb14",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal062.json",
+      "sha256": "0b245f22aa077afc5d595cc9e9a7b50ce7cd1604b323ba23152b2c01a0daeb14",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a41d6be197de31032fc10af57ffbf60cafbd446b5e3b00a8d8fbf081bf13d9f0",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal063.json",
+      "sha256": "a41d6be197de31032fc10af57ffbf60cafbd446b5e3b00a8d8fbf081bf13d9f0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/23301042731d7f8a7038afc6b2d6c1cdf414912bb038e1d0392a8ae1f201e3e4",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/replay/journal064.json",
+      "sha256": "23301042731d7f8a7038afc6b2d6c1cdf414912bb038e1d0392a8ae1f201e3e4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0b17a1d428faa3542161755bf3bf5240ee8ea2b75bd04f6c3b6fd0cad1b61b04",
+      "bytes": 43513,
+      "phase_relative_path": "folds/held2/run/replay/native_reference_diagnostic_unscored.npz",
+      "sha256": "0b17a1d428faa3542161755bf3bf5240ee8ea2b75bd04f6c3b6fd0cad1b61b04",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/703c4c108171738be4fa626ae944b9bf8a1d8c25bcef666c6c27031f03594b24",
+      "bytes": 52019,
+      "phase_relative_path": "folds/held2/run/replay/native_reference_validation_unscored.npz",
+      "sha256": "703c4c108171738be4fa626ae944b9bf8a1d8c25bcef666c6c27031f03594b24",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held2/run/replay/selected.pt",
+      "sha256": "909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/10aa2766be1486c3385e50d79859846114fb6f8c6719daf05e5e450ba3807cbd",
+      "bytes": 2527359,
+      "phase_relative_path": "folds/held2/run/replay/selected_bn_only.pt",
+      "sha256": "10aa2766be1486c3385e50d79859846114fb6f8c6719daf05e5e450ba3807cbd",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e2db6c69e026e10bc336ef437a7f7f546f91318d425eae7aeefd2755584bbb00",
+      "bytes": 2527105,
+      "phase_relative_path": "folds/held2/run/replay/selected_native_reference.pt",
+      "sha256": "e2db6c69e026e10bc336ef437a7f7f546f91318d425eae7aeefd2755584bbb00",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held2/run/replay/selected_swad.pt",
+      "sha256": "909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d564cb33844dd3c6f9d5d88422ab7ae1843caf2944d5db9af09258bb524d344d",
+      "bytes": 2527017,
+      "phase_relative_path": "folds/held2/run/replay/selected_tail.pt",
+      "sha256": "d564cb33844dd3c6f9d5d88422ab7ae1843caf2944d5db9af09258bb524d344d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "bytes": 42848541,
+      "phase_relative_path": "folds/held2/run/replay/slot0.pt",
+      "sha256": "3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4233d0fa3c52a8a0c9d75dce3c9cec1aa5df4e2517c54817221ca106fa240cd6",
+      "bytes": 42848541,
+      "phase_relative_path": "folds/held2/run/replay/slot1.pt",
+      "sha256": "4233d0fa3c52a8a0c9d75dce3c9cec1aa5df4e2517c54817221ca106fa240cd6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e94c61feae2f1fe32810993fdedfaa103c99c7a697338fdc73eae405a8bc331b",
+      "bytes": 11178,
+      "phase_relative_path": "folds/held2/run/replay/split.npz",
+      "sha256": "e94c61feae2f1fe32810993fdedfaa103c99c7a697338fdc73eae405a8bc331b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cec3648340206c30493c94a66a42106124a74160aa18bb2b2f5b69179e4f5346",
+      "bytes": 3110674,
+      "phase_relative_path": "folds/held2/run/replay/steps.jsonl",
+      "sha256": "cec3648340206c30493c94a66a42106124a74160aa18bb2b2f5b69179e4f5346",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "bytes": 44409,
+      "phase_relative_path": "folds/held2/run/replay/swad_diagnostic_unscored.npz",
+      "sha256": "021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "bytes": 53251,
+      "phase_relative_path": "folds/held2/run/replay/swad_validation_unscored.npz",
+      "sha256": "58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a816609fbd9436b274d6f1f51896a1c5500d6cae19489a312eb57b710119b764",
+      "bytes": 43572,
+      "phase_relative_path": "folds/held2/run/replay/tail_diagnostic_unscored.npz",
+      "sha256": "a816609fbd9436b274d6f1f51896a1c5500d6cae19489a312eb57b710119b764",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d6366565458a37fce3f9284d10e0957e4993f65be19b09796ad8d5113e6d53cc",
+      "bytes": 52185,
+      "phase_relative_path": "folds/held2/run/replay/tail_validation_unscored.npz",
+      "sha256": "d6366565458a37fce3f9284d10e0957e4993f65be19b09796ad8d5113e6d53cc",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "bytes": 53251,
+      "phase_relative_path": "folds/held2/run/replay/validation_unscored.npz",
+      "sha256": "58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ebfdf447953c3eed211de64496769bf30260702b9d0524e694fa85d4e01afdf9",
+      "bytes": 23735,
+      "phase_relative_path": "folds/held2/run/train/CALIBRATION_COST.json",
+      "sha256": "ebfdf447953c3eed211de64496769bf30260702b9d0524e694fa85d4e01afdf9",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/25eb679825db77cbc2076fcb90f23bb0f50c0e2b2023386937034eb3cf119268",
+      "bytes": 5778,
+      "phase_relative_path": "folds/held2/run/train/CHECKPOINT_COST.json",
+      "sha256": "25eb679825db77cbc2076fcb90f23bb0f50c0e2b2023386937034eb3cf119268",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1c4091f8797cbecc3c7731ecfdcd04ec3a4163bd2bedbf862927ab7085d3a49e",
+      "bytes": 887,
+      "phase_relative_path": "folds/held2/run/train/COMPLETE.json",
+      "sha256": "1c4091f8797cbecc3c7731ecfdcd04ec3a4163bd2bedbf862927ab7085d3a49e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b3436949ff0ffe6aefdb808c76fae05380c6aa9a09768b9827ddb065ca6dd47a",
+      "bytes": 115969,
+      "phase_relative_path": "folds/held2/run/train/EVALUATION_BATCH_COST.json",
+      "sha256": "b3436949ff0ffe6aefdb808c76fae05380c6aa9a09768b9827ddb065ca6dd47a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ad366de51f356a102a72ad007f942b6037090cdbaef2ff7bd92b847948cc269e",
+      "bytes": 690,
+      "phase_relative_path": "folds/held2/run/train/FIRST_INDEPENDENT_REFERENCE.json",
+      "sha256": "ad366de51f356a102a72ad007f942b6037090cdbaef2ff7bd92b847948cc269e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1873c837de8ef943080b43b84a47dadc6f20522e518fa1fa3c0f0ec4264f2f2a",
+      "bytes": 810,
+      "phase_relative_path": "folds/held2/run/train/FIRST_READY.json",
+      "sha256": "1873c837de8ef943080b43b84a47dadc6f20522e518fa1fa3c0f0ec4264f2f2a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/03d409d2cdee7058f5a27f2263074f390b8945f769e61ebee00dc0e2bffa13c4",
+      "bytes": 247,
+      "phase_relative_path": "folds/held2/run/train/FIRST_RELEASE.json",
+      "sha256": "03d409d2cdee7058f5a27f2263074f390b8945f769e61ebee00dc0e2bffa13c4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9c875330adc2c9180b620830291e57dda5b37554bf1668e0742e6dbb2c82643f",
+      "bytes": 5316,
+      "phase_relative_path": "folds/held2/run/train/OUTPUT_SELECTION.json",
+      "sha256": "9c875330adc2c9180b620830291e57dda5b37554bf1668e0742e6dbb2c82643f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a48367ded8fc2829d08ba6f8b2047fb4d2a6cf84a048594b63a2e71b99ea1d9f",
+      "bytes": 352,
+      "phase_relative_path": "folds/held2/run/train/PROGRESS.json",
+      "sha256": "a48367ded8fc2829d08ba6f8b2047fb4d2a6cf84a048594b63a2e71b99ea1d9f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/363622e6a3165af955be5fdd6a7c99420395e700b5af3ff1f6b75decade3041f",
+      "bytes": 226,
+      "phase_relative_path": "folds/held2/run/train/STATE.json",
+      "sha256": "363622e6a3165af955be5fdd6a7c99420395e700b5af3ff1f6b75decade3041f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d569e23c6d55d4a602e5dfa5b33bb46db4390b249eba739564051bd3dc61d2d7",
+      "bytes": 357793,
+      "phase_relative_path": "folds/held2/run/train/STEP_DIGEST_COST.json",
+      "sha256": "d569e23c6d55d4a602e5dfa5b33bb46db4390b249eba739564051bd3dc61d2d7",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0ee2ea1fd2da71b8287de3f723856814f2f3774a7c008e80dd39c23904dbe247",
+      "bytes": 43538,
+      "phase_relative_path": "folds/held2/run/train/bn_only_diagnostic_unscored.npz",
+      "sha256": "0ee2ea1fd2da71b8287de3f723856814f2f3774a7c008e80dd39c23904dbe247",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1d7e93c7fa121f20a7df88d8e0a86ec8e0ebbf40b6294b6e1e0fd275d96d75ba",
+      "bytes": 52051,
+      "phase_relative_path": "folds/held2/run/train/bn_only_validation_unscored.npz",
+      "sha256": "1d7e93c7fa121f20a7df88d8e0a86ec8e0ebbf40b6294b6e1e0fd275d96d75ba",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "bytes": 44409,
+      "phase_relative_path": "folds/held2/run/train/diagnostic_unscored.npz",
+      "sha256": "021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "source": "new"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/epoch000.json",
+      "bytes": 494,
+      "phase_relative_path": "folds/held2/run/train/epoch000.json",
+      "sha256": "acd25a5caef78c54c868af4a584919edfb06cf0423e87a04f8d69c688b2cc7c7",
+      "source": "base"
+    },
+    {
+      "archive_member": "objects/326c6eb0438cea7388728dea4456b69325f333c1ed28fa002c3a6b2ea747f0bc",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/train/epoch001.json",
+      "sha256": "326c6eb0438cea7388728dea4456b69325f333c1ed28fa002c3a6b2ea747f0bc",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8055256b3774e5f24df2c689fbe401c21cf917e9d24137605ff93c7a76b12cbd",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/train/epoch002.json",
+      "sha256": "8055256b3774e5f24df2c689fbe401c21cf917e9d24137605ff93c7a76b12cbd",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/501040c546556671febff5a7db9795446ab5f7a6e2e7856c8fb31d4b57c37350",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/train/epoch003.json",
+      "sha256": "501040c546556671febff5a7db9795446ab5f7a6e2e7856c8fb31d4b57c37350",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ceb0c7aacc8ee5d2a691bf285dc6377cddafc0b815dd63c529ff8c8b73e49791",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/train/epoch004.json",
+      "sha256": "ceb0c7aacc8ee5d2a691bf285dc6377cddafc0b815dd63c529ff8c8b73e49791",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8b7718a0b4badf754b4a7d3b7c3193d89d4221aeb77fcd820a24f2c2c3c8cece",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/train/epoch005.json",
+      "sha256": "8b7718a0b4badf754b4a7d3b7c3193d89d4221aeb77fcd820a24f2c2c3c8cece",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/49351e73f59cd4ce9f22718a0e1b4c70204051fe2545329099f53eb48268ae93",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/train/epoch006.json",
+      "sha256": "49351e73f59cd4ce9f22718a0e1b4c70204051fe2545329099f53eb48268ae93",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/2a4fbd54faac145b9235c2ad0404d3da11e156bd457896d5810f7af38a4a995f",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/train/epoch007.json",
+      "sha256": "2a4fbd54faac145b9235c2ad0404d3da11e156bd457896d5810f7af38a4a995f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/dd8022d4e20731199bd9fb738b75b46e10abdc7ef41b931620053f89332cd749",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch008.json",
+      "sha256": "dd8022d4e20731199bd9fb738b75b46e10abdc7ef41b931620053f89332cd749",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b629b11f595e274a23e64b5181094bc7685c6f53956550cb1ba3d0bc1f72ec68",
+      "bytes": 644,
+      "phase_relative_path": "folds/held2/run/train/epoch009.json",
+      "sha256": "b629b11f595e274a23e64b5181094bc7685c6f53956550cb1ba3d0bc1f72ec68",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b7cf38fc41beea16737e23d7e333a4a90a65925fd841bbad927279ea24cfb3eb",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch010.json",
+      "sha256": "b7cf38fc41beea16737e23d7e333a4a90a65925fd841bbad927279ea24cfb3eb",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/beab2e455fef6d1eb2c2e5ffeba3c657aa9659e366814f6cb3495fd522a11bc6",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch011.json",
+      "sha256": "beab2e455fef6d1eb2c2e5ffeba3c657aa9659e366814f6cb3495fd522a11bc6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7124df43a7af979058602b4e70901c35a9d95709bfaf5b2b1e823593e57cf6f9",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch012.json",
+      "sha256": "7124df43a7af979058602b4e70901c35a9d95709bfaf5b2b1e823593e57cf6f9",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d6fd85339171a5e66c02a3e5ce9bbe7d4d470ca6c36f32b887e7a0a18089287e",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch013.json",
+      "sha256": "d6fd85339171a5e66c02a3e5ce9bbe7d4d470ca6c36f32b887e7a0a18089287e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/13df44bcbb5f80e5395bda85562789b7aabb273027bb79a933e68f4f25a30d5c",
+      "bytes": 636,
+      "phase_relative_path": "folds/held2/run/train/epoch014.json",
+      "sha256": "13df44bcbb5f80e5395bda85562789b7aabb273027bb79a933e68f4f25a30d5c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/249dd345da31438ab9839b5e7148a41fe4830a83aeec4126a821bb719593542a",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/train/epoch015.json",
+      "sha256": "249dd345da31438ab9839b5e7148a41fe4830a83aeec4126a821bb719593542a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/81f4ba0ef8c20a9d850fb31a5b24e9b9c159ede9d82c4468dc035b2b93bdc317",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/train/epoch016.json",
+      "sha256": "81f4ba0ef8c20a9d850fb31a5b24e9b9c159ede9d82c4468dc035b2b93bdc317",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3eb62ccedc7a8d6bd0ce5a62aed777622401b1fd244c8b9ba8ccc54280c7b1a6",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/train/epoch017.json",
+      "sha256": "3eb62ccedc7a8d6bd0ce5a62aed777622401b1fd244c8b9ba8ccc54280c7b1a6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ad1acd8a54b698f7d2fb476cc5d06624e574e5fe7519df055be8c2978544b43b",
+      "bytes": 648,
+      "phase_relative_path": "folds/held2/run/train/epoch018.json",
+      "sha256": "ad1acd8a54b698f7d2fb476cc5d06624e574e5fe7519df055be8c2978544b43b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1e10f38cdc671aa93307418455c2a3d6437334994611cb0fd459c81847eec603",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch019.json",
+      "sha256": "1e10f38cdc671aa93307418455c2a3d6437334994611cb0fd459c81847eec603",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c16a5ce7950f0dbdbf20d8684c8aa762f75727f9ba31b9b784a7c6819608cc04",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch020.json",
+      "sha256": "c16a5ce7950f0dbdbf20d8684c8aa762f75727f9ba31b9b784a7c6819608cc04",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/68e82ef56dd91b7c8a02e0b832cf9a3309e770f1efb3a2c2973979c8d296af56",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch021.json",
+      "sha256": "68e82ef56dd91b7c8a02e0b832cf9a3309e770f1efb3a2c2973979c8d296af56",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1e12fb9f957bd464fab21edb2475525dbeee771f5395a55533aad1cb7ed269da",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/train/epoch022.json",
+      "sha256": "1e12fb9f957bd464fab21edb2475525dbeee771f5395a55533aad1cb7ed269da",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/032fde6be7966ae06db987d9ff5b1a482bd52392f15d33f086ed87dbfedd3d4c",
+      "bytes": 623,
+      "phase_relative_path": "folds/held2/run/train/epoch023.json",
+      "sha256": "032fde6be7966ae06db987d9ff5b1a482bd52392f15d33f086ed87dbfedd3d4c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/67aeda6fb1c70aa771a71aed4cc543fbfaa3d2235518c84a231d8ea4c1990f46",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/train/epoch024.json",
+      "sha256": "67aeda6fb1c70aa771a71aed4cc543fbfaa3d2235518c84a231d8ea4c1990f46",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4382f70b3c8ea0888924c32b4010396679ead3422d19b527b2aef729d4569716",
+      "bytes": 635,
+      "phase_relative_path": "folds/held2/run/train/epoch025.json",
+      "sha256": "4382f70b3c8ea0888924c32b4010396679ead3422d19b527b2aef729d4569716",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/555f689e7bba758e5d67465251e7fb359481e72342752d264568e0bba4915094",
+      "bytes": 623,
+      "phase_relative_path": "folds/held2/run/train/epoch026.json",
+      "sha256": "555f689e7bba758e5d67465251e7fb359481e72342752d264568e0bba4915094",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c4907ad3b637120bf0ebb5d5fa7607dfde63197d70a4a0e0f6808b8a5c5e6edd",
+      "bytes": 635,
+      "phase_relative_path": "folds/held2/run/train/epoch027.json",
+      "sha256": "c4907ad3b637120bf0ebb5d5fa7607dfde63197d70a4a0e0f6808b8a5c5e6edd",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ade8d5d97a0bbe8aa2825b331071cd4b818cf63702f93a890d6e88c3ad187465",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch028.json",
+      "sha256": "ade8d5d97a0bbe8aa2825b331071cd4b818cf63702f93a890d6e88c3ad187465",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7009c821bc0499f1036e4f7e07ed19c1c64908f66c94760f8dbb5437d0c98217",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/train/epoch029.json",
+      "sha256": "7009c821bc0499f1036e4f7e07ed19c1c64908f66c94760f8dbb5437d0c98217",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/64d92e1744c6834cbc5f5a575f6ff4135fa6b2ec0c89dce9f26598988b768890",
+      "bytes": 635,
+      "phase_relative_path": "folds/held2/run/train/epoch030.json",
+      "sha256": "64d92e1744c6834cbc5f5a575f6ff4135fa6b2ec0c89dce9f26598988b768890",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5be29516e072cb844f8d246789d318dd486fa20335da6fc41b881d73fdaad96f",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch031.json",
+      "sha256": "5be29516e072cb844f8d246789d318dd486fa20335da6fc41b881d73fdaad96f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/09f0fa36b44dd7c12e649ba473b25b6dd7ea21f9b75a79869e26ff472703192b",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch032.json",
+      "sha256": "09f0fa36b44dd7c12e649ba473b25b6dd7ea21f9b75a79869e26ff472703192b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1af3413f7b942c99f0d3aacbabcd15ee6eb1e03c5d07b57b76db0ed0b1c1aa32",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/train/epoch033.json",
+      "sha256": "1af3413f7b942c99f0d3aacbabcd15ee6eb1e03c5d07b57b76db0ed0b1c1aa32",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1799d3ffc226f824e33350ac0fe786b4913b20146720c0a1d12034e462058aae",
+      "bytes": 634,
+      "phase_relative_path": "folds/held2/run/train/epoch034.json",
+      "sha256": "1799d3ffc226f824e33350ac0fe786b4913b20146720c0a1d12034e462058aae",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4d771615c32398a3139c8fd322e966e182daad4bfd4d9ddd5c75c5e91a8705c3",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/train/epoch035.json",
+      "sha256": "4d771615c32398a3139c8fd322e966e182daad4bfd4d9ddd5c75c5e91a8705c3",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1402504ca8f7b165907ede91ddb93e9bc9385efdea6b6acf80579fbe7f4b9ae5",
+      "bytes": 647,
+      "phase_relative_path": "folds/held2/run/train/epoch036.json",
+      "sha256": "1402504ca8f7b165907ede91ddb93e9bc9385efdea6b6acf80579fbe7f4b9ae5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/f3a2fe6573f58da46ee2f017ede3133481cf4a2edd4a87fe53e2a1200bca2899",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch037.json",
+      "sha256": "f3a2fe6573f58da46ee2f017ede3133481cf4a2edd4a87fe53e2a1200bca2899",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/810816a9d85f2557f8c0d18ab91d87c9ca6a06a04ebee7d4b8ab25fa7776197a",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/train/epoch038.json",
+      "sha256": "810816a9d85f2557f8c0d18ab91d87c9ca6a06a04ebee7d4b8ab25fa7776197a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/c2f3c5bf1ce97f18ceb058530296f4e8d41ac68c7d0daae95fa10f5176bcd919",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/train/epoch039.json",
+      "sha256": "c2f3c5bf1ce97f18ceb058530296f4e8d41ac68c7d0daae95fa10f5176bcd919",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/797a66dca511bb653b9eac5acebbef1fdea89b97c08dcf99e99d8f871e3e3220",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch040.json",
+      "sha256": "797a66dca511bb653b9eac5acebbef1fdea89b97c08dcf99e99d8f871e3e3220",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/59367d2eccd1632db33a754b1fcea4e5caa3a8938d513da43c0c49f0a12bea63",
+      "bytes": 645,
+      "phase_relative_path": "folds/held2/run/train/epoch041.json",
+      "sha256": "59367d2eccd1632db33a754b1fcea4e5caa3a8938d513da43c0c49f0a12bea63",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/35c659f98a6ad0738fc81b16f8a78beb441b3cd4671c08edc44cd846e0b2e881",
+      "bytes": 646,
+      "phase_relative_path": "folds/held2/run/train/epoch042.json",
+      "sha256": "35c659f98a6ad0738fc81b16f8a78beb441b3cd4671c08edc44cd846e0b2e881",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/fdf721d5f450a680ff3fb4506fe1d49db45894d902ff6964bbc9853eda2eec3e",
+      "bytes": 619,
+      "phase_relative_path": "folds/held2/run/train/epoch043.json",
+      "sha256": "fdf721d5f450a680ff3fb4506fe1d49db45894d902ff6964bbc9853eda2eec3e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7a3e32f8a08917716b2e629574a2318aeda09644b00760a6107c44050726a429",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch044.json",
+      "sha256": "7a3e32f8a08917716b2e629574a2318aeda09644b00760a6107c44050726a429",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9f1ab113e23797a88992d7c48cb3a1dbf1972214e9493a98adac7321899131b7",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch045.json",
+      "sha256": "9f1ab113e23797a88992d7c48cb3a1dbf1972214e9493a98adac7321899131b7",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/38116087d0bee341c5b2242c32df76b4f62f3dbffa441735aec381808b9cb458",
+      "bytes": 621,
+      "phase_relative_path": "folds/held2/run/train/epoch046.json",
+      "sha256": "38116087d0bee341c5b2242c32df76b4f62f3dbffa441735aec381808b9cb458",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/080ba64edec7ee6b349bc767abf119aad302c7450f9208b40dd0db11d2442931",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch047.json",
+      "sha256": "080ba64edec7ee6b349bc767abf119aad302c7450f9208b40dd0db11d2442931",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b180b85d71c22ce5eb10245ddf2fd31010b6912f32ee1dc9d3009dee1ad49796",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch048.json",
+      "sha256": "b180b85d71c22ce5eb10245ddf2fd31010b6912f32ee1dc9d3009dee1ad49796",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/21dd365a34b222ffe5a873d4f7b54bb7bdf99d1d486e91653fd5c57108242bcc",
+      "bytes": 619,
+      "phase_relative_path": "folds/held2/run/train/epoch049.json",
+      "sha256": "21dd365a34b222ffe5a873d4f7b54bb7bdf99d1d486e91653fd5c57108242bcc",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/57575f7973fab2946e46ca0ae33911e8dcb858c98226b002404a340a99a8acaa",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch050.json",
+      "sha256": "57575f7973fab2946e46ca0ae33911e8dcb858c98226b002404a340a99a8acaa",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b40d1ee55fd7e15b91a66b8076b4b580b079811256a59f2aa16ff9217fd6ddd1",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch051.json",
+      "sha256": "b40d1ee55fd7e15b91a66b8076b4b580b079811256a59f2aa16ff9217fd6ddd1",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0dd3556c80ab1fbe0ac0830006f007c74321878df5242115a90b5d948526bff0",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch052.json",
+      "sha256": "0dd3556c80ab1fbe0ac0830006f007c74321878df5242115a90b5d948526bff0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/fde6e35b45d6eb8b0ee821bd323b64bb7e02c1a927e9f3f21ff0f15f8b862b1e",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch053.json",
+      "sha256": "fde6e35b45d6eb8b0ee821bd323b64bb7e02c1a927e9f3f21ff0f15f8b862b1e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1128d9a0839506ae8300b6d3cbaa03e103a85c81b00e042270c91766a2c8e216",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch054.json",
+      "sha256": "1128d9a0839506ae8300b6d3cbaa03e103a85c81b00e042270c91766a2c8e216",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cf8e54aaa1c68efce5c89e2f9374a55b61cb4a1b08938464a9c5ddc85478b836",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch055.json",
+      "sha256": "cf8e54aaa1c68efce5c89e2f9374a55b61cb4a1b08938464a9c5ddc85478b836",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5e312f70383409e05bf95317a29c391b7578366fed789bb6d53d97dab5d3ccf2",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch056.json",
+      "sha256": "5e312f70383409e05bf95317a29c391b7578366fed789bb6d53d97dab5d3ccf2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/dc780b79cd1f5519aa0abcd1f2964daa926fc7c843b19206551d41bc566ed081",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch057.json",
+      "sha256": "dc780b79cd1f5519aa0abcd1f2964daa926fc7c843b19206551d41bc566ed081",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3e2907409072bf690df8e66deabeab4c022b7b2da75e78126c1bdfee3c3a921d",
+      "bytes": 632,
+      "phase_relative_path": "folds/held2/run/train/epoch058.json",
+      "sha256": "3e2907409072bf690df8e66deabeab4c022b7b2da75e78126c1bdfee3c3a921d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b2bec958f17337f0bcf9b671c7bccb9d6171f3536cbcebc78fa1ca04fb1ab7ee",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch059.json",
+      "sha256": "b2bec958f17337f0bcf9b671c7bccb9d6171f3536cbcebc78fa1ca04fb1ab7ee",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/23e4d079a25d422ed632d2a0e99bba1eadfc4779c20412cbcdea67cc614078b0",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch060.json",
+      "sha256": "23e4d079a25d422ed632d2a0e99bba1eadfc4779c20412cbcdea67cc614078b0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8aa74a88954038e71db930c70fb09813d4d9e055aa9bc169ebef8a2bc9876fe0",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch061.json",
+      "sha256": "8aa74a88954038e71db930c70fb09813d4d9e055aa9bc169ebef8a2bc9876fe0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/405761d9531ecba05daac57f5d884eb9839cd043546c5c2bccd04c15ab3612f2",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch062.json",
+      "sha256": "405761d9531ecba05daac57f5d884eb9839cd043546c5c2bccd04c15ab3612f2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/60452d910e40d51b14db761434ebfb569e105a5cd8d7ffd06095ab6de80d86c9",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch063.json",
+      "sha256": "60452d910e40d51b14db761434ebfb569e105a5cd8d7ffd06095ab6de80d86c9",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d17e88580c8066cdd2190d95dda29f438bb21b66ed404d49748c17386c3589be",
+      "bytes": 633,
+      "phase_relative_path": "folds/held2/run/train/epoch064.json",
+      "sha256": "d17e88580c8066cdd2190d95dda29f438bb21b66ed404d49748c17386c3589be",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "bytes": 42848541,
+      "phase_relative_path": "folds/held2/run/train/final_full.pt",
+      "sha256": "3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8ee3970d412216d15332a81d842332db87e6f8be69856611bfe51c1404bb219f",
+      "bytes": 12602253,
+      "phase_relative_path": "folds/held2/run/train/first_update.pt",
+      "sha256": "8ee3970d412216d15332a81d842332db87e6f8be69856611bfe51c1404bb219f",
+      "source": "new"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/initial.pt",
+      "bytes": 7590106,
+      "phase_relative_path": "folds/held2/run/train/initial.pt",
+      "sha256": "7a5de15010e8d19a3a9d1859c0a1b071a174bb029cc5ce517e9502de1278f097",
+      "source": "base"
+    },
+    {
+      "archive_member": "phase/folds/held1/run/train/journal000.json",
+      "bytes": 474,
+      "phase_relative_path": "folds/held2/run/train/journal000.json",
+      "sha256": "9253144739cd235864b729c7122c22bc3a2ca9cc6718ae299187b0fe38eefe29",
+      "source": "base"
+    },
+    {
+      "archive_member": "objects/9d30c70888ea8bae4f91e7dfc4db553e0e4bce7db62e64bd47ecd155d2d3f178",
+      "bytes": 541,
+      "phase_relative_path": "folds/held2/run/train/journal001.json",
+      "sha256": "9d30c70888ea8bae4f91e7dfc4db553e0e4bce7db62e64bd47ecd155d2d3f178",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/6c4be163fabfd1b57920fb61917dc3b1de9e1d147de1947e26c9680e59929987",
+      "bytes": 542,
+      "phase_relative_path": "folds/held2/run/train/journal002.json",
+      "sha256": "6c4be163fabfd1b57920fb61917dc3b1de9e1d147de1947e26c9680e59929987",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1168a6f4bfc7ff7eb2914c4899a48083fd52902aedb5fd41f7d42d1756f594b0",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/train/journal003.json",
+      "sha256": "1168a6f4bfc7ff7eb2914c4899a48083fd52902aedb5fd41f7d42d1756f594b0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/771ca4493506f1c06068c946dcaabeeb58249f8f0631accb3f8420d257399727",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/train/journal004.json",
+      "sha256": "771ca4493506f1c06068c946dcaabeeb58249f8f0631accb3f8420d257399727",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1b1b826f73b6212e128b10123b8c41fef96f97727ca6fbf798cf1ac2dd744ffe",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/train/journal005.json",
+      "sha256": "1b1b826f73b6212e128b10123b8c41fef96f97727ca6fbf798cf1ac2dd744ffe",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/075e2fc1d6377921fc292dc69ca2bf98b8ed61481c275b5a97fdba99215b35b0",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/train/journal006.json",
+      "sha256": "075e2fc1d6377921fc292dc69ca2bf98b8ed61481c275b5a97fdba99215b35b0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7489bb09347c29b5877637aa82074c86b00c085fc7e2a4fb3006775593d3cde2",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/train/journal007.json",
+      "sha256": "7489bb09347c29b5877637aa82074c86b00c085fc7e2a4fb3006775593d3cde2",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/638d6dce13e7af881e4d700511466188ffc846984e36d89c98b4a945c6e84cb3",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/train/journal008.json",
+      "sha256": "638d6dce13e7af881e4d700511466188ffc846984e36d89c98b4a945c6e84cb3",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5359837818fccea61a5d21a77e729349dbd74476063811b759028aec12c554ed",
+      "bytes": 543,
+      "phase_relative_path": "folds/held2/run/train/journal009.json",
+      "sha256": "5359837818fccea61a5d21a77e729349dbd74476063811b759028aec12c554ed",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3c3478c3a7157a769d5f5fe312c5f49c328f6aca01b14331acf4e8718fd04a4e",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/train/journal010.json",
+      "sha256": "3c3478c3a7157a769d5f5fe312c5f49c328f6aca01b14331acf4e8718fd04a4e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3db670765cd435c6cd2ec40a5acb6cf61fd069f5bf26d2a42b9917b0537c247d",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/train/journal011.json",
+      "sha256": "3db670765cd435c6cd2ec40a5acb6cf61fd069f5bf26d2a42b9917b0537c247d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7d94de98d7242acf3979c1af32fd4a3bfdbced2c059ecdce2ea9a596e8aeaae4",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/train/journal012.json",
+      "sha256": "7d94de98d7242acf3979c1af32fd4a3bfdbced2c059ecdce2ea9a596e8aeaae4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/17509cbf3951cb5166964387f170f03fc238be396ba24b9b3cec44d5ec5af112",
+      "bytes": 544,
+      "phase_relative_path": "folds/held2/run/train/journal013.json",
+      "sha256": "17509cbf3951cb5166964387f170f03fc238be396ba24b9b3cec44d5ec5af112",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/638e6e71d65ec612b198a32659f12c6655a6b74199b8fd1cb9e4e73fd3f73aa5",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal014.json",
+      "sha256": "638e6e71d65ec612b198a32659f12c6655a6b74199b8fd1cb9e4e73fd3f73aa5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/11aa5202a9ec4387355a3a8350ecdd16afff366ffc4f1a089a3ceaba4c589785",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal015.json",
+      "sha256": "11aa5202a9ec4387355a3a8350ecdd16afff366ffc4f1a089a3ceaba4c589785",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cf42d1f0159453cc64037412391b65545d45a0b83a2d6be08c18ddaf945c6923",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal016.json",
+      "sha256": "cf42d1f0159453cc64037412391b65545d45a0b83a2d6be08c18ddaf945c6923",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1210d19a370d4164fa4c87d5dceeec925bb67435364f395ef55a4790bc645e9b",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal017.json",
+      "sha256": "1210d19a370d4164fa4c87d5dceeec925bb67435364f395ef55a4790bc645e9b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cace298fcc34b4bec3c6afe9926ca2852e3f71b546a5a4bfc9cb16b635a33163",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal018.json",
+      "sha256": "cace298fcc34b4bec3c6afe9926ca2852e3f71b546a5a4bfc9cb16b635a33163",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8fd2d1988c2f21e485aa6efbc7965966978e432f3287193d6495f263710531fa",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal019.json",
+      "sha256": "8fd2d1988c2f21e485aa6efbc7965966978e432f3287193d6495f263710531fa",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3e427f9a5c87e59b809c56ecdde33e7216ff68641cb6722dd0a4a110ca15e2e9",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal020.json",
+      "sha256": "3e427f9a5c87e59b809c56ecdde33e7216ff68641cb6722dd0a4a110ca15e2e9",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a94b69a272eff3d07d242661bcc598015fb6204ca4edca8d691773576a90ec02",
+      "bytes": 545,
+      "phase_relative_path": "folds/held2/run/train/journal021.json",
+      "sha256": "a94b69a272eff3d07d242661bcc598015fb6204ca4edca8d691773576a90ec02",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e7a81e5a5fe9fbed88f175d9eb210d73947efc6a8a68a82b208641d864c99b4f",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal022.json",
+      "sha256": "e7a81e5a5fe9fbed88f175d9eb210d73947efc6a8a68a82b208641d864c99b4f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/72a6f0d0c9e08edcd962962b49f4ca74a03c04e95ebc7a4563f8a3fbe4bd3961",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal023.json",
+      "sha256": "72a6f0d0c9e08edcd962962b49f4ca74a03c04e95ebc7a4563f8a3fbe4bd3961",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b0518ac388d284520cf6bfe233b405bede573d7d5c753f53776a6513755e7b9d",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal024.json",
+      "sha256": "b0518ac388d284520cf6bfe233b405bede573d7d5c753f53776a6513755e7b9d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e09d6b0bca3b7cf74f829cfd87824fe1e1a532a112d7f5c7e62217739088a8ed",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal025.json",
+      "sha256": "e09d6b0bca3b7cf74f829cfd87824fe1e1a532a112d7f5c7e62217739088a8ed",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/870de3c25859add6386bfea57421d5bfb8830923971d69e7494473763bfb46f5",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal026.json",
+      "sha256": "870de3c25859add6386bfea57421d5bfb8830923971d69e7494473763bfb46f5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b4281237f5e76964f9f17b738ec73c4b7e3576b24537b971ecf9a78f28eb2c67",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal027.json",
+      "sha256": "b4281237f5e76964f9f17b738ec73c4b7e3576b24537b971ecf9a78f28eb2c67",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7ab5ee17f85ba379fbfbe14635667782ef89be7b86eff20ff171b1a049b68a76",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal028.json",
+      "sha256": "7ab5ee17f85ba379fbfbe14635667782ef89be7b86eff20ff171b1a049b68a76",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/26b7c6fa45dc50e717833abee1fbfdccd29ea328b0ad12d60c7bcecb79199829",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal029.json",
+      "sha256": "26b7c6fa45dc50e717833abee1fbfdccd29ea328b0ad12d60c7bcecb79199829",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b815de1e8be9a6e2f90b54c29c8bcb49a629e74378ea53b6054a5e420ebb9d0e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal030.json",
+      "sha256": "b815de1e8be9a6e2f90b54c29c8bcb49a629e74378ea53b6054a5e420ebb9d0e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/29daa6df0682039cafbc44e7c718661490340562750f8f92b419aa7ce16dc9f5",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal031.json",
+      "sha256": "29daa6df0682039cafbc44e7c718661490340562750f8f92b419aa7ce16dc9f5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9ef81534978713c44284fc55535a7b181cd4e4a701191fee7e5085399c5d6f1c",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal032.json",
+      "sha256": "9ef81534978713c44284fc55535a7b181cd4e4a701191fee7e5085399c5d6f1c",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3c80509e369618fcf125a8294b7545701bee067f5ba418f76522a39e1d29e353",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal033.json",
+      "sha256": "3c80509e369618fcf125a8294b7545701bee067f5ba418f76522a39e1d29e353",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/78f2efc1b6ed87006ff872ed118526051d72bc071fa4ce6dbb38908f9ceeb85a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal034.json",
+      "sha256": "78f2efc1b6ed87006ff872ed118526051d72bc071fa4ce6dbb38908f9ceeb85a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5573492a00c4479aae71e9c67bcedabb9f5a30d0016046fb63f1ceefb14775b8",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal035.json",
+      "sha256": "5573492a00c4479aae71e9c67bcedabb9f5a30d0016046fb63f1ceefb14775b8",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1a7815cc593011b710e04c4d3cca5ef8e18a09c8d10b1376894d2ee2c0708e3a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal036.json",
+      "sha256": "1a7815cc593011b710e04c4d3cca5ef8e18a09c8d10b1376894d2ee2c0708e3a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/39f8a178126db9545b3e085d04d3729af952cbd363edf2f8a0e6f133658a6c98",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal037.json",
+      "sha256": "39f8a178126db9545b3e085d04d3729af952cbd363edf2f8a0e6f133658a6c98",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/7b16d41dbc59d8c45eb7487e1ba5df207392dc05b7ac3ae7aa102963d166bcb4",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal038.json",
+      "sha256": "7b16d41dbc59d8c45eb7487e1ba5df207392dc05b7ac3ae7aa102963d166bcb4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0980fc4b4a8ae85991d128776c194087ebabcc17f49ea7e59b226ecdeddeb8fa",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal039.json",
+      "sha256": "0980fc4b4a8ae85991d128776c194087ebabcc17f49ea7e59b226ecdeddeb8fa",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a91f5586fd4e707ba1b0c05f3f28ce64c13aea80ff1255b0e9f1df9ab1ebe41b",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal040.json",
+      "sha256": "a91f5586fd4e707ba1b0c05f3f28ce64c13aea80ff1255b0e9f1df9ab1ebe41b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/59e96a8707062030e70663fcc8723fec690d399f9269b1ca6366fc9f79e9e21e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal041.json",
+      "sha256": "59e96a8707062030e70663fcc8723fec690d399f9269b1ca6366fc9f79e9e21e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/b0f0f9c4b10c271939931054b24db2e9fa68b64204b5417b547efd702491439a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal042.json",
+      "sha256": "b0f0f9c4b10c271939931054b24db2e9fa68b64204b5417b547efd702491439a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8630453b00ac3e1c8f41e68d189e11579486ca42f3788d5f5ae24d9ba68b704e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal043.json",
+      "sha256": "8630453b00ac3e1c8f41e68d189e11579486ca42f3788d5f5ae24d9ba68b704e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/2b49e1c834815fad2aef5b5bb0e3485078aa5b4ffbbc71e99d925b86cf67b04e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal044.json",
+      "sha256": "2b49e1c834815fad2aef5b5bb0e3485078aa5b4ffbbc71e99d925b86cf67b04e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/2c2e09f7d21b25834022281013a1bdb1ace2fe68647cc1aec455b2f19fe0c591",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal045.json",
+      "sha256": "2c2e09f7d21b25834022281013a1bdb1ace2fe68647cc1aec455b2f19fe0c591",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3d4cb860c7618ea9c7da0411a6fc0716738fcb57d552920a4566fb77df1c7cd3",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal046.json",
+      "sha256": "3d4cb860c7618ea9c7da0411a6fc0716738fcb57d552920a4566fb77df1c7cd3",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9585b59569e186302287d9fb34ab7abc36f1c771f8fabcff4ea1fd8fc4916493",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal047.json",
+      "sha256": "9585b59569e186302287d9fb34ab7abc36f1c771f8fabcff4ea1fd8fc4916493",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ce98496382021a358b09659762f209147803a39198b5815700f8b4047c31b7d7",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal048.json",
+      "sha256": "ce98496382021a358b09659762f209147803a39198b5815700f8b4047c31b7d7",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/630f9894abb77905330fca87718d6a10b532096b170e2dae244cf0c41c6ecc8e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal049.json",
+      "sha256": "630f9894abb77905330fca87718d6a10b532096b170e2dae244cf0c41c6ecc8e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/af075fc5632850312430ca1a44a882133a69d3889c39ff7b9d94c8a22033b0d1",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal050.json",
+      "sha256": "af075fc5632850312430ca1a44a882133a69d3889c39ff7b9d94c8a22033b0d1",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/1923e1d3e167bf514f73fe8b0115ad893735f35f95935708e9fcaf20cd394fd1",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal051.json",
+      "sha256": "1923e1d3e167bf514f73fe8b0115ad893735f35f95935708e9fcaf20cd394fd1",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/21157314b45a4f2da2c16d8b415279f80e8effc79349e52edcc2d40f929e3d19",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal052.json",
+      "sha256": "21157314b45a4f2da2c16d8b415279f80e8effc79349e52edcc2d40f929e3d19",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8dfad53f9e70c54c06ff68c5e6a08866371366b96a7e79cebd6b27b68b7a7459",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal053.json",
+      "sha256": "8dfad53f9e70c54c06ff68c5e6a08866371366b96a7e79cebd6b27b68b7a7459",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/ea3b4cd4867e9090e1d57866e82533c8944d41b7a42d878d5efb5173884f3076",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal054.json",
+      "sha256": "ea3b4cd4867e9090e1d57866e82533c8944d41b7a42d878d5efb5173884f3076",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/24bf6ebc9992aa9ff9a965a29f55cb383f5033512eb9ac8468552811ba6a6ca6",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal055.json",
+      "sha256": "24bf6ebc9992aa9ff9a965a29f55cb383f5033512eb9ac8468552811ba6a6ca6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3fc07605a7dfa311314300a965edbf485165326a4623822cb5aafc199c8fbcc8",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal056.json",
+      "sha256": "3fc07605a7dfa311314300a965edbf485165326a4623822cb5aafc199c8fbcc8",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/9d098636d6e96f151d49bc2ce7013a4f2bcba06f14fd75979e5e4a29b5e96cf5",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal057.json",
+      "sha256": "9d098636d6e96f151d49bc2ce7013a4f2bcba06f14fd75979e5e4a29b5e96cf5",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d104cd09e2e9854253808ea59e45454bb3ba4851decd36389e1fbad096236b91",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal058.json",
+      "sha256": "d104cd09e2e9854253808ea59e45454bb3ba4851decd36389e1fbad096236b91",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0444aa9a61129f1030de7fb207012e72dcdcb455f1aa7a19836e1b726032643e",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal059.json",
+      "sha256": "0444aa9a61129f1030de7fb207012e72dcdcb455f1aa7a19836e1b726032643e",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4a43e5278dafcc39934ab23878a75daee9be6ccc5a274ab4cce1a643b81b7e5a",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal060.json",
+      "sha256": "4a43e5278dafcc39934ab23878a75daee9be6ccc5a274ab4cce1a643b81b7e5a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/5a6353b467d53d1a16e90c2cf31593c7e7a6837b31d3367bda88aee8ba4e560f",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal061.json",
+      "sha256": "5a6353b467d53d1a16e90c2cf31593c7e7a6837b31d3367bda88aee8ba4e560f",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0b245f22aa077afc5d595cc9e9a7b50ce7cd1604b323ba23152b2c01a0daeb14",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal062.json",
+      "sha256": "0b245f22aa077afc5d595cc9e9a7b50ce7cd1604b323ba23152b2c01a0daeb14",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a41d6be197de31032fc10af57ffbf60cafbd446b5e3b00a8d8fbf081bf13d9f0",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal063.json",
+      "sha256": "a41d6be197de31032fc10af57ffbf60cafbd446b5e3b00a8d8fbf081bf13d9f0",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/23301042731d7f8a7038afc6b2d6c1cdf414912bb038e1d0392a8ae1f201e3e4",
+      "bytes": 546,
+      "phase_relative_path": "folds/held2/run/train/journal064.json",
+      "sha256": "23301042731d7f8a7038afc6b2d6c1cdf414912bb038e1d0392a8ae1f201e3e4",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/0b17a1d428faa3542161755bf3bf5240ee8ea2b75bd04f6c3b6fd0cad1b61b04",
+      "bytes": 43513,
+      "phase_relative_path": "folds/held2/run/train/native_reference_diagnostic_unscored.npz",
+      "sha256": "0b17a1d428faa3542161755bf3bf5240ee8ea2b75bd04f6c3b6fd0cad1b61b04",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/703c4c108171738be4fa626ae944b9bf8a1d8c25bcef666c6c27031f03594b24",
+      "bytes": 52019,
+      "phase_relative_path": "folds/held2/run/train/native_reference_validation_unscored.npz",
+      "sha256": "703c4c108171738be4fa626ae944b9bf8a1d8c25bcef666c6c27031f03594b24",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held2/run/train/selected.pt",
+      "sha256": "909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/10aa2766be1486c3385e50d79859846114fb6f8c6719daf05e5e450ba3807cbd",
+      "bytes": 2527359,
+      "phase_relative_path": "folds/held2/run/train/selected_bn_only.pt",
+      "sha256": "10aa2766be1486c3385e50d79859846114fb6f8c6719daf05e5e450ba3807cbd",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e2db6c69e026e10bc336ef437a7f7f546f91318d425eae7aeefd2755584bbb00",
+      "bytes": 2527105,
+      "phase_relative_path": "folds/held2/run/train/selected_native_reference.pt",
+      "sha256": "e2db6c69e026e10bc336ef437a7f7f546f91318d425eae7aeefd2755584bbb00",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "bytes": 2527081,
+      "phase_relative_path": "folds/held2/run/train/selected_swad.pt",
+      "sha256": "909abe411145bc4ddf517500ce9ec8a0c30ea46dca443a54452eb1cba4a9eaba",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d564cb33844dd3c6f9d5d88422ab7ae1843caf2944d5db9af09258bb524d344d",
+      "bytes": 2527017,
+      "phase_relative_path": "folds/held2/run/train/selected_tail.pt",
+      "sha256": "d564cb33844dd3c6f9d5d88422ab7ae1843caf2944d5db9af09258bb524d344d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "bytes": 42848541,
+      "phase_relative_path": "folds/held2/run/train/slot0.pt",
+      "sha256": "3b894155f1013f8fe63abaaeaa2f0af0ed9c5a4800f026fe0d388dd3752710be",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/4233d0fa3c52a8a0c9d75dce3c9cec1aa5df4e2517c54817221ca106fa240cd6",
+      "bytes": 42848541,
+      "phase_relative_path": "folds/held2/run/train/slot1.pt",
+      "sha256": "4233d0fa3c52a8a0c9d75dce3c9cec1aa5df4e2517c54817221ca106fa240cd6",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/e94c61feae2f1fe32810993fdedfaa103c99c7a697338fdc73eae405a8bc331b",
+      "bytes": 11178,
+      "phase_relative_path": "folds/held2/run/train/split.npz",
+      "sha256": "e94c61feae2f1fe32810993fdedfaa103c99c7a697338fdc73eae405a8bc331b",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/cec3648340206c30493c94a66a42106124a74160aa18bb2b2f5b69179e4f5346",
+      "bytes": 3110674,
+      "phase_relative_path": "folds/held2/run/train/steps.jsonl",
+      "sha256": "cec3648340206c30493c94a66a42106124a74160aa18bb2b2f5b69179e4f5346",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "bytes": 44409,
+      "phase_relative_path": "folds/held2/run/train/swad_diagnostic_unscored.npz",
+      "sha256": "021e1e6419718efd31f2265ff23714c043ecf886a21a840171e97bdcbb9a169a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "bytes": 53251,
+      "phase_relative_path": "folds/held2/run/train/swad_validation_unscored.npz",
+      "sha256": "58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/a816609fbd9436b274d6f1f51896a1c5500d6cae19489a312eb57b710119b764",
+      "bytes": 43572,
+      "phase_relative_path": "folds/held2/run/train/tail_diagnostic_unscored.npz",
+      "sha256": "a816609fbd9436b274d6f1f51896a1c5500d6cae19489a312eb57b710119b764",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/d6366565458a37fce3f9284d10e0957e4993f65be19b09796ad8d5113e6d53cc",
+      "bytes": 52185,
+      "phase_relative_path": "folds/held2/run/train/tail_validation_unscored.npz",
+      "sha256": "d6366565458a37fce3f9284d10e0957e4993f65be19b09796ad8d5113e6d53cc",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "bytes": 53251,
+      "phase_relative_path": "folds/held2/run/train/validation_unscored.npz",
+      "sha256": "58ee87ed665ddc5ff7bf35632b6b6e055fb22d17ebc848bc6999da14144ff75a",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/80ed2aab0828a514739782f2426e88bf5f45d7e189de123cad8d92ba3de7853d",
+      "bytes": 114,
+      "phase_relative_path": "folds/held2/synthetic_execution/TERMINATION.json",
+      "sha256": "80ed2aab0828a514739782f2426e88bf5f45d7e189de123cad8d92ba3de7853d",
+      "source": "new"
+    },
+    {
+      "archive_member": "objects/8d6ea3a475c17f2b01dd2b60babe68eae518a060bc6c5104b4b10f46378e580d",
+      "bytes": 514,
+      "phase_relative_path": "folds/held2/synthetic_execution/stdout.log",
+      "sha256": "8d6ea3a475c17f2b01dd2b60babe68eae518a060bc6c5104b4b10f46378e580d",
+      "source": "new"
+    }
+  ],
+  "state": "exact_content_object_recipe_actual_independently_produced_completed_fold",
+  "storage_only_not_cached_replay": true,
+  "weights_must_not_be_refit_or_approximated": true,
+  "whole_job_resume_authorized": false,
+  "within_new_archive_duplicate_targets": 155
+}
