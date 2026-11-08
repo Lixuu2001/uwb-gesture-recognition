@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "GroupDRO_complete_LOSO6_initial_native_q_and_actual_roles_private_raw_allmember_verified_waiting_exact_release_no_fit",
+  "state": "GroupDRO_full_native_LOSO6_actual_single_phase_running_held1_first_native_and_independent_q_gradient_audit_passed_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Latest user direction prioritizes complete subject-disjoint LOSO cross-person means/worst/paired results under matched training conditions. Single held1 .9841667 is one fold, not the cohort baseline .9366717. Select methods on six-user exploratory development then separately plan matched full eight-person outer LOSO; users7–8 not for new-method choice; no independent validation claim.",
   "original_source_files_in_cloud": 789,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Same cloud CPU full617612 B64 64+fresh64 each6; original fixed generated reserve11.6848h<12h, no retiming. ActualGroupDRO phase not launched. Prior four full6 costs preserved.",
+  "compute": "Same cloud CPU1thread full native617612 B64/64+fresh64 each6 active. Fixedgeneratedestimate11.6848h, cumulativeactualwall/CPU12h and12GiB RSS hard caps; preserve all prior costs.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261108_groupdro_loso6_initial_private/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261108_groupdro_loso6_running/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794100594.5643976,
-  "background_training_pid": null,
-  "background_training_status_note": "Full source222fc556 registered;6 native untrained model/q/roles states actualinputSHA and owner-only3parts136payload rawallmember verified. Need exactREAL_RELEASE then one phase. No realGroupDRO training yet.",
+  "background_training_observed_unix": 1794100730.8443196,
+  "background_training_pid": 99353,
+  "background_training_status_note": "Actual GroupDRO full6 phase PID99353/bootad409b48/start33123032 running; held1 real first exactnative+independentNumPy617612grad/q audit passed and released. No fold score/held1 gate. Do not duplicate/restart/retune. All6 64+fresh64/privatefinal before oncecohortscore.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Bind exact all6 initial private release; check prior PIDs/locks; launch one GroupDRO full6 phase only. All6 models/q/deterministic native64+fresh64/private final freeze before onejointscore. No held1 entry/testtuning.",
+  "next_candidate": "Monitor existing GroupDRO full6 PID99353 and saved journals; no second launch. Complete6 native64+fresh64/alloutputs/fullprivate rawallmember/exactrelease then onejointscore; conditional eta0 equal-source control only after frozen primarygate. Retain all old negatives.",
   "last_completed_update_utc": "2026-11-06T06:34:04.077510+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -17311,5 +17311,25 @@
   "chunks": 3,
   "payload_members": 136,
   "real_UWB_fit_started": false
+}
+,
+  "groupdro_loso6_running_20261108": {
+  "report": "results/cloud_20261108_groupdro_loso6_running/RUN_REPORT.md",
+  "method": "published_DomainBed_GroupDRO_eta0p01_nativeGAP617612_LOSO6",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used": false,
+  "configuration_fixed": true,
+  "first_native_and_independent_reference_passed": true,
+  "held_scores_computed": false,
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.39,
+    "pid": 99353,
+    "startticks": 33123032,
+    "state": "R"
+  },
+  "phase_pid": 99353,
+  "real_UWB_fit_started": true
 }
 }

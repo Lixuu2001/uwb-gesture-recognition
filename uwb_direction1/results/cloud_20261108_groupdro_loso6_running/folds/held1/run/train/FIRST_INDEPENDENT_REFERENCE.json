@@ -1,0 +1,15 @@
+{
+  "diagnostic_labels_read": false,
+  "does_not_exclude_all_shared_implementation_errors": true,
+  "independent_reference_gradient_tolerance": {
+    "atol": 2e-06,
+    "rtol": 0.0002
+  },
+  "max_gradient_absolute_difference": 7.450580596923828e-09,
+  "max_q_absolute_difference": 2.9802322387695312e-08,
+  "parameters": 617612,
+  "reference_loss": 0.6910376786939741,
+  "same_implementation_native_state_replay_bitwise": true,
+  "state": "all617612_native_first_clipped_gradients_and_q_match_independent_NumPy_BCE_q_logit_derivative",
+  "training_labels_only": true
+}

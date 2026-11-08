@@ -1,0 +1,105 @@
+{
+  "frozen_sha256": "eb7bd75aaf2b9951c9545a8e3afbf2c3be41ec27c7da09c2962880c2fc3df00b",
+  "observed_utc": "2026-11-08T01:17:36.334699+00:00",
+  "prior_processes": [
+    {
+      "active_owned": false,
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 27.24,
+        "pid": 50654,
+        "startticks": 18218982,
+        "state": "Z"
+      },
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 3.32,
+        "pid": 50654,
+        "startticks": 18218982,
+        "state": "R"
+      },
+      "record": "PHASE_IDENTITY.json",
+      "root": "/workspace/uwb-mmd-loso6-20261106"
+    },
+    {
+      "active_owned": false,
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 7.17,
+        "pid": 45290,
+        "startticks": 17064304,
+        "state": "Z"
+      },
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.54,
+        "pid": 45290,
+        "startticks": 17064304,
+        "state": "R"
+      },
+      "record": "CONTROLLER_IDENTITY.json",
+      "root": "/workspace/uwb-mmd-gap64-20261106"
+    },
+    {
+      "active_owned": false,
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 31.73,
+        "pid": 64529,
+        "startticks": 21331595,
+        "state": "Z"
+      },
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.57,
+        "pid": 64529,
+        "startticks": 21331595,
+        "state": "R"
+      },
+      "record": "PHASE_IDENTITY.json",
+      "root": "/workspace/uwb-vrex-loso6-20261106"
+    },
+    {
+      "active_owned": false,
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 28.35,
+        "pid": 82223,
+        "startticks": 25677952,
+        "state": "Z"
+      },
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.37,
+        "pid": 82223,
+        "startticks": 25677952,
+        "state": "R"
+      },
+      "record": "PHASE_IDENTITY.json",
+      "root": "/workspace/uwb-fishr-native-loso6-20261107"
+    },
+    {
+      "active_owned": false,
+      "current": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 28.12,
+        "pid": 92152,
+        "startticks": 29520187,
+        "state": "Z"
+      },
+      "old": {
+        "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+        "cpu": 2.39,
+        "pid": 92152,
+        "startticks": 29520187,
+        "state": "R"
+      },
+      "record": "PHASE_IDENTITY.json",
+      "root": "/workspace/uwb-irm-loso6-20261107"
+    }
+  ],
+  "real_diagnostic_scores_computed": false,
+  "release_commit": "ec4721b7328b1d256273f7cff9180dfca7f47182",
+  "state": "exact_full_source_private_initial_release_passed_prior_owned_processes_inactive",
+  "users7_8_labels_used": false
+}

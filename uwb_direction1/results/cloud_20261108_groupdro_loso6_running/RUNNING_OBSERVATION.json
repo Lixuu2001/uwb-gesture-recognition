@@ -1,0 +1,108 @@
+{
+  "automations_or_environment_created_or_changed": false,
+  "current_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.46,
+    "pid": 99353,
+    "startticks": 33123032,
+    "state": "S"
+  },
+  "diagnostic_labels_read": false,
+  "first_reference": {
+    "diagnostic_labels_read": false,
+    "does_not_exclude_all_shared_implementation_errors": true,
+    "independent_reference_gradient_tolerance": {
+      "atol": 2e-06,
+      "rtol": 0.0002
+    },
+    "max_gradient_absolute_difference": 7.450580596923828e-09,
+    "max_q_absolute_difference": 2.9802322387695312e-08,
+    "parameters": 617612,
+    "reference_loss": 0.6910376786939741,
+    "same_implementation_native_state_replay_bitwise": true,
+    "state": "all617612_native_first_clipped_gradients_and_q_match_independent_NumPy_BCE_q_logit_derivative",
+    "training_labels_only": true
+  },
+  "first_release": {
+    "diagnostic_labels_read": false,
+    "first_sha256": "9cfc365cf5f791a114cb993cabf5f95def18255f28a90a261fd6d063f9320659",
+    "native_first_update_exact": true,
+    "state_sha256": "79135679deb018e9c55afdbe5db50957f6df5476d042e75e56e211934717f6a3"
+  },
+  "first_step": {
+    "completed_updates_after": 1,
+    "completed_updates_before": 0,
+    "domain_counts": [
+      20,
+      13,
+      17,
+      14
+    ],
+    "epoch": 1,
+    "forward_batch": 64,
+    "global_BCE": 0.6903143525123596,
+    "group_q": [
+      0.25001654028892517,
+      0.25002697110176086,
+      0.24993743002414703,
+      0.2500190734863281
+    ],
+    "group_users": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "logits_sha256": "21879986547b836ed3aa892d9fcd9ba783e49b0267819b56450dacc86454b240",
+    "loss": 0.691037654876709,
+    "offset": 0,
+    "positions_sha256": "879411bf34271a0bb910050cd38cfcafbe22a3fad4895dea360ddfe485f38dd2",
+    "present": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "source_risks": [
+      0.697655200958252,
+      0.7018241286277771,
+      0.6660072207450867,
+      0.6986555457115173
+    ],
+    "training_ids_sha256": "d1f6dff2c2c13fe0dff6220fe0f4c89055f259460cde3bae9b8bf491b64acf47",
+    "update": 1,
+    "weighted_source_BCE": 0.691037654876709
+  },
+  "fixed_configuration_unchanged": true,
+  "new_accuracy_result": false,
+  "observed_utc": "2026-11-08T01:18:50.769034+00:00",
+  "phase_completed_folds": [],
+  "phase_identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 2.39,
+    "pid": 99353,
+    "startticks": 33123032,
+    "state": "R"
+  },
+  "private_initial_archive_sha256": "4098a5022918741d71da4f3fbcc3fcfd5021c880be40d3b8e2ea54e0d87764a4",
+  "private_initial_commit": "ec4721b7328b1d256273f7cff9180dfca7f47182",
+  "resource_observation": {
+    "RSS_KiB": 1728444,
+    "active_held": 1,
+    "completed_folds": [],
+    "cpu": 73.668368393,
+    "fold_stage": "train",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 73.51247266901191
+  },
+  "source_preregistration_commit": "222fc556f54d0b90c11ddd478bee58d2579658f9",
+  "state": "actual_GroupDRO_full6_single_phase_running_held1_first_native_and_independent_gradient_q_reference_passed_unscored",
+  "users7_8_labels_used": false
+}

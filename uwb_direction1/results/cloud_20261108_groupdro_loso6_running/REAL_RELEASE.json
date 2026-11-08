@@ -1,0 +1,40 @@
+{
+  "branch_head_verified": true,
+  "commit": "ec4721b7328b1d256273f7cff9180dfca7f47182",
+  "exact_readback_verified": 13,
+  "files": 13,
+  "force": false,
+  "frozen_sha256": "eb7bd75aaf2b9951c9545a8e3afbf2c3be41ec27c7da09c2962880c2fc3df00b",
+  "initial_archive_sha256": "4098a5022918741d71da4f3fbcc3fcfd5021c880be40d3b8e2ea54e0d87764a4",
+  "initial_model_file_sha256_by_held": {
+    "1": "8416c069b5384a1b66612ed84be6fd28ec3ed3f0614e12696f93500834bbf0bb",
+    "2": "819502fc376de361ee99c703e9fa10ee901c85a794a78789819779c13ba437e5",
+    "3": "dfc13c39cbedfe3574be2dbd1d109e9f3961990c49b8b3c4d890e7b5152a7ad1",
+    "4": "dbcee9f7c9696be468614ae9d21a5f8ff22f1bd41ac14b831b72bde525f9763e",
+    "5": "21822d9801f5db3a5bafbb13f210db83d04839e4de8a4df0b0930fee5a7bb355",
+    "6": "66a19b8f5424eb571385edaac2538bfd548ae2137a8a78765c60575cffb76f0c"
+  },
+  "parent": "222fc556f54d0b90c11ddd478bee58d2579658f9",
+  "private_initial_allmember_verified": true,
+  "readback_transport_recovery": {
+    "connector_readback_failures": [
+      {
+        "expected_blob_sha1": "a72f0591cdf584c58f1cfab360bac583a3230d71",
+        "expected_bytes": 1372653,
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "77a8714bcadce202ffa51e59019d5e456d9bd329",
+        "expected_bytes": 1436628,
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "returned_characters": 0
+      }
+    ],
+    "force": false,
+    "new_commit_created_for_retry": false,
+    "proof": "/workspace/uwb-groupdro-loso6-20261108/initial_private_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+  },
+  "ref_transport_recovery": null
+}
