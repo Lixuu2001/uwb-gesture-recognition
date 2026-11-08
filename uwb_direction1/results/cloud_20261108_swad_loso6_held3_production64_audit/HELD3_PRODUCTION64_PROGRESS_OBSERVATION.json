@@ -1,0 +1,52 @@
+{
+  "completed_folds": [
+    1,
+    2
+  ],
+  "extra_training_or_model_forward_by_readonly_audit": 0,
+  "full_paper_review_complete": false,
+  "held1_held2_complete_private_recovery_verified": true,
+  "held3_all64_fresh_replay_and_final_output_audit_complete": false,
+  "held3_complete_private_backup_verified": false,
+  "held3_production_epochs": 64,
+  "held3_production_updates": 4544,
+  "held3_replay_committed_epochs": 33,
+  "held3_replay_committed_updates": 2343,
+  "identity": {
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "cpu": 16.52,
+    "pid": 105224,
+    "startticks": 37087993,
+    "state": "S"
+  },
+  "new_duplicate_training_or_automation_or_environment_change": false,
+  "observed_unix": 1794155550.18684,
+  "paper_method_review_receipt_sha256": "3775e8d4c73ae9cbcdd2d04637004dc998e1c653801ae14fd68aa59c09e10a2f",
+  "replay_all_epoch_records_and_step_rows_equal": true,
+  "resource": {
+    "RSS_KiB": 1717816,
+    "active_held": 3,
+    "completed_folds": [
+      1,
+      2
+    ],
+    "cpu": 15262.648525122,
+    "fold_stage": "replay",
+    "prior_Fishr6_cpu": 29599.386025808,
+    "prior_Fishr6_wall": 29559.94331930898,
+    "prior_GroupDRO6_cpu": 29595.509859692,
+    "prior_GroupDRO6_wall": 29556.896173048997,
+    "prior_IRM6_cpu": 29548.175221702,
+    "prior_IRM6_wall": 29509.953316993022,
+    "prior_MMD6_cpu": 30891.040083422995,
+    "prior_MMD6_wall": 30865.434969089023,
+    "prior_VREx6_cpu": 31189.589142517,
+    "prior_VREx6_wall": 31157.163366941997,
+    "wall": 15243.918996087974
+  },
+  "scientific_frozen_sha256": "7ec9470583f660da67bb4535a50e1f2b9aa55452dc68d9bd72fa54d9f2fec102",
+  "single_fold_or_cohort_scores_computed": false,
+  "source_method_configs_and_seed_unchanged": true,
+  "state": "original_SWAD_phase_held3_production64_readonly_verified_fresh_replay_prefix_exact_paper_methods_crosschecked_unscored",
+  "users7_8_labels_used": false
+}
