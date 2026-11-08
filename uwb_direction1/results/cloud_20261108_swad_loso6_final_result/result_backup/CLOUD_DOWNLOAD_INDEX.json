@@ -1,0 +1,42 @@
+{
+  "archive_bytes": 60833,
+  "archive_sha256": "62f06912fd4071f0e83dd0e06da03b143b90bde1200256f3ece48b6863f9b26a",
+  "chunks": [
+    {
+      "bytes": 60833,
+      "download_verified": true,
+      "file_id": "1yeDRMzZ_aYpWXmbUVJzG3t7X7QtTzIme",
+      "include_base64": false,
+      "metadata": {
+        "mime_type": "application/x-gzip",
+        "parent_ids": [
+          "12AGMwT99yXCTYBQocQaX901Br-IelmOf"
+        ],
+        "permissions": [
+          {
+            "role": "owner",
+            "type": "user"
+          }
+        ],
+        "shared": false,
+        "size_bytes": 60833
+      },
+      "name": "swad_native_loso6_scored_terminal_20261108.part000",
+      "raw_fetch": true,
+      "remote_raw_bytes_replaced_identical_transport": true,
+      "sha256": "62f06912fd4071f0e83dd0e06da03b143b90bde1200256f3ece48b6863f9b26a"
+    }
+  ],
+  "complete_modelset": false,
+  "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+  "payload": 27,
+  "raw_fetch_options": {
+    "download_raw_file": true,
+    "include_base64": false
+  },
+  "requires_canonical_model_archive_sha256": "99453112a56ece88f5d7dca37e6a110978c5202c97d6113012f9aa0526187408",
+  "restore_terminal_summary_and_once_markers_before_any_finalizer_consideration": true,
+  "state": "scored_terminal_metadata_and_consumed_once_markers_private_raw_allmember_verified",
+  "summary_sha256": "09b3b0f3bac0280e4b4e6e295b336febf311d06e399303ddcac3793587b950f3",
+  "whole_job_resume_authorized": false
+}

@@ -1,0 +1,19 @@
+{
+  "state": "subject_only_outer8_role_planner_generated_checks_pass",
+  "generated_users": 8,
+  "generated_samples": 28,
+  "all8_test_roles_cover_each_ID_once": true,
+  "each_fold_train6_validation1_test1_disjoint": true,
+  "held8_wraps_validation1": true,
+  "blocked_invalid_inputs": [
+    "duplicate_ID",
+    "mismatched_lengths",
+    "missing_subject8"
+  ],
+  "actual_outer8_data_loader_or_worker_not_completed": true,
+  "real_user7_8_subjects_or_gesture_labels_read": false,
+  "new_model_fits_started": 0,
+  "method_or_window_selection_performed": false,
+  "operator_sha256": "2319bac197ac7efcefd942426aa2c51674dbf760c6970295fdae050c9e8e80cc",
+  "observed_utc": "2026-11-08T23:14:18.656419+00:00"
+}

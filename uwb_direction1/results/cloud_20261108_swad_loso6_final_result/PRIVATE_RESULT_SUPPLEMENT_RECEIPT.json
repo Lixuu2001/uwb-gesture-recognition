@@ -1,0 +1,56 @@
+{
+  "state": "post_score_terminal_private_recovery_supplement_complete",
+  "archive_bytes": 60833,
+  "archive_sha256": "62f06912fd4071f0e83dd0e06da03b143b90bde1200256f3ece48b6863f9b26a",
+  "parts": 1,
+  "payload": 27,
+  "raw_allmember_verified": true,
+  "whole_modelset_requires_prior_canonical247": true,
+  "includes_consumed_finalize_and_inference_once_markers": true,
+  "source_summary_sha256": "09b3b0f3bac0280e4b4e6e295b336febf311d06e399303ddcac3793587b950f3",
+  "build": {
+    "command": [
+      "python",
+      "/workspace/uwb-swad-loso6-20261108/operations/final_result_archive.py",
+      "build"
+    ],
+    "observed_utc": "2026-11-08T23:15:39.461259+00:00",
+    "wall_seconds": 0.08573653199709952,
+    "user_CPU_seconds": 0.035043,
+    "system_CPU_seconds": 0.047917,
+    "parent_CPU_seconds": 0.0017048880000000016,
+    "max_RSS_KiB": 11392,
+    "exit_code": 0,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "automatic_retries": 0
+  },
+  "verify": {
+    "command": [
+      "python",
+      "/workspace/uwb-swad-loso6-20261108/operations/final_result_archive.py",
+      "check"
+    ],
+    "observed_utc": "2026-11-08T23:16:12.790100+00:00",
+    "wall_seconds": 0.06247299798997119,
+    "user_CPU_seconds": 0.042387999999999995,
+    "system_CPU_seconds": 0.016954999999999998,
+    "parent_CPU_seconds": 0.0002852230000000011,
+    "max_RSS_KiB": 13312,
+    "exit_code": 0,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "automatic_retries": 0
+  },
+  "transfer": {
+    "complete": true,
+    "verified_parts": 1,
+    "failed_parts": 0,
+    "value": {
+      "i": 0,
+      "verified": true
+    },
+    "transfer_tool_window_wall_seconds": 13.46,
+    "transfer_CPU_unmeasured": true,
+    "automatic_retries": 0
+  },
+  "no_new_score_fit_or_model_forward": true
+}
