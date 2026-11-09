@@ -1,0 +1,64 @@
+{
+  "actual_new_automations": 0,
+  "all8_complete": false,
+  "committed_epoch": 1,
+  "committed_updates": 111,
+  "controller": {
+    "CPU": 2.26,
+    "RSS_KiB": 293480,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122292,
+    "startticks": 41935831,
+    "state": "S"
+  },
+  "first_update_checkpoint_sha256": "ac389c49233dd1c85ac80722e4c2b97cc025616c6f1ef24ed791c3dfa8116104",
+  "first_update_independent_NumPy_BCE_and_native_optimizer_audit_passed": true,
+  "held": 1,
+  "held_scores_computed": 0,
+  "held_truth_read": false,
+  "latest_observed_step": 197,
+  "live_cumulative_cost": {
+    "CPU": 112.26698566499999,
+    "child": {
+      "CPU": 110.0,
+      "RSS_KiB": 2182112,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 122293,
+      "startticks": 41936036,
+      "state": "R"
+    },
+    "external_CPU": 0,
+    "stage": "train",
+    "wall": 112.10610785201425
+  },
+  "max_first_gradient_difference": 7.450580596923828e-09,
+  "observed_utc": "2026-11-09T01:48:16.847443+00:00",
+  "phase_root": "/workspace/uwb-tail-outer8-production-20261109",
+  "production64_expected_updates": 7104,
+  "sample_counts": {
+    "test": 1200,
+    "train": 7100,
+    "validation": 1000
+  },
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "state": "held1_production_running_verified",
+  "train_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "users7_8_labels_used_for_method_selection": false,
+  "users7_8_training_labels_used_after_fixed_method_selection": true,
+  "validation_user": 2,
+  "worker": {
+    "CPU": 110.41,
+    "RSS_KiB": 2225188,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122293,
+    "startticks": 41936036,
+    "state": "R"
+  }
+}

@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "prospective_tail_outer8_production_version_end_to_end_tests_private_initial_verified_exactsource_release_before_once_launch",
+  "state": "prospective_tail_outer8_held1_native64_production_running_first_independent_audit_passed_allheld_scores_sealed",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": false,
+  "background_training_running": true,
   "next_required_input": null,
   "remaining_user_goal": "Latest user direction prioritizes complete subject-disjoint LOSO cross-person means/worst/paired results under matched training conditions. Single held1 .9841667 is one fold, not the cohort baseline .9366717. Select methods on six-user exploratory development then separately plan matched full eight-person outer LOSO; users7–8 not for new-method choice; no independent validation claim.",
   "original_source_files_in_cloud": 789,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Production prep generated fullnative64+fresh64 38.507141wall/37.432924CPU; phase/launch/private initial costs in newledger. Original16probe reused, unchanged36h wall/localCPU cap. Real8 training not started yet; historical costs preserved.",
+  "compute": "Actual full8 held1 started; live phase costs at ROOT/folds/held1/LIVE_RESOURCE and PHASE_LEDGER, source9703b6c fixed. Stage36h wall/localCPU; previous29.1h estimate is not completedcost. Snapshot epoch1, step197; all prep/historical costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261109_tail_outer8_production_prereg/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261109_tail_outer8_production_started/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794188657.7409968,
-  "background_training_pid": null,
-  "background_training_status_note": "No real full8 production yet. Versioned native64/fresh64 generated and phase8 private handoffs/once launch tests passed, private2parts83initialpayload verified. Exact remote source readback/release must precede held1 once; no successful probe or closed cohort rerun.",
+  "background_training_observed_unix": 1794189016.462334,
+  "background_training_pid": 122292,
+  "background_training_status_note": "Actual held1 controller122292/worker122293 sameboot identity verified; committedepoch1/64 observedstep197; firstNumPyBCE/nativeopt auditpass. New8split train3..8/val2/test1. No heldscore; never duplicateheld1. Completefresh64/output/private before held2.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Bind exact production publication/private2parts83initial to PRODUCTION_RELEASE, launch full8 held1 exactly once; then monitor same phase, freeze all64/fresh64/3arm outputs, private fullfold raw readback/CPU-charge release before each next fold. No successful16probe/closed6 rerun or early held scoring.",
-  "last_completed_update_utc": "2026-11-09T01:44:16.901376+00:00",
+  "next_candidate": "Active full8 held1: monitor existing phase controller122292/start41935831 and worker122293/start41936036, sameboot ad409b48-89ce-4704-beee-3658103d5856, root /workspace/uwb-tail-outer8-production-20261109. Do not launchduplicate/refit/probe/oldonce/nextmethod. After train64+fresh64+outputaudit freeze and complete owner-only fullfold raw recovery/costrelease before held2. All8 before one score; no early heldscore.",
+  "last_completed_update_utc": "2026-11-09T01:50:15.643494+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -17948,5 +17948,50 @@
   "successful_probe_not_repeated": true,
   "users7_8_new_method_selection": false,
   "versioned_production_root": "/workspace/uwb-tail-outer8-production-20261109"
+}
+,
+  "tail_outer8_production_started_20261109": {
+  "report": "results/cloud_20261109_tail_outer8_production_started/RUN_REPORT.md",
+  "method": "prospective_native_dense_tail33_64_sourceBN_outer8",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used_for_method_selection": false,
+  "all8_complete": false,
+  "automation_changed": false,
+  "committed_epoch_at_snapshot": 1,
+  "controller_identity": {
+    "CPU": 2.26,
+    "RSS_KiB": 293480,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122292,
+    "startticks": 41935831,
+    "state": "S"
+  },
+  "first_gradient_native_optimizer_audit_passed": true,
+  "held_scores_computed": 0,
+  "latest_step_at_snapshot": 197,
+  "old_closed_cohorts_retrained": false,
+  "production_root": "/workspace/uwb-tail-outer8-production-20261109",
+  "production_source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "real_full8_held1_started": true,
+  "test_user": 1,
+  "train_users": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "users7_8_training_labels_used_after_fixed_method_selection": true,
+  "validation_user": 2,
+  "worker_identity": {
+    "CPU": 110.41,
+    "RSS_KiB": 2225188,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122293,
+    "startticks": 41936036,
+    "state": "R"
+  }
 }
 }

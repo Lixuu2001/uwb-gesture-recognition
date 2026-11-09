@@ -1,0 +1,36 @@
+{
+  "branch_head_verified": true,
+  "commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "exact_readback_verified": 39,
+  "files": 39,
+  "force": false,
+  "frozen_sha256": "230f9805d5cdd7b022ced85e4917f6222348b9a325656d274c51b7bf32396ec6",
+  "parent": "61bf976041bcbe1ce433b367f48b0bbf74b49b78",
+  "readback_transport_recovery": {
+    "connector_readback_failures": [
+      {
+        "expected_blob_sha1": "edd466ebe181833f376c70b808f13053233fc42c",
+        "expected_bytes": 1522920,
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "af93384ba5ab92509cc6f4970249ec105161f928",
+        "expected_bytes": 1113492,
+        "path": "uwb_direction1/results/cloud_20260930/RUN_REPORT.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "6bf82847572f22dd4c9a37df61972dcaaa966b6f",
+        "expected_bytes": 1458945,
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "returned_characters": 0
+      }
+    ],
+    "force": false,
+    "new_commit_created_for_retry": false,
+    "proof": "/workspace/uwb-tail-outer8-production-20261109/prereg_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+  },
+  "ref_transport_recovery": null
+}
