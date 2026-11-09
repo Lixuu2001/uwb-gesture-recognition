@@ -1,0 +1,264 @@
+{
+  "state": "held6_native64_production_complete_unscored_three_arm_artifacts_verified_independent_replay_running",
+  "observed_utc": "2026-11-09T16:52:22.527296+00:00",
+  "authority_commit": "b7377f0b745bbcfc7407b74e212d1c9f84d1610b",
+  "authority_blobs": {
+    "uwb_direction1/STATUS.json": "8422a81f478b27f381a55228b17138051d38faab",
+    "uwb_direction1/memory/CLOUD_CONTINUATION.md": "2345dba9a9ff35a9bcebe7ec2023692ea44fc53e",
+    "uwb_direction1/memory/PROJECT_MEMORY.md": "afd05af887aebf71ff365f7136da7ba4dae21ce7",
+    "uwb_direction1/results/cloud_20260930/RUN_REPORT.md": "93fc3d2b7b59e1ecdf09c0fd151f8ea997900fa1",
+    "uwb_direction1/research/cloud_20261106_loso_realign/PROTOCOL.json": "cbc9253f947091a4f220bc07863078b93e2596d0",
+    "uwb_direction1/results/cloud_20261106_loso_realign/RUN_REPORT.md": "52a71199de76c0f2586f0bbedc562a5ae5ab53a2"
+  },
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "production_complete": {
+    "epochs": 64,
+    "files": {
+      "native_sourceBN_test_unscored.npz": "2a1e703cf490f226a0471f97c43cb67c2c78c94beb9c9e9190d8f5dcce64fee7",
+      "native_sourceBN_validation_unscored.npz": "864c40fc1cd70432b07370166f85920f8e19d2ec576f5dcc93440e8e8b3c0cbf",
+      "native_test_unscored.npz": "a7317299b9f53b5d1f0e416d5a49a8bc8dc6a6399b11a0ec1ec76b12347fce23",
+      "native_validation_unscored.npz": "8cc26b9ad9a673fc84510803e946e91c480bee549680273e1c79e9591c637686",
+      "selected_native.pt": "8fa2e03c1138e9291c17c3ea0ff8e382ea468c1b91f7076375d8336a3e00a0d1",
+      "selected_native_sourceBN.pt": "0098f19e792736d9268fa9cb77ab8a5cf23ca282889da2d36aecfd4dca0fbb92",
+      "selected_tail.pt": "dad6ff801775e4a6c2c2dfee1f407f197547e1f1827f410de2f4b13238c38364",
+      "tail_test_unscored.npz": "28654b98103d1660768b9e87039375a024d7a2f67202e3ee417da7190cbd349d",
+      "tail_validation_unscored.npz": "c70a2319d5654767280f9956970a850f721f9163bd1160559e47243a69804c4a"
+    },
+    "final_state_sha256": "d805c3579ad6fa42749eaa9884c289e8608f329f0ea04b90f1bcbb571d6345f7",
+    "generated_fixture": false,
+    "held_truth_read": false,
+    "selected_native_epoch": 58,
+    "state": "frozen_unscored_production",
+    "tail_count": 3520,
+    "tail_end_update": 7040,
+    "tail_start_update": 3521,
+    "updates": 7040
+  },
+  "production_files_SHA_verified": 9,
+  "final_full_checkpoint_semantic_verified": true,
+  "production_stage_cumulative": {
+    "CPU": 44531.703972442,
+    "exit_code": 0,
+    "external_CPU": 257.567874061,
+    "held": 6,
+    "resource_stop": null,
+    "stage": "train",
+    "wall": 53498.071256553
+  },
+  "production_stage_cumulative_total_local_CPU_budget_charge": 44789.271846503005,
+  "controller": {
+    "pid": 130619,
+    "startticks": 46871689,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "CPU": 17.29,
+    "RSS_KiB": 301908
+  },
+  "replay_worker": {
+    "pid": 131077,
+    "startticks": 47285639,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "CPU": 859.9,
+    "RSS_KiB": 2213192
+  },
+  "committed_replay": {
+    "checkpoint_sha256": "641fab9e229973927c3d84a41e374843d1d235b326a2cf7d1065e9b3fb1aa627",
+    "epoch": 13,
+    "journal_sha256": "c30f9c752d1e5d93140a5fd4574c3ed9d888ceba65e68f1d66910f252982e203",
+    "prefix_bytes": 699209,
+    "prefix_sha256": "a72b94547996356d55a7aba419e38ed9754dfaa114642233bf8bd41a5cce4a8e",
+    "slot": "slot1.pt",
+    "updates": 1430
+  },
+  "independent_replay_committed_epoch": 13,
+  "independent_replay_committed_updates": 1430,
+  "replay_committed_step_prefix_checkpoint_journal_and_all_epoch_records_verified": true,
+  "live_cost": {
+    "CPU": 45393.914803507,
+    "child": {
+      "CPU": 859.62,
+      "RSS_KiB": 2210592,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 131077,
+      "startticks": 47285639,
+      "state": "R"
+    },
+    "external_CPU": 257.567874061,
+    "stage": "replay",
+    "wall": 54357.922066940984
+  },
+  "total_local_CPU_budget_charge": 45651.482677568005,
+  "phase_ledger": {
+    "CPU": 44531.704932546,
+    "active_held": 6,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "external_CPU": 257.567874061,
+    "next_held": 6,
+    "stages": [
+      {
+        "CPU": 4041.911115561,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 4034.4041776859667
+      },
+      {
+        "CPU": 8053.337350518001,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 8038.683219858969
+      },
+      {
+        "CPU": 8110.676127902,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 8096.400224443001
+      },
+      {
+        "CPU": 12184.246556053,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 13540.071607744962
+      },
+      {
+        "CPU": 16256.802321522,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 17604.354860877967
+      },
+      {
+        "CPU": 16315.790371010002,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 17663.613632338005
+      },
+      {
+        "CPU": 20320.556376681,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 23015.719699179986
+      },
+      {
+        "CPU": 24323.406433445998,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 27009.439178096014
+      },
+      {
+        "CPU": 24382.782663839,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 27068.694369395962
+      },
+      {
+        "CPU": 28324.13460649,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 31594.082079998974
+      },
+      {
+        "CPU": 32208.951258321,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 35470.30788854498
+      },
+      {
+        "CPU": 32266.246270845,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 35527.55185377499
+      },
+      {
+        "CPU": 36308.281153574,
+        "exit_code": 0,
+        "external_CPU": 206.424723062,
+        "held": 5,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 40544.431617291004
+      },
+      {
+        "CPU": 40322.213935357,
+        "exit_code": 0,
+        "external_CPU": 206.424723062,
+        "held": 5,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 44548.814928053005
+      },
+      {
+        "CPU": 40381.032101097,
+        "exit_code": 0,
+        "external_CPU": 206.424723062,
+        "held": 5,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 44607.58063499996
+      },
+      {
+        "CPU": 44531.703972442,
+        "exit_code": 0,
+        "external_CPU": 257.567874061,
+        "held": 6,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 53498.071256553
+      }
+    ],
+    "start_monotonic": 419358.317380073,
+    "state": "fold_running",
+    "wall": 53498.07258239598
+  },
+  "scientific_sources_unchanged": 24,
+  "new_fit_or_worker_started_by_this_monitor": false,
+  "held_truth_read": false,
+  "held_scores_computed": 0,
+  "full64_replay_completed": false,
+  "whole_fold_audit_completed": false,
+  "whole_fold_private_backup_completed": false,
+  "held7_started": false,
+  "all8_complete": false
+}
