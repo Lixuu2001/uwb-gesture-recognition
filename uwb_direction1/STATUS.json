@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "prospective_tail_outer8_held7_prod64_fresh64_audit_private314_complete_held8_production_running_unscored",
+  "state": "prospective_tail_outer8_held8_production64_complete_three_arm_unscored_artifacts_verified_original_controller_fresh64_replay_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Held7 terminal68409.625593wall;rawCPU57024.847849+then external309.417292=57334.265141localCPU budget s. Fold7 archive measured13.958384CPU+helper38allowance registered; current external361.375676 added once to LIVE rawCPU. Held8 running;129600s caps/history unchanged.",
+  "compute": "Held8 production stage cumulative74724.887135wall s;rawCPU61020.266875+external361.375676=61381.642551localCPU budget s. Fresh64 replay running; rawCPU/external_CPU separate, original129600s origin/caps and historical/preparation costs unchanged.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261109_tail_outer8_production_held7_private_complete_held8_started/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261109_tail_outer8_production_held8_production64/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794259641.2065234,
+  "background_training_observed_unix": 1794264338.045163,
   "background_training_pid": 134073,
-  "background_training_status_note": "Held7 complete64+fresh64/audit;18privatechunks/314payload raw-allmember/costrelease passed. Held8 controller134073/start49009913 + train134074/start49010163 actually active, first NumPy-BCE/native optimizer audit passed. Test8/val1/train[2,3,4,5,6,7] frozen; last-fold storage forecast repaired only by verified redundant held1 transport-cache eviction. Reserve/caps/source unchanged. Zero held scores, no partial subset scoring.",
+  "background_training_status_note": "Held8 production64/6912updates completed exit0;9 model/output SHA and finalfull semantic verified. Same controller134073/start49009913 running fresh64 replay134976/start49408320, committed epoch12/64/1296updates exact checkpoint/journal/prefix/epoch records. Val1 fixed checkpoint rule only; actual production64. Full replay/audit/privatebackup incomplete; zero held scores/full8 not complete.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Monitor existing held8 controller134073/train134074 sameboot/start; complete64production/fresh64/outputaudit then private allmember/costrelease. Freeze all8 artifacts before one cohort score. No partial subset score or method/window/seed choice.",
+  "next_candidate": "Monitor existing controller134073/replay134976 sameboot/start; complete held8 fresh64/outputaudit then private fullmember/costrelease. Only all8 frozen/private verified may enter one whole-cohort score. No partial subset score, restart, or method/window/seed choice.",
   "last_completed_update_utc": "2026-11-09T03:01:22.887556+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -18336,5 +18336,31 @@
   "held_scores_computed": 0,
   "all8_complete": false,
   "automation_changed": false
+}
+,
+  "tail_outer8_production_held8_production64_20261109": {
+  "report": "results/cloud_20261109_tail_outer8_production_held8_production64/RUN_REPORT.md",
+  "method": "prospective_native_fixed_dense_tail_epochs33_64_sourceBN_matched_outer8",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used_for_method_selection": false,
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "held": 8,
+  "production_epochs": 64,
+  "production_updates": 6912,
+  "production_files_sha_verified": 9,
+  "full_final_semantic_verified": true,
+  "replay_running": true,
+  "replay_pid": 134976,
+  "replay_startticks": 49408320,
+  "observed_replay_committed_epoch": 12,
+  "observed_replay_committed_updates": 1296,
+  "full64_replay_complete": false,
+  "whole_fold_audit_complete": false,
+  "whole_fold_private_backup_complete": false,
+  "held_scores_computed": 0,
+  "all8_complete": false,
+  "automation_changed": false,
+  "all8_production64_complete": true
 }
 }
