@@ -1,0 +1,16 @@
+# Prospective matched full8 fixed-tail: held2_production64
+
+## 2026-11-09 UTC — full8 fixed-tail held2 production64 complete; original controller fresh64 replay running
+
+Read the current four authorities and original 20261106 LOSO protocol/report at exact remote parent 208c940a467da7d62fe0edf485d39906992e7ea7. The current separately preregistered prospective native fixed-tail eight-user LOSO remains active; closed MMD/VREx/Fishr/IRM/GroupDRO/SWAD six-user results and old failure/control identities remain unchanged. Never invoke their old once scripts or repeat their training.
+
+Held2 production ended normally (exit0, no resource stop), all64 epochs/7104 updates complete. Nine native/tail/native_sourceBN validation/test model/output files passed SHA checks; full final model/optimizer/average/RNG/selection state semantic SHA 8d1128729397a1c0ed8ca41626a6548a4fce8cdb5d9a5c3ac264745752f405fc independently verified from saved checkpoint. Native selection epoch48 used validation user3 only; tail3552 post-update models at updates3553..7104. No held2 test truth or score.
+
+Same controller123953/start42883324/boot ad409b48-89ce-4704-beee-3658103d5856 automatically advanced to required fresh64 replay124468/start43289839. Old train123954 completed normally; do not mistake its absence for failure. At2026-11-09T05:41:04Z replay committed epoch8/64 and888 updates: stable checkpoint/journal/step prefix SHA, every committed step and epoch0..8 record match production exactly. Full64 replay/output audit/private fold2 backup are NOT yet complete. No new worker was launched by this monitor, no held3 directory.
+
+Stage cumulative at held2 production termination:13540.071607745wall/12184.246556053localCPU seconds, including prior held1 and registered51.848120949external CPU budget charges. Increment from held1 last output stage:5443.671383302wall/4073.570428151localCPU, including waiting/handoff, archive charges and startup, not pure model training. These are not additive to current LIVE cumulative totals. Keep original129600s wall/localCPU phase origin,12GiB worker RSS,256MiB reserve; all prior/preparation costs retained.
+
+Next monitor that exact replay and controller, allowing prescribed output audit; on normal waiting_private_backup, complete fold2 private metadata-first/raw fetch/download_raw_file=true/include_base64=false/all-member SHA verification with at most3 complete pipelines, measured costs/explicit helper allowance/finalize, then launch held3 exactly once. Reuse held1 already privately verified18chunks/314payload and full recovery indices at208c940a. Do not restart existing folds or score partial cohorts. Freeze all8 production/replay/models/3arm predictions/audits/private readbacks before one cohort score and complete accuracy/present-class macro/support/null absent classes/user-equal mean/worst/paired/wins/pooled/cost report.
+
+Scientific24 frozen sources/seed/config and SOURCE9703b6c477068f25d0ef11e4f2d7372f10d4ec9a unchanged. Users7–8 labels did not select this method/window/config; current train[1,4,5,6,7,8]7100/validation3=1200/test2=1000 roles remain fixed. Historically all8 exposed: exploratory, not independent new-user/originality/causal evidence. No automation/schedule/enabled/environment/visibility change, no duplicate training/download/task.
+

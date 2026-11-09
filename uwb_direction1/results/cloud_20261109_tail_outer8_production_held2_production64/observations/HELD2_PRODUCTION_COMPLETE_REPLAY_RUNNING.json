@@ -1,0 +1,147 @@
+{
+  "state": "held2_native64_production_complete_unscored_three_arm_artifacts_verified_independent_replay_running",
+  "observed_utc": "2026-11-09T05:41:04.001855+00:00",
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "production_complete": {
+    "epochs": 64,
+    "files": {
+      "native_sourceBN_test_unscored.npz": "a9d5138dda07739206ef561bb94daca20655ee43d071528ac2378f37b822ee94",
+      "native_sourceBN_validation_unscored.npz": "4413bffca520184ba17021a51e57e216a15613e0a41707b08de97c6e564aa314",
+      "native_test_unscored.npz": "fd3bc7d95b36723c80a559e7e54d1ec19492e7934b1f87f79d226e46a00cda92",
+      "native_validation_unscored.npz": "fb2a37f2bb964c3288bda2206a6c34982b5cd32e31c725b2dcf5efad9e2ae6d2",
+      "selected_native.pt": "75a0f2451c14e7c6c1820ae9ada6083e12bbeba8f898a7c2dd543116905b8d87",
+      "selected_native_sourceBN.pt": "0a252cfb43675f85f9e1102a0d3846a8a5dbc76d0e78fb6eaa55644263fe3f2d",
+      "selected_tail.pt": "68968377cca926b91d64c6d331d24dee3e7f499b4b4a3023626e4001957941aa",
+      "tail_test_unscored.npz": "6f2cfc91c94e575ecc739463700f167b9e2919b46519a01cb97232416ab1f6aa",
+      "tail_validation_unscored.npz": "b2d81059762cee00a86be2ffc134133186dace20144a179460dfeb0922161d8b"
+    },
+    "final_state_sha256": "8d1128729397a1c0ed8ca41626a6548a4fce8cdb5d9a5c3ac264745752f405fc",
+    "generated_fixture": false,
+    "held_truth_read": false,
+    "selected_native_epoch": 48,
+    "state": "frozen_unscored_production",
+    "tail_count": 3552,
+    "tail_end_update": 7104,
+    "tail_start_update": 3553,
+    "updates": 7104
+  },
+  "production_files_SHA_verified": 9,
+  "final_full_checkpoint_semantic_verified": true,
+  "production_stage_cumulative": {
+    "CPU": 12184.246556053,
+    "exit_code": 0,
+    "external_CPU": 51.848120949,
+    "held": 2,
+    "resource_stop": null,
+    "stage": "train",
+    "wall": 13540.071607744962
+  },
+  "production_stage_increment": {
+    "wall": 5443.67138330196,
+    "local_CPU": 4073.5704281509998,
+    "registered_external_CPU_in_increment": 51.848120949,
+    "includes_handoff_startup_wait_and_outputs": true
+  },
+  "controller": {
+    "pid": 123953,
+    "startticks": 42883324,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "CPU": 12.81,
+    "RSS_KiB": 299648
+  },
+  "replay_worker": {
+    "pid": 124468,
+    "startticks": 43289839,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "CPU": 539.44,
+    "RSS_KiB": 2270900
+  },
+  "committed_replay": {
+    "checkpoint_sha256": "df80ac088177f68f69f4002931eb312b820ce7ff717bc5cb201afd4454e81995",
+    "epoch": 8,
+    "journal_sha256": "c8d3ba98899b501168adee839aa50b450169d5be41074a939f09ae7430bf1f7c",
+    "prefix_bytes": 433431,
+    "prefix_sha256": "48eb8fffd03c74e821e7d15652926334ed0c026be73b888dc7c8465f405d4b0c",
+    "slot": "slot0.pt",
+    "updates": 888
+  },
+  "independent_replay_committed_epoch": 8,
+  "independent_replay_committed_updates": 888,
+  "replay_committed_step_prefix_checkpoint_journal_and_all_epoch_records_verified": true,
+  "live_cost": {
+    "CPU": 12724.652720967,
+    "child": {
+      "CPU": 539.12,
+      "RSS_KiB": 2230708,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 124468,
+      "startticks": 43289839,
+      "state": "R"
+    },
+    "external_CPU": 51.848120949,
+    "stage": "replay",
+    "wall": 14079.352660818957
+  },
+  "phase_ledger": {
+    "CPU": 12184.247292056,
+    "active_held": 2,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "completed": [
+      1
+    ],
+    "external_CPU": 51.848120949,
+    "next_held": 2,
+    "stages": [
+      {
+        "CPU": 4041.911115561,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 4034.4041776859667
+      },
+      {
+        "CPU": 8053.337350518001,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 8038.683219858969
+      },
+      {
+        "CPU": 8110.676127902,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 8096.400224443001
+      },
+      {
+        "CPU": 12184.246556053,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 13540.071607744962
+      }
+    ],
+    "start_monotonic": 419358.317380073,
+    "state": "fold_running",
+    "wall": 13540.072661692975
+  },
+  "scientific_sources_unchanged": 24,
+  "new_fit_or_worker_started_by_this_monitor": false,
+  "held_truth_read": false,
+  "held_scores_computed": 0,
+  "full64_replay_completed": false,
+  "whole_fold_audit_completed": false,
+  "whole_fold_private_backup_completed": false,
+  "held3_started": false,
+  "all8_complete": false
+}
