@@ -1,0 +1,49 @@
+{
+  "state": "readonly_empirical_storage_forecast_before_last_two_folds",
+  "observed_utc": "2026-11-09T18:22:16.162721+00:00",
+  "rows": [
+    {
+      "held": 1,
+      "scientific_allocated_bytes": 144814080,
+      "transport_bytes": 127297608,
+      "pair_bytes": 272111688
+    },
+    {
+      "held": 2,
+      "scientific_allocated_bytes": 144822272,
+      "transport_bytes": 127309342,
+      "pair_bytes": 272131614
+    },
+    {
+      "held": 3,
+      "scientific_allocated_bytes": 144683008,
+      "transport_bytes": 127282794,
+      "pair_bytes": 271965802
+    },
+    {
+      "held": 4,
+      "scientific_allocated_bytes": 144670720,
+      "transport_bytes": 127296253,
+      "pair_bytes": 271966973
+    },
+    {
+      "held": 5,
+      "scientific_allocated_bytes": 144773120,
+      "transport_bytes": 127359654,
+      "pair_bytes": 272132774
+    },
+    {
+      "held": 6,
+      "scientific_allocated_bytes": 144781312,
+      "transport_bytes": 127425868,
+      "pair_bytes": 272207180
+    }
+  ],
+  "remaining_folds": 2,
+  "rule": "two times largest actual completed scientific+transport footprint, plus fixed256MiB reserve,3x7MiB raw materialization and64MiB operator slack; estimate, not measured future use",
+  "required_bytes": 901978776,
+  "free_bytes": 945868800,
+  "headroom_bytes": 43890024,
+  "cache_eviction_needed": false,
+  "scientific_budget_or_disk_reserve_changed": false
+}
