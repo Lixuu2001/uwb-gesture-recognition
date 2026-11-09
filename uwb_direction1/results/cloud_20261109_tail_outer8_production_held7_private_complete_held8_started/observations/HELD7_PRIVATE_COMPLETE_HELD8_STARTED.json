@@ -1,0 +1,758 @@
+{
+  "state": "held7_all64_production_fresh64_fullaudit_private314_complete_held8_original_once_controller_and_train_live_unscored",
+  "observed_utc": "2026-11-09T21:26:25.219541+00:00",
+  "authority_commit": "aff3acd6e212c5f9dade8856b22c88c7255e0ff5",
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "held7_audit": {
+    "authority_commit": "aff3acd6e212c5f9dade8856b22c88c7255e0ff5",
+    "authority_blobs": {
+      "uwb_direction1/STATUS.json": "d069d07089e4e92669b52bb63209ce6fc8085893",
+      "uwb_direction1/memory/CLOUD_CONTINUATION.md": "323c06771901943f2970b57c90ed2af543c434a6",
+      "uwb_direction1/memory/PROJECT_MEMORY.md": "238584a1a3ac8210c64655b369ba45902aac691d",
+      "uwb_direction1/results/cloud_20260930/RUN_REPORT.md": "5217b221dae2201259f1af6d26b516ddde8b1361",
+      "uwb_direction1/research/cloud_20261106_loso_realign/PROTOCOL.json": "cbc9253f947091a4f220bc07863078b93e2596d0",
+      "uwb_direction1/results/cloud_20261106_loso_realign/RUN_REPORT.md": "52a71199de76c0f2586f0bbedc562a5ae5ab53a2"
+    },
+    "scientific_sources_unchanged": 24,
+    "frozen_files_SHA_verified": 28,
+    "epoch_records_bitwise_equal": 65,
+    "step_logs_bitwise_equal": 6912,
+    "full_final_semantic_verified": true,
+    "final_semantic_sha256": "d8074cd5098127f33bee9dab8135e270c88afdc8bc7f1f7673b06e64c81d436e",
+    "production_complete": {
+      "epochs": 64,
+      "files": {
+        "native_sourceBN_test_unscored.npz": "30db29f68adb65521a857dde1a05e4d6f4b0e9e8a157f65d587cf53c0dad68b1",
+        "native_sourceBN_validation_unscored.npz": "fcd323f920bd1a83ed70a40998ded09e811603df967879db957d7252a6f430bf",
+        "native_test_unscored.npz": "9a8a637e3a9676bdbd3de7cb290b92bde537d1c48274b1da8272e024061e2ed4",
+        "native_validation_unscored.npz": "c7d4469b019598ae58522665c09bb42af1d4bf0f4e9257a69fac96568a58ef14",
+        "selected_native.pt": "0e2788e70d6744d921c697c6835e8ccbffb1fa331656efbdd935041a3e8e451e",
+        "selected_native_sourceBN.pt": "25cdb3a62b7ffb243906f87a20cf81c3f8347c824b8227b72a6e8caf5185dff8",
+        "selected_tail.pt": "c5f5a505e239fdf33909fb3662c9c9291323be93419e2ce5a203f56afa0ddef0",
+        "tail_test_unscored.npz": "01410e830a77ae3f5b64544eb80fe543aea9690ee896923cee6680d6822e8aa2",
+        "tail_validation_unscored.npz": "7c90436ad929714bd050ac915c121fdff7ee1df2f7e550364fead707f4348ac3"
+      },
+      "final_state_sha256": "d8074cd5098127f33bee9dab8135e270c88afdc8bc7f1f7673b06e64c81d436e",
+      "generated_fixture": false,
+      "held_truth_read": false,
+      "selected_native_epoch": 3,
+      "state": "frozen_unscored_production",
+      "tail_count": 3456,
+      "tail_end_update": 6912,
+      "tail_start_update": 3457,
+      "updates": 6912
+    },
+    "phase_ledger": {
+      "CPU": 57024.847848891,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "completed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "external_CPU": 309.417291646,
+      "next_held": 8,
+      "stages": [
+        {
+          "CPU": 4041.911115561,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "held": 1,
+          "resource_stop": null,
+          "stage": "train",
+          "wall": 4034.4041776859667
+        },
+        {
+          "CPU": 8053.337350518001,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "held": 1,
+          "resource_stop": null,
+          "stage": "replay",
+          "wall": 8038.683219858969
+        },
+        {
+          "CPU": 8110.676127902,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "held": 1,
+          "resource_stop": null,
+          "stage": "output_audit",
+          "wall": 8096.400224443001
+        },
+        {
+          "CPU": 12184.246556053,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "held": 2,
+          "resource_stop": null,
+          "stage": "train",
+          "wall": 13540.071607744962
+        },
+        {
+          "CPU": 16256.802321522,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "held": 2,
+          "resource_stop": null,
+          "stage": "replay",
+          "wall": 17604.354860877967
+        },
+        {
+          "CPU": 16315.790371010002,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "held": 2,
+          "resource_stop": null,
+          "stage": "output_audit",
+          "wall": 17663.613632338005
+        },
+        {
+          "CPU": 20320.556376681,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "held": 3,
+          "resource_stop": null,
+          "stage": "train",
+          "wall": 23015.719699179986
+        },
+        {
+          "CPU": 24323.406433445998,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "held": 3,
+          "resource_stop": null,
+          "stage": "replay",
+          "wall": 27009.439178096014
+        },
+        {
+          "CPU": 24382.782663839,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "held": 3,
+          "resource_stop": null,
+          "stage": "output_audit",
+          "wall": 27068.694369395962
+        },
+        {
+          "CPU": 28324.13460649,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "held": 4,
+          "resource_stop": null,
+          "stage": "train",
+          "wall": 31594.082079998974
+        },
+        {
+          "CPU": 32208.951258321,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "held": 4,
+          "resource_stop": null,
+          "stage": "replay",
+          "wall": 35470.30788854498
+        },
+        {
+          "CPU": 32266.246270845,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "held": 4,
+          "resource_stop": null,
+          "stage": "output_audit",
+          "wall": 35527.55185377499
+        },
+        {
+          "CPU": 36308.281153574,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "held": 5,
+          "resource_stop": null,
+          "stage": "train",
+          "wall": 40544.431617291004
+        },
+        {
+          "CPU": 40322.213935357,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "held": 5,
+          "resource_stop": null,
+          "stage": "replay",
+          "wall": 44548.814928053005
+        },
+        {
+          "CPU": 40381.032101097,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "held": 5,
+          "resource_stop": null,
+          "stage": "output_audit",
+          "wall": 44607.58063499996
+        },
+        {
+          "CPU": 44531.703972442,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "held": 6,
+          "resource_stop": null,
+          "stage": "train",
+          "wall": 53498.071256553
+        },
+        {
+          "CPU": 48737.971360304,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "held": 6,
+          "resource_stop": null,
+          "stage": "replay",
+          "wall": 57693.35924207198
+        },
+        {
+          "CPU": 48799.15232073,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "held": 6,
+          "resource_stop": null,
+          "stage": "output_audit",
+          "wall": 57754.660667032
+        },
+        {
+          "CPU": 52926.40333850901,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "held": 7,
+          "resource_stop": null,
+          "stage": "train",
+          "wall": 64322.08595614199
+        },
+        {
+          "CPU": 56962.18871705,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "held": 7,
+          "resource_stop": null,
+          "stage": "replay",
+          "wall": 68346.82526252896
+        },
+        {
+          "CPU": 57024.845955243,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "held": 7,
+          "resource_stop": null,
+          "stage": "output_audit",
+          "wall": 68409.62310007401
+        }
+      ],
+      "start_monotonic": 419358.317380073,
+      "state": "waiting_private_backup",
+      "wall": 68409.62559257296
+    },
+    "held_scores_computed": 0
+  },
+  "held7_private_release": {
+    "archive_manifest_sha256": "9f62d52acd1cf75895c9619cd54db8568dcb3813ebd3ad98ccfdd2023d01ef67",
+    "external_charge_ids": [
+      "held7-backup-build",
+      "held7-backup-verify",
+      "held7-backup-helper-uppercharge"
+    ],
+    "frozen_outputs_sha256": "8b7f888effc701fc2354b8b7c08e8f3844619b213918c536c39e1dc0b2902262",
+    "held": 7,
+    "held_scores_computed": false,
+    "raw_proof_sha256": "7679f932c2bd6a3af8393621741358b1449578b002a9150fedd76fe05a416adf",
+    "readback_input_sha256": "14f3571719163772dfb34121fdc875b33ced66f2bbe34758dfc90f7e36da5f08",
+    "source_frozen_sha256": "230f9805d5cdd7b022ced85e4917f6222348b9a325656d274c51b7bf32396ec6",
+    "whole_job_resume_authorized": false
+  },
+  "held7_backup_costs": [
+    {
+      "CPU_seconds": 10.140452318999998,
+      "id": "held7-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held7/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "c221a3059d30667fba6b790df5be808909f66e1d9a0bbd7c2234728c5b95082b"
+    },
+    {
+      "CPU_seconds": 3.817931781,
+      "id": "held7-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held7/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "e2bcf213133cf8e6ffe64c0213e8b15da0e00bc2c26f3cf0891f8891b91a7b43"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held7-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held7/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    }
+  ],
+  "external_CPU_total": 361.375675746,
+  "held8_processes": [
+    {
+      "pid": 134073,
+      "startticks": 49009913,
+      "state": "S"
+    },
+    {
+      "pid": 134074,
+      "startticks": 49010163,
+      "state": "R"
+    }
+  ],
+  "held8_live_resource": {
+    "CPU": 57084.888555663994,
+    "child": {
+      "CPU": 57.32,
+      "RSS_KiB": 1827000,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 134074,
+      "startticks": 49010163,
+      "state": "R"
+    },
+    "external_CPU": 361.375675746,
+    "stage": "train",
+    "wall": 70800.67083339696
+  },
+  "held8_first_native_BCE_optimizer_audit": {
+    "does_not_exclude_all_shared_errors": true,
+    "held_truth_read": false,
+    "max_gradient_difference": 7.450580596923828e-09,
+    "parameters": 617612,
+    "reference_loss": 0.6873048074975809,
+    "state": "NumPy_first_BCE_derivative_and_native_optimizer_replay_verified"
+  },
+  "held8_committed_progress": {
+    "checkpoint_sha256": "2124fb65f3fcf73c70a5807cb091e3548ab44c798f282878a377fb2e8eac6d37",
+    "epoch": 0,
+    "journal_sha256": "d1652db5af888a2966583a58f6f585f4edf72614b6d5a933095fac4edc906c34",
+    "prefix_bytes": 0,
+    "prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "slot": "slot0.pt",
+    "updates": 0
+  },
+  "phase_ledger": {
+    "CPU": 57027.338708858995,
+    "active_held": 8,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "completed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "external_CPU": 361.375675746,
+    "next_held": 8,
+    "stages": [
+      {
+        "CPU": 4041.911115561,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 4034.4041776859667
+      },
+      {
+        "CPU": 8053.337350518001,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 8038.683219858969
+      },
+      {
+        "CPU": 8110.676127902,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 8096.400224443001
+      },
+      {
+        "CPU": 12184.246556053,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 13540.071607744962
+      },
+      {
+        "CPU": 16256.802321522,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 17604.354860877967
+      },
+      {
+        "CPU": 16315.790371010002,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 17663.613632338005
+      },
+      {
+        "CPU": 20320.556376681,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 23015.719699179986
+      },
+      {
+        "CPU": 24323.406433445998,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 27009.439178096014
+      },
+      {
+        "CPU": 24382.782663839,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 27068.694369395962
+      },
+      {
+        "CPU": 28324.13460649,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 31594.082079998974
+      },
+      {
+        "CPU": 32208.951258321,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 35470.30788854498
+      },
+      {
+        "CPU": 32266.246270845,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 35527.55185377499
+      },
+      {
+        "CPU": 36308.281153574,
+        "exit_code": 0,
+        "external_CPU": 206.424723062,
+        "held": 5,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 40544.431617291004
+      },
+      {
+        "CPU": 40322.213935357,
+        "exit_code": 0,
+        "external_CPU": 206.424723062,
+        "held": 5,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 44548.814928053005
+      },
+      {
+        "CPU": 40381.032101097,
+        "exit_code": 0,
+        "external_CPU": 206.424723062,
+        "held": 5,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 44607.58063499996
+      },
+      {
+        "CPU": 44531.703972442,
+        "exit_code": 0,
+        "external_CPU": 257.567874061,
+        "held": 6,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 53498.071256553
+      },
+      {
+        "CPU": 48737.971360304,
+        "exit_code": 0,
+        "external_CPU": 257.567874061,
+        "held": 6,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 57693.35924207198
+      },
+      {
+        "CPU": 48799.15232073,
+        "exit_code": 0,
+        "external_CPU": 257.567874061,
+        "held": 6,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 57754.660667032
+      },
+      {
+        "CPU": 52926.40333850901,
+        "exit_code": 0,
+        "external_CPU": 309.417291646,
+        "held": 7,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 64322.08595614199
+      },
+      {
+        "CPU": 56962.18871705,
+        "exit_code": 0,
+        "external_CPU": 309.417291646,
+        "held": 7,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 68346.82526252896
+      },
+      {
+        "CPU": 57024.845955243,
+        "exit_code": 0,
+        "external_CPU": 309.417291646,
+        "held": 7,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 68409.62310007401
+      }
+    ],
+    "start_monotonic": 419358.317380073,
+    "state": "fold_running",
+    "wall": 70743.31964057498
+  },
+  "storage_forecast_and_repair": {
+    "state": "last_fold_storage_forecast_original_failed_then_verified_redundant_transport_cache_repair_passed",
+    "observed_utc": "2026-11-09T21:24:38.700708+00:00",
+    "rows": [
+      {
+        "held": 1,
+        "scientific_allocated_bytes": 144814080,
+        "transport_bytes": 127297608,
+        "pair_bytes": 272111688
+      },
+      {
+        "held": 2,
+        "scientific_allocated_bytes": 144822272,
+        "transport_bytes": 127309342,
+        "pair_bytes": 272131614
+      },
+      {
+        "held": 3,
+        "scientific_allocated_bytes": 144683008,
+        "transport_bytes": 127282794,
+        "pair_bytes": 271965802
+      },
+      {
+        "held": 4,
+        "scientific_allocated_bytes": 144670720,
+        "transport_bytes": 127296253,
+        "pair_bytes": 271966973
+      },
+      {
+        "held": 5,
+        "scientific_allocated_bytes": 144773120,
+        "transport_bytes": 127359654,
+        "pair_bytes": 272132774
+      },
+      {
+        "held": 6,
+        "scientific_allocated_bytes": 144801792,
+        "transport_bytes": 127425868,
+        "pair_bytes": 272227660
+      },
+      {
+        "held": 7,
+        "scientific_allocated_bytes": 144736256,
+        "transport_bytes": 127223756,
+        "pair_bytes": 271960012
+      }
+    ],
+    "remaining_folds": 1,
+    "rule": "largest completed scientific+transport pair plus fixed256MiB reserve plus3x7MiB raw materialization plus64MiB operator slack; forecast not measured future use",
+    "required_bytes": 629792076,
+    "before_free_bytes": 609390592,
+    "before_pass": false,
+    "cache_evicted_only_after_all7_private_guard_and_held1_all314_proof_and_chunk_SHA": true,
+    "evicted_redundant_held1_transport_parts": [
+      {
+        "name": "tail_outer8_held1_complete_20261109.part000",
+        "bytes": 7340032,
+        "sha256": "e5d9074bbed7d5b63a13e7cabec8e07598e810404ccab155bf3f06e99ece6176",
+        "file_id": "1IXD5dJeRYLflwLGoAAEijTYE8vgCclbD",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part000"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part001",
+        "bytes": 7340032,
+        "sha256": "38a3ed748c48965982b858ff251dd5ab0bc7250596b2ad456118a4edfef4f7f7",
+        "file_id": "16k31-dr1UUgBXvQqyLi_PX6CU7mGNp6e",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part001"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part002",
+        "bytes": 7340032,
+        "sha256": "f8ea8888f9deb8bdde39a11c84ee58458b20f54b1ef685e43d898e39aefb9479",
+        "file_id": "1XWc-RIPXAAhlqgX9EWONi9oSgaVLEznB",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part002"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part003",
+        "bytes": 7340032,
+        "sha256": "f2efc43e7b664d95015996115b26d33e0ce428e072afd6be5061e80ef5e419a0",
+        "file_id": "1I8MW-4S2BCOkjK1CtkqDSMtoGBV1BUcr",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part003"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part004",
+        "bytes": 7340032,
+        "sha256": "1ec95153c6f6de6290053136e9b841ae094a22debc7c70b9f3e6b05324574889",
+        "file_id": "10OeTrSjSn55MyFeHoWPbBTbvYP2FtCW8",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part004"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part005",
+        "bytes": 7340032,
+        "sha256": "b19636b63a4eb067db20b752adf715d3e25085df481ea6b93667be268490563f",
+        "file_id": "18GN-ipCT9VU2DWqbehb5-hkloJwTfgTg",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part005"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part006",
+        "bytes": 7340032,
+        "sha256": "2688b6d9ae42287589eec7713623e2b13c1fa30e3c9be8c73fe13b332ba02a8e",
+        "file_id": "1rWAp6V0VNll6WunljVxHuIR_cTu3UZG8",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part006"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part007",
+        "bytes": 7340032,
+        "sha256": "a9b8ee4b41be2eebc22799b3753ef8c7f783aeee854b458b98abe07956d6aae3",
+        "file_id": "1nPXW3K6CfxQ5WL9pjw3OLtOPaOH_N0KQ",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part007"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part008",
+        "bytes": 7340032,
+        "sha256": "400c63a4ec26f0d733373f29b2622c25eee0cb346cd90fef3a144b837edadcb6",
+        "file_id": "1v0Q5f9VosKfjk0Rcn4Jh1awCZlu4w6fw",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part008"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part009",
+        "bytes": 7340032,
+        "sha256": "73f43e48627c2615aa466c5ee1380751843f886c464330279e2f0fc164f19b32",
+        "file_id": "1EKu8H_vWSj9JRSQtyQOXrZVhJO9SIwsi",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part009"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part010",
+        "bytes": 7340032,
+        "sha256": "d1fbc1076d6821c7efc5f031265bc5e9e8a9f2e670e2ac0885627a4b2c4efb3b",
+        "file_id": "17IrPi0NbSgLtKraL2zaDxHCPxc6hOczE",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part010"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part011",
+        "bytes": 7340032,
+        "sha256": "d7c6b4bbcf65b7fc1aa49e92a090c512de28ac72aaa72aa5ae0991b2f8196ded",
+        "file_id": "1HcSyFnkjsODlvdVFDHwWQDEfs6qxsI5o",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part011"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part012",
+        "bytes": 7340032,
+        "sha256": "84d8e753dca9bd459e4f8f705261a2e1ee3732b4e8ce7b5a1e74fe542a005725",
+        "file_id": "13pYKJEwr633BtDyWHaf3b112XvpkrwNF",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part012"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part013",
+        "bytes": 7340032,
+        "sha256": "bcba49dfb5039e3d8ad4ae62317f8821651542dc5b248702af80aa330c3d091f",
+        "file_id": "14HFQgElHEqbJ2ratO58K05WIPj8AzSZ5",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part013"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part014",
+        "bytes": 7340032,
+        "sha256": "98547339c44c9994421ec53c6d6b2a0e4ad3e571d6fd83db67cbf0dd8b085792",
+        "file_id": "1FdhvQYN8wvc6iNKSfvfLkIHfwQuLI05o",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part014"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part015",
+        "bytes": 7340032,
+        "sha256": "e442b40cf21cf2b18888ae623dab368b5bff913c48526906e405f5b7abe78ece",
+        "file_id": "1BrKMdXVWcwBEeq20mKjMKtqTOObHPYFw",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part015"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part016",
+        "bytes": 7340032,
+        "sha256": "a78f3c07e3f3a3432d6f575234a28e7c0b6bd7d46bc47a0b035df870bee14aa1",
+        "file_id": "1HhhD5mL5rw1n2OO_piP7w2qSizxIVQOs",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part016"
+      },
+      {
+        "name": "tail_outer8_held1_complete_20261109.part017",
+        "bytes": 2517064,
+        "sha256": "247b6cfd97ff0598027d9716746bc0599deab85627eb5fe8c83abb6631ec042c",
+        "file_id": "1GdI3OwWuo4CnKnOTGQOHgGorssuxRfKL",
+        "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part017"
+      }
+    ],
+    "evicted_bytes": 127297608,
+    "after_free_bytes": 736690176,
+    "after_pass": true,
+    "headroom_bytes": 106898100,
+    "all7_private_guard_after_eviction_passed": true,
+    "models_logs_IDs_raw_data_manifests_Drive_IDs_and_proofs_retained": true,
+    "scientific_budget_or_disk_reserve_changed": false
+  },
+  "held8_roles": {
+    "test_user": 8,
+    "validation_user": 1,
+    "train_users": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "test_count": 1200,
+    "validation_count": 1200,
+    "train_count": 6900
+  },
+  "users7_8_labels_used_for_method_selection": false,
+  "all8_historical_exposure_exploratory": true,
+  "held_scores_computed": 0,
+  "all8_complete": false,
+  "automation_changed": false,
+  "new_automation_created": false
+}

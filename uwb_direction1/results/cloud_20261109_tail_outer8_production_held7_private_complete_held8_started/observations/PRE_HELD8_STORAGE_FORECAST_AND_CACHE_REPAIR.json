@@ -1,0 +1,189 @@
+{
+  "state": "last_fold_storage_forecast_original_failed_then_verified_redundant_transport_cache_repair_passed",
+  "observed_utc": "2026-11-09T21:24:38.700708+00:00",
+  "rows": [
+    {
+      "held": 1,
+      "scientific_allocated_bytes": 144814080,
+      "transport_bytes": 127297608,
+      "pair_bytes": 272111688
+    },
+    {
+      "held": 2,
+      "scientific_allocated_bytes": 144822272,
+      "transport_bytes": 127309342,
+      "pair_bytes": 272131614
+    },
+    {
+      "held": 3,
+      "scientific_allocated_bytes": 144683008,
+      "transport_bytes": 127282794,
+      "pair_bytes": 271965802
+    },
+    {
+      "held": 4,
+      "scientific_allocated_bytes": 144670720,
+      "transport_bytes": 127296253,
+      "pair_bytes": 271966973
+    },
+    {
+      "held": 5,
+      "scientific_allocated_bytes": 144773120,
+      "transport_bytes": 127359654,
+      "pair_bytes": 272132774
+    },
+    {
+      "held": 6,
+      "scientific_allocated_bytes": 144801792,
+      "transport_bytes": 127425868,
+      "pair_bytes": 272227660
+    },
+    {
+      "held": 7,
+      "scientific_allocated_bytes": 144736256,
+      "transport_bytes": 127223756,
+      "pair_bytes": 271960012
+    }
+  ],
+  "remaining_folds": 1,
+  "rule": "largest completed scientific+transport pair plus fixed256MiB reserve plus3x7MiB raw materialization plus64MiB operator slack; forecast not measured future use",
+  "required_bytes": 629792076,
+  "before_free_bytes": 609390592,
+  "before_pass": false,
+  "cache_evicted_only_after_all7_private_guard_and_held1_all314_proof_and_chunk_SHA": true,
+  "evicted_redundant_held1_transport_parts": [
+    {
+      "name": "tail_outer8_held1_complete_20261109.part000",
+      "bytes": 7340032,
+      "sha256": "e5d9074bbed7d5b63a13e7cabec8e07598e810404ccab155bf3f06e99ece6176",
+      "file_id": "1IXD5dJeRYLflwLGoAAEijTYE8vgCclbD",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part000"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part001",
+      "bytes": 7340032,
+      "sha256": "38a3ed748c48965982b858ff251dd5ab0bc7250596b2ad456118a4edfef4f7f7",
+      "file_id": "16k31-dr1UUgBXvQqyLi_PX6CU7mGNp6e",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part001"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part002",
+      "bytes": 7340032,
+      "sha256": "f8ea8888f9deb8bdde39a11c84ee58458b20f54b1ef685e43d898e39aefb9479",
+      "file_id": "1XWc-RIPXAAhlqgX9EWONi9oSgaVLEznB",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part002"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part003",
+      "bytes": 7340032,
+      "sha256": "f2efc43e7b664d95015996115b26d33e0ce428e072afd6be5061e80ef5e419a0",
+      "file_id": "1I8MW-4S2BCOkjK1CtkqDSMtoGBV1BUcr",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part003"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part004",
+      "bytes": 7340032,
+      "sha256": "1ec95153c6f6de6290053136e9b841ae094a22debc7c70b9f3e6b05324574889",
+      "file_id": "10OeTrSjSn55MyFeHoWPbBTbvYP2FtCW8",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part004"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part005",
+      "bytes": 7340032,
+      "sha256": "b19636b63a4eb067db20b752adf715d3e25085df481ea6b93667be268490563f",
+      "file_id": "18GN-ipCT9VU2DWqbehb5-hkloJwTfgTg",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part005"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part006",
+      "bytes": 7340032,
+      "sha256": "2688b6d9ae42287589eec7713623e2b13c1fa30e3c9be8c73fe13b332ba02a8e",
+      "file_id": "1rWAp6V0VNll6WunljVxHuIR_cTu3UZG8",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part006"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part007",
+      "bytes": 7340032,
+      "sha256": "a9b8ee4b41be2eebc22799b3753ef8c7f783aeee854b458b98abe07956d6aae3",
+      "file_id": "1nPXW3K6CfxQ5WL9pjw3OLtOPaOH_N0KQ",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part007"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part008",
+      "bytes": 7340032,
+      "sha256": "400c63a4ec26f0d733373f29b2622c25eee0cb346cd90fef3a144b837edadcb6",
+      "file_id": "1v0Q5f9VosKfjk0Rcn4Jh1awCZlu4w6fw",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part008"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part009",
+      "bytes": 7340032,
+      "sha256": "73f43e48627c2615aa466c5ee1380751843f886c464330279e2f0fc164f19b32",
+      "file_id": "1EKu8H_vWSj9JRSQtyQOXrZVhJO9SIwsi",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part009"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part010",
+      "bytes": 7340032,
+      "sha256": "d1fbc1076d6821c7efc5f031265bc5e9e8a9f2e670e2ac0885627a4b2c4efb3b",
+      "file_id": "17IrPi0NbSgLtKraL2zaDxHCPxc6hOczE",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part010"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part011",
+      "bytes": 7340032,
+      "sha256": "d7c6b4bbcf65b7fc1aa49e92a090c512de28ac72aaa72aa5ae0991b2f8196ded",
+      "file_id": "1HcSyFnkjsODlvdVFDHwWQDEfs6qxsI5o",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part011"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part012",
+      "bytes": 7340032,
+      "sha256": "84d8e753dca9bd459e4f8f705261a2e1ee3732b4e8ce7b5a1e74fe542a005725",
+      "file_id": "13pYKJEwr633BtDyWHaf3b112XvpkrwNF",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part012"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part013",
+      "bytes": 7340032,
+      "sha256": "bcba49dfb5039e3d8ad4ae62317f8821651542dc5b248702af80aa330c3d091f",
+      "file_id": "14HFQgElHEqbJ2ratO58K05WIPj8AzSZ5",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part013"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part014",
+      "bytes": 7340032,
+      "sha256": "98547339c44c9994421ec53c6d6b2a0e4ad3e571d6fd83db67cbf0dd8b085792",
+      "file_id": "1FdhvQYN8wvc6iNKSfvfLkIHfwQuLI05o",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part014"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part015",
+      "bytes": 7340032,
+      "sha256": "e442b40cf21cf2b18888ae623dab368b5bff913c48526906e405f5b7abe78ece",
+      "file_id": "1BrKMdXVWcwBEeq20mKjMKtqTOObHPYFw",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part015"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part016",
+      "bytes": 7340032,
+      "sha256": "a78f3c07e3f3a3432d6f575234a28e7c0b6bd7d46bc47a0b035df870bee14aa1",
+      "file_id": "1HhhD5mL5rw1n2OO_piP7w2qSizxIVQOs",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part016"
+    },
+    {
+      "name": "tail_outer8_held1_complete_20261109.part017",
+      "bytes": 2517064,
+      "sha256": "247b6cfd97ff0598027d9716746bc0599deab85627eb5fe8c83abb6631ec042c",
+      "file_id": "1GdI3OwWuo4CnKnOTGQOHgGorssuxRfKL",
+      "path": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/private_backup/tail_outer8_held1_complete_20261109.part017"
+    }
+  ],
+  "evicted_bytes": 127297608,
+  "after_free_bytes": 736690176,
+  "after_pass": true,
+  "headroom_bytes": 106898100,
+  "all7_private_guard_after_eviction_passed": true,
+  "models_logs_IDs_raw_data_manifests_Drive_IDs_and_proofs_retained": true,
+  "scientific_budget_or_disk_reserve_changed": false
+}

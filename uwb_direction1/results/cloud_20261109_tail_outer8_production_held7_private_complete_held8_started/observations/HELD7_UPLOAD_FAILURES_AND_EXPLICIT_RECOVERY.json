@@ -1,0 +1,76 @@
+{
+  "automatic_retries": 0,
+  "ambiguous_upload_failures": 2,
+  "exact_name_and_parent_search_empty_then_single_reuploads": 2,
+  "all_resolved": true,
+  "records": [
+    {
+      "part": 2,
+      "original_error": [
+        {
+          "i": 2,
+          "name": "tail_outer8_held7_complete_20261109.part002",
+          "file_id": null,
+          "stage": "upload",
+          "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+        }
+      ],
+      "original_missing_ID_response": [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "tool call error: tool call failed for `codex_apps/google_drive.upload_file`\n\nCaused by:\n    Mcp error: -32603: Internal error"
+            }
+          ],
+          "isError": true
+        }
+      ],
+      "explicit_reupload_after_search": {
+        "state": "explicit_single_reupload_after_ambiguous_internal_error_and_exact_name_parent_search_empty",
+        "part": 2,
+        "search": {
+          "results": []
+        },
+        "prior_error": "ERROR_002_1794258990902.json",
+        "no_automatic_retries": true
+      },
+      "resolved_file_id": "1mANonxeByxFJvJJ3Tq8LqQAHC70O0DjC",
+      "raw_SHA_verified": true
+    },
+    {
+      "part": 9,
+      "original_error": [
+        {
+          "i": 9,
+          "name": "tail_outer8_held7_complete_20261109.part009",
+          "file_id": null,
+          "stage": "upload",
+          "error": "Error: No uploadedID; response evidence preserved; exact-name search required before retry"
+        }
+      ],
+      "original_missing_ID_response": [
+        {
+          "content": [
+            {
+              "type": "text",
+              "text": "tool call error: tool call failed for `codex_apps/google_drive.upload_file`\n\nCaused by:\n    Mcp error: -32603: Internal error"
+            }
+          ],
+          "isError": true
+        }
+      ],
+      "explicit_reupload_after_search": {
+        "state": "explicit_single_reupload_after_ambiguous_internal_error_and_exact_name_parent_search_empty",
+        "part": 9,
+        "search": {
+          "results": []
+        },
+        "prior_error": "ERROR_009_1794259211167.json",
+        "no_automatic_retries": true
+      },
+      "resolved_file_id": "1oAH3hN-VsC78ykufm2_JwDbj-yydrUZs",
+      "raw_SHA_verified": true
+    }
+  ]
+}
