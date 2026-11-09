@@ -1,0 +1,166 @@
+{
+  "authority_commit": "39e91086603d283d607d2fdabc34228c18b4c085",
+  "authority_blobs": {
+    "uwb_direction1/STATUS.json": "103375f1309f08733a9965368e8152f5b0ff923a",
+    "uwb_direction1/memory/CLOUD_CONTINUATION.md": "86a29cd48fa0eac2655bc82334e0a4235b121d57",
+    "uwb_direction1/memory/PROJECT_MEMORY.md": "8731a59165f4dafad2b06e3367b2edb0bb6203db",
+    "uwb_direction1/results/cloud_20260930/RUN_REPORT.md": "bd3cca9d754ed56e46d139e2995b376c9ee1d411",
+    "uwb_direction1/research/cloud_20261106_loso_realign/PROTOCOL.json": "cbc9253f947091a4f220bc07863078b93e2596d0",
+    "uwb_direction1/results/cloud_20261106_loso_realign/RUN_REPORT.md": "52a71199de76c0f2586f0bbedc562a5ae5ab53a2"
+  },
+  "scientific_sources_unchanged": 24,
+  "frozen_files_SHA_verified": 28,
+  "epoch_records_bitwise_equal": 65,
+  "step_logs_bitwise_equal": 6912,
+  "full_final_semantic_verified": true,
+  "final_semantic_sha256": "a6ebf23a697e69b61d7f346824ebf50b9615e10f2cf8c9e5229698d669b867be",
+  "production_complete": {
+    "epochs": 64,
+    "files": {
+      "native_sourceBN_test_unscored.npz": "273bc851706cd1bae659b29375e4094d92f8d05aecc372e0a152fe15690a5467",
+      "native_sourceBN_validation_unscored.npz": "78b04a28063965e4d2b2f4668eba7295fc5e0e8fbcd33ca92393d2a5e2cd862b",
+      "native_test_unscored.npz": "2c90b2768530804dc539e70fe5f801a92b5a4f3b59427d3c0bf9390f9e687df2",
+      "native_validation_unscored.npz": "2b66a2efaab18d58f5bd35212b566d2e5b70ca5a4e2dd360e1db23bf9404d40c",
+      "selected_native.pt": "60282a41236b396ac38e0c2b189ab44bb552b8ff591a56dfaea7015e300b949c",
+      "selected_native_sourceBN.pt": "b7959ace1244b0ff9c843fde75b093bb31defa200254942dae45c3e7773429e7",
+      "selected_tail.pt": "dfeba903d627690a06619b721921ae4caff5b00e8798668f8c0912434d011e1a",
+      "tail_test_unscored.npz": "89732192bc03609c48953b4ec0aa904f86b6fb9c86543b536dc9be44e0af95fb",
+      "tail_validation_unscored.npz": "1068df4472399cef9cc8495b3573a0445d2411fc09738e9668e0eca4aba7b18f"
+    },
+    "final_state_sha256": "a6ebf23a697e69b61d7f346824ebf50b9615e10f2cf8c9e5229698d669b867be",
+    "generated_fixture": false,
+    "held_truth_read": false,
+    "selected_native_epoch": 33,
+    "state": "frozen_unscored_production",
+    "tail_count": 3456,
+    "tail_end_update": 6912,
+    "tail_start_update": 3457,
+    "updates": 6912
+  },
+  "phase_ledger": {
+    "CPU": 32266.247854894,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "completed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "external_CPU": 155.151896902,
+    "next_held": 5,
+    "stages": [
+      {
+        "CPU": 4041.911115561,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 4034.4041776859667
+      },
+      {
+        "CPU": 8053.337350518001,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 8038.683219858969
+      },
+      {
+        "CPU": 8110.676127902,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 8096.400224443001
+      },
+      {
+        "CPU": 12184.246556053,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 13540.071607744962
+      },
+      {
+        "CPU": 16256.802321522,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 17604.354860877967
+      },
+      {
+        "CPU": 16315.790371010002,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 17663.613632338005
+      },
+      {
+        "CPU": 20320.556376681,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 23015.719699179986
+      },
+      {
+        "CPU": 24323.406433445998,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 27009.439178096014
+      },
+      {
+        "CPU": 24382.782663839,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 27068.694369395962
+      },
+      {
+        "CPU": 28324.13460649,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 31594.082079998974
+      },
+      {
+        "CPU": 32208.951258321,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 35470.30788854498
+      },
+      {
+        "CPU": 32266.246270845,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 35527.55185377499
+      }
+    ],
+    "start_monotonic": 419358.317380073,
+    "state": "waiting_private_backup",
+    "wall": 35527.554158304
+  },
+  "held_scores_computed": 0
+}
