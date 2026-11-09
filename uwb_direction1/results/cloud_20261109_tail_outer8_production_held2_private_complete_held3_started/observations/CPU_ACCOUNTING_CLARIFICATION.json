@@ -1,0 +1,18 @@
+{
+  "CPU_field": "cumulative measured controller plus live/waited training/replay/output-audit worker CPU; excludes external_CPU",
+  "current_live_CPU": 16386.078569183002,
+  "current_live_external_CPU": 103.372421906,
+  "current_total_local_budget_charge": 16489.450991089,
+  "external_CPU_all_registered": 103.372421906,
+  "external_CPU_field": "separately registered measured archive-build/verify process-family CPU plus explicit helper budget allowances; remote service CPU unmeasured",
+  "held2_new_archive_registered_CPU_charge": 51.524300957,
+  "held2_terminal_execution_CPU": 16315.791588999002,
+  "held2_terminal_external_CPU": 51.848120949,
+  "held2_terminal_total_local_budget_charge": 16367.639709948002,
+  "original_stage_measurements_unchanged": true,
+  "phase_origin_or_caps_reset": false,
+  "previous_report": "held2_production64 RUN_REPORT narrative incorrectly said its CPU field included registered external CPU; numeric raw ledgers remain unchanged",
+  "rule": "phase_supervisor.resource_reason checks CPU + external_CPU against phase_CPU_cap_seconds",
+  "state": "reporting_clarification_no_scientific_or_budget_rule_change",
+  "wall_not_added_twice": true
+}
