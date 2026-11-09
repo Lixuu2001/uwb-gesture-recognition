@@ -1,3 +1,13 @@
+## 2026-11-09 UTC — prospective full8 fixed-tail: held1 privately complete; held2 actually running
+
+Latest authoritative continuation: the earlier six-user MMD/VREx/Fishr/IRM/GroupDRO/SWAD studies are closed; preserve their exact configurations, costs and positive/negative conclusions. Do not invoke their old once scripts. The current separately preregistered experiment is the prospective matched full eight-user native fixed-tail study selected from exploratory six-user development before using users7–8 for this method's selection. Historical all-eight-user exposure remains exploratory, never independent new-user validation or proven originality.
+
+Held1 completed production64 and independent fresh64 (7104 updates each), identical 65 epoch records/7104 step logs/final semantic state, and native/tail/native_sourceBN output audit with zero held gesture-label reads. All three arms remain unscored. Its complete archive is 127297608 bytes, SHA256 87e4c7b4bf6027d3cb1e0c9a493255070b8a05e9435261c7d421e8595d390cb3: 18 owner-only Drive chunks and every one of 314 payload members passed private raw readback. Cost receipts and PRIVATE_FOLD_RELEASE passed the next-fold guard.
+
+Held2 was launched exactly once after that guard: controller123953/start42883324, train worker123954/start42883522, same boot ad409b48-89ce-4704-beee-3658103d5856. Publication health observed production epoch4/64,444 committed updates, first native/NumPy BCE derivative and optimizer audit passed; this is an observation, not an epoch limit. Test2=1000, validation3=1200, train[1,4,5,6,7,8]=7100. Users7–8 may enter these frozen training/validation roles; their labels did not select the new method/configuration. Frozen24 scientific sources remain unchanged at source commit9703b6c477068f25d0ef11e4f2d7372f10d4ec9a.
+
+Next: monitor the exact held2 controller/worker and committed journals, allowing its prescribed fresh64/output audit. After completion perform its private full-member backup/readback/cost registration before launching held3 once. Never restart an existing fold to restore artifacts. No per-held test score or continuation gate; freeze all8 production/replay/models/predictions/audits/private readbacks before one unified cohort scoring. Original hourly enabled automation, cloud environment and repository visibility unchanged; no duplicate task.
+
 ## 2026-11-09：正式八人LOSO held1生产64轮完成；原控制器正常转入独立64轮重放，仍未评分
 
 本轮确认原SOURCE commit9703b6c、24冻结源码与同boot控制器PID122292/startticks41935831未变。生产train进程正常exit0而非失败：held1完整64epochs/7104updates，native、tail33–64/sourceBN和native-sourceBN三组模型及validation/test未评分输出均已保存；9个模型/预测文件SHA逐项核验，final_full.pt安全载入后的完整模型/优化器/平均/全部RNG/选模态语义hash与生产终态记录一致。tail严格3552个post-update模型，step3553..7104。native所选epoch8仅来自验证用户2；没有读held1真值或计算测试accuracy/macro。

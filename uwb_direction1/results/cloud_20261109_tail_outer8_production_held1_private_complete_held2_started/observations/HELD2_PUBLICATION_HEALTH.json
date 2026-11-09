@@ -1,0 +1,51 @@
+{
+  "observed_unix": 1794198564.4108071,
+  "controller": {
+    "pid": 123953,
+    "startticks": 42883324,
+    "state": "S",
+    "CPU_ticks": 264
+  },
+  "worker": {
+    "pid": 123954,
+    "startticks": 42883522,
+    "state": "R",
+    "CPU_ticks": 30307
+  },
+  "progress": {
+    "checkpoint_sha256": "97994e921b6e4ed52be98166a50492eb16dfe7269c1184ba30559f92989a23ce",
+    "epoch": 4,
+    "journal_sha256": "ae749ece222f932a39cd708ee7c71b74866092f88c6f34c39221af5c1fae9919",
+    "prefix_bytes": 216475,
+    "prefix_sha256": "c3ff86216362c2706b6e5a06d562f6cc25190905cd2ad9a04e8f4360f793b8c1",
+    "slot": "slot0.pt",
+    "updates": 444
+  },
+  "live_resource": {
+    "CPU": 8415.919173433,
+    "child": {
+      "CPU": 302.6,
+      "RSS_KiB": 2270924,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 123954,
+      "startticks": 42883522,
+      "state": "R"
+    },
+    "external_CPU": 51.848120949,
+    "stage": "train",
+    "wall": 9779.613109372964
+  },
+  "first_audit": {
+    "does_not_exclude_all_shared_errors": true,
+    "held_truth_read": false,
+    "max_gradient_difference": 1.4901161193847656e-08,
+    "parameters": 617612,
+    "reference_loss": 0.6856393259808078,
+    "state": "NumPy_first_BCE_derivative_and_native_optimizer_replay_verified"
+  },
+  "previous_private_release_verified": true,
+  "frozen_sources_unchanged": 24,
+  "held_scores_computed": 0,
+  "all8_complete": false,
+  "free_bytes": 2479620096
+}

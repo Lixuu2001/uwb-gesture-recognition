@@ -1,0 +1,9 @@
+{
+  "state": "metadata_preparation_failed_then_fixed_before_publication",
+  "reason": "spec used absent root scalar current_next_candidate; actual authoritative scalar is next_candidate",
+  "root_authorities_untouched": true,
+  "scientific_sources_untouched": true,
+  "training_uninterrupted": true,
+  "partial_copies_preserved_at": "/workspace/uwb-tail-outer8-production-20261109/publication_preparation_failure_20261109",
+  "repair": "use existing next_candidate key; preserve failed preparation evidence; rerun preparation once"
+}
