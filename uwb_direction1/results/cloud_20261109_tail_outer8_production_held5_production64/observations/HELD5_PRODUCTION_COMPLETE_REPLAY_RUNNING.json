@@ -1,0 +1,236 @@
+{
+  "state": "held5_native64_production_complete_unscored_three_arm_artifacts_verified_independent_replay_running",
+  "observed_utc": "2026-11-09T13:55:56.038323+00:00",
+  "authority_commit": "a61aa205cd84f1a7a8425bb3b54bb5666ea7b95c",
+  "authority_blobs": {
+    "uwb_direction1/STATUS.json": "3099ee37dd3a9e8d5f73d01087378a68975e44e8",
+    "uwb_direction1/memory/CLOUD_CONTINUATION.md": "cf8bb5965de5b5540a2638a21a28e3bb02c6e8d7",
+    "uwb_direction1/memory/PROJECT_MEMORY.md": "5238247ffea94c77d5efcf318b2ed5f34b77a59d",
+    "uwb_direction1/results/cloud_20260930/RUN_REPORT.md": "2709c20d98d038fcb9399df455936c95ee605cf8",
+    "uwb_direction1/research/cloud_20261106_loso_realign/PROTOCOL.json": "cbc9253f947091a4f220bc07863078b93e2596d0",
+    "uwb_direction1/results/cloud_20261106_loso_realign/RUN_REPORT.md": "52a71199de76c0f2586f0bbedc562a5ae5ab53a2"
+  },
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "production_complete": {
+    "epochs": 64,
+    "files": {
+      "native_sourceBN_test_unscored.npz": "04536dbe584643487dc92ee5a60603896645beb72a5ef4dbc1a4d5054d6f88dc",
+      "native_sourceBN_validation_unscored.npz": "6d360a3f0afe119ecec6c1ef4b2e167056d637e5f14bf1c6e9f16c59eeb25d64",
+      "native_test_unscored.npz": "daf570ba591074b8e41f4285e07ca81af8918dfaeedae1b4a41660faeed71180",
+      "native_validation_unscored.npz": "cb3d7eb2f103b8de5dd9e0f45ec78b5e599fe9a1e3eb0880b2edd2ee3e8cc60b",
+      "selected_native.pt": "7e7c96191193aa81389f4254e31f21c8c93228668c0cefb0289fd9872054b53a",
+      "selected_native_sourceBN.pt": "c62bc5d3c93667d1d2fafa489c5dd5653225f402f65be4183bb0d54b036ae259",
+      "selected_tail.pt": "4b98f701207544d8ea4b397cc4593b655aa76f505e7a9bd938fec379cda916e3",
+      "tail_test_unscored.npz": "ab0d34fc2c012e3cac9d164f2559787b52b8a7674dbf2b912f889b53ffa6342f",
+      "tail_validation_unscored.npz": "b02fea05b00fe1fd9a11268a8ad089f46a558957aea6cd17267c41eecc5b8e9c"
+    },
+    "final_state_sha256": "434db790f38211aa24d283695b80760b1046f1cb5e9ebb9d00dc0e3dc987f3c2",
+    "generated_fixture": false,
+    "held_truth_read": false,
+    "selected_native_epoch": 63,
+    "state": "frozen_unscored_production",
+    "tail_count": 3520,
+    "tail_end_update": 7040,
+    "tail_start_update": 3521,
+    "updates": 7040
+  },
+  "production_files_SHA_verified": 9,
+  "final_full_checkpoint_semantic_verified": true,
+  "production_stage_cumulative": {
+    "CPU": 36308.281153574,
+    "exit_code": 0,
+    "external_CPU": 206.424723062,
+    "held": 5,
+    "resource_stop": null,
+    "stage": "train",
+    "wall": 40544.431617291004
+  },
+  "production_stage_cumulative_total_local_CPU_budget_charge": 36514.705876636,
+  "controller": {
+    "pid": 128783,
+    "startticks": 45587020,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "S",
+    "CPU": 22.21,
+    "RSS_KiB": 299772
+  },
+  "replay_worker": {
+    "pid": 129279,
+    "startticks": 45990275,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "state": "R",
+    "CPU": 3226.48,
+    "RSS_KiB": 2194264
+  },
+  "committed_replay": {
+    "checkpoint_sha256": "bce228f1c871aae5f371c292ea0e59d529e642f92a3ddf1293dfcd0d2c2b3438",
+    "epoch": 52,
+    "journal_sha256": "259d0589a2e80992ee7868ebfa3d34897080ba00a2fb4b9ee2f572fbabacdda9",
+    "prefix_bytes": 2805929,
+    "prefix_sha256": "22adc3acdf8eda05543f9c703b4acaa69dc6f34abadcf8923f7f4f449ed3d406",
+    "slot": "slot0.pt",
+    "updates": 5720
+  },
+  "independent_replay_committed_epoch": 52,
+  "independent_replay_committed_updates": 5720,
+  "replay_committed_step_prefix_checkpoint_journal_and_all_epoch_records_verified": true,
+  "live_cost": {
+    "CPU": 39543.23817771,
+    "child": {
+      "CPU": 3226.18,
+      "RSS_KiB": 2194264,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 129279,
+      "startticks": 45990275,
+      "state": "R"
+    },
+    "external_CPU": 206.424723062,
+    "stage": "replay",
+    "wall": 43771.409639435995
+  },
+  "total_local_CPU_budget_charge": 39749.662900772004,
+  "phase_ledger": {
+    "CPU": 36308.28227644,
+    "active_held": 5,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "completed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "external_CPU": 206.424723062,
+    "next_held": 5,
+    "stages": [
+      {
+        "CPU": 4041.911115561,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 4034.4041776859667
+      },
+      {
+        "CPU": 8053.337350518001,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 8038.683219858969
+      },
+      {
+        "CPU": 8110.676127902,
+        "exit_code": 0,
+        "external_CPU": 0,
+        "held": 1,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 8096.400224443001
+      },
+      {
+        "CPU": 12184.246556053,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 13540.071607744962
+      },
+      {
+        "CPU": 16256.802321522,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 17604.354860877967
+      },
+      {
+        "CPU": 16315.790371010002,
+        "exit_code": 0,
+        "external_CPU": 51.848120949,
+        "held": 2,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 17663.613632338005
+      },
+      {
+        "CPU": 20320.556376681,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 23015.719699179986
+      },
+      {
+        "CPU": 24323.406433445998,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 27009.439178096014
+      },
+      {
+        "CPU": 24382.782663839,
+        "exit_code": 0,
+        "external_CPU": 103.372421906,
+        "held": 3,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 27068.694369395962
+      },
+      {
+        "CPU": 28324.13460649,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 31594.082079998974
+      },
+      {
+        "CPU": 32208.951258321,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "replay",
+        "wall": 35470.30788854498
+      },
+      {
+        "CPU": 32266.246270845,
+        "exit_code": 0,
+        "external_CPU": 155.151896902,
+        "held": 4,
+        "resource_stop": null,
+        "stage": "output_audit",
+        "wall": 35527.55185377499
+      },
+      {
+        "CPU": 36308.281153574,
+        "exit_code": 0,
+        "external_CPU": 206.424723062,
+        "held": 5,
+        "resource_stop": null,
+        "stage": "train",
+        "wall": 40544.431617291004
+      }
+    ],
+    "start_monotonic": 419358.317380073,
+    "state": "fold_running",
+    "wall": 40544.43296904198
+  },
+  "scientific_sources_unchanged": 24,
+  "new_fit_or_worker_started_by_this_monitor": false,
+  "held_truth_read": false,
+  "held_scores_computed": 0,
+  "full64_replay_completed": false,
+  "whole_fold_audit_completed": false,
+  "whole_fold_private_backup_completed": false,
+  "held6_started": false,
+  "all8_complete": false
+}
