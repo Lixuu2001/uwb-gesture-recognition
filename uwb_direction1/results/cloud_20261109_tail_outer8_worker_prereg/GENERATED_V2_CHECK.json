@@ -1,0 +1,31 @@
+{
+  "NumPy_first_gradient_audit": true,
+  "actual_UWB_truth_read": false,
+  "actual_outer8_training_started": false,
+  "blocked": [
+    "held_truth",
+    "crossrole_truth",
+    "float_ID",
+    "changed_uncommitted_journal_suffix",
+    "completed_fold_refit"
+  ],
+  "epochs_each": 2,
+  "full_native_generated_train_and_fresh_replay": true,
+  "initial_and_all_step_optimizer_tail_RNG_journal_and_3arm_outputs_exact": true,
+  "native_parameters": 617612,
+  "passed": true,
+  "passive_average_native_trajectory_exact": true,
+  "pinned_average_arithmetic_exact": true,
+  "production_admitted": false,
+  "source_only_BN_fullpass_no_parameter_change_and_RNG_restore": true,
+  "sources": {
+    "core.py": "b07bf4f35e405dfeaf729720b112e4c3d815769c2c66d75e7c06097ae084501d",
+    "generated_checks.py": "b51f608cc2639d76daae2b80b57206b2e113a27c0cb65b7434e4b7d114c1ada5",
+    "journal.py": "87333bc0bba39c577e4d3fdc52ff4631fc375b4471ff19d94e2ae2c60e105c41",
+    "lazy_bn.py": "ef1da3c30c48150f55d2ad3f9b1e36f9af8467ba05998d90fec34004e285d192",
+    "lazy_outer_data.py": "e011a81fc31f3de993b7a4f2580995dc0b31bf0c89588a3f1bf2b7943f55fd31",
+    "outer_subject_roles.py": "2319bac197ac7efcefd942426aa2c51674dbf760c6970295fdae050c9e8e80cc",
+    "role_data.py": "f04961ea410dbff925716095fde58ae389ea7876ad31afe30f4a23e23af70267",
+    "worker.py": "4346086cc4c9ae3dda61389e8f25b1349b13ead363678af85a566d665660a452"
+  }
+}

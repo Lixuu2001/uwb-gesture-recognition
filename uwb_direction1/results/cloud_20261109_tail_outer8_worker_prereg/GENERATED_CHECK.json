@@ -1,0 +1,21 @@
+{
+  "NumPy_first_gradient_audit": true,
+  "actual_UWB_truth_read": false,
+  "actual_outer8_training_started": false,
+  "blocked": [
+    "held_truth",
+    "crossrole_truth",
+    "float_ID",
+    "changed_uncommitted_journal_suffix",
+    "completed_fold_refit"
+  ],
+  "epochs_each": 2,
+  "full_native_generated_train_and_fresh_replay": true,
+  "initial_and_all_step_optimizer_tail_RNG_journal_and_3arm_outputs_exact": true,
+  "native_parameters": 617612,
+  "passed": true,
+  "passive_average_native_trajectory_exact": true,
+  "pinned_average_arithmetic_exact": true,
+  "production_admitted": false,
+  "source_only_BN_fullpass_no_parameter_change_and_RNG_restore": true
+}
