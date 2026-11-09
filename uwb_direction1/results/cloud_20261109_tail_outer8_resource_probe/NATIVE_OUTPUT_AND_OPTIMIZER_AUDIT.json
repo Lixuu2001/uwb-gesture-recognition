@@ -1,0 +1,18 @@
+{
+  "audit_source_sha256": "2f6736df4eea00d1b9d3f4ad06eb73efa4f76189d531604258918bc84fb82db9",
+  "frozen_source_sha256": "ae91744910435de0d618130e05b08d0978f193349580da53614aa6ab18d43ca1",
+  "generated_lookahead_cycle_boundaries": [
+    6,
+    12
+  ],
+  "generated_native_passive_and_plain_model_optimizer_rng_equal_each_update": true,
+  "generated_resume_state_exact": true,
+  "gesture_truth_values_read": false,
+  "new_method_held_predictions_or_scores": false,
+  "old_model_sha256": "2fdb64b3348a6f9e774bf0212b2704e82acf4848bbf8cd077d7721d2dca77ff8",
+  "old_original_GAP_held1_model_and1200_unscored_logits_lazy_worker_interface_bitwise_equal": true,
+  "old_prediction_sha256": "05527830339d410e43eef2c85c24c6b15674dc9ae56226dddac47c6a64797f58",
+  "passed": true,
+  "scope": "adapter and new worker interface compatibility; no new cohort quality evidence, not independent optimizer derivation; fresh replay cannot exclude every shared implementation error",
+  "users7_8_gesture_truth_read": false
+}

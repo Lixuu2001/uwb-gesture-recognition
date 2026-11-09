@@ -1,0 +1,15 @@
+{
+  "id": "6abc995e1620819195fcff77dbd81118",
+  "enabled": true,
+  "schedule": "BEGIN:VEVENT\nDTSTART:20260930T050946Z\nRRULE:FREQ=HOURLY\nEND:VEVENT",
+  "environment_selection": "inherited",
+  "environments": [
+    {
+      "environmentConfigId": "3effaf07-7e4c-4cbb-8a35-e1a7027cbd77~asenvcfg_94ef925522148191a87a332a33dfd2d6",
+      "environmentId": "ccarenv_b64_Y2NhcmVudl80NTMxZGFhYWEzZWM4MTkxYTJmYzgwN2I4MWVkMzk2MA",
+      "cwd": "/workspace",
+      "displayName": "git-local-demo"
+    }
+  ],
+  "only_read_no_update": true
+}

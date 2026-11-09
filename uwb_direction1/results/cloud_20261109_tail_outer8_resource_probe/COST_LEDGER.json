@@ -1,0 +1,116 @@
+{
+  "cache_reclaim": {
+    "automatic_retries": 0,
+    "command": [
+      "python",
+      "/workspace/uwb-tail-outer8-20261109/cache_reclaim.py",
+      "--verified-transport-cache-only"
+    ],
+    "exit_code": 0,
+    "max_RSS_KiB": 25512,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "observed_utc": "2026-11-09T00:17:56.542671+00:00",
+    "parent_CPU_seconds": 0.00025779199999999974,
+    "receipt": "CACHE_RECLAIM_COST.json",
+    "system_CPU_seconds": 2.24299,
+    "user_CPU_seconds": 14.335909000000001,
+    "wall_seconds": 16.591467215970624
+  },
+  "generated_v1": {
+    "CPU": 6.202866,
+    "automatic_retries": 0,
+    "exit_code": 0,
+    "max_RSS_KiB": 444984,
+    "receipt": "execution/generated/TERMINATION.json",
+    "resource_stop": null,
+    "wall": 6.513718649977818
+  },
+  "generated_v2": {
+    "automatic_retries": 0,
+    "command": [
+      "python",
+      "/workspace/uwb-tail-outer8-20261109/generated_checks.py",
+      "generated_v2"
+    ],
+    "exit_code": 0,
+    "max_RSS_KiB": 444076,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "observed_utc": "2026-11-09T00:09:01.750446+00:00",
+    "parent_CPU_seconds": 0.00033662000000000275,
+    "receipt": "GENERATED_V2_COST.json",
+    "system_CPU_seconds": 0.34561899999999995,
+    "user_CPU_seconds": 4.939655,
+    "wall_seconds": 5.351980792998802
+  },
+  "interpretation": "Keep measurements at their actual scopes; child CPU included by waited process-family wrapper is not added twice. Unmeasured preparation/network/provider costs are not zero. Old cohort costs remain in their immutable ledgers; no full8 training cost measured yet.",
+  "native_cycle_and_output": {
+    "automatic_retries": 0,
+    "command": [
+      "python",
+      "/workspace/uwb-tail-outer8-20261109/optimizer_output_audit.py"
+    ],
+    "exit_code": 0,
+    "max_RSS_KiB": 694460,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "observed_utc": "2026-11-09T00:14:09.126162+00:00",
+    "parent_CPU_seconds": 0.0002870049999999999,
+    "receipt": "NATIVE_OUTPUT_AND_OPTIMIZER_COST.json",
+    "system_CPU_seconds": 0.7774059999999999,
+    "user_CPU_seconds": 7.482497,
+    "wall_seconds": 8.262062508030795
+  },
+  "not_isolated_measured": [
+    "initial archive build/local verify wall and CPU",
+    "initial two-part upload/raw download pipeline total wall and CPU",
+    "probe supplement archive build/local verification wall and CPU",
+    "canonical247 remote-metadata total wall and provider CPU"
+  ],
+  "probe": {
+    "CPU": 15.430605,
+    "automatic_retries": 0,
+    "exit_code": 0,
+    "max_RSS_KiB": 845212,
+    "receipt": "execution/probe/TERMINATION.json",
+    "resource_stop": null,
+    "wall": 15.524692445993423
+  },
+  "probe_backup_verify": {
+    "automatic_retries": 0,
+    "command": [
+      "python",
+      "/workspace/uwb-tail-outer8-20261109/verify_probe_backup.py"
+    ],
+    "exit_code": 0,
+    "max_RSS_KiB": 296804,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "observed_utc": "2026-11-09T00:22:37.226008+00:00",
+    "parent_CPU_seconds": 0.00038136600000000104,
+    "receipt": "PROBE_BACKUP_VERIFY_COST.json",
+    "system_CPU_seconds": 0.25263399999999997,
+    "user_CPU_seconds": 2.659991,
+    "wall_seconds": 2.9156051659956574
+  },
+  "probe_transfer": {
+    "automatic_retries": 0,
+    "local_and_remote_provider_CPU_not_separately_measured": true,
+    "parts": 4,
+    "raw_allmember_verification_still_required": true,
+    "wall_seconds": 69.254
+  },
+  "supervision_generated": {
+    "automatic_retries": 0,
+    "command": [
+      "python",
+      "/workspace/uwb-tail-outer8-20261109/supervision_checks.py"
+    ],
+    "exit_code": 0,
+    "max_RSS_KiB": 296904,
+    "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+    "observed_utc": "2026-11-09T00:17:46.622991+00:00",
+    "parent_CPU_seconds": 0.000364411000000002,
+    "receipt": "SUPERVISION_COST.json",
+    "system_CPU_seconds": 0.288304,
+    "user_CPU_seconds": 3.209217,
+    "wall_seconds": 3.993855284003075
+  }
+}

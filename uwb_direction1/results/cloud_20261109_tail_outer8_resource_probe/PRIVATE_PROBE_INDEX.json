@@ -1,0 +1,77 @@
+{
+  "actual_full8_results": false,
+  "actual_full8_training_started": false,
+  "initial": {
+    "all_70_payloads_and_members_manifest_readback_verified": true,
+    "archive_bytes": 9861739,
+    "archive_sha256": "eb202ccf1cb8788abbe81eb835b8b1e514cb49359f7e8d7cab79a2340581793f",
+    "chunks": [
+      {
+        "bytes": 7340032,
+        "file_id": "16Z8_tGwj5pd5sjpcm96t67lCStxncsQH",
+        "name": "uwb-tail-outer8-20261109-initial.part000",
+        "sha256": "5c36d2faeb78e8562ce39dea6b88ccc04864ae307079fe6bdf79bd54d4fb16ea"
+      },
+      {
+        "bytes": 2521707,
+        "file_id": "1qthU44dTpu8U2gIKi_4WiHRLOyeAR3so",
+        "name": "uwb-tail-outer8-20261109-initial.part001",
+        "sha256": "20c65253eb8211de0fed5797673ba83f8fef1d8373bc4df0b1c40490fef9de30"
+      }
+    ],
+    "folder_id": "12AGMwT99yXCTYBQocQaX901Br-IelmOf",
+    "frozen_sha256": "ae91744910435de0d618130e05b08d0978f193349580da53614aa6ab18d43ca1",
+    "include_base64": false,
+    "initial_only_not_completed_eightfold": true,
+    "payload": 70,
+    "raw_fetch": true,
+    "scope": "prospective outer8 selection/code/roles/native dependencies and initial state only; complete initial set, not completed folds",
+    "state": "owner_only_private_initial_raw_allmember_verified"
+  },
+  "method_selection_sha256": "fecd84c4f2ffe8b812eb8b610feedad4742dd9e2e39f3224b1ee1442b6c5d768",
+  "source_prereg_commit": "1d90f346651db61f2542d623afef7c0af41566fe",
+  "state": "completed_trainonly16_probe_all_models_IDs_logs_and_audits_owner_only_raw_allmember_verified",
+  "successful_probe_must_not_be_repeated": true,
+  "supplement": {
+    "all_members_verified": {
+      "archive_members": 32,
+      "archive_sha256": "9bedf67fe4a9528e310c1102dc55a4c2405a51fa2849279b9e400821737bf40d",
+      "chunks_verified": 4,
+      "complete_modelset_verified": true,
+      "scope": "completed16-update training-only resource probe/models/IDs/logs and additional audit/storage receipts; not an eightfold result or production release",
+      "state": "remote_archive_and_all_members_verified",
+      "tracked_payload_members_verified": 31
+    },
+    "archive_bytes": 27459650,
+    "archive_sha256": "9bedf67fe4a9528e310c1102dc55a4c2405a51fa2849279b9e400821737bf40d",
+    "chunks": [
+      {
+        "bytes": 7340032,
+        "file_id": "1y0ZXw4xDjLnEYP5iCbKzn1p8tyLrWGOz",
+        "name": "uwb-tail-outer8-20261109-probe.part000",
+        "sha256": "5cc2002e7819e95a4bc48f8ae6d898813ae1d66413a921a3965831459c91286f"
+      },
+      {
+        "bytes": 7340032,
+        "file_id": "1P2Y4CzRlD1SspRS2R965Ksq2BkjQKsPI",
+        "name": "uwb-tail-outer8-20261109-probe.part001",
+        "sha256": "16ba85e827a25ae5f0177a1a880dc93c2462fb8499776dc88c3196eaea6f7246"
+      },
+      {
+        "bytes": 7340032,
+        "file_id": "1flxszob5YxaITkwaOUbCIwTv9tw4__wZ",
+        "name": "uwb-tail-outer8-20261109-probe.part002",
+        "sha256": "c5b78749c7b12da6fa000a3208776026c627420c377fa0cf0d4598654964de8c"
+      },
+      {
+        "bytes": 5439554,
+        "file_id": "1_r8yQTzeMKMZM_YbSdMZ_PhtjUJmp08z",
+        "name": "uwb-tail-outer8-20261109-probe.part003",
+        "sha256": "3ec5a2f31a7f919afd842a4faeb9314e4efad6de77ffdc463e79bf87d3e4345e"
+      }
+    ],
+    "payload": 31,
+    "scope": "completed16-update training-only resource probe/models/IDs/logs and additional audit/storage receipts; not an eightfold result or production release"
+  },
+  "whole_job_resume_authorized": false
+}

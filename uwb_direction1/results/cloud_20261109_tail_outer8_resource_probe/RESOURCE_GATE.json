@@ -1,0 +1,25 @@
+{
+  "BN_cost_model": "conservatively two full source-only forward passes per fold per production/replay; actual six-user BN timing pending production admission",
+  "checkpoint_measured_bytes": 15097211,
+  "disk_pass": false,
+  "estimated_wall_and_singlethread_CPU_with_50pct_headroom_and_3600_reserve_seconds": 104751.91445566204,
+  "first_measured_bytes": 10080115,
+  "full8_model_payload_disk_bound_bytes": 1200245355,
+  "initial_measured_bytes": 5068523,
+  "inputs": {
+    "FROZEN_HASHES.json": "ae91744910435de0d618130e05b08d0978f193349580da53614aa6ab18d43ca1",
+    "PROTOCOL.json": "9f6e3679e2959addc565221deaeea02bf5bf53edf8ca22e225f23d83640e04ec",
+    "probe/RESULT.json": "c5a33ac4db4b23900e16aaade916f32ef299e526d4ea7bf602f4cf1d329c0b2c"
+  },
+  "measured_step_wall_p95_seconds": 0.5712371660745703,
+  "measured_trainonly_forward_wall_p95_seconds": 0.14573692575213498,
+  "method_hyperparameters_changed": false,
+  "observed_free_bytes": 1253306368,
+  "passed": false,
+  "phase_each_cap_seconds": 129600,
+  "production_admitted": false,
+  "production_plus_replay_updates": 111872,
+  "required_disk_with_reserves_bytes": 1602898539,
+  "resource_pass": true,
+  "scope": "Cost/storage gate alone never activates real8; require independent native/output audit and explicit production release"
+}

@@ -1,0 +1,39 @@
+{
+  "branch_head_verified": true,
+  "commit": "1d90f346651db61f2542d623afef7c0af41566fe",
+  "exact_readback_verified": 28,
+  "files": 28,
+  "force": false,
+  "frozen_sha256": "ae91744910435de0d618130e05b08d0978f193349580da53614aa6ab18d43ca1",
+  "initial_archive_sha256": "eb202ccf1cb8788abbe81eb835b8b1e514cb49359f7e8d7cab79a2340581793f",
+  "parent": "17035abef07525ae223253778e656ce37f154984",
+  "probe_only_release": true,
+  "production_admitted": false,
+  "readback_transport_recovery": {
+    "connector_readback_failures": [
+      {
+        "expected_blob_sha1": "b678b8854a4caf41756d80e17f68da9c81e339a9",
+        "expected_bytes": 1105774,
+        "path": "uwb_direction1/results/cloud_20260930/RUN_REPORT.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "233e25bc64787f5ad60aa07777e3d72f90ba3ac2",
+        "expected_bytes": 1515202,
+        "path": "uwb_direction1/memory/CLOUD_CONTINUATION.md",
+        "returned_characters": 0
+      },
+      {
+        "expected_blob_sha1": "0b2ad9a3dad123898f10615acc7eb16e28000944",
+        "expected_bytes": 1451227,
+        "path": "uwb_direction1/memory/PROJECT_MEMORY.md",
+        "returned_characters": 0
+      }
+    ],
+    "force": false,
+    "new_commit_created_for_retry": false,
+    "proof": "/workspace/uwb-tail-outer8-20261109/worker_prereg_PUBLICATION_GIT_READBACK_VERIFIED.json",
+    "state": "same_remote_commit_all_file_Git_pack_bytes_verified_before_ref_move"
+  },
+  "ref_transport_recovery": null
+}

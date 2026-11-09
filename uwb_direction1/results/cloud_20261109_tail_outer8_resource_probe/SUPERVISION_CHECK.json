@@ -1,0 +1,29 @@
+{
+  "blocked": [
+    "busy_generated_child_resource_cap",
+    "duplicate_execution_directory",
+    "production_labels_without_release",
+    "fullworker_without_production_release"
+  ],
+  "generated_bounded_child_complete": {
+    "CPU": 0.013255,
+    "automatic_retries": 0,
+    "exit_code": 0,
+    "max_RSS_KiB": 292680,
+    "resource_stop": null,
+    "wall": 0.5019987240084447
+  },
+  "generated_forced_stop": {
+    "CPU": 0.5025189999999999,
+    "automatic_retries": 0,
+    "exit_code": -15,
+    "max_RSS_KiB": 292680,
+    "resource_stop": "fixed_resource_cap",
+    "wall": 0.5036932490183972
+  },
+  "passed": true,
+  "phase_supervisor_syntax_only_no_live_phase_exercised": true,
+  "production_started": false,
+  "real_UWB_labels_read": false,
+  "scope": "bounded child/resource/duplicate and fail-closed production checks; full phase/private handoff still needs generated end-to-end coverage before production admission"
+}
