@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "prospective_tail_outer8_held2_prod64_fresh64_audit_private314_complete_held3_production_running_unscored",
+  "state": "prospective_tail_outer8_held3_prod64_fresh64_audit_private314_complete_held4_production_running_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Held2 terminal raw executionCPU16315.791589 + then external51.848121 =16367.639710 localCPU budget s, wall17663.615805 from original origin. Fold2 archive measured13.524301CPU+helper38budget allowance registered; current total external103.372422 must be added once to LIVE rawCPU. Held3 actually running;129600s caps/history unchanged.",
+  "compute": "Held3 terminal phasewall27068.696701s,rawCPU24382.784154+external103.372422=24486.156576localCPU budget s. Fold3 archive measured13.779475CPU+helper38allowance registered; current total external155.151897 added once to LIVE rawCPU. Held4 actually running;129600s caps/origin/history unchanged.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261109_tail_outer8_production_held2_private_complete_held3_started/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261109_tail_outer8_production_held3_private_complete_held4_started/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794207979.2998805,
-  "background_training_pid": 125902,
-  "background_training_status_note": "Held2 complete64+fresh64/audit;18privatechunks/314payload raw-allmember/costrelease passed. Held3 controller125902/start43837848 + train125903/start43838087 actually active, observed epoch1/64/108updates, first NumPy-BCE/native optimizer audit passed. Zero held scores. CPU budget is raw CPU + separate external_CPU; original caps/origin unchanged.",
+  "background_training_observed_unix": 1794216555.3260708,
+  "background_training_pid": 127007,
+  "background_training_status_note": "Held3 complete64+fresh64/audit;18privatechunks/314payload raw-allmember/costrelease passed. Held4 controller127007/start44702025 + train127008/start44702271 actually active, first NumPy-BCE/native optimizer audit passed; publication snapshotepoch0/64 was committed initial state, not final result. Zero held scores. Correct cap uses rawCPU+external_CPU; same phase origin/caps.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Monitor existing held3 controller125902/train125903 sameboot/start; finish64production/fresh64/outputaudit then private raw-allmember/costrelease before once-only held4. No restart, held score, or method selection.",
+  "next_candidate": "Monitor existing held4 controller127007/train127008 sameboot/start; complete64production/fresh64/outputaudit then private allmember/costrelease before once-only held5. No partial score or method choice.",
   "last_completed_update_utc": "2026-11-09T03:01:22.887556+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -18110,6 +18110,28 @@
   "held_scores_computed": 0,
   "all8_complete": false,
   "CPU_accounting": "budget checks CPU + external_CPU; raw fields separate; old narrative clarified without ledger/science change",
+  "automation_changed": false,
+  "whole_job_resume_authorized": false
+}
+,
+  "tail_outer8_production_held3_private_complete_held4_started_20261109": {
+  "report": "results/cloud_20261109_tail_outer8_production_held3_private_complete_held4_started/RUN_REPORT.md",
+  "method": "prospective_native_fixed_dense_tail_epochs33_64_sourceBN_matched_outer8",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used_for_method_selection": false,
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "held3_production64_replay64_audit_private_complete": true,
+  "held3_private_chunks": 18,
+  "held3_private_payloads": 314,
+  "held4_actually_started": true,
+  "held4_controller_pid": 127007,
+  "held4_train_pid": 127008,
+  "held4_observed_epoch": 0,
+  "held4_observed_updates": 0,
+  "held4_first_audit_passed": true,
+  "held_scores_computed": 0,
+  "all8_complete": false,
   "automation_changed": false,
   "whole_job_resume_authorized": false
 }
