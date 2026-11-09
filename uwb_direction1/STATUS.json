@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "prospective_tail_outer8_held1_native64_production_running_first_independent_audit_passed_allheld_scores_sealed",
+  "state": "prospective_tail_outer8_held1_production64_complete_three_arm_unscored_artifacts_verified_original_controller_fresh64_replay_running",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Actual full8 held1 started; live phase costs at ROOT/folds/held1/LIVE_RESOURCE and PHASE_LEDGER, source9703b6c fixed. Stage36h wall/localCPU; previous29.1h estimate is not completedcost. Snapshot epoch1, step197; all prep/historical costs retained.",
+  "compute": "Held1 production64+validation/BN/three-arm outputs complete stage-cumulative4034.404178wall/4041.911116localCPU s; fresh64 running snapshotepoch5, live ledger includes production already.36h caps/history unchanged; not full8 measuredcost.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261109_tail_outer8_production_started/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261109_tail_outer8_production_held1_production64/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794189016.462334,
+  "background_training_observed_unix": 1794193283.606172,
   "background_training_pid": 122292,
-  "background_training_status_note": "Actual held1 controller122292/worker122293 sameboot identity verified; committedepoch1/64 observedstep197; firstNumPyBCE/nativeopt auditpass. New8split train3..8/val2/test1. No heldscore; never duplicateheld1. Completefresh64/output/private before held2.",
+  "background_training_status_note": "Original controller122292 active; train64/7104updates completed exit0,9model/outputSHA/fullstate verified; prescribed fresh64 worker122701/start42339272 running, snapshot replayepoch5/64 exactprefix/epochrecords. Not failed train restart or newfit. No heldscore/fullfold private release/held2.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,8 +133,8 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Active full8 held1: monitor existing phase controller122292/start41935831 and worker122293/start41936036, sameboot ad409b48-89ce-4704-beee-3658103d5856, root /workspace/uwb-tail-outer8-production-20261109. Do not launchduplicate/refit/probe/oldonce/nextmethod. After train64+fresh64+outputaudit freeze and complete owner-only fullfold raw recovery/costrelease before held2. All8 before one score; no early heldscore.",
-  "last_completed_update_utc": "2026-11-09T01:50:15.643494+00:00",
+  "next_candidate": "Monitor existing SOURCE9703b6c phase controller122292/start41935831 sameboot; production train122293 ended normally, current fresh64 replay122701/start42339272. Do not restart production. Finish64replay/outputaudit then complete private raw-allmember/costrelease before held2. No partial heldscore/newmethod/probe rerun.",
+  "last_completed_update_utc": "2026-11-09T03:01:22.887556+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
     "observations_current": true,
@@ -17993,5 +17993,55 @@
     "startticks": 41936036,
     "state": "R"
   }
+}
+,
+  "tail_outer8_production_held1_production64_20261109": {
+  "report": "results/cloud_20261109_tail_outer8_production_held1_production64/RUN_REPORT.md",
+  "method": "prospective_native_dense_tail33_64_sourceBN_outer8",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used_for_method_selection": false,
+  "all8_complete": false,
+  "automation_changed": false,
+  "controller_identity": {
+    "CPU": 11.48,
+    "RSS_KiB": 293520,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122292,
+    "startticks": 41935831,
+    "state": "S"
+  },
+  "full64_replay_completed": false,
+  "full_final_state_semantic_verified": true,
+  "held1_production64_complete": true,
+  "held2_started": false,
+  "held_scores_computed": 0,
+  "production_root": "/workspace/uwb-tail-outer8-production-20261109",
+  "production_source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "production_stage_cumulative_cost": {
+    "CPU": 4041.911115561,
+    "exit_code": 0,
+    "external_CPU": 0,
+    "held": 1,
+    "resource_stop": null,
+    "stage": "train",
+    "wall": 4034.4041776859667
+  },
+  "production_updates": 7104,
+  "replay_committed_epoch_at_snapshot": 5,
+  "replay_committed_updates_at_snapshot": 555,
+  "replay_prefix_and_epoch_records_exact": true,
+  "replay_worker_identity": {
+    "CPU": 345.27,
+    "RSS_KiB": 2204796,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122701,
+    "startticks": 42339272,
+    "state": "R"
+  },
+  "scientific_sources_changed": false,
+  "tail_postupdate_average_count": 3552,
+  "three_arm_model_prediction_SHA_verified": 9,
+  "wholefold_private_complete": false
 }
 }

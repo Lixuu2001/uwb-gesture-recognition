@@ -1,0 +1,80 @@
+{
+  "controller": {
+    "CPU": 11.48,
+    "RSS_KiB": 293520,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122292,
+    "startticks": 41935831,
+    "state": "S"
+  },
+  "final_full_checkpoint_semantic_verified": true,
+  "full64_replay_completed": false,
+  "held2_started": false,
+  "held_scores_computed": 0,
+  "held_truth_read": false,
+  "independent_replay_committed_epoch": 5,
+  "independent_replay_committed_updates": 555,
+  "live_cost": {
+    "CPU": 4387.941301915,
+    "child": {
+      "CPU": 345.28,
+      "RSS_KiB": 2204796,
+      "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+      "pid": 122701,
+      "startticks": 42339272,
+      "state": "R"
+    },
+    "external_CPU": 0,
+    "stage": "replay",
+    "wall": 4379.797470221994
+  },
+  "new_fit_or_worker_started_by_this_monitor": false,
+  "observed_utc": "2026-11-09T02:59:24.200630+00:00",
+  "production_complete": {
+    "epochs": 64,
+    "files": {
+      "native_sourceBN_test_unscored.npz": "c1604caa877142f432cded7be89cba3a7425d04dfb60c0feb29ee17be957b02d",
+      "native_sourceBN_validation_unscored.npz": "9fe78eeb419f37ca5218c2400d63e178a2d75aef625ff4e54951f45138d62d6f",
+      "native_test_unscored.npz": "ada4acf8d07721c88f0c0efb97e16ec677c60c55c9b0b9e2c13bd9b40f6d071d",
+      "native_validation_unscored.npz": "5e73b03ae7662060aec917249f6d243b93c37f3155b7cc3d88a60c43e7992591",
+      "selected_native.pt": "777663aef3af0f7b313389264f7d9927cc58820a8c437ab5ecadb44454549659",
+      "selected_native_sourceBN.pt": "83a286084fc706926547d09ddf090e1c651498c29378b6619934cabedad906ee",
+      "selected_tail.pt": "016279ca692083adf0d50f6b828f5d489988ec638c6d80aadfa661a255c8c2c4",
+      "tail_test_unscored.npz": "617df5c6168c8a8fe685d3312d3afd91392e5fa86a107fff754e41afec4d4c1a",
+      "tail_validation_unscored.npz": "5679c0195a7198ca1ece5f7ea6103a742b6daed24b5bf82e02bbcd077714e610"
+    },
+    "final_state_sha256": "c80a0b2c2b3eccd6056702710c78a4c30acf393f54df556e08e9083867f27683",
+    "generated_fixture": false,
+    "held_truth_read": false,
+    "selected_native_epoch": 8,
+    "state": "frozen_unscored_production",
+    "tail_count": 3552,
+    "tail_end_update": 7104,
+    "tail_start_update": 3553,
+    "updates": 7104
+  },
+  "production_files_SHA_verified": 9,
+  "production_stage_cumulative_including_startup_validation_BN_and_output": {
+    "CPU": 4041.911115561,
+    "exit_code": 0,
+    "external_CPU": 0,
+    "held": 1,
+    "resource_stop": null,
+    "stage": "train",
+    "wall": 4034.4041776859667
+  },
+  "replay_committed_step_prefix_and_all_epoch_records_bitwise_equal": true,
+  "replay_worker": {
+    "CPU": 345.27,
+    "RSS_KiB": 2204796,
+    "boot_id": "ad409b48-89ce-4704-beee-3658103d5856",
+    "pid": 122701,
+    "startticks": 42339272,
+    "state": "R"
+  },
+  "scientific_code_or_method_changed": false,
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "state": "held1_native64_production_complete_unscored_three_arm_artifacts_verified_independent_replay_running",
+  "whole_fold_audit_completed": false,
+  "whole_fold_private_backup_completed": false
+}
