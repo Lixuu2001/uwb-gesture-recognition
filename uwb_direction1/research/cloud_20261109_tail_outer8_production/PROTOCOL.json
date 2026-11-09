@@ -1,0 +1,73 @@
+{
+  "method": "prospective_full8_native_dense_tail33_64_sourceBN",
+  "seed": 20261029,
+  "BN_seed": 21161030,
+  "epochs": 64,
+  "batch": 64,
+  "threads": 1,
+  "primary": "tail",
+  "baseline": "native_validation_selected",
+  "controls": [
+    "native_selected_sourceBN"
+  ],
+  "tail_start_epoch": 33,
+  "selection": "native highest validation present-class macro, then lowest global BCE, then earliest epoch; method fixed tail33..64 independent of validation/test",
+  "input": "all3 signed RMS/native617612",
+  "optimizer": "AdamWLookahead .001 wd.0001 alpha.5 k6/global onehot12 BCE/clip2",
+  "n_users": 8,
+  "held_users": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "val": "h%8+1",
+  "train": "other6 users",
+  "same_trajectory_passive_average": true,
+  "production_epochs": 64,
+  "independent_replay_epochs": 64,
+  "phase_wall_cap_seconds": 129600,
+  "phase_CPU_cap_seconds": 129600,
+  "phase_RSS_cap_KiB": 12582912,
+  "probe_wall_cap_seconds": 180,
+  "probe_CPU_cap_seconds": 180,
+  "probe_RSS_cap_KiB": 6291456,
+  "probe_steps": 16,
+  "probe_users": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "probe_labels": "development users3..6 training only, no validation or test labels; tail collector active every probe update solely to measure overhead; no quality inference, not a cohort fold",
+  "gate": {
+    "mean_accuracy_gain_min": 0.005,
+    "strict_improved_accuracy_users_min": 5,
+    "worst_accuracy_paired_delta_min": -0.02,
+    "tolerance": 1e-12,
+    "macro_reported_separately": true,
+    "all8_scored_once_only_after_all_freezes": true
+  },
+  "historical_status": "SWAD6 exact primary gate failed unchanged; fixedtail6 positive descriptive control remains control in old cohort. Selected here only for separate prospective8 study before new7/8truth access.",
+  "method_choice_data": "existing frozen users1..6 development evidence only; no new7/8labels or outer8scores",
+  "independent_validation": false,
+  "originality_claim": false,
+  "author_original_SWA_protocol_reproduced": false,
+  "actual_outer8_training_admitted": false,
+  "actual_outer8_workers_started": false,
+  "production_release_requires": [
+    "generated native/label/RNG/journal/first-gradient/BN tests pass",
+    "exactremote source prereg and private initial allmember raw readback before costprobe",
+    "real train-only bounded resource and storage estimate pass",
+    "additional native output/optimizer/replay audit completion and explicit production admission file; prep is not automatic activation"
+  ],
+  "disk_reserve_bytes": 268435456,
+  "transport_reserve_bytes": 134217728,
+  "training_data_root": "/workspace/uwb-restored-20261103",
+  "native_source": "/workspace/uwb-timemil-20261029",
+  "source_ids": "/workspace/uwb-accuracy-loop-20261029/run01/source_ids.npz"
+}

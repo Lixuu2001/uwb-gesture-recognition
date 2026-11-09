@@ -1,0 +1,140 @@
+{
+  "failed_generated_launch_fixture_retained": true,
+  "historical_MMD_first_fold_and_all_cohort_costs_not_reset": true,
+  "interpretation": "Generated tests are preparation costs, not UWB model fitting or new accuracy evidence. Do not double-add nested child costs.",
+  "receipts": {
+    "GENERATED_LAUNCH_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/generated_launch_checks.py"
+      ],
+      "exit_code": 1,
+      "max_RSS_KiB": 292776,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:37:53.601715+00:00",
+      "parent_CPU_seconds": 0.0003047520000000019,
+      "system_CPU_seconds": 0.188638,
+      "user_CPU_seconds": 2.666452,
+      "wall_seconds": 2.8561440919875167
+    },
+    "GENERATED_LAUNCH_V2_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/generated_launch_checks.py"
+      ],
+      "exit_code": 0,
+      "max_RSS_KiB": 292836,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:38:49.641393+00:00",
+      "parent_CPU_seconds": 0.00036437000000000275,
+      "system_CPU_seconds": 0.256025,
+      "user_CPU_seconds": 2.670077,
+      "wall_seconds": 4.428700787015259
+    },
+    "GENERATED_NATIVE64_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/generated_checks.py",
+        "generated_native64"
+      ],
+      "exit_code": 0,
+      "max_RSS_KiB": 464608,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:32:48.819115+00:00",
+      "parent_CPU_seconds": 0.00033513599999999977,
+      "system_CPU_seconds": 2.452029,
+      "user_CPU_seconds": 34.980895000000004,
+      "wall_seconds": 38.507141404028516
+    },
+    "GENERATED_PHASE_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/generated_phase_checks.py"
+      ],
+      "exit_code": 0,
+      "max_RSS_KiB": 293452,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:33:50.217351+00:00",
+      "parent_CPU_seconds": 0.0003767500000000021,
+      "system_CPU_seconds": 0.783751,
+      "user_CPU_seconds": 3.802098,
+      "wall_seconds": 17.52710659703007
+    },
+    "GENERATED_PHASE_V2_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/generated_phase_checks.py",
+        "generated_phase_v2"
+      ],
+      "exit_code": 0,
+      "max_RSS_KiB": 293352,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:35:03.889094+00:00",
+      "parent_CPU_seconds": 0.00032995100000000194,
+      "system_CPU_seconds": 0.771735,
+      "user_CPU_seconds": 3.861245,
+      "wall_seconds": 17.63621320296079
+    },
+    "GENERATED_PHASE_V3_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/generated_phase_checks.py",
+        "generated_phase_v3"
+      ],
+      "exit_code": 0,
+      "max_RSS_KiB": 293524,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:35:49.287881+00:00",
+      "parent_CPU_seconds": 0.0003037219999999993,
+      "system_CPU_seconds": 0.715227,
+      "user_CPU_seconds": 3.713485,
+      "wall_seconds": 17.48620950197801
+    },
+    "INITIAL_BUILD_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/prepare_initial.py"
+      ],
+      "exit_code": 0,
+      "max_RSS_KiB": 297504,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:40:23.182845+00:00",
+      "parent_CPU_seconds": 0.00030113600000000046,
+      "system_CPU_seconds": 0.230061,
+      "user_CPU_seconds": 3.7021339999999996,
+      "wall_seconds": 3.934245063981507
+    },
+    "INITIAL_TRANSFER_COST.json": {
+      "automatic_retries": 0,
+      "complete_pipeline_max_concurrency": 2,
+      "local_helper_CPU_not_isolated_measured": true,
+      "parts": 2,
+      "remote_service_CPU_unmeasured": true,
+      "wall_seconds": 31.684
+    },
+    "INITIAL_VERIFY_COST.json": {
+      "automatic_retries": 0,
+      "command": [
+        "python",
+        "/workspace/uwb-tail-outer8-production-20261109/verify_initial.py"
+      ],
+      "exit_code": 0,
+      "max_RSS_KiB": 299636,
+      "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+      "observed_utc": "2026-11-09T01:42:58.489254+00:00",
+      "parent_CPU_seconds": 0.0003682549999999979,
+      "system_CPU_seconds": 0.212754,
+      "user_CPU_seconds": 2.683637,
+      "wall_seconds": 2.9000820930232294
+    }
+  },
+  "successful_real16_update_probe_reused_from": "/workspace/uwb-tail-outer8-20261109/COST_LEDGER.json",
+  "unmeasured_helper_and_remote_CPU_not_assumed_zero": true
+}

@@ -1,0 +1,31 @@
+{
+  "CPU_and_wall_do_not_establish_accuracy": true,
+  "all8_dummy_folds": true,
+  "checks": [
+    "first_fold_waits_unscored_for_private_backup",
+    "duplicate_and_missing_private_handoff_blocked_before_next_worker",
+    "public_private_part_metadata_rejected",
+    "all8_serial_three_stages_and_CPU_wall_external_ledger_cumulative",
+    "actual_archive_verify_CPU_register_finalize_helpers_exercised_on_generated_folds",
+    "completed_eighth_fold_cannot_repeat",
+    "cumulative_CPU_cap_across_successful_children",
+    "cumulative_wall_cap_before_next_stage",
+    "disk_reserve_rejects_before_child_start",
+    "child_failure_retains_logs_and_refuses_automatic_restart",
+    "cannot_skip_first_held"
+  ],
+  "exact_phase_controller_executed_in_isolated_fixtures": true,
+  "new_automations_or_Drive_objects_created": false,
+  "passed": true,
+  "real_UWB_arrays_or_labels_read": false,
+  "real_production_admission": false,
+  "sources": {
+    "admission.py": "367903702a00536efc6787b7018e0c01668c41588ae474b9857af6a1b4b26a83",
+    "fold_backup.py": "53064b1de4a22f88632f7dc7f7d2a13368c29dbf2864ef9ab10b9e44e99d7ea7",
+    "fold_output_audit.py": "9697c9743d0c2f78c9b87295caf3fe2265167d2a8310a3d67b150a2c99ce25d8",
+    "generated_phase_checks.py": "e60cfa77d3a02816764194d134d99d247cade50506681ba4aba9cfb2683eff0e",
+    "phase_supervisor.py": "a9c5983f02b318f47ce8a3646a3c3d7fed98db5417dc752416c4487813c529d6",
+    "register_backup_costs.py": "309e16ec9804d4a04e46e0aa8b3e399bac1d2e480558dae63cbc8c1befb9f4e2",
+    "supervisor.py": "2900860b202bbd393ef00b135d1d988ddbf40980504642f15213d6f451bcfd4e"
+  }
+}
