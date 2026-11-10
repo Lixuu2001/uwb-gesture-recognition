@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "prospective_tail_outer8_held8_production64_complete_three_arm_unscored_artifacts_verified_original_controller_fresh64_replay_running",
+  "state": "prospective_tail_outer8_all8_prod64_fresh64_audits_private2512_complete_blind24_verified_once_score_code_preregistered_unscored",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -13,7 +13,7 @@
   "new_method_implemented": true,
   "new_method_validated_on_real_data": false,
   "paper_fulltext_review_complete": false,
-  "background_training_running": true,
+  "background_training_running": false,
   "next_required_input": null,
   "remaining_user_goal": "Latest user direction prioritizes complete subject-disjoint LOSO cross-person means/worst/paired results under matched training conditions. Single held1 .9841667 is one fold, not the cohort baseline .9366717. Select methods on six-user exploratory development then separately plan matched full eight-person outer LOSO; users7–8 not for new-method choice; no independent validation claim.",
   "original_source_files_in_cloud": 789,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Held8 production stage cumulative74724.887135wall s;rawCPU61020.266875+external361.375676=61381.642551localCPU budget s. Fresh64 replay running; rawCPU/external_CPU separate, original129600s origin/caps and historical/preparation costs unchanged.",
+  "compute": "Main terminal78627.968137wall/rawCPU64933.369957; external archive412.439121CPU once; post generated/prepare/blind inference measured separately plus60s operator allowance. Same129600s origin/caps; current resource observation retained; history unchanged.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261109_tail_outer8_production_held8_production64/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261109_tail_outer8_production_all8_private_score_prereg_20261110/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794264338.045163,
-  "background_training_pid": 134073,
-  "background_training_status_note": "Held8 production64/6912updates completed exit0;9 model/output SHA and finalfull semantic verified. Same controller134073/start49009913 running fresh64 replay134976/start49408320, committed epoch12/64/1296updates exact checkpoint/journal/prefix/epoch records. Val1 fixed checkpoint rule only; actual production64. Full replay/audit/privatebackup incomplete; zero held scores/full8 not complete.",
+  "background_training_observed_unix": 1794272069.1918042,
+  "background_training_pid": null,
+  "background_training_status_note": "All8 production64/fresh64/outputaudits complete,224frozen refs;144owner-only raw chunks/2512payload verified. All24 saved test outputs bitwise recomputed without truth values. Isolated full8 score code/metric/generated checks and source/manifest fixed before first once score. SUMMARY/lock absent; no new training.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Monitor existing controller134073/replay134976 sameboot/start; complete held8 fresh64/outputaudit then private fullmember/costrelease. Only all8 frozen/private verified may enter one whole-cohort score. No partial subset score, restart, or method/window/seed choice.",
+  "next_candidate": "Exactremote readback of all8 private/code/manifest then bound SCORING_RELEASE, one whole8 score, terminal private backup/report. No partial score, held9, retune or repeat.",
   "last_completed_update_utc": "2026-11-09T03:01:22.887556+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -18362,5 +18362,28 @@
   "all8_complete": false,
   "automation_changed": false,
   "all8_production64_complete": true
+}
+,
+  "tail_outer8_production_all8_private_score_prereg_20261110_20261109": {
+  "report": "results/cloud_20261109_tail_outer8_production_all8_private_score_prereg_20261110/RUN_REPORT.md",
+  "method": "prospective_native_fixed_dense_tail_epochs33_64_sourceBN_matched_outer8",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used_for_method_selection": false,
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "all8_production64_complete": true,
+  "all8_fresh64_complete": true,
+  "all8_output_audits_complete": true,
+  "all8_private_complete": true,
+  "private_chunks": 144,
+  "private_payload_files": 2512,
+  "frozen_refs": 224,
+  "total_production_updates": 55936,
+  "total_fresh_updates": 55936,
+  "blind_saved_model_inferences": 24,
+  "score_code_preregistered_before_first_score": true,
+  "held_scores_computed": 0,
+  "all8_scored": false,
+  "automation_changed": false
 }
 }

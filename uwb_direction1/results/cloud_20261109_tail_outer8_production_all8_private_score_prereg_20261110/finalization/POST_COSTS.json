@@ -1,0 +1,30 @@
+[
+  {
+    "id": "generated",
+    "CPU_seconds": 0.318753404,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/GENERATED_COST.json",
+    "receipt_sha256": "a241124e7031da7fff7cf3105d64c835decd9dbe57b1930ff8f6d2cbdb856156",
+    "kind": "measured_waited_process_family"
+  },
+  {
+    "id": "prepare",
+    "CPU_seconds": 3.8552345949999998,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/PREPARE_COST.json",
+    "receipt_sha256": "96c6b39888813f206a1e739e245991dec1c99e08c83d1c5c609639233a7061a3",
+    "kind": "measured_waited_process_family"
+  },
+  {
+    "id": "post-helper-allowance",
+    "CPU_seconds": 60,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/POST_PROTOCOL.json",
+    "receipt_sha256": "b6d159d0bbbff015eeeeef7176431d706f45c226362ebcca218e8e157e4ed758",
+    "kind": "budget_charge_not_CPU_measurement"
+  },
+  {
+    "id": "blind-inference",
+    "CPU_seconds": 82.224117406,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/INFERENCE_PROCESS_COST.json",
+    "receipt_sha256": "8be605cec4bb506229b0654e5fca23e9e49582b69486adce52904e2cc0026855",
+    "kind": "measured_waited_process_family"
+  }
+]

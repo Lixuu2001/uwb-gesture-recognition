@@ -1,0 +1,402 @@
+{
+  "state": "all8_production64_fresh64_outputaudits_private_complete_blind24_inference_verified_scoring_code_fixed_unscored",
+  "observed_utc": "2026-11-10T00:53:42.179809+00:00",
+  "authority_commit": "6655eb53765bd2c0d4a109d321860998294cfae3",
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "production_updates_by_held": [
+    7104,
+    7104,
+    6912,
+    6912,
+    7040,
+    7040,
+    6912,
+    6912
+  ],
+  "production_updates_total": 55936,
+  "fresh_replay_updates_total": 55936,
+  "frozen_model_output_refs": 224,
+  "private_folds": 8,
+  "private_parts_total": 144,
+  "private_tracked_payload_total": 2512,
+  "held8_archive_sha256": "e355202288fb410f22edfb48c40abc744b87246555df8ce178756c0fc03ecf82",
+  "source24_unchanged": true,
+  "scoring_source_hashes": "c511a3cebc5db8cad108c6d565ee4263d9e7612ce30e20a30ce2322ad84c6e39",
+  "manifest_sha256": "d56d369c41510c73dfcc0f5cbf3206f02454f8d95cefbd8c588fe606d452c689",
+  "inference_rows_verified": 24,
+  "gesture_truth_values_read_for_final_score": false,
+  "held_scores_computed": 0,
+  "resource_observation": {
+    "wall": 83237.84985310398,
+    "raw_training_controller_CPU": 64933.369957019,
+    "archive_external_CPU": 412.439120955,
+    "post_prior_CPU": 146.39810540500002,
+    "current_process_CPU": 3.381269393,
+    "total_budget_CPU": 65495.588410019
+  },
+  "stage_costs": {
+    "rows": [
+      {
+        "held": 1,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4032.3615577589953,
+        "CPU_increment_including_controller": 4041.911115561,
+        "cumulative": {
+          "CPU": 4041.911115561,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "resource_stop": null,
+          "wall": 4034.4041776859667
+        }
+      },
+      {
+        "held": 1,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4004.2805999320117,
+        "CPU_increment_including_controller": 4011.426234957001,
+        "cumulative": {
+          "CPU": 8053.337350518001,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "resource_stop": null,
+          "wall": 8038.683219858969
+        }
+      },
+      {
+        "held": 1,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 57.717604516015854,
+        "CPU_increment_including_controller": 57.33877738399951,
+        "cumulative": {
+          "CPU": 8110.676127902,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "resource_stop": null,
+          "wall": 8096.400224443001
+        }
+      },
+      {
+        "held": 2,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4063.168987818004,
+        "CPU_increment_including_controller": 4073.5704281509998,
+        "cumulative": {
+          "CPU": 12184.246556053,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "resource_stop": null,
+          "wall": 13540.071607744962
+        }
+      },
+      {
+        "held": 2,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4064.282240950968,
+        "CPU_increment_including_controller": 4072.555765469,
+        "cumulative": {
+          "CPU": 16256.802321522,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "resource_stop": null,
+          "wall": 17604.354860877967
+        }
+      },
+      {
+        "held": 2,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 59.26101241103606,
+        "CPU_increment_including_controller": 58.98804948800171,
+        "cumulative": {
+          "CPU": 16315.790371010002,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "resource_stop": null,
+          "wall": 17663.613632338005
+        }
+      },
+      {
+        "held": 3,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 3993.167079253006,
+        "CPU_increment_including_controller": 4004.766005670999,
+        "cumulative": {
+          "CPU": 20320.556376681,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "resource_stop": null,
+          "wall": 23015.719699179986
+        }
+      },
+      {
+        "held": 3,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 3993.7165581690497,
+        "CPU_increment_including_controller": 4002.850056764997,
+        "cumulative": {
+          "CPU": 24323.406433445998,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "resource_stop": null,
+          "wall": 27009.439178096014
+        }
+      },
+      {
+        "held": 3,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 59.25174946896732,
+        "CPU_increment_including_controller": 59.376230393001606,
+        "cumulative": {
+          "CPU": 24382.782663839,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "resource_stop": null,
+          "wall": 27068.694369395962
+        }
+      },
+      {
+        "held": 4,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 3929.689460071968,
+        "CPU_increment_including_controller": 3941.3519426509993,
+        "cumulative": {
+          "CPU": 28324.13460649,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "resource_stop": null,
+          "wall": 31594.082079998974
+        }
+      },
+      {
+        "held": 4,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 3876.225268617971,
+        "CPU_increment_including_controller": 3884.8166518310027,
+        "cumulative": {
+          "CPU": 32208.951258321,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "resource_stop": null,
+          "wall": 35470.30788854498
+        }
+      },
+      {
+        "held": 4,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 57.24923384800786,
+        "CPU_increment_including_controller": 57.295012523998594,
+        "cumulative": {
+          "CPU": 32266.246270845,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "resource_stop": null,
+          "wall": 35527.55185377499
+        }
+      },
+      {
+        "held": 5,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4029.868997364014,
+        "CPU_increment_including_controller": 4042.0348827289963,
+        "cumulative": {
+          "CPU": 36308.281153574,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "resource_stop": null,
+          "wall": 40544.431617291004
+        }
+      },
+      {
+        "held": 5,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4004.38230812602,
+        "CPU_increment_including_controller": 4013.9327817830053,
+        "cumulative": {
+          "CPU": 40322.213935357,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "resource_stop": null,
+          "wall": 44548.814928053005
+        }
+      },
+      {
+        "held": 5,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 58.76801507297205,
+        "CPU_increment_including_controller": 58.81816573999822,
+        "cumulative": {
+          "CPU": 40381.032101097,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "resource_stop": null,
+          "wall": 44607.58063499996
+        }
+      },
+      {
+        "held": 6,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4137.128636626003,
+        "CPU_increment_including_controller": 4150.671871345003,
+        "cumulative": {
+          "CPU": 44531.703972442,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "resource_stop": null,
+          "wall": 53498.071256553
+        }
+      },
+      {
+        "held": 6,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4195.28662214498,
+        "CPU_increment_including_controller": 4206.267387861997,
+        "cumulative": {
+          "CPU": 48737.971360304,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "resource_stop": null,
+          "wall": 57693.35924207198
+        }
+      },
+      {
+        "held": 6,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 61.298047105025034,
+        "CPU_increment_including_controller": 61.18096042599791,
+        "cumulative": {
+          "CPU": 48799.15232073,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "resource_stop": null,
+          "wall": 57754.660667032
+        }
+      },
+      {
+        "held": 7,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4112.983336215024,
+        "CPU_increment_including_controller": 4127.25101777901,
+        "cumulative": {
+          "CPU": 52926.40333850901,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "resource_stop": null,
+          "wall": 64322.08595614199
+        }
+      },
+      {
+        "held": 7,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4024.742642601952,
+        "CPU_increment_including_controller": 4035.7853785409898,
+        "cumulative": {
+          "CPU": 56962.18871705,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "resource_stop": null,
+          "wall": 68346.82526252896
+        }
+      },
+      {
+        "held": 7,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 62.800480147008784,
+        "CPU_increment_including_controller": 62.65723819300183,
+        "cumulative": {
+          "CPU": 57024.845955243,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "resource_stop": null,
+          "wall": 68409.62310007401
+        }
+      },
+      {
+        "held": 8,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 3981.57451539702,
+        "CPU_increment_including_controller": 3995.4209198009994,
+        "cumulative": {
+          "CPU": 61020.266875044,
+          "exit_code": 0,
+          "external_CPU": 361.375675746,
+          "resource_stop": null,
+          "wall": 74724.88713532401
+        }
+      },
+      {
+        "held": 8,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 3846.825344762008,
+        "CPU_increment_including_controller": 3856.9723229989977,
+        "cumulative": {
+          "CPU": 64877.239198043,
+          "exit_code": 0,
+          "external_CPU": 361.375675746,
+          "resource_stop": null,
+          "wall": 78571.707964689
+        }
+      },
+      {
+        "held": 8,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 56.262366791954264,
+        "CPU_increment_including_controller": 56.12874440899759,
+        "cumulative": {
+          "CPU": 64933.367942451994,
+          "exit_code": 0,
+          "external_CPU": 361.375675746,
+          "resource_stop": null,
+          "wall": 78627.96498671896
+        }
+      }
+    ],
+    "wall_definition": "same-boot kernel startticks/HZ to controller waited end; includes loading/training/validation/checkpoint/output/sourceBN where applicable, up to one kernel tick and polling latency; excludes interfold idle wall",
+    "CPU_definition": "differences of monotonically cumulative raw ledger CPU; includes controller/guards, excludes separately charged archives; never sum cumulative totals",
+    "totals_by_stage": {
+      "train": {
+        "wall_seconds": 32279.942570504034,
+        "CPU_seconds": 32376.978183688007
+      },
+      "replay": {
+        "wall_seconds": 32009.74158530496,
+        "CPU_seconds": 32084.60658020699
+      },
+      "output_audit": {
+        "wall_seconds": 472.6085093609872,
+        "CPU_seconds": 471.783178556997
+      }
+    }
+  },
+  "post_costs": [
+    {
+      "id": "generated",
+      "CPU_seconds": 0.318753404,
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/GENERATED_COST.json",
+      "receipt_sha256": "a241124e7031da7fff7cf3105d64c835decd9dbe57b1930ff8f6d2cbdb856156",
+      "kind": "measured_waited_process_family"
+    },
+    {
+      "id": "prepare",
+      "CPU_seconds": 3.8552345949999998,
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/PREPARE_COST.json",
+      "receipt_sha256": "96c6b39888813f206a1e739e245991dec1c99e08c83d1c5c609639233a7061a3",
+      "kind": "measured_waited_process_family"
+    },
+    {
+      "id": "post-helper-allowance",
+      "CPU_seconds": 60,
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/POST_PROTOCOL.json",
+      "receipt_sha256": "b6d159d0bbbff015eeeeef7176431d706f45c226362ebcca218e8e157e4ed758",
+      "kind": "budget_charge_not_CPU_measurement"
+    },
+    {
+      "id": "blind-inference",
+      "CPU_seconds": 82.224117406,
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/INFERENCE_PROCESS_COST.json",
+      "receipt_sha256": "8be605cec4bb506229b0654e5fca23e9e49582b69486adce52904e2cc0026855",
+      "kind": "measured_waited_process_family"
+    }
+  ],
+  "execution_transport_failure_fixed_same_boot": true,
+  "automation_changed": false,
+  "new_workers_started": false
+}

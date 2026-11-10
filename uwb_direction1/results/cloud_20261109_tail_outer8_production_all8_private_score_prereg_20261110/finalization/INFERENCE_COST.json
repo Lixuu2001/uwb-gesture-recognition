@@ -1,0 +1,419 @@
+{
+  "device": "CPU",
+  "held_labels_read": false,
+  "passes_per_model": 1,
+  "rows": [
+    {
+      "RMS_plus_forward_CPU_seconds": 2.939145408999999,
+      "RMS_plus_forward_wall_seconds": 2.939700502960477,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 1,
+      "model_forward_CPU_seconds": 2.592753848000002,
+      "model_forward_wall_seconds": 2.593415107228793,
+      "model_load": {
+        "CPU": 0.019562419999999747,
+        "wall": 0.019559720996767282
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.913474540999995,
+      "RMS_plus_forward_wall_seconds": 2.913738030998502,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 1,
+      "model_forward_CPU_seconds": 2.5677503350000013,
+      "model_forward_wall_seconds": 2.567974934936501,
+      "model_load": {
+        "CPU": 0.016063048999999552,
+        "wall": 0.016060956986621022
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.8726627260000015,
+      "RMS_plus_forward_wall_seconds": 2.8728708759881556,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 1,
+      "model_forward_CPU_seconds": 2.527267002000002,
+      "model_forward_wall_seconds": 2.5274933300097473,
+      "model_load": {
+        "CPU": 0.17005097400000047,
+        "wall": 0.1700504010077566
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.272028515999999,
+      "RMS_plus_forward_wall_seconds": 2.27206863212632,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 2,
+      "model_forward_CPU_seconds": 1.994004859999995,
+      "model_forward_wall_seconds": 1.9940548869781196,
+      "model_load": {
+        "CPU": 0.014880514999999761,
+        "wall": 0.014879068010486662
+      },
+      "n": 1000,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.283158866999994,
+      "RMS_plus_forward_wall_seconds": 2.283371600904502,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 2,
+      "model_forward_CPU_seconds": 2.0099341469999956,
+      "model_forward_wall_seconds": 2.0101224241079763,
+      "model_load": {
+        "CPU": 0.016507687999997245,
+        "wall": 0.016506079002283514
+      },
+      "n": 1000,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.2810529050000063,
+      "RMS_plus_forward_wall_seconds": 2.2812484760652296,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 2,
+      "model_forward_CPU_seconds": 2.017024069999998,
+      "model_forward_wall_seconds": 2.0172263677814044,
+      "model_load": {
+        "CPU": 0.01492505999999949,
+        "wall": 0.01492292300099507
+      },
+      "n": 1000,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.7992473549999985,
+      "RMS_plus_forward_wall_seconds": 2.799798921740148,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 3,
+      "model_forward_CPU_seconds": 2.4542371960000047,
+      "model_forward_wall_seconds": 2.4544937479076907,
+      "model_load": {
+        "CPU": 0.015140810999998422,
+        "wall": 0.015138803981244564
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.7153249729999835,
+      "RMS_plus_forward_wall_seconds": 2.715601772244554,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 3,
+      "model_forward_CPU_seconds": 2.3773416370000007,
+      "model_forward_wall_seconds": 2.3775876770960167,
+      "model_load": {
+        "CPU": 0.016318988999998396,
+        "wall": 0.01631721801823005
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.7606408530000017,
+      "RMS_plus_forward_wall_seconds": 2.760804422898218,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 3,
+      "model_forward_CPU_seconds": 2.437999920999996,
+      "model_forward_wall_seconds": 2.4381860228604637,
+      "model_load": {
+        "CPU": 0.01502341700000187,
+        "wall": 0.015021650004200637
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 3.049161059999996,
+      "RMS_plus_forward_wall_seconds": 3.049422469222918,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 4,
+      "model_forward_CPU_seconds": 2.6557548880000326,
+      "model_forward_wall_seconds": 2.6560392350074835,
+      "model_load": {
+        "CPU": 0.026710684999997625,
+        "wall": 0.026708167977631092
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.995982722999983,
+      "RMS_plus_forward_wall_seconds": 2.996297408186365,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 4,
+      "model_forward_CPU_seconds": 2.6443170219999743,
+      "model_forward_wall_seconds": 2.6446347000892274,
+      "model_load": {
+        "CPU": 0.017495053000004646,
+        "wall": 0.0174933280213736
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.8640592689999806,
+      "RMS_plus_forward_wall_seconds": 2.864264136995189,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 4,
+      "model_forward_CPU_seconds": 2.519840206000012,
+      "model_forward_wall_seconds": 2.5200579980155453,
+      "model_load": {
+        "CPU": 0.014945460999996385,
+        "wall": 0.014944145979825407
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.9664046010000007,
+      "RMS_plus_forward_wall_seconds": 2.966692315065302,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 5,
+      "model_forward_CPU_seconds": 2.614980741999986,
+      "model_forward_wall_seconds": 2.6152997769531794,
+      "model_load": {
+        "CPU": 0.017502954999997655,
+        "wall": 0.01750178000656888
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.95488036199999,
+      "RMS_plus_forward_wall_seconds": 2.9551563499262556,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 5,
+      "model_forward_CPU_seconds": 2.595079881999986,
+      "model_forward_wall_seconds": 2.595383181993384,
+      "model_load": {
+        "CPU": 0.018233117999997717,
+        "wall": 0.01823172700824216
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.9991720479999913,
+      "RMS_plus_forward_wall_seconds": 2.999396720144432,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 5,
+      "model_forward_CPU_seconds": 2.649027420000003,
+      "model_forward_wall_seconds": 2.649273490824271,
+      "model_load": {
+        "CPU": 0.016139381999998648,
+        "wall": 0.016138142033014446
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.644693977000017,
+      "RMS_plus_forward_wall_seconds": 2.6451664369669743,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 6,
+      "model_forward_CPU_seconds": 2.322754273000001,
+      "model_forward_wall_seconds": 2.323133908037562,
+      "model_load": {
+        "CPU": 0.01714506399999749,
+        "wall": 0.017142807017080486
+      },
+      "n": 1100,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.649233172999992,
+      "RMS_plus_forward_wall_seconds": 2.6503204148611985,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 6,
+      "model_forward_CPU_seconds": 2.3339281019999945,
+      "model_forward_wall_seconds": 2.3350364670041017,
+      "model_load": {
+        "CPU": 0.016050740999993707,
+        "wall": 0.01604794798186049
+      },
+      "n": 1100,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.599235388000011,
+      "RMS_plus_forward_wall_seconds": 2.599459547898732,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 6,
+      "model_forward_CPU_seconds": 2.303132415999997,
+      "model_forward_wall_seconds": 2.3033827557810582,
+      "model_load": {
+        "CPU": 0.016064020000001733,
+        "wall": 0.016062388953287154
+      },
+      "n": 1100,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.9158398980000015,
+      "RMS_plus_forward_wall_seconds": 2.9161856220453046,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 7,
+      "model_forward_CPU_seconds": 2.5630241389999853,
+      "model_forward_wall_seconds": 2.563397379941307,
+      "model_load": {
+        "CPU": 0.01526851100000215,
+        "wall": 0.015266605012584478
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.823484109999967,
+      "RMS_plus_forward_wall_seconds": 2.824072347022593,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 7,
+      "model_forward_CPU_seconds": 2.4923933290000235,
+      "model_forward_wall_seconds": 2.493013283878099,
+      "model_load": {
+        "CPU": 0.015941288000007603,
+        "wall": 0.015939837030600756
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.9390447840000036,
+      "RMS_plus_forward_wall_seconds": 2.9393247179104947,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 7,
+      "model_forward_CPU_seconds": 2.602662417000019,
+      "model_forward_wall_seconds": 2.602941468881909,
+      "model_load": {
+        "CPU": 0.015132648999994558,
+        "wall": 0.015130692976526916
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.9856445500000035,
+      "RMS_plus_forward_wall_seconds": 2.98585282813292,
+      "arm": "native",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 8,
+      "model_forward_CPU_seconds": 2.623785434999988,
+      "model_forward_wall_seconds": 2.623866015987005,
+      "model_load": {
+        "CPU": 0.017082821999991893,
+        "wall": 0.017079952987842262
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 3.0848108869999606,
+      "RMS_plus_forward_wall_seconds": 3.085063136939425,
+      "arm": "tail",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 8,
+      "model_forward_CPU_seconds": 2.7110483249999646,
+      "model_forward_wall_seconds": 2.7113280040211976,
+      "model_load": {
+        "CPU": 0.018426985000004947,
+        "wall": 0.018425664980895817
+      },
+      "n": 1200,
+      "threads": 1
+    },
+    {
+      "RMS_plus_forward_CPU_seconds": 2.9102184779999902,
+      "RMS_plus_forward_wall_seconds": 2.9104334479779936,
+      "arm": "native_sourceBN",
+      "batch": 64,
+      "bitwise_saved_output_verified": true,
+      "gesture_truth_read": false,
+      "held": 8,
+      "model_forward_CPU_seconds": 2.5518836210000018,
+      "model_forward_wall_seconds": 2.5521065970533527,
+      "model_load": {
+        "CPU": 0.01552943699999787,
+        "wall": 0.015527453040704131
+      },
+      "n": 1200,
+      "threads": 1
+    }
+  ],
+  "sourceBN_already_in_frozen_models": true,
+  "state": "all24_saved_models_blind_inference_matches_frozen_scores",
+  "timing_is_single_pass_not_a_latency_distribution": true,
+  "warmup_repetitions": 0
+}

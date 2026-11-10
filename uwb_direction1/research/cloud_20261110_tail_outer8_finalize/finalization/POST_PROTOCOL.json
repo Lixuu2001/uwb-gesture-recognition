@@ -1,0 +1,32 @@
+{
+  "state": "post_training_full8_scoring_implementation_fixed_before_first_outer8_score",
+  "production_source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "production_protocol_sha256": "9f6e3679e2959addc565221deaeea02bf5bf53edf8ca22e225f23d83640e04ec",
+  "method_and_configuration_unchanged": true,
+  "primary": "tail",
+  "baseline": "native",
+  "control": "native_sourceBN_descriptive_only",
+  "gate": {
+    "mean_accuracy_gain_min": 0.005,
+    "strict_improved_accuracy_users_min": 5,
+    "worst_accuracy_paired_delta_min": -0.02,
+    "tolerance": 1e-12,
+    "macro_reported_separately": true,
+    "all8_scored_once_only_after_all_freezes": true
+  },
+  "metrics": "accuracy fraction correct; macro recall average over true-support-positive classes; absent-class recall null; lowest-class-index argmax tie; per-user equal mean and pooled sample accuracy separate",
+  "roles": "held h=1..8, validation h%8+1, other6 train; actual IDs private; original6900 dev IDs plus all2400 user7/8IDs, no new label-based filtering",
+  "readiness": "all8 prod64/fresh64 and all224 frozen refs, output audits, owner-only raw-allmember proofs and cost releases before scoring; exact remote source/code and manifest readback; blind24-arm inference bitwise before once release; exclusive once lock before first truth-value read",
+  "blind_inference": "one batch64 single-thread CPU test-input forward per24 saved models; separately time model-only forward and RMS+forward, verify all frozen outputs bitwise; no warmup/grid/retraining/sourceBN recalibration",
+  "classification_function": "exact reused classification_metrics from closed SWAD6 roles_metrics; no old scorer invoked",
+  "old_metrics_source_sha256": "ecd408be45e4e574900257a541d7ba8ca4cc4b8ca79abbdf15ee1a48c91bafd5",
+  "private_scoring_audit": "retain actual IDs/truth/users/three argmax predictions privately, never Git",
+  "resource_limits": "same original129600s wall/local aggregateCPU origin,12GiB RSS,256MiB reserve; raw ledger CPU + measured archive/helper charges + separately measured post-stage families, never cumulative-stage sum or transferwall doublecount",
+  "post_operator_helper_CPU_allowance_seconds": 60,
+  "helper_allowance_is_budget_not_measurement": true,
+  "historical_all8_exploratory": true,
+  "independent_validation": false,
+  "originality_claim": false,
+  "no_test_method_window_LR_seed_tuning": true,
+  "controls_cannot_replace_primary_after_scores": true
+}

@@ -1,0 +1,11 @@
+{
+  "initial_failure": "NumPy2.3.5 numpy.lib.format._read_array_header unavailable",
+  "repair": "Use public read_array_header_1_0 for verified NPYv1.0 metadata header",
+  "header_shape": [
+    9593
+  ],
+  "header_dtype": "int64",
+  "gesture_truth_values_read": false,
+  "scientific_runner_or_metrics_changed": false,
+  "successful_generated_checks_not_repeated": true
+}
