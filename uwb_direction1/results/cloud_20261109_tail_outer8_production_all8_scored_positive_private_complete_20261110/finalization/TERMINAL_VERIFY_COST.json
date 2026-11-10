@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "-c",
+    "import sys;sys.path.insert(0,\"/workspace/uwb-tail-outer8-production-20261109\");from core import ROOT,read,write;from stream_archive import verify;b=ROOT/\"terminal_backup\";m=read(b/\"MANIFEST.json\");rows=[read(b/(\"READBACK_\"+str(i).zfill(3)+\".json\")) for i in range(len(m[\"chunks\"]))];assert all(r[\"metadata\"][\"shared\"] is False and len(r[\"metadata\"][\"permissions\"])==1 and r[\"metadata\"][\"permissions\"][0][\"role\"]==\"owner\" and r[\"raw_fetch\"] and r[\"download_verified\"] and r[\"include_base64\"] is False for r in rows);write(b/\"READBACK_INPUT.json\",rows);write(b/\"READBACK_VERIFIED.json\",verify(m,rows));print(\"Terminal once-result/source/private-ID-audit allmember raw verification complete\")"
+  ],
+  "observed_utc": "2026-11-10T00:58:56.419003+00:00",
+  "wall_seconds": 2.7542528759804554,
+  "user_CPU_seconds": 2.496649,
+  "system_CPU_seconds": 0.254979,
+  "parent_CPU_seconds": 0.0003064239999999996,
+  "max_RSS_KiB": 292880,
+  "exit_code": 0,
+  "measurement": "stdlib resource.RUSAGE_CHILDREN for waited process family; no external time utility",
+  "automatic_retries": 0
+}

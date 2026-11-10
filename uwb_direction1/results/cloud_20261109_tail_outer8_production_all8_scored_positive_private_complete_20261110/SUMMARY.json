@@ -1,0 +1,1937 @@
+{
+  "aggregates": {
+    "native": {
+      "equal_user_mean_accuracy": 0.9644734848484848,
+      "equal_user_mean_present_macro_recall": 0.9644734848484848,
+      "pooled_sample_accuracy": 0.9641935483870968,
+      "worst_user_accuracy": 0.9133333333333333,
+      "worst_user_present_macro_recall": 0.9133333333333334
+    },
+    "native_sourceBN": {
+      "equal_user_mean_accuracy": 0.9656837121212122,
+      "equal_user_mean_present_macro_recall": 0.9656837121212122,
+      "pooled_sample_accuracy": 0.9653763440860215,
+      "worst_user_accuracy": 0.9133333333333333,
+      "worst_user_present_macro_recall": 0.9133333333333334
+    },
+    "tail": {
+      "equal_user_mean_accuracy": 0.972844696969697,
+      "equal_user_mean_present_macro_recall": 0.972844696969697,
+      "pooled_sample_accuracy": 0.9725806451612903,
+      "worst_user_accuracy": 0.9108333333333334,
+      "worst_user_present_macro_recall": 0.9108333333333333
+    }
+  },
+  "all8_frozen_manifest_sha256": "d56d369c41510c73dfcc0f5cbf3206f02454f8d95cefbd8c588fe606d452c689",
+  "all8_historical_exposure_exploratory": true,
+  "all8_production_fresh64_audits_private_verified_before_scoring": true,
+  "archive_external_charges": [
+    {
+      "CPU_seconds": 10.160006692,
+      "id": "held1-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "9ac0c42a3392f3944865d64cc60f79c446a17a93edbc9fecb827a8898c806c9b"
+    },
+    {
+      "CPU_seconds": 3.688114257,
+      "id": "held1-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "255337317ab50f33c478569dd205a8c9d225c6f63e0cbb933a27f4bc1a5e1e7b"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held1-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held1/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    },
+    {
+      "CPU_seconds": 9.804058431,
+      "id": "held2-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held2/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "31d02f4ae83f3b2e61039fbb654678d1e5898c5e3ffb30b390318c2fb5bccc2f"
+    },
+    {
+      "CPU_seconds": 3.720242526,
+      "id": "held2-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held2/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "db7d3be295d76195a276251b614241eb8da4a3691d2d38410ba772508c98da74"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held2-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held2/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    },
+    {
+      "CPU_seconds": 9.996966531000002,
+      "id": "held3-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held3/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "9ee24f033c4336486202efdd289ad66cf179b922515f17cbd110221bc23ad543"
+    },
+    {
+      "CPU_seconds": 3.7825084650000003,
+      "id": "held3-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held3/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "70ded2c36a4f23d971a1c6d03d579f709c7aeac754d8415e5f6bb9b14b690efc"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held3-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held3/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    },
+    {
+      "CPU_seconds": 9.667403888,
+      "id": "held4-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held4/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "7dc7b43761a0e28a6e83e210b2d9c8b352a6e4bbc2f10ef85ce590658a48287e"
+    },
+    {
+      "CPU_seconds": 3.6054222719999998,
+      "id": "held4-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held4/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "4973a05d3003f339bac80805c08b9434da6938327c48db2c883e1d72d84022d3"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held4-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held4/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    },
+    {
+      "CPU_seconds": 9.469332856,
+      "id": "held5-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held5/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "fa196a40440168df894e8fa3a16e4646c3833d9d940282453eae2e741866d3e9"
+    },
+    {
+      "CPU_seconds": 3.673818143,
+      "id": "held5-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held5/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "7402e56d8703ec436a39d7dad14973f3529252d42d3a4a713a6867d1142f9c62"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held5-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held5/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    },
+    {
+      "CPU_seconds": 9.797832636,
+      "id": "held6-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held6/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "5a2f2a40643d0a5912b564b1a25e82f507e99f478f924a59883dd94f81b41807"
+    },
+    {
+      "CPU_seconds": 4.0515849489999995,
+      "id": "held6-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held6/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "493a02097d2704b45ef9d909c5b91d799b62f8f1e0be0052e5b3e5e2e3ffbe07"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held6-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held6/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    },
+    {
+      "CPU_seconds": 10.140452318999998,
+      "id": "held7-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held7/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "c221a3059d30667fba6b790df5be808909f66e1d9a0bbd7c2234728c5b95082b"
+    },
+    {
+      "CPU_seconds": 3.817931781,
+      "id": "held7-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held7/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "e2bcf213133cf8e6ffe64c0213e8b15da0e00bc2c26f3cf0891f8891b91a7b43"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held7-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held7/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    },
+    {
+      "CPU_seconds": 9.677267191,
+      "id": "held8-backup-build",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held8/BACKUP_BUILD_COST.json",
+      "receipt_sha256": "e034a2add671f129335acde1adf6fbdfd6bc45a3899f265781cfb302c04dce78"
+    },
+    {
+      "CPU_seconds": 3.386178018,
+      "id": "held8-backup-verify",
+      "kind": "measured_waited_process_family",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held8/BACKUP_VERIFY_COST.json",
+      "receipt_sha256": "74a27472e6f914751336f66162344fc82477f246d45fa0f11b1e25f5f8273c77"
+    },
+    {
+      "CPU_seconds": 38.0,
+      "id": "held8-backup-helper-uppercharge",
+      "kind": "budget_charge_not_measured_CPU",
+      "receipt": "/workspace/uwb-tail-outer8-production-20261109/folds/held8/BACKUP_HELPER_CPU_ALLOWANCE.json",
+      "receipt_sha256": "0109be248546ef049439baa59cead811160cca9ebd0288f4e92fa38c847cd220"
+    }
+  ],
+  "baseline_arm": "native",
+  "causal_attribution_validated": false,
+  "cohort_spending_gate_passed": true,
+  "cost_observation_at_score": {
+    "archive_external_CPU": 412.439120955,
+    "current_process_CPU": 3.331622815,
+    "post_prior_CPU": 146.39810540500002,
+    "raw_training_controller_CPU": 64933.369957019,
+    "total_budget_CPU": 65495.538795838,
+    "wall": 83367.516324964
+  },
+  "descriptive_control": "native_sourceBN",
+  "evaluation_wall_seconds": 2.851888052013237,
+  "exact_original_SWA_protocol_reproduced": false,
+  "finalizer_invocations": 1,
+  "gate_is_not_definition_of_any_positive_effect": true,
+  "independent_new_user_validation": false,
+  "inference_cost": {
+    "device": "CPU",
+    "held_labels_read": false,
+    "passes_per_model": 1,
+    "rows": [
+      {
+        "RMS_plus_forward_CPU_seconds": 2.939145408999999,
+        "RMS_plus_forward_wall_seconds": 2.939700502960477,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 1,
+        "model_forward_CPU_seconds": 2.592753848000002,
+        "model_forward_wall_seconds": 2.593415107228793,
+        "model_load": {
+          "CPU": 0.019562419999999747,
+          "wall": 0.019559720996767282
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.913474540999995,
+        "RMS_plus_forward_wall_seconds": 2.913738030998502,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 1,
+        "model_forward_CPU_seconds": 2.5677503350000013,
+        "model_forward_wall_seconds": 2.567974934936501,
+        "model_load": {
+          "CPU": 0.016063048999999552,
+          "wall": 0.016060956986621022
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.8726627260000015,
+        "RMS_plus_forward_wall_seconds": 2.8728708759881556,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 1,
+        "model_forward_CPU_seconds": 2.527267002000002,
+        "model_forward_wall_seconds": 2.5274933300097473,
+        "model_load": {
+          "CPU": 0.17005097400000047,
+          "wall": 0.1700504010077566
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.272028515999999,
+        "RMS_plus_forward_wall_seconds": 2.27206863212632,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 2,
+        "model_forward_CPU_seconds": 1.994004859999995,
+        "model_forward_wall_seconds": 1.9940548869781196,
+        "model_load": {
+          "CPU": 0.014880514999999761,
+          "wall": 0.014879068010486662
+        },
+        "n": 1000,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.283158866999994,
+        "RMS_plus_forward_wall_seconds": 2.283371600904502,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 2,
+        "model_forward_CPU_seconds": 2.0099341469999956,
+        "model_forward_wall_seconds": 2.0101224241079763,
+        "model_load": {
+          "CPU": 0.016507687999997245,
+          "wall": 0.016506079002283514
+        },
+        "n": 1000,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.2810529050000063,
+        "RMS_plus_forward_wall_seconds": 2.2812484760652296,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 2,
+        "model_forward_CPU_seconds": 2.017024069999998,
+        "model_forward_wall_seconds": 2.0172263677814044,
+        "model_load": {
+          "CPU": 0.01492505999999949,
+          "wall": 0.01492292300099507
+        },
+        "n": 1000,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.7992473549999985,
+        "RMS_plus_forward_wall_seconds": 2.799798921740148,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 3,
+        "model_forward_CPU_seconds": 2.4542371960000047,
+        "model_forward_wall_seconds": 2.4544937479076907,
+        "model_load": {
+          "CPU": 0.015140810999998422,
+          "wall": 0.015138803981244564
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.7153249729999835,
+        "RMS_plus_forward_wall_seconds": 2.715601772244554,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 3,
+        "model_forward_CPU_seconds": 2.3773416370000007,
+        "model_forward_wall_seconds": 2.3775876770960167,
+        "model_load": {
+          "CPU": 0.016318988999998396,
+          "wall": 0.01631721801823005
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.7606408530000017,
+        "RMS_plus_forward_wall_seconds": 2.760804422898218,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 3,
+        "model_forward_CPU_seconds": 2.437999920999996,
+        "model_forward_wall_seconds": 2.4381860228604637,
+        "model_load": {
+          "CPU": 0.01502341700000187,
+          "wall": 0.015021650004200637
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 3.049161059999996,
+        "RMS_plus_forward_wall_seconds": 3.049422469222918,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 4,
+        "model_forward_CPU_seconds": 2.6557548880000326,
+        "model_forward_wall_seconds": 2.6560392350074835,
+        "model_load": {
+          "CPU": 0.026710684999997625,
+          "wall": 0.026708167977631092
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.995982722999983,
+        "RMS_plus_forward_wall_seconds": 2.996297408186365,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 4,
+        "model_forward_CPU_seconds": 2.6443170219999743,
+        "model_forward_wall_seconds": 2.6446347000892274,
+        "model_load": {
+          "CPU": 0.017495053000004646,
+          "wall": 0.0174933280213736
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.8640592689999806,
+        "RMS_plus_forward_wall_seconds": 2.864264136995189,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 4,
+        "model_forward_CPU_seconds": 2.519840206000012,
+        "model_forward_wall_seconds": 2.5200579980155453,
+        "model_load": {
+          "CPU": 0.014945460999996385,
+          "wall": 0.014944145979825407
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.9664046010000007,
+        "RMS_plus_forward_wall_seconds": 2.966692315065302,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 5,
+        "model_forward_CPU_seconds": 2.614980741999986,
+        "model_forward_wall_seconds": 2.6152997769531794,
+        "model_load": {
+          "CPU": 0.017502954999997655,
+          "wall": 0.01750178000656888
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.95488036199999,
+        "RMS_plus_forward_wall_seconds": 2.9551563499262556,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 5,
+        "model_forward_CPU_seconds": 2.595079881999986,
+        "model_forward_wall_seconds": 2.595383181993384,
+        "model_load": {
+          "CPU": 0.018233117999997717,
+          "wall": 0.01823172700824216
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.9991720479999913,
+        "RMS_plus_forward_wall_seconds": 2.999396720144432,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 5,
+        "model_forward_CPU_seconds": 2.649027420000003,
+        "model_forward_wall_seconds": 2.649273490824271,
+        "model_load": {
+          "CPU": 0.016139381999998648,
+          "wall": 0.016138142033014446
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.644693977000017,
+        "RMS_plus_forward_wall_seconds": 2.6451664369669743,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 6,
+        "model_forward_CPU_seconds": 2.322754273000001,
+        "model_forward_wall_seconds": 2.323133908037562,
+        "model_load": {
+          "CPU": 0.01714506399999749,
+          "wall": 0.017142807017080486
+        },
+        "n": 1100,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.649233172999992,
+        "RMS_plus_forward_wall_seconds": 2.6503204148611985,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 6,
+        "model_forward_CPU_seconds": 2.3339281019999945,
+        "model_forward_wall_seconds": 2.3350364670041017,
+        "model_load": {
+          "CPU": 0.016050740999993707,
+          "wall": 0.01604794798186049
+        },
+        "n": 1100,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.599235388000011,
+        "RMS_plus_forward_wall_seconds": 2.599459547898732,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 6,
+        "model_forward_CPU_seconds": 2.303132415999997,
+        "model_forward_wall_seconds": 2.3033827557810582,
+        "model_load": {
+          "CPU": 0.016064020000001733,
+          "wall": 0.016062388953287154
+        },
+        "n": 1100,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.9158398980000015,
+        "RMS_plus_forward_wall_seconds": 2.9161856220453046,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 7,
+        "model_forward_CPU_seconds": 2.5630241389999853,
+        "model_forward_wall_seconds": 2.563397379941307,
+        "model_load": {
+          "CPU": 0.01526851100000215,
+          "wall": 0.015266605012584478
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.823484109999967,
+        "RMS_plus_forward_wall_seconds": 2.824072347022593,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 7,
+        "model_forward_CPU_seconds": 2.4923933290000235,
+        "model_forward_wall_seconds": 2.493013283878099,
+        "model_load": {
+          "CPU": 0.015941288000007603,
+          "wall": 0.015939837030600756
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.9390447840000036,
+        "RMS_plus_forward_wall_seconds": 2.9393247179104947,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 7,
+        "model_forward_CPU_seconds": 2.602662417000019,
+        "model_forward_wall_seconds": 2.602941468881909,
+        "model_load": {
+          "CPU": 0.015132648999994558,
+          "wall": 0.015130692976526916
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.9856445500000035,
+        "RMS_plus_forward_wall_seconds": 2.98585282813292,
+        "arm": "native",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 8,
+        "model_forward_CPU_seconds": 2.623785434999988,
+        "model_forward_wall_seconds": 2.623866015987005,
+        "model_load": {
+          "CPU": 0.017082821999991893,
+          "wall": 0.017079952987842262
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 3.0848108869999606,
+        "RMS_plus_forward_wall_seconds": 3.085063136939425,
+        "arm": "tail",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 8,
+        "model_forward_CPU_seconds": 2.7110483249999646,
+        "model_forward_wall_seconds": 2.7113280040211976,
+        "model_load": {
+          "CPU": 0.018426985000004947,
+          "wall": 0.018425664980895817
+        },
+        "n": 1200,
+        "threads": 1
+      },
+      {
+        "RMS_plus_forward_CPU_seconds": 2.9102184779999902,
+        "RMS_plus_forward_wall_seconds": 2.9104334479779936,
+        "arm": "native_sourceBN",
+        "batch": 64,
+        "bitwise_saved_output_verified": true,
+        "gesture_truth_read": false,
+        "held": 8,
+        "model_forward_CPU_seconds": 2.5518836210000018,
+        "model_forward_wall_seconds": 2.5521065970533527,
+        "model_load": {
+          "CPU": 0.01552943699999787,
+          "wall": 0.015527453040704131
+        },
+        "n": 1200,
+        "threads": 1
+      }
+    ],
+    "sourceBN_already_in_frozen_models": true,
+    "state": "all24_saved_models_blind_inference_matches_frozen_scores",
+    "timing_is_single_pass_not_a_latency_distribution": true,
+    "warmup_repetitions": 0
+  },
+  "method_config_seed_selected_on_dev6_before_new7_8_method_choice": true,
+  "novel_contribution_validated": false,
+  "old_singlefold_once_invocations": 0,
+  "paired_baseline_budget": "same native617612/three radar/RMS/B64/64/seed20261029 shared passive-averaging trajectory; standalone baseline wall/CPU not separately measured",
+  "paired_vs_native": {
+    "native_sourceBN": {
+      "accuracy_losses": 4,
+      "accuracy_ties": 2,
+      "mean_accuracy_delta": 0.0012102272727272656,
+      "mean_present_macro_recall_delta": 0.0012102272727272934,
+      "paired_accuracy_deltas": [
+        -0.0025000000000000577,
+        -0.0010000000000000009,
+        0.0,
+        -0.0008333333333333526,
+        0.0,
+        0.008181818181818179,
+        0.00666666666666671,
+        -0.0008333333333333526
+      ],
+      "paired_present_macro_recall_deltas": [
+        -0.0024999999999999467,
+        -0.001000000000000223,
+        0.0,
+        -0.0008333333333333526,
+        0.0,
+        0.00818181818181829,
+        0.006666666666666821,
+        -0.0008333333333332416
+      ],
+      "strict_accuracy_wins": 2,
+      "worst_paired_accuracy_delta": -0.0025000000000000577,
+      "worst_paired_present_macro_recall_delta": -0.0024999999999999467
+    },
+    "tail": {
+      "accuracy_losses": 1,
+      "accuracy_ties": 1,
+      "mean_accuracy_delta": 0.008371212121212127,
+      "mean_present_macro_recall_delta": 0.008371212121212113,
+      "paired_accuracy_deltas": [
+        0.009166666666666656,
+        0.0,
+        -0.0024999999999999467,
+        0.010000000000000009,
+        0.0050000000000000044,
+        0.023636363636363678,
+        0.018333333333333313,
+        0.0033333333333332993
+      ],
+      "paired_present_macro_recall_deltas": [
+        0.009166666666666656,
+        0.0,
+        -0.0025000000000001688,
+        0.009999999999999898,
+        0.0050000000000000044,
+        0.023636363636363678,
+        0.018333333333333424,
+        0.0033333333333334103
+      ],
+      "strict_accuracy_wins": 6,
+      "worst_paired_accuracy_delta": -0.0024999999999999467,
+      "worst_paired_present_macro_recall_delta": -0.0025000000000001688
+    }
+  },
+  "predeclared_accuracy_gate": {
+    "all8_scored_once_only_after_all_freezes": true,
+    "macro_reported_separately": true,
+    "mean_accuracy_gain_min": 0.005,
+    "strict_improved_accuracy_users_min": 5,
+    "tolerance": 1e-12,
+    "worst_accuracy_paired_delta_min": -0.02
+  },
+  "primary_arm": "tail",
+  "prior_closed_methods_unchanged": true,
+  "private_sample_audit_sha256": "a4e85c86dc38f74917bd66b85efd11a23eb023f9dc51fd7836ad5051758e3a4f",
+  "rows": [
+    {
+      "held": 1,
+      "native": {
+        "accuracy": 0.9858333333333333,
+        "class_recall": [
+          1.0,
+          0.96,
+          0.99,
+          0.98,
+          0.99,
+          1.0,
+          1.0,
+          0.98,
+          0.96,
+          0.97,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9858333333333333
+      },
+      "native_sourceBN": {
+        "accuracy": 0.9833333333333333,
+        "class_recall": [
+          0.98,
+          0.96,
+          0.99,
+          0.98,
+          0.99,
+          0.99,
+          1.0,
+          0.98,
+          0.96,
+          0.97,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9833333333333334
+      },
+      "tail": {
+        "accuracy": 0.995,
+        "class_recall": [
+          1.0,
+          0.98,
+          1.0,
+          0.98,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.98,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.995
+      }
+    },
+    {
+      "held": 2,
+      "native": {
+        "accuracy": 0.997,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.98,
+          1.0,
+          1.0,
+          0.99,
+          1.0,
+          null,
+          null
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_class_macro_recall": 0.9970000000000001
+      },
+      "native_sourceBN": {
+        "accuracy": 0.996,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.97,
+          1.0,
+          1.0,
+          0.99,
+          1.0,
+          null,
+          null
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_class_macro_recall": 0.9959999999999999
+      },
+      "tail": {
+        "accuracy": 0.997,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.98,
+          1.0,
+          1.0,
+          0.99,
+          1.0,
+          null,
+          null
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          0,
+          0
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          10,
+          11
+        ],
+        "n": 1000,
+        "present_class_macro_recall": 0.9970000000000001
+      }
+    },
+    {
+      "held": 3,
+      "native": {
+        "accuracy": 0.9133333333333333,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.99,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.97,
+          1.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9133333333333334
+      },
+      "native_sourceBN": {
+        "accuracy": 0.9133333333333333,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.99,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.97,
+          1.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9133333333333334
+      },
+      "tail": {
+        "accuracy": 0.9108333333333334,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.99,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.94,
+          1.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9108333333333333
+      }
+    },
+    {
+      "held": 4,
+      "native": {
+        "accuracy": 0.9725,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.93,
+          1.0,
+          1.0,
+          1.0,
+          0.99,
+          0.88,
+          0.97,
+          1.0,
+          0.9,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9725000000000001
+      },
+      "native_sourceBN": {
+        "accuracy": 0.9716666666666667,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.93,
+          1.0,
+          1.0,
+          1.0,
+          0.99,
+          0.88,
+          0.97,
+          1.0,
+          0.89,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9716666666666668
+      },
+      "tail": {
+        "accuracy": 0.9825,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.94,
+          1.0,
+          0.99,
+          1.0,
+          1.0,
+          0.99,
+          0.99,
+          1.0,
+          0.88,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9825
+      }
+    },
+    {
+      "held": 5,
+      "native": {
+        "accuracy": 0.9866666666666667,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          0.98,
+          0.95,
+          0.98,
+          0.96,
+          1.0,
+          0.99,
+          1.0,
+          0.99,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9866666666666667
+      },
+      "native_sourceBN": {
+        "accuracy": 0.9866666666666667,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          0.98,
+          0.96,
+          0.98,
+          0.95,
+          1.0,
+          0.99,
+          1.0,
+          0.99,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9866666666666667
+      },
+      "tail": {
+        "accuracy": 0.9916666666666667,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          0.99,
+          0.98,
+          0.96,
+          0.98,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9916666666666667
+      }
+    },
+    {
+      "held": 6,
+      "native": {
+        "accuracy": 0.9254545454545454,
+        "class_recall": [
+          1.0,
+          0.99,
+          0.83,
+          null,
+          0.99,
+          0.97,
+          0.94,
+          0.96,
+          0.78,
+          0.72,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_class_macro_recall": 0.9254545454545454
+      },
+      "native_sourceBN": {
+        "accuracy": 0.9336363636363636,
+        "class_recall": [
+          1.0,
+          0.99,
+          0.8,
+          null,
+          0.98,
+          0.98,
+          0.94,
+          0.97,
+          0.81,
+          0.8,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_class_macro_recall": 0.9336363636363637
+      },
+      "tail": {
+        "accuracy": 0.9490909090909091,
+        "class_recall": [
+          1.0,
+          1.0,
+          0.86,
+          null,
+          0.98,
+          0.98,
+          0.93,
+          0.99,
+          0.81,
+          0.89,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          0,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [
+          3
+        ],
+        "n": 1100,
+        "present_class_macro_recall": 0.9490909090909091
+      }
+    },
+    {
+      "held": 7,
+      "native": {
+        "accuracy": 0.9616666666666667,
+        "class_recall": [
+          0.59,
+          1.0,
+          0.97,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.99,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9616666666666666
+      },
+      "native_sourceBN": {
+        "accuracy": 0.9683333333333334,
+        "class_recall": [
+          0.67,
+          1.0,
+          0.98,
+          1.0,
+          1.0,
+          1.0,
+          0.99,
+          1.0,
+          1.0,
+          1.0,
+          0.99,
+          0.99
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9683333333333334
+      },
+      "tail": {
+        "accuracy": 0.98,
+        "class_recall": [
+          0.76,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.98
+      }
+    },
+    {
+      "held": 8,
+      "native": {
+        "accuracy": 0.9733333333333334,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.85,
+          0.96,
+          1.0,
+          0.98,
+          0.94,
+          0.99,
+          0.96,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9733333333333333
+      },
+      "native_sourceBN": {
+        "accuracy": 0.9725,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.85,
+          0.94,
+          1.0,
+          0.98,
+          0.94,
+          0.99,
+          0.97,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9725
+      },
+      "tail": {
+        "accuracy": 0.9766666666666667,
+        "class_recall": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.86,
+          0.97,
+          1.0,
+          0.99,
+          0.94,
+          0.98,
+          0.98,
+          1.0
+        ],
+        "class_support": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "metric_definition": "macro recall averaged over classes with nonzero true support; absent-class recalls null, never zero-filled or silently called twelve-class macro",
+        "missing_classes": [],
+        "n": 1200,
+        "present_class_macro_recall": 0.9766666666666667
+      }
+    }
+  ],
+  "score_release": {
+    "all8_frozen_manifest_sha256": "d56d369c41510c73dfcc0f5cbf3206f02454f8d95cefbd8c588fe606d452c689",
+    "branch_head_verified": true,
+    "force": false,
+    "inference_cost_sha256": "e8ff82fc4be10173d833d6536f0dc22b131e4ec9e6a886de54525bafbffd4296",
+    "observed_utc": "2026-11-10T00:55:48.366720+00:00",
+    "old_once_or_fit_invocations": 0,
+    "preregistration_commit": "7f2f3ea241138cd5ab67eaf97ae0450cc85aa6fe",
+    "private_full8_index_sha256": "f19935c3e63878bcc74bd1f4ae517c0e642839972c12845db5cbcbd75e00a64a",
+    "source_hashes_sha256": "c511a3cebc5db8cad108c6d565ee4263d9e7612ce30e20a30ce2322ad84c6e39",
+    "state": "exact_remote_code_manifest_and_private_all8_blind_inference_released_for_single_whole_cohort_score"
+  },
+  "stage_costs": {
+    "CPU_definition": "differences of monotonically cumulative raw ledger CPU; includes controller/guards, excludes separately charged archives; never sum cumulative totals",
+    "rows": [
+      {
+        "CPU_increment_including_controller": 4041.911115561,
+        "cumulative": {
+          "CPU": 4041.911115561,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "resource_stop": null,
+          "wall": 4034.4041776859667
+        },
+        "held": 1,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4032.3615577589953
+      },
+      {
+        "CPU_increment_including_controller": 4011.426234957001,
+        "cumulative": {
+          "CPU": 8053.337350518001,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "resource_stop": null,
+          "wall": 8038.683219858969
+        },
+        "held": 1,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4004.2805999320117
+      },
+      {
+        "CPU_increment_including_controller": 57.33877738399951,
+        "cumulative": {
+          "CPU": 8110.676127902,
+          "exit_code": 0,
+          "external_CPU": 0,
+          "resource_stop": null,
+          "wall": 8096.400224443001
+        },
+        "held": 1,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 57.717604516015854
+      },
+      {
+        "CPU_increment_including_controller": 4073.5704281509998,
+        "cumulative": {
+          "CPU": 12184.246556053,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "resource_stop": null,
+          "wall": 13540.071607744962
+        },
+        "held": 2,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4063.168987818004
+      },
+      {
+        "CPU_increment_including_controller": 4072.555765469,
+        "cumulative": {
+          "CPU": 16256.802321522,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "resource_stop": null,
+          "wall": 17604.354860877967
+        },
+        "held": 2,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4064.282240950968
+      },
+      {
+        "CPU_increment_including_controller": 58.98804948800171,
+        "cumulative": {
+          "CPU": 16315.790371010002,
+          "exit_code": 0,
+          "external_CPU": 51.848120949,
+          "resource_stop": null,
+          "wall": 17663.613632338005
+        },
+        "held": 2,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 59.26101241103606
+      },
+      {
+        "CPU_increment_including_controller": 4004.766005670999,
+        "cumulative": {
+          "CPU": 20320.556376681,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "resource_stop": null,
+          "wall": 23015.719699179986
+        },
+        "held": 3,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 3993.167079253006
+      },
+      {
+        "CPU_increment_including_controller": 4002.850056764997,
+        "cumulative": {
+          "CPU": 24323.406433445998,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "resource_stop": null,
+          "wall": 27009.439178096014
+        },
+        "held": 3,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 3993.7165581690497
+      },
+      {
+        "CPU_increment_including_controller": 59.376230393001606,
+        "cumulative": {
+          "CPU": 24382.782663839,
+          "exit_code": 0,
+          "external_CPU": 103.372421906,
+          "resource_stop": null,
+          "wall": 27068.694369395962
+        },
+        "held": 3,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 59.25174946896732
+      },
+      {
+        "CPU_increment_including_controller": 3941.3519426509993,
+        "cumulative": {
+          "CPU": 28324.13460649,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "resource_stop": null,
+          "wall": 31594.082079998974
+        },
+        "held": 4,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 3929.689460071968
+      },
+      {
+        "CPU_increment_including_controller": 3884.8166518310027,
+        "cumulative": {
+          "CPU": 32208.951258321,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "resource_stop": null,
+          "wall": 35470.30788854498
+        },
+        "held": 4,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 3876.225268617971
+      },
+      {
+        "CPU_increment_including_controller": 57.295012523998594,
+        "cumulative": {
+          "CPU": 32266.246270845,
+          "exit_code": 0,
+          "external_CPU": 155.151896902,
+          "resource_stop": null,
+          "wall": 35527.55185377499
+        },
+        "held": 4,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 57.24923384800786
+      },
+      {
+        "CPU_increment_including_controller": 4042.0348827289963,
+        "cumulative": {
+          "CPU": 36308.281153574,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "resource_stop": null,
+          "wall": 40544.431617291004
+        },
+        "held": 5,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4029.868997364014
+      },
+      {
+        "CPU_increment_including_controller": 4013.9327817830053,
+        "cumulative": {
+          "CPU": 40322.213935357,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "resource_stop": null,
+          "wall": 44548.814928053005
+        },
+        "held": 5,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4004.38230812602
+      },
+      {
+        "CPU_increment_including_controller": 58.81816573999822,
+        "cumulative": {
+          "CPU": 40381.032101097,
+          "exit_code": 0,
+          "external_CPU": 206.424723062,
+          "resource_stop": null,
+          "wall": 44607.58063499996
+        },
+        "held": 5,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 58.76801507297205
+      },
+      {
+        "CPU_increment_including_controller": 4150.671871345003,
+        "cumulative": {
+          "CPU": 44531.703972442,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "resource_stop": null,
+          "wall": 53498.071256553
+        },
+        "held": 6,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4137.128636626003
+      },
+      {
+        "CPU_increment_including_controller": 4206.267387861997,
+        "cumulative": {
+          "CPU": 48737.971360304,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "resource_stop": null,
+          "wall": 57693.35924207198
+        },
+        "held": 6,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4195.28662214498
+      },
+      {
+        "CPU_increment_including_controller": 61.18096042599791,
+        "cumulative": {
+          "CPU": 48799.15232073,
+          "exit_code": 0,
+          "external_CPU": 257.567874061,
+          "resource_stop": null,
+          "wall": 57754.660667032
+        },
+        "held": 6,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 61.298047105025034
+      },
+      {
+        "CPU_increment_including_controller": 4127.25101777901,
+        "cumulative": {
+          "CPU": 52926.40333850901,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "resource_stop": null,
+          "wall": 64322.08595614199
+        },
+        "held": 7,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 4112.983336215024
+      },
+      {
+        "CPU_increment_including_controller": 4035.7853785409898,
+        "cumulative": {
+          "CPU": 56962.18871705,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "resource_stop": null,
+          "wall": 68346.82526252896
+        },
+        "held": 7,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 4024.742642601952
+      },
+      {
+        "CPU_increment_including_controller": 62.65723819300183,
+        "cumulative": {
+          "CPU": 57024.845955243,
+          "exit_code": 0,
+          "external_CPU": 309.417291646,
+          "resource_stop": null,
+          "wall": 68409.62310007401
+        },
+        "held": 7,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 62.800480147008784
+      },
+      {
+        "CPU_increment_including_controller": 3995.4209198009994,
+        "cumulative": {
+          "CPU": 61020.266875044,
+          "exit_code": 0,
+          "external_CPU": 361.375675746,
+          "resource_stop": null,
+          "wall": 74724.88713532401
+        },
+        "held": 8,
+        "stage": "train",
+        "worker_birth_to_wait_end_wall_seconds": 3981.57451539702
+      },
+      {
+        "CPU_increment_including_controller": 3856.9723229989977,
+        "cumulative": {
+          "CPU": 64877.239198043,
+          "exit_code": 0,
+          "external_CPU": 361.375675746,
+          "resource_stop": null,
+          "wall": 78571.707964689
+        },
+        "held": 8,
+        "stage": "replay",
+        "worker_birth_to_wait_end_wall_seconds": 3846.825344762008
+      },
+      {
+        "CPU_increment_including_controller": 56.12874440899759,
+        "cumulative": {
+          "CPU": 64933.367942451994,
+          "exit_code": 0,
+          "external_CPU": 361.375675746,
+          "resource_stop": null,
+          "wall": 78627.96498671896
+        },
+        "held": 8,
+        "stage": "output_audit",
+        "worker_birth_to_wait_end_wall_seconds": 56.262366791954264
+      }
+    ],
+    "totals_by_stage": {
+      "output_audit": {
+        "CPU_seconds": 471.783178556997,
+        "wall_seconds": 472.6085093609872
+      },
+      "replay": {
+        "CPU_seconds": 32084.60658020699,
+        "wall_seconds": 32009.74158530496
+      },
+      "train": {
+        "CPU_seconds": 32376.978183688007,
+        "wall_seconds": 32279.942570504034
+      }
+    },
+    "wall_definition": "same-boot kernel startticks/HZ to controller waited end; includes loading/training/validation/checkpoint/output/sourceBN where applicable, up to one kernel tick and polling latency; excludes interfold idle wall"
+  },
+  "state": "complete_exploratory_prospective_full8_native64_fixed_dense_tail33_64_sourceBN",
+  "users7_8_labels_used_for_new_method_selection": false,
+  "users7_8_truth_used_in_fixed_outer_train_validation_and_final_reporting": true
+}

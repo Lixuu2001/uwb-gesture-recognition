@@ -1,0 +1,51 @@
+[
+  {
+    "id": "generated",
+    "CPU_seconds": 0.318753404,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/GENERATED_COST.json",
+    "receipt_sha256": "a241124e7031da7fff7cf3105d64c835decd9dbe57b1930ff8f6d2cbdb856156",
+    "kind": "measured_waited_process_family"
+  },
+  {
+    "id": "prepare",
+    "CPU_seconds": 3.8552345949999998,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/PREPARE_COST.json",
+    "receipt_sha256": "96c6b39888813f206a1e739e245991dec1c99e08c83d1c5c609639233a7061a3",
+    "kind": "measured_waited_process_family"
+  },
+  {
+    "id": "post-helper-allowance",
+    "CPU_seconds": 60,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/POST_PROTOCOL.json",
+    "receipt_sha256": "b6d159d0bbbff015eeeeef7176431d706f45c226362ebcca218e8e157e4ed758",
+    "kind": "budget_charge_not_CPU_measurement"
+  },
+  {
+    "id": "blind-inference",
+    "CPU_seconds": 82.224117406,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/INFERENCE_PROCESS_COST.json",
+    "receipt_sha256": "8be605cec4bb506229b0654e5fca23e9e49582b69486adce52904e2cc0026855",
+    "kind": "measured_waited_process_family"
+  },
+  {
+    "id": "score-once",
+    "CPU_seconds": 4.092324481,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/SCORING_PROCESS_COST.json",
+    "receipt_sha256": "47d73a47e84476308a0e37ac646290b1cc901d468ff27e963651e11dfed8baf6",
+    "kind": "measured_waited_process_family"
+  },
+  {
+    "id": "terminal_build",
+    "CPU_seconds": 0.393205912,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/TERMINAL_BUILD_COST.json",
+    "receipt_sha256": "004268a66d34b2520dca2b4d4baefdac1374a7dd491374d2e747640be74756c2",
+    "kind": "measured_waited_process_family"
+  },
+  {
+    "id": "terminal_verify",
+    "CPU_seconds": 2.7519344240000003,
+    "receipt": "/workspace/uwb-tail-outer8-production-20261109/finalization/TERMINAL_VERIFY_COST.json",
+    "receipt_sha256": "938f57fe81d50220588ec9836a26e3e11129ddcdbfb7cefcceee5da16c915d84",
+    "kind": "measured_waited_process_family"
+  }
+]

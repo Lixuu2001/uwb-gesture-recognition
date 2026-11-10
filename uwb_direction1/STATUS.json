@@ -3,7 +3,7 @@
   "timezone_client": "Asia/Shanghai",
   "repository": "Lixuu2001/uwb-gesture-recognition",
   "branch": "codex/uwb-direction1-cloud-20260930",
-  "state": "prospective_tail_outer8_all8_prod64_fresh64_audits_private2512_complete_blind24_verified_once_score_code_preregistered_unscored",
+  "state": "prospective_tail_outer8_complete_once_score_accuracy_gate_passed_exploratory_private_terminal_verified_new_fits_paused",
   "original_source_remote_commit": "c735e9454ba3d5168d931eb0158f2bb0fcf12808",
   "original_source_manifest_file_count": 789,
   "original_source_accessible_on_github": true,
@@ -28,11 +28,11 @@
   "novel_research_contribution_validated": false,
   "cloud_data_path": "/workspace/uwb-restored-20261103",
   "cloud_original_source_path": "/workspace/uwb-cloud-current/uwb_direction1/original/project",
-  "compute": "Main terminal78627.968137wall/rawCPU64933.369957; external archive412.439121CPU once; post generated/prepare/blind inference measured separately plus60s operator allowance. Same129600s origin/caps; current resource observation retained; history unchanged.",
+  "compute": "Full8 raw workers/controller64933.369957CPU + archive measured108.439121 + post measured93.635570 =65135.444648measured localCPU s. Helper allowances364s separate;budget65499.444648CPU s. Wholewall83580.972993s at accounting,129600s origin/caps unchanged; historical/preparation/MMDpilot costs retained.",
   "cloud_continuation_automation_enabled": true,
   "cloud_continuation_frequency": "hourly",
   "direct_dot_handoff": false,
-  "latest_report": "results/cloud_20261109_tail_outer8_production_all8_private_score_prereg_20261110/RUN_REPORT.md",
+  "latest_report": "results/cloud_20261109_tail_outer8_production_all8_scored_positive_private_complete_20261110/RUN_REPORT.md",
   "latest_test_joint_kernel": [
     0.9380795454545455,
     0.9377121212121213
@@ -61,9 +61,9 @@
   "signal_estimated_queue_hours": 6.3152701061,
   "signal_prepared_path": "/workspace/uwb-circular-prepared-20260930",
   "signal_results_path": "/workspace/uwb-circular-runs-20260930",
-  "background_training_observed_unix": 1794272069.1918042,
+  "background_training_observed_unix": 1794272490.943695,
   "background_training_pid": null,
-  "background_training_status_note": "All8 production64/fresh64/outputaudits complete,224frozen refs;144owner-only raw chunks/2512payload verified. All24 saved test outputs bitwise recomputed without truth values. Isolated full8 score code/metric/generated checks and source/manifest fixed before first once score. SUMMARY/lock absent; no new training.",
+  "background_training_status_note": "Full8 once score complete: native mean accuracy96.447348%→tail97.284470%,+0.837121pp;6wins1tie1loss;worstpaired−0.25pp;predeclared gate passed. Worst-user accuracy91.3333→91.0833 retained. All8 models/audits/private recovery+terminal37payload verified, SUMMARY immutable/once consumed. Positive exploratory efficacy evidence; originality/independent-new-user validation unproven. New fits/search paused; existing hourly task enabled/cloud unchanged.",
   "signal_protocol_commit": "d9f80720f46f83e61c3b2da68dedbdd3d422f6f7",
   "signal_protocol_sha256": "3c5b74ea244899c53677f397995bb50d25daa268d94f846400696e59b4d71476",
   "signal_checkpoint_observed": {
@@ -133,7 +133,7 @@
   "moment_guided_private_backup_file_id": "101EUg3JZQ6dfT_zh5lVOK6H_MUha9xlb",
   "moment_guided_private_backup_verified": true,
   "moment_guided_private_backup_sha256": "e6e05f1c00051533cfc87d52d721adfb9d96201affdc9b5a4de32556c083814d",
-  "next_candidate": "Exactremote readback of all8 private/code/manifest then bound SCORING_RELEASE, one whole8 score, terminal private backup/report. No partial score, held9, retune or repeat.",
+  "next_candidate": "Predeclared full8 efficacy target passed; pause new training/parameter or seed searches and repeated scoring. Retain complete exploratory results, private recovery and explicit limitations; no automatic new method from outer-test feedback.",
   "last_completed_update_utc": "2026-11-09T03:01:22.887556+00:00",
   "latest_environment_preflight": {
     "observed_at_utc": "2026-11-02T11:06:42.648917+00:00",
@@ -18384,6 +18384,33 @@
   "score_code_preregistered_before_first_score": true,
   "held_scores_computed": 0,
   "all8_scored": false,
+  "automation_changed": false
+}
+,
+  "tail_outer8_production_all8_scored_positive_private_complete_20261110_20261109": {
+  "report": "results/cloud_20261109_tail_outer8_production_all8_scored_positive_private_complete_20261110/RUN_REPORT.md",
+  "method": "prospective_native_fixed_dense_tail_epochs33_64_sourceBN_matched_outer8",
+  "original_contribution_validated": false,
+  "independent_validation": false,
+  "users7_8_labels_used_for_method_selection": false,
+  "source_commit": "9703b6c477068f25d0ef11e4f2d7372f10d4ec9a",
+  "all8_complete": true,
+  "all8_scored": true,
+  "finalizer_invocations": 1,
+  "summary_sha256": "2424233934f526e690dc3480a49ee2cfe613b69b04ccfd2d783edceea9287a5a",
+  "baseline_equal_user_accuracy": 0.9644734848484848,
+  "method_equal_user_accuracy": 0.972844696969697,
+  "mean_accuracy_gain": 0.008371212121212127,
+  "strict_accuracy_wins": 6,
+  "accuracy_ties": 1,
+  "accuracy_losses": 1,
+  "worst_paired_accuracy_delta": -0.0024999999999999467,
+  "accuracy_spending_gate_passed": true,
+  "worst_user_accuracy_decreased": true,
+  "full_private_model_and_terminal_recovery_verified": true,
+  "new_training_paused": true,
+  "originality_proven": false,
+  "historical_all8_exploratory": true,
   "automation_changed": false
 }
 }

@@ -1,0 +1,160 @@
+[
+  {
+    "name": "MMD",
+    "summary_sha256": "b289658990da1aec3f687bf4041204e9635cecaab745a67a760a0e06a4ab1527",
+    "main_phase": {
+      "completed_folds": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cpu": 25871.707664422996,
+      "diagnostic_labels_read": false,
+      "reused_fold": 1,
+      "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+      "wall": 25842.86576866801
+    },
+    "original_result_state": {
+      "finalizer_consumed": true,
+      "no_automatic_test_feedback_or_new_fits": true,
+      "state": "close_exact_MMD_LOSO6_gamma1_sevenGaussian_nativeGAP64_seed20261029_no_rescue",
+      "summary_sha256": "b289658990da1aec3f687bf4041204e9635cecaab745a67a760a0e06a4ab1527"
+    },
+    "historical_result_unchanged": true,
+    "reused_firstfold_cost": {
+      "cpu": 5019.332418999999,
+      "wall": 5022.569200421014
+    },
+    "main_plus_prior_firstfold": {
+      "wall": 30865.434969089023,
+      "CPU": 30891.040083422995
+    }
+  },
+  {
+    "name": "VREx",
+    "summary_sha256": "203269d7313bd58ab98430ce04047226494430cc0e6dfc9e574b97726b93f527",
+    "main_phase": {
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cpu": 31189.589142517,
+      "diagnostic_labels_read": false,
+      "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+      "wall": 31157.163366941997
+    },
+    "original_result_state": {
+      "finalizer_consumed": true,
+      "no_automatic_test_feedback_or_new_fits": true,
+      "state": "close_exact_VREx_LOSO6_lambda10_anneal500_nativeGAP64_seed20261029_no_rescue",
+      "summary_sha256": "203269d7313bd58ab98430ce04047226494430cc0e6dfc9e574b97726b93f527"
+    },
+    "historical_result_unchanged": true
+  },
+  {
+    "name": "Fishr",
+    "summary_sha256": "d7e4a3778ff49160c0b577c284e5047938c44667c676b4866ab7ac2819f7313c",
+    "main_phase": {
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cpu": 29599.386025808,
+      "diagnostic_labels_read": false,
+      "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+      "wall": 29559.94331930898
+    },
+    "original_result_state": {
+      "finalizer_consumed": true,
+      "no_automatic_test_feedback_or_new_fits": true,
+      "state": "close_exact_Fishr_LOSO6_lambda1000_ema0p95_anneal1500_nativeGAP64_seed20261029_no_rescue",
+      "summary_sha256": "d7e4a3778ff49160c0b577c284e5047938c44667c676b4866ab7ac2819f7313c"
+    },
+    "historical_result_unchanged": true
+  },
+  {
+    "name": "IRM",
+    "summary_sha256": "966a2c2a1720bea42ed7e6548812f069ed69da5018a3c15dc48f938e1c4f9b46",
+    "main_phase": {
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cpu": 29548.175221702,
+      "diagnostic_labels_read": false,
+      "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+      "wall": 29509.953316993022
+    },
+    "original_result_state": {
+      "finalizer_consumed": true,
+      "no_automatic_test_feedback_or_new_fits": true,
+      "state": "close_exact_IRM_LOSO6_lambda100_warmup1_anneal500_nativeGAP64_seed20261029_no_rescue",
+      "summary_sha256": "966a2c2a1720bea42ed7e6548812f069ed69da5018a3c15dc48f938e1c4f9b46"
+    },
+    "historical_result_unchanged": true
+  },
+  {
+    "name": "GroupDRO",
+    "summary_sha256": "bfbde8b812c1eb01bad4d7686d222146d37af7ddcd2f1bd52de4c38b5f2a16e4",
+    "main_phase": {
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cpu": 29595.509859692,
+      "diagnostic_labels_read": false,
+      "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+      "wall": 29556.896173048997
+    },
+    "original_result_state": {
+      "finalizer_consumed": true,
+      "no_automatic_test_feedback_or_new_fits": true,
+      "state": "close_exact_GroupDRO_LOSO6_eta0p01_nativeGAP64_seed20261029_no_rescue",
+      "summary_sha256": "bfbde8b812c1eb01bad4d7686d222146d37af7ddcd2f1bd52de4c38b5f2a16e4"
+    },
+    "historical_result_unchanged": true
+  },
+  {
+    "name": "SWAD",
+    "summary_sha256": "09b3b0f3bac0280e4b4e6e295b336febf311d06e399303ddcac3793587b950f3",
+    "main_phase": {
+      "completed_folds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cpu": 33121.968106183005,
+      "diagnostic_labels_read": false,
+      "state": "all_six_method_folds_frozen_unscored_requires_complete_private_backup_before_cohort_once",
+      "wall": 33083.825232948
+    },
+    "original_result_state": {
+      "finalizer_consumed": true,
+      "no_automatic_test_feedback_or_new_fits": true,
+      "state": "close_exact_SWAD_LOSO6_default3_6_0p3_sourceBN_nativeGAP64_seed20261029_no_rescue",
+      "summary_sha256": "09b3b0f3bac0280e4b4e6e295b336febf311d06e399303ddcac3793587b950f3"
+    },
+    "historical_result_unchanged": true
+  }
+]
